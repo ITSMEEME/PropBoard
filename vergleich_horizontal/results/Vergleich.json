@@ -1,0 +1,20 @@
+{
+  "scope": "2D straight sections only; no complete 3D horizontal loop comparison",
+  "last_five_passages_Cz": {
+    "single_c16": 0.05953231885478064,
+    "stack_240_c16": 0.22024864748380713,
+    "stack_360_c16": 0.15689047555104094,
+    "stack_240_c24": 0.25588217136635283
+  },
+  "stack_240_vs_two_independent_rows_ratio": 1.849824193990055,
+  "stack_360_vs_two_independent_rows_ratio": 1.3176916217034111,
+  "relative_grid_difference_stack_240": 0.13925754847346636,
+  "relative_last_blocks_change": {
+    "single_c16": 0.2584553729132204,
+    "stack_240_c16": 0.0720751204684343,
+    "stack_360_c16": 0.11397260776507027,
+    "stack_240_c24": 0.0727145260539004
+  },
+  "design_validated": false,
+  "real_air_3d_cfd": false
+}

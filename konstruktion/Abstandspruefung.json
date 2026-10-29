@@ -1,0 +1,49 @@
+{
+  "checks": {
+    "Akku_zu_CFK_Traegern": {
+      "minimum_distance_mm": 5.0,
+      "pair": [
+        "Akku_Modulhuelle",
+        "Quertraeger_0"
+      ],
+      "pairs_checked": 10,
+      "strictly_positive_clearance": true
+    },
+    "Akku_zu_Kabelraeumen": {
+      "minimum_distance_mm": 34.0,
+      "pair": [
+        "Akku_Modulhuelle",
+        "HV_Kabelraum"
+      ],
+      "pairs_checked": 8,
+      "strictly_positive_clearance": true
+    },
+    "Fluegel_zu_Kabelraeumen": {
+      "minimum_distance_mm": 125.74204947703069,
+      "pair": [
+        "Fluegel_1_1_Fluegel_Huelle",
+        "LV_Datenraum001"
+      ],
+      "pairs_checked": 64,
+      "strictly_positive_clearance": true
+    },
+    "Fluegel_zu_statischen_C_Profilen": {
+      "minimum_distance_mm": 9.060343952555755,
+      "pair": [
+        "Fluegel_0_6_Fluegel_Huelle",
+        "C_Flansch003"
+      ],
+      "pairs_checked": 192,
+      "strictly_positive_clearance": true
+    }
+  },
+  "scope": "Nur gespeicherte Hauptbaugruppe. Keine kontinuierliche Kollisions-, Verformungs-, Luftspalt- oder EM-Pruefung.",
+  "intended_overlaps": [
+    "Knoten-Referenzhuellen",
+    "Wicklungsraeume in Statortraegern ohne fertig ausgearbeitete Taschen",
+    "Scheiben-/Schellen-Halteraeume",
+    "CFK-Wurzelanschluesse"
+  ],
+  "mass_budget_closed": false,
+  "manufacturing_release": false
+}

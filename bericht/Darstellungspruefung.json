@@ -1,0 +1,19 @@
+{
+  "webgl": [
+    {
+      "webgl": true,
+      "error": 0,
+      "width": 650,
+      "height": 440
+    },
+    {
+      "webgl": true,
+      "error": 0,
+      "width": 650,
+      "height": 440
+    }
+  ],
+  "rotation_changes_image": true,
+  "page_errors": [],
+  "report_images_loaded": 6
+}

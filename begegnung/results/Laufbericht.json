@@ -1,0 +1,28 @@
+{
+  "scope": "2D local straight periodic opposed rows, Re=40, NOT real-scale 3D",
+  "steps": 48000,
+  "chord_cells": 24,
+  "gap_m": 0.24,
+  "gap_over_chord": 2.0,
+  "grid": [
+    96,
+    360
+  ],
+  "frames": 121,
+  "snapshot_passages": [
+    18,
+    20
+  ],
+  "pitch_deg": 12,
+  "rho_range": [
+    0.9972242352481331,
+    1.0022141909434803
+  ],
+  "max_lattice_speed": 0.04169590003327315,
+  "per_row_force_assignment": "By z half-plane; only valid here because separate rows stay at z=+/-0.12 m",
+  "Cz_total_last5": 0.2558821713663526,
+  "previous_run_Cz_total_last5": 0.25588217136635283,
+  "absolute_reproduction_difference": 2.220446049250313e-16,
+  "elapsed_s": 156.97766995429993,
+  "not_periodically_converged": true
+}

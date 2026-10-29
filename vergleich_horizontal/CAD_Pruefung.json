@@ -1,0 +1,12 @@
+{
+  "saved_reopened": true,
+  "wings": 16,
+  "snapshot_bounds_mm": [
+    2056.0,
+    1564.0,
+    422.4747014490656
+  ],
+  "wing_intersections_snapshot": [],
+  "continuous_collision_check": false,
+  "flight_or_magnetic_validation": false
+}

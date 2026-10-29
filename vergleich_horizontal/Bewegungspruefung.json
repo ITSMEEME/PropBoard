@@ -1,0 +1,6 @@
+{
+  "sampled_phases": 360,
+  "footprint_overlap_candidates": [],
+  "minimum_separating_axis_gap_m": 0.0416434648432136,
+  "scope": "Conservative wing footprint test per level, both directions cover identical phases. No bearing or structural validation."
+}

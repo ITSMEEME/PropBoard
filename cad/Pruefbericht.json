@@ -1,0 +1,30 @@
+{
+  "Hexacopter_650_Konzept": {
+    "saved_and_reopened": true,
+    "valid_shapes": 46,
+    "outer_mm": [
+      2060,
+      1690,
+      320
+    ],
+    "rotor_parameter_change_and_reset": true,
+    "packs": 0,
+    "pack_clearances_checked": false
+  },
+  "Hexacopter_Tattu41000_8Packs": {
+    "saved_and_reopened": true,
+    "valid_shapes": 55,
+    "outer_mm": [
+      2060,
+      1690,
+      320
+    ],
+    "rotor_parameter_change_and_reset": true,
+    "packs": 8,
+    "pack_clearances_checked": true
+  },
+  "Tmotor_X605_Bauraum": {
+    "saved_and_reopened": true,
+    "valid_shapes": 3
+  }
+}

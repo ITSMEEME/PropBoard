@@ -1,0 +1,34 @@
+{
+  "name": "rest_control",
+  "method": "2D D2Q9 BGK moving bounce-back, one module, artificial low-Re viscosity",
+  "not_flight_scale": true,
+  "Re_chord": 40,
+  "chord_cells": 16,
+  "domain_cells": [
+    392,
+    200
+  ],
+  "steps_completed": 248,
+  "cycles": 0.02,
+  "direction": 1,
+  "pitch_amplitude_deg": 12,
+  "tau": 0.548,
+  "lattice_speed": 0.04,
+  "rho_range": [
+    0.9999999999999799,
+    1.0000000000000007
+  ],
+  "max_lattice_speed": 4.7016126874997896e-15,
+  "elapsed_s": 4.740408420562744,
+  "cycle_means": [],
+  "coefficient_reference": "0.5*rho*U^2*8*chord per unit span; moment also divided by chord",
+  "power_warning": "wall_power_proxy omits uncovered-cell work; not shaft/electrical power",
+  "limitations": [
+    "2D infinite span",
+    "Re=40 differs strongly from real air",
+    "coarse moving boundary",
+    "no magnets, rails, deck, rider or module interaction",
+    "damped periodic outer boundaries",
+    "prescribed motion, no structural dynamics"
+  ]
+}

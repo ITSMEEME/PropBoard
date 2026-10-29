@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:freecad="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace" width="420mm" height="297mm" viewBox="0 0 420 297">
+<rect x="10" y="10" width="400" height="277" fill="none" stroke="black" stroke-width="0.4"/>
+<text x="18" y="23" font-size="5" font-family="sans-serif">VORENTWURF - NICHT ZUR FERTIGUNG FREIGEGEBEN</text>
+<text x="250" y="55" font-size="5">BAT-BUEGEL</text>
+<text x="250" y="70" font-size="3.2">12 x 160 x 5 mm; 2 x D6.6</text>
+<text x="250" y="97" font-size="3.2">Lochmitten: (6,5), (6,155) ab links/unten</text>
+<text x="250" y="124" font-size="3.2">Nur Rueckhaltegeometrie; schmale</text>
+<text x="250" y="130" font-size="3.2">Randabstaende nicht lastvalidiert</text>
+<text x="250" y="151" font-size="3.2">Verriegelung, Stosslast und Schraubverbindung</text>
+<text x="250" y="157" font-size="3.2">neu auslegen</text>
+<path d="M10 252 H410 M230 252 V287" stroke="black" fill="none" stroke-width="0.3"/>
+<text x="18" y="265" font-size="5">PropBoard - BAT-BUEGEL</text>
+<text x="18" y="277" font-size="3.5">Alle Masse mm. Werkstoff-/Toleranz-/Lastfreigabe fehlt.</text>
+<text x="240" y="266" font-size="3.5">Referenzansicht; Massstab 1.25:1</text>
+<text x="240" y="278" font-size="3.5">Keine Gewinde oder Passungen freigegeben.</text>
+</svg>

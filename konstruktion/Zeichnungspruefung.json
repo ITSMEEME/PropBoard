@@ -1,0 +1,34 @@
+[
+  {
+    "id": "KNOTEN-P01",
+    "native_page": "Blatt_KNOTEN_P01",
+    "view": "Ansicht_KNOTEN_P01",
+    "source": "01_CFK_Rahmen.FCStd: Klemmplatte_Schnitt3",
+    "projected_svg_bytes": 469,
+    "manufacturing_release": false
+  },
+  {
+    "id": "SCHL-01",
+    "native_page": "Blatt_SCHL_01",
+    "view": "Ansicht_SCHL_01",
+    "source": "02_Fuehrung_Antrieb_Detail.FCStd: Schlitten_Traeger",
+    "projected_svg_bytes": 357,
+    "manufacturing_release": false
+  },
+  {
+    "id": "ERG-ST-P01",
+    "native_page": "Blatt_ERG_ST_P01",
+    "view": "Ansicht_ERG_ST_P01",
+    "source": "00_PropBoard_Detail_Stehen.FCStd: Fussauflage_Adapter_Schnitt3",
+    "projected_svg_bytes": 481,
+    "manufacturing_release": false
+  },
+  {
+    "id": "BAT-BUEGEL",
+    "native_page": "Blatt_BAT_BUEGEL",
+    "view": "Ansicht_BAT_BUEGEL",
+    "source": "03_Batterie_Kabel.FCStd: Modul_Rueckhaltebuegel_Schnitt1",
+    "projected_svg_bytes": 382,
+    "manufacturing_release": false
+  }
+]

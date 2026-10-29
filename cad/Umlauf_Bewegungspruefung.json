@@ -1,0 +1,16 @@
+{
+  "sampled_phases": 360,
+  "directions": [
+    -1,
+    1
+  ],
+  "min_wing_centre_distance_m": 0.3464418233324492,
+  "bounding_circle_clearance_m": 0.22558091153711318,
+  "moving_wing_xz_bounds_m": [
+    -0.8904067665027975,
+    0.8904067665027975,
+    -0.240430455897668,
+    0.240430455897668
+  ],
+  "note": "Sampled conservative wing clearance only; no structural, bearing or rail-clearance validation"
+}

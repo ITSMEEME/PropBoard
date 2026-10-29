@@ -1,0 +1,74 @@
+{
+  "01_CFK_Rahmen": {
+    "valid_result_shapes": 114,
+    "vehicle_bounds_mm": [
+      1200.0,
+      1664.0,
+      546.0
+    ],
+    "within_2100_1700_600": true,
+    "pilot_excluded_from_vehicle_bounds": true,
+    "manufacturing_release": false,
+    "saved_reopened": true
+  },
+  "02_Fuehrung_Antrieb_Detail": {
+    "valid_result_shapes": 62,
+    "vehicle_bounds_mm": [
+      240.0,
+      672.0,
+      69.0
+    ],
+    "within_2100_1700_600": true,
+    "pilot_excluded_from_vehicle_bounds": true,
+    "manufacturing_release": false,
+    "saved_reopened": true
+  },
+  "03_Batterie_Kabel": {
+    "valid_result_shapes": 25,
+    "vehicle_bounds_mm": [
+      1100.0,
+      1698.0,
+      375.0
+    ],
+    "within_2100_1700_600": true,
+    "pilot_excluded_from_vehicle_bounds": true,
+    "manufacturing_release": false,
+    "saved_reopened": true
+  },
+  "00_PropBoard_Detail_Stehen": {
+    "valid_result_shapes": 712,
+    "vehicle_bounds_mm": [
+      2080.0,
+      1698.0,
+      558.0
+    ],
+    "within_2100_1700_600": true,
+    "pilot_excluded_from_vehicle_bounds": true,
+    "manufacturing_release": false,
+    "saved_reopened": true
+  },
+  "04_Ergonomie_Sitzen": {
+    "valid_result_shapes": 158,
+    "vehicle_bounds_mm": [
+      2072.0,
+      1664.0,
+      595.0
+    ],
+    "within_2100_1700_600": true,
+    "pilot_excluded_from_vehicle_bounds": true,
+    "manufacturing_release": false,
+    "saved_reopened": true
+  },
+  "04_Ergonomie_Liegen": {
+    "valid_result_shapes": 155,
+    "vehicle_bounds_mm": [
+      2072.0,
+      1664.0,
+      598.0
+    ],
+    "within_2100_1700_600": true,
+    "pilot_excluded_from_vehicle_bounds": true,
+    "manufacturing_release": false,
+    "saved_reopened": true
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "scope": "Analytical illustrative conditions, no flight-scale CFD or closed mass model",
+  "rho_kg_m3": 1.225,
+  "nu_m2_s": 1.5e-05,
+  "g_m_s2": 9.80665,
+  "illustrative_legacy_mass_kg": 185.32,
+  "required_hover_force_N": 1817.368378,
+  "geometrical_wing_area_m2": 1.152,
+  "cases": [
+    {
+      "speed_m_s": 10,
+      "Re_chord": 80000.0,
+      "q_Pa": 61.25000000000001,
+      "CL_reference_required": 25.75635456349206,
+      "a_vertical_m_s2": 555.5555555555555,
+      "a_horizontal_m_s2": 222.22222222222223,
+      "a_vertical_g": 56.65090072099601,
+      "a_horizontal_g": 22.660360288398408,
+      "tangent_rotation_vertical_rad_s": 55.55555555555556,
+      "tangent_rotation_horizontal_rad_s": 22.22222222222222
+    },
+    {
+      "speed_m_s": 30,
+      "Re_chord": 239999.99999999997,
+      "q_Pa": 551.25,
+      "CL_reference_required": 2.8618171737213403,
+      "a_vertical_m_s2": 5000.0,
+      "a_horizontal_m_s2": 2000.0,
+      "a_vertical_g": 509.85810648896415,
+      "a_horizontal_g": 203.94324259558567,
+      "tangent_rotation_vertical_rad_s": 166.66666666666669,
+      "tangent_rotation_horizontal_rad_s": 66.66666666666667
+    },
+    {
+      "speed_m_s": 50,
+      "Re_chord": 400000.0,
+      "q_Pa": 1531.25,
+      "CL_reference_required": 1.0302541825396827,
+      "a_vertical_m_s2": 13888.888888888889,
+      "a_horizontal_m_s2": 5555.555555555556,
+      "a_vertical_g": 1416.2725180249004,
+      "a_horizontal_g": 566.5090072099601,
+      "tangent_rotation_vertical_rad_s": 277.77777777777777,
+      "tangent_rotation_horizontal_rad_s": 111.11111111111111
+    }
+  ],
+  "horizontal_curve": {
+    "inner_wing_radius_m": 0.15,
+    "centre_radius_m": 0.45,
+    "outer_wing_radius_m": 0.75,
+    "inner_tip_speed_ratio": 0.3333333333333333,
+    "outer_tip_speed_ratio": 1.6666666666666665,
+    "inner_guide_radius_m": 0.13,
+    "outer_guide_radius_m": 0.77,
+    "outer_inner_guide_speed_ratio_on_curve": 5.923076923076923
+  },
+  "forward_flight_m_s": 22.22222222222222,
+  "forward_flight_q_Pa": 302.46913580246917
+}

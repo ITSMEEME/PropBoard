@@ -1,0 +1,47 @@
+{
+  "name": "forward_c16",
+  "method": "2D D2Q9 BGK moving bounce-back, one module, artificial low-Re viscosity",
+  "not_flight_scale": true,
+  "Re_chord": 40,
+  "chord_cells": 16,
+  "domain_cells": [
+    392,
+    200
+  ],
+  "steps_completed": 24873,
+  "cycles": 2.0,
+  "direction": 1,
+  "pitch_amplitude_deg": 12,
+  "tau": 0.548,
+  "lattice_speed": 0.04,
+  "rho_range": [
+    0.9702427262946035,
+    1.0333333333333337
+  ],
+  "max_lattice_speed": 0.04959416083965342,
+  "elapsed_s": 217.81637477874756,
+  "cycle_means": [
+    {
+      "cycle": 1,
+      "Cx": 0.0012371276250544366,
+      "Cz": 0.19740568594892932,
+      "Cmoment": 1.4217014805989792
+    },
+    {
+      "cycle": 2,
+      "Cx": 0.0007175286313763059,
+      "Cz": 0.1590801063049348,
+      "Cmoment": 1.006554932150455
+    }
+  ],
+  "coefficient_reference": "0.5*rho*U^2*8*chord per unit span; moment also divided by chord",
+  "power_warning": "wall_power_proxy omits uncovered-cell work; not shaft/electrical power",
+  "limitations": [
+    "2D infinite span",
+    "Re=40 differs strongly from real air",
+    "coarse moving boundary",
+    "no magnets, rails, deck, rider or module interaction",
+    "damped periodic outer boundaries",
+    "prescribed motion, no structural dynamics"
+  ]
+}

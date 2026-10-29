@@ -1,0 +1,55 @@
+{
+  "case": "stack_240_c16",
+  "kind": "2D periodic straight section, artificial Re=40; NOT 3D loop",
+  "levels": 2,
+  "gap_m": 0.24,
+  "chord_cells": 16,
+  "grid": [
+    64,
+    240
+  ],
+  "steps_completed": 32000,
+  "passages": 20,
+  "Re": 40,
+  "spacing_m_actual": 0.48,
+  "spacing_m_requested": 0.4784291735288517,
+  "rho_range": [
+    0.9733333333333338,
+    1.0333333333333337
+  ],
+  "max_lattice_speed": 0.04712991923352041,
+  "block_means": [
+    {
+      "passages": [
+        0,
+        5
+      ],
+      "Cz_total": 0.5598072354197254
+    },
+    {
+      "passages": [
+        5,
+        10
+      ],
+      "Cz_total": 0.26987263912088816
+    },
+    {
+      "passages": [
+        10,
+        15
+      ],
+      "Cz_total": 0.23612309528421224
+    },
+    {
+      "passages": [
+        15,
+        20
+      ],
+      "Cz_total": 0.22024864748380713
+    }
+  ],
+  "force_reference": "0.5*rho*U^2*chord per unit span; SUM across all levels",
+  "elapsed_s": 218.61248898506165,
+  "flight_scale": false,
+  "full_loop_simulated": false
+}

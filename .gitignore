@@ -1,0 +1,7 @@
+.cfd-tools/
+__pycache__/
+*.FCBak
+*.FCStd1
+cfd/results/*.npz
+vergleich_horizontal/results/*.npz
+begegnung/results/*.npz

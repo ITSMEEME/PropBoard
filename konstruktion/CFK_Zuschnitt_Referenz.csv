@@ -1,0 +1,5 @@
+﻿ID,Anzahl_Hauptbaugruppe,Querschnitt_mm,Nennlaenge_mm,Bemerkung
+CFK-L01,2,40x40 Wand3,1200,"Laminat, Schnittzugabe, Endverstaerkung und Toleranz OFFEN"
+CFK-Q01,3,40x40 Wand3,1660,"Laminat, Schnittzugabe, Endverstaerkung und Toleranz OFFEN"
+CFK-S01,6,D30/d24,400,"Laminat, Schnittzugabe, Endverstaerkung und Toleranz OFFEN"
+CFK-S02,6,D16/d10,400,"Laminat, Schnittzugabe, Endverstaerkung und Toleranz OFFEN"

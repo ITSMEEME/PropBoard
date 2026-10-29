@@ -1,0 +1,19 @@
+{
+  "all_runs_completed": true,
+  "method_validated_for_design": false,
+  "flight_scale_simulation_completed": false,
+  "last_cycle_Cz": {
+    "forward_c12": 0.16689848718625422,
+    "forward_c16": 0.1590801063049348,
+    "reverse_c16": 0.1574612818336501,
+    "zero_pitch_c12": 0.005765965964424223
+  },
+  "relative_grid_difference_Cz": 0.049147445666981475,
+  "relative_cycle1_to_cycle2_change_forward_Cz": 0.19414628033515563,
+  "relative_direction_difference_Cz": 0.010176159099250485,
+  "moments_opposite_sign": true,
+  "sum_of_independent_module_Cmoment": -0.009687996848738667,
+  "rest_max_abs_force_coefficient": 9.475926987523309e-13,
+  "zero_pitch_abs_Cz_relative_to_active_coarse": 0.03454774253279816,
+  "conclusion": "Exploratory low-Re 2D results only. No thrust, mass, power or flight-time clearance."
+}

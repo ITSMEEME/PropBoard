@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:freecad="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace" width="420mm" height="297mm" viewBox="0 0 420 297">
+<rect x="10" y="10" width="400" height="277" fill="none" stroke="black" stroke-width="0.4"/>
+<text x="18" y="23" font-size="5" font-family="sans-serif">VORENTWURF - NICHT ZUR FERTIGUNG FREIGEGEBEN</text>
+<text x="250" y="55" font-size="5">SCHL-01</text>
+<text x="250" y="70" font-size="3.2">70 x 20 x 28 mm; Querbohrung D24.4</text>
+<text x="250" y="97" font-size="3.2">Bohrungsmitte 35 / 14 mm in Frontansicht</text>
+<text x="250" y="124" font-size="3.2">Kleinste nominelle Restwand oben/unten: 1.8</text>
+<text x="250" y="130" font-size="3.2">mm</text>
+<text x="250" y="151" font-size="3.2">Nicht festigkeitsvalidiert; Passung und</text>
+<text x="250" y="157" font-size="3.2">Mindestwand neu auslegen</text>
+<path d="M10 252 H410 M230 252 V287" stroke="black" fill="none" stroke-width="0.3"/>
+<text x="18" y="265" font-size="5">PropBoard - SCHL-01</text>
+<text x="18" y="277" font-size="3.5">Alle Masse mm. Werkstoff-/Toleranz-/Lastfreigabe fehlt.</text>
+<text x="240" y="266" font-size="3.5">Referenzansicht; Massstab 2:1</text>
+<text x="240" y="278" font-size="3.5">Keine Gewinde oder Passungen freigegeben.</text>
+<g transform="translate(120,142) scale(2)"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M -14 -35 L 14 -35 " />
+<path id= "2" d=" M 14 -35 L 14 35 " />
+<path id= "3" d=" M -14 -35 L -14 35 " />
+<path id= "4" d=" M -14 35 L 14 35 " />
+<circle cx ="6e-15" cy ="0" r ="12.2" /></g>
+</g></svg>
