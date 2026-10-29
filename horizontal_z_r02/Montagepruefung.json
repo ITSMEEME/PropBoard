@@ -1,0 +1,36 @@
+{
+  "reference_integrity": [],
+  "bolt_coverage": {
+    "Horizontal_Z_R02_Montage": {
+      "modeled_bolts": 1270,
+      "registered_bolts": 1270,
+      "unregistered": []
+    },
+    "Schlitten_R02_Detail": {
+      "modeled_bolts": 44,
+      "registered_bolts": 44,
+      "unregistered": []
+    }
+  },
+  "shapes": {
+    "Horizontal_Z_R02_Montage": {
+      "result_bodies": 3185,
+      "checked_representative_families": 85,
+      "invalid": [],
+      "multi_solid_results": []
+    },
+    "Schlitten_R02_Detail": {
+      "result_bodies": 102,
+      "checked_representative_families": 27,
+      "invalid": [],
+      "multi_solid_results": []
+    }
+  },
+  "intersections_sample": [],
+  "limits": [
+    "Geometriepruefung; kein Spannungs-, Ermuedungs-, Klemmkraft- oder Schraubenfestigkeitsnachweis.",
+    "Keine vollstaendige Kollisions- oder Bewegungspruefung; Stichprobe umfasst jede Verbindungsfamilie nach ID-Praefix, Durchmesser und Laenge; keine vollstaendige Kollisionspruefung.",
+    "Nenngewinde, keine wirklichen Gewindeflanken; Beruehrung ist kein Festigkeitsnachweis."
+  ],
+  "sample_connections": 21
+}

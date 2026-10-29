@@ -1,0 +1,25 @@
+{
+  "02_Schlitten_R02_Detail": {
+    "parts": 102,
+    "bounds_mm": [
+      128.0,
+      658.0,
+      60.0
+    ],
+    "manufacturing_release": false,
+    "flight_validation": false,
+    "source_revision": "R02"
+  },
+  "00_Horizontal_Z_R02_Montage": {
+    "parts": 3185,
+    "bounds_mm": [
+      2093.8140856719524,
+      1695.0,
+      573.0
+    ],
+    "manufacturing_release": false,
+    "flight_validation": false,
+    "source_revision": "R02"
+  },
+  "rail_C_segments": 56
+}

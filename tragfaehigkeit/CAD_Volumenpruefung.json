@@ -1,0 +1,7 @@
+{
+  "instances_checked": 712,
+  "max_rounding_difference_mm3": 0.0004759402945637703,
+  "tolerance_mm3": 0.002,
+  "inventory_matches_native_CAD": true,
+  "material_density_verified": false
+}

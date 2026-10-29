@@ -1,0 +1,3 @@
+02_Schlitten_R02_Detail {'parts': 102, 'bounds_mm': [128.0, 658.0, 60.0], 'manufacturing_release': False, 'flight_validation': False, 'source_revision': 'R02'}
+00_Horizontal_Z_R02_Montage {'parts': 3185, 'bounds_mm': [2093.8140856719524, 1695.0, 573.0], 'manufacturing_release': False, 'flight_validation': False, 'source_revision': 'R02'}
+R02 gespeichert/geoeffnet; C-Segmente 56 lokal registrierte Verbindungen 1314

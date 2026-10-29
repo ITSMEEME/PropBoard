@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:freecad="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace" width="420mm" height="297mm" viewBox="0 0 420 297">
+<rect x="10" y="10" width="400" height="277" fill="none" stroke="black" stroke-width="0.4"/>
+<text x="18" y="23" font-size="5" font-family="sans-serif">VORENTWURF - NICHT ZUR FERTIGUNG FREIGEGEBEN</text>
+<text x="250" y="55" font-size="5">R02-CTRL-CASE</text>
+<text x="250" y="70" font-size="3.2">45 x 22 x 6.5 mm; Boden 2 mm</text>
+<text x="250" y="97" font-size="3.2">Deckel 1.5 mm; 4 Schrauben M2x6</text>
+<text x="250" y="124" font-size="3.2">2 M2x8 im Boden verbinden das Gehaeuse mit</text>
+<text x="250" y="130" font-size="3.2">Halter</text>
+<text x="250" y="151" font-size="3.2">Elektronik, Waerme, EMV und Stecker noch</text>
+<text x="250" y="157" font-size="3.2">nicht ausgelegt</text>
+<path d="M10 252 H410 M230 252 V287" stroke="black" fill="none" stroke-width="0.3"/>
+<text x="18" y="265" font-size="5">PropBoard - R02-CTRL-CASE</text>
+<text x="18" y="277" font-size="3.5">Alle Masse mm. Werkstoff-/Toleranz-/Lastfreigabe fehlt.</text>
+<text x="240" y="266" font-size="3.5">Referenzansicht; Massstab 3:1</text>
+<text x="240" y="278" font-size="3.5">Keine Gewinde oder Passungen freigegeben.</text>
+<g transform="translate(120,142) scale(3)"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M -22.5 -11 L -22.5 11 " />
+<path id= "2" d=" M -22.5 -11 L 22.5 -11 " />
+<path id= "3" d=" M -22.5 11 L 22.5 11 " />
+<path id= "4" d=" M 22.5 -11 L 22.5 11 " />
+<path id= "5" d=" M -21 -9.5 L -21 -9 " />
+<path id= "6" d=" M -20.5 -9.5 L -21 -9.5 " />
+<path d="M-21 -9 A2.5 2.5 0 0 1 -20.5 -9.5" /><circle cx ="-19" cy ="-7.5" r ="1" /><path id= "9" d=" M 21 -9.5 L 21 -9 " />
+<path id= "10" d=" M 21 -9.5 L 20.5 -9.5 " />
+<path d="M20.5 -9.5 A2.5 2.5 0 0 1 21 -9" /><circle cx ="19" cy ="-7.5" r ="1" /><circle cx ="-19" cy ="7.5" r ="1" /><path id= "14" d=" M -20.5 9.5 L -21 9.5 " />
+<path d="M-20.5 9.5 A2.5 2.5 0 0 1 -21 9" /><path id= "16" d=" M -21 9 L -21 9.5 " />
+<path id= "17" d=" M 21 -6 L 21 6 " />
+<path d="M21 -6 A2.5 2.5 0 1 1 17.5 -9.5" /><path d="M17.5 9.5 A2.5 2.5 0 1 1 21 6" /><path id= "20" d=" M 17.5 -9.5 L -17.5 -9.5 " />
+<path id= "21" d=" M 17.5 9.5 L -17.5 9.5 " />
+<path d="M-17.5 -9.5 A2.5 2.5 0 0 1 -16.5 -7.5" /><path d="M-16.5 7.5 A2.5 2.5 0 0 1 -17.5 9.5" /><path d="M-16.5 -7.5 A2.5 2.5 0 0 1 -21 -6" /><path d="M-21 6 A2.5 2.5 0 0 1 -16.5 7.5" /><path id= "26" d=" M -21 -6 L -21 6 " />
+<circle cx ="19" cy ="7.5" r ="1" /><path id= "28" d=" M 21 9 L 21 9.5 " />
+<path d="M21 9 A2.5 2.5 0 0 1 20.5 9.5" /><path id= "30" d=" M 21 9.5 L 20.5 9.5 " />
+<circle cx ="-18" cy ="0" r ="1.2" /><circle cx ="18" cy ="0" r ="1.2" /><circle cx ="-18" cy ="0" r ="2" /><circle cx ="18" cy ="0" r ="2" /></g>
+</g></svg>

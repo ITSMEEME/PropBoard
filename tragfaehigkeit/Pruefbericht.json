@@ -1,0 +1,13 @@
+{
+  "pages": 9,
+  "sources_verified": true,
+  "CAD_instances_verified": 712,
+  "algebra_checks": {
+    "radial_integral": true,
+    "lift_scaling": true,
+    "disc_power_scaling": true,
+    "battery_root_residual": true
+  },
+  "payload_rating_remains_unset": true,
+  "reference_scenarios_not_hardware_ratings": true
+}

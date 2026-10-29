@@ -1,0 +1,50 @@
+{
+  "primary_posture": "standing",
+  "status": "MONTAGE_VORENTWURF_KEINE_FERTIGUNGSFREIGABE",
+  "straight_mm": 500,
+  "radius_mm": 450,
+  "levels_z_mm": [
+    -120,
+    120
+  ],
+  "wing_chord_mm": 120,
+  "wing_span_mm": 600,
+  "pitch_deg": 12,
+  "guide_offset_mm": 320,
+  "guide_section_height_mm": 60,
+  "longeron_length_mm": 1200,
+  "longeron_section_mm": 40,
+  "tube_wall_reference_mm": 3,
+  "crossbeam_length_mm": 1690,
+  "crossbeam_x_mm": [
+    -200,
+    0,
+    200
+  ],
+  "crossbeam_bottom_z_mm": 245,
+  "longeron_bottom_z_mm": 295,
+  "deck_top_z_mm": 361,
+  "vehicle_bottom_z_mm": -200,
+  "battery_module_envelope_mm": [
+    400,
+    140,
+    60
+  ],
+  "battery_centres_x_mm": [
+    -240,
+    240
+  ],
+  "battery_bottom_z_mm": 165,
+  "hv_cable_space_diameter_mm": 12,
+  "hv_route_radius_reference_mm": 60,
+  "lv_cable_space_diameter_mm": 6,
+  "note": "Alle neuen Querschnitte, Luftspalte und Materialzuordnungen sind Auslegungsannahmen. Kein Spannungs-, Laminat-, Magnet-, Motor-, Akku- oder Schutz-Nachweis.",
+  "revision": "R02",
+  "upper_frame_raise_mm": 15,
+  "outer_post_y_mm": 825,
+  "main_clamp_bolt": "M6x120",
+  "thread_representation": "Normform-Nennhuellen, keine geometrische Helix in der Gesamtbaugruppe",
+  "inner_post_y_mm": 85,
+  "inner_socket_eccentricity_mm": 15,
+  "hv_vertical_run_x_mm": 140
+}

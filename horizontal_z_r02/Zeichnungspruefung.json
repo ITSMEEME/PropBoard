@@ -1,0 +1,34 @@
+[
+  {
+    "id": "R02-KNOTEN",
+    "native_page": "Blatt_R02_KNOTEN",
+    "view": "Ansicht_R02_KNOTEN",
+    "source": "00_Horizontal_Z_R02_Montage.FCStd: Knotenplatte_Schnitt007",
+    "projected_svg_bytes": 469,
+    "manufacturing_release": false
+  },
+  {
+    "id": "R02-BAT-BRIDGE",
+    "native_page": "Blatt_R02_BAT_BRIDGE",
+    "view": "Ansicht_R02_BAT_BRIDGE",
+    "source": "00_Horizontal_Z_R02_Montage.FCStd: Akku_Haltebruecke_Schnitt1",
+    "projected_svg_bytes": 400,
+    "manufacturing_release": false
+  },
+  {
+    "id": "R02-GUIDE-MOUNT",
+    "native_page": "Blatt_R02_GUIDE_MOUNT",
+    "view": "Ansicht_R02_GUIDE_MOUNT",
+    "source": "00_Horizontal_Z_R02_Montage.FCStd: Stator_Anbindungsplatte_Bearbeitet_Bearbeitet",
+    "projected_svg_bytes": 828,
+    "manufacturing_release": false
+  },
+  {
+    "id": "R02-CTRL-CASE",
+    "native_page": "Blatt_R02_CTRL_CASE",
+    "view": "Ansicht_R02_CTRL_CASE",
+    "source": "02_Schlitten_R02_Detail.FCStd: Elektronik_Gehaeuse_Bearbeitet_Bearbeitet_Bearbeitet",
+    "projected_svg_bytes": 1598,
+    "manufacturing_release": false
+  }
+]

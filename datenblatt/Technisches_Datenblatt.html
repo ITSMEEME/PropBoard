@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de-DE" xml:lang="de-DE">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>PropBoard – Technisches Datenblatt</title>
+  <style>
+html {
+color: #1a1a1a;
+background-color: #fdfdfd;
+}
+body {
+margin: 0 auto;
+max-width: 36em;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 50px;
+padding-bottom: 50px;
+hyphens: auto;
+overflow-wrap: break-word;
+text-rendering: optimizeLegibility;
+font-kerning: normal;
+}
+@media (max-width: 600px) {
+body {
+font-size: 0.9em;
+padding: 12px;
+}
+h1 {
+font-size: 1.8em;
+}
+}
+@media print {
+html {
+background-color: white;
+}
+body {
+background-color: transparent;
+color: black;
+font-size: 12pt;
+}
+p, h2, h3 {
+orphans: 3;
+widows: 3;
+}
+h2, h3, h4 {
+page-break-after: avoid;
+}
+}
+p {
+margin: 1em 0;
+}
+a {
+color: #1a1a1a;
+}
+a:visited {
+color: #1a1a1a;
+}
+img {
+max-width: 100%;
+}
+svg {
+height: auto;
+max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+margin-top: 1.4em;
+}
+h5, h6 {
+font-size: 1em;
+font-style: italic;
+}
+h6 {
+font-weight: normal;
+}
+ol, ul {
+padding-left: 1.7em;
+margin-top: 1em;
+}
+li > ol, li > ul {
+margin-top: 0;
+}
+blockquote {
+margin: 1em 0 1em 1.7em;
+padding-left: 1em;
+border-left: 2px solid #e6e6e6;
+color: #606060;
+}
+code {
+font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+font-size: 85%;
+margin: 0;
+hyphens: manual;
+}
+pre {
+margin: 1em 0;
+overflow: auto;
+}
+pre code {
+padding: 0;
+overflow: visible;
+overflow-wrap: normal;
+}
+.sourceCode {
+background-color: transparent;
+overflow: visible;
+}
+hr {
+background-color: #1a1a1a;
+border: none;
+height: 1px;
+margin: 1em 0;
+}
+table {
+margin: 1em 0;
+border-collapse: collapse;
+width: 100%;
+overflow-x: auto;
+display: block;
+font-variant-numeric: lining-nums tabular-nums;
+}
+table caption {
+margin-bottom: 0.75em;
+}
+tbody {
+margin-top: 0.5em;
+border-top: 1px solid #1a1a1a;
+border-bottom: 1px solid #1a1a1a;
+}
+th {
+border-top: 1px solid #1a1a1a;
+padding: 0.25em 0.5em 0.25em 0.5em;
+}
+td {
+padding: 0.125em 0.5em 0.25em 0.5em;
+}
+header {
+margin-bottom: 4em;
+text-align: center;
+}
+#TOC li {
+list-style: none;
+}
+#TOC ul {
+padding-left: 1.3em;
+}
+#TOC > ul {
+padding-left: 0;
+}
+#TOC a:not(:hover) {
+text-decoration: none;
+}
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+</style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">PropBoard – Technisches Datenblatt</h1>
+<p class="subtitle">PB-HZ-STEH-DS-001 · Revision 0.1 ·
+Entwicklungsstand</p>
+</header>
+<p><strong>Entwurfsvariante:</strong> zwei horizontale, gegenläufige
+Flügelumläufe, übereinander entlang z. Hauptvariante:
+<strong>Stehen</strong>. Datenbasis: CAD-/Dokumentationsstand
+<code>dcb1602</code> im Repository ITSMEEME/PropBoard.</p>
+<p><strong>Status:</strong> Konstruktionsvorentwurf. Keine freigegebene
+Produktspezifikation, keine Fertigungs- oder Personenflugfreigabe.
+Angaben zur Tragfähigkeit und Leistung sind bisher nicht durch einen
+realen Antrieb, Prüfstand oder Flugversuch bestätigt.</p>
+<h2 id="hauptkennwerte">1. Hauptkennwerte</h2>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Kennwert</th>
+<th>Aktueller Wert</th>
+<th>Einordnung</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nachgewiesene zulässige Tragfähigkeit</td>
+<td><strong>Noch nicht bestimmt</strong></td>
+<td>Weder strukturell noch im Flug nachgewiesen</td>
+</tr>
+<tr class="even">
+<td>Personengewicht</td>
+<td><strong>Bis 100 kg als Zielanforderung</strong></td>
+<td>Ausrüstung zusätzlich; keine bestätigte Nutzlast</td>
+</tr>
+<tr class="odd">
+<td>Fahrzeug-Leermasse</td>
+<td>Noch nicht bestimmt</td>
+<td>Kein geschlossenes Massenbudget</td>
+</tr>
+<tr class="even">
+<td>Gesamt-/Startmasse</td>
+<td>Noch nicht bestimmt</td>
+<td>Fahrzeug, Akku, Person und Ausrüstung müssen zusammen bewertet
+werden</td>
+</tr>
+<tr class="odd">
+<td>Fahrzeughülle, modellierte Stellung</td>
+<td><strong>2080 × 1698 × 558 mm</strong></td>
+<td>CAD-Wert ohne Personenreferenz; Schutz und Toleranzen nicht
+vollständig integriert</td>
+</tr>
+<tr class="even">
+<td>Maximale Fahrzeugabmessungen</td>
+<td>2100 × 1700 × 600 mm</td>
+<td>Zielvorgabe einschließlich Schutz, ohne Person</td>
+</tr>
+<tr class="odd">
+<td>Flugzeit</td>
+<td>Mindestens 15 min angestrebt</td>
+<td>Nicht nachgewiesen</td>
+</tr>
+<tr class="even">
+<td>Zielgeschwindigkeit</td>
+<td>Ungefähr 80 km/h</td>
+<td>Nicht nachgewiesen</td>
+</tr>
+<tr class="odd">
+<td>Reichweite</td>
+<td>Noch nicht bestimmt</td>
+<td>Keine Ableitung aus Zielgeschwindigkeit × Zielflugzeit</td>
+</tr>
+<tr class="even">
+<td>Batterie-Nennkapazität</td>
+<td><strong>Noch nicht ausgewählt: Ah und kWh offen</strong></td>
+<td>Zwei CAD-Einbauräume sind kein ausgewähltes Akkusystem</td>
+</tr>
+<tr class="odd">
+<td>Elektrische Leistungsaufnahme</td>
+<td><strong>Noch nicht bestimmt, kW offen</strong></td>
+<td>Schwebe-, Missions- und Spitzenleistung fehlen</td>
+</tr>
+<tr class="even">
+<td>Batteriestrom</td>
+<td><strong>Noch nicht bestimmt, A offen</strong></td>
+<td>Spannung und elektrische Last fehlen</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Leseregel:</strong> „Zielanforderung“ ist kein nachgewiesener
+Leistungswert. „CAD-Wert“ beschreibt nur die idealisierte Geometrie.
+„Noch nicht bestimmt“ bedeutet weder 0 kg Tragfähigkeit noch 0 A
+Stromaufnahme.</p>
+<h2 id="mechanischer-und-geometrischer-aufbau">2. Mechanischer und
+geometrischer Aufbau</h2>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Merkmal</th>
+<th>Modelldaten / Konzept</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Anordnung</td>
+<td>Zwei horizontale Bahnen in x-y, entgegengesetzte
+Umlaufrichtungen</td>
+</tr>
+<tr class="even">
+<td>Ebenen</td>
+<td>z = −120 / +120 mm; Abstand 240 mm</td>
+</tr>
+<tr class="odd">
+<td>Flügel</td>
+<td>16 insgesamt, acht je Ebene</td>
+</tr>
+<tr class="even">
+<td>Profil</td>
+<td>NACA-0012-Geometrie; kein validierter realer
+Profil-/Flügelaufbau</td>
+</tr>
+<tr class="odd">
+<td>Sehne / Spannweite</td>
+<td>120 / 600 mm je Flügel</td>
+</tr>
+<tr class="even">
+<td>Summe geometrischer Flügelflächen</td>
+<td>1,152 m²; keine unabhängig durchströmte Rotorscheibenfläche</td>
+</tr>
+<tr class="odd">
+<td>Pitch in der gespeicherten Stellung</td>
+<td>12° Referenzanstellung; kein freigegebener Stellbereich</td>
+</tr>
+<tr class="even">
+<td>Endschlitten</td>
+<td>32, zwei je Flügel</td>
+</tr>
+<tr class="odd">
+<td>Pitchantrieb</td>
+<td>16 koaxiale Motor-Bauraumreferenzen; Produktauswahl und
+Leistungsnachweis fehlen</td>
+</tr>
+<tr class="even">
+<td>Umlenkgeometrie</td>
+<td>Mittlerer Radius 450 mm, gerade Abschnitte je 500 mm</td>
+</tr>
+<tr class="odd">
+<td>Führungsradien im Bogen</td>
+<td>Innen 130 mm, außen 770 mm</td>
+</tr>
+<tr class="even">
+<td>Führung / Vorschub</td>
+<td>Magnetführungs- und segmentiertes Linearantriebskonzept; noch nicht
+funktionsvalidiert</td>
+</tr>
+<tr class="odd">
+<td>Rahmen</td>
+<td>CFK-Rohrkonzept mit isolierten Metall-Klemmknoten; Laminat und
+Festigkeit offen</td>
+</tr>
+<tr class="even">
+<td>Deck / Fußauflagen</td>
+<td>Deckoberseite z = 346 mm; Auflageoberseite z = 358 mm</td>
+</tr>
+<tr class="odd">
+<td>Alternative Pilotenlayouts</td>
+<td>Niedriger Langsitz und Bauchlage als separate Konzepte</td>
+</tr>
+<tr class="even">
+<td>Regelungsziel</td>
+<td>Selbststabilisierende Winkelregelung entsprechend ANGLE MODE;
+System-/Reglernachweis fehlt</td>
+</tr>
+</tbody>
+</table>
+<p>Die modellierte Steh-Hülle lässt nominell 20 mm Gesamtlängen-,
+<strong>2 mm Gesamtbreiten-</strong> und 42 mm Gesamthöhenreserve zur
+Zielhülle. Diese Differenzen sind keine zulässigen Fertigungs-,
+Bewegungs- oder Sicherheitsabstände. Insbesondere ist die Breitenreserve
+für ein vollständig ausgestattetes Fahrzeug nicht geschlossen.</p>
+<p>Die Bauteile besitzen noch keine nachgewiesene Zulässigkeit für die
+dynamischen Umlenkkräfte. Eine vollständige kontinuierliche Kollisions-
+und Luftspaltprüfung fehlt. Die beiden Gegenläufe ersetzen weder einen
+Struktur- noch einen Ausfallnachweis.</p>
+<h2 id="batterie-und-elektrische-daten">3. Batterie und elektrische
+Daten</h2>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Kennwert</th>
+<th>Aktueller Stand</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Geometrische Modulräume</td>
+<td><strong>2 × 400 × 140 × 60 mm</strong></td>
+</tr>
+<tr class="even">
+<td>Bauraumvolumen je Modul / gesamt</td>
+<td>3,36 / 6,72 Liter; reine Hüllvolumina</td>
+</tr>
+<tr class="odd">
+<td>Modul-Lage</td>
+<td>x = ±240 mm, y = 0; Unterseite z = 165 mm</td>
+</tr>
+<tr class="even">
+<td>Zellchemie, Zellen und Packaufbau</td>
+<td>Nicht festgelegt</td>
+</tr>
+<tr class="odd">
+<td>Serien-/Parallelschaltung</td>
+<td>Nicht festgelegt</td>
+</tr>
+<tr class="even">
+<td>Nenn-/Betriebsspannung, V</td>
+<td>Nicht festgelegt</td>
+</tr>
+<tr class="odd">
+<td>Nennkapazität, Ah</td>
+<td>Nicht festgelegt</td>
+</tr>
+<tr class="even">
+<td>Nennenergie / nutzbare Energie, kWh</td>
+<td>Nicht festgelegt</td>
+</tr>
+<tr class="odd">
+<td>Batteriegewicht, kg</td>
+<td>Nicht festgelegt</td>
+</tr>
+<tr class="even">
+<td>Dauer-/Spitzenstrom, A</td>
+<td>Nicht festgelegt</td>
+</tr>
+<tr class="odd">
+<td>Dauer-/Spitzenleistung, kW</td>
+<td>Nicht festgelegt</td>
+</tr>
+<tr class="even">
+<td>BMS, Sicherungen, Vorladung und Schütze</td>
+<td>Funktionaler Bedarf beschrieben, konkrete Auslegung offen</td>
+</tr>
+<tr class="odd">
+<td>Ladeleistung und Ladezeit</td>
+<td>Nicht festgelegt</td>
+</tr>
+<tr class="even">
+<td>Thermischer Betrieb / Brand- und Gasführung</td>
+<td>Nicht nachgewiesen</td>
+</tr>
+<tr class="odd">
+<td>HV-/LV-Trassen</td>
+<td>CAD-Räume Ø12 / Ø6 mm; keine Aderquerschnitts- oder
+Strombelastbarkeitsangabe</td>
+</tr>
+<tr class="even">
+<td>Versorgung bewegter Stellglieder</td>
+<td>Induktives Übertragungskonzept als Bauraum; Leistungsübertragung
+nicht nachgewiesen</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Aus 6,72 Litern Bauraum lässt sich keine seriöse
+Batteriekapazität ableiten.</strong> Zellen, Gehäuse, Schutz, thermische
+Auslegung und die gleichzeitig erforderliche Dauerleistung sind noch
+offen. Die früher untersuchten Tattu-Packs sind nicht als geeigneter
+Akku dieses Entwurfs übernommen worden.</p>
+<h2 id="stromverbrauch-und-energiebilanz">4. Stromverbrauch und
+Energiebilanz</h2>
+<p>Die elektrische Gesamtaufnahme muss Linearantriebe, Führung,
+Pitchantriebe, Regler, Hilfsversorgung und die jeweils noch nicht
+erfassten Verluste einschließen. Bislang liegen dafür keine
+geschlossenen Mess- oder Rechenwerte vor. Deshalb sind weder ein
+„Schwebestrom“ noch ein Verbrauch in kWh je Flug freigegeben.</p>
+<p>Für die spätere Auslegung gelten folgende Beziehungen. Sie sind
+Rechenregeln, keine Leistungsdaten dieses Entwurfs:</p>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Größe</th>
+<th>Beziehung / Bedingung</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Mittlerer Batteriestrom</td>
+<td>Näherungsweise
+<code>I [A] = 1000 × P_Batterie [kW] / U_Batterie [V]</code>; reale
+zeitabhängige Spannung berücksichtigen</td>
+</tr>
+<tr class="even">
+<td>Energie für 15 Minuten</td>
+<td><code>E_nutz [kWh] = 0,25 × P_Batterie,mittel [kW]</code> bei
+entsprechender mittlerer Gesamtaufnahme</td>
+</tr>
+<tr class="odd">
+<td>Erforderliche Nennenergie</td>
+<td><code>E_nenn &gt;= E_nutz / f_nutzbar</code>; nutzbarer Anteil
+einschließlich nicht verplanter Energie ist erst festzulegen</td>
+</tr>
+<tr class="even">
+<td>Nennkapazität</td>
+<td><code>Q_nenn [Ah] = 1000 × E_nenn [kWh] / U_nenn [V]</code> für die
+gewählte Pack-Nennspannung</td>
+</tr>
+<tr class="odd">
+<td>Energiebasierte Dauer</td>
+<td><code>t [min] = 60 × E_nutz [kWh] / P_Batterie,mittel [kW]</code>;
+nur relevant, wenn Dauerleistung und Thermik ebenfalls erfüllt sind</td>
+</tr>
+</tbody>
+</table>
+<p>Die früheren Rotor-Schwebeleistungsrechnungen sind <strong>keine
+Leistungswerte dieses Flügelumlaufantriebs</strong> und werden nicht zur
+Angabe eines Stromverbrauchs verwendet. Auch der vorhandene numerische
+Leistungsproxy aus der 2D-CFD ist kein zulässiger elektrischer
+Leistungswert.</p>
+<h2 id="tragfähigkeit-und-betriebsgrenzen">5. Tragfähigkeit und
+Betriebsgrenzen</h2>
+<p>Für eine zulässige Personenmasse müssen Strukturtragfähigkeit und
+ausreichend regelbarer aerodynamischer Schub gleichzeitig nachgewiesen
+werden. Eine Zielmasse von 100 kg entspricht allein ungefähr 981 N
+Gewichtskraft der Person. Fahrzeug, Akku und Ausrüstung kommen hinzu.
+Diese Rechnung ist kein Schubnachweis.</p>
+<p>Nicht bestimmt sind zulässige Gesamtmasse, Dauerschub, Maximalschub
+mit Zeitgrenze, Stellreserven, maximaler Schwerpunktbereich und
+zulässige dynamische Lasten. Die frühere illustrative Gesamtmasse 185,32
+kg wird nicht als Gewicht des aktuellen Detailentwurfs ausgewiesen.</p>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Betriebs-/Nachweisgröße</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Zulässige Piloten-/Ausrüstungsmasse</td>
+<td>Nicht freigegeben</td>
+</tr>
+<tr class="even">
+<td>Zulässiger Wind, Flughöhe und Temperaturbereich</td>
+<td>Nicht festgelegt</td>
+</tr>
+<tr class="odd">
+<td>Regen-/Staub-/Schutzart</td>
+<td>Nicht nachgewiesen; keine IP-Klasse angegeben</td>
+</tr>
+<tr class="even">
+<td>Geräuschpegel</td>
+<td>Nicht gemessen</td>
+</tr>
+<tr class="odd">
+<td>Betriebszeit der Antriebe unter Last</td>
+<td>Nicht nachgewiesen</td>
+</tr>
+<tr class="even">
+<td>Landelast, Ermüdung und Ausfallbeherrschung</td>
+<td>Nicht nachgewiesen</td>
+</tr>
+<tr class="odd">
+<td>Zulassung / Personenflugfreigabe</td>
+<td>Liegt nicht vor</td>
+</tr>
+</tbody>
+</table>
+<h2 id="vorhandene-evidenz-und-quellen">6. Vorhandene Evidenz und
+Quellen</h2>
+<p><strong>Geometrie:</strong> Native FreeCAD- und STEP-Dateien,
+gespeicherte und erneut geöffnete Baugruppen, Form-/Hüllmaßprüfungen und
+ausgewählte Abstandsprüfungen. Die 712 markierten Instanzen der
+Hauptbaugruppe enthalten auch Referenzkörper; ihre Volumina liefern
+keine verifizierte Fahrzeugmasse.</p>
+<p><strong>Numerik:</strong> Lokale 2D-Strömungsversuche bei Re = 40,
+darunter der zeitaufgelöste 240-mm-Begegnungsfall mit 48 000 Schritten.
+Keine realmaßstäbliche 3D-CFD und keine quantitativ unabhängig
+validierte Antriebsleistungsrechnung. Die neue Detailgeometrie wurde
+nicht als vollständiges Fahrzeug in CFD getestet.</p>
+<p><strong>Nicht vorhanden:</strong> realer Antriebsprüfstand,
+belastbare elektrische Leistungsaufnahme, Akkulastprüfung,
+Struktur-/Laminatnachweis und Flugversuch. Daher sind die offenen
+Kennwerte nicht durch Schätzwerte ersetzt.</p>
+<p>Quellen: <code>konstruktion/parameter.json</code>,
+<code>konstruktion/Pruefbericht.json</code>,
+<code>konstruktion/Stueckliste_Instanzen.csv</code>, natives
+Steh-Hauptmodell, horizontale Geometrieparameter und
+<code>begegnung/results/Laufbericht.json</code>. Die maschinenlesbare
+Datei <code>Technisches_Datenblatt.json</code> enthält die
+Quellprüfsummen und kennzeichnet nicht bestimmte Leistungswerte mit
+<code>null</code>.</p>
+<p><strong>Nächste Voraussetzung für ein Leistungsdatenblatt:</strong>
+Schub und vollständige elektrische Aufnahme eines realisierbaren Moduls
+bestimmen, Massenbudget schließen und ein geeignetes Akkusystem
+auswählen. Erst danach lassen sich Tragfähigkeit, Kapazität,
+Stromverbrauch und erreichbare Flugzeit verbindlich beziffern.</p>
+</body>
+</html>

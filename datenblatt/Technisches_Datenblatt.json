@@ -1,0 +1,88 @@
+{
+  "document_id": "PB-HZ-STEH-DS-001",
+  "revision": "0.1",
+  "type": "Entwicklungsdatenblatt, keine freigegebene Produktspezifikation",
+  "baseline_commit": "dcb160217b7247eec3e2b6468ec06bbd2f65578d",
+  "variant": "Zwei horizontale gegenlaeufige Fluegelumlaeufe; Hauptvariante Stehen",
+  "null_meaning": "Nicht festgelegt oder nicht nachgewiesen; NICHT null Leistung oder null Tragfaehigkeit",
+  "targets": {
+    "pilot_mass_kg": 100,
+    "additional_equipment_mass_kg": null,
+    "endurance_min_min": 15,
+    "speed_km_h_approx": 80,
+    "maximum_vehicle_dimensions_mm": [
+      2100,
+      1700,
+      600
+    ]
+  },
+  "cad": {
+    "vehicle_dimensions_mm": [
+      2080.0,
+      1698.0,
+      558.0
+    ],
+    "pilot_excluded_from_dimensions": true,
+    "complete_protection_included": false,
+    "wings": 16,
+    "end_carriages": 32,
+    "pitch_motor_envelopes": 16,
+    "wing_chord_mm": 120,
+    "wing_span_mm": 600,
+    "summed_geometric_wing_area_m2": 1.152,
+    "levels_z_mm": [
+      -120,
+      120
+    ],
+    "level_gap_mm": 240,
+    "pitch_snapshot_deg": 12,
+    "mean_curve_radius_mm": 450,
+    "straight_section_length_mm": 500,
+    "deck_top_z_mm": 346,
+    "standing_surface_z_mm": 358,
+    "vehicle_bottom_z_mm": -200
+  },
+  "battery_envelopes": {
+    "count": 2,
+    "each_dimensions_mm": [
+      400,
+      140,
+      60
+    ],
+    "each_volume_L": 3.36,
+    "cell_or_pack_selected": false
+  },
+  "unverified_ratings": {
+    "allowable_pilot_mass_kg": null,
+    "allowable_total_payload_kg": null,
+    "empty_mass_kg": null,
+    "battery_mass_kg": null,
+    "takeoff_mass_kg": null,
+    "continuous_thrust_N": null,
+    "peak_thrust_N": null,
+    "battery_nominal_voltage_V": null,
+    "battery_capacity_Ah": null,
+    "battery_nominal_energy_kWh": null,
+    "battery_usable_energy_kWh": null,
+    "battery_continuous_current_A": null,
+    "battery_peak_current_A": null,
+    "hover_electrical_power_kW": null,
+    "peak_electrical_power_kW": null,
+    "hover_battery_current_A": null,
+    "mission_energy_kWh": null,
+    "verified_endurance_min": null,
+    "verified_speed_km_h": null,
+    "range_km": null
+  },
+  "manufacturing_release": false,
+  "flight_validation": false,
+  "real_scale_3d_CFD": false,
+  "sources_sha256": {
+    "konstruktion/parameter.json": "538e793702da9816a4dd56e9c135baad406dbe5abb57b5697b05e0990d75647c",
+    "konstruktion/Pruefbericht.json": "69adc46d3e7fa77261f0f9f4a7bbd35d9bc77fdc1f0a6dac7bb2e701aa23e931",
+    "konstruktion/Stueckliste_Instanzen.csv": "5e7c2ffdbef38247679239bed7fad13a71dd26802431301a2ef23d3bc948b0d9",
+    "konstruktion/00_PropBoard_Detail_Stehen.FCStd": "d15590507f66b857d0712a833b5e9a7731072217c5d100b849c42036e7fc3c4a",
+    "vergleich_horizontal/parameter.json": "6003e07627cf756289404ef6ecf587d627725f5e728ab8ed193f3a7f37bf4ec2",
+    "begegnung/results/Laufbericht.json": "1bb1b9a9512fc8bb01a0c0e1ec020893d561cede8aa9b32f77f968bab26c7a40"
+  }
+}

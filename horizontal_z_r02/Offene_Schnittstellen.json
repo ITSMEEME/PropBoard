@@ -1,0 +1,11 @@
+[
+  "BMS, Zellhalter, Kontaktoren, Ladeanschluss und HV-Steckverbinder sind ohne Produktauswahl nicht intern detailliert.",
+  "Pitchmotor-/Encoder-Innenaufbau, Rotor-Wellen-Kraftschluss und produktspezifische Befestigungen ohne Herstellerauswahl offen.",
+  "PCB, Stecker und Leistungsuebertragung bleiben Funktionsreferenzen; keine erfundene Elektronik.",
+  "Fangrollen sind geometrisch gebohrt und verschraubt; konkrete Lager-/Achsschraubenpaarung und Fanglastfreigabe offen.",
+  "Mobile Elektronikhalter, Fangrollenachsen und PM-Rueckhaltung geometrisch verschraubt; Eigenschaften der Funktionskomponenten bleiben offen.",
+  "Aussenpfosten-T-Knoten und Statorhalter geometrisch detailliert; Lasten, Werkstoffe und Toleranzen offen.",
+  "Keine konkrete Magnet-, Pitchmotor-, Lager-, Akku- oder Elektronik-Auswahl; deren interne Schrauben sind nicht bekannt.",
+  "Schienen-Stosslaschen sind geometrisch konturangepasst; Temperaturfugen, Lasten und Toleranzen bleiben offen.",
+  "Innengewinde als Nennhuellen, keine Kernloch-/Gewindefertigungszeichnung."
+]
