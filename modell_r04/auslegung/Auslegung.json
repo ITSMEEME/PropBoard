@@ -1,0 +1,169 @@
+{
+  "status": "VORAUSLEGUNG_MODELLWERTE_NICHT_VALIDIERT",
+  "date": "2026-10-30",
+  "geometry_m": {
+    "rIn": 0.0375,
+    "rOut": 0.1875,
+    "chord": 0.03,
+    "spacing": 0.06,
+    "blades": 8,
+    "thickness": 0.12,
+    "twist": 0
+  },
+  "scale": 0.25,
+  "module_mm": 1,
+  "mass": {
+    "items": [
+      {
+        "name": "Antriebsakku Tattu 1550 mAh 6S",
+        "g": 255,
+        "source": "Annahme, wiegen"
+      },
+      {
+        "name": "2 x Motor ECO II 2306 (inkl. Kabel)",
+        "g": 64,
+        "source": "Datenblatt 30,2 g + Kabel"
+      },
+      {
+        "name": "FC SpeedyBee F405 V4 + BLS 55A",
+        "g": 26,
+        "source": "Annahme"
+      },
+      {
+        "name": "ELRS-Empfaenger + Antenne",
+        "g": 3,
+        "source": "Annahme"
+      },
+      {
+        "name": "16 x Fluegel (gedruckt)",
+        "g": 173.1,
+        "source": "Geometrie, 1.30 g/cm3, Fuellgrad 0.65"
+      },
+      {
+        "name": "16 x Servo HV-Mikro",
+        "g": 112,
+        "source": "Annahme 7 g"
+      },
+      {
+        "name": "2 x Nabenring mit Lagerungen und Gestaenge",
+        "g": 100,
+        "source": "Schaetzung"
+      },
+      {
+        "name": "2 x Zahnkranz m1 inkl. Speichen",
+        "g": 52,
+        "source": "Schaetzung"
+      },
+      {
+        "name": "2 x Stahlritzel + Adapter",
+        "g": 12,
+        "source": "Annahme"
+      },
+      {
+        "name": "2 x Lager 6806-2RS",
+        "g": 38,
+        "source": "Katalogwert ca."
+      },
+      {
+        "name": "Mittelrohr Al D30 x 1 mm, 160 mm",
+        "g": 39.4,
+        "source": "Geometrie"
+      },
+      {
+        "name": "Rotorelektronik 2 x (ESP32-C3 + 2 x 1S 400 mAh + Schalter)",
+        "g": 50,
+        "source": "Annahme"
+      },
+      {
+        "name": "Pitch-Bridge ESP32-C3",
+        "g": 3,
+        "source": "Annahme"
+      },
+      {
+        "name": "Motorhalteplatten oben/unten, Akkutraeger, Stackhalter",
+        "g": 120,
+        "source": "Schaetzung"
+      },
+      {
+        "name": "Kabel, Stecker, Schrauben",
+        "g": 50,
+        "source": "Schaetzung"
+      }
+    ],
+    "total_g": 1097,
+    "rotatingPerRotor_g": 244
+  },
+  "hover": {
+    "pitchUpper": 14,
+    "pitchLower": 16.71,
+    "rotorRpm": 2203,
+    "aeroPower": 89.2,
+    "electricPower": 142.3,
+    "alphaMargin": 2.04,
+    "figureOfMerit": 0.777,
+    "tipSpeed": 43.4,
+    "motorRpm": 14320,
+    "motorCurrent": 7.56,
+    "motorCurrentLower": 7.56,
+    "batteryCurrent": 5.67,
+    "duty": 0.35,
+    "motorLoss_W": 12,
+    "enduranceMin": 13.27,
+    "enduranceLimit": "Nutzkapazitaet"
+  },
+  "max": {
+    "thrustToWeight": 2,
+    "rotorRpm": 3114,
+    "thrust_g": 2195,
+    "pitchUpper": 14,
+    "pitchLower": 16.73,
+    "electricPower_W": 344,
+    "motorCurrent": 14.08,
+    "dutyEndOfFlight": 0.539,
+    "motorLoss_W": 26.6
+  },
+  "gear": {
+    "z1": 14,
+    "z2": 91,
+    "ratio": 6.5,
+    "tipDiameter": 93,
+    "centerDistance": 52.5,
+    "hoverPower": 129.4,
+    "hoverMotorCurrent": 7.56,
+    "hoverMotorEff": 0.801,
+    "hoverDuty": 0.35,
+    "maxDutyEndOfFlight": 0.539,
+    "maxMotorCurrent": 14.08,
+    "maxFeasible": true,
+    "enduranceMin": 13.27,
+    "enduranceLimit": "Nutzkapazitaet"
+  },
+  "servoRange": {
+    "min": -2,
+    "max": 21
+  },
+  "stallOnsetPitchUpper": 19,
+  "loads": {
+    "spinTestRpm": 3737,
+    "bladeMass_g": 10.82,
+    "bladeCentrifugalForce_N": 186.4,
+    "bladeRootStress_MPa": 3.9,
+    "servoAccel_g_r30": 468,
+    "servoAccel_g_r45": 702,
+    "servoRadialForce_N_r45_7g": 48.2,
+    "tipSpeed_m_s": 73.4,
+    "rotorKineticEnergy_J": 111,
+    "gearTangentialForce_N": 12.1,
+    "pinionToothBendingStress_MPa": 7.2,
+    "pitchLineVelocity_m_s": 17.8,
+    "pitchMomentPropeller_Nmm": 29.2
+  },
+  "assumptions": [
+    "BEMT mit vereinfachter Polare; Re ~ 5-8e4, Abriss bei kleiner Re unsicher",
+    "Motor: Gleichstrom-Ersatzmodell, Leerlaufstrom ~ n^0.5",
+    "Getriebewirkungsgrad 0.92, ESC 0.95, max. Tastgrad 0.95",
+    "Akku: typische LiPo-Kennlinie, Ri 5 mOhm/Zelle, 80 % Nutzung",
+    "Massen teilweise geschaetzt (Spalte source)",
+    "Untere Ebene immer auf Drehmomentgleichgewicht geregelt"
+  ]
+}

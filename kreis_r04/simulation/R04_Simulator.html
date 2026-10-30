@@ -1,0 +1,615 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>R04 Auftriebssimulator</title>
+<style>
+:root {
+  color-scheme: light;
+  --surface-0: #f3f2ef; --surface-1: #fcfcfb; --surface-2: #ffffff; --border: #dcdad4;
+  --text-primary: #0b0b0b; --text-secondary: #52514e; --text-muted: #7a7974;
+  --series-1: #2a78d6; --series-2: #eb6834; --series-3: #1baf7a;
+  --grid: #e7e6e1; --mid: #f0efec; --good: #0ca30c; --critical: #d03b3b; --warn-bg: #fff4e0; --warn-border: #e08a00;
+  --accent: #2a78d6;
+}
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) {
+    color-scheme: dark;
+    --surface-0: #111110; --surface-1: #1a1a19; --surface-2: #232321; --border: #3a3a37;
+    --text-primary: #f0efec; --text-secondary: #c3c2b7; --text-muted: #8f8e86;
+    --series-1: #3987e5; --series-2: #d95926; --series-3: #199e70;
+    --grid: #2c2c2a; --mid: #383835; --warn-bg: #2e2412; --warn-border: #c98500; --accent: #3987e5;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --surface-0: #111110; --surface-1: #1a1a19; --surface-2: #232321; --border: #3a3a37;
+  --text-primary: #f0efec; --text-secondary: #c3c2b7; --text-muted: #8f8e86;
+  --series-1: #3987e5; --series-2: #d95926; --series-3: #199e70;
+  --grid: #2c2c2a; --mid: #383835; --warn-bg: #2e2412; --warn-border: #c98500; --accent: #3987e5;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--surface-0); color: var(--text-primary); font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
+header { padding: 14px 20px 10px; display: flex; flex-wrap: wrap; gap: 8px 20px; align-items: baseline; }
+header h1 { font-size: 18px; margin: 0; }
+header p { margin: 0; color: var(--text-secondary); }
+.note { margin: 0 20px 12px; padding: 8px 12px; background: var(--warn-bg); border-left: 4px solid var(--warn-border); color: var(--text-primary); font-size: 13px; }
+.layout { display: grid; grid-template-columns: 300px 1fr; gap: 14px; padding: 0 20px 20px; }
+@media (max-width: 900px) { .layout { grid-template-columns: 1fr; padding: 0 16px 16px; } .note { margin: 0 16px 12px; } header { padding: 12px 16px; } }
+.panel { background: var(--surface-1); border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; min-width: 0; }
+.panel h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .04em; color: var(--text-secondary); margin: 0 0 8px; font-weight: 600; }
+.controls fieldset { border: 0; padding: 0; margin: 0 0 12px; min-width: 0; }
+.controls legend { font-weight: 600; margin-bottom: 4px; padding: 0; }
+.ctl { display: grid; grid-template-columns: 1fr auto; gap: 0 8px; margin: 6px 0; }
+.ctl label { color: var(--text-secondary); font-size: 13px; }
+.ctl output { font-variant-numeric: tabular-nums; font-size: 13px; text-align: right; min-width: 64px; }
+.ctl input[type=range] { grid-column: 1 / -1; width: 100%; accent-color: var(--accent); }
+.row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin: 6px 0; }
+select { max-width: 100%; }
+.controls { overflow: hidden; }
+button, select { font: inherit; font-size: 13px; padding: 5px 10px; border-radius: 6px; border: 1px solid var(--border); background: var(--surface-2); color: var(--text-primary); cursor: pointer; }
+button:hover { border-color: var(--accent); }
+.check { display: flex; gap: 6px; align-items: center; color: var(--text-secondary); font-size: 13px; }
+.main { display: grid; gap: 14px; min-width: 0; }
+.views { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+@media (max-width: 1200px) { .views { grid-template-columns: 1fr; } }
+canvas { display: block; width: 100%; }
+.view canvas { border-radius: 6px; background: var(--surface-2); touch-action: none; }
+.viewbar { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; margin-bottom: 8px; font-size: 13px; color: var(--text-secondary); }
+.viewbar .ctl { margin: 0; min-width: 150px; flex: 1; }
+.caption { font-size: 12px; color: var(--text-muted); margin-top: 6px; }
+.kpis { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 10px; }
+.kpi { background: var(--surface-1); border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px; }
+.kpi .k { font-size: 12px; color: var(--text-secondary); }
+.kpi .v { font-size: 22px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.kpi .s { font-size: 12px; color: var(--text-muted); }
+.status { font-size: 12px; display: inline-flex; gap: 4px; align-items: center; color: var(--text-primary); }
+.status .dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
+.charts { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+@media (max-width: 1000px) { .charts { grid-template-columns: 1fr; } }
+.chart { position: relative; }
+.chart h3 { font-size: 14px; margin: 0 0 2px; }
+.chart .sub { font-size: 12px; color: var(--text-muted); margin-bottom: 6px; }
+.legend { display: flex; gap: 12px; flex-wrap: wrap; font-size: 12px; color: var(--text-secondary); margin-bottom: 4px; }
+.legend span { display: inline-flex; align-items: center; gap: 5px; }
+.legend i { width: 14px; height: 3px; border-radius: 2px; display: inline-block; }
+.legend i.dash { background: repeating-linear-gradient(90deg, var(--text-secondary) 0 4px, transparent 4px 7px); }
+.tip { position: absolute; pointer-events: none; background: var(--surface-2); border: 1px solid var(--border); border-radius: 6px; padding: 6px 8px; font-size: 12px; box-shadow: 0 2px 8px rgba(0,0,0,.15); display: none; white-space: nowrap; z-index: 2; }
+.tip b { font-weight: 600; }
+.tip .sw { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 4px; }
+.scale { display: flex; align-items: center; gap: 6px; font-size: 11px; color: var(--text-muted); margin-top: 4px; }
+.scale canvas { width: 140px; height: 8px; border-radius: 2px; }
+details { margin-top: 4px; }
+details summary { cursor: pointer; color: var(--text-secondary); }
+table { border-collapse: collapse; font-size: 12px; font-variant-numeric: tabular-nums; width: 100%; }
+th, td { border-bottom: 1px solid var(--grid); padding: 3px 6px; text-align: right; }
+th:first-child, td:first-child { text-align: left; }
+.tablewrap { max-height: 280px; overflow: auto; }
+</style>
+</head>
+<body>
+<header>
+  <h1>R04 Auftriebssimulator</h1>
+  <p>Zwei gegenläufige Flügelkreise, Schwebeflug · lokal, ohne Server</p>
+  <button id="theme" style="margin-left:auto" aria-label="Hell/Dunkel umschalten">Hell / Dunkel</button>
+</header>
+<div class="note"><b>Vereinfachtes Modell, kein Nachweis.</b> Auftrieb und Leistung stammen aus der Blattelement-Impuls-Theorie mit vereinfachter Profilpolare. Der untere Rotor läuft im kontrahierten Nachlauf des oberen. Das 2D-Strömungsbild ist eine Echtzeit-Lattice-Boltzmann-Rechnung eines abgewickelten Schnitts bei künstlich niedriger Reynoldszahl, also qualitativ. Nicht enthalten: Rückwirkung unten→oben, Blattpassagen, Führungen, Rahmen, Vorwärtsflug, Bodeneffekt. Die kg-Werte sind Brutto-Kraftäquivalente und keine zulässige Zuladung.</div>
+
+<div class="layout">
+  <aside class="panel controls">
+    <h2>Parameter</h2>
+    <fieldset>
+      <legend>Betrieb</legend>
+      <div class="ctl"><label for="rpm">Drehzahl</label><output id="rpm_o"></output><input id="rpm" type="range" min="0" max="5000" step="10" value="850"></div>
+      <div class="ctl"><label for="pitchUpper">Pitch oben</label><output id="pitchUpper_o"></output><input id="pitchUpper" type="range" min="-5" max="30" step="0.5" value="12"></div>
+      <div class="ctl"><label for="pitchLower">Pitch unten</label><output id="pitchLower_o"></output><input id="pitchLower" type="range" min="-5" max="30" step="0.5" value="12"></div>
+      <label class="check"><input type="checkbox" id="couple" checked> Pitch oben/unten koppeln</label>
+      <div class="row"><button id="balance" title="Pitch unten so wählen, dass beide Drehmomente gleich sind">Drehmoment ausgleichen</button></div>
+    </fieldset>
+    <fieldset>
+      <legend>Flügelgeometrie</legend>
+      <div class="ctl"><label for="blades">Flügel je Ebene</label><output id="blades_o"></output><input id="blades" type="range" min="2" max="12" step="1" value="8"></div>
+      <div class="ctl"><label for="chord">Flügeltiefe</label><output id="chord_o"></output><input id="chord" type="range" min="0.01" max="0.25" step="0.0025" value="0.12"></div>
+      <div class="ctl"><label for="rIn">Innenradius Flügel</label><output id="rIn_o"></output><input id="rIn" type="range" min="0.02" max="0.45" step="0.0025" value="0.15"></div>
+      <div class="ctl"><label for="rOut">Außenradius Flügel</label><output id="rOut_o"></output><input id="rOut" type="range" min="0.1" max="1.0" step="0.0025" value="0.75"></div>
+      <div class="ctl"><label for="thickness">Profildicke t/c</label><output id="thickness_o"></output><input id="thickness" type="range" min="0.06" max="0.21" step="0.01" value="0.12"></div>
+      <div class="ctl"><label for="twist">Verwindung innen→außen</label><output id="twist_o"></output><input id="twist" type="range" min="-20" max="10" step="0.5" value="0"></div>
+      <div class="ctl"><label for="spacing">Ebenenabstand</label><output id="spacing_o"></output><input id="spacing" type="range" min="0.02" max="0.6" step="0.005" value="0.24"></div>
+    </fieldset>
+    <fieldset>
+      <legend>Antrieb Testmodell</legend>
+      <label class="check"><input type="checkbox" id="drive"> ECO II 2306 KV1900 · Stirnrad · 6S 1550 mAh</label>
+      <div class="ctl"><label for="ratio">Übersetzung</label><output id="ratio_o"></output><input id="ratio" type="range" min="3" max="14" step="0.05" value="6.5"></div>
+      <div class="ctl"><label for="soc">Akku-Ladezustand</label><output id="soc_o"></output><input id="soc" type="range" min="0.2" max="1" step="0.05" value="0.6"></div>
+      <div class="caption">Gleichstrom-Ersatzmodell des Motors; Leerlaufstrom, Akku-Innenwiderstand und Wirkungsgrade (Getriebe 0,92, ESC 0,95) angenommen.</div>
+    </fieldset>
+    <fieldset>
+      <legend>Anforderung (Referenzlinie)</legend>
+      <div class="row"><select id="variant" aria-label="Fahrzeugmasse">
+        <option value="63.2">R04 mit Außenring – erfasste CAD-Masse 63,2 kg</option>
+        <option value="26.7">R04 ohne Außenring – erfasste CAD-Masse 26,7 kg</option>
+        <option value="1.1">Testmodell 1:4 – geschätzt 1,10 kg</option>
+        <option value="0">ohne Fahrzeugmasse</option>
+      </select></div>
+      <div class="ctl"><label for="person">Person + Ausrüstung</label><output id="person_o"></output><input id="person" type="range" min="0" max="150" step="5" value="100"></div>
+      <div class="caption">Die CAD-Massen sind unvollständig (ohne Akkus, Antrieb, Magnete, Elektronik und Tragstruktur).</div>
+    </fieldset>
+    <div class="row"><button id="reset">R04-Referenz laden</button><button id="model14">Testmodell 1:4 laden</button></div>
+  </aside>
+
+  <main class="main">
+    <section class="kpis" id="kpis" aria-live="polite"></section>
+
+    <div class="views">
+      <section class="panel view">
+        <h2>3D – vereinfachtes R04 mit Nachlauf</h2>
+        <div class="viewbar">
+          <div class="ctl"><label for="slow">Zeitlupe</label><output id="slow_o"></output><input id="slow" type="range" min="0.005" max="0.2" step="0.005" value="0.04"></div>
+          <label class="check"><input type="checkbox" id="particles3d" checked> Nachlaufpartikel</label>
+        </div>
+        <canvas id="view3d" height="440" aria-label="3D-Ansicht der Flügelkreise mit Nachlaufpartikeln"></canvas>
+        <div class="scale"><span>Geschwindigkeit 0</span><canvas id="scale3d" width="140" height="8"></canvas><span id="scale3d_max"></span></div>
+        <div class="caption">Ziehen zum Drehen. Blau: obere Ebene (gegen den Uhrzeigersinn), orange: untere Ebene. Partikel folgen dem BEMT-Nachlauffeld (axial, Drall, Kontraktion), nicht einer 3D-CFD.</div>
+      </section>
+
+      <section class="panel view">
+        <h2>2D-Schnitt – Strömung und Turbulenz (LBM)</h2>
+        <div class="viewbar">
+          <div class="ctl"><label for="rSec">Schnittradius</label><output id="rSec_o"></output><input id="rSec" type="range" min="0.15" max="0.75" step="0.0025" value="0.45"></div>
+          <div class="ctl"><label for="re">Reynoldszahl (2D)</label><output id="re_o"></output><input id="re" type="range" min="3" max="4.6" step="0.05" value="3.9"></div>
+        </div>
+        <div class="viewbar">
+          <select id="field" aria-label="Dargestelltes Feld">
+            <option value="vort">Wirbelstärke</option>
+            <option value="speed">Geschwindigkeitsbetrag</option>
+            <option value="uy">Vertikalgeschwindigkeit</option>
+          </select>
+          <select id="res" aria-label="Auflösung">
+            <option value="24">grob (24 Zellen/Sehne)</option>
+            <option value="32" selected>mittel (32)</option>
+            <option value="44">fein (44)</option>
+          </select>
+          <label class="check"><input type="checkbox" id="smoke" checked> Rauchpartikel</label>
+          <button id="pause">Pause</button><button id="restart">Neu starten</button>
+        </div>
+        <canvas id="view2d" height="440" aria-label="2D-Strömungsfeld des abgewickelten Schnitts"></canvas>
+        <div class="scale"><span id="scale2d_min"></span><canvas id="scale2d" width="140" height="8"></canvas><span id="scale2d_max"></span></div>
+        <div class="caption" id="lbmInfo"></div>
+      </section>
+    </div>
+
+    <div class="charts">
+      <section class="panel chart" id="cPitch"></section>
+      <section class="panel chart" id="cRpm"></section>
+      <section class="panel chart" id="cLoad"></section>
+      <section class="panel chart" id="cAlpha"></section>
+    </div>
+
+    <section class="panel">
+      <h2>Werte entlang der Spannweite</h2>
+      <details><summary>Tabelle anzeigen</summary><div class="tablewrap" id="table"></div></details>
+    </section>
+  </main>
+</div>
+
+<script src="r04_physik.js"></script>
+<script src="lbm.js"></script>
+<script src="../../modell_r04/auslegung/antrieb.js"></script>
+<script>
+'use strict';
+const $ = (id) => document.getElementById(id);
+const css = (name) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+const fmtP = (w) => Math.abs(w) >= 1000 ? fmt(w / 1000, 2) + ' kW' : fmt(w) + ' W';
+const fmtQ = (q) => fmt(q, Math.abs(q) < 1 ? 3 : 1) + ' Nm';
+const fmt = (v, d = 0) => Number.isFinite(v) ? v.toLocaleString('de-DE', { minimumFractionDigits: d, maximumFractionDigits: d }) : '–';
+
+/* ---------- Theme ---------- */
+$('theme').onclick = () => {
+  const cur = document.documentElement.dataset.theme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  document.documentElement.dataset.theme = cur === 'dark' ? 'light' : 'dark';
+  try { localStorage.setItem('r04theme', document.documentElement.dataset.theme); } catch (e) {}
+  scheduleUpdate(true);
+};
+try { const t = localStorage.getItem('r04theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+
+/* ---------- Parameter ---------- */
+const UNITS = {
+  rpm: (v) => fmt(v) + ' U/min', pitchUpper: (v) => fmt(v, 1) + '°', pitchLower: (v) => fmt(v, 1) + '°',
+  blades: (v) => fmt(v), chord: (v) => fmt(v * 1000) + ' mm', rIn: (v) => fmt(v * 1000) + ' mm', rOut: (v) => fmt(v * 1000) + ' mm',
+  thickness: (v) => fmt(v * 100) + ' %', twist: (v) => fmt(v, 1) + '°', spacing: (v) => fmt(v * 1000) + ' mm',
+  person: (v) => fmt(v) + ' kg', slow: (v) => '×' + fmt(v, 3), rSec: (v) => fmt(v * 1000) + ' mm',
+  re: (v) => fmt(Math.pow(10, v)), ratio: (v) => fmt(v, 2) + ' : 1', soc: (v) => fmt(v * 100) + ' %',
+};
+const KEYS = ['rpm', 'pitchUpper', 'pitchLower', 'blades', 'chord', 'rIn', 'rOut', 'thickness', 'twist', 'spacing'];
+const REF = { rpm: 850, pitchUpper: 12, pitchLower: 12, blades: 8, chord: 0.12, rIn: 0.15, rOut: 0.75, thickness: 0.12, twist: 0, spacing: 0.24 };
+function params() { const p = {}; for (const k of KEYS) p[k] = +$(k).value; return p; }
+function showOutputs() { for (const k in UNITS) if ($(k)) $(k + '_o').textContent = UNITS[k](+$(k).value); }
+
+for (const k of [...KEYS, 'person', 'slow', 'rSec', 're', 'ratio', 'soc']) {
+  $(k).addEventListener('input', () => {
+    if ($('couple').checked && (k === 'pitchUpper' || k === 'pitchLower')) $(k === 'pitchUpper' ? 'pitchLower' : 'pitchUpper').value = $(k).value;
+    if (k === 'rIn' && +$('rIn').value > +$('rOut').value - 0.03) $('rOut').value = +$('rIn').value + 0.03;
+    if (k === 'rOut' && +$('rOut').value < +$('rIn').value + 0.03) $('rIn').value = +$('rOut').value - 0.03;
+    showOutputs(); scheduleUpdate(!['slow', 'rSec', 're', 'ratio', 'soc'].includes(k));
+    if (k === 'rIn' || k === 'rOut') syncSectionSlider();
+    if (['blades', 'chord', 'rIn', 'rOut', 'thickness', 'spacing', 'rSec'].includes(k)) lbmRebuildSoon();
+    else if (['pitchUpper', 'pitchLower', 'twist', 'rpm', 're'].includes(k)) lbmRetune();
+  });
+}
+$('variant').onchange = () => scheduleUpdate(true);
+$('drive').onchange = () => scheduleUpdate(false);
+function syncSectionSlider(target) {
+  const r = $('rSec'), lo = +$('rIn').value, hi = +$('rOut').value;
+  r.min = lo; r.max = hi; r.value = target ?? Math.min(Math.max(+r.value, lo), hi); showOutputs();
+}
+/* Testmodell 1:4 aus modell_r04/auslegung (Auslegung.json): Schwebepunkt 14 Grad oben, unten Drehmomentgleichgewicht. */
+$('model14').onclick = () => {
+  const m = { rpm: 2230, pitchUpper: 14, pitchLower: 16.5, blades: 8, chord: 0.03, rIn: 0.0375, rOut: 0.1875, thickness: 0.12, twist: 0, spacing: 0.06 };
+  for (const k of KEYS) $(k).value = m[k];
+  $('couple').checked = false; $('drive').checked = true; $('ratio').value = 6.5; $('variant').value = '1.1'; $('person').value = 0;
+  syncSectionSlider(0.6 * m.rOut); showOutputs(); scheduleUpdate(true); lbmRebuildSoon();
+};
+$('couple').onchange = () => { if ($('couple').checked) { $('pitchLower').value = $('pitchUpper').value; showOutputs(); scheduleUpdate(true); lbmRetune(); } };
+$('reset').onclick = () => { for (const k of KEYS) $(k).value = REF[k]; $('couple').checked = true; $('drive').checked = false; $('variant').value = '63.2'; $('person').value = 100; syncSectionSlider(0.45); showOutputs(); scheduleUpdate(true); lbmRebuildSoon(); };
+$('balance').onclick = () => {
+  const th = R04Physik.balanceLowerPitch(params());
+  if (th === null) { $('balance').textContent = 'kein Ausgleich im Bereich'; setTimeout(() => $('balance').textContent = 'Drehmoment ausgleichen', 2000); return; }
+  $('couple').checked = false; $('pitchLower').value = Math.round(th * 2) / 2; showOutputs(); scheduleUpdate(true); lbmRetune();
+};
+
+/* ---------- Simulation & Kennwerte ---------- */
+let sim = null, sweeps = null, pending = false, pendingSweeps = false;
+function scheduleUpdate(withSweeps) { pendingSweeps = pendingSweeps || withSweeps; if (!pending) { pending = true; requestAnimationFrame(update); } }
+function requiredN() { return ((+$('variant').value) + (+$('person').value)) * R04Physik.G; }
+
+function update() {
+  pending = false;
+  const p = params();
+  sim = R04Physik.simulate(p);
+  if (pendingSweeps) {
+    pendingSweeps = false;
+    const d = p.pitchLower - p.pitchUpper;
+    const pv = []; for (let x = -2; x <= 30; x += 1) pv.push(x);
+    const nTop = Math.max(1600, Math.ceil(p.rpm * 1.6 / 100) * 100), nv = []; for (let i = 0; i <= 32; i++) nv.push(Math.round(nTop * i / 32));
+    sweeps = {
+      pitch: R04Physik.sweep(p, null, pv, (q, x) => Object.assign({}, q, { pitchUpper: x, pitchLower: x + d })),
+      rpm: R04Physik.sweep(p, 'rpm', nv),
+    };
+  }
+  renderKpis(); renderCharts(); renderTable();
+}
+
+function kpi(k, v, s, extra = '') { return `<div class="kpi"><div class="k">${k}</div><div class="v">${v}</div><div class="s">${s}</div>${extra}</div>`; }
+function renderKpis() {
+  const s = sim, req = requiredN(), ok = s.T >= req;
+  const status = `<span class="status"><span class="dot" style="background:${ok ? css('--good') : css('--critical')}"></span>${ok ? '✓ Kraft ≥ Anforderung (Modell)' : '✗ unter Anforderung'}</span>`;
+  const re = s.params.chord * s.upper.omega * s.rRef / 1.5e-5;
+  $('kpis').innerHTML =
+    kpi('Gesamtauftrieb', fmt(s.T) + ' N', `≈ ${fmt(s.kgEquivalent, 1)} kg Kraftäquivalent`) +
+    kpi('Oben / unten', `${fmt(s.upper.T)} / ${fmt(s.lower.T)} N`, `unten ${fmt(100 * s.lower.T / Math.max(s.upper.T, 1e-9))} % des oberen`) +
+    kpi('Anforderung', fmt(req) + ' N', `Verhältnis ${fmt(s.T / Math.max(req, 1e-9), 2)}`, status) +
+    kpi('Aerodyn. Leistung', fmtP(s.P), `oben ${fmtP(s.upper.P)} · unten ${fmtP(s.lower.P)}`) +
+    kpi('Drehmoment oben − unten', fmtQ(s.Q), `oben ${fmtQ(s.upper.Q)} · unten ${fmtQ(s.lower.Q)}`) +
+    kpi('Gütegrad (FM)', fmt(s.figureOfMerit, 2), `ideal ${fmtP(s.pIdeal)} · ${fmt(s.diskLoading)} N/m²`) +
+    kpi('Blattspitze', fmt(s.tipSpeed) + ' m/s', `Mach ${fmt(s.tipMach, 2)}`) +
+    kpi(`Zentripetal bei r ${fmt(s.rRef * 1000)} mm`, fmt(s.accelRef) + ' g', `Re dort ≈ ${fmt(re / 1000)}·10³`) +
+    kpi('Strömungsabriss', fmt(100 * s.stalledFraction) + ' %', 'Anteil der Spannweite (Mittel)') + driveKpis(s);
+}
+function driveKpis(s) {
+  if (!$('drive').checked || !window.R04Antrieb) return '';
+  const A = R04Antrieb, M = A.MOTOR_ECO2_2306_1900, B = A.BATTERY_TATTU_1550_6S, i = +$('ratio').value, soc = +$('soc').value;
+  const up = { rpm: s.params.rpm, Q: s.upper.Q }, lo = { rpm: s.params.rpm, Q: s.lower.Q };
+  const sp = A.systemPoint(M, B, up, lo, i, soc), end = A.enduranceSeconds(M, B, up, lo, i);
+  const st = (ok, txt) => `<span class="status"><span class="dot" style="background:${ok ? css('--good') : css('--critical')}"></span>${ok ? '✓ ' : '✗ '}${txt}</span>`;
+  return kpi('Motorstrom oben / unten', `${fmt(sp.upper.current, 1)} / ${fmt(sp.lower.current, 1)} A`, `Spitze laut Datenblatt ${M.peakCurrent} A`, st(!sp.upper.overPeak && !sp.lower.overPeak, 'unter Spitzenstrom')) +
+    kpi('Motordrehzahl', fmt(sp.upper.rpm) + ' U/min', `Wirkungsgrad Motor ${fmt(100 * sp.upper.eff)} %`) +
+    kpi('Tastgrad (Gas)', fmt(100 * sp.duty) + ' %', `Akku ${fmt(sp.busVoltage, 1)} V bei ${fmt(100 * soc)} %`, st(sp.duty <= 0.95, sp.duty <= 0.95 ? 'Stellreserve vorhanden' : 'Spannung reicht nicht')) +
+    kpi('Elektrische Leistung', fmt(sp.pBus) + ' W', `Akkustrom ${fmt(sp.batteryCurrent, 1)} A · Motorverlust ${fmt(sp.upper.copperLoss + sp.upper.ironLoss, 1)} W je Motor`) +
+    kpi('Laufzeit an diesem Punkt', fmt(end.seconds / 60, 1) + ' min', end.limit === 'Stellreserve' ? 'begrenzt durch Akkuspannung' : '80 % Akkunutzung, optimistisch');
+}
+
+/* ---------- Diagramme (Canvas, Hover-Crosshair) ---------- */
+function setupChart(id, title, sub, series, refLabel) {
+  const el = $(id);
+  el.innerHTML = `<h3>${title}</h3><div class="sub">${sub}</div><div class="legend">${series.map((s) => `<span><i style="background:var(${s.color})"></i>${s.name}</span>`).join('')}${refLabel ? `<span><i class="dash"></i>${refLabel}</span>` : ''}</div><canvas height="230"></canvas><div class="tip"></div>`;
+  const chart = { el, canvas: el.querySelector('canvas'), tip: el.querySelector('.tip'), series, data: null, hover: null };
+  chart.canvas.addEventListener('pointermove', (e) => { const r = chart.canvas.getBoundingClientRect(); chart.hover = e.clientX - r.left; drawChart(chart); });
+  chart.canvas.addEventListener('pointerleave', () => { chart.hover = null; chart.tip.style.display = 'none'; drawChart(chart); });
+  return chart;
+}
+function niceTicks(lo, hi, n) {
+  const span = hi - lo || 1, step0 = span / n, mag = Math.pow(10, Math.floor(Math.log10(step0)));
+  const step = [1, 2, 2.5, 5, 10].map((m) => m * mag).find((s) => s >= step0);
+  const t = []; for (let v = Math.ceil(lo / step) * step; v <= hi + 1e-9; v += step) t.push(+v.toFixed(10));
+  return t;
+}
+function drawChart(c) {
+  if (!c.data) return;
+  const dpr = devicePixelRatio || 1, W = c.canvas.clientWidth, H = 230;
+  c.canvas.width = W * dpr; c.canvas.height = H * dpr;
+  const g = c.canvas.getContext('2d'); g.setTransform(dpr, 0, 0, dpr, 0, 0); g.clearRect(0, 0, W, H);
+  const m = { l: 52, r: 64, t: 8, b: 30 }, { xs, ys, xLabel, yLabel, refY, marker, xFmt, yFmt } = c.data;
+  let ylo = Infinity, yhi = -Infinity;
+  for (const arr of ys) for (const v of arr) { if (Number.isFinite(v)) { ylo = Math.min(ylo, v); yhi = Math.max(yhi, v); } }
+  if (refY != null) { ylo = Math.min(ylo, refY); yhi = Math.max(yhi, refY); }
+  ylo = Math.min(ylo, 0); if (yhi <= ylo) yhi = ylo + 1; yhi += (yhi - ylo) * 0.06;
+  const xlo = xs[0], xhi = xs[xs.length - 1];
+  const X = (v) => m.l + (v - xlo) / (xhi - xlo) * (W - m.l - m.r), Y = (v) => H - m.b - (v - ylo) / (yhi - ylo) * (H - m.t - m.b);
+  g.font = '11px system-ui, sans-serif'; g.fillStyle = css('--text-muted'); g.strokeStyle = css('--grid'); g.lineWidth = 1;
+  for (const t of niceTicks(ylo, yhi, 5)) { g.beginPath(); g.moveTo(m.l, Y(t) + .5); g.lineTo(W - m.r, Y(t) + .5); g.stroke(); g.textAlign = 'right'; g.fillText(yFmt(t), m.l - 6, Y(t) + 4); }
+  g.textAlign = 'center';
+  for (const t of niceTicks(xlo, xhi, 6)) g.fillText(xFmt(t), X(t), H - m.b + 16);
+  g.fillText(xLabel, (m.l + W - m.r) / 2, H - 2);
+  g.save(); g.translate(11, (m.t + H - m.b) / 2); g.rotate(-Math.PI / 2); g.fillText(yLabel, 0, 0); g.restore();
+  if (ylo < 0) { g.strokeStyle = css('--text-muted'); g.beginPath(); g.moveTo(m.l, Y(0) + .5); g.lineTo(W - m.r, Y(0) + .5); g.stroke(); }
+  if (refY != null) {
+    g.setLineDash([4, 3]); g.strokeStyle = css('--text-secondary'); g.lineWidth = 1.5;
+    g.beginPath(); g.moveTo(m.l, Y(refY)); g.lineTo(W - m.r, Y(refY)); g.stroke(); g.setLineDash([]);
+  }
+  const labels = [];
+  c.series.forEach((s, k) => {
+    g.strokeStyle = css(s.color); g.lineWidth = 2; g.lineJoin = 'round'; g.beginPath();
+    let started = false;
+    ys[k].forEach((v, i) => { if (!Number.isFinite(v)) return; const px = X(xs[i]), py = Y(v); started ? g.lineTo(px, py) : g.moveTo(px, py); started = true; });
+    g.stroke();
+    const lastV = ys[k][ys[k].length - 1]; labels.push({ y: Y(lastV), name: s.short || s.name });
+  });
+  labels.sort((a, b) => a.y - b.y); for (let i = 1; i < labels.length; i++) labels[i].y = Math.max(labels[i].y, labels[i - 1].y + 12);
+  g.textAlign = 'left'; g.fillStyle = css('--text-secondary'); for (const l of labels) g.fillText(l.name, W - m.r + 6, l.y + 4);
+  if (marker) {
+    for (let k = 0; k < marker.ys.length; k++) {
+      const px = X(marker.x), py = Y(marker.ys[k]);
+      g.beginPath(); g.arc(px, py, 5, 0, 2 * Math.PI); g.fillStyle = css(c.series[k].color); g.fill();
+      g.lineWidth = 2; g.strokeStyle = css('--surface-1'); g.stroke();
+    }
+  }
+  if (c.hover != null && c.hover >= m.l && c.hover <= W - m.r) {
+    let best = 0; for (let i = 1; i < xs.length; i++) if (Math.abs(X(xs[i]) - c.hover) < Math.abs(X(xs[best]) - c.hover)) best = i;
+    const px = X(xs[best]);
+    g.strokeStyle = css('--text-muted'); g.lineWidth = 1; g.beginPath(); g.moveTo(px + .5, m.t); g.lineTo(px + .5, H - m.b); g.stroke();
+    c.series.forEach((s, k) => { const v = ys[k][best]; if (!Number.isFinite(v)) return; g.beginPath(); g.arc(px, Y(v), 4, 0, 2 * Math.PI); g.fillStyle = css(s.color); g.fill(); g.strokeStyle = css('--surface-1'); g.lineWidth = 2; g.stroke(); });
+    c.tip.innerHTML = `<b>${xLabel}: ${xFmt(xs[best])}</b><br>` + c.series.map((s, k) => `<span class="sw" style="background:var(${s.color})"></span>${s.name}: ${yFmt(ys[k][best], true)}`).join('<br>') + (refY != null ? `<br>Anforderung: ${yFmt(refY, true)}` : '');
+    c.tip.style.display = 'block';
+    const tw = c.tip.offsetWidth; c.tip.style.left = Math.min(Math.max(px + 14, 0), W - tw) + 'px'; c.tip.style.top = '60px';
+  }
+}
+
+const UP = { name: 'oben', color: '--series-1' }, LO = { name: 'unten', color: '--series-2' }, TOT = { name: 'gesamt', color: '--series-3' };
+const charts = {
+  pitch: setupChart('cPitch', 'Auftrieb über Pitch', 'Pitch oben; Differenz unten−oben bleibt wie eingestellt', [TOT, UP, LO], 'Anforderung'),
+  rpm: setupChart('cRpm', 'Auftrieb über Drehzahl', 'bei aktuellem Pitch und aktueller Geometrie', [TOT, UP, LO], 'Anforderung'),
+  load: setupChart('cLoad', 'Auftriebsverteilung entlang der Spannweite', 'dT/dr je Ebene (alle Flügel einer Ebene)', [UP, LO]),
+  alpha: setupChart('cAlpha', 'Effektiver Anstellwinkel', 'Pitch minus Zuströmwinkel; gestrichelt: Abrisswinkel der Polare bei 60 % Außenradius', [UP, LO], 'Abriss'),
+};
+function renderCharts() {
+  const s = sim, req = requiredN(), N = (v, t) => fmt(v) + (t ? ' N' : '');
+  charts.pitch.data = { xs: sweeps.pitch.map((d) => d.x), ys: [sweeps.pitch.map((d) => d.total), sweeps.pitch.map((d) => d.upper), sweeps.pitch.map((d) => d.lower)],
+    xLabel: 'Pitch oben [°]', yLabel: 'Auftrieb [N]', refY: req, marker: { x: s.params.pitchUpper, ys: [s.T, s.upper.T, s.lower.T] }, xFmt: (v) => fmt(v), yFmt: N };
+  charts.rpm.data = { xs: sweeps.rpm.map((d) => d.x), ys: [sweeps.rpm.map((d) => d.total), sweeps.rpm.map((d) => d.upper), sweeps.rpm.map((d) => d.lower)],
+    xLabel: 'Drehzahl [U/min]', yLabel: 'Auftrieb [N]', refY: req, marker: { x: s.params.rpm, ys: [s.T, s.upper.T, s.lower.T] }, xFmt: (v) => fmt(v), yFmt: N };
+  charts.load.data = { xs: s.upper.r.map((r) => r * 1000), ys: [s.upper.dT, s.lower.dT], xLabel: 'Radius [mm]', yLabel: 'dT/dr [N/m]', xFmt: (v) => fmt(v), yFmt: (v, t) => fmt(v) + (t ? ' N/m' : '') };
+  const re = s.params.chord * s.upper.omega * s.rRef / 1.5e-5;
+  charts.alpha.data = { xs: s.upper.r.map((r) => r * 1000), ys: [s.upper.alpha, s.lower.alpha], xLabel: 'Radius [mm]', yLabel: 'α [°]', refY: R04Physik.stallAngle(re, s.params.thickness), xFmt: (v) => fmt(v), yFmt: (v, t) => fmt(v, 1) + (t ? '°' : '') };
+  for (const c of Object.values(charts)) drawChart(c);
+}
+function renderTable() {
+  const s = sim, rows = s.upper.r.map((r, i) => `<tr><td>${fmt(r * 1000)}</td><td>${fmt(s.upper.alpha[i], 1)}</td><td>${fmt(s.upper.v[i], 1)}</td><td>${fmt(s.upper.dT[i])}</td><td>${fmt(s.lower.v0[i], 1)}</td><td>${fmt(s.lower.alpha[i], 1)}</td><td>${fmt(s.lower.dT[i])}</td></tr>`).join('');
+  $('table').innerHTML = `<table><thead><tr><th>r [mm]</th><th>α oben [°]</th><th>v_ind oben [m/s]</th><th>dT/dr oben [N/m]</th><th>Zuström. unten [m/s]</th><th>α unten [°]</th><th>dT/dr unten [N/m]</th></tr></thead><tbody>${rows}</tbody></table>`;
+}
+addEventListener('resize', () => { for (const c of Object.values(charts)) drawChart(c); });
+
+/* ---------- Farbskalen ---------- */
+function hex(h) { h = h.replace('#', ''); return [0, 2, 4].map((i) => parseInt(h.slice(i, i + 2), 16)); }
+function lerpColor(stops, t) {
+  t = Math.min(1, Math.max(0, t)); const x = t * (stops.length - 1), i = Math.min(stops.length - 2, Math.floor(x)), f = x - i;
+  return stops[i].map((v, k) => v + (stops[i + 1][k] - v) * f);
+}
+const SEQ_LIGHT = ['#cde2fb', '#9ec5f4', '#6da7ec', '#3987e5', '#256abf', '#184f95', '#0d366b'].map(hex);
+function seqDark() { return [hex('#232321'), hex('#104281'), hex('#1c5cab'), hex('#3987e5'), hex('#6da7ec'), hex('#b7d3f6')]; }
+function sequential() { return css('--surface-1') === '#1a1a19' ? seqDark() : SEQ_LIGHT; }
+function diverging() { const mid = hex(css('--mid')); return [hex('#184f95'), hex('#3987e5'), mid, hex('#e66767'), hex('#a8302f')]; }
+function drawScale(canvas, stops) { const g = canvas.getContext('2d'); for (let x = 0; x < canvas.width; x++) { const c = lerpColor(stops, x / (canvas.width - 1)); g.fillStyle = `rgb(${c[0]},${c[1]},${c[2]})`; g.fillRect(x, 0, 1, canvas.height); } }
+
+/* ---------- 3D-Ansicht ---------- */
+const v3 = { canvas: $('view3d'), yaw: 0.6, el: 0.42, t: 0, parts: [], last: performance.now() };
+(function () {
+  let drag = null;
+  v3.canvas.addEventListener('pointerdown', (e) => { drag = { x: e.clientX, y: e.clientY, yaw: v3.yaw, el: v3.el }; v3.canvas.setPointerCapture(e.pointerId); });
+  v3.canvas.addEventListener('pointermove', (e) => { if (!drag) return; v3.yaw = drag.yaw + (e.clientX - drag.x) * 0.008; v3.el = Math.min(1.45, Math.max(-0.3, drag.el + (e.clientY - drag.y) * 0.006)); });
+  v3.canvas.addEventListener('pointerup', () => drag = null);
+})();
+function interpArr(xs, ys, x) { if (x <= xs[0]) return ys[0]; if (x >= xs[xs.length - 1]) return ys[ys.length - 1]; let i = 1; while (xs[i] < x) i++; const t = (x - xs[i - 1]) / (xs[i] - xs[i - 1]); return ys[i - 1] * (1 - t) + ys[i] * t; }
+/* Nachlauffeld: Aktuatorscheiben-Verlauf je Rotor, Profil v(r) kontrahiert mit 1/sqrt(Faktor). Drall in Rotordrehrichtung. */
+function wakeVel(x, y, z) {
+  const s = sim, r = Math.hypot(x, y), R = s.params.rOut, h2 = s.params.spacing / 2;
+  let uz = 0, ut = 0;
+  const rotors = [[s.upper, h2, 1], [s.lower, -h2, -1]];
+  for (const [rot, z0, dir] of rotors) {
+    const d = z0 - z, fac = d >= 0 ? 1 + d / Math.hypot(d, R) : 1 - (-d) / Math.hypot(d, R);
+    const rr = d >= 0 ? r * Math.sqrt(fac) : r;
+    if (rr < s.params.rIn * 0.98 || rr > s.params.rOut * 1.02) continue;
+    const vi = interpArr(rot.r, rot.v, rr), wi = interpArr(rot.r, rot.w, rr);
+    uz -= vi * fac; if (d >= 0) ut += dir * wi * fac * (rr / Math.max(r, 1e-3));
+  }
+  return { uz, ut, r };
+}
+function project(p, W, H) {
+  const cy = Math.cos(v3.yaw), sy = Math.sin(v3.yaw), ce = Math.cos(v3.el), se = Math.sin(v3.el);
+  const x1 = p[0] * cy - p[1] * sy, y1 = p[0] * sy + p[1] * cy;
+  const depth = y1 * ce + p[2] * se, up = -y1 * se + p[2] * ce;
+  const z = 0.75 / (sim ? sim.params.rOut : 0.75), D = 4.2, sc = Math.min(W, H) * 0.95 * D / (D - depth * z) / 2.2 * z;
+  return [W / 2 + x1 * sc, H * 0.5 - up * sc, depth];
+}
+function blades(rot, z0, dir, pitch, angle, out, color) {
+  const s = sim.params, B = s.blades;
+  for (let k = 0; k < B; k++) {
+    const psi = angle + 2 * Math.PI * k / B, er = [Math.cos(psi), Math.sin(psi)], t = [-dir * er[1], dir * er[0]];
+    const pt = (r, side) => { const th = (pitch + s.twist * R04Physik.twistShape(s, r)) * Math.PI / 180, h = side * s.chord / 2; return [r * er[0] + t[0] * h * Math.cos(th), r * er[1] + t[1] * h * Math.cos(th), z0 + h * Math.sin(th)]; };
+    out.push({ pts: [pt(s.rIn, 1), pt(s.rOut, 1), pt(s.rOut, -1), pt(s.rIn, -1)], color });
+    out[out.length - 1].te = (r) => pt(r, -1);
+  }
+}
+function draw3d(now) {
+  const c = v3.canvas, dpr = devicePixelRatio || 1, W = c.clientWidth, H = 440;
+  if (c.width !== W * dpr) { c.width = W * dpr; c.height = H * dpr; }
+  const g = c.getContext('2d'); g.setTransform(dpr, 0, 0, dpr, 0, 0); g.clearRect(0, 0, W, H);
+  if (!sim) return;
+  const dt = Math.min(0.05, (now - v3.last) / 1000), slow = +$('slow').value; v3.last = now;
+  const s = sim.params, om = sim.upper.omega, h2 = s.spacing / 2;
+  v3.t += dt * slow;
+  // Fuehrungen als duenne Ringe
+  g.strokeStyle = css('--text-muted'); g.lineWidth = 1;
+  const gOff = 0.02 * s.rOut / 0.75;
+  for (const z of [h2, -h2]) for (const r of [s.rIn - gOff, s.rOut + gOff]) {
+    g.beginPath(); for (let i = 0; i <= 72; i++) { const a = i / 72 * 2 * Math.PI, q = project([r * Math.cos(a), r * Math.sin(a), z], W, H); i ? g.lineTo(q[0], q[1]) : g.moveTo(q[0], q[1]); } g.stroke();
+  }
+  const polys = [];
+  blades(sim.upper, h2, 1, s.pitchUpper, om * v3.t, polys, css('--series-1'));
+  const nUp = polys.length;
+  blades(sim.lower, -h2, -1, s.pitchLower, -om * v3.t, polys, css('--series-2'));
+  // Partikel
+  const seq = sequential(), vmax = Math.max(4, 2.2 * Math.max(...sim.upper.v, ...sim.lower.v.map((v, i) => v + sim.lower.v0[i])));
+  if ($('particles3d').checked && om > 0) {
+    const spawn = Math.min(400, Math.round(2500 * dt));
+    for (let n = 0; n < spawn; n++) {
+      const lower = Math.random() < 0.5, rot = lower ? sim.lower : sim.upper, list = lower ? polys.slice(nUp) : polys.slice(0, nUp);
+      let w; for (let tries = 0; tries < 6; tries++) { const i = Math.floor(Math.random() * rot.r.length); w = rot.r[i]; if (Math.random() < Math.max(0, rot.dT[i]) / Math.max(...rot.dT, 1e-9)) break; }
+      const b = list[Math.floor(Math.random() * list.length)];
+      v3.parts.push({ p: b.te(w), age: 0 });
+    }
+  } else if (!$('particles3d').checked) v3.parts.length = 0;
+  if (v3.parts.length > 9000) v3.parts.splice(0, v3.parts.length - 9000);
+  const sub = 2, h = dt * slow / sub;
+  const pdraw = [];
+  for (let i = v3.parts.length - 1; i >= 0; i--) {
+    const q = v3.parts[i];
+    let sp = 0;
+    for (let k = 0; k < sub; k++) {
+      const [x, y, z] = q.p, f = wakeVel(x, y, z), fd = wakeVel(x, y, z - 0.01);
+      const ur = -0.5 * f.r * (f.uz - fd.uz) / 0.01;
+      const ex = f.r > 1e-6 ? x / f.r : 1, ey = f.r > 1e-6 ? y / f.r : 0;
+      const vx = ur * ex - f.ut * ey, vy = ur * ey + f.ut * ex;
+      q.p = [x + vx * h, y + vy * h, z + f.uz * h]; sp = Math.hypot(vx, vy, f.uz);
+    }
+    q.age += dt; q.sp = sp;
+    const L = s.rOut / 0.75;
+    if (q.p[2] < -1.4 * L || q.age > 12 || Math.hypot(q.p[0], q.p[1]) > 1.6 * L) { v3.parts.splice(i, 1); continue; }
+    pdraw.push(q);
+  }
+  // Painter: Fluegel und Partikel nach Tiefe
+  const items = polys.map((pl) => { const pr = pl.pts.map((p) => project(p, W, H)); return { d: pr.reduce((a, b) => a + b[2], 0) / 4, pr, color: pl.color }; });
+  for (const q of pdraw) { const pr = project(q.p, W, H); items.push({ d: pr[2], pt: pr, sp: q.sp }); }
+  items.sort((a, b) => a.d - b.d);
+  for (const it of items) {
+    if (it.pt) { const col = lerpColor(seq, 0.15 + 0.85 * it.sp / vmax); g.fillStyle = `rgb(${col[0] | 0},${col[1] | 0},${col[2] | 0})`; g.fillRect(it.pt[0] - 1, it.pt[1] - 1, 2, 2); }
+    else { g.beginPath(); it.pr.forEach((p, i) => i ? g.lineTo(p[0], p[1]) : g.moveTo(p[0], p[1])); g.closePath(); g.fillStyle = it.color; g.globalAlpha = 0.9; g.fill(); g.globalAlpha = 1; g.strokeStyle = css('--surface-2'); g.lineWidth = 1; g.stroke(); }
+  }
+  g.fillStyle = css('--text-muted'); g.font = '11px system-ui, sans-serif'; g.textAlign = 'left';
+  g.fillText(`Zeitlupe ×${fmt(slow, 3)} · ${fmt(s.rpm)} U/min real · ${v3.parts.length} Partikel`, 8, H - 8);
+  drawScale($('scale3d'), seq); $('scale3d_max').textContent = fmt(vmax, 1) + ' m/s';
+}
+
+/* ---------- 2D-LBM ---------- */
+const v2 = { canvas: $('view2d'), cas: null, paused: false, rebuildAt: 0, smoke: [], img: null, buf: null, map: {} };
+function lbmGeometry() {
+  const p = params(), rSec = Math.min(Math.max(+$('rSec').value, p.rIn + 0.005), p.rOut - 0.005);
+  let cc = +$('res').value;
+  const spacing = 2 * Math.PI * rSec / p.blades;
+  let sc = spacing / p.chord * cc, periods = Math.max(1, Math.min(6, Math.ceil(160 / sc)));
+  let gap = p.spacing / p.chord * cc, ny = Math.round(gap + 7 * cc);
+  while (periods * sc * ny > 90000 && cc > 12) { cc -= 2; sc = spacing / p.chord * cc; gap = p.spacing / p.chord * cc; ny = Math.round(gap + 7 * cc); }
+  return { p, rSec, cc, sc: Math.max(sc, cc * 0.6), periods, gap, ny };
+}
+function lbmTuning(geo) {
+  const p = geo.p, U = sim.upper.omega * geo.rSec, uLat = U > 0 ? Math.min(0.12, Math.max(0.015, 0.1 * U / 60)) : 0;
+  const re = Math.pow(10, +$('re').value), nu = Math.max(1e-5, (uLat || 0.05) * geo.cc / re);
+  const tw = (r) => p.twist * R04Physik.twistShape(p, r);
+  return { uLat, nu, U, rows: [{ pitch: p.pitchUpper + tw(geo.rSec), dir: 1 }, { pitch: p.pitchLower + tw(geo.rSec), dir: -1 }] };
+}
+function lbmBuild() {
+  if (!sim) return;
+  const geo = lbmGeometry(), tu = lbmTuning(geo);
+  v2.geo = geo;
+  v2.cas = new R04LBM.Cascade({ nx: Math.round(geo.periods * geo.sc), ny: geo.ny, chordCells: geo.cc, spacingCells: Math.round(geo.periods * geo.sc) / geo.periods,
+    levelGapCells: geo.gap, rows: tu.rows, tc: geo.p.thickness, teHalf: 0.4 / 120, uBlade: tu.uLat, nu: tu.nu, sponge: Math.round(1.2 * geo.cc) });
+  v2.tu = tu; v2.smoke = []; v2.vort = new Float32Array(v2.cas.nx * v2.cas.ny);
+  const off = document.createElement('canvas'); off.width = v2.cas.nx; off.height = v2.cas.ny; v2.off = off; v2.img = off.getContext('2d').createImageData(v2.cas.nx, v2.cas.ny);
+}
+function lbmRebuildSoon() { v2.rebuildAt = performance.now() + 250; }
+function lbmRetune() {
+  if (!v2.cas || !sim) return;
+  const tu = lbmTuning(v2.geo); v2.tu = tu;
+  v2.cas.rows[0].pitch = tu.rows[0].pitch; v2.cas.rows[1].pitch = tu.rows[1].pitch;
+  // Reihen an ihrer aktuellen Position halten, wenn sich die Geschwindigkeit aendert
+  for (let j = 0; j < 2; j++) v2.cas.offsets[j] += v2.cas.rows[j].dir * (v2.cas.uBlade - tu.uLat) * v2.cas.time;
+  v2.cas.uBlade = tu.uLat; v2.cas.nu = tu.nu;
+}
+$('field').onchange = () => {}; $('res').onchange = () => lbmRebuildSoon();
+$('pause').onclick = () => { v2.paused = !v2.paused; $('pause').textContent = v2.paused ? 'Weiter' : 'Pause'; };
+$('restart').onclick = () => lbmBuild();
+function sample(cas, arr, x, y) {
+  const nx = cas.nx, x0 = Math.floor(x), y0 = Math.floor(y), fx = x - x0, fy = y - y0;
+  const xa = (x0 % nx + nx) % nx, xb = (xa + 1) % nx, i = (yy, xx) => arr[yy * nx + xx];
+  return (i(y0, xa) * (1 - fx) + i(y0, xb) * fx) * (1 - fy) + (i(y0 + 1, xa) * (1 - fx) + i(y0 + 1, xb) * fx) * fy;
+}
+function draw2d(now) {
+  if (!sim) return;
+  if (!v2.cas || (v2.rebuildAt && now > v2.rebuildAt)) { v2.rebuildAt = 0; lbmBuild(); }
+  const cas = v2.cas, c = v2.canvas, dpr = devicePixelRatio || 1, W = c.clientWidth, H = 440;
+  if (c.width !== W * dpr) { c.width = W * dpr; c.height = H * dpr; }
+  if (!v2.paused && cas.uBlade > 0) { const t0 = performance.now(); let n = 0; while (performance.now() - t0 < 11 && n < 40) { cas.step(); n++; } v2.stepsPerFrame = n; }
+  const field = $('field').value, { nx, ny, mask, ux, uy } = cas, d = v2.img.data;
+  const U = Math.max(cas.uBlade, 0.02);
+  let stops, lo, hi, vals;
+  if (field === 'vort') { vals = cas.vorticity(v2.vort); hi = 8 * U / cas.chordCells; lo = -hi; stops = diverging(); }
+  else if (field === 'speed') { vals = v2.vort; for (let i = 0; i < vals.length; i++) vals[i] = Math.hypot(ux[i], uy[i]); lo = 0; hi = 1.2 * U; stops = sequential(); }
+  else { vals = v2.vort; for (let i = 0; i < vals.length; i++) vals[i] = uy[i]; hi = 0.5 * U; lo = -hi; stops = diverging(); }
+  const solidU = hex(css('--series-1')), solidL = hex(css('--series-2'));
+  for (let y = 0; y < ny; y++) for (let x = 0; x < nx; x++) {
+    const i = y * nx + x, o = ((ny - 1 - y) * nx + x) * 4;
+    let col; if (mask[i]) col = mask[i] === 1 ? solidU : solidL; else col = lerpColor(stops, ((vals[i] || 0) - lo) / (hi - lo));
+    d[o] = col[0]; d[o + 1] = col[1]; d[o + 2] = col[2]; d[o + 3] = 255;
+  }
+  v2.off.getContext('2d').putImageData(v2.img, 0, 0);
+  const g = c.getContext('2d'); g.setTransform(dpr, 0, 0, dpr, 0, 0);
+  const scale = Math.min(W / nx, H / ny), ox = (W - nx * scale) / 2, oy = (H - ny * scale) / 2;
+  g.fillStyle = css('--surface-2'); g.fillRect(0, 0, W, H);
+  g.imageSmoothingEnabled = true; g.drawImage(v2.off, ox, oy, nx * scale, ny * scale);
+  // Rauchpartikel: oben eingesetzt, mit dem LBM-Feld advektiert
+  if ($('smoke').checked) {
+    const steps = v2.paused ? 0 : (v2.stepsPerFrame || 0);
+    for (let k = 0; k < 30; k++) if (v2.smoke.length < 2500) v2.smoke.push({ x: Math.random() * nx, y: ny - 2 - Math.random() * cas.chordCells * 0.5 });
+    g.fillStyle = css('--text-primary'); g.globalAlpha = 0.55;
+    for (let i = v2.smoke.length - 1; i >= 0; i--) {
+      const q = v2.smoke[i];
+      for (let s = 0; s < steps; s += 2) { q.x += 2 * sample(cas, ux, q.x, q.y); q.y += 2 * sample(cas, uy, q.x, q.y); }
+      q.x = (q.x % nx + nx) % nx;
+      if (q.y < 1 || q.y > ny - 2 || mask[Math.floor(q.y) * nx + Math.floor(q.x)]) { v2.smoke.splice(i, 1); continue; }
+      g.fillRect(ox + q.x * scale - 0.8, oy + (ny - 1 - q.y) * scale - 0.8, 1.6, 1.6);
+    }
+    g.globalAlpha = 1;
+  } else v2.smoke.length = 0;
+  g.fillStyle = css('--text-secondary'); g.font = '11px system-ui, sans-serif'; g.textAlign = 'left';
+  g.fillText('obere Reihe →', ox + 6, oy + (ny - 1 - cas.rowY(0) - cas.chordCells * 0.9) * scale);
+  g.fillText('← untere Reihe', ox + 6, oy + (ny - 1 - cas.rowY(1) + cas.chordCells * 1.2) * scale);
+  drawScale($('scale2d'), stops);
+  const unit = field === 'vort' ? 'Wirbelstärke' : field === 'speed' ? '|u|/U' : 'u_z/U';
+  $('scale2d_min').textContent = field === 'speed' ? '0' : (field === 'vort' ? '− ' + unit + ' (im Uhrzeigersinn)' : '− ' + fmt(hi / U, 1) + ' ' + unit);
+  $('scale2d_max').textContent = field === 'speed' ? fmt(hi / U, 1) + ' ' + unit : (field === 'vort' ? '+ (gegen Uhrzeigersinn)' : '+ ' + fmt(hi / U, 1));
+  if (now - (v2.infoAt || 0) > 400) {
+    v2.infoAt = now;
+    const re = cas.uBlade * cas.chordCells / cas.nu, g2 = v2.geo, tu = v2.tu;
+    const idx = sim.upper.r.reduce((b, r, i) => Math.abs(r - g2.rSec) < Math.abs(sim.upper.r[b] - g2.rSec) ? i : b, 0);
+    $('lbmInfo').innerHTML = `Schnitt r = ${fmt(g2.rSec * 1000)} mm, ${g2.periods} Teilung(en) à ${fmt(2 * Math.PI * g2.rSec / g2.p.blades * 1000)} mm, Bahngeschwindigkeit ${fmt(tu.U, 1)} m/s, Re<sub>2D</sub> ≈ ${fmt(re)} (real ≈ ${fmt(tu.U * g2.p.chord / 1.5e-5)}), Gitter ${cas.nx}×${cas.ny}, ${cas.time} Schritte. `
+      + `c<sub>l</sub> (2D, gleitend) oben ${fmt(cas.cl(0), 2)} / unten ${fmt(cas.cl(1), 2)}; BEMT an dieser Stelle: oben ${fmt(sim.upper.cl[idx], 2)} / unten ${fmt(sim.lower.cl[idx], 2)}. `
+      + `Abwärtsströmung unter der unteren Reihe ${fmt(-cas.meanDownwash() / Math.max(cas.uBlade, 1e-9) * tu.U, 1)} m/s. Unendlich lange Flügel ohne Spitzenverluste bei niedriger Re: nur qualitativ vergleichbar.`;
+  }
+}
+
+function frame(now) { try { draw3d(now); draw2d(now); } catch (e) { console.error(e); } requestAnimationFrame(frame); }
+showOutputs(); scheduleUpdate(true); requestAnimationFrame(frame);
+if (location.hash === '#testmodell') $('model14').click();
+</script>
+</body>
+</html>

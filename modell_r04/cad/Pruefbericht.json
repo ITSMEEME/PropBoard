@@ -1,0 +1,212 @@
+{
+  "status": "ENTWURF_V1_KEINE_FREIGABE",
+  "servo": "Platzhalter 9-g-Mikroservo",
+  "pitch_hover_deg": [
+    14.0,
+    16.7
+  ],
+  "kollisionen_je_winkel": {
+    "0": [],
+    "7.5": [],
+    "15": [],
+    "22.5": [],
+    "30": [],
+    "37.5": []
+  },
+  "kollisionsfrei": true,
+  "verzahnung": [
+    {
+      "winkel_deg": 0,
+      "ueberdeckung_mm3": 0.0,
+      "min_abstand_mm": 0.176
+    },
+    {
+      "winkel_deg": 0,
+      "ueberdeckung_mm3": 0.0,
+      "min_abstand_mm": 0.176
+    },
+    {
+      "winkel_deg": 7.5,
+      "ueberdeckung_mm3": 0.0,
+      "min_abstand_mm": 0.176
+    },
+    {
+      "winkel_deg": 7.5,
+      "ueberdeckung_mm3": 0.0,
+      "min_abstand_mm": 0.175
+    },
+    {
+      "winkel_deg": 15,
+      "ueberdeckung_mm3": 0.0,
+      "min_abstand_mm": 0.176
+    },
+    {
+      "winkel_deg": 15,
+      "ueberdeckung_mm3": 0.0,
+      "min_abstand_mm": 0.176
+    },
+    {
+      "winkel_deg": 22.5,
+      "ueberdeckung_mm3": 0.0,
+      "min_abstand_mm": 0.176
+    },
+    {
+      "winkel_deg": 22.5,
+      "ueberdeckung_mm3": 0.0,
+      "min_abstand_mm": 0.176
+    },
+    {
+      "winkel_deg": 30,
+      "ueberdeckung_mm3": 0.0,
+      "min_abstand_mm": 0.175
+    },
+    {
+      "winkel_deg": 30,
+      "ueberdeckung_mm3": 0.0,
+      "min_abstand_mm": 0.175
+    },
+    {
+      "winkel_deg": 37.5,
+      "ueberdeckung_mm3": 0.0,
+      "min_abstand_mm": 0.176
+    },
+    {
+      "winkel_deg": 37.5,
+      "ueberdeckung_mm3": 0.0,
+      "min_abstand_mm": 0.176
+    }
+  ],
+  "verzahnung_ohne_ueberdeckung": true,
+  "mindestabstaende": [
+    {
+      "paar": "Fluegel oben - Motor/Platte",
+      "min_abstand_mm": 29.5
+    },
+    {
+      "paar": "Fluegel unten - Motor/Platte",
+      "min_abstand_mm": 29.5
+    },
+    {
+      "paar": "Fluegel oben - Fluegel unten",
+      "min_abstand_mm": 48.0
+    },
+    {
+      "paar": "Rotorelektronik - Motor",
+      "min_abstand_mm": 3.97
+    },
+    {
+      "paar": "Nabe oben - Nabe unten",
+      "min_abstand_mm": 32.0
+    }
+  ],
+  "pitch_endlagen": [
+    {
+      "pitch_deg": -2,
+      "fluegel_nabe_mm3": 0.0,
+      "fluegel_nachbar_mm": 19.76
+    },
+    {
+      "pitch_deg": 21,
+      "fluegel_nabe_mm3": 0.0,
+      "fluegel_nachbar_mm": 23.73
+    }
+  ],
+  "masse_g": {
+    "rotor_oben": 342.3,
+    "rotor_unten": 342.3,
+    "feststehend_cad": 173.6,
+    "akku_fc_empfaenger_bridge_kabel": 337,
+    "gesamt": 1195.0,
+    "auslegung_phase1": 1097
+  },
+  "unwucht": {
+    "rotor_oben_gmm": 27.0,
+    "rotor_unten_gmm": 27.0,
+    "hinweis": "statische Unwucht aus CAD (Platzhaltermassen); Ausgleich ueber Wuchtgewicht gegenueber dem ESP32"
+  },
+  "druckteile": {
+    "Fluegel": {
+      "anzahl": 16,
+      "masse_mm": [
+        135.2,
+        30.0,
+        12.0
+      ],
+      "passt_aufs_bett": true,
+      "gueltig": true,
+      "volumen_cm3": 10.37
+    },
+    "Nabe": {
+      "anzahl": 2,
+      "masse_mm": [
+        118.0,
+        118.0,
+        36.0
+      ],
+      "passt_aufs_bett": true,
+      "gueltig": true,
+      "volumen_cm3": 189.31
+    },
+    "Zahnkranz_91Z_m1": {
+      "anzahl": 2,
+      "masse_mm": [
+        93.0,
+        93.0,
+        6.0
+      ],
+      "passt_aufs_bett": true,
+      "gueltig": true,
+      "volumen_cm3": 29.31
+    },
+    "Halteplatte": {
+      "anzahl": 2,
+      "masse_mm": [
+        132.6,
+        46.0,
+        18.0
+      ],
+      "passt_aufs_bett": true,
+      "gueltig": true,
+      "volumen_cm3": 21.37
+    },
+    "Mitnehmer": {
+      "anzahl": 16,
+      "masse_mm": [
+        6.6,
+        12.0,
+        12.0
+      ],
+      "passt_aufs_bett": true,
+      "gueltig": true,
+      "volumen_cm3": 0.38
+    },
+    "Huelse_Mitte": {
+      "anzahl": 1,
+      "masse_mm": [
+        33.5,
+        33.5,
+        32.0
+      ],
+      "passt_aufs_bett": true,
+      "gueltig": true,
+      "volumen_cm3": 5.13
+    },
+    "Huelse_Aussen": {
+      "anzahl": 2,
+      "masse_mm": [
+        33.5,
+        33.5,
+        32.5
+      ],
+      "passt_aufs_bett": true,
+      "gueltig": true,
+      "volumen_cm3": 5.21
+    }
+  },
+  "zahnkranz": {
+    "teilkreis_mm": 91.0,
+    "kopfkreis_mm": 93.0,
+    "fusskreis_mm": 88.5,
+    "achsabstand_mm": 52.6
+  }
+}

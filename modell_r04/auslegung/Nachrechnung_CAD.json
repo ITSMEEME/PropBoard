@@ -1,0 +1,29 @@
+{
+  "status": "NACHRECHNUNG_MIT_CAD_MASSE_MODELLWERTE",
+  "masse_g": 1195,
+  "masse_phase1_g": 1097,
+  "uebersetzung": 6.5,
+  "fluegel_r_innen_mm": 62,
+  "schweben": {
+    "rotor_rpm": 2316,
+    "pitch_oben": 14,
+    "pitch_unten": 16.71,
+    "motorstrom_A": 8.19,
+    "tastgrad": 0.37,
+    "p_elektrisch_W": 147.4,
+    "laufzeit_min": 11.6
+  },
+  "maximal_tw2": {
+    "rotor_rpm": 3273,
+    "motorstrom_A": 15.31,
+    "tastgrad_flugende": 0.57,
+    "p_elektrisch_W": 393,
+    "machbar": true
+  },
+  "schleudertest": {
+    "rpm": 3928,
+    "fluegelmasse_g": 7.89,
+    "fliehkraft_fluegel_N": 166.5,
+    "servo_g_r37": 638
+  }
+}

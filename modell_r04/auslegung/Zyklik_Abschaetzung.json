@@ -1,0 +1,35 @@
+{
+  "status": "ABSCHAETZUNG_QUASISTATISCH",
+  "rotor_rpm": 2316,
+  "pitch_oben": 14,
+  "pitch_unten": 16.71,
+  "rotoren": {
+    "oben": {
+      "schub_N": 6.91,
+      "moment_je_grad_zyklisch_Nm": 0.1228,
+      "schubaenderung_bei_3grad_N": -0.002
+    },
+    "unten": {
+      "schub_N": 4.81,
+      "moment_je_grad_zyklisch_Nm": 0.1333,
+      "schubaenderung_bei_3grad_N": -0.059
+    }
+  },
+  "rollmoment_je_grad_zyklisch_Nm": {
+    "obere_abschaetzung": 0.256,
+    "untere_abschaetzung_faktor_0_5": 0.128
+  },
+  "schwerpunktversatz_ausgleichbar_mm_bei_4grad": {
+    "obere": 87.4,
+    "untere": 43.7
+  },
+  "steuerfrequenz_1_umlauf_Hz": 38.6,
+  "fluegel_pitchmoment_Nmm": {
+    "propellermoment": 8.2,
+    "luftkraftmoment": 5.5,
+    "netto_ca": 2.7
+  },
+  "gestaengekraft_N_bei_horn_12mm": 0.68,
+  "pitch_je_0_1mm_spiel_grad_horn_12mm": 0.48,
+  "gestaengeweg_mm_fuer_minus2_bis_21grad_horn_12mm": 4.72
+}
