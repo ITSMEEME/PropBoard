@@ -1,0 +1,66 @@
+{
+  "parts": [
+    {
+      "id": "H01",
+      "reopened": true,
+      "solid_valid": true,
+      "views": 3,
+      "associative_dimensions": 3,
+      "printed_mesh_closed": true
+    },
+    {
+      "id": "H02",
+      "reopened": true,
+      "solid_valid": true,
+      "views": 3,
+      "associative_dimensions": 3,
+      "printed_mesh_closed": true
+    },
+    {
+      "id": "H03",
+      "reopened": true,
+      "solid_valid": true,
+      "views": 3,
+      "associative_dimensions": 3,
+      "printed_mesh_closed": true
+    },
+    {
+      "id": "H04",
+      "reopened": true,
+      "solid_valid": true,
+      "views": 3,
+      "associative_dimensions": 3,
+      "printed_mesh_closed": true
+    },
+    {
+      "id": "H05",
+      "reopened": true,
+      "solid_valid": true,
+      "views": 3,
+      "associative_dimensions": 3,
+      "printed_mesh_closed": true
+    },
+    {
+      "id": "H06",
+      "reopened": true,
+      "solid_valid": true,
+      "views": 3,
+      "associative_dimensions": 3,
+      "printed_mesh_closed": null
+    },
+    {
+      "id": "H07",
+      "reopened": true,
+      "solid_valid": true,
+      "views": 3,
+      "associative_dimensions": 3,
+      "printed_mesh_closed": null
+    }
+  ],
+  "battery_standoff_joint_checks": 8,
+  "pad_contact_checks": 2,
+  "assembly_bodies": 196,
+  "parameter_adapter_70_72_70_passed": true,
+  "recorded_static_collisions": 0,
+  "status": "PASS_GEOMETRY_AND_REFERENCE_ENVELOPES_NOT_STRENGTH_OR_PRODUCT_FIT_RELEASE"
+}

@@ -1,0 +1,38 @@
+{
+  "status": "BLOCKED_MANUFACTURER_DATA_ACCESS_NOT_A_PURCHASE_OR_FIT_APPROVAL",
+  "requirements": {
+    "number": 6,
+    "servo_horn_proposal_mm": 8,
+    "proposed_shaft_orientation": "tangent_to_rotor_circle",
+    "required_proposed_travel_deg": [
+      -26.036558464423024,
+      8.61553113694205
+    ],
+    "speed_design_target_s_per_60deg": 0.12,
+    "speed_target_is_measured_under_load": false,
+    "low_friction_effective_mu_0_03_target_class_kgcm": 7,
+    "sliding_mu_0_1_with_60g_servo_target_class_kgcm": 15,
+    "sliding_mu_0_2_with_60g_servo_target_class_kgcm": 25,
+    "voltage": "dedicated regulated BEC at selected servo rated voltage; never direct 6S",
+    "electrical": "3.3 V FC signal compatibility and pulse/frame format must be documented; BEC peak sizing from datasheet stall currents and measured loads"
+  },
+  "candidates": [
+    {
+      "name": "KST X15-755X",
+      "role": "candidate for revised low-friction pitch root",
+      "data_status": "not retrieved; torque, speed, dimensions, mounting, pulse format, mass and current unverified",
+      "supplier_search": "https://kstservos.com/search?q=X15-755X"
+    },
+    {
+      "name": "Savox SB-2270SG",
+      "role": "candidate for higher torque conventional-servo revision",
+      "data_status": "not retrieved; torque, speed, dimensions, mounting, pulse format, mass and current unverified",
+      "supplier_search": "https://www.savoxusa.com/search?q=SB-2270SG"
+    }
+  ],
+  "observed_access": {
+    "kstservos.com": "HTTPS CONNECT HTTP 403",
+    "www.savoxusa.com": "HTTPS CONNECT HTTP 403"
+  },
+  "next_step": "allow manufacturer domains through environment settings or provide product datasheets; then check required rated-voltage torque, continuous load/temperature, travel, horn, voltage/current and actual mounting geometry"
+}

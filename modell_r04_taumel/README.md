@@ -34,6 +34,8 @@ Quellen: [ArduPilot Dual Helicopter](https://ardupilot.org/copter/docs/dual-heli
 
 ## Inhalt
 
+Die [unabhängige Mechanikprüfung](mechanik/README.md) untersucht die geschlossene Taumelscheibenkinematik und den Servobedarf einschließlich Pitchwurzelreibung und Massenrückkopplung. Die frühere pauschale 9-g-Servoempfehlung ist damit nicht bestätigt. [Halterungen H01](halterungen/README.md) ergänzen FC/ESC und den Akku 78 × 37 × 52 mm. Die Servoprodukte sind wegen noch gesperrter Herstellerdatenzugriffe als unbestätigte Kandidaten dokumentiert.
+
 Die **Cohexial Study, Fertigungsentwurf F01**, liegt unter [`cad/`](cad/README.md): native Baugruppe, skriptparametrische Einzelteile mit TechDraw-Seiten, STEP/STL, Zeichnungssatz und Stücklisten. Führungsnut, Mitnehmerstift und Kappenanordnung wurden gegenüber V1 korrigiert. Fehlende Kaufteilanschlüsse, Passungen und Festigkeitsnachweise sind in den [Fertigungshinweisen](cad/Fertigung/Fertigungshinweise.md) aufgeführt; es liegt keine Fertigungsfreigabe vor.
 
 - [`cad/`](cad/README.md): parametrisches FreeCAD-Modell, STL-Dateien, Prüfbericht

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:freecad="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace" width="297mm" height="210mm" viewBox="0 0 297 210"><rect x="8" y="8" width="281" height="194" fill="white" stroke="black" stroke-width="0.35"/><path d="M8 173 H289 M8 190 H289 M195 173 V202" fill="none" stroke="black" stroke-width="0.25"/><text x="12" y="179" font-family="sans-serif" font-size="3.5">COHEXIAL STUDY | R04-Taumelmodell 1:4 | HALTERUNGEN H01</text><text x="12" y="185" font-family="sans-serif" font-size="4">H06  Akku_Distanzrohr_62</text><text x="12" y="195" font-family="sans-serif" font-size="3">Werkstoff: Aluminium, Legierung offen | Anzahl je Baugruppe: 4</text><text x="12" y="200" font-family="sans-serif" font-size="2.6">Alle Masse in mm. Keine Allgemeintoleranz freigegeben. Nicht aus der Zeichnung abmessen.</text><text x="199" y="179" font-family="sans-serif" font-size="3">Status: NICHT FREIGEGEBEN</text><text x="199" y="185" font-family="sans-serif" font-size="3">Datum: 2026-10-30 | Blatt 1/1</text><text x="199" y="195" font-family="sans-serif" font-size="2.8">3D-Datensatz + Nennmasstabelle</text><text x="199" y="200" font-family="sans-serif" font-size="2.8">FreeCAD 1.0.2 | Revision H01</text><g transform="translate(66,58) scale(4) translate(-0.0,0.0)"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="0.02"
+   transform="scale(1, -1)"
+  >
+<circle cx ="0" cy ="0" r ="3" /><circle cx ="0" cy ="0" r ="1.7" /></g>
+</g><text x="66" y="99.5" text-anchor="middle" font-family="sans-serif" font-size="3">Draufsicht | 4.000:1</text><path d="M54.0,70.0 L54.0,78.0" stroke="black" stroke-width="0.18" fill="none"/><path d="M78.0,70.0 L78.0,78.0" stroke="black" stroke-width="0.18" fill="none"/><path d="M54.0,76.0 L78.0,76.0" stroke="black" stroke-width="0.18" fill="none"/><path d="M53.0,77.0 L55.0,75.0" stroke="black" stroke-width="0.18" fill="none"/><path d="M77.0,77.0 L79.0,75.0" stroke="black" stroke-width="0.18" fill="none"/><text x="66" y="75.0" font-family="sans-serif" font-size="3" text-anchor="middle">6.000</text><path d="M54.0,46.0 L46.0,46.0" stroke="black" stroke-width="0.18" fill="none"/><path d="M54.0,70.0 L46.0,70.0" stroke="black" stroke-width="0.18" fill="none"/><path d="M48.0,46.0 L48.0,70.0" stroke="black" stroke-width="0.18" fill="none"/><path d="M47.0,47.0 L49.0,45.0" stroke="black" stroke-width="0.18" fill="none"/><path d="M47.0,71.0 L49.0,69.0" stroke="black" stroke-width="0.18" fill="none"/><text x="47.0" y="58" transform="rotate(-90 47.0 58)" font-family="sans-serif" font-size="3" text-anchor="middle">6.000</text><g transform="translate(66,136) scale(0.5806451612903226) translate(-0.0,31.0)"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="0.13777777777777778"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M -3 0 L -3 62 " />
+</g>
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="0.13777777777777778"
+   transform="scale(1, -1)"
+  >
+<path d="M-3, 62 L-2.92478, 62  L-2.70291, 62  L-2.34549, 62  L-1.87047, 62  L-1.30165, 62  L-0.667563, 62  L-5.55112e-16, 62  L0.667563, 62  L1.30165, 62  L1.87047, 62  L2.34549, 62  L2.70291, 62  L2.92478, 62  L3, 62 " /><path id= "2" d=" M 3 -8.15779e-32 L 3 62 " />
+<path d="M-3, 3.69779e-32 L-2.92478, -7.41144e-17  L-2.70291, -1.44512e-16  L-2.34549, -2.07664e-16  L-1.87047, -2.60402e-16  L-1.30165, -3.00083e-16  L-0.667563, -3.24716e-16  L-5.55112e-16, -3.33067e-16  L0.667563, -3.24716e-16  L1.30165, -3.00083e-16  L1.87047, -2.60402e-16  L2.34549, -2.07664e-16  L2.70291, -1.44512e-16  L2.92478, -7.41144e-17  L3, -8.01187e-32 " /></g>
+</g><text x="66" y="163" text-anchor="middle" font-family="sans-serif" font-size="3">Vorderansicht | 0.581:1</text><g transform="translate(153,136) scale(0.5806451612903224) translate(-0.0,31.000000000000007)"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="0.13777777777777783"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 3 -6.66134e-16 L 3 62 " />
+<path id= "2" d=" M -3 6.66134e-16 L -3 62 " />
+</g>
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="0.13777777777777783"
+   transform="scale(1, -1)"
+  >
+<path d="M-6.66134e-16, 62 L0.335893, 62  L0.667563, 62  L0.990837, 62  L1.30165, 62  L1.5961, 62  L1.87047, 62  L2.12132, 62  L2.34549, 62  L2.54017, 62  L2.70291, 62  L2.83165, 62  L2.92478, 62  L2.98114, 62  L3, 62 " /><path d="M-3, 62 Q-2.99057, 62 -2.98114, 62  Q-2.95296, 62 -2.92478, 62  Q-2.87822, 62 -2.83165, 62  Q-2.76728, 62 -2.70291, 62  Q-2.62154, 62 -2.54017, 62  Q-2.44283, 62 -2.34549, 62  Q-2.23341, 62 -2.12132, 62  Q-1.99589, 62 -1.87047, 62  Q-1.73328, 62 -1.5961, 62  Q-1.44887, 62 -1.30165, 62  Q-1.14624, 62 -0.990837, 62  Q-0.8292, 62 -0.667563, 62  Q-0.337078, 62 -1.38778e-15, 62 " /><path d="M-6.66134e-16, 0 L0.335893, -7.45833e-17  L0.667563, -1.48229e-16  L0.990837, -2.2001e-16  L1.30165, -2.89025e-16  L1.5961, -3.54405e-16  L1.87047, -4.15328e-16  L2.12132, -4.71028e-16  L2.34549, -5.20804e-16  L2.54017, -5.64032e-16  L2.70291, -6.00166e-16  L2.83165, -6.28753e-16  L2.92478, -6.49432e-16  L2.98114, -6.61945e-16  L3, -6.66134e-16 " /><path d="M-3, 6.66134e-16 Q-2.99057, 6.6404e-16 -2.98114, 6.61945e-16  Q-2.95296, 6.55689e-16 -2.92478, 6.49432e-16  Q-2.87822, 6.39093e-16 -2.83165, 6.28753e-16  Q-2.76728, 6.14459e-16 -2.70291, 6.00166e-16  Q-2.62154, 5.82099e-16 -2.54017, 5.64032e-16  Q-2.44283, 5.42418e-16 -2.34549, 5.20804e-16  Q-2.23341, 4.95916e-16 -2.12132, 4.71028e-16  Q-1.99589, 4.43178e-16 -1.87047, 4.15328e-16  Q-1.73328, 3.84866e-16 -1.5961, 3.54405e-16  Q-1.44887, 3.21715e-16 -1.30165, 2.89025e-16  Q-1.14624, 2.54517e-16 -0.990837, 2.2001e-16  Q-0.8292, 1.84119e-16 -0.667563, 1.48229e-16  Q-0.337078, 7.48463e-17 -1.38778e-15, 1.60237e-31 " /></g>
+</g><text x="153" y="163" text-anchor="middle" font-family="sans-serif" font-size="3">Seitenansicht | 0.581:1</text><text x="119" y="20" font-family="sans-serif" font-size="2.6">NENNMASSE / MODELLBEZUG</text><text x="119" y="25" font-family="sans-serif" font-size="2.6">Aussen D6; innen D3.4; Laenge 62</text><text x="119" y="30" font-family="sans-serif" font-size="2.6">Zuschnitt, plan entgraten; 4 Stueck</text><text x="119" y="35" font-family="sans-serif" font-size="2.6">Mit durchgehenden M3 x 80, Scheiben und Stoppmuttern</text><text x="119" y="40" font-family="sans-serif" font-size="2.6">Huellmasse XYZ: 6.000 / 6.000 / 62.000</text><text x="119" y="45" font-family="sans-serif" font-size="2.6">Passungen und offene Schnittstellen:</text><text x="119" y="50" font-family="sans-serif" font-size="2.6">siehe Fertigungshinweise.md</text></svg>

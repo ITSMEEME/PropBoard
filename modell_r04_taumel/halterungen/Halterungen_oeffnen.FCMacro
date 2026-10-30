@@ -1,0 +1,14 @@
+import os,sys
+import FreeCAD as App
+base=os.path.dirname(os.path.abspath(__file__))
+if base not in sys.path:sys.path.insert(0,base)
+import halterungen_features
+path=os.path.join(base,'Ausgabe','R04_Taumelmodell_Halterungen_H01.FCStd')
+doc=App.openDocument(path)
+if App.GuiUp:
+    for obj in doc.Objects:
+        if hasattr(obj,'BauteilID') and obj.BauteilID.startswith('KEEP_'):
+            obj.ViewObject.Visibility=False
+    Gui.activeDocument().activeView().viewAxonometric()
+    Gui.activeDocument().activeView().fitAll()
+App.Console.PrintMessage('H01: Geometrieentwurf. Montagegummis, Schraubenkoepfe, Festigkeit und Thermik sind zu pruefen.\n')

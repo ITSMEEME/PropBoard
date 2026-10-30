@@ -1,0 +1,8 @@
+﻿ID;Benennung;Anzahl;Werkstoff;Volumen_mm3;Offen
+H01;Rohr_Endadapter;2;PETG ungefuellt;18437.081;"Rohr gleichzeitig D2.2 quer bohren; axiale Sicherung, keine reine Steckverbindung."
+H02;ESC_Distanz_12;4;PETG ungefuellt;494.235;Hersteller-Daempfer und echte Montageebene vor endgueltiger Laenge pruefen.
+H03;FC_Distanz_14_4;4;PETG ungefuellt;593.082;Hersteller-Daempfer und echte Montageebene vor endgueltiger Laenge pruefen.
+H04;Akku_Anschlussplatte;1;PETG ungefuellt;24052.828;Unterer Endadapter traegt Akku ueber formschluessige Querbolzensicherung.
+H05;Akkuwanne_78x37x52;1;PETG ungefuellt;20963.05;Zellen nicht mit Schrauben klemmen. Gurte und weiche Auflagen separat.
+H06;Akku_Distanzrohr_62;4;Aluminium, Legierung offen;1190.098;Zuschnittteil, kein langer gedruckter Zugpfosten.
+H07;Mittelrohr_Bohrbild_H01;1;Aluminium, Legierung offen;17477.241;Modifiziertes Rohr ersetzt F01-Rohr. Endabstand und lokale Festigkeit pruefen.

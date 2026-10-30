@@ -2,6 +2,8 @@
 
 Stand 30.10.2026. Grundlage: CAD-Entwurf V1 (`cad/`), Nachrechnung mit CAD-Masse (`auslegung/Nachrechnung_CAD.json`) und die quasistatische Zyklik-Abschätzung `auslegung/zyklik.js` → `Zyklik_Abschaetzung.json`. Alle Zahlen sind Modellwerte.
 
+**Nachtrag zur neueren Taumelvariante:** Die unten stehenden pauschalen Aussagen „Standard-Mikroservos reichen“ und „unkritisch“ stellen keinen Nachweis dar. Die [unabhängige Prüfung mit H01-Haltern](../modell_r04_taumel/mechanik/README.md) berücksichtigt vollständige Servohebelübersetzung, Fliehkraftreibung, tatsächliche CAD-Trägheit und zusätzliche Masse. Sie bestätigt keine pauschale 9-g-Servoauswahl. Der folgende Text bleibt als früher Konzeptvergleich erhalten.
+
 ## Kurzfazit
 
 **Die Taumelscheibe ist für das Testmodell das bessere Hauptsteuerelement.** Sie liefert mechanisch die zyklische Pitchverstellung mit 1/Umlauf (≈ 39 Hz), die für Roll- und Nicksteuerung im Flug nötig ist. Die Servos je Flügel können das prinzipiell nicht (5–10 Hz Stellbandbreite). Zugleich entfallen die drehende Elektronik, die Rotorakkus, die Funkstrecke und die Servobelastung von ≈ 640 g. Verloren geht nur die freie Einzelverstellung je Flügel: Möglich bleiben kollektiv und erste Harmonische. Das Prinzip „individueller Pitch“ von R04 wird damit im Modell nicht mehr abgebildet.

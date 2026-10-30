@@ -1,0 +1,119 @@
+{
+  "status": "CONDITIONAL_BEMT_MASS_FEEDBACK_NOT_PROOF",
+  "scenarios": [
+    {
+      "name": "H01_servo_9g_each",
+      "assumed_servo_mass_g": 9,
+      "mass_kg": 1.2176763200000005,
+      "hover": {
+        "rpm": 2324.9605655670166,
+        "pitch_upper_deg": 14,
+        "pitch_lower_deg": 16.717856052764546,
+        "total_thrust_N": 11.945412996883292,
+        "upper_thrust_N": 7.061108459023053,
+        "lower_thrust_N": 4.884304537860237,
+        "torque_each_Nm": [
+          0.21448405140929283,
+          0.2144840514090898
+        ],
+        "model_bus_power_W": 149.8938467411063,
+        "model_duty": 0.37124718231211495,
+        "feasible_model": true,
+        "limitations": "BEMT and electrical model unvalidated; no servo/BEC electrical power included"
+      },
+      "tw2": {
+        "rpm": 3285.97354888916,
+        "pitch_upper_deg": 14,
+        "pitch_lower_deg": 16.731462384068436,
+        "total_thrust_N": 23.89086122892527,
+        "upper_thrust_N": 14.116808060864097,
+        "lower_thrust_N": 9.774053168061174,
+        "torque_each_Nm": [
+          0.4247142024308664,
+          0.42471420243012625
+        ],
+        "model_bus_power_W": 400.4496551314431,
+        "model_duty": 0.5444227629298524,
+        "feasible_model": true,
+        "limitations": "BEMT and electrical model unvalidated; no servo/BEC electrical power included"
+      },
+      "overspeed_screening_rpm": 3943.168258666992
+    },
+    {
+      "name": "H01_servo_20g_each",
+      "assumed_servo_mass_g": 20,
+      "mass_kg": 1.2836763200000005,
+      "hover": {
+        "rpm": 2387.0223999023438,
+        "pitch_upper_deg": 14,
+        "pitch_lower_deg": 16.718928338214027,
+        "total_thrust_N": 12.592876699515323,
+        "upper_thrust_N": 7.44360667463536,
+        "lower_thrust_N": 5.1492700248799625,
+        "torque_each_Nm": [
+          0.22593308391874564,
+          0.22593308391895667
+        ],
+        "model_bus_power_W": 161.29389304438456,
+        "model_duty": 0.38192854926591335,
+        "feasible_model": true,
+        "limitations": "BEMT and electrical model unvalidated; no servo/BEC electrical power included"
+      },
+      "tw2": {
+        "rpm": 3373.696517944336,
+        "pitch_upper_deg": 14,
+        "pitch_lower_deg": 16.732457874550164,
+        "total_thrust_N": 25.18573538008076,
+        "upper_thrust_N": 14.88151719097487,
+        "lower_thrust_N": 10.30421818910589,
+        "torque_each_Nm": [
+          0.44740490269254063,
+          0.4474049026919291
+        ],
+        "model_bus_power_W": 432.2457013910301,
+        "model_duty": 0.5612321595808215,
+        "feasible_model": true,
+        "limitations": "BEMT and electrical model unvalidated; no servo/BEC electrical power included"
+      },
+      "overspeed_screening_rpm": 4048.435821533203
+    },
+    {
+      "name": "H01_servo_60g_each",
+      "assumed_servo_mass_g": 60,
+      "mass_kg": 1.5236763200000005,
+      "hover": {
+        "rpm": 2600.2091884613037,
+        "pitch_upper_deg": 14,
+        "pitch_lower_deg": 16.72236872373105,
+        "total_thrust_N": 14.94730064371412,
+        "upper_thrust_N": 8.834433879937158,
+        "lower_thrust_N": 6.112866763776962,
+        "torque_each_Nm": [
+          0.2675025672404497,
+          0.2675025672404344
+        ],
+        "model_bus_power_W": 205.02649001498625,
+        "model_duty": 0.4190813339222746,
+        "feasible_model": true,
+        "limitations": "BEMT and electrical model unvalidated; no servo/BEC electrical power included"
+      },
+      "tw2": {
+        "rpm": 3675.0762462615967,
+        "pitch_upper_deg": 14,
+        "pitch_lower_deg": 16.735658579873416,
+        "total_thrust_N": 29.894532715804637,
+        "upper_thrust_N": 17.66217030732367,
+        "lower_thrust_N": 12.232362408480965,
+        "torque_each_Nm": [
+          0.5298055839878677,
+          0.5298055839893334
+        ],
+        "model_bus_power_W": 554.7113381053537,
+        "model_duty": 0.6206417647111175,
+        "feasible_model": true,
+        "limitations": "BEMT and electrical model unvalidated; no servo/BEC electrical power included"
+      },
+      "overspeed_screening_rpm": 4410.091495513916
+    }
+  ]
+}

@@ -1,0 +1,761 @@
+{
+  "status": "INDEPENDENT_MECHANISM_AUDIT_CONDITIONAL_LOADS_NOT_RELEASE",
+  "kinematics": {
+    "samples": 6552,
+    "blade_closure_checks": 52416,
+    "max_closed_link_error_mm": 3.552713678800501e-15,
+    "max_requested_pitch_error_deg": 0.26750603163764924,
+    "max_prescribed_inverse_fit_error_mm": 0.017731727982484458,
+    "servo_min_deg": [
+      -26.034799526083255,
+      -26.034841230308302,
+      -26.036558464423024
+    ],
+    "servo_max_deg": [
+      8.61553113694205,
+      8.613454654569189,
+      8.613254159095609
+    ],
+    "servo_horn_proposal_mm": 8.0,
+    "servo_pivot_radius_proposal_mm": 58.3,
+    "servo_pivot_height_proposal_mm": 60,
+    "jacobian_linearization_error_rad": 3.681390605024732e-10
+  },
+  "load_sensitivity": [
+    {
+      "scenario": "H01_servo_9g_each",
+      "vehicle_mass_kg": 1.2176763200000005,
+      "assumed_servo_mass_g": 9,
+      "label": "hover_model",
+      "rpm": 2324.9605655670166,
+      "mu_assumed": 0.0,
+      "centrifugal_per_blade_N": 57.87759976603127,
+      "blade_friction_moment_Nmm": 0.0,
+      "max_servo_torque_Nm": 0.09579239507739873,
+      "max_servo_torque_kgcm": 0.9768105834041056,
+      "with_factor_2_kgcm": 1.9536211668082113,
+      "critical_command": {
+        "side": 1,
+        "collective_deg": 21,
+        "cyclic_deg": 4,
+        "phase_deg": 300,
+        "azimuth_deg": 11.25
+      }
+    },
+    {
+      "scenario": "H01_servo_9g_each",
+      "vehicle_mass_kg": 1.2176763200000005,
+      "assumed_servo_mass_g": 9,
+      "label": "hover_model",
+      "rpm": 2324.9605655670166,
+      "mu_assumed": 0.03,
+      "centrifugal_per_blade_N": 57.87759976603127,
+      "blade_friction_moment_Nmm": 8.3343743663085,
+      "max_servo_torque_Nm": 0.1408080684163805,
+      "max_servo_torque_kgcm": 1.4358427028228855,
+      "with_factor_2_kgcm": 2.871685405645771,
+      "critical_command": {
+        "side": 1,
+        "collective_deg": 21,
+        "cyclic_deg": 4,
+        "phase_deg": 180,
+        "azimuth_deg": 33.75
+      }
+    },
+    {
+      "scenario": "H01_servo_9g_each",
+      "vehicle_mass_kg": 1.2176763200000005,
+      "assumed_servo_mass_g": 9,
+      "label": "hover_model",
+      "rpm": 2324.9605655670166,
+      "mu_assumed": 0.1,
+      "centrifugal_per_blade_N": 57.87759976603127,
+      "blade_friction_moment_Nmm": 27.781247887695006,
+      "max_servo_torque_Nm": 0.24588703186190258,
+      "max_servo_torque_kgcm": 2.5073499295060246,
+      "with_factor_2_kgcm": 5.014699859012049,
+      "critical_command": {
+        "side": 1,
+        "collective_deg": 21,
+        "cyclic_deg": 4,
+        "phase_deg": 180,
+        "azimuth_deg": 33.75
+      }
+    },
+    {
+      "scenario": "H01_servo_9g_each",
+      "vehicle_mass_kg": 1.2176763200000005,
+      "assumed_servo_mass_g": 9,
+      "label": "hover_model",
+      "rpm": 2324.9605655670166,
+      "mu_assumed": 0.2,
+      "centrifugal_per_blade_N": 57.87759976603127,
+      "blade_friction_moment_Nmm": 55.56249577539001,
+      "max_servo_torque_Nm": 0.39599983678407696,
+      "max_servo_torque_kgcm": 4.038074539053366,
+      "with_factor_2_kgcm": 8.076149078106733,
+      "critical_command": {
+        "side": 1,
+        "collective_deg": 21,
+        "cyclic_deg": 4,
+        "phase_deg": 180,
+        "azimuth_deg": 33.75
+      }
+    },
+    {
+      "scenario": "H01_servo_9g_each",
+      "vehicle_mass_kg": 1.2176763200000005,
+      "assumed_servo_mass_g": 9,
+      "label": "tw2_model",
+      "rpm": 3285.97354888916,
+      "mu_assumed": 0.0,
+      "centrifugal_per_blade_N": 115.61320917752572,
+      "blade_friction_moment_Nmm": 0.0,
+      "max_servo_torque_Nm": 0.19140999798247205,
+      "max_servo_torque_kgcm": 1.9518387826879928,
+      "with_factor_2_kgcm": 3.9036775653759856,
+      "critical_command": {
+        "side": 1,
+        "collective_deg": 21,
+        "cyclic_deg": 4,
+        "phase_deg": 300,
+        "azimuth_deg": 11.25
+      }
+    },
+    {
+      "scenario": "H01_servo_9g_each",
+      "vehicle_mass_kg": 1.2176763200000005,
+      "assumed_servo_mass_g": 9,
+      "label": "tw2_model",
+      "rpm": 3285.97354888916,
+      "mu_assumed": 0.03,
+      "centrifugal_per_blade_N": 115.61320917752572,
+      "blade_friction_moment_Nmm": 16.6483021215637,
+      "max_servo_torque_Nm": 0.2813310470351898,
+      "max_servo_torque_kgcm": 2.8687782987583916,
+      "with_factor_2_kgcm": 5.737556597516783,
+      "critical_command": {
+        "side": 1,
+        "collective_deg": 21,
+        "cyclic_deg": 4,
+        "phase_deg": 180,
+        "azimuth_deg": 33.75
+      }
+    },
+    {
+      "scenario": "H01_servo_9g_each",
+      "vehicle_mass_kg": 1.2176763200000005,
+      "assumed_servo_mass_g": 9,
+      "label": "tw2_model",
+      "rpm": 3285.97354888916,
+      "mu_assumed": 0.1,
+      "centrifugal_per_blade_N": 115.61320917752572,
+      "blade_friction_moment_Nmm": 55.49434040521235,
+      "max_servo_torque_Nm": 0.4912311850867814,
+      "max_servo_torque_kgcm": 5.009164037533524,
+      "with_factor_2_kgcm": 10.018328075067048,
+      "critical_command": {
+        "side": 1,
+        "collective_deg": 21,
+        "cyclic_deg": 4,
+        "phase_deg": 180,
+        "azimuth_deg": 33.75
+      }
+    },
+    {
+      "scenario": "H01_servo_9g_each",
+      "vehicle_mass_kg": 1.2176763200000005,
+      "assumed_servo_mass_g": 9,
+      "label": "tw2_model",
+      "rpm": 3285.97354888916,
+      "mu_assumed": 0.2,
+      "centrifugal_per_blade_N": 115.61320917752572,
+      "blade_friction_moment_Nmm": 110.9886808104247,
+      "max_servo_torque_Nm": 0.7910885251604836,
+      "max_servo_torque_kgcm": 8.066857950069428,
+      "with_factor_2_kgcm": 16.133715900138856,
+      "critical_command": {
+        "side": 1,
+        "collective_deg": 21,
+        "cyclic_deg": 4,
+        "phase_deg": 180,
+        "azimuth_deg": 33.75
+      }
+    },
+    {
+      "scenario": "H01_servo_9g_each",
+      "vehicle_mass_kg": 1.2176763200000005,
+      "assumed_servo_mass_g": 9,
+      "label": "overspeed_screening_not_operating_point",
+      "rpm": 3943.168258666992,
+      "mu_assumed": 0.0,
+      "centrifugal_per_blade_N": 166.48302121563705,
+      "blade_friction_moment_Nmm": 0.0,
+      "max_servo_torque_Nm": 0.2756303970947598,
+      "max_servo_torque_kgcm": 2.81064784707071,
+      "with_factor_2_kgcm": 5.62129569414142,
+      "critical_command": {
+        "side": 1,
+        "collective_deg": 21,
+        "cyclic_deg": 4,
+        "phase_deg": 300,
+        "azimuth_deg": 11.25
+      }
+    },
+    {
+      "scenario": "H01_servo_9g_each",
+      "vehicle_mass_kg": 1.2176763200000005,
+      "assumed_servo_mass_g": 9,
+      "label": "overspeed_screening_not_operating_point",
+      "rpm": 3943.168258666992,
+      "mu_assumed": 0.03,
+      "centrifugal_per_blade_N": 166.48302121563705,
+      "blade_friction_moment_Nmm": 23.97355505505173,
+      "max_servo_torque_Nm": 0.4051167077306733,
+      "max_servo_torque_kgcm": 4.131040750212084,
+      "with_factor_2_kgcm": 8.262081500424168,
+      "critical_command": {
+        "side": 1,
+        "collective_deg": 21,
+        "cyclic_deg": 4,
+        "phase_deg": 180,
+        "azimuth_deg": 33.75
+      }
+    },
+    {
+      "scenario": "H01_servo_9g_each",
+      "vehicle_mass_kg": 1.2176763200000005,
+      "assumed_servo_mass_g": 9,
+      "label": "overspeed_screening_not_operating_point",
+      "rpm": 3943.168258666992,
+      "mu_assumed": 0.1,
+      "centrifugal_per_blade_N": 166.48302121563705,
+      "blade_friction_moment_Nmm": 79.91185018350579,
+      "max_servo_torque_Nm": 0.7073729065249652,
+      "max_servo_torque_kgcm": 7.213196214048275,
+      "with_factor_2_kgcm": 14.42639242809655,
+      "critical_command": {
+        "side": 1,
+        "collective_deg": 21,
+        "cyclic_deg": 4,
+        "phase_deg": 180,
+        "azimuth_deg": 33.75
+      }
+    },
+    {
+      "scenario": "H01_servo_9g_each",
+      "vehicle_mass_kg": 1.2176763200000005,
+      "assumed_servo_mass_g": 9,
+      "label": "overspeed_screening_not_operating_point",
+      "rpm": 3943.168258666992,
+      "mu_assumed": 0.2,
+      "centrifugal_per_blade_N": 166.48302121563705,
+      "blade_friction_moment_Nmm": 159.82370036701158,
+      "max_servo_torque_Nm": 1.1391674762310964,
+      "max_servo_torque_kgcm": 11.616275448099977,
+      "with_factor_2_kgcm": 23.232550896199953,
+      "critical_command": {
+        "side": 1,
+        "collective_deg": 21,
+        "cyclic_deg": 4,
+        "phase_deg": 180,
+        "azimuth_deg": 33.75
+      }
+    },
+    {
+      "scenario": "H01_servo_20g_each",
+      "vehicle_mass_kg": 1.2836763200000005,
+      "assumed_servo_mass_g": 20,
+      "label": "hover_model",
+      "rpm": 2387.0223999023438,
+      "mu_assumed": 0.0,
+      "centrifugal_per_blade_N": 61.008776991828086,
+      "blade_friction_moment_Nmm": 0.0,
+      "max_servo_torque_Nm": 0.10097725053000732,
+      "max_servo_torque_kgcm": 1.0296813950738257,
+      "with_factor_2_kgcm": 2.0593627901476514,
+      "critical_command": {
+        "side": 1,
+        "collective_deg": 21,
+        "cyclic_deg": 4,
+        "phase_deg": 300,
+        "azimuth_deg": 11.25
+      }
+    },
+    {
+      "scenario": "H01_servo_20g_each",
+      "vehicle_mass_kg": 1.2836763200000005,
+      "assumed_servo_mass_g": 20,
+      "label": "hover_model",
+      "rpm": 2387.0223999023438,
+      "mu_assumed": 0.03,
+      "centrifugal_per_blade_N": 61.008776991828086,
+      "blade_friction_moment_Nmm": 8.785263886823243,
+      "max_servo_torque_Nm": 0.14842827681320367,
+      "max_servo_torque_kgcm": 1.5135472033079969,
+      "with_factor_2_kgcm": 3.0270944066159937,
+      "critical_command": {
+        "side": 1,
+        "collective_deg": 21,
+        "cyclic_deg": 4,
+        "phase_deg": 180,
+        "azimuth_deg": 33.75
+      }
+    },
+    {
+      "scenario": "H01_servo_20g_each",
+      "vehicle_mass_kg": 1.2836763200000005,
+      "assumed_servo_mass_g": 20,
+      "label": "hover_model",
+      "rpm": 2387.0223999023438,
+      "mu_assumed": 0.1,
+      "centrifugal_per_blade_N": 61.008776991828086,
+      "blade_friction_moment_Nmm": 29.284212956077482,
+      "max_servo_torque_Nm": 0.259192010508028,
+      "max_servo_torque_kgcm": 2.6430229538938166,
+      "with_factor_2_kgcm": 5.286045907787633,
+      "critical_command": {
+        "side": 1,
+        "collective_deg": 21,
+        "cyclic_deg": 4,
+        "phase_deg": 180,
+        "azimuth_deg": 33.75
+      }
+    },
+    {
+      "scenario": "H01_servo_20g_each",
+      "vehicle_mass_kg": 1.2836763200000005,
+      "assumed_servo_mass_g": 20,
+      "label": "hover_model",
+      "rpm": 2387.0223999023438,
+      "mu_assumed": 0.2,
+      "centrifugal_per_blade_N": 61.008776991828086,
+      "blade_friction_moment_Nmm": 58.568425912154964,
+      "max_servo_torque_Nm": 0.41742591578634847,
+      "max_servo_torque_kgcm": 4.256559740444988,
+      "with_factor_2_kgcm": 8.513119480889976,
+      "critical_command": {
+        "side": 1,
+        "collective_deg": 21,
+        "cyclic_deg": 4,
+        "phase_deg": 180,
+        "azimuth_deg": 33.75
+      }
+    },
+    {
+      "scenario": "H01_servo_20g_each",
+      "vehicle_mass_kg": 1.2836763200000005,
+      "assumed_servo_mass_g": 20,
+      "label": "tw2_model",
+      "rpm": 3373.696517944336,
+      "mu_assumed": 0.0,
+      "centrifugal_per_blade_N": 121.86846918393672,
+      "blade_friction_moment_Nmm": 0.0,
+      "max_servo_torque_Nm": 0.2017708893447412,
+      "max_servo_torque_kgcm": 2.057490471718081,
+      "with_factor_2_kgcm": 4.114980943436162,
+      "critical_command": {
+        "side": 1,
+        "collective_deg": 21,
+        "cyclic_deg": 4,
+        "phase_deg": 300,
+        "azimuth_deg": 11.25
+      }
+    },
+    {
+      "scenario": "H01_servo_20g_each",
+      "vehicle_mass_kg": 1.2836763200000005,
+      "assumed_servo_mass_g": 20,
+      "label": "tw2_model",
+      "rpm": 3373.696517944336,
+      "mu_assumed": 0.03,
+      "centrifugal_per_blade_N": 121.86846918393672,
+      "blade_friction_moment_Nmm": 17.549059562486885,
+      "max_servo_torque_Nm": 0.29655713314640364,
+      "max_servo_torque_kgcm": 3.0240411674364194,
+      "with_factor_2_kgcm": 6.048082334872839,
+      "critical_command": {
+        "side": 1,
+        "collective_deg": 21,
+        "cyclic_deg": 4,
+        "phase_deg": 180,
+        "azimuth_deg": 33.75
+      }
+    },
+    {
+      "scenario": "H01_servo_20g_each",
+      "vehicle_mass_kg": 1.2836763200000005,
+      "assumed_servo_mass_g": 20,
+      "label": "tw2_model",
+      "rpm": 3373.696517944336,
+      "mu_assumed": 0.1,
+      "centrifugal_per_blade_N": 121.86846918393672,
+      "blade_friction_moment_Nmm": 58.49686520828963,
+      "max_servo_torque_Nm": 0.5178139314640221,
+      "max_servo_torque_kgcm": 5.280232612197051,
+      "with_factor_2_kgcm": 10.560465224394102,
+      "critical_command": {
+        "side": 1,
+        "collective_deg": 21,
+        "cyclic_deg": 4,
+        "phase_deg": 180,
+        "azimuth_deg": 33.75
+      }
+    },
+    {
+      "scenario": "H01_servo_20g_each",
+      "vehicle_mass_kg": 1.2836763200000005,
+      "assumed_servo_mass_g": 20,
+      "label": "tw2_model",
+      "rpm": 3373.696517944336,
+      "mu_assumed": 0.2,
+      "centrifugal_per_blade_N": 121.86846918393672,
+      "blade_friction_moment_Nmm": 116.99373041657925,
+      "max_servo_torque_Nm": 0.8338950719177628,
+      "max_servo_torque_kgcm": 8.503363247569382,
+      "with_factor_2_kgcm": 17.006726495138764,
+      "critical_command": {
+        "side": 1,
+        "collective_deg": 21,
+        "cyclic_deg": 4,
+        "phase_deg": 180,
+        "azimuth_deg": 33.75
+      }
+    },
+    {
+      "scenario": "H01_servo_20g_each",
+      "vehicle_mass_kg": 1.2836763200000005,
+      "assumed_servo_mass_g": 20,
+      "label": "overspeed_screening_not_operating_point",
+      "rpm": 4048.435821533203,
+      "mu_assumed": 0.0,
+      "centrifugal_per_blade_N": 175.4905956248689,
+      "blade_friction_moment_Nmm": 0.0,
+      "max_servo_torque_Nm": 0.2905500806564273,
+      "max_servo_torque_kgcm": 2.9627862792740363,
+      "with_factor_2_kgcm": 5.9255725585480725,
+      "critical_command": {
+        "side": 1,
+        "collective_deg": 21,
+        "cyclic_deg": 4,
+        "phase_deg": 300,
+        "azimuth_deg": 11.25
+      }
+    },
+    {
+      "scenario": "H01_servo_20g_each",
+      "vehicle_mass_kg": 1.2836763200000005,
+      "assumed_servo_mass_g": 20,
+      "label": "overspeed_screening_not_operating_point",
+      "rpm": 4048.435821533203,
+      "mu_assumed": 0.03,
+      "centrifugal_per_blade_N": 175.4905956248689,
+      "blade_friction_moment_Nmm": 25.270645769981115,
+      "max_servo_torque_Nm": 0.42704227173082127,
+      "max_servo_torque_kgcm": 4.3546192811084445,
+      "with_factor_2_kgcm": 8.709238562216889,
+      "critical_command": {
+        "side": 1,
+        "collective_deg": 21,
+        "cyclic_deg": 4,
+        "phase_deg": 180,
+        "azimuth_deg": 33.75
+      }
+    },
+    {
+      "scenario": "H01_servo_20g_each",
+      "vehicle_mass_kg": 1.2836763200000005,
+      "assumed_servo_mass_g": 20,
+      "label": "overspeed_screening_not_operating_point",
+      "rpm": 4048.435821533203,
+      "mu_assumed": 0.1,
+      "centrifugal_per_blade_N": 175.4905956248689,
+      "blade_friction_moment_Nmm": 84.23548589993706,
+      "max_servo_torque_Nm": 0.745652061308192,
+      "max_servo_torque_kgcm": 7.603534961563755,
+      "with_factor_2_kgcm": 15.20706992312751,
+      "critical_command": {
+        "side": 1,
+        "collective_deg": 21,
+        "cyclic_deg": 4,
+        "phase_deg": 180,
+        "azimuth_deg": 33.75
+      }
+    },
+    {
+      "scenario": "H01_servo_20g_each",
+      "vehicle_mass_kg": 1.2836763200000005,
+      "assumed_servo_mass_g": 20,
+      "label": "overspeed_screening_not_operating_point",
+      "rpm": 4048.435821533203,
+      "mu_assumed": 0.2,
+      "centrifugal_per_blade_N": 175.4905956248689,
+      "blade_friction_moment_Nmm": 168.47097179987412,
+      "max_servo_torque_Nm": 1.2008089035615783,
+      "max_servo_torque_kgcm": 12.244843076499908,
+      "with_factor_2_kgcm": 24.489686152999816,
+      "critical_command": {
+        "side": 1,
+        "collective_deg": 21,
+        "cyclic_deg": 4,
+        "phase_deg": 180,
+        "azimuth_deg": 33.75
+      }
+    },
+    {
+      "scenario": "H01_servo_60g_each",
+      "vehicle_mass_kg": 1.5236763200000005,
+      "assumed_servo_mass_g": 60,
+      "label": "hover_model",
+      "rpm": 2600.2091884613037,
+      "mu_assumed": 0.0,
+      "centrifugal_per_blade_N": 72.39288881972779,
+      "blade_friction_moment_Nmm": 0.0,
+      "max_servo_torque_Nm": 0.11982882563683595,
+      "max_servo_torque_kgcm": 1.2219139628398683,
+      "with_factor_2_kgcm": 2.4438279256797366,
+      "critical_command": {
+        "side": 1,
+        "collective_deg": 21,
+        "cyclic_deg": 4,
+        "phase_deg": 300,
+        "azimuth_deg": 11.25
+      }
+    },
+    {
+      "scenario": "H01_servo_60g_each",
+      "vehicle_mass_kg": 1.5236763200000005,
+      "assumed_servo_mass_g": 60,
+      "label": "hover_model",
+      "rpm": 2600.2091884613037,
+      "mu_assumed": 0.03,
+      "centrifugal_per_blade_N": 72.39288881972779,
+      "blade_friction_moment_Nmm": 10.4245759900408,
+      "max_servo_torque_Nm": 0.17613413718079768,
+      "max_servo_torque_kgcm": 1.796068353421379,
+      "with_factor_2_kgcm": 3.592136706842758,
+      "critical_command": {
+        "side": 1,
+        "collective_deg": 21,
+        "cyclic_deg": 4,
+        "phase_deg": 180,
+        "azimuth_deg": 33.75
+      }
+    },
+    {
+      "scenario": "H01_servo_60g_each",
+      "vehicle_mass_kg": 1.5236763200000005,
+      "assumed_servo_mass_g": 60,
+      "label": "hover_model",
+      "rpm": 2600.2091884613037,
+      "mu_assumed": 0.1,
+      "centrifugal_per_blade_N": 72.39288881972779,
+      "blade_friction_moment_Nmm": 34.74858663346934,
+      "max_servo_torque_Nm": 0.30756615490017275,
+      "max_servo_torque_kgcm": 3.13630194714987,
+      "with_factor_2_kgcm": 6.27260389429974,
+      "critical_command": {
+        "side": 1,
+        "collective_deg": 21,
+        "cyclic_deg": 4,
+        "phase_deg": 180,
+        "azimuth_deg": 33.75
+      }
+    },
+    {
+      "scenario": "H01_servo_60g_each",
+      "vehicle_mass_kg": 1.5236763200000005,
+      "assumed_servo_mass_g": 60,
+      "label": "hover_model",
+      "rpm": 2600.2091884613037,
+      "mu_assumed": 0.2,
+      "centrifugal_per_blade_N": 72.39288881972779,
+      "blade_friction_moment_Nmm": 69.49717326693867,
+      "max_servo_torque_Nm": 0.4953261802135657,
+      "max_servo_torque_kgcm": 5.050921366762,
+      "with_factor_2_kgcm": 10.101842733524,
+      "critical_command": {
+        "side": 1,
+        "collective_deg": 21,
+        "cyclic_deg": 4,
+        "phase_deg": 180,
+        "azimuth_deg": 33.75
+      }
+    },
+    {
+      "scenario": "H01_servo_60g_each",
+      "vehicle_mass_kg": 1.5236763200000005,
+      "assumed_servo_mass_g": 60,
+      "label": "tw2_model",
+      "rpm": 3675.0762462615967,
+      "mu_assumed": 0.0,
+      "centrifugal_per_blade_N": 144.61456568444837,
+      "blade_friction_moment_Nmm": 0.0,
+      "max_servo_torque_Nm": 0.23944600014486983,
+      "max_servo_torque_kgcm": 2.441669684804391,
+      "with_factor_2_kgcm": 4.883339369608782,
+      "critical_command": {
+        "side": 1,
+        "collective_deg": 21,
+        "cyclic_deg": 4,
+        "phase_deg": 300,
+        "azimuth_deg": 11.25
+      }
+    },
+    {
+      "scenario": "H01_servo_60g_each",
+      "vehicle_mass_kg": 1.5236763200000005,
+      "assumed_servo_mass_g": 60,
+      "label": "tw2_model",
+      "rpm": 3675.0762462615967,
+      "mu_assumed": 0.03,
+      "centrifugal_per_blade_N": 144.61456568444837,
+      "blade_friction_moment_Nmm": 20.82449745856056,
+      "max_servo_torque_Nm": 0.35192362432445273,
+      "max_servo_torque_kgcm": 3.5886222545359803,
+      "with_factor_2_kgcm": 7.1772445090719605,
+      "critical_command": {
+        "side": 1,
+        "collective_deg": 21,
+        "cyclic_deg": 4,
+        "phase_deg": 180,
+        "azimuth_deg": 33.75
+      }
+    },
+    {
+      "scenario": "H01_servo_60g_each",
+      "vehicle_mass_kg": 1.5236763200000005,
+      "assumed_servo_mass_g": 60,
+      "label": "tw2_model",
+      "rpm": 3675.0762462615967,
+      "mu_assumed": 0.1,
+      "centrifugal_per_blade_N": 144.61456568444837,
+      "blade_friction_moment_Nmm": 69.41499152853521,
+      "max_servo_torque_Nm": 0.6144768180069039,
+      "max_servo_torque_kgcm": 6.265919738207277,
+      "with_factor_2_kgcm": 12.531839476414554,
+      "critical_command": {
+        "side": 1,
+        "collective_deg": 21,
+        "cyclic_deg": 4,
+        "phase_deg": 180,
+        "azimuth_deg": 33.75
+      }
+    },
+    {
+      "scenario": "H01_servo_60g_each",
+      "vehicle_mass_kg": 1.5236763200000005,
+      "assumed_servo_mass_g": 60,
+      "label": "tw2_model",
+      "rpm": 3675.0762462615967,
+      "mu_assumed": 0.2,
+      "centrifugal_per_blade_N": 144.61456568444837,
+      "blade_friction_moment_Nmm": 138.82998305707042,
+      "max_servo_torque_Nm": 0.9895528089818343,
+      "max_servo_torque_kgcm": 10.090630429166273,
+      "with_factor_2_kgcm": 20.181260858332546,
+      "critical_command": {
+        "side": 1,
+        "collective_deg": 21,
+        "cyclic_deg": 4,
+        "phase_deg": 180,
+        "azimuth_deg": 33.75
+      }
+    },
+    {
+      "scenario": "H01_servo_60g_each",
+      "vehicle_mass_kg": 1.5236763200000005,
+      "assumed_servo_mass_g": 60,
+      "label": "overspeed_screening_not_operating_point",
+      "rpm": 4410.091495513916,
+      "mu_assumed": 0.0,
+      "centrifugal_per_blade_N": 208.24497458560563,
+      "blade_friction_moment_Nmm": 0.0,
+      "max_servo_torque_Nm": 0.34480224020861255,
+      "max_servo_torque_kgcm": 3.5160043461183235,
+      "with_factor_2_kgcm": 7.032008692236647,
+      "critical_command": {
+        "side": 1,
+        "collective_deg": 21,
+        "cyclic_deg": 4,
+        "phase_deg": 300,
+        "azimuth_deg": 11.25
+      }
+    },
+    {
+      "scenario": "H01_servo_60g_each",
+      "vehicle_mass_kg": 1.5236763200000005,
+      "assumed_servo_mass_g": 60,
+      "label": "overspeed_screening_not_operating_point",
+      "rpm": 4410.091495513916,
+      "mu_assumed": 0.03,
+      "centrifugal_per_blade_N": 208.24497458560563,
+      "blade_friction_moment_Nmm": 29.987276340327206,
+      "max_servo_torque_Nm": 0.506770019027212,
+      "max_servo_torque_kgcm": 5.167616046531812,
+      "with_factor_2_kgcm": 10.335232093063624,
+      "critical_command": {
+        "side": 1,
+        "collective_deg": 21,
+        "cyclic_deg": 4,
+        "phase_deg": 180,
+        "azimuth_deg": 33.75
+      }
+    },
+    {
+      "scenario": "H01_servo_60g_each",
+      "vehicle_mass_kg": 1.5236763200000005,
+      "assumed_servo_mass_g": 60,
+      "label": "overspeed_screening_not_operating_point",
+      "rpm": 4410.091495513916,
+      "mu_assumed": 0.1,
+      "centrifugal_per_blade_N": 208.24497458560563,
+      "blade_friction_moment_Nmm": 99.95758780109071,
+      "max_servo_torque_Nm": 0.8848466179299417,
+      "max_servo_torque_kgcm": 9.022924423018479,
+      "with_factor_2_kgcm": 18.045848846036957,
+      "critical_command": {
+        "side": 1,
+        "collective_deg": 21,
+        "cyclic_deg": 4,
+        "phase_deg": 180,
+        "azimuth_deg": 33.75
+      }
+    },
+    {
+      "scenario": "H01_servo_60g_each",
+      "vehicle_mass_kg": 1.5236763200000005,
+      "assumed_servo_mass_g": 60,
+      "label": "overspeed_screening_not_operating_point",
+      "rpm": 4410.091495513916,
+      "mu_assumed": 0.2,
+      "centrifugal_per_blade_N": 208.24497458560563,
+      "blade_friction_moment_Nmm": 199.91517560218142,
+      "max_servo_torque_Nm": 1.4249560449338414,
+      "max_servo_torque_kgcm": 14.530507817999434,
+      "with_factor_2_kgcm": 29.061015635998867,
+      "critical_command": {
+        "side": 1,
+        "collective_deg": 21,
+        "cyclic_deg": 4,
+        "phase_deg": 180,
+        "azimuth_deg": 33.75
+      }
+    }
+  ],
+  "assumptions": {
+    "blade_mass_distribution": "CAD homogeneous effective density; actual infill not measured",
+    "friction": "Coulomb mu * centrifugal blade force * 4.8 mm sliding-retention radius; sensitivity only",
+    "aerodynamic": "BEMT mean rotor thrust / 8 blades, quarter-chord arm; cyclic airload variation and true section moment not resolved",
+    "cyclic_inertia": "Ixx * omega^2 * numerical second derivative of the closed-link physical blade pitch versus rotor azimuth",
+    "servo": "new tangential shaft orientation and 8 mm horn; F01 has no real servo horn or mounting",
+    "excluded": "bearing drag, preload, stiction peak, impacts, structural flexibility, fatigue, control stability"
+  },
+  "findings": [
+    "F01 does not model a fixed-length servo linkage with actual horn motion.",
+    "Servo shaft must be tangent to produce radial-vertical horn motion; placeholder does not establish this.",
+    "Pitch-root centrifugal sliding friction prevents unconditional microservo selection.",
+    "Eight fixed blade links and a rigid swashplate cannot reproduce the prescribed sinusoid exactly at finite pitch.",
+    "Servo does not have to sweep once per rotor revolution for steady cyclic; rotating links do."
+  ]
+}

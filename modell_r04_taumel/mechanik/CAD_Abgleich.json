@@ -1,0 +1,5 @@
+{
+  "cases": 12,
+  "max_pose_component_difference_mm_or_deg": 9.692247004977617e-13,
+  "status": "PASS_independent_fit_matches_F01_pose_solver_at_reference_azimuth"
+}
