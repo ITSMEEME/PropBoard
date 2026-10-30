@@ -1,0 +1,5 @@
+﻿fall,U_ref_m_s,akzeptiert,netz_ok,solver_regulaer,kraftpunkte,drift,streuung,massenbilanz,residuum_U,Fz_Vollkreis_N,Brutto_Kraftaequivalent_kg,P_aero_mech_Vollkreis_W,allowable_payload_kg,gruende
+free_tet_c_off22_u40,,False,True,False,,,,,,,,,,Solver nicht regulaer beendet oder nicht gelaufen; Kraftausgabe wing_lower fehlt
+free_tet_c_u40,40.0,False,True,False,,,,,,,,,,Solver nicht regulaer beendet oder nicht gelaufen; Kraftausgabe wing_lower fehlt
+ring_tet_c_off22_u40,,False,True,False,,,,,,,,,,Solver nicht regulaer beendet oder nicht gelaufen; Kraftausgabe wing_lower fehlt
+ring_tet_c_u40,40.0,False,True,False,,,,,,,,,,Solver nicht regulaer beendet oder nicht gelaufen; Kraftausgabe wing_lower fehlt

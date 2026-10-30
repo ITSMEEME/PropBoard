@@ -1,0 +1,113 @@
+{
+  "status": "REKONSTRUKTION",
+  "grenzwerte": {
+    "kraftpunkte_min": 200,
+    "drift_max": 0.03,
+    "streuung_max": 0.05,
+    "massenbilanz_max": 0.01,
+    "residuum_U_max": 0.0001
+  },
+  "faelle": [
+    {
+      "fall": "free_tet_c_off22_u40",
+      "U_ref_m_s": null,
+      "gruende": [
+        "Solver nicht regulaer beendet oder nicht gelaufen",
+        "Kraftausgabe wing_lower fehlt"
+      ],
+      "allowable_payload_kg": null,
+      "netz_ok": true,
+      "solver_regulaer": false,
+      "residuum_U": null,
+      "massenbilanz": null,
+      "pruefungen": {
+        "netz": true,
+        "solver": false,
+        "kraftpunkte": false,
+        "drift": false,
+        "streuung": false,
+        "massenbilanz": false,
+        "residuum": false
+      },
+      "akzeptiert": false
+    },
+    {
+      "fall": "free_tet_c_u40",
+      "U_ref_m_s": 40.0,
+      "gruende": [
+        "Solver nicht regulaer beendet oder nicht gelaufen",
+        "Kraftausgabe wing_lower fehlt"
+      ],
+      "allowable_payload_kg": null,
+      "netz_ok": true,
+      "solver_regulaer": false,
+      "residuum_U": null,
+      "massenbilanz": null,
+      "pruefungen": {
+        "netz": true,
+        "solver": false,
+        "kraftpunkte": false,
+        "drift": false,
+        "streuung": false,
+        "massenbilanz": false,
+        "residuum": false
+      },
+      "akzeptiert": false
+    },
+    {
+      "fall": "ring_tet_c_off22_u40",
+      "U_ref_m_s": null,
+      "gruende": [
+        "Solver nicht regulaer beendet oder nicht gelaufen",
+        "Kraftausgabe wing_lower fehlt"
+      ],
+      "allowable_payload_kg": null,
+      "netz_ok": true,
+      "solver_regulaer": false,
+      "residuum_U": null,
+      "massenbilanz": null,
+      "pruefungen": {
+        "netz": true,
+        "solver": false,
+        "kraftpunkte": false,
+        "drift": false,
+        "streuung": false,
+        "massenbilanz": false,
+        "residuum": false
+      },
+      "akzeptiert": false
+    },
+    {
+      "fall": "ring_tet_c_u40",
+      "U_ref_m_s": 40.0,
+      "gruende": [
+        "Solver nicht regulaer beendet oder nicht gelaufen",
+        "Kraftausgabe wing_lower fehlt"
+      ],
+      "allowable_payload_kg": null,
+      "netz_ok": true,
+      "solver_regulaer": false,
+      "residuum_U": null,
+      "massenbilanz": null,
+      "pruefungen": {
+        "netz": true,
+        "solver": false,
+        "kraftpunkte": false,
+        "drift": false,
+        "streuung": false,
+        "massenbilanz": false,
+        "residuum": false
+      },
+      "akzeptiert": false
+    }
+  ],
+  "netzberichte": [
+    "free_tet_c_off22_u40",
+    "free_tet_c_u40",
+    "ring_tet_c_off22_u40",
+    "ring_tet_c_u40"
+  ],
+  "akzeptierte_faelle": [],
+  "allowable_payload_kg": null,
+  "hinweis": "Ohne akzeptierte Faelle liegen keine freigegebenen CFD-Kraefte vor. Schwebefall, kein Vorwaertsflug, keine Validierung."
+}

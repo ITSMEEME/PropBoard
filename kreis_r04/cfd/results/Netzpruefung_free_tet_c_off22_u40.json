@@ -1,0 +1,35 @@
+{
+  "fall": "free_tet_c_off22_u40",
+  "status": "REKONSTRUKTION_NETZ",
+  "variante": "free",
+  "winkelversatz_deg": 22.5,
+  "stufe": "c",
+  "gmsh": "4.15.2",
+  "tetraeder": 481110,
+  "andere_3D_Elemente": 0,
+  "minSICN": 0.08936268276594515,
+  "minSICN_p01": 0.14544524347415094,
+  "minSICN_median": 0.802741406879877,
+  "Randflaechen": {
+    "wing_lower": 8,
+    "wing_upper": 8,
+    "guides": 16,
+    "cyclic_0": 3,
+    "cyclic_45": 3,
+    "outer": 1,
+    "inner": 1,
+    "top": 1,
+    "bottom": 1
+  },
+  "pruefungen": {
+    "nur_Tetraeder": true,
+    "alle_Volumen_positiv": true,
+    "minSICN_groesser_0": true,
+    "minSICN_ueber_0_05": true,
+    "periodische_Knoten_zugeordnet": true,
+    "alle_Randgruppen_vorhanden": true
+  },
+  "netzpruefung_bestanden": true,
+  "vernetzungsdauer_s": 16.9,
+  "hinweis": "Gmsh-Qualitaetspruefung; OpenFOAM checkMesh wurde in dieser Umgebung NICHT ausgefuehrt (OpenFOAM fehlt)."
+}

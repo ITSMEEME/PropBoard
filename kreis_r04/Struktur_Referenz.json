@@ -1,0 +1,195 @@
+{
+  "status": "REKONSTRUKTION_BEDINGTES_MODELL_KEIN_FESTIGKEITSNACHWEIS",
+  "annahmen": {
+    "Welle": "Stahl D8 mm, L 640 mm, E 200 GPa (Werkstoff nicht ausgewaehlt)",
+    "Fluegelschale_Querschnitt_mm2": 427.3351995782539,
+    "Dichte_CFK": 1600.0,
+    "Dichte_Stahl": 7850.0,
+    "Fluegelmasse_kg": 0.4102417915951237,
+    "Wellenmasse_kg": 0.25253378386616193,
+    "Lastverteilung": "proportional r^2 auf r 150..750 mm, Gesamtauftrieb vorgeschrieben",
+    "Lagerung_mit_Aussenring": "vertikal einfach abgestuetzt r 130/770",
+    "Lagerung_ohne_Aussenring": "Kragarm, eingespannt r 130",
+    "Axiallast": "aeussere Lagerung axial schwimmend; Fliehkraft innen abgesetzt",
+    "S355_MPa": "nur angenommener Vergleichswert"
+  },
+  "referenzfall_50m_s_200kg": {
+    "mit_Aussenring": {
+      "Variante": "mit_Aussenring",
+      "U_ref_m_s": 50.0,
+      "Auftrieb_Kraftaequivalent_kg": 200.0,
+      "Zugversteifung": true,
+      "Elemente": 64,
+      "max_Durchbiegung_mm": 3.5357466033577576,
+      "max_Biegemoment_Nm": 4.800942148514679,
+      "Fliehkraft_innen_N": 3682.086530340477,
+      "max_nominelle_Spannung_MPa": 122.66220743431288,
+      "Verhaeltnis_zu_S355_Annahme": 0.3455273448853884
+    },
+    "ohne_Aussenring": {
+      "Variante": "ohne_Aussenring",
+      "U_ref_m_s": 50.0,
+      "Auftrieb_Kraftaequivalent_kg": 200.0,
+      "Zugversteifung": true,
+      "Elemente": 64,
+      "max_Durchbiegung_mm": 19.61126460194286,
+      "max_Biegemoment_Nm": 12.577097326514973,
+      "Fliehkraft_innen_N": 3682.086530340477,
+      "max_nominelle_Spannung_MPa": 323.46618518231156,
+      "Verhaeltnis_zu_S355_Annahme": 0.9111723526262298
+    }
+  },
+  "diskretisierung": [
+    {
+      "Variante": "mit_Aussenring",
+      "U_ref_m_s": 50.0,
+      "Auftrieb_Kraftaequivalent_kg": 200.0,
+      "Zugversteifung": true,
+      "Elemente": 16,
+      "max_Durchbiegung_mm": 3.520835325376292,
+      "max_Biegemoment_Nm": 4.8158990230577885,
+      "Fliehkraft_innen_N": 3682.086530340477,
+      "max_nominelle_Spannung_MPa": 122.49566198361978,
+      "Verhaeltnis_zu_S355_Annahme": 0.34505820277075994
+    },
+    {
+      "Variante": "mit_Aussenring",
+      "U_ref_m_s": 50.0,
+      "Auftrieb_Kraftaequivalent_kg": 200.0,
+      "Zugversteifung": true,
+      "Elemente": 32,
+      "max_Durchbiegung_mm": 3.5344353300505618,
+      "max_Biegemoment_Nm": 4.801022034192165,
+      "Fliehkraft_innen_N": 3682.086530340477,
+      "max_nominelle_Spannung_MPa": 122.72250263673617,
+      "Verhaeltnis_zu_S355_Annahme": 0.3456971905260174
+    },
+    {
+      "Variante": "mit_Aussenring",
+      "U_ref_m_s": 50.0,
+      "Auftrieb_Kraftaequivalent_kg": 200.0,
+      "Zugversteifung": true,
+      "Elemente": 64,
+      "max_Durchbiegung_mm": 3.5357466033577576,
+      "max_Biegemoment_Nm": 4.800942148514679,
+      "Fliehkraft_innen_N": 3682.086530340477,
+      "max_nominelle_Spannung_MPa": 122.66220743431288,
+      "Verhaeltnis_zu_S355_Annahme": 0.3455273448853884
+    },
+    {
+      "Variante": "mit_Aussenring",
+      "U_ref_m_s": 50.0,
+      "Auftrieb_Kraftaequivalent_kg": 200.0,
+      "Zugversteifung": true,
+      "Elemente": 128,
+      "max_Durchbiegung_mm": 3.5360745792538024,
+      "max_Biegemoment_Nm": 4.800729524064451,
+      "Fliehkraft_innen_N": 3682.086530340477,
+      "max_nominelle_Spannung_MPa": 122.64830968333952,
+      "Verhaeltnis_zu_S355_Annahme": 0.3454881962910972
+    },
+    {
+      "Variante": "ohne_Aussenring",
+      "U_ref_m_s": 50.0,
+      "Auftrieb_Kraftaequivalent_kg": 200.0,
+      "Zugversteifung": true,
+      "Elemente": 16,
+      "max_Durchbiegung_mm": 19.616127576095693,
+      "max_Biegemoment_Nm": 12.454272542219822,
+      "Fliehkraft_innen_N": 3682.086530340477,
+      "max_nominelle_Spannung_MPa": 321.0226637379654,
+      "Verhaeltnis_zu_S355_Annahme": 0.9042891936280715
+    },
+    {
+      "Variante": "ohne_Aussenring",
+      "U_ref_m_s": 50.0,
+      "Auftrieb_Kraftaequivalent_kg": 200.0,
+      "Zugversteifung": true,
+      "Elemente": 32,
+      "max_Durchbiegung_mm": 19.60409882228162,
+      "max_Biegemoment_Nm": 12.551014867954862,
+      "Fliehkraft_innen_N": 3682.086530340477,
+      "max_nominelle_Spannung_MPa": 322.9472911563326,
+      "Verhaeltnis_zu_S355_Annahme": 0.9097106793136129
+    },
+    {
+      "Variante": "ohne_Aussenring",
+      "U_ref_m_s": 50.0,
+      "Auftrieb_Kraftaequivalent_kg": 200.0,
+      "Zugversteifung": true,
+      "Elemente": 64,
+      "max_Durchbiegung_mm": 19.61126460194286,
+      "max_Biegemoment_Nm": 12.577097326514973,
+      "Fliehkraft_innen_N": 3682.086530340477,
+      "max_nominelle_Spannung_MPa": 323.46618518231156,
+      "Verhaeltnis_zu_S355_Annahme": 0.9111723526262298
+    },
+    {
+      "Variante": "ohne_Aussenring",
+      "U_ref_m_s": 50.0,
+      "Auftrieb_Kraftaequivalent_kg": 200.0,
+      "Zugversteifung": true,
+      "Elemente": 128,
+      "max_Durchbiegung_mm": 19.61305837490131,
+      "max_Biegemoment_Nm": 12.58390982457016,
+      "Fliehkraft_innen_N": 3682.086530340477,
+      "max_nominelle_Spannung_MPa": 323.6017155248474,
+      "Verhaeltnis_zu_S355_Annahme": 0.9115541282390068
+    }
+  ],
+  "verifikation_Euler_Bernoulli": [
+    {
+      "Fall": "einfach_gestuetzt_Gleichlast_Mitte",
+      "numerisch": 0.0054324887245670896,
+      "analytisch": 0.0054324887242033605,
+      "rel_Abweichung": 6.695439800300986e-11,
+      "bestanden": true
+    },
+    {
+      "Fall": "einfach_gestuetzt_Einzellast_Mitte",
+      "numerisch": 0.006790610905663788,
+      "analytisch": 0.006790610905254201,
+      "rel_Abweichung": 6.031658020012699e-11,
+      "bestanden": true
+    },
+    {
+      "Fall": "einfach_gestuetzt_Gleichlast_Moment_Mitte",
+      "numerisch": 5.120833333635911,
+      "analytisch": 5.12,
+      "rel_Abweichung": 0.0001627604757638637,
+      "bestanden": true
+    },
+    {
+      "Fall": "Kragarm_Gleichlast_Spitze",
+      "numerisch": 0.05215189177756306,
+      "analytisch": 0.052151891752352256,
+      "rel_Abweichung": 4.834111442212998e-10,
+      "bestanden": true
+    },
+    {
+      "Fall": "Kragarm_Einzellast_Spitze",
+      "numerisch": 0.10864977453385044,
+      "analytisch": 0.10864977448406722,
+      "rel_Abweichung": 4.5819901099723924e-10,
+      "bestanden": true
+    },
+    {
+      "Fall": "Kragarm_Endmoment_Spitze",
+      "numerisch": 0.02546479090525803,
+      "analytisch": 0.02546479089470325,
+      "rel_Abweichung": 4.1448521279647834e-10,
+      "bestanden": true
+    }
+  ],
+  "parameterfaelle": 208,
+  "nicht_abgedeckt": [
+    "tatsaechliche CFK-Tragwirkung",
+    "Fuegestellen",
+    "Torsion",
+    "Ermuedung",
+    "Magnetfuehrung",
+    "vollstaendige Dynamik/Eigenfrequenzen",
+    "gekoppelte Stroemungs-Struktur-Rechnung",
+    "neu auszulegende Fluegelwurzel/Drehmomentuebertragung ohne Aussenring"
+  ]
+}

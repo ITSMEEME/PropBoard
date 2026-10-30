@@ -1,0 +1,18 @@
+{
+  "status": "REKONSTRUKTION_LAYOUTMODELL",
+  "ergebniskoerper": 1744,
+  "mobile_koerper": 1632,
+  "mobile_koerper_je_baugruppe": 102,
+  "ring_koerper": 24,
+  "zentrale_referenzen": 79,
+  "pilot_referenz": 9,
+  "fahrzeug_huelle_mm": [
+    1580.0,
+    1692.875770438596,
+    523.0
+  ],
+  "alle_formen_gueltig": true,
+  "fertigungsfreigabe": false,
+  "flugnachweis": false,
+  "gespeichert_und_wieder_geoeffnet": true
+}

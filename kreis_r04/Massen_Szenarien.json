@@ -1,0 +1,118 @@
+{
+  "status": "REKONSTRUKTION_ANALYTISCH_CL_FREI_ANGENOMMEN",
+  "dichte_luft": 1.225,
+  "person_kg": 100.0,
+  "szenarien": [
+    {
+      "Variante": "Kreis_R04_Aussenring",
+      "Szenario": "S1_nur_CAD_erfasst",
+      "CAD_erfasst_kg": 63.226,
+      "Faktor": 1.0,
+      "Zuschlag_kg": 0.0,
+      "Fahrzeug_Szenario_kg": 63.226,
+      "Person_kg": 100.0,
+      "Erforderliche_Vertikalkraft_N": 1601.25,
+      "U_min_m_s_je_CL": {
+        "0.5": 62.87,
+        "0.8": 49.71,
+        "1.0": 44.46,
+        "1.2": 40.58
+      }
+    },
+    {
+      "Variante": "Kreis_R04_Aussenring",
+      "Szenario": "S2_CAD_plus_30_Prozent_Struktur",
+      "CAD_erfasst_kg": 63.226,
+      "Faktor": 1.3,
+      "Zuschlag_kg": 0.0,
+      "Fahrzeug_Szenario_kg": 82.194,
+      "Person_kg": 100.0,
+      "Erforderliche_Vertikalkraft_N": 1787.32,
+      "U_min_m_s_je_CL": {
+        "0.5": 66.43,
+        "0.8": 52.51,
+        "1.0": 46.97,
+        "1.2": 42.88
+      }
+    },
+    {
+      "Variante": "Kreis_R04_Aussenring",
+      "Szenario": "S3_S2_plus_25kg_Akku_Antrieb",
+      "CAD_erfasst_kg": 63.226,
+      "Faktor": 1.3,
+      "Zuschlag_kg": 25.0,
+      "Fahrzeug_Szenario_kg": 107.194,
+      "Person_kg": 100.0,
+      "Erforderliche_Vertikalkraft_N": 2032.57,
+      "U_min_m_s_je_CL": {
+        "0.5": 70.84,
+        "0.8": 56.0,
+        "1.0": 50.09,
+        "1.2": 45.73
+      }
+    },
+    {
+      "Variante": "Kreis_R04_ohne_Aussenring",
+      "Szenario": "S1_nur_CAD_erfasst",
+      "CAD_erfasst_kg": 26.668,
+      "Faktor": 1.0,
+      "Zuschlag_kg": 0.0,
+      "Fahrzeug_Szenario_kg": 26.668,
+      "Person_kg": 100.0,
+      "Erforderliche_Vertikalkraft_N": 1242.61,
+      "U_min_m_s_je_CL": {
+        "0.5": 55.39,
+        "0.8": 43.79,
+        "1.0": 39.16,
+        "1.2": 35.75
+      }
+    },
+    {
+      "Variante": "Kreis_R04_ohne_Aussenring",
+      "Szenario": "S2_CAD_plus_30_Prozent_Struktur",
+      "CAD_erfasst_kg": 26.668,
+      "Faktor": 1.3,
+      "Zuschlag_kg": 0.0,
+      "Fahrzeug_Szenario_kg": 34.668,
+      "Person_kg": 100.0,
+      "Erforderliche_Vertikalkraft_N": 1321.09,
+      "U_min_m_s_je_CL": {
+        "0.5": 57.11,
+        "0.8": 45.15,
+        "1.0": 40.38,
+        "1.2": 36.86
+      }
+    },
+    {
+      "Variante": "Kreis_R04_ohne_Aussenring",
+      "Szenario": "S3_S2_plus_25kg_Akku_Antrieb",
+      "CAD_erfasst_kg": 26.668,
+      "Faktor": 1.3,
+      "Zuschlag_kg": 25.0,
+      "Fahrzeug_Szenario_kg": 59.668,
+      "Person_kg": 100.0,
+      "Erforderliche_Vertikalkraft_N": 1566.34,
+      "U_min_m_s_je_CL": {
+        "0.5": 62.18,
+        "0.8": 49.16,
+        "1.0": 43.97,
+        "1.2": 40.14
+      }
+    }
+  ],
+  "anzahl_faelle": 312,
+  "cad_erfasste_masse_kg": {
+    "Kreis_R04_Aussenring": 63.225899999999996,
+    "Kreis_R04_ohne_Aussenring": 26.667749999999998
+  },
+  "differenz_mit_minus_ohne_Aussenring_kg": 36.55815,
+  "allowable_payload_kg": null,
+  "fehlend": [
+    "tatsaechliche Batterien",
+    "Teile des Antriebs",
+    "Magnet-/Spulensysteme",
+    "Elektronik",
+    "neue vollstaendige Tragstruktur"
+  ],
+  "hinweis": "Keine induzierte Stroemung/Interferenz; nicht mit CFD-Ergebnissen vermischen. Kraftaequivalent ist keine zulaessige Zuladung."
+}

@@ -1,0 +1,31 @@
+{
+  "status": "REKONSTRUKTION_GEOMETRIE",
+  "varianten": {
+    "R02_Umlaufbahn": {
+      "gerader_Abschnitt_m": 0.5,
+      "Bahnlaenge_Mittellinie_m": 3.827433388230814,
+      "ueberstrichene_Flaeche_je_Ebene_m2": 2.2964600329384885,
+      "Fluegelflaeche_gesamt_m2": 1.152,
+      "Grundriss_Fluegelbereich_m": [
+        2.0,
+        1.5
+      ]
+    },
+    "R03_Kreis": {
+      "gerader_Abschnitt_m": 0.0,
+      "Bahnlaenge_Mittellinie_m": 2.827433388230814,
+      "ueberstrichene_Flaeche_je_Ebene_m2": 1.6964600329384885,
+      "Fluegelflaeche_gesamt_m2": 1.152,
+      "Grundriss_Fluegelbereich_m": [
+        1.5,
+        1.5
+      ]
+    }
+  },
+  "Flaechenaenderung_R03_gegen_R02_prozent": -26.127169268966384,
+  "hinweise": [
+    "Ueberstrichene Flaechen sind idealisierte geometrische Ringflaechen je Ebene, keine wirksamen Strahlflaechen.",
+    "Die beiden uebereinanderliegenden Ebenen sind nicht als unabhaengige Rotorflaechen addierbar.",
+    "Der Kreis beseitigt Zentrifugalkraefte nicht; bei gleichem Radius und gleicher Geschwindigkeit wirken sie jetzt ueber den gesamten Umlauf."
+  ]
+}

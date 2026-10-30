@@ -1,0 +1,35 @@
+{
+  "fall": "ring_tet_c_u40",
+  "status": "REKONSTRUKTION_NETZ",
+  "variante": "ring",
+  "winkelversatz_deg": 0.0,
+  "stufe": "c",
+  "gmsh": "4.15.2",
+  "tetraeder": 971322,
+  "andere_3D_Elemente": 0,
+  "minSICN": 0.08060551132595303,
+  "minSICN_p01": 0.150718179933557,
+  "minSICN_median": 0.8002112043359171,
+  "Randflaechen": {
+    "wing_lower": 4,
+    "wing_upper": 4,
+    "guides": 32,
+    "cyclic_0": 3,
+    "cyclic_45": 3,
+    "outer": 1,
+    "inner": 1,
+    "top": 1,
+    "bottom": 1
+  },
+  "pruefungen": {
+    "nur_Tetraeder": true,
+    "alle_Volumen_positiv": true,
+    "minSICN_groesser_0": true,
+    "minSICN_ueber_0_05": true,
+    "periodische_Knoten_zugeordnet": true,
+    "alle_Randgruppen_vorhanden": true
+  },
+  "netzpruefung_bestanden": true,
+  "vernetzungsdauer_s": 21.0,
+  "hinweis": "Gmsh-Qualitaetspruefung; OpenFOAM checkMesh wurde in dieser Umgebung NICHT ausgefuehrt (OpenFOAM fehlt)."
+}

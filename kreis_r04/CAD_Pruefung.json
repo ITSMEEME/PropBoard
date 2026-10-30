@@ -1,0 +1,634 @@
+{
+  "status": "REKONSTRUKTION_KONZEPTMODELLE_KEINE_FERTIGUNGSFREIGABE",
+  "dichten_kg_m3": {
+    "CFK": 1600.0,
+    "Aluminium": 2700.0,
+    "Stahl": 7850.0
+  },
+  "hinterkante_mm": 0.799999999999996,
+  "quelle": "kreis_r03/Kreis_R03_Layout.FCStd",
+  "Kreis_R04_Aussenring": {
+    "ergebniskoerper": 1744,
+    "entfernt": 0,
+    "motor_encoder_umgesetzt": 0,
+    "fahrzeug_huelle_mm": [
+      1580.0,
+      1692.875770438596,
+      523.0
+    ],
+    "innerhalb_2100x1700x600": true,
+    "alle_formen_gueltig": true,
+    "fluegelpruefung": {
+      "fluegel": [
+        {
+          "name": "W0_0_Fluegel_Huelle",
+          "ebene": 0,
+          "index": 0,
+          "schwerpunkt_mm": [
+            9.791,
+            450.0,
+            -117.919
+          ],
+          "radius_schwerpunkt_mm": 450.107,
+          "winkel_deg": 88.754,
+          "pitch_deg": 12.0,
+          "sehne_tangential_cos": 0.999763,
+          "spannweite_radial_cos": 0.999763,
+          "bewegungsrichtung": "im_uhrzeigersinn",
+          "r_min_mm": 150.003,
+          "r_max_mm": 752.299
+        },
+        {
+          "name": "W0_1_Fluegel_Huelle",
+          "ebene": 0,
+          "index": 1,
+          "schwerpunkt_mm": [
+            325.122,
+            311.274,
+            -117.919
+          ],
+          "radius_schwerpunkt_mm": 450.107,
+          "winkel_deg": 43.754,
+          "pitch_deg": 12.0,
+          "sehne_tangential_cos": 0.999763,
+          "spannweite_radial_cos": 0.999763,
+          "bewegungsrichtung": "im_uhrzeigersinn",
+          "r_min_mm": 150.003,
+          "r_max_mm": 752.299
+        },
+        {
+          "name": "W0_2_Fluegel_Huelle",
+          "ebene": 0,
+          "index": 2,
+          "schwerpunkt_mm": [
+            450.0,
+            -9.791,
+            -117.919
+          ],
+          "radius_schwerpunkt_mm": 450.107,
+          "winkel_deg": 358.754,
+          "pitch_deg": 12.0,
+          "sehne_tangential_cos": 0.999763,
+          "spannweite_radial_cos": 0.999763,
+          "bewegungsrichtung": "im_uhrzeigersinn",
+          "r_min_mm": 150.003,
+          "r_max_mm": 752.299
+        },
+        {
+          "name": "W0_3_Fluegel_Huelle",
+          "ebene": 0,
+          "index": 3,
+          "schwerpunkt_mm": [
+            311.274,
+            -325.122,
+            -117.919
+          ],
+          "radius_schwerpunkt_mm": 450.107,
+          "winkel_deg": 313.754,
+          "pitch_deg": 12.0,
+          "sehne_tangential_cos": 0.999763,
+          "spannweite_radial_cos": 0.999763,
+          "bewegungsrichtung": "im_uhrzeigersinn",
+          "r_min_mm": 150.003,
+          "r_max_mm": 752.299
+        },
+        {
+          "name": "W0_4_Fluegel_Huelle",
+          "ebene": 0,
+          "index": 4,
+          "schwerpunkt_mm": [
+            -9.791,
+            -450.0,
+            -117.919
+          ],
+          "radius_schwerpunkt_mm": 450.107,
+          "winkel_deg": 268.754,
+          "pitch_deg": 12.0,
+          "sehne_tangential_cos": 0.999763,
+          "spannweite_radial_cos": 0.999763,
+          "bewegungsrichtung": "im_uhrzeigersinn",
+          "r_min_mm": 150.003,
+          "r_max_mm": 752.299
+        },
+        {
+          "name": "W0_5_Fluegel_Huelle",
+          "ebene": 0,
+          "index": 5,
+          "schwerpunkt_mm": [
+            -325.122,
+            -311.274,
+            -117.919
+          ],
+          "radius_schwerpunkt_mm": 450.107,
+          "winkel_deg": 223.754,
+          "pitch_deg": 12.0,
+          "sehne_tangential_cos": 0.999763,
+          "spannweite_radial_cos": 0.999763,
+          "bewegungsrichtung": "im_uhrzeigersinn",
+          "r_min_mm": 150.003,
+          "r_max_mm": 752.299
+        },
+        {
+          "name": "W0_6_Fluegel_Huelle",
+          "ebene": 0,
+          "index": 6,
+          "schwerpunkt_mm": [
+            -450.0,
+            9.791,
+            -117.919
+          ],
+          "radius_schwerpunkt_mm": 450.107,
+          "winkel_deg": 178.754,
+          "pitch_deg": 12.0,
+          "sehne_tangential_cos": 0.999763,
+          "spannweite_radial_cos": 0.999763,
+          "bewegungsrichtung": "im_uhrzeigersinn",
+          "r_min_mm": 150.003,
+          "r_max_mm": 752.299
+        },
+        {
+          "name": "W0_7_Fluegel_Huelle",
+          "ebene": 0,
+          "index": 7,
+          "schwerpunkt_mm": [
+            -311.274,
+            325.122,
+            -117.919
+          ],
+          "radius_schwerpunkt_mm": 450.107,
+          "winkel_deg": 133.754,
+          "pitch_deg": 12.0,
+          "sehne_tangential_cos": 0.999763,
+          "spannweite_radial_cos": 0.999763,
+          "bewegungsrichtung": "im_uhrzeigersinn",
+          "r_min_mm": 150.003,
+          "r_max_mm": 752.299
+        },
+        {
+          "name": "W1_0_Fluegel_Huelle",
+          "ebene": 1,
+          "index": 0,
+          "schwerpunkt_mm": [
+            -9.791,
+            450.0,
+            122.081
+          ],
+          "radius_schwerpunkt_mm": 450.107,
+          "winkel_deg": 91.246,
+          "pitch_deg": 12.0,
+          "sehne_tangential_cos": 0.999763,
+          "spannweite_radial_cos": 0.999763,
+          "bewegungsrichtung": "gegen_uhrzeigersinn",
+          "r_min_mm": 150.003,
+          "r_max_mm": 752.299
+        },
+        {
+          "name": "W1_1_Fluegel_Huelle",
+          "ebene": 1,
+          "index": 1,
+          "schwerpunkt_mm": [
+            311.274,
+            325.122,
+            122.081
+          ],
+          "radius_schwerpunkt_mm": 450.107,
+          "winkel_deg": 46.246,
+          "pitch_deg": 12.0,
+          "sehne_tangential_cos": 0.999763,
+          "spannweite_radial_cos": 0.999763,
+          "bewegungsrichtung": "gegen_uhrzeigersinn",
+          "r_min_mm": 150.003,
+          "r_max_mm": 752.299
+        },
+        {
+          "name": "W1_2_Fluegel_Huelle",
+          "ebene": 1,
+          "index": 2,
+          "schwerpunkt_mm": [
+            450.0,
+            9.791,
+            122.081
+          ],
+          "radius_schwerpunkt_mm": 450.107,
+          "winkel_deg": 1.246,
+          "pitch_deg": 12.0,
+          "sehne_tangential_cos": 0.999763,
+          "spannweite_radial_cos": 0.999763,
+          "bewegungsrichtung": "gegen_uhrzeigersinn",
+          "r_min_mm": 150.003,
+          "r_max_mm": 752.299
+        },
+        {
+          "name": "W1_3_Fluegel_Huelle",
+          "ebene": 1,
+          "index": 3,
+          "schwerpunkt_mm": [
+            325.122,
+            -311.274,
+            122.081
+          ],
+          "radius_schwerpunkt_mm": 450.107,
+          "winkel_deg": 316.246,
+          "pitch_deg": 12.0,
+          "sehne_tangential_cos": 0.999763,
+          "spannweite_radial_cos": 0.999763,
+          "bewegungsrichtung": "gegen_uhrzeigersinn",
+          "r_min_mm": 150.003,
+          "r_max_mm": 752.299
+        },
+        {
+          "name": "W1_4_Fluegel_Huelle",
+          "ebene": 1,
+          "index": 4,
+          "schwerpunkt_mm": [
+            9.791,
+            -450.0,
+            122.081
+          ],
+          "radius_schwerpunkt_mm": 450.107,
+          "winkel_deg": 271.246,
+          "pitch_deg": 12.0,
+          "sehne_tangential_cos": 0.999763,
+          "spannweite_radial_cos": 0.999763,
+          "bewegungsrichtung": "gegen_uhrzeigersinn",
+          "r_min_mm": 150.003,
+          "r_max_mm": 752.299
+        },
+        {
+          "name": "W1_5_Fluegel_Huelle",
+          "ebene": 1,
+          "index": 5,
+          "schwerpunkt_mm": [
+            -311.274,
+            -325.122,
+            122.081
+          ],
+          "radius_schwerpunkt_mm": 450.107,
+          "winkel_deg": 226.246,
+          "pitch_deg": 12.0,
+          "sehne_tangential_cos": 0.999763,
+          "spannweite_radial_cos": 0.999763,
+          "bewegungsrichtung": "gegen_uhrzeigersinn",
+          "r_min_mm": 150.003,
+          "r_max_mm": 752.299
+        },
+        {
+          "name": "W1_6_Fluegel_Huelle",
+          "ebene": 1,
+          "index": 6,
+          "schwerpunkt_mm": [
+            -450.0,
+            -9.791,
+            122.081
+          ],
+          "radius_schwerpunkt_mm": 450.107,
+          "winkel_deg": 181.246,
+          "pitch_deg": 12.0,
+          "sehne_tangential_cos": 0.999763,
+          "spannweite_radial_cos": 0.999763,
+          "bewegungsrichtung": "gegen_uhrzeigersinn",
+          "r_min_mm": 150.003,
+          "r_max_mm": 752.299
+        },
+        {
+          "name": "W1_7_Fluegel_Huelle",
+          "ebene": 1,
+          "index": 7,
+          "schwerpunkt_mm": [
+            -325.122,
+            311.274,
+            122.081
+          ],
+          "radius_schwerpunkt_mm": 450.107,
+          "winkel_deg": 136.246,
+          "pitch_deg": 12.0,
+          "sehne_tangential_cos": 0.999763,
+          "spannweite_radial_cos": 0.999763,
+          "bewegungsrichtung": "gegen_uhrzeigersinn",
+          "r_min_mm": 150.003,
+          "r_max_mm": 752.299
+        }
+      ],
+      "anzahl": 16,
+      "min_abstand_nachbarfluegel_gleiche_ebene_mm": 22.104342912946322,
+      "min_abstand_uebereinander_mm": 211.797950935064,
+      "min_abstand_fluegel_zu_fuehrungsring_mm": 9.06034395255554,
+      "sehnen_halbwinkel_wurzel_deg": 21.36837100984707,
+      "teilung_deg": 45,
+      "hinweis": "An der Wurzel r 150 mm bleiben im Grundriss nur ca. 2.3 Grad zwischen Nachbarfluegeln; Abstaende oben sind exakte BRep-Werte."
+    },
+    "gespeichert_und_wieder_geoeffnet": true
+  },
+  "Kreis_R04_ohne_Aussenring": {
+    "ergebniskoerper": 948,
+    "entfernt": 796,
+    "motor_encoder_umgesetzt": 16,
+    "fahrzeug_huelle_mm": [
+      1540.0000000000005,
+      1692.875770438596,
+      523.0
+    ],
+    "innerhalb_2100x1700x600": true,
+    "alle_formen_gueltig": true,
+    "fluegelpruefung": {
+      "fluegel": [
+        {
+          "name": "W0_0_Fluegel_Huelle",
+          "ebene": 0,
+          "index": 0,
+          "schwerpunkt_mm": [
+            9.791,
+            450.0,
+            -117.919
+          ],
+          "radius_schwerpunkt_mm": 450.107,
+          "winkel_deg": 88.754,
+          "pitch_deg": 12.0,
+          "sehne_tangential_cos": 0.999763,
+          "spannweite_radial_cos": 0.999763,
+          "bewegungsrichtung": "im_uhrzeigersinn",
+          "r_min_mm": 150.003,
+          "r_max_mm": 752.299
+        },
+        {
+          "name": "W0_1_Fluegel_Huelle",
+          "ebene": 0,
+          "index": 1,
+          "schwerpunkt_mm": [
+            325.122,
+            311.274,
+            -117.919
+          ],
+          "radius_schwerpunkt_mm": 450.107,
+          "winkel_deg": 43.754,
+          "pitch_deg": 12.0,
+          "sehne_tangential_cos": 0.999763,
+          "spannweite_radial_cos": 0.999763,
+          "bewegungsrichtung": "im_uhrzeigersinn",
+          "r_min_mm": 150.003,
+          "r_max_mm": 752.299
+        },
+        {
+          "name": "W0_2_Fluegel_Huelle",
+          "ebene": 0,
+          "index": 2,
+          "schwerpunkt_mm": [
+            450.0,
+            -9.791,
+            -117.919
+          ],
+          "radius_schwerpunkt_mm": 450.107,
+          "winkel_deg": 358.754,
+          "pitch_deg": 12.0,
+          "sehne_tangential_cos": 0.999763,
+          "spannweite_radial_cos": 0.999763,
+          "bewegungsrichtung": "im_uhrzeigersinn",
+          "r_min_mm": 150.003,
+          "r_max_mm": 752.299
+        },
+        {
+          "name": "W0_3_Fluegel_Huelle",
+          "ebene": 0,
+          "index": 3,
+          "schwerpunkt_mm": [
+            311.274,
+            -325.122,
+            -117.919
+          ],
+          "radius_schwerpunkt_mm": 450.107,
+          "winkel_deg": 313.754,
+          "pitch_deg": 12.0,
+          "sehne_tangential_cos": 0.999763,
+          "spannweite_radial_cos": 0.999763,
+          "bewegungsrichtung": "im_uhrzeigersinn",
+          "r_min_mm": 150.003,
+          "r_max_mm": 752.299
+        },
+        {
+          "name": "W0_4_Fluegel_Huelle",
+          "ebene": 0,
+          "index": 4,
+          "schwerpunkt_mm": [
+            -9.791,
+            -450.0,
+            -117.919
+          ],
+          "radius_schwerpunkt_mm": 450.107,
+          "winkel_deg": 268.754,
+          "pitch_deg": 12.0,
+          "sehne_tangential_cos": 0.999763,
+          "spannweite_radial_cos": 0.999763,
+          "bewegungsrichtung": "im_uhrzeigersinn",
+          "r_min_mm": 150.003,
+          "r_max_mm": 752.299
+        },
+        {
+          "name": "W0_5_Fluegel_Huelle",
+          "ebene": 0,
+          "index": 5,
+          "schwerpunkt_mm": [
+            -325.122,
+            -311.274,
+            -117.919
+          ],
+          "radius_schwerpunkt_mm": 450.107,
+          "winkel_deg": 223.754,
+          "pitch_deg": 12.0,
+          "sehne_tangential_cos": 0.999763,
+          "spannweite_radial_cos": 0.999763,
+          "bewegungsrichtung": "im_uhrzeigersinn",
+          "r_min_mm": 150.003,
+          "r_max_mm": 752.299
+        },
+        {
+          "name": "W0_6_Fluegel_Huelle",
+          "ebene": 0,
+          "index": 6,
+          "schwerpunkt_mm": [
+            -450.0,
+            9.791,
+            -117.919
+          ],
+          "radius_schwerpunkt_mm": 450.107,
+          "winkel_deg": 178.754,
+          "pitch_deg": 12.0,
+          "sehne_tangential_cos": 0.999763,
+          "spannweite_radial_cos": 0.999763,
+          "bewegungsrichtung": "im_uhrzeigersinn",
+          "r_min_mm": 150.003,
+          "r_max_mm": 752.299
+        },
+        {
+          "name": "W0_7_Fluegel_Huelle",
+          "ebene": 0,
+          "index": 7,
+          "schwerpunkt_mm": [
+            -311.274,
+            325.122,
+            -117.919
+          ],
+          "radius_schwerpunkt_mm": 450.107,
+          "winkel_deg": 133.754,
+          "pitch_deg": 12.0,
+          "sehne_tangential_cos": 0.999763,
+          "spannweite_radial_cos": 0.999763,
+          "bewegungsrichtung": "im_uhrzeigersinn",
+          "r_min_mm": 150.003,
+          "r_max_mm": 752.299
+        },
+        {
+          "name": "W1_0_Fluegel_Huelle",
+          "ebene": 1,
+          "index": 0,
+          "schwerpunkt_mm": [
+            -9.791,
+            450.0,
+            122.081
+          ],
+          "radius_schwerpunkt_mm": 450.107,
+          "winkel_deg": 91.246,
+          "pitch_deg": 12.0,
+          "sehne_tangential_cos": 0.999763,
+          "spannweite_radial_cos": 0.999763,
+          "bewegungsrichtung": "gegen_uhrzeigersinn",
+          "r_min_mm": 150.003,
+          "r_max_mm": 752.299
+        },
+        {
+          "name": "W1_1_Fluegel_Huelle",
+          "ebene": 1,
+          "index": 1,
+          "schwerpunkt_mm": [
+            311.274,
+            325.122,
+            122.081
+          ],
+          "radius_schwerpunkt_mm": 450.107,
+          "winkel_deg": 46.246,
+          "pitch_deg": 12.0,
+          "sehne_tangential_cos": 0.999763,
+          "spannweite_radial_cos": 0.999763,
+          "bewegungsrichtung": "gegen_uhrzeigersinn",
+          "r_min_mm": 150.003,
+          "r_max_mm": 752.299
+        },
+        {
+          "name": "W1_2_Fluegel_Huelle",
+          "ebene": 1,
+          "index": 2,
+          "schwerpunkt_mm": [
+            450.0,
+            9.791,
+            122.081
+          ],
+          "radius_schwerpunkt_mm": 450.107,
+          "winkel_deg": 1.246,
+          "pitch_deg": 12.0,
+          "sehne_tangential_cos": 0.999763,
+          "spannweite_radial_cos": 0.999763,
+          "bewegungsrichtung": "gegen_uhrzeigersinn",
+          "r_min_mm": 150.003,
+          "r_max_mm": 752.299
+        },
+        {
+          "name": "W1_3_Fluegel_Huelle",
+          "ebene": 1,
+          "index": 3,
+          "schwerpunkt_mm": [
+            325.122,
+            -311.274,
+            122.081
+          ],
+          "radius_schwerpunkt_mm": 450.107,
+          "winkel_deg": 316.246,
+          "pitch_deg": 12.0,
+          "sehne_tangential_cos": 0.999763,
+          "spannweite_radial_cos": 0.999763,
+          "bewegungsrichtung": "gegen_uhrzeigersinn",
+          "r_min_mm": 150.003,
+          "r_max_mm": 752.299
+        },
+        {
+          "name": "W1_4_Fluegel_Huelle",
+          "ebene": 1,
+          "index": 4,
+          "schwerpunkt_mm": [
+            9.791,
+            -450.0,
+            122.081
+          ],
+          "radius_schwerpunkt_mm": 450.107,
+          "winkel_deg": 271.246,
+          "pitch_deg": 12.0,
+          "sehne_tangential_cos": 0.999763,
+          "spannweite_radial_cos": 0.999763,
+          "bewegungsrichtung": "gegen_uhrzeigersinn",
+          "r_min_mm": 150.003,
+          "r_max_mm": 752.299
+        },
+        {
+          "name": "W1_5_Fluegel_Huelle",
+          "ebene": 1,
+          "index": 5,
+          "schwerpunkt_mm": [
+            -311.274,
+            -325.122,
+            122.081
+          ],
+          "radius_schwerpunkt_mm": 450.107,
+          "winkel_deg": 226.246,
+          "pitch_deg": 12.0,
+          "sehne_tangential_cos": 0.999763,
+          "spannweite_radial_cos": 0.999763,
+          "bewegungsrichtung": "gegen_uhrzeigersinn",
+          "r_min_mm": 150.003,
+          "r_max_mm": 752.299
+        },
+        {
+          "name": "W1_6_Fluegel_Huelle",
+          "ebene": 1,
+          "index": 6,
+          "schwerpunkt_mm": [
+            -450.0,
+            -9.791,
+            122.081
+          ],
+          "radius_schwerpunkt_mm": 450.107,
+          "winkel_deg": 181.246,
+          "pitch_deg": 12.0,
+          "sehne_tangential_cos": 0.999763,
+          "spannweite_radial_cos": 0.999763,
+          "bewegungsrichtung": "gegen_uhrzeigersinn",
+          "r_min_mm": 150.003,
+          "r_max_mm": 752.299
+        },
+        {
+          "name": "W1_7_Fluegel_Huelle",
+          "ebene": 1,
+          "index": 7,
+          "schwerpunkt_mm": [
+            -325.122,
+            311.274,
+            122.081
+          ],
+          "radius_schwerpunkt_mm": 450.107,
+          "winkel_deg": 136.246,
+          "pitch_deg": 12.0,
+          "sehne_tangential_cos": 0.999763,
+          "spannweite_radial_cos": 0.999763,
+          "bewegungsrichtung": "gegen_uhrzeigersinn",
+          "r_min_mm": 150.003,
+          "r_max_mm": 752.299
+        }
+      ],
+      "anzahl": 16,
+      "min_abstand_nachbarfluegel_gleiche_ebene_mm": 22.104342912946322,
+      "min_abstand_uebereinander_mm": 211.797950935064,
+      "min_abstand_fluegel_zu_fuehrungsring_mm": 13.728178275955816,
+      "sehnen_halbwinkel_wurzel_deg": 21.36837100984707,
+      "teilung_deg": 45,
+      "hinweis": "An der Wurzel r 150 mm bleiben im Grundriss nur ca. 2.3 Grad zwischen Nachbarfluegeln; Abstaende oben sind exakte BRep-Werte."
+    },
+    "gespeichert_und_wieder_geoeffnet": true
+  }
+}

@@ -5,3 +5,5 @@ __pycache__/
 cfd/results/*.npz
 vergleich_horizontal/results/*.npz
 begegnung/results/*.npz
+kreis_r04/cfd/cases/
+*.msh

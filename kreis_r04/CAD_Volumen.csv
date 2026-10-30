@@ -1,0 +1,103 @@
+﻿Variante,BauteilID,Material_Annahme,Werkstoffklasse,Anzahl,Volumen_cm3,Dichte_kg_m3,Masse_kg
+Kreis_R04_Aussenring,BF-M2x10-csk,Stahl / Festigkeitsklasse und Beschichtung TBD,Stahl,128,4.4536,7850.0,0.03496
+Kreis_R04_Aussenring,BF-M2x12-csk,Stahl / Festigkeitsklasse und Beschichtung TBD,Stahl,64,2.6289,7850.0,0.02064
+Kreis_R04_Aussenring,BF-M2x6-csk,Stahl / Festigkeitsklasse und Beschichtung TBD,Stahl,192,4.2677,7850.0,0.0335
+Kreis_R04_Aussenring,BF-M2x8-csk,Stahl / Festigkeitsklasse und Beschichtung TBD,Stahl,128,3.6494,7850.0,0.02865
+Kreis_R04_Aussenring,BF-M3x12-csk,Stahl / Festigkeitsklasse und Beschichtung TBD,Stahl,64,6.1173,7850.0,0.04802
+Kreis_R04_Aussenring,BF-M3x20-cap,Stahl / Festigkeitsklasse und Beschichtung TBD,Stahl,128,26.1795,7850.0,0.20551
+Kreis_R04_Aussenring,BF-SCHEIBE-M3,Stahl / Korrosionspaarung TBD,Stahl,128,1.9483,7850.0,0.01529
+Kreis_R04_Aussenring,ENC-REF,Encoder TBD,nicht_bewertet,16,9.3212,,
+Kreis_R04_Aussenring,FANG-REF,PEEK / Lager TBD,nicht_bewertet,128,67.2351,,
+Kreis_R04_Aussenring,FL-CFK-REF,CFK Laminat TBD,CFK,16,4102.4179,1600.0,6.56387
+Kreis_R04_Aussenring,LAGER-G01,Aluminium TBD,Aluminium,32,81.8644,2700.0,0.22103
+Kreis_R04_Aussenring,LAGER-REF,Katalogauswahl offen,nicht_bewertet,32,73.8903,,
+Kreis_R04_Aussenring,MAG-AKT-REF,Aktives Magnetlager TBD,nicht_bewertet,64,72.3812,,
+Kreis_R04_Aussenring,PITCH-G01,Aluminium / Zustand TBD,Aluminium,32,44.6558,2700.0,0.12057
+Kreis_R04_Aussenring,PITCH-MOT-REF,Direktantrieb TBD,nicht_bewertet,16,76.2186,,
+Kreis_R04_Aussenring,PITCH-W01,Wellenwerkstoff TBD,Stahl,16,514.7185,7850.0,4.04054
+Kreis_R04_Aussenring,R02-BAT-BRIDGE,Aluminium / Legierung und Zustand TBD,Aluminium,4,95.0497,2700.0,0.25663
+Kreis_R04_Aussenring,R02-BAT-CASE,Aluminium TBD,Aluminium,2,353.7283,2700.0,0.95507
+Kreis_R04_Aussenring,R02-BAT-GUARD,GFK/FR4 TBD,nicht_bewertet,1,866.2587,,
+Kreis_R04_Aussenring,R02-BAT-LID,Aluminium / Legierung und Zustand TBD,Aluminium,2,223.7641,2700.0,0.60416
+Kreis_R04_Aussenring,R02-BAT-PAD,Elastomer TBD,nicht_bewertet,4,6.72,,
+Kreis_R04_Aussenring,R02-BAT-SEAL,Dichtung TBD,nicht_bewertet,2,2.136,,
+Kreis_R04_Aussenring,R02-BAT-SPACER,Metall TBD,nicht_bewertet,8,45.3842,,
+Kreis_R04_Aussenring,R02-BAT-TRAY,Aluminium / Legierung und Zustand TBD,Aluminium,1,653.7749,2700.0,1.76519
+Kreis_R04_Aussenring,R02-CTRL-BRACKET,Metall TBD,nicht_bewertet,64,128.1515,,
+Kreis_R04_Aussenring,R02-CTRL-CASE,Gehaeusewerkstoff TBD,nicht_bewertet,32,98.5632,,
+Kreis_R04_Aussenring,R02-CTRL-LID,Gehaeusewerkstoff TBD,nicht_bewertet,32,46.274,,
+Kreis_R04_Aussenring,R02-DECK,CFK Sandwich TBD,CFK,1,2816.4613,1600.0,4.50634
+Kreis_R04_Aussenring,R02-DECK-HP,Metall + Verguss TBD,nicht_bewertet,6,13.6897,,
+Kreis_R04_Aussenring,R02-DECK-STAND,Metall/Isolation TBD,nicht_bewertet,6,24.8814,,
+Kreis_R04_Aussenring,R02-FOOT-ADAPTER,Aluminium / Legierung und Zustand TBD,Aluminium,2,361.862,2700.0,0.97703
+Kreis_R04_Aussenring,R02-FOOT-INSERT,Metall/Harz TBD,nicht_bewertet,8,28.5115,,
+Kreis_R04_Aussenring,R02-FOOT-MAT,Elastomer TBD,nicht_bewertet,2,436.8,,
+Kreis_R04_Aussenring,R02-HV-CABLE-REF,Kabeltyp TBD,nicht_bewertet,2,263.0063,,
+Kreis_R04_Aussenring,R02-IPT-HOLDER,Isolierwerkstoff TBD,nicht_bewertet,32,59.6913,,
+Kreis_R04_Aussenring,R02-IPT-REF,Induktivsystem TBD,nicht_bewertet,32,69.12,,
+Kreis_R04_Aussenring,R02-IPT-STRAP,Isolierwerkstoff TBD,nicht_bewertet,32,6.6166,,
+Kreis_R04_Aussenring,R02-LV-CABLE-REF,Kabeltyp TBD,nicht_bewertet,2,54.9723,,
+Kreis_R04_Aussenring,R02-PCB-REF,PCB unbestimmt,nicht_bewertet,32,28.0114,,
+Kreis_R04_Aussenring,R02-PM-KEEP,GFK/Isolierstoff TBD,nicht_bewertet,32,32.2897,,
+Kreis_R04_Aussenring,R02-PM-REF,Magnetguete TBD,nicht_bewertet,64,12.288,,
+Kreis_R04_Aussenring,R02-POLE-SHIM,Isolierender Traeger TBD,nicht_bewertet,64,35.7059,,
+Kreis_R04_Aussenring,R02-POTTING,Vergusswerkstoff TBD,nicht_bewertet,8,0.8922,,
+Kreis_R04_Aussenring,R02-TRAY-CLAMP,Aluminium TBD,Aluminium,12,37.4459,2700.0,0.1011
+Kreis_R04_Aussenring,R02-TRAY-ISO,GFK TBD,nicht_bewertet,6,1.4748,,
+Kreis_R04_Aussenring,R03-RING-C,Aluminium TBD,Aluminium,4,4071.5041,2700.0,10.99306
+Kreis_R04_Aussenring,R03-RING-F,Aluminium TBD,Aluminium,8,5066.7606,2700.0,13.68025
+Kreis_R04_Aussenring,R03-RING-IPT-REF,Induktivsystem TBD,nicht_bewertet,4,271.4336,,
+Kreis_R04_Aussenring,R03-RING-JOCH,Elektroblech TBD,Stahl,4,1990.5131,7850.0,15.62553
+Kreis_R04_Aussenring,R03-RING-STATOR-REF,Wicklungsbauraum,nicht_bewertet,4,1357.168,,
+Kreis_R04_Aussenring,SCHL-01,Aluminium / Zustand TBD,Aluminium,32,899.6152,2700.0,2.42896
+Kreis_R04_ohne_Aussenring,BF-M2x10-csk,Stahl / Festigkeitsklasse und Beschichtung TBD,Stahl,64,2.2268,7850.0,0.01748
+Kreis_R04_ohne_Aussenring,BF-M2x12-csk,Stahl / Festigkeitsklasse und Beschichtung TBD,Stahl,32,1.3145,7850.0,0.01032
+Kreis_R04_ohne_Aussenring,BF-M2x6-csk,Stahl / Festigkeitsklasse und Beschichtung TBD,Stahl,96,2.1339,7850.0,0.01675
+Kreis_R04_ohne_Aussenring,BF-M2x8-csk,Stahl / Festigkeitsklasse und Beschichtung TBD,Stahl,64,1.8247,7850.0,0.01432
+Kreis_R04_ohne_Aussenring,BF-M3x12-csk,Stahl / Festigkeitsklasse und Beschichtung TBD,Stahl,32,3.0586,7850.0,0.02401
+Kreis_R04_ohne_Aussenring,BF-M3x20-cap,Stahl / Festigkeitsklasse und Beschichtung TBD,Stahl,64,13.0898,7850.0,0.10275
+Kreis_R04_ohne_Aussenring,BF-SCHEIBE-M3,Stahl / Korrosionspaarung TBD,Stahl,64,0.9741,7850.0,0.00765
+Kreis_R04_ohne_Aussenring,ENC-REF,Encoder TBD,nicht_bewertet,16,9.3212,,
+Kreis_R04_ohne_Aussenring,FANG-REF,PEEK / Lager TBD,nicht_bewertet,64,33.6176,,
+Kreis_R04_ohne_Aussenring,FL-CFK-REF,CFK Laminat TBD,CFK,16,4102.4179,1600.0,6.56387
+Kreis_R04_ohne_Aussenring,LAGER-G01,Aluminium TBD,Aluminium,16,40.9322,2700.0,0.11052
+Kreis_R04_ohne_Aussenring,LAGER-REF,Katalogauswahl offen,nicht_bewertet,16,36.9451,,
+Kreis_R04_ohne_Aussenring,MAG-AKT-REF,Aktives Magnetlager TBD,nicht_bewertet,32,36.1906,,
+Kreis_R04_ohne_Aussenring,PITCH-G01,Aluminium / Zustand TBD,Aluminium,16,22.3279,2700.0,0.06029
+Kreis_R04_ohne_Aussenring,PITCH-MOT-REF,Direktantrieb TBD,nicht_bewertet,16,76.2186,,
+Kreis_R04_ohne_Aussenring,PITCH-W01,Wellenwerkstoff TBD,Stahl,16,514.7185,7850.0,4.04054
+Kreis_R04_ohne_Aussenring,R02-BAT-BRIDGE,Aluminium / Legierung und Zustand TBD,Aluminium,4,95.0497,2700.0,0.25663
+Kreis_R04_ohne_Aussenring,R02-BAT-CASE,Aluminium TBD,Aluminium,2,353.7283,2700.0,0.95507
+Kreis_R04_ohne_Aussenring,R02-BAT-GUARD,GFK/FR4 TBD,nicht_bewertet,1,866.2587,,
+Kreis_R04_ohne_Aussenring,R02-BAT-LID,Aluminium / Legierung und Zustand TBD,Aluminium,2,223.7641,2700.0,0.60416
+Kreis_R04_ohne_Aussenring,R02-BAT-PAD,Elastomer TBD,nicht_bewertet,4,6.72,,
+Kreis_R04_ohne_Aussenring,R02-BAT-SEAL,Dichtung TBD,nicht_bewertet,2,2.136,,
+Kreis_R04_ohne_Aussenring,R02-BAT-SPACER,Metall TBD,nicht_bewertet,8,45.3842,,
+Kreis_R04_ohne_Aussenring,R02-BAT-TRAY,Aluminium / Legierung und Zustand TBD,Aluminium,1,653.7749,2700.0,1.76519
+Kreis_R04_ohne_Aussenring,R02-CTRL-BRACKET,Metall TBD,nicht_bewertet,32,64.0757,,
+Kreis_R04_ohne_Aussenring,R02-CTRL-CASE,Gehaeusewerkstoff TBD,nicht_bewertet,16,49.2816,,
+Kreis_R04_ohne_Aussenring,R02-CTRL-LID,Gehaeusewerkstoff TBD,nicht_bewertet,16,23.137,,
+Kreis_R04_ohne_Aussenring,R02-DECK,CFK Sandwich TBD,CFK,1,2816.4613,1600.0,4.50634
+Kreis_R04_ohne_Aussenring,R02-DECK-HP,Metall + Verguss TBD,nicht_bewertet,6,13.6897,,
+Kreis_R04_ohne_Aussenring,R02-DECK-STAND,Metall/Isolation TBD,nicht_bewertet,6,24.8814,,
+Kreis_R04_ohne_Aussenring,R02-FOOT-ADAPTER,Aluminium / Legierung und Zustand TBD,Aluminium,2,361.862,2700.0,0.97703
+Kreis_R04_ohne_Aussenring,R02-FOOT-INSERT,Metall/Harz TBD,nicht_bewertet,8,28.5115,,
+Kreis_R04_ohne_Aussenring,R02-FOOT-MAT,Elastomer TBD,nicht_bewertet,2,436.8,,
+Kreis_R04_ohne_Aussenring,R02-HV-CABLE-REF,Kabeltyp TBD,nicht_bewertet,2,263.0063,,
+Kreis_R04_ohne_Aussenring,R02-IPT-HOLDER,Isolierwerkstoff TBD,nicht_bewertet,16,29.8456,,
+Kreis_R04_ohne_Aussenring,R02-IPT-REF,Induktivsystem TBD,nicht_bewertet,16,34.56,,
+Kreis_R04_ohne_Aussenring,R02-IPT-STRAP,Isolierwerkstoff TBD,nicht_bewertet,16,3.3083,,
+Kreis_R04_ohne_Aussenring,R02-LV-CABLE-REF,Kabeltyp TBD,nicht_bewertet,2,54.9723,,
+Kreis_R04_ohne_Aussenring,R02-PCB-REF,PCB unbestimmt,nicht_bewertet,16,14.0057,,
+Kreis_R04_ohne_Aussenring,R02-PM-KEEP,GFK/Isolierstoff TBD,nicht_bewertet,16,16.1449,,
+Kreis_R04_ohne_Aussenring,R02-PM-REF,Magnetguete TBD,nicht_bewertet,32,6.144,,
+Kreis_R04_ohne_Aussenring,R02-POLE-SHIM,Isolierender Traeger TBD,nicht_bewertet,32,17.8529,,
+Kreis_R04_ohne_Aussenring,R02-POTTING,Vergusswerkstoff TBD,nicht_bewertet,8,0.8922,,
+Kreis_R04_ohne_Aussenring,R02-TRAY-CLAMP,Aluminium TBD,Aluminium,12,37.4459,2700.0,0.1011
+Kreis_R04_ohne_Aussenring,R02-TRAY-ISO,GFK TBD,nicht_bewertet,6,1.4748,,
+Kreis_R04_ohne_Aussenring,R03-RING-C,Aluminium TBD,Aluminium,2,529.2955,2700.0,1.4291
+Kreis_R04_ohne_Aussenring,R03-RING-F,Aluminium TBD,Aluminium,4,720.606,2700.0,1.94564
+Kreis_R04_ohne_Aussenring,R03-RING-IPT-REF,Induktivsystem TBD,nicht_bewertet,2,34.9848,,
+Kreis_R04_ohne_Aussenring,R03-RING-JOCH,Elektroblech TBD,Stahl,2,247.7083,7850.0,1.94451
+Kreis_R04_ohne_Aussenring,R03-RING-STATOR-REF,Wicklungsbauraum,nicht_bewertet,2,174.9239,,
+Kreis_R04_ohne_Aussenring,SCHL-01,Aluminium / Zustand TBD,Aluminium,16,449.8076,2700.0,1.21448
