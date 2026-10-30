@@ -1,0 +1,19 @@
+# Run once in FreeCAD 1.0.2 or later to load the scripted manufacturing features.
+# Keep this macro, fertigung_features.py, erstellen.py and Fertigung together.
+import os
+import sys
+import FreeCAD as App
+# FreeCAD supplies __file__ when executing a macro from disk.
+base = os.path.dirname(os.path.abspath(__file__))
+if base not in sys.path: sys.path.insert(0, base)
+import fertigung_features
+assembly = os.path.join(base, 'R04_Taumelmodell_1zu4.FCStd')
+if os.path.isfile(assembly):
+    doc = App.openDocument(assembly)
+    if App.GuiUp:
+        Gui.activeDocument().activeView().viewAxonometric()
+        Gui.activeDocument().activeView().fitAll()
+else:
+    App.Console.PrintMessage('Baugruppe noch nicht erzeugt. Einzelteile unter Fertigung/Einzelteile oeffnen.\n')
+App.Console.PrintMessage('Fertigungsentwurf: Einzelteil oeffnen, Blatt Parameter bearbeiten, neu berechnen.\n')
+App.Console.PrintMessage('Keine Freigabe. Offene Schnittstellen: Fertigung/Fertigungshinweise.md\n')

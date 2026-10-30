@@ -34,5 +34,7 @@ Quellen: [ArduPilot Dual Helicopter](https://ardupilot.org/copter/docs/dual-heli
 
 ## Inhalt
 
+Die **Cohexial Study, Fertigungsentwurf F01**, liegt unter [`cad/`](cad/README.md): native Baugruppe, skriptparametrische Einzelteile mit TechDraw-Seiten, STEP/STL, Zeichnungssatz und Stücklisten. Führungsnut, Mitnehmerstift und Kappenanordnung wurden gegenüber V1 korrigiert. Fehlende Kaufteilanschlüsse, Passungen und Festigkeitsnachweise sind in den [Fertigungshinweisen](cad/Fertigung/Fertigungshinweise.md) aufgeführt; es liegt keine Fertigungsfreigabe vor.
+
 - [`cad/`](cad/README.md): parametrisches FreeCAD-Modell, STL-Dateien, Prüfbericht
 - [`auslegung/`](auslegung/): Nachrechnung der Betriebspunkte und der Steuerwirkung mit CAD-Masse

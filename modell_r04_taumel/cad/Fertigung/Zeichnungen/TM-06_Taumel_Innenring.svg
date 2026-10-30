@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:freecad="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace" width="297mm" height="210mm" viewBox="0 0 297 210"><rect x="8" y="8" width="281" height="194" fill="white" stroke="black" stroke-width="0.35"/><path d="M8 173 H289 M8 190 H289 M195 173 V202" fill="none" stroke="black" stroke-width="0.25"/><text x="12" y="179" font-family="sans-serif" font-size="3.5">COHEXIAL STUDY | R04-Taumelmodell 1:4 | ENTWURF F01</text><text x="12" y="185" font-family="sans-serif" font-size="4">TM-06  Taumel_Innenring</text><text x="12" y="195" font-family="sans-serif" font-size="3">Werkstoff: PA-CF | Anzahl je Baugruppe: 2</text><text x="12" y="200" font-family="sans-serif" font-size="2.6">Alle Masse in mm. Keine Allgemeintoleranz freigegeben. Nicht aus der Zeichnung abmessen.</text><text x="199" y="179" font-family="sans-serif" font-size="3">Status: NICHT FREIGEGEBEN</text><text x="199" y="185" font-family="sans-serif" font-size="3">Datum: 2026-10-30 | Blatt 1/1</text><text x="199" y="195" font-family="sans-serif" font-size="2.8">3D-Datensatz + Nennmasstabelle</text><text x="199" y="200" font-family="sans-serif" font-size="2.8">FreeCAD 1.0.2 | Revision F01</text><g transform="translate(66,58) scale(0.8154536185389273) translate(-34.51554445662277,39.8551177665153)"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="0.09810490527142231"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 62.9689 -1.42109e-14 L 69.0311 3.5 " />
+<path d="M34.6542 16.6677 A25 25 0 0 1 53.3458 16.6677" /><path d="M59.408 20.1677 A25 25 0 0 1 69 39.8551" /><path d="M19.2462 36.3551 A25 25 0 0 1 28.592 20.1677" /><path d="M53.3458 63.0425 A25 25 0 0 1 19.2462 43.3551" /><path d="M69 39.8551 A25 25 0 0 1 59.408 59.5425" /><circle cx ="44" cy ="39.8551" r ="18" /><path id= "8" d=" M 18.9689 3.5 L 25.0311 1.90958e-14 " />
+<path id= "9" d=" M 0 43.3551 L 0 36.3551 " />
+<path id= "10" d=" M 69.0311 76.2102 L 62.9689 79.7102 " />
+<path id= "11" d=" M 57.0311 24.2846 L 69.0311 3.5 " />
+<path id= "12" d=" M 57.0311 55.4256 L 69.0311 76.2102 " />
+<path id= "13" d=" M 37.0311 20.7846 L 25.0311 3.55271e-15 " />
+<path id= "14" d=" M 50.9689 58.9256 L 62.9689 79.7102 " />
+<path id= "15" d=" M 30.9689 24.2846 L 18.9689 3.5 " />
+<path id= "16" d=" M 24 43.3551 L 0 43.3551 " />
+<path id= "17" d=" M 24 36.3551 L 0 36.3551 " />
+<path id= "18" d=" M 50.9689 20.7846 L 62.9689 0 " />
+<path id= "19" d=" M 50.9689 20.7846 L 57.0311 24.2846 " />
+<path id= "20" d=" M 30.9689 24.2846 L 37.0311 20.7846 " />
+<path id= "21" d=" M 24 43.3551 L 24 36.3551 " />
+<path id= "22" d=" M 57.0311 55.4256 L 50.9689 58.9256 " />
+</g>
+</g><text x="66" y="99.5" text-anchor="middle" font-family="sans-serif" font-size="3">Draufsicht | 0.815:1</text><path d="M37.85417437700575,90.5 L37.85417437700575,98.5" stroke="black" stroke-width="0.18" fill="none"/><path d="M94.14582562299425,90.5 L94.14582562299425,98.5" stroke="black" stroke-width="0.18" fill="none"/><path d="M37.85417437700575,96.5 L94.14582562299425,96.5" stroke="black" stroke-width="0.18" fill="none"/><path d="M36.85417437700575,97.5 L38.85417437700575,95.5" stroke="black" stroke-width="0.18" fill="none"/><path d="M93.14582562299425,97.5 L95.14582562299425,95.5" stroke="black" stroke-width="0.18" fill="none"/><text x="66" y="95.5" font-family="sans-serif" font-size="3" text-anchor="middle">69.031</text><path d="M37.85417437700575,25.5 L29.854174377005748,25.5" stroke="black" stroke-width="0.18" fill="none"/><path d="M37.85417437700575,90.5 L29.854174377005748,90.5" stroke="black" stroke-width="0.18" fill="none"/><path d="M31.854174377005748,25.5 L31.854174377005748,90.5" stroke="black" stroke-width="0.18" fill="none"/><path d="M30.854174377005748,26.5 L32.85417437700575,24.5" stroke="black" stroke-width="0.18" fill="none"/><path d="M30.854174377005748,91.5 L32.85417437700575,89.5" stroke="black" stroke-width="0.18" fill="none"/><text x="30.854174377005748" y="58" transform="rotate(-90 30.854174377005748 58)" font-family="sans-serif" font-size="3" text-anchor="middle">79.710</text><g transform="translate(66,136) scale(1.260301718684125) translate(-34.51554445662277,7.2500000000000036)"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="0.06347686336850164"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 21.55 5.32907e-15 L 21.55 7 " />
+<path id= "2" d=" M 69 7 L 69 10 " />
+</g>
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="0.06347686336850164"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 53.4689 7 L 53.4689 11.5 " />
+<path id= "2" d=" M 53.4689 7 L 56.5 7 " />
+<path id= "3" d=" M 56.5 7 L 59.5311 7 " />
+<path id= "4" d=" M 59.5311 7 L 59.5311 11.5 " />
+<path id= "5" d=" M 56.5 7 L 56.5 10 " />
+<path id= "6" d=" M 62.9689 11.5 L 69.0311 11.5 " />
+<path id= "7" d=" M 53.4689 11.5 L 62.9689 11.5 " />
+<path id= "8" d=" M 62.9689 11.5 L 62.9689 14.5 " />
+<path id= "9" d=" M 62.9689 14.5 L 69.0311 14.5 " />
+<path id= "10" d=" M 69.0311 11.5 L 69.0311 14.5 " />
+<path d="M59.5311, 7 L60.7581, 7  L61.9159, 7  L62.9996, 7  L64.0046, 7  L64.927, 7  L65.7628, 7  L66.5086, 7  L67.1614, 7  L67.7183, 7  L68.1772, 7  L68.536, 7  L68.7934, 7  L68.9483, 7  L69, 7 " /><path id= "12" d=" M 53.3458 7 L 53.4689 7 " />
+<path d="M34.6542, 7 Q35.2954, 7 35.9367, 7  Q36.59, 7 37.2433, 7  Q37.9068, 7 38.5702, 7  Q39.2418, 7 39.9134, 7  Q40.5911, 7 41.2688, 7  Q42.6312, 7 44, 7  Q45.3688, 7 46.7312, 7  Q47.4089, 7 48.0866, 7  Q48.7582, 7 49.4298, 7  Q50.0932, 7 50.7567, 7  Q51.41, 7 52.0633, 7  Q52.7046, 7 53.3458, 7 " /><path id= "14" d=" M 34.6542 7 L 34.5311 7 " />
+<path id= "15" d=" M 31.5 7 L 34.5311 7 " />
+<path id= "16" d=" M 28.4689 7 L 31.5 7 " />
+<path d="M19.2462, 7 L19.4726, 7  L19.7712, 7  L20.1412, 7  L20.5816, 7  L21.0909, 7  L21.6677, 7  L22.3103, 7  L23.0168, 7  L23.7851, 7  L24.613, 7  L25.498, 7  L26.4376, 7  L27.4288, 7  L28.4689, 7 " /><path id= "18" d=" M 19.2462 7 L 19 7 " />
+<path id= "19" d=" M 53.3458 7 L 53.3458 10 " />
+<path id= "20" d=" M 34.6542 7 L 34.6542 10 " />
+<path d="M34.6542, 10 Q35.2954, 10 35.9367, 10  Q36.59, 10 37.2433, 10  Q37.9068, 10 38.5702, 10  Q39.2418, 10 39.9134, 10  Q40.5911, 10 41.2688, 10  Q42.6312, 10 44, 10  Q44.6838, 10 45.3677, 10  Q46.0494, 10 46.7312, 10  Q47.4089, 10 48.0866, 10  Q48.7582, 10 49.4298, 10  Q50.0932, 10 50.7567, 10  Q51.41, 10 52.0633, 10  Q52.7046, 10 53.3458, 10 " /><path d="M59.5311, 10 L60.7581, 10  L61.9159, 10  L62.9996, 10  L64.0046, 10  L64.927, 10  L65.7628, 10  L66.5086, 10  L67.1614, 10  L67.7183, 10  L68.1772, 10  L68.536, 10  L68.7934, 10  L68.9483, 10  L69, 10 " /><path d="M19.2462, 10 L19.4726, 10  L19.7712, 10  L20.1412, 10  L20.5816, 10  L21.0909, 10  L21.6677, 10  L22.3103, 10  L23.0168, 10  L23.7851, 10  L24.613, 10  L25.498, 10  L26.4376, 10  L27.4288, 10  L28.4689, 10 " /><path id= "24" d=" M 19.2462 7 L 19.2462 10 " />
+<path id= "25" d=" M 66.45 5.32907e-15 L 66.45 7 " />
+<path d="M21.55, 5.32907e-15 L22.1129, 4.88498e-15  L23.7732, 4.44089e-15  L26.4479, 3.9968e-15  L30.0027, 3.55271e-15  L34.2593, 3.10862e-15  L39.0044, 3.10862e-15  L44, 2.66454e-15  L48.9956, 3.10862e-15  L53.7407, 3.10862e-15  L57.9973, 3.55271e-15  L61.5521, 3.9968e-15  L64.2268, 4.44089e-15  L65.8871, 4.88498e-15  L66.45, 5.32907e-15 " /><path id= "27" d=" M 28.4689 7 L 28.4689 11.5 " />
+<path id= "28" d=" M 34.5311 7 L 34.5311 11.5 " />
+<path id= "29" d=" M 31.5 7 L 31.5 10 " />
+<path id= "30" d=" M 34.5311 11.5 L 25.0311 11.5 " />
+<path id= "31" d=" M 18.9689 11.5 L 25.0311 11.5 " />
+<path id= "32" d=" M 18.9689 11.5 L 18.9689 14.5 " />
+<path id= "33" d=" M 18.9689 14.5 L 25.0311 14.5 " />
+<path id= "34" d=" M 25.0311 11.5 L 25.0311 14.5 " />
+<path id= "35" d=" M 19 7 L 19 11.5 " />
+<path id= "36" d=" M 18.9689 11.5 L 0 11.5 " />
+<path id= "37" d=" M 0 11.5 L 0 14.5 " />
+<path id= "38" d=" M 37.0311 10 L 37.0311 14.5 " />
+<path id= "39" d=" M 37.0311 14.5 L 25.0311 14.5 " />
+<path id= "40" d=" M 24 10 L 24 11.5 " />
+<path id= "41" d=" M 18.9689 14.5 L 0 14.5 " />
+<path id= "42" d=" M 50.9689 14.5 L 62.9689 14.5 " />
+<path id= "43" d=" M 50.9689 10 L 50.9689 14.5 " />
+</g>
+</g><text x="66" y="163" text-anchor="middle" font-family="sans-serif" font-size="3">Vorderansicht | 1.260:1</text><g transform="translate(153,136) scale(0.6021811336902846) translate(-39.85511776651529,7.2499999999999964)"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="0.13285039255505107"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 14.8551 7 L 14.8551 10 " />
+<path id= "2" d=" M 64.8551 7 L 64.8551 10 " />
+<path id= "3" d=" M 62.3051 -1.29785e-14 L 62.3051 7 " />
+<path id= "4" d=" M 17.4051 -3.0087e-15 L 17.4051 7 " />
+</g>
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="0.13285039255505107"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 16.4545 7 L 16.4545 11.5 " />
+<path id= "2" d=" M 16.4545 7 L 18.2045 7 " />
+<path id= "3" d=" M 18.2045 7 L 19.9545 7 " />
+<path id= "4" d=" M 19.9545 7 L 19.9545 11.5 " />
+<path id= "5" d=" M 18.2045 7 L 18.2045 10 " />
+<path id= "6" d=" M 19.9545 11.5 L 3.5 11.5 " />
+<path id= "7" d=" M -2.84217e-14 11.5 L 3.5 11.5 " />
+<path id= "8" d=" M -2.84217e-14 11.5 L -2.84217e-14 14.5 " />
+<path id= "9" d=" M -2.84217e-14 14.5 L 3.5 14.5 " />
+<path id= "10" d=" M 3.5 11.5 L 3.5 14.5 " />
+<path d="M20.1677, 7 L21.2062, 7  L22.3229, 7  L23.5131, 7  L24.7719, 7  L26.0939, 7  L27.4736, 7  L28.9052, 7  L30.3828, 7  L31.9, 7  L33.4506, 7  L35.0281, 7  L36.6258, 7  L38.2371, 7  L39.8551, 7 " /><path id= "12" d=" M 20.1677 7 L 19.9545 7 " />
+<path d="M14.8551, 7 L14.8634, 7  L14.8881, 7  L14.9293, 7  L14.987, 7  L15.061, 7  L15.1515, 7  L15.2582, 7  L15.3812, 7  L15.5203, 7  L15.6754, 7  L15.8466, 7  L16.0335, 7  L16.2362, 7  L16.4545, 7 " /><path d="M63.2558, 7 L63.474, 7  L63.6767, 7  L63.8637, 7  L64.0348, 7  L64.19, 7  L64.3291, 7  L64.452, 7  L64.5588, 7  L64.6492, 7  L64.7233, 7  L64.7809, 7  L64.8221, 7  L64.8469, 7  L64.8551, 7 " /><path id= "15" d=" M 61.5058 7 L 63.2558 7 " />
+<path id= "16" d=" M 59.7558 7 L 61.5058 7 " />
+<path id= "17" d=" M 59.5425 7 L 59.7558 7 " />
+<path d="M39.8551, 7 Q41.4751, 7 43.0844, 7  Q43.8833, 7 44.6821, 7  Q45.4709, 7 46.2596, 7  Q47.0349, 7 47.8102, 7  Q48.5688, 7 49.3275, 7  Q50.0662, 7 50.805, 7  Q51.5208, 7 52.2366, 7  Q52.9265, 7 53.6163, 7  Q54.2773, 7 54.9383, 7  Q55.5677, 7 56.1971, 7  Q56.7922, 7 57.3873, 7  Q57.9457, 7 58.504, 7  Q59.0233, 7 59.5425, 7 " /><path d="M14.8551, 10 L14.8634, 10  L14.8881, 10  L14.9293, 10  L14.987, 10  L15.061, 10  L15.1515, 10  L15.2582, 10  L15.3812, 10  L15.5203, 10  L15.6754, 10  L15.8466, 10  L16.0335, 10  L16.2362, 10  L16.4545, 10 " /><path d="M20.1677, 10 L21.2062, 10  L22.3229, 10  L23.5131, 10  L24.7719, 10  L26.0939, 10  L27.4736, 10  L28.9052, 10  L30.3828, 10  L31.9, 10  L33.4506, 10  L35.0281, 10  L36.6258, 10  L38.2371, 10  L39.8551, 10 " /><path d="M63.2558, 10 L63.474, 10  L63.6767, 10  L63.8637, 10  L64.0348, 10  L64.19, 10  L64.3291, 10  L64.452, 10  L64.5588, 10  L64.6492, 10  L64.7233, 10  L64.7809, 10  L64.8221, 10  L64.8469, 10  L64.8551, 10 " /><path d="M39.8551, 10 Q41.4751, 10 43.0844, 10  Q43.8833, 10 44.6821, 10  Q45.4709, 10 46.2596, 10  Q47.0349, 10 47.8102, 10  Q48.5688, 10 49.3275, 10  Q50.0662, 10 50.805, 10  Q51.5208, 10 52.2366, 10  Q52.9265, 10 53.6163, 10  Q54.2773, 10 54.9383, 10  Q55.5677, 10 56.1971, 10  Q56.7922, 10 57.3873, 10  Q57.9457, 10 58.504, 10  Q59.0233, 10 59.5425, 10 " /><path d="M39.8551, -7.99361e-15 L42.3687, -8.43769e-15  L44.8507, -8.88178e-15  L47.2699, -9.76996e-15  L49.5958, -1.02141e-14  L51.7992, -1.06581e-14  L53.8525, -1.11022e-14  L55.7297, -1.15463e-14  L57.4072, -1.19904e-14  L58.8641, -1.24345e-14  L60.0819, -1.24345e-14  L61.0453, -1.28786e-14  L61.7422, -1.28786e-14  L62.164, -1.28786e-14  L62.3051, -1.28786e-14 " /><path d="M17.4051, -3.10862e-15 L17.5463, -3.10862e-15  L17.968, -3.10862e-15  L18.6649, -3.10862e-15  L19.6284, -3.55271e-15  L20.8462, -3.55271e-15  L22.303, -3.9968e-15  L23.9806, -4.44089e-15  L25.8578, -4.88498e-15  L27.911, -5.32907e-15  L30.1144, -5.77316e-15  L32.4404, -6.21725e-15  L34.8595, -7.10543e-15  L37.3415, -7.54952e-15  L39.8551, -7.99361e-15 " /><path id= "25" d=" M 59.7558 7 L 59.7558 11.5 " />
+<path id= "26" d=" M 63.2558 7 L 63.2558 11.5 " />
+<path id= "27" d=" M 61.5058 7 L 61.5058 10 " />
+<path id= "28" d=" M 76.2102 11.5 L 79.7102 11.5 " />
+<path id= "29" d=" M 59.7558 11.5 L 76.2102 11.5 " />
+<path id= "30" d=" M 76.2102 11.5 L 76.2102 14.5 " />
+<path id= "31" d=" M 76.2102 14.5 L 79.7102 14.5 " />
+<path id= "32" d=" M 79.7102 11.5 L 79.7102 14.5 " />
+<path id= "33" d=" M 20.1677 7 L 20.1677 10 " />
+<path id= "34" d=" M 24.2846 10 L 24.2846 14.5 " />
+<path id= "35" d=" M 24.2846 14.5 L 3.5 14.5 " />
+<path id= "36" d=" M 55.4256 14.5 L 76.2102 14.5 " />
+<path id= "37" d=" M 55.4256 10 L 55.4256 14.5 " />
+<path id= "38" d=" M 59.5425 7 L 59.5425 10 " />
+<path id= "39" d=" M 43.3551 10 L 43.3551 14.5 " />
+<path id= "40" d=" M 36.3551 10 L 36.3551 14.5 " />
+<path id= "41" d=" M 43.3551 14.5 L 36.3551 14.5 " />
+</g>
+</g><text x="153" y="163" text-anchor="middle" font-family="sans-serif" font-size="3">Seitenansicht | 0.602:1</text><g transform="translate(155,98) scale(0.6956521739130435) translate(-34.5,7.2500000000000036)"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="0.115"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 69 7 L 66.45 7 " />
+<path id= "2" d=" M 69 7 L 69 10 " />
+<path id= "3" d=" M 66.45 5.32907e-15 L 66.45 7 " />
+<path id= "4" d=" M 21.55 7 L 19 7 " />
+<path id= "5" d=" M 21.55 5.31299e-15 L 21.55 7 " />
+<path id= "6" d=" M 19 7 L 19 10 " />
+<path id= "7" d=" M 24 10 L 26 10 " />
+<path id= "8" d=" M 24 14.5 L 24 10 " />
+<path id= "9" d=" M 26 7 L 26 10 " />
+<path id= "10" d=" M 62 10 L 69 10 " />
+<path id= "11" d=" M 62 7 L 62 10 " />
+<path id= "12" d=" M 25.2743 7 L 26 7 " />
+<path id= "13" d=" M 21.55 5.31299e-15 L 25.2743 5.31299e-15 " />
+<path d="M25.2743 7 A19.05 19.05 0 0 1 25.2743 1.19904e-14" /><path id= "15" d=" M 62.7257 5.31299e-15 L 66.45 5.31299e-15 " />
+<path d="M62.7257 3.9968e-15 A19.05 19.05 0 0 1 62.7257 7" /><path id= "17" d=" M 62 7 L 62.7257 7 " />
+<path id= "18" d=" M 19 10 L 19 11.5 " />
+<path id= "19" d=" M 0 11.5 L 19 11.5 " />
+<path id= "20" d=" M 0 11.5 L 0 14.5 " />
+<path id= "21" d=" M 0 14.5 L 24 14.5 " />
+</g>
+</g><text x="155" y="119" text-anchor="middle" font-family="sans-serif" font-size="3">Schnitt A-A; mittige x-z-Ebene | 0.696:1</text><text x="119" y="20" font-family="sans-serif" font-size="2.6">NENNMASSE / MODELLBEZUG</text><text x="119" y="25" font-family="sans-serif" font-size="2.6">Lageransatz D44.9 x 7; Kugelausschnitt D38.1</text><text x="119" y="30" font-family="sans-serif" font-size="2.6">Flansch innen D36 / aussen D50, Dicke 3</text><text x="119" y="35" font-family="sans-serif" font-size="2.6">4 Arme bei 60,180,300 und 240 Grad</text><text x="119" y="40" font-family="sans-serif" font-size="2.6">Armende r44; Breite 7; Arm z8..11</text><text x="119" y="45" font-family="sans-serif" font-size="2.6">Servo-Kugelmitten r50.3, z9.5; Fuehrung bei 240 Grad</text><text x="119" y="50" font-family="sans-serif" font-size="2.6">Huellmasse XYZ: 69.031 / 79.710 / 14.500</text><text x="119" y="55" font-family="sans-serif" font-size="2.6">Passungen und offene Schnittstellen:</text><text x="119" y="60" font-family="sans-serif" font-size="2.6">siehe Fertigungshinweise.md</text></svg>

@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:freecad="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace" width="297mm" height="210mm" viewBox="0 0 297 210"><rect x="8" y="8" width="281" height="194" fill="white" stroke="black" stroke-width="0.35"/><path d="M8 173 H289 M8 190 H289 M195 173 V202" fill="none" stroke="black" stroke-width="0.25"/><text x="12" y="179" font-family="sans-serif" font-size="3.5">COHEXIAL STUDY | R04-Taumelmodell 1:4 | ENTWURF F01</text><text x="12" y="185" font-family="sans-serif" font-size="4">TM-07  Taumel_Drehring</text><text x="12" y="195" font-family="sans-serif" font-size="3">Werkstoff: PA-CF | Anzahl je Baugruppe: 2</text><text x="12" y="200" font-family="sans-serif" font-size="2.6">Alle Masse in mm. Keine Allgemeintoleranz freigegeben. Nicht aus der Zeichnung abmessen.</text><text x="199" y="179" font-family="sans-serif" font-size="3">Status: NICHT FREIGEGEBEN</text><text x="199" y="185" font-family="sans-serif" font-size="3">Datum: 2026-10-30 | Blatt 1/1</text><text x="199" y="195" font-family="sans-serif" font-size="2.8">3D-Datensatz + Nennmasstabelle</text><text x="199" y="200" font-family="sans-serif" font-size="2.8">FreeCAD 1.0.2 | Revision F01</text><g transform="translate(66,58) scale(0.9027777777777778) translate(-36.0,36.0)"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="0.08861538461538461"
+   transform="scale(1, -1)"
+  >
+<path d="M71.5275 30.1864 A36 36 0 0 1 72 36" /><path d="M72 36 A36 36 0 0 1 71.5275 41.8136" /><path id= "3" d=" M 71.5275 30.1864 L 63.7905 31.8309 " />
+<path id= "4" d=" M 63.0836 28.5052 L 63.7905 31.8309 " />
+<path id= "5" d=" M 70.8206 26.8607 L 63.0836 28.5052 " />
+<path d="M70.8206 45.1393 A36 36 0 1 1 70.8206 26.8607" /><path id= "7" d=" M 70.8206 45.1393 L 63.0836 43.4948 " />
+<path id= "8" d=" M 63.7905 40.1691 L 63.0836 43.4948 " />
+<path id= "9" d=" M 71.5275 41.8136 L 63.7905 40.1691 " />
+<circle cx ="36" cy ="36" r ="27.5" /></g>
+</g><text x="66" y="99.5" text-anchor="middle" font-family="sans-serif" font-size="3">Draufsicht | 0.903:1</text><path d="M33.5,90.5 L33.5,98.5" stroke="black" stroke-width="0.18" fill="none"/><path d="M98.5,90.5 L98.5,98.5" stroke="black" stroke-width="0.18" fill="none"/><path d="M33.5,96.5 L98.5,96.5" stroke="black" stroke-width="0.18" fill="none"/><path d="M32.5,97.5 L34.5,95.5" stroke="black" stroke-width="0.18" fill="none"/><path d="M97.5,97.5 L99.5,95.5" stroke="black" stroke-width="0.18" fill="none"/><text x="66" y="95.5" font-family="sans-serif" font-size="3" text-anchor="middle">72.000</text><path d="M33.5,25.5 L25.5,25.5" stroke="black" stroke-width="0.18" fill="none"/><path d="M33.5,90.5 L25.5,90.5" stroke="black" stroke-width="0.18" fill="none"/><path d="M27.5,25.5 L27.5,90.5" stroke="black" stroke-width="0.18" fill="none"/><path d="M26.5,26.5 L28.5,24.5" stroke="black" stroke-width="0.18" fill="none"/><path d="M26.5,91.5 L28.5,89.5" stroke="black" stroke-width="0.18" fill="none"/><text x="26.5" y="58" transform="rotate(-90 26.5 58)" font-family="sans-serif" font-size="3" text-anchor="middle">72.000</text><g transform="translate(66,136) scale(1.2083333333333333) translate(-36.0,3.500000000000002)"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="0.06620689655172414"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 0 3.9968e-15 L 0 7 " />
+</g>
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="0.06620689655172414"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 72 3.9968e-15 L 72 7 " />
+<path d="M71.5275, 3.55271e-15 Q71.9986, 3.49175e-15 72, 3.9968e-15 " /><path id= "3" d=" M 71.5275 3.55271e-15 L 71.5275 7 " />
+<path d="M71.5275, 7 Q71.9986, 7 72, 7 " /><path id= "5" d=" M 71.5275 4.37866e-15 L 70.8206 4.39534e-15 " />
+<path id= "6" d=" M 71.5275 7 L 70.8206 7 " />
+<path d="M0, 7 L0.761631, 7  L3.0143, 7  L6.66268, 7  L11.5524, 7  L17.4766, 7  L24.1845, 7  L31.3924, 7  L38.7953, 7  L46.0799, 7  L52.938, 7  L59.0793, 7  L64.2442, 7  L68.2139, 7  L70.8206, 7 " /><path id= "8" d=" M 70.8206 3.10862e-15 L 70.8206 7 " />
+<path d="M0, 3.9968e-15 L0.761631, 3.10862e-15  L3.0143, 2.22045e-15  L6.66268, 1.77636e-15  L11.5524, 8.88178e-16  L17.4766, 4.44089e-16  L24.1845, 0  L31.3924, 0  L38.7953, 0  L46.0799, 0  L52.938, 4.44089e-16  L59.0793, 8.88178e-16  L64.2442, 1.33227e-15  L68.2139, 2.22045e-15  L70.8206, 3.10862e-15 " /></g>
+</g><text x="66" y="163" text-anchor="middle" font-family="sans-serif" font-size="3">Vorderansicht | 1.208:1</text><g transform="translate(153,136) scale(0.6666666666666666) translate(-36.0,3.499999999999993)"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="0.12000000000000001"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 72 -1.59872e-14 L 72 7 " />
+<path id= "2" d=" M 0 0 L 0 7 " />
+</g>
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="0.12000000000000001"
+   transform="scale(1, -1)"
+  >
+<path d="M30.1864, -6.66134e-15 C32.1074, -7.29319e-15 34.0536, -7.51338e-15 36, -7.99361e-15 " /><path id= "2" d=" M 30.1864 -6.66134e-15 L 30.1864 7 " />
+<path d="M30.1864, 7 C32.1074, 7 34.0536, 7 36, 7 " /><path d="M36, 7 C37.9464, 7 39.8926, 7 41.8136, 7 " /><path id= "5" d=" M 41.8136 -9.32587e-15 L 41.8136 7 " />
+<path d="M36, -7.99361e-15 C37.9464, -8.47383e-15 39.8926, -8.69402e-15 41.8136, -9.32587e-15 " /><path id= "7" d=" M 28.5052 7 L 30.1864 7 " />
+<path id= "8" d=" M 26.8607 7 L 28.5052 7 " />
+<path d="M45.1393, 7 L48.3627, 7  L51.4773, 7  L54.4556, 7  L57.2715, 7  L59.9, 7  L62.3181, 7  L64.5045, 7  L66.44, 7  L68.1074, 7  L69.4922, 7  L70.5821, 7  L71.3675, 7  L71.8415, 7  L72, 7 " /><path d="M-7.10543e-15, 7 L0.158477, 7  L0.632512, 7  L1.41793, 7  L2.50782, 7  L3.89258, 7  L5.56003, 7  L7.49548, 7  L9.68189, 7  L12.1, 7  L14.7285, 7  L17.5444, 7  L20.5227, 7  L23.6373, 7  L26.8607, 7 " /><path id= "11" d=" M 45.1393 7 L 43.4948 7 " />
+<path id= "12" d=" M 41.8136 7 L 43.4948 7 " />
+<path id= "13" d=" M 28.5052 6 L 30.1864 6 " />
+<path id= "14" d=" M 28.3077 6 L 28.5052 6 " />
+<path id= "15" d=" M 43.6923 6 L 43.4948 6 " />
+<path id= "16" d=" M 41.8136 6 L 43.4948 6 " />
+<path id= "17" d=" M 28.5052 6 L 28.5052 7 " />
+<path id= "18" d=" M 28.3077 -6.21725e-15 L 28.3077 6 " />
+<path id= "19" d=" M 27.626 -5.37454e-15 L 28.3077 -5.52591e-15 " />
+<path id= "20" d=" M 27.626 -6.21725e-15 L 27.626 5 " />
+<path id= "21" d=" M 27.626 5 L 27.2547 5 " />
+<path id= "22" d=" M 27.2547 -6.21725e-15 L 27.2547 5 " />
+<path id= "23" d=" M 26.8607 -5.20461e-15 L 27.2547 -5.29209e-15 " />
+<path id= "24" d=" M 26.8607 -5.77316e-15 L 26.8607 7 " />
+<path d="M45.1393, -1.02141e-14 L48.3627, -1.06581e-14  L51.4773, -1.15463e-14  L54.4556, -1.19904e-14  L57.2715, -1.28786e-14  L59.9, -1.33227e-14  L62.3181, -1.37668e-14  L64.5045, -1.42109e-14  L66.44, -1.46549e-14  L68.1074, -1.5099e-14  L69.4922, -1.55431e-14  L70.5821, -1.55431e-14  L71.3675, -1.59872e-14  L71.8415, -1.59872e-14  L72, -1.59872e-14 " /><path d="M-7.10543e-15, 0 L0.158477, 0  L0.632512, 0  L1.41793, -4.44089e-16  L2.50782, -4.44089e-16  L3.89258, -8.88178e-16  L5.56003, -1.33227e-15  L7.49548, -1.77636e-15  L9.68189, -2.22045e-15  L12.1, -2.66454e-15  L14.7285, -3.10862e-15  L17.5444, -3.9968e-15  L20.5227, -4.44089e-15  L23.6373, -5.32907e-15  L26.8607, -5.77316e-15 " /><path id= "27" d=" M 45.1393 -1.02141e-14 L 45.1393 7 " />
+<path id= "28" d=" M 43.6923 -9.76996e-15 L 43.6923 6 " />
+<path id= "29" d=" M 44.374 -8.83631e-15 L 43.6923 -8.68495e-15 " />
+<path id= "30" d=" M 44.374 -9.76996e-15 L 44.374 5 " />
+<path id= "31" d=" M 44.374 5 L 44.7453 5 " />
+<path id= "32" d=" M 44.7453 -9.76996e-15 L 44.7453 5 " />
+<path id= "33" d=" M 45.1393 -9.00624e-15 L 44.7453 -8.91876e-15 " />
+<path id= "34" d=" M 43.4948 6 L 43.4948 7 " />
+<path d="M43.6923, -9.76996e-15 Q42.7604, -9.36928e-15 41.8136, -9.32587e-15 " /><path d="M30.1864, -6.66134e-15 Q29.2396, -6.61793e-15 28.3077, -6.21725e-15 " /><path d="M44.7453, -9.76996e-15 Q44.5401, -9.76996e-15 44.374, -9.76996e-15 " /><path d="M27.626, -6.21725e-15 Q27.4599, -6.21725e-15 27.2547, -6.21725e-15 " /><path d="M27.626, 5 Q27.4599, 5 27.2547, 5 " /><path d="M44.7453, 5 Q44.5401, 5 44.374, 5 " /></g>
+</g><text x="153" y="163" text-anchor="middle" font-family="sans-serif" font-size="3">Seitenansicht | 0.667:1</text><g transform="translate(155,98) scale(0.6666666666666666) translate(-36.0,3.5000000000000036)"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="0.12000000000000001"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 65.05 3.9968e-15 L 72 3.9968e-15 " />
+<path id= "2" d=" M 65.05 3.9968e-15 L 65.05 6 " />
+<path id= "3" d=" M 72 3.9968e-15 L 72 7 " />
+<path id= "4" d=" M 0 7 L 8.5 7 " />
+<path id= "5" d=" M 0 3.9968e-15 L 0 7 " />
+<path id= "6" d=" M 8.5 6 L 8.5 7 " />
+<path id= "7" d=" M 63.5 7 L 72 7 " />
+<path id= "8" d=" M 63.5 6 L 63.5 7 " />
+<path id= "9" d=" M 6.95 6 L 8.5 6 " />
+<path id= "10" d=" M 6.95 3.9968e-15 L 6.95 6 " />
+<path id= "11" d=" M 63.5 6 L 65.05 6 " />
+<path id= "12" d=" M 0 3.9968e-15 L 6.95 3.9968e-15 " />
+</g>
+</g><text x="155" y="119" text-anchor="middle" font-family="sans-serif" font-size="3">Schnitt A-A; mittige x-z-Ebene | 0.667:1</text><text x="119" y="20" font-family="sans-serif" font-size="2.6">NENNMASSE / MODELLBEZUG</text><text x="119" y="25" font-family="sans-serif" font-size="2.6">Aussen D72; Lagerbohrung D58.1 x 7</text><text x="119" y="30" font-family="sans-serif" font-size="2.6">Schulter innen D55, Dicke 1</text><text x="119" y="35" font-family="sans-serif" font-size="2.6">2 Mitnehmerschlitze 3.4 bei +/-12 Grad</text><text x="119" y="40" font-family="sans-serif" font-size="2.6">16 D2 axial an (x32,y+/-9), 8-fach um 45 Grad</text><text x="119" y="45" font-family="sans-serif" font-size="2.6">Huellmasse XYZ: 72.000 / 72.000 / 7.000</text><text x="119" y="50" font-family="sans-serif" font-size="2.6">Passungen und offene Schnittstellen:</text><text x="119" y="55" font-family="sans-serif" font-size="2.6">siehe Fertigungshinweise.md</text></svg>

@@ -1,0 +1,14 @@
+﻿ID;Benennung;Anzahl;Werkstoff;Verfahren;Status;Offene_Punkte
+TM-01;Fluegel;16;PA-CF;"3D-Druck; Parameter mit Slicer festlegen";NICHT FREIGEGEBEN;"Nut-/Zapfenfestigkeit und Druckorientierung pruefen; keine Belastungsfreigabe."
+TM-02;Nabe;2;PA-CF;"3D-Druck; Parameter mit Slicer festlegen";NICHT FREIGEGEBEN;D2.5 sind Modellbohrungen, keine modellierten Gewinde. Lager-/Zapfenpassung offen.
+TM-03O;Deckel_Zahnkranz_oben;1;PA-CF;"3D-Druck; Parameter mit Slicer festlegen";NICHT FREIGEGEBEN;"OBEN: eigene Datei. D3.1-Stiftaufnahme bei r31.5 / -12 Grad; Sicherung offen."
+TM-03U;Deckel_Zahnkranz_unten;1;PA-CF;"3D-Druck; Parameter mit Slicer festlegen";NICHT FREIGEGEBEN;"UNTEN: eigene Datei. D3.1-Stiftaufnahme bei r31.5 / +12 Grad; Sicherung offen."
+TM-04;Pitchhebel;16;PA-CF;"3D-Druck; Parameter mit Slicer festlegen";NICHT FREIGEGEBEN;Kugelbolzenaufnahme und Sicherung auf Vierkant fehlen. NICHT fertigungsreif.
+TM-05;Taumel_Gleitkugel;2;PA-CF;"3D-Druck; Parameter mit Slicer festlegen";NICHT FREIGEGEBEN;Montagefolge der geschlossenen Kugelpaarung sowie Reibung und Verschleiss offen.
+TM-06;Taumel_Innenring;2;PA-CF;"3D-Druck; Parameter mit Slicer festlegen";NICHT FREIGEGEBEN;Radiale M2-Kugelbolzenbohrungen / D3-Fuehrungsstiftaufnahme fehlen.
+TM-07;Taumel_Drehring;2;PA-CF;"3D-Druck; Parameter mit Slicer festlegen";NICHT FREIGEGEBEN;Lagersicherung und Kugelbolzen-Verschraubung mit Kaufteilen abstimmen.
+TM-08;Halteplatte;2;PETG;"3D-Druck; Parameter mit Slicer festlegen";NICHT FREIGEGEBEN;"Servolochbilder und Klemmschraube fehlen; tatsaechliches Servomodell erforderlich."
+TM-09;Kappe_Stack_Pruefstand;2;PETG;"3D-Druck; Parameter mit Slicer festlegen";NICHT FREIGEGEBEN;"Kappe sitzt am Rohrende mit Einsteckhuelse; axiale Sicherung und Lastpfad offen."
+TM-10;Huelse_Mitte;1;PETG;"3D-Druck; Parameter mit Slicer festlegen";NICHT FREIGEGEBEN;Axiale Lagerklemmung und Laengentoleranz mit realen Lagern festlegen.
+TM-11;Klemmring;2;PETG;"3D-Druck; Parameter mit Slicer festlegen";NICHT FREIGEGEBEN;Bisher einfacher Distanzring: keine Klemmung oder axiale Sicherung modelliert.
+TM-12;Mittelrohr_Zuschnitt;1;Aluminium, Legierung offen;Zuschnitt;NICHT FREIGEGEBEN;Halte-/Lagersitz, Befestigung und Festigkeit sind noch auszulegen.

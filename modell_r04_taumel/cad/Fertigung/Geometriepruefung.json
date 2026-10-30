@@ -1,0 +1,274 @@
+{
+  "freecad": [
+    "1",
+    "0",
+    "2",
+    "39319 (Git)",
+    "https://github.com/FreeCAD/FreeCAD",
+    "2025/08/05 20:19:07",
+    "(HEAD detached at 1.0.2)",
+    "256fc7eff3379911ab5daf88e10182c509aa8052"
+  ],
+  "parts": [
+    {
+      "id": "TM-01",
+      "name": "Fluegel",
+      "recipe": "Fluegel",
+      "count": 16,
+      "material": "PA-CF",
+      "volume_mm3": 11728.790057134525,
+      "dimensions_mm": [
+        157.5,
+        30.0,
+        9.999998560442751
+      ],
+      "valid": true,
+      "solids": 1,
+      "step_roundtrip": true,
+      "step_volume_relative_error": 2.1557170506183104e-14,
+      "step_bounds_max_error_mm": 1.4395572494052544e-06,
+      "print_bed_envelope_fits": true,
+      "open_issue": "Nut-/Zapfenfestigkeit und Druckorientierung pruefen; keine Belastungsfreigabe."
+    },
+    {
+      "id": "TM-02",
+      "name": "Nabe",
+      "recipe": "Nabe",
+      "count": 2,
+      "material": "PA-CF",
+      "volume_mm3": 50497.68043716214,
+      "dimensions_mm": [
+        88.0,
+        88.0,
+        20.0
+      ],
+      "valid": true,
+      "solids": 1,
+      "step_roundtrip": true,
+      "step_volume_relative_error": 1.7363157287408595e-05,
+      "step_bounds_max_error_mm": 0.000518640404820303,
+      "print_bed_envelope_fits": true,
+      "open_issue": "D2.5 sind Modellbohrungen, keine modellierten Gewinde. Lager-/Zapfenpassung offen."
+    },
+    {
+      "id": "TM-03O",
+      "name": "Deckel_Zahnkranz_oben",
+      "recipe": "Deckel_oben",
+      "count": 1,
+      "material": "PA-CF",
+      "volume_mm3": 37423.51686402342,
+      "dimensions_mm": [
+        131.9983363330087,
+        131.97580861169013,
+        6.0
+      ],
+      "valid": true,
+      "solids": 1,
+      "step_roundtrip": true,
+      "step_volume_relative_error": 4.3122815118888393e-13,
+      "step_bounds_max_error_mm": 8.213874025386758e-12,
+      "print_bed_envelope_fits": true,
+      "open_issue": "OBEN: eigene Datei. D3.1-Stiftaufnahme bei r31.5 / -12 Grad; Sicherung offen."
+    },
+    {
+      "id": "TM-03U",
+      "name": "Deckel_Zahnkranz_unten",
+      "recipe": "Deckel_unten",
+      "count": 1,
+      "material": "PA-CF",
+      "volume_mm3": 37423.51686402341,
+      "dimensions_mm": [
+        131.9983363330087,
+        131.97580861169013,
+        6.0
+      ],
+      "valid": true,
+      "solids": 1,
+      "step_roundtrip": true,
+      "step_volume_relative_error": 4.3278352774862754e-13,
+      "step_bounds_max_error_mm": 8.213874025386758e-12,
+      "print_bed_envelope_fits": true,
+      "open_issue": "UNTEN: eigene Datei. D3.1-Stiftaufnahme bei r31.5 / +12 Grad; Sicherung offen."
+    },
+    {
+      "id": "TM-04",
+      "name": "Pitchhebel",
+      "recipe": "Pitchhebel",
+      "count": 16,
+      "material": "PA-CF",
+      "volume_mm3": 365.3279999999998,
+      "dimensions_mm": [
+        4.299999999999997,
+        17.1,
+        8.0
+      ],
+      "valid": true,
+      "solids": 1,
+      "step_roundtrip": true,
+      "step_volume_relative_error": 9.335734276180535e-16,
+      "step_bounds_max_error_mm": 2.6645352591003757e-15,
+      "print_bed_envelope_fits": true,
+      "open_issue": "Kugelbolzenaufnahme und Sicherung auf Vierkant fehlen. NICHT fertigungsreif."
+    },
+    {
+      "id": "TM-05",
+      "name": "Taumel_Gleitkugel",
+      "recipe": "Taumel_Gleitkugel",
+      "count": 2,
+      "material": "PA-CF",
+      "volume_mm3": 5363.520709755474,
+      "dimensions_mm": [
+        37.98336741635772,
+        37.98336741635772,
+        18.0
+      ],
+      "valid": true,
+      "solids": 1,
+      "step_roundtrip": true,
+      "step_volume_relative_error": 8.478523259159678e-16,
+      "step_bounds_max_error_mm": 0.008316291821138577,
+      "print_bed_envelope_fits": true,
+      "open_issue": "Montagefolge der geschlossenen Kugelpaarung sowie Reibung und Verschleiss offen."
+    },
+    {
+      "id": "TM-06",
+      "name": "Taumel_Innenring",
+      "recipe": "Taumel_Innenring",
+      "count": 2,
+      "material": "PA-CF",
+      "volume_mm3": 8262.486731096506,
+      "dimensions_mm": [
+        69.03108891324555,
+        79.7102355330306,
+        14.500000000000002
+      ],
+      "valid": true,
+      "solids": 1,
+      "step_roundtrip": true,
+      "step_volume_relative_error": 3.7425560689736597e-14,
+      "step_bounds_max_error_mm": 5.215383680479135e-12,
+      "print_bed_envelope_fits": true,
+      "open_issue": "Radiale M2-Kugelbolzenbohrungen / D3-Fuehrungsstiftaufnahme fehlen."
+    },
+    {
+      "id": "TM-07",
+      "name": "Taumel_Drehring",
+      "recipe": "Taumel_Drehring",
+      "count": 2,
+      "material": "PA-CF",
+      "volume_mm3": 9635.543503159179,
+      "dimensions_mm": [
+        71.9900983420321,
+        71.99998429271426,
+        7.0
+      ],
+      "valid": true,
+      "solids": 1,
+      "step_roundtrip": true,
+      "step_volume_relative_error": 2.3786168862361853e-14,
+      "step_bounds_max_error_mm": 0.00990165796789455,
+      "print_bed_envelope_fits": true,
+      "open_issue": "Lagersicherung und Kugelbolzen-Verschraubung mit Kaufteilen abstimmen."
+    },
+    {
+      "id": "TM-08",
+      "name": "Halteplatte",
+      "recipe": "Halteplatte",
+      "count": 2,
+      "material": "PETG",
+      "volume_mm3": 38499.08009554004,
+      "dimensions_mm": [
+        169.1,
+        148.36791218280354,
+        28.990000000000002
+      ],
+      "valid": true,
+      "solids": 1,
+      "step_roundtrip": true,
+      "step_volume_relative_error": 3.4396257845516405e-14,
+      "step_bounds_max_error_mm": 7.958078640513122e-13,
+      "print_bed_envelope_fits": true,
+      "open_issue": "Servolochbilder und Klemmschraube fehlen; tatsaechliches Servomodell erforderlich."
+    },
+    {
+      "id": "TM-09",
+      "name": "Kappe_Stack_Pruefstand",
+      "recipe": "Kappe",
+      "count": 2,
+      "material": "PETG",
+      "volume_mm3": 9382.599466053784,
+      "dimensions_mm": [
+        46.0,
+        46.0,
+        12.0
+      ],
+      "valid": true,
+      "solids": 1,
+      "step_roundtrip": true,
+      "step_volume_relative_error": 0.0,
+      "step_bounds_max_error_mm": 0.0,
+      "print_bed_envelope_fits": true,
+      "open_issue": "Kappe sitzt am Rohrende mit Einsteckhuelse; axiale Sicherung und Lastpfad offen."
+    },
+    {
+      "id": "TM-10",
+      "name": "Huelse_Mitte",
+      "recipe": "Huelse_Mitte",
+      "count": 1,
+      "material": "PETG",
+      "volume_mm3": 6413.875561568922,
+      "dimensions_mm": [
+        33.49001935423043,
+        33.495009305368455,
+        40.0
+      ],
+      "valid": true,
+      "solids": 1,
+      "step_roundtrip": true,
+      "step_volume_relative_error": 0.0,
+      "step_bounds_max_error_mm": 0.009980645769569918,
+      "print_bed_envelope_fits": true,
+      "open_issue": "Axiale Lagerklemmung und Laengentoleranz mit realen Lagern festlegen."
+    },
+    {
+      "id": "TM-11",
+      "name": "Klemmring",
+      "recipe": "Klemmring",
+      "count": 2,
+      "material": "PETG",
+      "volume_mm3": 609.3181783490477,
+      "dimensions_mm": [
+        33.49001935423043,
+        33.495009305368455,
+        3.8000000000000007
+      ],
+      "valid": true,
+      "solids": 1,
+      "step_roundtrip": true,
+      "step_volume_relative_error": 1.1194824815138593e-15,
+      "step_bounds_max_error_mm": 0.009980645769569918,
+      "print_bed_envelope_fits": true,
+      "open_issue": "Bisher einfacher Distanzring: keine Klemmung oder axiale Sicherung modelliert."
+    },
+    {
+      "id": "TM-12",
+      "name": "Mittelrohr_Zuschnitt",
+      "recipe": "Mittelrohr",
+      "count": 1,
+      "material": "Aluminium, Legierung offen",
+      "volume_mm3": 17492.38789518796,
+      "dimensions_mm": [
+        30.0,
+        30.0,
+        192.0
+      ],
+      "valid": true,
+      "solids": 1,
+      "step_roundtrip": true,
+      "step_volume_relative_error": 1.663799741414377e-15,
+      "step_bounds_max_error_mm": 0.0,
+      "print_bed_envelope_fits": null,
+      "open_issue": "Halte-/Lagersitz, Befestigung und Festigkeit sind noch auszulegen."
+    }
+  ]
+}

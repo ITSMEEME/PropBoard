@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""R04-Taumelmodell 1:4 – parametrisches FreeCAD-Modell, Entwurf V1. Millimeter.
+"""R04-Taumelmodell 1:4 – parametrisches FreeCAD-Modell, Fertigungsentwurf F01. Millimeter.
 
 Steuerung ueber je eine Taumelscheibe pro Rotor (kollektiv + zyklisch) statt eines Servos je Fluegel.
 Lokaler Rotorrahmen: Fluegelebene z = 0, Aussenseite (Zahnkranz, Taumelscheibe, Motor, Platte) +z.
@@ -11,6 +11,7 @@ Je Pruefzustand (Kollektiv, Zyklik, Rotorwinkel) wird die Lage der Taumelscheibe
     FREECAD_LIB=.cfd-tools/freecad/usr/lib .cfd-tools/freecad/usr/bin/python modell_r04_taumel/cad/erstellen.py
 """
 import csv, json, math, os, sys
+import functools
 from pathlib import Path
 HERE = Path(__file__).resolve().parent
 sys.path.extend([p for p in (os.environ.get('FREECAD_LIB'), '/usr/lib/freecad/lib') if p])
@@ -23,6 +24,26 @@ BL, HUB, HO, LID, GR, SW, MO, PL = P['blade'], P['hub'], P['horn'], P['lid'], P[
 N = BL['count']; D = P['print']['density']; F = P['print']['fill']
 STL = HERE / 'stl'; STL.mkdir(exist_ok=True); (HERE / 'vorschau').mkdir(exist_ok=True)
 CDIST = GR['module'] * (GR['z_ring'] + GR['z_pinion']) / 2 + GR['center_extra']
+
+
+def cached_geometry(fn):
+    """Reuse expensive local BReps, returning independent copies for placement.
+
+    Include every input parameter in the key so spreadsheet edits cannot reuse
+    stale geometry in the manufacturing features.
+    """
+    @functools.lru_cache(maxsize=32)
+    def cached(parameter_signature, args, kwargs):
+        return fn(*args, **dict(kwargs))
+    def clone(value):
+        if isinstance(value, Part.Shape): return value.copy()
+        if isinstance(value, list): return [clone(v) for v in value]
+        if isinstance(value, tuple): return tuple(clone(v) for v in value)
+        return value
+    @functools.wraps(fn)
+    def wrapped(*args, **kwargs):
+        return clone(cached(json.dumps(P, sort_keys=True), args, tuple(sorted(kwargs.items()))))
+    return wrapped
 
 
 def cyl(r, h, base=(0, 0, 0), axis=(0, 0, 1)):
@@ -81,6 +102,7 @@ def naca_half(q):
     return 5 * tc * (0.2969 * math.sqrt(q) - 0.126 * q - 0.3516 * q * q + 0.2843 * q ** 3 - 0.1036 * q ** 4) * BL['chord'] + BL['te_mm'] / 2 * q ** 10
 
 
+@cached_geometry
 def blade_shape():
     c = BL['chord']; qs = [(1 - math.cos(math.pi * i / 60)) / 2 for i in range(61)]
     pts = [((0.5 - q) * c, naca_half(q)) for q in qs] + [((0.5 - q) * c, -naca_half(q)) for q in reversed(qs[1:])]
@@ -93,10 +115,12 @@ def blade_shape():
     return foil.fuse([boss, square]).removeSplitter().cut(groove)
 
 
+@cached_geometry
 def pins():
     p = P['pin']; return [cyl(p['d'] / 2, p['len'], (BL['groove_r'], -p['len'] / 2, s * p['z_offset']), (0, 1, 0)) for s in (-1, 1)]
 
 
+@cached_geometry
 def horn_shape(d):
     """Pitchhebel auf dem Vierkant, Arm in Richtung d*y (oben +y, unten -y, gleiches Teil gewendet)."""
     r0 = BL['boss_r_in']; sq = BL['square'] / 2 + 0.1; y1 = HO['arm'] + 2.0
@@ -110,6 +134,7 @@ def horn_ball_local(d):
 
 
 # ---------------------------------------------------------------- Nabe (Topf) und Deckel/Zahnkranz
+@cached_geometry
 def hub_shape():
     zmin, zmax, h = HUB['z_min'], HUB['z_max'], HUB['z_max'] - HUB['z_min']; b = P['bearing']
     s = ring(b['D'] / 2, HUB['r_inner_ring'], zmin, h)                                        # Innenring mit Lagersitzen
@@ -128,6 +153,7 @@ def hub_shape():
     return s.cut(Part.makeCompound(tools))
 
 
+@cached_geometry
 def lid_shape(d=1, teeth=True):
     if teeth: g, radii = spur(GR['z_ring'], GR['face'], LID['r_in'])
     else: radii = (0, GR['module'] * (GR['z_ring'] / 2 + 1), 0); g = ring(LID['r_in'], radii[1], 0, GR['face'])   # Ersatzkoerper fuer Kollisionen
@@ -141,15 +167,20 @@ def lid_shape(d=1, teeth=True):
         tools.append(rotz(box(HO['r_center'] - sx / 2, HO['r_center'] + sx / 2, y0, y1, LID['z0'] - 1, LID['z0'] + GR['face'] + 1), a))
         tools.append(rotz(cyl(HUB['screw_d'] / 2 + 0.25, LID['disk_t'] + 2, (HUB['screw_r'], 0, LID['z0'] - 1)), a + 180 / N))
         tools.append(rotz(cyl(LID['window_d'] / 2, LID['disk_t'] + 2, (LID['window_r'], 0, LID['z0'] - 1)), a))
+    # Dedicated support for the drive pin, opposite the blade-link windows.
+    tools.append(rotz(cyl(LID.get('driver_pin_bore_d',3.1)/2,
+                           LID['disk_t']+2,(LID['driver_pin_r'],0,LID['z0']-1)),
+                      -d*LID['driver_angle']))
     return g.cut(Part.makeCompound(tools)), radii
 
 
 def driver_pin(d=1):
-    z0 = LID['z0'] + LID['disk_t']   # freie Zone gegenueber den Langloechern
+    z0 = LID['z0'] + LID['disk_t'] - LID.get('driver_pin_embed',3.0)
     return rotz(cyl(LID['driver_pin_d'] / 2, LID['driver_pin_top'] - z0, (LID['driver_pin_r'], 0, z0)), -d * LID['driver_angle'])
 
 
 # ---------------------------------------------------------------- Taumelscheibe (Teile im eigenen Rahmen: Kugelmitte im Ursprung)
+@cached_geometry
 def swash_sleeve():
     h = SW['sleeve_half']; s = cyl(SW['sleeve_od'] / 2, 2 * h, (0, 0, -h))
     s = s.fuse(Part.makeSphere(SW['sphere_d'] / 2).common(cyl(30, 10, (0, 0, -5)))).removeSplitter()
@@ -160,6 +191,7 @@ def swash_bearing():
     b = SW['bearing']; return ring(b['d'] / 2 + 0.02, b['D'] / 2 - 0.02, -b['B'] / 2, b['B'])
 
 
+@cached_geometry
 def swash_stationary():
     b = SW['bearing']; sp = SW['sphere_d'] / 2
     s = cyl(b['d'] / 2 - 0.05, b['B'], (0, 0, -b['B'] / 2)).cut(Part.makeSphere(sp + 0.05))
@@ -188,6 +220,7 @@ def swash_stat_hardware():
     return out
 
 
+@cached_geometry
 def swash_rotating():
     b = SW['bearing']; r0 = b['D'] / 2 + 0.05; r1 = SW['rot_ring_od'] / 2
     s = ring(r0, r1, -b['B'] / 2, b['B']).fuse(ring(b['D'] / 2 - 1.5, r0 + 0.01, b['B'] / 2 - 1, 1)).removeSplitter()   # Schulter
@@ -293,6 +326,7 @@ def local_assembly(theta0, cyc, a, s):
     return rot, st, {'c': x[0], 'tilt_x_deg': x[1], 'tilt_y_deg': x[2], 'stangenfehler_mm': err}
 
 
+@cached_geometry
 def plate_shape():
     t = PL['t']; z0 = P['gear']['pinion_z0'] + MO['shaft_h'] + MO['body_h']; rt = P['tube']['d'] / 2
     s = cyl(rt + PL['collar_wall'] + 6, t, (0, 0, z0))
@@ -302,7 +336,10 @@ def plate_shape():
         s = s.fuse(rotz(box(0, PL['servo_pad_r'] + pd / 2 + 6, -pw / 2, pw / 2, z0, z0 + t), ang))
     ga = SW['guide_angle_deg']; gr = SW['stat_arm_r'] + 6
     s = s.fuse(rotz(box(0, gr + 4, -6, 6, z0, z0 + t), ga))
-    post = box(gr - 4, gr + 4, -4, 4, z0 - 11, z0 + 0.01).cut(box(gr - 5, gr + 5, -SW['slot_w'] / 2, SW['slot_w'] / 2, z0 - 10, z0 - 1.5))
+    guide_w=SW.get('guide_slot_w',SW['slot_w'])
+    # Open the guide fork below the lowest commanded collective position.
+    # The former 1 mm floor clipped the tilted D3 guide pin at minimum pitch.
+    post = box(gr - 4, gr + 4, -4, 4, z0 - 11, z0 + 0.01).cut(box(gr - 5, gr + 5, -guide_w / 2, guide_w / 2, z0 - 12, z0 - 1.5))
     s = s.fuse(rotz(post, ga)).fuse(ring(rt + 0.15, rt + PL['collar_wall'], z0 + t - 0.01, PL['collar_h'])).removeSplitter()
     holes = [cyl(rt + 0.15, t + 2, (0, 0, z0 - 1)), cyl(MO['boss_d'] / 2 + 0.3, t + 2, (CDIST, 0, z0 - 1))]
     holes += [cyl(MO['mount_screw'] / 2 + 0.2, t + 2, (CDIST + MO['mount_pcd'] / 2 * math.cos(q), MO['mount_pcd'] / 2 * math.sin(q), z0 - 1)) for q in (math.pi / 4 + i * math.pi / 2 for i in range(4))]
@@ -344,9 +381,11 @@ def world_static():
     out.append((ring(rt['d'] / 2 - rt['wall'], rt['d'] / 2, -hl, 2 * hl), 'MITTELROHR-AL-D30x1', 'Kauf', None, 2700, 1.0))
     zb = P['levels_z'][0] + P['bearing']['z_local'][0]
     out.append((ring(rt['d'] / 2 + 0.15, P['bearing']['inner_ring_od'] / 2, -zb, 2 * zb), 'TM-HUELSE-MITTE', 'Druck', None, D['PETG'], F['sleeve']))
-    C = P['cap']; zc = P['levels_z'][0] + plate_shape()[1] + PL['t'] + PL['collar_h']
+    C = P['cap']; zc = rt['half_len']
     for s in (1, -1):
-        cap = box(-C['size'] / 2, C['size'] / 2, -C['size'] / 2, C['size'] / 2, 0, C['t']).fuse(ring(rt['d'] / 2 + 0.15, rt['d'] / 2 + 3, -8, 8)).removeSplitter()
+        cap = box(-C['size'] / 2, C['size'] / 2, -C['size'] / 2, C['size'] / 2, 0, C['t']).fuse(
+            ring(C.get('sleeve_id',24)/2,C.get('sleeve_od',27.8)/2,
+                 -C.get('sleeve_len',8),C.get('sleeve_len',8))).removeSplitter()
         h = C['stack_hole'] / 2
         cap = cap.cut(Part.makeCompound([cyl(1.7, C['t'] + 2, (dx, dy, -1)) for dx in (-h, h) for dy in (-h, h)] +
                                         [cyl(2.6, C['t'] + 2, (dx, 0, -1)) for dx in (-C['stand_hole_pitch'] / 2, C['stand_hole_pitch'] / 2)]))
@@ -411,6 +450,8 @@ def main():
                               'verzahnung_ueberdeckung_mm3': round(gm, 4), 'verzahnung_abstand_mm': round(gd, 3)}
                 all_ok &= not c and gm < 1e-3 and info['stangenfehler_mm'] < 0.05
             report['zustaende'].append(entry); print(entry['zustand'], a, {k: (len(entry[k]['kollisionen']), entry[k]['taumelscheibe']) for k in ('oben', 'unten')}, flush=True)
+            if any(entry[k]['kollisionen'] for k in ('oben','unten')):
+                print('KOLLISIONEN', {k:entry[k]['kollisionen'] for k in ('oben','unten')}, flush=True)
     report['alle_pruefungen_bestanden'] = bool(all_ok)
 
     # Schwebestellung, Welt: Rotorabstand, Masse, Unwucht, Dokument
@@ -422,7 +463,14 @@ def main():
     def cg(items):
         M = sum(mass_g(i) for i in items); c = V(0, 0, 0)
         for i in items:
-            if i[0].Volume > 0: c += i[0].CenterOfMass * mass_g(i)
+            # Boolean operations may retain a Compound wrapper even around a
+            # single Solid. OCCT exposes CenterOfMass only on the solids.
+            solids = i[0].Solids
+            volume = sum(s.Volume for s in solids)
+            if volume > 0:
+                center = V(0,0,0)
+                for solid in solids: center += solid.CenterOfMass * solid.Volume
+                c += center * (mass_g(i) / volume)
         return M, c * (1 / M)
     mr, cr = cg(ru); pm = P['purchased_mass_g']
     extra = pm['battery'] + pm['fc_esc'] + pm['receiver'] + pm['wiring']

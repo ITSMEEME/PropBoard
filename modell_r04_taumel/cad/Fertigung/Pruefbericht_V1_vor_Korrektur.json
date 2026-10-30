@@ -1,0 +1,534 @@
+{
+  "status": "TAUMELMODELL_ENTWURF_V1_KEINE_FREIGABE",
+  "servo": "Platzhalter 9-g-Mikroservo",
+  "zustaende": [
+    {
+      "zustand": "Schweben",
+      "winkel_deg": 0,
+      "oben": {
+        "theta0": 14.0,
+        "kollisionen": [],
+        "taumelscheibe": {
+          "c": 27.9286,
+          "tilt_x_deg": 0.0,
+          "tilt_y_deg": 0.0,
+          "stangenfehler_mm": 0.0
+        },
+        "verzahnung_ueberdeckung_mm3": 0.0,
+        "verzahnung_abstand_mm": 0.176
+      },
+      "unten": {
+        "theta0": 16.7,
+        "kollisionen": [],
+        "taumelscheibe": {
+          "c": 28.2257,
+          "tilt_x_deg": 0.0,
+          "tilt_y_deg": 0.0,
+          "stangenfehler_mm": 0.0
+        },
+        "verzahnung_ueberdeckung_mm3": 0.0,
+        "verzahnung_abstand_mm": 0.176
+      }
+    },
+    {
+      "zustand": "Schweben",
+      "winkel_deg": 11.25,
+      "oben": {
+        "theta0": 14.0,
+        "kollisionen": [],
+        "taumelscheibe": {
+          "c": 27.9286,
+          "tilt_x_deg": -0.0,
+          "tilt_y_deg": -0.0,
+          "stangenfehler_mm": 0.0
+        },
+        "verzahnung_ueberdeckung_mm3": 0.0,
+        "verzahnung_abstand_mm": 0.176
+      },
+      "unten": {
+        "theta0": 16.7,
+        "kollisionen": [],
+        "taumelscheibe": {
+          "c": 28.2257,
+          "tilt_x_deg": 0.0,
+          "tilt_y_deg": 0.0,
+          "stangenfehler_mm": 0.0
+        },
+        "verzahnung_ueberdeckung_mm3": 0.0,
+        "verzahnung_abstand_mm": 0.176
+      }
+    },
+    {
+      "zustand": "Schweben",
+      "winkel_deg": 22.5,
+      "oben": {
+        "theta0": 14.0,
+        "kollisionen": [],
+        "taumelscheibe": {
+          "c": 27.9286,
+          "tilt_x_deg": 0.0,
+          "tilt_y_deg": 0.0,
+          "stangenfehler_mm": 0.0
+        },
+        "verzahnung_ueberdeckung_mm3": 0.0,
+        "verzahnung_abstand_mm": 0.176
+      },
+      "unten": {
+        "theta0": 16.7,
+        "kollisionen": [],
+        "taumelscheibe": {
+          "c": 28.2257,
+          "tilt_x_deg": -0.0,
+          "tilt_y_deg": 0.0,
+          "stangenfehler_mm": 0.0
+        },
+        "verzahnung_ueberdeckung_mm3": 0.0,
+        "verzahnung_abstand_mm": 0.176
+      }
+    },
+    {
+      "zustand": "Schweben",
+      "winkel_deg": 33.75,
+      "oben": {
+        "theta0": 14.0,
+        "kollisionen": [],
+        "taumelscheibe": {
+          "c": 27.9286,
+          "tilt_x_deg": -0.0,
+          "tilt_y_deg": 0.0,
+          "stangenfehler_mm": 0.0
+        },
+        "verzahnung_ueberdeckung_mm3": 0.0,
+        "verzahnung_abstand_mm": 0.176
+      },
+      "unten": {
+        "theta0": 16.7,
+        "kollisionen": [],
+        "taumelscheibe": {
+          "c": 28.2257,
+          "tilt_x_deg": -0.0,
+          "tilt_y_deg": -0.0,
+          "stangenfehler_mm": 0.0
+        },
+        "verzahnung_ueberdeckung_mm3": 0.0,
+        "verzahnung_abstand_mm": 0.176
+      }
+    },
+    {
+      "zustand": "Kollektiv max + Zyklik",
+      "winkel_deg": 0,
+      "oben": {
+        "theta0": 21,
+        "kollisionen": [],
+        "taumelscheibe": {
+          "c": 28.6201,
+          "tilt_x_deg": 0.5663,
+          "tilt_y_deg": 0.1761,
+          "stangenfehler_mm": 0.0177
+        },
+        "verzahnung_ueberdeckung_mm3": 0.0,
+        "verzahnung_abstand_mm": 0.176
+      },
+      "unten": {
+        "theta0": 21,
+        "kollisionen": [],
+        "taumelscheibe": {
+          "c": 28.6201,
+          "tilt_x_deg": 0.5663,
+          "tilt_y_deg": -0.1761,
+          "stangenfehler_mm": 0.0177
+        },
+        "verzahnung_ueberdeckung_mm3": 0.0,
+        "verzahnung_abstand_mm": 0.176
+      }
+    },
+    {
+      "zustand": "Kollektiv max + Zyklik",
+      "winkel_deg": 22.5,
+      "oben": {
+        "theta0": 21,
+        "kollisionen": [],
+        "taumelscheibe": {
+          "c": 28.6201,
+          "tilt_x_deg": 0.5663,
+          "tilt_y_deg": 0.1761,
+          "stangenfehler_mm": 0.0132
+        },
+        "verzahnung_ueberdeckung_mm3": 0.0,
+        "verzahnung_abstand_mm": 0.176
+      },
+      "unten": {
+        "theta0": 21,
+        "kollisionen": [],
+        "taumelscheibe": {
+          "c": 28.6201,
+          "tilt_x_deg": 0.5663,
+          "tilt_y_deg": -0.1761,
+          "stangenfehler_mm": 0.0132
+        },
+        "verzahnung_ueberdeckung_mm3": 0.0,
+        "verzahnung_abstand_mm": 0.176
+      }
+    },
+    {
+      "zustand": "Kollektiv min + Zyklik",
+      "winkel_deg": 0,
+      "oben": {
+        "theta0": -2,
+        "kollisionen": [
+          [
+            "MITNEHMERSTIFT-D3",
+            "LAGER-6809",
+            0.001
+          ],
+          [
+            "FUEHRUNGSSTIFT-D3",
+            "TM-HALTEPLATTE",
+            0.006
+          ]
+        ],
+        "taumelscheibe": {
+          "c": 25.6713,
+          "tilt_x_deg": 1.0715,
+          "tilt_y_deg": 0.2991,
+          "stangenfehler_mm": 0.009
+        },
+        "verzahnung_ueberdeckung_mm3": 0.0,
+        "verzahnung_abstand_mm": 0.176
+      },
+      "unten": {
+        "theta0": -2,
+        "kollisionen": [
+          [
+            "MITNEHMERSTIFT-D3",
+            "LAGER-6809",
+            0.001
+          ],
+          [
+            "FUEHRUNGSSTIFT-D3",
+            "TM-HALTEPLATTE",
+            1.377
+          ]
+        ],
+        "taumelscheibe": {
+          "c": 25.6713,
+          "tilt_x_deg": 1.0715,
+          "tilt_y_deg": -0.2991,
+          "stangenfehler_mm": 0.009
+        },
+        "verzahnung_ueberdeckung_mm3": 0.0,
+        "verzahnung_abstand_mm": 0.176
+      }
+    },
+    {
+      "zustand": "Kollektiv min + Zyklik",
+      "winkel_deg": 22.5,
+      "oben": {
+        "theta0": -2,
+        "kollisionen": [],
+        "taumelscheibe": {
+          "c": 25.6713,
+          "tilt_x_deg": 1.0715,
+          "tilt_y_deg": 0.2991,
+          "stangenfehler_mm": 0.0073
+        },
+        "verzahnung_ueberdeckung_mm3": 0.0,
+        "verzahnung_abstand_mm": 0.176
+      },
+      "unten": {
+        "theta0": -2,
+        "kollisionen": [
+          [
+            "MITNEHMERSTIFT-D3",
+            "LAGER-6809",
+            0.009
+          ]
+        ],
+        "taumelscheibe": {
+          "c": 25.6713,
+          "tilt_x_deg": 1.0715,
+          "tilt_y_deg": -0.2991,
+          "stangenfehler_mm": 0.0073
+        },
+        "verzahnung_ueberdeckung_mm3": 0.0,
+        "verzahnung_abstand_mm": 0.176
+      }
+    },
+    {
+      "zustand": "Schweben + Zyklik",
+      "winkel_deg": 0,
+      "oben": {
+        "theta0": 14.0,
+        "kollisionen": [],
+        "taumelscheibe": {
+          "c": 27.9126,
+          "tilt_x_deg": 0.7555,
+          "tilt_y_deg": 0.2264,
+          "stangenfehler_mm": 0.0153
+        },
+        "verzahnung_ueberdeckung_mm3": 0.0,
+        "verzahnung_abstand_mm": 0.176
+      },
+      "unten": {
+        "theta0": 16.7,
+        "kollisionen": [],
+        "taumelscheibe": {
+          "c": 28.2088,
+          "tilt_x_deg": 0.686,
+          "tilt_y_deg": -0.2084,
+          "stangenfehler_mm": 0.0163
+        },
+        "verzahnung_ueberdeckung_mm3": 0.0,
+        "verzahnung_abstand_mm": 0.176
+      }
+    },
+    {
+      "zustand": "Schweben + Zyklik",
+      "winkel_deg": 11.25,
+      "oben": {
+        "theta0": 14.0,
+        "kollisionen": [],
+        "taumelscheibe": {
+          "c": 27.9126,
+          "tilt_x_deg": 0.7555,
+          "tilt_y_deg": 0.2264,
+          "stangenfehler_mm": 0.0137
+        },
+        "verzahnung_ueberdeckung_mm3": 0.0,
+        "verzahnung_abstand_mm": 0.176
+      },
+      "unten": {
+        "theta0": 16.7,
+        "kollisionen": [],
+        "taumelscheibe": {
+          "c": 28.2088,
+          "tilt_x_deg": 0.686,
+          "tilt_y_deg": -0.2084,
+          "stangenfehler_mm": 0.0154
+        },
+        "verzahnung_ueberdeckung_mm3": 0.0,
+        "verzahnung_abstand_mm": 0.176
+      }
+    },
+    {
+      "zustand": "Schweben + Zyklik",
+      "winkel_deg": 22.5,
+      "oben": {
+        "theta0": 14.0,
+        "kollisionen": [],
+        "taumelscheibe": {
+          "c": 27.9126,
+          "tilt_x_deg": 0.7555,
+          "tilt_y_deg": 0.2264,
+          "stangenfehler_mm": 0.0117
+        },
+        "verzahnung_ueberdeckung_mm3": 0.0,
+        "verzahnung_abstand_mm": 0.176
+      },
+      "unten": {
+        "theta0": 16.7,
+        "kollisionen": [
+          [
+            "MITNEHMERSTIFT-D3",
+            "LAGER-6809",
+            0.002
+          ]
+        ],
+        "taumelscheibe": {
+          "c": 28.2088,
+          "tilt_x_deg": 0.686,
+          "tilt_y_deg": -0.2084,
+          "stangenfehler_mm": 0.0123
+        },
+        "verzahnung_ueberdeckung_mm3": 0.0,
+        "verzahnung_abstand_mm": 0.176
+      }
+    },
+    {
+      "zustand": "Schweben + Zyklik",
+      "winkel_deg": 33.75,
+      "oben": {
+        "theta0": 14.0,
+        "kollisionen": [],
+        "taumelscheibe": {
+          "c": 27.9126,
+          "tilt_x_deg": 0.7555,
+          "tilt_y_deg": 0.2264,
+          "stangenfehler_mm": 0.0145
+        },
+        "verzahnung_ueberdeckung_mm3": 0.0,
+        "verzahnung_abstand_mm": 0.176
+      },
+      "unten": {
+        "theta0": 16.7,
+        "kollisionen": [
+          [
+            "MITNEHMERSTIFT-D3",
+            "LAGER-6809",
+            0.003
+          ]
+        ],
+        "taumelscheibe": {
+          "c": 28.2088,
+          "tilt_x_deg": 0.686,
+          "tilt_y_deg": -0.2084,
+          "stangenfehler_mm": 0.0146
+        },
+        "verzahnung_ueberdeckung_mm3": 0.0,
+        "verzahnung_abstand_mm": 0.176
+      }
+    }
+  ],
+  "alle_pruefungen_bestanden": false,
+  "kollisionen_oben_unten": [],
+  "abstand_fluegel_oben_unten_mm": 50.0,
+  "masse_g": {
+    "rotor_drehend_je": 206.0,
+    "feststehend_cad": 350.8,
+    "akku_fc_empfaenger_kabel": 329,
+    "gesamt": 1092,
+    "vergleich_servo_modell_v1": 1195
+  },
+  "unwucht_rotor_gmm": 18.44,
+  "druckteile": {
+    "Fluegel": {
+      "anzahl": 16,
+      "masse_mm": [
+        157.5,
+        30.0,
+        10.0
+      ],
+      "passt_aufs_bett": true,
+      "gueltig": true,
+      "volumen_cm3": 11.73
+    },
+    "Nabe": {
+      "anzahl": 2,
+      "masse_mm": [
+        88.0,
+        88.0,
+        20.0
+      ],
+      "passt_aufs_bett": true,
+      "gueltig": true,
+      "volumen_cm3": 50.5
+    },
+    "Deckel_Zahnkranz_130Z_m1_oben": {
+      "anzahl": 1,
+      "masse_mm": [
+        132.0,
+        132.0,
+        6.0
+      ],
+      "passt_aufs_bett": true,
+      "gueltig": true,
+      "volumen_cm3": 37.45
+    },
+    "Deckel_Zahnkranz_130Z_m1_unten": {
+      "anzahl": 1,
+      "masse_mm": [
+        132.0,
+        132.0,
+        6.0
+      ],
+      "passt_aufs_bett": true,
+      "gueltig": true,
+      "volumen_cm3": 37.45
+    },
+    "Pitchhebel": {
+      "anzahl": 16,
+      "masse_mm": [
+        4.3,
+        17.1,
+        8.0
+      ],
+      "passt_aufs_bett": true,
+      "gueltig": true,
+      "volumen_cm3": 0.37
+    },
+    "Taumel_Gleitkugel": {
+      "anzahl": 2,
+      "masse_mm": [
+        38.0,
+        38.0,
+        18.0
+      ],
+      "passt_aufs_bett": true,
+      "gueltig": true,
+      "volumen_cm3": 5.36
+    },
+    "Taumel_Innenring": {
+      "anzahl": 2,
+      "masse_mm": [
+        69.0,
+        79.7,
+        14.5
+      ],
+      "passt_aufs_bett": true,
+      "gueltig": true,
+      "volumen_cm3": 8.26
+    },
+    "Taumel_Drehring": {
+      "anzahl": 2,
+      "masse_mm": [
+        72.0,
+        72.0,
+        7.0
+      ],
+      "passt_aufs_bett": true,
+      "gueltig": true,
+      "volumen_cm3": 9.64
+    },
+    "Halteplatte": {
+      "anzahl": 2,
+      "masse_mm": [
+        169.1,
+        148.4,
+        29.0
+      ],
+      "passt_aufs_bett": true,
+      "gueltig": true,
+      "volumen_cm3": 38.57
+    },
+    "Kappe_Stack_Pruefstand": {
+      "anzahl": 2,
+      "masse_mm": [
+        46.0,
+        46.0,
+        12.0
+      ],
+      "passt_aufs_bett": true,
+      "gueltig": true,
+      "volumen_cm3": 10.52
+    },
+    "Huelse_Mitte": {
+      "anzahl": 1,
+      "masse_mm": [
+        33.5,
+        33.5,
+        40.0
+      ],
+      "passt_aufs_bett": true,
+      "gueltig": true,
+      "volumen_cm3": 6.41
+    },
+    "Klemmring": {
+      "anzahl": 2,
+      "masse_mm": [
+        33.5,
+        33.5,
+        3.8
+      ],
+      "passt_aufs_bett": true,
+      "gueltig": true,
+      "volumen_cm3": 0.61
+    }
+  },
+  "zahnkranz": {
+    "zaehne": 130,
+    "kopfkreis_mm": 132.0,
+    "ritzel": 20,
+    "achsabstand_mm": 75.1,
+    "uebersetzung": 6.5
+  }
+}

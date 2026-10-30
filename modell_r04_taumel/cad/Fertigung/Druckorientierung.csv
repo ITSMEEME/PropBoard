@@ -1,0 +1,13 @@
+ID;Orientierungsvorschlag;Nacharbeit;Status
+TM-01;Profil liegend mit gezielter Unterstuetzung unter Profil und Zapfen;Nut und Zapfen pruefen und Fluegel massengleich bearbeiten;Mit Slicer und Probedruck zu pruefen
+TM-02;Topfboden auf Druckbett und offener Hebelraum nach oben;Lagersitze und radiale Zapfenbohrungen nacharbeiten;Mit Slicer und Probedruck zu pruefen
+TM-03O;Deckelboden auf Druckbett und Zahnkranz nach oben;Bohrungen pruefen und Verzahnung entgraten;Mit Slicer und Probedruck zu pruefen
+TM-03U;Deckelboden auf Druckbett und Zahnkranz nach oben;Bohrungen pruefen und Verzahnung entgraten;Nicht mit oberem Deckel vertauschen
+TM-04;Radiale X-Achse des Hebels senkrecht zur Druckplatte;Vierkant pruefen und fehlenden Kugelanschluss vor Fertigung ergaenzen;Konstruktion offen
+TM-05;Huelsenachse senkrecht zum Druckbett;Gleitflaeche und Montagekonzept pruefen;Montagekonzept offen
+TM-06;Arme und Kugelausschnitt mit geeigneten Supports;Kugelflaeche Lagersitz und fehlende Befestigungen bearbeiten;Konstruktion offen
+TM-07;Lagerschulter nach unten und Lagerbohrung nach oben;Lagersitz und Kugelbolzenbohrungen pruefen;Mit Slicer und Probedruck zu pruefen
+TM-08;Lage wegen knapper Bettbreite gesondert im Slicer bestimmen;Motorlochbild Fuehrungsnut Servo- und Klemmbefestigung bearbeiten;Huellmass passt nur in geeigneter Orientierung
+TM-09;Plattenaussenseite auf Bett und Einsteckhuelse nach oben;Rohrpassung und axiale Sicherung pruefen;Mit Slicer und Probedruck zu pruefen
+TM-10;Rohr-/Ringachse senkrecht zum Druckbett;Stirnflaechen und axiale Laenge pruefen;Mit Slicer und Probedruck zu pruefen
+TM-11;Ringachse senkrecht zum Druckbett;Axiale Sicherung fehlt im Modell;Konstruktion offen

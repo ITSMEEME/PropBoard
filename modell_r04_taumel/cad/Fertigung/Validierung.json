@@ -1,0 +1,264 @@
+{
+  "individual_parts": [
+    {
+      "id": "TM-01",
+      "parameter_chord_30_31_30": true,
+      "volume_before": 11728.790057134525,
+      "volume_changed": 12430.863675016548,
+      "independent_cached_shapes": true,
+      "stl_closed": true
+    },
+    {
+      "id": "TM-02",
+      "reopened": true,
+      "valid": true,
+      "native_views": 4,
+      "native_dimensions": 3,
+      "stl_closed": true
+    },
+    {
+      "id": "TM-03O",
+      "reopened": true,
+      "valid": true,
+      "native_views": 3,
+      "native_dimensions": 3,
+      "stl_closed": true
+    },
+    {
+      "id": "TM-03U",
+      "reopened": true,
+      "valid": true,
+      "native_views": 3,
+      "native_dimensions": 3,
+      "stl_closed": true
+    },
+    {
+      "id": "TM-04",
+      "reopened": true,
+      "valid": true,
+      "native_views": 3,
+      "native_dimensions": 3,
+      "stl_closed": true
+    },
+    {
+      "id": "TM-05",
+      "reopened": true,
+      "valid": true,
+      "native_views": 4,
+      "native_dimensions": 3,
+      "stl_closed": true
+    },
+    {
+      "id": "TM-06",
+      "reopened": true,
+      "valid": true,
+      "native_views": 4,
+      "native_dimensions": 3,
+      "stl_closed": true
+    },
+    {
+      "id": "TM-07",
+      "reopened": true,
+      "valid": true,
+      "native_views": 4,
+      "native_dimensions": 3,
+      "stl_closed": true
+    },
+    {
+      "id": "TM-08",
+      "reopened": true,
+      "valid": true,
+      "native_views": 3,
+      "native_dimensions": 3,
+      "stl_closed": true
+    },
+    {
+      "id": "TM-09",
+      "reopened": true,
+      "valid": true,
+      "native_views": 3,
+      "native_dimensions": 3,
+      "stl_closed": true
+    },
+    {
+      "id": "TM-10",
+      "reopened": true,
+      "valid": true,
+      "native_views": 3,
+      "native_dimensions": 3,
+      "stl_closed": true
+    },
+    {
+      "id": "TM-11",
+      "reopened": true,
+      "valid": true,
+      "native_views": 3,
+      "native_dimensions": 3,
+      "stl_closed": true
+    },
+    {
+      "id": "TM-12",
+      "reopened": true,
+      "valid": true,
+      "native_views": 3,
+      "native_dimensions": 3
+    }
+  ],
+  "assembly": {
+    "bodies": 164,
+    "all_shapes_valid": true,
+    "additional_cap_plate_collisions": [],
+    "additional_cap_tube_collisions": [],
+    "guide_pin_checks": [
+      {
+        "state": "Schweben",
+        "angle_deg": 0,
+        "side": 1,
+        "overlap_mm3": 0.0
+      },
+      {
+        "state": "Schweben",
+        "angle_deg": 0,
+        "side": -1,
+        "overlap_mm3": 0.0
+      },
+      {
+        "state": "Schweben",
+        "angle_deg": 11.25,
+        "side": 1,
+        "overlap_mm3": 0.0
+      },
+      {
+        "state": "Schweben",
+        "angle_deg": 11.25,
+        "side": -1,
+        "overlap_mm3": 0.0
+      },
+      {
+        "state": "Schweben",
+        "angle_deg": 22.5,
+        "side": 1,
+        "overlap_mm3": 0.0
+      },
+      {
+        "state": "Schweben",
+        "angle_deg": 22.5,
+        "side": -1,
+        "overlap_mm3": 0.0
+      },
+      {
+        "state": "Schweben",
+        "angle_deg": 33.75,
+        "side": 1,
+        "overlap_mm3": 0.0
+      },
+      {
+        "state": "Schweben",
+        "angle_deg": 33.75,
+        "side": -1,
+        "overlap_mm3": 0.0
+      },
+      {
+        "state": "Kollektiv max + Zyklik",
+        "angle_deg": 0,
+        "side": 1,
+        "overlap_mm3": 0.0
+      },
+      {
+        "state": "Kollektiv max + Zyklik",
+        "angle_deg": 0,
+        "side": -1,
+        "overlap_mm3": 0.0
+      },
+      {
+        "state": "Kollektiv max + Zyklik",
+        "angle_deg": 22.5,
+        "side": 1,
+        "overlap_mm3": 0.0
+      },
+      {
+        "state": "Kollektiv max + Zyklik",
+        "angle_deg": 22.5,
+        "side": -1,
+        "overlap_mm3": 0.0
+      },
+      {
+        "state": "Kollektiv min + Zyklik",
+        "angle_deg": 0,
+        "side": 1,
+        "overlap_mm3": 0.0
+      },
+      {
+        "state": "Kollektiv min + Zyklik",
+        "angle_deg": 0,
+        "side": -1,
+        "overlap_mm3": 0.0
+      },
+      {
+        "state": "Kollektiv min + Zyklik",
+        "angle_deg": 22.5,
+        "side": 1,
+        "overlap_mm3": 0.0
+      },
+      {
+        "state": "Kollektiv min + Zyklik",
+        "angle_deg": 22.5,
+        "side": -1,
+        "overlap_mm3": 0.0
+      },
+      {
+        "state": "Schweben + Zyklik",
+        "angle_deg": 0,
+        "side": 1,
+        "overlap_mm3": 0.0
+      },
+      {
+        "state": "Schweben + Zyklik",
+        "angle_deg": 0,
+        "side": -1,
+        "overlap_mm3": 0.0
+      },
+      {
+        "state": "Schweben + Zyklik",
+        "angle_deg": 11.25,
+        "side": 1,
+        "overlap_mm3": 0.0
+      },
+      {
+        "state": "Schweben + Zyklik",
+        "angle_deg": 11.25,
+        "side": -1,
+        "overlap_mm3": 0.0
+      },
+      {
+        "state": "Schweben + Zyklik",
+        "angle_deg": 22.5,
+        "side": 1,
+        "overlap_mm3": 0.0
+      },
+      {
+        "state": "Schweben + Zyklik",
+        "angle_deg": 22.5,
+        "side": -1,
+        "overlap_mm3": 0.0
+      },
+      {
+        "state": "Schweben + Zyklik",
+        "angle_deg": 33.75,
+        "side": 1,
+        "overlap_mm3": 0.0
+      },
+      {
+        "state": "Schweben + Zyklik",
+        "angle_deg": 33.75,
+        "side": -1,
+        "overlap_mm3": 0.0
+      }
+    ],
+    "guide_pin_checks_passed": true,
+    "sampled_cases": 12,
+    "sampled_checks_passed": true,
+    "interlevel_collisions": [],
+    "manufacturing_release": false
+  }
+}

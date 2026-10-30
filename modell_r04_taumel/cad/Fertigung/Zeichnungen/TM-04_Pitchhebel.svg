@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:freecad="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace" width="297mm" height="210mm" viewBox="0 0 297 210"><rect x="8" y="8" width="281" height="194" fill="white" stroke="black" stroke-width="0.35"/><path d="M8 173 H289 M8 190 H289 M195 173 V202" fill="none" stroke="black" stroke-width="0.25"/><text x="12" y="179" font-family="sans-serif" font-size="3.5">COHEXIAL STUDY | R04-Taumelmodell 1:4 | ENTWURF F01</text><text x="12" y="185" font-family="sans-serif" font-size="4">TM-04  Pitchhebel</text><text x="12" y="195" font-family="sans-serif" font-size="3">Werkstoff: PA-CF | Anzahl je Baugruppe: 16</text><text x="12" y="200" font-family="sans-serif" font-size="2.6">Alle Masse in mm. Keine Allgemeintoleranz freigegeben. Nicht aus der Zeichnung abmessen.</text><text x="199" y="179" font-family="sans-serif" font-size="3">Status: NICHT FREIGEGEBEN</text><text x="199" y="185" font-family="sans-serif" font-size="3">Datum: 2026-10-30 | Blatt 1/1</text><text x="199" y="195" font-family="sans-serif" font-size="2.8">3D-Datensatz + Nennmasstabelle</text><text x="199" y="200" font-family="sans-serif" font-size="2.8">FreeCAD 1.0.2 | Revision F01</text><g transform="translate(66,58) scale(3.8011695906432745) translate(-2.1499999999999986,8.55)"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="0.02104615384615385"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 0 0 L 0 17.1 " />
+<path id= "2" d=" M 0 0 L 4.3 0 " />
+<path id= "3" d=" M 0 17.1 L 4.3 17.1 " />
+<path id= "4" d=" M 4.3 0 L 4.3 17.1 " />
+</g>
+</g><text x="66" y="99.5" text-anchor="middle" font-family="sans-serif" font-size="3">Draufsicht | 3.801:1</text><path d="M57.82748538011697,90.5 L57.82748538011697,98.5" stroke="black" stroke-width="0.18" fill="none"/><path d="M74.17251461988303,90.5 L74.17251461988303,98.5" stroke="black" stroke-width="0.18" fill="none"/><path d="M57.82748538011697,96.5 L74.17251461988303,96.5" stroke="black" stroke-width="0.18" fill="none"/><path d="M56.82748538011697,97.5 L58.82748538011697,95.5" stroke="black" stroke-width="0.18" fill="none"/><path d="M73.17251461988303,97.5 L75.17251461988303,95.5" stroke="black" stroke-width="0.18" fill="none"/><text x="66" y="95.5" font-family="sans-serif" font-size="3" text-anchor="middle">4.300</text><path d="M57.82748538011697,25.5 L49.82748538011697,25.5" stroke="black" stroke-width="0.18" fill="none"/><path d="M57.82748538011697,90.5 L49.82748538011697,90.5" stroke="black" stroke-width="0.18" fill="none"/><path d="M51.82748538011697,25.5 L51.82748538011697,90.5" stroke="black" stroke-width="0.18" fill="none"/><path d="M50.82748538011697,26.5 L52.82748538011697,24.5" stroke="black" stroke-width="0.18" fill="none"/><path d="M50.82748538011697,91.5 L52.82748538011697,89.5" stroke="black" stroke-width="0.18" fill="none"/><text x="50.82748538011697" y="58" transform="rotate(-90 50.82748538011697 58)" font-family="sans-serif" font-size="3" text-anchor="middle">17.100</text><g transform="translate(66,136) scale(4) translate(-2.1499999999999986,4.0)"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="0.02"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 0 0 L 0 8 " />
+<path id= "2" d=" M 0 0 L 4.3 0 " />
+<path id= "3" d=" M 4.3 0 L 4.3 8 " />
+<path id= "4" d=" M 0 8 L 4.3 8 " />
+</g>
+</g><text x="66" y="163" text-anchor="middle" font-family="sans-serif" font-size="3">Vorderansicht | 4.000:1</text><g transform="translate(153,136) scale(2.8070175438596485) translate(-8.550000000000002,3.999999999999999)"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="0.028500000000000008"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M -8.88178e-16 0 L -8.88178e-16 8 " />
+<path id= "2" d=" M -8.88178e-16 8 L 17.1 8 " />
+<path id= "3" d=" M -8.88178e-16 0 L 17.1 -3.79696e-15 " />
+<path id= "4" d=" M 17.1 -3.9968e-15 L 17.1 8 " />
+<path id= "5" d=" M 9.7 0.4 L 2.5 0.4 " />
+<path id= "6" d=" M 9.7 0.4 L 9.7 7.6 " />
+<path id= "7" d=" M 9.7 7.6 L 2.5 7.6 " />
+<path id= "8" d=" M 2.5 0.4 L 2.5 7.6 " />
+</g>
+</g><text x="153" y="163" text-anchor="middle" font-family="sans-serif" font-size="3">Seitenansicht | 2.807:1</text><text x="119" y="20" font-family="sans-serif" font-size="2.6">NENNMASSE / MODELLBEZUG</text><text x="119" y="25" font-family="sans-serif" font-size="2.6">Vierkantaufnahme 7.2 x 7.2 durchgehend</text><text x="119" y="30" font-family="sans-serif" font-size="2.6">Radial r29.5..33.8; Hebel bis y11; Dicke 8</text><text x="119" y="35" font-family="sans-serif" font-size="2.6">Soll-Kugelmitte r32, y+/-9, z5.5 im Rotorrahmen</text><text x="119" y="40" font-family="sans-serif" font-size="2.6">Huellmasse XYZ: 4.300 / 17.100 / 8.000</text><text x="119" y="45" font-family="sans-serif" font-size="2.6">Passungen und offene Schnittstellen:</text><text x="119" y="50" font-family="sans-serif" font-size="2.6">siehe Fertigungshinweise.md</text></svg>

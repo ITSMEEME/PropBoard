@@ -1,5 +1,5 @@
 {
-  "status": "TAUMELMODELL_ENTWURF_V1_KEINE_FREIGABE",
+  "status": "TAUMELMODELL_FERTIGUNGSENTWURF_F01_KEINE_FREIGABE",
   "hinweis": "Masse in mm, lokaler Rotorrahmen: Fluegelebene z = 0, Aussenseite (Taumelscheibe, Motor) +z. Servo ist ein Platzhalter-Huellmass.",
   "levels_z": [
     30,
@@ -73,7 +73,7 @@
     "link_hole_d": 9,
     "window_d": 12,
     "window_r": 50,
-    "driver_pin_r": 30.5,
+    "driver_pin_r": 31.5,
     "driver_pin_d": 3,
     "driver_pin_top": 30,
     "slot": [
@@ -81,7 +81,9 @@
       9
     ],
     "slot_y0": 2.5,
-    "driver_angle": 12
+    "driver_angle": 12,
+    "driver_pin_embed": 3.0,
+    "driver_pin_bore_d": 3.1
   },
   "gear": {
     "module": 1.0,
@@ -130,7 +132,8 @@
       18,
       25
     ],
-    "sphere_d": 38
+    "sphere_d": 38,
+    "guide_slot_w": 4.0
   },
   "motor": {
     "name": "EMAX ECO II 2306 KV1900",
@@ -173,7 +176,10 @@
     "t": 4,
     "stack_hole": 30.5,
     "stand_hole_pitch": 20,
-    "size": 46
+    "size": 46,
+    "sleeve_od": 27.8,
+    "sleeve_id": 24.0,
+    "sleeve_len": 8.0
   },
   "purchased_mass_g": {
     "battery": 255,

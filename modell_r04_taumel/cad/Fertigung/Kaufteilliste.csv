@@ -1,0 +1,17 @@
+Position;Anzahl;Nennspezifikation;Stand
+MOTOR-ECO2-2306;2;EMAX ECO II 2306 KV1900;Herstellerzeichnung und Wellenbefestigung pruefen
+RITZEL-M1-Z20;2;Modul 1 / 20 Zaehne / 20 Grad / Bohrung D5;Werkstoff Befestigung und Zahnbreite mit Produkt abstimmen
+LAGER-6806;4;6806-2RS 30 x 42 x 7;Hersteller Lasten Passungen und Sicherung offen
+LAGER-6809;2;6809-2RS 45 x 58 x 7;Hersteller Lasten Passungen und Sicherung offen
+SERVO;6;9-g-Mikroservo als Huellmass 22.8 x 12.2 x 22.5;Konkretes Produkt und Lochbild FEHLEN
+KUGELBOLZEN-M2;38;Kugel D4.8 als Modellannahme;32 Rotor- und 6 Servoanlenkungen, Produkt und Befestigung offen
+STEUERSTANGE;16;15 mm Kugelmittenabstand im idealisierten Modell;Passende reale Kugelpfannen Gewinde und Einstellung auswaehlen
+SERVOSTANGE;6;Laenge aus CAD-Kinematik;Einstellbare Gelenkstangen und Servohoerner auswaehlen
+STIFT-D2x18;32;D2 x 18;Werkstoff Passung und Sicherung offen
+MITNEHMERSTIFT-D3;2;D3 x 19.5 im Modell;D3.1-Aufnahme 3 mm tief vorhanden, axiale Sicherung offen
+FUEHRUNGSSTIFT-D3;2;D3 x 7 im Modell;Aufnahme fehlt
+MITTELROHR;1;Aluminium D30 x 1 Laenge 192;Zuschnitt TM-12 NICHT doppelt bestellen
+AKKU;1;Tattu 1550 mAh 6S als Auslegungsannahme;Befestigung Anschluss und Betrieb pruefen
+FC-ESC;1;SpeedyBee F405 V4 + BLS 55A als Auslegungsannahme;Ausgaenge und Servo-Stromversorgung pruefen
+EMPFAENGER;1;ELRS;Konkretes Produkt und Befestigung offen
+BEFESTIGUNGSMITTEL;offen;M2 M2.5 M3 M5 nach noch auszuarbeitenden Schnittstellen;KEINE vollstaendige Schraubenbestellliste

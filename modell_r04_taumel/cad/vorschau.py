@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Rendert Vorschaubilder aus den STL-Dateien von erstellen.py (matplotlib). Entwurf V1."""
+"""Rendert Vorschaubilder aus den STL-Dateien von erstellen.py (matplotlib). Entwurf F01."""
 import struct, sys
 from pathlib import Path
 import numpy as np
@@ -39,9 +39,9 @@ def color(stem):
     return (0.11, 0.69, 0.48)
 groups = [(read_stl(p), color(p.stem)) for p in sorted((HERE / 'vorschau').glob('*.stl'))]
 fig = plt.figure(figsize=(14, 7))
-view(fig.add_subplot(1, 2, 1, projection='3d'), groups, 22, -60, 125)
-view(fig.add_subplot(1, 2, 2, projection='3d'), groups, 0, -90, 125)
-fig.suptitle('R04-Taumelmodell 1:4 – Entwurf V1 (blau: Rotor oben, orange: Rotor unten, grün: feststehende Druckteile inkl. Taumelscheiben-Innenring, grau: Kaufteile)', fontsize=10)
+view(fig.add_subplot(1, 2, 1, projection='3d'), groups, 22, -60, 205)
+view(fig.add_subplot(1, 2, 2, projection='3d'), groups, 0, -90, 205)
+fig.suptitle('R04-Taumelmodell 1:4 – Entwurf F01 (blau: Rotor oben, orange: Rotor unten, grün: feststehende Druckteile inkl. Taumelscheiben-Innenring, grau: Kaufteile)', fontsize=10)
 fig.tight_layout(); fig.savefig(HERE / 'Vorschau_Baugruppe.png', dpi=110); plt.close(fig)
 hub = read_stl(HERE / 'stl' / 'Nabe.stl'); hub -= hub.reshape(-1, 3).mean(0)
 fig = plt.figure(figsize=(14, 7))

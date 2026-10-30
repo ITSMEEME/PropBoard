@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:freecad="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace" width="297mm" height="210mm" viewBox="0 0 297 210"><rect x="8" y="8" width="281" height="194" fill="white" stroke="black" stroke-width="0.35"/><path d="M8 173 H289 M8 190 H289 M195 173 V202" fill="none" stroke="black" stroke-width="0.25"/><text x="12" y="179" font-family="sans-serif" font-size="3.5">COHEXIAL STUDY | R04-Taumelmodell 1:4 | ENTWURF F01</text><text x="12" y="185" font-family="sans-serif" font-size="4">TM-11  Klemmring</text><text x="12" y="195" font-family="sans-serif" font-size="3">Werkstoff: PETG | Anzahl je Baugruppe: 2</text><text x="12" y="200" font-family="sans-serif" font-size="2.6">Alle Masse in mm. Keine Allgemeintoleranz freigegeben. Nicht aus der Zeichnung abmessen.</text><text x="199" y="179" font-family="sans-serif" font-size="3">Status: NICHT FREIGEGEBEN</text><text x="199" y="185" font-family="sans-serif" font-size="3">Datum: 2026-10-30 | Blatt 1/1</text><text x="199" y="195" font-family="sans-serif" font-size="2.8">3D-Datensatz + Nennmasstabelle</text><text x="199" y="200" font-family="sans-serif" font-size="2.8">FreeCAD 1.0.2 | Revision F01</text><g transform="translate(66,58) scale(1.9402985074626866) translate(-16.75,16.75)"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="0.04123076923076923"
+   transform="scale(1, -1)"
+  >
+<circle cx ="16.75" cy ="16.75" r ="16.75" /><circle cx ="16.75" cy ="16.75" r ="15.15" /></g>
+</g><text x="66" y="99.5" text-anchor="middle" font-family="sans-serif" font-size="3">Draufsicht | 1.940:1</text><path d="M33.5,90.5 L33.5,98.5" stroke="black" stroke-width="0.18" fill="none"/><path d="M98.5,90.5 L98.5,98.5" stroke="black" stroke-width="0.18" fill="none"/><path d="M33.5,96.5 L98.5,96.5" stroke="black" stroke-width="0.18" fill="none"/><path d="M32.5,97.5 L34.5,95.5" stroke="black" stroke-width="0.18" fill="none"/><path d="M97.5,97.5 L99.5,95.5" stroke="black" stroke-width="0.18" fill="none"/><text x="66" y="95.5" font-family="sans-serif" font-size="3" text-anchor="middle">33.500</text><path d="M33.5,25.5 L25.5,25.5" stroke="black" stroke-width="0.18" fill="none"/><path d="M33.5,90.5 L25.5,90.5" stroke="black" stroke-width="0.18" fill="none"/><path d="M27.5,25.5 L27.5,90.5" stroke="black" stroke-width="0.18" fill="none"/><path d="M26.5,26.5 L28.5,24.5" stroke="black" stroke-width="0.18" fill="none"/><path d="M26.5,91.5 L28.5,89.5" stroke="black" stroke-width="0.18" fill="none"/><text x="26.5" y="58" transform="rotate(-90 26.5 58)" font-family="sans-serif" font-size="3" text-anchor="middle">33.500</text><g transform="translate(66,136) scale(2.5970149253731343) translate(-16.75,1.9000000000000012)"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="0.030804597701149426"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 0 1.77636e-15 L 0 3.8 " />
+</g>
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="0.030804597701149426"
+   transform="scale(1, -1)"
+  >
+<path d="M0, 3.8 L0.419957, 3.8  L1.65877, 3.8  L3.65432, 3.8  L6.30655, 3.8  L9.48245, 3.8  L13.0228, 3.8  L16.75, 3.8  L20.4772, 3.8  L24.0176, 3.8  L27.1935, 3.8  L29.8457, 3.8  L31.8412, 3.8  L33.08, 3.8  L33.5, 3.8 " /><path id= "2" d=" M 33.5 1.77636e-15 L 33.5 3.8 " />
+<path d="M0, 1.77636e-15 L0.419957, 1.77636e-15  L1.65877, 1.77636e-15  L3.65432, 0  L6.30655, 0  L9.48245, 0  L13.0228, 0  L16.75, 0  L20.4772, 0  L24.0176, 0  L27.1935, 0  L29.8457, 0  L31.8412, 1.77636e-15  L33.08, 1.77636e-15  L33.5, 1.77636e-15 " /></g>
+</g><text x="66" y="163" text-anchor="middle" font-family="sans-serif" font-size="3">Vorderansicht | 2.597:1</text><g transform="translate(153,136) scale(1.4328358208955223) translate(-16.75,1.8999999999999977)"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="0.05583333333333334"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 33.5 -7.27196e-15 L 33.5 3.8 " />
+<path id= "2" d=" M 0 1.66533e-16 L 0 3.8 " />
+</g>
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="0.05583333333333334"
+   transform="scale(1, -1)"
+  >
+<path d="M16.75, 3.8 L18.6254, 3.8  L20.4772, 3.8  L22.2822, 3.8  L24.0176, 3.8  L25.6615, 3.8  L27.1935, 3.8  L28.594, 3.8  L29.8457, 3.8  L30.9326, 3.8  L31.8412, 3.8  L32.56, 3.8  L33.08, 3.8  L33.3947, 3.8  L33.5, 3.8 " /><path d="M-3.55271e-15, 3.8 L0.10532, 3.8  L0.419957, 3.8  L0.939954, 3.8  L1.65877, 3.8  L2.56737, 3.8  L3.65432, 3.8  L4.90596, 3.8  L6.30655, 3.8  L7.83846, 3.8  L9.48245, 3.8  L11.2178, 3.8  L13.0228, 3.8  L14.8746, 3.8  L16.75, 3.8 " /><path d="M16.75, -3.55271e-15 L18.6254, -3.55271e-15  L20.4772, -3.55271e-15  L22.2822, -5.32907e-15  L24.0176, -5.32907e-15  L25.6615, -5.32907e-15  L27.1935, -5.32907e-15  L28.594, -5.32907e-15  L29.8457, -7.10543e-15  L30.9326, -7.10543e-15  L31.8412, -7.10543e-15  L32.56, -7.10543e-15  L33.08, -7.10543e-15  L33.3947, -7.10543e-15  L33.5, -7.10543e-15 " /><path d="M-3.55271e-15, 0 L0.10532, 0  L0.419957, 0  L0.939954, 0  L1.65877, 0  L2.56737, 0  L3.65432, 0  L4.90596, -1.77636e-15  L6.30655, -1.77636e-15  L7.83846, -1.77636e-15  L9.48245, -1.77636e-15  L11.2178, -1.77636e-15  L13.0228, -3.55271e-15  L14.8746, -3.55271e-15  L16.75, -3.55271e-15 " /></g>
+</g><text x="153" y="163" text-anchor="middle" font-family="sans-serif" font-size="3">Seitenansicht | 1.433:1</text><text x="119" y="20" font-family="sans-serif" font-size="2.6">NENNMASSE / MODELLBEZUG</text><text x="119" y="25" font-family="sans-serif" font-size="2.6">Innen D30.3; Aussen D33.5; Laenge 3.8</text><text x="119" y="30" font-family="sans-serif" font-size="2.6">Huellmasse XYZ: 33.500 / 33.500 / 3.800</text><text x="119" y="35" font-family="sans-serif" font-size="2.6">Passungen und offene Schnittstellen:</text><text x="119" y="40" font-family="sans-serif" font-size="2.6">siehe Fertigungshinweise.md</text></svg>

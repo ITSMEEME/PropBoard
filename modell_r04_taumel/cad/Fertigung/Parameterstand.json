@@ -1,0 +1,256 @@
+{
+  "status": "TAUMELMODELL_FERTIGUNGSENTWURF_F01_KEINE_FREIGABE",
+  "hinweis": "Masse in mm, lokaler Rotorrahmen: Fluegelebene z = 0, Aussenseite (Taumelscheibe, Motor) +z. Servo ist ein Platzhalter-Huellmass.",
+  "levels_z": [
+    30,
+    -30
+  ],
+  "pitch_hover_deg": [
+    14.0,
+    16.7
+  ],
+  "pitch_range_deg": [
+    -2,
+    21
+  ],
+  "cyclic_max_deg": 4,
+  "blade": {
+    "count": 8,
+    "chord": 30,
+    "r_tip": 187.5,
+    "r_airfoil_start": 48,
+    "tc": 0.12,
+    "te_mm": 0.6,
+    "boss_d": 10,
+    "boss_r_in": 30,
+    "square": 7,
+    "square_len": 4,
+    "groove_r": 40,
+    "groove_w": 2.2,
+    "groove_depth": 1.2
+  },
+  "pin": {
+    "d": 2,
+    "len": 18,
+    "z_offset": 4.8
+  },
+  "hub": {
+    "r_out": 44,
+    "r_wall_in": 36,
+    "r_inner_ring": 24,
+    "z_min": -10,
+    "z_max": 10,
+    "floor_t": 3,
+    "bore_clear": 0.2,
+    "screw_r": 40,
+    "screw_d": 2.5
+  },
+  "bearing": {
+    "name": "6806-2RS",
+    "d": 30,
+    "D": 42,
+    "B": 7,
+    "inner_ring_od": 33.5,
+    "mass_g": 19,
+    "z_local": [
+      -10,
+      3
+    ]
+  },
+  "horn": {
+    "arm": 9,
+    "r_center": 32,
+    "t": 4,
+    "w": 8,
+    "ball_d": 4.8,
+    "ball_z": 5.5
+  },
+  "lid": {
+    "z0": 10.5,
+    "disk_t": 3,
+    "rim_r_in": 59,
+    "r_in": 22,
+    "link_hole_d": 9,
+    "window_d": 12,
+    "window_r": 50,
+    "driver_pin_r": 31.5,
+    "driver_pin_d": 3,
+    "driver_pin_top": 30,
+    "slot": [
+      7,
+      9
+    ],
+    "slot_y0": 2.5,
+    "driver_angle": 12,
+    "driver_pin_embed": 3.0,
+    "driver_pin_bore_d": 3.1
+  },
+  "gear": {
+    "module": 1.0,
+    "z_ring": 130,
+    "z_pinion": 20,
+    "pressure_angle": 20,
+    "face": 6,
+    "backlash": 0.15,
+    "center_extra": 0.1,
+    "pinion_bore": 5,
+    "pinion_z0": 11
+  },
+  "swash": {
+    "ball_d": 4.8,
+    "sleeve_id": 30.3,
+    "sleeve_od": 34,
+    "sleeve_half": 9,
+    "c_hover_link_len": 15,
+    "bearing": {
+      "name": "6809-2RS",
+      "d": 45,
+      "D": 58,
+      "B": 7,
+      "mass_g": 32
+    },
+    "rot_ring_od": 72,
+    "rot_ball_z": -5.5,
+    "stat_flange_t": 3,
+    "stat_arm_r": 44,
+    "stat_arm_w": 7,
+    "servo_angles_deg": [
+      60,
+      180,
+      300
+    ],
+    "guide_angle_deg": 240,
+    "slot_w": 3.4,
+    "arm_z0": 8,
+    "arm_t": 3,
+    "stud_len": 3.9,
+    "riser_r": [
+      20,
+      25
+    ],
+    "flange_r": [
+      18,
+      25
+    ],
+    "sphere_d": 38,
+    "guide_slot_w": 4.0
+  },
+  "motor": {
+    "name": "EMAX ECO II 2306 KV1900",
+    "d": 28,
+    "body_h": 19,
+    "shaft_h": 13,
+    "shaft_d": 5,
+    "mount_pcd": 16,
+    "mount_screw": 3,
+    "boss_d": 7,
+    "mass_g": 32
+  },
+  "plate": {
+    "t": 4,
+    "collar_h": 14,
+    "collar_wall": 4,
+    "pad_d": 34,
+    "arm_w": 30,
+    "servo_pad": [
+      30,
+      20
+    ],
+    "servo_pad_r": 61,
+    "rod_hole_d": 10,
+    "rod_top_z": 60
+  },
+  "servo": {
+    "name": "Platzhalter 9-g-Mikroservo",
+    "L": 22.8,
+    "W": 12.2,
+    "H": 22.5,
+    "mass_g": 9
+  },
+  "tube": {
+    "d": 30,
+    "wall": 1,
+    "half_len": 96
+  },
+  "cap": {
+    "t": 4,
+    "stack_hole": 30.5,
+    "stand_hole_pitch": 20,
+    "size": 46,
+    "sleeve_od": 27.8,
+    "sleeve_id": 24.0,
+    "sleeve_len": 8.0
+  },
+  "purchased_mass_g": {
+    "battery": 255,
+    "fc_esc": 26,
+    "receiver": 3,
+    "pinion": 8,
+    "link_set": 1.0,
+    "wiring": 45
+  },
+  "print": {
+    "bed": [
+      200,
+      148,
+      150
+    ],
+    "density": {
+      "PA-CF": 1170,
+      "PETG": 1270
+    },
+    "fill": {
+      "blade": 0.65,
+      "hub": 0.5,
+      "gear": 0.7,
+      "horn": 1.0,
+      "swash": 0.8,
+      "plate": 0.5,
+      "sleeve": 0.8,
+      "cap": 0.5
+    },
+    "fill_hinweis": "Effektive Fuellgrade (Annahme), mit Slicer pruefen"
+  },
+  "check_states": [
+    {
+      "name": "Schweben",
+      "theta0": "hover",
+      "cyclic": 0,
+      "angles": [
+        0,
+        11.25,
+        22.5,
+        33.75
+      ]
+    },
+    {
+      "name": "Kollektiv max + Zyklik",
+      "theta0": 21,
+      "cyclic": 4,
+      "angles": [
+        0,
+        22.5
+      ]
+    },
+    {
+      "name": "Kollektiv min + Zyklik",
+      "theta0": -2,
+      "cyclic": 4,
+      "angles": [
+        0,
+        22.5
+      ]
+    },
+    {
+      "name": "Schweben + Zyklik",
+      "theta0": "hover",
+      "cyclic": 4,
+      "angles": [
+        0,
+        11.25,
+        22.5,
+        33.75
+      ]
+    }
+  ]
+}
