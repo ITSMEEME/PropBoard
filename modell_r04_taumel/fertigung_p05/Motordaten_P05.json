@@ -1,0 +1,63 @@
+{
+  "source": "User supplied EMAX ECOII-2306 drawing and specification-table image, 2026-10-30",
+  "source_kind": "DIMENSIONED_MANUFACTURER_BRANDED_IMAGE_PROVIDED_BY_USER",
+  "original_image_not_available_as_local_file": true,
+  "source_url": null,
+  "motor": {
+    "item": "EMAX ECO II 2306 KV1900",
+    "mount_pattern": "PCD",
+    "mount_pcd_mm": 16,
+    "mount_angles_deg": [
+      45,
+      135,
+      225,
+      315
+    ],
+    "equivalent_square_pitch_mm": 11.31370849898476,
+    "mount_threads": "4 x M3",
+    "body_outer_diameter_mm": 28,
+    "total_height_mm": 31.6,
+    "output_projection_from_bell_front_mm": 13,
+    "tip_to_bell_lower_edge_mm": 25.3,
+    "derived_mount_face_to_bell_front_mm": 18.6,
+    "derived_mount_face_to_bell_lower_edge_mm": 6.300000000000001,
+    "derived_bell_axial_height_mm": 12.3,
+    "internal_bearing_shaft_diameter_mm": 4,
+    "propeller_attachment": "M5",
+    "M5_thread_length_mm": 9,
+    "maximum_M3_insertion_mm": 3,
+    "mount_pilot_dimensions": null,
+    "wire_AWG": 20,
+    "wire_length_mm": 120,
+    "weight_without_silicone_wires_g": 30.2,
+    "stator_slots": 12,
+    "magnet_poles": 14,
+    "kv_rpm_per_V": 1900,
+    "no_load_current_A_at_10V": 1.3,
+    "winding_resistance_ohm": 0.062,
+    "cells": [
+      3,
+      6
+    ],
+    "advertised_peak_current_A_at_6S": 46,
+    "advertised_max_input_power_W_at_6S": 1160,
+    "max_power_not_verified_continuous_rating": true
+  },
+  "reconciliation": {
+    "research_16x16_rejected": true,
+    "original_F01_H01_PCD16_confirmed": true,
+    "P03_rectangular_outputs_quarantined": true,
+    "shaft4mm_does_not_mean_propeller_connection4mm": true,
+    "unverified_research_servo_and_bearing_claims_remain_separate": true
+  },
+  "modelling": {
+    "complete_purchased_motor": true,
+    "internal_manufacture_required": false,
+    "geometry_kind": "Mounting/clearance model from dimensioned drawing; undimensioned vents, foot contour and M3 blind depths not reconstructed",
+    "body_boundary_conservative_diameter28": true,
+    "output_envelope_diameter5_not_verified_smooth_shaft": true,
+    "thread_full_flanks_not_claimed": true
+  },
+  "overall_production_release": false,
+  "interface_clarification": "User clarification in chat: M5, 9 mm + M3 depth = 3 mm"
+}

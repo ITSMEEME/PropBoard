@@ -1,0 +1,184 @@
+{
+  "status": "CALCULATED_HYBRID_BEMT_NOT_STAND_MEASUREMENTS",
+  "mass_kg": 1.5776763200000006,
+  "scenarios": [
+    {
+      "name": "SIMPLIFIED_HISTORICAL",
+      "mass_kg": 1.5776763200000006,
+      "assumed_servo_mass_g": 69,
+      "hover": {
+        "rpm": 2645.7672119140625,
+        "pitch_upper_deg": 14,
+        "pitch_lower_deg": 16.722869873046875,
+        "total_thrust_N": 15.476458965491735,
+        "upper_thrust_N": 9.147125621112645,
+        "lower_thrust_N": 6.329333344379091,
+        "rotor_Q_Nm": [
+          0.27683608699647877,
+          0.2768270322436713
+        ],
+        "shaft_power_W": 153.40017080984293,
+        "bus_power_W": 215.3299576383803,
+        "bus_current_A": 9.482512551587044,
+        "duty": 0.4271191007076565,
+        "feasible_electrical_model": true,
+        "pitch_inside_nominal_range": true,
+        "final_section_fallback_fraction": 0,
+        "alpha_range_deg": [
+          0.24983377038438942,
+          5.938499216899118
+        ],
+        "re_range": [
+          26379.53669635961,
+          100143.74530051186
+        ]
+      },
+      "tw2": {
+        "rpm": 3739.4744873046875,
+        "pitch_upper_deg": 14,
+        "pitch_lower_deg": 16.736602783203125,
+        "total_thrust_N": 30.95445495632884,
+        "upper_thrust_N": 18.287745505064525,
+        "lower_thrust_N": 12.666709451264314,
+        "rotor_Q_Nm": [
+          0.5483128000126892,
+          0.548342441901771
+        ],
+        "shaft_power_W": 429.4467411064768,
+        "bus_power_W": 583.688899422668,
+        "bus_current_A": 26.391813031738096,
+        "duty": 0.6337078228649279,
+        "feasible_electrical_model": true,
+        "pitch_inside_nominal_range": true,
+        "final_section_fallback_fraction": 0,
+        "alpha_range_deg": [
+          0.24763094100982935,
+          5.944658168858716
+        ],
+        "re_range": [
+          37332.25228717129,
+          141611.95858033828
+        ]
+      }
+    },
+    {
+      "name": "CAD_XFOIL_N4",
+      "mass_kg": 1.5776763200000006,
+      "assumed_servo_mass_g": 69,
+      "hover": {
+        "rpm": 2568.9910888671875,
+        "pitch_upper_deg": 14,
+        "pitch_lower_deg": 16.864776611328125,
+        "total_thrust_N": 15.476427898715706,
+        "upper_thrust_N": 9.173180833820687,
+        "lower_thrust_N": 6.303247064895017,
+        "rotor_Q_Nm": [
+          0.29395084912493963,
+          0.2939382359153762
+        ],
+        "shaft_power_W": 158.1563424265147,
+        "bus_power_W": 221.2967281342229,
+        "bus_current_A": 9.749280583801296,
+        "duty": 0.4172294755114208,
+        "feasible_electrical_model": true,
+        "pitch_inside_nominal_range": true,
+        "final_section_fallback_fraction": 0,
+        "alpha_range_deg": [
+          0.24852542185268067,
+          5.587759722809903
+        ],
+        "re_range": [
+          25193.152476697833,
+          97004.77961814035
+        ]
+      },
+      "tw2": {
+        "rpm": 3709.6099853515625,
+        "pitch_upper_deg": 14,
+        "pitch_lower_deg": 16.732025146484375,
+        "total_thrust_N": 30.953247768175785,
+        "upper_thrust_N": 18.38900998506355,
+        "lower_thrust_N": 12.564237783112237,
+        "rotor_Q_Nm": [
+          0.5594755563645775,
+          0.5594780272381564
+        ],
+        "shaft_power_W": 434.67928236457766,
+        "bus_power_W": 591.0985905224716,
+        "bus_current_A": 26.741651374132797,
+        "duty": 0.6304594511768538,
+        "feasible_electrical_model": true,
+        "pitch_inside_nominal_range": true,
+        "final_section_fallback_fraction": 0.2375,
+        "alpha_range_deg": [
+          0.13496919380398836,
+          5.9423841345336355
+        ],
+        "re_range": [
+          36598.85327010312,
+          140259.19102423434
+        ]
+      }
+    },
+    {
+      "name": "CAD_XFOIL_N9",
+      "mass_kg": 1.5776763200000006,
+      "assumed_servo_mass_g": 69,
+      "hover": {
+        "rpm": 2557.5836181640625,
+        "pitch_upper_deg": 14,
+        "pitch_lower_deg": 16.831207275390625,
+        "total_thrust_N": 15.476669807882526,
+        "upper_thrust_N": 9.217505435317575,
+        "lower_thrust_N": 6.259164372564951,
+        "rotor_Q_Nm": [
+          0.29995282180994265,
+          0.2999560228779548
+        ],
+        "shaft_power_W": 160.67330403090148,
+        "bus_power_W": 224.59796891961338,
+        "bus_current_A": 9.89697137157802,
+        "duty": 0.4161433169081127,
+        "feasible_electrical_model": true,
+        "pitch_inside_nominal_range": true,
+        "final_section_fallback_fraction": 0,
+        "alpha_range_deg": [
+          0.9144316187687765,
+          5.548458444397693
+        ],
+        "re_range": [
+          24955.826568876906,
+          96481.42024431023
+        ]
+      },
+      "tw2": {
+        "rpm": 3617.9656982421875,
+        "pitch_upper_deg": 14,
+        "pitch_lower_deg": 16.698455810546875,
+        "total_thrust_N": 30.955006072846125,
+        "upper_thrust_N": 18.38316854352938,
+        "lower_thrust_N": 12.571837529316745,
+        "rotor_Q_Nm": [
+          0.5771916494983381,
+          0.5771565041054333
+        ],
+        "shaft_power_W": 437.3507499917045,
+        "bus_power_W": 595.7478422967858,
+        "bus_current_A": 26.961366171954104,
+        "duty": 0.6180927359136655,
+        "feasible_electrical_model": true,
+        "pitch_inside_nominal_range": true,
+        "final_section_fallback_fraction": 0,
+        "alpha_range_deg": [
+          0.5796455554037262,
+          5.478978994611049
+        ],
+        "re_range": [
+          35487.23814750168,
+          136759.2601304593
+        ]
+      }
+    }
+  ],
+  "limitations": "Actual CAD-profile XFOIL polars with explicit original-polar fallback outside converged range; no measured roughness, wake, thrust, torque or thermal validation. Motor/BEC/servo current incomplete."
+}

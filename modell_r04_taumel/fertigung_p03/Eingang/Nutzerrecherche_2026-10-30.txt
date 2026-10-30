@@ -1,0 +1,70 @@
+Die wichtigsten technischen Daten für den Motor sind verfügbar. Ein direkter Download einer Original-STEP-Datei oder einer bemaßten PDF-Zeichnung konnte über die öffentlichen Kanäle nicht ausfindig gemacht werden.
+- Lochbild (Befestigungsraster): Das entscheidende Maß für die Montage ist ein 16 x 16 mm Lochbild mit M3-Gewinden.
+- Welle: Der Motor hat eine 4 mm Welle mit einem M5 Gewinde für die Propellerbefestigung.
+- Abmessungen: Der Durchmesser beträgt 28 mm und die Höhe (Länge) 31,6 mm.
+- Mitgeliefertes Zubehör: Dem Motor liegen Schrauben in den Längen M3x8, M3x7 und M3x6 sowie eine Aluminium-M5-Stoppmutter und eine Unterlegscheibe bei.
+Für dieses Servo sind die elektrischen Daten sehr gut dokumentiert. Eine offizielle bemaßte Zeichnung mit Laschendicke und exakten Schraubenmaßen ist jedoch nicht öffentlich verfügbar. Die folgenden Daten stammen aus Händler- und Herstellerangaben.
+- Genaue Variante: Die Bezeichnung ist SB-2271SG+ (mit Plus). Die Basisversion ist das SB-2271SG. Die "Plus"-Variante ist für den HV-Betrieb bis 8,4V spezifiziert.
+- Gehäusemaße: 40,3 x 20,2 x 38,5 mm (L x B x H). Eine Quelle gibt 38,7 mm Höhe an.
+- Gewicht: 69 g.
+- Abtrieb: 25 Zähne (25T), kompatibel mit Futaba.
+- Drehmoment & Stellzeit: (bereits bekannt, zur Vollständigkeit)
+  - 6,0V: 15,0 kg/cm, 0,085 s/60°
+  - 7,4V: 20,0 kg/cm, 0,065 s/60°
+  - 8,4V: 25,0 kg/cm, 0,055 s/60°
+- Elektrische Daten (die fehlenden Werte):
+  - Stromaufnahme (Leerlauf): 180 mA @ 6,0 V; 220 mA @ 7,4 V.
+  - Stromaufnahme (Blockierstrom): 6000 mA @ 6,0 V; 7400 mA @ 7,4 V.
+  - PWM-Pulsbereich: 800 – 2200 µs (Standard-Reise). Der Neutralimpuls liegt bei 1500 µs.
+  - Wiederholrate (Refresh Rate): 333 Hz.
+  - Signalpegelverträglichkeit: Dazu macht das Datenblatt keine explizite Angabe. Üblicherweise arbeiten Savöx-Servos mit den Standard-Logikpegeln von RC-Empfängern (3,3V oder 5V TTL). Eine Bestätigung seitens Savöx wäre hierfür aber ratsam.
+- Laschendicke & Schrauben: Diese Maße sind in den öffentlichen Datenblättern nicht spezifiziert. Für die Konstruktion der Servohörner und die Auswahl der Halteschrauben sind dies jedoch kritische Werte, die du direkt beim Hersteller oder Händler erfragen solltest.
+Die Anforderung "8-mm-Anlenkradius" ist ein Nischenmaß. Die Recherche ergab, dass der Begriff oft mit dem Wellendurchmesser (8 mm) verwechselt wird, nicht mit dem Anlenkradius. Ein passendes Produkt mit exakt 8 mm Radius wurde nicht gefunden. Die folgende Alternative kommt deiner Anforderung am nächsten:
+- Artikel: Hudy Aluminium Clamp Servo Horn 8mm Extended (Artikelnummer: DY293422).
+- Eigenschaften:
+  - Verlängerte Ausführung für einen größeren Hebelarm, was dem Wunsch nach einem definierten Radius nahekommt.
+  - 25T-Verzahnung für Futaba/Savöx-Servos.
+  - Klemmdesign für einen festen, spielfreien Sitz.
+  - Gebohrt und mit Gewinde versehen für 3-mm-Gestänge (M3). Dies ist die Schnittstelle für den Kugelbolzen.
+- Zeichnung: Eine bemaßte Zeichnung ist auf der Produktseite nicht direkt verfügbar, die technischen Merkmale sind aber klar beschrieben.
+Beide Lagertypen sind Standard-Rillenkugellager. Die Maßangaben sind identisch, unabhängig vom Hersteller (Normung nach ISO 15). Die "2RS"-Bezeichnung steht für eine beidseitige Gummidichtung.
+
+6806-2RS
+- Abmessungen: 30 mm Bohrung (d) x 42 mm Außendurchmesser (D) x 7 mm Breite (B).
+- Passungstoleranzen: Die Bohrung hat typischerweise eine Toleranz von 0 bis -12 µm, der Außendurchmesser 0 bis -13 µm (Daten für das ähnliche 6809-2RS, für 6806 gelten vergleichbare Werte).
+- Lagerluft: Standard ist CN (normale Lagerluft). Für Anwendungen mit Wärmeentwicklung ist die Variante C3 (erhöhte Lagerluft) üblich.
+- Hersteller/Artikelnummern (Beispiele):
+  - SKF: 61806-2RS1 oder 61806-2RSH
+  - FAG: 6806-2RSR
+  - NSK: 6806DDU
+  - NTN: 6806LLU
+- Maßzeichnung: Eine bemaßte Zeichnung mit Fasen und Schultergrenzen ist in den verlinkten Katalogen der Hersteller (SKF, FAG, etc.) zu finden. Die Mindest-Schultermaße (da/Da) sind Teil der Norm.
+6809-2RS
+- Abmessungen: 45 mm Bohrung (d) x 58 mm Außendurchmesser (D) x 7 mm Breite (B).
+- Fasen/Schultergrenzen: Der minimale Radius (r) beträgt 0,3 mm. Die Schultermaße (da min/max, Da max) sind in der Koyo-Zeichnung zu finden.
+- Lagerluft: Standard C0 (normale Lagerluft), Bereich 1-15 µm. Auch hier ist C3 als Option verfügbar.
+- Hersteller/Artikelnummern (Beispiele):
+  - SKF: 61809-2RS1
+  - FAG: 61809-2RSR-Y
+  - NSK: 6809DDU
+  - NTN: 6809LLU
+Die Suche nach einer konkreten, universellen Artikelnummer für "die 16 Blatt- und sechs Servogestänge" ist ohne die genaue Modellbezeichnung deines Fluggeräts nicht möglich. Die Gestängelängen und -durchmesser sind modellspezifisch.
+
+Die Recherche ergab jedoch die am häufigsten verwendeten Standardgrößen im Modellbau:
+- Gängige Gewindegröße: M2,5 oder M3.
+- Beispielhafte Komponenten: Kugelgelenke M2,5 (z.B. KG/0025) an einem 78mm Gestänge oder Kugelköpfe für M2-Gestänge.
+- Empfehlung: Für eine exakte Bestimmung solltest du die benötigten Längen aus der Bauanleitung deines Modells entnehmen. Als Kugelbolzen für die Hudy-Servohörner (mit M3-Gewinde) eignen sich beispielsweise M3-Kugelbolzen mit einem Kugeldurchmesser, der zu den von dir gewählten Gestängeköpfen passt.
+Für die SpeedyBee-Stacks sind die Gummitüllen (Grommets) standardisiert. Die genauen Maße hängen vom verwendeten Stack ab (z.B. F405 V3, F405 V4 etc.).
+- Beispielhafter Stack (SpeedyBee F405 V3 60A):
+  - Montageraster: 30,5 x 30,5 mm mit 4 mm Bohrungen.
+  - Gummitüllen für FC: M3 x 8 mm.
+  - Gummitüllen für ESC: M3 x 8,1 mm (leicht abweichende Höhe).
+  - Schrauben: Dem Set liegen M3 x 30 mm Schrauben bei.
+- Wichtiger Hinweis: Die endgültige Montagehöhe und die benötigte Schraubenlänge ergeben sich aus der Kombination von Gummitülle, Flight Controller, ESC und den verwendeten Abstandshaltern. Die 30 mm Schrauben sind für die Standard-Montage des gesamten Stacks ausgelegt. Für deine spezifische Anordnung musst du die Höhe der Gummitüllen (ca. 8 mm) zur Dicke deiner Platinen und Abstandshalter addieren.
+- Original-STEP-Dateien: Für keines der angefragten Bauteile konnte eine öffentlich zugängliche STEP-Datei gefunden werden. Diese sind in der Regel nur über spezialisierte CAD-Portale oder direkt beim Hersteller (oft nach Registrierung) erhältlich.
+- Bemaßte PDF-Zeichnungen:
+  - Für die Lager (6806, 6809) sind bemaßte Zeichnungen in den Online-Katalogen der Hersteller (SKF, FAG, NSK, NTN, Koyo) verfügbar.
+  - Für den EMAX-Motor und die Savöx-Servos sind die relevanten Maße in den Datenblättern (z.B. bei Händlern) zu finden, aber keine offiziellen, bemaßten Konstruktionszeichnungen.
+  - Für die SpeedyBee-Dämpfer sind die Maße in der Anleitung des jeweiligen Stacks aufgeführt.
+Wenn du für eines der Teile eine exakte Zeichnung für deine Konstruktion benötigst, ist der sicherste Weg, den Support des jeweiligen Herstellers (EMAX, Savöx, SpeedyBee) direkt zu kontaktieren.
+

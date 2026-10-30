@@ -1,0 +1,7 @@
+from pathlib import Path
+import FreeCAD as App
+import FreeCADGui as Gui
+p = Path(__file__).resolve().parent / "Ausgabe" / "P05_Baugruppe_Motoranschluss_GESPERRT.FCStd"
+App.openDocument(str(p))
+Gui.activeDocument().activeView().viewAxonometric()
+Gui.activeDocument().activeView().fitAll()

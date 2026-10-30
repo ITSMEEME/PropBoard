@@ -1,0 +1,291 @@
+{
+  "status": "DIMENSIONAL_MOTOR_CONNECTION_CHECKS_PASS_NOT_TORQUE_OR_FLIGHT_RELEASE",
+  "source": "User clarification in chat: M5, 9 mm + M3 depth = 3 mm",
+  "screw_count": 8,
+  "washer_count": 8,
+  "pinions": 2,
+  "jam_nuts": 2,
+  "nominal_M3_insertion_mm": 2.5,
+  "nominal_M3_depth_reserve_mm": 0.5,
+  "assumed_tolerance_penetration_range_mm": [
+    2.0500000000000007,
+    2.9499999999999997
+  ],
+  "tolerance_budget_is_design_acceptance_requirement_not_verified_supplier_values": true,
+  "M5_usable_mm": 9,
+  "M5_stack_mm": 8.2,
+  "M5_nominal_unused_thread_mm": 0.8,
+  "M5_max_stack_with_pinion_face_plus_0_05_mm": 8.25,
+  "M5_nominal_nut_to_bell_gap_mm": 4.800000000000001,
+  "axial_mesh_overlap_mm": 5.100000000000001,
+  "gear": {
+    "generator": "FreeCAD 1.0.2 PartDesign fcgear, split cubic Bezier involute, root fillet coefficient .38",
+    "module_mm": 1,
+    "teeth": 20,
+    "pressure_angle_deg": 20,
+    "face_mm": 5.5,
+    "pitch_diameter_mm": 20,
+    "tip_diameter_mm": 22,
+    "root_diameter_mm": 17.5,
+    "nominal_thread": "M5x0.8-6H THROUGH",
+    "machining_pretap_drill_mm": 4.2,
+    "model_thread_bore_mm": 5,
+    "phase_applied_deg": 9,
+    "pinion_thickness_reduction_mm": 0,
+    "existing_ring_thickness_reduction_mm": 0.15,
+    "mesh_centre_distance_mm": 75.1,
+    "manufacturing_quality_grade_not_certified": true
+  },
+  "nominal_contacts": [
+    {
+      "a": "P05_Motorschraube_Oben_0",
+      "b": "Oben_feststehend_11",
+      "nominal_intersection_mm3": 0.0
+    },
+    {
+      "a": "P05_Motorschraube_Oben_0",
+      "b": "Oben_feststehend_10",
+      "nominal_intersection_mm3": 0.0
+    },
+    {
+      "a": "P05_Motorschraube_Oben_0",
+      "b": "P05_Motorscheibe_Oben_0",
+      "nominal_intersection_mm3": 0.0,
+      "bearing_contact": true
+    },
+    {
+      "a": "P05_Motorschraube_Oben_1",
+      "b": "Oben_feststehend_11",
+      "nominal_intersection_mm3": 0.0
+    },
+    {
+      "a": "P05_Motorschraube_Oben_1",
+      "b": "Oben_feststehend_10",
+      "nominal_intersection_mm3": 0.0
+    },
+    {
+      "a": "P05_Motorschraube_Oben_1",
+      "b": "P05_Motorscheibe_Oben_1",
+      "nominal_intersection_mm3": 0.0,
+      "bearing_contact": true
+    },
+    {
+      "a": "P05_Motorschraube_Oben_2",
+      "b": "Oben_feststehend_11",
+      "nominal_intersection_mm3": 0.0
+    },
+    {
+      "a": "P05_Motorschraube_Oben_2",
+      "b": "Oben_feststehend_10",
+      "nominal_intersection_mm3": 0.0
+    },
+    {
+      "a": "P05_Motorschraube_Oben_2",
+      "b": "P05_Motorscheibe_Oben_2",
+      "nominal_intersection_mm3": 0.0,
+      "bearing_contact": true
+    },
+    {
+      "a": "P05_Motorschraube_Oben_3",
+      "b": "Oben_feststehend_11",
+      "nominal_intersection_mm3": 0.0
+    },
+    {
+      "a": "P05_Motorschraube_Oben_3",
+      "b": "Oben_feststehend_10",
+      "nominal_intersection_mm3": 0.0
+    },
+    {
+      "a": "P05_Motorschraube_Oben_3",
+      "b": "P05_Motorscheibe_Oben_3",
+      "nominal_intersection_mm3": 0.0,
+      "bearing_contact": true
+    },
+    {
+      "a": "P05_Motorschraube_Unten_0",
+      "b": "Unten_feststehend_11",
+      "nominal_intersection_mm3": 0.0
+    },
+    {
+      "a": "P05_Motorschraube_Unten_0",
+      "b": "Unten_feststehend_10",
+      "nominal_intersection_mm3": 0.0
+    },
+    {
+      "a": "P05_Motorschraube_Unten_0",
+      "b": "P05_Motorscheibe_Unten_0",
+      "nominal_intersection_mm3": 0.0,
+      "bearing_contact": true
+    },
+    {
+      "a": "P05_Motorschraube_Unten_1",
+      "b": "Unten_feststehend_11",
+      "nominal_intersection_mm3": 0.0
+    },
+    {
+      "a": "P05_Motorschraube_Unten_1",
+      "b": "Unten_feststehend_10",
+      "nominal_intersection_mm3": 0.0
+    },
+    {
+      "a": "P05_Motorschraube_Unten_1",
+      "b": "P05_Motorscheibe_Unten_1",
+      "nominal_intersection_mm3": 0.0,
+      "bearing_contact": true
+    },
+    {
+      "a": "P05_Motorschraube_Unten_2",
+      "b": "Unten_feststehend_11",
+      "nominal_intersection_mm3": 0.0
+    },
+    {
+      "a": "P05_Motorschraube_Unten_2",
+      "b": "Unten_feststehend_10",
+      "nominal_intersection_mm3": 0.0
+    },
+    {
+      "a": "P05_Motorschraube_Unten_2",
+      "b": "P05_Motorscheibe_Unten_2",
+      "nominal_intersection_mm3": 0.0,
+      "bearing_contact": true
+    },
+    {
+      "a": "P05_Motorschraube_Unten_3",
+      "b": "Unten_feststehend_11",
+      "nominal_intersection_mm3": 0.0
+    },
+    {
+      "a": "P05_Motorschraube_Unten_3",
+      "b": "Unten_feststehend_10",
+      "nominal_intersection_mm3": 0.0
+    },
+    {
+      "a": "P05_Motorschraube_Unten_3",
+      "b": "P05_Motorscheibe_Unten_3",
+      "nominal_intersection_mm3": 0.0,
+      "bearing_contact": true
+    },
+    {
+      "a": "P05_Kontermutter_M5_Oben_",
+      "b": "Oben_feststehend_11",
+      "nominal_intersection_mm3": 0.0
+    },
+    {
+      "a": "P05_Kontermutter_M5_Oben_",
+      "b": "Oben_feststehend_13",
+      "nominal_intersection_mm3": 0.0
+    },
+    {
+      "a": "Oben_feststehend_13",
+      "b": "Oben_feststehend_11",
+      "nominal_intersection_mm3": 0.0
+    },
+    {
+      "a": "P05_Kontermutter_M5_Unten_",
+      "b": "Unten_feststehend_11",
+      "nominal_intersection_mm3": 0.0
+    },
+    {
+      "a": "P05_Kontermutter_M5_Unten_",
+      "b": "Unten_feststehend_13",
+      "nominal_intersection_mm3": 0.0
+    },
+    {
+      "a": "Unten_feststehend_13",
+      "b": "Unten_feststehend_11",
+      "nominal_intersection_mm3": 0.0
+    }
+  ],
+  "gear_period_checks": [
+    {
+      "rotor": 1,
+      "angle_deg": 0.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "rotor": 1,
+      "angle_deg": 0.34615384615384615,
+      "intersection_mm3": 0.0
+    },
+    {
+      "rotor": 1,
+      "angle_deg": 0.6923076923076923,
+      "intersection_mm3": 0.0
+    },
+    {
+      "rotor": 1,
+      "angle_deg": 1.0384615384615383,
+      "intersection_mm3": 0.0
+    },
+    {
+      "rotor": 1,
+      "angle_deg": 1.3846153846153846,
+      "intersection_mm3": 0.0
+    },
+    {
+      "rotor": 1,
+      "angle_deg": 1.7307692307692308,
+      "intersection_mm3": 0.0
+    },
+    {
+      "rotor": 1,
+      "angle_deg": 2.0769230769230766,
+      "intersection_mm3": 0.0
+    },
+    {
+      "rotor": 1,
+      "angle_deg": 2.423076923076923,
+      "intersection_mm3": 0.0
+    },
+    {
+      "rotor": -1,
+      "angle_deg": 0.0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "rotor": -1,
+      "angle_deg": 0.34615384615384615,
+      "intersection_mm3": 0.0
+    },
+    {
+      "rotor": -1,
+      "angle_deg": 0.6923076923076923,
+      "intersection_mm3": 0.0
+    },
+    {
+      "rotor": -1,
+      "angle_deg": 1.0384615384615383,
+      "intersection_mm3": 0.0
+    },
+    {
+      "rotor": -1,
+      "angle_deg": 1.3846153846153846,
+      "intersection_mm3": 0.0
+    },
+    {
+      "rotor": -1,
+      "angle_deg": 1.7307692307692308,
+      "intersection_mm3": 0.0
+    },
+    {
+      "rotor": -1,
+      "angle_deg": 2.0769230769230766,
+      "intersection_mm3": 0.0
+    },
+    {
+      "rotor": -1,
+      "angle_deg": 2.423076923076923,
+      "intersection_mm3": 0.0
+    }
+  ],
+  "native_reopen_pass": true,
+  "native_sha256": "a4fa0006bfe0f102a84bababff7613c467379d4e80b926c4572f5474452c096e",
+  "full_production_release": false,
+  "limitations": [
+    "Cosmetic/nominal M3/M5 thread interfaces, actual helical flanks not verified",
+    "Jam nut retention requires defined tightening/preload, thread condition, radial runout and endurance verification",
+    "External gear involute from FreeCAD; supplier tooth quality not certified",
+    "Other P04 servo/bearing/joint/clamp/assembly issues remain",
+    "Earlier flight and full mass budgets not silently recalculated"
+  ]
+}

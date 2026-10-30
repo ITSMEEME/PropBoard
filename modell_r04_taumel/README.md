@@ -4,6 +4,22 @@ Eigenständige Variante des R04-Testmodells: Der Pitch wird **je Rotor über ein
 
 **Entwurf, keine Freigabe.** Alle Zahlen sind Modellwerte (BEMT mit vereinfachter Polare, Gleichstrom-Motormodell) und müssen am Prüfstand bestätigt werden.
 
+## Aktueller Fertigungsstand P04
+
+Die bereitgestellte EMAX-Zeichnung bestätigt **4×M3 auf Lochkreis Ø16 mm**. Die widersprechende 16×16-mm-Textrecherche und ihre P03-Geometrien wurden verworfen. [Aktuelle P04-Baugruppe und Datenabgleich](fertigung_p04/README.md), [nur noch fehlende Anschlussdaten](fertigung_p04/Noch_benoetigte_Daten_P04.md). Die Gesamtkonstruktion ist weiterhin nicht fertigungsfreigegeben.
+
+## Kaufteile und Fertigungsstand P02
+
+Lager, EMAX-Motoren und Savöx-Servos werden als komplette Kaufteile verwendet. [P02-Integration und Status](fertigung_p02/README.md) enthält importierte und maßlich geprüfte Normschrauben/-muttern sowie eine weiterhin gesperrte Gesamtbaugruppe. [Liste der fehlenden Herstellerdaten](fertigung_p02/Herstellerdaten_Anforderung.md). Die damalige offene Lochbildfrage ist durch die spätere EMAX-Zeichnung im P04-Stand geklärt; andere Schnittstellen bleiben offen.
+
+## Bewegungsmodell M01 und gelieferte Servodaten
+
+Die [FreeCAD-Bewegungsbaugruppe](bewegung/README.md) ergänzt feste Servo-/Blattgestänge, Hörner, Wellen, Motorglocken und schematische Lagerinnenteile. [Daten-/Lastauswertung](messdaten/README.md) übernimmt deine Savöx-Spezifikation (69 g, 6,0–7,4 V) und unterscheidet sie von noch ungemessener Reibung/Dynamik. Das aktuelle Massenbudget mit sechs solchen Servos beträgt **1,578 kg ohne neue Halter/BEC**. [Berechnete Aerodynamik](aerodynamik/README.md) verwendet das echte CAD-Profil mit 0,6-mm-Hinterkante; keine empirische Validierung. Der KST X15-755X ist auf dem Bild als 760-µs-Version ausgewiesen und bleibt reine Geometrie-Vergleichsoption.
+
+## Geregelte Flugsimulation H01
+
+[H01-Flugsimulator öffnen](simulation/H01_Flugsimulator.html): Das aktuelle FreeCAD-Modell liefert Schwerpunkt, volle Trägheitsmatrix und die sichtbare Geometrie. Der Simulator ergänzt sechs Freiheitsgrade, dynamische Rotorströmung, zwei Motor-PIDs, sechs lastbegrenzte Servoregler und eine kaskadierte Flugregelung. [Physik, Testfälle und Grenzen](simulation/README.md). Numerische Flugversuche ersetzen keine Messung oder Flugfreigabe.
+
 ## Gemeinsam mit dem Servo-Modell
 
 Maßstab 1:4 (Flügelkreis Ø 375 mm, 8 Flügel je Ebene, Sehne 30 mm, NACA 0012, Ebenenabstand 60 mm), EMAX ECO II 2306 KV1900, SpeedyBee F405 V4 + BLS 55A (Bluejay), ELRS, Tattu 1550 mAh 6S, Druck auf 200 × 148 × 150 mm, PA-CF/PETG-CF für drehende Teile, Prüfstand draußen mit Schub- und Summenmoment-Wägezelle. Simulator und Antriebsmodell werden gemeinsam genutzt (`kreis_r04/simulation`, `modell_r04/auslegung/antrieb.js`).
@@ -40,3 +56,7 @@ Die **Cohexial Study, Fertigungsentwurf F01**, liegt unter [`cad/`](cad/README.m
 
 - [`cad/`](cad/README.md): parametrisches FreeCAD-Modell, STL-Dateien, Prüfbericht
 - [`auslegung/`](auslegung/): Nachrechnung der Betriebspunkte und der Steuerwirkung mit CAD-Masse
+
+## Motoranschluss P05
+
+[Bestätigte 9-mm-M5-/3-mm-M3-Anschlüsse und Montageentwurf](fertigung_p05/README.md). Native Baugruppe und STEP-Anschlussreferenzen inklusive Prüfbericht; Gesamtfreigabe weiterhin offen.

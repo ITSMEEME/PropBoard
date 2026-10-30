@@ -1,0 +1,100 @@
+{
+  "status": "NUMERICAL_VERIFICATION_NOT_EMPIRICAL_VALIDATION",
+  "results": [
+    {
+      "name": "Imported CAD source hash matches the native assembly",
+      "status": "PASS",
+      "evidence": {
+        "sha256": "b43829930ee3837fd754095bee623e5b3eb249709baea64e6189b3f03211182c"
+      }
+    },
+    {
+      "name": "CAD mass tensor positive definite, total budget and six servo locations",
+      "status": "PASS",
+      "evidence": {
+        "mass": 1.2176763200000005,
+        "cg": [
+          -1.6423061161985824e-10,
+          -0.00012487737417815392,
+          -0.03438665274167606
+        ],
+        "determinant": 3.552140087702138e-7
+      }
+    },
+    {
+      "name": "Independent Python closed-link geometry agrees with JavaScript",
+      "status": "PASS",
+      "evidence": {
+        "max_pose_mm_or_deg": 2.525268882891396e-11,
+        "max_pitch_rad": 4.821865129400749e-12,
+        "reference_states": 15
+      }
+    },
+    {
+      "name": "Unpowered free fall has correct gravity and no artificial lift",
+      "status": "PASS",
+      "evidence": {
+        "vertical_acceleration": -9.81
+      }
+    },
+    {
+      "name": "Motor torque conserves total angular momentum without external aero",
+      "status": "PASS",
+      "evidence": {
+        "world_angular_momentum_error_Nms": 0.000002327658909698516
+      }
+    },
+    {
+      "name": "PID saturation and recovery",
+      "status": "PASS",
+      "evidence": {
+        "integral": -0.001,
+        "recovery_output": -0.101
+      }
+    },
+    {
+      "name": "Actuator velocity and dead time remain bounded",
+      "status": "PASS",
+      "evidence": {
+        "speed_limit_rad_s": 8.73,
+        "delay_s": 0.012
+      }
+    },
+    {
+      "name": "Supplied Savox mass and geometric inertia profile",
+      "status": "PASS",
+      "evidence": {
+        "mass_kg": 1.5776763200000006,
+        "cg_m": [
+          -1.2675586637086132e-10,
+          -0.00009638239448286727,
+          -0.02654017952655968
+        ],
+        "inertia_diagonal": [
+          0.01390833862634075,
+          0.014559677411401437,
+          0.005676794792090922
+        ]
+      }
+    },
+    {
+      "name": "Time-step convergence 2.5 / 1.25 ms",
+      "status": "PASS",
+      "evidence": {
+        "final_position_difference_m": 0.00003838056081497986,
+        "dt_s": [
+          0.0025,
+          0.00125
+        ]
+      }
+    },
+    {
+      "name": "Blade-element quadrature convergence 10x16 / 20x32",
+      "status": "PASS",
+      "evidence": {
+        "final_position_difference_m": 0.0019589632064736413,
+        "hover_rpm_relative_difference": 0.00008271618767485833
+      }
+    }
+  ]
+}

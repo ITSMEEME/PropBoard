@@ -1,0 +1,42 @@
+{
+  "status": "USER_INPUT_APPLIED_GEOMETRY_TESTED_FULL_PRODUCTION_BLOCKED",
+  "motor_pitch_mm": [
+    16,
+    16
+  ],
+  "hole_diameter_mm": 3.4,
+  "legacy_pcd_mm": 16,
+  "legacy_square_pitch_mm": 11.31370849898476,
+  "hole_centres_mm": [
+    [
+      67.1,
+      -8
+    ],
+    [
+      67.1,
+      8
+    ],
+    [
+      83.1,
+      -8
+    ],
+    [
+      83.1,
+      8
+    ]
+  ],
+  "min_nominal_outer_pad_edge_distance_mm": 3.9862915010152387,
+  "source_class": "USER_RESEARCH_WITHOUT_PRIMARY_DRAWING",
+  "legacy_default_preserved": true,
+  "legacy_and_revised_probe_checks_pass": true,
+  "plate_volume_change_mm3": 0.0,
+  "parameter_edit_16_to17_to16_pass": true,
+  "native_assembly_reopen_pass": true,
+  "plates_replaced": [
+    "Oben_feststehend_10",
+    "Unten_feststehend_10"
+  ],
+  "native_sha256": "2481a32d7f98c5af682226da2bee2082ce5befcbba2be6188836eba2ba3d8dee",
+  "full_production_release": false,
+  "open": "Motor mounting datum/pilot, screw depth, shaft/pinion retention and all other P02 interface blockers remain"
+}

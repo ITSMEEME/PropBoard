@@ -66,7 +66,7 @@
           const up = e.v0 + v, ut = omega * r + e.wt - w;
           const phi = Math.atan2(up, ut), vrel2 = up * up + ut * ut;
           const alpha = theta - phi, re = Math.sqrt(vrel2) * c / nu;
-          const pol = polar(alpha / DEG, re, p.thickness);
+          const pol = p.polarFunction ? p.polarFunction(alpha / DEG, re, p.thickness) : polar(alpha / DEG, re, p.thickness);
           const F = Math.max(0.05, prandtl(B, rOut - r, r, phi) * prandtl(B, r - rIn, r, phi));
           const q = 0.5 * rho * vrel2 * B * c;
           const dTbe = q * (pol.cl * Math.cos(phi) - pol.cd * Math.sin(phi));

@@ -1,0 +1,2362 @@
+{
+  "status": "UNVALIDATED_MODEL_TESTS_NOT_FLIGHT_CLEARANCE",
+  "cad_sha256": "b43829930ee3837fd754095bee623e5b3eb249709baea64e6189b3f03211182c",
+  "results": [
+    {
+      "name": "Schweben",
+      "status": "STABIL_IM_MODELL",
+      "duration_s": 20.000000000001005,
+      "mass_kg": 1.2836763200000005,
+      "hover_rpm": 2419.2415690181156,
+      "options": {
+        "dt": 0.0025,
+        "servoMassG": 20,
+        "servoStallNm": 0.6865,
+        "servoSpeedRadS": 8.73,
+        "servoFriction": 0.03,
+        "servoDelay": 0.012,
+        "cyclicPhaseDeg": 0,
+        "thrustScale": 1,
+        "dragArea": 0.025,
+        "initialSoc": 0.8,
+        "controller": true,
+        "seed": 17,
+        "noise": true,
+        "radial": 10,
+        "azimuths": 16,
+        "inflowTau": 0.08,
+        "wind": [
+          0,
+          0,
+          0
+        ],
+        "motorCurrentLimit": 46,
+        "servoJammed": -1,
+        "motorScale": [
+          1,
+          1
+        ],
+        "servoGeometryProfile": "H01_PLACEHOLDER",
+        "servoSupplyV": null,
+        "servoTorqueReference": "ASSUMED_STALL_MODEL",
+        "polarSource": "SIMPLIFIED"
+      },
+      "position_rms_last5s_m": 0.0003220741823301531,
+      "final_position_error_m": 0.0003245700849853214,
+      "max_position_error_m": 0.06903741855551183,
+      "max_tilt_deg": 0.15710677464493056,
+      "min_bus_V": 23.523926088529,
+      "max_bus_current_A": 7.212878757401337,
+      "max_servo_load_Nm": 0.07299835985579087,
+      "max_duty": 0.3739773854200386,
+      "max_link_closure_mm": 7.989342520886566e-11,
+      "kinematic_envelope_violations": 0,
+      "min_blade_pitch_deg": 13.167154405608613,
+      "max_blade_pitch_deg": 18.06137315595797,
+      "max_cyclic_deg": 0.021258610861386276,
+      "saturation_events": 0,
+      "final": {
+        "t": 20.000000000001005,
+        "p": [
+          -0.00008599241874587631,
+          0.00016798125994088508,
+          1.0002640707107846
+        ],
+        "v": [
+          0.000005174571825615706,
+          0.0006367586601629419,
+          -0.00008613566599232588
+        ],
+        "euler": [
+          0.004927347226442459,
+          0.0018888679058313986,
+          -0.005167573980692795
+        ],
+        "omega": [
+          0.0009114789860515221,
+          -0.00022547621819530753,
+          -0.0010690960929895619
+        ],
+        "rpm": [
+          2419.2521539336853,
+          2419.2614413095544
+        ],
+        "rpmTarget": 2419.2415690181156,
+        "servoDeg": [
+          -0.6166310934476154,
+          -0.6095302138359799,
+          -0.5980505051108194,
+          0.4733907339481502,
+          0.47852718376004216,
+          0.4808099202177501
+        ],
+        "servoCommandDeg": [
+          -0.6164505035509288,
+          -0.6117436157511915,
+          -0.5940628626452404,
+          0.47252393028355194,
+          0.4804423124099324,
+          0.481428089351063
+        ],
+        "servoLoadNm": [
+          0.0621233626590568,
+          0.06375949209218877,
+          0.0634895992641101,
+          0.07150129067834206,
+          0.071845768761514,
+          0.0699646400302638
+        ],
+        "duty": [
+          0.37383245278561206,
+          0.3738317186126004
+        ],
+        "bus": 23.523926088529,
+        "current": 6.8253640722138655,
+        "soc": 0.7755831568446206,
+        "thrust": [
+          7.7605369881524435,
+          4.831310165646393
+        ],
+        "polarFallbackFraction": 0,
+        "target": [
+          0,
+          0,
+          1
+        ],
+        "crashed": false
+      }
+    },
+    {
+      "name": "Versetztes_Schweben",
+      "status": "STABIL_IM_MODELL",
+      "duration_s": 25.000000000003563,
+      "mass_kg": 1.2836763200000005,
+      "hover_rpm": 2419.2415690181156,
+      "options": {
+        "dt": 0.0025,
+        "servoMassG": 20,
+        "servoStallNm": 0.6865,
+        "servoSpeedRadS": 8.73,
+        "servoFriction": 0.03,
+        "servoDelay": 0.012,
+        "cyclicPhaseDeg": 0,
+        "thrustScale": 1,
+        "dragArea": 0.025,
+        "initialSoc": 0.8,
+        "controller": true,
+        "seed": 17,
+        "noise": true,
+        "radial": 10,
+        "azimuths": 16,
+        "inflowTau": 0.08,
+        "wind": [
+          0,
+          0,
+          0
+        ],
+        "motorCurrentLimit": 46,
+        "servoJammed": -1,
+        "motorScale": [
+          1,
+          1
+        ],
+        "servoGeometryProfile": "H01_PLACEHOLDER",
+        "servoSupplyV": null,
+        "servoTorqueReference": "ASSUMED_STALL_MODEL",
+        "polarSource": "SIMPLIFIED"
+      },
+      "position_rms_last5s_m": 0.0003785958605734218,
+      "final_position_error_m": 0.0002538560279311856,
+      "max_position_error_m": 0.5155715812190353,
+      "max_tilt_deg": 9.999856037584394,
+      "min_bus_V": 23.494164985032405,
+      "max_bus_current_A": 7.0235879682094735,
+      "max_servo_load_Nm": 0.07299835985579087,
+      "max_duty": 0.37430789425307176,
+      "max_link_closure_mm": 8.493177716673017e-9,
+      "kinematic_envelope_violations": 0,
+      "min_blade_pitch_deg": 12.923757036444405,
+      "max_blade_pitch_deg": 17.90518079365014,
+      "max_cyclic_deg": 0.36010604027753507,
+      "saturation_events": 0,
+      "final": {
+        "t": 25.000000000003563,
+        "p": [
+          0.00010449563196548875,
+          -0.00012150431813671117,
+          1.0001968762212439
+        ],
+        "v": [
+          0.0001692310286459838,
+          -0.00021477037496617013,
+          0.00014203759507896388
+        ],
+        "euler": [
+          0.00018873196791767467,
+          0.004953063849180324,
+          0.001366862494493514
+        ],
+        "omega": [
+          0.00015541635909392844,
+          -0.00008072566426165843,
+          0.00033792659013168197
+        ],
+        "rpm": [
+          2419.2519583379258,
+          2419.2626839587433
+        ],
+        "rpmTarget": 2419.2415690181156,
+        "servoDeg": [
+          -0.6158435207647065,
+          -0.6090345663676457,
+          -0.5970724786435265,
+          0.4725435104523911,
+          0.4778920060067363,
+          0.48002794216362354
+        ],
+        "servoCommandDeg": [
+          -0.6157322876030258,
+          -0.6106445294914272,
+          -0.5963941769440597,
+          0.47204704644434464,
+          0.4783828850218851,
+          0.4796903735998708
+        ],
+        "servoLoadNm": [
+          0.06212411010410391,
+          0.06376025922253284,
+          0.06349036314720467,
+          0.07149985450501445,
+          0.0718443256690073,
+          0.06996323472206678
+        ],
+        "duty": [
+          0.37430789425307176,
+          0.37430631928504404
+        ],
+        "bus": 23.494164985032405,
+        "current": 6.834472310962257,
+        "soc": 0.7694493371096182,
+        "thrust": [
+          7.761507030031104,
+          4.829653705077373
+        ],
+        "polarFallbackFraction": 0,
+        "target": [
+          0,
+          0,
+          1
+        ],
+        "crashed": false
+      }
+    },
+    {
+      "name": "Steigen_und_Translation",
+      "status": "STABIL_IM_MODELL",
+      "duration_s": 28.000000000005098,
+      "mass_kg": 1.2836763200000005,
+      "hover_rpm": 2419.2415690181156,
+      "options": {
+        "dt": 0.0025,
+        "servoMassG": 20,
+        "servoStallNm": 0.6865,
+        "servoSpeedRadS": 8.73,
+        "servoFriction": 0.03,
+        "servoDelay": 0.012,
+        "cyclicPhaseDeg": 0,
+        "thrustScale": 1,
+        "dragArea": 0.025,
+        "initialSoc": 0.8,
+        "controller": true,
+        "seed": 17,
+        "noise": true,
+        "radial": 10,
+        "azimuths": 16,
+        "inflowTau": 0.08,
+        "wind": [
+          0,
+          0,
+          0
+        ],
+        "motorCurrentLimit": 46,
+        "servoJammed": -1,
+        "motorScale": [
+          1,
+          1
+        ],
+        "servoGeometryProfile": "H01_PLACEHOLDER",
+        "servoSupplyV": null,
+        "servoTorqueReference": "ASSUMED_STALL_MODEL",
+        "polarSource": "SIMPLIFIED"
+      },
+      "position_rms_last5s_m": 0.0005175330916500599,
+      "final_position_error_m": 0.00044878258031254975,
+      "max_position_error_m": 0.7425787239027131,
+      "max_tilt_deg": 4.802193779692447,
+      "min_bus_V": 23.476283513938842,
+      "max_bus_current_A": 7.362305112526768,
+      "max_servo_load_Nm": 0.07299835985579087,
+      "max_duty": 0.37459266325184465,
+      "max_link_closure_mm": 8.53297521530294e-9,
+      "kinematic_envelope_violations": 0,
+      "min_blade_pitch_deg": 13.079603331844776,
+      "max_blade_pitch_deg": 18.365386049029944,
+      "max_cyclic_deg": 0.18206237681040785,
+      "saturation_events": 0,
+      "final": {
+        "t": 28.000000000005098,
+        "p": [
+          0.4999823372547787,
+          -0.3001883221010833,
+          1.5004069749599998
+        ],
+        "v": [
+          -0.00025755260553739917,
+          -0.00012196686527107081,
+          0.00007871637774403939
+        ],
+        "euler": [
+          -0.0013119056819120311,
+          0.0023838894814858396,
+          20.053576785001724
+        ],
+        "omega": [
+          0.000769213837253858,
+          -0.0002745460796499479,
+          0.00024044430879611891
+        ],
+        "rpm": [
+          2419.2474234441943,
+          2419.255420475051
+        ],
+        "rpmTarget": 2419.2415690181156,
+        "servoDeg": [
+          -0.6160893144829219,
+          -0.6090368337530782,
+          -0.5952423270287763,
+          0.472284256966065,
+          0.4784939031143572,
+          0.48065107228265047
+        ],
+        "servoCommandDeg": [
+          -0.6190165997086194,
+          -0.60654142366051,
+          -0.5930817377661568,
+          0.47127245508818827,
+          0.47758747001913315,
+          0.4820330075879734
+        ],
+        "servoLoadNm": [
+          0.062124702927451536,
+          0.06376086765893949,
+          0.06349096900811052,
+          0.07149976164847813,
+          0.07184423236510784,
+          0.0699631438611316
+        ],
+        "duty": [
+          0.37459266325184465,
+          0.3745912724848571
+        ],
+        "bus": 23.476283513938842,
+        "current": 6.839843676937391,
+        "soc": 0.7657631944355022,
+        "thrust": [
+          7.762637452363106,
+          4.830001517141236
+        ],
+        "polarFallbackFraction": 0,
+        "target": [
+          0.5,
+          -0.3,
+          1.5
+        ],
+        "crashed": false
+      }
+    },
+    {
+      "name": "Motor_Drehzahlsprung_10Prozent",
+      "status": "STABIL_IM_MODELL",
+      "duration_s": 22.00000000000203,
+      "mass_kg": 1.2836763200000005,
+      "hover_rpm": 2419.2415690181156,
+      "options": {
+        "dt": 0.0025,
+        "servoMassG": 20,
+        "servoStallNm": 0.6865,
+        "servoSpeedRadS": 8.73,
+        "servoFriction": 0.03,
+        "servoDelay": 0.012,
+        "cyclicPhaseDeg": 0,
+        "thrustScale": 1,
+        "dragArea": 0.025,
+        "initialSoc": 0.8,
+        "controller": true,
+        "seed": 17,
+        "noise": true,
+        "radial": 10,
+        "azimuths": 16,
+        "inflowTau": 0.08,
+        "wind": [
+          0,
+          0,
+          0
+        ],
+        "motorCurrentLimit": 46,
+        "servoJammed": -1,
+        "motorScale": [
+          1,
+          1
+        ],
+        "servoGeometryProfile": "H01_PLACEHOLDER",
+        "servoSupplyV": null,
+        "servoTorqueReference": "ASSUMED_STALL_MODEL",
+        "polarSource": "SIMPLIFIED"
+      },
+      "position_rms_last5s_m": 0.018756283950548954,
+      "final_position_error_m": 0.00853436140783051,
+      "max_position_error_m": 0.6781265990983089,
+      "max_tilt_deg": 0.15710677464490438,
+      "min_bus_V": 23.16229780036975,
+      "max_bus_current_A": 19.837319952321177,
+      "max_servo_load_Nm": 0.08896943736914255,
+      "max_duty": 0.41675365844389334,
+      "max_link_closure_mm": 7.989342520886566e-11,
+      "kinematic_envelope_violations": 0,
+      "min_blade_pitch_deg": 10.633309890719964,
+      "max_blade_pitch_deg": 18.06137315595801,
+      "max_cyclic_deg": 0.02125861086139639,
+      "saturation_events": 0,
+      "final": {
+        "t": 22.00000000000203,
+        "p": [
+          -0.00017248198358667293,
+          0.00006005909427021354,
+          1.008532406900166
+        ],
+        "v": [
+          -0.00046721578714481763,
+          0.00004984104905659911,
+          0.0014428048624885125
+        ],
+        "euler": [
+          -0.002366797158643853,
+          0.0029583939987432952,
+          0.023103913266431474
+        ],
+        "omega": [
+          0.00032441697415440943,
+          0.0007866994030357636,
+          -0.0004241010561856744
+        ],
+        "rpm": [
+          2661.161284035597,
+          2661.1709851203364
+        ],
+        "rpmTarget": 2661.1657259199274,
+        "servoDeg": [
+          -2.6396989424784367,
+          -2.6354870315788546,
+          -2.6231391036748795,
+          -0.9635085092704992,
+          -0.9578320316887231,
+          -0.9567164063549959
+        ],
+        "servoCommandDeg": [
+          -2.637552876994027,
+          -2.6334774446355693,
+          -2.623383653082848,
+          -0.9619574196072698,
+          -0.9573398034502354,
+          -0.9561753302392663
+        ],
+        "servoLoadNm": [
+          0.07299422199050845,
+          0.0749166548713987,
+          0.07459953396610353,
+          0.08635735396203564,
+          0.08677340541339292,
+          0.08450142824834386
+        ],
+        "duty": [
+          0.4058353552601859,
+          0.4058342617365695
+        ],
+        "bus": 23.532478377711026,
+        "current": 6.405421135280582,
+        "soc": 0.7743029879888816,
+        "thrust": [
+          6.904722809472395,
+          5.6847606392934305
+        ],
+        "polarFallbackFraction": 0,
+        "target": [
+          0,
+          0,
+          1
+        ],
+        "crashed": false
+      }
+    },
+    {
+      "name": "Boee_3ms",
+      "status": "STABIL_IM_MODELL",
+      "duration_s": 24.000000000003052,
+      "mass_kg": 1.2836763200000005,
+      "hover_rpm": 2419.2415690181156,
+      "options": {
+        "dt": 0.0025,
+        "servoMassG": 20,
+        "servoStallNm": 0.6865,
+        "servoSpeedRadS": 8.73,
+        "servoFriction": 0.03,
+        "servoDelay": 0.012,
+        "cyclicPhaseDeg": 0,
+        "thrustScale": 1,
+        "dragArea": 0.025,
+        "initialSoc": 0.8,
+        "controller": true,
+        "seed": 17,
+        "noise": true,
+        "radial": 10,
+        "azimuths": 16,
+        "inflowTau": 0.08,
+        "wind": [
+          0,
+          0,
+          0
+        ],
+        "motorCurrentLimit": 46,
+        "servoJammed": -1,
+        "motorScale": [
+          1,
+          1
+        ],
+        "servoGeometryProfile": "H01_PLACEHOLDER",
+        "servoSupplyV": null,
+        "servoTorqueReference": "ASSUMED_STALL_MODEL",
+        "polarSource": "SIMPLIFIED"
+      },
+      "position_rms_last5s_m": 0.02194212203363262,
+      "final_position_error_m": 0.008322078233542186,
+      "max_position_error_m": 0.43791425572477827,
+      "max_tilt_deg": 6.825559158530761,
+      "min_bus_V": 23.500270901242818,
+      "max_bus_current_A": 7.212878757401337,
+      "max_servo_load_Nm": 0.07299835985579087,
+      "max_duty": 0.3742114273902146,
+      "max_link_closure_mm": 4.678707199445853e-9,
+      "kinematic_envelope_violations": 0,
+      "min_blade_pitch_deg": 12.923258215275709,
+      "max_blade_pitch_deg": 18.06137315595797,
+      "max_cyclic_deg": 0.34191783744852405,
+      "saturation_events": 0,
+      "final": {
+        "t": 24.000000000003052,
+        "p": [
+          0.004466086720762224,
+          -0.007022040862782114,
+          0.9999553049304043
+        ],
+        "v": [
+          -0.0010597806748938862,
+          0.003317030047198711,
+          0.0002700820966816172
+        ],
+        "euler": [
+          0.013919358452927213,
+          0.0017341488888617462,
+          -0.005285893192820279
+        ],
+        "omega": [
+          0.00046869068256784953,
+          0.00019200322849110654,
+          0.0005044059230426083
+        ],
+        "rpm": [
+          2419.2369719967924,
+          2419.2350600187174
+        ],
+        "rpmTarget": 2419.2415690181156,
+        "servoDeg": [
+          -0.614631341669468,
+          -0.6075757585111484,
+          -0.5949598245195002,
+          0.4733300421801905,
+          0.47899545317092085,
+          0.4812058399171575
+        ],
+        "servoCommandDeg": [
+          -0.614244237658449,
+          -0.6090531344733825,
+          -0.5941545636876031,
+          0.472520869416918,
+          0.4791643516495487,
+          0.480484724831343
+        ],
+        "servoLoadNm": [
+          0.06212530907915345,
+          0.06376148977472637,
+          0.06349158849049204,
+          0.07149830556064984,
+          0.07184276926215662,
+          0.06996171906642101
+        ],
+        "duty": [
+          0.3742114273902146,
+          0.374210286891473
+        ],
+        "bus": 23.500270901242818,
+        "current": 6.83393730143667,
+        "soc": 0.7707175021153636,
+        "thrust": [
+          7.763768716635676,
+          4.829684481117211
+        ],
+        "polarFallbackFraction": 0,
+        "target": [
+          0,
+          0,
+          1
+        ],
+        "crashed": false
+      }
+    },
+    {
+      "name": "Massenvariante_60g_Servos",
+      "status": "STABIL_IM_MODELL",
+      "duration_s": 20.000000000001005,
+      "mass_kg": 1.5236763200000005,
+      "hover_rpm": 2635.6930917318373,
+      "options": {
+        "dt": 0.0025,
+        "servoMassG": 60,
+        "servoStallNm": 1.471,
+        "servoSpeedRadS": 8.73,
+        "servoFriction": 0.03,
+        "servoDelay": 0.012,
+        "cyclicPhaseDeg": 0,
+        "thrustScale": 1,
+        "dragArea": 0.025,
+        "initialSoc": 0.8,
+        "controller": true,
+        "seed": 17,
+        "noise": true,
+        "radial": 10,
+        "azimuths": 16,
+        "inflowTau": 0.08,
+        "wind": [
+          0,
+          0,
+          0
+        ],
+        "motorCurrentLimit": 46,
+        "servoJammed": -1,
+        "motorScale": [
+          1,
+          1
+        ],
+        "servoGeometryProfile": "H01_PLACEHOLDER",
+        "servoSupplyV": null,
+        "servoTorqueReference": "ASSUMED_STALL_MODEL",
+        "polarSource": "SIMPLIFIED"
+      },
+      "position_rms_last5s_m": 0.00034769878699167643,
+      "final_position_error_m": 0.00032315209422141875,
+      "max_position_error_m": 0.0696180367638607,
+      "max_tilt_deg": 0.16393457647645884,
+      "min_bus_V": 23.428621766660378,
+      "max_bus_current_A": 9.106316128095413,
+      "max_servo_load_Nm": 0.08553793724124373,
+      "max_duty": 0.41057817893826476,
+      "max_link_closure_mm": 6.16822148913343e-11,
+      "kinematic_envelope_violations": 0,
+      "min_blade_pitch_deg": 13.164901968457984,
+      "max_blade_pitch_deg": 17.986592748621995,
+      "max_cyclic_deg": 0.016033015864196008,
+      "saturation_events": 0,
+      "final": {
+        "t": 20.000000000001005,
+        "p": [
+          -0.00006671331939778111,
+          0.0001487647888164825,
+          1.000279008327157
+        ],
+        "v": [
+          0.000038474826127261785,
+          0.0007679855195724935,
+          -0.00008437069451106553
+        ],
+        "euler": [
+          0.0033518912150684436,
+          0.0008635671772618154,
+          -0.005938210101050186
+        ],
+        "omega": [
+          0.0009982828913063986,
+          -0.00026019050373426387,
+          -0.0005985008917343424
+        ],
+        "rpm": [
+          2635.706225905539,
+          2635.7170456277695
+        ],
+        "rpmTarget": 2635.6930917318373,
+        "servoDeg": [
+          -0.6158450267816137,
+          -0.6100450224084837,
+          -0.6003585775530236,
+          0.47462096376029045,
+          0.4788065644256652,
+          0.48083432199336174
+        ],
+        "servoCommandDeg": [
+          -0.6155530034430388,
+          -0.611718639393936,
+          -0.5968324266182131,
+          0.4738497701021995,
+          0.48036664677791413,
+          0.4813826250223608
+        ],
+        "servoLoadNm": [
+          0.07373689883545242,
+          0.0756788914341897,
+          0.07535854399469785,
+          0.08486880473448064,
+          0.08527768467075404,
+          0.08304486977387202
+        ],
+        "duty": [
+          0.41057817893826476,
+          0.4105770815618544
+        ],
+        "bus": 23.428621766660378,
+        "current": 8.654025185319092,
+        "soc": 0.7690612577791035,
+        "thrust": [
+          9.211027907086928,
+          5.734941052388691
+        ],
+        "polarFallbackFraction": 0,
+        "target": [
+          0,
+          0,
+          1
+        ],
+        "crashed": false
+      }
+    },
+    {
+      "name": "Reibung_hoch_starkes_Servo",
+      "status": "STABIL_IM_MODELL",
+      "duration_s": 20.000000000001005,
+      "mass_kg": 1.2836763200000005,
+      "hover_rpm": 2419.2415690181156,
+      "options": {
+        "dt": 0.0025,
+        "servoMassG": 20,
+        "servoStallNm": 1.471,
+        "servoSpeedRadS": 8.73,
+        "servoFriction": 0.2,
+        "servoDelay": 0.012,
+        "cyclicPhaseDeg": 0,
+        "thrustScale": 1,
+        "dragArea": 0.025,
+        "initialSoc": 0.8,
+        "controller": true,
+        "seed": 17,
+        "noise": true,
+        "radial": 10,
+        "azimuths": 16,
+        "inflowTau": 0.08,
+        "wind": [
+          0,
+          0,
+          0
+        ],
+        "motorCurrentLimit": 46,
+        "servoJammed": -1,
+        "motorScale": [
+          1,
+          1
+        ],
+        "servoGeometryProfile": "H01_PLACEHOLDER",
+        "servoSupplyV": null,
+        "servoTorqueReference": "ASSUMED_STALL_MODEL",
+        "polarSource": "SIMPLIFIED"
+      },
+      "position_rms_last5s_m": 0.0003220741456849408,
+      "final_position_error_m": 0.00032457012504846127,
+      "max_position_error_m": 0.06903743427088085,
+      "max_tilt_deg": 0.15710750240716334,
+      "min_bus_V": 23.5239199188372,
+      "max_bus_current_A": 7.214239141350701,
+      "max_servo_load_Nm": 0.2749065181983759,
+      "max_duty": 0.373990274368507,
+      "max_link_closure_mm": 7.989342520886566e-11,
+      "kinematic_envelope_violations": 0,
+      "min_blade_pitch_deg": 13.167154312395459,
+      "max_blade_pitch_deg": 18.061376992645606,
+      "max_cyclic_deg": 0.021258646413060505,
+      "saturation_events": 0,
+      "final": {
+        "t": 20.000000000001005,
+        "p": [
+          -0.00008599239901353932,
+          0.0001679812668776211,
+          1.0002640707620394
+        ],
+        "v": [
+          0.0000051745593603538424,
+          0.0006367586514612173,
+          -0.00008613557890817113
+        ],
+        "euler": [
+          0.00492734577776665,
+          0.001888867914996994,
+          -0.005167583907715782
+        ],
+        "omega": [
+          0.0009114789491423979,
+          -0.00022547620919733806,
+          -0.0010691064589352388
+        ],
+        "rpm": [
+          2419.2521540146035,
+          2419.2614411409413
+        ],
+        "rpmTarget": 2419.2415690181156,
+        "servoDeg": [
+          -0.6166310945171963,
+          -0.6095302148272977,
+          -0.5980505059343609,
+          0.4733907350034712,
+          0.4785271848962376,
+          0.48080992137857126
+        ],
+        "servoCommandDeg": [
+          -0.6164505056014167,
+          -0.6117436178359897,
+          -0.5940628647816947,
+          0.472523933589819,
+          0.48044231568740076,
+          0.4814280926156935
+        ],
+        "servoLoadNm": [
+          0.24103377422264124,
+          0.24738182808683526,
+          0.24633466508401378,
+          0.27244493939329023,
+          0.2737575214404353,
+          0.26658976267252715
+        ],
+        "duty": [
+          0.3738325431348392,
+          0.37383180888329876
+        ],
+        "bus": 23.5239199188372,
+        "current": 6.825451876147213,
+        "soc": 0.7755825116898382,
+        "thrust": [
+          7.760536987349273,
+          4.831310165999009
+        ],
+        "polarFallbackFraction": 0,
+        "target": [
+          0,
+          0,
+          1
+        ],
+        "crashed": false
+      }
+    },
+    {
+      "name": "9g_Servo_hohe_Reibung",
+      "status": "ABSTURZ_IM_MODELL",
+      "duration_s": 8.65750000000042,
+      "mass_kg": 1.2176763200000005,
+      "hover_rpm": 2356.2335423904283,
+      "options": {
+        "dt": 0.0025,
+        "servoMassG": 9,
+        "servoStallNm": 0.1569,
+        "servoSpeedRadS": 8.73,
+        "servoFriction": 0.2,
+        "servoDelay": 0.012,
+        "cyclicPhaseDeg": 0,
+        "thrustScale": 1,
+        "dragArea": 0.025,
+        "initialSoc": 0.8,
+        "controller": true,
+        "seed": 17,
+        "noise": true,
+        "radial": 10,
+        "azimuths": 16,
+        "inflowTau": 0.08,
+        "wind": [
+          0,
+          0,
+          0
+        ],
+        "motorCurrentLimit": 46,
+        "servoJammed": -1,
+        "motorScale": [
+          1,
+          1
+        ],
+        "servoGeometryProfile": "H01_PLACEHOLDER",
+        "servoSupplyV": null,
+        "servoTorqueReference": "ASSUMED_STALL_MODEL",
+        "polarSource": "SIMPLIFIED"
+      },
+      "position_rms_last5s_m": null,
+      "final_position_error_m": 13.659762246671212,
+      "max_position_error_m": 13.659762246671212,
+      "max_tilt_deg": 55.21564667314603,
+      "min_bus_V": 23.622033450884835,
+      "max_bus_current_A": 6.221866057490259,
+      "max_servo_load_Nm": 0.26152345639609625,
+      "max_duty": 0.363517660789563,
+      "max_link_closure_mm": 0,
+      "kinematic_envelope_violations": 0,
+      "min_blade_pitch_deg": 14,
+      "max_blade_pitch_deg": 16.69999999999999,
+      "max_cyclic_deg": 3.0303191209571215e-15,
+      "saturation_events": 21027,
+      "final": {
+        "t": 8.65750000000042,
+        "p": [
+          12.483704465542601,
+          -5.483309144207805,
+          0.17565281487533638
+        ],
+        "v": [
+          8.697798418604007,
+          3.8968902392626643,
+          -3.4861448037752343
+        ],
+        "euler": [
+          47.839192633337376,
+          24.56928950367564,
+          151.48239521078827
+        ],
+        "omega": [
+          -0.5131745919809622,
+          1.129029959318908,
+          -9.257920891619161
+        ],
+        "rpm": [
+          2354.1912450159375,
+          2353.8995116935007
+        ],
+        "rpmTarget": 2356.2335423904283,
+        "servoDeg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "servoCommandDeg": [
+          3.998272916975388,
+          2.565779728567608,
+          3.5603948803138317,
+          2.845444297059244,
+          3.2364475057509234,
+          2.58730093370563
+        ],
+        "servoLoadNm": [
+          0.22792477207237657,
+          0.23392757701025685,
+          0.23293736561971434,
+          0.2593709095921293,
+          0.26062050373118895,
+          0.2537967098464159
+        ],
+        "duty": [
+          0.36092880831113655,
+          0.36109611066320424
+        ],
+        "bus": 23.622033450884835,
+        "current": 6.068908030239394,
+        "soc": 0.7905067042766859,
+        "thrust": [
+          6.972352241737766,
+          6.04172318396645
+        ],
+        "polarFallbackFraction": 0,
+        "target": [
+          0,
+          0,
+          1
+        ],
+        "crashed": true
+      }
+    },
+    {
+      "name": "Phase_30_Grad_falsch",
+      "status": "STABIL_IM_MODELL",
+      "duration_s": 20.000000000001005,
+      "mass_kg": 1.2836763200000005,
+      "hover_rpm": 2419.2415690181156,
+      "options": {
+        "dt": 0.0025,
+        "servoMassG": 20,
+        "servoStallNm": 0.6865,
+        "servoSpeedRadS": 8.73,
+        "servoFriction": 0.03,
+        "servoDelay": 0.012,
+        "cyclicPhaseDeg": 30,
+        "thrustScale": 1,
+        "dragArea": 0.025,
+        "initialSoc": 0.8,
+        "controller": true,
+        "seed": 17,
+        "noise": true,
+        "radial": 10,
+        "azimuths": 16,
+        "inflowTau": 0.08,
+        "wind": [
+          0,
+          0,
+          0
+        ],
+        "motorCurrentLimit": 46,
+        "servoJammed": -1,
+        "motorScale": [
+          1,
+          1
+        ],
+        "servoGeometryProfile": "H01_PLACEHOLDER",
+        "servoSupplyV": null,
+        "servoTorqueReference": "ASSUMED_STALL_MODEL",
+        "polarSource": "SIMPLIFIED"
+      },
+      "position_rms_last5s_m": 0.0009144899254537121,
+      "final_position_error_m": 0.0004987417861942673,
+      "max_position_error_m": 0.2493241285488134,
+      "max_tilt_deg": 9.999856037584392,
+      "min_bus_V": 23.523842651745515,
+      "max_bus_current_A": 7.286974801462156,
+      "max_servo_load_Nm": 0.07299835985579087,
+      "max_duty": 0.3739772673200033,
+      "max_link_closure_mm": 9.948596613185146e-9,
+      "kinematic_envelope_violations": 0,
+      "min_blade_pitch_deg": 13.133080703686458,
+      "max_blade_pitch_deg": 18.275919948242063,
+      "max_cyclic_deg": 0.3220995968250474,
+      "saturation_events": 0,
+      "final": {
+        "t": 20.000000000001005,
+        "p": [
+          -0.0004119979929624606,
+          -0.00011197218149497992,
+          1.0002578046812267
+        ],
+        "v": [
+          0.00030123247554443626,
+          0.0006243402526623029,
+          -0.00008169442004854844
+        ],
+        "euler": [
+          0.006396269372306816,
+          0.005735375458160363,
+          -0.0049690643029094905
+        ],
+        "omega": [
+          0.0009216935169286071,
+          -0.00028284643190151424,
+          -0.0011008004010265259
+        ],
+        "rpm": [
+          2419.252229243234,
+          2419.261028814508
+        ],
+        "rpmTarget": 2419.2415690181156,
+        "servoDeg": [
+          -0.619185541058082,
+          -0.6042069261113068,
+          -0.6008281425018014,
+          0.4744395953221656,
+          0.47616523797070165,
+          0.4821392711911148
+        ],
+        "servoCommandDeg": [
+          -0.6190009582157153,
+          -0.6063182030285472,
+          -0.596939743585581,
+          0.4736216513897987,
+          0.47803992892230074,
+          0.4827644706491335
+        ],
+        "servoLoadNm": [
+          0.062123361039518585,
+          0.06375949042999715,
+          0.06348959760895449,
+          0.07150127310637269,
+          0.07184575110488658,
+          0.06996462283593766
+        ],
+        "duty": [
+          0.3738337754115175,
+          0.37383302580141736
+        ],
+        "bus": 23.523842651745515,
+        "current": 6.825391962949126,
+        "soc": 0.7755659775388435,
+        "thrust": [
+          7.760530880411896,
+          4.8313158165198065
+        ],
+        "polarFallbackFraction": 0,
+        "target": [
+          0,
+          0,
+          1
+        ],
+        "crashed": false
+      }
+    },
+    {
+      "name": "Phase_90_Grad_falsch",
+      "status": "ABSTURZ_IM_MODELL",
+      "duration_s": 2.172499999999965,
+      "mass_kg": 1.2836763200000005,
+      "hover_rpm": 2419.2415690181156,
+      "options": {
+        "dt": 0.0025,
+        "servoMassG": 20,
+        "servoStallNm": 0.6865,
+        "servoSpeedRadS": 8.73,
+        "servoFriction": 0.03,
+        "servoDelay": 0.012,
+        "cyclicPhaseDeg": 90,
+        "thrustScale": 1,
+        "dragArea": 0.025,
+        "initialSoc": 0.8,
+        "controller": true,
+        "seed": 17,
+        "noise": true,
+        "radial": 10,
+        "azimuths": 16,
+        "inflowTau": 0.08,
+        "wind": [
+          0,
+          0,
+          0
+        ],
+        "motorCurrentLimit": 46,
+        "servoJammed": -1,
+        "motorScale": [
+          1,
+          1
+        ],
+        "servoGeometryProfile": "H01_PLACEHOLDER",
+        "servoSupplyV": null,
+        "servoTorqueReference": "ASSUMED_STALL_MODEL",
+        "polarSource": "SIMPLIFIED"
+      },
+      "position_rms_last5s_m": null,
+      "final_position_error_m": 0.840440301086019,
+      "max_position_error_m": 0.9909115960771333,
+      "max_tilt_deg": 68.55254887036325,
+      "min_bus_V": 23.461091252187078,
+      "max_bus_current_A": 11.480748536500833,
+      "max_servo_load_Nm": 0.07299835985579087,
+      "max_duty": 0.3878072370817238,
+      "max_link_closure_mm": 9.948596613185146e-9,
+      "kinematic_envelope_violations": 0,
+      "min_blade_pitch_deg": 12.54753773959892,
+      "max_blade_pitch_deg": 21.55001857916185,
+      "max_cyclic_deg": 1.5798974733272653,
+      "saturation_events": 227,
+      "final": {
+        "t": 2.172499999999965,
+        "p": [
+          0.1571871715829377,
+          0.05695982110521108,
+          0.17635707278033594
+        ],
+        "v": [
+          2.409385751563605,
+          3.25868209617494,
+          -2.2250375333761925
+        ],
+        "euler": [
+          -64.20591450457852,
+          4.392051273460623,
+          -85.47477836021204
+        ],
+        "omega": [
+          1.0744616653644001,
+          2.561482495552656,
+          -1.559059050450185
+        ],
+        "rpm": [
+          2404.9456848305326,
+          2406.606938100246
+        ],
+        "rpmTarget": 2419.2415690181156,
+        "servoDeg": [
+          4.121192427872454,
+          2.662340659869757,
+          3.3954668056995407,
+          2.9080896136965837,
+          3.1808397403119404,
+          2.533760340078249
+        ],
+        "servoCommandDeg": [
+          4.057144847632185,
+          2.6423857887970845,
+          3.4621792678253738,
+          2.869563066503976,
+          3.1848512327426977,
+          2.5521823122522003
+        ],
+        "servoLoadNm": [
+          0.06435956836436374,
+          0.06605459225871589,
+          0.06577498431129823,
+          0.0719588897302818,
+          0.07230557242882191,
+          0.07041240471595572
+        ],
+        "duty": [
+          0.3878072370817238,
+          0.3865728583777139
+        ],
+        "bus": 23.461091252187078,
+        "current": 11.480748536500833,
+        "soc": 0.7964359919130851,
+        "thrust": [
+          11.075356674769031,
+          6.010884560572371
+        ],
+        "polarFallbackFraction": 0,
+        "target": [
+          0,
+          0,
+          1
+        ],
+        "crashed": true
+      }
+    },
+    {
+      "name": "Servo_blockiert",
+      "status": "ABSTURZ_IM_MODELL",
+      "duration_s": 3.9199999999999275,
+      "mass_kg": 1.2836763200000005,
+      "hover_rpm": 2419.2415690181156,
+      "options": {
+        "dt": 0.0025,
+        "servoMassG": 20,
+        "servoStallNm": 0.6865,
+        "servoSpeedRadS": 8.73,
+        "servoFriction": 0.03,
+        "servoDelay": 0.012,
+        "cyclicPhaseDeg": 0,
+        "thrustScale": 1,
+        "dragArea": 0.025,
+        "initialSoc": 0.8,
+        "controller": true,
+        "seed": 17,
+        "noise": true,
+        "radial": 10,
+        "azimuths": 16,
+        "inflowTau": 0.08,
+        "wind": [
+          0,
+          0,
+          0
+        ],
+        "motorCurrentLimit": 46,
+        "servoJammed": 0,
+        "motorScale": [
+          1,
+          1
+        ],
+        "servoGeometryProfile": "H01_PLACEHOLDER",
+        "servoSupplyV": null,
+        "servoTorqueReference": "ASSUMED_STALL_MODEL",
+        "polarSource": "SIMPLIFIED"
+      },
+      "position_rms_last5s_m": null,
+      "final_position_error_m": 6.993235361386276,
+      "max_position_error_m": 7.0862917260771505,
+      "max_tilt_deg": 88.75326486394297,
+      "min_bus_V": 23.490862580765377,
+      "max_bus_current_A": 10.422085813374938,
+      "max_servo_load_Nm": 0.07299835985579087,
+      "max_duty": 0.380182399656407,
+      "max_link_closure_mm": 9.948596613185146e-9,
+      "kinematic_envelope_violations": 0,
+      "min_blade_pitch_deg": 12.657093079678651,
+      "max_blade_pitch_deg": 21.562109380356965,
+      "max_cyclic_deg": 2.616190082221242,
+      "saturation_events": 58,
+      "final": {
+        "t": 3.9199999999999275,
+        "p": [
+          -0.8044376676471908,
+          -6.9330730795129005,
+          0.5632866698310196
+        ],
+        "v": [
+          3.3027993652156833,
+          1.026792328257692,
+          -1.6313175793673385
+        ],
+        "euler": [
+          -74.6465420745226,
+          48.01078816605433,
+          -3.1941775082131523
+        ],
+        "omega": [
+          -2.9383581964463437,
+          1.162091344840223,
+          0.37056126426638014
+        ],
+        "rpm": [
+          2377.4295959453616,
+          2383.521117043729
+        ],
+        "rpmTarget": 2419.2415690181156,
+        "servoDeg": [
+          0,
+          4.182488681561128,
+          4.332916956595584,
+          3.125626148442573,
+          3.0867666401275162,
+          2.108683346701114
+        ],
+        "servoCommandDeg": [
+          6.465246068208178,
+          4.18196359760675,
+          4.330850625348846,
+          3.124202091077865,
+          3.086030138005997,
+          2.120596359778299
+        ],
+        "servoLoadNm": [
+          0.06181471094135997,
+          0.06344271148161985,
+          0.06317415958039083,
+          0.06997289600758569,
+          0.07031001060876285,
+          0.06846909244015528
+        ],
+        "duty": [
+          0.380182399656407,
+          0.38001932247900316
+        ],
+        "bus": 23.49133201464911,
+        "current": 10.400958898613787,
+        "soc": 0.7948631684264685,
+        "thrust": [
+          9.558989776598718,
+          5.287277348942503
+        ],
+        "polarFallbackFraction": 0,
+        "target": [
+          0,
+          0,
+          1
+        ],
+        "crashed": true
+      }
+    },
+    {
+      "name": "Motor_unten_Ausfall",
+      "status": "ABSTURZ_IM_MODELL",
+      "duration_s": 5.105000000000098,
+      "mass_kg": 1.2836763200000005,
+      "hover_rpm": 2419.2415690181156,
+      "options": {
+        "dt": 0.0025,
+        "servoMassG": 20,
+        "servoStallNm": 0.6865,
+        "servoSpeedRadS": 8.73,
+        "servoFriction": 0.03,
+        "servoDelay": 0.012,
+        "cyclicPhaseDeg": 0,
+        "thrustScale": 1,
+        "dragArea": 0.025,
+        "initialSoc": 0.8,
+        "controller": true,
+        "seed": 17,
+        "noise": true,
+        "radial": 10,
+        "azimuths": 16,
+        "inflowTau": 0.08,
+        "wind": [
+          0,
+          0,
+          0
+        ],
+        "motorCurrentLimit": 46,
+        "servoJammed": -1,
+        "motorScale": [
+          1,
+          0
+        ],
+        "servoGeometryProfile": "H01_PLACEHOLDER",
+        "servoSupplyV": null,
+        "servoTorqueReference": "ASSUMED_STALL_MODEL",
+        "polarSource": "SIMPLIFIED"
+      },
+      "position_rms_last5s_m": null,
+      "final_position_error_m": 0.8208111760192323,
+      "max_position_error_m": 0.8208111760192323,
+      "max_tilt_deg": 3.184655698471333,
+      "min_bus_V": 23.61786550547067,
+      "max_bus_current_A": 7.212878757401337,
+      "max_servo_load_Nm": 0.07299835985579087,
+      "max_duty": 0.4751257158095159,
+      "max_link_closure_mm": 6.448658496083226e-9,
+      "kinematic_envelope_violations": 0,
+      "min_blade_pitch_deg": 13.022056357727699,
+      "max_blade_pitch_deg": 21.49557061463349,
+      "max_cyclic_deg": 1.1322304460499206,
+      "saturation_events": 151,
+      "final": {
+        "t": 5.105000000000098,
+        "p": [
+          0.0032369083553475684,
+          0.00563152421171161,
+          0.17921452556869205
+        ],
+        "v": [
+          -0.03443505523177684,
+          -0.00244137704629848,
+          -1.8584241756582633
+        ],
+        "euler": [
+          0.7046932692683902,
+          -2.4380578589750557,
+          -62.94144576800347
+        ],
+        "omega": [
+          -2.460745668425355,
+          0.1917338489772677,
+          -60.79261069788921
+        ],
+        "rpm": [
+          2422.9672033226184,
+          882.7658455792565
+        ],
+        "rpmTarget": 2419.2415690181156,
+        "servoDeg": [
+          3.371730635343042,
+          2.7410745046801686,
+          1.2609159377040902,
+          3.4365321794544315,
+          2.7147078137442113,
+          2.5193858460813385
+        ],
+        "servoCommandDeg": [
+          3.3670455711557463,
+          2.7156334844334795,
+          1.2566334675576718,
+          3.4242277805554497,
+          2.7113058188088126,
+          2.5062761239696685
+        ],
+        "servoLoadNm": [
+          0.06181357323568246,
+          0.06344154381243641,
+          0.06317299685393087,
+          0.010427367002834548,
+          0.010477603849800371,
+          0.010203270065413682
+        ],
+        "duty": [
+          0.3716090469924104,
+          0.3815753132599322
+        ],
+        "bus": 23.727562547335154,
+        "current": 3.5890290245246024,
+        "soc": 0.7944105926774014,
+        "thrust": [
+          7.2139748458260735,
+          1.5105850213056833
+        ],
+        "polarFallbackFraction": 0,
+        "target": [
+          0,
+          0,
+          1
+        ],
+        "crashed": true
+      }
+    },
+    {
+      "name": "Aerodynamik_minus25",
+      "status": "STABIL_IM_MODELL",
+      "duration_s": 24.000000000003052,
+      "mass_kg": 1.2836763200000005,
+      "hover_rpm": 2419.2415690181156,
+      "options": {
+        "dt": 0.0025,
+        "servoMassG": 20,
+        "servoStallNm": 0.6865,
+        "servoSpeedRadS": 8.73,
+        "servoFriction": 0.03,
+        "servoDelay": 0.012,
+        "cyclicPhaseDeg": 0,
+        "thrustScale": 0.75,
+        "dragArea": 0.025,
+        "initialSoc": 0.8,
+        "controller": true,
+        "seed": 17,
+        "noise": true,
+        "radial": 10,
+        "azimuths": 16,
+        "inflowTau": 0.08,
+        "wind": [
+          0,
+          0,
+          0
+        ],
+        "motorCurrentLimit": 46,
+        "servoJammed": -1,
+        "motorScale": [
+          1,
+          1
+        ],
+        "servoGeometryProfile": "H01_PLACEHOLDER",
+        "servoSupplyV": null,
+        "servoTorqueReference": "ASSUMED_STALL_MODEL",
+        "polarSource": "SIMPLIFIED"
+      },
+      "position_rms_last5s_m": 0.0006129615515187625,
+      "final_position_error_m": 0.00032771642804782606,
+      "max_position_error_m": 0.3380354326369586,
+      "max_tilt_deg": 0.19831826077376022,
+      "min_bus_V": 23.486277758488956,
+      "max_bus_current_A": 7.520873323458369,
+      "max_servo_load_Nm": 0.07299835985579087,
+      "max_duty": 0.37520730455820767,
+      "max_link_closure_mm": 7.989342520886566e-11,
+      "kinematic_envelope_violations": 0,
+      "min_blade_pitch_deg": 13.837014420583788,
+      "max_blade_pitch_deg": 18.77866384080551,
+      "max_cyclic_deg": 0.026992182526819876,
+      "saturation_events": 0,
+      "final": {
+        "t": 24.000000000003052,
+        "p": [
+          -0.00009038860165114132,
+          0.0002844010618726338,
+          0.9998645599988567
+        ],
+        "v": [
+          -0.0001932326922075536,
+          0.00040738421999240255,
+          0.0003440014446081204
+        ],
+        "euler": [
+          0.010476934551096648,
+          -0.0014843832831284236,
+          -0.007409529175887122
+        ],
+        "omega": [
+          0.0008555496116230388,
+          0.0003129839466398935,
+          0.0005436435617796064
+        ],
+        "rpm": [
+          2419.238861615712,
+          2419.2342043971503
+        ],
+        "rpmTarget": 2419.2415690181156,
+        "servoDeg": [
+          0.9071257818990751,
+          0.918717220546049,
+          0.9401948628514406,
+          1.1937105479129386,
+          1.2037753209579445,
+          1.2074794896046321
+        ],
+        "servoCommandDeg": [
+          0.9070464129660896,
+          0.9167825897178598,
+          0.9404219797085638,
+          1.1926885001806733,
+          1.2036753346578506,
+          1.206499052558105
+        ],
+        "servoLoadNm": [
+          0.06253310381386723,
+          0.06418002451029624,
+          0.06390835157575972,
+          0.07104015988102956,
+          0.07138241633363171,
+          0.06951341950074949
+        ],
+        "duty": [
+          0.37520730455820767,
+          0.3752063057806025
+        ],
+        "bus": 23.486277758488956,
+        "current": 7.08287746046183,
+        "soc": 0.7696173411688714,
+        "thrust": [
+          8.229891589247696,
+          4.363371761726569
+        ],
+        "polarFallbackFraction": 0,
+        "target": [
+          0,
+          0,
+          1
+        ],
+        "crashed": false
+      }
+    },
+    {
+      "name": "Akku_20_Prozent",
+      "status": "STABIL_IM_MODELL",
+      "duration_s": 20.000000000001005,
+      "mass_kg": 1.2836763200000005,
+      "hover_rpm": 2419.2415690181156,
+      "options": {
+        "dt": 0.0025,
+        "servoMassG": 20,
+        "servoStallNm": 0.6865,
+        "servoSpeedRadS": 8.73,
+        "servoFriction": 0.03,
+        "servoDelay": 0.012,
+        "cyclicPhaseDeg": 0,
+        "thrustScale": 1,
+        "dragArea": 0.025,
+        "initialSoc": 0.2,
+        "controller": true,
+        "seed": 17,
+        "noise": true,
+        "radial": 10,
+        "azimuths": 16,
+        "inflowTau": 0.08,
+        "wind": [
+          0,
+          0,
+          0
+        ],
+        "motorCurrentLimit": 46,
+        "servoJammed": -1,
+        "motorScale": [
+          1,
+          1
+        ],
+        "servoGeometryProfile": "H01_PLACEHOLDER",
+        "servoSupplyV": null,
+        "servoTorqueReference": "ASSUMED_STALL_MODEL",
+        "polarSource": "SIMPLIFIED"
+      },
+      "position_rms_last5s_m": 0.00032393059900496986,
+      "final_position_error_m": 0.00032718120639620054,
+      "max_position_error_m": 0.06899815909344287,
+      "max_tilt_deg": 0.17187586687524656,
+      "min_bus_V": 21.52307524886886,
+      "max_bus_current_A": 7.860764273942068,
+      "max_servo_load_Nm": 0.07299835985579087,
+      "max_duty": 0.4085852480587961,
+      "max_link_closure_mm": 7.989342520886566e-11,
+      "kinematic_envelope_violations": 0,
+      "min_blade_pitch_deg": 13.166532010347202,
+      "max_blade_pitch_deg": 18.093651865020334,
+      "max_cyclic_deg": 0.02223468926161125,
+      "saturation_events": 0,
+      "final": {
+        "t": 20.000000000001005,
+        "p": [
+          -0.00008560958109386274,
+          0.00016825909033641947,
+          1.0002672216682138
+        ],
+        "v": [
+          0.000004967531604826298,
+          0.0006363528483467897,
+          -0.00008320705136887052
+        ],
+        "euler": [
+          0.004944291323520701,
+          0.0018893070647760626,
+          -0.004385468723591329
+        ],
+        "omega": [
+          0.0009088930691982308,
+          -0.00022545834939597306,
+          -0.0010089347887900495
+        ],
+        "rpm": [
+          2419.2536735345166,
+          2419.263726665972
+        ],
+        "rpmTarget": 2419.2415690181156,
+        "servoDeg": [
+          -0.6166181041067202,
+          -0.6095173110170964,
+          -0.5980376634457416,
+          0.4733497390005287,
+          0.47848618969086776,
+          0.4807689022567806
+        ],
+        "servoCommandDeg": [
+          -0.6164404476978311,
+          -0.6117341659668327,
+          -0.5940546043900856,
+          0.4724904400898899,
+          0.48040826462407993,
+          0.48139385105702004
+        ],
+        "servoLoadNm": [
+          0.06212345393688819,
+          0.06375958577398448,
+          0.06348969254935238,
+          0.07150138530341651,
+          0.07184586384247202,
+          0.06996473262172906
+        ],
+        "duty": [
+          0.4085852480587961,
+          0.4085840929708542
+        ],
+        "bus": 21.52307524886886,
+        "current": 7.459834328019714,
+        "soc": 0.1733556654090388,
+        "thrust": [
+          7.760561685074976,
+          4.8312775596286635
+        ],
+        "polarFallbackFraction": 0,
+        "target": [
+          0,
+          0,
+          1
+        ],
+        "crashed": false
+      }
+    },
+    {
+      "name": "Savox_7_4V_Manoever",
+      "status": "STABIL_IM_MODELL",
+      "duration_s": 28.000000000005098,
+      "mass_kg": 1.5776763200000006,
+      "hover_rpm": 2680.892069046951,
+      "options": {
+        "dt": 0.0025,
+        "servoMassG": 69,
+        "servoStallNm": 1.96133,
+        "servoSpeedRadS": 17.453292519943297,
+        "servoFriction": 0.03,
+        "servoDelay": 0.012,
+        "cyclicPhaseDeg": 0,
+        "thrustScale": 1,
+        "dragArea": 0.025,
+        "initialSoc": 0.8,
+        "controller": true,
+        "seed": 17,
+        "noise": true,
+        "radial": 10,
+        "azimuths": 16,
+        "inflowTau": 0.08,
+        "wind": [
+          0,
+          0,
+          0
+        ],
+        "motorCurrentLimit": 46,
+        "servoJammed": -1,
+        "motorScale": [
+          1,
+          1
+        ],
+        "servoGeometryProfile": "Savox_SB2271SG_USER",
+        "servoSupplyV": 7.4,
+        "servoTorqueReference": "USER_ADVERTISED_DYNAMIC_TORQUE_NOT_VERIFIED_STALL",
+        "polarSource": "SIMPLIFIED"
+      },
+      "position_rms_last5s_m": 0.0004987831851763112,
+      "final_position_error_m": 0.00044096678089098273,
+      "max_position_error_m": 0.7419081248893319,
+      "max_tilt_deg": 5.017095120378234,
+      "min_bus_V": 23.343495436531473,
+      "max_bus_current_A": 9.772991399393598,
+      "max_servo_load_Nm": 0.08860878721319719,
+      "max_duty": 0.4194707419426821,
+      "max_link_closure_mm": 8.519190686229194e-9,
+      "kinematic_envelope_violations": 0,
+      "min_blade_pitch_deg": 13.055268686166349,
+      "max_blade_pitch_deg": 18.267102248993968,
+      "max_cyclic_deg": 0.15555990701011527,
+      "saturation_events": 0,
+      "final": {
+        "t": 28.000000000005098,
+        "p": [
+          0.49999717565350377,
+          -0.30018426845210666,
+          1.5004006106120342
+        ],
+        "v": [
+          -0.00032977606475441276,
+          -0.0001108343598126663,
+          0.00008561491864543073
+        ],
+        "euler": [
+          -0.003215803106866816,
+          0.003215078301976797,
+          20.054043680000948
+        ],
+        "omega": [
+          0.000682408560830829,
+          -0.0002516551149860361,
+          -0.00002009710523475693
+        ],
+        "rpm": [
+          2680.901477207266,
+          2680.903472848065
+        ],
+        "rpmTarget": 2680.892069046951,
+        "servoDeg": [
+          -0.6211406662936683,
+          -0.6157072177777526,
+          -0.6044801713731859,
+          0.4783191839378408,
+          0.48318067013971433,
+          0.48504068117426874
+        ],
+        "servoCommandDeg": [
+          -0.6235018398563851,
+          -0.6135567228909895,
+          -0.6026038852567793,
+          0.47751036735105074,
+          0.48238529878461894,
+          0.4861884182689207
+        ],
+        "servoLoadNm": [
+          0.0762817404338983,
+          0.07829075596995992,
+          0.0779593525530287,
+          0.08782343788487493,
+          0.08824655261823337,
+          0.08593600422511959
+        ],
+        "duty": [
+          0.4194707419426821,
+          0.4194689095770083
+        ],
+        "bus": 23.343495436531473,
+        "current": 9.093570087623332,
+        "soc": 0.75453142365283,
+        "thrust": [
+          9.523561590575707,
+          5.953256814851099
+        ],
+        "polarFallbackFraction": 0,
+        "target": [
+          0.5,
+          -0.3,
+          1.5
+        ],
+        "crashed": false
+      }
+    },
+    {
+      "name": "Savox_6_0V_Boee",
+      "status": "STABIL_IM_MODELL",
+      "duration_s": 24.000000000003052,
+      "mass_kg": 1.5776763200000006,
+      "hover_rpm": 2680.892069046951,
+      "options": {
+        "dt": 0.0025,
+        "servoMassG": 69,
+        "servoStallNm": 1.4709975,
+        "servoSpeedRadS": 13.08996938995747,
+        "servoFriction": 0.03,
+        "servoDelay": 0.012,
+        "cyclicPhaseDeg": 0,
+        "thrustScale": 1,
+        "dragArea": 0.025,
+        "initialSoc": 0.8,
+        "controller": true,
+        "seed": 17,
+        "noise": true,
+        "radial": 10,
+        "azimuths": 16,
+        "inflowTau": 0.08,
+        "wind": [
+          0,
+          0,
+          0
+        ],
+        "motorCurrentLimit": 46,
+        "servoJammed": -1,
+        "motorScale": [
+          1,
+          1
+        ],
+        "servoGeometryProfile": "Savox_SB2271SG_USER",
+        "servoSupplyV": 6,
+        "servoTorqueReference": "USER_ADVERTISED_DYNAMIC_TORQUE_NOT_VERIFIED_STALL",
+        "polarSource": "SIMPLIFIED"
+      },
+      "position_rms_last5s_m": 0.019337531651057033,
+      "final_position_error_m": 0.007346555000931593,
+      "max_position_error_m": 0.40641791461011,
+      "max_tilt_deg": 6.613515344345693,
+      "min_bus_V": 23.375502597568577,
+      "max_bus_current_A": 9.523052553612638,
+      "max_servo_load_Nm": 0.08841862457017584,
+      "max_duty": 0.4188976237492432,
+      "max_link_closure_mm": 1.8337189544581634e-9,
+      "kinematic_envelope_violations": 0,
+      "min_blade_pitch_deg": 12.994265008132055,
+      "max_blade_pitch_deg": 17.942222470268067,
+      "max_cyclic_deg": 0.25812071645914186,
+      "saturation_events": 0,
+      "final": {
+        "t": 24.000000000003052,
+        "p": [
+          0.0038554445584730005,
+          -0.006253460161133969,
+          0.9999593348876279
+        ],
+        "v": [
+          -0.0013230411635729025,
+          0.003202137889542388,
+          0.000279865832464173
+        ],
+        "euler": [
+          0.017410189386429863,
+          -0.001414403100107658,
+          -0.006711650243505843
+        ],
+        "omega": [
+          0.000678384766310833,
+          0.0005230740658103725,
+          0.00036264249727525774
+        ],
+        "rpm": [
+          2680.888233607566,
+          2680.8801476352505
+        ],
+        "rpmTarget": 2680.892069046951,
+        "servoDeg": [
+          -0.619996733004084,
+          -0.6142521797609302,
+          -0.6039268810484036,
+          0.47920319008303947,
+          0.48366293461505677,
+          0.4856825500556703
+        ],
+        "servoCommandDeg": [
+          -0.6196874230501824,
+          -0.6154838867385934,
+          -0.603331804488007,
+          0.4784849412957061,
+          0.4837373317886916,
+          0.48504071623892975
+        ],
+        "servoLoadNm": [
+          0.07628236960279462,
+          0.07829140170914003,
+          0.07795999555880603,
+          0.08782155445400336,
+          0.08824466011339054,
+          0.08593416127149313
+        ],
+        "duty": [
+          0.4188976237492432,
+          0.41889609008734685
+        ],
+        "bus": 23.375502597568577,
+        "current": 9.08251316488007,
+        "soc": 0.7611189637610424,
+        "thrust": [
+          9.524915757306749,
+          5.952823692114009
+        ],
+        "polarFallbackFraction": 0,
+        "target": [
+          0,
+          0,
+          1
+        ],
+        "crashed": false
+      }
+    },
+    {
+      "name": "Savox_7_4V_Reibung_0_20",
+      "status": "STABIL_IM_MODELL",
+      "duration_s": 24.000000000003052,
+      "mass_kg": 1.5776763200000006,
+      "hover_rpm": 2680.892069046951,
+      "options": {
+        "dt": 0.0025,
+        "servoMassG": 69,
+        "servoStallNm": 1.96133,
+        "servoSpeedRadS": 17.453292519943297,
+        "servoFriction": 0.2,
+        "servoDelay": 0.012,
+        "cyclicPhaseDeg": 0,
+        "thrustScale": 1,
+        "dragArea": 0.025,
+        "initialSoc": 0.8,
+        "controller": true,
+        "seed": 17,
+        "noise": true,
+        "radial": 10,
+        "azimuths": 16,
+        "inflowTau": 0.08,
+        "wind": [
+          0,
+          0,
+          0
+        ],
+        "motorCurrentLimit": 46,
+        "servoJammed": -1,
+        "motorScale": [
+          1,
+          1
+        ],
+        "servoGeometryProfile": "Savox_SB2271SG_USER",
+        "servoSupplyV": 7.4,
+        "servoTorqueReference": "USER_ADVERTISED_DYNAMIC_TORQUE_NOT_VERIFIED_STALL",
+        "polarSource": "SIMPLIFIED"
+      },
+      "position_rms_last5s_m": 0.001649251757124544,
+      "final_position_error_m": 0.00072824261091825,
+      "max_position_error_m": 0.7419123111621883,
+      "max_tilt_deg": 5.0177598299959545,
+      "min_bus_V": 23.375140459280157,
+      "max_bus_current_A": 9.776468036142738,
+      "max_servo_load_Nm": 0.33737625633736923,
+      "max_duty": 0.41890415137111525,
+      "max_link_closure_mm": 8.519251082361734e-9,
+      "kinematic_envelope_violations": 0,
+      "min_blade_pitch_deg": 13.055242799316682,
+      "max_blade_pitch_deg": 18.267369550236925,
+      "max_cyclic_deg": 0.15571336444343253,
+      "saturation_events": 0,
+      "final": {
+        "t": 24.000000000003052,
+        "p": [
+          0.4993599147244391,
+          -0.2996796998437135,
+          1.4998657020095087
+        ],
+        "v": [
+          -0.00002184481247849407,
+          -0.00018183361150754735,
+          0.00030720868810515267
+        ],
+        "euler": [
+          0.008228894609001178,
+          0.003892158137935264,
+          20.04528972237754
+        ],
+        "omega": [
+          0.000474133523193811,
+          0.00018444213929306793,
+          0.000378635341299967
+        ],
+        "rpm": [
+          2680.88828219225,
+          2680.8804810357915
+        ],
+        "rpmTarget": 2680.892069046951,
+        "servoDeg": [
+          -0.6196673559141367,
+          -0.6144913264237164,
+          -0.6039793144578229,
+          0.47924926068712714,
+          0.48377079801294753,
+          0.4855447561085328
+        ],
+        "servoCommandDeg": [
+          -0.6193342846562849,
+          -0.6156848795005442,
+          -0.603417892868752,
+          0.47854893821010946,
+          0.48383738637056123,
+          0.4848995456519166
+        ],
+        "servoLoadNm": [
+          0.29598288735313427,
+          0.3037781240076532,
+          0.30249223645888923,
+          0.33457474602315684,
+          0.33618665632707395,
+          0.32738432336883083
+        ],
+        "duty": [
+          0.41890415137111525,
+          0.4189026132690546
+        ],
+        "bus": 23.375140459280157,
+        "current": 9.082719816942369,
+        "soc": 0.7610450250296565,
+        "thrust": [
+          9.524910443413196,
+          5.952829413252236
+        ],
+        "polarFallbackFraction": 0,
+        "target": [
+          0.5,
+          -0.3,
+          1.5
+        ],
+        "crashed": false
+      }
+    },
+    {
+      "name": "Savox_7_4V_XFOIL_N4",
+      "status": "STABIL_IM_MODELL",
+      "duration_s": 28.000000000005098,
+      "mass_kg": 1.5776763200000006,
+      "hover_rpm": 2501.7008350045303,
+      "options": {
+        "dt": 0.0025,
+        "servoMassG": 69,
+        "servoStallNm": 1.96133,
+        "servoSpeedRadS": 17.453292519943297,
+        "servoFriction": 0.03,
+        "servoDelay": 0.012,
+        "cyclicPhaseDeg": 0,
+        "thrustScale": 1,
+        "dragArea": 0.025,
+        "initialSoc": 0.8,
+        "controller": true,
+        "seed": 17,
+        "noise": true,
+        "radial": 10,
+        "azimuths": 16,
+        "inflowTau": 0.08,
+        "wind": [
+          0,
+          0,
+          0
+        ],
+        "motorCurrentLimit": 46,
+        "servoJammed": -1,
+        "motorScale": [
+          1,
+          1
+        ],
+        "servoGeometryProfile": "Savox_SB2271SG_USER",
+        "servoSupplyV": 7.4,
+        "servoTorqueReference": "USER_ADVERTISED_DYNAMIC_TORQUE_NOT_VERIFIED_STALL",
+        "polarSource": "XFOIL_N4"
+      },
+      "position_rms_last5s_m": 0.014357414997208284,
+      "final_position_error_m": 0.0024854753189488443,
+      "max_position_error_m": 0.7186035622369601,
+      "max_tilt_deg": 4.869936618481149,
+      "min_bus_V": 23.38984257781075,
+      "max_bus_current_A": 8.894856014218018,
+      "max_servo_load_Nm": 0.0792504388072337,
+      "max_duty": 0.39195851013881494,
+      "max_link_closure_mm": 8.604420287383618e-9,
+      "kinematic_envelope_violations": 0,
+      "min_blade_pitch_deg": 12.393427291522029,
+      "max_blade_pitch_deg": 18.08678030641383,
+      "max_cyclic_deg": 0.18535590628492668,
+      "saturation_events": 0,
+      "final": {
+        "t": 28.000000000005098,
+        "p": [
+          0.5000248651424839,
+          -0.300018400747515,
+          1.4975147171794172
+        ],
+        "v": [
+          -0.0003036792699696857,
+          -0.00018664325419163848,
+          0.016689278053611332
+        ],
+        "euler": [
+          -0.002234825678447101,
+          0.007477678955928042,
+          19.74341790304408
+        ],
+        "omega": [
+          0.000735349045497257,
+          -0.00028945051349764557,
+          -0.004100691171536208
+        ],
+        "rpm": [
+          2502.361804417719,
+          2502.346634943579
+        ],
+        "rpmTarget": 2501.7008350045303,
+        "servoDeg": [
+          -0.7555297578814971,
+          -0.7489822765417002,
+          -0.7355916779196612,
+          0.5406077615571183,
+          0.5425381637221347,
+          0.5434219207532349
+        ],
+        "servoCommandDeg": [
+          -0.76059214059475,
+          -0.7485897037533102,
+          -0.7355459133212839,
+          0.5394421935985512,
+          0.5413437315522949,
+          0.5431350052509241
+        ],
+        "servoLoadNm": [
+          0.0668241648933971,
+          0.06858409832820792,
+          0.06829378302531525,
+          0.0780641570073793,
+          0.07844025359130405,
+          0.07638646229279412
+        ],
+        "duty": [
+          0.3918836904336263,
+          0.3918829321929005
+        ],
+        "bus": 23.38984257781075,
+        "current": 8.312560059264612,
+        "soc": 0.7584925632107846,
+        "thrust": [
+          8.713742367097954,
+          6.764322203646203
+        ],
+        "polarFallbackFraction": 0.2,
+        "target": [
+          0.5,
+          -0.3,
+          1.5
+        ],
+        "crashed": false
+      }
+    },
+    {
+      "name": "Ohne_Regelung",
+      "status": "ABSTURZ_IM_MODELL",
+      "duration_s": 2.5274999999999572,
+      "mass_kg": 1.2836763200000005,
+      "hover_rpm": 2419.2415690181156,
+      "options": {
+        "dt": 0.0025,
+        "servoMassG": 20,
+        "servoStallNm": 0.6865,
+        "servoSpeedRadS": 8.73,
+        "servoFriction": 0.03,
+        "servoDelay": 0.012,
+        "cyclicPhaseDeg": 0,
+        "thrustScale": 1,
+        "dragArea": 0.025,
+        "initialSoc": 0.8,
+        "controller": false,
+        "seed": 17,
+        "noise": true,
+        "radial": 10,
+        "azimuths": 16,
+        "inflowTau": 0.08,
+        "wind": [
+          0,
+          0,
+          0
+        ],
+        "motorCurrentLimit": 46,
+        "servoJammed": -1,
+        "motorScale": [
+          1,
+          1
+        ],
+        "servoGeometryProfile": "H01_PLACEHOLDER",
+        "servoSupplyV": null,
+        "servoTorqueReference": "ASSUMED_STALL_MODEL",
+        "polarSource": "SIMPLIFIED"
+      },
+      "position_rms_last5s_m": null,
+      "final_position_error_m": 5.799895790739345,
+      "max_position_error_m": 5.799895790739345,
+      "max_tilt_deg": 40.27788261156662,
+      "min_bus_V": 23.639299828644585,
+      "max_bus_current_A": 6.667863751428071,
+      "max_servo_load_Nm": 0.07299835985579087,
+      "max_duty": 0.3739772673200033,
+      "max_link_closure_mm": 0,
+      "kinematic_envelope_violations": 0,
+      "min_blade_pitch_deg": 14,
+      "max_blade_pitch_deg": 16.69999999999999,
+      "max_cyclic_deg": 3.0303191209571215e-15,
+      "saturation_events": 0,
+      "final": {
+        "t": 2.5274999999999572,
+        "p": [
+          1.1381975200436605,
+          -5.627591574583392,
+          0.17932304864797327
+        ],
+        "v": [
+          3.771042897648721,
+          -4.723935646826086,
+          -1.4545998679901737
+        ],
+        "euler": [
+          37.645930959129124,
+          -5.890239229753022,
+          75.7564265594588
+        ],
+        "omega": [
+          -0.2839018139976742,
+          0.6045480909414231,
+          -11.740104169869351
+        ],
+        "rpm": [
+          2425.2831046886527,
+          2417.440755125374
+        ],
+        "rpmTarget": 2419.2415690181156,
+        "servoDeg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "servoCommandDeg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "servoLoadNm": [
+          0.06119580243229378,
+          0.06280750291433472,
+          0.06254163983999278,
+          0.07258526078775594,
+          0.0729349612094614,
+          0.07102531428927658
+        ],
+        "duty": [
+          0.37087048451190363,
+          0.37081316396282704
+        ],
+        "bus": 23.643479148483134,
+        "current": 6.3508868352664125,
+        "soc": 0.797030527061731,
+        "thrust": [
+          6.389873249458249,
+          6.03494179555863
+        ],
+        "polarFallbackFraction": 0,
+        "target": [
+          0,
+          0,
+          1
+        ],
+        "crashed": true
+      }
+    }
+  ]
+}

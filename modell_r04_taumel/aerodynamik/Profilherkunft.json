@@ -1,0 +1,8 @@
+{
+  "status": "CAD_GEOMETRY_EXTRACTED_NOT_EXPERIMENTAL_POLAR",
+  "section_radius_mm": 110,
+  "chord_mm": 30,
+  "points": 121,
+  "trailing_edge_thickness_mm": 0.599999999999999,
+  "profile_sha256": "9fafaa796eab673274c8371511dc6a0a2c4a1035899d6d68bacc16eb6ca16bbc"
+}

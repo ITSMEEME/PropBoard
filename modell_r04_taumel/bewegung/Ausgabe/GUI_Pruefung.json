@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Macro panel loads",
+    "Timeline seek recomputes native geometry",
+    "Savox flight replay selects",
+    "KST switches to geometric demo"
+  ],
+  "coverage": "Actual FreeCAD 1.0.2 GUI process, Qt offscreen panel/controls; OpenGL viewport rendering unavailable in offscreen environment"
+}

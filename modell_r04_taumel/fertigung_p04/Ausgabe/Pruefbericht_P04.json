@@ -1,0 +1,53 @@
+{
+  "status": "DRAWING_MOUNT_DATA_APPLIED_FULL_PRODUCTION_BLOCKED",
+  "source_class": "DIMENSIONED_MANUFACTURER_BRANDED_IMAGE_PROVIDED_BY_USER",
+  "drawing_PCD_mm": 16,
+  "square_pitch_mm": 11.31370849898476,
+  "hole_centres_mm": [
+    [
+      80.75685424949238,
+      5.65685424949238
+    ],
+    [
+      69.44314575050761,
+      5.656854249492381
+    ],
+    [
+      69.44314575050761,
+      -5.65685424949238
+    ],
+    [
+      80.75685424949238,
+      -5.6568542494923815
+    ]
+  ],
+  "wrong_16x16_probe_material_pass": true,
+  "motor_overall_height_mm": 31.6,
+  "motor_body_and_output_solids_valid": true,
+  "native_assembly_reopen_pass": true,
+  "motors_replaced": [
+    "Oben_feststehend_11",
+    "Unten_feststehend_11"
+  ],
+  "original_correct_plates_retained": [
+    "Oben_feststehend_10",
+    "Unten_feststehend_10"
+  ],
+  "nominal_motor_pinion_checks": [
+    {
+      "motor": "Oben_feststehend_11",
+      "pinion": "Oben_feststehend_13",
+      "nominal_intersection_mm3": 0.0,
+      "retention_not_validated": true
+    },
+    {
+      "motor": "Unten_feststehend_11",
+      "pinion": "Unten_feststehend_13",
+      "nominal_intersection_mm3": 0.0,
+      "retention_not_validated": true
+    }
+  ],
+  "native_sha256": "4b351e51c8bfcefe64af58a05462807b0631ffe25a51f1b69b5712cbb95a01e5",
+  "full_production_release": false,
+  "mass_note": "30.2g per purchased motor excludes silicone wire; earlier H01/M01 full mass/flight budget not silently changed"
+}

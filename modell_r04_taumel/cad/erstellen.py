@@ -326,6 +326,22 @@ def local_assembly(theta0, cyc, a, s):
     return rot, st, {'c': x[0], 'tilt_x_deg': x[1], 'tilt_y_deg': x[2], 'stangenfehler_mm': err}
 
 
+def motor_mount_points():
+    """Local motor screw centres; retain legacy PCD unless a rectangular pitch is explicit.
+
+    A 16 mm PCD gives 11.3137 mm square pitch, not a 16 x 16 mm mounting pattern.
+    Manufacturer/user source and verification belong to the selected revision.
+    """
+    pattern = MO.get('mount_pattern', 'pcd')
+    if pattern == 'rectangular':
+        dx, dy = MO['mount_pitch_mm']
+        if dx <= 0 or dy <= 0: raise ValueError('Positive motor mounting pitch required')
+        return [(CDIST + sx * dx / 2, sy * dy / 2) for sx in (-1, 1) for sy in (-1, 1)]
+    if pattern != 'pcd': raise ValueError('Unknown motor mount pattern: ' + pattern)
+    return [(CDIST + MO['mount_pcd'] / 2 * math.cos(q), MO['mount_pcd'] / 2 * math.sin(q))
+            for q in (math.pi / 4 + i * math.pi / 2 for i in range(4))]
+
+
 @cached_geometry
 def plate_shape():
     t = PL['t']; z0 = P['gear']['pinion_z0'] + MO['shaft_h'] + MO['body_h']; rt = P['tube']['d'] / 2
@@ -342,7 +358,7 @@ def plate_shape():
     post = box(gr - 4, gr + 4, -4, 4, z0 - 11, z0 + 0.01).cut(box(gr - 5, gr + 5, -guide_w / 2, guide_w / 2, z0 - 12, z0 - 1.5))
     s = s.fuse(rotz(post, ga)).fuse(ring(rt + 0.15, rt + PL['collar_wall'], z0 + t - 0.01, PL['collar_h'])).removeSplitter()
     holes = [cyl(rt + 0.15, t + 2, (0, 0, z0 - 1)), cyl(MO['boss_d'] / 2 + 0.3, t + 2, (CDIST, 0, z0 - 1))]
-    holes += [cyl(MO['mount_screw'] / 2 + 0.2, t + 2, (CDIST + MO['mount_pcd'] / 2 * math.cos(q), MO['mount_pcd'] / 2 * math.sin(q), z0 - 1)) for q in (math.pi / 4 + i * math.pi / 2 for i in range(4))]
+    holes += [cyl(MO['mount_screw'] / 2 + 0.2, t + 2, (x, y, z0 - 1)) for x, y in motor_mount_points()]
     for ang in SW['servo_angles_deg']:
         holes.append(rotz(cyl(PL['rod_hole_d'] / 2, t + 2, (stat_ball_local(0).x, 0, z0 - 1)), ang))
     holes.append(box(-rt - PL['collar_wall'] - 1, -rt + 1, -0.6, 0.6, z0 + t, z0 + t + PL['collar_h'] + 1))

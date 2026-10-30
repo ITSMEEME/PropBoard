@@ -1,0 +1,61 @@
+{
+  "assets": [
+    {
+      "id": "N01_M3x10",
+      "filename": "N01_M3x10.step",
+      "source_repository": "https://github.com/FreeCAD/FreeCAD-library",
+      "source_revision": "f5ca01cdcaa2f69b9295a6382719c2d90628780c",
+      "source_path": "Mechanical Parts/Fasteners/Bolts & Screws/Metric/ISO4762 Hexagon socket head cap screws/Screw M3x10 ISO4762 8,8 A2K.step",
+      "source_url": "https://github.com/FreeCAD/FreeCAD-library/blob/f5ca01cdcaa2f69b9295a6382719c2d90628780c/Mechanical%20Parts/Fasteners/Bolts%20%26%20Screws/Metric/ISO4762%20Hexagon%20socket%20head%20cap%20screws/Screw%20M3x10%20ISO4762%208%2C8%20A2K.step",
+      "sha256": "0d17d72f29de23c52f7ccd00715edf76c63ae839eb57c966ab2ac0b057b8b45a",
+      "license": "CC-BY-3.0 per repository LICENSE-Assets",
+      "attribution": "FreeCAD Parts Library contributors; ISO4762 family source history includes Peta-T (2015) and WladIMirG (2019). Nut author not identified in the checked metadata.",
+      "model_status": "COMMUNITY_STANDARD_PART_MODEL_NOT_OEM_CERTIFICATE",
+      "thread_detail": "Nominal thread interface; no verified helical flank geometry or supplier material certificate"
+    },
+    {
+      "id": "N02_M3x12",
+      "filename": "N02_M3x12.step",
+      "source_repository": "https://github.com/FreeCAD/FreeCAD-library",
+      "source_revision": "f5ca01cdcaa2f69b9295a6382719c2d90628780c",
+      "source_path": "Mechanical Parts/Fasteners/Bolts & Screws/Metric/ISO4762 Hexagon socket head cap screws/Screw M3x12 ISO4762 8,8 A2K.step",
+      "source_url": "https://github.com/FreeCAD/FreeCAD-library/blob/f5ca01cdcaa2f69b9295a6382719c2d90628780c/Mechanical%20Parts/Fasteners/Bolts%20%26%20Screws/Metric/ISO4762%20Hexagon%20socket%20head%20cap%20screws/Screw%20M3x12%20ISO4762%208%2C8%20A2K.step",
+      "sha256": "3fd0f3aeda90b8b1ced06a89ec20660b4ebff5cde87a564c5f22e496e5f29337",
+      "license": "CC-BY-3.0 per repository LICENSE-Assets",
+      "attribution": "FreeCAD Parts Library contributors; ISO4762 family source history includes Peta-T (2015) and WladIMirG (2019). Nut author not identified in the checked metadata.",
+      "model_status": "COMMUNITY_STANDARD_PART_MODEL_NOT_OEM_CERTIFICATE",
+      "thread_detail": "Nominal thread interface; no verified helical flank geometry or supplier material certificate"
+    },
+    {
+      "id": "N03_M3x40",
+      "filename": "N03_M3x40.step",
+      "source_repository": "https://github.com/FreeCAD/FreeCAD-library",
+      "source_revision": "f5ca01cdcaa2f69b9295a6382719c2d90628780c",
+      "source_path": "Mechanical Parts/Fasteners/Bolts & Screws/Metric/ISO4762 Hexagon socket head cap screws/Screw M3x40 ISO4762 8,8 A2K.step",
+      "source_url": "https://github.com/FreeCAD/FreeCAD-library/blob/f5ca01cdcaa2f69b9295a6382719c2d90628780c/Mechanical%20Parts/Fasteners/Bolts%20%26%20Screws/Metric/ISO4762%20Hexagon%20socket%20head%20cap%20screws/Screw%20M3x40%20ISO4762%208%2C8%20A2K.step",
+      "sha256": "12e94a3fdd10ee9ed3f49643838b53d65a604647b907d9af9b493c267004a84e",
+      "license": "CC-BY-3.0 per repository LICENSE-Assets",
+      "attribution": "FreeCAD Parts Library contributors; ISO4762 family source history includes Peta-T (2015) and WladIMirG (2019). Nut author not identified in the checked metadata.",
+      "model_status": "COMMUNITY_STANDARD_PART_MODEL_NOT_OEM_CERTIFICATE",
+      "thread_detail": "Nominal thread interface; no verified helical flank geometry or supplier material certificate"
+    },
+    {
+      "id": "N04_Mutter_M3",
+      "filename": "N04_Mutter_M3.step",
+      "source_repository": "https://github.com/FreeCAD/FreeCAD-library",
+      "source_revision": "f5ca01cdcaa2f69b9295a6382719c2d90628780c",
+      "source_path": "Mechanical Parts/Fasteners/Nuts/Metric/ISO4032_Hex_Nut_M3.step",
+      "source_url": "https://github.com/FreeCAD/FreeCAD-library/blob/f5ca01cdcaa2f69b9295a6382719c2d90628780c/Mechanical%20Parts/Fasteners/Nuts/Metric/ISO4032_Hex_Nut_M3.step",
+      "sha256": "e034d524d2466e4ad6558f1ac3b7ed878900b6d47923cc8d8fae31d258b292fc",
+      "license": "CC-BY-3.0 per repository LICENSE-Assets",
+      "attribution": "FreeCAD Parts Library contributors; recorded file-history authors: WladIMirG, Obijuan",
+      "model_status": "COMMUNITY_STANDARD_PART_MODEL_NOT_OEM_CERTIFICATE",
+      "thread_detail": "Nominal thread interface; no verified helical flank geometry or supplier material certificate",
+      "history_authors": [
+        "WladIMirG",
+        "Obijuan"
+      ]
+    }
+  ],
+  "license_metadata_note": "Legacy FCStd defaults say All rights reserved with empty author fields; repository asset policy explicitly covers all CAD as CC-BY-3.0. Unmodified STEP sources and upstream policy retained."
+}

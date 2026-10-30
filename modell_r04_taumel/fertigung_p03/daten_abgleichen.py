@@ -1,0 +1,19 @@
+#!/usr/bin/env python3
+"""Traceable intake of provided research. No conversion into verified manufacturer data."""
+import json,hashlib,math
+from pathlib import Path
+H=Path(__file__).resolve().parent;src=H/'Eingang/Nutzerrecherche_2026-10-30.txt'
+report=dict(source_file=str(src.relative_to(H)),source_sha256=hashlib.sha256(src.read_bytes()).hexdigest(),source_class='USER_PROVIDED_RESEARCH_NO_PRIMARY_URLS_OR_ORIGINAL_DRAWINGS',independently_manufacturer_verified=False,
+ motor=dict(item='EMAX ECO II 2306 KV1900',mount_pitch_mm=[16,16],mount_thread='M3',applied_to_plate_as_user_provided_design_input=True,old_CAD_pattern=dict(pcd_mm=16,equivalent_square_pitch_mm=16/math.sqrt(2)),body_diameter_mm=28,reported_total_height_mm=31.6,height_reference_unresolved=True,reported_internal_shaft_diameter_mm=4,reported_propeller_connection='M5',shaft_interface_note='4 mm shaft and M5 propeller attachment are distinct dimensions; no automatic 4 mm pinion bore substitution',included_screw_lengths_mm=[6,7,8],maximum_thread_engagement_mm=None,source_drawing=None),
+ servo_plus=dict(item='Savox SB-2271SG+',identity_asserted_by_user_research=True,maximum_voltage_claim_V=8.4,previous_table_maximum_V=7.4,version_conflict='Separate base SG and claimed SG+ data; no automatic physical supply-voltage change',body_height_claims_mm=[38.5,38.7],CAD_conservative_height_mm=38.7,mass_g=69,torque_kgcm={'6.0':15,'7.4':20,'8.4':25},speed_s_per_60deg={'6.0':.085,'7.4':.065,'8.4':.055},earlier_speed_s_per_60deg={'6.0':.08,'7.4':.06},idle_current_A={'6.0':.180,'7.4':.220},stall_current_A={'6.0':6,'7.4':7.4},PWM_neutral_us=1500,PWM_range_claim_us=[800,2200],frame_rate_claim_Hz=333,verified_3_3V_signal_compatibility=None,ear_thickness_mm=None,ear_hole_geometry=None,horn_retaining_screw=None,continuous_torque_Nm=None),
+ BEC_screen=dict(servo_count=6,simultaneous_stall_A_at_7_4V=6*7.4,servo_power_W_at_7_4V=6*7.4*7.4,stall_event_not_continuous_current=True,simultaneous_stall_A_at_6V=6*6,idle_total_A_at_7_4V=6*.22,holding_current_load_curve_unknown=True,current_at_8_4V_unknown=True,design_status='Peak-case arithmetic from unverified supplied values; not a complete BEC selection'),
+ horn=dict(proposed_name_from_text='Hudy Aluminium Clamp Servo Horn 8mm Extended',proposed_article_from_text='DY293422',verified_part_identity=False,verified_8mm_radial_lever_arm=False,reported_link_thread='M3',existing_ball_stud_reference='M2 / 4.8 mm',decision='Not adopted: extended dimension is not proof of radial hole distance; M3 versus M2 interface needs a real matching joint'),
+ bearings=dict(dimensions_retained_mm={'6806-2RS':[30,42,7],'6809-2RS':[45,58,7]},manufacturer_not_yet_selected=True,tolerances_from_similar_size_rejected_for_release=True,shoulder_limits_not_defined_by_d_D_B_alone=True,claimed_6809_min_chamfer_mm=.3,clearance_range_claim_unverified=True,decision='Do not transfer 6809 tolerances to 6806 or release shoulders/seats without exact selected bearing data'),
+ joints=dict(real_articles_still_missing=True,existing_blade_link_centres_mm=15,generic_78mm_example_not_applicable=True),
+ electronics=dict(provided_example='F405 V3 60A',target='F405 V4 / 55A from original user image',grommet_geometry_verified_for_target=False,decision='Do not adopt V3 example or infer rubber height from M3 x 8 label'),
+ M01_simulation_status='Historical M01 results retain earlier speed/current assumptions. This P03 intake is not a new calibrated servo/flight validation.',overall_production_release=False)
+report['active']=False
+report['superseded_by']='User supplied EMAX drawing: 4-M3 PCD16, not 16x16'
+report['motor']['historically_applied_before_drawing']=True
+report['motor']['applied_to_plate_as_user_provided_design_input']=False
+(H/'Datenabgleich_P03.json').write_text(json.dumps(report,indent=2));print('Intake recorded; motor pitch accepted as user input; unsupported transfers rejected')

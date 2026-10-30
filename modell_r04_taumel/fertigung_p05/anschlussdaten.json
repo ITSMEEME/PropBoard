@@ -1,0 +1,34 @@
+{
+  "source": "User clarification in chat: M5, 9 mm + M3 depth = 3 mm",
+  "source_class": "USER_PROVIDED_INTERFACE_LIMITS",
+  "interpretation": "9 mm usable M5 thread at free output end; 3 mm maximum permitted M3 screw insertion from motor mounting face",
+  "M5_usable_thread_mm": 9.0,
+  "M3_maximum_insertion_mm": 3.0,
+  "motor_reference": "EMAX ECO II 2306 KV1900, drawing from P04",
+  "selected_mounting": {
+    "screw": "M3 x 7, nominal ISO4762 head reference",
+    "screw_length_mm": 7.0,
+    "plate_thickness_mm": 4.0,
+    "washer": "M3 flat washer nominal ISO7089, 3.2 x 7 x 0.5 mm",
+    "washer_thickness_mm": 0.5,
+    "nominal_insertion_mm": 2.5,
+    "nominal_depth_reserve_mm": 0.5,
+    "acceptance_budget_assumptions_mm": {"screw_length": [6.7,7.3],"finished_plate": [3.9,4.1],"washer": [0.45,0.55]},
+    "assembly_torque": null,
+    "motor_thread_material_strength": null
+  },
+  "selected_drive": {
+    "pinion": "M1 Z20 20deg, face 5.5 mm; custom internal M5x0.8-6H",
+    "pinion_material": "C45E, proposed for machining; supplier/process approval pending",
+    "pinion_face_mm": 5.5,
+    "locknut": "ISO4035 M5, proposed steel thin jam nut, AF8 x 2.7 mm",
+    "locknut_height_mm": 2.7,
+    "nominal_stack_mm": 8.2,
+    "nominal_thread_reserve_mm": 0.8,
+    "coarse_pitch_mm": 0.8,
+    "thread_geometry_representation": "Nominal thread diameter with full specification in drawing; helical mating flanks not represented",
+    "runout_and_locking_torque_verified": false,
+    "assembly_retention_status": "Axial layout proposed and checked; torque/preload, thread condition, runout and endurance not released"
+  },
+  "full_production_release": false
+}

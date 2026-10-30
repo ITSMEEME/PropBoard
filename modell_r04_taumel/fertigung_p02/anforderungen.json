@@ -1,0 +1,56 @@
+{
+  "strategy": "Complete purchased bearings, motors and servos; no in-house manufacture of their internals",
+  "overall_production_release": false,
+  "required_purchased_modules": [
+    {
+      "id": "B01", "quantity": 4, "item": "6806-2RS bearing, 30 x 42 x 7 mm",
+      "manufacturer_article": null, "verified_original_CAD": null,
+      "required": ["Exact manufacturer/order suffix, seal and internal-clearance variant", "Complete purchased-component STEP or manufacturer dimensional drawing", "Chamfer/radius and shoulder limits for seats", "Bore/OD tolerances and allowed fits, speed/load data"]
+    },
+    {
+      "id": "B02", "quantity": 2, "item": "6809-2RS bearing, 45 x 58 x 7 mm",
+      "manufacturer_article": null, "verified_original_CAD": null,
+      "required": ["Exact manufacturer/order suffix, seal and internal-clearance variant", "Complete purchased-component STEP or manufacturer dimensional drawing", "Shoulder/radius/fit data and axial location"]
+    },
+    {
+      "id": "M01", "quantity": 2, "item": "EMAX ECO II 2306 KV1900 complete motor",
+      "verified_original_CAD": null,
+      "required": ["Exact motor version and original STEP or fully dimensioned interface drawing", "Mounting pattern: rectangular pitch versus pitch-circle diameter, hole/thread size and screw depth", "Output shaft: diameter/thread/flats, usable length and shoulder", "Pinion retention and clearance to rotating bell"]
+    },
+    {
+      "id": "S01", "quantity": 6, "item": "Savox SB-2271SG(+) complete servo as supplied by user",
+      "verified_original_CAD": null,
+      "known_source": "User drawings and specification table",
+      "required": ["Exact SG/SG+ version", "Mounting-ear thickness and hole/slot dimensions", "Spline/retaining-screw dimensions or a compatible purchased 25T horn with drawing", "Servo supply and PWM/pulse/frame information before commissioning"]
+    },
+    {
+      "id": "S02", "quantity": 6, "item": "Compatible purchased 25T servo horn, linkage radius 8 mm",
+      "manufacturer_article": null,
+      "required": ["Exact horn article compatible with selected Savox", "Ball-stud hole, retaining screw, horn plane and offset"]
+    },
+    {
+      "id": "G01", "quantity": null, "item": "Real ball studs and adjustable rod ends for blade/servo links",
+      "manufacturer_article": null,
+      "required": ["Purchased product with ball diameter, thread, rod-end envelope and available articulation", "Thread engagement, adjustment range, retention and actual centre-to-centre lengths"]
+    }
+  ],
+  "critical_in_house_interfaces": [
+    {"id":"I01","part":"Motor plate","current":"PCD 16 mm produces 11.3137085 x 11.3137085 mm square pitch","blocking":"Original motor mounting pattern not verified"},
+    {"id":"I02","part":"Servo holders","current":"M01 positions correct nominal servo envelopes but no final tangential-axis mounting brackets","blocking":"Actual ear/horn interfaces and completed holder geometry required"},
+    {"id":"I03","part":"Swash sphere/stationary ring","current":"Closed sphere/closed socket pairing","blocking":"Assembly path and any required split/fasteners not resolved"},
+    {"id":"I04","part":"Blade root and pitch lever","current":"Nominal square/root pin interfaces, no completed real ball joint and axial lever lock","blocking":"Real joints, retention, fits/material/process details required"},
+    {"id":"I05","part":"Bearing seats and axial retainers","current":"Nominal dimensions, real fits/retention not fixed","blocking":"Selected bearing data, material and final seat/retention drawings required"},
+    {"id":"I06","part":"Pinion and motor shaft","current":"Nominal 5 mm bore/shaft, no final torque-proof retention","blocking":"Actual shaft drawing and retained pinion design required"},
+    {"id":"I07","part":"FC/ESC stack and cross bolts","current":"Mounting shanks, nominal board envelopes and unverified grommet stack","blocking":"Actual damper/bearing planes and complete fastener/locking definition required"}
+  ],
+  "source_search": {
+    "FreeCAD_library_revision": "f5ca01cdcaa2f69b9295a6382719c2d90628780c",
+    "matched_bearings_6806_6809": false,
+    "cq_warehouse_revision": "a57bb7a24762d367d66369f280a24c38a64e73dd",
+    "matching_bearing_rows_in_checked_tables": false,
+    "cq_warehouse_internals": "Library calculates ball count/geometry; not an OEM production drawing",
+    "GitHub_repository_queries": ["EMAX 2306", "6806 bearing CAD", "6809 bearing CAD", "Savox SB2271"],
+    "matching_repository_results_observed": 0,
+    "manufacturer_domains": "Not included in current enforced cloud HTTP allowlist; no new manufacturer CAD retrieved"
+  }
+}

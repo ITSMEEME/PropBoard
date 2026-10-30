@@ -1,0 +1,134 @@
+{
+  "source_file": "Eingang/Nutzerrecherche_2026-10-30.txt",
+  "source_sha256": "f66f9e00b7dbeeca9d8cb512448b122d812d0010ad997b04fcd8f0d769f001d5",
+  "source_class": "USER_PROVIDED_RESEARCH_NO_PRIMARY_URLS_OR_ORIGINAL_DRAWINGS",
+  "independently_manufacturer_verified": false,
+  "motor": {
+    "item": "EMAX ECO II 2306 KV1900",
+    "mount_pitch_mm": [
+      16,
+      16
+    ],
+    "mount_thread": "M3",
+    "applied_to_plate_as_user_provided_design_input": false,
+    "old_CAD_pattern": {
+      "pcd_mm": 16,
+      "equivalent_square_pitch_mm": 11.31370849898476
+    },
+    "body_diameter_mm": 28,
+    "reported_total_height_mm": 31.6,
+    "height_reference_unresolved": true,
+    "reported_internal_shaft_diameter_mm": 4,
+    "reported_propeller_connection": "M5",
+    "shaft_interface_note": "4 mm shaft and M5 propeller attachment are distinct dimensions; no automatic 4 mm pinion bore substitution",
+    "included_screw_lengths_mm": [
+      6,
+      7,
+      8
+    ],
+    "maximum_thread_engagement_mm": null,
+    "source_drawing": null,
+    "historically_applied_before_drawing": true
+  },
+  "servo_plus": {
+    "item": "Savox SB-2271SG+",
+    "identity_asserted_by_user_research": true,
+    "maximum_voltage_claim_V": 8.4,
+    "previous_table_maximum_V": 7.4,
+    "version_conflict": "Separate base SG and claimed SG+ data; no automatic physical supply-voltage change",
+    "body_height_claims_mm": [
+      38.5,
+      38.7
+    ],
+    "CAD_conservative_height_mm": 38.7,
+    "mass_g": 69,
+    "torque_kgcm": {
+      "6.0": 15,
+      "7.4": 20,
+      "8.4": 25
+    },
+    "speed_s_per_60deg": {
+      "6.0": 0.085,
+      "7.4": 0.065,
+      "8.4": 0.055
+    },
+    "earlier_speed_s_per_60deg": {
+      "6.0": 0.08,
+      "7.4": 0.06
+    },
+    "idle_current_A": {
+      "6.0": 0.18,
+      "7.4": 0.22
+    },
+    "stall_current_A": {
+      "6.0": 6,
+      "7.4": 7.4
+    },
+    "PWM_neutral_us": 1500,
+    "PWM_range_claim_us": [
+      800,
+      2200
+    ],
+    "frame_rate_claim_Hz": 333,
+    "verified_3_3V_signal_compatibility": null,
+    "ear_thickness_mm": null,
+    "ear_hole_geometry": null,
+    "horn_retaining_screw": null,
+    "continuous_torque_Nm": null
+  },
+  "BEC_screen": {
+    "servo_count": 6,
+    "simultaneous_stall_A_at_7_4V": 44.400000000000006,
+    "servo_power_W_at_7_4V": 328.56000000000006,
+    "stall_event_not_continuous_current": true,
+    "simultaneous_stall_A_at_6V": 36,
+    "idle_total_A_at_7_4V": 1.32,
+    "holding_current_load_curve_unknown": true,
+    "current_at_8_4V_unknown": true,
+    "design_status": "Peak-case arithmetic from unverified supplied values; not a complete BEC selection"
+  },
+  "horn": {
+    "proposed_name_from_text": "Hudy Aluminium Clamp Servo Horn 8mm Extended",
+    "proposed_article_from_text": "DY293422",
+    "verified_part_identity": false,
+    "verified_8mm_radial_lever_arm": false,
+    "reported_link_thread": "M3",
+    "existing_ball_stud_reference": "M2 / 4.8 mm",
+    "decision": "Not adopted: extended dimension is not proof of radial hole distance; M3 versus M2 interface needs a real matching joint"
+  },
+  "bearings": {
+    "dimensions_retained_mm": {
+      "6806-2RS": [
+        30,
+        42,
+        7
+      ],
+      "6809-2RS": [
+        45,
+        58,
+        7
+      ]
+    },
+    "manufacturer_not_yet_selected": true,
+    "tolerances_from_similar_size_rejected_for_release": true,
+    "shoulder_limits_not_defined_by_d_D_B_alone": true,
+    "claimed_6809_min_chamfer_mm": 0.3,
+    "clearance_range_claim_unverified": true,
+    "decision": "Do not transfer 6809 tolerances to 6806 or release shoulders/seats without exact selected bearing data"
+  },
+  "joints": {
+    "real_articles_still_missing": true,
+    "existing_blade_link_centres_mm": 15,
+    "generic_78mm_example_not_applicable": true
+  },
+  "electronics": {
+    "provided_example": "F405 V3 60A",
+    "target": "F405 V4 / 55A from original user image",
+    "grommet_geometry_verified_for_target": false,
+    "decision": "Do not adopt V3 example or infer rubber height from M3 x 8 label"
+  },
+  "M01_simulation_status": "Historical M01 results retain earlier speed/current assumptions. This P03 intake is not a new calibrated servo/flight validation.",
+  "overall_production_release": false,
+  "active": false,
+  "superseded_by": "User supplied EMAX ECOII-2306 drawing: 4-M3 on diameter16 pitch circle"
+}

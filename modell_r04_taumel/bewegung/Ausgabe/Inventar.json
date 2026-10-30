@@ -1,0 +1,33 @@
+{
+  "status": "KINEMATIC_SCHEMATIC_NOT_MANUFACTURER_COMPLETE",
+  "roles": {
+    "rotor": 6,
+    "blade": 16,
+    "pitch_horn": 16,
+    "blade_ball": 16,
+    "hub_pin": 32,
+    "ring_ball": 16,
+    "blade_link": 16,
+    "bearing_outer": 6,
+    "swash_rotating": 2,
+    "sleeve": 2,
+    "swash_stationary": 10,
+    "servo_link": 6,
+    "fixed": 44,
+    "motor_stator": 2,
+    "motor_shaft": 2,
+    "pinion": 2,
+    "servo_housing": 6,
+    "bearing_inner": 6,
+    "bearing_cage": 6,
+    "bearing_ball": 120,
+    "motor_bell": 2,
+    "servo_horn": 6,
+    "servo_shaft": 6,
+    "servo_tip": 6
+  },
+  "max_link_error_mm": 1.7763568394002505e-15,
+  "servo_geometry": "Nominal envelopes from supplied Savox/KST drawings; ear thickness and Savox bore/spline geometry unresolved",
+  "Savox_mass_g_from_user": 69,
+  "moving_geometry_includes_schematic_internals": true
+}

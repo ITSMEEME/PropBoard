@@ -1,0 +1,31 @@
+{
+  "source": "User supplied product drawings and specification table in chat, 2026-10-30",
+  "independently_verified_manufacturer_publication": false,
+  "Savox_SB2271SG": {
+    "identity": "SB-2271SG(+) from drawing; suffix must be confirmed on supplied unit",
+    "voltage_V": [6.0, 7.4], "mass_g": 69,
+    "speed_s_per_60deg": {"6.0": 0.08, "7.4": 0.06},
+    "advertised_dynamic_torque_kgcm": {"6.0": 15, "7.4": 20},
+    "advertised_dynamic_torque_Nm": {"6.0": 1.4709975, "7.4": 1.96133},
+    "torque_is_verified_continuous_rating": false,
+    "body_mm": [40.3,20.2,38.7], "overall_height_with_shaft_mm": 42.7,
+    "overall_mounting_length_mm": 54, "mounting_pitch_mm": [48,10],
+    "axis_offset_from_body_end_mm": 10.3, "ear_underside_from_bottom_mm": 25.9,
+    "output_spline": "25T; diameters and tooth geometry not provided",
+    "motor": "brushless", "gears": "steel",
+    "mount_hole_diameter_mm": null, "stall_current_A": null, "idle_current_A": null,
+    "PWM_neutral_us": null, "PWM_range_us": null, "frame_rate_Hz": null,
+    "travel_deg": null, "continuous_torque_Nm": null, "torque_speed_curve": null
+  },
+  "KST_X15_755X_760us": {
+    "identity": "X15-755X, 760 us printed on supplied product image",
+    "body_mm": [35.5,15,31.6], "overall_height_with_shaft_mm": 36.6,
+    "overall_mounting_length_mm": 47.5, "mounting_pitch_mm": [41.5,7.5],
+    "axis_offset_from_body_end_mm": 11.2, "ear_underside_from_bottom_mm": 22.9,
+    "PWM_neutral_us": 760, "PWM_frame_rate_Hz": null,
+    "not_compatible_with_unverified_1500us_setup": true,
+    "voltage_V": null, "mass_g": null, "speed_s_per_60deg": null,
+    "torque_Nm": null, "stall_current_A": null,
+    "selection_status": "not selected for flight; signal format, travel and load data missing"
+  }
+}

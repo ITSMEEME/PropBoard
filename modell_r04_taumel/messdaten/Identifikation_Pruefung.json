@@ -1,0 +1,26 @@
+{
+  "status": "SYNTHETIC_TESTS_ONLY_NO_REAL_MEASUREMENTS",
+  "results": [
+    {
+      "name": "Synthetic friction recovery",
+      "status": "PASS",
+      "effective_mu": 0.07999999999999999
+    },
+    {
+      "name": "Synthetic effective servo lag recovery",
+      "status": "PASS",
+      "tau_s": 0.04889252503861932,
+      "delay_s": 0.011
+    },
+    {
+      "name": "Synthetic aero correction recovery",
+      "status": "PASS",
+      "kT": 0.9,
+      "kQ": 1.1500000000000001
+    },
+    {
+      "name": "Empty physical measurement templates rejected",
+      "status": "PASS"
+    }
+  ]
+}

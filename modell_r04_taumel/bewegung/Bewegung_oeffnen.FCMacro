@@ -1,0 +1,52 @@
+# FreeCAD GUI macro: native M01 timeline, servo-envelope comparison and flight replay.
+import os,sys,json,time
+import FreeCAD as App,FreeCADGui as Gui
+from pathlib import Path
+from PySide import QtCore,QtGui
+try:from PySide import QtWidgets
+except ImportError:QtWidgets=QtGui
+here=Path(__file__).resolve().parent
+if str(here) not in sys.path:sys.path.insert(0,str(here))
+import bewegung_runtime,servo_geometrie
+source=here/'Ausgabe/Cohexial_R04_M01_Bewegung.FCStd'
+doc=App.openDocument(str(source));ctl=doc.getObject('Bewegungssteuerung');ctl.Proxy=bewegung_runtime.MotionController(ctl)
+for o in doc.Objects:
+    if hasattr(o,'MotionRole'):
+        o.ViewObject.Visibility=not o.BauteilID.startswith('KEEP_')
+        o.ViewObject.ShapeColor=(.15,.65,.78) if o.MotionRole!='fixed' and o.Rotor==0 else (.88,.52,.23) if o.MotionRole!='fixed' else (.7,.73,.76)
+Gui.activeDocument().activeView().viewAxonometric()
+class MotionPanel(QtWidgets.QDialog):
+    def __init__(self):
+        super().__init__(Gui.getMainWindow());self.setWindowTitle('Cohexial Study M01 – Bewegung / Flugwiedergabe');self.resize(610,280)
+        self.frames=json.loads(ctl.WiedergabeJSON);self.timer=QtCore.QTimer(self);self.timer.timeout.connect(self.tick);self.playing=False
+        layout=QtWidgets.QVBoxLayout(self)
+        label=QtWidgets.QLabel('Kinematische Bewegung, keine Kraft-/Kontaktlösung in FreeCAD.\nSavöx-Daten aus Nutzerangabe; KST 760 µs benötigt passende Ansteuerung.\nServohalter und Motor-/Lagerinneres noch nicht fertigungsfreigegeben.');label.setWordWrap(True);layout.addWidget(label)
+        row=QtWidgets.QHBoxLayout();self.scenario=QtWidgets.QComboBox();self.scenario.addItems(list(self.frames));self.scenario.currentTextChanged.connect(self.change);row.addWidget(self.scenario)
+        self.servo=QtWidgets.QComboBox();self.servo.addItems(['Savox_SB2271SG','KST_X15_755X_760us']);self.servo.currentTextChanged.connect(self.servo_change);row.addWidget(self.servo);layout.addLayout(row)
+        self.slider=QtWidgets.QSlider(QtCore.Qt.Horizontal);self.slider.setRange(0,1000);self.slider.sliderMoved.connect(self.seek);layout.addWidget(self.slider)
+        row=QtWidgets.QHBoxLayout();self.button=QtWidgets.QPushButton('Start');self.button.clicked.connect(self.toggle);row.addWidget(self.button)
+        self.speed=QtWidgets.QComboBox();self.speed.addItems(['0.05','0.1','0.25','1.0']);self.speed.setCurrentText('1.0');row.addWidget(QtWidgets.QLabel('Zeitfaktor'));row.addWidget(self.speed)
+        reset=QtWidgets.QPushButton('Zurück zum Anfang');reset.clicked.connect(lambda:self.seek(0));row.addWidget(reset);layout.addLayout(row)
+        self.status=QtWidgets.QLabel();layout.addWidget(self.status);self.change(self.scenario.currentText())
+    def duration(self):return self.frames[self.scenario.currentText()]['frames'][-1]['t']
+    def update_scene(self,t):
+        ctl.Zeit_s=t;doc.recompute();self.slider.setValue(round(t/self.duration()*1000));self.status.setText(f't = {t:.3f} s · Gestängeschluss max. {ctl.MaxGestangefehler_mm:.3g} mm');Gui.updateGui()
+    def change(self,name):
+        self.stop();
+        if name!='Kinematik_Demo' and self.servo.currentText()!='Savox_SB2271SG':self.servo.setCurrentText('Savox_SB2271SG')
+        ctl.Modus=name;self.update_scene(0);Gui.activeDocument().activeView().fitAll()
+    def servo_change(self,name):
+        if name=='KST_X15_755X_760us':self.scenario.setCurrentText('Kinematik_Demo')
+        ctl.ServoTyp=name;doc.recompute();Gui.updateGui()
+    def seek(self,value):self.stop();self.update_scene(value*self.duration()/1000)
+    def stop(self):self.timer.stop();self.playing=False;self.button.setText('Start')
+    def toggle(self):
+        if self.playing:self.stop()
+        else:self.playing=True;self.button.setText('Pause');self.last=time.monotonic();self.timer.start(50)
+    def tick(self):
+        if doc.Name not in App.listDocuments():self.stop();return
+        now=time.monotonic();t=ctl.Zeit_s+(now-self.last)*float(self.speed.currentText());self.last=now
+        if t>=self.duration():t=self.duration();self.stop()
+        self.update_scene(t)
+    def closeEvent(self,event):self.stop();event.accept()
+M01_panel=MotionPanel();M01_panel.show()

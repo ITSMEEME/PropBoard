@@ -1,0 +1,13 @@
+{
+  "overall_production_release": false,
+  "purchased_module_types_awaiting_data": 6,
+  "in_house_interface_blockers": 7,
+  "dimension_checked_imported_standard_types": 4,
+  "native_assembly_imported_fastener_instances": 12,
+  "rules": [
+    "Purchased internals do not need in-house production drawings",
+    "Community library geometry is not automatically original manufacturer CAD",
+    "Unmatched bearing sizes are not scaled replacements",
+    "A STEP/STL/FCStd file is not by itself a production release"
+  ]
+}

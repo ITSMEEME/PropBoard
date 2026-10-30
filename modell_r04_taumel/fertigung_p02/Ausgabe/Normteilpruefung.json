@@ -1,0 +1,82 @@
+{
+  "status": "IMPORTED_STANDARD_INTERFACES_DIMENSIONALLY_CHECKED_NOT_COMPLETE_ASSEMBLY_APPROVAL",
+  "assets": [
+    {
+      "id": "N01_M3x10",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 126.38024215502975,
+      "source_sha256": "0d17d72f29de23c52f7ccd00715edf76c63ae839eb57c966ab2ac0b057b8b45a",
+      "dimensions": {
+        "thread_nominal": "M3",
+        "length_under_head_mm": 10,
+        "head_height_mm": 3,
+        "head_diameter_mm": 5.5,
+        "physical_max_radius_mm": 2.750000115817461
+      },
+      "occt_conservative_bbox_mm": [
+        5.953157101608167,
+        5.953157101608167,
+        13.000000000000224
+      ]
+    },
+    {
+      "id": "N02_M3x12",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 140.51740909618312,
+      "source_sha256": "3fd0f3aeda90b8b1ced06a89ec20660b4ebff5cde87a564c5f22e496e5f29337",
+      "dimensions": {
+        "thread_nominal": "M3",
+        "length_under_head_mm": 12,
+        "head_height_mm": 3,
+        "head_diameter_mm": 5.5,
+        "physical_max_radius_mm": 2.750000115817461
+      },
+      "occt_conservative_bbox_mm": [
+        5.953157101608167,
+        5.953157101608167,
+        15.000000000000224
+      ]
+    },
+    {
+      "id": "N03_M3x40",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 338.3350390214807,
+      "source_sha256": "12e94a3fdd10ee9ed3f49643838b53d65a604647b907d9af9b493c267004a84e",
+      "dimensions": {
+        "thread_nominal": "M3",
+        "length_under_head_mm": 40,
+        "head_height_mm": 3,
+        "head_diameter_mm": 5.5,
+        "physical_max_radius_mm": 2.750000115817461
+      },
+      "occt_conservative_bbox_mm": [
+        5.953157101608167,
+        5.953157101608167,
+        43.00000000000023
+      ]
+    },
+    {
+      "id": "N04_Mutter_M3",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 45.15388372585278,
+      "source_sha256": "e034d524d2466e4ad6558f1ac3b7ed878900b6d47923cc8d8fae31d258b292fc",
+      "dimensions": {
+        "thread_nominal": "M3",
+        "height_mm": 2.400000002759933,
+        "across_flats_mm": 5.5,
+        "physical_max_radius_mm": 3.175000038281155
+      },
+      "occt_conservative_bbox_mm": [
+        6.350000000002207,
+        6.350000000002207,
+        2.400000002759933
+      ]
+    }
+  ],
+  "native_reopen_pass": true,
+  "notes": "STEP bounding boxes are conservative on some trimmed chamfer surfaces; head diameter was checked on cylindrical surfaces and refined mesh. Threads are nominal, not verified 3D flanks."
+}

@@ -1,0 +1,169 @@
+{
+  "status": "PARTIAL_STANDARD_PART_INTEGRATION_COMPLETE_FULL_PRODUCTION_BLOCKED",
+  "native_sha256": "5171c6f72a43dc022441ea52a6894e731a989bb1fc1554b18931a60fde6eed19",
+  "source_m01_sha256": "3b84be5603644f22f2dca5d7071d84c132d596decd52bae53da9a564a6971d63",
+  "imported_bolts": 8,
+  "imported_cap_nuts": 4,
+  "checks": [
+    {
+      "bolt": "M3_Stack_0",
+      "head_bearing_plane_z_mm": 96,
+      "reference": "Mitte_2",
+      "interference_mm3": 0.0
+    },
+    {
+      "bolt": "M3_Stack_1",
+      "head_bearing_plane_z_mm": 96,
+      "reference": "Mitte_2",
+      "interference_mm3": 0.0
+    },
+    {
+      "bolt": "M3_Stack_2",
+      "head_bearing_plane_z_mm": 96,
+      "reference": "Mitte_2",
+      "interference_mm3": 0.0
+    },
+    {
+      "bolt": "M3_Stack_3",
+      "head_bearing_plane_z_mm": 96,
+      "reference": "Mitte_2",
+      "interference_mm3": 0.0
+    },
+    {
+      "bolt": "M3_Anschluss_0",
+      "head_bearing_plane_z_mm": -104,
+      "reference": "Akku_Anschlussplatte",
+      "interference_mm3": 0.0
+    },
+    {
+      "bolt": "M3_Anschluss_1",
+      "head_bearing_plane_z_mm": -104,
+      "reference": "Akku_Anschlussplatte",
+      "interference_mm3": 0.0
+    },
+    {
+      "bolt": "M3_Anschluss_2",
+      "head_bearing_plane_z_mm": -104,
+      "reference": "Akku_Anschlussplatte",
+      "interference_mm3": 0.0
+    },
+    {
+      "bolt": "M3_Anschluss_3",
+      "head_bearing_plane_z_mm": -104,
+      "reference": "Akku_Anschlussplatte",
+      "interference_mm3": 0.0
+    },
+    {
+      "nut": "P02_Mutter_Anschluss_0",
+      "clamping_plane_z_mm": -96,
+      "reference": "Mitte_3",
+      "interference_mm3": 0.0
+    },
+    {
+      "nut": "P02_Mutter_Anschluss_1",
+      "clamping_plane_z_mm": -96,
+      "reference": "Mitte_3",
+      "interference_mm3": 0.0
+    },
+    {
+      "nut": "P02_Mutter_Anschluss_2",
+      "clamping_plane_z_mm": -96,
+      "reference": "Mitte_3",
+      "interference_mm3": 0.0
+    },
+    {
+      "nut": "P02_Mutter_Anschluss_3",
+      "clamping_plane_z_mm": -96,
+      "reference": "Mitte_3",
+      "interference_mm3": 0.0
+    },
+    {
+      "bolt": "M3_Anschluss_0",
+      "nut": "P02_Mutter_Anschluss_0",
+      "thread_end_protrusion_mm": 1.5999999985062914
+    },
+    {
+      "bolt": "M3_Anschluss_1",
+      "nut": "P02_Mutter_Anschluss_1",
+      "thread_end_protrusion_mm": 1.5999999985062914
+    },
+    {
+      "bolt": "M3_Anschluss_2",
+      "nut": "P02_Mutter_Anschluss_2",
+      "thread_end_protrusion_mm": 1.5999999985062914
+    },
+    {
+      "bolt": "M3_Anschluss_3",
+      "nut": "P02_Mutter_Anschluss_3",
+      "thread_end_protrusion_mm": 1.5999999985062914
+    }
+  ],
+  "native_reopen_pass": true,
+  "production_release": false,
+  "hardware_not_completed": [
+    "Stack upper nuts/grommets and bearing planes not defined",
+    "Four M3x80 battery fasteners not replaced by a different or scaled length",
+    "Two M2x35 cross fasteners and their bearing surfaces not defined"
+  ],
+  "motor_mount_current": {
+    "pcd_mm": 16,
+    "square_pitch_mm": 11.31370849898476
+  },
+  "source_class": "Community library dimension-checked standard models, not original OEM CAD or supplier certification",
+  "integration_tested_native_before_mass_metadata_sha256": "ea4140c633ce1c991bd438262f959ba228714e9d28d3d5d546b45fc37f6f7716",
+  "nominal_imported_masses": [
+    {
+      "name": "M3_Stack_0",
+      "nominal_CAD_mass_g": 2.65593
+    },
+    {
+      "name": "M3_Stack_1",
+      "nominal_CAD_mass_g": 2.65593
+    },
+    {
+      "name": "M3_Stack_2",
+      "nominal_CAD_mass_g": 2.65593
+    },
+    {
+      "name": "M3_Stack_3",
+      "nominal_CAD_mass_g": 2.65593
+    },
+    {
+      "name": "M3_Anschluss_0",
+      "nominal_CAD_mass_g": 1.10306
+    },
+    {
+      "name": "M3_Anschluss_1",
+      "nominal_CAD_mass_g": 1.10306
+    },
+    {
+      "name": "M3_Anschluss_2",
+      "nominal_CAD_mass_g": 1.10306
+    },
+    {
+      "name": "M3_Anschluss_3",
+      "nominal_CAD_mass_g": 1.10306
+    },
+    {
+      "name": "P02_Mutter_Anschluss_0",
+      "nominal_CAD_mass_g": 0.35446
+    },
+    {
+      "name": "P02_Mutter_Anschluss_1",
+      "nominal_CAD_mass_g": 0.35446
+    },
+    {
+      "name": "P02_Mutter_Anschluss_2",
+      "nominal_CAD_mass_g": 0.35446
+    },
+    {
+      "name": "P02_Mutter_Anschluss_3",
+      "nominal_CAD_mass_g": 0.35446
+    }
+  ],
+  "mass_metadata_only_update_geometry_equivalence_pass": true,
+  "STEP_roundtrip_valid": true,
+  "STEP_physical_part_count": 216,
+  "STEP_solids": 224,
+  "STEP_excludes_group_aggregates": true
+}

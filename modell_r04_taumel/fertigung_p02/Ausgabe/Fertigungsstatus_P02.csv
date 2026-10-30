@@ -1,0 +1,18 @@
+id;quantity;item;status;required
+B01;4;6806-2RS bearing, 30 x 42 x 7 mm;GESPERRT_ANSCHLUSSDATEN_FEHLEN;"Exact manufacturer/order suffix, seal and internal-clearance variant; Complete purchased-component STEP or manufacturer dimensional drawing; Chamfer/radius and shoulder limits for seats; Bore/OD tolerances and allowed fits, speed/load data"
+B02;2;6809-2RS bearing, 45 x 58 x 7 mm;GESPERRT_ANSCHLUSSDATEN_FEHLEN;"Exact manufacturer/order suffix, seal and internal-clearance variant; Complete purchased-component STEP or manufacturer dimensional drawing; Shoulder/radius/fit data and axial location"
+M01;2;EMAX ECO II 2306 KV1900 complete motor;GESPERRT_ANSCHLUSSDATEN_FEHLEN;"Exact motor version and original STEP or fully dimensioned interface drawing; Mounting pattern: rectangular pitch versus pitch-circle diameter, hole/thread size and screw depth; Output shaft: diameter/thread/flats, usable length and shoulder; Pinion retention and clearance to rotating bell"
+S01;6;Savox SB-2271SG(+) complete servo as supplied by user;GESPERRT_ANSCHLUSSDATEN_FEHLEN;"Exact SG/SG+ version; Mounting-ear thickness and hole/slot dimensions; Spline/retaining-screw dimensions or a compatible purchased 25T horn with drawing; Servo supply and PWM/pulse/frame information before commissioning"
+S02;6;Compatible purchased 25T servo horn, linkage radius 8 mm;GESPERRT_ANSCHLUSSDATEN_FEHLEN;"Exact horn article compatible with selected Savox; Ball-stud hole, retaining screw, horn plane and offset"
+G01;;Real ball studs and adjustable rod ends for blade/servo links;GESPERRT_ANSCHLUSSDATEN_FEHLEN;"Purchased product with ball diameter, thread, rod-end envelope and available articulation; Thread engagement, adjustment range, retention and actual centre-to-centre lengths"
+I01;;Motor plate;GESPERRT_KONSTRUKTION_OFFEN;Original motor mounting pattern not verified
+I02;;Servo holders;GESPERRT_KONSTRUKTION_OFFEN;Actual ear/horn interfaces and completed holder geometry required
+I03;;Swash sphere/stationary ring;GESPERRT_KONSTRUKTION_OFFEN;Assembly path and any required split/fasteners not resolved
+I04;;Blade root and pitch lever;GESPERRT_KONSTRUKTION_OFFEN;Real joints, retention, fits/material/process details required
+I05;;Bearing seats and axial retainers;GESPERRT_KONSTRUKTION_OFFEN;Selected bearing data, material and final seat/retention drawings required
+I06;;Pinion and motor shaft;GESPERRT_KONSTRUKTION_OFFEN;Actual shaft drawing and retained pinion design required
+I07;;FC/ESC stack and cross bolts;GESPERRT_KONSTRUKTION_OFFEN;Actual damper/bearing planes and complete fastener/locking definition required
+N01_M3x10;siehe Integration;N01_M3x10;NENNMASSE_GEPRUEFT_KEINE_GESAMTFREIGABE;Klemmlänge, Schraubensicherung, Gegenflächen und Montagekontext prüfen
+N02_M3x12;siehe Integration;N02_M3x12;NENNMASSE_GEPRUEFT_KEINE_GESAMTFREIGABE;Klemmlänge, Schraubensicherung, Gegenflächen und Montagekontext prüfen
+N03_M3x40;siehe Integration;N03_M3x40;NENNMASSE_GEPRUEFT_KEINE_GESAMTFREIGABE;Klemmlänge, Schraubensicherung, Gegenflächen und Montagekontext prüfen
+N04_Mutter_M3;siehe Integration;N04_Mutter_M3;NENNMASSE_GEPRUEFT_KEINE_GESAMTFREIGABE;Klemmlänge, Schraubensicherung, Gegenflächen und Montagekontext prüfen

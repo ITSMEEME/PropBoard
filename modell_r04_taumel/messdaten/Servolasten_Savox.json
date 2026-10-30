@@ -1,0 +1,471 @@
+{
+  "status": "CALCULATED_REQUIREMENTS_NOT_A_SERVO_CONTINUOUS_LOAD_APPROVAL",
+  "mass_kg": 1.5776763200000006,
+  "mechanical_states": 728,
+  "results": [
+    {
+      "aero_model": "SIMPLIFIED_HISTORICAL",
+      "stage": "hover",
+      "rpm": 2645.7672119140625,
+      "mu_assumed": 0,
+      "centrifugal_load_per_blade_N": 74.95189029624959,
+      "required_each_servo_Nm_with_factor2": 0.24813335591635502,
+      "required_kgcm_with_factor2": 2.5302560600852995,
+      "advertised_7_4V_ratio": 7.904338345632008,
+      "advertised_6V_ratio": 5.928253759224006,
+      "critical": {
+        "rotor": 1,
+        "collective": 21,
+        "cyclic": 4,
+        "phase": 300,
+        "azimuth": 11.25
+      },
+      "aero_final_fallback_fraction": 0
+    },
+    {
+      "aero_model": "SIMPLIFIED_HISTORICAL",
+      "stage": "hover",
+      "rpm": 2645.7672119140625,
+      "mu_assumed": 0.03,
+      "centrifugal_load_per_blade_N": 74.95189029624959,
+      "required_each_servo_Nm_with_factor2": 0.36472463841023084,
+      "required_kgcm_with_factor2": 3.7191562705942482,
+      "advertised_7_4V_ratio": 5.377563765774325,
+      "advertised_6V_ratio": 4.033172824330744,
+      "critical": {
+        "rotor": 1,
+        "collective": 21,
+        "cyclic": 4,
+        "phase": 180,
+        "azimuth": 33.75
+      },
+      "aero_final_fallback_fraction": 0
+    },
+    {
+      "aero_model": "SIMPLIFIED_HISTORICAL",
+      "stage": "hover",
+      "rpm": 2645.7672119140625,
+      "mu_assumed": 0.1,
+      "centrifugal_load_per_blade_N": 74.95189029624959,
+      "required_each_servo_Nm_with_factor2": 0.6368806010780119,
+      "required_kgcm_with_factor2": 6.49437474650377,
+      "advertised_7_4V_ratio": 3.0795882252971234,
+      "advertised_6V_ratio": 2.3096911689728428,
+      "critical": {
+        "rotor": 1,
+        "collective": 21,
+        "cyclic": 4,
+        "phase": 180,
+        "azimuth": 33.75
+      },
+      "aero_final_fallback_fraction": 0
+    },
+    {
+      "aero_model": "SIMPLIFIED_HISTORICAL",
+      "stage": "hover",
+      "rpm": 2645.7672119140625,
+      "mu_assumed": 0.2,
+      "centrifugal_load_per_blade_N": 74.95189029624959,
+      "required_each_servo_Nm_with_factor2": 1.0256748334605563,
+      "required_kgcm_with_factor2": 10.458972569231657,
+      "advertised_7_4V_ratio": 1.9122337177588804,
+      "advertised_6V_ratio": 1.43417528831916,
+      "critical": {
+        "rotor": 1,
+        "collective": 21,
+        "cyclic": 4,
+        "phase": 180,
+        "azimuth": 33.75
+      },
+      "aero_final_fallback_fraction": 0
+    },
+    {
+      "aero_model": "SIMPLIFIED_HISTORICAL",
+      "stage": "tw2",
+      "rpm": 3739.4744873046875,
+      "mu_assumed": 0,
+      "centrifugal_load_per_blade_N": 149.72712284427118,
+      "required_each_servo_Nm_with_factor2": 0.49583403663564274,
+      "required_kgcm_with_factor2": 5.056100061036569,
+      "advertised_7_4V_ratio": 3.955617918665108,
+      "advertised_6V_ratio": 2.966713438998831,
+      "critical": {
+        "rotor": 1,
+        "collective": 21,
+        "cyclic": 4,
+        "phase": 300,
+        "azimuth": 11.25
+      },
+      "aero_final_fallback_fraction": 0
+    },
+    {
+      "aero_model": "SIMPLIFIED_HISTORICAL",
+      "stage": "tw2",
+      "rpm": 3739.4744873046875,
+      "mu_assumed": 0.03,
+      "centrifugal_load_per_blade_N": 149.72712284427118,
+      "required_each_servo_Nm_with_factor2": 0.7287421525555131,
+      "required_kgcm_with_factor2": 7.431101880412915,
+      "advertised_7_4V_ratio": 2.691390902971806,
+      "advertised_6V_ratio": 2.0185431772288545,
+      "critical": {
+        "rotor": 1,
+        "collective": 21,
+        "cyclic": 4,
+        "phase": 180,
+        "azimuth": 33.75
+      },
+      "aero_final_fallback_fraction": 0
+    },
+    {
+      "aero_model": "SIMPLIFIED_HISTORICAL",
+      "stage": "tw2",
+      "rpm": 3739.4744873046875,
+      "mu_assumed": 0.1,
+      "centrifugal_load_per_blade_N": 149.72712284427118,
+      "required_each_servo_Nm_with_factor2": 1.2724126202928523,
+      "required_kgcm_with_factor2": 12.974997785103499,
+      "advertised_7_4V_ratio": 1.5414260820115018,
+      "advertised_6V_ratio": 1.1560695615086263,
+      "critical": {
+        "rotor": 1,
+        "collective": 21,
+        "cyclic": 4,
+        "phase": 180,
+        "azimuth": 33.75
+      },
+      "aero_final_fallback_fraction": 0
+    },
+    {
+      "aero_model": "SIMPLIFIED_HISTORICAL",
+      "stage": "tw2",
+      "rpm": 3739.4744873046875,
+      "mu_assumed": 0.2,
+      "centrifugal_load_per_blade_N": 149.72712284427118,
+      "required_each_servo_Nm_with_factor2": 2.0490847170604796,
+      "required_kgcm_with_factor2": 20.894849077518618,
+      "advertised_7_4V_ratio": 0.9571736998817851,
+      "advertised_6V_ratio": 0.7178802749113388,
+      "critical": {
+        "rotor": 1,
+        "collective": 21,
+        "cyclic": 4,
+        "phase": 180,
+        "azimuth": 33.75
+      },
+      "aero_final_fallback_fraction": 0
+    },
+    {
+      "aero_model": "CAD_XFOIL_N4",
+      "stage": "hover",
+      "rpm": 2568.9910888671875,
+      "mu_assumed": 0,
+      "centrifugal_load_per_blade_N": 70.66502643246588,
+      "required_each_servo_Nm_with_factor2": 0.23949298798597835,
+      "required_kgcm_with_factor2": 2.442148827438303,
+      "advertised_7_4V_ratio": 8.189509081221328,
+      "advertised_6V_ratio": 6.142131810915996,
+      "critical": {
+        "rotor": 1,
+        "collective": 21,
+        "cyclic": 4,
+        "phase": 300,
+        "azimuth": 11.25
+      },
+      "aero_final_fallback_fraction": 0
+    },
+    {
+      "aero_model": "CAD_XFOIL_N4",
+      "stage": "hover",
+      "rpm": 2568.9910888671875,
+      "mu_assumed": 0.03,
+      "centrifugal_load_per_blade_N": 70.66502643246588,
+      "required_each_servo_Nm_with_factor2": 0.3494286378199068,
+      "required_kgcm_with_factor2": 3.5631804726375145,
+      "advertised_7_4V_ratio": 5.612962956433057,
+      "advertised_6V_ratio": 4.209722217324793,
+      "critical": {
+        "rotor": 1,
+        "collective": 21,
+        "cyclic": 4,
+        "phase": 180,
+        "azimuth": 33.75
+      },
+      "aero_final_fallback_fraction": 0
+    },
+    {
+      "aero_model": "CAD_XFOIL_N4",
+      "stage": "hover",
+      "rpm": 2568.9910888671875,
+      "mu_assumed": 0.1,
+      "centrifugal_load_per_blade_N": 70.66502643246588,
+      "required_each_servo_Nm_with_factor2": 0.6060186747043304,
+      "required_kgcm_with_factor2": 6.179670679634027,
+      "advertised_7_4V_ratio": 3.236418417232622,
+      "advertised_6V_ratio": 2.4273138129244662,
+      "critical": {
+        "rotor": 1,
+        "collective": 21,
+        "cyclic": 4,
+        "phase": 180,
+        "azimuth": 33.75
+      },
+      "aero_final_fallback_fraction": 0
+    },
+    {
+      "aero_model": "CAD_XFOIL_N4",
+      "stage": "hover",
+      "rpm": 2568.9910888671875,
+      "mu_assumed": 0.2,
+      "centrifugal_load_per_blade_N": 70.66502643246588,
+      "required_each_servo_Nm_with_factor2": 0.9725758702535068,
+      "required_kgcm_with_factor2": 9.917513832486188,
+      "advertised_7_4V_ratio": 2.016634444661648,
+      "advertised_6V_ratio": 1.5124758334962363,
+      "critical": {
+        "rotor": 1,
+        "collective": 21,
+        "cyclic": 4,
+        "phase": 180,
+        "azimuth": 33.75
+      },
+      "aero_final_fallback_fraction": 0
+    },
+    {
+      "aero_model": "CAD_XFOIL_N4",
+      "stage": "tw2",
+      "rpm": 3709.6099853515625,
+      "mu_assumed": 0,
+      "centrifugal_load_per_blade_N": 147.34514616191439,
+      "required_each_servo_Nm_with_factor2": 0.491910303284119,
+      "required_kgcm_with_factor2": 5.01608911589706,
+      "advertised_7_4V_ratio": 3.9871699919795525,
+      "advertised_6V_ratio": 2.9903774939846643,
+      "critical": {
+        "rotor": 1,
+        "collective": 21,
+        "cyclic": 4,
+        "phase": 300,
+        "azimuth": 11.25
+      },
+      "aero_final_fallback_fraction": 0.2375
+    },
+    {
+      "aero_model": "CAD_XFOIL_N4",
+      "stage": "tw2",
+      "rpm": 3709.6099853515625,
+      "mu_assumed": 0.03,
+      "centrifugal_load_per_blade_N": 147.34514616191439,
+      "required_each_servo_Nm_with_factor2": 0.7211222679588176,
+      "required_kgcm_with_factor2": 7.353400681770203,
+      "advertised_7_4V_ratio": 2.719830030421428,
+      "advertised_6V_ratio": 2.039872522816071,
+      "critical": {
+        "rotor": 1,
+        "collective": 21,
+        "cyclic": 4,
+        "phase": 180,
+        "azimuth": 33.75
+      },
+      "aero_final_fallback_fraction": 0.2375
+    },
+    {
+      "aero_model": "CAD_XFOIL_N4",
+      "stage": "tw2",
+      "rpm": 3709.6099853515625,
+      "mu_assumed": 0.1,
+      "centrifugal_load_per_blade_N": 147.34514616191439,
+      "required_each_servo_Nm_with_factor2": 1.2561435988368101,
+      "required_kgcm_with_factor2": 12.80909993562338,
+      "advertised_7_4V_ratio": 1.5613899571802086,
+      "advertised_6V_ratio": 1.1710424678851563,
+      "critical": {
+        "rotor": 1,
+        "collective": 21,
+        "cyclic": 4,
+        "phase": 180,
+        "azimuth": 33.75
+      },
+      "aero_final_fallback_fraction": 0.2375
+    },
+    {
+      "aero_model": "CAD_XFOIL_N4",
+      "stage": "tw2",
+      "rpm": 3709.6099853515625,
+      "mu_assumed": 0.2,
+      "centrifugal_load_per_blade_N": 147.34514616191439,
+      "required_each_servo_Nm_with_factor2": 2.0204597858053703,
+      "required_kgcm_with_factor2": 20.602956012556483,
+      "advertised_7_4V_ratio": 0.9707344901290372,
+      "advertised_6V_ratio": 0.728050867596778,
+      "critical": {
+        "rotor": 1,
+        "collective": 21,
+        "cyclic": 4,
+        "phase": 180,
+        "azimuth": 33.75
+      },
+      "aero_final_fallback_fraction": 0.2375
+    },
+    {
+      "aero_model": "CAD_XFOIL_N9",
+      "stage": "hover",
+      "rpm": 2557.5836181640625,
+      "mu_assumed": 0,
+      "centrifugal_load_per_blade_N": 70.03885106010615,
+      "required_each_servo_Nm_with_factor2": 0.23864046923188856,
+      "required_kgcm_with_factor2": 2.433455555484172,
+      "advertised_7_4V_ratio": 8.218765267739071,
+      "advertised_6V_ratio": 6.164073950804303,
+      "critical": {
+        "rotor": 1,
+        "collective": 21,
+        "cyclic": 4,
+        "phase": 300,
+        "azimuth": 11.25
+      },
+      "aero_final_fallback_fraction": 0
+    },
+    {
+      "aero_model": "CAD_XFOIL_N9",
+      "stage": "hover",
+      "rpm": 2557.5836181640625,
+      "mu_assumed": 0.03,
+      "centrifugal_load_per_blade_N": 70.03885106010615,
+      "required_each_servo_Nm_with_factor2": 0.3476048850583805,
+      "required_kgcm_with_factor2": 3.544583370043598,
+      "advertised_7_4V_ratio": 5.642412072749188,
+      "advertised_6V_ratio": 4.231809054561891,
+      "critical": {
+        "rotor": 1,
+        "collective": 21,
+        "cyclic": 4,
+        "phase": 180,
+        "azimuth": 33.75
+      },
+      "aero_final_fallback_fraction": 0
+    },
+    {
+      "aero_model": "CAD_XFOIL_N9",
+      "stage": "hover",
+      "rpm": 2557.5836181640625,
+      "mu_assumed": 0.1,
+      "centrifugal_load_per_blade_N": 70.03885106010615,
+      "required_each_servo_Nm_with_factor2": 0.6019212319719462,
+      "required_kgcm_with_factor2": 6.137888391774421,
+      "advertised_7_4V_ratio": 3.258449604069477,
+      "advertised_6V_ratio": 2.4438372030521074,
+      "critical": {
+        "rotor": 1,
+        "collective": 21,
+        "cyclic": 4,
+        "phase": 180,
+        "azimuth": 33.75
+      },
+      "aero_final_fallback_fraction": 0
+    },
+    {
+      "aero_model": "CAD_XFOIL_N9",
+      "stage": "hover",
+      "rpm": 2557.5836181640625,
+      "mu_assumed": 0.2,
+      "centrifugal_load_per_blade_N": 70.03885106010615,
+      "required_each_servo_Nm_with_factor2": 0.965230298991326,
+      "required_kgcm_with_factor2": 9.842609851389883,
+      "advertised_7_4V_ratio": 2.0319813852192654,
+      "advertised_6V_ratio": 1.5239860389144488,
+      "critical": {
+        "rotor": 1,
+        "collective": 21,
+        "cyclic": 4,
+        "phase": 180,
+        "azimuth": 33.75
+      },
+      "aero_final_fallback_fraction": 0
+    },
+    {
+      "aero_model": "CAD_XFOIL_N9",
+      "stage": "tw2",
+      "rpm": 3617.9656982421875,
+      "mu_assumed": 0,
+      "centrifugal_load_per_blade_N": 140.1548787883832,
+      "required_each_servo_Nm_with_factor2": 0.47691720762280804,
+      "required_kgcm_with_factor2": 4.863202088611382,
+      "advertised_7_4V_ratio": 4.112516740119824,
+      "advertised_6V_ratio": 3.0843875550898683,
+      "critical": {
+        "rotor": 1,
+        "collective": 21,
+        "cyclic": 4,
+        "phase": 300,
+        "azimuth": 11.25
+      },
+      "aero_final_fallback_fraction": 0
+    },
+    {
+      "aero_model": "CAD_XFOIL_N9",
+      "stage": "tw2",
+      "rpm": 3617.9656982421875,
+      "mu_assumed": 0.03,
+      "centrifugal_load_per_blade_N": 140.1548787883832,
+      "required_each_servo_Nm_with_factor2": 0.6949646645913915,
+      "required_kgcm_with_factor2": 7.086667359306098,
+      "advertised_7_4V_ratio": 2.822201041189879,
+      "advertised_6V_ratio": 2.116650780892409,
+      "critical": {
+        "rotor": 1,
+        "collective": 21,
+        "cyclic": 4,
+        "phase": 180,
+        "azimuth": 33.75
+      },
+      "aero_final_fallback_fraction": 0
+    },
+    {
+      "aero_model": "CAD_XFOIL_N9",
+      "stage": "tw2",
+      "rpm": 3617.9656982421875,
+      "mu_assumed": 0.1,
+      "centrifugal_load_per_blade_N": 140.1548787883832,
+      "required_each_servo_Nm_with_factor2": 1.2038775927173315,
+      "required_kgcm_with_factor2": 12.27613499734702,
+      "advertised_7_4V_ratio": 1.6291772617621243,
+      "advertised_6V_ratio": 1.2218829463215932,
+      "critical": {
+        "rotor": 1,
+        "collective": 21,
+        "cyclic": 4,
+        "phase": 180,
+        "azimuth": 33.75
+      },
+      "aero_final_fallback_fraction": 0
+    },
+    {
+      "aero_model": "CAD_XFOIL_N9",
+      "stage": "tw2",
+      "rpm": 3617.9656982421875,
+      "mu_assumed": 0.2,
+      "centrifugal_load_per_blade_N": 140.1548787883832,
+      "required_each_servo_Nm_with_factor2": 1.9308960614686748,
+      "required_kgcm_with_factor2": 19.68966019454834,
+      "advertised_7_4V_ratio": 1.0157615622811809,
+      "advertised_6V_ratio": 0.7618211717108856,
+      "critical": {
+        "rotor": 1,
+        "collective": 21,
+        "cyclic": 4,
+        "phase": 180,
+        "azimuth": 33.75
+      },
+      "aero_final_fallback_fraction": 0
+    }
+  ],
+  "source": "Independent closed-link 8-blade/3-servo Jacobian, CAD homogeneous blade inertia, supplied 69 g Savox specs",
+  "limitations": [
+    "Friction mu is unknown; sweep values are assumptions, not measured PA-CF coefficients",
+    "Advertised dynamic torque is not verified stall torque or continuous rating; ratios are screening numbers only",
+    "Quarter-chord mean-thrust aerodynamic arm; XFOIL Cm and cyclic airloads not included in this load bound",
+    "New servo brackets, BEC, bearing friction, preload, stiction and thermal limits not included",
+    "XFOIL TW2 cases can include explicitly reported fallback sections"
+  ]
+}

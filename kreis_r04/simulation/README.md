@@ -35,3 +35,7 @@ Geprüft werden Impulsbilanz, Gütegrad < 1, Nullfälle, n²-Skalierung, Drehmom
 ## Testmodell 1:4
 
 Knopf „Testmodell 1:4 laden“ oder `R04_Simulator.html#testmodell`: lädt die Phase-1-Auslegung aus `modell_r04/auslegung`. Dabei wird das Antriebsmodell (ECO II 2306 KV1900, Stirnrad 6,5:1, Tattu 1550 mAh 6S) aktiviert, und es werden Motorstrom, Motordrehzahl, Tastgrad, elektrische Leistung und Laufzeit angezeigt. Übersetzung und Akkuladezustand sind einstellbar. Die Seite lädt dazu `../../modell_r04/auslegung/antrieb.js`; der Projektordner muss also vollständig vorliegen.
+
+## Geregelter Freiflug mit aktuellem H01-CAD
+
+Der [H01-Flugsimulator](../../modell_r04_taumel/simulation/H01_Flugsimulator.html) übernimmt das aktuelle native R04-Taumelmodell einschließlich Akku-/Elektronikhaltern, Schwerpunkt und Trägheit. Er ergänzt die sechs Freiheitsgrade, dynamische Rotorströmung, Motor-Governors, lastbegrenzte Servoregler und eine kaskadierte PID-Flugregelung. Die [Dokumentation](../../modell_r04_taumel/simulation/README.md) trennt CAD-Daten, Annahmen und die Ergebnisse reproduzierbarer Flugversuche. Es handelt sich um ein unvalidiertes reduziertes Modell.

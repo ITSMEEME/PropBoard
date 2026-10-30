@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Desktop initializes",
+    "Simulation advances",
+    "19 result rows",
+    "JSON download contains real log",
+    "60g servo case loads and runs",
+    "Mobile fits viewport",
+    "No JavaScript page errors"
+  ],
+  "cad_sha256": "b43829930ee3837fd754095bee623e5b3eb249709baea64e6189b3f03211182c"
+}
