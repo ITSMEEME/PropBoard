@@ -1,0 +1,71 @@
+{
+  "model": "Savox SB-2270SG+",
+  "selection": "Explicit user selection in chat; replaces planned SB2271 for CAD",
+  "source_file": "SB-2270SGP.STEP",
+  "source_sha256": "7882490c08b944d897ddbfb60fcfe8a733f8822a3c5900b6669beb41b29a4424",
+  "source_provenance": "User upload; STEP header SolidWorks2024, 2025-04-15; independent OEM authenticity/licence not established",
+  "source_solids": 1,
+  "source_faces": 1334,
+  "source_valid": false,
+  "detailed_check": "Sub-shape not in shape\n",
+  "healing_attempts": [
+    {
+      "operation": "Shape.fix 1e-7..1e-3",
+      "valid": false,
+      "volume_mm3": 29944.774175338905
+    },
+    {
+      "operation": "removeSplitter",
+      "valid": false,
+      "volume_mm3": 29944.72398857621
+    }
+  ],
+  "original_geometry_preserved": true,
+  "source_bbox_mm": {
+    "x": [
+      -17.15003795752131,
+      36.85003795752131
+    ],
+    "y": [
+      -26.00000000000002,
+      16.8000000000071
+    ],
+    "z": [
+      -11.745708121834934,
+      11.745708121834934
+    ]
+  },
+  "source_overall_dimensions_mm": [
+    54.000075915042615,
+    42.80000000000712,
+    23.491416243669867
+  ],
+  "output_axis": {
+    "origin_source_mm": [
+      0,
+      0,
+      0
+    ],
+    "direction": [
+      0,
+      1,
+      0
+    ],
+    "free_tip_y_mm": 16.8,
+    "cylindrical_tooth_faces_radius_3mm": 25
+  },
+  "assembly_replaced_servo_count": 6,
+  "removed_dummy_shaft_count": 6,
+  "native_reopen_pass": true,
+  "assembly_sha256": "f5751b88f244ef0775efcd9a27a914910c26a3cdf161448a87da9f997b74d403",
+  "manufacturing_ready": false,
+  "performance_data_transferred_from_SB2271": false,
+  "simulation_revalidated": false,
+  "remaining": [
+    "Invalid STEP source topology",
+    "Actual horn, seating height, retaining screw and mounting hardware",
+    "Servo bracket design and collision checks after valid geometry",
+    "SB2270SG+ mass, torque/speed and electrical data",
+    "Other P06 manufacturing gaps remain"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "status": "NOT_VERIFIED_IN_GUI",
+  "reason": "Offscreen FreeCAD could not obtain a valid OpenGL context; GUI macro did not finish within45s. Do not claim visual GUI control test passed.",
+  "headless_native_and_motion_checks": "PASS; see Aufbaupruefung_P08.json and Bewegungspruefung_P08.json",
+  "macro_syntax": "Python compile passed"
+}

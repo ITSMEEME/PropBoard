@@ -1,6 +1,10 @@
 {
   "status": "PASS",
   "checks": [
+    "WASD moves position setpoint",
+    "Key release holds target",
+    "Blur clears held keys",
+    "Editable fields and pause ignore controls",
     "Desktop initializes",
     "Simulation advances",
     "19 result rows",

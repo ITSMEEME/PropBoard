@@ -124,3 +124,7 @@ python modell_r04_taumel/simulation/paket.py
 Bei Browsern mit blockiertem `file://`: Repository lokal per HTTP bereitstellen, z. B. `python -m http.server 8000 --bind 127.0.0.1`, dann `/modell_r04_taumel/simulation/H01_Flugsimulator.html` öffnen.
 
 Für belastbare Aussagen fehlen Messungen von Gesamtmasse/Schwerpunkt/Trägheit, stationären Schub-/Drehmomentkennfeldern, Rotordynamik, Reibung über Last/Drehzahl, Servoantwort unter Last, realer Steuerphase, Elektronik-/BEC-Grenzen sowie mechanische Verriegelung und Festigkeit. Die Simulation liefert eine testbare Regelhypothese und zeigt Fehlerfälle, nicht den Beweis, dass der gedruckte Aufbau sicher fliegt.
+
+## WASD-Steuerung
+
+„WASD aktivieren“ einschalten und den Flug starten/fortsetzen. W/S bewegen den Positionssollwert vor/zurück, A/D nach links/rechts in Soll-Gierrichtung, mit 0,6 m/s (diagonal begrenzt). Höhe und Gier bleiben erhalten. Loslassen hält den Sollwert; die bestehenden PID-Regler steuern Motoren und Servos. Pause, Fensterwechsel und Tab-Ausblenden löschen gehaltene Tasten. In Eingabefeldern wird nicht gesteuert. Neustart setzt die Zielposition zurück. Testfall-Störungen und Testdauer bleiben aktiv.

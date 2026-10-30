@@ -1,0 +1,11 @@
+{
+  "source_sha256": "7882490c08b944d897ddbfb60fcfe8a733f8822a3c5900b6669beb41b29a4424",
+  "full_source_valid": false,
+  "local_extraction_valid": true,
+  "section_y_mm": 14,
+  "section_edges": 100,
+  "radial_enlargement_factor": 1.01,
+  "radial_allowance_at_3mm_mm": 0.03,
+  "fit_status": "Design proposal; physical fit/gauge and clamping endurance pending",
+  "profile_tool_sha256": "28cc6d0f75ae91ac5f73e0fd9f1ee84d27b70e6d13f447ef81f52825b9bda96c"
+}

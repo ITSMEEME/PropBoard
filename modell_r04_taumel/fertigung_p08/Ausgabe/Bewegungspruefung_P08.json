@@ -1,0 +1,13 @@
+{
+  "status": "KINEMATIK_OK_AUSGEWAEHLTE_KONTAKTE_FREI_KEINE_FREIGABE",
+  "native_sha256": "c2012ffa64fb07c9b43a76fb366d89332bd056361665e11cc0636123a3c01037",
+  "states": 36,
+  "contact_states": 14,
+  "max_closure_error_mm": 8.981970722743426e-10,
+  "max_joint_angle_deg": 2.9993855339039746,
+  "selected_brep_checks": 1176,
+  "collisions": [],
+  "neutral_return_pass": true,
+  "manufacturing_release": false,
+  "scope": "Actual detailed linkage solids, neck/socket clearance, nominal threaded fastener spaces and selected modified-plate contacts. Not all assembly pairs, continuous full-range, OEM servo collision or strength validation; original servo invalid."
+}

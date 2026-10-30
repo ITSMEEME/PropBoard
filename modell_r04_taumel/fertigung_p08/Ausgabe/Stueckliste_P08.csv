@@ -1,0 +1,13 @@
+﻿Kennung,Anzahl,STEP,Hinweis
+P08_Hebel,6,horn.step,"Klemmhebel8mm; lokal abgeleitetes25T-Profil, Passung offen"
+P08_Kugelbolzen,12,ball_low.step,"D4.8, M2 RH x4, Kugelmitte-Anlage6.3"
+P08_Pfanne_RH,6,body_low.step,"M2 RH, Mund M6x0.5 RH"
+P08_Pfanne_LH,6,body_high.step,"M2 LH, Mund M6x0.5 RH"
+P08_Kappe,12,cap_low.step,"M6x0.5 RH, AF6.4"
+P08_Stange_oben,3,rod_upper.step,Kugelmitten22.57143; M2 RH/LH
+P08_Stange_unten,3,rod_lower.step,Kugelmitten22.27435; M2 RH/LH
+Mutter_M2_RH,18,jam_low.step,"AF4x1.6, Guete/Anzug offen"
+Mutter_M2_LH,6,jam_high.step,"AF4x1.6, Guete/Anzug offen"
+Schraube_M2x12,6,clamp_bolt.step,ISO4762 nominal; Guete/Anzug offen
+Scheibe_M2,12,washer_low.step,D2.2/D5x0.3 nominal
+Taumelring_modifiziert,2,swash.step,D6 Bosse und M2-Aufnahmen; zentrale Montage weiter offen

@@ -1,0 +1,31 @@
+{
+  "full_native_sha256": "a2920f0d8163430c9309db28755bf724995e998f7d19cbbe4cf63a2d64380ea8",
+  "isolated_native_sha256": "c2012ffa64fb07c9b43a76fb366d89332bd056361665e11cc0636123a3c01037",
+  "new_linkage_objects": 90,
+  "modified_swash_rings": 2,
+  "removed_schematic_objects": 24,
+  "modified_passage_plates": 2,
+  "servo_tangential_shift_mm": -5.5,
+  "link_centres_mm": [
+    [
+      22.571429711707424,
+      22.571429711707424,
+      22.571429711707424
+    ],
+    [
+      22.27434683554243,
+      22.27434683554243,
+      22.27434683554243
+    ]
+  ],
+  "new_parts_valid": true,
+  "native_reopen_pass": true,
+  "full_manufacturing_release": false,
+  "thread_representation": "Nominal BRep spaces, M2x0.4 RH/LH and M6x0.5 RH callouts govern",
+  "important_open_items": [
+    "All material/process/tolerance and assembly-torque definitions are design proposals",
+    "Clamping spline 1% radial allowance needs physical fit gauge and strength/endurance validation",
+    "Invalid original complete servo remains in assembly",
+    "Final servo mounting brackets and earlier P06 issues remain"
+  ]
+}

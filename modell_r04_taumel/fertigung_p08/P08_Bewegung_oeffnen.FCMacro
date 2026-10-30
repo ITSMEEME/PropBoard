@@ -1,0 +1,45 @@
+from pathlib import Path
+import sys,math
+import FreeCAD as App
+import FreeCADGui as Gui
+from PySide import QtCore,QtGui
+try:
+    from PySide import QtWidgets
+except ImportError:
+    QtWidgets=QtGui
+home=Path(__file__).resolve().parent
+sys.path.insert(0,str(home))
+import runtime as P08Runtime
+doc=App.openDocument(str(home/'Ausgabe/P08_Isolierte_Anschlussbewegung.FCStd'))
+Gui.activeDocument().activeView().viewAxonometric();Gui.activeDocument().activeView().fitAll()
+class P08Dialog(QtWidgets.QDialog):
+    def __init__(self):
+        super().__init__(Gui.getMainWindow());self.setWindowTitle('P08 – isolierte mechanische Servoverbindung');self.controls=[];self.time=0
+        layout=QtWidgets.QVBoxLayout(self)
+        layout.addWidget(QtWidgets.QLabel('Anschlussentwurf: keine Fertigungsfreigabe.\nBewegt nur Servohebel, Gestänge und stationäre Taumelringe.'))
+        for i in range(6):
+            row=QtWidgets.QHBoxLayout();row.addWidget(QtWidgets.QLabel(('Oberer' if i<3 else 'Unterer')+' Rotor · Servo '+str(i%3+1)))
+            spin=QtWidgets.QDoubleSpinBox();spin.setRange(-15,15);spin.setSingleStep(.5);spin.setSuffix(' °');row.addWidget(spin);layout.addLayout(row);self.controls.append(spin);spin.valueChanged.connect(self.update)
+        self.readout=QtWidgets.QLabel();layout.addWidget(self.readout)
+        self.play=QtWidgets.QPushButton('Demo starten');self.play.setCheckable(True);layout.addWidget(self.play)
+        reset=QtWidgets.QPushButton('Neutral');layout.addWidget(reset);reset.clicked.connect(self.reset)
+        self.timer=QtCore.QTimer(self);self.timer.setInterval(100);self.timer.timeout.connect(self.tick);self.play.toggled.connect(self.toggle);self.update()
+    def update(self,*args):
+        try:
+            r=P08Runtime.update(doc,[s.value() for s in self.controls]);self.readout.setText('Gestängeschluss %.2g mm · Gelenkwinkel max. %.2f°'%(r['link_error_mm'],r['max_joint_angle_deg']))
+        except Exception as e:
+            self.timer.stop();self.readout.setText(str(e))
+    def toggle(self,active):
+        self.play.setText('Demo stoppen' if active else 'Demo starten')
+        self.timer.start() if active else self.timer.stop()
+    def tick(self):
+        self.time+=.1
+        for i,s in enumerate(self.controls):
+            s.blockSignals(True);s.setValue(8*math.sin(self.time+i%3*2*math.pi/3));s.blockSignals(False)
+        self.update()
+    def reset(self):
+        self.play.setChecked(False)
+        for s in self.controls:s.blockSignals(True);s.setValue(0);s.blockSignals(False)
+        self.update()
+    def closeEvent(self,event):self.timer.stop();event.accept()
+P08_WINDOW=P08Dialog();P08_WINDOW.show()

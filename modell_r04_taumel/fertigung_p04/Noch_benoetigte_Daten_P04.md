@@ -1,4 +1,6 @@
-# Noch benötigte Anschlussdaten nach der EMAX-Zeichnung
+# Historischer Datenbedarf P04
+
+**Aktualisierung:** M3-Einschraubtiefe maximal 3 mm und M5 nutzbar 9 mm wurden inzwischen vom Nutzer geliefert und in P05 übernommen. Für den aktuellen vollständigen Stand siehe [P06](../fertigung_p06/README.md). Die nachfolgende Motorliste dokumentiert den damaligen P04-Stand.
 
 ## Motor – deutlich reduziert
 

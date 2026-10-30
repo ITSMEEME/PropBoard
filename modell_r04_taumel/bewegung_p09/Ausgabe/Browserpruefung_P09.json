@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Actual native meshes render with WebGL",
+    "Animation advances",
+    "Timeline selects exact closed-chain frame",
+    "Cover visibility toggles",
+    "No WebGL errors",
+    "Mobile width fits",
+    "No JavaScript errors"
+  ],
+  "source_html_sha256": "596a7316b4af2e0e9fbedaeb3956c51afa12bd27cb466e13dfa6bda45c8c6914"
+}

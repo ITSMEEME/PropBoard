@@ -1,0 +1,506 @@
+{
+  "description": "Native object references for every servo-to-swash and swash-to-blade branch; kinematic coupling, not a strength certificate",
+  "servo_branches": [
+    {
+      "rotor": 0,
+      "servo": 0,
+      "native_path": [
+        "P09_Servoabtrieb_R0_S0",
+        "P08_R0_S0_horn",
+        "P08_R0_S0_ball_high",
+        "P08_R0_S0_body_high",
+        "P08_R0_S0_rod",
+        "P08_R0_S0_body_low",
+        "P08_R0_S0_ball_low",
+        "Oben_feststehend_1",
+        "Oben_feststehend_2",
+        "Rotor_oben_61",
+        "P09_Blattgelenktraeger_R0"
+      ],
+      "upper_joint_cap": "P08_R0_S0_cap_high",
+      "lower_joint_cap": "P08_R0_S0_cap_low"
+    },
+    {
+      "rotor": 0,
+      "servo": 1,
+      "native_path": [
+        "P09_Servoabtrieb_R0_S1",
+        "P08_R0_S1_horn",
+        "P08_R0_S1_ball_high",
+        "P08_R0_S1_body_high",
+        "P08_R0_S1_rod",
+        "P08_R0_S1_body_low",
+        "P08_R0_S1_ball_low",
+        "Oben_feststehend_1",
+        "Oben_feststehend_2",
+        "Rotor_oben_61",
+        "P09_Blattgelenktraeger_R0"
+      ],
+      "upper_joint_cap": "P08_R0_S1_cap_high",
+      "lower_joint_cap": "P08_R0_S1_cap_low"
+    },
+    {
+      "rotor": 0,
+      "servo": 2,
+      "native_path": [
+        "P09_Servoabtrieb_R0_S2",
+        "P08_R0_S2_horn",
+        "P08_R0_S2_ball_high",
+        "P08_R0_S2_body_high",
+        "P08_R0_S2_rod",
+        "P08_R0_S2_body_low",
+        "P08_R0_S2_ball_low",
+        "Oben_feststehend_1",
+        "Oben_feststehend_2",
+        "Rotor_oben_61",
+        "P09_Blattgelenktraeger_R0"
+      ],
+      "upper_joint_cap": "P08_R0_S2_cap_high",
+      "lower_joint_cap": "P08_R0_S2_cap_low"
+    },
+    {
+      "rotor": 1,
+      "servo": 0,
+      "native_path": [
+        "P09_Servoabtrieb_R1_S0",
+        "P08_R1_S0_horn",
+        "P08_R1_S0_ball_high",
+        "P08_R1_S0_body_high",
+        "P08_R1_S0_rod",
+        "P08_R1_S0_body_low",
+        "P08_R1_S0_ball_low",
+        "Unten_feststehend_1",
+        "Unten_feststehend_2",
+        "Rotor_unten_61",
+        "P09_Blattgelenktraeger_R1"
+      ],
+      "upper_joint_cap": "P08_R1_S0_cap_high",
+      "lower_joint_cap": "P08_R1_S0_cap_low"
+    },
+    {
+      "rotor": 1,
+      "servo": 1,
+      "native_path": [
+        "P09_Servoabtrieb_R1_S1",
+        "P08_R1_S1_horn",
+        "P08_R1_S1_ball_high",
+        "P08_R1_S1_body_high",
+        "P08_R1_S1_rod",
+        "P08_R1_S1_body_low",
+        "P08_R1_S1_ball_low",
+        "Unten_feststehend_1",
+        "Unten_feststehend_2",
+        "Rotor_unten_61",
+        "P09_Blattgelenktraeger_R1"
+      ],
+      "upper_joint_cap": "P08_R1_S1_cap_high",
+      "lower_joint_cap": "P08_R1_S1_cap_low"
+    },
+    {
+      "rotor": 1,
+      "servo": 2,
+      "native_path": [
+        "P09_Servoabtrieb_R1_S2",
+        "P08_R1_S2_horn",
+        "P08_R1_S2_ball_high",
+        "P08_R1_S2_body_high",
+        "P08_R1_S2_rod",
+        "P08_R1_S2_body_low",
+        "P08_R1_S2_ball_low",
+        "Unten_feststehend_1",
+        "Unten_feststehend_2",
+        "Rotor_unten_61",
+        "P09_Blattgelenktraeger_R1"
+      ],
+      "upper_joint_cap": "P08_R1_S2_cap_high",
+      "lower_joint_cap": "P08_R1_S2_cap_low"
+    }
+  ],
+  "blade_branches": [
+    {
+      "rotor": 0,
+      "blade": 0,
+      "native_path": [
+        "P09_Blattgelenktraeger_R0",
+        "P09_R0_B0_stud_high",
+        "P09_R0_B0_body_high",
+        "P09_R0_B0_rod",
+        "P09_R0_B0_body_low",
+        "P09_R0_B0_stud_low",
+        "Rotor_oben_4",
+        "Rotor_oben_3"
+      ],
+      "caps": [
+        "P09_R0_B0_cap_high",
+        "P09_R0_B0_cap_low"
+      ],
+      "root_retention": [
+        "P09_R0_B0_Axialschraube",
+        "P09_R0_B0_Axialscheibe",
+        "P09_R0_B0_Gewindeeinsatz",
+        "P09_R0_B0_Klebefuge"
+      ]
+    },
+    {
+      "rotor": 0,
+      "blade": 1,
+      "native_path": [
+        "P09_Blattgelenktraeger_R0",
+        "P09_R0_B1_stud_high",
+        "P09_R0_B1_body_high",
+        "P09_R0_B1_rod",
+        "P09_R0_B1_body_low",
+        "P09_R0_B1_stud_low",
+        "Rotor_oben_11",
+        "Rotor_oben_10"
+      ],
+      "caps": [
+        "P09_R0_B1_cap_high",
+        "P09_R0_B1_cap_low"
+      ],
+      "root_retention": [
+        "P09_R0_B1_Axialschraube",
+        "P09_R0_B1_Axialscheibe",
+        "P09_R0_B1_Gewindeeinsatz",
+        "P09_R0_B1_Klebefuge"
+      ]
+    },
+    {
+      "rotor": 0,
+      "blade": 2,
+      "native_path": [
+        "P09_Blattgelenktraeger_R0",
+        "P09_R0_B2_stud_high",
+        "P09_R0_B2_body_high",
+        "P09_R0_B2_rod",
+        "P09_R0_B2_body_low",
+        "P09_R0_B2_stud_low",
+        "Rotor_oben_18",
+        "Rotor_oben_17"
+      ],
+      "caps": [
+        "P09_R0_B2_cap_high",
+        "P09_R0_B2_cap_low"
+      ],
+      "root_retention": [
+        "P09_R0_B2_Axialschraube",
+        "P09_R0_B2_Axialscheibe",
+        "P09_R0_B2_Gewindeeinsatz",
+        "P09_R0_B2_Klebefuge"
+      ]
+    },
+    {
+      "rotor": 0,
+      "blade": 3,
+      "native_path": [
+        "P09_Blattgelenktraeger_R0",
+        "P09_R0_B3_stud_high",
+        "P09_R0_B3_body_high",
+        "P09_R0_B3_rod",
+        "P09_R0_B3_body_low",
+        "P09_R0_B3_stud_low",
+        "Rotor_oben_25",
+        "Rotor_oben_24"
+      ],
+      "caps": [
+        "P09_R0_B3_cap_high",
+        "P09_R0_B3_cap_low"
+      ],
+      "root_retention": [
+        "P09_R0_B3_Axialschraube",
+        "P09_R0_B3_Axialscheibe",
+        "P09_R0_B3_Gewindeeinsatz",
+        "P09_R0_B3_Klebefuge"
+      ]
+    },
+    {
+      "rotor": 0,
+      "blade": 4,
+      "native_path": [
+        "P09_Blattgelenktraeger_R0",
+        "P09_R0_B4_stud_high",
+        "P09_R0_B4_body_high",
+        "P09_R0_B4_rod",
+        "P09_R0_B4_body_low",
+        "P09_R0_B4_stud_low",
+        "Rotor_oben_32",
+        "Rotor_oben_31"
+      ],
+      "caps": [
+        "P09_R0_B4_cap_high",
+        "P09_R0_B4_cap_low"
+      ],
+      "root_retention": [
+        "P09_R0_B4_Axialschraube",
+        "P09_R0_B4_Axialscheibe",
+        "P09_R0_B4_Gewindeeinsatz",
+        "P09_R0_B4_Klebefuge"
+      ]
+    },
+    {
+      "rotor": 0,
+      "blade": 5,
+      "native_path": [
+        "P09_Blattgelenktraeger_R0",
+        "P09_R0_B5_stud_high",
+        "P09_R0_B5_body_high",
+        "P09_R0_B5_rod",
+        "P09_R0_B5_body_low",
+        "P09_R0_B5_stud_low",
+        "Rotor_oben_39",
+        "Rotor_oben_38"
+      ],
+      "caps": [
+        "P09_R0_B5_cap_high",
+        "P09_R0_B5_cap_low"
+      ],
+      "root_retention": [
+        "P09_R0_B5_Axialschraube",
+        "P09_R0_B5_Axialscheibe",
+        "P09_R0_B5_Gewindeeinsatz",
+        "P09_R0_B5_Klebefuge"
+      ]
+    },
+    {
+      "rotor": 0,
+      "blade": 6,
+      "native_path": [
+        "P09_Blattgelenktraeger_R0",
+        "P09_R0_B6_stud_high",
+        "P09_R0_B6_body_high",
+        "P09_R0_B6_rod",
+        "P09_R0_B6_body_low",
+        "P09_R0_B6_stud_low",
+        "Rotor_oben_46",
+        "Rotor_oben_45"
+      ],
+      "caps": [
+        "P09_R0_B6_cap_high",
+        "P09_R0_B6_cap_low"
+      ],
+      "root_retention": [
+        "P09_R0_B6_Axialschraube",
+        "P09_R0_B6_Axialscheibe",
+        "P09_R0_B6_Gewindeeinsatz",
+        "P09_R0_B6_Klebefuge"
+      ]
+    },
+    {
+      "rotor": 0,
+      "blade": 7,
+      "native_path": [
+        "P09_Blattgelenktraeger_R0",
+        "P09_R0_B7_stud_high",
+        "P09_R0_B7_body_high",
+        "P09_R0_B7_rod",
+        "P09_R0_B7_body_low",
+        "P09_R0_B7_stud_low",
+        "Rotor_oben_53",
+        "Rotor_oben_52"
+      ],
+      "caps": [
+        "P09_R0_B7_cap_high",
+        "P09_R0_B7_cap_low"
+      ],
+      "root_retention": [
+        "P09_R0_B7_Axialschraube",
+        "P09_R0_B7_Axialscheibe",
+        "P09_R0_B7_Gewindeeinsatz",
+        "P09_R0_B7_Klebefuge"
+      ]
+    },
+    {
+      "rotor": 1,
+      "blade": 0,
+      "native_path": [
+        "P09_Blattgelenktraeger_R1",
+        "P09_R1_B0_stud_high",
+        "P09_R1_B0_body_high",
+        "P09_R1_B0_rod",
+        "P09_R1_B0_body_low",
+        "P09_R1_B0_stud_low",
+        "Rotor_unten_4",
+        "Rotor_unten_3"
+      ],
+      "caps": [
+        "P09_R1_B0_cap_high",
+        "P09_R1_B0_cap_low"
+      ],
+      "root_retention": [
+        "P09_R1_B0_Axialschraube",
+        "P09_R1_B0_Axialscheibe",
+        "P09_R1_B0_Gewindeeinsatz",
+        "P09_R1_B0_Klebefuge"
+      ]
+    },
+    {
+      "rotor": 1,
+      "blade": 1,
+      "native_path": [
+        "P09_Blattgelenktraeger_R1",
+        "P09_R1_B1_stud_high",
+        "P09_R1_B1_body_high",
+        "P09_R1_B1_rod",
+        "P09_R1_B1_body_low",
+        "P09_R1_B1_stud_low",
+        "Rotor_unten_11",
+        "Rotor_unten_10"
+      ],
+      "caps": [
+        "P09_R1_B1_cap_high",
+        "P09_R1_B1_cap_low"
+      ],
+      "root_retention": [
+        "P09_R1_B1_Axialschraube",
+        "P09_R1_B1_Axialscheibe",
+        "P09_R1_B1_Gewindeeinsatz",
+        "P09_R1_B1_Klebefuge"
+      ]
+    },
+    {
+      "rotor": 1,
+      "blade": 2,
+      "native_path": [
+        "P09_Blattgelenktraeger_R1",
+        "P09_R1_B2_stud_high",
+        "P09_R1_B2_body_high",
+        "P09_R1_B2_rod",
+        "P09_R1_B2_body_low",
+        "P09_R1_B2_stud_low",
+        "Rotor_unten_18",
+        "Rotor_unten_17"
+      ],
+      "caps": [
+        "P09_R1_B2_cap_high",
+        "P09_R1_B2_cap_low"
+      ],
+      "root_retention": [
+        "P09_R1_B2_Axialschraube",
+        "P09_R1_B2_Axialscheibe",
+        "P09_R1_B2_Gewindeeinsatz",
+        "P09_R1_B2_Klebefuge"
+      ]
+    },
+    {
+      "rotor": 1,
+      "blade": 3,
+      "native_path": [
+        "P09_Blattgelenktraeger_R1",
+        "P09_R1_B3_stud_high",
+        "P09_R1_B3_body_high",
+        "P09_R1_B3_rod",
+        "P09_R1_B3_body_low",
+        "P09_R1_B3_stud_low",
+        "Rotor_unten_25",
+        "Rotor_unten_24"
+      ],
+      "caps": [
+        "P09_R1_B3_cap_high",
+        "P09_R1_B3_cap_low"
+      ],
+      "root_retention": [
+        "P09_R1_B3_Axialschraube",
+        "P09_R1_B3_Axialscheibe",
+        "P09_R1_B3_Gewindeeinsatz",
+        "P09_R1_B3_Klebefuge"
+      ]
+    },
+    {
+      "rotor": 1,
+      "blade": 4,
+      "native_path": [
+        "P09_Blattgelenktraeger_R1",
+        "P09_R1_B4_stud_high",
+        "P09_R1_B4_body_high",
+        "P09_R1_B4_rod",
+        "P09_R1_B4_body_low",
+        "P09_R1_B4_stud_low",
+        "Rotor_unten_32",
+        "Rotor_unten_31"
+      ],
+      "caps": [
+        "P09_R1_B4_cap_high",
+        "P09_R1_B4_cap_low"
+      ],
+      "root_retention": [
+        "P09_R1_B4_Axialschraube",
+        "P09_R1_B4_Axialscheibe",
+        "P09_R1_B4_Gewindeeinsatz",
+        "P09_R1_B4_Klebefuge"
+      ]
+    },
+    {
+      "rotor": 1,
+      "blade": 5,
+      "native_path": [
+        "P09_Blattgelenktraeger_R1",
+        "P09_R1_B5_stud_high",
+        "P09_R1_B5_body_high",
+        "P09_R1_B5_rod",
+        "P09_R1_B5_body_low",
+        "P09_R1_B5_stud_low",
+        "Rotor_unten_39",
+        "Rotor_unten_38"
+      ],
+      "caps": [
+        "P09_R1_B5_cap_high",
+        "P09_R1_B5_cap_low"
+      ],
+      "root_retention": [
+        "P09_R1_B5_Axialschraube",
+        "P09_R1_B5_Axialscheibe",
+        "P09_R1_B5_Gewindeeinsatz",
+        "P09_R1_B5_Klebefuge"
+      ]
+    },
+    {
+      "rotor": 1,
+      "blade": 6,
+      "native_path": [
+        "P09_Blattgelenktraeger_R1",
+        "P09_R1_B6_stud_high",
+        "P09_R1_B6_body_high",
+        "P09_R1_B6_rod",
+        "P09_R1_B6_body_low",
+        "P09_R1_B6_stud_low",
+        "Rotor_unten_46",
+        "Rotor_unten_45"
+      ],
+      "caps": [
+        "P09_R1_B6_cap_high",
+        "P09_R1_B6_cap_low"
+      ],
+      "root_retention": [
+        "P09_R1_B6_Axialschraube",
+        "P09_R1_B6_Axialscheibe",
+        "P09_R1_B6_Gewindeeinsatz",
+        "P09_R1_B6_Klebefuge"
+      ]
+    },
+    {
+      "rotor": 1,
+      "blade": 7,
+      "native_path": [
+        "P09_Blattgelenktraeger_R1",
+        "P09_R1_B7_stud_high",
+        "P09_R1_B7_body_high",
+        "P09_R1_B7_rod",
+        "P09_R1_B7_body_low",
+        "P09_R1_B7_stud_low",
+        "Rotor_unten_53",
+        "Rotor_unten_52"
+      ],
+      "caps": [
+        "P09_R1_B7_cap_high",
+        "P09_R1_B7_cap_low"
+      ],
+      "root_retention": [
+        "P09_R1_B7_Axialschraube",
+        "P09_R1_B7_Axialscheibe",
+        "P09_R1_B7_Gewindeeinsatz",
+        "P09_R1_B7_Klebefuge"
+      ]
+    }
+  ],
+  "manufacturing_release": false
+}

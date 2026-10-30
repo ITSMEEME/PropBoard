@@ -1,0 +1,11 @@
+{
+  "selected_model": "Savox SB-2270SG+",
+  "source_sha256": "7882490c08b944d897ddbfb60fcfe8a733f8822a3c5900b6669beb41b29a4424",
+  "complete_purchased_assembly": true,
+  "performance_data_status": "SB2270SG+ specifications pending; do not reuse SB2271 data",
+  "mass_g": null,
+  "supply_v": null,
+  "torque_nm": null,
+  "speed_rad_s": null,
+  "source_geometry_valid": false
+}

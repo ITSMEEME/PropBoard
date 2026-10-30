@@ -1,0 +1,20 @@
+{
+  "status": "CLOSED_CHAIN_PASS_SELECTED_CONTACTS_CLEAR_NOT_RELEASE",
+  "native_sha256": "5cf8e30ddc399797a49a314d73c43f815c92e3669d82bae81adb7ccd5ba88f85",
+  "numerical_states": 181,
+  "native_states": 41,
+  "max_closure_error_mm": 8.981970722743426e-10,
+  "max_actual_sphere_centre_error_mm": 4.440892098500626e-14,
+  "pitch_range_deg": [
+    8.850162856060308,
+    21.948121564223037
+  ],
+  "selected_contact_states": 4,
+  "actual_brep_checks": 1304,
+  "collisions": [],
+  "invalid_input_atomic_rejection": true,
+  "neutral_return_pass": true,
+  "flight_revalidated": false,
+  "manufacturing_release": false,
+  "scope": "Servo spline/horn axes,16 actual captured blade-joint endpoint pairs and selected bearing/retainer/driver/root interfaces. Not all-pairs continuous collision or structural validation; invalid OEM case retained and servo mount brackets remain open."
+}

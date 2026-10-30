@@ -1,0 +1,15 @@
+{
+  "status": "DETAILLIERTER_KONSTRUKTIONSENTWURF_KEINE_FERTIGUNGSFREIGABE",
+  "actuator": "Savox SB-2270SG+ purchased servo, not a stepper motor",
+  "channel_count": 6,
+  "horn_radius_mm": 8,
+  "servo_tip_tangential_shift_mm": -5.5,
+  "clamp_hub": {"outside_diameter_mm":11,"axial_width_mm":4,"clamp_screw":"M2x12","washers":"2x 2.2/5x0.3","nut":"M2 AF4x1.6","spline":"100-edge outer section at source Y14, 1% radial enlargement; not a certified spline fit","split_mm":0.5},
+  "ball_stud": {"sphere_diameter_mm":4.8,"neck_diameter_mm":2,"centre_to_seat_mm":6.3,"wrench_af_mm":4,"stem_thread":"M2x0.4 RH, length4mm"},
+  "socket": {"outside_diameter_mm":8,"axial_body_length_mm":6.7,"sphere_seat_radius_mm":2.43,"ball_radial_clearance_mm":0.03,"mouth_thread":"M6x0.5 RH, depth2.2","cap_head_af_mm":6.4,"rod_thread":"M2x0.4 RH lower, LH upper; depth3.5","nominal_rod_engagement_mm":3,"nominal_bottom_reserve_mm":0.5},
+  "turnbuckle": {"thread":"M2x0.4 RH lower / LH upper","wrench_af_mm":3,"wrench_length_mm":4,"neutral_centres_upper_rotor_mm":22.571429711707424,"neutral_centres_lower_rotor_mm":22.27434683554243,"rod_total_length":"centre distance minus8mm","proposed_total_centre_adjustment_mm":[-0.6,0.6],"engagement_limits_mm":[2.7,3.3],"locknuts":"M2 RH/LH, AF4x1.6; tighten after adjustment"},
+  "swash_interface": {"angles_deg":[60,180,300],"ball_centre_radius_mm":50.3,"ball_centre_local_z_mm":9.5,"seat_radius_mm":44,"thread":"M2x0.4 RH,4 deep; nominal drilled space4.5","boss_diameter_mm":6,"boss_length_mm":4},
+  "plate_link_ports": {"original_diameter_mm":10,"new_diameter_mm":14,"centre_radius_mm":50.3,"strength_revalidated":false},
+  "material_proposals_not_released": {"horn":"EN AW-7075-T6, precision machined; spline fit to be gauged","socket_body":"EN AW-7075-T6, precision turned/milled; bearing surface treatment pending","socket_cap":"CuSn12 bronze proposed; thread locking/tribology pending","ball_stud":"1.3505 hardened/ground proposed; hardness/finish and fatigue not established","turnbuckle":"1.4305 proposed; strength and thread fatigue pending","swash_ring":"Metal machining proposal; central bearing/ball assembly unresolved"},
+  "drawing_requirements_pending": ["Datums, actual production tolerances, spline fit and gauge", "Materials/process/heat treatment and surface finish approval", "Assembly torques, thread retention and endurance", "Final servo mounting bracket and invalid source servo repair", "Ball-socket load/wear and complete assembly validation"]
+}

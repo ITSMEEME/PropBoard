@@ -4,7 +4,23 @@ Eigenständige Variante des R04-Testmodells: Der Pitch wird **je Rotor über ein
 
 **Entwurf, keine Freigabe.** Alle Zahlen sind Modellwerte (BEMT mit vereinfachter Polare, Gleichstrom-Motormodell) und müssen am Prüfstand bestätigt werden.
 
-## Aktueller Fertigungsstand P04
+## Aktuelle gemeinsame Animation P09
+
+[P09 verbindet Servoabtrieb, sechs Servogestänge, beide Taumelscheiben, 16 gefasste Blattgestänge und Rotorblätter in einer einzigen nativen Animation](bewegung_p09/README.md). Eine Offline-Browseranimation zeigt die tatsächlichen CAD-Oberflächen. 181 Stellungen und ausgewählte Festkörperkontakte sind geprüft; die Gesamt-Fertigungs-/Flugfreigabe bleibt offen. P08 und M01 sind frühere Teilstände.
+
+## Mechanische Servoverbindung P08
+
+[P08 modelliert den Lastpfad vom SB-2270SG+-Abtrieb zur Taumelscheibe](fertigung_p08/README.md): Klemmhebel, gefasste Kugelgelenke, RH/LH-Verstellstangen, Kontermuttern und radiale Taumelringaufnahmen. Sechs detaillierte Gestängeeinheiten mit 90 neuen Bauteilobjekten und separater FreeCAD-Bewegung. Gesamtfreigabe bleibt wegen offener Passungs-/Material-/Festigkeitsangaben, Servohalter und weiterer P06-Punkte gesperrt.
+
+## Aktueller Servo-CAD-Stand P07
+
+Der Nutzer hat **Savöx SB-2270SG+** ausgewählt. [P07 integriert die hochgeladene detaillierte STEP in sechs Instanzen](fertigung_p07/README.md), einschließlich dokumentiertem Geometriefehler des Imports. SB-2271-Leistungsdaten wurden nicht auf den neuen Servo übertragen; die bisherige Flugauswertung ist damit kein SB-2270-Nachweis.
+
+## Aktuelle Vollständigkeitsprüfung P06
+
+**Noch nicht fertigungsbereit:** [P06 erfasst jedes modellierte Bauteil und die fehlenden Konstruktionen](fertigung_p06/README.md). Funktionsgeometrien für Gestänge/Servohebel und unvollständige Befestigungen sind weiterhin vorhanden. P05 berücksichtigt die bestätigten Motoranschlüsse M3 maximal 3 mm und M5 nutzbar 9 mm; P06 ergänzt eine bauteilweise Prüfung, keine neue Geometriefreigabe.
+
+## Historischer Datenabgleich P04
 
 Die bereitgestellte EMAX-Zeichnung bestätigt **4×M3 auf Lochkreis Ø16 mm**. Die widersprechende 16×16-mm-Textrecherche und ihre P03-Geometrien wurden verworfen. [Aktuelle P04-Baugruppe und Datenabgleich](fertigung_p04/README.md), [nur noch fehlende Anschlussdaten](fertigung_p04/Noch_benoetigte_Daten_P04.md). Die Gesamtkonstruktion ist weiterhin nicht fertigungsfreigegeben.
 

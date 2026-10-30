@@ -1,0 +1,14 @@
+{
+  "source_native_sha256": "5cf8e30ddc399797a49a314d73c43f815c92e3669d82bae81adb7ccd5ba88f85",
+  "html_sha256": "596a7316b4af2e0e9fbedaeb3956c51afa12bd27cb466e13dfa6bda45c8c6914",
+  "mesh_parts": 446,
+  "unique_mesh_triangles": 569246,
+  "rendered_triangles": 2429272,
+  "shared_servo_case_mesh": true,
+  "frames": 161,
+  "max_closure_error_mm": 5.5770499329810264e-11,
+  "render_position_quantization_mm": 0.01,
+  "tessellation_deflection_mm": 0.35,
+  "geometry_source": "Actual native FreeCAD shapes, including known invalid servo case reference",
+  "browser_test_status": "PASS"
+}
