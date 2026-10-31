@@ -1,0 +1,414 @@
+{
+  "revision": "P11",
+  "native_sha256": "2e054218924e66d44c9978a21652d463c3b1008e729cb23b618715a9c5a29e42",
+  "base_sha256": "03aa745fb3b31680ded3f6d905f568158bf7edc72c223465184b849416a360b7",
+  "parts": 748,
+  "removed": 78,
+  "replaced": 4,
+  "new_or_changed": 56,
+  "changes": [
+    {
+      "operation": "removed",
+      "name": "Oben_feststehend_11",
+      "id": "MOTOR-ECO2-2306"
+    },
+    {
+      "operation": "removed",
+      "name": "Oben_feststehend_13",
+      "id": "RITZEL-M1-Z20"
+    },
+    {
+      "operation": "removed",
+      "name": "Unten_feststehend_11",
+      "id": "MOTOR-ECO2-2306"
+    },
+    {
+      "operation": "removed",
+      "name": "Unten_feststehend_13",
+      "id": "RITZEL-M1-Z20"
+    },
+    {
+      "operation": "removed",
+      "name": "P05_Kontermutter_M5_Oben_",
+      "id": "ISO4035-M5"
+    },
+    {
+      "operation": "removed",
+      "name": "P05_Motorscheibe_Oben_0",
+      "id": "ISO7089-M3"
+    },
+    {
+      "operation": "removed",
+      "name": "P05_Motorschraube_Oben_0",
+      "id": "M3x7-P05-REFERENZ"
+    },
+    {
+      "operation": "removed",
+      "name": "P05_Motorscheibe_Oben_1",
+      "id": "ISO7089-M3"
+    },
+    {
+      "operation": "removed",
+      "name": "P05_Motorschraube_Oben_1",
+      "id": "M3x7-P05-REFERENZ"
+    },
+    {
+      "operation": "removed",
+      "name": "P05_Motorscheibe_Oben_2",
+      "id": "ISO7089-M3"
+    },
+    {
+      "operation": "removed",
+      "name": "P05_Motorschraube_Oben_2",
+      "id": "M3x7-P05-REFERENZ"
+    },
+    {
+      "operation": "removed",
+      "name": "P05_Motorscheibe_Oben_3",
+      "id": "ISO7089-M3"
+    },
+    {
+      "operation": "removed",
+      "name": "P05_Motorschraube_Oben_3",
+      "id": "M3x7-P05-REFERENZ"
+    },
+    {
+      "operation": "removed",
+      "name": "P05_Kontermutter_M5_Unten_",
+      "id": "ISO4035-M5"
+    },
+    {
+      "operation": "removed",
+      "name": "P05_Motorscheibe_Unten_0",
+      "id": "ISO7089-M3"
+    },
+    {
+      "operation": "removed",
+      "name": "P05_Motorschraube_Unten_0",
+      "id": "M3x7-P05-REFERENZ"
+    },
+    {
+      "operation": "removed",
+      "name": "P05_Motorscheibe_Unten_1",
+      "id": "ISO7089-M3"
+    },
+    {
+      "operation": "removed",
+      "name": "P05_Motorschraube_Unten_1",
+      "id": "M3x7-P05-REFERENZ"
+    },
+    {
+      "operation": "removed",
+      "name": "P05_Motorscheibe_Unten_2",
+      "id": "ISO7089-M3"
+    },
+    {
+      "operation": "removed",
+      "name": "P05_Motorschraube_Unten_2",
+      "id": "M3x7-P05-REFERENZ"
+    },
+    {
+      "operation": "removed",
+      "name": "P05_Motorscheibe_Unten_3",
+      "id": "ISO7089-M3"
+    },
+    {
+      "operation": "removed",
+      "name": "P05_Motorschraube_Unten_3",
+      "id": "M3x7-P05-REFERENZ"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Motorbruecke_Oben",
+      "id": "P10-MOTORBRUECKE"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Motorbruecke_Oben_ISO7089_M3_0",
+      "id": "ISO7089-M3"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Motorbruecke_Oben_ISO4762_M3x12_1",
+      "id": "ISO4762-M3x12"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Motorbruecke_Oben_ISO7089_M3_2",
+      "id": "ISO7089-M3"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Motorbruecke_Oben_ISO4032_M3_3",
+      "id": "ISO4032-M3"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Motorbruecke_Oben_ISO7089_M3_4",
+      "id": "ISO7089-M3"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Motorbruecke_Oben_ISO4762_M3x12_5",
+      "id": "ISO4762-M3x12"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Motorbruecke_Oben_ISO7089_M3_6",
+      "id": "ISO7089-M3"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Motorbruecke_Oben_ISO4032_M3_7",
+      "id": "ISO4032-M3"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Motorbruecke_Oben_ISO7089_M3_8",
+      "id": "ISO7089-M3"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Motorbruecke_Oben_ISO4762_M3x12_9",
+      "id": "ISO4762-M3x12"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Motorbruecke_Oben_ISO7089_M3_10",
+      "id": "ISO7089-M3"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Motorbruecke_Oben_ISO4032_M3_11",
+      "id": "ISO4032-M3"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Stuetzplanet_Oben_1",
+      "id": "P10-STUETZPLANET-Z20"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Stuetzplanet_Oben_1_MR85_0",
+      "id": "MR85ZZ"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Stuetzplanet_Oben_1_MR85_1",
+      "id": "MR85ZZ"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_PLANETENBOLZENTRAEGER_Oben_1",
+      "id": "P10-PLANETENBOLZENTRAEGER"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_PLANETENBOLZEN_D5_Oben_1",
+      "id": "P10-PLANETENBOLZEN-D5"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_DISTANZSCHEIBE_5_Oben_1",
+      "id": "P10-DISTANZSCHEIBE-5"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Stuetzplanet_Oben_2",
+      "id": "P10-STUETZPLANET-Z20"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Stuetzplanet_Oben_2_MR85_0",
+      "id": "MR85ZZ"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Stuetzplanet_Oben_2_MR85_1",
+      "id": "MR85ZZ"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_PLANETENBOLZENTRAEGER_Oben_2",
+      "id": "P10-PLANETENBOLZENTRAEGER"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_PLANETENBOLZEN_D5_Oben_2",
+      "id": "P10-PLANETENBOLZEN-D5"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_DISTANZSCHEIBE_5_Oben_2",
+      "id": "P10-DISTANZSCHEIBE-5"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Motorbruecke_Unten",
+      "id": "P10-MOTORBRUECKE"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Motorbruecke_Unten_ISO7089_M3_0",
+      "id": "ISO7089-M3"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Motorbruecke_Unten_ISO4762_M3x12_1",
+      "id": "ISO4762-M3x12"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Motorbruecke_Unten_ISO7089_M3_2",
+      "id": "ISO7089-M3"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Motorbruecke_Unten_ISO4032_M3_3",
+      "id": "ISO4032-M3"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Motorbruecke_Unten_ISO7089_M3_4",
+      "id": "ISO7089-M3"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Motorbruecke_Unten_ISO4762_M3x12_5",
+      "id": "ISO4762-M3x12"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Motorbruecke_Unten_ISO7089_M3_6",
+      "id": "ISO7089-M3"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Motorbruecke_Unten_ISO4032_M3_7",
+      "id": "ISO4032-M3"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Motorbruecke_Unten_ISO7089_M3_8",
+      "id": "ISO7089-M3"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Motorbruecke_Unten_ISO4762_M3x12_9",
+      "id": "ISO4762-M3x12"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Motorbruecke_Unten_ISO7089_M3_10",
+      "id": "ISO7089-M3"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Motorbruecke_Unten_ISO4032_M3_11",
+      "id": "ISO4032-M3"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Stuetzplanet_Unten_1",
+      "id": "P10-STUETZPLANET-Z20"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Stuetzplanet_Unten_1_MR85_0",
+      "id": "MR85ZZ"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Stuetzplanet_Unten_1_MR85_1",
+      "id": "MR85ZZ"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_PLANETENBOLZENTRAEGER_Unten_1",
+      "id": "P10-PLANETENBOLZENTRAEGER"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_PLANETENBOLZEN_D5_Unten_1",
+      "id": "P10-PLANETENBOLZEN-D5"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_DISTANZSCHEIBE_5_Unten_1",
+      "id": "P10-DISTANZSCHEIBE-5"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Stuetzplanet_Unten_2",
+      "id": "P10-STUETZPLANET-Z20"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Stuetzplanet_Unten_2_MR85_0",
+      "id": "MR85ZZ"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Stuetzplanet_Unten_2_MR85_1",
+      "id": "MR85ZZ"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_PLANETENBOLZENTRAEGER_Unten_2",
+      "id": "P10-PLANETENBOLZENTRAEGER"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_PLANETENBOLZEN_D5_Unten_2",
+      "id": "P10-PLANETENBOLZEN-D5"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_DISTANZSCHEIBE_5_Unten_2",
+      "id": "P10-DISTANZSCHEIBE-5"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Kabel_M1_oben_1",
+      "id": "P10-KABEL-20AWG"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Kabel_M1_oben_2",
+      "id": "P10-KABEL-20AWG"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Kabel_M1_oben_3",
+      "id": "P10-KABEL-20AWG"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Kabel_M2_unten_1",
+      "id": "P10-KABEL-20AWG"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Kabel_M2_unten_2",
+      "id": "P10-KABEL-20AWG"
+    },
+    {
+      "operation": "removed",
+      "name": "P10_Kabel_M2_unten_3",
+      "id": "P10-KABEL-20AWG"
+    }
+  ],
+  "invalid_inherited": [
+    "Oben_feststehend_15",
+    "Oben_feststehend_16",
+    "Oben_feststehend_17",
+    "Unten_feststehend_15",
+    "Unten_feststehend_16",
+    "Unten_feststehend_17"
+  ],
+  "ratio": 1,
+  "guide_rollers": 4,
+  "guide_bearings": 8,
+  "motor_selection_pending": true,
+  "manufacturing_release": false
+}

@@ -1,23 +1,23 @@
-/* Offline-Bedienung des H01/P10-Simulators. Physik, Szenarien und Flugablauf sind dieselben
+/* Offline-Bedienung des P11-Simulators mit H01/P10-Archiv. Physik, Szenarien und Flugablauf sind dieselben
  * Module wie in der Node-Testserie (testflug.js). */
 'use strict';
-const $=id=>document.getElementById(id),F=H01Flight,S=H01Scenarios,FS=H01Flugsteuerung,ST=H01Stroemung,KIN=H01KinematikP10,V3=H01Ansicht3D;
+const $=id=>document.getElementById(id),F=H01Flight,S=H01Scenarios,FS=H01Flugsteuerung,ST=H01Stroemung,KIN=H01KinematikP11,V3=H01Ansicht3D;
 const D=Math.PI/180,clamp=(x,a,b)=>Math.max(a,Math.min(b,x));
 const SAVOX=S.cases.find(c=>c.name==='Savox_7_4V_Manoever').options;
-const FREE={...SAVOX,massModel:'P10',drive:'P10_HOHLRAD',ground:true,startOnGround:true};
-for(const [i,c] of S.cases.entries())$('case').add(new Option(c.name.replaceAll('_',' '),i));
+const FREE={...SAVOX,massModel:'P11',drive:'P11_DIRECT',ground:true,startOnGround:true};
+for(const [i,c] of S.cases.entries())$('case').add(new Option((c.name.startsWith('P11_')?'AKTUELL · ':'ARCHIV · ')+c.name.replaceAll('_',' '),i));
 function loadCase(){const o={...F.defaults,...S.cases[+$('case').value].options};$('mass').value=o.servoMassG;$('torque').value=o.servoStallNm;$('friction').value=o.servoFriction;$('phase_dev').value=o.cyclicPhaseDeg;}
-$('case').onchange=loadCase;$('case').value=String(S.cases.findIndex(c=>c.name==='P10_Bodenstart_Schweben_Landung'));loadCase();
+$('case').onchange=loadCase;$('case').value=String(S.cases.findIndex(c=>c.name==='P11_EMAX_Referenz_Bodenstart'));loadCase();
 
 let currentDesign=null,courseName='none';const firmware=new H01Betaflight();let firmwarePending=false,firmwareAdvance=0;
 let sim,manager,scenario=null,paused=false,rows=[],trail=[],finished=false,rotorAngles=[0,0],accumulator=0,lastFrame=0,gust=[0,0,0],sliceData=null,sliceClock=0;
 let particles=new ST.ParticleField(2200,11),view=null,glError=null;
-try{view=new V3.View($('scene'),H01_P10_MESH,KIN);}catch(e){glError=e.message;$('glerror').style.display='grid';$('glerror').textContent='WebGL-Ansicht nicht verfügbar ('+e.message+'). Physik, Bedienung und Messdaten laufen weiter.';}
+try{view=new V3.View($('scene'),H01_P11_MESH,KIN);}catch(e){glError=e.message;$('glerror').style.display='grid';$('glerror').textContent='WebGL-Ansicht nicht verfügbar ('+e.message+'). Physik, Bedienung und Messdaten laufen weiter.';}
 function resetCommon(){rows=[];trail=[];finished=false;rotorAngles=[0,0];accumulator=0;gust=[0,0,0];particles=new ST.ParticleField(2200,11);clearKeys();paused=false;$('pause').textContent='Pause';}
-function newFree(){firmware.disarm();firmware.previousV=null;scenario=null;sim=new F.Flight({...FREE,design:currentDesign,obstacles:H01Obstacles.course(courseName)});manager=new FS.Manager(sim,{mode:$('angleMode').checked?'ANGLE':'POSITION'});resetCommon();}
+function newFree(){selectScene(true);firmware.disarm();firmware.previousV=null;scenario=null;sim=new F.Flight({...FREE,design:currentDesign,obstacles:H01Obstacles.course(courseName)});manager=new FS.Manager(sim,{mode:$('angleMode').checked?'ANGLE':'POSITION'});resetCommon();}
 function startCase(){if(firmwareMode()){$('firmwareMode').value='internal';$('firmwareMode').onchange();}for(const id of ['mass','torque','friction','phase_dev'])if(!$(id).reportValidity())return;scenario=S.cases[+$('case').value];
  sim=new F.Flight({...scenario.options,servoMassG:+$('mass').value,servoStallNm:+$('torque').value,servoFriction:+$('friction').value,cyclicPhaseDeg:+$('phase_dev').value});
- if(scenario.initial){if(scenario.initial.p)sim.p=[...scenario.initial.p];if(scenario.initial.angles)sim.q=F.quat(...scenario.initial.angles.map(x=>x*D));}manager=null;resetCommon();}
+ if(scenario.initial){if(scenario.initial.p)sim.p=[...scenario.initial.p];if(scenario.initial.angles)sim.q=F.quat(...scenario.initial.angles.map(x=>x*D));}manager=null;selectScene(sim.c.drive==='P11_DIRECT');resetCommon();}
 
 // ------------------------------------------------------------------ Eingaben: Tastatur, Gamepad, virtuelle Knüppel
 const held=new Set();const editable=el=>el?.matches?.('input,select,textarea')||el?.isContentEditable;
@@ -60,7 +60,7 @@ function doTakeoff(){if(firmwareMode()){if(!firmware.ready){$('firmwareStatus').
 function setMode(){if(firmwareMode()){$('modeLabel').textContent=$('angleMode').checked?'Betaflight ANGLE':'Betaflight ACRO';return;}if(manager)manager.setMode($('angleMode').checked?'ANGLE':'POSITION');$('modeLabel').innerHTML='<small>'+($('angleMode').checked?'ANGLE-Modus: Knüppel = Lagewinkel, Steigrate, Gierrate':'Positionsmodus: Knüppel verschieben den Haltepunkt')+'</small>';}
 function togglePause(){if(firmwareMode())firmware.disarm();clearKeys();paused=!paused;$('pause').textContent=paused?'Fortsetzen':'Pause';}
 $('takeoff').onclick=doTakeoff;$('land').onclick=()=>firmwareMode()?firmware.disarm():manager?.land();$('kill').onclick=()=>firmwareMode()?firmware.disarm():manager?.stop();$('reset').onclick=()=>{newFree();};$('pause').onclick=togglePause;$('angleMode').onchange=setMode;$('start').onclick=startCase;
-$('export').onclick=()=>{const blob=new Blob([JSON.stringify({scenario:scenario?.name||'P10_Freiflug',options:sim.c,obstacleScene:scenario?'none':courseName,collision:sim.obstacleHit,firmware:firmwareMode()?firmware.version:null,mode:manager?manager.mode:'SCENARIO',events:manager?.events||sim._manager?.events||[],cad_sha256:F.CAD.source_sha256,p10_sha256:F.P10?.source_native_sha256||null,rows},null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='H01-P10-Fluglog.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
+$('export').onclick=()=>{const blob=new Blob([JSON.stringify({scenario:scenario?.name||'P11_Freiflug',options:sim.c,obstacleScene:scenario?'none':courseName,collision:sim.obstacleHit,firmware:firmwareMode()?firmware.version:null,mode:manager?manager.mode:'SCENARIO',events:manager?.events||sim._manager?.events||[],cad_sha256:F.CAD.source_sha256,p10_sha256:F.P10?.source_native_sha256||null,p11_sha256:F.P11?.source_native_sha256||null,drive:sim.drive,rows},null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='PropBoard-Fluglog.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
 for(const id of ['wind','windDir','gust'])$(id).oninput=()=>{$('windLabel').textContent=`Wind ${(+$('wind').value).toFixed(1).replace('.',',')} m/s aus Richtung ${$('windDir').value}° (wehend nach ${((+$('windDir').value+180)%360)}°), Böigkeit ${Math.round(100*$('gust').value)} %`;};
 function updateHidden(){if(!view)return;const g=[];if($('hideCovers').checked)g.push('cover');if($('hideCases').checked)g.push('servo_case');if(!$('showCables').checked)g.push('cable');view.setHidden(g);}
 for(const id of ['hideCovers','hideCases','showCables'])$(id).onchange=updateHidden;
@@ -98,14 +98,14 @@ function hudDraw(snap){const dpr=Math.min(2,devicePixelRatio||1),w=hud.clientWid
   ps.forEach((t,j)=>{const a=(rotorAngles[l]+45*j)*D*(l?-1:1),rr=R*(.55+(t-mean)/8);const x=bx+150+rr*Math.cos(a),y=pcy-rr*Math.sin(a);j?c.lineTo(x,y):c.moveTo(x,y);});c.closePath();c.strokeStyle=l?'#d98d55':'#39b7c9';c.stroke();c.fillStyle='#c9deef';c.fillText(`${l?'unten':'oben'} ${mean.toFixed(1)}°`,bx+186,pcy-6);});}c.restore();
  if(manager?.events?.length){box(10,h-200,240,62);c.fillStyle='#c9deef';manager.events.slice(-4).forEach((e,i)=>c.fillText(`${e.t.toFixed(1)} s ${e.text}`,16,h-194+i*14));}
  c.fillStyle='#9fb2c4';c.fillText(`${view?view.drawn+' CAD-Teile':'ohne WebGL'} · Zeitlupe ${$('timescale').value}×`,240,16);}
-function readout(snap){const s=sim;$('readout').textContent=`${firmwareMode()&&!firmware.ready?'SITL NICHT VERBUNDEN':s.crashed?'ABBRUCH: '+(s.obstacleHit?'Hindernis '+s.obstacleHit.id:s.hardLanding?'harter Bodenkontakt':'Bodennähe / große Neigung'):finished?'Testzeit beendet':paused?'PAUSE':'SIMULATION LÄUFT'} · ${scenario?scenario.name:'P10-Freiflug'}
-Zeit ${snap.t.toFixed(2)} s · Masse ${s.mass.toFixed(3)} kg · Modell ${s.c.massModel}${s.c.drive==='P10_HOHLRAD'?' · Planetenstufe (Motor gleichsinnig)':''}
+function readout(snap){const s=sim;$('driveWarning').textContent=s.c.drive==='P11_DIRECT'?'P11 · 1:1-Direktantrieb · Motor/KV noch auszuwählen. Elektrische EMAX-Referenz unverändert; fehlender Schub oder Überstrom werden nicht durch fiktive Motordaten ausgeglichen.':'ARCHIV: frühere Konstruktion und Übersetzung, kein P11-Nachweis.';$('readout').textContent=`${firmwareMode()&&!firmware.ready?'SITL NICHT VERBUNDEN':s.crashed?'ABBRUCH: '+(s.obstacleHit?'Hindernis '+s.obstacleHit.id:s.hardLanding?'harter Bodenkontakt':'Bodennähe / große Neigung'):finished?'Testzeit beendet':paused?'PAUSE':'SIMULATION LÄUFT'} · ${scenario?scenario.name:'P11-Freiflug'}
+Zeit ${snap.t.toFixed(2)} s · Masse ${s.mass.toFixed(3)} kg · Modell ${s.c.massModel}${s.c.drive==='P11_DIRECT'?' · DIREKT 1:1 · EMAX nur Referenz':s.c.drive==='P10_HOHLRAD'?' · ARCHIV Planetenstufe':''}
 Regler ${firmwareMode()?firmware.version||'SITL nicht verbunden':'interner Modellregler'}
 Rotor D ${sim.geometry.r_tip*2} mm · Abstand ${sim.design.spacingMm} mm · ${sim.geometry.count} Blätter
 Position ${snap.p.map(x=>x.toFixed(2)).join(' / ')} m
 Soll     ${snap.target?snap.target.map(x=>x.toFixed(2)).join(' / ')+' m':'Lagewinkel/Steigrate (ANGLE)'}
 Roll/Nick/Gier ${snap.euler.map(x=>x.toFixed(1)).join(' / ')} °
-Rotoren ${snap.rpm.map(x=>x.toFixed(0)).join(' / ')} U/min · Motor ${snap.rpm.map(x=>(x*6.5).toFixed(0)).join(' / ')} U/min
+Rotoren ${snap.rpm.map(x=>x.toFixed(0)).join(' / ')} U/min · Motor ${snap.rpm.map(x=>(x*s.drive.ratio).toFixed(0)).join(' / ')} U/min
 Induziert ${snap.vi.map(x=>x.toFixed(2)).join(' / ')} m/s · Schub ${snap.thrust.map(x=>x.toFixed(2)).join(' / ')} N
 Akku ${snap.bus.toFixed(2)} V · ${snap.current.toFixed(1)} A · SoC ${(100*snap.soc).toFixed(0)} %
 Servos ${snap.servoDeg.map(x=>x.toFixed(1)).join(' / ')} °
@@ -131,6 +131,8 @@ function frame(ts){const real=Math.min(.05,(ts-lastFrame)/1000||0);lastFrame=ts;
  hudDraw(snap);$('phase').textContent=sim.obstacleHit?'KOLLISION':firmwareMode()?firmwarePhase():manager?manager.phase:(finished?'TESTENDE':'TESTFALL');
  if(ts-lastHud>120){readout(snap);drawCourse();if(firmwareMode()&&firmware.ready)$('firmwareStatus').textContent=firmware.version+' · '+(firmware.actualArmed?'ARMED':'DISARMED')+(firmware.armingDisabled?.length?' · ARM-Sperren: '+firmware.armingDisabled.join(', '):'');lastHud=ts;}requestAnimationFrame(frame);}
 $('results').innerHTML='<table><thead><tr><th>Fall</th><th>Modellergebnis</th><th>RMS letzte 5 s</th><th>Max. Neigung</th></tr></thead><tbody>'+H01_TESTS.results.map(r=>`<tr><td>${r.name.replaceAll('_',' ')}</td><td class="${r.status==='STABIL_IM_MODELL'?'good':'bad'}">${r.status.replaceAll('_',' ')}</td><td>${r.position_rms_last5s_m===null?'–':r.position_rms_last5s_m.toFixed(3)+' m'}</td><td>${r.max_tilt_deg.toFixed(1)}°</td></tr>`).join('')+'</tbody></table>';
+const sceneCache={P11:view};
+function selectScene(p11){const key=p11?'P11':'P10';if(!sceneCache[key])try{sceneCache[key]=new V3.View($('scene'),p11?H01_P11_MESH:H01_P10_MESH,p11?H01KinematikP11:H01KinematikP10);}catch(e){glError=e.message;}view=sceneCache[key]||null;}
 function firmwareMode(){return $('firmwareMode').value==='betaflight';}
 function firmwarePhase(){return !firmware.ready?'SITL GETRENNT':firmware.actualArmed?(firmware.armed?'BF ARMED':'BF DISARM-ANFRAGE'):firmware.armed?'BF ARM-ANFRAGE':'BF DISARMED';}
 const studyUI=H01StudyUI({sim:()=>sim,apply:p=>{currentDesign=p;newFree();}});
@@ -139,6 +141,6 @@ $('firmwareMode').onchange=()=>{firmware.disconnect();$('timescale').disabled=fi
 $('connectFirmware').onclick=async()=>{if(!firmwareMode()){$('firmwareMode').value='betaflight';$('firmwareMode').onchange();}try{await firmware.connect();newFree();$('firmwareStatus').textContent=firmware.version+' verbunden. Zum Armen Gas ganz nach unten.';}catch(e){$('firmwareStatus').textContent='Keine Firmwareverbindung: '+e.message+'. Lokalen betaflight_server.py starten und Simulator über dessen HTTP-Dienst öffnen.';}};
 async function runFirmware(real){if(firmwarePending||!firmware.ready||calibration.active)return;firmwarePending=true;const active=sim,steps=Math.max(1,Math.min(8,Math.round(real*+$('timescale').value/active.c.dt)));try{for(let i=0;i<steps;i++){if(active!==sim||paused||finished||!firmwareMode())break;keyboardSticks(active.c.dt);const output=await firmware.step(active,sticks(),$('angleMode').checked);if(active!==sim||paused||!firmwareMode())break;active.c.wind=windVector(active.c.dt);active.step({mode:'idle'}, {actuators:output});firmwareAdvance+=active.c.dt;for(let l=0;l<2;l++)rotorAngles[l]=(rotorAngles[l]+active.omega[l]*active.c.dt/D)%360;if(Math.round(active.t/active.c.dt)%20===0){rows.push(active.snapshot());if(rows.length>20000)rows.shift();}if(active.crashed){firmware.disarm();finished=true;break;}}}catch(e){paused=true;firmware.disarm();$('pause').textContent='Fortsetzen';$('firmwareStatus').textContent='SITL angehalten: '+e.message;}finally{firmwarePending=false;}}
 function drawCourse(){const c=$('courseMap'),ctx=c.getContext('2d'),w=c.width,h=c.height,scale=35,ox=35,oy=h/2;ctx.clearRect(0,0,w,h);ctx.fillStyle='#a6b9cb';ctx.font='11px system-ui';ctx.fillText('Draufsicht · +x → · 1 m = 35 px',8,14);for(const b of sim.obstacles){ctx.fillStyle=sim.obstacleHit?.id===b.id?'#ff6a4f':'#dca14e';ctx.fillRect(ox+b.min[0]*scale,oy-b.max[1]*scale,(b.max[0]-b.min[0])*scale,(b.max[1]-b.min[1])*scale);}ctx.fillStyle='#4cc9e6';ctx.beginPath();ctx.arc(ox+sim.p[0]*scale,oy-sim.p[1]*scale,Math.max(3,sim.geometry.r_tip/1000*scale),0,2*Math.PI);ctx.fill();$('obstacleStatus').textContent=sim.obstacleHit?'Kollision: '+sim.obstacleHit.id+' bei '+sim.obstacleHit.time.toFixed(2)+' s':sim.obstacles.length+' Hindernisse · konservative Fahrzeughülle · keine automatische Ausweichregelung';}
-setMode();updateHidden();newFree();$('wind').oninput();drawCourse();
-window.H01_APP={get sim(){return sim;},get manager(){return manager;},get view(){return view;},get particles(){return particles;},get rows(){return rows;},get paused(){return paused;},calibration,firmware,get currentDesign(){return currentDesign;},get study(){return studyUI;},sticks,pad,held,glError,newFree,startCase,advance};
+setMode();updateHidden();newFree();if(location.hash.startsWith('#design=')){try{currentDesign=H01Design.validate(JSON.parse(decodeURIComponent(location.hash.slice(8))));studyUI.fill(currentDesign);newFree();}catch(e){$('designStatus').textContent='Parameterübergabe ungültig: '+e.message;}}$('wind').oninput();drawCourse();
+window.H01_APP={get sim(){return sim;},get manager(){return manager;},get view(){return view;},get particles(){return particles;},get rows(){return rows;},get paused(){return paused;},calibration,firmware,get currentDesign(){return currentDesign;},get currentRevision(){return sim.c.drive==='P11_DIRECT'?'P11':'ARCHIV';},get study(){return studyUI;},sticks,pad,held,glError,newFree,startCase,advance};
 requestAnimationFrame(frame);

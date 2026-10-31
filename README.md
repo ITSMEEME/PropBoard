@@ -1,5 +1,12 @@
 # PropBoard
 
+**Aktuell: P11 – Direktantrieb 1:1 mit kugelgelagerten Führungsrollen.**
+[Native Konstruktion und technische Grenzen](modell_r04_taumel/integration_p11/README.md) ·
+[Visueller Physik-Prüfstand](modell_r04_taumel/simulation/Physik_Pruefstand.html) ·
+[Flugsimulator](modell_r04_taumel/simulation/H01_Flugsimulator.html).
+P10 und frühere Revisionen bleiben historische Vergleichsstände. Der spätere Ringmotor
+ist noch auszuwählen; EMAX bleibt die elektrische Vergleichsreferenz.
+
 PropBoard ist die Konzeptidee eines elektrischen Hoverboards, das eine Person mit einem Körpergewicht von bis zu 100 kg tragen und kontrolliert bewegen soll. Im Mittelpunkt stehen elektrischer Antrieb, stabile Lageregelung und eine sichere Bedienung.
 
 ## Projektidee
@@ -44,14 +51,14 @@ Der [rechnerische Tragfähigkeits-Nachweisversuch](tragfaehigkeit/Nachweisversuc
 
 Die Kreisbahn-Revisionen [Kreis R03](kreis_r03/README.md) und [Kreis R04](kreis_r04/README.md) ersetzen die Umlaufbahn durch einen Kreis mit r = 450 mm: 2 × 8 gegenläufige Flügel, Führungen bei r = 130 / 770 mm. R04 vergleicht Varianten mit und ohne Außenring. **Beide Verzeichnisse sind eine Rekonstruktion:** Der ursprüngliche Arbeitsstand lag in einer nicht mehr erreichbaren Cloud-Umgebung und wurde nie übertragen; siehe [Übernahme- und Rekonstruktionsprotokoll](docs/R03_R04_Rekonstruktion.md). Neu erzeugt wurden der Geometrievergleich (−26,1 % überstrichene Fläche je Ebene), native FreeCAD-Modelle (R03/R04 mit Außenring je 1 744 Körper, ohne Außenring 948), Massenszenarien (erfasste Modellmasse 63,2 bzw. 26,7 kg, keine Fahrzeugmasse), ein Balkenmodell der Pitchwelle und Gmsh-Sektornetze. **Die 3D-CFD-Studie ist unvollständig: Es gibt kein akzeptiertes CFD-Ergebnis.**
 
-Für das 1:4-Taumelmodell bringt [P10](modell_r04_taumel/integration_p10/README.md) neu:
+Der historische Stand des 1:4-Taumelmodells [P10](modell_r04_taumel/integration_p10/README.md) umfasst:
 
 - Servohalter mit Lastpfad
 - eine Planetenstufe (Hohlrad + 3 Planeten)
 - einen modellierten Kabelbaum
 - ein Kufenlandegestell
 
-Der [Flugsimulator](modell_r04_taumel/simulation/H01_Flugsimulator.html) zeigt diesen Stand in 3D, animiert aus der Physik, mit Strömungsdarstellung sowie Bodenstart und Landung. Das ist weiterhin ein Konstruktionsentwurf ohne Freigabe.
+Der [Flugsimulator](modell_r04_taumel/simulation/H01_Flugsimulator.html) zeigt standardmäßig P11 und bietet ältere Fälle als Archiv in 3D, animiert aus der Physik, mit Strömungsdarstellung sowie Bodenstart und Landung. Das ist weiterhin ein Konstruktionsentwurf ohne Freigabe.
 
 Verbindliche Ziele sind maximal **2100 × 1700 × 600 mm** Fahrzeugabmessungen einschließlich Rotoren und Schutz, **100 kg Personengewicht zuzüglich Ausrüstung**, mindestens **15 Minuten Flugzeit** und ungefähr **80 km/h** Zielgeschwindigkeit. Gewünscht sind eine selbststabilisierende Winkelregelung entsprechend ANGLE MODE und native, editierbare FreeCAD-Dateien. Die Fahrzeughöhe wird bisher ohne Person verstanden; Missionsprofil und Ausrüstungsmasse sind noch offen.
 

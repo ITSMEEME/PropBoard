@@ -1,5 +1,7 @@
 # Mechanikprüfung Koaxialrotor / zwei Taumelscheiben
 
+**Historische F01/H01-Prüfung.** Aktuelle Antriebsgeometrie und Einschränkungen: [P11-Direktantrieb](../integration_p11/README.md). Die damaligen Last- und Reibungsannahmen sind keine P11-Freigabe.
+
 Stand 30.10.2026. Bezug: F01-Rotor, neue FC/ESC-/Akkuhalter H01. **Rechnerische Prüfung mit ausdrücklich bedingten Lastannahmen; keine mechanische oder betriebliche Freigabe.**
 
 ## Ergebnis

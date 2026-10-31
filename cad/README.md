@@ -1,5 +1,12 @@
 # FreeCAD-Konzeptdateien
 
+**Aktuell: P11 – Direktantrieb 1:1 mit kugelgelagerten Führungsrollen.**
+[Native Konstruktion und technische Grenzen](../modell_r04_taumel/integration_p11/README.md) ·
+[Visueller Physik-Prüfstand](../modell_r04_taumel/simulation/Physik_Pruefstand.html) ·
+[Flugsimulator](../modell_r04_taumel/simulation/H01_Flugsimulator.html).
+P10 und frühere Revisionen bleiben historische Vergleichsstände. Der spätere Ringmotor
+ist noch auszuwählen; EMAX bleibt die elektrische Vergleichsreferenz.
+
 ## Neues Umlaufkonzept
 
 `Gegenlaeufiger_Fluegelumlauf.FCStd` und die STEP-Datei bilden zwei gegenläufige Ovalmodule mit je acht NACA-0012-Flügeln, Pitchachsen, Schlitten-Platzhaltern, Führungshüllen und einem Deck ab. Sie ersetzen den Rotorentwurf nicht automatisch.

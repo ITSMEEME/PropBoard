@@ -3,6 +3,8 @@ const SAVOX74={servoGeometryProfile:'Savox_SB2271SG_USER',servoMassG:69,servoSta
 const P10={massModel:'P10',drive:'P10_HOHLRAD',ground:true,startOnGround:true};
 const node=typeof module!=='undefined'&&module.exports,FS=node?require('./flugsteuerung.js'):root.H01Flugsteuerung;
 const cases=[
+ {name:'P11_EMAX_Referenz_Bodenstart',duration:8,mission:'p11_position',options:{...SAVOX74,massModel:'P11',drive:'P11_DIRECT',ground:true,startOnGround:true}},
+ {name:'P11_EMAX_Referenz_ANGLE',duration:8,mission:'p11_angle',options:{...SAVOX74,massModel:'P11',drive:'P11_DIRECT',ground:true,startOnGround:true}},
  {name:'Schweben',duration:20,options:{}},
  {name:'Versetztes_Schweben',duration:25,options:{},initial:{p:[.35,-.25,1.25],angles:[8,-6,12]}},
  {name:'Steigen_und_Translation',duration:28,options:{},mission:true},
@@ -32,10 +34,10 @@ function missionSticks(c,t){const k={throttle:0,yaw:0,pitch:0,roll:0},on=(a,b)=>
  if(c.mission==='p10_position'){if(on(10,12))k.pitch=.5;if(on(13,14))k.roll=.5;if(on(15,16))k.yaw=.5;}
  else{if(on(8,9.5))k.pitch=.5;if(on(9.5,11))k.pitch=-.5;if(on(12,13))k.roll=.4;if(on(13,14))k.roll=-.4;if(on(15,16))k.throttle=.3;if(on(16.5,17.5))k.yaw=.5;}
  return k;}
-function missionInputs(s,c){if(!s._manager)s._manager=new FS.Manager(s,{mode:c.mission==='p10_angle'?'ANGLE':'POSITION'});const m=s._manager;
- if(s.t>=.2&&m.phase==='AUS'&&!m._started){m._started=true;m.start();}if(s.t>=(c.mission==='p10_angle'?18:19)&&!m._landing){m._landing=true;m.land();}
+function missionInputs(s,c){if(!s._manager)s._manager=new FS.Manager(s,{mode:String(c.mission).endsWith('_angle')?'ANGLE':'POSITION'});const m=s._manager;
+ if(s.t>=.2&&m.phase==='AUS'&&!m._started){m._started=true;m.start();}if(s.t>=(String(c.mission).endsWith('_angle')?18:19)&&!m._landing){m._landing=true;m.land();}
  return m.update(missionSticks(c,s.t),s.c.dt);}
-function inputs(s,c){if(c.mission&&String(c.mission).startsWith('p10'))return missionInputs(s,c);let target={position:[0,0,1],yaw:0};if(c.mission&&s.t>=3)target={position:[.5,-.3,1.5],yaw:.35};
+function inputs(s,c){if(c.mission&&/^p1[01]/.test(String(c.mission)))return missionInputs(s,c);let target={position:[0,0,1],yaw:0};if(c.mission&&s.t>=3)target={position:[.5,-.3,1.5],yaw:.35};
  if(c.gust)s.c.wind=s.t>=4&&s.t<7?[3,0,0]:[0,0,0];
  if(c.rpmStep)s.omegaTarget=s.rpmHover*Math.PI/30*(s.t>=4?1.1:1);
  if(c.motorFailure&&s.t>=4)s.c.motorScale=[1,0];

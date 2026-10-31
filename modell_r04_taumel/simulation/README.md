@@ -1,12 +1,19 @@
-# H01 – CAD-basierter geregelter Freiflug
+# P11 – Physik-Prüfstand und Flugsimulator mit H01/P10-Archiv
+
+**Aktuell: P11 – Direktantrieb 1:1 mit kugelgelagerten Führungsrollen.**
+[Native Konstruktion und technische Grenzen](../integration_p11/README.md) ·
+[Visueller Physik-Prüfstand](Physik_Pruefstand.html) ·
+[Flugsimulator](H01_Flugsimulator.html).
+P10 und frühere Revisionen bleiben historische Vergleichsstände. Der spätere Ringmotor
+ist noch auszuwählen; EMAX bleibt die elektrische Vergleichsreferenz.
 
 ## Parameterstudie, Hindernisse und echte Betaflight-SITL
 
-Im Abschnitt **Parameter und aerodynamische Studie** lassen sich Durchmesser, Innenradius, Blatttiefe, Blattzahl, relative Profildicke, Zuspitzung, Verwindung, Ebenenabstand, Rotor-Drehzahl und Neutralpitch beider Ebenen einstellen. „Parameter übernehmen“ beginnt einen neuen Freiflug; „P10-Referenz“ stellt die native Darstellung und automatische Drehzahltrimmung wieder her. Der EMAX ECO II 2306 KV1900 und 6,5:1 bleiben unverändert. Bei Parametergeometrie werden schematische Blätter statt der unveränderten CAD-Baugruppe gezeigt. Der Pitchparameter ist ein aerodynamischer Montageoffset zum vorhandenen Gestänge, keine konstruktiv nachgewiesene Änderung der Anlenkung.
+Im Abschnitt **Parameter und aerodynamische Studie** lassen sich Durchmesser, Innenradius, Blatttiefe, Blattzahl, relative Profildicke, Zuspitzung, Verwindung, Ebenenabstand, Rotor-Drehzahl und Neutralpitch beider Ebenen einstellen. „Parameter übernehmen“ beginnt einen neuen Freiflug; „P11-Referenz“ stellt die native Darstellung und automatische Drehzahltrimmung wieder her. Aktuell gilt 1:1; der unveränderte EMAX ECO II 2306 KV1900 ist nur die elektrische Referenz. Ein geeigneter Ringmotor ist offen. Bei Parametergeometrie werden schematische Blätter statt der unveränderten CAD-Baugruppe gezeigt. Der Pitchparameter ist ein aerodynamischer Montageoffset zum vorhandenen Gestänge, keine konstruktiv nachgewiesene Änderung der Anlenkung.
 
-Das Raster verwendet **dieselbe `Flight.aero()`-Kraftberechnung** wie der Flugsimulator. Es löst stationären Zustrom ohne Boden/Wind und vergleicht elektrische Leistung einschließlich des bestehenden Motor-/Akku-/Getriebemodells. Der Schub muss mindestens das Fahrzeuggewicht erreichen. Grenzen für den zulässigen Schubüberschuss, Drehmoment-Asymmetrie, Motorstrom und abgelöste Modellelemente sind einstellbar. Dazu kommen Konvergenz und Blattspitzen-Machzahl < 0,65. Standardmäßig sind maximal 10 % abgelöste Modellelemente erlaubt; das anfängliche Suchraster kann deshalb ohne zulässigen Kandidaten enden. Grenzen sind Screening-Annahmen und keine Werkstoff-/Motor-Dauerfreigaben. Es wird dann kein Scheinoptimum ausgegeben. „Beste“ ist nur das Minimum innerhalb des tatsächlich berechneten Rasters unter den gewählten Grenzen. Abgebrochene Studien exportieren ausdrücklich ein Teilraster. Maximal 2000 Kombinationen, JSON-Export aller Ergebnisse.
+Das Raster verwendet **dieselbe `Flight.aero()`-Kraftberechnung** wie der Flugsimulator. Es löst stationären Zustrom ohne Boden/Wind und vergleicht elektrische Leistung einschließlich des gewählten Motor-/Akku-/Antriebsmodells. Der Schub muss mindestens das Fahrzeuggewicht erreichen. Grenzen für den zulässigen Schubüberschuss, Drehmoment-Asymmetrie, Motorstrom und abgelöste Modellelemente sind einstellbar. Dazu kommen Konvergenz und Blattspitzen-Machzahl < 0,65. Standardmäßig sind maximal 10 % abgelöste Modellelemente erlaubt; das anfängliche Suchraster kann deshalb ohne zulässigen Kandidaten enden. Grenzen sind Screening-Annahmen und keine Werkstoff-/Motor-Dauerfreigaben. Es wird dann kein Scheinoptimum ausgegeben. „Beste“ ist nur das Minimum innerhalb des tatsächlich berechneten Rasters unter den gewählten Grenzen. Abgebrochene Studien exportieren ausdrücklich ein Teilraster. Maximal 2000 Kombinationen, JSON-Export aller Ergebnisse.
 
-**Grenzen:** Referenzmasse und CAD-Trägheit bleiben konstant. Geänderte Blatt-/Trägermassen, Steifigkeit, Blattpassagen, Flattern und reale Profilpolaren werden nicht automatisch ermittelt. Die Studie nutzt die vereinfachte symmetrische Polare; sie ersetzt weder CFD noch Messung oder einen dynamischen Stabilitätsnachweis. Studien laufen unabhängig vom Parcours und sind keine automatische Flugwegoptimierung. Der Firmware-Mischer ist auf den nominalen P10-Arbeitspunkt ausgelegt und wird bei Geometrieänderungen nicht automatisch neu abgestimmt.
+**Grenzen:** Referenzmasse und CAD-Trägheit bleiben konstant. Geänderte Blatt-/Trägermassen, Steifigkeit, Blattpassagen, Flattern und reale Profilpolaren werden nicht automatisch ermittelt. Die Studie nutzt die vereinfachte symmetrische Polare; sie ersetzt weder CFD noch Messung oder einen dynamischen Stabilitätsnachweis. Studien laufen unabhängig vom Parcours und sind keine automatische Flugwegoptimierung. Der Firmware-Mischer ist auf den nominalen P11-Arbeitspunkt ausgelegt und wird bei Geometrieänderungen nicht automatisch neu abgestimmt.
 
 **Hindernisse:** „Training“ enthält Pfeiler, ein Tor und einen Block; „Slalom“ drei versetzte Hindernisse. „Parcours übernehmen“ startet einen neuen Versuch und wählt die Parcours-Kamera. Die Draufsicht zeigt Hindernisse und Fahrzeug. Eine konservative Kugelhülle (mindestens 240 mm Radius, größere Rotoren werden berücksichtigt) wird über jeden Integrationsschritt gegen vergrößerte Hindernisquader geprüft. Die kontinuierliche Segmentprüfung verhindert Durchtunneln; an Kanten und Ecken kann sie zu früh auslösen. Kontakt beendet den Versuch und markiert das Hindernis rot; es gibt kein Kontakt-/Bruchmodell und keine automatische Ausweichregelung. Kollision und Szene werden im Fluglog gespeichert. Die vorhandenen reproduzierbaren Skriptfälle behalten ihre Referenzparameter und laufen ohne Hindernisse.
 
@@ -27,7 +34,7 @@ Die Brücke überträgt Sensor-/Lagedaten über das originale 18-Double-FDM-Pake
 
 Sensor-Takt und RC/MSP-Verarbeitung laufen getrennt, damit Statusabfragen den virtuellen Sensortakt nicht anhalten. Bei Pause bleibt die letzte Lage erhalten; der Watchdog nimmt die Arm-Anforderung zurück. Zeitlupe ist im Firmwaremodus gesperrt; sie bleibt für den internen Modellregler verfügbar.
 
-`betaflight_mixer.cjs` erzeugt einen **CUSTOMAIRPLANE**-Mischer aus dem nominalen P10-Momenten-Jacobian: zwei gleich angesteuerte Motoren, sechs Servos aus Roll-/Nick-/Gier-PID, Kollektivversatz über AUX3. Die Servo-PWM-Spanne 1000…2000 entspricht hier angenommenen ±0,45 rad. Motor-PWM wird linear auf den ESC-Tastgrad abgebildet und bei 0,95 begrenzt; eine gemessene ESC-Kennlinie fehlt. Eine Feinabstimmung von Reglerverstärkung, Kollektivkurve und Stellgrenzen steht aus. Betaflight läuft als separater echter Prozess, nicht als Browser-WASM-Modul. Die Kommunikation ist asynchron; Echtzeitgeschwindigkeit hängt von Browser und Host ab.
+`betaflight_mixer.cjs` erzeugt einen **CUSTOMAIRPLANE**-Mischer aus dem nominalen P11-Momenten-Jacobian: zwei gleich angesteuerte Motoren, sechs Servos aus Roll-/Nick-/Gier-PID, Kollektivversatz über AUX3. Die Servo-PWM-Spanne 1000…2000 entspricht hier angenommenen ±0,45 rad. Motor-PWM wird linear auf den ESC-Tastgrad abgebildet und bei 0,95 begrenzt; eine gemessene ESC-Kennlinie fehlt. Eine Feinabstimmung von Reglerverstärkung, Kollektivkurve und Stellgrenzen steht aus. Betaflight läuft als separater echter Prozess, nicht als Browser-WASM-Modul. Die Kommunikation ist asynchron; Echtzeitgeschwindigkeit hängt von Browser und Host ab.
 
 Im Firmwaremodus gelten **ANGLE oder ACRO**, keine automatische Positionshaltung, Startsequenz oder Landung. Gas ist direktes Gas: Stickmitte = 50 %, nicht Steigrate. Zum Armen Gas ganz nach unten und dann Start; „Landen“, „Motoren aus“ und Gamepad B werden zu Disarm-Befehlen. Pause/Kalibrierung nehmen die Arm-Anforderung zurück; nach 150 ms ohne Frames sendet der Dienst disarmierte RC-Werte. ARM-Zustand und Sperrgründe stammen aus echtem MSP-Status. Die Kalibrierung des virtuellen Beschleunigungssensors wird per originalem MSP-Befehl durchgeführt. Keine Firmware wird auf echte Hardware geflasht.
 
@@ -49,7 +56,19 @@ Die Firmwareprüfung verifiziert echte MSP-Version, Lageübernahme, rückstellen
 
 Der erste Test prüft physikalische Parametersensitivitäten, Rastergrenzen, Unveränderlichkeit der CAD-Referenz, freie Hindernisdurchflüge, schnelle Kollision und den externen Aktuatorpfad. Der Browser-Test nutzt echte WebGL-Darstellung, 81 Parameterkombinationen, Übernahme eines Kandidaten, Parcours/Kollision und mobiles Layout. Betaflight benötigt zusätzlich den echten lokalen Firmwaredienst; ARM-, Gas-, Servo- und Achsenprüfungen erfolgen gegen diesen Prozess und dürfen nicht mit einem gemockten Firmwarestatus verwechselt werden.
 
-## Neu in P10: 3D-Ansicht, Strömung, Bodenstart, Steuerung
+## Aktueller P11-Prüfumfang
+
+`node modell_r04_taumel/simulation/p11_pruefen.cjs` prüft native Prüfsummen, Masse/Trägheit, unabhängige FreeCAD-/JavaScript-Kinematik, 1:1-Motorübersetzung, Rollenübersetzung, Drehimpuls und EMAX-Grenzen. `node modell_r04_taumel/simulation/browser_pruefen.cjs` prüft die native P11-Ansicht, den motorbegrenzten Bodenlauf, P11-Fluglog-Export, Hindernisse, Parameter und das korrekte Ausbleiben eines unzulässigen Studienoptimums. `node modell_r04_taumel/simulation/physik_pruefstand_pruefen.cjs` prüft Live-Geometrie, Schub in N/kg, Strom-/Leistungsänderung, Referenzdifferenzen, radiale Kraftintegration, CSV und mobile Ansicht. Beide Browserprüfungen benötigen Playwright und Chromium.
+
+`node modell_r04_taumel/simulation/testflug.js` schreibt aktuelle P11-Fälle ausschließlich nach `Ergebnisse/P11/`. Die unveränderte EMAX-Referenz erreicht den erforderlichen Arbeitspunkt nicht; diese Fälle sind negative Antriebsnachweise. Die historischen Ergebnisse darunter gelten ausschließlich für ihre damalige Revision. Für alle alten Rechenfälle ist `--archive` ausdrücklich anzugeben.
+
+Der [visuelle Prüfstand](Physik_Pruefstand.html) nutzt dasselbe stationäre Aerodynamikmodell. Schub in kg ist ein Kraftäquivalent, kein Tragfähigkeitsnachweis. Wirkungsgrad = mechanische Rotorleistung / elektrische Gesamtleistung; kg/kW zeigt Schub pro elektrischer Leistung, Wh/min den Energiebedarf. Vergleiche und CSV beziehen sich auf Parameterstände, nicht auf Flugzeit. Der aktuelle Dienst liefert ihn unter `/modell_r04_taumel/simulation/Physik_Pruefstand.html`.
+
+## Historische Dokumentation H01/P10
+
+Die nachfolgenden Massen, Übersetzungen, Tests, Abbildungen und Berichte beschreiben **die archivierten H01-/P10-Revisionen**. Aktuelle P11-Daten stehen oben und im [P11-Konstruktionsbericht](../integration_p11/README.md).
+
+### P10: 3D-Ansicht, Strömung, Bodenstart, Steuerung
 
 - **Darstellung (WebGL):** Die Ansicht zeigt die native [P10-Baugruppe](../integration_p10/README.md) mit 774 Bauteilen: Servohalter, Planetenstufe, Kabelbaum und Landegestell. Quelle ist `p10_mesh.js`, exportiert aus FreeCAD.
   - Alle Gelenkrahmen werden in jedem Bild aus dem Physikzustand berechnet (`kinematik_p10.js`). Bewegt werden Servohebel, Servo- und Blattgestänge, beide Taumelscheiben, die 16 Blattwinkel, die Rotoren und die Planeten.
@@ -97,7 +116,7 @@ Bekannte Abweichung zwischen Darstellung und Physik:
 
 `cad_import.py` liest `halterungen/Ausgabe/R04_Taumelmodell_Halterungen_H01.FCStd`. Die Quelldatei wird mit SHA256 identifiziert. Alle massentragenden CAD-Körper gehen mit ihren globalen Volumen-Schwerpunkten und vollen Trägheitstensoren ein; Zusammensetzung und Parallelachsenverschiebung stehen einzeln in `modell_h01.json`. `cad_mesh.js` enthält die tatsächlichen, gröber triangulierten CAD-Oberflächen. Es handelt sich um keine generische Quadrokopter-Grafik.
 
-Aus dem aktuellen CAD:
+Aus dem damaligen H01-CAD:
 
 - Masse einschließlich bisherigem Budget: **1,217676 kg**, mit sechs 9-g-Platzhaltern.
 - Schwerpunkt im CAD-Rahmen: **(0, −0,125, −34,387) mm**.
@@ -169,7 +188,7 @@ Nominelle Drehzahl und Mischer werden vor dem Test aus **nomineller** Polare, Ma
 
 ## Tests und Bewertung
 
-`Ergebnisse/Testbericht.json` und `Flugbericht.pdf` enthalten die aktuelle 22-Fall-Serie (19 H01-Fälle, 3 P10-Fälle). Die Testreihe umfasst Schweben, Anfangsstörung, Translation/Steigen/Gieren, 3-m/s-Böe mit Momentstoß, 10-%-Drehzahlsprung, Servomasse/Reibung, falsche Phase, blockiertes Servo, Motorausfall, 25 % aerodynamische Abweichung und niedrigen Ladezustand.
+`Ergebnisse/Testbericht.json` und `Flugbericht.pdf` enthalten die historische 22-Fall-Serie (19 H01-Fälle, 3 P10-Fälle). Die Testreihe umfasst Schweben, Anfangsstörung, Translation/Steigen/Gieren, 3-m/s-Böe mit Momentstoß, 10-%-Drehzahlsprung, Servomasse/Reibung, falsche Phase, blockiertes Servo, Motorausfall, 25 % aerodynamische Abweichung und niedrigen Ladezustand.
 
 „STABIL_IM_MODELL“ verlangt: kein Abbruch, keine Überschreitung der Entwurfs-Kinematikgrenzen, Endpositionsfehler <15 cm und RMS-Positionsfehler der letzten 5 s <15 cm. Das ist ein definiertes Testkriterium, keine Flugtauglichkeitsnorm. Abbruch bei Schwerpunkt unter 18 cm oder Roll/Nick über etwa 74,5°. Fehlerereignis und Kinematiküberschreitungen werden separat aufgezeichnet. Tests dauern 16…28 s; kein Akku-Leerflug und keine Langzeiterwärmung.
 
@@ -193,7 +212,7 @@ Optionaler Browser-Integrationstest mit installiertem Playwright und Chromium (k
 node modell_r04_taumel/simulation/browser_pruefen.cjs
 ```
 
-Er prüft WebGL-Initialisierung mit den P10-Bauteilen, Bodenstart bis Schwebeflug, Tastatur- und Zeigerknüppel, ANGLE-Modus, Landung bis Motor aus, Strömungspartikel, Testfall-Wiedergabe, JSON-Download mit CAD-Prüfsummen, mobile Breite und JavaScript-Fehler. WebGL läuft im Test über SwiftShader. Der Test startet einen temporären Loopback-Server und beendet ihn wieder. Falls nötig den Chromium-Pfad über `H01_CHROMIUM` angeben. `Ergebnisse/Browser_Desktop.png` zeigt den geprüften Stand.
+Der aktuelle Browser-Prüfumfang ist im P11-Abschnitt oben beschrieben. Die gespeicherten Bilder `Ergebnisse/Browser_Desktop.png` und `Browser_Mobil.png` zeigen den historischen P10-Stand.
 
 CAD und Python-Referenzen nur nach Geometrieänderungen neu importieren:
 

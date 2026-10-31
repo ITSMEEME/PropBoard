@@ -1,0 +1,71 @@
+{
+  "revision": "P11_DIREKTANTRIEB_FUEHRUNGSROLLEN_ENTWURF",
+  "ratio": 1,
+  "mechanical_efficiency_assumption": 0.98,
+  "motor_status": "MOTOR_NOCH_AUSZUWaEHLEN_EMAX_NUR_ELEKTRISCHE_REFERENZ",
+  "motor_reference": "EMAX ECO II 2306 KV1900",
+  "stator_mass_assumption_g": 200,
+  "motor_rotor_mass_assumption_g": 80,
+  "motor_rotor_inertia_assumption_kgm2": 0.0006196,
+  "stator_inner_radius_mm": 77.5,
+  "stator_outer_radius_mm": 86.5,
+  "stator_z_mm": [
+    15,
+    30
+  ],
+  "rotor_cup_outer_radius_mm": 92,
+  "rotor_cup_inner_radius_mm": 89,
+  "rotor_cup_z_mm": [
+    13.5,
+    31.5
+  ],
+  "guide_track_inner_radius_mm": 64.4,
+  "guide_track_outer_radius_mm": 70,
+  "guide_track_z_mm": [
+    13.5,
+    21.5
+  ],
+  "roller_radius_mm": 9.55,
+  "roller_bore_radius_mm": 4,
+  "roller_z_mm": [
+    15.4,
+    20.9
+  ],
+  "roller_journal_radial_mm": 54.8,
+  "roller_journal_tangent_mm": 0.15,
+  "roller_azimuths_deg": [
+    115,
+    205
+  ],
+  "eccentric_stem_radial_mm": 54.6,
+  "eccentricity_mm": 0.25,
+  "eccentric_setting_deg": 36.86989764584402,
+  "stator_post_radius_mm": 82,
+  "stator_post_azimuths_deg": [
+    30,
+    150,
+    270
+  ],
+  "stator_mount_screws": "3 x M3x20 je Ebene, in angenommene Gewindebohrungen des Stators",
+  "bearing": "je Rolle 2 x MR85ZZ (5 x 8 x 2.5 mm), Nennmasshuelle",
+  "notes": [
+    "Motor ist ein ringfoermiger Anschluss-/Luftspaltbauraum, kein ausgewaehltes Kaufteil.",
+    "Der EMAX 2306 passt wegen des Mittelrohrs nicht koaxial; seine Geometrie wird nicht als Ringmotor umetikettiert.",
+    "Motorbauraummassen sind Annahmen; Sensitivitaet und Auswahl eines realen Motors erforderlich.",
+    "0.98 mechanischer Wirkungsgrad ist eine ungemessene Annahme einschliesslich Lager/Rollen, keine Nullreibung.",
+    "Fuer den Vergleich werden die EMAX-Stromgrenzen unveraendert angewendet; unzureichende Direktantriebsleistung bleibt sichtbar."
+  ],
+  "magnet_envelope_radii_mm": [
+    87,
+    89
+  ],
+  "motor_inertia_embedded_in_rotor": true,
+  "guide_insert_radii_mm": [
+    64.4,
+    65.4
+  ],
+  "guide_insert_z_mm": [
+    15.1,
+    21.5
+  ]
+}

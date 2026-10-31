@@ -1,10 +1,17 @@
 # R04-Taumelmodell 1:4
 
+**Aktuell: P11 – Direktantrieb 1:1 mit kugelgelagerten Führungsrollen.**
+[Native Konstruktion und technische Grenzen](integration_p11/README.md) ·
+[Visueller Physik-Prüfstand](simulation/Physik_Pruefstand.html) ·
+[Flugsimulator](simulation/H01_Flugsimulator.html).
+P10 und frühere Revisionen bleiben historische Vergleichsstände. Der spätere Ringmotor
+ist noch auszuwählen; EMAX bleibt die elektrische Vergleichsreferenz.
+
 Eigenständige Variante des R04-Testmodells: Der Pitch wird **je Rotor über eine Taumelscheibe** gestellt (kollektiv + zyklisch), nicht über einen Servo je Flügel. Das Servo-je-Flügel-Modell bleibt unverändert in [`modell_r04/`](../modell_r04/Implementationsplan.md). Die Begründung steht in [`modell_r04/Bewertung_Taumelscheibe.md`](../modell_r04/Bewertung_Taumelscheibe.md).
 
 **Entwurf, keine Freigabe.** Alle Zahlen sind Modellwerte (BEMT mit vereinfachter Polare, Gleichstrom-Motormodell) und müssen am Prüfstand bestätigt werden.
 
-## Aktueller Integrationsstand P10
+## Historischer Integrationsstand P10
 
 [P10 ergänzt die P09-Baugruppe um vier Punkte](integration_p10/README.md):
 

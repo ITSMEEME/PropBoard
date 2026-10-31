@@ -1,0 +1,19 @@
+'use strict';
+const {chromium}=require('playwright'),fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
+(async()=>{let browser;try{
+ browser=await chromium.launch({executablePath:process.env.H01_CHROMIUM||'/usr/bin/chromium',headless:true,args:['--no-sandbox','--disable-crashpad-for-testing','--disable-dev-shm-usage','--use-gl=angle','--use-angle=swiftshader','--enable-unsafe-swiftshader']});
+ const page=await browser.newPage({viewport:{width:1500,height:1100},acceptDownloads:true}),errors=[];page.on('pageerror',e=>errors.push(e.message));
+ const inline=file=>fs.readFileSync(path.join(__dirname,file),'utf8').replace(/<script src="([^"]+)"><\/script>/g,(_,src)=>'<script>'+fs.readFileSync(path.resolve(__dirname,src),'utf8').replace(/<\/script/gi,'<\\/script')+'</script>');
+ await page.setContent(inline('Physik_Pruefstand.html'));try{await page.waitForFunction(()=>window.P11_BENCH?.current&&P11_BENCH.view);}catch(e){console.log('Bench diagnostics',errors,await page.locator('#status').innerText(),await page.locator('#renderError').innerText());throw e;}
+ const first=await page.evaluate(()=>P11_BENCH.current);assert.equal(first.driveRatio,1);assert(Math.abs(first.liftKg*9.81-first.thrustN)<1e-9);assert.equal(first.withinMotorEnvelope,false);
+ for(let l=0;l<2;l++)assert(Math.abs(first.sections[l].reduce((s,v)=>s+v.liftN,0)-first.thrustPerRotorN[l])<1e-8);
+ await page.fill('#bench_chordMm','35');await page.waitForFunction(()=>P11_BENCH.current.design.chordMm===35);const chord=await page.evaluate(()=>P11_BENCH.current);assert(chord.thrustN>first.thrustN&&chord.powerW>first.powerW);
+ await page.fill('#bench_spacingMm','120');await page.waitForFunction(()=>P11_BENCH.current.design.spacingMm===120);const spacing=await page.evaluate(()=>P11_BENCH.current);assert(Math.abs(spacing.thrustPerRotorN[1]-chord.thrustPerRotorN[1])>.01);
+ await page.fill('#bench_rpm','3000');await page.waitForFunction(()=>P11_BENCH.current.design.rpm===3000);const rpm=await page.evaluate(()=>P11_BENCH.current);assert(rpm.thrustN<spacing.thrustN);
+ await page.click('#baseline');assert((await page.locator('#delta_liftKg').innerText()).includes('+0.000'));
+ await page.fill('#payload','1');await page.waitForFunction(()=>Math.abs(P11_BENCH.current.massKg-P11_BENCH.baseline.massKg-1)<1e-9);assert(Math.abs((await page.evaluate(()=>P11_BENCH.current.reserveKg))-rpm.reserveKg+1)<1e-8);
+ const download=page.waitForEvent('download');await page.click('#exportBench');const text=fs.readFileSync(await(await download).path(),'utf8');assert(text.includes('liftKg;reserveKg;powerW;currentA')&&text.split('\n').length>=4);
+ await page.click('#reset');await page.waitForFunction(()=>P11_BENCH.current.design.chordMm===30);await page.screenshot({path:'/tmp/P11_Physik_Pruefstand.png',fullPage:true});
+ await page.setViewportSize({width:390,height:844});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));
+ assert.deepEqual(errors,[]);fs.writeFileSync(path.join(__dirname,'Ergebnisse/P11/Physik_Pruefstand_Pruefung.json'),JSON.stringify({status:'PASS',checks:['real WebGL','live chord, RPM and spacing response','radial force integration','N/kg conversion','reference deltas','payload reserve','CSV export','mobile layout'],reference:{design:first.design,liftKg:first.liftKg,powerW:first.powerW,currentA:first.currentA,withinMotorEnvelope:first.withinMotorEnvelope},changedChord:{liftKg:chord.liftKg,powerW:chord.powerW},changedRpm:{liftKg:rpm.liftKg,powerW:rpm.powerW}},null,2)+'\n');console.log('PASS: real WebGL bench, immediate geometry/RPM/spacing responses, radial force integration, kg/N conversion, reference deltas, payload reserve, CSV export and mobile layout.');
+}finally{if(browser)await browser.close();}})().catch(e=>{console.error(e);process.exitCode=1;});

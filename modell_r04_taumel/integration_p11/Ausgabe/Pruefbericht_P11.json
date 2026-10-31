@@ -1,0 +1,443 @@
+{
+  "source_native_sha256": "2e054218924e66d44c9978a21652d463c3b1008e729cb23b618715a9c5a29e42",
+  "introduced_or_changed_parts": 56,
+  "inherited_invalid_servo_cases": [
+    "Oben_feststehend_15",
+    "Oben_feststehend_16",
+    "Oben_feststehend_17",
+    "Unten_feststehend_15",
+    "Unten_feststehend_16",
+    "Unten_feststehend_17"
+  ],
+  "servo_proxy": "Same measured bounding solids as P10, invalid source STEP is NOT silently certified",
+  "collisions": [],
+  "intended_contacts": [
+    {
+      "state": 0,
+      "a": "Oben_feststehend_10",
+      "b": "P10_Servohalter_Oben_60_ISO4762_M3x10_19",
+      "volume_mm3": 8.435585224355279,
+      "reason": "Wiederverwendete Halteplatten-Befestigung"
+    },
+    {
+      "state": 0,
+      "a": "Oben_feststehend_10",
+      "b": "P10_Servohalter_Oben_180_ISO4762_M3x10_19",
+      "volume_mm3": 8.435585224355046,
+      "reason": "Wiederverwendete Halteplatten-Befestigung"
+    },
+    {
+      "state": 0,
+      "a": "Oben_feststehend_10",
+      "b": "P10_Servohalter_Oben_300_ISO4762_M3x10_19",
+      "volume_mm3": 8.435585224355417,
+      "reason": "Wiederverwendete Halteplatten-Befestigung"
+    },
+    {
+      "state": 0,
+      "a": "Unten_feststehend_10",
+      "b": "P10_Servohalter_Unten_60_ISO4762_M3x10_19",
+      "volume_mm3": 8.435585224355506,
+      "reason": "Wiederverwendete Halteplatten-Befestigung"
+    },
+    {
+      "state": 0,
+      "a": "Unten_feststehend_10",
+      "b": "P10_Servohalter_Unten_180_ISO4762_M3x10_19",
+      "volume_mm3": 8.435585224355096,
+      "reason": "Wiederverwendete Halteplatten-Befestigung"
+    },
+    {
+      "state": 0,
+      "a": "Unten_feststehend_10",
+      "b": "P10_Servohalter_Unten_300_ISO4762_M3x10_19",
+      "volume_mm3": 8.435585224355481,
+      "reason": "Wiederverwendete Halteplatten-Befestigung"
+    },
+    {
+      "state": 0,
+      "a": "P11_Stator_Bauraum_Oben",
+      "b": "P11_Stator_Schraube_Oben_0",
+      "volume_mm3": 7.559457322700431,
+      "reason": "Stator-Befestigungsgewinde / Schraubendurchgang"
+    },
+    {
+      "state": 0,
+      "a": "P11_Stator_Bauraum_Oben",
+      "b": "P11_Stator_Schraube_Oben_1",
+      "volume_mm3": 7.559457322700433,
+      "reason": "Stator-Befestigungsgewinde / Schraubendurchgang"
+    },
+    {
+      "state": 0,
+      "a": "P11_Stator_Bauraum_Oben",
+      "b": "P11_Stator_Schraube_Oben_2",
+      "volume_mm3": 7.559457322700458,
+      "reason": "Stator-Befestigungsgewinde / Schraubendurchgang"
+    },
+    {
+      "state": 0,
+      "a": "P11_Rollentraeger_Oben_0",
+      "b": "P11_Klemmschraube_Oben_0",
+      "volume_mm3": 7.522464304249437,
+      "reason": "Nominales M3-Klemmgewinde / Kontakt am Exzenter"
+    },
+    {
+      "state": 0,
+      "a": "P11_Exzenterbolzen_Oben_0",
+      "b": "P11_Klemmschraube_Oben_0",
+      "volume_mm3": 0.7544959082110307,
+      "reason": "Nominales M3-Klemmgewinde / Kontakt am Exzenter"
+    },
+    {
+      "state": 0,
+      "a": "P11_Rollentraeger_Oben_1",
+      "b": "P11_Klemmschraube_Oben_1",
+      "volume_mm3": 7.522464359027028,
+      "reason": "Nominales M3-Klemmgewinde / Kontakt am Exzenter"
+    },
+    {
+      "state": 0,
+      "a": "P11_Exzenterbolzen_Oben_1",
+      "b": "P11_Klemmschraube_Oben_1",
+      "volume_mm3": 0.7544958603571781,
+      "reason": "Nominales M3-Klemmgewinde / Kontakt am Exzenter"
+    },
+    {
+      "state": 0,
+      "a": "P11_Stator_Bauraum_Unten",
+      "b": "P11_Stator_Schraube_Unten_0",
+      "volume_mm3": 7.5594573227004345,
+      "reason": "Stator-Befestigungsgewinde / Schraubendurchgang"
+    },
+    {
+      "state": 0,
+      "a": "P11_Stator_Bauraum_Unten",
+      "b": "P11_Stator_Schraube_Unten_1",
+      "volume_mm3": 7.559457322700433,
+      "reason": "Stator-Befestigungsgewinde / Schraubendurchgang"
+    },
+    {
+      "state": 0,
+      "a": "P11_Stator_Bauraum_Unten",
+      "b": "P11_Stator_Schraube_Unten_2",
+      "volume_mm3": 7.5594573227004584,
+      "reason": "Stator-Befestigungsgewinde / Schraubendurchgang"
+    },
+    {
+      "state": 0,
+      "a": "P11_Rollentraeger_Unten_0",
+      "b": "P11_Klemmschraube_Unten_0",
+      "volume_mm3": 7.522464303775832,
+      "reason": "Nominales M3-Klemmgewinde / Kontakt am Exzenter"
+    },
+    {
+      "state": 0,
+      "a": "P11_Exzenterbolzen_Unten_0",
+      "b": "P11_Klemmschraube_Unten_0",
+      "volume_mm3": 0.7544959081576794,
+      "reason": "Nominales M3-Klemmgewinde / Kontakt am Exzenter"
+    },
+    {
+      "state": 0,
+      "a": "P11_Rollentraeger_Unten_1",
+      "b": "P11_Klemmschraube_Unten_1",
+      "volume_mm3": 7.5224643597248235,
+      "reason": "Nominales M3-Klemmgewinde / Kontakt am Exzenter"
+    },
+    {
+      "state": 0,
+      "a": "P11_Exzenterbolzen_Unten_1",
+      "b": "P11_Klemmschraube_Unten_1",
+      "volume_mm3": 0.7544958601706493,
+      "reason": "Nominales M3-Klemmgewinde / Kontakt am Exzenter"
+    },
+    {
+      "state": 0,
+      "a": "P11_Kabel_M1_oben_1",
+      "b": "REF_ESC",
+      "volume_mm3": 1.3069025438933521,
+      "reason": "Leitungsende an unveraendertem ESC-Phasenpad"
+    },
+    {
+      "state": 0,
+      "a": "P11_Kabel_M1_oben_2",
+      "b": "REF_ESC",
+      "volume_mm3": 1.3069025438933541,
+      "reason": "Leitungsende an unveraendertem ESC-Phasenpad"
+    },
+    {
+      "state": 0,
+      "a": "P11_Kabel_M1_oben_3",
+      "b": "REF_ESC",
+      "volume_mm3": 1.3069025438933526,
+      "reason": "Leitungsende an unveraendertem ESC-Phasenpad"
+    },
+    {
+      "state": 0,
+      "a": "P11_Kabel_M2_unten_1",
+      "b": "REF_ESC",
+      "volume_mm3": 1.306902543893351,
+      "reason": "Leitungsende an unveraendertem ESC-Phasenpad"
+    },
+    {
+      "state": 0,
+      "a": "P11_Kabel_M2_unten_2",
+      "b": "REF_ESC",
+      "volume_mm3": 1.3069025438933504,
+      "reason": "Leitungsende an unveraendertem ESC-Phasenpad"
+    },
+    {
+      "state": 0,
+      "a": "P11_Kabel_M2_unten_3",
+      "b": "REF_ESC",
+      "volume_mm3": 1.3069025438933513,
+      "reason": "Leitungsende an unveraendertem ESC-Phasenpad"
+    }
+  ],
+  "states": [
+    {
+      "servos": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "rotors": [
+        0,
+        0
+      ],
+      "exact_pairs": 1598
+    },
+    {
+      "servos": [
+        0.0,
+        0.0,
+        -0.0,
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "rotors": [
+        0.0,
+        0.0
+      ],
+      "exact_pairs": 1074
+    },
+    {
+      "servos": [
+        0.05826008354363201,
+        0.09267840913048189,
+        -0.15093849267411386,
+        0.05826008354363201,
+        0.09267840913048189,
+        -0.15093849267411386
+      ],
+      "rotors": [
+        22.5,
+        22.5
+      ],
+      "exact_pairs": 1094
+    },
+    {
+      "servos": [
+        0.41421356237309503,
+        0.15161268642060302,
+        -0.565826248793698,
+        0.41421356237309503,
+        0.15161268642060302,
+        -0.565826248793698
+      ],
+      "rotors": [
+        45.0,
+        45.0
+      ],
+      "exact_pairs": 1067
+    },
+    {
+      "servos": [
+        0.8923518497915017,
+        -0.0133874822651621,
+        -0.87896436752634,
+        0.8923518497915017,
+        -0.0133874822651621,
+        -0.87896436752634
+      ],
+      "rotors": [
+        60.75000000000001,
+        60.75000000000001
+      ],
+      "exact_pairs": 1085
+    },
+    {
+      "servos": [
+        1.9999999999999996,
+        -0.9999999999999992,
+        -1.0000000000000007,
+        1.9999999999999996,
+        -0.9999999999999992,
+        -1.0000000000000007
+      ],
+      "rotors": [
+        90.0,
+        90.0
+      ],
+      "exact_pairs": 1064
+    },
+    {
+      "servos": [
+        2.2865844372555055,
+        -3.461855609962185,
+        1.17527117270668,
+        2.2865844372555055,
+        -3.461855609962185,
+        1.17527117270668
+      ],
+      "rotors": [
+        139.5,
+        139.5
+      ],
+      "exact_pairs": 1081
+    },
+    {
+      "servos": [
+        4.898587196589413e-16,
+        -3.464101615137756,
+        3.4641016151377535,
+        4.898587196589413e-16,
+        -3.464101615137756,
+        3.4641016151377535
+      ],
+      "rotors": [
+        180.0,
+        180.0
+      ],
+      "exact_pairs": 1070
+    },
+    {
+      "servos": [
+        -2.414213562373095,
+        -0.8836634939894799,
+        3.2978770563625757,
+        -2.414213562373095,
+        -0.8836634939894799,
+        3.2978770563625757
+      ],
+      "rotors": [
+        225.0,
+        225.0
+      ],
+      "exact_pairs": 1065
+    },
+    {
+      "servos": [
+        -2.447409037623243,
+        0.6259385072491032,
+        1.8214705303741379,
+        -2.447409037623243,
+        0.6259385072491032,
+        1.8214705303741379
+      ],
+      "rotors": [
+        254.25000000000003,
+        254.25000000000003
+      ],
+      "exact_pairs": 1100
+    },
+    {
+      "servos": [
+        -2.0000000000000004,
+        0.9999999999999988,
+        0.9999999999999998,
+        -2.0000000000000004,
+        0.9999999999999988,
+        0.9999999999999998
+      ],
+      "rotors": [
+        270.0,
+        270.0
+      ],
+      "exact_pairs": 1071
+    },
+    {
+      "servos": [
+        -0.41421356237309537,
+        0.5658262487936982,
+        -0.1516126864206026,
+        -0.41421356237309537,
+        0.5658262487936982,
+        -0.1516126864206026
+      ],
+      "rotors": [
+        315.0,
+        315.0
+      ],
+      "exact_pairs": 1074
+    },
+    {
+      "servos": [
+        3,
+        3,
+        3,
+        -3,
+        -3,
+        -3
+      ],
+      "rotors": [
+        0,
+        22.5
+      ],
+      "exact_pairs": 1085
+    },
+    {
+      "servos": [
+        -3,
+        3,
+        0,
+        3,
+        -3,
+        0
+      ],
+      "rotors": [
+        123,
+        234
+      ],
+      "exact_pairs": 1091
+    }
+  ],
+  "guide_clearances": [
+    {
+      "level": "Oben",
+      "roller": 0,
+      "radial_gap_mm": 0.04979470841373522,
+      "roller_rpm_at_3000": 20230.366492146597
+    },
+    {
+      "level": "Oben",
+      "roller": 1,
+      "radial_gap_mm": 0.0497947084137338,
+      "roller_rpm_at_3000": 20230.366492146597
+    },
+    {
+      "level": "Unten",
+      "roller": 0,
+      "radial_gap_mm": 0.04979470841373584,
+      "roller_rpm_at_3000": 20230.366492146597
+    },
+    {
+      "level": "Unten",
+      "roller": 1,
+      "radial_gap_mm": 0.049794708413734616,
+      "roller_rpm_at_3000": 20230.366492146597
+    }
+  ],
+  "complete_motion_screen": true,
+  "status": "PASS",
+  "limitations": [
+    "No strength, bearing life, thermal or manufacturing release",
+    "Full original P10 checks remain historical; this run checks all introduced geometry against the retained full assembly in 14 states",
+    "Motor geometry is an envelope, not a selected commercial motor"
+  ]
+}

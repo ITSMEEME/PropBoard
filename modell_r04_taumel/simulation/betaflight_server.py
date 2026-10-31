@@ -169,7 +169,7 @@ def main():
             data=json.dumps(body,allow_nan=False).encode();self.send_response(status);self.send_header('Content-Type','application/json');self.send_header('Cache-Control','no-store');self.send_header('Content-Length',str(len(data)));self.end_headers();self.wfile.write(data)
         def do_GET(self):
             if self.path=='/api/betaflight/status':
-                try:self.result(200,{'firmware':firmware.version,'mspVersion':list(firmware.msp(3)),'mixer':'2 motors / 6 servos; nominal P10 Jacobian','realFirmware':True,**firmware.read_status()})
+                try:self.result(200,{'firmware':firmware.version,'mspVersion':list(firmware.msp(3)),'mixer':'2 motors / 6 servos; nominal P11 Jacobian','realFirmware':True,**firmware.read_status()})
                 except Exception as e:self.result(503,{'error':str(e)})
             else:super().do_GET()
         def do_POST(self):

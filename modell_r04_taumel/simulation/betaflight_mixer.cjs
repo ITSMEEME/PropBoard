@@ -1,7 +1,7 @@
 'use strict';
-// Offline custom-airframe mixer from the nominal P10 force/moment Jacobian.
+// Offline custom-airframe mixer from the nominal P11 force/moment Jacobian.
 const F=require('./flugphysik.js'),S=require('./szenarien.js');
-const s=new F.Flight({...S.cases.find(c=>c.name==='Savox_7_4V_Manoever').options,massModel:'P10',drive:'P10_HOHLRAD',noise:false});
+const s=new F.Flight({...S.cases.find(c=>c.name==='Savox_7_4V_Manoever').options,massModel:'P11',drive:'P11_DIRECT',noise:false});
 const columns=[1,2,3].map(axis=>{const w=F.solve(s.BBt,[0,1,2,3].map(i=>i===axis?1:0));return s.B[0].map((_,j)=>s.B.reduce((v,r,i)=>v+r[j]*w[i],0));});
 const lines=['mixer CUSTOMAIRPLANE','mmix reset','mmix 0 1 0 0 0','mmix 1 1 0 0 0','smix reset'];let rule=0;
 // Betaflight body pitch/yaw have opposite signs to the NWU model convention.
