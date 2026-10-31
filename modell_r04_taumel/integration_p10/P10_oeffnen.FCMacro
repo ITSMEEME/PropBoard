@@ -1,0 +1,47 @@
+from pathlib import Path
+import sys
+import FreeCAD as App
+import FreeCADGui as Gui
+from PySide import QtCore,QtGui
+try:
+    from PySide import QtWidgets
+except ImportError:
+    QtWidgets=QtGui
+home=Path(__file__).resolve().parent;sys.path.insert(0,str(home))
+sys.path[:0]=[str(home.parent/"bewegung_p09"),str(home.parent/"bewegung")]
+import p10_runtime as P09
+doc=App.openDocument(str(home/'Ausgabe/P10_Gesamtbaugruppe.FCStd'))
+ctl=doc.getObject('P09_Animation');ctl.Proxy=P09.Controller(ctl)
+Gui.activeDocument().activeView().viewAxonometric();Gui.activeDocument().activeView().fitAll()
+class P09Dialog(QtWidgets.QDialog):
+    def __init__(self):
+        super().__init__(Gui.getMainWindow());self.setWindowTitle('P10 – Servohalter, Planetenstufe, Kabelbaum, Landegestell');self.t=0;self.spins=[]
+        layout=QtWidgets.QVBoxLayout(self)
+        layout.addWidget(QtWidgets.QLabel('P10 · geschlossene Kinematik inkl. Planetenstufe · Konstruktionsentwurf\nServo → Taumelscheibe → Blatt; Motorritzel + Stützplaneten im Hohlrad'))
+        for i in range(8):
+            row=QtWidgets.QHBoxLayout();row.addWidget(QtWidgets.QLabel(('Servo '+str(i+1)) if i<6 else ('Rotor '+str(i-5))))
+            spin=QtWidgets.QDoubleSpinBox();spin.setRange(-8,8) if i<6 else spin.setRange(-3600,3600);spin.setSuffix(' °');spin.setSingleStep(.5 if i<6 else 5);self.spins.append(spin);row.addWidget(spin);layout.addLayout(row);spin.valueChanged.connect(self.manual)
+        self.readout=QtWidgets.QLabel();layout.addWidget(self.readout)
+        self.play=QtWidgets.QPushButton('Gemeinsame Demo starten');self.play.setCheckable(True);layout.addWidget(self.play);self.play.toggled.connect(self.toggle)
+        reset=QtWidgets.QPushButton('Neutral');layout.addWidget(reset);reset.clicked.connect(self.reset)
+        self.timer=QtCore.QTimer(self);self.timer.setInterval(100);self.timer.timeout.connect(self.tick);self.manual()
+    def display(self,r):
+        values=[x for row in r['pitches'] for x in row]
+        self.readout.setText('Gelenkfehler %.2g mm · Blattpitch %.1f…%.1f°'%(r['max_error'],min(values),max(values)))
+    def manual(self,*args):
+        try:
+            values=[s.value() for s in self.spins];r=P09.apply(doc,values[:6],values[6:]);self.display(r)
+        except ValueError as e:self.readout.setText('Stellung verworfen: '+str(e))
+    def toggle(self,active):
+        self.play.setText('Demo stoppen' if active else 'Gemeinsame Demo starten')
+        self.timer.start() if active else self.timer.stop()
+    def tick(self):
+        self.t=(self.t+.1)%8;servos,angles=P09.demo(self.t)
+        for spin,v in zip(self.spins,servos+angles):spin.blockSignals(True);spin.setValue(v);spin.blockSignals(False)
+        self.manual()
+    def reset(self):
+        self.play.setChecked(False);self.t=0
+        for spin in self.spins:spin.blockSignals(True);spin.setValue(0);spin.blockSignals(False)
+        self.manual()
+    def closeEvent(self,event):self.timer.stop();event.accept()
+P10_WINDOW=P09Dialog();P10_WINDOW.show()

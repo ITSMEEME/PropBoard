@@ -8,6 +8,8 @@ const SERVO_PROFILES=node?require('./servo_profiles.json'):root.H01_SERVO_PROFIL
 const A=node?require('../../modell_r04/auslegung/antrieb.js'):root.R04Antrieb;
 const P=node?require('../../kreis_r04/simulation/r04_physik.js'):root.R04Physik;
 const PL=node?require('../aerodynamik/polar_lookup.js'):root.H01PolarLookup;
+// Optional P10 revision data (servo brackets, ring-gear stage, harness, landing gear) exported from native CAD.
+const P10=node?(()=>{try{return require('./p10_massen.json');}catch(e){return null;}})():root.H01_P10_MASSEN||null;
 const D=Math.PI/180,G=9.81,clamp=(x,a,b)=>Math.max(a,Math.min(b,x));
 const add=(a,b)=>a.map((v,i)=>v+b[i]),sub=(a,b)=>a.map((v,i)=>v-b[i]),scale=(a,s)=>a.map(v=>v*s),dot=(a,b)=>a.reduce((s,v,i)=>s+v*b[i],0),cross=(a,b)=>[a[1]*b[2]-a[2]*b[1],a[2]*b[0]-a[0]*b[2],a[0]*b[1]-a[1]*b[0]];
 function solve(a,b){a=a.map((r,i)=>[...r,b[i]]);let n=b.length;
@@ -16,6 +18,12 @@ function solve(a,b){a=a.map((r,i)=>[...r,b[i]]);let n=b.length;
  for(let k=0;k<n;k++)if(k!==i){let s=a[k][i];for(let j=i;j<=n;j++)a[k][j]-=s*a[i][j];}}
  return a.map(r=>r[n]);}
 const mv=(m,v)=>m.map(r=>dot(r,v));
+function shiftInertia(J,m,d){for(let i=0;i<3;i++)for(let j=0;j<3;j++)J[i][j]+=m*((i===j?dot(d,d):0)-d[i]*d[j]);}
+// Remove/add rigid components (CAD frame, SI) and re-express the full tensor about the new CG.
+function recombine(mass,cg,J,remove,addList){let m=mass,mc=scale(cg,mass);for(const x of remove){m-=x.mass_kg;mc=sub(mc,scale(x.cg_m,x.mass_kg));}for(const x of addList){m+=x.mass_kg;mc=add(mc,scale(x.cg_m,x.mass_kg));}
+ let c=scale(mc,1/m),K=J.map(r=>[...r]);shiftInertia(K,mass,sub(cg,c));
+ for(const [list,sgn] of [[remove,-1],[addList,1]])for(const x of list){for(let i=0;i<3;i++)for(let j=0;j<3;j++)K[i][j]+=sgn*x.inertia_cg_kgm2[i][j];shiftInertia(K,sgn*x.mass_kg,sub(x.cg_m,c));}
+ return{mass:m,cg:c,J:K};}
 function qmul(a,b){return[a[0]*b[0]-dot(a.slice(1),b.slice(1)),...add(add(scale(b.slice(1),a[0]),scale(a.slice(1),b[0])),cross(a.slice(1),b.slice(1)))];}
 const conj=q=>[q[0],-q[1],-q[2],-q[3]];
 const rotate=(q,v)=>qmul(qmul(q,[0,...v]),conj(q)).slice(1);
@@ -37,7 +45,7 @@ function residual(p,alpha,k){return AZ.map((a,i)=>{let d=sub(stat(p,a),end(alpha
 function poseFromServos(alpha,k,guess=k.neutral){let p=[...guess];for(let n=0;n<7;n++){let r=residual(p,alpha,k);if(Math.max(...r.map(Math.abs))<1e-8)break;let cols=[0,1,2].map(j=>{let t=[...p];t[j]+=1e-4;return scale(sub(residual(t,alpha,k),r),1e4);});let dx=solve([0,1,2].map(i=>cols.map(c=>c[i])),r);p=sub(p,dx);}return p;}
 function bladePitch(p,a,sign,guess){let rb=add([0,0,p[0]],tilt(rz([32,sign*9,-5.5],a),p[1],p[2]));let t=guess;
  for(let n=0;n<8;n++){let hb=rz([32,sign*(9*Math.cos(t)-5.5*Math.sin(t)),9*Math.sin(t)+5.5*Math.cos(t)],a),dh=rz([0,sign*(-9*Math.sin(t)-5.5*Math.cos(t)),9*Math.cos(t)-5.5*Math.sin(t)],a),d=sub(rb,hb);let dx=(dot(d,d)-225)/(2*dot(d,dh));t+=dx;if(Math.abs(dx)<1e-10)break;}return t;}
-const defaults={dt:.0025,servoMassG:20,servoStallNm:.6865,servoSpeedRadS:8.73,servoFriction:.03,servoDelay:.012,cyclicPhaseDeg:0,thrustScale:1,dragArea:.025,initialSoc:.8,controller:true,seed:17,noise:true,radial:10,azimuths:16,inflowTau:.08,wind:[0,0,0],motorCurrentLimit:46,servoJammed:-1,motorScale:[1,1],servoGeometryProfile:'H01_PLACEHOLDER',servoSupplyV:null,servoTorqueReference:'ASSUMED_STALL_MODEL',polarSource:'SIMPLIFIED'};
+const defaults={dt:.0025,servoMassG:20,servoStallNm:.6865,servoSpeedRadS:8.73,servoFriction:.03,servoDelay:.012,cyclicPhaseDeg:0,thrustScale:1,dragArea:.025,initialSoc:.8,controller:true,seed:17,noise:true,radial:10,azimuths:16,inflowTau:.08,wind:[0,0,0],motorCurrentLimit:46,servoJammed:-1,motorScale:[1,1],servoGeometryProfile:'H01_PLACEHOLDER',servoSupplyV:null,servoTorqueReference:'ASSUMED_STALL_MODEL',polarSource:'SIMPLIFIED',massModel:'H01',drive:'H01_AUSSENVERZAHNUNG',ground:false,groundEffect:true,startOnGround:false,groundStiffness:6000,groundDamping:30,groundFriction:.5,groundSlipVelocity:.15,hardLandingSpeed:3};
 class Flight{
  constructor(options={}){this.c={...defaults,...options};this.t=0;this.p=[0,0,1];this.v=[0,0,0];this.q=[1,0,0,0];this.w=[0,0,0];this.rng=this.c.seed;
  this.mass=CAD.mass_kg+6*(this.c.servoMassG-9)/1000;this.cg=[...CAD.cg_m];this.J=CAD.inertia_cg_kgm2.map(r=>[...r]);
@@ -53,6 +61,11 @@ class Flight{
  shift(this.J,CAD.mass_kg,sub(this.cg,newcg));
  for(const x of servo){for(let i=0;i<3;i++)for(let j=0;j<3;j++)this.J[i][j]-=x.inertia_cg_kgm2[i][j];shift(this.J,-x.mass_kg,sub(x.cg_m,newcg));}
  for(const x of newParts){for(let i=0;i<3;i++)for(let j=0;j<3;j++)this.J[i][j]+=x.inertia_cg_kgm2[i][j];shift(this.J,x.mass_kg,sub(x.cg_m,newcg));}this.cg=newcg;
+ this.spinInertia=[...CAD.rotor_spin_inertia_kgm2];this.motorSense=-1;this.idlerSpin=0;this.contacts=[];
+ if(this.c.massModel==='P10'||this.c.drive==='P10_HOHLRAD'||this.c.ground){if(!P10)throw Error('P10-Massendaten fehlen (p10_massen.js/json)');}
+ if(this.c.massModel==='P10'){const rem=P10.remove_components.map(n=>CAD.components.find(x=>x.name===n));if(rem.some(x=>!x))throw Error('P10-Bauteilzuordnung unvollständig');const r=recombine(this.mass,this.cg,this.J,rem,P10.add_components);this.mass=r.mass;this.cg=r.cg;this.J=r.J;this.spinInertia=this.spinInertia.map((v,i)=>v+P10.rotor_spin_inertia_delta_kgm2[i]);}
+ if(this.c.drive==='P10_HOHLRAD'){this.motorSense=1;this.idlerSpin=P10.idler_planets.count_per_rotor*P10.idler_planets.spin_inertia_kgm2;}
+ if(this.c.ground)this.contacts=P10.landing_gear.contact_points_cad_m.map(c=>[...c]);
  this.rpmHover=2324.96*Math.sqrt(this.mass/CAD.mass_kg);this.omega=[0,0].map(()=>this.rpmHover*Math.PI/30);this.omegaTarget=this.rpmHover*Math.PI/30;
  this.soc=this.c.initialSoc;this.bus=A.packVoltage(A.BATTERY_TATTU_1550_6S,this.soc,0);this.batteryCurrent=0;
  this.servos=Array.from({length:6},()=>({a:0,v:0,pid:new PID(35,3,.10,8.73,.01),queue:[]}));this.command=[0,0,0,0,0,0];this.poses=KIN.map(k=>[...k.neutral]);this.vi=[4,6];
@@ -71,6 +84,8 @@ class Flight{
  for(let j=0;j<6;j++){let alpha=Array(6).fill(0);alpha[j]=eps;let poses=KIN.map((k,i)=>poseFromServos(alpha.slice(i*3,i*3+3),k));let f=this.aero(poses);let y=[f.force[2],...f.moment],b=[trim.force[2],...trim.moment];for(let k=0;k<4;k++)this.B[k][j]=(y[k]-b[k])/eps;}
  this.BBt=this.B.map(r=>this.B.map(s=>dot(r,s)));
  this.c.thrustScale=actualScale;this.c.cyclicPhaseDeg=actualPhase;this.polarLookups=0;this.polarFallbacks=0;
+ this.onGround=false;this.contactForce=0;this.maxImpactSpeed=0;this.hardLanding=false;this.groundMoment=[0,0,0];
+ if(this.c.ground&&this.c.startOnGround){this.p=[0,0,this.groundClearanceHeight()+.0003];this.omega=[0,0];this.omegaTarget=0;this.vi=[0,0];this.duty=[0,0];}
  }
  rand(){this.rng=(1664525*this.rng+1013904223)>>>0;return this.rng/4294967296-.5;}
  sectionPolar(alpha,re,tc){if(this.c.polarSource==='SIMPLIFIED')return P.polar(alpha,re,tc);this.polarLookups=(this.polarLookups||0)+1;let p=PL.query(alpha,re,this.c.polarSource==='XFOIL_N9'?9:4);if(p)return p;this.polarFallbacks=(this.polarFallbacks||0)+1;return P.polar(alpha,re,tc);}
@@ -96,11 +111,17 @@ class Flight{
  for(let l=0;l<2;l++){let ext=vz+(l?this.vi[0]:0),v=clamp(this.vi[l],.1,35);
  // Momentum target in normal working state. Descent/VRS flagged, not represented as validated physics.
  for(let i=0;i<6;i++)v=.5*v+.5*Math.max(0,f.T[l])/(2*1.225*area*Math.max(.8,ext+v));
+ // Empirical Cheeseman-Bennett ground effect on inflow (P10 ground option only).
+ if(this.c.ground&&this.c.groundEffect){let h=Math.max(.05,this.rotorHeight(l));v*=clamp(1-(R/(4*h))**2,.7,1);}
  this.vi[l]+= (v-this.vi[l])*dt/(this.c.inflowTau+dt);}}
- control(target,dt){let acc=this.positionPID.map((pid,i)=>pid.step(target.position[i]-this.p[i],this.p[i],dt));
- let yaw=target.yaw||0,desired=quat(clamp((acc[0]*Math.sin(yaw)-acc[1]*Math.cos(yaw))/G,-.30,.30),clamp((acc[0]*Math.cos(yaw)+acc[1]*Math.sin(yaw))/G,-.30,.30),yaw),err=qmul(conj(this.q),desired),rates=scale(err.slice(1),2*(err[0]<0?-1:1)*4);
+ control(target,dt){let acc,desired;
+ if(target.mode==='angle'||target.mode==='idle'){[acc,desired]=this.manualSetpoint(target,dt);}
+ else{acc=this.positionPID.map((pid,i)=>pid.step(target.position[i]-this.p[i],this.p[i],dt));
+ let yaw=target.yaw||0;desired=quat(clamp((acc[0]*Math.sin(yaw)-acc[1]*Math.cos(yaw))/G,-.30,.30),clamp((acc[0]*Math.cos(yaw)+acc[1]*Math.sin(yaw))/G,-.30,.30),yaw);this.yawSet=undefined;}
+ let err=qmul(conj(this.q),desired),rates=scale(err.slice(1),2*(err[0]<0?-1:1)*4);
  for(let i=0;i<3;i++)this.sensorW[i]+=(this.w[i]+(this.c.noise?this.rand()*.012:0)-this.sensorW[i])*dt/(.008+dt);
  let moments=this.ratePID.map((pid,i)=>pid.step(clamp(rates[i],-1.5,1.5)-this.sensorW[i],this.sensorW[i],dt));let zaxis=rotate(this.q,[0,0,1]);let correction=this.verticalAccelPID.step(acc[2]-this.verticalAccelMeasured,this.verticalAccelMeasured,dt);let thrust=this.mass*(G+acc[2]+correction)/Math.max(.7,zaxis[2]);
+ if(target.mode==='idle'){thrust=target.thrust??0;this.verticalAccelPID.i=0;this.ratePID.forEach(p=>p.i=0);}
  let dy=[thrust-this.trim.force[2],...sub(moments,this.trim.moment)];let weights=solve(this.BBt,dy);let angles=this.B[0].map((_,j)=>this.B.reduce((sum,r,i)=>sum+r[j]*weights[i],0));
  const lim=.45;let factor=Math.min(1,lim/Math.max(lim,...angles.map(Math.abs)));this.command=angles.map(a=>a*factor);
  // Respect the independently screened collective/cyclic envelope before commanding hardware.
@@ -110,6 +131,20 @@ class Flight{
  // Tracking back-calculation prevents outer integrators winding up when allocation loses authority.
  if(factor<1){this.verticalAccelPID.i*=Math.max(0,1-4*dt);this.positionPID.forEach(p=>p.i*=Math.max(0,1-4*dt));this.ratePID.forEach(p=>p.i*=Math.max(0,1-4*dt));}
  }
+ // ANGLE-artige Handsteuerung: Roll/Nick-Sollwinkel, Gierrate, Steigrate. 'idle' = Bodenbetrieb.
+ manualSetpoint(target,dt){if(this.yawSet===undefined)this.yawSet=euler(this.q)[2];this.yawSet+=clamp(target.yawRate||0,-2,2)*dt;
+ this.positionPID.forEach((p,i)=>{p.i=0;p.last=this.p[i];p.d=0;});
+ const lim=.45,accZ=target.mode==='idle'?0:clamp(2.2*((target.climbRate||0)-this.v[2]),-4,4);
+ return[[0,0,accZ],quat(target.mode==='idle'?0:clamp(target.roll||0,-lim,lim),target.mode==='idle'?0:clamp(target.pitch||0,-lim,lim),this.yawSet)];}
+ // Height of the CG above ground when all contact points touch the ground plane z=0 (upright).
+ groundClearanceHeight(){return Math.max(...this.contacts.map(c=>this.cg[2]-c[2]));}
+ rotorHeight(l){return this.p[2]+rotate(this.q,sub([0,0,l?-.03:.03],this.cg))[2];}
+ groundContact(){let force=[0,0,0],torque=[0,0,0],n=0,c=this.c;
+ for(const pt of this.contacts){let r=rotate(this.q,sub(pt,this.cg)),pos=add(this.p,r),pen=-pos[2];if(pen<=0)continue;
+ let vel=add(this.v,rotate(this.q,cross(this.w,sub(pt,this.cg))));if(!this.onGround)this.maxImpactSpeed=Math.max(this.maxImpactSpeed,-vel[2]);
+ let fn=Math.max(0,c.groundStiffness*pen-c.groundDamping*vel[2]),vt=Math.hypot(vel[0],vel[1]),mu=c.groundFriction*fn/Math.max(vt,c.groundSlipVelocity);
+ let f=[-mu*vel[0],-mu*vel[1],fn];force=add(force,f);torque=add(torque,cross(r,f));n++;}
+ this.contactCount=n;this.contactForce=force[2];return{force,moment:rotate(conj(this.q),torque)};}
  step(target={position:[0,0,1],yaw:0},external={}){let dt=this.c.dt;if(this.crashed)return;
  if(this.c.controller)this.control(target,dt);else this.command.fill(0);
  let omegaMax=Math.max(...this.omega),bladeMass=.00891974484,rcg=.109463584,deltaI=4.5081223e-7;
@@ -130,25 +165,26 @@ class Flight{
  let f=this.aero();this.lastAero=f;this.updateInflow(f,dt);
  let currents=[],torque=[],oldOmega=[...this.omega],busCurrent=6/Math.max(this.bus,12); // assumed 6 W FC/BEC idle; moving servo demand below
  const m=A.MOTOR_ECO2_2306_1900,ratio=6.5,kt=A.kt(m);
- for(let l=0;l<2;l++){let rpm=this.omega[l]*30/Math.PI,needed=A.motorPoint(m,rpm,Math.max(0,this.trim.Q[l])*(this.omega[l]/this.omegaTarget)**2,ratio);let feed=needed.voltage/Math.max(this.bus,12);let correction=this.motorPID[l].step(this.omegaTarget-this.omega[l],this.omega[l],dt);this.duty[l]=clamp(feed+correction,0,.95);
+ for(let l=0;l<2;l++){let rpm=this.omega[l]*30/Math.PI,needed=A.motorPoint(m,rpm,Math.max(0,this.trim.Q[l])*(this.c.ground?(this.omegaTarget/(this.rpmHover*Math.PI/30))**2:this.omegaTarget>1?(this.omega[l]/this.omegaTarget)**2:0),ratio);let feed=needed.voltage/Math.max(this.bus,12);let correction=this.motorPID[l].step(this.omegaTarget-this.omega[l],this.omega[l],dt);this.duty[l]=clamp(feed+correction,0,.95);
  let current=clamp((this.duty[l]*this.bus-rpm*ratio/m.kv)/m.R,0,this.c.motorCurrentLimit);current*=this.c.motorScale[l];let qm=Math.max(0,kt*(current-A.i0(m,rpm*ratio)))*ratio*.92;
  if(this.duty[l]>=.95)this.motorPID[l].i*=Math.max(0,1-5*dt);
- let spinJ=CAD.rotor_spin_inertia_kgm2[l]+(1.2e-6*ratio*ratio); // motor inertia assumption reflected through gear
+ let spinJ=this.spinInertia[l]+(1.2e-6*ratio*ratio)+this.idlerSpin*ratio*ratio; // motor inertia assumption reflected through gear
  let acceleration=(qm-f.Q[l])/spinJ;this.omega[l]=Math.max(0,this.omega[l]+acceleration*dt);currents.push(current);torque.push(qm);busCurrent+=this.duty[l]*current/.95;}
  let servoPower=this.servos.reduce((s,x,i)=>s+Math.abs(x.v*this.servoLoad[i])/.5,0);busCurrent+=servoPower/Math.max(this.bus,12);this.batteryCurrent=busCurrent;this.bus=A.packVoltage(A.BATTERY_TATTU_1550_6S,this.soc,busCurrent);this.soc=Math.max(0,this.soc-busCurrent*dt/(1.55*3600));
- let bodyAir=rotate(conj(this.q),sub(this.v,this.c.wind));let drag=bodyAir.map(v=>-.5*1.225*this.c.dragArea*v*Math.abs(v));let forceWorld=rotate(this.q,add(f.force,drag));forceWorld=add(forceWorld,external.force||[0,0,0]);let accel=scale(forceWorld,1/this.mass);accel[2]-=G;
+ let bodyAir=rotate(conj(this.q),sub(this.v,this.c.wind));let drag=bodyAir.map(v=>-.5*1.225*this.c.dragArea*v*Math.abs(v));let forceWorld=rotate(this.q,add(f.force,drag));forceWorld=add(forceWorld,external.force||[0,0,0]);
+ if(this.c.ground){let g=this.groundContact();forceWorld=add(forceWorld,g.force);this.groundMoment=g.moment;if(this.contactCount&&this.maxImpactSpeed>this.c.hardLandingSpeed)this.hardLanding=true;this.onGround=this.contactCount>0;}let accel=scale(forceWorld,1/this.mass);accel[2]-=G;
  this.verticalAccelMeasured+=(accel[2]+(this.c.noise?this.rand()*.06:0)-this.verticalAccelMeasured)*dt/(.04+dt);
  this.v=add(this.v,scale(accel,dt));this.p=add(this.p,scale(this.v,dt));
  // Aero moment already contains drag reaction. Rotor angular momentum change transfers to fuselage.
- let spinH=CAD.rotor_spin_inertia_kgm2.map(v=>v-1.2e-6*6.5);
- let angularMomentum=spinH[0]*oldOmega[0]-spinH[1]*oldOmega[1];let moment=add(f.moment,external.moment||[0,0,0]);
+ let spinH=this.spinInertia.map(v=>v+this.motorSense*(1.2e-6+this.idlerSpin)*6.5);
+ let angularMomentum=spinH[0]*oldOmega[0]-spinH[1]*oldOmega[1];let moment=add(f.moment,external.moment||[0,0,0]);if(this.c.ground)moment=add(moment,this.groundMoment);
  moment[2]-=spinH[0]*(this.omega[0]-oldOmega[0])/dt-spinH[1]*(this.omega[1]-oldOmega[1])/dt;
  let H=add(mv(this.J,this.w),[0,0,angularMomentum]);let dw=solve(this.J,sub(moment,cross(this.w,H)));this.w=add(this.w,scale(dw,dt));let dq=qmul(this.q,[0,...this.w]);this.q=add(this.q,scale(dq,dt/2));this.q=scale(this.q,1/Math.sqrt(dot(this.q,this.q)));this.t+=dt;
  if(![...this.p,...this.w,...this.q].every(Number.isFinite))throw Error('Nonfinite flight state');
- if(this.p[2]<.18||Math.abs(euler(this.q)[0])>1.3||Math.abs(euler(this.q)[1])>1.3){this.crashed=true;this.crashTime=this.t;}
+ if((!this.c.ground&&this.p[2]<.18)||this.hardLanding||Math.abs(euler(this.q)[0])>1.3||Math.abs(euler(this.q)[1])>1.3){this.crashed=true;this.crashTime=this.t;}
  return this.snapshot(target);
  }
- snapshot(target={position:[0,0,1],yaw:0}){return{t:this.t,p:[...this.p],v:[...this.v],euler:euler(this.q).map(x=>x/D),omega:[...this.w],rpm:this.omega.map(x=>x*30/Math.PI),rpmTarget:this.omegaTarget*30/Math.PI,servoDeg:this.servos.map(x=>x.a/D),servoCommandDeg:this.command.map(x=>x/D),servoLoadNm:[...this.servoLoad],duty:[...this.duty],bus:this.bus,current:this.batteryCurrent,soc:this.soc,thrust:this.lastAero?.T||[0,0],polarFallbackFraction:this.polarLookups?this.polarFallbacks/this.polarLookups:0,target:target.position,crashed:this.crashed};}
+ snapshot(target={position:[0,0,1],yaw:0}){return{t:this.t,p:[...this.p],v:[...this.v],euler:euler(this.q).map(x=>x/D),omega:[...this.w],rpm:this.omega.map(x=>x*30/Math.PI),rpmTarget:this.omegaTarget*30/Math.PI,servoDeg:this.servos.map(x=>x.a/D),servoCommandDeg:this.command.map(x=>x/D),servoLoadNm:[...this.servoLoad],duty:[...this.duty],bus:this.bus,current:this.batteryCurrent,soc:this.soc,thrust:this.lastAero?.T||[0,0],polarFallbackFraction:this.polarLookups?this.polarFallbacks/this.polarLookups:0,target:target.position,crashed:this.crashed,vi:[...this.vi],onGround:!!this.onGround,contactForce:this.contactForce||0,hardLanding:!!this.hardLanding};}
 }
-const api={Flight,PID,CAD,KIN,defaults,solve,quat,euler,rotate,conj,poseFromServos,bladePitch,residual,D};if(node)module.exports=api;else root.H01Flight=api;
+const api={Flight,PID,CAD,KIN,P10,recombine,defaults,solve,quat,euler,rotate,conj,poseFromServos,bladePitch,residual,D};if(node)module.exports=api;else root.H01Flight=api;
 })(globalThis);

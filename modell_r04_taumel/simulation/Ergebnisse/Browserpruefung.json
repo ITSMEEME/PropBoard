@@ -1,17 +1,42 @@
 {
   "status": "PASS",
   "checks": [
-    "WASD moves position setpoint",
-    "Key release holds target",
-    "Blur clears held keys",
-    "Editable fields and pause ignore controls",
-    "Desktop initializes",
-    "Simulation advances",
-    "19 result rows",
-    "JSON download contains real log",
-    "60g servo case loads and runs",
+    "WebGL scene with native P10 parts",
+    "Ground start phases AUS→HOCHLAUF→START→FLUG",
+    "Keyboard sticks move and hold position reference",
+    "Editable fields and blur clear keys",
+    "Virtual pointer stick",
+    "ANGLE mode tilts vehicle",
+    "Landing to motors off",
+    "Flow particles move",
+    "Detail camera + slow motion screenshot",
+    "Scripted case playback",
+    "JSON export with CAD hashes",
     "Mobile fits viewport",
-    "No JavaScript page errors"
+    "No JavaScript errors"
   ],
-  "cad_sha256": "b43829930ee3837fd754095bee623e5b3eb249709baea64e6189b3f03211182c"
+  "parts_rendered": 774,
+  "flight": {
+    "phases": [
+      "AUS",
+      "HOCHLAUF",
+      "START",
+      "FLUG"
+    ],
+    "z": 1.1499541168406031,
+    "ground": 0.19077481817304406,
+    "mass": 1.9340759595195545,
+    "crashed": false
+  },
+  "landed": [
+    "Hochlauf",
+    "Start",
+    "Schwebeflug",
+    "Modus ANGLE",
+    "Landung",
+    "Aufgesetzt",
+    "Aus"
+  ],
+  "cad_sha256": "b43829930ee3837fd754095bee623e5b3eb249709baea64e6189b3f03211182c",
+  "p10_sha256": "03aa745fb3b31680ded3f6d905f568158bf7edc72c223465184b849416a360b7"
 }

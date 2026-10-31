@@ -1,0 +1,42 @@
+BauteilID,Anzahl,Art,Werkstoff,Masse_je_Stueck_g,Hinweis
+H01,2,Eigenfertigung,"PETG, Füllgrad 0,65",14.556,
+H04,1,Eigenfertigung,"PETG, Füllgrad 0,65",19.729,
+ISO4032-M3,62,Kaufteil,Stahl 8.8 (Vorschlag),0.36,Motorbrücke ↔ Halteplatte | Bolzenträger ↔ Halteplatte | Servolasche ↔ Halter | Halterfuß ↔ Halteplatte
+ISO4035-M5,2,Kaufteil,Stahl,0.759,
+ISO4762-M3x10,24,Kaufteil,Stahl 8.8 (Vorschlag),1.046,Halterfuß ↔ Halteplatte
+ISO4762-M3x12,38,Kaufteil,Stahl 8.8 (Vorschlag),1.157,Motorbrücke ↔ Halteplatte | Bolzenträger ↔ Halteplatte | Servolasche ↔ Halter
+ISO4762-M3x8,4,Kaufteil,Stahl 8.8,0.935,Klemmschraube Kufenschelle
+ISO4762-M3x80,4,Kaufteil,Stahl 8.8,4.931,
+ISO7089-M3,100,Kaufteil,Stahl 8.8 (Vorschlag),0.119,Motorbrücke ↔ Halteplatte | Bolzenträger ↔ Halteplatte | Servolasche ↔ Halter | Halterfuß ↔ Halteplatte
+MOTOR-ECO2-2306,2,Kaufteil,EMAX ECO II 2306,32.0,verschoben
+MR85ZZ,8,Kaufteil,"Wälzlager 5 × 8 × 2,5",0.6,"Hüllkörper, kein Herstellermodell"
+P10-DISTANZ-VERTEILER,1,Eigenfertigung,PA-CF,0.03,Zwei Klebedistanzen auf H01
+P10-DISTANZSCHEIBE-5,4,Eigenfertigung,Stahl,0.13,Spannt die Lagerinnenringe gegen die Säule
+P10-FAHRWERKSKNOTEN,4,Eigenfertigung,"PA-CF Druck, Füllgrad 0,85",3.45,"Unter der Akkuwanne, geklemmt durch M3x80; Rohrsteckung Ø6 für die Strebe (eingeklebt, Kleber offen)."
+P10-GEWINDEEINSATZ-M3,8,Kaufteil,Messing,0.187,"Einpressmutter M3 × 4, Rändel nicht dargestellt | Klemmschraube Kufenschelle"
+P10-KABEL-14AWG,4,Kaufteil/Konfektion,14AWG,7.321,siehe Kabelliste_P10.csv
+P10-KABEL-20AWG,10,Kaufteil/Konfektion,20AWG,0.289,siehe Kabelliste_P10.csv
+P10-KABEL-28AWG,11,Kaufteil/Konfektion,28AWG,0.066,siehe Kabelliste_P10.csv
+P10-KABEL-ANT,1,Kaufteil/Konfektion,ANT,0.059,siehe Kabelliste_P10.csv
+P10-KABEL-BAL7x22AWG,1,Kaufteil/Konfektion,BAL7x22AWG,0.364,siehe Kabelliste_P10.csv
+P10-KABEL-SERVO3x22AWG,6,Kaufteil/Konfektion,SERVO3x22AWG,1.48,siehe Kabelliste_P10.csv
+P10-KABEL-STAMM5x24AWG,1,Kaufteil/Konfektion,STAMM5x24AWG,5.584,siehe Kabelliste_P10.csv
+P10-KUFE-CFK-8x6,2,Kaufteil/Zuschnitt,"CFK-Rohr 8 × 6, Enden warm gebogen oder Bogenstücke",11.108,"Kufenunterkante z = −218 (CAD), 2,5 mm über dem Ringboden der Schellen; Enden 40° aufgebogen"
+P10-KUFENSCHELLE,4,Eigenfertigung,"PA-CF Druck, Füllgrad 0,85",2.442,"Ringschelle: Bodenkontakt am Ringboden; klemmt die Kufe (Schlitz 1 mm, M3x8 in Gewindeeinsatz) und nimmt die Strebe auf."
+P10-KUFENSTOPFEN,4,Eigenfertigung,TPU 95A,0.309,Endkappe
+P10-MOTORBRUECKE,2,Eigenfertigung,"PA-CF Druck, Füllgrad 0,85",3.902,"Trägt den Motor oberhalb der Halteplatte (Anlagefläche z_lokal 47); 3 × M3 zur Platte, 4 × M3x7 (P05-Stapel) in den Motor."
+P10-PLANETENBOLZEN-D5,4,Eigenfertigung,"Stahl gehärtet, h6 (Vorschlag)",3.263,"Kopf hält Lager axial, Presssitz in der Säule"
+P10-PLANETENBOLZENTRAEGER,4,Eigenfertigung,EN AW-6082 (Vorschlag),9.774,"Flansch unter der Halteplatte, Säule bis über das Zahnrad"
+P10-REF-ELRS-EMPFAENGER,1,Kaufteil,Bauraumreferenz,2.0,"Bauraum ELRS-Empfänger, Klebepad"
+P10-REF-JST-XH-7,1,Kaufteil,Bauraumreferenz,1.5,Balancerstecker im reservierten Zugang
+P10-REF-SERVO-SAMMELPUNKT,1,Kaufteil,Bauraumreferenz,3.0,Lötpunkt/PCB: 3 untere Servos + UBEC → Stammkabel
+P10-REF-UBEC,1,Kaufteil,Bauraumreferenz,12.0,"UBEC 7,4 V für die Servos (Bauraum, Artikel/Strombelastbarkeit offen)"
+P10-REF-XT60-BUCHSE,1,Kaufteil,Bauraumreferenz,4.0,Fahrzeugseite: Hauptleitung + UBEC-Abgriff
+P10-REF-XT60-STECKER,1,Kaufteil,Bauraumreferenz,4.0,Akkuseite
+P10-SERVOHALTER,6,Eigenfertigung,"PA-CF Druck, Füllgrad 0,85",4.098,"Steg mit Gehäusedurchtritt an der Laschenanlage (lokal y=−22,3), 2 Füße mit 4 × M3 zur Halteplatte, 4 Rippen."
+P10-SERVOVERTEILER-PCB,1,Eigenfertigung,Bauraumreferenz,4.0,"Lötpads für 3 obere Servos, Stammkabel, Signalband zum FC"
+P10-STREBE-CFK-6x4,4,Kaufteil/Zuschnitt,CFK-Rohr 6 × 4,1.997,Strebe Knoten → Kufenschelle
+P10-STUETZPLANET-Z20,4,Eigenfertigung,POM-C gefräst (Vorschlag),2.005,"Mitlaufender Planet Z20 m1, 2 × MR85ZZ; zentriert das Hohlrad, überträgt kein Antriebsmoment."
+RITZEL-M1-Z20,2,Eigenfertigung,C45E (P05-Vorschlag),12.437,
+TM-DECKEL-HOHLRAD-130,2,Eigenfertigung,"PA-CF Druck, Füllgrad 0,7 (Annahme)",42.069,
+TM-HALTEPLATTE,2,Eigenfertigung,"PETG Druck, Füllgrad 0,5",41.357,

@@ -23,11 +23,16 @@
 | Savox_7_4V_Reibung_0_20 | STABIL_IM_MODELL | 24.00 | 0.0016 |
 | Savox_7_4V_XFOIL_N4 | STABIL_IM_MODELL | 28.00 | 0.0144 |
 | Ohne_Regelung | ABSTURZ_IM_MODELL | 2.53 | – |
+| P10_Bodenstart_Schweben_Landung | STABIL_IM_MODELL | 30.00 | 0.0007 |
+| P10_ANGLE_Handsteuerung | STABIL_IM_MODELL | 32.00 | 0.0008 |
+| P10_Boee_3ms_Schweben | STABIL_IM_MODELL | 24.00 | 0.0144 |
 
-14/19 Szenarien stabil im Modell. Fehlerfälle sind absichtlich Teil der Serie. 12/12 kombinierte Annahmen stabil; keine Zuverlässigkeitsstatistik.
+17/22 Szenarien stabil im Modell. Fehlerfälle sind absichtlich Teil der Serie. 12/12 kombinierte Annahmen stabil; keine Zuverlässigkeitsstatistik.
 
-10 numerische Prüfungen bestanden. Quellen und Annahmen: [README](../README.md).
+15 numerische Prüfungen bestanden. Quellen und Annahmen: [README](../README.md).
 
 ![Flugverhalten](Flugverhalten.png)
 
 ![Regelantwort](PID_Antwort.png)
+
+![P10 Bodenstart und Landung](P10_Bodenstart_Landung.png)

@@ -1,5 +1,41 @@
 # H01 – CAD-basierter geregelter Freiflug
 
+## Neu in P10: 3D-Ansicht, Strömung, Bodenstart, Steuerung
+
+- **Darstellung (WebGL):** Die Ansicht zeigt die native [P10-Baugruppe](../integration_p10/README.md) mit 774 Bauteilen: Servohalter, Planetenstufe, Kabelbaum und Landegestell. Quelle ist `p10_mesh.js`, exportiert aus FreeCAD.
+  - Alle Gelenkrahmen werden in jedem Bild aus dem Physikzustand berechnet (`kinematik_p10.js`). Bewegt werden Servohebel, Servo- und Blattgestänge, beide Taumelscheiben, die 16 Blattwinkel, die Rotoren und die Planeten.
+  - Der Abgleich gegen FreeCAD-Referenzrahmen ergibt Abweichungen unter 1e‑13 mm (`pruefen.js`).
+  - **Zeitlupe** bis 0,015× macht die zyklische Blattverstellung sichtbar. Bei Echtzeit wird die Rotorscheibe halbtransparent dargestellt.
+  - Kameras: Verfolgen, Orbit, Seite, Oben, Taumelscheibe oben/unten, Landegestell. Naben/Hohlräder, Servogehäuse und Kabel lassen sich ausblenden.
+- **Strömung (`stroemung.js`):** Partikelbahnen und ein Geschwindigkeitsschnitt aus der Aktuatorscheiben-Näherung.
+  - Grundlage sind die induzierte Geschwindigkeit je Rotor aus der Simulation, die Einschnürung auf R/√2 per Kontinuität und der Drall aus dem Rotormoment.
+  - Dazu kommen Wind und Fahrzeugbewegung. Am Boden wird die Strömung in eine radiale Abströmung umgelenkt.
+  - Das ist reine Visualisierung, keine CFD, und hat keine Rückwirkung auf die Physik.
+- **Steuerung (`flugsteuerung.js`):** Ablauf Bodenstart → Hochlauf (3 s Drehzahlrampe) → Abheben auf 1 m → Flug → Landung mit Aufsetzerkennung → Auslauf.
+  - Zwei Modi:
+    - **Positionsmodus:** Knüppel verschieben den Haltepunkt mit 1 m/s und 0,8 m/s Steigrate.
+    - **ANGLE-Modus:** Knüppel geben Roll-/Nickwinkel bis 25°, Gierrate 90°/s und Steigrate 1,5 m/s vor.
+  - Eingabe über Tastatur (W/S Nick, A/D Roll, Q/E Gier, R/F Steigen, T Start, L Landen, M Modus, Leertaste Pause), Gamepad (Mode 2, A Start, B Landen, Y Modus) oder virtuelle Knüppel mit Maus/Touch.
+  - Wind mit Richtung und Böigkeit einstellbar.
+  - Positionsmodus bei Rechtshändigkeit: Vorwärts ist +x in Gierrichtung, links ist +y. Damit kehrt sich gegenüber der alten WASD-Belegung A/D um.
+- **Physik-Optionen (Standard aus, die 19 H01-Fälle bleiben bitgleich):**
+  - `massModel:'P10'` entfernt die ersetzten H01-Teile und fügt alle P10-Teile mit Masse, Schwerpunkt und Tensor aus der nativen Baugruppe hinzu (`p10_massen.json`). Das 45-g-Kabelbudget wird durch die modellierten Leitungen ersetzt.
+  - `drive:'P10_HOHLRAD'`: Der Motor dreht gleichsinnig; Drehimpuls und reflektierte Trägheit enthalten die Stützplaneten.
+  - `ground:true`: Feder-Dämpfer-Bodenkontakt mit Reibung an den vier Schellenringen sowie Kufen- und Endpunkten (tragen bei Neigung mit), Bodeneffekt nach Cheeseman-Bennett (empirisch), Grenze für harte Landung 3 m/s.
+  - `mode:'angle'|'idle'` im Sollwert für Handsteuerung und Bodenbetrieb.
+- **Neue Testfälle:**
+  - `P10_Bodenstart_Schweben_Landung` (Positionsmodus mit Manövern)
+  - `P10_ANGLE_Handsteuerung` (Lagewinkel, Steigen, Gieren)
+  - `P10_Boee_3ms_Schweben`
+
+  Die beiden Bodenfälle gelten als erfolgreich, wenn das Fahrzeug aufrecht gelandet und abgeschaltet ist.
+- **Masse im P10-Modell:** 1,934 kg mit 69-g-Servos, Schwebedrehzahl ≈ 2950 U/min (H01-Savöx-Fall: 1,578 kg ohne Halter/BEC). Siehe [P10-Massen](../integration_p10/README.md#masse).
+
+Bekannte Abweichung zwischen Darstellung und Physik:
+
+- Die Darstellung verwendet die P09-Blattanlenkung (r = 33 mm), die Physik weiter das H01-Kinematikmodell (r = 32 mm). Die gezeigten Blattwinkel weichen dadurch um Bruchteile eines Grads ab.
+- Die Servoachsen der Physik bleiben die H01-Vorschlagsgeometrie.
+
 [Simulator öffnen](H01_Flugsimulator.html). Die Seite läuft offline im vollständigen Checkout oder im beigefügten ZIP. Darstellung, Browser und Node-Testserie verwenden **dieselbe** Physik und dieselben Regler. Im bisherigen [Auftriebssimulator](../../kreis_r04/simulation/R04_Simulator.html) gibt es einen direkten Link hierher.
 
 **Numerisch verifiziertes, reduziertes Modell; keine empirische Validierung oder Flugfreigabe.** Die tatsächlichen Servo-Typen, Halterungen, Reibung, Polaren, Regelphase und BEC sind offen. Die bestehenden mechanischen Freigabepunkte aus [der Mechanikprüfung](../mechanik/README.md) bleiben bestehen. Die Simulation ersetzt insbesondere keinen Festigkeits- oder Rotor-Prüfstandstest. Die PID-Werte sind Simulationsparameter und dürfen nicht ungeprüft auf eine Flugsteuerung übertragen werden.
@@ -80,13 +116,13 @@ Nominelle Drehzahl und Mischer werden vor dem Test aus **nomineller** Polare, Ma
 
 ## Tests und Bewertung
 
-`Ergebnisse/Testbericht.json` und `Flugbericht.pdf` enthalten die aktuelle 19-Fall-Serie. Die Testreihe umfasst Schweben, Anfangsstörung, Translation/Steigen/Gieren, 3-m/s-Böe mit Momentstoß, 10-%-Drehzahlsprung, Servomasse/Reibung, falsche Phase, blockiertes Servo, Motorausfall, 25 % aerodynamische Abweichung und niedrigen Ladezustand.
+`Ergebnisse/Testbericht.json` und `Flugbericht.pdf` enthalten die aktuelle 22-Fall-Serie (19 H01-Fälle, 3 P10-Fälle). Die Testreihe umfasst Schweben, Anfangsstörung, Translation/Steigen/Gieren, 3-m/s-Böe mit Momentstoß, 10-%-Drehzahlsprung, Servomasse/Reibung, falsche Phase, blockiertes Servo, Motorausfall, 25 % aerodynamische Abweichung und niedrigen Ladezustand.
 
 „STABIL_IM_MODELL“ verlangt: kein Abbruch, keine Überschreitung der Entwurfs-Kinematikgrenzen, Endpositionsfehler <15 cm und RMS-Positionsfehler der letzten 5 s <15 cm. Das ist ein definiertes Testkriterium, keine Flugtauglichkeitsnorm. Abbruch bei Schwerpunkt unter 18 cm oder Roll/Nick über etwa 74,5°. Fehlerereignis und Kinematiküberschreitungen werden separat aufgezeichnet. Tests dauern 16…28 s; kein Akku-Leerflug und keine Langzeiterwärmung.
 
 Zusätzlich: 12 reproduzierbare kombinierte Annahmen mit abweichender Servomasse, Stallmoment, Reibung, Phase, Totzeit, Geschwindigkeit, Polare und Ladezustand. **Keine empirischen Verteilungen, keine Ausfallwahrscheinlichkeit, keine Zertifizierung.** `Physikpruefung.json` prüft Schwerkraft, Drehimpuls, PID-Sättigung, Stellgrenzen, unabhängige Kinematik und numerische Konvergenz.
 
-Die Flugansicht zeigt CAD-Oberflächen samt Rotorrotation und Fahrzeuglage. Einzelne Blatt-Pitchbewegungen/Servohörner werden darin nicht animiert; die Physik löst die tatsächlichen Gestänge dennoch. Anzeige maximal Echtzeit, bei langsamen Geräten langsamer; fester Physikschritt bleibt gleich. Der 3-m/s-Windfall verwendet die zusätzliche Annahme einer effektiven Rumpfwiderstandsfläche.
+Die Flugansicht zeigt seit P10 die native P10-Baugruppe; Blatt-Pitch, Taumelscheiben, Servohebel, Gestänge und Planeten werden aus dem Physikzustand animiert (siehe oben). Anzeige maximal Echtzeit, bei langsamen Geräten langsamer; fester Physikschritt bleibt gleich. Der 3-m/s-Windfall verwendet die zusätzliche Annahme einer effektiven Rumpfwiderstandsfläche.
 
 ## Reproduzieren
 
@@ -104,7 +140,7 @@ Optionaler Browser-Integrationstest mit installiertem Playwright und Chromium (k
 node modell_r04_taumel/simulation/browser_pruefen.cjs
 ```
 
-Er prüft Initialisierung, echten Simulationsfortschritt, Fallwechsel, JSON-Download, mobile Breite und JavaScript-Fehler. Der Test startet einen temporären Loopback-Server und beendet ihn wieder. Falls nötig den Chromium-Pfad über `H01_CHROMIUM` angeben. `Ergebnisse/Browser_Desktop.png` zeigt den geprüften Stand.
+Er prüft WebGL-Initialisierung mit den P10-Bauteilen, Bodenstart bis Schwebeflug, Tastatur- und Zeigerknüppel, ANGLE-Modus, Landung bis Motor aus, Strömungspartikel, Testfall-Wiedergabe, JSON-Download mit CAD-Prüfsummen, mobile Breite und JavaScript-Fehler. WebGL läuft im Test über SwiftShader. Der Test startet einen temporären Loopback-Server und beendet ihn wieder. Falls nötig den Chromium-Pfad über `H01_CHROMIUM` angeben. `Ergebnisse/Browser_Desktop.png` zeigt den geprüften Stand.
 
 CAD und Python-Referenzen nur nach Geometrieänderungen neu importieren:
 
@@ -125,6 +161,6 @@ Bei Browsern mit blockiertem `file://`: Repository lokal per HTTP bereitstellen,
 
 Für belastbare Aussagen fehlen Messungen von Gesamtmasse/Schwerpunkt/Trägheit, stationären Schub-/Drehmomentkennfeldern, Rotordynamik, Reibung über Last/Drehzahl, Servoantwort unter Last, realer Steuerphase, Elektronik-/BEC-Grenzen sowie mechanische Verriegelung und Festigkeit. Die Simulation liefert eine testbare Regelhypothese und zeigt Fehlerfälle, nicht den Beweis, dass der gedruckte Aufbau sicher fliegt.
 
-## WASD-Steuerung
+## Steuerung im Browser
 
-„WASD aktivieren“ einschalten und den Flug starten/fortsetzen. W/S bewegen den Positionssollwert vor/zurück, A/D nach links/rechts in Soll-Gierrichtung, mit 0,6 m/s (diagonal begrenzt). Höhe und Gier bleiben erhalten. Loslassen hält den Sollwert; die bestehenden PID-Regler steuern Motoren und Servos. Pause, Fensterwechsel und Tab-Ausblenden löschen gehaltene Tasten. In Eingabefeldern wird nicht gesteuert. Neustart setzt die Zielposition zurück. Testfall-Störungen und Testdauer bleiben aktiv.
+Siehe Abschnitt „Neu in P10“. Tasten wirken nicht in Eingabefeldern. Pause, Fensterwechsel und Ausblenden des Tabs löschen gehaltene Tasten. „Test starten“ spielt einen Fall der Testserie mit dessen eigenen Sollwerten ab; „Start“ beginnt den interaktiven P10-Freiflug vom Boden.
