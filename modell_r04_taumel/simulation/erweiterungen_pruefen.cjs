@@ -1,0 +1,13 @@
+'use strict';
+const assert=require('node:assert/strict'),F=require('./flugphysik.js'),D=require('./design.js'),S=require('./parameterstudie.js'),O=require('./hindernisse.js');
+const base=new F.Flight({noise:false,massModel:'P10',drive:'P10_HOHLRAD',servoMassG:69}),p={rpm:2950};
+const ref=S.evaluate(base,p),diam=S.evaluate(base,{...p,diameterMm:420}),chord=S.evaluate(base,{...p,chordMm:40}),gap=S.evaluate(base,{...p,spacingMm:150}),rpm=S.evaluate(base,{rpm:3300}),pitch=S.evaluate(base,{...p,pitchUpperDeg:18}),twist=S.evaluate(base,{...p,twistDeg:-8}),taper=S.evaluate(base,{...p,taper:.5}),blades=S.evaluate(base,{...p,blades:6}),thickness=S.evaluate(base,{...p,thickness:.08});
+for(const [key,row] of Object.entries({diam,chord,gap,rpm,pitch,twist,taper,blades,thickness})){assert(row.converged,key);assert(Number.isFinite(row.powerW)&&row.powerW>0,key);assert(Math.abs(row.thrustN-ref.thrustN)>1e-3,'parameter must affect forces: '+key);}
+assert(rpm.thrustN>ref.thrustN);assert(diam.thrustN>ref.thrustN);assert.equal(base.geometry.r_tip,187.5,'no mutation of shared CAD geometry');
+assert.equal(S.grid({...D.defaults,rpm:2950},{rpm:[2700,2950],spacingMm:[60,90]}).length,4);
+assert.throws(()=>S.grid({...D.defaults,rpm:2950},{rpm:Array(2001).fill(2950)}));assert.throws(()=>D.validate({rpm:NaN}));assert.throws(()=>D.validate({blades:3.5}));assert.throws(()=>D.validate({pitchUpperDeg:20,twistDeg:10}));
+const ranked=S.rank([{feasible:false,powerW:1},{feasible:true,powerW:300},{feasible:true,powerW:200}]);assert.equal(ranked[0].powerW,200);assert.equal(S.rank([ref]).length,ref.feasible?1:0);
+const box={id:'wall',min:[1,-1,0],max:[1.1,1,2]};assert.equal(O.collision([0,0,1],[3,0,1],.2,[box]).id,'wall');assert.equal(O.collision([0,2,1],[3,2,1],.2,[box]),null);assert.equal(O.collision([0,0,3],[3,0,3],.2,[box]),null);assert(O.valid(O.course('training')));assert.throws(()=>O.course('unknown'));
+const sim=new F.Flight({noise:false,controller:false,ground:true,startOnGround:true,obstacles:[box]});sim.p=[.6,0,1];sim.v=[300,0,0];sim.step();assert(sim.crashed&&sim.obstacleHit?.id==='wall','swept collision must catch fast crossing');assert(sim.p[0]<1);
+const firmware=new F.Flight({noise:false,controller:false,ground:true,startOnGround:true});firmware.step({mode:'idle'},{actuators:{servoRad:[.02,0,0,0,0,0],duty:[.1,.2]}});assert.equal(firmware.command[0],.02);assert.deepEqual(firmware.duty,[.1,.2]);assert.throws(()=>firmware.step({}, {actuators:{servoRad:[0],duty:[0,0]}}));
+console.log('PASS: all 9 geometry/spacing/RPM/pitch sensitivities, shared-CAD immutability, grid bounds/ranking, obstacle clearance and high-speed collision, external firmware actuator path.');

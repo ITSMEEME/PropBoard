@@ -1,5 +1,54 @@
 # H01 – CAD-basierter geregelter Freiflug
 
+## Parameterstudie, Hindernisse und echte Betaflight-SITL
+
+Im Abschnitt **Parameter und aerodynamische Studie** lassen sich Durchmesser, Innenradius, Blatttiefe, Blattzahl, relative Profildicke, Zuspitzung, Verwindung, Ebenenabstand, Rotor-Drehzahl und Neutralpitch beider Ebenen einstellen. „Parameter übernehmen“ beginnt einen neuen Freiflug; „P10-Referenz“ stellt die native Darstellung und automatische Drehzahltrimmung wieder her. Der EMAX ECO II 2306 KV1900 und 6,5:1 bleiben unverändert. Bei Parametergeometrie werden schematische Blätter statt der unveränderten CAD-Baugruppe gezeigt. Der Pitchparameter ist ein aerodynamischer Montageoffset zum vorhandenen Gestänge, keine konstruktiv nachgewiesene Änderung der Anlenkung.
+
+Das Raster verwendet **dieselbe `Flight.aero()`-Kraftberechnung** wie der Flugsimulator. Es löst stationären Zustrom ohne Boden/Wind und vergleicht elektrische Leistung einschließlich des bestehenden Motor-/Akku-/Getriebemodells. Der Schub muss mindestens das Fahrzeuggewicht erreichen. Grenzen für den zulässigen Schubüberschuss, Drehmoment-Asymmetrie, Motorstrom und abgelöste Modellelemente sind einstellbar. Dazu kommen Konvergenz und Blattspitzen-Machzahl < 0,65. Standardmäßig sind maximal 10 % abgelöste Modellelemente erlaubt; das anfängliche Suchraster kann deshalb ohne zulässigen Kandidaten enden. Grenzen sind Screening-Annahmen und keine Werkstoff-/Motor-Dauerfreigaben. Es wird dann kein Scheinoptimum ausgegeben. „Beste“ ist nur das Minimum innerhalb des tatsächlich berechneten Rasters unter den gewählten Grenzen. Abgebrochene Studien exportieren ausdrücklich ein Teilraster. Maximal 2000 Kombinationen, JSON-Export aller Ergebnisse.
+
+**Grenzen:** Referenzmasse und CAD-Trägheit bleiben konstant. Geänderte Blatt-/Trägermassen, Steifigkeit, Blattpassagen, Flattern und reale Profilpolaren werden nicht automatisch ermittelt. Die Studie nutzt die vereinfachte symmetrische Polare; sie ersetzt weder CFD noch Messung oder einen dynamischen Stabilitätsnachweis. Studien laufen unabhängig vom Parcours und sind keine automatische Flugwegoptimierung. Der Firmware-Mischer ist auf den nominalen P10-Arbeitspunkt ausgelegt und wird bei Geometrieänderungen nicht automatisch neu abgestimmt.
+
+**Hindernisse:** „Training“ enthält Pfeiler, ein Tor und einen Block; „Slalom“ drei versetzte Hindernisse. „Parcours übernehmen“ startet einen neuen Versuch und wählt die Parcours-Kamera. Die Draufsicht zeigt Hindernisse und Fahrzeug. Eine konservative Kugelhülle (mindestens 240 mm Radius, größere Rotoren werden berücksichtigt) wird über jeden Integrationsschritt gegen vergrößerte Hindernisquader geprüft. Die kontinuierliche Segmentprüfung verhindert Durchtunneln; an Kanten und Ecken kann sie zu früh auslösen. Kontakt beendet den Versuch und markiert das Hindernis rot; es gibt kein Kontakt-/Bruchmodell und keine automatische Ausweichregelung. Kollision und Szene werden im Fluglog gespeichert. Die vorhandenen reproduzierbaren Skriptfälle behalten ihre Referenzparameter und laufen ohne Hindernisse.
+
+### Echte Firmware statt nachgebildeter Betaflight-Logik
+
+`betaflight_setup.py` lädt den offiziellen Tag **4.5.2**, Commit `024f8e13d4e642eb6a380308685b9ea3aa3ef1a2`, prüft die Revision und baut das native Linux-SITL. Zwei dokumentierte Anpassungen: Upstream-Servounterstützung im SITL einschalten und die Mischregelkapazität von 16 auf 32 erhöhen (sechs Servos × drei PID-Quellen = 18 Regeln). Die ursprünglichen Betaflight-Regler bleiben erhalten. Der Upstream-Quellcode samt GPL-Lizenz bleibt im Werkzeugcheckout verfügbar; das Projekt enthält keine nachgebildete Firmware und kein Firmware-Binary.
+
+Aus dem Repository-Stamm:
+
+```sh
+python3 modell_r04_taumel/simulation/betaflight_setup.py
+python3 modell_r04_taumel/simulation/betaflight_server.py
+```
+
+Werkzeugcheckout, Build und EEPROM liegen standardmäßig im ignorierten `.cfd-tools/`. `BF_SOURCE_DIR` kann einen bestehenden Checkout derselben Revision wählen; `--state` legt einen separaten EEPROM-/Logpfad fest. Der Dienst bindet nur lokal, Port 8765, und liefert auch die Simulatorseite unter `/modell_r04_taumel/simulation/H01_Flugsimulator.html`. Diese Seite über den Dienst öffnen, **Echte Betaflight 4.5.2 SITL** wählen und **Firmware verbinden** drücken. Eine direkt als Datei geöffnete Seite kann den relativen API-Dienst nicht ansprechen. Ohne echte Verbindung bleibt dieser Modus stehen; es gibt keinen stillen Wechsel auf den internen Regler.
+
+Die Brücke überträgt Sensor-/Lagedaten über das originale 18-Double-FDM-Paket an UDP 9003. RC-Werte gehen über `MSP_SET_RAW_RC` an UART1/TCP 5761; der alte UDP-RC-Empfänger wurde wegen eines Initialisierungsrennens nicht verwendet. Betaflight liefert über UDP 9001 die beiden Motor-PWM-Werte und sechs Servo-PWM-Werte. Diese ersetzen in `Flight.step()` den internen Flug- und Motorregler. Die physikalischen Motoren, Servodynamik, Aerodynamik und Kontakte bleiben im Simulatormodell. Die originale SITL-Implementierung übernimmt die zugeführte Orientierung direkt; damit werden die echten Flugregler und Mischer, aber nicht die AHRS-Sensorschätzung validiert.
+
+Sensor-Takt und RC/MSP-Verarbeitung laufen getrennt, damit Statusabfragen den virtuellen Sensortakt nicht anhalten. Bei Pause bleibt die letzte Lage erhalten; der Watchdog nimmt die Arm-Anforderung zurück. Zeitlupe ist im Firmwaremodus gesperrt; sie bleibt für den internen Modellregler verfügbar.
+
+`betaflight_mixer.cjs` erzeugt einen **CUSTOMAIRPLANE**-Mischer aus dem nominalen P10-Momenten-Jacobian: zwei gleich angesteuerte Motoren, sechs Servos aus Roll-/Nick-/Gier-PID, Kollektivversatz über AUX3. Die Servo-PWM-Spanne 1000…2000 entspricht hier angenommenen ±0,45 rad. Motor-PWM wird linear auf den ESC-Tastgrad abgebildet und bei 0,95 begrenzt; eine gemessene ESC-Kennlinie fehlt. Eine Feinabstimmung von Reglerverstärkung, Kollektivkurve und Stellgrenzen steht aus. Betaflight läuft als separater echter Prozess, nicht als Browser-WASM-Modul. Die Kommunikation ist asynchron; Echtzeitgeschwindigkeit hängt von Browser und Host ab.
+
+Im Firmwaremodus gelten **ANGLE oder ACRO**, keine automatische Positionshaltung, Startsequenz oder Landung. Gas ist direktes Gas: Stickmitte = 50 %, nicht Steigrate. Zum Armen Gas ganz nach unten und dann Start; „Landen“, „Motoren aus“ und Gamepad B werden zu Disarm-Befehlen. Pause/Kalibrierung nehmen die Arm-Anforderung zurück; nach 150 ms ohne Frames sendet der Dienst disarmierte RC-Werte. ARM-Zustand und Sperrgründe stammen aus echtem MSP-Status. Die Kalibrierung des virtuellen Beschleunigungssensors wird per originalem MSP-Befehl durchgeführt. Keine Firmware wird auf echte Hardware geflasht.
+
+### Prüfung der Erweiterungen
+
+```sh
+node modell_r04_taumel/simulation/erweiterungen_pruefen.cjs
+node modell_r04_taumel/simulation/erweiterungen_browser_pruefen.cjs
+```
+
+Zusätzlich bei laufendem `betaflight_server.py`:
+
+```sh
+python3 modell_r04_taumel/simulation/betaflight_pruefen.py
+node modell_r04_taumel/simulation/betaflight_browser_pruefen.cjs
+```
+
+Die Firmwareprüfung verifiziert echte MSP-Version, Lageübernahme, rückstellende Roll-/Nickmomente, dämpfende Momente auf allen drei Ratenachsen, ARM, Gas, sechs Servoausgänge und Disarm nach ausbleibenden Frames. Der Browser-Firmwaretest prüft den vollständigen Weg bis in die physikalischen Motoren. In dieser Cloud-Testumgebung wird nur der Browser-zu-Localhost-Transport über Playwright-IPC adaptiert; die Antworten stammen vom echten Firmwareprozess. Das ist kein Firmware-Mock. Die Prüfung verwendet linearisierte Momentenvorzeichen und kurze Aktuatortests; eine stabile Flugregelung über den gesamten Parameterbereich ist damit nicht nachgewiesen.
+
+Der erste Test prüft physikalische Parametersensitivitäten, Rastergrenzen, Unveränderlichkeit der CAD-Referenz, freie Hindernisdurchflüge, schnelle Kollision und den externen Aktuatorpfad. Der Browser-Test nutzt echte WebGL-Darstellung, 81 Parameterkombinationen, Übernahme eines Kandidaten, Parcours/Kollision und mobiles Layout. Betaflight benötigt zusätzlich den echten lokalen Firmwaredienst; ARM-, Gas-, Servo- und Achsenprüfungen erfolgen gegen diesen Prozess und dürfen nicht mit einem gemockten Firmwarestatus verwechselt werden.
+
 ## Neu in P10: 3D-Ansicht, Strömung, Bodenstart, Steuerung
 
 - **Darstellung (WebGL):** Die Ansicht zeigt die native [P10-Baugruppe](../integration_p10/README.md) mit 774 Bauteilen: Servohalter, Planetenstufe, Kabelbaum und Landegestell. Quelle ist `p10_mesh.js`, exportiert aus FreeCAD.
@@ -16,6 +65,10 @@
     - **Positionsmodus:** Knüppel verschieben den Haltepunkt mit 1 m/s und 0,8 m/s Steigrate.
     - **ANGLE-Modus:** Knüppel geben Roll-/Nickwinkel bis 25°, Gierrate 90°/s und Steigrate 1,5 m/s vor.
   - Eingabe über Tastatur (W/S Nick, A/D Roll, Q/E Gier, R/F Steigen, T Start, L Landen, M Modus, Leertaste Pause), Gamepad (Mode 2, A Start, B Landen, Y Modus) oder virtuelle Knüppel mit Maus/Touch.
+  - **Gamepad-/Stick-Kalibrierung:** Im Flug-Bereich „Gamepad / Sticks kalibrieren“ öffnen. Die Simulation pausiert und Flugbefehle werden während des Dialogs gesperrt. Sticks zentrieren, Mittelstellung erfassen, alle Anschläge bewegen, Achsen/Invertierung und Totzone anhand der Livewerte prüfen, speichern. Anschließend ausdrücklich „Fortsetzen“. Profile werden pro Gerätekennung, Mapping und Achsenzahl lokal im Browser gespeichert; bei gesperrtem Speicher gelten sie nur für die Sitzung. „Standardwerte“ setzt das aktuelle Gerät auf Mode 2 zurück. Gemeint sind selbstzentrierende Sticks; ein nicht zentrierender Gashebel wird nicht unterstützt. „Steigen“ steuert eine vorzeichenbehaftete Steig-/Sinkrate. Bildschirmknüppel sind bereits normiert. Geräte mit identischer Browserkennung teilen sich ein Profil. Die Gamepad-API benötigt einen unterstützten Browser und gegebenenfalls HTTPS/localhost sowie einen Knopfdruck am Gerät.
+
+Die Kalibrierlogik lässt sich separat mit `node modell_r04_taumel/simulation/gamepad_pruefen.cjs` prüfen; eine echte Controller-Kalibrierung muss der Nutzer an seinem Gerät durchführen.
+Der gezielte UI-Test `node modell_r04_taumel/simulation/gamepad_browser_pruefen.cjs` benötigt Playwright und Chromium (`H01_CHROMIUM` optional). Er bettet die lokalen Simulator-Skripte direkt ein und prüft mit synthetischem Gamepad den Dialog, Eingabesperre, Zuordnung, Speicheradapter, Trennung, Rücksetzen, mobilen Dialog und anschließenden Start. Dieser Eingabetest nutzt den unterstützten Betrieb ohne WebGL sowie einen simulierten Browser-Speicher; er validiert weder GPU-Darstellung noch reale Hardware oder die Speicherfreigabe eines konkreten Browsers.
   - Wind mit Richtung und Böigkeit einstellbar.
   - Positionsmodus bei Rechtshändigkeit: Vorwärts ist +x in Gierrichtung, links ist +y. Damit kehrt sich gegenüber der alten WASD-Belegung A/D um.
 - **Physik-Optionen (Standard aus, die 19 H01-Fälle bleiben bitgleich):**
