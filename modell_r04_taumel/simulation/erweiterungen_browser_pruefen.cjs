@@ -1,0 +1,23 @@
+'use strict';
+const {chromium}=require('playwright'),fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
+(async()=>{let browser;try{
+ browser=await chromium.launch({executablePath:process.env.H01_CHROMIUM||'/usr/bin/chromium',headless:true,args:['--no-sandbox','--disable-crashpad-for-testing','--disable-dev-shm-usage','--use-gl=angle','--use-angle=swiftshader','--enable-unsafe-swiftshader']});
+ const page=await browser.newPage({viewport:{width:1440,height:1050}}),errors=[];page.on('pageerror',e=>errors.push(e.message));
+ const html=fs.readFileSync(path.join(__dirname,'H01_Flugsimulator.html'),'utf8').replace(/<script src="([^"]+)"><\/script>/g,(_,src)=>'<script>'+fs.readFileSync(path.resolve(__dirname,src),'utf8').replace(/<\/script/gi,'<\\/script')+'</script>');
+ await page.setContent(html,{waitUntil:'domcontentloaded',timeout:60000});await page.waitForFunction(()=>window.H01_APP?.sim);
+ assert(!await page.evaluate(()=>H01_APP.glError));await page.waitForFunction(()=>H01_APP.view.drawn>100);
+ await page.selectOption('#obstacleCourse','training');await page.click('#applyCourse');assert.equal(await page.evaluate(()=>H01_APP.sim.obstacles.length),6);
+ await page.click('#pause');await page.click('[data-cam=course]');await page.waitForTimeout(100);
+ await page.screenshot({path:'/tmp/PropBoard_Hindernisparcours.png',fullPage:false});
+ const hit=await page.evaluate(()=>{const a=H01_APP;a.sim.p=[1,-1,1];a.sim.v=[300,0,0];a.advance(.01);return a.sim.obstacleHit;});assert(hit?.id==='Pfeiler links',JSON.stringify(hit));
+ await page.fill('#design_diameterMm','420');await page.fill('#design_spacingMm','90');await page.fill('#design_rpm','3000');await page.fill('#design_pitchUpperDeg','15');await page.fill('#design_pitchLowerDeg','18');await page.click('#applyDesign');
+ assert.deepEqual(await page.evaluate(()=>[H01_APP.sim.geometry.r_tip,H01_APP.sim.spacing,H01_APP.sim.design.rpm]),[210,.09,3000]);
+ await page.click('#evaluateDesign');assert((await page.locator('#designStatus').innerText()).includes('elektrisch'));
+ await page.getByText('Parameterbereiche vergleichen',{exact:true}).click();await page.fill('#stallTolerance','30');await page.click('#runStudy');await page.waitForFunction(()=>document.querySelector('#studyStatus').textContent.startsWith('Abgeschlossen'),{timeout:30000});
+ assert.equal(await page.evaluate(()=>H01_APP.study.results.length),81);assert(await page.locator('#studyResults tbody tr').count()>0);
+ await page.locator('#studyResults button').first().click();assert.equal(await page.evaluate(()=>H01_APP.sim.design.rpm),2950);
+ await page.selectOption('#firmwareMode','betaflight');await page.click('#connectFirmware');await page.waitForFunction(()=>document.querySelector('#firmwareStatus').textContent.includes('Keine Firmwareverbindung'));
+ const t=await page.evaluate(()=>H01_APP.sim.t);await page.waitForTimeout(150);assert.equal(await page.evaluate(()=>H01_APP.sim.t),t,'no silent internal fallback');
+ await page.selectOption('#firmwareMode','internal');await page.setViewportSize({width:390,height:844});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));
+ assert.deepEqual(errors,[]);console.log('PASS: real WebGL P10 rendering, visible course, swept collision, geometry application/preview, 81-case study + candidate application, honest unavailable-firmware state, mobile layout.');
+}finally{if(browser)await browser.close();}})().catch(e=>{console.error(e);process.exitCode=1;});

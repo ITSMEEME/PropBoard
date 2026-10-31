@@ -1,0 +1,27 @@
+'use strict';
+const assert=require('node:assert/strict');
+const G=require('./gamepad.js');
+const memory=new Map(),storage={getItem:k=>memory.get(k)||null,setItem:(k,v)=>memory.set(k,v),removeItem:k=>memory.delete(k)};
+const pad=(axes,id='Teststick')=>({id,mapping:'standard',index:0,axes,connected:true,buttons:[]});
+const c=new G.Controller(storage);
+c.sample(pad([.03,-.02,0,0]));assert.equal(c.sample(c.gp).yaw,0);assert(c.begin());
+c.sample(pad([.1,-.1,.05,-.05]));assert(c.captureCenter());
+c.sample(pad([-.7,-.8,-.65,-.75]));c.sample(pad([.9,.7,.85,.65]));
+// Custom mapping, inversion and asymmetric travel.
+c.draft.channels.yaw={axis:2,invert:true};c.draft.channels.roll={axis:0,invert:false};
+assert(c.save().persisted);assert.equal(c.sample(pad([.9,-.1,.05,-.05])).roll,1);
+assert.equal(c.sample(pad([.1,-.1,-.65,-.05])).yaw,1);
+assert.equal(c.sample(pad([.1,-.1,.05,-.05])).throttle,0);
+assert.equal(c.sample(pad([-.7,.7,.85,-.75])).pitch,1);
+const restored=new G.Controller(storage);restored.sample(pad([.1,-.1,.05,-.05]));assert(restored.saved);assert.equal(restored.profile.channels.yaw.axis,2);
+restored.sample(pad([0,0,0,0],'Other'));assert(!restored.saved);assert.equal(restored.profile.channels.yaw.axis,0);
+assert(restored.begin());assert(restored.captureCenter());assert(!restored.save().ok,'missing travel rejected');
+restored.sample(pad([-1,-1,-1,-1],'Other'));restored.sample(pad([1,1,1,1],'Other'));
+restored.draft.channels.roll.axis=0;assert(!restored.save().ok,'duplicate axes rejected');restored.draft.channels.roll.axis=2;
+assert.deepEqual(restored.sample(null),{yaw:0,throttle:0,roll:0,pitch:0});assert(!restored.save().ok);
+restored.sample(pad([0,0,0,0],'Other'));assert(restored.save().ok);assert(restored.reset());assert(!restored.saved);
+const unavailable=new G.Controller({getItem(){throw Error('disabled');},setItem(){throw Error('quota');}});
+unavailable.sample(pad([0,0,0,0]));assert(unavailable.begin());assert(unavailable.captureCenter());unavailable.sample(pad([-1,-1,-1,-1]));unavailable.sample(pad([1,1,1,1]));assert.deepEqual(unavailable.save(),{ok:true,persisted:false});assert.equal(unavailable.sample(pad([1,0,0,0])).yaw,1);
+const bad=new G.Controller({getItem:()=>'{bad'});assert.doesNotThrow(()=>bad.sample(pad([0,0,0,0])));
+assert(!G.valid({...G.defaults(4),deadzone:NaN},4));assert.equal(G.normalize([2,0,0,0],G.defaults(4),'yaw'),1);
+console.log('Gamepad: center, asymmetric travel, deadzone, mapping, inversion, persistence, device separation, invalid/incomplete calibration, disconnect, reset and storage failure passed.');

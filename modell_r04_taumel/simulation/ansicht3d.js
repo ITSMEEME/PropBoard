@@ -40,6 +40,7 @@ class View{
   if(c.mode==='chase'){yaw=headingYaw+Math.PI+c.yaw+2.4;}else if(c.mode==='side'){yaw=-Math.PI/2;elev=.05;}else if(c.mode==='top'){yaw=-Math.PI/2;elev=1.45;}
   else if(c.mode==='detail_upper'){target=body([0,0,85]);dist=Math.min(dist,.42);}else if(c.mode==='detail_lower'){target=body([0,0,-85]);dist=Math.min(dist,.42);}
   else if(c.mode==='gear'){target=body([0,0,-200]);dist=Math.min(dist,.7);}
+  else if(c.mode==='course'&&sim.obstacles.length){const lo=[0,1,2].map(k=>Math.min(sim.p[k],...sim.obstacles.map(b=>b.min[k]))),hi=[0,1,2].map(k=>Math.max(sim.p[k],...sim.obstacles.map(b=>b.max[k])));target=lo.map((v,k)=>(v+hi[k])/2);dist=Math.max(4,Math.hypot(hi[0]-lo[0],hi[1]-lo[1])*1.35)*c.dist/1.15;yaw=-1.35;elev=.6;}
   const eye=[target[0]+dist*Math.cos(elev)*Math.cos(yaw),target[1]+dist*Math.cos(elev)*Math.sin(yaw),Math.max(.03,target[2]+dist*Math.sin(elev))];return{eye,target};}
  /** state: {sim, servoDeg[6], rotorDeg[2], particles, slice, options} */
  draw(state){const gl=this.gl,sim=state.sim,o=state.options||{};const ratio=Math.min(2,root.devicePixelRatio||1),w=Math.round(this.canvas.clientWidth*ratio),h=Math.round(this.canvas.clientHeight*ratio);if(this.canvas.width!==w||this.canvas.height!==h){this.canvas.width=w;this.canvas.height=h;}
@@ -52,16 +53,24 @@ class View{
   gl.useProgram(this.solid.p);const L=this.solid.loc;gl.uniformMatrix4fv(L.vp,false,vp);gl.uniform3fv(L.eye,eye);gl.uniform1f(L.alpha,1);
   gl.bindBuffer(gl.ARRAY_BUFFER,this.vbo);gl.enableVertexAttribArray(L.pos);gl.vertexAttribPointer(L.pos,3,gl.SHORT,false,0,0);gl.bindBuffer(gl.ARRAY_BUFFER,this.nbo);gl.enableVertexAttribArray(L.nrm);gl.vertexAttribPointer(L.nrm,3,gl.BYTE,true,0,0);gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER,this.ibo);
   const pxScale=h/(2*Math.tan(.425));let drawn=0;
-  for(const part of this.parts){if(this.hidden.has(part.g))continue;const m=mul(mats[part.k],part.M,this.tmp),c=[m[0]*part.s[0]+m[4]*part.s[1]+m[8]*part.s[2]+m[12],m[1]*part.s[0]+m[5]*part.s[1]+m[9]*part.s[2]+m[13],m[2]*part.s[0]+m[6]*part.s[1]+m[10]*part.s[2]+m[14]];
+  for(const part of this.parts){if(sim.c.design||this.hidden.has(part.g))continue;const m=mul(mats[part.k],part.M,this.tmp),c=[m[0]*part.s[0]+m[4]*part.s[1]+m[8]*part.s[2]+m[12],m[1]*part.s[0]+m[5]*part.s[1]+m[9]*part.s[2]+m[13],m[2]*part.s[0]+m[6]*part.s[1]+m[10]*part.s[2]+m[14]];
    const dist=Math.hypot(c[0]-eye[0],c[1]-eye[1],c[2]-eye[2]);if(part.s[3]*.001*pxScale/dist<.6)continue;
    gl.uniformMatrix4fv(L.model,false,m);gl.uniform3fv(L.color,part.c);gl.drawElements(gl.TRIANGLES,part.ic,gl.UNSIGNED_INT,part.io*4);drawn++;}
   gl.disableVertexAttribArray(L.nrm);gl.disableVertexAttribArray(L.pos);this.drawn=drawn;
+  this.drawObstacles(sim,vp);
+  if(sim.c.design)this.parameterModel(sim,body,vp,state.rotorDeg);
   // Translucent rotor discs when the true rotor speed would alias at the display rate.
   if(o.rotorDisc){this.rotorDiscs(sim,body,vp,state.discAlpha||[0,0]);}
   if(state.slice&&o.slice)this.drawSlice(state.slice,sim,vp,state.sliceMax||25);
   if(state.particles&&o.particles)this.drawParticles(state.particles,vp,state.speedMax||25);
   return drawn;}
- rotorDiscs(sim,body,vp,alpha){const gl=this.gl,F=this.flat,n=64,pts=[],col=[];for(let l=0;l<2;l++){if(alpha[l]<=.01)continue;const z=l?-30:30,c=l?[.85,.48,.25]:[.2,.65,.78];for(let i=0;i<n;i++){for(const [a,r] of [[i,48],[i,187.5],[i+1,187.5],[i,48],[i+1,187.5],[i+1,48]]){const t=2*Math.PI*a/n;pts.push(r*Math.cos(t),r*Math.sin(t),z);col.push(...c,alpha[l]*(r>100?.5:.35));}}}
+ drawObstacles(sim,vp){if(!sim.obstacles.length)return;const p=[],c=[];for(const b of sim.obstacles){const v=[];for(let i=0;i<8;i++)v.push([i&1?b.max[0]:b.min[0],i&2?b.max[1]:b.min[1],i&4?b.max[2]:b.min[2]]);const hit=sim.obstacleHit?.id===b.id;let faceIndex=0;for(const face of [[0,1,3,2],[4,6,7,5],[0,4,5,1],[2,3,7,6],[0,2,6,4],[1,5,7,3]]){const shade=[.5,1,.8,.65,.9,.7][faceIndex++];for(const k of [0,1,2,0,2,3]){p.push(...v[face[k]]);c.push(...(hit?[shade,.2*shade,.12*shade,1]:[.83*shade,.55*shade,.17*shade,1]));}}}const gl=this.gl,F=this.flat;gl.useProgram(F.p);gl.uniformMatrix4fv(F.loc.vp,false,vp);gl.uniformMatrix4fv(F.loc.model,false,new Float32Array([1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1]));this.flatDraw(new Float32Array(p),new Float32Array(c),gl.TRIANGLES,false,true);}
+ parameterModel(sim,body,vp,angles){const p=[],c=[],g=sim.geometry,d=sim.design,segments=12;for(let l=0;l<2;l++)for(let j=0;j<g.count;j++){
+  const a=(angles[l]*(l?-1:1)+360*j/g.count)*Math.PI/180,er=[Math.cos(a),Math.sin(a)],et=[-er[1],er[0]],base=H01Flight.bladePitch(sim.poses[l],a,l?-1:1,H01Flight.CAD.geometry.pitch_hover_deg[l]*Math.PI/180)*180/Math.PI+d[l?'pitchLowerDeg':'pitchUpperDeg']-H01Flight.CAD.geometry.pitch_hover_deg[l];
+  const vertex=(t,side,face)=>{const r=g.r_airfoil_start+t*(g.r_tip-g.r_airfoil_start),chord=g.chord*(1+(d.taper-1)*t),pitch=(base+d.twistDeg*t)*Math.PI/180,y=side*chord/2,z=face*chord*g.tc/2;return[r*er[0]+(y*Math.cos(pitch)-z*Math.sin(pitch))*et[0],r*er[1]+(y*Math.cos(pitch)-z*Math.sin(pitch))*et[1],(l?-1:1)*d.spacingMm/2+y*Math.sin(pitch)+z*Math.cos(pitch)];};
+  for(let k=0;k<segments;k++){let x=k/segments,y=(k+1)/segments;for(const f of [-1,1])for(const v of [[x,-1],[y,-1],[y,1],[x,-1],[y,1],[x,1]]){p.push(...vertex(v[0],v[1],f));c.push(...(l?[.85,.48,.25,1]:[.2,.65,.78,1]));}}
+ }const gl=this.gl,F=this.flat;gl.useProgram(F.p);gl.uniformMatrix4fv(F.loc.vp,false,vp);gl.uniformMatrix4fv(F.loc.model,false,body);this.flatDraw(new Float32Array(p),new Float32Array(c),gl.TRIANGLES,false,true);}
+ rotorDiscs(sim,body,vp,alpha){const gl=this.gl,F=this.flat,n=64,pts=[],col=[];for(let l=0;l<2;l++){if(alpha[l]<=.01)continue;const z=(l?-1:1)*sim.spacing*500,c=l?[.85,.48,.25]:[.2,.65,.78];for(let i=0;i<n;i++){for(const [a,r] of [[i,sim.geometry.r_airfoil_start],[i,sim.geometry.r_tip],[i+1,sim.geometry.r_tip],[i,sim.geometry.r_airfoil_start],[i+1,sim.geometry.r_tip],[i+1,sim.geometry.r_airfoil_start]]){const t=2*Math.PI*a/n;pts.push(r*Math.cos(t),r*Math.sin(t),z);col.push(...c,alpha[l]*(r>100?.5:.35));}}}
   if(!pts.length)return;gl.useProgram(F.p);gl.uniformMatrix4fv(F.loc.vp,false,vp);gl.uniformMatrix4fv(F.loc.model,false,body);this.flatDraw(pts,col,gl.TRIANGLES,true);}
  flatDraw(pts,col,mode,blend,additive){const gl=this.gl,F=this.flat;gl.bindBuffer(gl.ARRAY_BUFFER,this.pbo);gl.bufferData(gl.ARRAY_BUFFER,pts instanceof Float32Array?pts:new Float32Array(pts),gl.DYNAMIC_DRAW);gl.enableVertexAttribArray(F.loc.pos);gl.vertexAttribPointer(F.loc.pos,3,gl.FLOAT,false,0,0);
   gl.bindBuffer(gl.ARRAY_BUFFER,this.cbo);gl.bufferData(gl.ARRAY_BUFFER,col instanceof Float32Array?col:new Float32Array(col),gl.DYNAMIC_DRAW);gl.enableVertexAttribArray(F.loc.col);gl.vertexAttribPointer(F.loc.col,4,gl.FLOAT,false,0,0);

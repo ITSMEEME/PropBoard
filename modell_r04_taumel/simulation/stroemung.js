@@ -13,7 +13,7 @@ const clamp=(x,a,b)=>Math.max(a,Math.min(b,x));
 function qrot(q,v){const[w,x,y,z]=q,ix=w*v[0]+y*v[2]-z*v[1],iy=w*v[1]+z*v[0]-x*v[2],iz=w*v[2]+x*v[1]-y*v[0],iw=-x*v[0]-y*v[1]-z*v[2];return[ix*w+iw*-x+iy*-z-iz*-y,iy*w+iw*-y+iz*-x-ix*-z,iz*w+iw*-z+ix*-y-iy*-x];}
 const qconj=q=>[q[0],-q[1],-q[2],-q[3]];
 /** Induced velocity in the body (CAD) frame [m/s] at body point b [m]. state: {vi:[u,l], Q:[u,l], sense:[+1,-1]} */
-function inducedBody(b,state){const r=Math.hypot(b[0],b[1]);let vz=0,vr=0,omega=0;
+function inducedBody(b,state){const R=(state.geometry?.r_tip||187.5)/1000,R0=(state.geometry?.r_airfoil_start||48)/1000,AREA=Math.PI*(R*R-R0*R0),Z_DISC=[(state.spacing??.06)/2,-(state.spacing??.06)/2];const r=Math.hypot(b[0],b[1]);let vz=0,vr=0,omega=0;
  for(let l=0;l<2;l++){const vi=Math.max(0,state.vi[l]||0);if(vi<1e-3)continue;const d=Z_DISC[l]-b[2],s=Math.sqrt(d*d+R*R),f=1+d/s,fp=R*R/(s*s*s);
   const rt=R*Math.sqrt(1/Math.max(f,.12)),w=1/(1+Math.pow(r/rt,8)),va=vi*f*w;vz-=va;vr-=.5*r*vi*fp*w;
   if(d>0){const q=Math.abs(state.Q?.[l]||0),wake=2*q/(RHO*AREA*Math.max(.5,vi*f)*R*R);omega+=(state.sense?.[l]??(l?-1:1))*wake*clamp(d/.02,0,1)*w;}}
@@ -22,7 +22,7 @@ function inducedBody(b,state){const r=Math.hypot(b[0],b[1]);let vz=0,vr=0,omega=
 function rng(seed){let s=seed>>>0;return()=>{s=(1664525*s+1013904223)>>>0;return s/4294967296;};}
 class ParticleField{
  constructor(count=2400,seed=7){this.n=count;this.rand=rng(seed);this.p=new Float32Array(3*count);this.prev=new Float32Array(3*count);this.age=new Float32Array(count);this.life=new Float32Array(count);this.speed=new Float32Array(count);this.ready=false;}
- spawn(i,vehicle){const rand=this.rand,a=2*Math.PI*rand(),near=rand()<.35,rr=(near?1.05:1.5)*R*Math.sqrt(rand()),zb=near?.035+.03*rand():.06+.28*rand();
+ spawn(i,vehicle){const R=(vehicle.geometry?.r_tip||187.5)/1000,top=(vehicle.spacing??.06)/2;const rand=this.rand,a=2*Math.PI*rand(),near=rand()<.35,rr=(near?1.05:1.5)*R*Math.sqrt(rand()),zb=near?top+.005+.03*rand():top+.03+.28*rand();
   const b=[rr*Math.cos(a),rr*Math.sin(a),zb],w=qrot(vehicle.q,[b[0]-vehicle.cg[0],b[1]-vehicle.cg[1],b[2]-vehicle.cg[2]]);
   for(let k=0;k<3;k++){this.p[3*i+k]=vehicle.p[k]+w[k];this.prev[3*i+k]=this.p[3*i+k];}this.age[i]=0;this.life[i]=1.2+2.2*rand();this.speed[i]=0;}
  /** Advance particles by dt [s] of simulated time. vehicle: {p,q,cg,v,wind,vi,Q,sense,groundZ} */
