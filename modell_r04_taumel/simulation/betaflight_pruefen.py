@@ -13,7 +13,7 @@ def hold(n=180):
     for _ in range(n):out=frame()
     return out
 metadata=get();assert metadata['realFirmware'] and metadata['mspVersion']==[4,5,2]
-node="const F=require('./flugphysik.js'),S=require('./szenarien.js');const s=new F.Flight({...S.cases.find(c=>c.name==='Savox_7_4V_Manoever').options,massModel:'P10',drive:'P10_HOHLRAD',noise:false});console.log(JSON.stringify(s.B));"
+node="const F=require('./flugphysik.js'),S=require('./szenarien.js');const s=new F.Flight({...S.cases.find(c=>c.name==='Savox_7_4V_Manoever').options,massModel:'P11',drive:'P11_DIRECT',noise:false});console.log(JSON.stringify(s.B));"
 B=json.loads(subprocess.check_output(['node','-e',node],cwd=HERE,text=True))
 evidence={'firmware':metadata['firmware'],'axes':[]}
 try:

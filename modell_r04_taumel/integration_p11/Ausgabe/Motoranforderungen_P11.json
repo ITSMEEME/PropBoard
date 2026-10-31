@@ -1,0 +1,42 @@
+{
+  "method": "Stationary Flight.aero, simplified polar, assumed P11 mass budget, prescribed RPM",
+  "native_sha256": "2e054218924e66d44c9978a21652d463c3b1008e729cb23b618715a9c5a29e42",
+  "massKg": 2.5387278370565083,
+  "rpm": 3363,
+  "thrustN": 24.90687738895016,
+  "thrustEquivalentKg": 2.5389273587105157,
+  "ratio": 1,
+  "motorSelectionPending": true,
+  "motors": [
+    {
+      "rotor": 0,
+      "continuousTorqueNm": 0.4685420940617025,
+      "mechanicalPowerW": 165.0076577074643,
+      "additionalAccelerationTorqueNm_3s": 0.27563536966068575
+    },
+    {
+      "rotor": 1,
+      "continuousTorqueNm": 0.3186186733767321,
+      "mechanicalPowerW": 112.20874636896681,
+      "additionalAccelerationTorqueNm_3s": 0.27561962043994154
+    }
+  ],
+  "emaxReference": {
+    "reachable": false,
+    "requiredPhaseCurrentA": [
+      93.77159315461579,
+      63.941699743035294
+    ],
+    "batteryPowerW": 1140.5420975299,
+    "copperLossW": [
+      545.1729243307967,
+      253.48953989376577
+    ]
+  },
+  "limitations": [
+    "No load safety factor or thermal design included",
+    "No measured polar or validated coaxial interference",
+    "Acceleration estimate is inertia only; add aero torque at each speed",
+    "Not a motor specification or flight release"
+  ]
+}

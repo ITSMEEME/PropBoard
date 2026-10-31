@@ -1,0 +1,46 @@
+{
+  "firmware": "Betaflight 4.5.2 / 024f8e1 / native SITL (32 servo rules)",
+  "axes": [
+    {
+      "kind": "angle",
+      "axis": 0,
+      "firmware_angle_deg": 5.0,
+      "linearized_restoring_moment_Nm": -0.3164436939497551
+    },
+    {
+      "kind": "angle",
+      "axis": 1,
+      "firmware_angle_deg": -5.0,
+      "linearized_restoring_moment_Nm": -0.3223826604367284
+    },
+    {
+      "kind": "rate",
+      "axis": 0,
+      "linearized_damping_moment_Nm": -0.12982355792789163
+    },
+    {
+      "kind": "rate",
+      "axis": 1,
+      "linearized_damping_moment_Nm": -0.1391890260429637
+    },
+    {
+      "kind": "rate",
+      "axis": 2,
+      "linearized_damping_moment_Nm": -0.10891939070117229
+    }
+  ],
+  "gas_duty": [
+    0.4729962158203125,
+    0.4729962158203125
+  ],
+  "roll_servo_rad": [
+    0.225,
+    0.0684,
+    -0.2934,
+    0.1305,
+    -0.0351,
+    -0.0945
+  ],
+  "idle_watchdog_disarmed": true,
+  "status": "PASS"
+}

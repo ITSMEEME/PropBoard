@@ -1,3 +1,4 @@
+// ARCHIV F01: damalige Auslegung. Aktuelle P11-Anforderungen: ../integration_p11/anforderungen.cjs
 #!/usr/bin/env node
 /* R04-Taumelmodell: Betriebspunkte und Steuerwirkung aus CAD-Masse und -Geometrie (../cad/Pruefbericht.json, parameter.json).
  * Aerodynamik: BEMT des Simulators; Antrieb: modell_r04/auslegung/antrieb.js. Modellwerte, nicht validiert.

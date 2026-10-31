@@ -1,0 +1,11 @@
+{
+  "source_native_sha256": "2e054218924e66d44c9978a21652d463c3b1008e729cb23b618715a9c5a29e42",
+  "parts": 748,
+  "unique_vertices": 365434,
+  "unique_triangles": 377270,
+  "rendered_triangles": 497602,
+  "keys": 257,
+  "mesh_js_bytes": 10582276,
+  "reference_states": 6,
+  "geometry_source": "Native FreeCAD shapes of P11 assembly, including known invalid servo case reference"
+}

@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "checks": [
+    "real WebGL",
+    "live chord, RPM and spacing response",
+    "radial force integration",
+    "N/kg conversion",
+    "reference deltas",
+    "payload reserve",
+    "CSV export",
+    "mobile layout"
+  ],
+  "reference": {
+    "design": {
+      "diameterMm": 375,
+      "rootRadiusMm": 48,
+      "chordMm": 30,
+      "blades": 8,
+      "thickness": 0.12,
+      "taper": 1,
+      "twistDeg": 0,
+      "spacingMm": 60,
+      "rpm": 3363,
+      "pitchUpperDeg": 14,
+      "pitchLowerDeg": 16.7
+    },
+    "liftKg": 2.5389273587105157,
+    "powerW": 1140.5420975299003,
+    "currentA": 51.67518726017582,
+    "withinMotorEnvelope": false
+  },
+  "changedChord": {
+    "liftKg": 2.7382206006482,
+    "powerW": 1274.7484292591232
+  },
+  "changedRpm": {
+    "liftKg": 2.0555229559788146,
+    "powerW": 753.4614891882966
+  }
+}
