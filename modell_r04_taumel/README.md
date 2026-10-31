@@ -4,7 +4,20 @@ Eigenständige Variante des R04-Testmodells: Der Pitch wird **je Rotor über ein
 
 **Entwurf, keine Freigabe.** Alle Zahlen sind Modellwerte (BEMT mit vereinfachter Polare, Gleichstrom-Motormodell) und müssen am Prüfstand bestätigt werden.
 
-## Aktuelle gemeinsame Animation P09
+## Aktueller Integrationsstand P10
+
+[P10 ergänzt die P09-Baugruppe um vier Punkte](integration_p10/README.md):
+
+1. Die sechs Savöx-Servos sitzen jetzt in **Servohaltern**. Die Laschen sind mit M3 auf einen Steg geschraubt, der Steg mit Füßen auf verbreiterte Halteplatten. Damit gibt es einen durchgehenden Lastpfad zum Mittelrohr; vorher hingen die Servos frei.
+2. Ein **Kabelbaum** mit 34 Leitungen läuft durch das Mittelrohr: Hauptstrom, UBEC, Servo-Verteiler oben und unten, Motoren, FC und Empfänger.
+3. Ein **Kufenlandegestell** aus CFK sitzt an der verlängerten Akkuverschraubung.
+4. Eine **Planetenstufe** ersetzt den einseitigen Außeneingriff: innenverzahntes Hohlrad Z130 im Rotordeckel, EMAX-Ritzel als angetriebener Planet und zwei Stützplaneten. Die Übersetzung bleibt 6,5 : 1, der Motor dreht jetzt gleichsinnig mit dem Rotor.
+
+Der [Flugsimulator](simulation/H01_Flugsimulator.html) zeigt diese Baugruppe in WebGL, animiert aus dem Physikzustand. Neu sind Strömungspartikel, Bodenstart/Landung, ANGLE- und Positionsmodus sowie Tastatur-, Gamepad- und Touch-Steuerung.
+
+Nicht enthalten: Fertigungs-, Festigkeits- oder Flugfreigabe.
+
+## Gemeinsame Animation P09
 
 [P09 verbindet Servoabtrieb, sechs Servogestänge, beide Taumelscheiben, 16 gefasste Blattgestänge und Rotorblätter in einer einzigen nativen Animation](bewegung_p09/README.md). Eine Offline-Browseranimation zeigt die tatsächlichen CAD-Oberflächen. 181 Stellungen und ausgewählte Festkörperkontakte sind geprüft; die Gesamt-Fertigungs-/Flugfreigabe bleibt offen. P08 und M01 sind frühere Teilstände.
 
@@ -48,7 +61,7 @@ Maßstab 1:4 (Flügelkreis Ø 375 mm, 8 Flügel je Ebene, Sehne 30 mm, NACA 0012
 | Rotorelektronik | ESP32, Akkus, Funk je Rotor | keine |
 | Flügelprofil ab | r = 62 mm | **r = 48 mm** (näher an R04: 37,5 mm) |
 | Nabe | Trommel mit Servotaschen | **Topf** (Innenring, Boden, Außenwand), Pitchhebel innen |
-| Zahnkranz / Ritzel | 91 Z / 14 Z, Motor bei r = 52,6 mm | **130 Z / 20 Z**, Motor bei r = 75,1 mm, gleiche Übersetzung 6,5:1 |
+| Zahnkranz / Ritzel | 91 Z / 14 Z, Motor bei r = 52,6 mm | **130 Z / 20 Z**, bis P09 außen mit Motor bei r = 75,1 mm; ab P10 Hohlrad innen, Motor bei r = 54,8 mm / 330°, zwei Stützplaneten, gleiche Übersetzung 6,5:1 |
 | Flugsteuerung | offen | Roll/Nick zyklisch, Gieren über Differenz von Kollektiv bzw. Drehzahl |
 
 ## Elektronik und Firmware

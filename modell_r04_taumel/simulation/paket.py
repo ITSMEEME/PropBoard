@@ -4,19 +4,22 @@ import hashlib,json,zipfile
 from pathlib import Path
 H=Path(__file__).resolve().parent;ROOT=H.parents[1];Z=H/'H01_Flugsimulation.zip'
 report=json.loads((H/'Ergebnisse/Testbericht.json').read_text());checks=json.loads((H/'Ergebnisse/Physikpruefung.json').read_text());robust=json.loads((H/'Ergebnisse/Robustheit.json').read_text())
-assert len(report['results'])==19 and len(robust['results'])==12
-assert len(checks['results'])==10 and all(x['status']=='PASS' for x in checks['results'])
+assert len(report['results'])==22 and len(robust['results'])==12
+assert len(checks['results'])==15 and all(x['status']=='PASS' for x in checks['results'])
 assert report['status']=='UNVALIDATED_MODEL_TESTS_NOT_FLIGHT_CLEARANCE'
 assert json.loads((H/'Ergebnisse/Browserpruefung.json').read_text())['status']=='PASS'
 model=json.loads((H/'modell_h01.json').read_text());native=H.parent/'halterungen/Ausgabe/R04_Taumelmodell_Halterungen_H01.FCStd'
 assert hashlib.sha256(native.read_bytes()).hexdigest()==model['source_sha256']
 files=[p for p in H.rglob('*') if p.is_file() and p.suffix not in ('.zip','.pyc') and '__pycache__' not in p.parts]
+files += [H.parent/'integration_p10/README.md']+sorted((H.parent/'integration_p10/Ausgabe').glob('Vorschau_P10_*.png'))
 files += [H.parent/'bewegung/Ausgabe/Cohexial_R04_M01_Bewegung.FCStd',H.parent/'bewegung/bewegung_runtime.py',H.parent/'bewegung/servo_geometrie.py',H.parent/'bewegung/Bewegung_oeffnen.FCMacro',H.parent/'bewegung/README.md',H.parent/'messdaten/Servodaten_Nutzer.json',H.parent/'aerodynamik/polar_lookup.js',H.parent/'aerodynamik/Ausgabe/Polaren.json',H.parent/'aerodynamik/Ausgabe/Polaren.js',ROOT/'kreis_r04/simulation/r04_physik.js',ROOT/'modell_r04/auslegung/antrieb.js',native,H.parent/'halterungen/halterungen_features.py',H.parent/'halterungen/parameter.json',H.parent/'cad/parameter.json',H.parent/'mechanik/pruefen.py',H.parent/'mechanik/Fluegel_Traegheit.json',H.parent/'mechanik/README.md']
 prefix='PropBoard_H01_Flug/'
 entries={prefix+str(p.relative_to(ROOT)):p.read_bytes() for p in files}
 entries[prefix+'README.md']=('''# Cohexial Study H01 – Offline-Flugsimulation
 
-Öffne `modell_r04_taumel/simulation/H01_Flugsimulator.html` im Browser.
+Öffne `modell_r04_taumel/simulation/H01_Flugsimulator.html` im Browser (WebGL).
+Die 3D-Ansicht zeigt die native P10-Baugruppe (Servohalter, Planetenstufe, Kabelbaum, Landegestell),
+animiert aus dem Physikzustand; „Start“ hebt vom Boden ab. Beschreibung: `modell_r04_taumel/integration_p10/README.md`.
 Der `Flugbericht.pdf` und die README stehen daneben.
 
 Das tatsächliche native FreeCAD-Modell liegt unter

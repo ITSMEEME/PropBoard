@@ -1,0 +1,35 @@
+id,von,nach,typ,adern,farbe,durchmesser_mm,laenge_mm,masse_g
+P+,XT60-Buchse +,ESC Batteriepad +,14AWG,1,rot,3.4,305.0,7.32
+P-,XT60-Buchse −,ESC Batteriepad −,14AWG,1,schwarz,3.4,312.2,7.49
+AKKU+,Akku,XT60-Stecker +,14AWG,1,rot,3.4,17.2,0.41
+AKKU-,Akku,XT60-Stecker −,14AWG,1,schwarz,3.4,17.2,0.41
+BAL,Akku,JST-XH Balancer,BAL7x22AWG,1,weiss,3.4,12.1,0.36
+UBEC_IN+,XT60-Buchse +,UBEC Eingang +,20AWG,1,rot,1.6,41.2,0.29
+UBEC_IN-,XT60-Buchse −,UBEC Eingang −,20AWG,1,schwarz,1.6,26.4,0.18
+UBEC_OUT+,UBEC Ausgang +,Servo-Sammelpunkt +,20AWG,1,rot,1.6,30.6,0.21
+UBEC_OUT-,UBEC Ausgang −,Servo-Sammelpunkt −,20AWG,1,schwarz,1.6,30.6,0.21
+STAMM,Servo-Sammelpunkt unten,Servoverteiler oben,STAMM5x24AWG,1,grau,4.0,253.8,5.58
+M1_oben_1,Motor M1_oben,ESC M1-Pad 1,20AWG,1,schwarz,1.6,105.6,0.74
+M1_oben_2,Motor M1_oben,ESC M1-Pad 2,20AWG,1,rot,1.6,106.6,0.75
+M1_oben_3,Motor M1_oben,ESC M1-Pad 3,20AWG,1,gelb,1.6,107.6,0.75
+M2_unten_1,Motor M2_unten,ESC M2-Pad 1,20AWG,1,schwarz,1.6,367.3,2.57
+M2_unten_2,Motor M2_unten,ESC M2-Pad 2,20AWG,1,rot,1.6,369.4,2.59
+M2_unten_3,Motor M2_unten,ESC M2-Pad 3,20AWG,1,gelb,1.6,371.6,2.6
+SERVO_oben_1,Servo oben 60°,Servoverteiler oben,SERVO3x22AWG,3,braun,2.6,102.1,1.48
+SERVO_oben_2,Servo oben 180°,Servoverteiler oben,SERVO3x22AWG,3,braun,2.6,154.2,2.24
+SERVO_oben_3,Servo oben 300°,Servoverteiler oben,SERVO3x22AWG,3,braun,2.6,147.1,2.13
+SERVO_unten_1,Servo unten 60°,Servo-Sammelpunkt unten,SERVO3x22AWG,3,braun,2.6,158.7,2.3
+SERVO_unten_2,Servo unten 180°,Servo-Sammelpunkt unten,SERVO3x22AWG,3,braun,2.6,91.1,1.32
+SERVO_unten_3,Servo unten 300°,Servo-Sammelpunkt unten,SERVO3x22AWG,3,braun,2.6,159.7,2.32
+SIG_1,Servoverteiler oben,FC-Pad Servo 1,28AWG,1,orange,0.9,32.8,0.07
+SIG_2,Servoverteiler oben,FC-Pad Servo 2,28AWG,1,orange,0.9,32.8,0.07
+SIG_3,Servoverteiler oben,FC-Pad Servo 3,28AWG,1,orange,0.9,32.8,0.07
+SIG_4,Servoverteiler oben,FC-Pad GND,28AWG,1,schwarz,0.9,32.8,0.07
+SIG_5,Servoverteiler oben,FC-Pad Servo 4,28AWG,1,orange,0.9,32.8,0.07
+SIG_6,Servoverteiler oben,FC-Pad Servo 5,28AWG,1,orange,0.9,32.8,0.07
+SIG_7,Servoverteiler oben,FC-Pad Servo 6,28AWG,1,orange,0.9,32.8,0.07
+RX_1,ELRS-Empfänger,FC UART,28AWG,1,schwarz,0.9,30.3,0.06
+RX_2,ELRS-Empfänger,FC UART,28AWG,1,rot,0.9,30.3,0.06
+RX_3,ELRS-Empfänger,FC UART,28AWG,1,gelb,0.9,30.3,0.06
+RX_4,ELRS-Empfänger,FC UART,28AWG,1,weiss,0.9,30.3,0.06
+ANT,ELRS-Empfänger,Antenne,ANT,1,schwarz,1.2,39.1,0.06

@@ -44,6 +44,15 @@ Der [rechnerische Tragfähigkeits-Nachweisversuch](tragfaehigkeit/Nachweisversuc
 
 Die Kreisbahn-Revisionen [Kreis R03](kreis_r03/README.md) und [Kreis R04](kreis_r04/README.md) ersetzen die Umlaufbahn durch einen Kreis mit r = 450 mm: 2 × 8 gegenläufige Flügel, Führungen bei r = 130 / 770 mm. R04 vergleicht Varianten mit und ohne Außenring. **Beide Verzeichnisse sind eine Rekonstruktion:** Der ursprüngliche Arbeitsstand lag in einer nicht mehr erreichbaren Cloud-Umgebung und wurde nie übertragen; siehe [Übernahme- und Rekonstruktionsprotokoll](docs/R03_R04_Rekonstruktion.md). Neu erzeugt wurden der Geometrievergleich (−26,1 % überstrichene Fläche je Ebene), native FreeCAD-Modelle (R03/R04 mit Außenring je 1 744 Körper, ohne Außenring 948), Massenszenarien (erfasste Modellmasse 63,2 bzw. 26,7 kg, keine Fahrzeugmasse), ein Balkenmodell der Pitchwelle und Gmsh-Sektornetze. **Die 3D-CFD-Studie ist unvollständig: Es gibt kein akzeptiertes CFD-Ergebnis.**
 
+Für das 1:4-Taumelmodell bringt [P10](modell_r04_taumel/integration_p10/README.md) neu:
+
+- Servohalter mit Lastpfad
+- eine Planetenstufe (Hohlrad + 3 Planeten)
+- einen modellierten Kabelbaum
+- ein Kufenlandegestell
+
+Der [Flugsimulator](modell_r04_taumel/simulation/H01_Flugsimulator.html) zeigt diesen Stand in 3D, animiert aus der Physik, mit Strömungsdarstellung sowie Bodenstart und Landung. Das ist weiterhin ein Konstruktionsentwurf ohne Freigabe.
+
 Verbindliche Ziele sind maximal **2100 × 1700 × 600 mm** Fahrzeugabmessungen einschließlich Rotoren und Schutz, **100 kg Personengewicht zuzüglich Ausrüstung**, mindestens **15 Minuten Flugzeit** und ungefähr **80 km/h** Zielgeschwindigkeit. Gewünscht sind eine selbststabilisierende Winkelregelung entsprechend ANGLE MODE und native, editierbare FreeCAD-Dateien. Die Fahrzeughöhe wird bisher ohne Person verstanden; Missionsprofil und Ausrüstungsmasse sind noch offen.
 
 Der geometrische Referenzentwurf verwendet sechs Rotorpositionen in einem rechteckigen 3×2-Raster. Der bisherige 650-mm-Rotoransatz und der neue X605-Kandidat mit nominell 558,8 mm Propellerdurchmesser müssen getrennt bewertet werden. Der untersuchte Tattu-41000-Pack liefert im bisherigen Modell zu wenig Dauerleistung. Für den X605 fehlen verifizierte Herstellerkennfelder.

@@ -1,0 +1,863 @@
+{
+ "source_native_sha256": "03aa745fb3b31680ded3f6d905f568158bf7edc72c223465184b849416a360b7",
+ "checks": {
+  "load_path_contacts": {
+   "count": 40,
+   "all_pass": true,
+   "failed": [],
+   "max_distance_mm": 0.04999999999998538
+  },
+  "servo_case_to_bracket_distance_mm": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   2.6645352591003757e-15
+  ],
+  "neutral_pairs_with_bbox_overlap": 2508,
+  "motion_states": 10,
+  "planet_mesh_states_deg": [
+   0.0,
+   0.35,
+   0.7,
+   1.05,
+   1.4,
+   1.75,
+   2.1,
+   2.45,
+   37.0,
+   211.0
+  ],
+  "motion_pair_checks": 8317,
+  "planet_ring_min_distance_mm": 0.06731938410145925,
+  "landing_gear": {
+   "ground_z_mm": -220.5,
+   "clamp_rings_max_distance_to_ground_mm": 0.0,
+   "skid_distance_to_ground_mm": 2.5,
+   "lowest_part": [
+    -220.8013348099414,
+    "P10_Kufe_links"
+   ],
+   "parts_below_ground": [],
+   "min_clearance_non_gear_mm": 6.2817489787971965,
+   "nearest_non_gear": "P10_Fahrwerksstrebe_0",
+   "total_mass_kg_with_69g_servos": 1.9340759595195545,
+   "cg_cad_mm": [
+    0.5306891608709251,
+    -1.1903946912339383,
+    -29.725181826955932
+   ],
+   "cg_height_above_ground_mm": 190.77481817304408,
+   "tip_over_angle_lateral_deg": 29.698542940293443,
+   "tip_over_angle_longitudinal_deg": 32.05611851752209,
+   "lower_rotor_plane_height_mm": 190.5,
+   "lower_rotor_height_in_rotor_radii": 1.016,
+   "only_landing_gear_touches_ground": true
+  }
+ },
+ "collisions": [],
+ "allowed_contacts": [
+  {
+   "state": "Neutral",
+   "a": "Oben_feststehend_11",
+   "b": "P10_Kabel_M1_oben_1",
+   "ia": "MOTOR-ECO2-2306",
+   "ib": "P10-KABEL-20AWG",
+   "volume_mm3": 0.7617728834382812,
+   "reason": "Leitungsende am Anschluss"
+  },
+  {
+   "state": "Neutral",
+   "a": "Oben_feststehend_11",
+   "b": "P10_Kabel_M1_oben_2",
+   "ia": "MOTOR-ECO2-2306",
+   "ib": "P10-KABEL-20AWG",
+   "volume_mm3": 0.9958910980828815,
+   "reason": "Leitungsende am Anschluss"
+  },
+  {
+   "state": "Neutral",
+   "a": "Oben_feststehend_11",
+   "b": "P10_Kabel_M1_oben_3",
+   "ia": "MOTOR-ECO2-2306",
+   "ib": "P10-KABEL-20AWG",
+   "volume_mm3": 0.7620791456170203,
+   "reason": "Leitungsende am Anschluss"
+  },
+  {
+   "state": "Neutral",
+   "a": "Unten_feststehend_11",
+   "b": "P10_Kabel_M2_unten_1",
+   "ia": "MOTOR-ECO2-2306",
+   "ib": "P10-KABEL-20AWG",
+   "volume_mm3": 0.7618011072086155,
+   "reason": "Leitungsende am Anschluss"
+  },
+  {
+   "state": "Neutral",
+   "a": "Unten_feststehend_11",
+   "b": "P10_Kabel_M2_unten_2",
+   "ia": "MOTOR-ECO2-2306",
+   "ib": "P10-KABEL-20AWG",
+   "volume_mm3": 0.9958914189863343,
+   "reason": "Leitungsende am Anschluss"
+  },
+  {
+   "state": "Neutral",
+   "a": "Unten_feststehend_11",
+   "b": "P10_Kabel_M2_unten_3",
+   "ia": "MOTOR-ECO2-2306",
+   "ib": "P10-KABEL-20AWG",
+   "volume_mm3": 0.7621344961070279,
+   "reason": "Leitungsende am Anschluss"
+  },
+  {
+   "state": "Neutral",
+   "a": "M3_Akku_0",
+   "b": "P10_Fahrwerksknoten_0",
+   "ia": "ISO4762-M3x80",
+   "ib": "P10-FAHRWERKSKNOTEN",
+   "volume_mm3": 11.292477044685622,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "M3_Akku_1",
+   "b": "P10_Fahrwerksknoten_1",
+   "ia": "ISO4762-M3x80",
+   "ib": "P10-FAHRWERKSKNOTEN",
+   "volume_mm3": 11.293155349166232,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "M3_Akku_2",
+   "b": "P10_Fahrwerksknoten_2",
+   "ia": "ISO4762-M3x80",
+   "ib": "P10-FAHRWERKSKNOTEN",
+   "volume_mm3": 11.292472047852133,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "M3_Akku_3",
+   "b": "P10_Fahrwerksknoten_3",
+   "ia": "ISO4762-M3x80",
+   "ib": "P10-FAHRWERKSKNOTEN",
+   "volume_mm3": 11.292152468090187,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Oben_60",
+   "b": "P10_Servohalter_Oben_60_ISO7089_M3_2",
+   "ia": "P10-SERVOHALTER",
+   "ib": "ISO7089-M3",
+   "volume_mm3": 0.3596961796253392,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Oben_60",
+   "b": "P10_Servohalter_Oben_60_ISO4032_M3_3",
+   "ia": "P10-SERVOHALTER",
+   "ib": "ISO4032-M3",
+   "volume_mm3": 0.0026874746120789735,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Oben_60",
+   "b": "P10_Servohalter_Oben_60_ISO7089_M3_6",
+   "ia": "P10-SERVOHALTER",
+   "ib": "ISO7089-M3",
+   "volume_mm3": 0.25496192671396745,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Oben_60_ISO4762_M3x12_1",
+   "b": "Oben_feststehend_15",
+   "ia": "ISO4762-M3x12",
+   "ib": "SERVO-SAVOX-SB2270SGP",
+   "volume_mm3": 15.550883635269415,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Oben_60_ISO4762_M3x12_5",
+   "b": "Oben_feststehend_15",
+   "ia": "ISO4762-M3x12",
+   "ib": "SERVO-SAVOX-SB2270SGP",
+   "volume_mm3": 15.550883635269415,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Oben_60_ISO4762_M3x12_9",
+   "b": "Oben_feststehend_15",
+   "ia": "ISO4762-M3x12",
+   "ib": "SERVO-SAVOX-SB2270SGP",
+   "volume_mm3": 15.550883635269502,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Oben_60_ISO4762_M3x12_13",
+   "b": "Oben_feststehend_15",
+   "ia": "ISO4762-M3x12",
+   "ib": "SERVO-SAVOX-SB2270SGP",
+   "volume_mm3": 15.5508836352695,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Oben_180",
+   "b": "P10_Servohalter_Oben_180_ISO7089_M3_2",
+   "ia": "P10-SERVOHALTER",
+   "ib": "ISO7089-M3",
+   "volume_mm3": 0.3596961796253129,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Oben_180",
+   "b": "P10_Servohalter_Oben_180_ISO4032_M3_3",
+   "ia": "P10-SERVOHALTER",
+   "ib": "ISO4032-M3",
+   "volume_mm3": 0.00268747461207485,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Oben_180",
+   "b": "P10_Servohalter_Oben_180_ISO7089_M3_6",
+   "ia": "P10-SERVOHALTER",
+   "ib": "ISO7089-M3",
+   "volume_mm3": 0.25496192671395135,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Oben_180_ISO4762_M3x12_1",
+   "b": "Oben_feststehend_16",
+   "ia": "ISO4762-M3x12",
+   "ib": "SERVO-SAVOX-SB2270SGP",
+   "volume_mm3": 15.550883635269475,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Oben_180_ISO4762_M3x12_5",
+   "b": "Oben_feststehend_16",
+   "ia": "ISO4762-M3x12",
+   "ib": "SERVO-SAVOX-SB2270SGP",
+   "volume_mm3": 15.550883635269473,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Oben_180_ISO4762_M3x12_9",
+   "b": "Oben_feststehend_16",
+   "ia": "ISO4762-M3x12",
+   "ib": "SERVO-SAVOX-SB2270SGP",
+   "volume_mm3": 15.550883635269475,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Oben_180_ISO4762_M3x12_13",
+   "b": "Oben_feststehend_16",
+   "ia": "ISO4762-M3x12",
+   "ib": "SERVO-SAVOX-SB2270SGP",
+   "volume_mm3": 15.550883635269473,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Oben_300",
+   "b": "P10_Servohalter_Oben_300_ISO7089_M3_2",
+   "ia": "P10-SERVOHALTER",
+   "ib": "ISO7089-M3",
+   "volume_mm3": 0.35969617962530204,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Oben_300",
+   "b": "P10_Servohalter_Oben_300_ISO4032_M3_3",
+   "ia": "P10-SERVOHALTER",
+   "ib": "ISO4032-M3",
+   "volume_mm3": 0.002687474612073815,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Oben_300",
+   "b": "P10_Servohalter_Oben_300_ISO7089_M3_6",
+   "ia": "P10-SERVOHALTER",
+   "ib": "ISO7089-M3",
+   "volume_mm3": 0.2549619267139519,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Oben_300_ISO4762_M3x12_1",
+   "b": "Oben_feststehend_17",
+   "ia": "ISO4762-M3x12",
+   "ib": "SERVO-SAVOX-SB2270SGP",
+   "volume_mm3": 15.550883635269466,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Oben_300_ISO4762_M3x12_5",
+   "b": "Oben_feststehend_17",
+   "ia": "ISO4762-M3x12",
+   "ib": "SERVO-SAVOX-SB2270SGP",
+   "volume_mm3": 15.550883635269466,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Oben_300_ISO4762_M3x12_9",
+   "b": "Oben_feststehend_17",
+   "ia": "ISO4762-M3x12",
+   "ib": "SERVO-SAVOX-SB2270SGP",
+   "volume_mm3": 15.550883635269477,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Oben_300_ISO4762_M3x12_13",
+   "b": "Oben_feststehend_17",
+   "ia": "ISO4762-M3x12",
+   "ib": "SERVO-SAVOX-SB2270SGP",
+   "volume_mm3": 15.550883635269475,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Unten_60",
+   "b": "P10_Servohalter_Unten_60_ISO7089_M3_2",
+   "ia": "P10-SERVOHALTER",
+   "ib": "ISO7089-M3",
+   "volume_mm3": 0.35969617962532985,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Unten_60",
+   "b": "P10_Servohalter_Unten_60_ISO4032_M3_3",
+   "ia": "P10-SERVOHALTER",
+   "ib": "ISO4032-M3",
+   "volume_mm3": 0.0026874746120764048,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Unten_60",
+   "b": "P10_Servohalter_Unten_60_ISO7089_M3_6",
+   "ia": "P10-SERVOHALTER",
+   "ib": "ISO7089-M3",
+   "volume_mm3": 0.2549619267139595,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Unten_60_ISO4762_M3x12_1",
+   "b": "Unten_feststehend_15",
+   "ia": "ISO4762-M3x12",
+   "ib": "SERVO-SAVOX-SB2270SGP",
+   "volume_mm3": 15.550883635269484,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Unten_60_ISO4762_M3x12_5",
+   "b": "Unten_feststehend_15",
+   "ia": "ISO4762-M3x12",
+   "ib": "SERVO-SAVOX-SB2270SGP",
+   "volume_mm3": 15.55088363526948,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Unten_60_ISO4762_M3x12_9",
+   "b": "Unten_feststehend_15",
+   "ia": "ISO4762-M3x12",
+   "ib": "SERVO-SAVOX-SB2270SGP",
+   "volume_mm3": 15.550883635269498,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Unten_60_ISO4762_M3x12_13",
+   "b": "Unten_feststehend_15",
+   "ia": "ISO4762-M3x12",
+   "ib": "SERVO-SAVOX-SB2270SGP",
+   "volume_mm3": 15.550883635269434,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Unten_180",
+   "b": "P10_Servohalter_Unten_180_ISO7089_M3_2",
+   "ia": "P10-SERVOHALTER",
+   "ib": "ISO7089-M3",
+   "volume_mm3": 0.3596961796253129,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Unten_180",
+   "b": "P10_Servohalter_Unten_180_ISO4032_M3_3",
+   "ia": "P10-SERVOHALTER",
+   "ib": "ISO4032-M3",
+   "volume_mm3": 0.00268747461207485,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Unten_180",
+   "b": "P10_Servohalter_Unten_180_ISO7089_M3_6",
+   "ia": "P10-SERVOHALTER",
+   "ib": "ISO7089-M3",
+   "volume_mm3": 0.25496192671395135,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Unten_180_ISO4762_M3x12_1",
+   "b": "Unten_feststehend_16",
+   "ia": "ISO4762-M3x12",
+   "ib": "SERVO-SAVOX-SB2270SGP",
+   "volume_mm3": 15.550883635269475,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Unten_180_ISO4762_M3x12_5",
+   "b": "Unten_feststehend_16",
+   "ia": "ISO4762-M3x12",
+   "ib": "SERVO-SAVOX-SB2270SGP",
+   "volume_mm3": 15.550883635269473,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Unten_180_ISO4762_M3x12_9",
+   "b": "Unten_feststehend_16",
+   "ia": "ISO4762-M3x12",
+   "ib": "SERVO-SAVOX-SB2270SGP",
+   "volume_mm3": 15.550883635269475,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Unten_180_ISO4762_M3x12_13",
+   "b": "Unten_feststehend_16",
+   "ia": "ISO4762-M3x12",
+   "ib": "SERVO-SAVOX-SB2270SGP",
+   "volume_mm3": 15.550883635269473,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Unten_300",
+   "b": "P10_Servohalter_Unten_300_ISO7089_M3_2",
+   "ia": "P10-SERVOHALTER",
+   "ib": "ISO7089-M3",
+   "volume_mm3": 0.3596961796253055,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Unten_300",
+   "b": "P10_Servohalter_Unten_300_ISO4032_M3_3",
+   "ia": "P10-SERVOHALTER",
+   "ib": "ISO4032-M3",
+   "volume_mm3": 0.002687474612074935,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Unten_300",
+   "b": "P10_Servohalter_Unten_300_ISO7089_M3_6",
+   "ia": "P10-SERVOHALTER",
+   "ib": "ISO7089-M3",
+   "volume_mm3": 0.2549619267139556,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Unten_300_ISO4762_M3x12_1",
+   "b": "Unten_feststehend_17",
+   "ia": "ISO4762-M3x12",
+   "ib": "SERVO-SAVOX-SB2270SGP",
+   "volume_mm3": 15.550883635269471,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Unten_300_ISO4762_M3x12_5",
+   "b": "Unten_feststehend_17",
+   "ia": "ISO4762-M3x12",
+   "ib": "SERVO-SAVOX-SB2270SGP",
+   "volume_mm3": 15.550883635269471,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Unten_300_ISO4762_M3x12_9",
+   "b": "Unten_feststehend_17",
+   "ia": "ISO4762-M3x12",
+   "ib": "SERVO-SAVOX-SB2270SGP",
+   "volume_mm3": 15.550883635269487,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servohalter_Unten_300_ISO4762_M3x12_13",
+   "b": "Unten_feststehend_17",
+   "ia": "ISO4762-M3x12",
+   "ib": "SERVO-SAVOX-SB2270SGP",
+   "volume_mm3": 15.550883635269454,
+   "reason": "Normteil in Bohrung bzw. Gewinde (nominal ohne Gewindeflanken)"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servoverteiler_oben",
+   "b": "P10_Kabel_STAMM",
+   "ia": "P10-SERVOVERTEILER-PCB",
+   "ib": "P10-KABEL-STAMM5x24AWG",
+   "volume_mm3": 0.005292645956948252,
+   "reason": "Leitungsende am Anschluss"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servoverteiler_oben",
+   "b": "P10_Kabel_SERVO_oben_1",
+   "ia": "P10-SERVOVERTEILER-PCB",
+   "ib": "P10-KABEL-SERVO3x22AWG",
+   "volume_mm3": 0.2827875421039556,
+   "reason": "Leitungsende am Anschluss"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Servoverteiler_oben",
+   "b": "P10_Kabel_SERVO_oben_2",
+   "ia": "P10-SERVOVERTEILER-PCB",
+   "ib": "P10-KABEL-SERVO3x22AWG",
+   "volume_mm3": 0.8220957084759775,
+   "reason": "Leitungsende am Anschluss"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_ELRS_Empfaenger",
+   "b": "P10_Kabel_RX_1",
+   "ia": "P10-REF-ELRS-EMPFAENGER",
+   "ib": "P10-KABEL-28AWG",
+   "volume_mm3": 0.17357142861234187,
+   "reason": "Leitungsende am Anschluss"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_ELRS_Empfaenger",
+   "b": "P10_Kabel_RX_2",
+   "ia": "P10-REF-ELRS-EMPFAENGER",
+   "ib": "P10-KABEL-28AWG",
+   "volume_mm3": 0.1735714286123419,
+   "reason": "Leitungsende am Anschluss"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_ELRS_Empfaenger",
+   "b": "P10_Kabel_RX_3",
+   "ia": "P10-REF-ELRS-EMPFAENGER",
+   "ib": "P10-KABEL-28AWG",
+   "volume_mm3": 0.1735714286123419,
+   "reason": "Leitungsende am Anschluss"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_ELRS_Empfaenger",
+   "b": "P10_Kabel_RX_4",
+   "ia": "P10-REF-ELRS-EMPFAENGER",
+   "ib": "P10-KABEL-28AWG",
+   "volume_mm3": 0.1735714286123419,
+   "reason": "Leitungsende am Anschluss"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_ELRS_Empfaenger",
+   "b": "P10_Kabel_ANT",
+   "ia": "P10-REF-ELRS-EMPFAENGER",
+   "ib": "P10-KABEL-ANT",
+   "volume_mm3": 0.0689985247605133,
+   "reason": "Leitungsende am Anschluss"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Kabel_PP",
+   "b": "REF_ESC",
+   "ia": "P10-KABEL-14AWG",
+   "ib": "REF_ESC",
+   "volume_mm3": 9.711708854037067,
+   "reason": "Leitungsende am Anschluss"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Kabel_PM",
+   "b": "REF_ESC",
+   "ia": "P10-KABEL-14AWG",
+   "ib": "REF_ESC",
+   "volume_mm3": 9.711708878122014,
+   "reason": "Leitungsende am Anschluss"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Kabel_AKKUP",
+   "b": "Akku_Referenz",
+   "ia": "P10-KABEL-14AWG",
+   "ib": "REF_AKKU",
+   "volume_mm3": 3.9304000001338677,
+   "reason": "Leitungsende am Anschluss"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Kabel_AKKUM",
+   "b": "Akku_Referenz",
+   "ia": "P10-KABEL-14AWG",
+   "ib": "REF_AKKU",
+   "volume_mm3": 3.930400000133862,
+   "reason": "Leitungsende am Anschluss"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Kabel_BAL",
+   "b": "Akku_Referenz",
+   "ia": "P10-KABEL-BAL7x22AWG",
+   "ib": "REF_AKKU",
+   "volume_mm3": 2.2927333309740066,
+   "reason": "Leitungsende am Anschluss"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Kabel_M1_oben_1",
+   "b": "REF_ESC",
+   "ia": "P10-KABEL-20AWG",
+   "ib": "REF_ESC",
+   "volume_mm3": 1.3069025438933506,
+   "reason": "Leitungsende am Anschluss"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Kabel_M1_oben_2",
+   "b": "REF_ESC",
+   "ia": "P10-KABEL-20AWG",
+   "ib": "REF_ESC",
+   "volume_mm3": 1.3069025438933508,
+   "reason": "Leitungsende am Anschluss"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Kabel_M1_oben_3",
+   "b": "REF_ESC",
+   "ia": "P10-KABEL-20AWG",
+   "ib": "REF_ESC",
+   "volume_mm3": 1.3069025438933548,
+   "reason": "Leitungsende am Anschluss"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Kabel_M2_unten_1",
+   "b": "REF_ESC",
+   "ia": "P10-KABEL-20AWG",
+   "ib": "REF_ESC",
+   "volume_mm3": 1.306902543893353,
+   "reason": "Leitungsende am Anschluss"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Kabel_M2_unten_2",
+   "b": "REF_ESC",
+   "ia": "P10-KABEL-20AWG",
+   "ib": "REF_ESC",
+   "volume_mm3": 1.306902543893351,
+   "reason": "Leitungsende am Anschluss"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Kabel_M2_unten_3",
+   "b": "REF_ESC",
+   "ia": "P10-KABEL-20AWG",
+   "ib": "REF_ESC",
+   "volume_mm3": 1.3069025438933521,
+   "reason": "Leitungsende am Anschluss"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Kabel_SERVO_oben_1",
+   "b": "Oben_feststehend_15",
+   "ia": "P10-KABEL-SERVO3x22AWG",
+   "ib": "SERVO-SAVOX-SB2270SGP",
+   "volume_mm3": 4.24743326765336,
+   "reason": "Leitungsende am Anschluss"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Kabel_SERVO_oben_2",
+   "b": "Oben_feststehend_16",
+   "ia": "P10-KABEL-SERVO3x22AWG",
+   "ib": "SERVO-SAVOX-SB2270SGP",
+   "volume_mm3": 4.247433267653387,
+   "reason": "Leitungsende am Anschluss"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Kabel_SERVO_oben_3",
+   "b": "Oben_feststehend_17",
+   "ia": "P10-KABEL-SERVO3x22AWG",
+   "ib": "SERVO-SAVOX-SB2270SGP",
+   "volume_mm3": 4.247433267653352,
+   "reason": "Leitungsende am Anschluss"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Kabel_SERVO_unten_1",
+   "b": "Unten_feststehend_15",
+   "ia": "P10-KABEL-SERVO3x22AWG",
+   "ib": "SERVO-SAVOX-SB2270SGP",
+   "volume_mm3": 4.247433267653319,
+   "reason": "Leitungsende am Anschluss"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Kabel_SERVO_unten_2",
+   "b": "Unten_feststehend_16",
+   "ia": "P10-KABEL-SERVO3x22AWG",
+   "ib": "SERVO-SAVOX-SB2270SGP",
+   "volume_mm3": 4.24743326765336,
+   "reason": "Leitungsende am Anschluss"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Kabel_SERVO_unten_3",
+   "b": "Unten_feststehend_17",
+   "ia": "P10-KABEL-SERVO3x22AWG",
+   "ib": "SERVO-SAVOX-SB2270SGP",
+   "volume_mm3": 4.247433267653288,
+   "reason": "Leitungsende am Anschluss"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Kabel_SIG_1",
+   "b": "REF_FC",
+   "ia": "P10-KABEL-28AWG",
+   "ib": "REF_FC",
+   "volume_mm3": 0.31808625617596337,
+   "reason": "Leitungsende am Anschluss"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Kabel_SIG_2",
+   "b": "REF_FC",
+   "ia": "P10-KABEL-28AWG",
+   "ib": "REF_FC",
+   "volume_mm3": 0.31808625617596353,
+   "reason": "Leitungsende am Anschluss"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Kabel_SIG_3",
+   "b": "REF_FC",
+   "ia": "P10-KABEL-28AWG",
+   "ib": "REF_FC",
+   "volume_mm3": 0.31808625617596353,
+   "reason": "Leitungsende am Anschluss"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Kabel_SIG_4",
+   "b": "REF_FC",
+   "ia": "P10-KABEL-28AWG",
+   "ib": "REF_FC",
+   "volume_mm3": 0.3180862561759636,
+   "reason": "Leitungsende am Anschluss"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Kabel_SIG_5",
+   "b": "REF_FC",
+   "ia": "P10-KABEL-28AWG",
+   "ib": "REF_FC",
+   "volume_mm3": 0.3180862561759634,
+   "reason": "Leitungsende am Anschluss"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Kabel_SIG_6",
+   "b": "REF_FC",
+   "ia": "P10-KABEL-28AWG",
+   "ib": "REF_FC",
+   "volume_mm3": 0.31808625617596353,
+   "reason": "Leitungsende am Anschluss"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Kabel_SIG_7",
+   "b": "REF_FC",
+   "ia": "P10-KABEL-28AWG",
+   "ib": "REF_FC",
+   "volume_mm3": 0.31808625617596353,
+   "reason": "Leitungsende am Anschluss"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Kabel_RX_1",
+   "b": "REF_FC",
+   "ia": "P10-KABEL-28AWG",
+   "ib": "REF_FC",
+   "volume_mm3": 0.31808625617596326,
+   "reason": "Leitungsende am Anschluss"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Kabel_RX_2",
+   "b": "REF_FC",
+   "ia": "P10-KABEL-28AWG",
+   "ib": "REF_FC",
+   "volume_mm3": 0.31808625617596326,
+   "reason": "Leitungsende am Anschluss"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Kabel_RX_3",
+   "b": "REF_FC",
+   "ia": "P10-KABEL-28AWG",
+   "ib": "REF_FC",
+   "volume_mm3": 0.31808625617596326,
+   "reason": "Leitungsende am Anschluss"
+  },
+  {
+   "state": "Neutral",
+   "a": "P10_Kabel_RX_4",
+   "b": "REF_FC",
+   "ia": "P10-KABEL-28AWG",
+   "ib": "REF_FC",
+   "volume_mm3": 0.31808625617596326,
+   "reason": "Leitungsende am Anschluss"
+  }
+ ],
+ "status": "PASS",
+ "manufacturing_release": false,
+ "limits": [
+  "Nominale Gewinde/Bohrungen ohne Flanken; Schrauben in Bohrungen als erlaubte Paarung geführt",
+  "Servo-STEP ungültig: Überschneidungen gegen einen gültigen Ersatzkörper aus den vermessenen STEP-Maßen (Gehäuse, Laschen, Abtriebsscheibe); Laschenanlage zusätzlich per distToShape am Original",
+  "Kontakt = Abstand ≤ 0,02 mm (Steckungen 0,06 mm)",
+  "Keine Festigkeits-, Verzahnungs- oder Elektroprüfung",
+  "Leitungen als glatte Sweeps mit flächengleichem Querschnitt"
+ ]
+}

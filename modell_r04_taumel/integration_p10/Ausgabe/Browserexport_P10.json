@@ -1,0 +1,11 @@
+{
+  "source_native_sha256": "03aa745fb3b31680ded3f6d905f568158bf7edc72c223465184b849416a360b7",
+  "parts": 774,
+  "unique_vertices": 408948,
+  "unique_triangles": 421552,
+  "rendered_triangles": 551506,
+  "keys": 257,
+  "mesh_js_bytes": 11819824,
+  "reference_states": 6,
+  "geometry_source": "Native FreeCAD shapes of P10 assembly, including known invalid servo case reference"
+}
