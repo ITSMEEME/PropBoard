@@ -17,7 +17,7 @@ class P09Dialog(QtWidgets.QDialog):
     def __init__(self):
         super().__init__(Gui.getMainWindow());self.setWindowTitle('P11 – Direktantrieb 1:1 und Führungsrollen');self.t=0;self.spins=[]
         layout=QtWidgets.QVBoxLayout(self)
-        layout.addWidget(QtWidgets.QLabel('P11 · geschlossene Kinematik · Direktantrieb 1:1 · Konstruktionsentwurf\nServo → Taumelscheibe → Blatt; Ringmotor-Bauraum + zwei kugelgelagerte Führungsrollen je Ring'))
+        layout.addWidget(QtWidgets.QLabel('P11 · geschlossene Kinematik · Direktantrieb 1:1 · Konstruktionsentwurf\nServo → Taumelscheibe → Blatt; Ringmotor-Bauraum + drei feste kugelgelagerte Führungsrollen je Ring'))
         for i in range(8):
             row=QtWidgets.QHBoxLayout();row.addWidget(QtWidgets.QLabel(('Servo '+str(i+1)) if i<6 else ('Rotor '+str(i-5))))
             spin=QtWidgets.QDoubleSpinBox();spin.setRange(-8,8) if i<6 else spin.setRange(-3600,3600);spin.setSuffix(' °');spin.setSingleStep(.5 if i<6 else 5);self.spins.append(spin);row.addWidget(spin);layout.addLayout(row);spin.valueChanged.connect(self.manual)

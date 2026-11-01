@@ -1,36 +1,36 @@
 {
   "method": "Stationary Flight.aero, simplified polar, assumed P11 mass budget, prescribed RPM",
-  "native_sha256": "2e054218924e66d44c9978a21652d463c3b1008e729cb23b618715a9c5a29e42",
-  "massKg": 2.5387278370565083,
-  "rpm": 3363,
-  "thrustN": 24.90687738895016,
-  "thrustEquivalentKg": 2.5389273587105157,
+  "native_sha256": "1216d65b9ec64293984fddf1e8688ec99e189ca6dea9368275426f6208cae0c1",
+  "massKg": 2.5826627224551233,
+  "rpm": 3390,
+  "thrustN": 25.331470936258338,
+  "thrustEquivalentKg": 2.5822090658775063,
   "ratio": 1,
   "motorSelectionPending": true,
   "motors": [
     {
       "rotor": 0,
-      "continuousTorqueNm": 0.4685420940617025,
-      "mechanicalPowerW": 165.0076577074643,
-      "additionalAccelerationTorqueNm_3s": 0.27563536966068575
+      "continuousTorqueNm": 0.47599300261223626,
+      "mechanicalPowerW": 168.97750157884258,
+      "additionalAccelerationTorqueNm_3s": 0.278417137775052
     },
     {
       "rotor": 1,
-      "continuousTorqueNm": 0.3186186733767321,
-      "mechanicalPowerW": 112.20874636896681,
-      "additionalAccelerationTorqueNm_3s": 0.27561962043994154
+      "continuousTorqueNm": 0.3228316860961918,
+      "mechanicalPowerW": 114.60523883259565,
+      "additionalAccelerationTorqueNm_3s": 0.27840126211096555
     }
   ],
   "emaxReference": {
     "reachable": false,
     "requiredPhaseCurrentA": [
-      93.77159315461579,
-      63.941699743035294
+      95.25627318870957,
+      64.7821436259163
     ],
-    "batteryPowerW": 1140.5420975299,
+    "batteryPowerW": 1172.644440209438,
     "copperLossW": [
-      545.1729243307967,
-      253.48953989376577
+      562.5729700717284,
+      260.1970202316686
     ]
   },
   "limitations": [

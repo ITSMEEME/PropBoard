@@ -35,7 +35,8 @@
   "roller_journal_tangent_mm": 0.15,
   "roller_azimuths_deg": [
     115,
-    205
+    205,
+    330
   ],
   "eccentric_stem_radial_mm": 54.6,
   "eccentricity_mm": 0.25,
@@ -67,5 +68,6 @@
   "guide_insert_z_mm": [
     15.1,
     21.5
-  ]
+  ],
+  "guide_mounting": "3 feste, exzentrisch einstellbare Rollen je Ring; keine Feder; vorhandene Einbaubereiche 115/205/330 Grad"
 }

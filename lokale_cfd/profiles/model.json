@@ -1,0 +1,18 @@
+{
+  "name": "model",
+  "description": "Gespeicherte Top 10 des P11-Modellprüfstands, ursprüngliche Abmessungen",
+  "target_mass_kg": 2.5826627224551233,
+  "target_mass_status": "P11-Modellbudget, keine Wägung",
+  "objective": "aerodynamic_efficiency",
+  "seed_mode": "original",
+  "reference": {"diameterMm":375,"rootRadiusMm":48,"chordMm":30,"blades":8,"spacingMm":60,"pitchAxisFraction":0.25},
+  "cyclic_margin_deg": 0,
+  "limits": {"diameterMm":[200,500],"rootRadiusMm":[30,90],"chordMm":[10,60],"thickness":[0.06,0.20],"taper":[0.3,1.5],"twistDeg":[-12,12],"spacingMm":[30,180],"rpm":[500,6000],"pitchUpperDeg":[-2,21],"pitchLowerDeg":[-2,21]},
+  "fixed": ["blades","pitchAxisFraction"],
+  "air": {"rho":1.225,"nu":0.000015},
+  "iterations":750,
+  "max_iterations":1500,
+  "refinement_batch":6,
+  "max_candidates":40,
+  "hardware_data_source":"EMAX bleibt elektrische Vergleichsreferenz; kein ausgewählter Direktantriebsmotor"
+}

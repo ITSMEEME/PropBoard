@@ -1,11 +1,11 @@
 {
   "revision": "P11",
-  "native_sha256": "2e054218924e66d44c9978a21652d463c3b1008e729cb23b618715a9c5a29e42",
+  "native_sha256": "1216d65b9ec64293984fddf1e8688ec99e189ca6dea9368275426f6208cae0c1",
   "base_sha256": "03aa745fb3b31680ded3f6d905f568158bf7edc72c223465184b849416a360b7",
-  "parts": 748,
+  "parts": 778,
   "removed": 78,
   "replaced": 4,
-  "new_or_changed": 56,
+  "new_or_changed": 86,
   "changes": [
     {
       "operation": "removed",
@@ -407,8 +407,8 @@
     "Unten_feststehend_17"
   ],
   "ratio": 1,
-  "guide_rollers": 4,
-  "guide_bearings": 8,
+  "guide_rollers": 6,
+  "guide_bearings": 12,
   "motor_selection_pending": true,
   "manufacturing_release": false
 }

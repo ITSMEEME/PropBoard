@@ -1,0 +1,171 @@
+﻿instance;id;material;process;manufacturing_variant;manufacturing_step;reference;volume_mm3;open_items
+Oben_Statorplatte;P12-001;EN AW-6082 T6;Fräsen, Bohren, Zylindersenken;NOMINAL;STEP/P12-001.step;False;680394.7828108103;Motor-Lochbildphase und Gewindetiefen bestätigen
+Oben_Motor;REF-MN1330;Kaufteil;Kaufen;NOMINAL;;True;1166316.2726452108;Abweichungen vonØ150×66 sind nur ein anderer Bauraum, keine MN1330-Variante
+Oben_Nabe;P12-002;EN AW-7075 T6;Drehen/Fräsen/Bohren;NOMINAL;STEP/P12-002.step;False;253988.41980459064;Zentrierung und Motor-Gewindeeingriff offen
+Oben_Membran;P12-003;1.4310 Federband, Zustand offen;Feinschneiden/Fräsen/Entgraten;NOMINAL;STEP/P12-003.step;False;44549.44201392221;Axial-/Torsionssteifigkeit und Dauerfestigkeit nicht nachgewiesen
+Oben_Distanz_1;P12-004;EN AW-6082 T6;Drehen/Bohren;NOMINAL;STEP/P12-004.step;False;13014.298894908006;Planparallelität und Schraubenlänge auslegen
+Oben_Distanz_2;P12-004;EN AW-6082 T6;Drehen/Bohren;NOMINAL;STEP/P12-004.step;False;13014.298894908006;Planparallelität und Schraubenlänge auslegen
+Oben_Distanz_3;P12-004;EN AW-6082 T6;Drehen/Bohren;NOMINAL;STEP/P12-004.step;False;13014.298894908008;Planparallelität und Schraubenlänge auslegen
+Oben_Distanz_4;P12-004;EN AW-6082 T6;Drehen/Bohren;NOMINAL;STEP/P12-004.step;False;13014.298894908008;Planparallelität und Schraubenlänge auslegen
+Oben_Distanz_5;P12-004;EN AW-6082 T6;Drehen/Bohren;NOMINAL;STEP/P12-004.step;False;13014.298894908008;Planparallelität und Schraubenlänge auslegen
+Oben_Distanz_6;P12-004;EN AW-6082 T6;Drehen/Bohren;NOMINAL;STEP/P12-004.step;False;13014.298894908006;Planparallelität und Schraubenlänge auslegen
+Oben_Distanz_7;P12-004;EN AW-6082 T6;Drehen/Bohren;NOMINAL;STEP/P12-004.step;False;13014.298894908006;Planparallelität und Schraubenlänge auslegen
+Oben_Distanz_8;P12-004;EN AW-6082 T6;Drehen/Bohren;NOMINAL;STEP/P12-004.step;False;13014.298894908006;Planparallelität und Schraubenlänge auslegen
+Oben_Innenring;P12-005;EN AW-7075 T6;Drehen/Bohren;NOMINAL;STEP/P12-005.step;False;1245689.2393566866;Pitchlageranschlüsse noch nicht modelliert
+Oben_Laufbahn;P12-014;42CrMo4+QT, Laufbahnhärtung offen;Drehen/Härten/Profilschleifen;NOMINAL;STEP/P12-014.step;False;689441.3573862091;Verbindung zu Pitchlagerträgern, Härte und Rundlauf offen
+Oben_Quertraeger_-100;P12-008;EN AW-6082 T6;Rohrzuschnitt/Bohren;NOMINAL;STEP/P12-008.step;False;1647753.316889451;Klemmsattel-Reibschluss und Formschluss noch auslegen
+Oben_Quertraeger_100;P12-008;EN AW-6082 T6;Rohrzuschnitt/Bohren;NOMINAL;STEP/P12-008.step;False;1647753.316889451;Klemmsattel-Reibschluss und Formschluss noch auslegen
+Oben_Druckhuelse_-80_-100;P12-009;EN AW-6082 T6;Drehen;NOMINAL;STEP/P12-009.step;False;5123.057972061946;Auf reale Rohrwand abstimmen
+Oben_Druckhuelse_-80_100;P12-009;EN AW-6082 T6;Drehen;NOMINAL;STEP/P12-009.step;False;5123.057972061946;Auf reale Rohrwand abstimmen
+Oben_Druckhuelse_80_-100;P12-009;EN AW-6082 T6;Drehen;NOMINAL;STEP/P12-009.step;False;5123.057972061946;Auf reale Rohrwand abstimmen
+Oben_Druckhuelse_80_100;P12-009;EN AW-6082 T6;Drehen;NOMINAL;STEP/P12-009.step;False;5123.057972061946;Auf reale Rohrwand abstimmen
+Oben_Mittelstuetze_Fuss;P12-010;EN AW-6082 T6;Fräsen/Bohren;NOMINAL;STEP/P12-010.step;False;118631.52224009627;Führungsbuchse und Schweißanschluss offen
+Oben_Mittelstuetze_Rohr;P12-011;EN AW-6082 T6;Rohrzuschnitt/Planen;NOMINAL;STEP/P12-011.step;False;173180.29502913734;Keine Taumelscheiben-Gleitpassung auf unbearbeitetem Rohr
+Oben_Rolle_1;P12-015;100Cr6, Wärmebehandlung/Schliff offen;Drehen/Kernbohren/Härten/Schleifen;NOMINAL;STEP/P12-015.step;False;41286.44937032193;"Passung, DB-Vorspannung und Tragzahlen offen; Gewindekernkonturen symbolisch"
+Oben_Rolle_1_Deckel_A;P12-016;42CrMo4+QT;Drehen/Bohren;NOMINAL;STEP/P12-016.step;False;3909.397898127141;Tatsächliche Kaufteil-Schultermaße bestätigen
+Oben_Rolle_1_Deckel_B;P12-016;42CrMo4+QT;Drehen/Bohren;NOMINAL;STEP/P12-016.step;False;3909.397898127141;Tatsächliche Kaufteil-Schultermaße bestätigen
+Oben_Rolle_1_Lager_A;REF-7202B;Kaufteil;Kaufen;NOMINAL;;True;8639.379797371934;"Geänderte Abmessungen erfordern ein neu ausgewähltes reales Lager; keine internen Kugeln modelliert"
+Oben_Rolle_1_Lager_B;REF-7202B;Kaufteil;Kaufen;NOMINAL;;True;8639.379797371934;"Geänderte Abmessungen erfordern ein neu ausgewähltes reales Lager; keine internen Kugeln modelliert"
+Oben_Rolle_1_Distanz;P12-017;42CrMo4+QT;Drehen/Stirnschleifen;NOMINAL;STEP/P12-017.step;False;540.3225204909088;DB-Klemmkette abzustimmen
+Oben_Rolle_1_Achse;P12-018;42CrMo4+QT;Drehen/Schleifen/Gewindeschneiden;NOMINAL;STEP/P12-018.step;False;14993.250939257297;"Gewindesteigung, Freistich und Sicherung fehlen; Mutter noch nicht modelliert"
+Oben_Rolle_1_Anlauf_A;P12-022;42CrMo4+QT;Drehen/Stirnschleifen;NOMINAL;STEP/P12-022.step;False;1061.606989501063;Innenring-Klemmkette noch abstimmen
+Oben_Rolle_1_Anlauf_B;P12-022;42CrMo4+QT;Drehen/Stirnschleifen;NOMINAL;STEP/P12-022.step;False;1061.606989501063;Innenring-Klemmkette noch abstimmen
+Oben_Rolle_1_Gabel_A;P12-019;EN AW-7075 T6;Fräsen/Bohren;NOMINAL;STEP/P12-019.step;False;35943.073625988625;Feste Einbaulage, Distanzblech-Justage noch auszulegen
+Oben_Rolle_1_Gabel_B;P12-019;EN AW-7075 T6;Fräsen/Bohren;NOMINAL;STEP/P12-019.step;False;35943.073625988625;Feste Einbaulage, Distanzblech-Justage noch auszulegen
+Oben_Rolle_1_Steg;P12-020;EN AW-7075 T6;Fräsen/Kernbohren/Gewinde;NOMINAL;STEP/P12-020.step;False;38982.18609696165;Schraubenlängen und Distanzblech-Justage offen
+Oben_Rolle_2;P12-015;100Cr6, Wärmebehandlung/Schliff offen;Drehen/Kernbohren/Härten/Schleifen;NOMINAL;STEP/P12-015.step;False;41286.44937032192;"Passung, DB-Vorspannung und Tragzahlen offen; Gewindekernkonturen symbolisch"
+Oben_Rolle_2_Deckel_A;P12-016;42CrMo4+QT;Drehen/Bohren;NOMINAL;STEP/P12-016.step;False;3909.397898127142;Tatsächliche Kaufteil-Schultermaße bestätigen
+Oben_Rolle_2_Deckel_B;P12-016;42CrMo4+QT;Drehen/Bohren;NOMINAL;STEP/P12-016.step;False;3909.397898127142;Tatsächliche Kaufteil-Schultermaße bestätigen
+Oben_Rolle_2_Lager_A;REF-7202B;Kaufteil;Kaufen;NOMINAL;;True;8639.379797371928;"Geänderte Abmessungen erfordern ein neu ausgewähltes reales Lager; keine internen Kugeln modelliert"
+Oben_Rolle_2_Lager_B;REF-7202B;Kaufteil;Kaufen;NOMINAL;;True;8639.379797371928;"Geänderte Abmessungen erfordern ein neu ausgewähltes reales Lager; keine internen Kugeln modelliert"
+Oben_Rolle_2_Distanz;P12-017;42CrMo4+QT;Drehen/Stirnschleifen;NOMINAL;STEP/P12-017.step;False;540.3225204909088;DB-Klemmkette abzustimmen
+Oben_Rolle_2_Achse;P12-018;42CrMo4+QT;Drehen/Schleifen/Gewindeschneiden;NOMINAL;STEP/P12-018.step;False;14993.250939257294;"Gewindesteigung, Freistich und Sicherung fehlen; Mutter noch nicht modelliert"
+Oben_Rolle_2_Anlauf_A;P12-022;42CrMo4+QT;Drehen/Stirnschleifen;NOMINAL;STEP/P12-022.step;False;1061.6069895010633;Innenring-Klemmkette noch abstimmen
+Oben_Rolle_2_Anlauf_B;P12-022;42CrMo4+QT;Drehen/Stirnschleifen;NOMINAL;STEP/P12-022.step;False;1061.6069895010633;Innenring-Klemmkette noch abstimmen
+Oben_Rolle_2_Gabel_A;P12-019;EN AW-7075 T6;Fräsen/Bohren;NOMINAL;STEP/P12-019.step;False;35943.073625988625;Feste Einbaulage, Distanzblech-Justage noch auszulegen
+Oben_Rolle_2_Gabel_B;P12-019;EN AW-7075 T6;Fräsen/Bohren;NOMINAL;STEP/P12-019.step;False;35943.073625988625;Feste Einbaulage, Distanzblech-Justage noch auszulegen
+Oben_Rolle_2_Steg;P12-020;EN AW-7075 T6;Fräsen/Kernbohren/Gewinde;NOMINAL;STEP/P12-020.step;False;38982.18609696165;Schraubenlängen und Distanzblech-Justage offen
+Oben_Rolle_3;P12-015;100Cr6, Wärmebehandlung/Schliff offen;Drehen/Kernbohren/Härten/Schleifen;NOMINAL;STEP/P12-015.step;False;41286.449370321905;"Passung, DB-Vorspannung und Tragzahlen offen; Gewindekernkonturen symbolisch"
+Oben_Rolle_3_Deckel_A;P12-016;42CrMo4+QT;Drehen/Bohren;NOMINAL;STEP/P12-016.step;False;3909.397898127138;Tatsächliche Kaufteil-Schultermaße bestätigen
+Oben_Rolle_3_Deckel_B;P12-016;42CrMo4+QT;Drehen/Bohren;NOMINAL;STEP/P12-016.step;False;3909.397898127138;Tatsächliche Kaufteil-Schultermaße bestätigen
+Oben_Rolle_3_Lager_A;REF-7202B;Kaufteil;Kaufen;NOMINAL;;True;8639.379797371937;"Geänderte Abmessungen erfordern ein neu ausgewähltes reales Lager; keine internen Kugeln modelliert"
+Oben_Rolle_3_Lager_B;REF-7202B;Kaufteil;Kaufen;NOMINAL;;True;8639.379797371937;"Geänderte Abmessungen erfordern ein neu ausgewähltes reales Lager; keine internen Kugeln modelliert"
+Oben_Rolle_3_Distanz;P12-017;42CrMo4+QT;Drehen/Stirnschleifen;NOMINAL;STEP/P12-017.step;False;540.3225204909083;DB-Klemmkette abzustimmen
+Oben_Rolle_3_Achse;P12-018;42CrMo4+QT;Drehen/Schleifen/Gewindeschneiden;NOMINAL;STEP/P12-018.step;False;14993.250939257283;"Gewindesteigung, Freistich und Sicherung fehlen; Mutter noch nicht modelliert"
+Oben_Rolle_3_Anlauf_A;P12-022;42CrMo4+QT;Drehen/Stirnschleifen;NOMINAL;STEP/P12-022.step;False;1061.606989501064;Innenring-Klemmkette noch abstimmen
+Oben_Rolle_3_Anlauf_B;P12-022;42CrMo4+QT;Drehen/Stirnschleifen;NOMINAL;STEP/P12-022.step;False;1061.606989501064;Innenring-Klemmkette noch abstimmen
+Oben_Rolle_3_Gabel_A;P12-019;EN AW-7075 T6;Fräsen/Bohren;NOMINAL;STEP/P12-019.step;False;35943.073625988625;Feste Einbaulage, Distanzblech-Justage noch auszulegen
+Oben_Rolle_3_Gabel_B;P12-019;EN AW-7075 T6;Fräsen/Bohren;NOMINAL;STEP/P12-019.step;False;35943.073625988625;Feste Einbaulage, Distanzblech-Justage noch auszulegen
+Oben_Rolle_3_Steg;P12-020;EN AW-7075 T6;Fräsen/Kernbohren/Gewinde;NOMINAL;STEP/P12-020.step;False;38982.186096961625;Schraubenlängen und Distanzblech-Justage offen
+Oben_Fluegel_1;REF-FLUEGEL;Profilreferenz;Nicht fertigen;NOMINAL;;True;710689.1395277178;Kein Laminat, keine Pitchwelle/-lager und keine finalisierte aerodynamische Auslegung
+Oben_Fluegel_2;REF-FLUEGEL;Profilreferenz;Nicht fertigen;NOMINAL;;True;710689.1395277177;Kein Laminat, keine Pitchwelle/-lager und keine finalisierte aerodynamische Auslegung
+Oben_Fluegel_3;REF-FLUEGEL;Profilreferenz;Nicht fertigen;NOMINAL;;True;710689.1395277178;Kein Laminat, keine Pitchwelle/-lager und keine finalisierte aerodynamische Auslegung
+Oben_Fluegel_4;REF-FLUEGEL;Profilreferenz;Nicht fertigen;NOMINAL;;True;710689.1395277177;Kein Laminat, keine Pitchwelle/-lager und keine finalisierte aerodynamische Auslegung
+Oben_Fluegel_5;REF-FLUEGEL;Profilreferenz;Nicht fertigen;NOMINAL;;True;710689.1395277178;Kein Laminat, keine Pitchwelle/-lager und keine finalisierte aerodynamische Auslegung
+Oben_Fluegel_6;REF-FLUEGEL;Profilreferenz;Nicht fertigen;NOMINAL;;True;710689.1395277183;Kein Laminat, keine Pitchwelle/-lager und keine finalisierte aerodynamische Auslegung
+Oben_Fluegel_7;REF-FLUEGEL;Profilreferenz;Nicht fertigen;NOMINAL;;True;710689.139527718;Kein Laminat, keine Pitchwelle/-lager und keine finalisierte aerodynamische Auslegung
+Oben_Fluegel_8;REF-FLUEGEL;Profilreferenz;Nicht fertigen;NOMINAL;;True;710689.1395277178;Kein Laminat, keine Pitchwelle/-lager und keine finalisierte aerodynamische Auslegung
+Unten_Statorplatte;P12-001;EN AW-6082 T6;Fräsen, Bohren, Zylindersenken;MZ;STEP/P12-001_MZ.step;False;680394.7828108103;Motor-Lochbildphase und Gewindetiefen bestätigen
+Unten_Motor;REF-MN1330;Kaufteil;Kaufen;MZ;;True;1166316.2726452108;Abweichungen vonØ150×66 sind nur ein anderer Bauraum, keine MN1330-Variante
+Unten_Nabe;P12-002;EN AW-7075 T6;Drehen/Fräsen/Bohren;MZ;STEP/P12-002_MZ.step;False;253988.41980459064;Zentrierung und Motor-Gewindeeingriff offen
+Unten_Membran;P12-003;1.4310 Federband, Zustand offen;Feinschneiden/Fräsen/Entgraten;MZ;STEP/P12-003_MZ.step;False;44549.44201392221;Axial-/Torsionssteifigkeit und Dauerfestigkeit nicht nachgewiesen
+Unten_Distanz_1;P12-004;EN AW-6082 T6;Drehen/Bohren;MZ;STEP/P12-004_MZ.step;False;13014.298894908006;Planparallelität und Schraubenlänge auslegen
+Unten_Distanz_2;P12-004;EN AW-6082 T6;Drehen/Bohren;MZ;STEP/P12-004_MZ.step;False;13014.298894908006;Planparallelität und Schraubenlänge auslegen
+Unten_Distanz_3;P12-004;EN AW-6082 T6;Drehen/Bohren;MZ;STEP/P12-004_MZ.step;False;13014.298894908008;Planparallelität und Schraubenlänge auslegen
+Unten_Distanz_4;P12-004;EN AW-6082 T6;Drehen/Bohren;MZ;STEP/P12-004_MZ.step;False;13014.298894908008;Planparallelität und Schraubenlänge auslegen
+Unten_Distanz_5;P12-004;EN AW-6082 T6;Drehen/Bohren;MZ;STEP/P12-004_MZ.step;False;13014.298894908008;Planparallelität und Schraubenlänge auslegen
+Unten_Distanz_6;P12-004;EN AW-6082 T6;Drehen/Bohren;MZ;STEP/P12-004_MZ.step;False;13014.298894908006;Planparallelität und Schraubenlänge auslegen
+Unten_Distanz_7;P12-004;EN AW-6082 T6;Drehen/Bohren;MZ;STEP/P12-004_MZ.step;False;13014.298894908006;Planparallelität und Schraubenlänge auslegen
+Unten_Distanz_8;P12-004;EN AW-6082 T6;Drehen/Bohren;MZ;STEP/P12-004_MZ.step;False;13014.298894908006;Planparallelität und Schraubenlänge auslegen
+Unten_Innenring;P12-005;EN AW-7075 T6;Drehen/Bohren;MZ;STEP/P12-005_MZ.step;False;1245689.2393566866;Pitchlageranschlüsse noch nicht modelliert
+Unten_Laufbahn;P12-014;42CrMo4+QT, Laufbahnhärtung offen;Drehen/Härten/Profilschleifen;MZ;STEP/P12-014_MZ.step;False;689441.3573862091;Verbindung zu Pitchlagerträgern, Härte und Rundlauf offen
+Unten_Quertraeger_-100;P12-008;EN AW-6082 T6;Rohrzuschnitt/Bohren;MZ;STEP/P12-008_MZ.step;False;1647753.316889451;Klemmsattel-Reibschluss und Formschluss noch auslegen
+Unten_Quertraeger_100;P12-008;EN AW-6082 T6;Rohrzuschnitt/Bohren;MZ;STEP/P12-008_MZ.step;False;1647753.316889451;Klemmsattel-Reibschluss und Formschluss noch auslegen
+Unten_Druckhuelse_-80_-100;P12-009;EN AW-6082 T6;Drehen;MZ;STEP/P12-009_MZ.step;False;5123.057972061946;Auf reale Rohrwand abstimmen
+Unten_Druckhuelse_-80_100;P12-009;EN AW-6082 T6;Drehen;MZ;STEP/P12-009_MZ.step;False;5123.057972061946;Auf reale Rohrwand abstimmen
+Unten_Druckhuelse_80_-100;P12-009;EN AW-6082 T6;Drehen;MZ;STEP/P12-009_MZ.step;False;5123.057972061946;Auf reale Rohrwand abstimmen
+Unten_Druckhuelse_80_100;P12-009;EN AW-6082 T6;Drehen;MZ;STEP/P12-009_MZ.step;False;5123.057972061946;Auf reale Rohrwand abstimmen
+Unten_Mittelstuetze_Fuss;P12-010;EN AW-6082 T6;Fräsen/Bohren;MZ;STEP/P12-010_MZ.step;False;118631.52224009627;Führungsbuchse und Schweißanschluss offen
+Unten_Mittelstuetze_Rohr;P12-011;EN AW-6082 T6;Rohrzuschnitt/Planen;MZ;STEP/P12-011_MZ.step;False;173180.29502913734;Keine Taumelscheiben-Gleitpassung auf unbearbeitetem Rohr
+Unten_Rolle_1;P12-015;100Cr6, Wärmebehandlung/Schliff offen;Drehen/Kernbohren/Härten/Schleifen;MZ;STEP/P12-015_MZ.step;False;41286.44937032193;"Passung, DB-Vorspannung und Tragzahlen offen; Gewindekernkonturen symbolisch"
+Unten_Rolle_1_Deckel_A;P12-016;42CrMo4+QT;Drehen/Bohren;MZ;STEP/P12-016_MZ.step;False;3909.397898127141;Tatsächliche Kaufteil-Schultermaße bestätigen
+Unten_Rolle_1_Deckel_B;P12-016;42CrMo4+QT;Drehen/Bohren;MZ;STEP/P12-016_MZ.step;False;3909.397898127141;Tatsächliche Kaufteil-Schultermaße bestätigen
+Unten_Rolle_1_Lager_A;REF-7202B;Kaufteil;Kaufen;MZ;;True;8639.379797371934;"Geänderte Abmessungen erfordern ein neu ausgewähltes reales Lager; keine internen Kugeln modelliert"
+Unten_Rolle_1_Lager_B;REF-7202B;Kaufteil;Kaufen;MZ;;True;8639.379797371934;"Geänderte Abmessungen erfordern ein neu ausgewähltes reales Lager; keine internen Kugeln modelliert"
+Unten_Rolle_1_Distanz;P12-017;42CrMo4+QT;Drehen/Stirnschleifen;MZ;STEP/P12-017_MZ.step;False;540.3225204909088;DB-Klemmkette abzustimmen
+Unten_Rolle_1_Achse;P12-018;42CrMo4+QT;Drehen/Schleifen/Gewindeschneiden;MZ;STEP/P12-018_MZ.step;False;14993.250939257297;"Gewindesteigung, Freistich und Sicherung fehlen; Mutter noch nicht modelliert"
+Unten_Rolle_1_Anlauf_A;P12-022;42CrMo4+QT;Drehen/Stirnschleifen;MZ;STEP/P12-022_MZ.step;False;1061.606989501063;Innenring-Klemmkette noch abstimmen
+Unten_Rolle_1_Anlauf_B;P12-022;42CrMo4+QT;Drehen/Stirnschleifen;MZ;STEP/P12-022_MZ.step;False;1061.606989501063;Innenring-Klemmkette noch abstimmen
+Unten_Rolle_1_Gabel_A;P12-019;EN AW-7075 T6;Fräsen/Bohren;MZ;STEP/P12-019_MZ.step;False;35943.073625988625;Feste Einbaulage, Distanzblech-Justage noch auszulegen
+Unten_Rolle_1_Gabel_B;P12-019;EN AW-7075 T6;Fräsen/Bohren;MZ;STEP/P12-019_MZ.step;False;35943.073625988625;Feste Einbaulage, Distanzblech-Justage noch auszulegen
+Unten_Rolle_1_Steg;P12-020;EN AW-7075 T6;Fräsen/Kernbohren/Gewinde;MZ;STEP/P12-020_MZ.step;False;38982.18609696165;Schraubenlängen und Distanzblech-Justage offen
+Unten_Rolle_2;P12-015;100Cr6, Wärmebehandlung/Schliff offen;Drehen/Kernbohren/Härten/Schleifen;MZ;STEP/P12-015_MZ.step;False;41286.44937032192;"Passung, DB-Vorspannung und Tragzahlen offen; Gewindekernkonturen symbolisch"
+Unten_Rolle_2_Deckel_A;P12-016;42CrMo4+QT;Drehen/Bohren;MZ;STEP/P12-016_MZ.step;False;3909.397898127142;Tatsächliche Kaufteil-Schultermaße bestätigen
+Unten_Rolle_2_Deckel_B;P12-016;42CrMo4+QT;Drehen/Bohren;MZ;STEP/P12-016_MZ.step;False;3909.397898127142;Tatsächliche Kaufteil-Schultermaße bestätigen
+Unten_Rolle_2_Lager_A;REF-7202B;Kaufteil;Kaufen;MZ;;True;8639.379797371928;"Geänderte Abmessungen erfordern ein neu ausgewähltes reales Lager; keine internen Kugeln modelliert"
+Unten_Rolle_2_Lager_B;REF-7202B;Kaufteil;Kaufen;MZ;;True;8639.379797371928;"Geänderte Abmessungen erfordern ein neu ausgewähltes reales Lager; keine internen Kugeln modelliert"
+Unten_Rolle_2_Distanz;P12-017;42CrMo4+QT;Drehen/Stirnschleifen;MZ;STEP/P12-017_MZ.step;False;540.3225204909088;DB-Klemmkette abzustimmen
+Unten_Rolle_2_Achse;P12-018;42CrMo4+QT;Drehen/Schleifen/Gewindeschneiden;MZ;STEP/P12-018_MZ.step;False;14993.250939257294;"Gewindesteigung, Freistich und Sicherung fehlen; Mutter noch nicht modelliert"
+Unten_Rolle_2_Anlauf_A;P12-022;42CrMo4+QT;Drehen/Stirnschleifen;MZ;STEP/P12-022_MZ.step;False;1061.6069895010633;Innenring-Klemmkette noch abstimmen
+Unten_Rolle_2_Anlauf_B;P12-022;42CrMo4+QT;Drehen/Stirnschleifen;MZ;STEP/P12-022_MZ.step;False;1061.6069895010633;Innenring-Klemmkette noch abstimmen
+Unten_Rolle_2_Gabel_A;P12-019;EN AW-7075 T6;Fräsen/Bohren;MZ;STEP/P12-019_MZ.step;False;35943.073625988625;Feste Einbaulage, Distanzblech-Justage noch auszulegen
+Unten_Rolle_2_Gabel_B;P12-019;EN AW-7075 T6;Fräsen/Bohren;MZ;STEP/P12-019_MZ.step;False;35943.073625988625;Feste Einbaulage, Distanzblech-Justage noch auszulegen
+Unten_Rolle_2_Steg;P12-020;EN AW-7075 T6;Fräsen/Kernbohren/Gewinde;MZ;STEP/P12-020_MZ.step;False;38982.18609696165;Schraubenlängen und Distanzblech-Justage offen
+Unten_Rolle_3;P12-015;100Cr6, Wärmebehandlung/Schliff offen;Drehen/Kernbohren/Härten/Schleifen;MZ;STEP/P12-015_MZ.step;False;41286.449370321905;"Passung, DB-Vorspannung und Tragzahlen offen; Gewindekernkonturen symbolisch"
+Unten_Rolle_3_Deckel_A;P12-016;42CrMo4+QT;Drehen/Bohren;MZ;STEP/P12-016_MZ.step;False;3909.397898127138;Tatsächliche Kaufteil-Schultermaße bestätigen
+Unten_Rolle_3_Deckel_B;P12-016;42CrMo4+QT;Drehen/Bohren;MZ;STEP/P12-016_MZ.step;False;3909.397898127138;Tatsächliche Kaufteil-Schultermaße bestätigen
+Unten_Rolle_3_Lager_A;REF-7202B;Kaufteil;Kaufen;MZ;;True;8639.379797371937;"Geänderte Abmessungen erfordern ein neu ausgewähltes reales Lager; keine internen Kugeln modelliert"
+Unten_Rolle_3_Lager_B;REF-7202B;Kaufteil;Kaufen;MZ;;True;8639.379797371937;"Geänderte Abmessungen erfordern ein neu ausgewähltes reales Lager; keine internen Kugeln modelliert"
+Unten_Rolle_3_Distanz;P12-017;42CrMo4+QT;Drehen/Stirnschleifen;MZ;STEP/P12-017_MZ.step;False;540.3225204909083;DB-Klemmkette abzustimmen
+Unten_Rolle_3_Achse;P12-018;42CrMo4+QT;Drehen/Schleifen/Gewindeschneiden;MZ;STEP/P12-018_MZ.step;False;14993.250939257283;"Gewindesteigung, Freistich und Sicherung fehlen; Mutter noch nicht modelliert"
+Unten_Rolle_3_Anlauf_A;P12-022;42CrMo4+QT;Drehen/Stirnschleifen;MZ;STEP/P12-022_MZ.step;False;1061.606989501064;Innenring-Klemmkette noch abstimmen
+Unten_Rolle_3_Anlauf_B;P12-022;42CrMo4+QT;Drehen/Stirnschleifen;MZ;STEP/P12-022_MZ.step;False;1061.606989501064;Innenring-Klemmkette noch abstimmen
+Unten_Rolle_3_Gabel_A;P12-019;EN AW-7075 T6;Fräsen/Bohren;MZ;STEP/P12-019_MZ.step;False;35943.073625988625;Feste Einbaulage, Distanzblech-Justage noch auszulegen
+Unten_Rolle_3_Gabel_B;P12-019;EN AW-7075 T6;Fräsen/Bohren;MZ;STEP/P12-019_MZ.step;False;35943.073625988625;Feste Einbaulage, Distanzblech-Justage noch auszulegen
+Unten_Rolle_3_Steg;P12-020;EN AW-7075 T6;Fräsen/Kernbohren/Gewinde;MZ;STEP/P12-020_MZ.step;False;38982.186096961625;Schraubenlängen und Distanzblech-Justage offen
+Unten_Fluegel_1;REF-FLUEGEL;Profilreferenz;Nicht fertigen;MZ;;True;710689.1395277178;Kein Laminat, keine Pitchwelle/-lager und keine finalisierte aerodynamische Auslegung
+Unten_Fluegel_2;REF-FLUEGEL;Profilreferenz;Nicht fertigen;MZ;;True;710689.1395277177;Kein Laminat, keine Pitchwelle/-lager und keine finalisierte aerodynamische Auslegung
+Unten_Fluegel_3;REF-FLUEGEL;Profilreferenz;Nicht fertigen;MZ;;True;710689.1395277178;Kein Laminat, keine Pitchwelle/-lager und keine finalisierte aerodynamische Auslegung
+Unten_Fluegel_4;REF-FLUEGEL;Profilreferenz;Nicht fertigen;MZ;;True;710689.1395277177;Kein Laminat, keine Pitchwelle/-lager und keine finalisierte aerodynamische Auslegung
+Unten_Fluegel_5;REF-FLUEGEL;Profilreferenz;Nicht fertigen;MZ;;True;710689.1395277178;Kein Laminat, keine Pitchwelle/-lager und keine finalisierte aerodynamische Auslegung
+Unten_Fluegel_6;REF-FLUEGEL;Profilreferenz;Nicht fertigen;MZ;;True;710689.1395277183;Kein Laminat, keine Pitchwelle/-lager und keine finalisierte aerodynamische Auslegung
+Unten_Fluegel_7;REF-FLUEGEL;Profilreferenz;Nicht fertigen;MZ;;True;710689.139527718;Kein Laminat, keine Pitchwelle/-lager und keine finalisierte aerodynamische Auslegung
+Unten_Fluegel_8;REF-FLUEGEL;Profilreferenz;Nicht fertigen;MZ;;True;710689.1395277178;Kein Laminat, keine Pitchwelle/-lager und keine finalisierte aerodynamische Auslegung
+Pfosten_-870_-100;P12-006;EN AW-6082 T6;Rohrzuschnitt/Planen;NOMINAL;STEP/P12-006.step;False;591360.0;Schweißnaht und Wärmeeinflusszone offen
+Pfosten_Flansch_A_-870_-100;P12-007;EN AW-6082 T6;Fräsen/Bohren/Schweißen;NOMINAL;STEP/P12-007.step;False;78226.63377890163;Nahtbemessung offen
+Pfosten_Flansch_B_-870_-100;P12-007;EN AW-6082 T6;Fräsen/Bohren/Schweißen;NOMINAL;STEP/P12-007.step;False;78226.63377890163;Nahtbemessung offen
+Pfosten_Sattel_A_-870_-100;P12-021;EN AW-6082 T6;Fräsen/Bohren;NOMINAL;STEP/P12-021.step;False;78226.63377890163;Klemmkraft und Formschluss offen
+Pfosten_Sattel_B_-870_-100;P12-021;EN AW-6082 T6;Fräsen/Bohren;NOMINAL;STEP/P12-021.step;False;78226.63377890163;Klemmkraft und Formschluss offen
+Pfosten_-870_100;P12-006;EN AW-6082 T6;Rohrzuschnitt/Planen;NOMINAL;STEP/P12-006.step;False;591360.0;Schweißnaht und Wärmeeinflusszone offen
+Pfosten_Flansch_A_-870_100;P12-007;EN AW-6082 T6;Fräsen/Bohren/Schweißen;NOMINAL;STEP/P12-007.step;False;78226.63377890163;Nahtbemessung offen
+Pfosten_Flansch_B_-870_100;P12-007;EN AW-6082 T6;Fräsen/Bohren/Schweißen;NOMINAL;STEP/P12-007.step;False;78226.63377890163;Nahtbemessung offen
+Pfosten_Sattel_A_-870_100;P12-021;EN AW-6082 T6;Fräsen/Bohren;NOMINAL;STEP/P12-021.step;False;78226.63377890163;Klemmkraft und Formschluss offen
+Pfosten_Sattel_B_-870_100;P12-021;EN AW-6082 T6;Fräsen/Bohren;NOMINAL;STEP/P12-021.step;False;78226.63377890163;Klemmkraft und Formschluss offen
+Pfosten_870_-100;P12-006;EN AW-6082 T6;Rohrzuschnitt/Planen;NOMINAL;STEP/P12-006.step;False;591360.0;Schweißnaht und Wärmeeinflusszone offen
+Pfosten_Flansch_A_870_-100;P12-007;EN AW-6082 T6;Fräsen/Bohren/Schweißen;NOMINAL;STEP/P12-007.step;False;78226.63377890163;Nahtbemessung offen
+Pfosten_Flansch_B_870_-100;P12-007;EN AW-6082 T6;Fräsen/Bohren/Schweißen;NOMINAL;STEP/P12-007.step;False;78226.63377890163;Nahtbemessung offen
+Pfosten_Sattel_A_870_-100;P12-021;EN AW-6082 T6;Fräsen/Bohren;NOMINAL;STEP/P12-021.step;False;78226.63377890163;Klemmkraft und Formschluss offen
+Pfosten_Sattel_B_870_-100;P12-021;EN AW-6082 T6;Fräsen/Bohren;NOMINAL;STEP/P12-021.step;False;78226.63377890163;Klemmkraft und Formschluss offen
+Pfosten_870_100;P12-006;EN AW-6082 T6;Rohrzuschnitt/Planen;NOMINAL;STEP/P12-006.step;False;591360.0;Schweißnaht und Wärmeeinflusszone offen
+Pfosten_Flansch_A_870_100;P12-007;EN AW-6082 T6;Fräsen/Bohren/Schweißen;NOMINAL;STEP/P12-007.step;False;78226.63377890163;Nahtbemessung offen
+Pfosten_Flansch_B_870_100;P12-007;EN AW-6082 T6;Fräsen/Bohren/Schweißen;NOMINAL;STEP/P12-007.step;False;78226.63377890163;Nahtbemessung offen
+Pfosten_Sattel_A_870_100;P12-021;EN AW-6082 T6;Fräsen/Bohren;NOMINAL;STEP/P12-021.step;False;78226.63377890163;Klemmkraft und Formschluss offen
+Pfosten_Sattel_B_870_100;P12-021;EN AW-6082 T6;Fräsen/Bohren;NOMINAL;STEP/P12-021.step;False;78226.63377890163;Klemmkraft und Formschluss offen
+Mittelquertraeger;P12-012;EN AW-6082 T6;Rohrzuschnitt/Bohren;NOMINAL;STEP/P12-012.step;False;2518631.522240097;Lastpfad und Endnähte offen
+Seitenriegel_-870;P12-023;EN AW-6082 T6;Rohrzuschnitt/Schweißen;NOMINAL;STEP/P12-023.step;False;125440.00000000009;Schweißnahtnachweis offen
+Seitenriegel_870;P12-023;EN AW-6082 T6;Rohrzuschnitt/Schweißen;NOMINAL;STEP/P12-023.step;False;125440.00000000009;Schweißnahtnachweis offen
+Guiderahmen;P12-024;EN AW-6082 T6;Fräsen/Schweißen;NOMINAL;STEP/P12-024.step;False;1910088.3333825916;Baugröße und Rahmensteifigkeit überprüfen
+Guide_Radialsteg_0;P12-025;EN AW-6082 T6;Fräsen/Schweißen;NOMINAL;STEP/P12-025.step;False;42951.33810932124;Schweißanschluss und Ausrichtung offen
+Guide_Aussenpfosten_0;P12-026;EN AW-6082 T6;Rohrzuschnitt/Querbohren;NOMINAL;STEP/P12-026.step;False;149689.21779207702;Schraubenauflagen und radiale Justage offen
+Guide_Radialsteg_1;P12-025;EN AW-6082 T6;Fräsen/Schweißen;NOMINAL;STEP/P12-025.step;False;42951.33810932122;Schweißanschluss und Ausrichtung offen
+Guide_Aussenpfosten_1;P12-026;EN AW-6082 T6;Rohrzuschnitt/Querbohren;NOMINAL;STEP/P12-026.step;False;149689.21779207696;Schraubenauflagen und radiale Justage offen
+Guide_Radialsteg_2;P12-025;EN AW-6082 T6;Fräsen/Schweißen;NOMINAL;STEP/P12-025.step;False;42951.33810932121;Schweißanschluss und Ausrichtung offen
+Guide_Aussenpfosten_2;P12-026;EN AW-6082 T6;Rohrzuschnitt/Querbohren;NOMINAL;STEP/P12-026.step;False;149689.21779207705;Schraubenauflagen und radiale Justage offen
+Guiderahmen_Anschluss_-1_-1;P12-027;EN AW-6082 T6;Fräsen/Schweißen;X-1_Y-1;STEP/P12-027_X-1_Y-1.step;False;33123.23219798684;Nahtbemessung offen
+Guiderahmen_Anschluss_-1_1;P12-027;EN AW-6082 T6;Fräsen/Schweißen;X-1_Y1;STEP/P12-027_X-1_Y1.step;False;33123.23219798684;Nahtbemessung offen
+Guiderahmen_Anschluss_1_-1;P12-027;EN AW-6082 T6;Fräsen/Schweißen;X1_Y-1;STEP/P12-027_X1_Y-1.step;False;33123.23219798684;Nahtbemessung offen
+Guiderahmen_Anschluss_1_1;P12-027;EN AW-6082 T6;Fräsen/Schweißen;X1_Y1;STEP/P12-027_X1_Y1.step;False;33123.23219798684;Nahtbemessung offen
+Mitteltraeger_Huelse_-45_-32;P12-013;EN AW-6082 T6;Drehen;NOMINAL;STEP/P12-013.step;False;3944.2695765819863;Auf reale Rohrwand abstimmen
+Mitteltraeger_Huelse_-45_32;P12-013;EN AW-6082 T6;Drehen;NOMINAL;STEP/P12-013.step;False;3944.2695765819863;Auf reale Rohrwand abstimmen
+Mitteltraeger_Huelse_45_-32;P12-013;EN AW-6082 T6;Drehen;NOMINAL;STEP/P12-013.step;False;3944.2695765819863;Auf reale Rohrwand abstimmen
+Mitteltraeger_Huelse_45_32;P12-013;EN AW-6082 T6;Drehen;NOMINAL;STEP/P12-013.step;False;3944.269576581984;Auf reale Rohrwand abstimmen

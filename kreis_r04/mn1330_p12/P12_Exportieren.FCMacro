@@ -1,0 +1,15 @@
+# Export the current native spreadsheet state, not stale JSON defaults.
+import sys
+from pathlib import Path
+import FreeCAD as App
+folder=Path(__file__).resolve().parent
+if str(folder) not in sys.path:sys.path.insert(0,str(folder))
+from erstellen import export
+from parametrik import Model
+model=App.ActiveDocument.getObject('P12_Modell')
+if model is None:raise RuntimeError('Zuerst P12_oeffnen.FCMacro ausführen.')
+if not isinstance(model.Proxy,Model):Model(model)
+model.touch();App.ActiveDocument.recompute()
+report=export(App.ActiveDocument,Path(App.ActiveDocument.FileName).parent)
+App.Console.PrintMessage(str(report)+'\n')
+if report['overlaps']:App.Console.PrintError('Volumenkollisionen vorhanden: Pruefung.json lesen. Keine Fertigungsfreigabe.\n')

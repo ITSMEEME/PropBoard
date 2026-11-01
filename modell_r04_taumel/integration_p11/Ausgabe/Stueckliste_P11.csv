@@ -11,7 +11,7 @@ TM-TAUMEL-GLEITKUGEL,2,10.04,0,
 TM-TAUMEL-INNENRING,2,15.46,0,
 LAGER-6809,2,64.0,0,
 FUEHRUNGSSTIFT-D3,2,1.0,0,
-P11-HALTEPLATTE,2,79.7217627457672,0,Alter Motorhalter entfernt; drei Statorarme und Stuetzpfosten; vorhandene Servo-/Rollentraeger-Lochbilder erhalten.
+P11-HALTEPLATTE,2,83.98417288088156,0,Alter Motorhalter entfernt; drei Statorarme und Stuetzpfosten; vorhandene Servo-/Rollentraeger-Lochbilder erhalten.
 TM-KLEMMRING,2,1.24,0,
 SERVO-SAVOX-SB2270SGP,6,54.0,0,
 H07,1,47.18855,0,
@@ -30,7 +30,7 @@ M3x40,4,8.87816,0,
 ISO4762-M3x80,4,19.72238103781039,0,
 M2x35,2,1.7263,0,
 M3x12,4,2.66344,0,
-ISO4032-M3,60,20.18152781596665,4,
+ISO4032-M3,64,21.623065517107126,4,Dritte feste Rollenaufnahme an neuer Halteplattenbruecke.
 P08_horn,6,0,6,
 P08_ball_low,6,0,6,
 P08_ball_high,6,0,6,
@@ -60,8 +60,8 @@ P09_Axialscheibe,16,0,16,
 P09_Gewindeeinsatz,16,0,16,
 P09_Klebefuge,16,0,16,
 P09_M2x4_Traeger,16,0,16,
-ISO7089-M3,94,11.231588006461545,0,"Stator an 13-mm-Pfosten; 3.5mm angenommener Gewindeeingriff, Anschluss am zukuenftigen Motor bestaetigen."
-ISO4762-M3x12,32,37.0363328914745,0,
+ISO7089-M3,102,12.187467836798698,0,"Stator an 13-mm-Pfosten; 3.5mm angenommener Gewindeeingriff, Anschluss am zukuenftigen Motor bestaetigen."
+ISO4762-M3x12,36,41.66587450290882,0,Dritte feste Rollenaufnahme an neuer Halteplattenbruecke.
 P10-SERVOHALTER,6,24.59003330919999,0,
 ISO4762-M3x10,24,25.113807416892456,0,
 P10-GEWINDEEINSATZ-M3,8,1.2655906004986484,0,
@@ -89,11 +89,11 @@ P10-KABEL-ANT,1,0.05860997790676064,0,
 P11-LAUFBAHN-STAHL,2,40.9736064322846,0,"Austauschbare glatte Innenlaufbahn; Schulter z15.1, Klebe-/Pressverbindung noch auszulegen."
 P11-MOTORROTOR-BAURAUM,2,160.0,0,"80g Budgetannahme, kein ausgewaehlter Motor; starr mit Rotortraeger gekoppelt 1:1."
 P11-STATOR-BAURAUM,2,400.0,0,"200g Budgetannahme; innerer Durchgang fuer Mittelrohr/Gestaenge, kein EMAX-Geometriemodell."
-P11-FUEHRUNGSROLLE-POM,4,7.328649379909813,0,"D19.1, zwei MR85, kein Antriebsmoment; Ringkontakt mit einstellbarer Betriebsluft."
-MR85ZZ,8,4.8,0,Massereferenz 0.6g; Wälzkoerper/Innenaufbau nicht animiert. Aussenring-Tragfaehigkeit und 20k/min pruefen.
-P11-ROLLENTRAEGER,4,38.81397844055887,0,"Wiederverwendetes M3-Lochbild, exzentrische D5-Aufnahme und radiale M3-Klemmschraube."
-P11-EXZENTERBOLZEN-D5,4,13.05086703339579,0,"Exzentrizitaet 0.25 mm, Einstellwinkel36.87 Grad; obere Stammachse r54.6, Journal r54.8/t0.15."
-P11-M3-GEWINDESTIFT,4,0.7768373234164164,0,"Sichert Exzenter; Gewinde, Anzugsmoment und Sicherung noch nicht freigegeben."
-P11-DISTANZ-D5,4,0.5208509292239585,0,"Auf Journal zentriert, stuetzt die Lagerinnenringe gegen den Traeger."
+P11-FUEHRUNGSROLLE-POM,6,10.99297406986472,0,"D19.1, zwei MR85, kein Antriebsmoment; Ringkontakt mit einstellbarer Betriebsluft."
+MR85ZZ,12,7.199999999999998,0,Massereferenz 0.6g; Wälzkoerper/Innenaufbau nicht animiert. Aussenring-Tragfaehigkeit und 20k/min pruefen.
+P11-ROLLENTRAEGER,6,58.22089222817682,0,"Wiederverwendetes M3-Lochbild, exzentrische D5-Aufnahme und radiale M3-Klemmschraube."
+P11-EXZENTERBOLZEN-D5,6,19.576300550093684,0,"Exzentrizitaet 0.25 mm, Einstellwinkel36.87 Grad; obere Stammachse r54.6, Journal r54.8/t0.15."
+P11-M3-GEWINDESTIFT,6,1.1652559851246245,0,"Sichert Exzenter; Gewinde, Anzugsmoment und Sicherung noch nicht freigegeben."
+P11-DISTANZ-D5,6,0.7812763938359377,0,"Auf Journal zentriert, stuetzt die Lagerinnenringe gegen den Traeger."
 ISO4762-M3x20,6,9.607754668864898,0,"Stator an 13-mm-Pfosten; 3.5mm angenommener Gewindeeingriff, Anschluss am zukuenftigen Motor bestaetigen."
 P11-KABEL-20AWG,6,10.104079405634174,0,"Drei Phasen zum Ringstator; 20AWG nur Geometriestand, fuer neuen Motor elektrisch neu auszulegen."

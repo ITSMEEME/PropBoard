@@ -1,0 +1,65 @@
+name: propboard-local-cfd
+services:
+  manager:
+    image: propboard-cfd-manager:local
+    build:
+      context: .
+      dockerfile: Dockerfile.manager
+      args:
+        CFD_REQ_SHA: ${CFD_REQ_SHA:-unspecified}
+    user: "${LOCAL_UID:-1000}:${LOCAL_GID:-1000}"
+    working_dir: /project
+    environment:
+      CFD_WORKDIR: /work/${CFD_PROFILE:-fullscale}
+      CFD_INPUT: /work/${CFD_PROFILE:-fullscale}/input.json
+      CFD_PROFILE: ${CFD_PROFILE:-fullscale}
+    volumes:
+      - ./:/project:ro
+      - ./work:/work
+    network_mode: none
+    entrypoint: [python, /project/engine/manage.py]
+    command: [status]
+  solver:
+    image: opencfd/openfoam-default@sha256:1ba02114b1c025c370f2e269a07677c16c9bea8d990fcd75ac8378aff9d41b50
+    platform: linux/amd64
+    user: "${LOCAL_UID:-1000}:${LOCAL_GID:-1000}"
+    working_dir: /work
+    environment:
+      CFD_WORKDIR: /work/${CFD_PROFILE:-fullscale}
+      CFD_STAGE: ${CFD_STAGE:-run}
+      CFD_MPI_RANKS: ${CFD_MPI_RANKS:-2}
+      CFD_JOBS: ${CFD_JOBS:-1}
+      OMPI_MCA_btl: self,vader
+      OMPI_MCA_oob_tcp_if_include: lo
+      OMPI_ALLOW_RUN_AS_ROOT: "1"
+      OMPI_ALLOW_RUN_AS_ROOT_CONFIRM: "1"
+    cpus: ${CFD_CPUS:-4}
+    mem_limit: ${CFD_MEMORY:-12g}
+    shm_size: 1gb
+    volumes:
+      - ./:/project:ro
+      - ./work:/work
+    network_mode: none
+    entrypoint: [/bin/bash, -lc]
+    command: ["bash /project/bin/run_matrix.sh"]
+    stop_grace_period: 120s
+  monitor:
+    image: propboard-cfd-manager:local
+    user: "${LOCAL_UID:-1000}:${LOCAL_GID:-1000}"
+    environment:
+      CFD_WORKDIR: /work/${CFD_PROFILE:-fullscale}
+      CFD_INPUT: /work/${CFD_PROFILE:-fullscale}/input.json
+      CFD_PROFILE: ${CFD_PROFILE:-fullscale}
+    volumes:
+      - ./:/project:ro
+      - ./work:/work
+    network_mode: none
+    entrypoint: [python, /project/engine/manage.py, watch]
+  viewer:
+    image: propboard-cfd-manager:local
+    user: "${LOCAL_UID:-1000}:${LOCAL_GID:-1000}"
+    volumes:
+      - ./work:/work:ro
+    ports:
+      - "127.0.0.1:${CFD_VIEW_PORT:-8766}:8080"
+    entrypoint: [python, -m, http.server, "8080", --bind, 0.0.0.0, --directory, /work]

@@ -1,0 +1,23 @@
+{
+  "revision": "P12_PARAMETRISCH",
+  "manufacturing_release": false,
+  "parts": 170,
+  "types": 30,
+  "all_single_solids_valid": true,
+  "overlaps": [],
+  "battery_excluded": true,
+  "parameter_hash": "22111e996fdc5e3fe6e7ff1c0795fdf2851f4e6dc55b3a58d756dd9a36b24150",
+  "native_sha256": "0ce991229416a59eb4c8c093df748d623fea4476a8479b2ddb0a8bd20b3e784d",
+  "bounding_box_mm": {
+    "x": 1920.0,
+    "y": 1920.0,
+    "z": 812.0
+  },
+  "parameter_count": 153,
+  "native_spreadsheet_expressions": true,
+  "limitations": [
+    "Pitchmechanik und Rotor-Pitchlageranschluss bleiben offen",
+    "Nur neutrale Geometrie, kein vollständiger Bewegungs-/Festigkeitsnachweis",
+    "Kaufteilabmessungen sind Referenzen, keine frei skalierbaren realen Produkte"
+  ]
+}

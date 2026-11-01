@@ -1,0 +1,16 @@
+# syntax=docker/dockerfile:1
+FROM python:3.12-slim-bookworm
+ARG CFD_REQ_SHA=unspecified
+LABEL org.propboard.requirements-sha256=$CFD_REQ_SHA
+COPY requirements.txt /tmp/requirements.txt
+RUN --mount=type=secret,id=proxy_ca,target=/run/proxy-ca.pem \
+    if [ -f /run/proxy-ca.pem ]; then \
+      apt-get -o Acquire::https::CaInfo=/run/proxy-ca.pem update && \
+      apt-get -o Acquire::https::CaInfo=/run/proxy-ca.pem install -y --no-install-recommends libstdc++6 && \
+      PIP_CERT=/run/proxy-ca.pem pip install --no-cache-dir -r /tmp/requirements.txt; \
+    else \
+      apt-get update && apt-get install -y --no-install-recommends libstdc++6 && \
+      pip install --no-cache-dir -r /tmp/requirements.txt; \
+    fi && rm -rf /var/lib/apt/lists/*
+ENV MPLCONFIGDIR=/tmp/matplotlib PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1
+WORKDIR /project

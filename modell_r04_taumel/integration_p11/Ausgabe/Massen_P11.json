@@ -1,6 +1,6 @@
 {
   "revision": "P11",
-  "source_native_sha256": "2e054218924e66d44c9978a21652d463c3b1008e729cb23b618715a9c5a29e42",
+  "source_native_sha256": "1216d65b9ec64293984fddf1e8688ec99e189ca6dea9368275426f6208cae0c1",
   "base_revision": "P10",
   "base_native_sha256": "03aa745fb3b31680ded3f6d905f568158bf7edc72c223465184b849416a360b7",
   "remove_components": [
@@ -2447,27 +2447,27 @@
       "part_id": "P11-HALTEPLATTE",
       "group": "body",
       "frame": "fixed",
-      "mass_kg": 0.03986088137288359,
+      "mass_kg": 0.04199208644044078,
       "cg_m": [
-        -0.004424577314631348,
-        0.0013936633367257548,
-        0.07561705393373586
+        -0.0019473283964416756,
+        2.2339985159539952e-05,
+        0.07558573687897606
       ],
       "inertia_cg_kgm2": [
         [
-          7.692392144994065e-05,
-          -1.964148461321853e-06,
-          -1.5913748791525097e-07
+          7.853840910647191e-05,
+          7.57997910792003e-07,
+          -9.820629652614692e-08
         ],
         [
-          -1.964148461321853e-06,
-          7.457321743493157e-05,
-          -4.19407812552318e-08
+          7.57997910792003e-07,
+          7.959296990785446e-05,
+          -7.567028053047353e-08
         ],
         [
-          -1.5913748791525097e-07,
-          -4.19407812552318e-08,
-          0.0001505722545819177
+          -9.820629652614692e-08,
+          -7.567028053047353e-08,
+          0.00015719927092965546
         ]
       ],
       "material": "PETG, effektiver Fuellgrad 0.5",
@@ -2908,6 +2908,471 @@
       "note": "Auf Journal zentriert, stuetzt die Lagerinnenringe gegen den Traeger."
     },
     {
+      "name": "P11_Fuehrungsrolle_Oben_2",
+      "part_id": "P11-FUEHRUNGSROLLE-POM",
+      "group": "body",
+      "frame": "roller:0:2",
+      "mass_kg": 0.0018321623449774535,
+      "cg_m": [
+        0.04753319212738722,
+        -0.02727009618943236,
+        0.04815
+      ],
+      "inertia_cg_kgm2": [
+        [
+          5.372167185815946e-08,
+          -3.535947024807404e-24,
+          3.842153262212379e-23
+        ],
+        [
+          -3.535947024807404e-24,
+          5.372167185815848e-08,
+          -1.1249918409599375e-23
+        ],
+        [
+          3.842153262212379e-23,
+          -1.1249918409599375e-23,
+          9.82061918937232e-08
+        ]
+      ],
+      "material": "POM-C, 1410 kg/m3",
+      "note": "D19.1, zwei MR85, kein Antriebsmoment; Ringkontakt mit einstellbarer Betriebsluft."
+    },
+    {
+      "name": "P11_MR85_Oben_2_0",
+      "part_id": "MR85ZZ",
+      "group": "body",
+      "frame": "fixed",
+      "mass_kg": 0.0006,
+      "cg_m": [
+        0.047533192127387214,
+        -0.02727009618943236,
+        0.04664999999999999
+      ],
+      "inertia_cg_kgm2": [
+        [
+          3.6499999999999446e-09,
+          0.0,
+          -5.700945821658613e-23
+        ],
+        [
+          0.0,
+          3.6500000000004008e-09,
+          5.700945821658613e-23
+        ],
+        [
+          -5.700945821658613e-23,
+          5.700945821658613e-23,
+          6.675000000000581e-09
+        ]
+      ],
+      "material": "Kaufteil-Nennmass 5x8x2.5",
+      "note": "Massereferenz 0.6g; Wälzkoerper/Innenaufbau nicht animiert. Aussenring-Tragfaehigkeit und 20k/min pruefen."
+    },
+    {
+      "name": "P11_MR85_Oben_2_1",
+      "part_id": "MR85ZZ",
+      "group": "body",
+      "frame": "fixed",
+      "mass_kg": 0.0006,
+      "cg_m": [
+        0.04753319212738722,
+        -0.027270096189432366,
+        0.04915
+      ],
+      "inertia_cg_kgm2": [
+        [
+          3.6499999999998325e-09,
+          -2.280378328663446e-22,
+          0.0
+        ],
+        [
+          -2.280378328663446e-22,
+          3.6499999999999462e-09,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          6.675000000000356e-09
+        ]
+      ],
+      "material": "Kaufteil-Nennmass 5x8x2.5",
+      "note": "Massereferenz 0.6g; Wälzkoerper/Innenaufbau nicht animiert. Aussenring-Tragfaehigkeit und 20k/min pruefen."
+    },
+    {
+      "name": "P11_Rollentraeger_Oben_2",
+      "part_id": "P11-ROLLENTRAEGER",
+      "group": "body",
+      "frame": "fixed",
+      "mass_kg": 0.009703456893808976,
+      "cg_m": [
+        0.0474532732549714,
+        -0.027397158595081326,
+        0.06628087289788717
+      ],
+      "inertia_cg_kgm2": [
+        [
+          6.941397775627663e-07,
+          5.979528592012076e-09,
+          2.487654049180448e-10
+        ],
+        [
+          5.979528592012076e-09,
+          7.010444027851905e-07,
+          -1.4356614798204974e-10
+        ],
+        [
+          2.487654049180448e-10,
+          -1.4356614798204974e-10,
+          5.723075077895673e-07
+        ]
+      ],
+      "material": "Aluminium EN AW-6082, 2700 kg/m3",
+      "note": "Wiederverwendetes M3-Lochbild, exzentrische D5-Aufnahme und radiale M3-Klemmschraube."
+    },
+    {
+      "name": "P11_Exzenterbolzen_Oben_2",
+      "part_id": "P11-EXZENTERBOLZEN-D5",
+      "group": "body",
+      "frame": "fixed",
+      "mass_kg": 0.003262716758348948,
+      "cg_m": [
+        0.047374898070782066,
+        -0.02728916749719235,
+        0.05444444444444444
+      ],
+      "inertia_cg_kgm2": [
+        [
+          1.254695546994268e-07,
+          -5.59464833124075e-12,
+          1.9654502210816282e-09
+        ],
+        [
+          -5.59464833124075e-12,
+          1.255153168819574e-07,
+          2.367979370602174e-10
+        ],
+        [
+          1.9654502210816282e-09,
+          2.367979370602174e-10,
+          1.0968148310173395e-08
+        ]
+      ],
+      "material": "Stahl, 7850 kg/m3",
+      "note": "Exzentrizitaet 0.25 mm, Einstellwinkel36.87 Grad; obere Stammachse r54.6, Journal r54.8/t0.15."
+    },
+    {
+      "name": "P11_Klemmschraube_Oben_2",
+      "part_id": "P11-M3-GEWINDESTIFT",
+      "group": "body",
+      "frame": "fixed",
+      "mass_kg": 0.00019420933085410405,
+      "cg_m": [
+        0.0507923899319573,
+        -0.02932500000000003,
+        0.062
+      ],
+      "inertia_cg_kgm2": [
+        [
+          2.4073864970444844e-10,
+          3.8543590747666533e-11,
+          0.0
+        ],
+        [
+          3.8543590747666533e-11,
+          2.8524495469206737e-10,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0749810718576264e-10
+        ]
+      ],
+      "material": "Stahl, nominales Gewindemass",
+      "note": "Sichert Exzenter; Gewinde, Anzugsmoment und Sicherung noch nicht freigegeben."
+    },
+    {
+      "name": "P11_Distanz_Oben_2",
+      "part_id": "P11-DISTANZ-D5",
+      "group": "body",
+      "frame": "fixed",
+      "mass_kg": 0.00013021273230598963,
+      "cg_m": [
+        0.04753319212738724,
+        -0.027270096189432363,
+        0.05095
+      ],
+      "inertia_cg_kgm2": [
+        [
+          6.095040978022547e-10,
+          -5.71162672713399e-23,
+          2.855813363566995e-23
+        ],
+        [
+          -5.71162672713399e-23,
+          6.095040978021119e-10,
+          -1.4279066817834975e-23
+        ],
+        [
+          2.855813363566995e-23,
+          -1.4279066817834975e-23,
+          1.192748627922676e-09
+        ]
+      ],
+      "material": "Stahl",
+      "note": "Auf Journal zentriert, stuetzt die Lagerinnenringe gegen den Traeger."
+    },
+    {
+      "name": "P11_Traegerbefestigung_Oben_0",
+      "part_id": "ISO7089-M3",
+      "group": "body",
+      "frame": "fixed",
+      "mass_kg": 0.00011948497879214404,
+      "cg_m": [
+        0.04245819212738721,
+        -0.03606025403784441,
+        0.07725
+      ],
+      "inertia_cg_kgm2": [
+        [
+          4.448824043694231e-10,
+          -2.4444998858019907e-25,
+          8.36664071357518e-26
+        ],
+        [
+          -2.4444998858019907e-25,
+          4.448824043694128e-10,
+          -2.8235385450285506e-26
+        ],
+        [
+          8.36664071357518e-26,
+          -2.8235385450285506e-26,
+          8.847862679558296e-10
+        ]
+      ],
+      "material": "Stahl",
+      "note": "Dritte feste Rollenaufnahme an neuer Halteplattenbruecke."
+    },
+    {
+      "name": "P11_Traegerbefestigung_Oben_1",
+      "part_id": "ISO4762-M3x12",
+      "group": "body",
+      "frame": "fixed",
+      "mass_kg": 0.001157385402858578,
+      "cg_m": [
+        0.04245819212738721,
+        -0.03606025403784441,
+        0.07464402462183406
+      ],
+      "inertia_cg_kgm2": [
+        [
+          2.5258824942426534e-08,
+          8.811866798102039e-25,
+          2.5214154646039776e-24
+        ],
+        [
+          8.811866798102039e-25,
+          2.525882494242652e-08,
+          8.252521080517288e-25
+        ],
+        [
+          2.5214154646039776e-24,
+          8.252521080517288e-25,
+          2.8057191152921945e-09
+        ]
+      ],
+      "material": "Stahl",
+      "note": "Dritte feste Rollenaufnahme an neuer Halteplattenbruecke."
+    },
+    {
+      "name": "P11_Traegerbefestigung_Oben_2",
+      "part_id": "ISO7089-M3",
+      "group": "body",
+      "frame": "fixed",
+      "mass_kg": 0.00011948497879214401,
+      "cg_m": [
+        0.04245819212738721,
+        -0.03606025403784441,
+        0.06975
+      ],
+      "inertia_cg_kgm2": [
+        [
+          4.448824043694231e-10,
+          2.8812927425404975e-25,
+          -1.6994738949449585e-26
+        ],
+        [
+          2.8812927425404975e-25,
+          4.448824043694146e-10,
+          2.695329574162908e-26
+        ],
+        [
+          -1.6994738949449585e-26,
+          2.695329574162908e-26,
+          8.847862679558314e-10
+        ]
+      ],
+      "material": "Stahl",
+      "note": "Dritte feste Rollenaufnahme an neuer Halteplattenbruecke."
+    },
+    {
+      "name": "P11_Traegerbefestigung_Oben_3",
+      "part_id": "ISO4032-M3",
+      "group": "body",
+      "frame": "fixed",
+      "mass_kg": 0.00036038442528511853,
+      "cg_m": [
+        0.04245819212738721,
+        -0.03606025403784441,
+        0.0683
+      ],
+      "inertia_cg_kgm2": [
+        [
+          1.1348866879318193e-09,
+          4.609005885281015e-25,
+          1.3125167619421033e-25
+        ],
+        [
+          4.609005885281015e-25,
+          1.1348866879318199e-09,
+          7.759623499303814e-25
+        ],
+        [
+          1.3125167619421033e-25,
+          7.759623499303814e-25,
+          1.9238043275899232e-09
+        ]
+      ],
+      "material": "Stahl",
+      "note": "Dritte feste Rollenaufnahme an neuer Halteplattenbruecke."
+    },
+    {
+      "name": "P11_Traegerbefestigung_Oben_4",
+      "part_id": "ISO7089-M3",
+      "group": "body",
+      "frame": "fixed",
+      "mass_kg": 0.00011948497879214407,
+      "cg_m": [
+        0.052458192127387226,
+        -0.018739745962155635,
+        0.07725
+      ],
+      "inertia_cg_kgm2": [
+        [
+          4.4488240436942345e-10,
+          2.3457153951423004e-25,
+          -9.281742041622466e-26
+        ],
+        [
+          2.3457153951423004e-25,
+          4.448824043694161e-10,
+          2.751174674590425e-26
+        ],
+        [
+          -9.281742041622466e-26,
+          2.751174674590425e-26,
+          8.847862679558331e-10
+        ]
+      ],
+      "material": "Stahl",
+      "note": "Dritte feste Rollenaufnahme an neuer Halteplattenbruecke."
+    },
+    {
+      "name": "P11_Traegerbefestigung_Oben_5",
+      "part_id": "ISO4762-M3x12",
+      "group": "body",
+      "frame": "fixed",
+      "mass_kg": 0.0011573854028585778,
+      "cg_m": [
+        0.052458192127387226,
+        -0.01873974596215564,
+        0.07464402462183406
+      ],
+      "inertia_cg_kgm2": [
+        [
+          2.5258824942426537e-08,
+          -3.1870654557115826e-25,
+          2.7053277892892813e-24
+        ],
+        [
+          -3.1870654557115826e-25,
+          2.525882494242651e-08,
+          -6.173057513999132e-25
+        ],
+        [
+          2.7053277892892813e-24,
+          -6.173057513999132e-25,
+          2.805719115292193e-09
+        ]
+      ],
+      "material": "Stahl",
+      "note": "Dritte feste Rollenaufnahme an neuer Halteplattenbruecke."
+    },
+    {
+      "name": "P11_Traegerbefestigung_Oben_6",
+      "part_id": "ISO7089-M3",
+      "group": "body",
+      "frame": "fixed",
+      "mass_kg": 0.00011948497879214404,
+      "cg_m": [
+        0.052458192127387226,
+        -0.01873974596215564,
+        0.06975
+      ],
+      "inertia_cg_kgm2": [
+        [
+          4.4488240436942355e-10,
+          -2.359619183431935e-25,
+          -1.6994738949449582e-26
+        ],
+        [
+          -2.359619183431935e-25,
+          4.4488240436941456e-10,
+          -2.7747041624656696e-26
+        ],
+        [
+          -1.6994738949449582e-26,
+          -2.7747041624656696e-26,
+          8.847862679558318e-10
+        ]
+      ],
+      "material": "Stahl",
+      "note": "Dritte feste Rollenaufnahme an neuer Halteplattenbruecke."
+    },
+    {
+      "name": "P11_Traegerbefestigung_Oben_7",
+      "part_id": "ISO4032-M3",
+      "group": "body",
+      "frame": "fixed",
+      "mass_kg": 0.0003603844252851184,
+      "cg_m": [
+        0.052458192127387226,
+        -0.01873974596215564,
+        0.0683
+      ],
+      "inertia_cg_kgm2": [
+        [
+          1.1348866879318184e-09,
+          6.26245236223788e-25,
+          6.254935458471777e-25
+        ],
+        [
+          6.26245236223788e-25,
+          1.1348866879318195e-09,
+          1.1308037839441508e-25
+        ],
+        [
+          6.254935458471777e-25,
+          1.1308037839441508e-25,
+          1.9238043275899236e-09
+        ]
+      ],
+      "material": "Stahl",
+      "note": "Dritte feste Rollenaufnahme an neuer Halteplattenbruecke."
+    },
+    {
       "name": "P11_Stator_Schraube_Oben_0",
       "part_id": "ISO4762-M3x20",
       "group": "body",
@@ -3222,27 +3687,27 @@
       "part_id": "P11-HALTEPLATTE",
       "group": "body",
       "frame": "fixed",
-      "mass_kg": 0.03986088137288361,
+      "mass_kg": 0.04199208644044078,
       "cg_m": [
-        0.004424577314631348,
-        0.001393663336725754,
-        -0.07561705393373586
+        0.0019473283964416702,
+        2.2339985159536265e-05,
+        -0.07558573687897609
       ],
       "inertia_cg_kgm2": [
         [
-          7.692392144994065e-05,
-          1.9641484613218385e-06,
-          -1.5913748791524742e-07
+          7.85384091064719e-05,
+          -7.579979107920214e-07,
+          -9.820629652613805e-08
         ],
         [
-          1.9641484613218385e-06,
-          7.457321743493152e-05,
-          4.194078125523357e-08
+          -7.579979107920214e-07,
+          7.959296990785444e-05,
+          7.567028053047086e-08
         ],
         [
-          -1.5913748791524742e-07,
-          4.194078125523357e-08,
-          0.0001505722545819177
+          -9.820629652613805e-08,
+          7.567028053047086e-08,
+          0.00015719927092965546
         ]
       ],
       "material": "PETG, effektiver Fuellgrad 0.5",
@@ -3683,6 +4148,471 @@
       "note": "Auf Journal zentriert, stuetzt die Lagerinnenringe gegen den Traeger."
     },
     {
+      "name": "P11_Fuehrungsrolle_Unten_2",
+      "part_id": "P11-FUEHRUNGSROLLE-POM",
+      "group": "body",
+      "frame": "roller:1:2",
+      "mass_kg": 0.0018321623449774533,
+      "cg_m": [
+        -0.04753319212738722,
+        -0.02727009618943235,
+        -0.048150000000000005
+      ],
+      "inertia_cg_kgm2": [
+        [
+          5.372167185815939e-08,
+          6.755286389679939e-25,
+          2.717659697282213e-23
+        ],
+        [
+          6.755286389679939e-25,
+          5.3721671858158236e-08,
+          -4.6814231231020935e-24
+        ],
+        [
+          2.717659697282213e-23,
+          -4.6814231231020935e-24,
+          9.820619189372322e-08
+        ]
+      ],
+      "material": "POM-C, 1410 kg/m3",
+      "note": "D19.1, zwei MR85, kein Antriebsmoment; Ringkontakt mit einstellbarer Betriebsluft."
+    },
+    {
+      "name": "P11_MR85_Unten_2_0",
+      "part_id": "MR85ZZ",
+      "group": "body",
+      "frame": "fixed",
+      "mass_kg": 0.0006,
+      "cg_m": [
+        -0.047533192127387214,
+        -0.02727009618943236,
+        -0.04664999999999999
+      ],
+      "inertia_cg_kgm2": [
+        [
+          3.6499999999999446e-09,
+          0.0,
+          -5.700945821658613e-23
+        ],
+        [
+          0.0,
+          3.6500000000004008e-09,
+          -5.700945821658613e-23
+        ],
+        [
+          -5.700945821658613e-23,
+          -5.700945821658613e-23,
+          6.675000000000581e-09
+        ]
+      ],
+      "material": "Kaufteil-Nennmass 5x8x2.5",
+      "note": "Massereferenz 0.6g; Wälzkoerper/Innenaufbau nicht animiert. Aussenring-Tragfaehigkeit und 20k/min pruefen."
+    },
+    {
+      "name": "P11_MR85_Unten_2_1",
+      "part_id": "MR85ZZ",
+      "group": "body",
+      "frame": "fixed",
+      "mass_kg": 0.0006,
+      "cg_m": [
+        -0.047533192127387214,
+        -0.02727009618943236,
+        -0.04915
+      ],
+      "inertia_cg_kgm2": [
+        [
+          3.6499999999999446e-09,
+          0.0,
+          1.1401891643317226e-22
+        ],
+        [
+          0.0,
+          3.6499999999997163e-09,
+          5.700945821658613e-23
+        ],
+        [
+          1.1401891643317226e-22,
+          5.700945821658613e-23,
+          6.675000000000126e-09
+        ]
+      ],
+      "material": "Kaufteil-Nennmass 5x8x2.5",
+      "note": "Massereferenz 0.6g; Wälzkoerper/Innenaufbau nicht animiert. Aussenring-Tragfaehigkeit und 20k/min pruefen."
+    },
+    {
+      "name": "P11_Rollentraeger_Unten_2",
+      "part_id": "P11-ROLLENTRAEGER",
+      "group": "body",
+      "frame": "fixed",
+      "mass_kg": 0.009703456893808976,
+      "cg_m": [
+        -0.0474532732549714,
+        -0.027397158595081326,
+        -0.06628087289788717
+      ],
+      "inertia_cg_kgm2": [
+        [
+          6.941397775627738e-07,
+          -5.979528592012076e-09,
+          2.487654049180448e-10
+        ],
+        [
+          -5.979528592012076e-09,
+          7.010444027851955e-07,
+          1.4356614797953514e-10
+        ],
+        [
+          2.487654049180448e-10,
+          1.4356614797953514e-10,
+          5.723075077895621e-07
+        ]
+      ],
+      "material": "Aluminium EN AW-6082, 2700 kg/m3",
+      "note": "Wiederverwendetes M3-Lochbild, exzentrische D5-Aufnahme und radiale M3-Klemmschraube."
+    },
+    {
+      "name": "P11_Exzenterbolzen_Unten_2",
+      "part_id": "P11-EXZENTERBOLZEN-D5",
+      "group": "body",
+      "frame": "fixed",
+      "mass_kg": 0.003262716758348948,
+      "cg_m": [
+        -0.047374898070782066,
+        -0.02728916749719235,
+        -0.05444444444444444
+      ],
+      "inertia_cg_kgm2": [
+        [
+          1.254695546994268e-07,
+          5.59464833124075e-12,
+          1.9654502210816282e-09
+        ],
+        [
+          5.59464833124075e-12,
+          1.255153168819574e-07,
+          -2.367979370602174e-10
+        ],
+        [
+          1.9654502210816282e-09,
+          -2.367979370602174e-10,
+          1.0968148310173395e-08
+        ]
+      ],
+      "material": "Stahl, 7850 kg/m3",
+      "note": "Exzentrizitaet 0.25 mm, Einstellwinkel36.87 Grad; obere Stammachse r54.6, Journal r54.8/t0.15."
+    },
+    {
+      "name": "P11_Klemmschraube_Unten_2",
+      "part_id": "P11-M3-GEWINDESTIFT",
+      "group": "body",
+      "frame": "fixed",
+      "mass_kg": 0.00019420933085410405,
+      "cg_m": [
+        -0.0507923899319573,
+        -0.02932500000000003,
+        -0.062
+      ],
+      "inertia_cg_kgm2": [
+        [
+          2.4073864970444844e-10,
+          -3.8543590747666533e-11,
+          0.0
+        ],
+        [
+          -3.8543590747666533e-11,
+          2.8524495469206737e-10,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.0749810718576264e-10
+        ]
+      ],
+      "material": "Stahl, nominales Gewindemass",
+      "note": "Sichert Exzenter; Gewinde, Anzugsmoment und Sicherung noch nicht freigegeben."
+    },
+    {
+      "name": "P11_Distanz_Unten_2",
+      "part_id": "P11-DISTANZ-D5",
+      "group": "body",
+      "frame": "fixed",
+      "mass_kg": 0.00013021273230598969,
+      "cg_m": [
+        -0.047533192127387214,
+        -0.027270096189432352,
+        -0.05094999999999999
+      ],
+      "inertia_cg_kgm2": [
+        [
+          6.095040978024547e-10,
+          -2.855813363566995e-23,
+          -8.567440090700984e-23
+        ],
+        [
+          -2.855813363566995e-23,
+          6.095040978023975e-10,
+          -5.71162672713399e-23
+        ],
+        [
+          -8.567440090700984e-23,
+          -5.71162672713399e-23,
+          1.1927486279229616e-09
+        ]
+      ],
+      "material": "Stahl",
+      "note": "Auf Journal zentriert, stuetzt die Lagerinnenringe gegen den Traeger."
+    },
+    {
+      "name": "P11_Traegerbefestigung_Unten_0",
+      "part_id": "ISO7089-M3",
+      "group": "body",
+      "frame": "fixed",
+      "mass_kg": 0.00011948497879214404,
+      "cg_m": [
+        -0.04245819212738721,
+        -0.036060254037844394,
+        -0.07725
+      ],
+      "inertia_cg_kgm2": [
+        [
+          4.448824043694231e-10,
+          2.340114521410026e-25,
+          1.2854994846378531e-26
+        ],
+        [
+          2.340114521410026e-25,
+          4.448824043694141e-10,
+          2.8235385450285506e-26
+        ],
+        [
+          1.2854994846378531e-26,
+          2.8235385450285506e-26,
+          8.847862679558309e-10
+        ]
+      ],
+      "material": "Stahl",
+      "note": "Dritte feste Rollenaufnahme an neuer Halteplattenbruecke."
+    },
+    {
+      "name": "P11_Traegerbefestigung_Unten_1",
+      "part_id": "ISO4762-M3x12",
+      "group": "body",
+      "frame": "fixed",
+      "mass_kg": 0.001157385402858578,
+      "cg_m": [
+        -0.042458192127387225,
+        -0.036060254037844394,
+        -0.07464402462183406
+      ],
+      "inertia_cg_kgm2": [
+        [
+          2.525882494242654e-08,
+          6.5538406818896025e-25,
+          2.907785044404853e-24
+        ],
+        [
+          6.5538406818896025e-25,
+          2.525882494242652e-08,
+          2.4592639762236135e-24
+        ],
+        [
+          2.907785044404853e-24,
+          2.4592639762236135e-24,
+          2.8057191152921937e-09
+        ]
+      ],
+      "material": "Stahl",
+      "note": "Dritte feste Rollenaufnahme an neuer Halteplattenbruecke."
+    },
+    {
+      "name": "P11_Traegerbefestigung_Unten_2",
+      "part_id": "ISO7089-M3",
+      "group": "body",
+      "frame": "fixed",
+      "mass_kg": 0.00011948497879214401,
+      "cg_m": [
+        -0.042458192127387225,
+        -0.036060254037844394,
+        -0.06975
+      ],
+      "inertia_cg_kgm2": [
+        [
+          4.44882404369423e-10,
+          -2.38760130603096e-25,
+          -8.453793221008256e-26
+        ],
+        [
+          -2.38760130603096e-25,
+          4.448824043694156e-10,
+          -2.801479650145514e-26
+        ],
+        [
+          -8.453793221008256e-26,
+          -2.801479650145514e-26,
+          8.84786267955832e-10
+        ]
+      ],
+      "material": "Stahl",
+      "note": "Dritte feste Rollenaufnahme an neuer Halteplattenbruecke."
+    },
+    {
+      "name": "P11_Traegerbefestigung_Unten_3",
+      "part_id": "ISO4032-M3",
+      "group": "body",
+      "frame": "fixed",
+      "mass_kg": 0.0003603844252851185,
+      "cg_m": [
+        -0.042458192127387225,
+        -0.036060254037844394,
+        -0.0683
+      ],
+      "inertia_cg_kgm2": [
+        [
+          1.1348866879318195e-09,
+          -4.205789362610179e-25,
+          6.335115765310207e-25
+        ],
+        [
+          -4.205789362610179e-25,
+          1.1348866879318199e-09,
+          -8.3601042755177e-25
+        ],
+        [
+          6.335115765310207e-25,
+          -8.3601042755177e-25,
+          1.9238043275899236e-09
+        ]
+      ],
+      "material": "Stahl",
+      "note": "Dritte feste Rollenaufnahme an neuer Halteplattenbruecke."
+    },
+    {
+      "name": "P11_Traegerbefestigung_Unten_4",
+      "part_id": "ISO7089-M3",
+      "group": "body",
+      "frame": "fixed",
+      "mass_kg": 0.00011948497879214404,
+      "cg_m": [
+        -0.052458192127387226,
+        -0.018739745962155628,
+        -0.07725
+      ],
+      "inertia_cg_kgm2": [
+        [
+          4.4488240436942355e-10,
+          4.963263969044843e-25,
+          8.170547571850761e-26
+        ],
+        [
+          4.963263969044843e-25,
+          4.448824043694127e-10,
+          4.0716334913161355e-26
+        ],
+        [
+          8.170547571850761e-26,
+          4.0716334913161355e-26,
+          8.847862679558303e-10
+        ]
+      ],
+      "material": "Stahl",
+      "note": "Dritte feste Rollenaufnahme an neuer Halteplattenbruecke."
+    },
+    {
+      "name": "P11_Traegerbefestigung_Unten_5",
+      "part_id": "ISO4762-M3x12",
+      "group": "body",
+      "frame": "fixed",
+      "mass_kg": 0.0011573854028585778,
+      "cg_m": [
+        -0.052458192127387226,
+        -0.018739745962155625,
+        -0.07464402462183406
+      ],
+      "inertia_cg_kgm2": [
+        [
+          2.5258824942426537e-08,
+          -4.470432899076699e-25,
+          2.8288760421682386e-24
+        ],
+        [
+          -4.470432899076699e-25,
+          2.525882494242651e-08,
+          -5.009271793346218e-25
+        ],
+        [
+          2.8288760421682386e-24,
+          -5.009271793346218e-25,
+          2.805719115292193e-09
+        ]
+      ],
+      "material": "Stahl",
+      "note": "Dritte feste Rollenaufnahme an neuer Halteplattenbruecke."
+    },
+    {
+      "name": "P11_Traegerbefestigung_Unten_6",
+      "part_id": "ISO7089-M3",
+      "group": "body",
+      "frame": "fixed",
+      "mass_kg": 0.00011948497879214404,
+      "cg_m": [
+        -0.052458192127387226,
+        -0.018739745962155628,
+        -0.06975
+      ],
+      "inertia_cg_kgm2": [
+        [
+          4.448824043694234e-10,
+          7.829141902365167e-26,
+          -1.2854994846378531e-26
+        ],
+        [
+          7.829141902365167e-26,
+          4.448824043694145e-10,
+          7.594890877256386e-27
+        ],
+        [
+          -1.2854994846378531e-26,
+          7.594890877256386e-27,
+          8.847862679558316e-10
+        ]
+      ],
+      "material": "Stahl",
+      "note": "Dritte feste Rollenaufnahme an neuer Halteplattenbruecke."
+    },
+    {
+      "name": "P11_Traegerbefestigung_Unten_7",
+      "part_id": "ISO4032-M3",
+      "group": "body",
+      "frame": "fixed",
+      "mass_kg": 0.0003603844252851185,
+      "cg_m": [
+        -0.052458192127387226,
+        -0.018739745962155628,
+        -0.0683
+      ],
+      "inertia_cg_kgm2": [
+        [
+          1.1348866879318153e-09,
+          -6.306164791747282e-25,
+          8.855566280274727e-25
+        ],
+        [
+          -6.306164791747282e-25,
+          1.1348866879318158e-09,
+          7.490758013872716e-26
+        ],
+        [
+          8.855566280274727e-25,
+          7.490758013872716e-26,
+          1.9238043275899236e-09
+        ]
+      ],
+      "material": "Stahl",
+      "note": "Dritte feste Rollenaufnahme an neuer Halteplattenbruecke."
+    },
+    {
       "name": "P11_Stator_Schraube_Unten_0",
       "part_id": "ISO4762-M3x20",
       "group": "body",
@@ -4060,7 +4990,7 @@
     0.0010955016826369828
   ],
   "guide_rollers": {
-    "count_per_rotor": 2,
+    "count_per_rotor": 3,
     "radius_m": 0.00955,
     "track_radius_m": 0.0644,
     "spin_ratio": 6.743455497382199,
@@ -4112,7 +5042,8 @@
     "roller_journal_tangent_mm": 0.15,
     "roller_azimuths_deg": [
       115,
-      205
+      205,
+      330
     ],
     "eccentric_stem_radial_mm": 54.6,
     "eccentricity_mm": 0.25,
@@ -4144,7 +5075,8 @@
     "guide_insert_z_mm": [
       15.1,
       21.5
-    ]
+    ],
+    "guide_mounting": "3 feste, exzentrisch einstellbare Rollen je Ring; keine Feder; vorhandene Einbaubereiche 115/205/330 Grad"
   },
   "unbudgeted_legacy_removals": [
     "P05_Motorscheibe_Oben_0",

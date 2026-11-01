@@ -5,7 +5,7 @@
 (function(root){'use strict';
 const node=typeof module!=='undefined'&&module.exports;
 const KIN=node?require('./kinematik.json'):root.H01_KINEMATICS;
-const D=Math.PI/180,AZ=[60,180,300].map(v=>v*D),RADIUS=33,CENTRE=54.8,PHI=[330,115,205],RATIO=6.5;
+const D=Math.PI/180,AZ=[60,180,300].map(v=>v*D),RADIUS=33;
 const add=(a,b)=>a.map((v,i)=>v+b[i]),sub=(a,b)=>a.map((v,i)=>v-b[i]),dot=(a,b)=>a[0]*b[0]+a[1]*b[1]+a[2]*b[2],norm=a=>Math.sqrt(dot(a,a));
 const cross=(a,b)=>[a[1]*b[2]-a[2]*b[1],a[2]*b[0]-a[0]*b[2],a[0]*b[1]-a[1]*b[0]];
 const rz=(v,a)=>[Math.cos(a)*v[0]-Math.sin(a)*v[1],Math.sin(a)*v[0]+Math.cos(a)*v[1],v[2]];
@@ -51,12 +51,12 @@ function frames(servos,angles,poses){
    for(const [role,pl] of Object.entries(e))out[`link:${l}:${j}:${role}`]=pmul(world,pl);}
   pitches.push(ps);
   out[`motor:${l}`]=out[`rotor:${l}`];
-  for(let q=0;q<2;q++){const phi=[115,205][q],a=phi*D;out[`roller:${l}:${q}`]=pmul(world,P([54.8*Math.cos(a)-.15*Math.sin(a),54.8*Math.sin(a)+.15*Math.cos(a),0],rotz(rollerSpin(angles[l]))));}
+  for(let q=0;q<3;q++){const phi=[115,205,330][q],a=phi*D;out[`roller:${l}:${q}`]=pmul(world,P([54.8*Math.cos(a)-.15*Math.sin(a),54.8*Math.sin(a)+.15*Math.cos(a),0],rotz(rollerSpin(angles[l]))));}
  }
  out.fixed=P();
  return{frames:out,poses:poseOut,pitches};}
 /** column-major Float32/64 4x4 of a placement */
 function toMat4(pl,o=new Float64Array(16)){const R=pl.R,t=pl.t;o[0]=R[0][0];o[1]=R[1][0];o[2]=R[2][0];o[3]=0;o[4]=R[0][1];o[5]=R[1][1];o[6]=R[2][1];o[7]=0;o[8]=R[0][2];o[9]=R[1][2];o[10]=R[2][2];o[11]=0;o[12]=t[0];o[13]=t[1];o[14]=t[2];o[15]=1;return o;}
-const api={frames,toMat4,pmul,P,rollerSpin,constants:{RADIUS,CENTRE:Math.hypot(54.8,.15),PHI:[115,205],RATIO:1,ROLLER_RATIO:64.4/9.55}};
+const api={frames,toMat4,pmul,P,rollerSpin,constants:{RADIUS,CENTRE:Math.hypot(54.8,.15),PHI:[115,205,330],RATIO:1,ROLLER_RATIO:64.4/9.55}};
 if(node)module.exports=api;else root.H01KinematikP11=api;
 })(globalThis);

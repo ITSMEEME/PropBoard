@@ -1,0 +1,135 @@
+{
+  "passed": true,
+  "tests": [
+    {
+      "test": "valid_parameter_combination",
+      "values": {
+        "rotor_radius": 650
+      },
+      "passed": true
+    },
+    {
+      "test": "valid_parameter_combination",
+      "values": {
+        "level_spacing": 300
+      },
+      "passed": true
+    },
+    {
+      "test": "valid_parameter_combination",
+      "values": {
+        "blade_count": 6,
+        "blade_chord": 140
+      },
+      "passed": true
+    },
+    {
+      "test": "valid_parameter_combination",
+      "values": {
+        "blade_count": 10,
+        "blade_chord": 90
+      },
+      "passed": true
+    },
+    {
+      "test": "valid_parameter_combination",
+      "values": {
+        "blade_taper": 0.75,
+        "blade_twist": -5
+      },
+      "passed": true
+    },
+    {
+      "test": "valid_parameter_combination",
+      "values": {
+        "groove_angle": 100
+      },
+      "passed": true
+    },
+    {
+      "test": "invalid_parameter_combination_rejected",
+      "values": {
+        "rotor_radius": 100
+      },
+      "passed": true
+    },
+    {
+      "test": "invalid_parameter_combination_rejected",
+      "values": {
+        "blade_count": 8.5
+      },
+      "passed": true
+    },
+    {
+      "test": "invalid_parameter_combination_rejected",
+      "values": {
+        "blade_root": 800
+      },
+      "passed": true
+    },
+    {
+      "test": "invalid_parameter_combination_rejected",
+      "values": {
+        "guide_angle_3": 205
+      },
+      "passed": true
+    },
+    {
+      "test": "invalid_parameter_combination_rejected",
+      "values": {
+        "motor_face_offset": 70
+      },
+      "passed": true
+    },
+    {
+      "test": "invalid_parameter_combination_rejected",
+      "values": {
+        "bearing_od": 48
+      },
+      "passed": true
+    },
+    {
+      "test": "invalid_parameter_combination_rejected",
+      "values": {
+        "beam_wall": 40
+      },
+      "passed": true
+    },
+    {
+      "test": "invalid_parameter_combination_rejected",
+      "values": {
+        "stator_head_depth": 12
+      },
+      "passed": true
+    },
+    {
+      "test": "invalid_parameter_combination_rejected",
+      "values": {
+        "groove_angle": 60
+      },
+      "passed": true
+    },
+    {
+      "test": "invalid_parameter_combination_rejected",
+      "values": {
+        "frame_beam_y": 180
+      },
+      "passed": true
+    },
+    {
+      "test": "native_spreadsheet_changes_radius_gap_count_taper_twist_and_all_mating_parts",
+      "passed": true,
+      "parts": 727
+    },
+    {
+      "test": "invalid_native_input_keeps_last_good_geometry_with_explicit_error_status",
+      "passed": true
+    },
+    {
+      "test": "saved_native_variant_restores_proxy_and_remains_editable",
+      "passed": true
+    }
+  ],
+  "parameter_count": 153,
+  "scope": "native model and selected variants, not structural or full motion qualification"
+}

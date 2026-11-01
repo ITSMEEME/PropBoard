@@ -64,6 +64,26 @@ Der erste Test prüft physikalische Parametersensitivitäten, Rastergrenzen, Unv
 
 Der [visuelle Prüfstand](Physik_Pruefstand.html) nutzt dasselbe stationäre Aerodynamikmodell. Schub in kg ist ein Kraftäquivalent, kein Tragfähigkeitsnachweis. Wirkungsgrad = mechanische Rotorleistung / elektrische Gesamtleistung; kg/kW zeigt Schub pro elektrischer Leistung, Wh/min den Energiebedarf. Vergleiche und CSV beziehen sich auf Parameterstände, nicht auf Flugzeit. Der aktuelle Dienst liefert ihn unter `/modell_r04_taumel/simulation/Physik_Pruefstand.html`.
 
+## Top 10 aus allen elf Designparametern
+
+Im [visuellen Prüfstand](Physik_Pruefstand.html) sind berechnete Top 10 geladen. „Ansehen“ übernimmt alle elf Werte exakt in die 3D-/Messansicht. „Alle Parameter durchsuchen“ rechnet eine neue Suche mit der beim Start eingestellten Zusatzlast; Abbrechen kennzeichnet den exportierbaren Zwischenstand ausdrücklich als Teilrechnung. Die gespeicherte Suche verwendet keine Zusatzlast.
+
+Die deterministische Halton-Suche verteilt 4096 Entwürfe über sämtliche definierten Geometrie-/Pitchbereiche. Pro Entwurf wird die Drehzahl im vollständigen stationären Modell innerhalb 500–6000 U/min auf etwa 5,5 % Schubreserve getrimmt. Bis zu 1024 weitere Entwürfe verfeinern die 32 besten mechanischen Treffer. Bis zu 100 führende mechanische und 100 führende elektrische Entwürfe werden zusätzlich auf 20×32 und 40×64 geprüft. Nur in beiden feineren Rastern zulässige Entwürfe kommen in die Top 10; die Rangfolge verwendet die 10×16-Suchwerte. Es ist eine endliche Stichprobensuche mit Verfeinerung, keine vollständige Aufzählung kontinuierlicher Kombinationen und kein bewiesenes globales Optimum.
+
+Zulässigkeit: 5–8 % Schubreserve, höchstens 10 % Drehmoment-Asymmetrie und 10 % abgelöste Modellelemente, Blattspitzen-Machzahl unter 0,65, positive Kräfte und Drehmomente beider Rotoren, konservative Prüfung auf Blattüberdeckung. Die mechanische Gesamtleistung muss außerdem mindestens `T^(3/2) / sqrt(2 × 1,225 × πR²)` erreichen. Für die gleich großen koaxialen Rotoren wird dabei konservativ die gemeinsame volle Kreisfläche einschließlich Nabe verwendet. Unterschreitungen werden als Modellartefakte verworfen; die Rechnung wird nicht künstlich auf diesen Mindestwert angehoben. Das Bestehen dieser notwendigen Prüfung validiert das vereinfachte Strömungsmodell nicht.
+
+EMAX-Treffer müssen zusätzlich die Spannungs-/46-A-Modellgrenze und die angesetzte Suchgrenze von 20 A je Motor einhalten. 20 A sind eine Screening-Annahme, keine nachgewiesene thermische Dauerfreigabe. Solche Treffer werden nach elektrischer Gesamtleistung sortiert. Gibt es keine, zeigt die Tabelle ausdrücklich aerodynamische Entwürfe für den noch auszuwählenden Motor, sortiert nach mechanischer Rotorleistung. Extrapolierte EMAX-Ströme und Verluste bleiben als Referenz sichtbar; der Wirkungsgrad eines zukünftigen Motors ist unbekannt. Strukturmasse und Trägheit bleiben für sämtliche Geometrien konstant, weshalb die Rangliste keine Bau- oder Flugempfehlung ist.
+
+[Top-10-Bericht](Ergebnisse/P11/Top10_Kandidaten.md), [sämtliche elf Parameter als CSV](Ergebnisse/P11/Top10_Kandidaten.csv), [Suchbericht mit Bereichen, Kriterien und Zählern](Ergebnisse/P11/Kandidatensuche.json). Ausschlusszähler können sich überschneiden. Die ersten besten Kandidaten werden unabhängig erneut durch `Flight.aero()` berechnet.
+
+```sh
+node modell_r04_taumel/simulation/kandidatensuche.cjs
+node modell_r04_taumel/simulation/kandidatensuche_pruefen.cjs
+node modell_r04_taumel/simulation/physik_pruefstand_pruefen.cjs
+```
+
+`P11_SEARCH_SAMPLES` und `P11_SEARCH_REFINE` passen den CLI-Suchumfang an. Die gespeicherten Ergebnisse enthalten die CAD-Prüfsumme; der Prüfstand zeigt Ergebnisse einer abweichenden Revision nicht als aktuell an. `--report-only` erzeugt CSV/Markdown/Browserdaten aus einem bestehenden Suchbericht derselben Revision, ohne erneut zu rechnen.
+
 ## Historische Dokumentation H01/P10
 
 Die nachfolgenden Massen, Übersetzungen, Tests, Abbildungen und Berichte beschreiben **die archivierten H01-/P10-Revisionen**. Aktuelle P11-Daten stehen oben und im [P11-Konstruktionsbericht](../integration_p11/README.md).

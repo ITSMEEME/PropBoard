@@ -3,7 +3,7 @@
 const node=typeof module!=='undefined'&&module.exports,F=node?require('./flugphysik.js'):root.H01Flight,
  D=node?require('./design.js'):root.H01Design,A=node?require('../../modell_r04/auslegung/antrieb.js'):root.R04Antrieb;
 function evaluate(base,input,limits={}){const design=D.validate(input);if(design.rpm===null)throw Error('Für die Studie Drehzahl explizit angeben');
- const s=Object.create(F.Flight.prototype);Object.assign(s,{c:{...base.c,noise:false,wind:[0,0,0],ground:false,collectSections:true,polarSource:'SIMPLIFIED'},design,geometry:D.blade(design),spacing:design.spacingMm/1000,drive:base.drive,mass:base.mass,cg:[...base.cg],q:[1,0,0,0],p:[0,0,1],v:[0,0,0],w:[0,0,0],vi:[4,6],omega:[design.rpm,design.rpm].map(v=>v*Math.PI/30),poses:F.KIN.map(k=>[...k.neutral])});
+ const s=Object.create(F.Flight.prototype);Object.assign(s,{c:{...base.c,noise:false,wind:[0,0,0],ground:false,collectSections:limits.collectSections!==false,polarSource:'SIMPLIFIED'},design,geometry:D.blade(design),spacing:design.spacingMm/1000,drive:base.drive,mass:base.mass,cg:[...base.cg],q:[1,0,0,0],p:[0,0,1],v:[0,0,0],w:[0,0,0],vi:[4,6],omega:[design.rpm,design.rpm].map(v=>v*Math.PI/30),poses:F.KIN.map(k=>[...k.neutral])});
  let converged=false,iterations=0;
  for(;iterations<180;iterations++){const before=[...s.vi],f=s.aero();s.updateInflow(f,.02);if(iterations>30&&Math.max(...s.vi.map((v,i)=>Math.abs(v-before[i])))<1e-5){converged=true;break;}}
  const aero=s.aero(),drive=A.systemPoint(A.MOTOR_ECO2_2306_1900,A.BATTERY_TATTU_1550_6S,{rpm:design.rpm,Q:aero.Q[0]},{rpm:design.rpm,Q:aero.Q[1]},base.drive.ratio,base.c.initialSoc,{...A.DEFAULT_DRIVE,gearEff:base.drive.efficiency},6);
