@@ -2,7 +2,9 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto'),F=require('./flugphysik.js'),K=require('./kinematik_p11.js'),D=require('./design.js'),S=require('./parameterstudie.js');
 const root=path.join(__dirname,'../integration_p11/Ausgabe'),sha=crypto.createHash('sha256').update(fs.readFileSync(path.join(root,'P11_Gesamtbaugruppe.FCStd'))).digest('hex');
 for(const [file,key] of [['Massen_P11.json','source_native_sha256'],['Aufbau_P11.json','native_sha256'],['Browserexport_P11.json','source_native_sha256']])assert.equal(JSON.parse(fs.readFileSync(path.join(root,file)))[key],sha,file);
-assert.equal(F.P11.source_native_sha256,sha);assert.equal(F.P11.guide_rollers.count_per_rotor,2);
+assert.equal(F.P11.source_native_sha256,sha);assert.equal(F.P11.guide_rollers.count_per_rotor,3);
+const build=JSON.parse(fs.readFileSync(path.join(root,'Aufbau_P11.json')));assert.equal(build.guide_rollers,6);assert.equal(build.guide_bearings,12);
+assert.deepEqual(K.constants.PHI,F.P11.assumptions.roller_azimuths_deg);
 let maxFrame=0,maxPitch=0;
 for(const ref of require('./kinematik_p11_referenz.json')){const actual=K.frames(ref.servos,ref.angles);for(const [key,expected] of Object.entries(ref.frames)){const f=actual.frames[key];assert(f,key);const a=[...f.R.flat(),...f.t];for(let i=0;i<12;i++)maxFrame=Math.max(maxFrame,Math.abs(a[i]-expected[i]));}for(let l=0;l<2;l++)for(let j=0;j<8;j++)maxPitch=Math.max(maxPitch,Math.abs(ref.pitches[l][j]-actual.pitches[l][j]));}
 assert(maxFrame<1e-6,maxFrame);assert(maxPitch<1e-6,maxPitch);

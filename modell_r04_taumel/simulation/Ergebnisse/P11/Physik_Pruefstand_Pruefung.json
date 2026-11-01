@@ -8,7 +8,10 @@
     "reference deltas",
     "payload reserve",
     "CSV export",
-    "mobile layout"
+    "mobile layout",
+    "saved top ten",
+    "candidate application",
+    "search cancellation"
   ],
   "reference": {
     "design": {
@@ -20,18 +23,18 @@
       "taper": 1,
       "twistDeg": 0,
       "spacingMm": 60,
-      "rpm": 3363,
+      "rpm": 3390,
       "pitchUpperDeg": 14,
       "pitchLowerDeg": 16.7
     },
-    "liftKg": 2.5389273587105157,
-    "powerW": 1140.5420975299003,
-    "currentA": 51.67518726017582,
+    "liftKg": 2.582209065877505,
+    "powerW": 1172.644440209438,
+    "currentA": 53.263851106527646,
     "withinMotorEnvelope": false
   },
   "changedChord": {
-    "liftKg": 2.7382206006482,
-    "powerW": 1274.7484292591232
+    "liftKg": 2.785064967142311,
+    "powerW": 1310.7304640159025
   },
   "changedRpm": {
     "liftKg": 2.0555229559788146,

@@ -1,0 +1,900 @@
+{
+  "article": "CBU 2017 1005 TG",
+  "nominal_dimensions_mm": [
+    20,
+    17,
+    1000
+  ],
+  "OD_tolerance_mm": 0.2,
+  "purchased_stock_count": 25,
+  "cut_count": 77,
+  "total_CAD_cut_length_mm": 23287.036271811612,
+  "price_per_stock_including_VAT_EUR": 45.02,
+  "tube_cost_including_VAT_EUR": 1125.5,
+  "cost_excludes": [
+    "Knoten",
+    "Klemmen",
+    "Schrauben",
+    "Zwischenlagen",
+    "Bearbeitung",
+    "Versand"
+  ],
+  "stock_length_mm": 1000.0,
+  "end_trim_each_mm": 5.0,
+  "kerf_per_cut_mm": 2.0,
+  "algorithm": "First-fit decreasing, auf0.1mm aufgerundet, kein global minimaler Materialverbrauch bewiesen",
+  "bins": [
+    {
+      "stock_id": 1,
+      "used_mm": 949.6,
+      "cuts": [
+        {
+          "id": "CFK-ROHR-067",
+          "length_mm": 691.1173447129953,
+          "from_node": "Oben_Motorstütze_1_-1",
+          "to_node": "Ring2_12",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 631.1173447129953,
+          "planned_cut_mm": 691.2
+        },
+        {
+          "id": "CFK-ROHR-011",
+          "length_mm": 254.38720999398913,
+          "from_node": "Ring0_11",
+          "to_node": "Ring0_12",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 194.38720999398913,
+          "planned_cut_mm": 254.4
+        }
+      ],
+      "remaining_mm": 40.39999999999998
+    },
+    {
+      "stock_id": 2,
+      "used_mm": 949.6,
+      "cuts": [
+        {
+          "id": "CFK-ROHR-071",
+          "length_mm": 691.1173447129953,
+          "from_node": "Unten_Motorstütze_1_-1",
+          "to_node": "Ring0_12",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 631.1173447129953,
+          "planned_cut_mm": 691.2
+        },
+        {
+          "id": "CFK-ROHR-024",
+          "length_mm": 254.38720999398913,
+          "from_node": "Ring1_11",
+          "to_node": "Ring1_12",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 194.38720999398913,
+          "planned_cut_mm": 254.4
+        }
+      ],
+      "remaining_mm": 40.39999999999998
+    },
+    {
+      "stock_id": 3,
+      "used_mm": 949.6,
+      "cuts": [
+        {
+          "id": "CFK-ROHR-065",
+          "length_mm": 691.1173447129952,
+          "from_node": "Oben_Motorstütze_-1_-1",
+          "to_node": "Ring2_6",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 631.1173447129952,
+          "planned_cut_mm": 691.2
+        },
+        {
+          "id": "CFK-ROHR-037",
+          "length_mm": 254.38720999398913,
+          "from_node": "Ring2_11",
+          "to_node": "Ring2_12",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 194.38720999398913,
+          "planned_cut_mm": 254.4
+        }
+      ],
+      "remaining_mm": 40.39999999999998
+    },
+    {
+      "stock_id": 4,
+      "used_mm": 965.5,
+      "cuts": [
+        {
+          "id": "CFK-ROHR-066",
+          "length_mm": 691.1173447129952,
+          "from_node": "Oben_Motorstütze_-1_1",
+          "to_node": "Ring2_5",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 631.1173447129952,
+          "planned_cut_mm": 691.2
+        },
+        {
+          "id": "CFK-ROHR-006",
+          "length_mm": 178.21427190373947,
+          "from_node": "Ring0_6",
+          "to_node": "Ring0_7",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 118.21427190373947,
+          "planned_cut_mm": 178.3
+        },
+        {
+          "id": "CFK-ROHR-005",
+          "length_mm": 90.00000000000017,
+          "from_node": "Ring0_5",
+          "to_node": "Ring0_6",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 30.00000000000017,
+          "planned_cut_mm": 90.0
+        }
+      ],
+      "remaining_mm": 24.5
+    },
+    {
+      "stock_id": 5,
+      "used_mm": 965.5,
+      "cuts": [
+        {
+          "id": "CFK-ROHR-068",
+          "length_mm": 691.1173447129952,
+          "from_node": "Oben_Motorstütze_1_1",
+          "to_node": "Ring2_0",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 631.1173447129952,
+          "planned_cut_mm": 691.2
+        },
+        {
+          "id": "CFK-ROHR-019",
+          "length_mm": 178.21427190373947,
+          "from_node": "Ring1_6",
+          "to_node": "Ring1_7",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 118.21427190373947,
+          "planned_cut_mm": 178.3
+        },
+        {
+          "id": "CFK-ROHR-018",
+          "length_mm": 90.00000000000017,
+          "from_node": "Ring1_5",
+          "to_node": "Ring1_6",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 30.00000000000017,
+          "planned_cut_mm": 90.0
+        }
+      ],
+      "remaining_mm": 24.5
+    },
+    {
+      "stock_id": 6,
+      "used_mm": 965.5,
+      "cuts": [
+        {
+          "id": "CFK-ROHR-069",
+          "length_mm": 691.1173447129952,
+          "from_node": "Unten_Motorstütze_-1_-1",
+          "to_node": "Ring0_6",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 631.1173447129952,
+          "planned_cut_mm": 691.2
+        },
+        {
+          "id": "CFK-ROHR-032",
+          "length_mm": 178.21427190373947,
+          "from_node": "Ring2_6",
+          "to_node": "Ring2_7",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 118.21427190373947,
+          "planned_cut_mm": 178.3
+        },
+        {
+          "id": "CFK-ROHR-031",
+          "length_mm": 90.00000000000017,
+          "from_node": "Ring2_5",
+          "to_node": "Ring2_6",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 30.00000000000017,
+          "planned_cut_mm": 90.0
+        }
+      ],
+      "remaining_mm": 24.5
+    },
+    {
+      "stock_id": 7,
+      "used_mm": 937.2,
+      "cuts": [
+        {
+          "id": "CFK-ROHR-070",
+          "length_mm": 691.1173447129952,
+          "from_node": "Unten_Motorstütze_-1_1",
+          "to_node": "Ring0_5",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 631.1173447129952,
+          "planned_cut_mm": 691.2
+        },
+        {
+          "id": "CFK-ROHR-039",
+          "length_mm": 120.0,
+          "from_node": "Ring0_0",
+          "to_node": "Ring1_0",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 60.0,
+          "planned_cut_mm": 120.0
+        },
+        {
+          "id": "CFK-ROHR-040",
+          "length_mm": 120.0,
+          "from_node": "Ring1_0",
+          "to_node": "Ring2_0",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 60.0,
+          "planned_cut_mm": 120.0
+        }
+      ],
+      "remaining_mm": 52.799999999999955
+    },
+    {
+      "stock_id": 8,
+      "used_mm": 937.2,
+      "cuts": [
+        {
+          "id": "CFK-ROHR-072",
+          "length_mm": 691.1173447129952,
+          "from_node": "Unten_Motorstütze_1_1",
+          "to_node": "Ring0_0",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 631.1173447129952,
+          "planned_cut_mm": 691.2
+        },
+        {
+          "id": "CFK-ROHR-041",
+          "length_mm": 120.0,
+          "from_node": "Ring0_1",
+          "to_node": "Ring1_1",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 60.0,
+          "planned_cut_mm": 120.0
+        },
+        {
+          "id": "CFK-ROHR-042",
+          "length_mm": 120.0,
+          "from_node": "Ring1_1",
+          "to_node": "Ring2_1",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 60.0,
+          "planned_cut_mm": 120.0
+        }
+      ],
+      "remaining_mm": 52.799999999999955
+    },
+    {
+      "stock_id": 9,
+      "used_mm": 986.5,
+      "cuts": [
+        {
+          "id": "CFK-ROHR-075",
+          "length_mm": 610.2173283113925,
+          "from_node": "Mittelstütze_1_-1",
+          "to_node": "Ring1_12",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 550.2173283113925,
+          "planned_cut_mm": 610.3
+        },
+        {
+          "id": "CFK-ROHR-007",
+          "length_mm": 372.16623292868667,
+          "from_node": "Ring0_7",
+          "to_node": "Ring0_8",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 312.16623292868667,
+          "planned_cut_mm": 372.2
+        }
+      ],
+      "remaining_mm": 3.5
+    },
+    {
+      "stock_id": 10,
+      "used_mm": 986.5,
+      "cuts": [
+        {
+          "id": "CFK-ROHR-073",
+          "length_mm": 610.2173283113924,
+          "from_node": "Mittelstütze_-1_-1",
+          "to_node": "Ring1_6",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 550.2173283113924,
+          "planned_cut_mm": 610.3
+        },
+        {
+          "id": "CFK-ROHR-020",
+          "length_mm": 372.16623292868667,
+          "from_node": "Ring1_7",
+          "to_node": "Ring1_8",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 312.16623292868667,
+          "planned_cut_mm": 372.2
+        }
+      ],
+      "remaining_mm": 3.5
+    },
+    {
+      "stock_id": 11,
+      "used_mm": 986.5,
+      "cuts": [
+        {
+          "id": "CFK-ROHR-074",
+          "length_mm": 610.2173283113924,
+          "from_node": "Mittelstütze_-1_1",
+          "to_node": "Ring1_5",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 550.2173283113924,
+          "planned_cut_mm": 610.3
+        },
+        {
+          "id": "CFK-ROHR-033",
+          "length_mm": 372.16623292868667,
+          "from_node": "Ring2_7",
+          "to_node": "Ring2_8",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 312.16623292868667,
+          "planned_cut_mm": 372.2
+        }
+      ],
+      "remaining_mm": 3.5
+    },
+    {
+      "stock_id": 12,
+      "used_mm": 986.5,
+      "cuts": [
+        {
+          "id": "CFK-ROHR-076",
+          "length_mm": 610.2173283113924,
+          "from_node": "Mittelstütze_1_1",
+          "to_node": "Ring1_0",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 550.2173283113924,
+          "planned_cut_mm": 610.3
+        },
+        {
+          "id": "CFK-ROHR-010",
+          "length_mm": 372.1662329286863,
+          "from_node": "Ring0_10",
+          "to_node": "Ring0_11",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 312.1662329286863,
+          "planned_cut_mm": 372.2
+        }
+      ],
+      "remaining_mm": 3.5
+    },
+    {
+      "stock_id": 13,
+      "used_mm": 986.2,
+      "cuts": [
+        {
+          "id": "CFK-ROHR-002",
+          "length_mm": 445.0390387067574,
+          "from_node": "Ring0_2",
+          "to_node": "Ring0_3",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 385.0390387067574,
+          "planned_cut_mm": 445.1
+        },
+        {
+          "id": "CFK-ROHR-015",
+          "length_mm": 445.0390387067574,
+          "from_node": "Ring1_2",
+          "to_node": "Ring1_3",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 385.0390387067574,
+          "planned_cut_mm": 445.1
+        },
+        {
+          "id": "CFK-ROHR-012",
+          "length_mm": 89.99999999999955,
+          "from_node": "Ring0_12",
+          "to_node": "Ring0_0",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 29.999999999999545,
+          "planned_cut_mm": 90.0
+        }
+      ],
+      "remaining_mm": 3.7999999999999545
+    },
+    {
+      "stock_id": 14,
+      "used_mm": 974.5,
+      "cuts": [
+        {
+          "id": "CFK-ROHR-028",
+          "length_mm": 445.0390387067574,
+          "from_node": "Ring2_2",
+          "to_node": "Ring2_3",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 385.0390387067574,
+          "planned_cut_mm": 445.1
+        },
+        {
+          "id": "CFK-ROHR-000",
+          "length_mm": 433.3761668494078,
+          "from_node": "Ring0_0",
+          "to_node": "Ring0_1",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 373.3761668494078,
+          "planned_cut_mm": 433.4
+        },
+        {
+          "id": "CFK-ROHR-025",
+          "length_mm": 89.99999999999955,
+          "from_node": "Ring1_12",
+          "to_node": "Ring1_0",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 29.999999999999545,
+          "planned_cut_mm": 90.0
+        }
+      ],
+      "remaining_mm": 15.5
+    },
+    {
+      "stock_id": 15,
+      "used_mm": 962.8,
+      "cuts": [
+        {
+          "id": "CFK-ROHR-013",
+          "length_mm": 433.3761668494078,
+          "from_node": "Ring1_0",
+          "to_node": "Ring1_1",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 373.3761668494078,
+          "planned_cut_mm": 433.4
+        },
+        {
+          "id": "CFK-ROHR-026",
+          "length_mm": 433.3761668494078,
+          "from_node": "Ring2_0",
+          "to_node": "Ring2_1",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 373.3761668494078,
+          "planned_cut_mm": 433.4
+        },
+        {
+          "id": "CFK-ROHR-038",
+          "length_mm": 89.99999999999955,
+          "from_node": "Ring2_12",
+          "to_node": "Ring2_0",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 29.999999999999545,
+          "planned_cut_mm": 90.0
+        }
+      ],
+      "remaining_mm": 27.200000000000045
+    },
+    {
+      "stock_id": 16,
+      "used_mm": 870.8,
+      "cuts": [
+        {
+          "id": "CFK-ROHR-001",
+          "length_mm": 433.3761668494077,
+          "from_node": "Ring0_1",
+          "to_node": "Ring0_2",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 373.3761668494077,
+          "planned_cut_mm": 433.4
+        },
+        {
+          "id": "CFK-ROHR-014",
+          "length_mm": 433.3761668494077,
+          "from_node": "Ring1_1",
+          "to_node": "Ring1_2",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 373.3761668494077,
+          "planned_cut_mm": 433.4
+        }
+      ],
+      "remaining_mm": 119.20000000000005
+    },
+    {
+      "stock_id": 17,
+      "used_mm": 931.5999999999999,
+      "cuts": [
+        {
+          "id": "CFK-ROHR-027",
+          "length_mm": 433.3761668494077,
+          "from_node": "Ring2_1",
+          "to_node": "Ring2_2",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 373.3761668494077,
+          "planned_cut_mm": 433.4
+        },
+        {
+          "id": "CFK-ROHR-023",
+          "length_mm": 372.1662329286863,
+          "from_node": "Ring1_10",
+          "to_node": "Ring1_11",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 312.1662329286863,
+          "planned_cut_mm": 372.2
+        },
+        {
+          "id": "CFK-ROHR-043",
+          "length_mm": 120.0,
+          "from_node": "Ring0_2",
+          "to_node": "Ring1_2",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 60.0,
+          "planned_cut_mm": 120.0
+        }
+      ],
+      "remaining_mm": 58.40000000000009
+    },
+    {
+      "stock_id": 18,
+      "used_mm": 982.0,
+      "cuts": [
+        {
+          "id": "CFK-ROHR-036",
+          "length_mm": 372.1662329286863,
+          "from_node": "Ring2_10",
+          "to_node": "Ring2_11",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 312.1662329286863,
+          "planned_cut_mm": 372.2
+        },
+        {
+          "id": "CFK-ROHR-008",
+          "length_mm": 361.7373980954175,
+          "from_node": "Ring0_8",
+          "to_node": "Ring0_9",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 301.7373980954175,
+          "planned_cut_mm": 361.8
+        },
+        {
+          "id": "CFK-ROHR-044",
+          "length_mm": 120.0,
+          "from_node": "Ring1_2",
+          "to_node": "Ring2_2",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 60.0,
+          "planned_cut_mm": 120.0
+        },
+        {
+          "id": "CFK-ROHR-045",
+          "length_mm": 120.0,
+          "from_node": "Ring0_3",
+          "to_node": "Ring1_3",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 60.0,
+          "planned_cut_mm": 120.0
+        }
+      ],
+      "remaining_mm": 8.0
+    },
+    {
+      "stock_id": 19,
+      "used_mm": 971.6,
+      "cuts": [
+        {
+          "id": "CFK-ROHR-021",
+          "length_mm": 361.7373980954175,
+          "from_node": "Ring1_8",
+          "to_node": "Ring1_9",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 301.7373980954175,
+          "planned_cut_mm": 361.8
+        },
+        {
+          "id": "CFK-ROHR-034",
+          "length_mm": 361.7373980954175,
+          "from_node": "Ring2_8",
+          "to_node": "Ring2_9",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 301.7373980954175,
+          "planned_cut_mm": 361.8
+        },
+        {
+          "id": "CFK-ROHR-046",
+          "length_mm": 120.0,
+          "from_node": "Ring1_3",
+          "to_node": "Ring2_3",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 60.0,
+          "planned_cut_mm": 120.0
+        },
+        {
+          "id": "CFK-ROHR-047",
+          "length_mm": 120.0,
+          "from_node": "Ring0_4",
+          "to_node": "Ring1_4",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 60.0,
+          "planned_cut_mm": 120.0
+        }
+      ],
+      "remaining_mm": 18.399999999999977
+    },
+    {
+      "stock_id": 20,
+      "used_mm": 971.6,
+      "cuts": [
+        {
+          "id": "CFK-ROHR-009",
+          "length_mm": 361.73739809541746,
+          "from_node": "Ring0_9",
+          "to_node": "Ring0_10",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 301.73739809541746,
+          "planned_cut_mm": 361.8
+        },
+        {
+          "id": "CFK-ROHR-022",
+          "length_mm": 361.73739809541746,
+          "from_node": "Ring1_9",
+          "to_node": "Ring1_10",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 301.73739809541746,
+          "planned_cut_mm": 361.8
+        },
+        {
+          "id": "CFK-ROHR-048",
+          "length_mm": 120.0,
+          "from_node": "Ring1_4",
+          "to_node": "Ring2_4",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 60.0,
+          "planned_cut_mm": 120.0
+        },
+        {
+          "id": "CFK-ROHR-049",
+          "length_mm": 120.0,
+          "from_node": "Ring0_5",
+          "to_node": "Ring1_5",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 60.0,
+          "planned_cut_mm": 120.0
+        }
+      ],
+      "remaining_mm": 18.399999999999977
+    },
+    {
+      "stock_id": 21,
+      "used_mm": 951.6,
+      "cuts": [
+        {
+          "id": "CFK-ROHR-035",
+          "length_mm": 361.73739809541746,
+          "from_node": "Ring2_9",
+          "to_node": "Ring2_10",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 301.73739809541746,
+          "planned_cut_mm": 361.8
+        },
+        {
+          "id": "CFK-ROHR-003",
+          "length_mm": 341.7357020457117,
+          "from_node": "Ring0_3",
+          "to_node": "Ring0_4",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 281.7357020457117,
+          "planned_cut_mm": 341.8
+        },
+        {
+          "id": "CFK-ROHR-050",
+          "length_mm": 120.0,
+          "from_node": "Ring1_5",
+          "to_node": "Ring2_5",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 60.0,
+          "planned_cut_mm": 120.0
+        },
+        {
+          "id": "CFK-ROHR-051",
+          "length_mm": 120.0,
+          "from_node": "Ring0_6",
+          "to_node": "Ring1_6",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 60.0,
+          "planned_cut_mm": 120.0
+        }
+      ],
+      "remaining_mm": 38.39999999999998
+    },
+    {
+      "stock_id": 22,
+      "used_mm": 931.6,
+      "cuts": [
+        {
+          "id": "CFK-ROHR-016",
+          "length_mm": 341.7357020457117,
+          "from_node": "Ring1_3",
+          "to_node": "Ring1_4",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 281.7357020457117,
+          "planned_cut_mm": 341.8
+        },
+        {
+          "id": "CFK-ROHR-029",
+          "length_mm": 341.7357020457117,
+          "from_node": "Ring2_3",
+          "to_node": "Ring2_4",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 281.7357020457117,
+          "planned_cut_mm": 341.8
+        },
+        {
+          "id": "CFK-ROHR-052",
+          "length_mm": 120.0,
+          "from_node": "Ring1_6",
+          "to_node": "Ring2_6",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 60.0,
+          "planned_cut_mm": 120.0
+        },
+        {
+          "id": "CFK-ROHR-053",
+          "length_mm": 120.0,
+          "from_node": "Ring0_7",
+          "to_node": "Ring1_7",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 60.0,
+          "planned_cut_mm": 120.0
+        }
+      ],
+      "remaining_mm": 58.39999999999998
+    },
+    {
+      "stock_id": 23,
+      "used_mm": 911.8,
+      "cuts": [
+        {
+          "id": "CFK-ROHR-004",
+          "length_mm": 331.80691522347223,
+          "from_node": "Ring0_4",
+          "to_node": "Ring0_5",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 271.80691522347223,
+          "planned_cut_mm": 331.9
+        },
+        {
+          "id": "CFK-ROHR-017",
+          "length_mm": 331.80691522347223,
+          "from_node": "Ring1_4",
+          "to_node": "Ring1_5",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 271.80691522347223,
+          "planned_cut_mm": 331.9
+        },
+        {
+          "id": "CFK-ROHR-054",
+          "length_mm": 120.0,
+          "from_node": "Ring1_7",
+          "to_node": "Ring2_7",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 60.0,
+          "planned_cut_mm": 120.0
+        },
+        {
+          "id": "CFK-ROHR-055",
+          "length_mm": 120.0,
+          "from_node": "Ring0_8",
+          "to_node": "Ring1_8",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 60.0,
+          "planned_cut_mm": 120.0
+        }
+      ],
+      "remaining_mm": 78.20000000000005
+    },
+    {
+      "stock_id": 24,
+      "used_mm": 943.9,
+      "cuts": [
+        {
+          "id": "CFK-ROHR-030",
+          "length_mm": 331.80691522347223,
+          "from_node": "Ring2_4",
+          "to_node": "Ring2_5",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 271.80691522347223,
+          "planned_cut_mm": 331.9
+        },
+        {
+          "id": "CFK-ROHR-056",
+          "length_mm": 120.0,
+          "from_node": "Ring1_8",
+          "to_node": "Ring2_8",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 60.0,
+          "planned_cut_mm": 120.0
+        },
+        {
+          "id": "CFK-ROHR-057",
+          "length_mm": 120.0,
+          "from_node": "Ring0_9",
+          "to_node": "Ring1_9",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 60.0,
+          "planned_cut_mm": 120.0
+        },
+        {
+          "id": "CFK-ROHR-058",
+          "length_mm": 120.0,
+          "from_node": "Ring1_9",
+          "to_node": "Ring2_9",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 60.0,
+          "planned_cut_mm": 120.0
+        },
+        {
+          "id": "CFK-ROHR-059",
+          "length_mm": 120.0,
+          "from_node": "Ring0_10",
+          "to_node": "Ring1_10",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 60.0,
+          "planned_cut_mm": 120.0
+        },
+        {
+          "id": "CFK-ROHR-060",
+          "length_mm": 120.0,
+          "from_node": "Ring1_10",
+          "to_node": "Ring2_10",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 60.0,
+          "planned_cut_mm": 120.0
+        }
+      ],
+      "remaining_mm": 46.10000000000002
+    },
+    {
+      "stock_id": 25,
+      "used_mm": 488.0,
+      "cuts": [
+        {
+          "id": "CFK-ROHR-061",
+          "length_mm": 120.0,
+          "from_node": "Ring0_11",
+          "to_node": "Ring1_11",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 60.0,
+          "planned_cut_mm": 120.0
+        },
+        {
+          "id": "CFK-ROHR-062",
+          "length_mm": 120.0,
+          "from_node": "Ring1_11",
+          "to_node": "Ring2_11",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 60.0,
+          "planned_cut_mm": 120.0
+        },
+        {
+          "id": "CFK-ROHR-063",
+          "length_mm": 120.0,
+          "from_node": "Ring0_12",
+          "to_node": "Ring1_12",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 60.0,
+          "planned_cut_mm": 120.0
+        },
+        {
+          "id": "CFK-ROHR-064",
+          "length_mm": 120.0,
+          "from_node": "Ring1_12",
+          "to_node": "Ring2_12",
+          "engagement_each_end_mm": 30.0,
+          "free_span_mm": 60.0,
+          "planned_cut_mm": 120.0
+        }
+      ],
+      "remaining_mm": 502.0
+    }
+  ],
+  "nominal_area_mm2": 87.17919613711676,
+  "nominal_second_moment_mm4": 3754.1541336545906,
+  "laminate_properties": null,
+  "structural_release": false
+}

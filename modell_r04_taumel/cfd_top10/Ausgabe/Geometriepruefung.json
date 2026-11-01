@@ -1,0 +1,178 @@
+{
+  "status": "PASS",
+  "source_search_sha256": "9c4b8e384180f721ce587eeadae5bf368185c9b47fd69e27786d66fa87125f8c",
+  "native_sha256": "1216d65b9ec64293984fddf1e8688ec99e189ca6dea9368275426f6208cae0c1",
+  "surfaces": [
+    {
+      "rank": 1,
+      "patch": "wingUpper",
+      "triangles": 5044,
+      "closed_components": 2,
+      "oriented_volume_m3": 6.035568120285646e-05,
+      "stl_sha256": "a2b4091363b3b55f298a86333ccf1af6d50e9c2cae23d546f877799c45b42f07"
+    },
+    {
+      "rank": 1,
+      "patch": "wingLower",
+      "triangles": 5044,
+      "closed_components": 2,
+      "oriented_volume_m3": 6.0355681528104494e-05,
+      "stl_sha256": "ff0757882201dfd9aa29419d43c2c7f6b247ae3ffbdc76daed5af1846c47a9be"
+    },
+    {
+      "rank": 2,
+      "patch": "wingUpper",
+      "triangles": 5044,
+      "closed_components": 2,
+      "oriented_volume_m3": 7.101898127134863e-05,
+      "stl_sha256": "4c67de5ea0bec7cc146864f058a822668c1c973e4bc9ad46583fa832c45f32dc"
+    },
+    {
+      "rank": 2,
+      "patch": "wingLower",
+      "triangles": 5044,
+      "closed_components": 2,
+      "oriented_volume_m3": 7.101898457385879e-05,
+      "stl_sha256": "8004e75b6b415371f706ecc10a73377192981e0cd82fee4a39bf9cd376074308"
+    },
+    {
+      "rank": 3,
+      "patch": "wingUpper",
+      "triangles": 5044,
+      "closed_components": 2,
+      "oriented_volume_m3": 6.713204533586982e-05,
+      "stl_sha256": "86a30a33d558c91449bbb08d3584268ef490c881141997dfc616bfa6117a519e"
+    },
+    {
+      "rank": 3,
+      "patch": "wingLower",
+      "triangles": 5044,
+      "closed_components": 2,
+      "oriented_volume_m3": 6.713204669115857e-05,
+      "stl_sha256": "3f752def984132591697da7ac7f106419bcd9d538eb297d591de615d38708f89"
+    },
+    {
+      "rank": 4,
+      "patch": "wingUpper",
+      "triangles": 5044,
+      "closed_components": 2,
+      "oriented_volume_m3": 5.43852098789426e-05,
+      "stl_sha256": "7f0b1d552887ab616ae536fc315594366f14c70891f033f18a95d0cad018e965"
+    },
+    {
+      "rank": 4,
+      "patch": "wingLower",
+      "triangles": 5044,
+      "closed_components": 2,
+      "oriented_volume_m3": 5.438520748166345e-05,
+      "stl_sha256": "479dd7709026d066dc47c07b9378e84e7fecf713fbb0a18c6bd3a1fa6b178d11"
+    },
+    {
+      "rank": 5,
+      "patch": "wingUpper",
+      "triangles": 5044,
+      "closed_components": 2,
+      "oriented_volume_m3": 6.215167397781973e-05,
+      "stl_sha256": "83397aa068c4dacc993a0890aca59ee399f6e2d727605aa108228a80b3ebfab2"
+    },
+    {
+      "rank": 5,
+      "patch": "wingLower",
+      "triangles": 5044,
+      "closed_components": 2,
+      "oriented_volume_m3": 6.215167216854727e-05,
+      "stl_sha256": "08df644fea2d621a531f261ccafca41997950eca858ae26d8713be06562e9858"
+    },
+    {
+      "rank": 6,
+      "patch": "wingUpper",
+      "triangles": 5044,
+      "closed_components": 2,
+      "oriented_volume_m3": 5.462083163166985e-05,
+      "stl_sha256": "d27ba4fbd37dd0168b70b087f46e4e9ac4886bf345281ba738270c874adff134"
+    },
+    {
+      "rank": 6,
+      "patch": "wingLower",
+      "triangles": 5044,
+      "closed_components": 2,
+      "oriented_volume_m3": 5.462083040844477e-05,
+      "stl_sha256": "f5c73d0d5586f7f8d2c4fa960d70434d55b9f1b593b44f01c55b1fa2a5ae37e8"
+    },
+    {
+      "rank": 7,
+      "patch": "wingUpper",
+      "triangles": 17654,
+      "closed_components": 7,
+      "oriented_volume_m3": 2.2766343818618407e-05,
+      "stl_sha256": "4aec448a0c28fc3e0c8b76ff94f1dd796e492d4006d04f7737b306a91ba46426"
+    },
+    {
+      "rank": 7,
+      "patch": "wingLower",
+      "triangles": 17654,
+      "closed_components": 7,
+      "oriented_volume_m3": 2.2766344726958803e-05,
+      "stl_sha256": "2aaf5ce9d806aebb7f5f64adee647f22670dcc06be1513d9877827cda2fffc36"
+    },
+    {
+      "rank": 8,
+      "patch": "wingUpper",
+      "triangles": 20176,
+      "closed_components": 8,
+      "oriented_volume_m3": 2.026744568273739e-05,
+      "stl_sha256": "1d4716cdd4a5f10460e52316b8de4667de7795b24caf15a6ab29b7bc11fc1a4e"
+    },
+    {
+      "rank": 8,
+      "patch": "wingLower",
+      "triangles": 20176,
+      "closed_components": 8,
+      "oriented_volume_m3": 2.0267443291498626e-05,
+      "stl_sha256": "1da44c6ea006f05a3a21e8dfd3636c0aa94f0739314043ce8f17a256954e50aa"
+    },
+    {
+      "rank": 9,
+      "patch": "wingUpper",
+      "triangles": 10088,
+      "closed_components": 4,
+      "oriented_volume_m3": 2.0094863890779738e-05,
+      "stl_sha256": "fa403cd7eb3120faa3d53f1df261f586e7d3a3441bcd0f58ca8346d6a69287cf"
+    },
+    {
+      "rank": 9,
+      "patch": "wingLower",
+      "triangles": 10088,
+      "closed_components": 4,
+      "oriented_volume_m3": 2.0094860939713636e-05,
+      "stl_sha256": "35f1faf8e1a38b132b44822411ee0255fc94a576e6fc20636243879b375a3cf4"
+    },
+    {
+      "rank": 10,
+      "patch": "wingUpper",
+      "triangles": 5044,
+      "closed_components": 2,
+      "oriented_volume_m3": 5.3233068819978e-05,
+      "stl_sha256": "e038cc2a7fc13b0dad45b4e1ee40650a87f753e84352347aeb880724958bb8cc"
+    },
+    {
+      "rank": 10,
+      "patch": "wingLower",
+      "triangles": 5044,
+      "closed_components": 2,
+      "oriented_volume_m3": 5.3233066826532375e-05,
+      "stl_sha256": "016c8aa3967013d6af01d70a470faaf1e3dd6a973e6fbe8d1d387d0c44c05672"
+    }
+  ],
+  "checks": [
+    "exact source parameters",
+    "closed oriented manifold edges",
+    "blade component count",
+    "unit normals",
+    "positive oriented volume",
+    "fully inside intended rotating zone"
+  ],
+  "limitations": [
+    "Surface checks do not certify CFD convergence or manufacturing geometry"
+  ]
+}

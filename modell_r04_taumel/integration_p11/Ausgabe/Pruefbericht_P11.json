@@ -1,6 +1,6 @@
 {
-  "source_native_sha256": "2e054218924e66d44c9978a21652d463c3b1008e729cb23b618715a9c5a29e42",
-  "introduced_or_changed_parts": 56,
+  "source_native_sha256": "1216d65b9ec64293984fddf1e8688ec99e189ca6dea9368275426f6208cae0c1",
+  "introduced_or_changed_parts": 86,
   "inherited_invalid_servo_cases": [
     "Oben_feststehend_15",
     "Oben_feststehend_16",
@@ -16,42 +16,42 @@
       "state": 0,
       "a": "Oben_feststehend_10",
       "b": "P10_Servohalter_Oben_60_ISO4762_M3x10_19",
-      "volume_mm3": 8.435585224355279,
+      "volume_mm3": 8.4355852243553,
       "reason": "Wiederverwendete Halteplatten-Befestigung"
     },
     {
       "state": 0,
       "a": "Oben_feststehend_10",
       "b": "P10_Servohalter_Oben_180_ISO4762_M3x10_19",
-      "volume_mm3": 8.435585224355046,
+      "volume_mm3": 8.43558522435507,
       "reason": "Wiederverwendete Halteplatten-Befestigung"
     },
     {
       "state": 0,
       "a": "Oben_feststehend_10",
       "b": "P10_Servohalter_Oben_300_ISO4762_M3x10_19",
-      "volume_mm3": 8.435585224355417,
+      "volume_mm3": 8.435585224355442,
       "reason": "Wiederverwendete Halteplatten-Befestigung"
     },
     {
       "state": 0,
       "a": "Unten_feststehend_10",
       "b": "P10_Servohalter_Unten_60_ISO4762_M3x10_19",
-      "volume_mm3": 8.435585224355506,
+      "volume_mm3": 8.435585224355535,
       "reason": "Wiederverwendete Halteplatten-Befestigung"
     },
     {
       "state": 0,
       "a": "Unten_feststehend_10",
       "b": "P10_Servohalter_Unten_180_ISO4762_M3x10_19",
-      "volume_mm3": 8.435585224355096,
+      "volume_mm3": 8.435585224355117,
       "reason": "Wiederverwendete Halteplatten-Befestigung"
     },
     {
       "state": 0,
       "a": "Unten_feststehend_10",
       "b": "P10_Servohalter_Unten_300_ISO4762_M3x10_19",
-      "volume_mm3": 8.435585224355481,
+      "volume_mm3": 8.435585224355506,
       "reason": "Wiederverwendete Halteplatten-Befestigung"
     },
     {
@@ -105,6 +105,20 @@
     },
     {
       "state": 0,
+      "a": "P11_Rollentraeger_Oben_2",
+      "b": "P11_Klemmschraube_Oben_2",
+      "volume_mm3": 7.522463767257735,
+      "reason": "Nominales M3-Klemmgewinde / Kontakt am Exzenter"
+    },
+    {
+      "state": 0,
+      "a": "P11_Exzenterbolzen_Oben_2",
+      "b": "P11_Klemmschraube_Oben_2",
+      "volume_mm3": 0.7544960881702119,
+      "reason": "Nominales M3-Klemmgewinde / Kontakt am Exzenter"
+    },
+    {
+      "state": 0,
       "a": "P11_Stator_Bauraum_Unten",
       "b": "P11_Stator_Schraube_Unten_0",
       "volume_mm3": 7.5594573227004345,
@@ -150,6 +164,20 @@
       "a": "P11_Exzenterbolzen_Unten_1",
       "b": "P11_Klemmschraube_Unten_1",
       "volume_mm3": 0.7544958601706493,
+      "reason": "Nominales M3-Klemmgewinde / Kontakt am Exzenter"
+    },
+    {
+      "state": 0,
+      "a": "P11_Rollentraeger_Unten_2",
+      "b": "P11_Klemmschraube_Unten_2",
+      "volume_mm3": 7.522463767466888,
+      "reason": "Nominales M3-Klemmgewinde / Kontakt am Exzenter"
+    },
+    {
+      "state": 0,
+      "a": "P11_Exzenterbolzen_Unten_2",
+      "b": "P11_Klemmschraube_Unten_2",
+      "volume_mm3": 0.7544960883551324,
       "reason": "Nominales M3-Klemmgewinde / Kontakt am Exzenter"
     },
     {
@@ -209,7 +237,7 @@
         0,
         0
       ],
-      "exact_pairs": 1598
+      "exact_pairs": 1833
     },
     {
       "servos": [
@@ -224,7 +252,7 @@
         0.0,
         0.0
       ],
-      "exact_pairs": 1074
+      "exact_pairs": 1132
     },
     {
       "servos": [
@@ -239,7 +267,7 @@
         22.5,
         22.5
       ],
-      "exact_pairs": 1094
+      "exact_pairs": 1151
     },
     {
       "servos": [
@@ -254,7 +282,7 @@
         45.0,
         45.0
       ],
-      "exact_pairs": 1067
+      "exact_pairs": 1125
     },
     {
       "servos": [
@@ -269,7 +297,7 @@
         60.75000000000001,
         60.75000000000001
       ],
-      "exact_pairs": 1085
+      "exact_pairs": 1135
     },
     {
       "servos": [
@@ -284,7 +312,7 @@
         90.0,
         90.0
       ],
-      "exact_pairs": 1064
+      "exact_pairs": 1116
     },
     {
       "servos": [
@@ -299,7 +327,7 @@
         139.5,
         139.5
       ],
-      "exact_pairs": 1081
+      "exact_pairs": 1133
     },
     {
       "servos": [
@@ -314,7 +342,7 @@
         180.0,
         180.0
       ],
-      "exact_pairs": 1070
+      "exact_pairs": 1122
     },
     {
       "servos": [
@@ -329,7 +357,7 @@
         225.0,
         225.0
       ],
-      "exact_pairs": 1065
+      "exact_pairs": 1116
     },
     {
       "servos": [
@@ -344,7 +372,7 @@
         254.25000000000003,
         254.25000000000003
       ],
-      "exact_pairs": 1100
+      "exact_pairs": 1151
     },
     {
       "servos": [
@@ -359,7 +387,7 @@
         270.0,
         270.0
       ],
-      "exact_pairs": 1071
+      "exact_pairs": 1123
     },
     {
       "servos": [
@@ -374,7 +402,7 @@
         315.0,
         315.0
       ],
-      "exact_pairs": 1074
+      "exact_pairs": 1126
     },
     {
       "servos": [
@@ -389,7 +417,7 @@
         0,
         22.5
       ],
-      "exact_pairs": 1085
+      "exact_pairs": 1137
     },
     {
       "servos": [
@@ -404,7 +432,7 @@
         123,
         234
       ],
-      "exact_pairs": 1091
+      "exact_pairs": 1142
     }
   ],
   "guide_clearances": [
@@ -421,6 +449,12 @@
       "roller_rpm_at_3000": 20230.366492146597
     },
     {
+      "level": "Oben",
+      "roller": 2,
+      "radial_gap_mm": 0.04979470841372802,
+      "roller_rpm_at_3000": 20230.366492146597
+    },
+    {
       "level": "Unten",
       "roller": 0,
       "radial_gap_mm": 0.04979470841373584,
@@ -430,6 +464,12 @@
       "level": "Unten",
       "roller": 1,
       "radial_gap_mm": 0.049794708413734616,
+      "roller_rpm_at_3000": 20230.366492146597
+    },
+    {
+      "level": "Unten",
+      "roller": 2,
+      "radial_gap_mm": 0.04979470841372802,
       "roller_rpm_at_3000": 20230.366492146597
     }
   ],

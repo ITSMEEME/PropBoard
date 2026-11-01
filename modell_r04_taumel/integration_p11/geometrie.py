@@ -34,7 +34,13 @@ def plate(old):
         arm=rot(arm,az);a=math.radians(az);x,y=82*math.cos(a),82*math.sin(a)
         arm=arm.fuse(cyl(3.5,13,x,y,30)).cut(cyl(1.7,25,x,y,25)).cut(cyl(3.6,6,x,y,46))
         arms.append(arm)
-    s=s.fuse(arms).removeSplitter()
+    # Restore a load path at the former drive-motor position for the third guide.
+    x,y=G.polar(54.8,330)[:2]
+    pad=cyl(15,4,x,y,43).fuse(rot(box(20,-7,43,35,14,4),330))
+    s=s.fuse(arms+[pad]).removeSplitter()
+    for side in [-1,1]:
+        a=math.radians(330);bx=x-side*10*math.sin(a);by=y+side*10*math.cos(a)
+        s=s.cut(cyl(1.7,6,bx,by,42))
     # Bore the COMPLETE fused plate, including material of retained servo arms.
     for az in P['stator_post_azimuths_deg']:
         a=math.radians(az);x,y=82*math.cos(a),82*math.sin(a)

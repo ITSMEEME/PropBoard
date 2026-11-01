@@ -1,11 +1,22 @@
 # PropBoard
 
-**Aktuell: P11 – Direktantrieb 1:1 mit kugelgelagerten Führungsrollen.**
+**Großausführung aktuell: P12 – parametrischer Direktantrieb mit CFK-Rohrrahmen.**
+[Parametrisches CAD und Bedienung](kreis_r04/mn1330_p12/README.md) ·
+[CFK-Rahmen CBU20171005TG](kreis_r04/mn1330_p12/CFK_RAHMEN.md) ·
+[Aktuelle CAD-Ansicht](kreis_r04/mn1330_p12/Ausgabe/Zwischenstand_P12_Perspektive.png).
+P12 ist ein Fertigungsentwurf mit offenen Last-/Klemm- und Pitchmechaniknachweisen.
+
+**Kleines Referenzmodell: P11 – Direktantrieb 1:1 mit kugelgelagerten Führungsrollen.**
 [Native Konstruktion und technische Grenzen](modell_r04_taumel/integration_p11/README.md) ·
 [Visueller Physik-Prüfstand](modell_r04_taumel/simulation/Physik_Pruefstand.html) ·
 [Flugsimulator](modell_r04_taumel/simulation/H01_Flugsimulator.html).
-P10 und frühere Revisionen bleiben historische Vergleichsstände. Der spätere Ringmotor
-ist noch auszuwählen; EMAX bleibt die elektrische Vergleichsreferenz.
+P10 und frühere Revisionen bleiben historische Vergleichsstände. EMAX bleibt die elektrische
+Vergleichsreferenz des kleinen Modells. Für die Großausführung wird MN1330 KV40 untersucht;
+der Motor hat keinen durchgehenden axialen Kanal.
+[MN1330-Integrationskonzept](konstruktion/MN1330/Direktantrieb.md) ·
+[Anordnungsskizze](konstruktion/MN1330/Anordnung.svg) ·
+[Lokale CFD mit Linux/Docker](lokale_cfd/README.md) ·
+[Portables CFD-Paket](lieferung/PropBoard_CFD_Local_Linux.zip).
 
 PropBoard ist die Konzeptidee eines elektrischen Hoverboards, das eine Person mit einem Körpergewicht von bis zu 100 kg tragen und kontrolliert bewegen soll. Im Mittelpunkt stehen elektrischer Antrieb, stabile Lageregelung und eine sichere Bedienung.
 

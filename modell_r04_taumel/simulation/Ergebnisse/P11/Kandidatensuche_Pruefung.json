@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "native_sha256": "1216d65b9ec64293984fddf1e8688ec99e189ca6dea9368275426f6208cae0c1",
+  "recomputedFinalists": 10,
+  "searchAttempts": 5120,
+  "stationaryEvaluations": 9134,
+  "checks": [
+    "saved revision matches",
+    "all eleven parameters",
+    "complete finite search",
+    "ten aerodynamic finalists",
+    "all finalists independently recomputed",
+    "objective sorting and constraints",
+    "deterministic valid sampling",
+    "energy-bound rejection",
+    "CSV columns",
+    "two finer quadratures for each finalist",
+    "cancellation marked partial"
+  ]
+}

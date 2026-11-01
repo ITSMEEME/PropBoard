@@ -11,8 +11,8 @@ d=A.openDocument(str(SRC));d.getObject('P09_Animation').Proxy=None
 parts=[o for o in d.Objects if hasattr(o,'P09_Rahmen') and not o.BauteilID.startswith('KEEP_')]
 new=[o for o in parts if hasattr(o,'P11_Hinweis')];bad=[o.Name for o in parts if not o.Shape.isValid()]
 assert all(o.Shape.isValid() for o in new)
-assert len([o for o in parts if o.BauteilID=='P11-FUEHRUNGSROLLE-POM'])==4
-assert len([o for o in parts if o.BauteilID=='MR85ZZ'])==8
+assert len([o for o in parts if o.BauteilID=='P11-FUEHRUNGSROLLE-POM'])==6
+assert len([o for o in parts if o.BauteilID=='MR85ZZ'])==12
 assert not any(o.P09_Rahmen.startswith(('planet:','pinion:')) for o in parts)
 proxy={}
 def shape(o):
@@ -31,6 +31,7 @@ def allowed(a,b):
     if 'P11-M3-GEWINDESTIFT' in ids and ids&{'P11-ROLLENTRAEGER','P11-EXZENTERBOLZEN-D5'}:return 'Nominales M3-Klemmgewinde / Kontakt am Exzenter'
     if any('P11_Stator_Schraube' in n for n in names) and ids&{'P11-STATOR-BAURAUM','P11-HALTEPLATTE'}:return 'Stator-Befestigungsgewinde / Schraubendurchgang'
     if 'P11-HALTEPLATTE' in ids and any(n.startswith(('P10_Servohalter','P10_Traeger')) for n in names) and any(i.startswith(('ISO','M3')) for i in ids):return 'Wiederverwendete Halteplatten-Befestigung'
+    if any(n.startswith('P11_Traegerbefestigung') for n in names) and ids&{'P11-HALTEPLATTE','P11-ROLLENTRAEGER'}:return 'Dritte feste Rollenaufnahme: Schraubendurchgang / Befestigung'
     if any(i.startswith('P11-KABEL') for i in ids) and 'P11-STATOR-BAURAUM' in ids:return 'Leitungsende am Statoranschluss'
     if any(i.startswith('P11-KABEL') for i in ids) and 'REF_ESC' in ids:return 'Leitungsende an unveraendertem ESC-Phasenpad'
     return None
@@ -40,13 +41,21 @@ for t in [0,.5,1,1.35,2,3.1,4,5,5.65,6,7]:
     s,a=RT.demo(t);states.append((list(s),list(a)))
 for servos,angles in [([3,3,3,-3,-3,-3],[0,22.5]),([-3,3,0,3,-3,0],[123,234])]:states.append((servos,angles))
 if '--neutral-only' in sys.argv:states=states[:1]
+if '--resume' in sys.argv:
+    checkpoint=json.loads((H/'Ausgabe/Pruefung_Zwischenstand.json').read_text())
+    assert checkpoint['source_native_sha256']==report['source_native_sha256'],'Checkpoint belongs to another native assembly'
+    for i,entry in enumerate(checkpoint['states']):
+        assert (entry['servos'],entry['rotors'])==states[i],'Checkpoint uses different test states'
+    report=checkpoint
 for si,(servos,angles) in enumerate(states):
+    if si<len(report['states']):continue
     RT.apply(d,servos,angles,False);seen=set();count=0
     for a in new:
         sa=shape(a)
         for b in parts:
-            # No placement or geometry of fixed parts changes between states.
-            if si and a.P09_Rahmen=='fixed' and b.P09_Rahmen=='fixed':continue
+            # Bodies in the same rigid frame keep their relative placement.
+            # Their intersections were checked in state 0, including fixed/fixed.
+            if si and a.P09_Rahmen==b.P09_Rahmen:continue
             key=tuple(sorted([a.Name,b.Name]))
             if a is b or key in seen:continue
             seen.add(key);sb=shape(b)
@@ -62,7 +71,7 @@ RT.apply(d,[0]*6,[0,0],False)
 clearances=[]
 for lvl,l in [('Oben',0),('Unten',1)]:
     track=d.getObject('P11_Laufbahneinsatz_'+lvl)
-    for k in range(2):
+    for k in range(len(P['roller_azimuths_deg'])):
         roller=d.getObject(f'P11_Fuehrungsrolle_{lvl}_{k}');gap=track.Shape.distToShape(roller.Shape)[0]
         assert .045<gap<.055,gap
         clearances.append({'level':lvl,'roller':k,'radial_gap_mm':gap,'roller_rpm_at_3000':3000*RT.RATIO})

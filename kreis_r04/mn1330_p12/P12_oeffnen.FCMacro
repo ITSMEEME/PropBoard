@@ -1,0 +1,18 @@
+# Open this macro from FreeCAD: imports the parametric proxy before restoring the document.
+import sys
+from pathlib import Path
+import FreeCAD as App,FreeCADGui as Gui
+folder=Path(__file__).resolve().parent
+if str(folder) not in sys.path:sys.path.insert(0,str(folder))
+import parametrik
+path=folder/'Ausgabe/P12_MN1330.FCStd'
+doc=App.ActiveDocument if App.ActiveDocument and App.ActiveDocument.getObject('P12_Modell') else next((d for d in App.listDocuments().values() if d.FileName==str(path)),None)
+if doc is None:doc=App.openDocument(str(path))
+model=doc.getObject('P12_Modell')
+if model is None:raise RuntimeError('Datei ist noch kein parametrischer P12-Stand. Zuerst erstellen.py ausführen.')
+if not isinstance(model.Proxy,parametrik.Model):parametrik.Model(model)
+App.setActiveDocument(doc.Name);model.touch();doc.recompute()
+for obj in doc.Objects:
+    if 'P12Key' in obj.PropertiesList and obj.ViewObject:obj.ViewObject.ShapeColor=parametrik.color(obj.BauteilID,obj.P12Key)
+Gui.activeDocument().activeView().viewAxonometric();Gui.activeDocument().activeView().fitAll()
+App.Console.PrintMessage('P12: Parameter-Tabelle öffnen, gelbe Werte ändern, F5. Status am P12_Modell prüfen.\n')

@@ -1,10 +1,10 @@
 {
   "status": "PASS",
-  "native_sha256": "2e054218924e66d44c9978a21652d463c3b1008e729cb23b618715a9c5a29e42",
+  "native_sha256": "1216d65b9ec64293984fddf1e8688ec99e189ca6dea9368275426f6208cae0c1",
   "maxFrameError": 1.4210854715202004e-14,
   "maxPitchErrorDeg": 1.7763568394002505e-14,
-  "angularMomentumErrorNms": 6.219860465972553e-10,
-  "massKg": 2.5387278370565083,
+  "angularMomentumErrorNms": 3.0325088868118324e-10,
+  "massKg": 2.5826627224551233,
   "driveRatio": 1,
   "rollerRatio": 6.743455497382199,
   "referenceDemandReachable": false,

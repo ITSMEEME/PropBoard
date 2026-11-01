@@ -17,7 +17,7 @@ def state(servos,angles):
     for l,sign in [(0,1),(1,-1)]:
         s['frames'].pop(f'pinion:{l}',None)
         s['frames'][f'motor:{l}']=s['frames'][f'rotor:{l}']
-        for k in range(2):s['frames'][f'roller:{l}:{k}']=roller_frame(sign,k,angles[l])
+        for k in range(len(P['roller_azimuths_deg'])):s['frames'][f'roller:{l}:{k}']=roller_frame(sign,k,angles[l])
     return s
 def apply(doc,servos,angles,recompute=True):
     s=state(servos,angles)

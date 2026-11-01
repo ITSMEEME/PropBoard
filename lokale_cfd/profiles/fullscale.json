@@ -1,0 +1,167 @@
+{
+  "name": "fullscale",
+  "description": "Gro\u00dfes Kreis-R04: neue CFD, keine \u00dcbertragung von Modellkr\u00e4ften",
+  "target_mass_kg": 150,
+  "target_mass_status": "Rechenszenario, keine gewogene Masse: Person/Ausr\u00fcstung/Struktur zusammen",
+  "objective": "aerodynamic_efficiency",
+  "reference": {
+    "diameterMm": 1500,
+    "rootRadiusMm": 150,
+    "chordMm": 120,
+    "blades": 8,
+    "spacingMm": 240,
+    "pitchAxisFraction": 0.5,
+    "guideRadiiMm": [
+      130,
+      770
+    ]
+  },
+  "seed_mode": "transfer_shape_only",
+  "preserve_seed_blade_counts": true,
+  "reference_rpm": 848.8263631567752,
+  "chord_scale_from_model": 4,
+  "cyclic_margin_deg": 4,
+  "limits": {
+    "chordMm": [
+      40,
+      124
+    ],
+    "thickness": [
+      0.08,
+      0.2
+    ],
+    "taper": [
+      0.5,
+      1.4
+    ],
+    "twistDeg": [
+      -12,
+      8
+    ],
+    "pitchUpperDeg": [
+      2,
+      17
+    ],
+    "pitchLowerDeg": [
+      2,
+      17
+    ]
+  },
+  "fixed": [
+    "diameterMm",
+    "rootRadiusMm",
+    "spacingMm",
+    "rpm",
+    "blades",
+    "pitchAxisFraction"
+  ],
+  "air": {
+    "rho": 1.225,
+    "nu": 1.5e-05
+  },
+  "iterations": 750,
+  "max_iterations": 1500,
+  "refinement_batch": 6,
+  "max_candidates": 40,
+  "motor": {
+    "name": "MN1330 KV40",
+    "count": 2,
+    "kv": 40,
+    "mass_each_kg": 2.75,
+    "diameter_mm": 150,
+    "height_mm": 66,
+    "rated_cells": 24,
+    "claimed_power_W": 3400,
+    "power_duration_s": 180,
+    "claimed_max_current_A": 177,
+    "current_measurement_kind": "unknown",
+    "line_line_resistance_ohm": 0.0195,
+    "no_load_test_V": 20,
+    "no_load_test_A": 3.4,
+    "claimed_thrust_kg": 75,
+    "bearing": "6004ZZ",
+    "mounting_pattern": null,
+    "free_axial_bore_mm": 0,
+    "drawing": {
+      "envelope_diameter_mm": 150,
+      "overall_length_mm": 66,
+      "rear_step_diameter_mm": 55,
+      "rear_step_length_mm": 3,
+      "rotor_view_patterns": [
+        {
+          "count": 12,
+          "thread": "M5",
+          "pcd_mm": 40
+        },
+        {
+          "count": 4,
+          "thread": "M5",
+          "pcd_mm": 30
+        }
+      ],
+      "stator_view_patterns": [
+        {
+          "count": 4,
+          "thread": "M6",
+          "pcd_mm": 50
+        },
+        {
+          "count": 4,
+          "thread": "M3",
+          "locating_pin_diameter_mm": 4,
+          "pcd_mm": 70
+        }
+      ],
+      "accessory_flange": {
+        "outside_diameter_mm": 52,
+        "central_feature_diameter_mm": 15,
+        "thickness_mm": 5,
+        "holes_count": 6,
+        "holes_diameter_mm": 5.2,
+        "pcd_mm": 42
+      },
+      "thread_depth_mm": null,
+      "axial_bore_mm": 0,
+      "note": "Aus Nutzerzeichnung abgelesen. Montageseiten/Lochzuordnung, Winkelbezug und Bohrtiefen vor Fertigung best\u00e4tigen. Zubeh\u00f6r-PCD42 nicht ungepr\u00fcft auf Rotor-PCD40 montieren. Nutzer best\u00e4tigt geschlossenen Motorboden: kein axialer Durchgang."
+    },
+    "material_temperature_claims_C": {
+      "stator_coating": 150,
+      "wire_insulation": 220,
+      "magnet": 180
+    },
+    "claimed_ip": "IP45",
+    "stator_slots_rotor_poles": "36N42P",
+    "continuous_operating_temperature_C": null,
+    "through_bore": false
+  },
+  "battery": {
+    "name": "Nutzerakku 72V 20Ah",
+    "nominal_V": 72,
+    "full_V": 84,
+    "cutoff_V": 55,
+    "Ah": 20,
+    "Wh": 1440,
+    "mass_kg": 8.2,
+    "continuous_A": 50,
+    "peak_A": 150,
+    "peak_duration_s": [
+      1,
+      3
+    ],
+    "fuse_A": 70,
+    "dimensions_mm": [
+      435,
+      185,
+      70
+    ],
+    "claimed_cells": 24,
+    "chemistry": "NMC lithium-ion"
+  },
+  "manufacturer_reference_propeller": {
+    "name": "NS52x20",
+    "diameter_mm": 1320.8,
+    "pitch_mm": 508,
+    "airfoil_geometry": null
+  },
+  "hardware_data_source": "Vom Nutzer \u00fcbermittelte Angaben, nicht unabh\u00e4ngig best\u00e4tigtes Herstellerkennfeld"
+}

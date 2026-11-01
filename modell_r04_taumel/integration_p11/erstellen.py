@@ -74,7 +74,9 @@ for l,sign in [(0,1),(1,-1)]:
     put('P11_Stator_Bauraum_'+lvl,local(G.stator(),sign),'P11-STATOR-BAURAUM','Stator-/Wicklungsbauraum, Masse angenommen',
         '200g Budgetannahme; innerer Durchgang fuer Mittelrohr/Gestaenge, kein EMAX-Geometriemodell.',mass_g=P['stator_mass_assumption_g'],color=(.88,.48,.2))
     oldplate=d.getObject(lvl+'_feststehend_10');s=oldplate.Shape.copy();s.Placement=world.inverse().multiply(s.Placement)
-    put('P11_Halteplatte_'+lvl,local(G.plate(s),sign),'P11-HALTEPLATTE','PETG, effektiver Fuellgrad 0.5',
+    plate=G.plate(s)
+    assert len(plate.Solids)==1,'Guide mounting bridge must be connected to the retained plate'
+    put('P11_Halteplatte_'+lvl,local(plate,sign),'P11-HALTEPLATTE','PETG, effektiver Fuellgrad 0.5',
         'Alter Motorhalter entfernt; drei Statorarme und Stuetzpfosten; vorhandene Servo-/Rollentraeger-Lochbilder erhalten.',existing=oldplate,rho=635,color=(.5,.54,.6))
     for k,phi in enumerate(P['roller_azimuths_deg']):
         key=f'roller:{l}:{k}';x,y=G.xy(phi)
@@ -91,6 +93,9 @@ for l,sign in [(0,1),(1,-1)]:
             'Sichert Exzenter; Gewinde, Anzugsmoment und Sicherung noch nicht freigegeben.',rho=7850)
         put(f'P11_Distanz_{lvl}_{k}',local(G.ring(2.6,3.4,20.4,1.1,x,y),sign),'P11-DISTANZ-D5','Stahl',
             'Auf Journal zentriert, stuetzt die Lagerinnenringe gegen den Traeger.',rho=7850)
+    # Third fixed guide replaces the former motor mounting sector.
+    for i,(ident,s) in enumerate(G.G.carrier_fasteners(330)):
+        put(f'P11_Traegerbefestigung_{lvl}_{i}',local(s,sign),ident,'Stahl','Dritte feste Rollenaufnahme an neuer Halteplattenbruecke.',rho=7850)
     for k,az in enumerate(P['stator_post_azimuths_deg']):
         a=math.radians(az);x,y=82*math.cos(a),82*math.sin(a)
         for part,ident,s in [('Schraube','ISO4762-M3x20',G.G.orient(G.G.iso4762(20),(x,y,46.5),(0,0,1))),('Scheibe','ISO7089-M3',G.G.orient(G.G.iso7089(),(x,y,46),(0,0,1)))]:
@@ -122,13 +127,13 @@ for tag in ['upper','lower']:spin_delta.append(sum(izz(r) for r in records if r[
 rollerJ=next(r for r in records if r['part_id']=='P11-FUEHRUNGSROLLE-POM')['inertia_cg_kgm2'][2][2]
 payload=dict(revision='P11',source_native_sha256=hashlib.sha256(target.read_bytes()).hexdigest(),base_revision='P10',base_native_sha256=source_hash,
  remove_components=list(removed.values()),add_components=records,rotor_spin_inertia_delta_kgm2=spin_delta,
- guide_rollers=dict(count_per_rotor=2,radius_m=.00955,track_radius_m=.0644,spin_ratio=RT.RATIO,spin_inertia_kgm2=rollerJ+2*.0006*.5*(.004**2+.003**2)/2),
+ guide_rollers=dict(count_per_rotor=len(P['roller_azimuths_deg']),radius_m=.00955,track_radius_m=.0644,spin_ratio=RT.RATIO,spin_inertia_kgm2=rollerJ+2*.0006*.5*(.004**2+.003**2)/2),
  drive=dict(layout='P11_DIRECT',ratio=1,motor_sense=1,mechanical_efficiency_assumption=.98,motor_inertia_embedded_in_rotor=True,motor_selection_pending=True,electrical_reference='EMAX ECO II 2306 KV1900'),
  assumptions=P,unbudgeted_legacy_removals=unbudgeted_legacy_removals,manufacturing_release=False)
 (OUT/'Massen_P11.json').write_text(json.dumps(payload,indent=2,ensure_ascii=False)+'\n')
 (SIM/'p11_massen.json').write_text(json.dumps(payload,separators=(',',':'),ensure_ascii=False)+'\n')
 (SIM/'p11_massen.js').write_text('globalThis.H01_P11_MASSEN='+json.dumps(payload,separators=(',',':'),ensure_ascii=False)+';\n')
-with (OUT/'Kabelliste_P11.csv').open('w',newline='') as f:w=csv.DictWriter(f,fieldnames=list(cable_rows[0]));w.writeheader();w.writerows(cable_rows)
+with (OUT/'Kabelliste_P11.csv').open('w',newline='') as f:w=csv.DictWriter(f,lineterminator="\n",fieldnames=list(cable_rows[0]));w.writeheader();w.writerows(cable_rows)
 bom={}
 for o in parts:
     r=newmass.get(o.Name) or oldmass.get(o.Name);entry=bom.setdefault(o.BauteilID,dict(BauteilID=o.BauteilID,Anzahl=0,Masse_erfasst_g=0,Fehlende_Massenzuordnungen=0,Hinweis=''))
@@ -136,8 +141,8 @@ for o in parts:
     if r:entry['Masse_erfasst_g']+=r['mass_kg']*1000
     else:entry['Fehlende_Massenzuordnungen']+=1
     if hasattr(o,'P11_Hinweis'):entry['Hinweis']=o.P11_Hinweis
-with (OUT/'Stueckliste_P11.csv').open('w',newline='') as f:w=csv.DictWriter(f,fieldnames=list(next(iter(bom.values()))));w.writeheader();w.writerows(bom.values())
-report=dict(revision='P11',native_sha256=payload['source_native_sha256'],base_sha256=source_hash,parts=len(parts),removed=len(changes),replaced=len(removed)-len(changes),new_or_changed=len(records),changes=changes,invalid_inherited=[o.Name for o in parts if not o.Shape.isValid()],ratio=1,guide_rollers=4,guide_bearings=8,motor_selection_pending=True,manufacturing_release=False)
+with (OUT/'Stueckliste_P11.csv').open('w',newline='') as f:w=csv.DictWriter(f,lineterminator="\n",fieldnames=list(next(iter(bom.values()))));w.writeheader();w.writerows(bom.values())
+report=dict(revision='P11',native_sha256=payload['source_native_sha256'],base_sha256=source_hash,parts=len(parts),removed=len(changes),replaced=len(removed)-len(changes),new_or_changed=len(records),changes=changes,invalid_inherited=[o.Name for o in parts if not o.Shape.isValid()],ratio=1,guide_rollers=2*len(P['roller_azimuths_deg']),guide_bearings=4*len(P['roller_azimuths_deg']),motor_selection_pending=True,manufacturing_release=False)
 (OUT/'Aufbau_P11.json').write_text(json.dumps(report,indent=2,ensure_ascii=False)+'\n')
 A.closeDocument(d.Name)
 assert hashlib.sha256(SRC.read_bytes()).hexdigest()==source_hash,'P10 archive was modified'
