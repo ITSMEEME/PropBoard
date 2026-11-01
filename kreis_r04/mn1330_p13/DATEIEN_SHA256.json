@@ -1,0 +1,3278 @@
+{
+  "Ausgabe/Abgeleitet.json": {
+    "bytes": 450668,
+    "sha256": "df4f2cbe9f38e8943ceddf5a76bfe3cf4760bfa41f0840d8c11b81f4cb378861"
+  },
+  "Ausgabe/Anfrageindex.html": {
+    "bytes": 67300,
+    "sha256": "eef10a6bb6a48490a23e033577cc7366f88b94d17d05d7f5a304589ca343021a"
+  },
+  "Ausgabe/Beschaffungsfamilien.csv": {
+    "bytes": 13396,
+    "sha256": "71a6abe1b7b4aaf097c4874b4f9c083244f4260dd4fa1575dfbc080983a5b180"
+  },
+  "Ausgabe/CFK30_Zuschnitt.csv": {
+    "bytes": 1643,
+    "sha256": "2a7b99a0c3f65246e5cfeec384b3c2530542405a347ec340546ee9b503ecba5a"
+  },
+  "Ausgabe/Eingaben.json": {
+    "bytes": 7252,
+    "sha256": "c98d034f5920c0f9264f4b5adc2c381210efe4c2c4b434353b09027b7f090ace"
+  },
+  "Ausgabe/Einzel_STEP_Pruefung.json": {
+    "bytes": 95569,
+    "sha256": "37d6ce310cbd47d1ae0b643d86832bb1ac1e7feb81620906fe8a7ca11f8900c2"
+  },
+  "Ausgabe/Exportwerkzeuge.json": {
+    "bytes": 483,
+    "sha256": "9e2841f7bb5486cf9c4f370ecda49426f135cb3d26168b4e8221d157689b5ce7"
+  },
+  "Ausgabe/Geometrie_Grenzen.json": {
+    "bytes": 5880,
+    "sha256": "0370f56173748106810be4224bf2d17f0d8d98e46cb97cc5ab8b1507f975f455"
+  },
+  "Ausgabe/Gesamt_STEP_Pruefung.json": {
+    "bytes": 834,
+    "sha256": "f5625d39a2c5c63160051cd16b2b1f89c5c37b5d2e8a6a0ead84ba29b9aa32df"
+  },
+  "Ausgabe/Kinematik_Pruefung.json": {
+    "bytes": 957,
+    "sha256": "90df3c17397d1feeac0b332ad7b0c15500134058fb0ef2aae111a25fb1926891"
+  },
+  "Ausgabe/Kollisionen.json": {
+    "bytes": 3813,
+    "sha256": "4e707c2c85a7a2587adb7c767aae0cb17aa39282ab2e9dbfa42f1290cfaa3c20"
+  },
+  "Ausgabe/Kollisionsgruppen.json": {
+    "bytes": 3700,
+    "sha256": "5c82130487446d7f84a295077b21e28395509d9523a92515224bdf13cf23c0a3"
+  },
+  "Ausgabe/Konstruktionsquellen.json": {
+    "bytes": 2298,
+    "sha256": "d180184efb56d09cb12f529498bc649626c9f1f703d0bcc087349498913ebd14"
+  },
+  "Ausgabe/Lastscreen.json": {
+    "bytes": 53481,
+    "sha256": "2d40b83af4dd6a77889fa5bc4edb30ea12ca1393d6fcdb8aa37e460ef0cf2e75"
+  },
+  "Ausgabe/P13_Gesamtansicht.png": {
+    "bytes": 444627,
+    "sha256": "865c5f5d405493474427802d4094842c54ffa189daac346171b60b3c0b3113c4"
+  },
+  "Ausgabe/P13_Mechanik.FCStd": {
+    "bytes": 18478911,
+    "sha256": "b515b3350f9fdfe926dde79f6f21dd22c9e83f5de3d2e4e35027a489ad2aeec5"
+  },
+  "Ausgabe/P13_Zentralmechanik.png": {
+    "bytes": 179499,
+    "sha256": "d0ce81858f5b4ac4899b32b175a323bbeb2d1163e7489888a2fed17518dd2615"
+  },
+  "Ausgabe/Pruefung.json": {
+    "bytes": 920,
+    "sha256": "4ea760b18959b36686fdb87dcec21901cbe349db1e5b4a25f4c9d2c504aec59c"
+  },
+  "Ausgabe/RFQ_Fertigungsvarianten.csv": {
+    "bytes": 48702,
+    "sha256": "6909c9380bb38b25f55099d583af6b1493c30ae835b61e6e0a68d181e43ff81c"
+  },
+  "Ausgabe/RFQ_Sonderteile.csv": {
+    "bytes": 57866,
+    "sha256": "95502bcbc74a093972b1e673c0d0fbf41a19abed91243dfcb433fe46d9e6decf"
+  },
+  "Ausgabe/STEP_Nennkonturen/REF-7202B.step": {
+    "bytes": 4972,
+    "sha256": "f9055ddc517ce4a89af5f9f9322816f85dc881e7832505d7ef8f10ab29006463"
+  },
+  "Ausgabe/STEP_Nennkonturen/REF-ACHS-MUTTER-M14.step": {
+    "bytes": 11816,
+    "sha256": "970bfd20e8f45874bf428eba4023295c3ab900c1dc2527064f545fc88ee7ae61"
+  },
+  "Ausgabe/STEP_Nennkonturen/REF-AKTUATORMOTOR-OBEN.step": {
+    "bytes": 12562,
+    "sha256": "d2405f28bb1ea12aae24fc4489b3b31d10bb1f7785dd4881d96e545fc0c926b4"
+  },
+  "Ausgabe/STEP_Nennkonturen/REF-AKTUATORMOTOR-UNTEN.step": {
+    "bytes": 12562,
+    "sha256": "9dc1835bd4163c214fa464e1ca48126dbbe8b5f172ed77005eb1d3a7394cd506"
+  },
+  "Ausgabe/STEP_Nennkonturen/REF-MN1330.step": {
+    "bytes": 38443,
+    "sha256": "ee790b775dd28f2fe4c61d894f72d0772c2d2ef9d57283303e26bc053bcb3d45"
+  },
+  "Ausgabe/STEP_Nennkonturen/REF-SCHRAUBE-M3-L8-K2.4.step": {
+    "bytes": 13652,
+    "sha256": "a46a0e15646cbc051dec71a987ef5b03a8e1c0ab2ae3a17d018bda76e6287628"
+  },
+  "Ausgabe/STEP_Nennkonturen/REF-SCHRAUBE-M4-L16-K3.2.step": {
+    "bytes": 13599,
+    "sha256": "756735dc3cc3aadd4a5c8f46709d6d2ea27fee97f7949ceed07f3e4c5d553d2d"
+  },
+  "Ausgabe/STEP_Nennkonturen/REF-SCHRAUBE-M4-L8-K3.2.step": {
+    "bytes": 13594,
+    "sha256": "5341b89670ddda0ed5a145418289f6aea35b8f180ea28832468ebafc843a8547"
+  },
+  "Ausgabe/STEP_Nennkonturen/REF-SCHRAUBE-M5-L60-K4.1.step": {
+    "bytes": 13582,
+    "sha256": "cf0fd00424331201b49965eb273fc7abc9df674b560b27f8c45d600fe05ad169"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-608.step": {
+    "bytes": 4951,
+    "sha256": "3c1a054c1ea2745e124ef7c3dbf2eff8f4329be8de582b206001d2e5f863f12c"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-61820.step": {
+    "bytes": 5009,
+    "sha256": "d4b959ec40333dc179f327a6fd9858b3cadd44393a8eed1e34572b8140c605cc"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-7001B.step": {
+    "bytes": 4957,
+    "sha256": "e425ea74a7ff12de0e4351d1d5986790ad6d1ecb07d1969992416ce02d6017e5"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-7201B.step": {
+    "bytes": 4956,
+    "sha256": "12f09066147a79348dc5b971aba637932de178522b616190ac445bd9cdfc25d1"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-DIN1444B-6x30.step": {
+    "bytes": 15572,
+    "sha256": "3d36a34c5a93ae054016448a621b5bf3564b1ccfaffa2cdc302867fc92738159"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-DIN1444B-6x35.step": {
+    "bytes": 15567,
+    "sha256": "d85b983aedef2345f3b845bf868c501ff047689186f13104ce58311c7fdbcc55"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-DIN1444B-8x30.step": {
+    "bytes": 15549,
+    "sha256": "e426903d1782e21514ec6de06d7af5d26fcb3ca7dc75379de848aa44db7a4d05"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-DIN471-8.step": {
+    "bytes": 8842,
+    "sha256": "47e623e6ea032ac1bf4a2a1eb3739e07707ae89c0cc9874a99c3107f6f690b90"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-DIN472-14.step": {
+    "bytes": 8849,
+    "sha256": "2ac43ae8efa8e8111687a3bfbe2326be33ce9d7413a4033a4f6ff82957247565"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-DIN6325-4x25.step": {
+    "bytes": 6920,
+    "sha256": "18439d33885b634171cb6cba5a73d5f00812d31b3df8ec5a3064eab84fce0d08"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-DIN94-1.6.step": {
+    "bytes": 7346,
+    "sha256": "681701f78ed7784836fff618004d1c3f08f940f0533f64ad8f68ed3846e941b8"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-DIN94-2.step": {
+    "bytes": 7305,
+    "sha256": "0432bca9e7992c3e4b09dd50d5cca9350d7e41c8e9a5b1cd4596bfdb85ff7d8a"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-DIN976-M6-ROTOR.step": {
+    "bytes": 3546,
+    "sha256": "f733a859e2a4cd0b4ba712b5b0132a0c473721c2072fd13ba65a920629646b30"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-DIN988-6-L1.step": {
+    "bytes": 4957,
+    "sha256": "1db867e9248e9f083af183eaf5c8693718f8a8935f8308abe3ca27a450aebd84"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-GE20-AUSSEN.step": {
+    "bytes": 5099,
+    "sha256": "254f762669a77d5a508f6dfdcd73e1c2882ed94be89d7627e88210c902a1c005"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-GE20-INNEN.step": {
+    "bytes": 5095,
+    "sha256": "8dd60b793b2d0ca229bd7800b107d2cd6cbc68a2469782ba81087f268cae49dd"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-GE6-AUSSEN.step": {
+    "bytes": 4929,
+    "sha256": "672dec3b921361c930bee5f5fbd5301d7503f50f2c4727aa4cc71b52547450f9"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-GE6-INNEN.step": {
+    "bytes": 4883,
+    "sha256": "7db837decdaf9e53cbcee132286d5762c3a6dd877e7b1a6089c4889070ef936a"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-GE60-AUSSEN.step": {
+    "bytes": 5107,
+    "sha256": "a12a3c976987f76511fdbcb8dcb15fa0bc37b9f17f7bc6094d1d4ee87837280b"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-GE60-INNEN.step": {
+    "bytes": 5109,
+    "sha256": "ed02e04db42d15e195786df7d9fc9b05a433d684d695ef7c9d5feac50f083743"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-GELENKKOPF6.step": {
+    "bytes": 21854,
+    "sha256": "9aa51e9f5359838f9ac9aedf475a273544de8039bf3657a2fb34af3f5308cf30"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-GELENKKUGEL6.step": {
+    "bytes": 6072,
+    "sha256": "4692d5024c754c1203dab31556f7b57b434dbb98abd1471d7babf0a6b08b3afd"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-HTD3M-L450.step": {
+    "bytes": 14086,
+    "sha256": "d9aadf734d18f13b883edc84921ade791905cf7ffcb8fbb7ae1b6a838b1634f9"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-HTD3M-L540.step": {
+    "bytes": 14084,
+    "sha256": "7ff7fb33192d0d159080dbab3ec884f9e5e94df0dc8dbb378bd363830085d8b1"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-HTD3M20-Motor.step": {
+    "bytes": 4972,
+    "sha256": "d2f56ba2408453424037dad974723b831e39f11bf0f18a0192443c8222d22c4a"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-HTD3M20-Spindel.step": {
+    "bytes": 4969,
+    "sha256": "8d861a134797a61cde26e08e5f71af675cca19cb2cada6a02007bf1578b6bfd6"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-ISO10642-M3x6.step": {
+    "bytes": 5235,
+    "sha256": "8e01c0abd04f25c09f92156dc09b4f38ba6461e075c7e4f056838cd42f70b898"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-ISO4762-M3x12.step": {
+    "bytes": 13646,
+    "sha256": "2a299f5d1bd92c66ffa2b9dc6b732c3e21370ae0b003413e2379e57245df1242"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-ISO4762-M3x8.step": {
+    "bytes": 13641,
+    "sha256": "789ded5abd041fcdb83c4b76e7fa13d9121a6702ecf681eff2d24db4ee4190f2"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-ISO4762-M4x12.step": {
+    "bytes": 13588,
+    "sha256": "8d76e55ea83c53e4f908dad6ae4b49be452b96cf269b9e5543d5ec99562c88b5"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-ISO4762-M4x16.step": {
+    "bytes": 13588,
+    "sha256": "99e92718874d01982201bf4c55b4942c9c680a11ec21ed4a8d301a74ab628c40"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-ISO4762-M4x20.step": {
+    "bytes": 13588,
+    "sha256": "72958eeaeea08aad112dbe94b09010741fe5dd3ab58e5bd46094752ade29147d"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-ISO4762-M4x8.step": {
+    "bytes": 13583,
+    "sha256": "ae1ccc3f3d688be727d7efe1641d7cd59535d5a70b699ffccf7b0dc50a860474"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-ISO4762-M5x12.step": {
+    "bytes": 13571,
+    "sha256": "6092f86f5b830eb453ca74faed5d2ba6f303bb95986357bf6dc31608077612b5"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-ISO4762-M5x30.step": {
+    "bytes": 13571,
+    "sha256": "47f63052a560cfed308d98f6154a951b303b919f0885b2ea720f7c0b13186052"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-ISO4762-M5x40.step": {
+    "bytes": 13571,
+    "sha256": "1ccb5f0eafe8d4ab1fb6e10e56136baeaa8fdbb2542f781b136dbc33d51cb594"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-ISO4762-M6x100.step": {
+    "bytes": 13592,
+    "sha256": "5ccf49f491bb27cce85ec72e7ee2d571c6c2a3a6e629b1dfe3354094f9daea1a"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-ISO4762-M6x12.step": {
+    "bytes": 13587,
+    "sha256": "4117087af7acf0862d12f103193699138be263f2cbdbe71f8449431abe40aa3e"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-ISO4762-M6x16.step": {
+    "bytes": 13587,
+    "sha256": "d7731264a4bdf02df68d12b1a2fcdcc1f34931726e5041214daa16c5b4f4a82e"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-ISO4762-M6x25.step": {
+    "bytes": 13587,
+    "sha256": "4d1dfb1333a7d86aef4ab241d51234b0f2296d21bbd7254082b41062933dc88e"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-ISO4762-M6x30.step": {
+    "bytes": 13587,
+    "sha256": "8024224f111ff8f042ba2cf9ac73d8725d8eca4a61c8b2084b6efda840911c52"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-ISO4762-M6x90.step": {
+    "bytes": 13587,
+    "sha256": "3d8e5935f1d8d05fa429fa01d1619e0623c85293a8b7e87ef86c0c863a5fd6d1"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-ISO7089-M6-GELENK.step": {
+    "bytes": 4962,
+    "sha256": "0fd7542fb1160a7a20f83314094f3a226a40b142e2df89a2da3a9e3c07894aac"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-ISO7089-M6-SPEICHE.step": {
+    "bytes": 4992,
+    "sha256": "b77c10922458a053cea13f97beaeb19d31e3ee5c2b9681f7b8732142a3cee151"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-ISO7089-M8-GELENK.step": {
+    "bytes": 4962,
+    "sha256": "c371a8aec78fe1cbfce86aa0e753a84823d31b210beba53b38e5ab18b8fac7e1"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-KGT1204.step": {
+    "bytes": 3539,
+    "sha256": "7de47f463cbc20fe373c59e256e53ba9b2de040dcc894c3e297957b9e4439d0e"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-KM1.step": {
+    "bytes": 4989,
+    "sha256": "e74958ff63a4eee2f7a7ef2b1a1257dd4c2af9d2a0df1a62755856c07ddbded0"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-LINEARFUEHRUNG.step": {
+    "bytes": 6949,
+    "sha256": "726f203cdb618e0728d4130789c242c68e857234f06a07ad7e4c70f9a83d321f"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-M8-GELENKKUGEL.step": {
+    "bytes": 5078,
+    "sha256": "5fedef1739fc32b319b09923af3ac79554be2326b27f74b782cd5d17e2abd210"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-M8-ZUGSTANGENKOPF.step": {
+    "bytes": 19245,
+    "sha256": "e6129c9a043ababdbc52cd2226d5655a0edd794c9edeab87db9d5c64ca2e4a5e"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-MB1.step": {
+    "bytes": 4995,
+    "sha256": "67ac9a13187a6ce51bee6607b89bd84f4b1da2e2dcb68d69d2ee13a8f08957f2"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-MUTTER-M6.step": {
+    "bytes": 11696,
+    "sha256": "a838db12780b82fb443ceaff6a1778b4dd5678075e0e0dc972d052cf6c450552"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-PASSFEDER4.step": {
+    "bytes": 6940,
+    "sha256": "bdde4b2c921a02968136d8afb7ee6b2cd9ed3ebe3befdc04069a493e5bce104b"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-SCHEIBE-DECKM6.step": {
+    "bytes": 4988,
+    "sha256": "417111bd89a432dacb261b9409268d6f85896388b5d06f9309e16a4339840deb"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-SCHEIBE-M4.step": {
+    "bytes": 4963,
+    "sha256": "51c0ce6987c54d83f4d1457e5aad275d2a3e79fd0c2be2298aa07a82da59c7a4"
+  },
+  "Ausgabe/STEP_Nennkonturen/STD-SCHEIBE-M6.step": {
+    "bytes": 4962,
+    "sha256": "f5244b728dcf314236d54d1084a93a4b9bd6963967fd7072ebb532c2dd285f4d"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-BRUECKE-END.step": {
+    "bytes": 19483,
+    "sha256": "59526b78b8d396408678cae56d1a80ce098c62ce86b5f0e911370e4fc7bb21f0"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-GUIDE-A.step": {
+    "bytes": 15981,
+    "sha256": "8a9dbe9f335e4fe3ec191911397c1ce7e0098a8dfe7014e5c41fa095d9bbb711"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-GUIDE-B.step": {
+    "bytes": 13319,
+    "sha256": "96df0f6f5b1424f03b2ff7e7cecfd3e96b6a63c88c2dc363f375558e1ec95dbe"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-GUIDE-FILM.step": {
+    "bytes": 7340,
+    "sha256": "b965548bf4f8873c6734dd8515c50f3cf8cdf8e25261257042ee770267916df1"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KLEMM-A.step": {
+    "bytes": 42293,
+    "sha256": "8c0e7f696a93b67477ec319a0180edac29cb45d95dbabbf3872e963b1e8c7d3c"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KLEMM-A_MZ.step": {
+    "bytes": 42510,
+    "sha256": "9f3d14ab2bbaaab9b6c3cc01374242ce0452083aab6ca1feb2bd2437725b93c9"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KLEMM-B.step": {
+    "bytes": 42926,
+    "sha256": "588a623ed568d8dec914b5b8d0c5c37509745f7be2d451ff8786b6bfc15836a2"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KLEMM-B_MZ.step": {
+    "bytes": 43141,
+    "sha256": "c14d31902721b0b3502e1073d0e24e2c590f4d6737eca4b44c51429a503d3667"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-000.step": {
+    "bytes": 91746,
+    "sha256": "6bcbd55dcc565e0350470edf98aaa93d973011e8d71e0d962d3b896a13d73c61"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-001.step": {
+    "bytes": 33487,
+    "sha256": "9a82644e07889158a3a632a467be45433a6f608023fe0c3a44242552cf8cc61f"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-002.step": {
+    "bytes": 35200,
+    "sha256": "1929b03330bff5cb2d7d6bbf52c7856923f55fa5fd5cd438c1eccae3840bcdb3"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-003.step": {
+    "bytes": 35120,
+    "sha256": "cd8c0e15d47067c8adffebdf7174dd469bb873558eeab048f939ad7ef545c087"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-004.step": {
+    "bytes": 33376,
+    "sha256": "3df6553eca36899ce07f0b7dc5ee7c7b095e81f0bd6d736a622eaa93fe814883"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-005.step": {
+    "bytes": 87361,
+    "sha256": "8a586b1e535033e5b657716d6089d7df8c0fe4756ac32255ffbd637af8e65e8e"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-006.step": {
+    "bytes": 85427,
+    "sha256": "3e8a20c1e70c7f85bc5feadbe37bdb164e8cddb218459feca384b26f6e3ff269"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-007.step": {
+    "bytes": 33524,
+    "sha256": "2b7d43f4af3defdfcdfb4d32760a6e6cee7875a5adbf506ed853a3bac1465bb7"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-008.step": {
+    "bytes": 34858,
+    "sha256": "84b2ca94db7da5bd4f33fdba95308c08979d1d4705af0b0de5a2c7a4414c3ee3"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-009.step": {
+    "bytes": 34924,
+    "sha256": "dec9716cf059360d6e966d3f8b5ab2bb1a39933e6aad3b20a89bcff308ead737"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-010.step": {
+    "bytes": 35013,
+    "sha256": "542ca7ccfef7ff437db8dd97699897bdb499afa2ebb6bccd2b6e54e6ce740ae9"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-011.step": {
+    "bytes": 33512,
+    "sha256": "93577bbb2390ee9a562ff7efe24816bacb3a8fbd626dad10cfa6d70b97cc919b"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-012.step": {
+    "bytes": 89599,
+    "sha256": "89b4eb2212b31516f92771cf0f8b63c840e5aa0b08f30d492b84e65b1ebeb9ec"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-013.step": {
+    "bytes": 61697,
+    "sha256": "1a568e77a61b0ac19f134d344c7f5143e5818f5c19bca509a48c1e64d7ba8402"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-014.step": {
+    "bytes": 43041,
+    "sha256": "98485276695ba1015db2fb0bfa2dd54876b4a554d77f63e17e0eace0a74f5160"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-015.step": {
+    "bytes": 44751,
+    "sha256": "04e9488259572fc5d49fa4e1d9a91345578840d832f4c995da3c8c0d00ef0899"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-016.step": {
+    "bytes": 44671,
+    "sha256": "4816fc453f9bc6cc8360ce5fb557596295f420d7c68a7470ee59d3c1ab58a19e"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-017.step": {
+    "bytes": 42928,
+    "sha256": "92e64c560d68461e2ffc0d1bd99b9e8434b27a78945e821274eda89267850485"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-018.step": {
+    "bytes": 61121,
+    "sha256": "bc15982bac22b16f05fc22a9904f9562dbccb655c453c32c20ee3a800d763a87"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-019.step": {
+    "bytes": 54263,
+    "sha256": "cdf5aa10a301ec753e04c894d430c1c01f3e2e00d18bbb7e6a77e90dcea0508e"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-020.step": {
+    "bytes": 43078,
+    "sha256": "0d5e90d09b3ff399d1924a813a36bab3af0bc4cc90926b2adcd77e7db37ef991"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-021.step": {
+    "bytes": 44411,
+    "sha256": "c9b05550eb894a594f3714821f5866a126eddc7e91699c62bafe2642a3a9eb6d"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-022.step": {
+    "bytes": 44475,
+    "sha256": "b58ec013f0441cb70dec68c4659ea998b69eb6ad9a25406c80e33f9441939347"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-023.step": {
+    "bytes": 44568,
+    "sha256": "499153406f522c4997724bd4ef8979b98bc3679efc93a117102f344426112db6"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-024.step": {
+    "bytes": 43064,
+    "sha256": "28224c690cb561ce94efa643955b0074848a264837f9da4aad4ff01c246f66f6"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-025.step": {
+    "bytes": 56627,
+    "sha256": "2cd021518534f81b7d47a94f267e721a5240668b01b78d20026c6ffad14811c1"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-026.step": {
+    "bytes": 54261,
+    "sha256": "f643e126691ded0fc9c040bc224372f95f67866575af7a92792fed316004f167"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-027.step": {
+    "bytes": 34027,
+    "sha256": "bae48825b218df74b4323d35c522045d5a7614d1cb32f769c2c97b07c77e08ca"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-028.step": {
+    "bytes": 35737,
+    "sha256": "c2f1dde9754c4ebc91fad0a9c96d1c80f98caea0fba77a446285225b134213b4"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-029.step": {
+    "bytes": 35657,
+    "sha256": "9d331b028b776e1ca76a8a2bc182399976bcef006fbbfb5b972e9e7c024c49cf"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-030.step": {
+    "bytes": 33914,
+    "sha256": "d78044d278f432c202355a10b6062dd78a5306e0d1ce4e82f485b112af919905"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-031.step": {
+    "bytes": 52980,
+    "sha256": "cea2623fcba539cbf59950bd2dc77e3e92a2161d8d3ab3b40b975c405955c8ef"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-032.step": {
+    "bytes": 48794,
+    "sha256": "97d5a4c2d1a6b393d402fd32f22cb2f9f8cbeba91fed269cfb482effb42b8a63"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-033.step": {
+    "bytes": 34064,
+    "sha256": "cec9429d257ffe59d7b41db4844ce8a183ee20a87982f61035effa66f3a8da8b"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-034.step": {
+    "bytes": 35397,
+    "sha256": "863c80d05005f64c08ece6b053b3d283c135456c21b98568e1b16a19a6eb9856"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-035.step": {
+    "bytes": 35461,
+    "sha256": "edeafc76cdb10222a8fdc0a14f706a7d46dae4e78b3da46dc8e3ad3761846094"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-036.step": {
+    "bytes": 35554,
+    "sha256": "5caf6f96aaf6c3dc2ffb9ae3bd2e8227c485bee4ece456b75a53e825c84f115a"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-037.step": {
+    "bytes": 34050,
+    "sha256": "80acaecd892c67a96d3b6ab8b5fb747bcf2ae39216069e611481f7d7d4d9c4ba"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-038.step": {
+    "bytes": 50347,
+    "sha256": "1283198e51a52b8ed75163d95edcf0048c894025fc9141aa83715ec314214f65"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-039.step": {
+    "bytes": 40275,
+    "sha256": "1090f11b66e37780bcc2603fdbfae41048e386b97abbf2503fdd9fa317b0d678"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-040.step": {
+    "bytes": 40271,
+    "sha256": "5ce5dbafacd3999d8e81172615827f6b9dd7c63c07edc64bc350c075de7dcff7"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-041.step": {
+    "bytes": 38802,
+    "sha256": "709dbe3c9793197c101b8b0856e5f34727c79ddf12a713919b9c47a0f8472039"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-042.step": {
+    "bytes": 38813,
+    "sha256": "4a3fdd04a47fc302de460dfbc4631beb8f2915a1b382ad40be22adaf98343c51"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-043.step": {
+    "bytes": 23663,
+    "sha256": "81ee650aa8068a6d15f7b8cf24cc6ebe8c9266a48b3db8a0696814f5a4032c64"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-044.step": {
+    "bytes": 23663,
+    "sha256": "5f8f41d07af78415019055bfc77acd12d5a3c1ec2f7bea386652d5e7445d19e3"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-045.step": {
+    "bytes": 23207,
+    "sha256": "c21ee77d02e5dc7f6a26566b05dbd84110c2182d736653ea2247eb33efa85fc5"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-046.step": {
+    "bytes": 23215,
+    "sha256": "cc64cd2e7b6598d883c89f47805aff682036be4d7e04de3b80e97f250ebca2a9"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-047.step": {
+    "bytes": 21893,
+    "sha256": "25996b44bfa05d1129a89981a187c534ea2ff90da4cdcb50c6c768397bec84d2"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-048.step": {
+    "bytes": 21888,
+    "sha256": "f266393ee503726c6798d63bbfd73da1e8c10992ce489985fb3845f36f239684"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-049.step": {
+    "bytes": 22620,
+    "sha256": "23c733fac05970e73cb6ada559afd873e5b321be15196e8e3fbbc370a1bf0005"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-KNOTEN-050.step": {
+    "bytes": 22546,
+    "sha256": "d05d3c48bb94f484fbc1c8e7508c97bbb269e15d382dfe5b98dd726a5f1fccae"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-000.step": {
+    "bytes": 5021,
+    "sha256": "27e6225ce5e98bb92196636e6cbcd3942f6d60955ec71dea0ccdd470335eb702"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-001.step": {
+    "bytes": 5021,
+    "sha256": "3dacac8892f6e1df6bb49d305e16b6f9c5651efa49889d8a9507bc3952b7c37e"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-002.step": {
+    "bytes": 5026,
+    "sha256": "6cfa285f4d78eee9556582a1ba76855eb6e2710c156ea03e28b7b5dfacdca7b2"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-003.step": {
+    "bytes": 5026,
+    "sha256": "dd8f0962e79c0b0715809832aebe36684cc89c317060930160241070385f053b"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-004.step": {
+    "bytes": 5026,
+    "sha256": "878e406baad2c86a30ef0c1d3f721a01c1a252dc647091d1e28d3e588ede3866"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-005.step": {
+    "bytes": 4966,
+    "sha256": "a222ade732f2bb8b768404c2aed05b6bf5e1cdcc60ecd29bc39c01259ca20d1a"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-006.step": {
+    "bytes": 5026,
+    "sha256": "f2ee4dc19b4a13aa9e868019c97dbd17e7b416c03eaf93e1d8054bab2e3ebb46"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-007.step": {
+    "bytes": 5026,
+    "sha256": "65a2c7255f3475008a9c41521d9807d9e8d522e08b6698fe0ff5a34ab04a2505"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-008.step": {
+    "bytes": 5026,
+    "sha256": "7c3bd4815b9d9b86cfc5508a52d806103ea98eedbfff003e54d9d3e3ad8fe9d9"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-009.step": {
+    "bytes": 5026,
+    "sha256": "4ef5b66da15f0f4caff0bd18b842d010ac2b7f7af2dc34a5857fe58695603144"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-010.step": {
+    "bytes": 5026,
+    "sha256": "9e06ac4a25e0de959fd4179980bbd2fc5a34c0eeb7076c77f19ac41a76d5d398"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-011.step": {
+    "bytes": 5026,
+    "sha256": "f7d4738b011839febda6c71b12599fed3f0740d41948f45be67df563c06f0ee9"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-012.step": {
+    "bytes": 4966,
+    "sha256": "6147f6475d8093154c39ed7a0da847d5b1a3d33a8b113d916ff54c4f907f6568"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-013.step": {
+    "bytes": 5021,
+    "sha256": "0026627f89668847c33aedf8fa032eef9a379fa8bfe95a5236ad072cf64d949d"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-014.step": {
+    "bytes": 5023,
+    "sha256": "4157bd381ed818ccc985d2b5a5d6bba523b84d129053451e9617adff6ce71942"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-015.step": {
+    "bytes": 5028,
+    "sha256": "0f88c4015d50b7809add13f7ccdb3799725f2a4937e0631e97000a4ecaa8f929"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-016.step": {
+    "bytes": 5028,
+    "sha256": "5b6fa1ae751e4291af371e2cc61d212aa93bd64bed234a4125cde39ea3bcd440"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-017.step": {
+    "bytes": 5028,
+    "sha256": "b273f41be2d283f149e4a04fd0610ee896eabe5099db55543efe6003c9efd6de"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-018.step": {
+    "bytes": 4968,
+    "sha256": "6f3b439f34e0452fe3dff8e1575895c7e3fb4bbb31f808a6e2937fc5a1dbb725"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-019.step": {
+    "bytes": 5028,
+    "sha256": "fc6a5f366a6b8d244d75d73980731137a42090bfa1a9c5c78b82b91e57c43f30"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-020.step": {
+    "bytes": 5028,
+    "sha256": "fe73dcc908afbba029bc21608f9ed8588fec5f4b36cddd87f1b68a74875a4ee3"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-021.step": {
+    "bytes": 5028,
+    "sha256": "4d167f8faaf3213dd555301b396f554f35f7854052324d112d4faf9ee34c412d"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-022.step": {
+    "bytes": 5028,
+    "sha256": "b623a88c67dcf27e4b7735f59dc59a3e66d59fde9eae40f812539e7f77cf1ea9"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-023.step": {
+    "bytes": 5028,
+    "sha256": "bbb6a646310dae64de6c0e1acb3208b27e79ccc6a0b6a1e3f382fe36ca1a242e"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-024.step": {
+    "bytes": 5028,
+    "sha256": "4864f36cb67e854b6bd102409c5cd27d3a0d0fc499246a627c7da73561461ebd"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-025.step": {
+    "bytes": 4968,
+    "sha256": "76d98d30b4f9504284aed34bcdbe12bb2e53de6963d586a37d47118967aef0a9"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-026.step": {
+    "bytes": 5023,
+    "sha256": "93a3c88aa807ede1e628b05c61e803de20a79ad9f3efee00b74f4bb565aab5a4"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-027.step": {
+    "bytes": 5023,
+    "sha256": "7c489ccd8cdd548d979b8efb0f991ba938c36f470b036d51c410a7e66f7fb483"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-028.step": {
+    "bytes": 5028,
+    "sha256": "a23f0db4c65554d9be175e507a2c24cf4acc2c691404155fc1cf9b51fbab8c9d"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-029.step": {
+    "bytes": 5028,
+    "sha256": "98509e2b5da77dc5da5848c5e29e35d49fb60e35fca23e666c3bfbfb7fe4f73f"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-030.step": {
+    "bytes": 5028,
+    "sha256": "cd0d6ab7962682ac0380daa110ab26f60b505fe3c466a46a33f2ad4256db54d8"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-031.step": {
+    "bytes": 4968,
+    "sha256": "76ae46806b97afb9ad15f22101e067d58a637ae23227fdd75fe7b00d09526adb"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-032.step": {
+    "bytes": 5028,
+    "sha256": "50aef86ac80d23f58ed148ab9225d73f83b86dce2182fe6b9e187697b5aa6dce"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-033.step": {
+    "bytes": 5028,
+    "sha256": "430b65c8eada95fb79c070938281f3a27d96cac09a6284e725ec61647bd5eee8"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-034.step": {
+    "bytes": 5028,
+    "sha256": "d2c0ff7b577d42fa1532de7f12194907b0d2a620418c2856941922a40c1295cf"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-035.step": {
+    "bytes": 5028,
+    "sha256": "67ee52ce7e45484843d89cad0d905ea2b637355385ff1f1e73af3a0afbd74668"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-036.step": {
+    "bytes": 5028,
+    "sha256": "e663208a2601204d8557223954716c3ebeecab90da83f2306340ab767bc69716"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-037.step": {
+    "bytes": 5028,
+    "sha256": "94d64e4c53c2e13b1d9870e85a407ff42e2bef3a1d8531e2aff8a81a26a81818"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-038.step": {
+    "bytes": 4968,
+    "sha256": "7f3617e39cbc08e36f2a41874ce57ff1e92f34942bef0d7dfb2005c7a8726cb9"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-039.step": {
+    "bytes": 4973,
+    "sha256": "0c221f36a705a93fe31eb79acbc471853656d4ccc401cbdb78064e726bc3db3e"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-040.step": {
+    "bytes": 4973,
+    "sha256": "966662737a1585a123cacdf610c885b07a754bd15bae20ea677910252844187e"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-041.step": {
+    "bytes": 4973,
+    "sha256": "f9b990adeef0ba3df4a44c4fefc41d897886c0637c4827d3cd96eb07d8e7ee1e"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-042.step": {
+    "bytes": 4973,
+    "sha256": "841dce16d157fd8cc5411b350de0e691c097fbce31a9334710e5b90631241d47"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-043.step": {
+    "bytes": 4973,
+    "sha256": "e535b0709011a3b3192e386ac961adbff749dbb6fd2386492344ac3f5a097f38"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-044.step": {
+    "bytes": 4973,
+    "sha256": "e9b29df6f3ef605a06d63dbb32be20a915071afb3e894089485dff8f0dd3b081"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-045.step": {
+    "bytes": 4973,
+    "sha256": "0c4deceaed82be67ee1cb44819b011ab68641224e996ac62cd34f46bcd69688c"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-046.step": {
+    "bytes": 4973,
+    "sha256": "10cf98ea7b1e197790f1f50806494aeb61a0f71ec8f94c60ff5595843564ac52"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-047.step": {
+    "bytes": 4973,
+    "sha256": "f28a50ca3a5b6aeb660afc9951821e74ae9f6e4ccf1bf5202a39b9f95f6294c3"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-048.step": {
+    "bytes": 4973,
+    "sha256": "441070fdda31dece2df199ce3b05e6cd3e641a8fb4ad3c2633c8730018a25972"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-049.step": {
+    "bytes": 4973,
+    "sha256": "9ad9bdb4b98685a9c1292b1a1bf8b73004d3ab07c7b11844911a2aa3a30c827c"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-050.step": {
+    "bytes": 4973,
+    "sha256": "f8da2097daf564f610d837c5c273316c1c52c35139f2e85f21f66e7b271efc35"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-051.step": {
+    "bytes": 4973,
+    "sha256": "8ff3cf0977a563c648ee03c0443b01d741bea7d329e5c774d263c1f225091a8b"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-052.step": {
+    "bytes": 4973,
+    "sha256": "c5b6392d1a5634e43e6bc0995db2ef7c038d2d93fad542cd863a36446468e973"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-053.step": {
+    "bytes": 4973,
+    "sha256": "f12bfbfd7a8ae0cfdca48e54de5cda218d285aa8fdcb32818001429a80bbed4d"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-054.step": {
+    "bytes": 4973,
+    "sha256": "3c584137443e15cad1d7767a4675e375329b75e63ea77a7905884cedfe442664"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-055.step": {
+    "bytes": 4973,
+    "sha256": "1edbbeb06064b2f5513da523b9cee99b3d6d54bcf7ef3ff3776f80a83df80a9b"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-056.step": {
+    "bytes": 4973,
+    "sha256": "39e0d873ab35aac7fbf02f152d243ee84fa6fd3412124673e17c7bc25e897836"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-057.step": {
+    "bytes": 4973,
+    "sha256": "ce1d27faaa37f9a78c9d619b6ecb445a4309baa5c3fa5851eddaec3c50f950a3"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-058.step": {
+    "bytes": 4973,
+    "sha256": "161604737f90a1cabb2eaf5fb0d6c8e01deab55895bc2a72a8351bb0f8ecc015"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-059.step": {
+    "bytes": 4973,
+    "sha256": "24087afc97cef5a0cc8f26bd82974ce6c2d0205ad7279a812490e24d4f71ac49"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-060.step": {
+    "bytes": 4973,
+    "sha256": "7d9da3614a0ed65f4f0f19cd8365aa52e51ffcaa94eec59fe7268bf6ba45d5cf"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-061.step": {
+    "bytes": 4973,
+    "sha256": "311d6ed7029c3d6d3b5f6490420afe98780dd3cbbc0d291ff22005824b59c067"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-062.step": {
+    "bytes": 4973,
+    "sha256": "6b622a0c67c2d75a191340727daffa44c471a65058154d422c5299851df004fa"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-063.step": {
+    "bytes": 4973,
+    "sha256": "82568e9a6a4991c63a27f0e6c8a2f5d7e6c23e806839a4e43a3243bc15b8502e"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-064.step": {
+    "bytes": 4973,
+    "sha256": "419c02b06b22410a4d345486d727b26bbc4d6d694ef8badaa076f7b8e1ed49b7"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-065.step": {
+    "bytes": 5028,
+    "sha256": "0b7d3c3550dbcd84bef36458351fae9f7e5912a030804b215da8fe6b8da3e4f4"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-066.step": {
+    "bytes": 5028,
+    "sha256": "7e5edd4c6228e0fcb5853baedac42360a9ac514c74249af54e95d6e15829a8ad"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-067.step": {
+    "bytes": 5028,
+    "sha256": "2c6d86e098a9188a38cd830baed3d3c7bcfe047ea7b2ea46fd8d29d4b1a19e93"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-068.step": {
+    "bytes": 5028,
+    "sha256": "2eae69cb92ab7d14369fc0e7ca2885723a319c668939e1f322e49b6fdb283561"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-069.step": {
+    "bytes": 5028,
+    "sha256": "bbe2e703356dfc154f635a27fdca155b17aaf7281af5d53a2057493f08914114"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-070.step": {
+    "bytes": 5028,
+    "sha256": "a513a908f478afbcaffb1fe4a892e84928dc66eee16acb6b8d55e497eeb9940e"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-071.step": {
+    "bytes": 5028,
+    "sha256": "403454306a6066497e7c759825a9ff39f8032150ba6a4af93942c27e133e5bd9"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-072.step": {
+    "bytes": 5028,
+    "sha256": "c7c23c8bede3e10d5069abb2eabed293548dfdaccdca307552439df2635348d1"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-073.step": {
+    "bytes": 5028,
+    "sha256": "a9afd802232e771f6ee95e542390dff16a3f2aedc4a7a44e58427647f83e17da"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-074.step": {
+    "bytes": 5028,
+    "sha256": "fd5a812732b944aab9711cf8b7bba91606c05826cc25cfa991c6c08824534a42"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-075.step": {
+    "bytes": 5028,
+    "sha256": "49cc01d573d46c1c8011164783d01f3257a4be927bc6b93ce308f520831bebcb"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ROHR-076.step": {
+    "bytes": 5028,
+    "sha256": "9b652dcf06f4ba49800102ad42e650f8871872374543c0b5e4f88e789e167892"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ZWISCHENLAGE.step": {
+    "bytes": 7309,
+    "sha256": "12a9adcd0052dacb0b54059d833857c180d736f29214be2af3bd69d9768e4411"
+  },
+  "Ausgabe/STEP_Sonderteile/CFK-ZWISCHENLAGE_MZ.step": {
+    "bytes": 7333,
+    "sha256": "548d81e4dfc95d20299e746bc721ea13662c9c0fe7b62239d74fe93f41519b3f"
+  },
+  "Ausgabe/STEP_Sonderteile/P12-001.step": {
+    "bytes": 25836,
+    "sha256": "58bc1ef08b771b92c42f0406a3bd9fc8577e7571c3405d10862fd58675b8e6ac"
+  },
+  "Ausgabe/STEP_Sonderteile/P12-001_MZ.step": {
+    "bytes": 25927,
+    "sha256": "147bc1ad783ac6df9382b98e7156e8d367e136278760e2a7b86c14f7dedb13b2"
+  },
+  "Ausgabe/STEP_Sonderteile/P12-002.step": {
+    "bytes": 51424,
+    "sha256": "7b17a483972e636aeb26287737f64fb929c234d1c3b3139edbb4c57ac4cb9b76"
+  },
+  "Ausgabe/STEP_Sonderteile/P12-002_MZ.step": {
+    "bytes": 51605,
+    "sha256": "ab3d276f9d3a7ee8453c9dc63040220b7f6163fc1dc207c21537bb4c2657d14f"
+  },
+  "Ausgabe/STEP_Sonderteile/P12-003.step": {
+    "bytes": 87912,
+    "sha256": "2f2bb0681b4e23558b36ed50b534382387b687f62b27a0d79c40218553efe3db"
+  },
+  "Ausgabe/STEP_Sonderteile/P12-003_MZ.step": {
+    "bytes": 88134,
+    "sha256": "4bcf1668fffcf21be6b9a7668037e6eaa3ff6b1ca3aea2cc6423ec2e7a72b5ad"
+  },
+  "Ausgabe/STEP_Sonderteile/P12-004.step": {
+    "bytes": 4958,
+    "sha256": "669b58b3b1ed5787f190f9dcc38de74f743b119fe376c2cb7d59c8f83ca2908c"
+  },
+  "Ausgabe/STEP_Sonderteile/P12-004_MZ.step": {
+    "bytes": 4973,
+    "sha256": "8a87b5e07e76618b7cccc82f312afea396b743be429b9475db352d0e2c64fb50"
+  },
+  "Ausgabe/STEP_Sonderteile/P12-011.step": {
+    "bytes": 4975,
+    "sha256": "4093d59f9759ca5eb9c362c9501822cd78af730174f15388aa58771dcf71a0da"
+  },
+  "Ausgabe/STEP_Sonderteile/P12-011_MZ.step": {
+    "bytes": 4992,
+    "sha256": "7e8bda6f2d36e0d89c014374f39090d0065b29b95477c9dd881385f4377e66a7"
+  },
+  "Ausgabe/STEP_Sonderteile/P12-012.step": {
+    "bytes": 46292,
+    "sha256": "3604fa82503007df43677c5ca5ff205308029534adfc25db4c8387ba4b79eda7"
+  },
+  "Ausgabe/STEP_Sonderteile/P12-013.step": {
+    "bytes": 4960,
+    "sha256": "7851ab052052daae471b1bc0a6b474731af9f337ab3e056722de1d8ee9a537c3"
+  },
+  "Ausgabe/STEP_Sonderteile/P12-015.step": {
+    "bytes": 29363,
+    "sha256": "7cdd3294a8246337822d80230a16d9854a135e79d6434b5b0dd6c7426aecf21e"
+  },
+  "Ausgabe/STEP_Sonderteile/P12-015_MZ.step": {
+    "bytes": 29448,
+    "sha256": "6637fedf7b6b67f82fc2197f45192875a56af8cb825d1c0ecea379ada218b5c9"
+  },
+  "Ausgabe/STEP_Sonderteile/P12-016.step": {
+    "bytes": 11298,
+    "sha256": "244855d7937ebe41bb8f6d87838f11d9eac0f82c80f41177697f97d2211b6eb0"
+  },
+  "Ausgabe/STEP_Sonderteile/P12-016_MZ.step": {
+    "bytes": 11325,
+    "sha256": "c7926a599ef584da429376c13bccbd3801ed34abf29ed7dd33318d22815447a8"
+  },
+  "Ausgabe/STEP_Sonderteile/P12-017.step": {
+    "bytes": 4967,
+    "sha256": "fa1870964c468e4bceda1d05dad7fd622a44fd8961756c19e2a34a1bab6dcbf8"
+  },
+  "Ausgabe/STEP_Sonderteile/P12-017_MZ.step": {
+    "bytes": 4982,
+    "sha256": "8336c9eeb74fd123a92803f25d47aaaf3025fe1269f355378db1e90a4b52ed7e"
+  },
+  "Ausgabe/STEP_Sonderteile/P12-018.step": {
+    "bytes": 6905,
+    "sha256": "29430e4fa258b3aabab6059e4db07a8f96d5a823f848279c1e6502137972acc3"
+  },
+  "Ausgabe/STEP_Sonderteile/P12-018_MZ.step": {
+    "bytes": 6924,
+    "sha256": "fe73ae234090f38d46a910c50dff176a6cd90dd03422e62134412e4d4c5a8665"
+  },
+  "Ausgabe/STEP_Sonderteile/P12-019.step": {
+    "bytes": 11329,
+    "sha256": "be59443f30fdf1b35c851d0013208b7cfaa5b194309ef67dadf5a17e12c52dbe"
+  },
+  "Ausgabe/STEP_Sonderteile/P12-019_MZ.step": {
+    "bytes": 11353,
+    "sha256": "ace9e92690bf0700666175edc608170d3a4a3374c2a9ff178259c7b756aeeea4"
+  },
+  "Ausgabe/STEP_Sonderteile/P12-020.step": {
+    "bytes": 12865,
+    "sha256": "da77258b08ba2ef700a318b8415fa605859dcd2983982c2dc83f2af6c4fe495d"
+  },
+  "Ausgabe/STEP_Sonderteile/P12-020_MZ.step": {
+    "bytes": 12881,
+    "sha256": "25fe0143aaefcdf755ad4983aa443092e934f8d450c31472737eede61d81c1d2"
+  },
+  "Ausgabe/STEP_Sonderteile/P12-022.step": {
+    "bytes": 4961,
+    "sha256": "45c52db13a6ce265d602cbb3c5867dc890bc8b1155c9f94b746c4a6909627a55"
+  },
+  "Ausgabe/STEP_Sonderteile/P12-022_MZ.step": {
+    "bytes": 4976,
+    "sha256": "b54748466c889dc856f7943be680a1a40577b5d52f903654afb6d7640646d177"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-ACHS-SICHERUNGSBLECH.step": {
+    "bytes": 17043,
+    "sha256": "323f90740d05f7b8a2e7ea75184251454889af16f841cf1e248d4d9046e39521"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-ACHS-SICHERUNGSBLECH_MZ.step": {
+    "bytes": 17075,
+    "sha256": "8b58a28051aeab01be9789bcab08a272fde629405345ac8cdaf704b32efd650d"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-AKTOR-M20.step": {
+    "bytes": 4987,
+    "sha256": "eed108e25a2e93198de98d0d0f367c1fe31d9e75733bf4ec3abc872c8284d1f0"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-AKTOR-M20_MZ.step": {
+    "bytes": 5013,
+    "sha256": "075b6923f81229a658bb1ed7c107f57ccfbbf43a3816a406ef7306bf89b86ec9"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-AKTOR-MOTORTRAEGER-OBEN.step": {
+    "bytes": 47635,
+    "sha256": "5d3249680dd2d0b12cd11ad88d468a108a36da9c55893685fc606e874bb1124f"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-AKTOR-MOTORTRAEGER-UNTEN.step": {
+    "bytes": 47634,
+    "sha256": "0f1534f0c786f1ecfc1084b751c006d7cb766e51d45a9037b05a0a814af66388"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-AKTOR-MOTORTRAEGER-UNTEN_MZ.step": {
+    "bytes": 47891,
+    "sha256": "cb6e3a4287101cbb71d24aa2293f7e510bdf413f460d14460223723fbce7212f"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-AKTUATORGEHAEUSE.step": {
+    "bytes": 61334,
+    "sha256": "3e29d92cff5afff654cd32fe2b493b13a61a796a93891eddad5282c9edf702e9"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-AKTUATORGEHAEUSE_MZ.step": {
+    "bytes": 61781,
+    "sha256": "6fa930a97b1e9d19391cc4ab557729bcb3789cbeac86cf9ab5b019b8926ed3ec"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-AKTUATORWAGEN.step": {
+    "bytes": 26334,
+    "sha256": "450654a34d70378d5ebbc5528fa07f5cd6e390a6a940a7f94ebe01e6e453fa2c"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-AKTUATORWAGEN_MZ.step": {
+    "bytes": 26477,
+    "sha256": "60f85333639e80418bc9eda8a770fd9e17aa8a5beb010097302b83e9e44a5522"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-AUSSENLAGERTRAEGER.step": {
+    "bytes": 112067,
+    "sha256": "b8cb6d12980cf70385561cca84268919a1e06366d23f3e22795f95fadc4cd714"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-AUSSENLAGERTRAEGER_MZ.step": {
+    "bytes": 112273,
+    "sha256": "e830ca9cb00a96c3e4829b725928024f02608871682fbc06d4ba5ba0bfcc35a4"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-AUSSENRING.step": {
+    "bytes": 210788,
+    "sha256": "b03d363639f21a97ad2336eb26dc2045151bb90cb9e56d795534390fb6cadec9"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-AUSSENRING_MZ.step": {
+    "bytes": 210977,
+    "sha256": "4b6d88646993f54a01c97a97fd6fb09d9059fe37c91aa0ed6de51ca98b6c50b9"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-AUSSENZAPFEN.step": {
+    "bytes": 10353,
+    "sha256": "10547e35982a74d5dbd7b517ea210fa26a1e6e86478ca7ce2c7dcc46bd2ed73a"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-AUSSENZAPFEN_MZ.step": {
+    "bytes": 10402,
+    "sha256": "93e87fa103f5dc552b8ff558665eb9aef2da5b38f06c51ee1c4e9fc9e1b0b4c0"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-BUCHSE8-M4-L12.step": {
+    "bytes": 4980,
+    "sha256": "2a0368b31e4eb2f73a457b14a2dc686b404ea39c0b68c951580ffa45b6a8c972"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-BUCHSE8-M4-L12_MZ.step": {
+    "bytes": 4995,
+    "sha256": "02e98edb26080ae92f4364cae9ae3d189f7348723e6cef0695f554f0a32967be"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-BUCHSE8-M4-L8.step": {
+    "bytes": 4975,
+    "sha256": "0d7d9ceca1935e948c5399aa24b220b5b9605b8417f8c84cb2de56adfabcd636"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK-HOLM_HINTEN.step": {
+    "bytes": 17332,
+    "sha256": "73b5f28191abb34d607fdd2e8c2be67003127e12c1caed17e51290f700417fbc"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK-HOLM_HINTEN_MZ.step": {
+    "bytes": 17335,
+    "sha256": "55348d47201941e0d5737784220bdbbf71df8518854eb5f503dbf37ff98cea66"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK-HOLM_VORN.step": {
+    "bytes": 17334,
+    "sha256": "b14077a7e2e63ebd6d5edd7d42cb16ed4c2e926e8d8bb39d49a78e51906905e9"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK-HOLM_VORN_MZ.step": {
+    "bytes": 17338,
+    "sha256": "f98725096dcae45968825fde00480a3c240ba8e33ee9e69fd4836e02659150b6"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK-SCHALE_OBEN.step": {
+    "bytes": 647045,
+    "sha256": "83f9fc347f566a87481ab8214a1ee2eab4cd8af62b79ec372811f5df32484445"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK-SCHALE_OBEN_MZ.step": {
+    "bytes": 649824,
+    "sha256": "5af633424439245bfb615e0eefba55624516d5419fa6270c41e84d3140f55ce8"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK-SCHALE_UNTEN.step": {
+    "bytes": 649276,
+    "sha256": "3e1a23324a9930435de6432a2cdb883174e2e4ec4241029eafaebdfe694da7a1"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK-SCHALE_UNTEN_MZ.step": {
+    "bytes": 646432,
+    "sha256": "35d7f06228bd7f8df45e2027aabeb5e564ebe63d9ba6f8b8b60bdf90492a23a0"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK-SPITZENBLOCK.step": {
+    "bytes": 274924,
+    "sha256": "70c13d8961a90b7f797358f48a628ebadc3f1e00346a55ae9eb44eb2f23b8022"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK-SPITZENBLOCK_MZ.step": {
+    "bytes": 274923,
+    "sha256": "655a9e4e3a3a0a67a62d2083e795654b33e9eda0f3f42caa6cc5a0e1ddcea89f"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK-WURZELBLOCK.step": {
+    "bytes": 213373,
+    "sha256": "9ea928c7fdfbe16069e886987df4daf53a3cf41b003a37bdc187a70bb5383116"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK-WURZELBLOCK_MZ.step": {
+    "bytes": 213402,
+    "sha256": "9869c7cffa7dd83602175e2e206e145154887ca1806af0c826d42b7d28835709"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK30-STREBE-0--1.step": {
+    "bytes": 6120,
+    "sha256": "c8b8b39049e5000fbdf557a2d9403228c894eb186db040aaea2f3dfd504d48af"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK30-STREBE-0--1_MZ.step": {
+    "bytes": 6134,
+    "sha256": "0a588c39b447357ab018cf6f51e7acb16867b4ec311f934c122d58d89aa02881"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK30-STREBE-0-1.step": {
+    "bytes": 6206,
+    "sha256": "d582344e244b9d36c4698cb072e01215cdb953aaa2670ac2110da00e34309d3d"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK30-STREBE-0-1_MZ.step": {
+    "bytes": 6199,
+    "sha256": "9148020fdc47787a71ea5e8cd0a89038d890f3a67f20e823506a16c40c6e55b5"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK30-STREBE-1--1.step": {
+    "bytes": 6120,
+    "sha256": "07a008a8bce70395851c104b569dad08717b06bcfd85f354f8cbad6112bba3ee"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK30-STREBE-1--1_MZ.step": {
+    "bytes": 6134,
+    "sha256": "66a1102b62b69b80b69fcd8afd97a4c5271d999737da159be02a9b681e540f72"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK30-STREBE-1-1.step": {
+    "bytes": 6206,
+    "sha256": "3d0e2cd6e1a93f787336c94e82ad014477528e07a092e24534a10bea0a9d85d9"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK30-STREBE-1-1_MZ.step": {
+    "bytes": 6199,
+    "sha256": "2c440be51d238ce5483ee52cb73a17d2331becf0296808905352ad5be3fbfd98"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK30-STREBE-2--1.step": {
+    "bytes": 6120,
+    "sha256": "3828c99caaad27a0656d55896b6373bc92e019994b2a5f37b5107863c5a10f62"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK30-STREBE-2--1_MZ.step": {
+    "bytes": 6134,
+    "sha256": "615560a5e3fb65afc14576d02c5e4fa520f3f2174b907dc239ab77f73c2e1db4"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK30-STREBE-2-1.step": {
+    "bytes": 6206,
+    "sha256": "1ca1e92ffc69cd940077e7e46be9ec10495ab17c1960b0faebabb15e5a4d12c7"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK30-STREBE-2-1_MZ.step": {
+    "bytes": 6199,
+    "sha256": "3bea24cc0590579fafdb99861c271f056d7883f966b4f7715cd3b14299e19295"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK30-STREBE-3--1.step": {
+    "bytes": 6120,
+    "sha256": "da57faf46482fe1d0c4394a3dffc367aee763f5cdc4bd9e4967597fb7262b64d"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK30-STREBE-3--1_MZ.step": {
+    "bytes": 6134,
+    "sha256": "8567b80755f4667b53154209bd4296160bb3e64ff65f7447d3669b796db282b7"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK30-STREBE-3-1.step": {
+    "bytes": 6206,
+    "sha256": "18b3cb72916fdda01ff4a128b3769529f9d849d52c9ff7dce164e03bbb6582c1"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK30-STREBE-3-1_MZ.step": {
+    "bytes": 6199,
+    "sha256": "7869c476d2df5138ea1dd10603c226ddc88f65dd33c0f4565965ab91179bef39"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK30-STREBE-4--1.step": {
+    "bytes": 6120,
+    "sha256": "e0bedeb9cd5f8f3574c91614b899056a39a44526c50a27330475a5b3e27fe0fe"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK30-STREBE-4--1_MZ.step": {
+    "bytes": 6134,
+    "sha256": "254a69c51685090d43fc651ae8e591c42e83ccb7b511f68bc711fe50a4da86b9"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK30-STREBE-4-1.step": {
+    "bytes": 6206,
+    "sha256": "f65ec8b6903fb1caddcc93921fe455ea786fd40cfffa0198728a3eb5a539a065"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK30-STREBE-4-1_MZ.step": {
+    "bytes": 6199,
+    "sha256": "7127f38768c2e71fe0b42922d6e35b04a143f3ebd245ece324077404468e5fee"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK30-STREBE-5--1.step": {
+    "bytes": 6120,
+    "sha256": "ae3bc70cba51e73f3e79f649dae7b09dbb4edb1c58bfd3cdc4515f0f020c14dc"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK30-STREBE-5--1_MZ.step": {
+    "bytes": 6134,
+    "sha256": "2753f24d3fd13c2be5728c1418de716c4c2aa4e90b1da3c8d6e7ab4cd5b8ece2"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK30-STREBE-5-1.step": {
+    "bytes": 6206,
+    "sha256": "b5ae45406aac950c3db8c180f8a10d54496af6823aa20b5dc678b972ee46abf9"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK30-STREBE-5-1_MZ.step": {
+    "bytes": 6199,
+    "sha256": "f09fe531728f5fcb80cca019f5e903b36f0bf3d97b936f1824846e96d8e7244c"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK30-STREBE-6--1.step": {
+    "bytes": 6120,
+    "sha256": "d7c9a8cbc68ff6d1b47582081f03f2be45d622e1f8e1fe3c4d2f71fb52f8a7f4"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK30-STREBE-6--1_MZ.step": {
+    "bytes": 6134,
+    "sha256": "07b5ae6aa89eb862ecda48b33ee4f135b9e3e8f22f20c36c972db45deffca211"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK30-STREBE-6-1.step": {
+    "bytes": 6206,
+    "sha256": "ac24dfc8f9457937f626dcba6f7722a2e60daf37d3803d63e141a0b89f3fd1d5"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK30-STREBE-6-1_MZ.step": {
+    "bytes": 6199,
+    "sha256": "86e391d99157bdbd6dfb98968f6fb33181c2f0b279aa930f8a6366997323133a"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK30-STREBE-7--1.step": {
+    "bytes": 6120,
+    "sha256": "964d3e6743d5f0962eecd20196f767de61032fc877783279b1ff8b37cc3133cc"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK30-STREBE-7--1_MZ.step": {
+    "bytes": 6134,
+    "sha256": "4addfa813306ce792b419376be38fffb226ced3498c890ce588d3412aa74905c"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK30-STREBE-7-1.step": {
+    "bytes": 6206,
+    "sha256": "eb4b8a0535910407bf0711d8d864ce797719bbe63a45b2693c36c4d3e7a17cc0"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-CFK30-STREBE-7-1_MZ.step": {
+    "bytes": 6199,
+    "sha256": "703d224eb4f79c4a7b79a3c6f8a5906005bdc2263f8f2488775d8aa317019df2"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-DECK-DRUCKHUELSE.step": {
+    "bytes": 4983,
+    "sha256": "f218e9e7463fe9dbccabc89fd556d4c498e41323dbb270fced6c96f733cd09b5"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-DECK.step": {
+    "bytes": 32604,
+    "sha256": "be6c339b1a4e3ec9da11444bb35d4a2049a9dc13968f8a3225ec7683bf2e4164"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-DECKSTUETZE.step": {
+    "bytes": 11352,
+    "sha256": "a5a353f0d1d6d5e40810ec4828d208514cdf970422e2164162d511f377337bf2"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-DECKTRAEGER.step": {
+    "bytes": 37581,
+    "sha256": "3604af462e95c5716fd152c4ce73d439e1bb161ee09c05573656f5489cb43094"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-DISTANZ-AUSSEN.step": {
+    "bytes": 4989,
+    "sha256": "efe6d647e10c3ca5ce792f68d8c9f89365469e8e6c1675b75c9bfe7796ce97d1"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-DISTANZ-AUSSEN_MZ.step": {
+    "bytes": 5009,
+    "sha256": "876ffaa1ff0b4b22938a286ab3b743de265c4717d6967e43be2d31b3015df4eb"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-DISTANZ-INNEN.step": {
+    "bytes": 4983,
+    "sha256": "7b5cb23ceda2fa3862c6e106f42523fd130a80f58ca9bf575aef7b4be893cdbd"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-DISTANZ-INNEN_MZ.step": {
+    "bytes": 5003,
+    "sha256": "b483b6cbf8ada6d0033cb5edc46f569fe87ad09ab8a2155c42b33719d09ffd13"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-FACHWERK-INSERT.step": {
+    "bytes": 4975,
+    "sha256": "a44d0c772862f4dd693f8806f28b0f8dcde940a0139067b972b4ceed91497cc4"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-FACHWERK-INSERT_MZ.step": {
+    "bytes": 4995,
+    "sha256": "583997de3c2f5ed5c86cd9b1d4fe36d354dd39873a2853babeee676f463d3088"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-FACHWERK-PYLON-MITNEHMER.step": {
+    "bytes": 59149,
+    "sha256": "70d1365de3088182565e5bfd16c1242602c0d3a859041664d9ed28987f0a6d78"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-FACHWERK-PYLON-MITNEHMER_MZ.step": {
+    "bytes": 58998,
+    "sha256": "c2bff774f2563cdcece2951a96f81d1ca803c4a2f0e23861d3f0f238f5b6509c"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-FACHWERK-PYLON.step": {
+    "bytes": 32584,
+    "sha256": "e95b1c4e49f8171514e13bd49d4a517a667f6ab3464e4b94823fd9c49acdab28"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-FACHWERK-PYLON_MZ.step": {
+    "bytes": 32492,
+    "sha256": "417b9ea97f660bc9fbf9edb17f34804ad90d920a8fe2792d1557cf2476e8a5c0"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-GE-DECKEL-OBEN.step": {
+    "bytes": 14155,
+    "sha256": "2e4ebaa08750b196ea8bc1f2aa606c66ccba06af8ecfd04e83bb004545066504"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-GE-DECKEL-OBEN_MZ.step": {
+    "bytes": 14235,
+    "sha256": "26946611a74c0d24076a02b3d249963d1c7a739af9f38cc18562d07c53eee82a"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-GE-DECKEL-UNTEN.step": {
+    "bytes": 28988,
+    "sha256": "7fa5fffa79145850085e135abb8abebcef21d19a8dcf57f034afca85913e1fe6"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-GE-DECKEL-UNTEN_MZ.step": {
+    "bytes": 29165,
+    "sha256": "256df88c23822ea8cb1dd044d6425110eae444fb94f85c5342b7989e0613358f"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-GE-M60-OBEN.step": {
+    "bytes": 5001,
+    "sha256": "020bc9475665cdd002cbe65a4cff83473aa1be53e969dbf814972fdc8a36fd33"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-GE-M60-OBEN_MZ.step": {
+    "bytes": 5027,
+    "sha256": "34f49c5c7da40f69466062f9855ebbc0f2fde0748e6ce00103db78399c4f71d8"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-GE-M60-UNTEN.step": {
+    "bytes": 5001,
+    "sha256": "cacae62eeebd626f36d49175bd117c4b6e88a12e132991330987ffabe43ce277"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-GE-M60-UNTEN_MZ.step": {
+    "bytes": 5027,
+    "sha256": "94e9ef136ee41c574d30dbb87155162139403e2d981b4656a68af62f9cf7a5ed"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-GE20-DECKEL-OBEN.step": {
+    "bytes": 15749,
+    "sha256": "ead185563d773c0d8b696ee819925148b2af8dd2cee87c6214c9b136357e7bbe"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-GE20-DECKEL-OBEN_MZ.step": {
+    "bytes": 15835,
+    "sha256": "a3308f4b9d424759e67311ef4558dc674662d5cca1bb5c4a8c2b8088cc7b4ca1"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-GE20-DECKEL-UNTEN.step": {
+    "bytes": 15753,
+    "sha256": "d772a8f436ae090b3a889b763ac628b06b9aeaa037cbc880af362f70267dab46"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-GE20-DECKEL-UNTEN_MZ.step": {
+    "bytes": 15815,
+    "sha256": "5b4bd5a7b5e310261c7b3d2436abe232f400d281e75bf5506be84e5e3f6e9ca2"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-GE60-AUSSENDISTANZ.step": {
+    "bytes": 4963,
+    "sha256": "91aadc19fde3e872cc916ea73f0db17b1498fd509bc8ef57cc0cabe4c1ba1489"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-GE60-AUSSENDISTANZ_MZ.step": {
+    "bytes": 4978,
+    "sha256": "e0bc8cdd37707ba586e57111d97f76d2019f66673262bfe89634901412f1e7d7"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-GELENKDISTANZ6-L1.step": {
+    "bytes": 4951,
+    "sha256": "a4ae63f9fc473d6340a321ee354c897874bc7b3a1ff6775e391290c6f04e6fcb"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-GELENKDISTANZ6-L1_MZ.step": {
+    "bytes": 4971,
+    "sha256": "52c28e44b77363507f8e4b52447be386504028e5ffa6da8725a9118252691e8a"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-GELENKDISTANZ6-L2.step": {
+    "bytes": 4951,
+    "sha256": "17161cd210acc1fad60e842f4703af4cb529d853453da7145427ff3e7bfbfea7"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-GELENKDISTANZ6-L2_MZ.step": {
+    "bytes": 4971,
+    "sha256": "cfa4f11cfb03115f14643bc80214b9142c869133913c48990faf6024e689a178"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-GELENKDISTANZ6-L3.step": {
+    "bytes": 4951,
+    "sha256": "873349619d40bfa04247b270013b6a86b78fc3af1100daaa926dbaa0024f2d8a"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-GELENKDISTANZ6-L3_MZ.step": {
+    "bytes": 4971,
+    "sha256": "a5d4e185f3f50ff10d94e60ca4a9c1895cef0f526a8fa09f81349fe7aba3e342"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-GELENKDISTANZ8-L3.step": {
+    "bytes": 4957,
+    "sha256": "adfdf680a6ecfec5988f12eb54a51cfda2a9285668a607aed6d440e8964f2118"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-GELENKDISTANZ8-L3_MZ.step": {
+    "bytes": 4972,
+    "sha256": "2d4f352d48c903d4e57e0b1a0ed1ff4bf36591e0c6b21ef8778fa194a8decb84"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-GLEITHUELSE.step": {
+    "bytes": 4995,
+    "sha256": "e887e53d99d917be54c1e2dd6a2daf6f9335cfb2eb88dddb4b663f3beb62a675"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-GLEITHUELSE_MZ.step": {
+    "bytes": 5021,
+    "sha256": "f7ae8e3590252476449763682bc9cc31978f9f9b51b502568535c7582cc41694"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-HEBEL-ANLAUF.step": {
+    "bytes": 4975,
+    "sha256": "47618b934379e8719e37acb6ecf8fc5d24efdfd1f46d57c4542ff127a66e0063"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-HEBEL-ANLAUF_MZ.step": {
+    "bytes": 4995,
+    "sha256": "5fc18de3c211a44a089743aaf5e988f18d79138f57bc54e9672f282a98e7c278"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-HEBEL-DISTANZ.step": {
+    "bytes": 4974,
+    "sha256": "5bf3fd18a9e0c041d6dcd9a9e2e062ff5beefe4b7bfdb0bac710d1b4956dd1b3"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-HEBEL-DISTANZ_MZ.step": {
+    "bytes": 4994,
+    "sha256": "e0e19c9608cb36b0604c62f29c58e505e2e6475e300855f8b725e70ce4480034"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-HEBEL-ENDSCHEIBE.step": {
+    "bytes": 4969,
+    "sha256": "b7463d6be5b3e9fa7cf3a1e343b829e3f4bc03fb6ce0838a8d7c990eafa1eab4"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-HEBEL-ENDSCHEIBE_MZ.step": {
+    "bytes": 4989,
+    "sha256": "df0fe165b10e47e4ef218ea1689254e0110b3a0884c4820ab52f701d695e4af1"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-HUBANSCHLAG-B.step": {
+    "bytes": 35240,
+    "sha256": "d5903aa3dbc3fed5da96c8f35a68d5fe8b163ad89f31a38ce5e426e6b5c56e9c"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-HUBANSCHLAG-B_MZ.step": {
+    "bytes": 35457,
+    "sha256": "276b88e5ee6ce16d23681aa2ad6c22e14a49806cf796bfac29156c0b5e35b170"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-HUBANSCHLAG-OBEN-B.step": {
+    "bytes": 35380,
+    "sha256": "dfc197ad9044862328658ef8d30d93bf90d1f1ed873706be49dcf7f8812ff8c1"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-HUBANSCHLAG-OBEN-B_MZ.step": {
+    "bytes": 35616,
+    "sha256": "aae81e280c227f40b297408a5cb9980a824baffa57a5932eeffa397779494687"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-HUBANSCHLAG-OBEN.step": {
+    "bytes": 34140,
+    "sha256": "436f7ff8bc7201c3f39801c7be0ee1ede1fff4ed77fda738c2b08765fb91fca4"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-HUBANSCHLAG-OBEN_MZ.step": {
+    "bytes": 34337,
+    "sha256": "57752caf8e767deaf4d65120bbf2bd4cc037b046b8ce2aa0c68261bfdd3962a9"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-HUBANSCHLAG.step": {
+    "bytes": 34001,
+    "sha256": "cfe0e2d7f3cc13957f26fa46e1ba62e7a6a080b7243c5ff08155266f686bcd3e"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-HUBANSCHLAG_MZ.step": {
+    "bytes": 34219,
+    "sha256": "b951209f3d4830e0271274b8d7a3ac36d4d0e44e008ef9dee23b42632bdee4f8"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-INNENRING.step": {
+    "bytes": 484094,
+    "sha256": "b6d39d4f9981f76eb24d493b8ca2338b8ee6740602ed8efba585bb1482f1b357"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-INNENRING_MZ.step": {
+    "bytes": 484473,
+    "sha256": "245972379beae4601854886c6c43b642b305cae15aacafba4d4e32df9ce97590"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-KUFENKLEMME-1.step": {
+    "bytes": 10512,
+    "sha256": "b438740723686c549ef22a225bb10bcfc9279aa758be35bdd67353130986c74a"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-LANDEBEIN.step": {
+    "bytes": 14851,
+    "sha256": "327d28b7d9beb0a6cee0c71706e4826cfd697a3530e109b749ed645ed1ef47c2"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-LANDEKUFE.step": {
+    "bytes": 5034,
+    "sha256": "40b4f3d559b50549c463d4038e8ff030b1831a1c10aacf218bcdb0ef75611f42"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-PITCHGESTAENGE.step": {
+    "bytes": 3579,
+    "sha256": "a543bfcd42d31880b4ee2894471c0c7d068972c2909de0d2f2405f237861dcdd"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-PITCHGESTAENGE_MZ.step": {
+    "bytes": 3588,
+    "sha256": "069bafccbb7722faead6f408f515014fe1308c584088a486775a4d9c9a0e4a1f"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-PITCHHEBEL.step": {
+    "bytes": 15410,
+    "sha256": "36eb4b3b87cd0cadf8e58110bcffd17829fd128cc79ac3039efba708d447e145"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-PITCHHEBEL_MZ.step": {
+    "bytes": 15494,
+    "sha256": "e717eb37609c2f753b6f6482a7512cd1355e7ac8d8cce39f1a3fca02f660dfbb"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-PITCHWELLE.step": {
+    "bytes": 19222,
+    "sha256": "f28099a61d7eeb19fceaae81e4f130d79e44bef259c826b6181625534339cf50"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-PITCHWELLE_MZ.step": {
+    "bytes": 19332,
+    "sha256": "8ad2bc0845fd4738a47ccf24ba0b02f39fb65bb3d6bfa1cd195e6e764593480a"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-SCHERENDISTANZ-12.step": {
+    "bytes": 4962,
+    "sha256": "bd043cddf4b23c219da1b372b7fef9e2edbc0d26bbf0a455b156efd451286cb4"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-SCHERENDISTANZ-12_MZ.step": {
+    "bytes": 4982,
+    "sha256": "639219c123e70008a43cef62d51f828c5863a701ff0f58cdc725e5a02e4a538c"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-SCHERENDISTANZ-2.step": {
+    "bytes": 4957,
+    "sha256": "d85479f2f6d131ab2639324e689f99c8bf4b26ed1cd54ec346b5eeb88941267e"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-SCHERENDISTANZ-2_MZ.step": {
+    "bytes": 4977,
+    "sha256": "7053673191d2303e6e1b5bacedd5d3aa2abde202c5c6cf171a71cdfb6bc6feb3"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-SCHERENDISTANZ-4.step": {
+    "bytes": 4957,
+    "sha256": "81379d4441ec70bf31bd93ea635ea15de3758bfc718974e591b56f15bcfc137f"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-SCHERENDISTANZ-4_MZ.step": {
+    "bytes": 4977,
+    "sha256": "42c8dc312cc6a7b4b83ecc7b148013a931b990188b9568bcfdcdfec916348fb8"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-SCHERENDISTANZ-6.step": {
+    "bytes": 4957,
+    "sha256": "74861f8b116d12ef1365ff52b7841c49cf699f182e8ee03e2ab2d8c380dd83d2"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-SCHERENDISTANZ-6_MZ.step": {
+    "bytes": 4977,
+    "sha256": "bbe76c8d9551c230645370cd847a93697b37a54e8d67f508a2b55c2d1c2a9609"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-SCHERENFESTPUNKT-B.step": {
+    "bytes": 36168,
+    "sha256": "9700c42646fbf466b6530afd132fd8c009686a5d1c256da1aabe8d5141a8c7ea"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-SCHERENFESTPUNKT-B_MZ.step": {
+    "bytes": 36419,
+    "sha256": "7f150fda8ebcdb6f03c45d95693fd634b0ab39351bfffbf9b44592f1f9029e86"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-SCHERENFESTPUNKT.step": {
+    "bytes": 27733,
+    "sha256": "56367e194f14ae9dee3a3b39df8dc19293c0434908065c1c756b6099f69b1b5f"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-SCHERENFESTPUNKT_MZ.step": {
+    "bytes": 27936,
+    "sha256": "92d8663758aeb885757ae28a1687f35e00a7ffa763c34d1283163f08086496da"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-SCHERENLASCHEN.step": {
+    "bytes": 21838,
+    "sha256": "1aaf770012de630dd9809ba5e1a8e0e3f52ed5d41dcc5cd572c7bd20471a0f2b"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-SCHERENLASCHEN_MZ.step": {
+    "bytes": 21937,
+    "sha256": "aff9d81e64a4b0db8a5b894c0f60e9b85df03b48e848f2f1192d292f88626b59"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-SERVO-DISTANZ2.step": {
+    "bytes": 4969,
+    "sha256": "ba9574b687d0248cb0ad20b95291fb695ff815ac921e3f927dcb8a34e0af50ff"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-SERVO-DISTANZ2_MZ.step": {
+    "bytes": 4995,
+    "sha256": "35c8077d6f2fad4998c0512f9773aa8e0835e9815ac0cc5f72d46815c78f4253"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-SPEICHE-CFK.step": {
+    "bytes": 5008,
+    "sha256": "4e5832a8e11cca40bbc0ddfcdecc9c63d10fa7b9478eda9ac80f5317fc178586"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-SPEICHE-CFK_MZ.step": {
+    "bytes": 5008,
+    "sha256": "f51c998a452f90964135a6ffdc81dd0564ecb84845ab568d23c18bfddbe61148"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-SPEICHENWURZEL.step": {
+    "bytes": 35430,
+    "sha256": "a57f0a1227d03f3446c3ba5c20f5c637354ba44f7db79a63c50fa33c8d601c37"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-SPEICHENWURZEL_MZ.step": {
+    "bytes": 35400,
+    "sha256": "1265f41a1e1606f46cccee46a5258a23687f9886814d6e4dfe2950c5efca5ad9"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-SPITZENEINSATZ.step": {
+    "bytes": 4983,
+    "sha256": "8800b5e6d02ea3a60f04861f143af79af3dc1dcbab78b04b9c5aee0687ef7dce"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-SPITZENEINSATZ_MZ.step": {
+    "bytes": 5003,
+    "sha256": "496b79a4103465ffdbd03d9078cdf4c692e35cac8c747ccbee7f3a3249f4c323"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-TAUMEL-AUSSEN.step": {
+    "bytes": 264245,
+    "sha256": "b7ec41571134f57cbffeb48db2b49e32e6e3bc525f3ae461b15e90191c50bab3"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-TAUMEL-AUSSENDECKEL.step": {
+    "bytes": 17529,
+    "sha256": "8623ac9eaef871f0a6cff0283ac5f46e064201711b109c7e73daf1cdd12d0802"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-TAUMEL-AUSSENDECKEL_MZ.step": {
+    "bytes": 17627,
+    "sha256": "905a2a0df52c4b924bb4876636184ec32d814ea2a0fa7ba8d5ab1aa7bd791e1e"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-TAUMEL-AUSSEN_MZ.step": {
+    "bytes": 265716,
+    "sha256": "036cb5125971cc6d8ea721b179db6db8ed3847035f8920e451bae8cf3ae71b10"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-TAUMEL-INNEN.step": {
+    "bytes": 166905,
+    "sha256": "09b30a8c3329323432dcc8dc5bd74e538844399ac4dbd03e45bc5494d2817669"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-TAUMEL-INNEN_MZ.step": {
+    "bytes": 167879,
+    "sha256": "fc0374fd4bc9114540f2792f90b7c09000b6c2e9b8c016450d326c5a4203e737"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-TAUMEL-M100.step": {
+    "bytes": 5015,
+    "sha256": "e1793c479f25cb99706a70f8d197c554bbd2788eee4e1473164d4a8a5c5cc33f"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-TAUMEL-M100_MZ.step": {
+    "bytes": 5041,
+    "sha256": "6661d582cd4a1f9410c0c393efcf44506681e197c5419828694705a7408feacc"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-WURZEL-ENDSCHEIBE.step": {
+    "bytes": 4986,
+    "sha256": "609c42ec10badccbb9a3cee049c06e0770ce2d6521fb7fb8dd04fe55795f16b1"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-WURZEL-ENDSCHEIBE_MZ.step": {
+    "bytes": 5006,
+    "sha256": "b8942ee5127717da2225b5652ac3896c8e3b332e454310bf6ce590388357bb4f"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-WURZELDECKEL.step": {
+    "bytes": 12635,
+    "sha256": "f2a0cbd3d69d1954db0860920ecd69ab4ec1756b6a14f55a5cceb80e49fc7a31"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-WURZELDECKEL_MZ.step": {
+    "bytes": 12698,
+    "sha256": "060e93c15541c0045d4862556b7ead9c4176ef575f73155dc4e63337cd1d85b5"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-WURZELEINSATZ.step": {
+    "bytes": 11393,
+    "sha256": "7f9f6eb93b10b0dad22d75e4d1e44eef4a4d0575baf69389d2aa3b3939316069"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-WURZELEINSATZ_MZ.step": {
+    "bytes": 11458,
+    "sha256": "9774997170da329b8dc099ca99bea5592ddc0060aa53fef0efffbb457d362574"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-WURZELGEHAEUSE.step": {
+    "bytes": 21928,
+    "sha256": "0e6cd683e97deab46fe6c2ff9b2f283ebb23e2cc0fc13c9a3960fa42c0363c1b"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-WURZELGEHAEUSE_MZ.step": {
+    "bytes": 22042,
+    "sha256": "43d8b9c70ca411ba5da0147d7fee05fbef65db1b6eaf7fb4a7894775e6c3c115"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-ZENTRALPLATTE-OBEN.step": {
+    "bytes": 84745,
+    "sha256": "820c9e4eb68f1956fdea413d41949026c76d4b1ed7729c7d464525332940f1da"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-ZENTRALPLATTE-UNTEN.step": {
+    "bytes": 84745,
+    "sha256": "6a5fc52896450ba7b6ccde31d345d72c9277f0655adfe309fd7f42f4e51f9b8d"
+  },
+  "Ausgabe/STEP_Sonderteile/P13-ZENTRALPLATTE-UNTEN_MZ.step": {
+    "bytes": 85230,
+    "sha256": "a20fcec139f3a64cc1002aef5d55e32433ee728b76b25d483c8895587ed091ad"
+  },
+  "Ausgabe/STL/CFK-BRUECKE-END.stl": {
+    "bytes": 11084,
+    "sha256": "0fb70730a88acb60f301864d8fc52cda8c4d68df93d150bad0ca31646f30fe7e"
+  },
+  "Ausgabe/STL/CFK-GUIDE-A.stl": {
+    "bytes": 20284,
+    "sha256": "f42507b4280aa8f9d63dc42aa60783007c25ee80058a4edf9d0dbd17706b8a3d"
+  },
+  "Ausgabe/STL/CFK-GUIDE-B.stl": {
+    "bytes": 12084,
+    "sha256": "855006c1653f7c9c49a8aed7c00a7ad44959139732d7d0343df6b8e924069435"
+  },
+  "Ausgabe/STL/CFK-GUIDE-FILM.stl": {
+    "bytes": 8684,
+    "sha256": "2b7bd28db33ae7e920653e14d8c5b405a8935176fe562e6e71572a9eb9e5882d"
+  },
+  "Ausgabe/STL/CFK-KLEMM-A.stl": {
+    "bytes": 41384,
+    "sha256": "11602643b3e98be5f53839bc1b1d0e9ae3ce10c8c68b559eeaaff43e27dccad5"
+  },
+  "Ausgabe/STL/CFK-KLEMM-B.stl": {
+    "bytes": 41684,
+    "sha256": "41495e247473ba61adeb2c5a3f894f622c17ca47f3bd491ad826f1e2782cc30e"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-000.stl": {
+    "bytes": 123984,
+    "sha256": "f244e2204f2f195bdb6cfc1d2ac1151bba7a6d26b41064c13d541054e652c630"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-001.stl": {
+    "bytes": 78384,
+    "sha256": "c92f0ea3a21333524133ada02a3f7f6d0beb30805450d00698cd236ee8a65506"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-002.stl": {
+    "bytes": 78584,
+    "sha256": "c172b6e191d73b75b9c4e7eb1728d84a337cdc034de3e41045882f6cfdbe6f6c"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-003.stl": {
+    "bytes": 78684,
+    "sha256": "45a1c29797afcf075db24b0513e90e5f93d86ee01d425f9ce523ee91a5c5b8c4"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-004.stl": {
+    "bytes": 78484,
+    "sha256": "4d5d2391a97335fe8067beebdbd291149d941afc4a95d957a4d013051cc54404"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-005.stl": {
+    "bytes": 123584,
+    "sha256": "7a45465de2deffdd57389b92336b46786d533c6a0b9568eb02c718a7737086b6"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-006.stl": {
+    "bytes": 123984,
+    "sha256": "32cd6ad9b3c9b61cd3b65dbaf7ab8a800f85ea6d5c62169759ee63f1030928bc"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-007.stl": {
+    "bytes": 78284,
+    "sha256": "1b244bc60fa8240c0e3dce14057265c2eaeb60ed76e3f39352cb223f50b0ceb4"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-008.stl": {
+    "bytes": 78684,
+    "sha256": "e04299a9d080ed5339d50ba32e34406939e3b300612f81c22ea5fd072fc300c8"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-009.stl": {
+    "bytes": 78584,
+    "sha256": "ac398360350b59e5c92ad0545f88335e09499812ac0dacf9eff55beae12a4244"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-010.stl": {
+    "bytes": 78584,
+    "sha256": "3f10ab7a07671a2b9dbfdeb41eb1f4cac6a5dbb80903c76c2c646b2ae67751fc"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-011.stl": {
+    "bytes": 78484,
+    "sha256": "0906488658045daaeaf0ce06e895e8a8149ec5165540c953d3732b1334630a75"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-012.stl": {
+    "bytes": 124384,
+    "sha256": "0210898b926836483e37a8930d2614bb0867796b29b52bc8cbb7658eb91067bf"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-013.stl": {
+    "bytes": 120484,
+    "sha256": "63834534f22c8674186174322e1e1751129bb6de74dbdad2e2d73b2a8f215e55"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-014.stl": {
+    "bytes": 98084,
+    "sha256": "7156337fa002832b07a7f2c436cdd394afc228a776d40ea7beb8f289ee0a7dcf"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-015.stl": {
+    "bytes": 98484,
+    "sha256": "2151d59c2648f346369df719ab912db095f29faf2b5029f510434e1e302b8080"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-016.stl": {
+    "bytes": 98584,
+    "sha256": "06498f04096943c99178e2ee21e47ccda6bc746b7409c86c8ec4efe6ece5c8f5"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-017.stl": {
+    "bytes": 98084,
+    "sha256": "b7d05753483d4f91478d70da7bf61e0765a6098b8b77c599a709be41d6de021e"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-018.stl": {
+    "bytes": 120784,
+    "sha256": "94137fd3920223692bf6c627164de065be9b3fc2e5e9381da7a61c7091029d0b"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-019.stl": {
+    "bytes": 120384,
+    "sha256": "a0648197c84de1a9c728a9d0b39443fc77ea3c8476230d5be12a5a2214452021"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-020.stl": {
+    "bytes": 98084,
+    "sha256": "61aa8696747a0ad3e036155601dbc510bb35745f50cc026c0be590b8046da352"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-021.stl": {
+    "bytes": 98484,
+    "sha256": "17eafda7dc5fe30c442cd45bebf54e8092bfd7ea10c347e536a5ab68e94a9c7b"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-022.stl": {
+    "bytes": 98484,
+    "sha256": "7598fdbda31d9a1ad57d3e9f411a162f007db61949c2ed336c94d585eac03394"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-023.stl": {
+    "bytes": 98284,
+    "sha256": "1fca4c65a6846eb6c1b88e8cc04e3c29d96b86ffaa96136bf295c3af3f35e552"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-024.stl": {
+    "bytes": 98084,
+    "sha256": "6b57ce5899b9ddde8bbd5877662478559b2c6852abf7c28909005d423f1140d4"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-025.stl": {
+    "bytes": 120084,
+    "sha256": "e0ec7fdc9a2cd3ce4876669a3d9e12629d5853ba30b19bcd2b571ce3bf1c1ad7"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-026.stl": {
+    "bytes": 100984,
+    "sha256": "916d66bf973669cd65686439aba6d1c28c4fea760e66d8337c5d28e5c00f7d88"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-027.stl": {
+    "bytes": 78584,
+    "sha256": "936b26529f364519869deb8cf127368613c8406db7805a094ae5fa2f04384881"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-028.stl": {
+    "bytes": 78584,
+    "sha256": "237a889f0623b2a7c477b46a0bc82c8de5da82815c169773630d66b23e64054c"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-029.stl": {
+    "bytes": 78584,
+    "sha256": "b82d8af9737c999805fbeb559c5bab78946ad7024e08da6e52ecf3936516deea"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-030.stl": {
+    "bytes": 78584,
+    "sha256": "3f90b140b71f42092a2e734108fb098c5162ca8170b3b06488ad900778c47b2c"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-031.stl": {
+    "bytes": 100484,
+    "sha256": "c0d7ccb0e9bf64ee6d2d16577d87470c924e19815035b1ca2081fd95075c568e"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-032.stl": {
+    "bytes": 100484,
+    "sha256": "e319d4687847f953244f893dbc45cf5aeda7eb068eb6e232d46fefa8ea62888a"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-033.stl": {
+    "bytes": 78584,
+    "sha256": "2ba9a9995508a5361987b4b09efe2ac7ac5ac50e9800ad3c300a4c0a15f2950c"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-034.stl": {
+    "bytes": 78784,
+    "sha256": "d6656a23d55a7d9d29b6fa20a0fc5cbdd7d85d2984adfc12dbbb453425d1bd04"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-035.stl": {
+    "bytes": 78784,
+    "sha256": "fb8462988b2879538ffdc87fe41028166f18edea16513e49919d620ccb7e50ec"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-036.stl": {
+    "bytes": 78784,
+    "sha256": "cfe93b00a3c13b074ecc57d44068adb0451a8ac5550add1b5ec5e1a3e274b624"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-037.stl": {
+    "bytes": 78484,
+    "sha256": "980c0c6aac0b187be747122e58fb356d54ed6c36e5993ef8779171bb34f14b82"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-038.stl": {
+    "bytes": 100484,
+    "sha256": "65c376056492e115f37917c8c5d4cb0e9c3729e43f2c3f5011db8783b4b76143"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-039.stl": {
+    "bytes": 61684,
+    "sha256": "45390c984d6fe6b7745994ffe68fbdd3917d2f11e3a905f6e52d3e4bc7e4e120"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-040.stl": {
+    "bytes": 61684,
+    "sha256": "3b690fa8dfef72a23bf525e33610f977532762ca3617a2c4359a8d4d7bb3d83b"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-041.stl": {
+    "bytes": 61284,
+    "sha256": "5e4150622b04f4779d711b73344db6cfa2311c32971f28dbcead82f2935921aa"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-042.stl": {
+    "bytes": 61284,
+    "sha256": "d956b92811780d5a59e1c99f958ff2c033a8e7e9e36efbd2019e82a8d9f9d406"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-043.stl": {
+    "bytes": 39484,
+    "sha256": "196abe7c4e41855bf8254fddfa9988d50705bebeda606bcc782dedf0160c33c1"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-044.stl": {
+    "bytes": 39484,
+    "sha256": "5b7d748754b51d9fc6e230d1b389662950c349528e5c1e0ca58e38d6feeb04e8"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-045.stl": {
+    "bytes": 39284,
+    "sha256": "4206007d0c5fa4cbd90ffc543f0c0680e52810b1ca333ca3b46e867ff1aa1305"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-046.stl": {
+    "bytes": 39284,
+    "sha256": "c4c9e8c2212fbfb18d41000cb7022604dbe7b19ac033068ce24d11ddcca31f39"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-047.stl": {
+    "bytes": 40384,
+    "sha256": "a42505e1b48d5abe831ebb7aa1fcf6738cfb76d668642c7d8f8c8f22d2d645c3"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-048.stl": {
+    "bytes": 40384,
+    "sha256": "abc9965425d82c2ad712b6db530206f924f64973d6d84017de7fa0867a2a72f4"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-049.stl": {
+    "bytes": 41084,
+    "sha256": "dcdd95bde0ed99ff10bec7b496c2cbf9a72b81ccf210328cfd8c6fdf8dafa71a"
+  },
+  "Ausgabe/STL/CFK-KNOTEN-050.stl": {
+    "bytes": 40984,
+    "sha256": "9ecc2a7ceda55013c9dee3c70cbf7bc5a8410fc286c0ecf87036fb631a8bbd33"
+  },
+  "Ausgabe/STL/CFK-ROHR-000.stl": {
+    "bytes": 8484,
+    "sha256": "1758efdc697aeaabf39534bd4bf7d83f0cdd579db22f363a7dc10e45f6b95861"
+  },
+  "Ausgabe/STL/CFK-ROHR-001.stl": {
+    "bytes": 8484,
+    "sha256": "85b830a97f6c455587ca578bc14e2e8049e3fb5b441d36601b28ae4d8cfe2dc8"
+  },
+  "Ausgabe/STL/CFK-ROHR-002.stl": {
+    "bytes": 8484,
+    "sha256": "e7de0927c3d32b11c5381394b64d152047f423955da652fbab255cc4a51edf9a"
+  },
+  "Ausgabe/STL/CFK-ROHR-003.stl": {
+    "bytes": 8484,
+    "sha256": "71b023b584a8dbe619de6768bf7c42ab8de4c249df2c654517973858fae29b01"
+  },
+  "Ausgabe/STL/CFK-ROHR-004.stl": {
+    "bytes": 8484,
+    "sha256": "25811a8361381667e1ae2ff002989f9a2c2d28e4935376fa8f7b163268338a5b"
+  },
+  "Ausgabe/STL/CFK-ROHR-005.stl": {
+    "bytes": 8484,
+    "sha256": "4e3aeb8185399c8bb41756ecf4f985b9bb6ca9e2565720be5967ec13e6117ae6"
+  },
+  "Ausgabe/STL/CFK-ROHR-006.stl": {
+    "bytes": 8484,
+    "sha256": "dedf2c96112e04947dd3cb7af6b43052f95c3b7e1d86575c0c749c274b027c90"
+  },
+  "Ausgabe/STL/CFK-ROHR-007.stl": {
+    "bytes": 8484,
+    "sha256": "fe59e97c2045131e081951a767073279622802257f96a7bfd243b30af2546c36"
+  },
+  "Ausgabe/STL/CFK-ROHR-008.stl": {
+    "bytes": 8484,
+    "sha256": "b19010d173ccf646858ec00733e7ee8b00b144e5bb3aa56409890ccbb1ac0373"
+  },
+  "Ausgabe/STL/CFK-ROHR-009.stl": {
+    "bytes": 8484,
+    "sha256": "5d62230664b21cb8b1fa01db19b2cfc0fdadb3fd8756a2aadcda4167502c1a61"
+  },
+  "Ausgabe/STL/CFK-ROHR-010.stl": {
+    "bytes": 8484,
+    "sha256": "5459b88eaadff4b99c1fcc77301ffb125ddf36f382b5a2416215934a2053b251"
+  },
+  "Ausgabe/STL/CFK-ROHR-011.stl": {
+    "bytes": 8484,
+    "sha256": "61d1077ddd02e2ed91af826286ff53682c59f1687e0e5cf9065c96f5397e7156"
+  },
+  "Ausgabe/STL/CFK-ROHR-012.stl": {
+    "bytes": 8484,
+    "sha256": "cb9c0d2a45372faa8383ac81300bfd73c0a1cf3f23414c184af3887dfa45f06b"
+  },
+  "Ausgabe/STL/CFK-ROHR-013.stl": {
+    "bytes": 8484,
+    "sha256": "1758efdc697aeaabf39534bd4bf7d83f0cdd579db22f363a7dc10e45f6b95861"
+  },
+  "Ausgabe/STL/CFK-ROHR-014.stl": {
+    "bytes": 8484,
+    "sha256": "85b830a97f6c455587ca578bc14e2e8049e3fb5b441d36601b28ae4d8cfe2dc8"
+  },
+  "Ausgabe/STL/CFK-ROHR-015.stl": {
+    "bytes": 8484,
+    "sha256": "e7de0927c3d32b11c5381394b64d152047f423955da652fbab255cc4a51edf9a"
+  },
+  "Ausgabe/STL/CFK-ROHR-016.stl": {
+    "bytes": 8484,
+    "sha256": "71b023b584a8dbe619de6768bf7c42ab8de4c249df2c654517973858fae29b01"
+  },
+  "Ausgabe/STL/CFK-ROHR-017.stl": {
+    "bytes": 8484,
+    "sha256": "25811a8361381667e1ae2ff002989f9a2c2d28e4935376fa8f7b163268338a5b"
+  },
+  "Ausgabe/STL/CFK-ROHR-018.stl": {
+    "bytes": 8484,
+    "sha256": "4e3aeb8185399c8bb41756ecf4f985b9bb6ca9e2565720be5967ec13e6117ae6"
+  },
+  "Ausgabe/STL/CFK-ROHR-019.stl": {
+    "bytes": 8484,
+    "sha256": "dedf2c96112e04947dd3cb7af6b43052f95c3b7e1d86575c0c749c274b027c90"
+  },
+  "Ausgabe/STL/CFK-ROHR-020.stl": {
+    "bytes": 8484,
+    "sha256": "fe59e97c2045131e081951a767073279622802257f96a7bfd243b30af2546c36"
+  },
+  "Ausgabe/STL/CFK-ROHR-021.stl": {
+    "bytes": 8484,
+    "sha256": "b19010d173ccf646858ec00733e7ee8b00b144e5bb3aa56409890ccbb1ac0373"
+  },
+  "Ausgabe/STL/CFK-ROHR-022.stl": {
+    "bytes": 8484,
+    "sha256": "5d62230664b21cb8b1fa01db19b2cfc0fdadb3fd8756a2aadcda4167502c1a61"
+  },
+  "Ausgabe/STL/CFK-ROHR-023.stl": {
+    "bytes": 8484,
+    "sha256": "5459b88eaadff4b99c1fcc77301ffb125ddf36f382b5a2416215934a2053b251"
+  },
+  "Ausgabe/STL/CFK-ROHR-024.stl": {
+    "bytes": 8484,
+    "sha256": "61d1077ddd02e2ed91af826286ff53682c59f1687e0e5cf9065c96f5397e7156"
+  },
+  "Ausgabe/STL/CFK-ROHR-025.stl": {
+    "bytes": 8484,
+    "sha256": "cb9c0d2a45372faa8383ac81300bfd73c0a1cf3f23414c184af3887dfa45f06b"
+  },
+  "Ausgabe/STL/CFK-ROHR-026.stl": {
+    "bytes": 8484,
+    "sha256": "1758efdc697aeaabf39534bd4bf7d83f0cdd579db22f363a7dc10e45f6b95861"
+  },
+  "Ausgabe/STL/CFK-ROHR-027.stl": {
+    "bytes": 8484,
+    "sha256": "85b830a97f6c455587ca578bc14e2e8049e3fb5b441d36601b28ae4d8cfe2dc8"
+  },
+  "Ausgabe/STL/CFK-ROHR-028.stl": {
+    "bytes": 8484,
+    "sha256": "e7de0927c3d32b11c5381394b64d152047f423955da652fbab255cc4a51edf9a"
+  },
+  "Ausgabe/STL/CFK-ROHR-029.stl": {
+    "bytes": 8484,
+    "sha256": "71b023b584a8dbe619de6768bf7c42ab8de4c249df2c654517973858fae29b01"
+  },
+  "Ausgabe/STL/CFK-ROHR-030.stl": {
+    "bytes": 8484,
+    "sha256": "25811a8361381667e1ae2ff002989f9a2c2d28e4935376fa8f7b163268338a5b"
+  },
+  "Ausgabe/STL/CFK-ROHR-031.stl": {
+    "bytes": 8484,
+    "sha256": "4e3aeb8185399c8bb41756ecf4f985b9bb6ca9e2565720be5967ec13e6117ae6"
+  },
+  "Ausgabe/STL/CFK-ROHR-032.stl": {
+    "bytes": 8484,
+    "sha256": "dedf2c96112e04947dd3cb7af6b43052f95c3b7e1d86575c0c749c274b027c90"
+  },
+  "Ausgabe/STL/CFK-ROHR-033.stl": {
+    "bytes": 8484,
+    "sha256": "fe59e97c2045131e081951a767073279622802257f96a7bfd243b30af2546c36"
+  },
+  "Ausgabe/STL/CFK-ROHR-034.stl": {
+    "bytes": 8484,
+    "sha256": "b19010d173ccf646858ec00733e7ee8b00b144e5bb3aa56409890ccbb1ac0373"
+  },
+  "Ausgabe/STL/CFK-ROHR-035.stl": {
+    "bytes": 8484,
+    "sha256": "5d62230664b21cb8b1fa01db19b2cfc0fdadb3fd8756a2aadcda4167502c1a61"
+  },
+  "Ausgabe/STL/CFK-ROHR-036.stl": {
+    "bytes": 8484,
+    "sha256": "5459b88eaadff4b99c1fcc77301ffb125ddf36f382b5a2416215934a2053b251"
+  },
+  "Ausgabe/STL/CFK-ROHR-037.stl": {
+    "bytes": 8484,
+    "sha256": "61d1077ddd02e2ed91af826286ff53682c59f1687e0e5cf9065c96f5397e7156"
+  },
+  "Ausgabe/STL/CFK-ROHR-038.stl": {
+    "bytes": 8484,
+    "sha256": "cb9c0d2a45372faa8383ac81300bfd73c0a1cf3f23414c184af3887dfa45f06b"
+  },
+  "Ausgabe/STL/CFK-ROHR-039.stl": {
+    "bytes": 8484,
+    "sha256": "9968373db9ccc2d1f5ebdac373120aab0acb5053221e3a52162f6dc708056222"
+  },
+  "Ausgabe/STL/CFK-ROHR-040.stl": {
+    "bytes": 8484,
+    "sha256": "9968373db9ccc2d1f5ebdac373120aab0acb5053221e3a52162f6dc708056222"
+  },
+  "Ausgabe/STL/CFK-ROHR-041.stl": {
+    "bytes": 8484,
+    "sha256": "9968373db9ccc2d1f5ebdac373120aab0acb5053221e3a52162f6dc708056222"
+  },
+  "Ausgabe/STL/CFK-ROHR-042.stl": {
+    "bytes": 8484,
+    "sha256": "9968373db9ccc2d1f5ebdac373120aab0acb5053221e3a52162f6dc708056222"
+  },
+  "Ausgabe/STL/CFK-ROHR-043.stl": {
+    "bytes": 8484,
+    "sha256": "9968373db9ccc2d1f5ebdac373120aab0acb5053221e3a52162f6dc708056222"
+  },
+  "Ausgabe/STL/CFK-ROHR-044.stl": {
+    "bytes": 8484,
+    "sha256": "9968373db9ccc2d1f5ebdac373120aab0acb5053221e3a52162f6dc708056222"
+  },
+  "Ausgabe/STL/CFK-ROHR-045.stl": {
+    "bytes": 8484,
+    "sha256": "9968373db9ccc2d1f5ebdac373120aab0acb5053221e3a52162f6dc708056222"
+  },
+  "Ausgabe/STL/CFK-ROHR-046.stl": {
+    "bytes": 8484,
+    "sha256": "9968373db9ccc2d1f5ebdac373120aab0acb5053221e3a52162f6dc708056222"
+  },
+  "Ausgabe/STL/CFK-ROHR-047.stl": {
+    "bytes": 8484,
+    "sha256": "9968373db9ccc2d1f5ebdac373120aab0acb5053221e3a52162f6dc708056222"
+  },
+  "Ausgabe/STL/CFK-ROHR-048.stl": {
+    "bytes": 8484,
+    "sha256": "9968373db9ccc2d1f5ebdac373120aab0acb5053221e3a52162f6dc708056222"
+  },
+  "Ausgabe/STL/CFK-ROHR-049.stl": {
+    "bytes": 8484,
+    "sha256": "9968373db9ccc2d1f5ebdac373120aab0acb5053221e3a52162f6dc708056222"
+  },
+  "Ausgabe/STL/CFK-ROHR-050.stl": {
+    "bytes": 8484,
+    "sha256": "9968373db9ccc2d1f5ebdac373120aab0acb5053221e3a52162f6dc708056222"
+  },
+  "Ausgabe/STL/CFK-ROHR-051.stl": {
+    "bytes": 8484,
+    "sha256": "9968373db9ccc2d1f5ebdac373120aab0acb5053221e3a52162f6dc708056222"
+  },
+  "Ausgabe/STL/CFK-ROHR-052.stl": {
+    "bytes": 8484,
+    "sha256": "9968373db9ccc2d1f5ebdac373120aab0acb5053221e3a52162f6dc708056222"
+  },
+  "Ausgabe/STL/CFK-ROHR-053.stl": {
+    "bytes": 8484,
+    "sha256": "9968373db9ccc2d1f5ebdac373120aab0acb5053221e3a52162f6dc708056222"
+  },
+  "Ausgabe/STL/CFK-ROHR-054.stl": {
+    "bytes": 8484,
+    "sha256": "9968373db9ccc2d1f5ebdac373120aab0acb5053221e3a52162f6dc708056222"
+  },
+  "Ausgabe/STL/CFK-ROHR-055.stl": {
+    "bytes": 8484,
+    "sha256": "9968373db9ccc2d1f5ebdac373120aab0acb5053221e3a52162f6dc708056222"
+  },
+  "Ausgabe/STL/CFK-ROHR-056.stl": {
+    "bytes": 8484,
+    "sha256": "9968373db9ccc2d1f5ebdac373120aab0acb5053221e3a52162f6dc708056222"
+  },
+  "Ausgabe/STL/CFK-ROHR-057.stl": {
+    "bytes": 8484,
+    "sha256": "9968373db9ccc2d1f5ebdac373120aab0acb5053221e3a52162f6dc708056222"
+  },
+  "Ausgabe/STL/CFK-ROHR-058.stl": {
+    "bytes": 8484,
+    "sha256": "9968373db9ccc2d1f5ebdac373120aab0acb5053221e3a52162f6dc708056222"
+  },
+  "Ausgabe/STL/CFK-ROHR-059.stl": {
+    "bytes": 8484,
+    "sha256": "9968373db9ccc2d1f5ebdac373120aab0acb5053221e3a52162f6dc708056222"
+  },
+  "Ausgabe/STL/CFK-ROHR-060.stl": {
+    "bytes": 8484,
+    "sha256": "9968373db9ccc2d1f5ebdac373120aab0acb5053221e3a52162f6dc708056222"
+  },
+  "Ausgabe/STL/CFK-ROHR-061.stl": {
+    "bytes": 8484,
+    "sha256": "9968373db9ccc2d1f5ebdac373120aab0acb5053221e3a52162f6dc708056222"
+  },
+  "Ausgabe/STL/CFK-ROHR-062.stl": {
+    "bytes": 8484,
+    "sha256": "9968373db9ccc2d1f5ebdac373120aab0acb5053221e3a52162f6dc708056222"
+  },
+  "Ausgabe/STL/CFK-ROHR-063.stl": {
+    "bytes": 8484,
+    "sha256": "9968373db9ccc2d1f5ebdac373120aab0acb5053221e3a52162f6dc708056222"
+  },
+  "Ausgabe/STL/CFK-ROHR-064.stl": {
+    "bytes": 8484,
+    "sha256": "9968373db9ccc2d1f5ebdac373120aab0acb5053221e3a52162f6dc708056222"
+  },
+  "Ausgabe/STL/CFK-ROHR-065.stl": {
+    "bytes": 8484,
+    "sha256": "916a67aa89161b2f95640a2b9deffcaa8d7f33431584e22a97d54c143298c761"
+  },
+  "Ausgabe/STL/CFK-ROHR-066.stl": {
+    "bytes": 8484,
+    "sha256": "916a67aa89161b2f95640a2b9deffcaa8d7f33431584e22a97d54c143298c761"
+  },
+  "Ausgabe/STL/CFK-ROHR-067.stl": {
+    "bytes": 8484,
+    "sha256": "ecb54d473e25bcd5ed0f88d32c63f27ea984a2ab437b92ca0d6e002258cc9057"
+  },
+  "Ausgabe/STL/CFK-ROHR-068.stl": {
+    "bytes": 8484,
+    "sha256": "916a67aa89161b2f95640a2b9deffcaa8d7f33431584e22a97d54c143298c761"
+  },
+  "Ausgabe/STL/CFK-ROHR-069.stl": {
+    "bytes": 8484,
+    "sha256": "916a67aa89161b2f95640a2b9deffcaa8d7f33431584e22a97d54c143298c761"
+  },
+  "Ausgabe/STL/CFK-ROHR-070.stl": {
+    "bytes": 8484,
+    "sha256": "916a67aa89161b2f95640a2b9deffcaa8d7f33431584e22a97d54c143298c761"
+  },
+  "Ausgabe/STL/CFK-ROHR-071.stl": {
+    "bytes": 8484,
+    "sha256": "ecb54d473e25bcd5ed0f88d32c63f27ea984a2ab437b92ca0d6e002258cc9057"
+  },
+  "Ausgabe/STL/CFK-ROHR-072.stl": {
+    "bytes": 8484,
+    "sha256": "916a67aa89161b2f95640a2b9deffcaa8d7f33431584e22a97d54c143298c761"
+  },
+  "Ausgabe/STL/CFK-ROHR-073.stl": {
+    "bytes": 8484,
+    "sha256": "031bd84338475a56d680a768b35a976c1a6fe9989576967855fee75cc309ece9"
+  },
+  "Ausgabe/STL/CFK-ROHR-074.stl": {
+    "bytes": 8484,
+    "sha256": "031bd84338475a56d680a768b35a976c1a6fe9989576967855fee75cc309ece9"
+  },
+  "Ausgabe/STL/CFK-ROHR-075.stl": {
+    "bytes": 8484,
+    "sha256": "7b14680fdef2f22e3e3acd8f125c255aaebab9feece00c2d5a71cac19a1cab1a"
+  },
+  "Ausgabe/STL/CFK-ROHR-076.stl": {
+    "bytes": 8484,
+    "sha256": "031bd84338475a56d680a768b35a976c1a6fe9989576967855fee75cc309ece9"
+  },
+  "Ausgabe/STL/CFK-ZWISCHENLAGE.stl": {
+    "bytes": 8684,
+    "sha256": "3df67ecfb71c1dfe4a0b84b6ef7f8040400f231b8384fae40a6e21da496ee530"
+  },
+  "Ausgabe/STL/P12-001.stl": {
+    "bytes": 52684,
+    "sha256": "9b218fff4efaa6af95691c8a593b11338a486aaedc17f6ef8ba01858fbf4511b"
+  },
+  "Ausgabe/STL/P12-002.stl": {
+    "bytes": 130884,
+    "sha256": "3f9beaa989f556e441422c7b51c6a4fa863f2c4cbe43030ebf0a8bff24f8cc3f"
+  },
+  "Ausgabe/STL/P12-003.stl": {
+    "bytes": 92884,
+    "sha256": "edb14a027180d55f778915e033a0e0f471d678a9bbfc6b7fd893d7c5d50d5ec7"
+  },
+  "Ausgabe/STL/P12-004.stl": {
+    "bytes": 8484,
+    "sha256": "4f8db8be0a344baf45ddae956436af06f2fa7f637c4580173ea60e60bc905e58"
+  },
+  "Ausgabe/STL/P12-011.stl": {
+    "bytes": 8484,
+    "sha256": "30478dc882fc5372c8275d13d5292f1e131f7c965b30077ecc8ff1467457cd66"
+  },
+  "Ausgabe/STL/P12-012.stl": {
+    "bytes": 53684,
+    "sha256": "ac195359b698396a4a196cbb47a3f70b82b90273a4b4631319cc1dab1e978a22"
+  },
+  "Ausgabe/STL/P12-013.stl": {
+    "bytes": 8484,
+    "sha256": "3cc93b3d125637f99b5285ec6de09f52060b71f7847d1a4a96efef3682b88789"
+  },
+  "Ausgabe/STL/P12-015.stl": {
+    "bytes": 65184,
+    "sha256": "0d3c04679f88f83a5247d87121e2eacda00dbc3d064a4d100b1abad2a7a90e52"
+  },
+  "Ausgabe/STL/P12-016.stl": {
+    "bytes": 26084,
+    "sha256": "60e9a4d9d1dd790d6184c6daa596f071872321296a389f7b4bd472c8ac7698d9"
+  },
+  "Ausgabe/STL/P12-017.stl": {
+    "bytes": 8484,
+    "sha256": "de876e2303fee58b946da80a962dbf89ad20b75dd0b2bfb5a291556bef4322a3"
+  },
+  "Ausgabe/STL/P12-018.stl": {
+    "bytes": 12484,
+    "sha256": "a7dfc49f7834bae9d66a5c5864d05dc63b3efcdf6a8e6c24e67f67950d0f2434"
+  },
+  "Ausgabe/STL/P12-019.stl": {
+    "bytes": 13884,
+    "sha256": "07b5cd3076008ff6885e70aa018f2d9e2adde71562757ccc086690e6322b8e5f"
+  },
+  "Ausgabe/STL/P12-020.stl": {
+    "bytes": 18284,
+    "sha256": "90e3e666ba218944f1f8ddd27989766abcd50c7332a30ab3cd6364bd3e8f3ffb"
+  },
+  "Ausgabe/STL/P12-022.stl": {
+    "bytes": 8484,
+    "sha256": "331d283478056093d38d7f000bdab46f959e5ea8328a6db49531e9f547e47b5c"
+  },
+  "Ausgabe/STL/P13-ACHS-SICHERUNGSBLECH.stl": {
+    "bytes": 10084,
+    "sha256": "0364daf369d2443aff1367e9912201a8532184470d5ad1d4e06a547f22dfb704"
+  },
+  "Ausgabe/STL/P13-AKTOR-M20.stl": {
+    "bytes": 8484,
+    "sha256": "759d047fada475b86aaab3f5c3288f79e63990838183d5d65d240bf79d1a243d"
+  },
+  "Ausgabe/STL/P13-AKTOR-MOTORTRAEGER-OBEN.stl": {
+    "bytes": 55484,
+    "sha256": "cfc9378a2539ec85cd3d642faac3eb11f5eda226d246737449f22279134830ee"
+  },
+  "Ausgabe/STL/P13-AKTOR-MOTORTRAEGER-UNTEN.stl": {
+    "bytes": 55484,
+    "sha256": "a3c2d06ef46655d7999d43d18d7c93a5f097d0ab3e487e5907c41e6f0b9193f1"
+  },
+  "Ausgabe/STL/P13-AKTUATORGEHAEUSE.stl": {
+    "bytes": 63584,
+    "sha256": "a099db165adf3ea489271aa0e8dad3fb3dfd38a4c3131fc2fb1cff2be4bee045"
+  },
+  "Ausgabe/STL/P13-AKTUATORWAGEN.stl": {
+    "bytes": 16084,
+    "sha256": "2fd93304e8f98330d989902313475960c763113eb74a89c798c9cd4c1e0c74e0"
+  },
+  "Ausgabe/STL/P13-AUSSENLAGERTRAEGER.stl": {
+    "bytes": 104084,
+    "sha256": "f0661a28a396fd253c44ab7c149f09aa0b9eb1e4f68e043db9d9766e792d9d08"
+  },
+  "Ausgabe/STL/P13-AUSSENRING.stl": {
+    "bytes": 202084,
+    "sha256": "237e8e2428a566445a9a8a5756e341996b5b91111aa1311dbe019faead6986e1"
+  },
+  "Ausgabe/STL/P13-AUSSENZAPFEN.stl": {
+    "bytes": 20884,
+    "sha256": "17a2295660b5077eecbb8b4293e5ca6637c80321d014f64894625fe7c39c7a40"
+  },
+  "Ausgabe/STL/P13-BUCHSE8-M4-L12.stl": {
+    "bytes": 8484,
+    "sha256": "8db884c9dbd1cc6602647c146c88dd55249bcaa946f9040730693b797d2cb05f"
+  },
+  "Ausgabe/STL/P13-BUCHSE8-M4-L8.stl": {
+    "bytes": 8484,
+    "sha256": "a75f54ab617591fbf7f09a8e96e3cc8141e1781901b3a26728219cc1d85e27c7"
+  },
+  "Ausgabe/STL/P13-CFK-HOLM_HINTEN.stl": {
+    "bytes": 1884,
+    "sha256": "c9454e119e9d5f8f7d34cd931b9c345d0f28a890316f65fd5c0907928db9009a"
+  },
+  "Ausgabe/STL/P13-CFK-HOLM_VORN.stl": {
+    "bytes": 1884,
+    "sha256": "eb2580295bcb8993e5ee1014ffe8c519f7ca9cbf8e05a8ad0836cc66c1066d2b"
+  },
+  "Ausgabe/STL/P13-CFK-SCHALE_OBEN.stl": {
+    "bytes": 65884,
+    "sha256": "a3e5a29b282b1e18b1ce451311edb4c857053ad531af4c0163f7b6715e2f158a"
+  },
+  "Ausgabe/STL/P13-CFK-SCHALE_UNTEN.stl": {
+    "bytes": 65884,
+    "sha256": "fe73c88b4729fee711ec43bb0f8c01c0f4d9a93cfed34f878502aa38e55dd870"
+  },
+  "Ausgabe/STL/P13-CFK-SPITZENBLOCK.stl": {
+    "bytes": 30284,
+    "sha256": "824a2d25b6de8d9b5eaab36a57936d1ea5e305e40f5ff51efd7e33fc22289cb9"
+  },
+  "Ausgabe/STL/P13-CFK-WURZELBLOCK.stl": {
+    "bytes": 40884,
+    "sha256": "0700ee977bf3450edef1218e463420b3ba3c9e1e00ed518f8f7e4f6ca5a7e139"
+  },
+  "Ausgabe/STL/P13-CFK30-STREBE-0--1.stl": {
+    "bytes": 8484,
+    "sha256": "2f5812821abfa7c21dbc0f7495b52ab9ef0c7f89048c8762563955d13a4ba488"
+  },
+  "Ausgabe/STL/P13-CFK30-STREBE-0-1.stl": {
+    "bytes": 8484,
+    "sha256": "a5d7049ff778fdf5be92e6e83b09a38cb57063c9af3b690313f2e70af29fc9c3"
+  },
+  "Ausgabe/STL/P13-CFK30-STREBE-1--1.stl": {
+    "bytes": 8484,
+    "sha256": "2f5812821abfa7c21dbc0f7495b52ab9ef0c7f89048c8762563955d13a4ba488"
+  },
+  "Ausgabe/STL/P13-CFK30-STREBE-1-1.stl": {
+    "bytes": 8484,
+    "sha256": "a5d7049ff778fdf5be92e6e83b09a38cb57063c9af3b690313f2e70af29fc9c3"
+  },
+  "Ausgabe/STL/P13-CFK30-STREBE-2--1.stl": {
+    "bytes": 8484,
+    "sha256": "2f5812821abfa7c21dbc0f7495b52ab9ef0c7f89048c8762563955d13a4ba488"
+  },
+  "Ausgabe/STL/P13-CFK30-STREBE-2-1.stl": {
+    "bytes": 8484,
+    "sha256": "a5d7049ff778fdf5be92e6e83b09a38cb57063c9af3b690313f2e70af29fc9c3"
+  },
+  "Ausgabe/STL/P13-CFK30-STREBE-3--1.stl": {
+    "bytes": 8484,
+    "sha256": "2f5812821abfa7c21dbc0f7495b52ab9ef0c7f89048c8762563955d13a4ba488"
+  },
+  "Ausgabe/STL/P13-CFK30-STREBE-3-1.stl": {
+    "bytes": 8484,
+    "sha256": "a5d7049ff778fdf5be92e6e83b09a38cb57063c9af3b690313f2e70af29fc9c3"
+  },
+  "Ausgabe/STL/P13-CFK30-STREBE-4--1.stl": {
+    "bytes": 8484,
+    "sha256": "2f5812821abfa7c21dbc0f7495b52ab9ef0c7f89048c8762563955d13a4ba488"
+  },
+  "Ausgabe/STL/P13-CFK30-STREBE-4-1.stl": {
+    "bytes": 8484,
+    "sha256": "a5d7049ff778fdf5be92e6e83b09a38cb57063c9af3b690313f2e70af29fc9c3"
+  },
+  "Ausgabe/STL/P13-CFK30-STREBE-5--1.stl": {
+    "bytes": 8484,
+    "sha256": "2f5812821abfa7c21dbc0f7495b52ab9ef0c7f89048c8762563955d13a4ba488"
+  },
+  "Ausgabe/STL/P13-CFK30-STREBE-5-1.stl": {
+    "bytes": 8484,
+    "sha256": "a5d7049ff778fdf5be92e6e83b09a38cb57063c9af3b690313f2e70af29fc9c3"
+  },
+  "Ausgabe/STL/P13-CFK30-STREBE-6--1.stl": {
+    "bytes": 8484,
+    "sha256": "2f5812821abfa7c21dbc0f7495b52ab9ef0c7f89048c8762563955d13a4ba488"
+  },
+  "Ausgabe/STL/P13-CFK30-STREBE-6-1.stl": {
+    "bytes": 8484,
+    "sha256": "a5d7049ff778fdf5be92e6e83b09a38cb57063c9af3b690313f2e70af29fc9c3"
+  },
+  "Ausgabe/STL/P13-CFK30-STREBE-7--1.stl": {
+    "bytes": 8484,
+    "sha256": "2f5812821abfa7c21dbc0f7495b52ab9ef0c7f89048c8762563955d13a4ba488"
+  },
+  "Ausgabe/STL/P13-CFK30-STREBE-7-1.stl": {
+    "bytes": 8484,
+    "sha256": "a5d7049ff778fdf5be92e6e83b09a38cb57063c9af3b690313f2e70af29fc9c3"
+  },
+  "Ausgabe/STL/P13-DECK-DRUCKHUELSE.stl": {
+    "bytes": 8484,
+    "sha256": "083807032e5ba8d1e9e5042dee4f6c79153b033a50232d3ec6783cfd9499376c"
+  },
+  "Ausgabe/STL/P13-DECK.stl": {
+    "bytes": 71084,
+    "sha256": "f8d5ef62fbb17503b9d019aba3773a92f27b4d50b52415ab356257f025f23896"
+  },
+  "Ausgabe/STL/P13-DECKSTUETZE.stl": {
+    "bytes": 26084,
+    "sha256": "dbb36b85b44af962518c0b9ecdc2f6644304acac0a38ffa8bd30e16a94d48926"
+  },
+  "Ausgabe/STL/P13-DECKTRAEGER.stl": {
+    "bytes": 72084,
+    "sha256": "5acb8a3e5720deba11d82c64819b051c3d264edee8f90b7ef51cf6dc63fc854d"
+  },
+  "Ausgabe/STL/P13-DISTANZ-AUSSEN.stl": {
+    "bytes": 8484,
+    "sha256": "f6d72981a866cdabd9e745c7c6ef040ea629e68865fb56fca6f0242b33042ae3"
+  },
+  "Ausgabe/STL/P13-DISTANZ-INNEN.stl": {
+    "bytes": 8484,
+    "sha256": "4085df5ffa50bc6aba53226871e33095d397354ad4ac256a08919ab868356401"
+  },
+  "Ausgabe/STL/P13-FACHWERK-INSERT.stl": {
+    "bytes": 8484,
+    "sha256": "af54a18e6850c3f811b635db03033d3827072b5beb0d0b0d14a9c9036aec2a9e"
+  },
+  "Ausgabe/STL/P13-FACHWERK-PYLON-MITNEHMER.stl": {
+    "bytes": 54684,
+    "sha256": "a0897e95e410033496e751d89f7fd643ca08a5859e73314a51bf6b224cd6fc76"
+  },
+  "Ausgabe/STL/P13-FACHWERK-PYLON.stl": {
+    "bytes": 42284,
+    "sha256": "fb0645a3098cdb462a5ca799f7488acb196d31f8c18dcceba7ab701b80221008"
+  },
+  "Ausgabe/STL/P13-GE-DECKEL-OBEN.stl": {
+    "bytes": 35684,
+    "sha256": "c1cc1a1957398b35e48c836b5224884707211e44b3d2523c2d336bd7320cfae4"
+  },
+  "Ausgabe/STL/P13-GE-DECKEL-UNTEN.stl": {
+    "bytes": 37284,
+    "sha256": "89f36ee8201725b23c0451e240c774587955bb0daccc41ebe66b90b0dda5b8b2"
+  },
+  "Ausgabe/STL/P13-GE-M60-OBEN.stl": {
+    "bytes": 8484,
+    "sha256": "b1c2d61e0bc6fb93404d49c63ea9afa7f75652769b7e643d7768fc6e33e0df43"
+  },
+  "Ausgabe/STL/P13-GE-M60-UNTEN.stl": {
+    "bytes": 8484,
+    "sha256": "f87800a839b05141332d92c4048ed17df8df26ca0ab758b15571cbcab965c018"
+  },
+  "Ausgabe/STL/P13-GE20-DECKEL-OBEN.stl": {
+    "bytes": 38884,
+    "sha256": "7ba77b2f81a21ea74e1245e0f0ad4f50e2905e809f2dcea814ce5a1f452c1b97"
+  },
+  "Ausgabe/STL/P13-GE20-DECKEL-UNTEN.stl": {
+    "bytes": 38884,
+    "sha256": "a5e8921b061a305bae222dbd893fa6293d2d066ec0ecedb673c1f43754e5bb4a"
+  },
+  "Ausgabe/STL/P13-GE60-AUSSENDISTANZ.stl": {
+    "bytes": 9284,
+    "sha256": "1b69f09327580e88f86c54e4f0bd3a31dac002748ecc4c0f6190808d8ac0a7cc"
+  },
+  "Ausgabe/STL/P13-GELENKDISTANZ6-L1.stl": {
+    "bytes": 8484,
+    "sha256": "2670a658e2666dfe23d95d4bd572f3b62e3a6b03bd8690b4109946afbd2b5cb6"
+  },
+  "Ausgabe/STL/P13-GELENKDISTANZ6-L2.stl": {
+    "bytes": 8484,
+    "sha256": "2eb7e6b0648ae1e5e9988c1a6e98a9bf0cf40ef43bb236822a91d1cf3fd223cd"
+  },
+  "Ausgabe/STL/P13-GELENKDISTANZ6-L3.stl": {
+    "bytes": 8484,
+    "sha256": "fdb6655c61ecbbf1e381d1d22dea552f00b8b26c47c4ff67c77bedf80d43e64c"
+  },
+  "Ausgabe/STL/P13-GELENKDISTANZ8-L3.stl": {
+    "bytes": 8484,
+    "sha256": "d2e2370045b4717ee406fc5bd0f6a7654f0c00e435f756c7265306b121fb5105"
+  },
+  "Ausgabe/STL/P13-GLEITHUELSE.stl": {
+    "bytes": 8484,
+    "sha256": "455b8d3a0a251824c7c53e91e2a0ce42df195d04661dd8c55d460e0b77b9c06a"
+  },
+  "Ausgabe/STL/P13-HEBEL-ANLAUF.stl": {
+    "bytes": 8484,
+    "sha256": "0f66928fea2bf62c8b7b38075b8c1820e7813667966986151b93c757a0c3ac97"
+  },
+  "Ausgabe/STL/P13-HEBEL-DISTANZ.stl": {
+    "bytes": 8484,
+    "sha256": "a84d02f8cb197a5e5b1bc64e96c25d9f333a7f4a3f14d9c3e243147d8b6d1fc1"
+  },
+  "Ausgabe/STL/P13-HEBEL-ENDSCHEIBE.stl": {
+    "bytes": 8484,
+    "sha256": "6e2be7c2fc8e8bb3cdb9c14f1b3b4b70a0901751544e1b129a0581b2c144f70b"
+  },
+  "Ausgabe/STL/P13-HUBANSCHLAG-B.stl": {
+    "bytes": 17284,
+    "sha256": "7d76702706bc2016d3920d4bfae5964ff563ed6f51d8788f4fcd9876340bd390"
+  },
+  "Ausgabe/STL/P13-HUBANSCHLAG-OBEN-B.stl": {
+    "bytes": 17284,
+    "sha256": "b4f38478fcb14f31960f3dfa04c1bbd743a8a3389ca51119a2c6fdf7a9c4997d"
+  },
+  "Ausgabe/STL/P13-HUBANSCHLAG-OBEN.stl": {
+    "bytes": 15084,
+    "sha256": "db376cf5674690789d6862ecce8687c6c0425d004e3d3427f6383c8e7c45f541"
+  },
+  "Ausgabe/STL/P13-HUBANSCHLAG.stl": {
+    "bytes": 15084,
+    "sha256": "a2884839bdc89c451e7f49d533706900f53c27b5423396d58677978b96464c45"
+  },
+  "Ausgabe/STL/P13-INNENRING.stl": {
+    "bytes": 683884,
+    "sha256": "e71f6e074283792f3e7c8a7af517b5ade5158a13def21d178e4d973676e1e781"
+  },
+  "Ausgabe/STL/P13-KUFENKLEMME-1.stl": {
+    "bytes": 3284,
+    "sha256": "6f619a6668340519a6a749fd06e0fccccd124ad25412f193f54cb214e9bfaea7"
+  },
+  "Ausgabe/STL/P13-LANDEBEIN.stl": {
+    "bytes": 34484,
+    "sha256": "b37a4dbdb64c8f7139f73bdd16fd4c85913298629f117c4c359d327194aaff72"
+  },
+  "Ausgabe/STL/P13-LANDEKUFE.stl": {
+    "bytes": 8484,
+    "sha256": "49e41b9f84c21a52f83df0bb28b73d72c2aac09fb2c015ec8687769abc4ca35b"
+  },
+  "Ausgabe/STL/P13-PITCHGESTAENGE.stl": {
+    "bytes": 4084,
+    "sha256": "496c35c2deebf4adb53c6ad4770aa2a67ebbc892a7ad86010575b9e101281955"
+  },
+  "Ausgabe/STL/P13-PITCHHEBEL.stl": {
+    "bytes": 16684,
+    "sha256": "a743737706641f33359e7cde523569dad244932e48b591698dd3cb9ee0be5ef5"
+  },
+  "Ausgabe/STL/P13-PITCHWELLE.stl": {
+    "bytes": 23184,
+    "sha256": "492d2a561142001396e662796f0cd037e80146523fe312eab663e270562b722c"
+  },
+  "Ausgabe/STL/P13-SCHERENDISTANZ-12.stl": {
+    "bytes": 8484,
+    "sha256": "93f35cd1068c978f4af3f538f039783a142248cd54adfcab2e65ce7f142cd3f7"
+  },
+  "Ausgabe/STL/P13-SCHERENDISTANZ-2.stl": {
+    "bytes": 8484,
+    "sha256": "90148ef6cf757db00d6d0d8837b5ac12297614fa6617d9414780b5f4f60cdde4"
+  },
+  "Ausgabe/STL/P13-SCHERENDISTANZ-4.stl": {
+    "bytes": 8484,
+    "sha256": "23edbef4588811acde3d41aae5d3a20f0c3d9672b668a63994af3c58a3ed2db1"
+  },
+  "Ausgabe/STL/P13-SCHERENDISTANZ-6.stl": {
+    "bytes": 8484,
+    "sha256": "5dd1bc38a87cd8094ae3710c09054549833730528fe87eafafe7810ef1f56729"
+  },
+  "Ausgabe/STL/P13-SCHERENFESTPUNKT-B.stl": {
+    "bytes": 22084,
+    "sha256": "c5101aefbb7d2625f226ec7be1c16bcece875722c87e5dfa577b8622e5d56689"
+  },
+  "Ausgabe/STL/P13-SCHERENFESTPUNKT.stl": {
+    "bytes": 19684,
+    "sha256": "de08f080d5acb25d60863c38a8a32acd9f5ed6de731357484d6f8b23f825436b"
+  },
+  "Ausgabe/STL/P13-SCHERENLASCHEN.stl": {
+    "bytes": 39084,
+    "sha256": "8db6e2e1535d69a0ef0210470189de7f1479ba45a97f74c233c873a7d525fef4"
+  },
+  "Ausgabe/STL/P13-SERVO-DISTANZ2.stl": {
+    "bytes": 8484,
+    "sha256": "6c00b2e2892703bf4307d647e8b059e54b15736fbd9c5bce56d2a9c8638879f7"
+  },
+  "Ausgabe/STL/P13-SPEICHE-CFK.stl": {
+    "bytes": 8484,
+    "sha256": "d41eeb760dca04e22444a45014ef5757727a947725845dfaca151bb3f56d9c00"
+  },
+  "Ausgabe/STL/P13-SPEICHENWURZEL.stl": {
+    "bytes": 42384,
+    "sha256": "ffdc7f9f64f6968e28fb3b2876fa4eb7eec4acb782bb5fc748ce2b5b01b08a76"
+  },
+  "Ausgabe/STL/P13-SPITZENEINSATZ.stl": {
+    "bytes": 8484,
+    "sha256": "3d9a0462ae78895233d1295091ac37574eaa1cb49e9bf9a57563fbefa507b73b"
+  },
+  "Ausgabe/STL/P13-TAUMEL-AUSSEN.stl": {
+    "bytes": 167384,
+    "sha256": "e6b982db8d6d2abb5d0fd8a3154bf194f18e1490598a31c013937654dc3834b9"
+  },
+  "Ausgabe/STL/P13-TAUMEL-AUSSENDECKEL.stl": {
+    "bytes": 46884,
+    "sha256": "3ef302f5337ba2fad272f08763e097d40d30de13477baeee6c927e5adedc6aaf"
+  },
+  "Ausgabe/STL/P13-TAUMEL-INNEN.stl": {
+    "bytes": 138584,
+    "sha256": "77eb07a92f8216ffffb2c9d6cafaab36419ef9d89745d95e349167120e3b6765"
+  },
+  "Ausgabe/STL/P13-TAUMEL-M100.stl": {
+    "bytes": 10484,
+    "sha256": "82d58b1b81ff3c865d06939e5cbf70037792a4d98fe60b0af99fe2a9d2ad71b2"
+  },
+  "Ausgabe/STL/P13-WURZEL-ENDSCHEIBE.stl": {
+    "bytes": 8484,
+    "sha256": "ea4bc76594211e83916c27d71026c306130393e9030b6c2aea145e0996f0bb9e"
+  },
+  "Ausgabe/STL/P13-WURZELDECKEL.stl": {
+    "bytes": 30284,
+    "sha256": "ccab189e5f8ac8cc8be88fecc34cd4e7b58fb486c6ad152276e7b8a092929d00"
+  },
+  "Ausgabe/STL/P13-WURZELEINSATZ.stl": {
+    "bytes": 10284,
+    "sha256": "7298b283605226a29d4681d1ed6f7901a981e01ee1fcfb476b2f10c11c3326f0"
+  },
+  "Ausgabe/STL/P13-WURZELGEHAEUSE.stl": {
+    "bytes": 56284,
+    "sha256": "0def9e896255fbbcd0cfd8c5229a80e8767879621c0590ddf24fb59cd3141030"
+  },
+  "Ausgabe/STL/P13-ZENTRALPLATTE-OBEN.stl": {
+    "bytes": 126984,
+    "sha256": "875110e18dfe1a3bbe44686069e378225768d7262e49c36fd06348b4c88d0da2"
+  },
+  "Ausgabe/STL/P13-ZENTRALPLATTE-UNTEN.stl": {
+    "bytes": 126984,
+    "sha256": "875110e18dfe1a3bbe44686069e378225768d7262e49c36fd06348b4c88d0da2"
+  },
+  "Ausgabe/STL/REF-7202B.stl": {
+    "bytes": 8484,
+    "sha256": "4c1d0ab19e2fdc38020e8b4b8ff4f290edcd999c109a7162f39eeb3ad320a9c0"
+  },
+  "Ausgabe/STL/REF-ACHS-MUTTER-M14.stl": {
+    "bytes": 5484,
+    "sha256": "06e6dd98c3371b313aab4fb7cede6fc3c32ade2ae2659d335e8fd90217c0d880"
+  },
+  "Ausgabe/STL/REF-AKTUATORMOTOR-OBEN.stl": {
+    "bytes": 25084,
+    "sha256": "a5f87da0714855aff47118b3a34183a228a7eb4d9d498ce2336d126137dead64"
+  },
+  "Ausgabe/STL/REF-AKTUATORMOTOR-UNTEN.stl": {
+    "bytes": 25084,
+    "sha256": "a5f87da0714855aff47118b3a34183a228a7eb4d9d498ce2336d126137dead64"
+  },
+  "Ausgabe/STL/REF-MN1330.stl": {
+    "bytes": 90084,
+    "sha256": "93d9b95cad77678734b745f8dbc8f37956fd4bc6c2e972ca03ebedc709c32597"
+  },
+  "Ausgabe/STL/REF-SCHRAUBE-M3-L8-K2.4.stl": {
+    "bytes": 9484,
+    "sha256": "1cd5f9a4a2a9999f7400df3d9dd8dffb9973be8ae13d7da053c36320a214b3a5"
+  },
+  "Ausgabe/STL/REF-SCHRAUBE-M4-L16-K3.2.stl": {
+    "bytes": 9484,
+    "sha256": "6968d2b54f136238357b33afa89d9a79e937b17aeeedf5de327040b3a47aad8e"
+  },
+  "Ausgabe/STL/REF-SCHRAUBE-M4-L8-K3.2.stl": {
+    "bytes": 9484,
+    "sha256": "11bae741d9f5711c9917a718b54e41f8e1746428cdf247eea4b2d837d79eb70d"
+  },
+  "Ausgabe/STL/REF-SCHRAUBE-M5-L60-K4.1.stl": {
+    "bytes": 9484,
+    "sha256": "711b86847f7be2d383edb6f7e9b859a03416ba7c22789cb68ee33adc525b2c12"
+  },
+  "Ausgabe/STL/STD-608.stl": {
+    "bytes": 8484,
+    "sha256": "5e5f82a815986b28a05a3ab42ee7c4a4cb1f9c9f2b691c244562f8d99d10d5e8"
+  },
+  "Ausgabe/STL/STD-61820.stl": {
+    "bytes": 10684,
+    "sha256": "6e15aaaf1213fa53130062038a8b80f1a50dccc1917dce52e0af8ef17d751420"
+  },
+  "Ausgabe/STL/STD-7001B.stl": {
+    "bytes": 8484,
+    "sha256": "a3a58d39e34582484a565ded958b9772573c2327823a6686673f9a40ca85feac"
+  },
+  "Ausgabe/STL/STD-7201B.stl": {
+    "bytes": 8484,
+    "sha256": "7eac67330da1ce02d2e2366d2f15778f9ff13a7f03d38f2d3f452ace43f4783c"
+  },
+  "Ausgabe/STL/STD-DIN1444B-6x30.stl": {
+    "bytes": 13884,
+    "sha256": "84fc98bbd7c27bcd8e4601760d0463dccc9352ca7a131b5a8097ca3553945d72"
+  },
+  "Ausgabe/STL/STD-DIN1444B-6x35.stl": {
+    "bytes": 13884,
+    "sha256": "05162efa97534b4ff2d7ba645ae3c3950005844f4058934c70134d837f3a6a21"
+  },
+  "Ausgabe/STL/STD-DIN1444B-8x30.stl": {
+    "bytes": 13584,
+    "sha256": "f557f642d81e7c4f06838d991cac51d36c96d80b5700bb26febcf1e2580d2930"
+  },
+  "Ausgabe/STL/STD-DIN471-8.stl": {
+    "bytes": 8484,
+    "sha256": "ac90b690e01d924d7250cd4727dca6b5ad61627b7fcc606ff8092c93154fa017"
+  },
+  "Ausgabe/STL/STD-DIN472-14.stl": {
+    "bytes": 8884,
+    "sha256": "a95e4a0cad936f457bc65bfbf85b26482bd94b0b824ef762e159272685609b25"
+  },
+  "Ausgabe/STL/STD-DIN6325-4x25.stl": {
+    "bytes": 12484,
+    "sha256": "1e7ad5c4ed47a72b727292d623c134891a006880cc40f77c068dbaca78743756"
+  },
+  "Ausgabe/STL/STD-DIN94-1.6.stl": {
+    "bytes": 32584,
+    "sha256": "b7a30a3196f05fdd8ad6c7d2e4afc2f969ca2314c2503c7d6a6133c531c645dc"
+  },
+  "Ausgabe/STL/STD-DIN94-2.stl": {
+    "bytes": 32584,
+    "sha256": "49cd8b5340a632ee473e02ba3cf835b0d9c9620900f92179fb3ac3e7d36b68b0"
+  },
+  "Ausgabe/STL/STD-DIN976-M6-ROTOR.stl": {
+    "bytes": 4084,
+    "sha256": "aa3ab98a80ff872af70214370d44e0fcb5e994f8c0524bc101ffe3e1629c4f0f"
+  },
+  "Ausgabe/STL/STD-DIN988-6-L1.stl": {
+    "bytes": 8484,
+    "sha256": "b246c31c7f8dae5b37db01db44f401dd1882b5543f2ea47a67522b2dca8378c7"
+  },
+  "Ausgabe/STL/STD-GE20-AUSSEN.stl": {
+    "bytes": 10184,
+    "sha256": "1c3fa0e1270f2cec4c95f89c03d44f4ae1237b77ee67f040b489115a6878b3b5"
+  },
+  "Ausgabe/STL/STD-GE20-INNEN.stl": {
+    "bytes": 11684,
+    "sha256": "398a8610a9512a507ecb4561062088ae41b3278883570389880f9e2baca0f025"
+  },
+  "Ausgabe/STL/STD-GE6-AUSSEN.stl": {
+    "bytes": 14284,
+    "sha256": "aac834c4099361044832d9150c69f9ad30eff66b09f86d24cf26bf15996860e6"
+  },
+  "Ausgabe/STL/STD-GE6-INNEN.stl": {
+    "bytes": 15884,
+    "sha256": "93d7316da5593ceaa1620a293e686bbb70492a6371cdc78c15b1ed4a5b428542"
+  },
+  "Ausgabe/STL/STD-GE60-AUSSEN.stl": {
+    "bytes": 16384,
+    "sha256": "73cda79e3c84967735cfd02c31f64dfe0ed7463bcc4437cf54c7b96963fbc44e"
+  },
+  "Ausgabe/STL/STD-GE60-INNEN.stl": {
+    "bytes": 17884,
+    "sha256": "8bd2775cbf8448a55e01ce8a5a8dbd3cbc0838e9ba58f79cda439cc74fa2b0d4"
+  },
+  "Ausgabe/STL/STD-GELENKKOPF6.stl": {
+    "bytes": 27484,
+    "sha256": "d86e5321328db801a08480b5d4627eb4a4c3f74eeae31b85283c960453172749"
+  },
+  "Ausgabe/STL/STD-GELENKKUGEL6.stl": {
+    "bytes": 16484,
+    "sha256": "78c112a45a5e30baf4cee0c6e01ea155a4363ed494246dcc9fc8a32db1fb44fb"
+  },
+  "Ausgabe/STL/STD-HTD3M-L450.stl": {
+    "bytes": 10084,
+    "sha256": "b4c413fd11724d12fcf1e8200614f265f9d7df30c6c4a856ce476cbf79c59848"
+  },
+  "Ausgabe/STL/STD-HTD3M-L540.stl": {
+    "bytes": 10084,
+    "sha256": "3109371d9120dace1380928760983cdbc4989105f3aa1526ad61879225baca35"
+  },
+  "Ausgabe/STL/STD-HTD3M20-Motor.stl": {
+    "bytes": 8484,
+    "sha256": "80042a6096381e9137bf4fac1ad6e97991551be149cb17cc4749abffdff66fc2"
+  },
+  "Ausgabe/STL/STD-HTD3M20-Spindel.stl": {
+    "bytes": 8484,
+    "sha256": "78a345e42ebbc5966361ef203c8f60aac3df090975042941148f0c79d78eb4e0"
+  },
+  "Ausgabe/STL/STD-ISO10642-M3x6.stl": {
+    "bytes": 9384,
+    "sha256": "eda629b071ad08220e218754411c6ba033498ccd274a2c6e0ba0cbe06dfc7f75"
+  },
+  "Ausgabe/STL/STD-ISO4762-M3x12.stl": {
+    "bytes": 9484,
+    "sha256": "ce55e7631f4e397328352b85e0c5b5614442411e75dd11692f72c92a6543c57c"
+  },
+  "Ausgabe/STL/STD-ISO4762-M3x8.stl": {
+    "bytes": 9484,
+    "sha256": "50cddd76cb5da5223912d44aa7cca50e3ccec624f5ae0032fbbc480aafcade24"
+  },
+  "Ausgabe/STL/STD-ISO4762-M4x12.stl": {
+    "bytes": 9484,
+    "sha256": "e1271b9329a5096269ce9d23963d3aa334da6195e020fdc65b62c8cea18f38f3"
+  },
+  "Ausgabe/STL/STD-ISO4762-M4x16.stl": {
+    "bytes": 9484,
+    "sha256": "ba70027ddf7b71344926ad2080edf787bfcc4511d4a5daaea2f3f28cf42e20ec"
+  },
+  "Ausgabe/STL/STD-ISO4762-M4x20.stl": {
+    "bytes": 9484,
+    "sha256": "6fdf1c33c19607646ab56c0bd113f09903142d6989e7cd15b9a0df93979c3f4f"
+  },
+  "Ausgabe/STL/STD-ISO4762-M4x8.stl": {
+    "bytes": 9484,
+    "sha256": "3fc07598e25cb274b5f7557339c7b443b60be3a976123221e6274e20ab96ddd5"
+  },
+  "Ausgabe/STL/STD-ISO4762-M5x12.stl": {
+    "bytes": 9484,
+    "sha256": "05933252f2d6c4d2571709c3e2bb4435367daf865739e05e31682a16717ebe48"
+  },
+  "Ausgabe/STL/STD-ISO4762-M5x30.stl": {
+    "bytes": 9484,
+    "sha256": "cc946227410468b376a03bae46aada87b6332a30a7351b36f851914cfd0b4e1d"
+  },
+  "Ausgabe/STL/STD-ISO4762-M5x40.stl": {
+    "bytes": 9484,
+    "sha256": "bd2ba1a0e438ac681b12c8de1606336dd6c30d813901687a588de28a5e27edb8"
+  },
+  "Ausgabe/STL/STD-ISO4762-M6x100.stl": {
+    "bytes": 9484,
+    "sha256": "5ae563fe69330b0652c2be6ae3279ece8323ec130934d110a88c2de28fed3c1f"
+  },
+  "Ausgabe/STL/STD-ISO4762-M6x12.stl": {
+    "bytes": 9484,
+    "sha256": "736958d114151c6f484f1105308b6fedbc8d97b5a2862d053ff617b3ef20c290"
+  },
+  "Ausgabe/STL/STD-ISO4762-M6x16.stl": {
+    "bytes": 9484,
+    "sha256": "6b048cd2584d419ebafa05d4bfdb495b5b87bd74d2e5353d8d44470887c79bf9"
+  },
+  "Ausgabe/STL/STD-ISO4762-M6x25.stl": {
+    "bytes": 9484,
+    "sha256": "ea303ea8c828fc20db0096ca2d40869ef17a0d4092e41e28c6434fbc3123d28e"
+  },
+  "Ausgabe/STL/STD-ISO4762-M6x30.stl": {
+    "bytes": 9484,
+    "sha256": "b0990b66ab2d381191fb83e6ca97c4f650d6856eacf94593cc193d6221708592"
+  },
+  "Ausgabe/STL/STD-ISO4762-M6x90.stl": {
+    "bytes": 9484,
+    "sha256": "8649554bf80c99c93ca7067d14e428d2e06220b83391a1dcfdbb39d6d80e823a"
+  },
+  "Ausgabe/STL/STD-ISO7089-M6-GELENK.stl": {
+    "bytes": 8484,
+    "sha256": "b712eca9ba9f1acd2c1259b546ee917aa3efe8e739cfc6ca00978ab75a99ee24"
+  },
+  "Ausgabe/STL/STD-ISO7089-M6-SPEICHE.stl": {
+    "bytes": 8484,
+    "sha256": "57f7542eba8231b1982512ccb207a74e3ca49a9fd8a3653e885a74b01eb8c7f9"
+  },
+  "Ausgabe/STL/STD-ISO7089-M8-GELENK.stl": {
+    "bytes": 8484,
+    "sha256": "38f8be948c9da1f2ab30e2b2b1e3bd781e5a478ae859979170369164ff65f92e"
+  },
+  "Ausgabe/STL/STD-KGT1204.stl": {
+    "bytes": 4084,
+    "sha256": "df3b38a0463a09b624874a2575ff5a776d765eb49742b2b5898d036edb481efb"
+  },
+  "Ausgabe/STL/STD-KM1.stl": {
+    "bytes": 8484,
+    "sha256": "ae285a59300af74f863cf9e19c566e1f6cdc955b2ca32dc54dccfe43b0863b06"
+  },
+  "Ausgabe/STL/STD-LINEARFUEHRUNG.stl": {
+    "bytes": 684,
+    "sha256": "4428b52feaca4029ad9e4a87c55eba111d76285f9bb643b7ad97f6d0e6c4a48c"
+  },
+  "Ausgabe/STL/STD-M8-GELENKKUGEL.stl": {
+    "bytes": 11684,
+    "sha256": "3239d54d1c38475b6a6dac4585daf84d55043102e9d697ec4000e591b002cb84"
+  },
+  "Ausgabe/STL/STD-M8-ZUGSTANGENKOPF.stl": {
+    "bytes": 16584,
+    "sha256": "ad7b0d4824eba92de66d6cb94cd335c155b36c7124e6aef71c26db2a963b6fa4"
+  },
+  "Ausgabe/STL/STD-MB1.stl": {
+    "bytes": 8484,
+    "sha256": "406b4fe3a98a3a54bf7284a62090daea93e079ef925b96064cf9bd4cf2032bf9"
+  },
+  "Ausgabe/STL/STD-MUTTER-M6.stl": {
+    "bytes": 5484,
+    "sha256": "8256de853043a72073f95a0d38cbbe65d0a6919a9fc6e3ad36e306a0bcdf470f"
+  },
+  "Ausgabe/STL/STD-PASSFEDER4.stl": {
+    "bytes": 684,
+    "sha256": "9164046b9148622634f6dd176a77bc4aa204065422807192c664642a581083a3"
+  },
+  "Ausgabe/STL/STD-SCHEIBE-DECKM6.stl": {
+    "bytes": 8484,
+    "sha256": "1a7cc9f53c9560ce61680e16d20e13df4d8bb2f5a1e729411f40912efc208bf6"
+  },
+  "Ausgabe/STL/STD-SCHEIBE-M4.stl": {
+    "bytes": 8484,
+    "sha256": "ed7cd0f514d4809d5c2fb3e501878e230c77d9869dd785540cc9523e2f5b2265"
+  },
+  "Ausgabe/STL/STD-SCHEIBE-M6.stl": {
+    "bytes": 8484,
+    "sha256": "b712eca9ba9f1acd2c1259b546ee917aa3efe8e739cfc6ca00978ab75a99ee24"
+  },
+  "Ausgabe/Schnittstellen.json": {
+    "bytes": 84693,
+    "sha256": "66940dd7d53ca2e99705061825f0e74fabc68cf3a7e2d9ad9e478f15b623c4c4"
+  },
+  "Ausgabe/Schnittstellen_Fehler.json": {
+    "bytes": 3,
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+  },
+  "Ausgabe/Spiegel_Pruefung.json": {
+    "bytes": 184,
+    "sha256": "40a817f2cd33f79fb0de93d9e5849fe2033af11ccf5d6e7181b8bb777a230d0f"
+  },
+  "Ausgabe/Stueckliste.csv": {
+    "bytes": 1658144,
+    "sha256": "1fa6b08b8de4a864a957a5270524a7e1def7155bbc2ace09dc09dfcf36c467e8"
+  },
+  "Ausgabe/Teile.json": {
+    "bytes": 184465,
+    "sha256": "a2e0202893a864f0278f37a47cb1101c0b96982a7515d1ef12b58d6f901b6e5b"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-ACHS-SICHERUNGSBLECH.svg": {
+    "bytes": 5843,
+    "sha256": "36bb2b8bda723c87dab245644949fbeb0b2d7fda8126d8080448c2a31117ccea"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-AKTOR-M20.svg": {
+    "bytes": 4743,
+    "sha256": "29b75f3b3706cf6bf6dee2eefbaaa7287c5b5cf4e372963aba18ffce9bcd09ea"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-AKTOR-MOTORTRAEGER-OBEN.svg": {
+    "bytes": 7389,
+    "sha256": "cd56fd9511636d9685a3a11856e3644a49bec74f1ee040f1e159d87101948aae"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-AKTOR-MOTORTRAEGER-UNTEN.svg": {
+    "bytes": 7583,
+    "sha256": "2e78cbb577e6512674dd272ebe63f6f8575a6be1b5cceae67985f6862406e48b"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-AKTUATORGEHAEUSE.svg": {
+    "bytes": 15423,
+    "sha256": "29706ae2892dc18f6dfe73f5728fd4fee57c08292573e639c3cbe106512819a6"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-AKTUATORWAGEN.svg": {
+    "bytes": 6489,
+    "sha256": "b68d9a3a793d442f50ac39adf32c5c2dad88dc850e7032fef325dee4dc9a02a1"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-AUSSENLAGERTRAEGER.svg": {
+    "bytes": 15390,
+    "sha256": "8fb7dc9610be9d08a9a8e613d724639802ab4c743733ed64bbfa908fe0a5c4cf"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-AUSSENRING.svg": {
+    "bytes": 11446,
+    "sha256": "e835d71074b37f1969552fa8072787d88f4552800b1cc9ab6bd9b191c63cb969"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-AUSSENZAPFEN.svg": {
+    "bytes": 9020,
+    "sha256": "701a7f0c87dc736991387c83e5127e0ffa15c5911490484642e61f4a5f935042"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-CFK-HOLM_HINTEN.svg": {
+    "bytes": 5457,
+    "sha256": "1ba57d5b7490bba38519694ce7a0bd4c07593fbfa0cda7310ce45da3e75c3b02"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-CFK-HOLM_VORN.svg": {
+    "bytes": 5472,
+    "sha256": "83fddc2c7c69d63200295f4fffb0df5a2f68e0c70b7b1f0a09667ead43dc063d"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-CFK-SCHALE_OBEN.svg": {
+    "bytes": 42264,
+    "sha256": "f61613284376d7a07053d3ea825e8c35fef0a16bedf31e2b3ab3601921a5b4f9"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-CFK-SCHALE_UNTEN.svg": {
+    "bytes": 42877,
+    "sha256": "96729acb094a123b08c100eaeff5bc92cd70e986ddc8047ccac9bde0adee6ba8"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-CFK-SPITZENBLOCK.svg": {
+    "bytes": 20889,
+    "sha256": "92c4362cfa7f7b8279e93057b327aadd52ceb4d560a294e5c5d0d0b51f09709f"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-CFK-WURZELBLOCK.svg": {
+    "bytes": 23202,
+    "sha256": "fa15e1f05569ac7a330223257af640899684036b6e16da84ec388194fd2abfcc"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-DECK.svg": {
+    "bytes": 4023,
+    "sha256": "3423dd8b1d0fc9d756e2a182fbd941b9cafe83ec111c6302b18f53fe24f929cc"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-DECKSTUETZE.svg": {
+    "bytes": 4770,
+    "sha256": "9212d7c56f271641780acb8a81cfd8f7f40edc267fcf020e1a95b7867051c3b7"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-DECKTRAEGER.svg": {
+    "bytes": 3765,
+    "sha256": "c7e7f4b94e1f503d48ee54000b9fc0bb8633ec3a25d60a071df462432aa7e879"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-FACHWERK-INSERT.svg": {
+    "bytes": 4701,
+    "sha256": "acae8c9a4bb85c29f14280f636955c9cc9ff1aa04a0183a8b875d6a354e4deeb"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-FACHWERK-PYLON-MITNEHMER.svg": {
+    "bytes": 8717,
+    "sha256": "bc9bf253df61c59af150f38feb7759a9d0aafb8a3671aa244e024e10b536b53e"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-FACHWERK-PYLON.svg": {
+    "bytes": 5063,
+    "sha256": "7d2b55c2d938d8b4c64ff5f72f8e2575f5a577559f356596dc9651495b918520"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-GE-DECKEL-OBEN.svg": {
+    "bytes": 4980,
+    "sha256": "0ed7a2332aeffd827ecd7589bceb8dbb3900b6de079967b14687f0d628532b5b"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-GE-DECKEL-UNTEN.svg": {
+    "bytes": 6807,
+    "sha256": "8f25c3a25e76a28e83769b73e92b51220f8c13b2c11f95977159c77a29b53a1b"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-GE-M60-OBEN.svg": {
+    "bytes": 4750,
+    "sha256": "16481dc2f13043b21e4b4c55e6f2b4b128b0c834b96d626909c52cd84a3354a4"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-GE-M60-UNTEN.svg": {
+    "bytes": 4752,
+    "sha256": "e0c263126e7bffb875ffcd0e5d44bf0634d2f8893514c4e822f287906ccd408f"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-GE20-DECKEL-OBEN.svg": {
+    "bytes": 4902,
+    "sha256": "b08a126ee6d4418e833e3e11674dc154675f8dd4e17abba9eb22ec9c29da3cde"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-GE20-DECKEL-UNTEN.svg": {
+    "bytes": 4712,
+    "sha256": "efbdbe06213e29d4ce175da1e8435c4b1fd204ac65b3dfb8d0ba22558ab14224"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-GLEITHUELSE.svg": {
+    "bytes": 4671,
+    "sha256": "1e55f52bb1484053007f652336442f59796440090e6bd301da4451794db15fbd"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-HEBEL-ANLAUF.svg": {
+    "bytes": 4615,
+    "sha256": "6b752f2aacfe35ddc91f435c48d708ae519301d010ca83acd345757af8857ae8"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-HEBEL-ENDSCHEIBE.svg": {
+    "bytes": 4451,
+    "sha256": "bfe5740bf87f775e4999c75699a997a103e865e1b34c5516a33bb195e4d3e2c1"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-HUBANSCHLAG-B.svg": {
+    "bytes": 6272,
+    "sha256": "6b234e1a6982c49684aa3a7d522cb1b0c7fb6079df6a51eba8cf16aa84cddcd8"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-HUBANSCHLAG-OBEN-B.svg": {
+    "bytes": 6286,
+    "sha256": "b55132f91aef35c8e9506723cc90e41f0cac121927fc2d6ae25d19cde828712a"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-HUBANSCHLAG-OBEN.svg": {
+    "bytes": 6658,
+    "sha256": "90ab3340c5b820a6baa1fd9a02c9760483e21ead75ef26194eb5fdb3cb3786d7"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-HUBANSCHLAG.svg": {
+    "bytes": 6700,
+    "sha256": "cf2a4dd42c139372989dfe8ac6cf4688472eba9b32210b7d625cea072cc25644"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-INNENRING.svg": {
+    "bytes": 20370,
+    "sha256": "c03cc4d0d769123cfe29a41c767ae3f014d28b09aeb4fc183f61d0f9650771ba"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-KUFENKLEMME-1.svg": {
+    "bytes": 3564,
+    "sha256": "11c696c10e2bbd072e64afefc79e4083682f36a48b429fe611a3fca282365255"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-LANDEBEIN.svg": {
+    "bytes": 5715,
+    "sha256": "aa33f6a8bb206adbcbcacc8fccddcbb3dd3557b0b156f1a88f2f635ae83f673d"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-LANDEKUFE.svg": {
+    "bytes": 4704,
+    "sha256": "841c4bb60c8a87c0c6f0c5f210469397496699520640b14acdc3517876289329"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-PITCHGESTAENGE.svg": {
+    "bytes": 5872,
+    "sha256": "87a132a6f176d934911cbb2bdefe00fd503d3d815c4cb5f0114b83f2c05c2ce7"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-PITCHHEBEL.svg": {
+    "bytes": 6585,
+    "sha256": "737f3f4445ac25cb46b873ee214ffcbd8ad52433e77f6bf78465b6ef73d0681c"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-PITCHWELLE.svg": {
+    "bytes": 7323,
+    "sha256": "5588c94799cb81d3c67cd1bec12b4893f1ff3883c6f34866d4fe4b5ddf2d6848"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-SCHERENFESTPUNKT-B.svg": {
+    "bytes": 7393,
+    "sha256": "11eea5bf34b7cfc382e2405340df1df966788aabedfd9af25cf87acbb32db739"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-SCHERENFESTPUNKT.svg": {
+    "bytes": 6472,
+    "sha256": "aaaec33c63e15e36e9dcf8e066580044b79195b452e1eb328f46656baf0865ae"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-SCHERENLASCHEN.svg": {
+    "bytes": 4800,
+    "sha256": "8a0a2e09fd24a8838dd02a0e442c12b089046ccdc2a25c4ffbfbcfb5a83612d1"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-SPEICHE-CFK.svg": {
+    "bytes": 4702,
+    "sha256": "8c9174ec74842b4c0b639bb3a09f56ab31745f445e412172e1ee3c65f8c14eea"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-SPEICHENWURZEL.svg": {
+    "bytes": 6831,
+    "sha256": "13b1885fe0ca7c38557df1abf01ac700f93e79857ac35bcf6b1e6f6af5c0cdb5"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-SPITZENEINSATZ.svg": {
+    "bytes": 4593,
+    "sha256": "456e32c066aeba35373bbe6c4e04889e55f2110064005ef34d6de64cd22e3bf4"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-TAUMEL-AUSSEN.svg": {
+    "bytes": 25822,
+    "sha256": "25abcf22dbd756b78b85c80c6f6330c799013d9f437c1bce2aa10e0a6ed42075"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-TAUMEL-AUSSENDECKEL.svg": {
+    "bytes": 5114,
+    "sha256": "cee2013d1426b06c05507b66ec3647b48c54326d29c019510dda6886413e10b7"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-TAUMEL-INNEN.svg": {
+    "bytes": 20380,
+    "sha256": "d7e3292cbdbd8a1acc37e0cf734e099a01ec647b11c1f5dae3f7d3e0050f97b4"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-TAUMEL-M100.svg": {
+    "bytes": 4797,
+    "sha256": "944868d0b3605abc490a6a16d802e79639884f93a1c5ba89c63a13aa9bdc2c96"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-WURZEL-ENDSCHEIBE.svg": {
+    "bytes": 4694,
+    "sha256": "a4d1e5de9c4606552b36918ba7dfb4c8bcf7ecc3df84189c28d01609063d157f"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-WURZELDECKEL.svg": {
+    "bytes": 5489,
+    "sha256": "c3080ef24d2f98d065efcbacd03cdc7b1baddecf0c7857f85949b9b01a660dcc"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-WURZELEINSATZ.svg": {
+    "bytes": 4653,
+    "sha256": "b81ba36954e9ab1751786e03ebad45a560d1b30ce13ee330fa9d632d9f981d12"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-WURZELGEHAEUSE.svg": {
+    "bytes": 7110,
+    "sha256": "732943acf7497f575026a0c242076224394e3b3a57d5557eeb6301526f75e693"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-ZENTRALPLATTE-OBEN.svg": {
+    "bytes": 11868,
+    "sha256": "733b7c747a8d1f6358f82806e95d39af26d762e85a3b2166a24a34777435cb3f"
+  },
+  "Ausgabe/Zeichnungen_RFQ/P13-ZENTRALPLATTE-UNTEN.svg": {
+    "bytes": 11870,
+    "sha256": "f095a43af44069fadff4989e44b6ab30b5b4e54a62b37fd9f30b13112c36385a"
+  },
+  "Ausgabe/Zeichnungsindex.json": {
+    "bytes": 5375,
+    "sha256": "87cd6855eea4df16624cfd33d759972f4771b159cd640ffa3874bef7622307f3"
+  },
+  "ERGEBNIS.md": {
+    "bytes": 4488,
+    "sha256": "1b4263664d65ad3c413d38cc076b0c476d4e7111adce3215a1142c3662106d93"
+  },
+  "FREIGABESTATUS.md": {
+    "bytes": 2579,
+    "sha256": "8176eebebf6cda53c7101f50f9959b13b235f30c3220105b8323c322bec5a713"
+  },
+  "MONTAGE.md": {
+    "bytes": 2850,
+    "sha256": "1908ffa602e80c8fdca2f2d80f7af7a6a7ccb15e7064f1572e6e88ea49101535"
+  },
+  "MOTORANSCHLUSS.md": {
+    "bytes": 1717,
+    "sha256": "cad6762b38d09e6b7ca7b40b54534d496b74dc6d8d79e88acafce065d4e5a146"
+  },
+  "NORMTEILE.md": {
+    "bytes": 4266,
+    "sha256": "1707efeb0d527b16c469a92343ea74f5dc7bf41fe7e5b70b2216ecc09d5d1759"
+  },
+  "P13_erstellen.FCMacro": {
+    "bytes": 418,
+    "sha256": "3f111ed27cd658dc5cd4c46723414ae4a91c84ed301643d78fe866ab93f02dde"
+  },
+  "README.md": {
+    "bytes": 5916,
+    "sha256": "d371ef0b7301f2a7e060bc30c6b4e29d9177766b1e4ca4d5bc50d9431f94bc0a"
+  },
+  "RFQ_CFK.md": {
+    "bytes": 3394,
+    "sha256": "9abca8b54f5b192685984e6db5178eb6951d0bcc0843dda9c08cca1cde6bd842"
+  },
+  "RFQ_METALL.md": {
+    "bytes": 3608,
+    "sha256": "36a7be0cd4f8d35ad84aadfa1dab6f880218900ed05e88eae1b8ce34684a5538"
+  },
+  "abschluss.py": {
+    "bytes": 7693,
+    "sha256": "688cc82db537a5ae7aad8a0d3dfc8326e675c73eaf110e29fa37a830a9fc982c"
+  },
+  "anfrage_erstellen.py": {
+    "bytes": 8210,
+    "sha256": "0ebf2f12f6632bff08503f131508a6163ce750c696cb94cd25f19f602fe0f336"
+  },
+  "anlenkung.py": {
+    "bytes": 12117,
+    "sha256": "f7c19394a8e3df605af844f354d374e465b07f40610a1ff7f22ce8f71dcbcf62"
+  },
+  "basis_p12/MODIFIKATIONEN.json": {
+    "bytes": 1277,
+    "sha256": "64e6264316b1a6ef732a1e37ac0169da2c32e4fefcd50d2383fbbf29c26d6972"
+  },
+  "basis_p12/QUELLSTAND.json": {
+    "bytes": 447,
+    "sha256": "f095139cc0d14c2843a36754a2fe995c74e0c1f704c0a29ea89ad7d0ff3be043"
+  },
+  "basis_p12/befestigungen.py": {
+    "bytes": 5412,
+    "sha256": "92a75b5fc37e46c892e69b4022fa78b3884433937fbd02f5a446c0efc4f7e1c6"
+  },
+  "basis_p12/cfk_rahmen.py": {
+    "bytes": 11841,
+    "sha256": "197b1977fb3c6501019f472c09b49d67ca99097faec5aa81f7b76b0d36589a41"
+  },
+  "basis_p12/geometrie.py": {
+    "bytes": 19000,
+    "sha256": "571ca8c868ed8dbf51d5059747c5b746116acf88fab7d5c3996897f014346a94"
+  },
+  "basis_p12/parameter.json": {
+    "bytes": 5602,
+    "sha256": "a2541a539699668b5193ec8fa346fc079a5d293d1d27a584fcfe12d1118fa345"
+  },
+  "basis_p12/parameter_schema.py": {
+    "bytes": 18371,
+    "sha256": "477cb70d901bce09585382099f6c26a3511902f3479e6bf81c4e82829e26efb9"
+  },
+  "beschaffung.py": {
+    "bytes": 2733,
+    "sha256": "c4c4f4b371bfe4cb8a851b8ef70f1b41500745e7dc92231975d511af795ace5f"
+  },
+  "erstellen.py": {
+    "bytes": 6528,
+    "sha256": "8dbe30c9c0a64309f9f1540d0a956562bce7bde81b124b690ac1bdaaa4fc8ff8"
+  },
+  "fahrwerk.py": {
+    "bytes": 10552,
+    "sha256": "3d0d48d8030ad0e460d1e4ce2ed06c9fa1450a860b4f96d77ee378676861022d"
+  },
+  "gelenke.py": {
+    "bytes": 2602,
+    "sha256": "41b69dac324a459615ad16bd97af9a1afd52ff2fd4ff79d3f684065c6114c7b7"
+  },
+  "gesamt_step.py": {
+    "bytes": 1505,
+    "sha256": "ebdd605eb4e268efd6fd4ab393b869e1acd0629eca705795f804fc2d32efb97c"
+  },
+  "gimbal.py": {
+    "bytes": 8369,
+    "sha256": "859d223f285aa1a397ad8a62c6d4a6a6cd0bd250ba9da732275b4ba6d036d0b8"
+  },
+  "kinematik.py": {
+    "bytes": 5223,
+    "sha256": "ed9abed2203fcf29424a717a9859462b06536847b6477a09f7a55ddb23b99ecb"
+  },
+  "kollisionsgruppen.py": {
+    "bytes": 1131,
+    "sha256": "808bb3d0956049991f7ef40d47279a8ba6425ab43ccbab123d46cb5e10274c9d"
+  },
+  "mechanik.py": {
+    "bytes": 21811,
+    "sha256": "af7055a1d3ff98126c1cc7b9474104f22ce101e1380784e9f43e33447bdf7e6b"
+  },
+  "paket_erstellen.py": {
+    "bytes": 2436,
+    "sha256": "abdd1b5c21a1791e4071f780661282d9f61a9b803a0dd916213263df02f864dc"
+  },
+  "parameter.json": {
+    "bytes": 7252,
+    "sha256": "c98d034f5920c0f9264f4b5adc2c381210efe4c2c4b434353b09027b7f090ace"
+  },
+  "pruefen.py": {
+    "bytes": 4411,
+    "sha256": "7ac46b3947eb81d959cac62bf40e37e2954228201c5a7858c0a155f86fd4f182"
+  },
+  "scheren.py": {
+    "bytes": 10080,
+    "sha256": "e8830e5ac544d1c9652be12c67afb47493a69d3284b6606d7f58b50821b2ca9e"
+  },
+  "spiegeln.py": {
+    "bytes": 1696,
+    "sha256": "f88366d0827de993665e8311b67745250c872865ccf5beb5edc1d0517aa7f10c"
+  },
+  "truss.py": {
+    "bytes": 5572,
+    "sha256": "4e50ab9aadb6859d37aa3bfdcb3534b9d298610651a661f7496364be80886e53"
+  },
+  "verbindungen.py": {
+    "bytes": 10217,
+    "sha256": "4890a3a93ae6bb2c720714161ed3b5c5af57898c4f8fb415d9ba129f99c0de9c"
+  },
+  "visualisieren.py": {
+    "bytes": 3731,
+    "sha256": "53d23bece861b6334bf237469a20db0e0c4d8969a8a141b15fd89faf2bc9b2cb"
+  }
+}

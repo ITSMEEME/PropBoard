@@ -10,7 +10,7 @@ for p in O.iterdir():
     if p.is_file() and p.suffix in ['.FCStd','.step','.csv','.json','.png'] and p.name!='Ansichten_Mesh.json':files.add(p)
 parts=json.loads((O/'Teile.json').read_text())
 for part in parts:
-    for folder,ext in [('STEP','.step'),('STL','.stl')]:
+    for folder,ext in [('STEP','.step'),('STL','.stl'),('Referenz_STEP','.step')]:
         p=O/folder/(part['id']+ext)
         if p.exists():files.add(p)
 with (O/'Stueckliste.csv').open(encoding='utf-8-sig',newline='') as f:

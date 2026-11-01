@@ -1,0 +1,4 @@
+# Rejected aggregate export; see Ausgabe/Gesamt_STEP_Pruefung.json.
+/Ausgabe/P13_Mechanik.step
+# Intermediate collision snapshots are replaced by the completed report.
+/Ausgabe/Kollisionen_Zwischenstand.json

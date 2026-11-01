@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297">
+<rect width="420" height="297" fill="white"/><style>text{font-family:DejaVu Sans,sans-serif;fill:#142c3d}path,line,circle,ellipse{vector-effect:non-scaling-stroke}</style>
+<rect x="8" y="8" width="404" height="281" fill="none" stroke="#223b4b" stroke-width=".3"/>
+<text x="14" y="19" font-size="6">P13-SCHERENFESTPUNKT · Scheren-Festpunktschelle</text>
+<text x="14" y="27" font-size="3.5" fill="#a13e26">ANFRAGEZEICHNUNG · Nenngeometrie · keine Fertigungsfreigabe</text>
+<text x="76" y="39" text-anchor="middle" font-size="4">Draufsicht</text>
+<g transform="translate(76,96) scale(1.382716049382716)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 18.5 4.125 L 18.5 13.875 " />
+<path id= "2" d=" M 18.5 4.125 L 40.5 4.125 " />
+<path id= "3" d=" M 15.5 0.125 L 15.5 13.875 " />
+<path id= "4" d=" M 15.5 0.125 L 40.5 0.125 " />
+<path id= "5" d=" M 40.5 0.125 L 40.5 4.125 " />
+<path id= "6" d=" M 18.5 13.875 L 15.5 13.875 " />
+<path id= "7" d=" M 15.5 13.875 L 9.59845 13.875 " />
+<path d="M-31.9476 -3.875 A28 28 0 0 1 15.5 3.7327" /><path d="M-28.5 5.18017 A20.1 20.1 0 0 1 9.59845 13.875" /><path id= "10" d=" M -28.5 -3.875 L -28.5 5.18017 " />
+<path id= "11" d=" M -30.5984 13.875 L -40.5 13.875 " />
+<path id= "12" d=" M -40.5 -3.875 L -40.5 13.875 " />
+<path id= "13" d=" M -40.5 -3.875 L -28.5 -3.875 " />
+<path d="M-30.5984 13.875 A20.1 20.1 0 0 1 -28.5 5.18017" /></g>
+</g>
+<text x="76" y="157" text-anchor="middle" font-size="3.5">Hülle 81.000 × 27.750 mm · Maßstab 1.38:1</text>
+<text x="210" y="39" text-anchor="middle" font-size="4">Vorderansicht</text>
+<g transform="translate(210,96) scale(1.382716049382716)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M -10 15.5 L -10 40.5 " />
+<path id= "2" d=" M 10 15.5 L 10 40.5 " />
+<path id= "3" d=" M 10 40.5 L -10 40.5 " />
+<circle cx ="0" cy ="29.5" r ="3.1" /><path id= "5" d=" M 10 15.5 L -10 15.5 " />
+<path d="M-6, -31.9476 L-6, -29.0722  L-6, -25.7941  L-6, -22.1845  L-6, -18.3216  L-6, -14.2892  L-6, -10.1746  L-6, -6.06713  L-6, -2.05571  L-6, 1.77266  L-6, 5.335  L-6, 8.55407  L-6, 11.3601  L-6, 13.6923  L-6, 15.5 " /><path d="M6, -31.9476 L6, -29.0722  L6, -25.7941  L6, -22.1845  L6, -18.3216  L6, -14.2892  L6, -10.1746  L6, -6.06713  L6, -2.05571  L6, 1.77266  L6, 5.335  L6, 8.55407  L6, 11.3601  L6, 13.6923  L6, 15.5 " /><path id= "8" d=" M 6 -31.9476 L -6 -31.9476 " />
+<path id= "9" d=" M -6 -28.5 L -12 -28.5 " />
+<path id= "10" d=" M 12 -28.5 L 6 -28.5 " />
+<path id= "11" d=" M -12 -40.5 L -12 -28.5 " />
+<path id= "12" d=" M 12 -40.5 L 12 -28.5 " />
+<circle cx ="-6" cy ="-34.5" r ="2.1" /><circle cx ="6" cy ="-34.5" r ="2.1" /><path id= "15" d=" M 12 -40.5 L -12 -40.5 " />
+</g>
+</g>
+<text x="210" y="157" text-anchor="middle" font-size="3.5">Hülle 81.000 × 24.000 mm · Maßstab 1.38:1</text>
+<text x="344" y="39" text-anchor="middle" font-size="4">Seitenansicht</text>
+<g transform="translate(344,96) scale(4)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M -6 13.875 L 6 13.875 " />
+</g>
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M -10 -4.125 L -10 -13.875 " />
+<path id= "2" d=" M -10 -13.875 L 10 -13.875 " />
+<path id= "3" d=" M 10 -4.125 L 10 -13.875 " />
+<path id= "4" d=" M -10 -4.125 L 10 -4.125 " />
+<path id= "5" d=" M 10 -0.125 L 10 -4.125 " />
+<path id= "6" d=" M -10 -0.125 L -10 -4.125 " />
+<path id= "7" d=" M -10 -0.125 L 10 -0.125 " />
+<path d="M6, 13.875 L6, 13.7967  L6, 13.5623  L6, 13.173  L6, 12.631  L6, 11.9395  L6, 11.1021  L6, 10.1237  L6, 9.00969  L6, 7.76628  L6, 6.40045  L6, 4.91984  L6, 3.33271  L6, 1.64796  L6, -0.125 " /><path d="M-6, 13.875 L-6, 13.7967  L-6, 13.5623  L-6, 13.173  L-6, 12.631  L-6, 11.9395  L-6, 11.1021  L-6, 10.1237  L-6, 9.00969  L-6, 7.76628  L-6, 6.40045  L-6, 4.91984  L-6, 3.33271  L-6, 1.64796  L-6, -0.125 " /><path id= "10" d=" M 6 3.875 L 12 3.875 " />
+<path id= "11" d=" M 10 -5.18017 L 12 -5.18017 " />
+<path id= "12" d=" M 12 3.875 L 12 -5.18017 " />
+<path id= "13" d=" M -12 3.875 L -6 3.875 " />
+<path id= "14" d=" M -12 3.875 L -12 -5.18017 " />
+<path id= "15" d=" M -12 -5.18017 L -10 -5.18017 " />
+<path d="M12, -13.875 C12, -12.3717 12, -10.8715 12, -9.40938  C12, -8.9925 12, -8.57848 12, -8.16732  C12, -7.75795 12, -7.35209 12, -6.94974  C12, -6.54955 12, -6.15351 12, -5.76164  C12, -5.56781 12, -5.37399 12, -5.18017 " /><path d="M-12, -13.875 C-12, -12.3717 -12, -10.8715 -12, -9.40938  C-12, -8.9925 -12, -8.57848 -12, -8.16732  C-12, -7.75795 -12, -7.35209 -12, -6.94974  C-12, -6.54955 -12, -6.15351 -12, -5.76164  C-12, -5.56781 -12, -5.37399 -12, -5.18017 " /><path id= "18" d=" M -12 -13.875 L -10 -13.875 " />
+<path id= "19" d=" M 10 -13.875 L 12 -13.875 " />
+</g>
+</g>
+<text x="344" y="157" text-anchor="middle" font-size="3.5">Hülle 27.750 × 24.000 mm · Maßstab 4:1</text>
+<text x="14" y="174" font-size="3.1">Menge: 2 · Werkstoff: EN AW-7075 T6</text>
+<text x="14" y="179" font-size="3.1">Verfahren: Drehen/Fräsen; geteilte Klemmung</text>
+<text x="14" y="184" font-size="3.1">Merkmale: Ø40.2-Sitz; zwei Schellenhälften und M5-Klemmung vor Lieferfreigabe ausarbeiten; fester Drehmomentpfad zur Säule;</text>
+<text x="14" y="189" font-size="3.1">getrennte SchellenhälfteA;2×M5-Kernloch; keine ungeteilte Ringschelle</text>
+<text x="14" y="194" font-size="3.1">Offen: Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen</text>
+<text x="14" y="199" font-size="3.1">Unbemaßte Längen ISO2768-1m als Anfragebasis; Funktionspassungen separat nach ISO286.</text>
+<text x="14" y="204" font-size="3.1">Geometrische GPS-Toleranzen/Bezüge nach ISO22081 mit Fertiger abstimmen. STEP enthält Nennmaße.</text>
+<text x="14" y="209" font-size="3.1">Datum01.11.2026 · P13 · Herkunft/Normfamilie und Grenzen siehe Stückliste und Anfrageunterlagen.</text>
+</svg>

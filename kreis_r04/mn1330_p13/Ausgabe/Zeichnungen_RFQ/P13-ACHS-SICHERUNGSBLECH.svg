@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297">
+<rect width="420" height="297" fill="white"/><style>text{font-family:DejaVu Sans,sans-serif;fill:#142c3d}path,line,circle,ellipse{vector-effect:non-scaling-stroke}</style>
+<rect x="8" y="8" width="404" height="281" fill="none" stroke="#223b4b" stroke-width=".3"/>
+<text x="14" y="19" font-size="6">P13-ACHS-SICHERUNGSBLECH · Rollenachsen-Sicherungsblech</text>
+<text x="14" y="27" font-size="3.5" fill="#a13e26">ANFRAGEZEICHNUNG · Nenngeometrie · keine Fertigungsfreigabe</text>
+<text x="76" y="39" text-anchor="middle" font-size="4">Draufsicht</text>
+<g transform="translate(76,96) scale(3.2)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<circle cx ="3.5" cy ="0" r ="7.6" /><path id= "2" d=" M -17.5 -3 L -10.1748 -3 " />
+<path d="M-10.1748 -3 A14 14 0 0 1 17.5 -3.42901e-15" /><path d="M17.5 0 A14 14 0 0 1 -10.1748 3" /><path id= "5" d=" M -17.5 3 L -10.1748 3 " />
+<path id= "6" d=" M -17.5 -3 L -17.5 3 " />
+<path id= "7" d=" M 14.5 -3 L 15.5 -3 " />
+<path id= "8" d=" M 15.5 -3 L 15.5 3 " />
+<path id= "9" d=" M 14.5 3 L 15.5 3 " />
+<path id= "10" d=" M 14.5 -3 L 14.5 3 " />
+</g>
+</g>
+<text x="76" y="157" text-anchor="middle" font-size="3.5">Hülle 35.000 × 28.000 mm · Maßstab 3.2:1</text>
+<text x="210" y="39" text-anchor="middle" font-size="4">Vorderansicht</text>
+<g transform="translate(210,96) scale(3.2)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 5.5 17.5 L 4.5 17.5 " />
+</g>
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 7.5 -17.5 L 7.5 -16.5 " />
+<path id= "2" d=" M 7.5 -16.5 L 5.5 -16.5 " />
+<path d="M5.5, -10.1748 L5.5, -9.25492  L5.5, -7.78007  L5.5, -5.8144  L5.5, -3.44345  L5.5, -0.770384  L5.5, 2.08849  L5.5, 5.00879  L5.5, 7.86343  L5.5, 10.5282  L5.5, 12.8872  L5.5, 14.8377  L5.5, 16.2949  L5.5, 17.1954  L5.5, 17.5 " /><path id= "4" d=" M 5.5 -16.5 L 5.5 -10.1748 " />
+<path id= "5" d=" M 5.5 -10.1748 L 4.5 -10.1748 " />
+<path id= "6" d=" M 4.5 -17.5 L 4.5 -10.1748 " />
+<path id= "7" d=" M 7.5 -17.5 L 4.5 -17.5 " />
+<path d="M4.5, -10.1748 L4.5, -9.25492  L4.5, -7.78007  L4.5, -5.8144  L4.5, -3.44345  L4.5, -0.770384  L4.5, 2.08849  L4.5, 5.00879  L4.5, 7.86343  L4.5, 10.5282  L4.5, 12.8872  L4.5, 14.8377  L4.5, 16.2949  L4.5, 17.1954  L4.5, 17.5 " /><path id= "9" d=" M 4.5 14.5 L -7.5 14.5 " />
+<path id= "10" d=" M -7.5 14.5 L -7.5 15.5 " />
+<path id= "11" d=" M 4.5 15.5 L -7.5 15.5 " />
+</g>
+</g>
+<text x="210" y="157" text-anchor="middle" font-size="3.5">Hülle 35.000 × 15.000 mm · Maßstab 3.2:1</text>
+<text x="344" y="39" text-anchor="middle" font-size="4">Seitenansicht</text>
+<g transform="translate(344,96) scale(4.0)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M -5.5 -14 L -4.5 -14 " />
+<path id= "2" d=" M -5.5 14 L -4.5 14 " />
+</g>
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M -7.5 3 L -7.5 -3 " />
+<path id= "2" d=" M -7.5 3 L -5.5 3 " />
+<path id= "3" d=" M -7.5 -3 L -5.5 -3 " />
+<path d="M-5.5, 14 L-5.5, 13.912  L-5.5, 13.649  L-5.5, 13.2144  L-5.5, 12.6136  L-5.5, 11.8541  L-5.5, 10.9456  L-5.5, 9.89949  L-5.5, 8.72886  L-5.5, 7.44845  L-5.5, 6.07437  L-5.5, 4.62391  L-5.5, 3.11529  L-5.5, 1.5675  L-5.5, 3.44169e-15 " /><path d="M-5.5, 0 L-5.5, -1.5675  L-5.5, -3.11529  L-5.5, -4.62391  L-5.5, -6.07437  L-5.5, -7.44845  L-5.5, -8.72886  L-5.5, -9.89949  L-5.5, -10.9456  L-5.5, -11.8541  L-5.5, -12.6136  L-5.5, -13.2144  L-5.5, -13.649  L-5.5, -13.912  L-5.5, -14 " /><path d="M-4.5, 14 L-4.5, 13.912  L-4.5, 13.649  L-4.5, 13.2144  L-4.5, 12.6136  L-4.5, 11.8541  L-4.5, 10.9456  L-4.5, 9.89949  L-4.5, 8.72886  L-4.5, 7.44845  L-4.5, 6.07437  L-4.5, 4.62391  L-4.5, 3.11529  L-4.5, 1.5675  L-4.5, 3.44169e-15 " /><path d="M-4.5, 0 L-4.5, -1.5675  L-4.5, -3.11529  L-4.5, -4.62391  L-4.5, -6.07437  L-4.5, -7.44845  L-4.5, -8.72886  L-4.5, -9.89949  L-4.5, -10.9456  L-4.5, -11.8541  L-4.5, -12.6136  L-4.5, -13.2144  L-4.5, -13.649  L-4.5, -13.912  L-4.5, -14 " /><path id= "8" d=" M -4.5 3 L 7.5 3 " />
+<path id= "9" d=" M -4.5 -3 L 7.5 -3 " />
+<path id= "10" d=" M 7.5 3 L 7.5 -3 " />
+</g>
+</g>
+<text x="344" y="157" text-anchor="middle" font-size="3.5">Hülle 28.000 × 15.000 mm · Maßstab 4:1</text>
+<text x="14" y="174" font-size="3.1">Menge: 6 · Werkstoff: DC01,1mm</text>
+<text x="14" y="179" font-size="3.1">Verfahren: Laserschneiden/Biegen</text>
+<text x="14" y="184" font-size="3.1">Merkmale: Eigenkonstruktion nach Prinzip Sicherungsblech: eine Zunge um Gabelrückkante-20, eine am Mutterflach; keine erneute</text>
+<text x="14" y="189" font-size="3.1">Verwendung nach Aufbiegen</text>
+<text x="14" y="194" font-size="3.1">Offen: Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen</text>
+<text x="14" y="199" font-size="3.1">Unbemaßte Längen ISO2768-1m als Anfragebasis; Funktionspassungen separat nach ISO286.</text>
+<text x="14" y="204" font-size="3.1">Geometrische GPS-Toleranzen/Bezüge nach ISO22081 mit Fertiger abstimmen. STEP enthält Nennmaße.</text>
+<text x="14" y="209" font-size="3.1">Datum01.11.2026 · P13 · Herkunft/Normfamilie und Grenzen siehe Stückliste und Anfrageunterlagen.</text>
+</svg>

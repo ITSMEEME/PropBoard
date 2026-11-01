@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297">
+<rect width="420" height="297" fill="white"/><style>text{font-family:DejaVu Sans,sans-serif;fill:#142c3d}path,line,circle,ellipse{vector-effect:non-scaling-stroke}</style>
+<rect x="8" y="8" width="404" height="281" fill="none" stroke="#223b4b" stroke-width=".3"/>
+<text x="14" y="19" font-size="6">P13-GE-M60-UNTEN · GleithülsenmutterM60 UNTEN</text>
+<text x="14" y="27" font-size="3.5" fill="#a13e26">ANFRAGEZEICHNUNG · Nenngeometrie · keine Fertigungsfreigabe</text>
+<text x="76" y="39" text-anchor="middle" font-size="4">Draufsicht</text>
+<g transform="translate(76,96) scale(1.4285714285714286)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<circle cx ="0" cy ="0" r ="35" /><circle cx ="0" cy ="0" r ="30.05" /></g>
+</g>
+<text x="76" y="157" text-anchor="middle" font-size="3.5">Hülle 70.000 × 70.000 mm · Maßstab 1.43:1</text>
+<text x="210" y="39" text-anchor="middle" font-size="4">Vorderansicht</text>
+<g transform="translate(210,96) scale(1.6)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 2.5 -35 L -2.5 -35 " />
+</g>
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path d="M-2.5, -35 L-2.5, -34.1225  L-2.5, -31.5339  L-2.5, -27.3641  L-2.5, -21.8221  L-2.5, -15.1859  L-2.5, -7.78823  L-2.5, -6.21725e-15  L-2.5, 7.78823  L-2.5, 15.1859  L-2.5, 21.8221  L-2.5, 27.3641  L-2.5, 31.5339  L-2.5, 34.1225  L-2.5, 35 " /><path id= "2" d=" M 2.5 35 L -2.5 35 " />
+<path d="M2.5, -35 L2.5, -34.1225  L2.5, -31.5339  L2.5, -27.3641  L2.5, -21.8221  L2.5, -15.1859  L2.5, -7.78823  L2.5, -6.21725e-15  L2.5, 7.78823  L2.5, 15.1859  L2.5, 21.8221  L2.5, 27.3641  L2.5, 31.5339  L2.5, 34.1225  L2.5, 35 " /></g>
+</g>
+<text x="210" y="157" text-anchor="middle" font-size="3.5">Hülle 70.000 × 5.000 mm · Maßstab 1.6:1</text>
+<text x="344" y="39" text-anchor="middle" font-size="4">Seitenansicht</text>
+<g transform="translate(344,96) scale(1.6)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M -2.5 -35 L 2.5 -35 " />
+<path id= "2" d=" M -2.5 35 L 2.5 35 " />
+</g>
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path d="M2.5, 0 L2.5, -3.91876  L2.5, -7.78823  L2.5, -11.5598  L2.5, -15.1859  L2.5, -18.6211  L2.5, -21.8221  L2.5, -24.7487  L2.5, -27.3641  L2.5, -29.6353  L2.5, -31.5339  L2.5, -33.0359  L2.5, -34.1225  L2.5, -34.7799  L2.5, -35 " /><path d="M2.5, 35 L2.5, 34.7799  L2.5, 34.1225  L2.5, 33.0359  L2.5, 31.5339  L2.5, 29.6353  L2.5, 27.3641  L2.5, 24.7487  L2.5, 21.8221  L2.5, 18.6211  L2.5, 15.1859  L2.5, 11.5598  L2.5, 7.78823  L2.5, 3.91876  L2.5, 8.65974e-15 " /><path d="M-2.5, 0 L-2.5, -3.91876  L-2.5, -7.78823  L-2.5, -11.5598  L-2.5, -15.1859  L-2.5, -18.6211  L-2.5, -21.8221  L-2.5, -24.7487  L-2.5, -27.3641  L-2.5, -29.6353  L-2.5, -31.5339  L-2.5, -33.0359  L-2.5, -34.1225  L-2.5, -34.7799  L-2.5, -35 " /><path d="M-2.5, 35 L-2.5, 34.7799  L-2.5, 34.1225  L-2.5, 33.0359  L-2.5, 31.5339  L-2.5, 29.6353  L-2.5, 27.3641  L-2.5, 24.7487  L-2.5, 21.8221  L-2.5, 18.6211  L-2.5, 15.1859  L-2.5, 11.5598  L-2.5, 7.78823  L-2.5, 3.91876  L-2.5, 8.65974e-15 " /></g>
+</g>
+<text x="344" y="157" text-anchor="middle" font-size="3.5">Hülle 70.000 × 5.000 mm · Maßstab 1.6:1</text>
+<text x="14" y="174" font-size="3.1">Menge: 2 · Werkstoff: 42CrMo4+QT</text>
+<text x="14" y="179" font-size="3.1">Verfahren: Drehen/Gewinde; Stirnlochschlüssel</text>
+<text x="14" y="184" font-size="3.1">Merkmale: M60×1.5 symbolisch; GE60-Innenring axial gehalten; Rundlauf, Freistich und Sicherung festlegen</text>
+<text x="14" y="189" font-size="3.1">Offen: Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen</text>
+<text x="14" y="194" font-size="3.1">Unbemaßte Längen ISO2768-1m als Anfragebasis; Funktionspassungen separat nach ISO286.</text>
+<text x="14" y="199" font-size="3.1">Geometrische GPS-Toleranzen/Bezüge nach ISO22081 mit Fertiger abstimmen. STEP enthält Nennmaße.</text>
+<text x="14" y="204" font-size="3.1">Datum01.11.2026 · P13 · Herkunft/Normfamilie und Grenzen siehe Stückliste und Anfrageunterlagen.</text>
+</svg>

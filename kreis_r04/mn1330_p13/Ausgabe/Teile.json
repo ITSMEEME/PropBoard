@@ -1,0 +1,5303 @@
+[
+  {
+    "id": "P12-001",
+    "name": "Statortragplatte",
+    "material": "EN AW-6082 T6",
+    "process": "Fräsen, Bohren, Zylindersenken",
+    "features": "220×260×12; 4×Ø6.6/PCD50; SenkungØ11×6",
+    "open": "Motor-Lochbildphase und Gewindetiefen bestätigen",
+    "reference": false,
+    "count": 2,
+    "volume_mm3": 680638.0677459042,
+    "bounding_box_mm": [
+      220.0,
+      260.0,
+      12.0
+    ]
+  },
+  {
+    "id": "P12-002",
+    "name": "Motornabe",
+    "material": "EN AW-7075 T6",
+    "process": "Drehen/Fräsen/Bohren",
+    "features": "FlanschØ140×10; BossØ70×30; Rotor-PCD40",
+    "open": "Zentrierung und Motor-Gewindeeingriff offen",
+    "reference": false,
+    "count": 2,
+    "volume_mm3": 254227.57354534516,
+    "bounding_box_mm": [
+      140.0,
+      139.23306535155825,
+      40.0
+    ]
+  },
+  {
+    "id": "P12-003",
+    "name": "Drehmomentmembran",
+    "material": "1.4310 Federband, Zustand offen",
+    "process": "Feinschneiden/Fräsen/Entgraten",
+    "features": "t2; 8 Arme; Anschluss-PCD250",
+    "open": "Axial-/Torsionssteifigkeit und Dauerfestigkeit nicht nachgewiesen",
+    "reference": false,
+    "count": 2,
+    "volume_mm3": 44549.44201392221,
+    "bounding_box_mm": [
+      274.0,
+      274.0,
+      2.0
+    ]
+  },
+  {
+    "id": "P12-004",
+    "name": "Distanzsäule",
+    "material": "EN AW-6082 T6",
+    "process": "Drehen/Bohren",
+    "features": "Ø16/Ø6.6×66.0",
+    "open": "Planparallelität und Schraubenlänge auslegen",
+    "reference": false,
+    "count": 16,
+    "volume_mm3": 11012.099064922159,
+    "bounding_box_mm": [
+      15.910646609801029,
+      15.955260754898882,
+      66.0
+    ]
+  },
+  {
+    "id": "P12-011",
+    "name": "Mittelstützen_Rohr",
+    "material": "EN AW-6082 T6",
+    "process": "Rohrzuschnitt/Planen",
+    "features": "Ø40/Ø25×200.0",
+    "open": "Keine Taumelscheiben-Gleitpassung auf unbearbeitetem Rohr",
+    "reference": false,
+    "count": 2,
+    "volume_mm3": 153152.6418625024,
+    "bounding_box_mm": [
+      39.77661652450257,
+      39.888151887247204,
+      200.0
+    ]
+  },
+  {
+    "id": "P12-012",
+    "name": "Mittelquerträger",
+    "material": "EN AW-6082 T6",
+    "process": "Rohrzuschnitt/Bohren",
+    "features": "RHS100×60×5; L240; CNC-Freistellungen Ø53 für GE20-Füße; lokale Festigkeit nachzuweisen",
+    "open": "Lastpfad und Endnähte offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 332744.18514565524,
+    "bounding_box_mm": [
+      240.0,
+      100.0,
+      60.0
+    ]
+  },
+  {
+    "id": "P12-013",
+    "name": "Druckhülse_Mittelträger",
+    "material": "EN AW-6082 T6",
+    "process": "Drehen",
+    "features": "Ø12/Ø6.6; L50",
+    "open": "Auf reale Rohrwand abstimmen",
+    "reference": false,
+    "count": 4,
+    "volume_mm3": 3944.2695765819863,
+    "bounding_box_mm": [
+      11.932984957350772,
+      11.966445566174162,
+      50.0
+    ]
+  },
+  {
+    "id": "P12-015",
+    "name": "V_Führungsrolle",
+    "material": "100Cr6, Wärmebehandlung/Schliff offen",
+    "process": "Drehen/Kernbohren/Härten/Schleifen",
+    "features": "Ø60×32.0; Nut90°; LagersitzeØ35×11",
+    "open": "Passung, DB-Vorspannung und Tragzahlen offen; Gewindekernkonturen symbolisch",
+    "reference": false,
+    "count": 6,
+    "volume_mm3": 41286.449370321905,
+    "bounding_box_mm": [
+      59.66492478675386,
+      59.832227830870806,
+      32.0
+    ]
+  },
+  {
+    "id": "P12-016",
+    "name": "Lagerdeckel",
+    "material": "42CrMo4+QT",
+    "process": "Drehen/Bohren",
+    "features": "Ø52/Ø31.6×3; 4×Ø3.4/PCD44",
+    "open": "Tatsächliche Kaufteil-Schultermaße bestätigen",
+    "reference": false,
+    "count": 12,
+    "volume_mm3": 3909.3978981271393,
+    "bounding_box_mm": [
+      51.70960148185334,
+      51.85459745342137,
+      3.0
+    ]
+  },
+  {
+    "id": "P12-017",
+    "name": "Innenring_Distanz",
+    "material": "42CrMo4+QT",
+    "process": "Drehen/Stirnschleifen",
+    "features": "Ø20×4",
+    "open": "DB-Klemmkette abzustimmen",
+    "reference": false,
+    "count": 6,
+    "volume_mm3": 540.3225204909086,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      4.0
+    ]
+  },
+  {
+    "id": "P12-018",
+    "name": "Rollenachse",
+    "material": "42CrMo4+QT",
+    "process": "Drehen/Schleifen/Gewindeschneiden",
+    "features": "SitzØ15×58.0; Gewinde-Nenndurchmesser14×16; M14×1.5; Sicherungsblech und ISO8673-Mutter",
+    "open": "Gewindesteigung, Freistich und Sicherung fehlen; Mutter noch nicht modelliert",
+    "reference": false,
+    "count": 6,
+    "volume_mm3": 14993.250939257287,
+    "bounding_box_mm": [
+      21.877139088476415,
+      21.938483537985963,
+      80.0
+    ]
+  },
+  {
+    "id": "P12-019",
+    "name": "Rollen_Gabelplatte",
+    "material": "EN AW-7075 T6",
+    "process": "Fräsen/Bohren",
+    "features": "95×50×8; AchsbohrungØ15.5",
+    "open": "Feste Einbaulage, Distanzblech-Justage noch auszulegen",
+    "reference": false,
+    "count": 12,
+    "volume_mm3": 35943.073625988625,
+    "bounding_box_mm": [
+      95.0,
+      50.0,
+      8.0
+    ]
+  },
+  {
+    "id": "P12-020",
+    "name": "Rollen_Gabelsteg",
+    "material": "EN AW-7075 T6",
+    "process": "Fräsen/Kernbohren/Gewinde",
+    "features": "20×50×42.0; QuerbohrungenØ6.6",
+    "open": "Schraubenlängen und Distanzblech-Justage offen",
+    "reference": false,
+    "count": 6,
+    "volume_mm3": 38982.186096961654,
+    "bounding_box_mm": [
+      20.0,
+      50.0,
+      42.0
+    ]
+  },
+  {
+    "id": "P12-022",
+    "name": "Rollen_Anlaufdistanz",
+    "material": "42CrMo4+QT",
+    "process": "Drehen/Stirnschleifen",
+    "features": "Ø20×8.0",
+    "open": "Innenring-Klemmkette noch abstimmen",
+    "reference": false,
+    "count": 12,
+    "volume_mm3": 1061.606989501063,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      8.0
+    ]
+  },
+  {
+    "id": "REF-7202B",
+    "name": "Lager_Nennkontur",
+    "material": "Kaufteil",
+    "process": "Kaufen",
+    "features": "15×35×11; DB-Anordnung",
+    "open": "Geänderte Abmessungen erfordern ein neu ausgewähltes reales Lager; keine internen Kugeln modelliert",
+    "reference": true,
+    "standard": "ISO 15 Maßreihe 7202; Schrägkugellagerpaar DB",
+    "source": "Nennmaße 15×35×11; Tragzahlen/Vorspannung vom Lieferanten",
+    "count": 12,
+    "volume_mm3": 8639.379797371928,
+    "bounding_box_mm": [
+      34.80453945893975,
+      34.902132901341304,
+      11.0
+    ]
+  },
+  {
+    "id": "REF-MN1330",
+    "name": "Motor_Nennhülle",
+    "material": "Kaufteil",
+    "process": "Kaufen",
+    "features": "NutzerzeichnungØ150×66;4×M6/PCD50;12×M5/PCD40;4×M3/PCD70; Blindlochtiefen nur Montageannahmen",
+    "open": "Endgültige Gewindetiefen, Zentrier-/Auflageflächen und elektrische Anschlussdetails vor Bestellung bestätigen",
+    "reference": true,
+    "source": "Vom Nutzer gelieferte technische Zeichnung,01.11.2026",
+    "count": 2,
+    "volume_mm3": 1164935.2285146948,
+    "bounding_box_mm": [
+      149.61519925439214,
+      149.80747607565792,
+      66.0
+    ]
+  },
+  {
+    "id": "CFK-KLEMM-A",
+    "name": "Rohrklemmhälfte",
+    "material": "EN AW-7075 T6",
+    "process": "Drehen/Fräsen/Kernbohren",
+    "features": "BoreØ20.6; Klemmlänge30; M4-Flansch/Queranzug; Halbschnitt0.5",
+    "open": "Klemmdruck und M4-Vorspannung fehlen; keine Rohrquerbohrung",
+    "reference": false,
+    "count": 186,
+    "volume_mm3": 8644.650610731147,
+    "bounding_box_mm": [
+      20.539472609711957,
+      48.0,
+      35.0
+    ]
+  },
+  {
+    "id": "CFK-KLEMM-B",
+    "name": "Rohrklemmhälfte",
+    "material": "EN AW-7075 T6",
+    "process": "Drehen/Fräsen/Kernbohren",
+    "features": "BoreØ20.6; Klemmlänge30; M4-Flansch/Queranzug; Halbschnitt0.5",
+    "open": "Klemmdruck und M4-Vorspannung fehlen; keine Rohrquerbohrung",
+    "reference": false,
+    "count": 186,
+    "volume_mm3": 8530.705045185447,
+    "bounding_box_mm": [
+      20.750000000000007,
+      48.0,
+      35.0
+    ]
+  },
+  {
+    "id": "CFK-ZWISCHENLAGE",
+    "name": "Isolierzwischenlage",
+    "material": "GFK-/Isolierfilm, Auswahl offen",
+    "process": "Schneiden/Anpassen",
+    "features": "t0.3000000000000007; Länge30",
+    "open": "Auf gemessenen Rohr-OD anpassen; PU-Reibwert und Kriechen nicht nachgewiesen",
+    "reference": false,
+    "count": 186,
+    "volume_mm3": 569.4685225894254,
+    "bounding_box_mm": [
+      20.48369076484755,
+      20.560311230322785,
+      30.0
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-000",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[-0.4167693238260931, 0.9090122830399715, 0.0], [5.684341886080814e-16, -1.0, -0.0], [0.0, 0.0, 1.0], [-0.9861227012667189, -3.547758592168073e-17, -0.1660181256562957]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 264760.2822020884,
+    "bounding_box_mm": [
+      87.79251570211815,
+      104.12813447805345,
+      91.0
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-001",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[0.4167693238260931, -0.9090122830399715, -0.0], [-0.8727387206028944, 0.4881875925916418, 0.0], [0.0, 0.0, 1.0]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 160897.7687995436,
+    "bounding_box_mm": [
+      93.65286650358956,
+      96.76883444186969,
+      75.0
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-002",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[0.8727387206028944, -0.4881875925916418, -0.0], [-0.9980905213872139, -0.06176820474159383, 0.0], [0.0, 0.0, 1.0]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 160897.76917573306,
+    "bounding_box_mm": [
+      104.9837678023456,
+      67.43958293328481,
+      75.0
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-003",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[0.9980905213872139, 0.06176820474159383, -0.0], [-0.7212110629148407, -0.6927153836383639, 0.0], [0.0, 0.0, 1.0]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 160897.76828953918,
+    "bounding_box_mm": [
+      101.785041215372,
+      74.42146500599416,
+      75.0
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-004",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[0.7212110629148407, 0.6927153836383639, -0.0], [-0.36109908387004386, -0.9325274535520202, 0.0], [0.0, 0.0, 1.0]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 160897.76941346997,
+    "bounding_box_mm": [
+      88.12239843932882,
+      103.94687818101838,
+      75.0
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-005",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[0.36109908387004386, 0.9325274535520202, -0.0], [0.0, -1.0, 0.0], [0.0, 0.0, 1.0], [0.9861227012667189, -2.483431014517651e-16, -0.1660181256562957]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 264922.74377059535,
+    "bounding_box_mm": [
+      87.36265462879774,
+      104.18559118851522,
+      91.0
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-006",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[-0.0, 1.0, -0.0], [0.15640673149696394, -0.9876927327577321, 0.0], [0.0, 0.0, 1.0], [0.9861227012667189, -1.7738792960840364e-17, -0.1660181256562957]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 265130.31945425435,
+    "bounding_box_mm": [
+      87.36265462879774,
+      102.66908680303641,
+      91.0
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-007",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[-0.15640673149696394, 0.9876927327577321, -0.0], [0.701817685556827, -0.7123566074935072, 0.0], [0.0, 0.0, 1.0]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 160897.76922624154,
+    "bounding_box_mm": [
+      78.50472437191465,
+      102.98544333779232,
+      75.0
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-008",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[-0.701817685556827, 0.7123566074935072, -0.0], [0.950380082984561, -0.3110911407710909, 0.0], [0.0, 0.0, 1.0]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 160897.76816852554,
+    "bounding_box_mm": [
+      104.08472709971642,
+      85.67887088296483,
+      75.0
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-009",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[-0.950380082984561, 0.3110911407710909, -0.0], [0.9738769792773337, 0.22707626303437295, 0.0], [0.0, 0.0, 1.0]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 160897.76870523885,
+    "bounding_box_mm": [
+      107.43678566850795,
+      60.183754951648865,
+      75.0
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-010",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[-0.9738769792773337, -0.22707626303437295, -0.0], [0.7612330266060299, 0.6484784338775064, 0.0], [0.0, 0.0, 1.0]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 160897.76907404716,
+    "bounding_box_mm": [
+      105.13495600484069,
+      79.89095775308277,
+      75.0
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-011",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[-0.7612330266060299, -0.6484784338775064, -0.0], [0.22433190637166636, 0.974512799189243, 0.0], [0.0, 0.0, 1.0]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 160897.76858869707,
+    "bounding_box_mm": [
+      83.21320188092749,
+      101.8242077922495,
+      75.0
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-012",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[-0.22433190637166636, -0.974512799189243, -0.0], [-5.684341886080814e-16, 1.0, 0.0], [0.0, 0.0, 1.0], [-0.9861227012667189, -5.85380167707732e-16, -0.16601812565629567]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 265108.7802113131,
+    "bounding_box_mm": [
+      87.79251570211815,
+      103.42408314699563,
+      91.0
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-013",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[-0.4167693238260931, 0.9090122830399715, 0.0], [5.684341886080814e-16, -1.0, -0.0], [-0.0, -0.0, -1.0], [0.0, 0.0, 1.0], [-0.9955328368467117, -0.09441594547500198, -0.0]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 224375.89505511627,
+    "bounding_box_mm": [
+      76.74268657956787,
+      104.12813447805345,
+      100.0
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-014",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[0.4167693238260931, -0.9090122830399715, -0.0], [-0.8727387206028944, 0.4881875925916418, 0.0], [-0.0, -0.0, -1.0], [0.0, 0.0, 1.0]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 192713.74262640925,
+    "bounding_box_mm": [
+      93.65286650358956,
+      96.76883444186969,
+      100.0
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-015",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[0.8727387206028944, -0.4881875925916418, -0.0], [-0.9980905213872139, -0.06176820474159383, 0.0], [-0.0, -0.0, -1.0], [0.0, 0.0, 1.0]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 192713.74291849777,
+    "bounding_box_mm": [
+      104.9837678023456,
+      67.38002201510349,
+      100.0
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-016",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[0.9980905213872139, 0.06176820474159383, -0.0], [-0.7212110629148407, -0.6927153836383639, 0.0], [-0.0, -0.0, -1.0], [0.0, 0.0, 1.0]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 192713.74219831228,
+    "bounding_box_mm": [
+      101.785041215372,
+      74.36190408781282,
+      100.0
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-017",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[0.7212110629148407, 0.6927153836383639, -0.0], [-0.36109908387004386, -0.9325274535520202, 0.0], [-0.0, -0.0, -1.0], [0.0, 0.0, 1.0]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 192713.74312862253,
+    "bounding_box_mm": [
+      88.12239843932882,
+      103.94687818101838,
+      100.0
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-018",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[0.36109908387004386, 0.9325274535520202, -0.0], [0.0, -1.0, 0.0], [-0.0, -0.0, -1.0], [0.0, 0.0, 1.0], [0.9955328368467117, -0.09441594547500222, -0.0]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 224464.50913508117,
+    "bounding_box_mm": [
+      76.40381063885218,
+      104.18559118851522,
+      100.0
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-019",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[-0.0, 1.0, -0.0], [0.15640673149696394, -0.9876927327577321, 0.0], [-0.0, -0.0, -1.0], [0.0, 0.0, 1.0], [0.9955328368467117, 0.09441594547500193, -0.0]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 224529.71600193277,
+    "bounding_box_mm": [
+      76.40381063885218,
+      102.66908680303641,
+      100.0
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-020",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[-0.15640673149696394, 0.9876927327577321, -0.0], [0.701817685556827, -0.7123566074935072, 0.0], [-0.0, -0.0, -1.0], [0.0, 0.0, 1.0]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 192713.7432791384,
+    "bounding_box_mm": [
+      78.50472437191465,
+      102.98544333779232,
+      100.0
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-021",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[-0.701817685556827, 0.7123566074935072, -0.0], [0.950380082984561, -0.3110911407710909, 0.0], [-0.0, -0.0, -1.0], [0.0, 0.0, 1.0]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 192713.7421402978,
+    "bounding_box_mm": [
+      104.08472709971642,
+      85.67887088296483,
+      100.0
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-022",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[-0.950380082984561, 0.3110911407710909, -0.0], [0.9738769792773337, 0.22707626303437295, 0.0], [-0.0, -0.0, -1.0], [0.0, 0.0, 1.0]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 192713.74257091354,
+    "bounding_box_mm": [
+      107.43678566850795,
+      60.124194033467575,
+      100.0
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-023",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[-0.9738769792773337, -0.22707626303437295, -0.0], [0.7612330266060299, 0.6484784338775064, 0.0], [-0.0, -0.0, -1.0], [0.0, 0.0, 1.0]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 192713.7428769137,
+    "bounding_box_mm": [
+      105.13495600484069,
+      79.89095775308277,
+      100.0
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-024",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[-0.7612330266060299, -0.6484784338775064, -0.0], [0.22433190637166636, 0.974512799189243, 0.0], [-0.0, -0.0, -1.0], [0.0, 0.0, 1.0]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 192713.74253208563,
+    "bounding_box_mm": [
+      83.21320188092749,
+      101.8242077922495,
+      100.0
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-025",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[-0.22433190637166636, -0.974512799189243, -0.0], [-5.684341886080814e-16, 1.0, 0.0], [-0.0, -0.0, -1.0], [0.0, 0.0, 1.0], [-0.9955328368467117, 0.09441594547500128, -0.0]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 224529.55674646122,
+    "bounding_box_mm": [
+      76.74268657956787,
+      103.42408314699563,
+      100.0
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-026",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[-0.4167693238260931, 0.9090122830399715, 0.0], [5.684341886080814e-16, -1.0, -0.0], [-0.0, -0.0, -1.0], [-0.9861227012667189, -3.547758592168073e-17, 0.1660181256562957]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 192324.9272369194,
+    "bounding_box_mm": [
+      77.73461082504154,
+      104.12813447805345,
+      79.00948300941587
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-027",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[0.4167693238260931, -0.9090122830399715, -0.0], [-0.8727387206028944, 0.4881875925916418, 0.0], [-0.0, -0.0, -1.0]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 160897.76867366437,
+    "bounding_box_mm": [
+      93.65286650358956,
+      96.76883444186969,
+      75.0
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-028",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[0.8727387206028944, -0.4881875925916418, -0.0], [-0.9980905213872139, -0.06176820474159383, 0.0], [-0.0, -0.0, -1.0]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 160897.76891672998,
+    "bounding_box_mm": [
+      104.9837678023456,
+      67.28052257153364,
+      75.0
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-029",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[0.9980905213872139, 0.06176820474159383, -0.0], [-0.7212110629148407, -0.6927153836383639, 0.0], [-0.0, -0.0, -1.0]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 160897.76833185804,
+    "bounding_box_mm": [
+      101.785041215372,
+      74.26240464424299,
+      75.0
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-030",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[0.7212110629148407, 0.6927153836383639, -0.0], [-0.36109908387004386, -0.9325274535520202, 0.0], [-0.0, -0.0, -1.0]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 160897.76911020617,
+    "bounding_box_mm": [
+      88.12239843932882,
+      103.94687818101838,
+      75.0
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-031",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[0.36109908387004386, 0.9325274535520202, -0.0], [0.0, -1.0, 0.0], [-0.0, -0.0, -1.0], [0.9861227012667189, -2.483431014517651e-16, 0.1660181256562957]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 192498.9612987596,
+    "bounding_box_mm": [
+      77.49689751720624,
+      104.18559118851522,
+      78.77818531732622
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-032",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[-0.0, 1.0, -0.0], [0.15640673149696394, -0.9876927327577321, 0.0], [-0.0, -0.0, -1.0], [0.9861227012667189, -1.7738792960840364e-17, 0.1660181256562957]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 192712.04364281616,
+    "bounding_box_mm": [
+      77.49689751720624,
+      102.66908680303641,
+      78.77818531732622
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-033",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[-0.15640673149696394, 0.9876927327577321, -0.0], [0.701817685556827, -0.7123566074935072, 0.0], [-0.0, -0.0, -1.0]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 160897.76956229686,
+    "bounding_box_mm": [
+      78.50472437191465,
+      102.98544333779232,
+      75.0
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-034",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[-0.701817685556827, 0.7123566074935072, -0.0], [0.950380082984561, -0.3110911407710909, 0.0], [-0.0, -0.0, -1.0]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 160897.7683731388,
+    "bounding_box_mm": [
+      104.08472709971642,
+      85.67887088296483,
+      75.0
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-035",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[-0.950380082984561, 0.3110911407710909, -0.0], [0.9738769792773337, 0.22707626303437295, 0.0], [-0.0, -0.0, -1.0]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 160897.76866945883,
+    "bounding_box_mm": [
+      107.43678566850795,
+      60.024694589897685,
+      75.0
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-036",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[-0.9738769792773337, -0.22707626303437295, -0.0], [0.7612330266060299, 0.6484784338775064, 0.0], [-0.0, -0.0, -1.0]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 160897.7689062329,
+    "bounding_box_mm": [
+      105.13495600484069,
+      79.89095775308277,
+      75.0
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-037",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[-0.7612330266060299, -0.6484784338775064, -0.0], [0.22433190637166636, 0.974512799189243, 0.0], [-0.0, -0.0, -1.0]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 160897.76871139085,
+    "bounding_box_mm": [
+      83.21320188092749,
+      101.8242077922495,
+      75.0
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-038",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[-0.22433190637166636, -0.974512799189243, -0.0], [-5.684341886080814e-16, 1.0, 0.0], [-0.0, -0.0, -1.0], [-0.9861227012667189, -5.85380167707732e-16, 0.16601812565629567]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 192690.50492951318,
+    "bounding_box_mm": [
+      77.73461082504154,
+      103.42408314699563,
+      79.00948300941587
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-039",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[-0.9861227012667189, 1.7738792960840364e-17, -0.1660181256562957]]; P13 integrierter DecksockelØ70/4×M6PCD44, Gewindekern22tief",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 193799.5795464359,
+    "bounding_box_mm": [
+      87.79251570211815,
+      69.80426580268261,
+      69.7781853173262
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-040",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[-0.9861227012667189, 2.483431014517651e-16, -0.1660181256562957]]; P13 integrierter DecksockelØ70/4×M6PCD44, Gewindekern22tief",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 193799.5795464371,
+    "bounding_box_mm": [
+      87.79251570211815,
+      69.80426580268261,
+      69.7781853173262
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-041",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[0.9861227012667189, 5.85380167707732e-16, -0.16601812565629567]]; P13 integrierter DecksockelØ70/4×M6PCD44, Gewindekern22tief",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 193799.58288896974,
+    "bounding_box_mm": [
+      87.36265462879774,
+      69.80426580268261,
+      70.00948300941587
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-042",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[0.9861227012667189, 3.547758592168073e-17, -0.1660181256562957]]; P13 integrierter DecksockelØ70/4×M6PCD44, Gewindekern22tief",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 193799.58288894978,
+    "bounding_box_mm": [
+      87.36265462879774,
+      69.80426580268261,
+      70.00948300941587
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-043",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[-0.9861227012667189, 1.7738792960840364e-17, 0.1660181256562957]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 116225.18409935349,
+    "bounding_box_mm": [
+      77.75357571091826,
+      50.0,
+      54.00948300941588
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-044",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[-0.9861227012667189, 2.483431014517651e-16, 0.1660181256562957]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 116225.18409935644,
+    "bounding_box_mm": [
+      77.75357571091826,
+      50.0,
+      54.00948300941588
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-045",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[0.9861227012667189, 5.85380167707732e-16, 0.16601812565629567]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 116225.18404215673,
+    "bounding_box_mm": [
+      77.79251570211815,
+      50.0,
+      53.77818531732622
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-046",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[0.9861227012667189, 3.547758592168073e-17, 0.1660181256562957]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 116225.184042149,
+    "bounding_box_mm": [
+      77.79251570211815,
+      50.0,
+      53.77818531732622
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-047",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[-0.9955328368467117, -0.09441594547500193, 0.0]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 117402.47682300168,
+    "bounding_box_mm": [
+      76.74268657956787,
+      50.6229067446357,
+      50.0
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-048",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[-0.9955328368467117, 0.09441594547500222, 0.0]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 117402.47643657203,
+    "bounding_box_mm": [
+      76.74268657956789,
+      50.62290674463571,
+      50.0
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-049",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[0.9955328368467117, -0.09441594547500128, 0.0]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 117402.47620814606,
+    "bounding_box_mm": [
+      76.75898974194537,
+      50.45100428250814,
+      50.0
+    ]
+  },
+  {
+    "id": "CFK-KNOTEN-050",
+    "name": "Mehrport_Rahmenknoten",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "PortflanscheØ42; M4-KernØ3.3×8; lokale Achsen=[[0.9955328368467117, 0.09441594547500198, 0.0]]",
+    "open": "Knotensteifigkeit, Schrauben und Fertigungstoleranzen nicht freigegeben",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 117402.47607988626,
+    "bounding_box_mm": [
+      76.75898974194538,
+      50.45100428250818,
+      50.0
+    ]
+  },
+  {
+    "id": "CFK-ROHR-000",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×433.376; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 37781.38585091637,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      433.3761668494078
+    ]
+  },
+  {
+    "id": "CFK-ROHR-001",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×433.376; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 37781.385850916355,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      433.3761668494077
+    ]
+  },
+  {
+    "id": "CFK-ROHR-002",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×445.039; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 38798.14564409031,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      445.0390387067574
+    ]
+  },
+  {
+    "id": "CFK-ROHR-003",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×341.736; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 29792.243795698385,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      341.7357020457117
+    ]
+  },
+  {
+    "id": "CFK-ROHR-004",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×331.807; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 28926.660141918757,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      331.80691522347223
+    ]
+  },
+  {
+    "id": "CFK-ROHR-005",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×90.000; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 7846.1276523405195,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      90.00000000000017
+    ]
+  },
+  {
+    "id": "CFK-ROHR-006",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×178.214; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 15536.576964729564,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      178.21427190373947
+    ]
+  },
+  {
+    "id": "CFK-ROHR-007",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×372.166; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 32445.153016101853,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      372.16623292868667
+    ]
+  },
+  {
+    "id": "CFK-ROHR-008",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×361.737; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 31535.975578690668,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      361.7373980954175
+    ]
+  },
+  {
+    "id": "CFK-ROHR-009",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×361.737; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 31535.975578690675,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      361.73739809541746
+    ]
+  },
+  {
+    "id": "CFK-ROHR-010",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×372.166; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 32445.15301610183,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      372.1662329286863
+    ]
+  },
+  {
+    "id": "CFK-ROHR-011",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×254.387; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 22177.272474839883,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      254.38720999398913
+    ]
+  },
+  {
+    "id": "CFK-ROHR-012",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×90.000; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 7846.127652340465,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      89.99999999999955
+    ]
+  },
+  {
+    "id": "CFK-ROHR-013",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×433.376; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 37781.38585091637,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      433.3761668494078
+    ]
+  },
+  {
+    "id": "CFK-ROHR-014",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×433.376; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 37781.385850916355,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      433.3761668494077
+    ]
+  },
+  {
+    "id": "CFK-ROHR-015",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×445.039; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 38798.14564409031,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      445.0390387067574
+    ]
+  },
+  {
+    "id": "CFK-ROHR-016",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×341.736; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 29792.243795698385,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      341.7357020457117
+    ]
+  },
+  {
+    "id": "CFK-ROHR-017",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×331.807; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 28926.660141918757,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      331.80691522347223
+    ]
+  },
+  {
+    "id": "CFK-ROHR-018",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×90.000; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 7846.1276523405195,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      90.00000000000017
+    ]
+  },
+  {
+    "id": "CFK-ROHR-019",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×178.214; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 15536.576964729564,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      178.21427190373947
+    ]
+  },
+  {
+    "id": "CFK-ROHR-020",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×372.166; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 32445.153016101853,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      372.16623292868667
+    ]
+  },
+  {
+    "id": "CFK-ROHR-021",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×361.737; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 31535.975578690668,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      361.7373980954175
+    ]
+  },
+  {
+    "id": "CFK-ROHR-022",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×361.737; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 31535.975578690675,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      361.73739809541746
+    ]
+  },
+  {
+    "id": "CFK-ROHR-023",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×372.166; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 32445.15301610183,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      372.1662329286863
+    ]
+  },
+  {
+    "id": "CFK-ROHR-024",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×254.387; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 22177.272474839883,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      254.38720999398913
+    ]
+  },
+  {
+    "id": "CFK-ROHR-025",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×90.000; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 7846.127652340465,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      89.99999999999955
+    ]
+  },
+  {
+    "id": "CFK-ROHR-026",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×433.376; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 37781.38585091637,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      433.3761668494078
+    ]
+  },
+  {
+    "id": "CFK-ROHR-027",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×433.376; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 37781.385850916355,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      433.3761668494077
+    ]
+  },
+  {
+    "id": "CFK-ROHR-028",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×445.039; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 38798.14564409031,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      445.0390387067574
+    ]
+  },
+  {
+    "id": "CFK-ROHR-029",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×341.736; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 29792.243795698385,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      341.7357020457117
+    ]
+  },
+  {
+    "id": "CFK-ROHR-030",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×331.807; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 28926.660141918757,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      331.80691522347223
+    ]
+  },
+  {
+    "id": "CFK-ROHR-031",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×90.000; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 7846.1276523405195,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      90.00000000000017
+    ]
+  },
+  {
+    "id": "CFK-ROHR-032",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×178.214; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 15536.576964729564,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      178.21427190373947
+    ]
+  },
+  {
+    "id": "CFK-ROHR-033",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×372.166; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 32445.153016101853,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      372.16623292868667
+    ]
+  },
+  {
+    "id": "CFK-ROHR-034",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×361.737; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 31535.975578690668,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      361.7373980954175
+    ]
+  },
+  {
+    "id": "CFK-ROHR-035",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×361.737; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 31535.975578690675,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      361.73739809541746
+    ]
+  },
+  {
+    "id": "CFK-ROHR-036",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×372.166; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 32445.15301610183,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      372.1662329286863
+    ]
+  },
+  {
+    "id": "CFK-ROHR-037",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×254.387; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 22177.272474839883,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      254.38720999398913
+    ]
+  },
+  {
+    "id": "CFK-ROHR-038",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×90.000; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 7846.127652340465,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      89.99999999999955
+    ]
+  },
+  {
+    "id": "CFK-ROHR-039",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×180.000; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 15692.255304681014,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      180.0
+    ]
+  },
+  {
+    "id": "CFK-ROHR-040",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×180.000; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 15692.255304681014,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      180.0
+    ]
+  },
+  {
+    "id": "CFK-ROHR-041",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×180.000; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 15692.255304681014,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      180.0
+    ]
+  },
+  {
+    "id": "CFK-ROHR-042",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×180.000; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 15692.255304681014,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      180.0
+    ]
+  },
+  {
+    "id": "CFK-ROHR-043",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×180.000; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 15692.255304681014,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      180.0
+    ]
+  },
+  {
+    "id": "CFK-ROHR-044",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×180.000; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 15692.255304681014,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      180.0
+    ]
+  },
+  {
+    "id": "CFK-ROHR-045",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×180.000; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 15692.255304681014,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      180.0
+    ]
+  },
+  {
+    "id": "CFK-ROHR-046",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×180.000; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 15692.255304681014,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      180.0
+    ]
+  },
+  {
+    "id": "CFK-ROHR-047",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×180.000; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 15692.255304681014,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      180.0
+    ]
+  },
+  {
+    "id": "CFK-ROHR-048",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×180.000; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 15692.255304681014,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      180.0
+    ]
+  },
+  {
+    "id": "CFK-ROHR-049",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×180.000; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 15692.255304681014,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      180.0
+    ]
+  },
+  {
+    "id": "CFK-ROHR-050",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×180.000; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 15692.255304681014,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      180.0
+    ]
+  },
+  {
+    "id": "CFK-ROHR-051",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×180.000; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 15692.255304681014,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      180.0
+    ]
+  },
+  {
+    "id": "CFK-ROHR-052",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×180.000; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 15692.255304681014,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      180.0
+    ]
+  },
+  {
+    "id": "CFK-ROHR-053",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×180.000; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 15692.255304681014,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      180.0
+    ]
+  },
+  {
+    "id": "CFK-ROHR-054",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×180.000; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 15692.255304681014,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      180.0
+    ]
+  },
+  {
+    "id": "CFK-ROHR-055",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×180.000; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 15692.255304681014,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      180.0
+    ]
+  },
+  {
+    "id": "CFK-ROHR-056",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×180.000; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 15692.255304681014,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      180.0
+    ]
+  },
+  {
+    "id": "CFK-ROHR-057",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×180.000; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 15692.255304681014,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      180.0
+    ]
+  },
+  {
+    "id": "CFK-ROHR-058",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×180.000; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 15692.255304681014,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      180.0
+    ]
+  },
+  {
+    "id": "CFK-ROHR-059",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×180.000; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 15692.255304681014,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      180.0
+    ]
+  },
+  {
+    "id": "CFK-ROHR-060",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×180.000; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 15692.255304681014,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      180.0
+    ]
+  },
+  {
+    "id": "CFK-ROHR-061",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×180.000; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 15692.255304681014,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      180.0
+    ]
+  },
+  {
+    "id": "CFK-ROHR-062",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×180.000; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 15692.255304681014,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      180.0
+    ]
+  },
+  {
+    "id": "CFK-ROHR-063",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×180.000; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 15692.255304681014,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      180.0
+    ]
+  },
+  {
+    "id": "CFK-ROHR-064",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×180.000; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 15692.255304681014,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      180.0
+    ]
+  },
+  {
+    "id": "CFK-ROHR-065",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×691.117; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 60251.05454849753,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      691.1173447129952
+    ]
+  },
+  {
+    "id": "CFK-ROHR-066",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×691.117; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 60251.05454849753,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      691.1173447129952
+    ]
+  },
+  {
+    "id": "CFK-ROHR-067",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×691.117; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 60251.054548497574,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      691.1173447129953
+    ]
+  },
+  {
+    "id": "CFK-ROHR-068",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×691.117; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 60251.05454849753,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      691.1173447129952
+    ]
+  },
+  {
+    "id": "CFK-ROHR-069",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×691.117; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 60251.05454849753,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      691.1173447129952
+    ]
+  },
+  {
+    "id": "CFK-ROHR-070",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×691.117; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 60251.05454849753,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      691.1173447129952
+    ]
+  },
+  {
+    "id": "CFK-ROHR-071",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×691.117; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 60251.054548497574,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      691.1173447129953
+    ]
+  },
+  {
+    "id": "CFK-ROHR-072",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×691.117; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 60251.05454849753,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      691.1173447129952
+    ]
+  },
+  {
+    "id": "CFK-ROHR-073",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×610.217; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 53198.256151126276,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      610.2173283113924
+    ]
+  },
+  {
+    "id": "CFK-ROHR-074",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×610.217; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 53198.256151126276,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      610.2173283113924
+    ]
+  },
+  {
+    "id": "CFK-ROHR-075",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×610.217; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 53198.25615112629,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      610.2173283113925
+    ]
+  },
+  {
+    "id": "CFK-ROHR-076",
+    "name": "CFK_Rohrzuschnitt",
+    "material": "CFK CBU 2017 1005 TG",
+    "process": "Trennschleifen/Sägen; Kanten versiegeln",
+    "features": "Ø20/Ø17×610.217; keine Querbohrung",
+    "open": "Längentoleranz, Klemmdruck und CFK-Lastnachweis offen",
+    "reference": false,
+    "count": 1,
+    "volume_mm3": 53198.256151126276,
+    "bounding_box_mm": [
+      19.888308262251286,
+      19.944075943623602,
+      610.2173283113924
+    ]
+  },
+  {
+    "id": "CFK-BRUECKE-END",
+    "name": "Mittelbrücken_Endplatte",
+    "material": "EN AW-6082 T6",
+    "process": "Fräsen/Bohren; Schweißanschluss",
+    "features": "8×130×80; 2×Ø8.4; obere/untere Freistellung für schwenkbaren Servoträger",
+    "open": "Schweißnaht und Wärmeeinflusszone offen",
+    "reference": false,
+    "count": 2,
+    "volume_mm3": 75977.31688945083,
+    "bounding_box_mm": [
+      8.0,
+      130.0,
+      80.0
+    ]
+  },
+  {
+    "id": "CFK-GUIDE-A",
+    "name": "Guide_Rohrklemmhälfte",
+    "material": "EN AW-7075 T6",
+    "process": "Fräsen/Bohren/Gewinde",
+    "features": "Ø20.6-Durchgang, M5-Klemmung, frontseitig2×M6-Kernloch9tief",
+    "open": "Keine Bohrung durch CFK; Zwischenlage auf Rohr-Istmaß anpassen",
+    "reference": false,
+    "count": 6,
+    "volume_mm3": 54866.42754469774,
+    "bounding_box_mm": [
+      43.75,
+      44.0,
+      32.0
+    ]
+  },
+  {
+    "id": "CFK-GUIDE-B",
+    "name": "Guide_Rohrklemmhälfte",
+    "material": "EN AW-7075 T6",
+    "process": "Fräsen/Bohren/Gewinde",
+    "features": "Ø20.6, M5-Durchgänge",
+    "open": "Keine Bohrung durch CFK; Zwischenlage auf Rohr-Istmaß anpassen",
+    "reference": false,
+    "count": 6,
+    "volume_mm3": 24422.63297516994,
+    "bounding_box_mm": [
+      21.75,
+      44.0,
+      32.0
+    ]
+  },
+  {
+    "id": "CFK-GUIDE-FILM",
+    "name": "Guide_Isolierlage",
+    "material": "GFK-/Isolierfilm, Auswahl offen",
+    "process": "Schneiden/Anpassen",
+    "features": "t0.3000000000000007; Länge32",
+    "open": "Klemm-, Schrauben- und CFK-Festigkeitsnachweis offen",
+    "reference": false,
+    "count": 6,
+    "volume_mm3": 607.4330907620506,
+    "bounding_box_mm": [
+      20.48369076484755,
+      20.560311230322785,
+      32.0
+    ]
+  },
+  {
+    "id": "REF-SCHRAUBE-M3-L8-K2.4",
+    "name": "Schraube M3×8 Entwurf",
+    "material": "Stahl, Festigkeitsklasse/Ausführung offen",
+    "process": "Kaufen; konkrete Norm-/Lieferantenauswahl offen",
+    "features": "M3×8; Kopf Ø5.5×3; SW2.5; symbolischer Gewindekern Ø2.4",
+    "open": "Entwurfsmaße; Gewinde nur Kernkontur mit Spiel; Länge, Vorspannung, Sicherung und Lieferteil bestätigen",
+    "reference": true,
+    "standard": "ISO 4762 / ISO 261 Gewindefamilie; konkrete Länge siehe Stückliste",
+    "source": "Nennmaßreferenz aus P12, keine zertifizierte Normteilgeometrie",
+    "count": 48,
+    "volume_mm3": 99.34704253719372,
+    "bounding_box_mm": [
+      5.469284772119104,
+      5.484620884496491,
+      11.0
+    ]
+  },
+  {
+    "id": "REF-ACHS-MUTTER-M14",
+    "name": "SechskantmutterM14×1.5",
+    "material": "StahlKlasse8",
+    "process": "Kaufen; konkrete Norm-/Lieferantenauswahl offen",
+    "features": "M14×1.5/SW22/H12; Zunge am+X-Sechskantflach angelegt",
+    "open": "Entwurfsmaße; Gewinde nur Kernkontur mit Spiel; Länge, Vorspannung, Sicherung und Lieferteil bestätigen",
+    "reference": true,
+    "standard": "ISO8673 M14×1.5 Nennmaßfamilie",
+    "count": 6,
+    "volume_mm3": 3156.13543879946,
+    "bounding_box_mm": [
+      22.000000000000004,
+      25.403411844343534,
+      12.0
+    ]
+  },
+  {
+    "id": "REF-SCHRAUBE-M4-L8-K3.2",
+    "name": "Schraube M4×8 Entwurf",
+    "material": "Stahl, Festigkeitsklasse/Ausführung offen",
+    "process": "Kaufen; konkrete Norm-/Lieferantenauswahl offen",
+    "features": "M4×8; Kopf Ø7×4; SW3; symbolischer Gewindekern Ø3.2",
+    "open": "Entwurfsmaße; Gewinde nur Kernkontur mit Spiel; Länge, Vorspannung, Sicherung und Lieferteil bestätigen",
+    "reference": true,
+    "standard": "ISO 4762 / ISO 261 Gewindefamilie; konkrete Länge siehe Stückliste",
+    "source": "Nennmaßreferenz aus P12, keine zertifizierte Normteilgeometrie",
+    "count": 616,
+    "volume_mm3": 202.68940030329895,
+    "bounding_box_mm": [
+      6.960907891787951,
+      6.980426580268261,
+      12.0
+    ]
+  },
+  {
+    "id": "REF-SCHRAUBE-M4-L16-K3.2",
+    "name": "Schraube M4×16 Entwurf",
+    "material": "Stahl, Festigkeitsklasse/Ausführung offen",
+    "process": "Kaufen; konkrete Norm-/Lieferantenauswahl offen",
+    "features": "M4×16; Kopf Ø7×4; SW3; symbolischer Gewindekern Ø3.2",
+    "open": "Entwurfsmaße; Gewinde nur Kernkontur mit Spiel; Länge, Vorspannung, Sicherung und Lieferteil bestätigen",
+    "reference": true,
+    "standard": "ISO 4762 / ISO 261 Gewindefamilie; konkrete Länge siehe Stückliste",
+    "source": "Nennmaßreferenz aus P12, keine zertifizierte Normteilgeometrie",
+    "count": 308,
+    "volume_mm3": 267.0292178488179,
+    "bounding_box_mm": [
+      6.960907891787951,
+      6.980426580268261,
+      20.0
+    ]
+  },
+  {
+    "id": "REF-SCHRAUBE-M5-L60-K4.1",
+    "name": "Schraube M5×60 Entwurf",
+    "material": "Stahl, Festigkeitsklasse/Ausführung offen",
+    "process": "Kaufen; konkrete Norm-/Lieferantenauswahl offen",
+    "features": "M5×60; Kopf Ø8.5×5; SW4; symbolischer Gewindekern Ø4.1",
+    "open": "Entwurfsmaße; Gewinde nur Kernkontur mit Spiel; Länge, Vorspannung, Sicherung und Lieferteil bestätigen",
+    "reference": true,
+    "standard": "ISO 4762 / ISO 261 Gewindefamilie; konkrete Länge siehe Stückliste",
+    "source": "Nennmaßreferenz aus P12, keine zertifizierte Normteilgeometrie",
+    "count": 12,
+    "volume_mm3": 1041.2366579786164,
+    "bounding_box_mm": [
+      8.452531011456797,
+      8.476232276040031,
+      65.0
+    ]
+  },
+  {
+    "id": "P13-INNENRING",
+    "name": "Innenring mit Patronenaufnahmen",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen, Bohren, Gewinde",
+    "features": "64mm axial; radialeØ40.2; rückseitigeØ52.2; Plananlage x138; blinde M6-Kernlöcher für Speichensockel",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 2,
+    "volume_mm3": 1459757.1327511843,
+    "bounding_box_mm": [
+      289.613181131215,
+      289.8065260273694,
+      64.0
+    ]
+  },
+  {
+    "id": "P13-AUSSENRING",
+    "name": "V-Laufbahn mit integralem Tragsteg",
+    "material": "42CrMo4+QT",
+    "process": "Rohdrehen, Bohren, Härten/Laufbahnschleifen",
+    "features": "Tragsteg R744..758; V-Profil bisR770 durchgehend; 4×M4 je Außenlagerträger, 6mm symbolische Gewindetiefe",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 2,
+    "volume_mm3": 2274468.874938054,
+    "bounding_box_mm": [
+      1540.0,
+      1539.2087729490595,
+      24.0
+    ]
+  },
+  {
+    "id": "P13-WURZELGEHAEUSE",
+    "name": "Pitchlagerpatrone",
+    "material": "EN AW-7075 T6",
+    "process": "Drehen/Fräsen; Lagersitze nach ISO286",
+    "features": "2×7201B12×32×10 DB; SitzeØ32 H7; Außenringdistanz10; Frontschulter x137; GehäuseØ40; FlanscheØ52",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 16,
+    "volume_mm3": 29888.00226740951,
+    "bounding_box_mm": [
+      41.0,
+      51.85459745342137,
+      51.70960148185334
+    ]
+  },
+  {
+    "id": "P13-WURZELDECKEL",
+    "name": "Patronendeckel",
+    "material": "EN AW-7075 T6",
+    "process": "Drehen/Fräsen/Bohren",
+    "features": "Außenringanschlag x107; zentrale MutterfreistellungØ24; 4×Ø4.4",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 16,
+    "volume_mm3": 6542.555196659958,
+    "bounding_box_mm": [
+      8.0,
+      51.85459745342137,
+      51.70960148185334
+    ]
+  },
+  {
+    "id": "STD-7201B",
+    "name": "Schrägkugellager7201B",
+    "material": "Wälzlagerstahl",
+    "process": "Kaufen",
+    "features": "12×32×10; gepaart DB; Dreh-/Schwinglast und Vorspannklasse separat bestellen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "ISO15 / DIN628 Maßfamilie7201",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 32,
+    "volume_mm3": 6911.503837897545,
+    "bounding_box_mm": [
+      10.0,
+      31.910521509797764,
+      31.821293219602058
+    ]
+  },
+  {
+    "id": "P13-DISTANZ-INNEN",
+    "name": "Pitch-Innenringdistanz",
+    "material": "42CrMo4+QT",
+    "process": "Drehen/Stirnschleifen",
+    "features": "Ø12.1/18×10; axiale Paarabstimmung mit Außenringdistanz",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 16,
+    "volume_mm3": 1394.7885983775286,
+    "bounding_box_mm": [
+      10.0,
+      17.94966834926124,
+      17.89947743602616
+    ]
+  },
+  {
+    "id": "P13-DISTANZ-AUSSEN",
+    "name": "Pitch-Außenringdistanz",
+    "material": "42CrMo4+QT",
+    "process": "Drehen/Stirnschleifen",
+    "features": "Ø27/32×10; Parallelität und Paarabstimmung auf Zeichnung",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 16,
+    "volume_mm3": 2316.92458202247,
+    "bounding_box_mm": [
+      10.0,
+      31.910521509797764,
+      31.821293219602058
+    ]
+  },
+  {
+    "id": "P13-PITCHWELLE",
+    "name": "Pitchwelle Festlager",
+    "material": "42CrMo4+QT",
+    "process": "Drehen, Schleifen, Fräsen",
+    "features": "Ø12 k6 Lagersitze; M12×1 x96..107 symbolisch; Schulter x137; Passfedernut4×4 an x152..178; ISO13715 Kanten",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 16,
+    "volume_mm3": 15129.812506316213,
+    "bounding_box_mm": [
+      132.0,
+      15.955260754898882,
+      15.910646609801029
+    ]
+  },
+  {
+    "id": "STD-KM1",
+    "name": "Nutmutter KM1",
+    "material": "Stahl",
+    "process": "Kaufen",
+    "features": "M12×1, Nennhülle; mit passender Sicherungsscheibe bestellen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "ISO2982-2 / KM1 Maßfamilie",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 16,
+    "volume_mm3": 1060.5702639253782,
+    "bounding_box_mm": [
+      4.0,
+      21.938483537985963,
+      21.877139088476415
+    ]
+  },
+  {
+    "id": "STD-MB1",
+    "name": "Sicherungsscheibe MB1",
+    "material": "Stahl",
+    "process": "Kaufen",
+    "features": "Nennhülle; Innen-/Außenlaschen und Wellensicherungsnut vor Lieferfreigabe spezifizieren",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "ISO2982-2 / MB1 Maßfamilie",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 16,
+    "volume_mm3": 375.8837070203849,
+    "bounding_box_mm": [
+      1.0,
+      24.930094929529503,
+      24.860385327814107
+    ]
+  },
+  {
+    "id": "STD-PASSFEDER4",
+    "name": "Passfeder4×4×24",
+    "material": "C45",
+    "process": "Kaufen",
+    "features": "4×4×24; hier gerade Endkontur, Nut nach Lieferform anpassen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "DIN6885-1 Maßfamilie",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 16,
+    "volume_mm3": 383.9999999999999,
+    "bounding_box_mm": [
+      24.0,
+      4.0,
+      3.999999999999999
+    ]
+  },
+  {
+    "id": "P13-WURZELEINSATZ",
+    "name": "Flügel-Wurzeleinsatz",
+    "material": "Titan Grade5 oder freigegebenes isoliertes Aluminium",
+    "process": "Drehen/Fräsen, Klebflächen vorbereiten",
+    "features": "Ø18; BohrungØ12.1; Passfedernut4;50mm Einbettlänge;0.2mm Klebfuge zur CFK-Wurzel",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 16,
+    "volume_mm3": 6732.189986820051,
+    "bounding_box_mm": [
+      50.0,
+      17.94966834926124,
+      17.89947743602616
+    ]
+  },
+  {
+    "id": "P13-AUSSENZAPFEN",
+    "name": "Flügel-Außenzapfen",
+    "material": "42CrMo4+QT",
+    "process": "Drehen/Schleifen; Sicherungsnuten",
+    "features": "Ø8 k6 Lagersitz720..727; KlebesitzØ8; DIN471-Nuten/Endanschläge funktional separat festlegen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 16,
+    "volume_mm3": 3207.25194004982,
+    "bounding_box_mm": [
+      64.0,
+      7.977630377449441,
+      7.9553233049005145
+    ]
+  },
+  {
+    "id": "P13-SPITZENEINSATZ",
+    "name": "Flügel-Spitzeneinsatz",
+    "material": "Titan Grade5 oder isoliertes Aluminium",
+    "process": "Drehen, Klebvorbereitung",
+    "features": "Ø12/Ø8.1×38; CFK-Klebfuge0.2",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 16,
+    "volume_mm3": 2339.559757091587,
+    "bounding_box_mm": [
+      38.0,
+      11.966445566174162,
+      11.932984957350772
+    ]
+  },
+  {
+    "id": "STD-608",
+    "name": "Loslager608",
+    "material": "Wälzlagerstahl",
+    "process": "Kaufen",
+    "features": "8×22×7; Außenring axial verschieblich ±1mm; Dichtung/Spiel nach Betrieb festlegen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "ISO15 Maßfamilie608",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 16,
+    "volume_mm3": 2309.070600388498,
+    "bounding_box_mm": [
+      7.0,
+      21.938483537985963,
+      21.877139088476415
+    ]
+  },
+  {
+    "id": "P13-SPEICHENWURZEL",
+    "name": "Speichensockel",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "4×M6 zum Innenring; P12-Standardflansch Ø42 für geteilte20mm-CFK-Klemme; Speichenachse48mm unter Pitchachse",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 16,
+    "volume_mm3": 15241.26613029142,
+    "bounding_box_mm": [
+      35.0,
+      44.0,
+      42.0
+    ]
+  },
+  {
+    "id": "P13-AUSSENLAGERTRAEGER",
+    "name": "Außenlagerträger mit Speichenflansch",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen, Bohren",
+    "features": "608-SitzØ22 H7; Kammer719..728; ±1mm axiales Loslager; radialer CFK-Flansch;4×M4 an Tragsteg",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 16,
+    "volume_mm3": 52971.23631419336,
+    "bounding_box_mm": [
+      41.0,
+      56.0,
+      114.0
+    ]
+  },
+  {
+    "id": "P13-SPEICHE-CFK",
+    "name": "Rotor-Speiche CFK20×17",
+    "material": "CFK20×17 aus CBU20171005TG",
+    "process": "Rohrzuschnitt; Enden versiegeln",
+    "features": "L554; zwei30mm Klemmlängen; keine Querbohrungen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 16,
+    "volume_mm3": 48297.27465996264,
+    "bounding_box_mm": [
+      554.0,
+      19.944075943623602,
+      19.888308262251286
+    ]
+  },
+  {
+    "id": "P13-CFK-SCHALE_OBEN",
+    "name": "CFK-Flügel SCHALE_OBEN",
+    "material": "CFK/Epoxid; Laminat vom Dienstleister auszulegen",
+    "process": "Geteilte Negativformen, Prepreg/Infusion nach qualifiziertem Prozess; Klebemontage",
+    "features": "Geometrische Innen-/Außenform;1.2mm Z-Abstand im Hauptbereich; keine festgelegte Lagenfreigabe",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 16,
+    "volume_mm3": 101580.89133133252,
+    "bounding_box_mm": [
+      560.0,
+      120.0,
+      14.397235808056665
+    ]
+  },
+  {
+    "id": "P13-CFK-SCHALE_UNTEN",
+    "name": "CFK-Flügel SCHALE_UNTEN",
+    "material": "CFK/Epoxid; Laminat vom Dienstleister auszulegen",
+    "process": "Geteilte Negativformen, Prepreg/Infusion nach qualifiziertem Prozess; Klebemontage",
+    "features": "Geometrische Innen-/Außenform;1.2mm Z-Abstand im Hauptbereich; keine festgelegte Lagenfreigabe",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 16,
+    "volume_mm3": 101580.8913313324,
+    "bounding_box_mm": [
+      560.0,
+      120.0,
+      14.397235808056665
+    ]
+  },
+  {
+    "id": "P13-CFK-WURZELBLOCK",
+    "name": "CFK-Flügel WURZELBLOCK",
+    "material": "CFK/Epoxid; Laminat vom Dienstleister auszulegen",
+    "process": "Geteilte Negativformen, Prepreg/Infusion nach qualifiziertem Prozess; Klebemontage",
+    "features": "Geometrische Innen-/Außenform;1.2mm Z-Abstand im Hauptbereich; keine festgelegte Lagenfreigabe",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 16,
+    "volume_mm3": 87321.11499389095,
+    "bounding_box_mm": [
+      52.0,
+      112.80000000000001,
+      26.394471616113332
+    ]
+  },
+  {
+    "id": "P13-CFK-SPITZENBLOCK",
+    "name": "CFK-Flügel SPITZENBLOCK",
+    "material": "CFK/Epoxid; Laminat vom Dienstleister auszulegen",
+    "process": "Geteilte Negativformen, Prepreg/Infusion nach qualifiziertem Prozess; Klebemontage",
+    "features": "Geometrische Innen-/Außenform;1.2mm Z-Abstand im Hauptbereich; keine festgelegte Lagenfreigabe",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 16,
+    "volume_mm3": 40447.727199368564,
+    "bounding_box_mm": [
+      40.0,
+      112.8,
+      16.79632225911046
+    ]
+  },
+  {
+    "id": "P13-CFK-HOLM_VORN",
+    "name": "CFK-Flügel HOLM_VORN",
+    "material": "CFK/Epoxid; Laminat vom Dienstleister auszulegen",
+    "process": "Geteilte Negativformen, Prepreg/Infusion nach qualifiziertem Prozess; Klebemontage",
+    "features": "Geometrische Innen-/Außenform;1.2mm Z-Abstand im Hauptbereich; keine festgelegte Lagenfreigabe",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 16,
+    "volume_mm3": 8911.140092224596,
+    "bounding_box_mm": [
+      468.0,
+      1.5,
+      25.97571847964615
+    ]
+  },
+  {
+    "id": "P13-CFK-HOLM_HINTEN",
+    "name": "CFK-Flügel HOLM_HINTEN",
+    "material": "CFK/Epoxid; Laminat vom Dienstleister auszulegen",
+    "process": "Geteilte Negativformen, Prepreg/Infusion nach qualifiziertem Prozess; Klebemontage",
+    "features": "Geometrische Innen-/Außenform;1.2mm Z-Abstand im Hauptbereich; keine festgelegte Lagenfreigabe",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 16,
+    "volume_mm3": 6031.2902507176495,
+    "bounding_box_mm": [
+      468.0,
+      1.5,
+      18.45761406699343
+    ]
+  },
+  {
+    "id": "P13-PITCHHEBEL",
+    "name": "Pitchhebel",
+    "material": "EN AW-7075 T6",
+    "process": "Fräsen/Bohren; geteilte Klemmstelle",
+    "features": "Hebel25; WellenaufnahmeØ12.1; GelenkbolzenØ6; Klemmsicherung/Torsionsschluss separat bemessen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 16,
+    "volume_mm3": 2381.0588524072614,
+    "bounding_box_mm": [
+      6.0,
+      41.86749157408706,
+      19.99923365746812
+    ]
+  },
+  {
+    "id": "P13-GLEITHUELSE",
+    "name": "Taumelscheiben-Gleithülse",
+    "material": "42CrMo4+QT",
+    "process": "Drehen/Schleifen",
+    "features": "InnenØ40.2 als vorläufige Gleitpassung; GE60-InnensitzØ60; L50; Endanschläge/Klemmringe erforderlich",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 2,
+    "volume_mm3": 84142.72117371607,
+    "bounding_box_mm": [
+      59.66492478675386,
+      59.832227830870806,
+      54.0
+    ]
+  },
+  {
+    "id": "P13-TAUMEL-INNEN",
+    "name": "Nichtrotierender Taumelträger",
+    "material": "EN AW-7075 T6",
+    "process": "Drehen/Fräsen",
+    "features": "GE60 AußensitzØ90;61820 InnensitzØ100;3 abgesenkte Arme; Scherenführung verhindert Mitdrehen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 2,
+    "volume_mm3": 96687.31170467625,
+    "bounding_box_mm": [
+      164.212812921102,
+      171.9529255514582,
+      72.0
+    ]
+  },
+  {
+    "id": "STD-61820",
+    "name": "Taumelscheibenlager61820",
+    "material": "Wälzlagerstahl",
+    "process": "Kaufen",
+    "features": "100×125×13; dünnwandiges Rillenkugellager; Betrieb unter Kippung nur mit gemeinsamem Träger",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "ISO15 Maßfamilie61820",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 2,
+    "volume_mm3": 57432.24069843843,
+    "bounding_box_mm": [
+      125.0,
+      125.0,
+      13.0
+    ]
+  },
+  {
+    "id": "P13-TAUMEL-AUSSEN",
+    "name": "Rotierender Taumelring",
+    "material": "EN AW-7075 T6",
+    "process": "Drehen/Fräsen",
+    "features": "61820 AußensitzØ125 H7;8 GelenkplätzeR90; Scherenmitnehmer zur Rotorphase erforderlich",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 2,
+    "volume_mm3": 170172.74927069616,
+    "bounding_box_mm": [
+      203.1912983015063,
+      203.19129830150627,
+      47.0
+    ]
+  },
+  {
+    "id": "STD-GELENKKUGEL6",
+    "name": "GelenkkugelØ6-Bolzen",
+    "material": "Kaufteil",
+    "process": "Kaufen",
+    "features": "Funktionskontur mitØ6-Bolzen; Lieferteil/Schwenkwinkel/Tragzahl verifizieren",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "ISO12240-4 / DIN648 Gelenkkopf-Familie; Einbaumaße eigene Vorgabe",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 38,
+    "volume_mm3": 544.5427337365306,
+    "bounding_box_mm": [
+      8.0,
+      11.93426274441928,
+      12.0
+    ]
+  },
+  {
+    "id": "STD-GELENKKOPF6",
+    "name": "GelenkkopfM6/Ø6",
+    "material": "Kaufteil",
+    "process": "Kaufen",
+    "features": "Kundenseitige Hüllmaße; InnengewindeM6,Ø6-Bolzen; mindestens±25° winkelbeweglich erforderlich",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "ISO12240-4 / DIN648 Familie, konkrete Ausführung noch zu beschaffen",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 38,
+    "volume_mm3": 1633.4602522303107,
+    "bounding_box_mm": [
+      8.0,
+      17.81678595385679,
+      30.0
+    ]
+  },
+  {
+    "id": "P13-PITCHGESTAENGE",
+    "name": "Pitchgestänge RH/LH",
+    "material": "42CrMo4+QT",
+    "process": "Drehen; M6RH/M6LH; Gegenmuttern",
+    "features": "Neutraler Kugelmittenabstand53.382; zwei Gelenkköpfe; ein Ende links; Gewindeeingriff mindestens9mm",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 16,
+    "volume_mm3": 554.0692313424815,
+    "bounding_box_mm": [
+      4.8726355242515655,
+      4.886298606187783,
+      29.382043143117976
+    ]
+  },
+  {
+    "id": "P13-AKTUATORGEHAEUSE",
+    "name": "Spindelaktor-Schnittstellengehäuse",
+    "material": "EN AW-6082 T6",
+    "process": "Fräsen/Drehen; als Modul beschaffen oder Sonderbaugruppe fertigen",
+    "features": "Kugelschraubtrieb12×4, geführter Außenwagen,12mm nutzbarer Hub;Ø36;30×30-M4-Flansch;2×7001B-Festlager und Hubfenster; RFQ-Sonderbaugruppe; GE20-KardanfußØ20/M20×1; VerdrehsicherungsstiftØ4×25; Motorträger schwenkt mit",
+    "open": "Lieferant muss500N,100mm/s,100W-Klasse und Einbaumaße erfüllen; Spiel, Bremsung, Endlagen und Stromausfallzustand offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 6,
+    "volume_mm3": 29227.95453149215,
+    "bounding_box_mm": [
+      53.99999978063525,
+      61.0,
+      67.0
+    ]
+  },
+  {
+    "id": "STD-KGT1204",
+    "name": "Kugelschraubtrieb12×4 Referenz",
+    "material": "Kaufteil",
+    "process": "Kaufen",
+    "features": "d12, Steigung4; Nennhülle; Genauigkeit/Vorspannung/Lagerung nach Lieferant",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "ISO3408 Baugruppenfamilie; Maßhülle eigene Vorgabe",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 6,
+    "volume_mm3": 7351.326809400115,
+    "bounding_box_mm": [
+      11.932984957350772,
+      11.966445566174162,
+      65.0
+    ]
+  },
+  {
+    "id": "P13-AKTUATORWAGEN",
+    "name": "Geführter Aktuatorwagen",
+    "material": "EN AW-7075 T6 / Kauf-Kugelgewindemutter",
+    "process": "Fräsen; Kaufmutter einsetzen",
+    "features": "Nennpositionz73..97; seitlicher Gelenkanschlussy22/z100; Linearführung und Mutter-Lieferkontur zu bestätigen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 6,
+    "volume_mm3": 10085.70232564458,
+    "bounding_box_mm": [
+      21.970207353160287,
+      62.0,
+      24.0
+    ]
+  },
+  {
+    "id": "STD-LINEARFUEHRUNG",
+    "name": "Aktor-Linearführung Referenz",
+    "material": "Kaufteil",
+    "process": "Kaufen",
+    "features": "Vorgegebener Einbauraum8×8×60; Führung führt Querlast, Schraube nur Axiallast",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "ISO14728 Baugruppenfamilie; Lieferteilgeometrie offen",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 6,
+    "volume_mm3": 3839.9999999999995,
+    "bounding_box_mm": [
+      8.0,
+      8.0,
+      60.0
+    ]
+  },
+  {
+    "id": "STD-7001B",
+    "name": "Aktor-Festlager7001B",
+    "material": "Wälzlagerstahl",
+    "process": "Kaufen",
+    "features": "12×28×8; gepaartDB; Endbearbeitung der Kugelgewindespindel aufØ12-Lagersitze",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "ISO15 / DIN628 Maßfamilie7001",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 12,
+    "volume_mm3": 4021.238596594936,
+    "bounding_box_mm": [
+      27.843631567151803,
+      27.921706321073042,
+      8.0
+    ]
+  },
+  {
+    "id": "P13-HUBANSCHLAG",
+    "name": "Geteilter Hubanschlag",
+    "material": "EN AW-7075 T6",
+    "process": "Drehen/Fräsen; M5-Klemmung",
+    "features": "Zweiteil-/Klemmschlitzreferenz; zentrale Endlagen über Distanzscheiben einstellen; keine Sicherheitsbremse; getrennte SchellenhälfteA;2×M5-Kernloch; keine ungeteilte Ringschelle",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 2,
+    "volume_mm3": 8630.037065248653,
+    "bounding_box_mm": [
+      68.0,
+      33.39468061171486,
+      12.0
+    ]
+  },
+  {
+    "id": "P13-SCHERENLASCHEN",
+    "name": "Sphärisch gelagerte Scherenlasche30",
+    "material": "EN AW-7075 T6",
+    "process": "Fräsen/Bohren, kantenrunden",
+    "features": "Achsabstand30; Dicke8;2×GE6E6×14×6/C4; integrierte Schulter und DIN472-14-Nut; Schwenkfähigkeit statt verspannter Parallelbolzen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 8,
+    "volume_mm3": 5031.463184770387,
+    "bounding_box_mm": [
+      49.796428837618656,
+      8.0,
+      20.0
+    ]
+  },
+  {
+    "id": "STD-ISO7089-M6-SPEICHE",
+    "name": "Speichensockel-ScheibeM6",
+    "material": "Stahl200HV",
+    "process": "Kaufen",
+    "features": "Ø6.4/Ø12×1.6",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "ISO7089 M6",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 64,
+    "volume_mm3": 129.48388281035693,
+    "bounding_box_mm": [
+      11.932984957350772,
+      11.966445566174162,
+      1.6000000000000014
+    ]
+  },
+  {
+    "id": "STD-ISO4762-M4x8",
+    "name": "ZylinderschraubeM4×8",
+    "material": "Stahl8.8, Oberfläche und Korrosionspaarung festzulegen",
+    "process": "Kaufen",
+    "features": "M4×8; KopfØ7×4; SW3; Gewinde nurØ3.2-Kernkontur, Masse unterschätzt",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "ISO4762 / ISO261 Nennmaßfamilie",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 192,
+    "volume_mm3": 202.68940030329895,
+    "bounding_box_mm": [
+      6.960907891787951,
+      6.980426580268261,
+      12.0
+    ]
+  },
+  {
+    "id": "STD-ISO4762-M4x16",
+    "name": "ZylinderschraubeM4×16",
+    "material": "Stahl8.8, Oberfläche und Korrosionspaarung festzulegen",
+    "process": "Kaufen",
+    "features": "M4×16; KopfØ7×4; SW3; Gewinde nurØ3.2-Kernkontur, Masse unterschätzt",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "ISO4762 / ISO261 Nennmaßfamilie",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 148,
+    "volume_mm3": 267.0292178488179,
+    "bounding_box_mm": [
+      6.960907891787951,
+      6.980426580268261,
+      20.0
+    ]
+  },
+  {
+    "id": "STD-ISO4762-M4x12",
+    "name": "ZylinderschraubeM4×12",
+    "material": "Stahl8.8, Oberfläche und Korrosionspaarung festzulegen",
+    "process": "Kaufen",
+    "features": "M4×12; KopfØ7×4; SW3; Gewinde nurØ3.2-Kernkontur, Masse unterschätzt",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "ISO4762 / ISO261 Nennmaßfamilie",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 76,
+    "volume_mm3": 234.85930907605842,
+    "bounding_box_mm": [
+      6.960907891787951,
+      6.980426580268261,
+      16.0
+    ]
+  },
+  {
+    "id": "STD-ISO4762-M6x16",
+    "name": "ZylinderschraubeM6×16",
+    "material": "Stahl8.8, Oberfläche und Korrosionspaarung festzulegen",
+    "process": "Kaufen",
+    "features": "M6×16; KopfØ10×6; SW5; Gewinde nurØ4.9-Kernkontur, Masse unterschätzt",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "ISO4762 / ISO261 Nennmaßfamilie",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 174,
+    "volume_mm3": 708.0055512053998,
+    "bounding_box_mm": [
+      9.944154131125643,
+      9.972037971811801,
+      22.0
+    ]
+  },
+  {
+    "id": "STD-DIN976-M6-ROTOR",
+    "name": "Rotor-ZugankerM6",
+    "material": "Stahl8.8",
+    "process": "DIN976-Stange ablängen; entgraten",
+    "features": "M6×156; Muttern/Scheiben beidseitig; Gewinde-Kernkontur",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "DIN976-1 / ISO261 Familie",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 16,
+    "volume_mm3": 2941.755944894947,
+    "bounding_box_mm": [
+      4.8726355242515655,
+      4.886298606187783,
+      156.0
+    ]
+  },
+  {
+    "id": "P13-BUCHSE8-M4-L8",
+    "name": "Zentrierbuchse8.3/4.5×8",
+    "material": "EN AW-6082 T6",
+    "process": "Drehen",
+    "features": "Passung zur vorhandenenØ8.4-Durchgangsbohrung; kein Ersatz für Schraubenvorspannung",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 4,
+    "volume_mm3": 305.61413334121517,
+    "bounding_box_mm": [
+      8.253647928834283,
+      8.276791516603796,
+      8.0
+    ]
+  },
+  {
+    "id": "P13-BUCHSE8-M4-L12",
+    "name": "Zentrierbuchse8.3/4.5×12",
+    "material": "EN AW-6082 T6",
+    "process": "Drehen",
+    "features": "Passung zur vorhandenenØ8.4-Durchgangsbohrung; kein Ersatz für Schraubenvorspannung",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 8,
+    "volume_mm3": 458.4212000118227,
+    "bounding_box_mm": [
+      8.253647928834283,
+      8.276791516603796,
+      12.0
+    ]
+  },
+  {
+    "id": "P13-WURZEL-ENDSCHEIBE",
+    "name": "Flügelwellen-Endscheibe",
+    "material": "42CrMo4+QT",
+    "process": "Drehen/Schleifen",
+    "features": "Axialer Fliehkraftanschlag am Wurzeleinsatz;M5-Endschraube; Kontaktfläche am Einsatz x200",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 16,
+    "volume_mm3": 871.2029127486195,
+    "bounding_box_mm": [
+      3.0,
+      19.944075943623602,
+      19.888308262251286
+    ]
+  },
+  {
+    "id": "P13-HEBEL-ENDSCHEIBE",
+    "name": "Pitchhebel-Endscheibe",
+    "material": "42CrMo4+QT",
+    "process": "Drehen",
+    "features": "M4-Endschraube; abnehmbarer formschlüssiger D-Flach-Hebel",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 16,
+    "volume_mm3": 1195.8158276624188,
+    "bounding_box_mm": [
+      4.0,
+      19.944075943623602,
+      19.888308262251286
+    ]
+  },
+  {
+    "id": "P13-HEBEL-DISTANZ",
+    "name": "Pitchhebel-Axialdistanz",
+    "material": "42CrMo4+QT",
+    "process": "Drehen/Schleifen",
+    "features": "Abstimmung gegen KM1; Endschraube darf Lagerpaarvorspannung nicht verändern",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 16,
+    "volume_mm3": 3765.9292156193264,
+    "bounding_box_mm": [
+      27.0,
+      17.94966834926124,
+      17.89947743602616
+    ]
+  },
+  {
+    "id": "P13-HEBEL-ANLAUF",
+    "name": "Pitchhebel-Anlauf",
+    "material": "42CrMo4+QT",
+    "process": "Drehen/Schleifen",
+    "features": "Axiale Anlaufscheibe1mm",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 16,
+    "volume_mm3": 199.1691202559589,
+    "bounding_box_mm": [
+      1.0,
+      19.944075943623602,
+      19.888308262251286
+    ]
+  },
+  {
+    "id": "STD-DIN471-8",
+    "name": "Sicherungsring8",
+    "material": "Federstahl",
+    "process": "Kaufen",
+    "features": "Nennhülle8mm; Nutbreite0.8, NutgrundØ7.5 vor Bestellung mit realem Ring abgleichen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "DIN471 Maßfamilie8",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 32,
+    "volume_mm3": 24.60290966378786,
+    "bounding_box_mm": [
+      0.8,
+      9.862517929102516,
+      9.995948619773486
+    ]
+  },
+  {
+    "id": "STD-ISO4762-M6x12",
+    "name": "ZylinderschraubeM6×12",
+    "material": "Stahl8.8, Oberfläche und Korrosionspaarung festzulegen",
+    "process": "Kaufen",
+    "features": "M6×12; KopfØ10×6; SW5; Gewinde nurØ4.9-Kernkontur, Masse unterschätzt",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "ISO4762 / ISO261 Nennmaßfamilie",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 8,
+    "volume_mm3": 632.5759115927091,
+    "bounding_box_mm": [
+      9.944154131125643,
+      9.972037971811801,
+      18.0
+    ]
+  },
+  {
+    "id": "STD-ISO4762-M5x40",
+    "name": "ZylinderschraubeM5×40",
+    "material": "Stahl8.8, Oberfläche und Korrosionspaarung festzulegen",
+    "process": "Kaufen",
+    "features": "M5×40; KopfØ8.5×5; SW4; Gewinde nurØ4.1-Kernkontur, Masse unterschätzt",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "ISO4762 / ISO261 Nennmaßfamilie",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 24,
+    "volume_mm3": 777.1857954443948,
+    "bounding_box_mm": [
+      8.452531011456797,
+      8.476232276040031,
+      45.0
+    ]
+  },
+  {
+    "id": "STD-SCHEIBE-M6",
+    "name": "ScheibeM6",
+    "material": "Stahl200HV",
+    "process": "Kaufen",
+    "features": "Ø6.4/Ø12×1.6",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "ISO7089 M6",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 112,
+    "volume_mm3": 129.4838828103569,
+    "bounding_box_mm": [
+      11.932984957350772,
+      11.966445566174162,
+      1.6
+    ]
+  },
+  {
+    "id": "STD-ISO4762-M6x25",
+    "name": "ZylinderschraubeM6×25",
+    "material": "Stahl8.8, Oberfläche und Korrosionspaarung festzulegen",
+    "process": "Kaufen",
+    "features": "M6×25; KopfØ10×6; SW5; Gewinde nurØ4.9-Kernkontur, Masse unterschätzt",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "ISO4762 / ISO261 Nennmaßfamilie",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 8,
+    "volume_mm3": 877.7222403339547,
+    "bounding_box_mm": [
+      9.944154131125643,
+      9.972037971811801,
+      31.0
+    ]
+  },
+  {
+    "id": "STD-MUTTER-M6",
+    "name": "SechskantmutterM6",
+    "material": "StahlKlasse8",
+    "process": "Kaufen",
+    "features": "M6/SW10;H5.2; Nennhülle ohne Gewindeflanken; Sicherung gemäß Montageplan",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "ISO4032 M6; Sicherungsvariante vor Bestellung festlegen",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 66,
+    "volume_mm3": 298.3649485358091,
+    "bounding_box_mm": [
+      11.547005383792516,
+      10.0,
+      5.2
+    ]
+  },
+  {
+    "id": "STD-SCHEIBE-M4",
+    "name": "ScheibeM4",
+    "material": "Stahl200HV",
+    "process": "Kaufen",
+    "features": "Ø4.3/Ø12×1",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "ISO7093-1 M4",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 12,
+    "volume_mm3": 98.57532348801371,
+    "bounding_box_mm": [
+      11.932984957350772,
+      11.966445566174162,
+      1.0
+    ]
+  },
+  {
+    "id": "STD-ISO4762-M4x20",
+    "name": "ZylinderschraubeM4×20",
+    "material": "Stahl8.8, Oberfläche und Korrosionspaarung festzulegen",
+    "process": "Kaufen",
+    "features": "M4×20; KopfØ7×4; SW3; Gewinde nurØ3.2-Kernkontur, Masse unterschätzt",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "ISO4762 / ISO261 Nennmaßfamilie",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 8,
+    "volume_mm3": 299.1991266215774,
+    "bounding_box_mm": [
+      6.960907891787951,
+      6.980426580268261,
+      24.0
+    ]
+  },
+  {
+    "id": "STD-ISO4762-M6x30",
+    "name": "ZylinderschraubeM6×30",
+    "material": "Stahl8.8, Oberfläche und Korrosionspaarung festzulegen",
+    "process": "Kaufen",
+    "features": "M6×30; KopfØ10×6; SW5; Gewinde nurØ4.9-Kernkontur, Masse unterschätzt",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "ISO4762 / ISO261 Nennmaßfamilie",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 34,
+    "volume_mm3": 972.0092898498182,
+    "bounding_box_mm": [
+      9.944154131125643,
+      9.972037971811801,
+      36.0
+    ]
+  },
+  {
+    "id": "STD-ISO4762-M5x12",
+    "name": "ZylinderschraubeM5×12",
+    "material": "Stahl8.8, Oberfläche und Korrosionspaarung festzulegen",
+    "process": "Kaufen",
+    "features": "M5×12; KopfØ8.5×5; SW4; Gewinde nurØ4.1-Kernkontur, Masse unterschätzt",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "ISO4762 / ISO261 Nennmaßfamilie",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 16,
+    "volume_mm3": 407.5145878964839,
+    "bounding_box_mm": [
+      8.452531011456797,
+      8.476232276040031,
+      17.0
+    ]
+  },
+  {
+    "id": "STD-ISO4762-M6x90",
+    "name": "ZylinderschraubeM6×90",
+    "material": "Stahl8.8, Oberfläche und Korrosionspaarung festzulegen",
+    "process": "Kaufen",
+    "features": "M6×90; KopfØ10×6; SW5; Gewinde nurØ4.9-Kernkontur, Masse unterschätzt",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "ISO4762 / ISO261 Nennmaßfamilie",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 4,
+    "volume_mm3": 2103.453884040182,
+    "bounding_box_mm": [
+      9.944154131125643,
+      9.972037971811801,
+      96.0
+    ]
+  },
+  {
+    "id": "P13-FACHWERK-PYLON",
+    "name": "Rotorfachwerk-Pylon",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren",
+    "features": "4×M6 am Innenring; zweiØ8-Gabelbolzen; untere Knoten65mm über Mittelebene; Funktionsflächen spanend",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 14,
+    "volume_mm3": 51180.62934716031,
+    "bounding_box_mm": [
+      40.0,
+      56.0,
+      93.0
+    ]
+  },
+  {
+    "id": "STD-M8-ZUGSTANGENKOPF",
+    "name": "ZugstangenkopfM8/Ø8",
+    "material": "Kaufteil",
+    "process": "Kaufen",
+    "features": "M8RH/LH;Ø8-Bolzen;Ø24×8 Einbauhülle; mindestens±10°; reale Norm-/Liefermaße abgleichen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "ISO12240-4 / DIN648 Familie; Hüllmaße eigene RFQ-Vorgabe",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 64,
+    "volume_mm3": 4525.441411918382,
+    "bounding_box_mm": [
+      71.86596991470154,
+      23.932891132348324,
+      8.000000000000005
+    ]
+  },
+  {
+    "id": "STD-M8-GELENKKUGEL",
+    "name": "GelenkkugelØ8",
+    "material": "Kaufteil",
+    "process": "Kaufen",
+    "features": "Ø8-Gabelbolzen; Kugel und Kopf sind getrennte Körper, so bleibt der Bolzen bei geneigtem Kopf ausgerichtet",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "ISO12240-4 / DIN648 Familie; Nennkontur",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 64,
+    "volume_mm3": 1072.3302924253164,
+    "bounding_box_mm": [
+      15.878462024097665,
+      15.670605969585145,
+      8.000000000000004
+    ]
+  },
+  {
+    "id": "P13-FACHWERK-INSERT",
+    "name": "CFK30-Endeinsatz",
+    "material": "TitanGrade5 oder isoliertes Aluminium",
+    "process": "Drehen/Gewinde; qualifizierte Klebung",
+    "features": "Ø25.6/Ø8.2×40;0.2mm Klebefuge imØ26-Rohr; GewindezugangM8, Sicherung vor Bestellung abstimmen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 64,
+    "volume_mm3": 18476.334714292294,
+    "bounding_box_mm": [
+      40.0,
+      25.528417207838213,
+      25.457034575681647
+    ]
+  },
+  {
+    "id": "P13-CFK30-STREBE-0--1",
+    "name": "CFK-Fachwerkstrebe30×26",
+    "material": "CFK30×26 mit Lieferanten-Druck-/Knicknachweis",
+    "process": "Rohr ablängen; Enden versiegeln; isolierte Einsätze einkleben",
+    "features": "L539.044; zwei40mm Einbettungen; kein durchbohrtes CFK; Hebelarm und Knickung im Lastscreen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 2,
+    "volume_mm3": 94833.65077865322,
+    "bounding_box_mm": [
+      502.5341891887648,
+      250.5387827991576,
+      52.38606294418739
+    ]
+  },
+  {
+    "id": "P13-CFK30-STREBE-0-1",
+    "name": "CFK-Fachwerkstrebe30×26",
+    "material": "CFK30×26 mit Lieferanten-Druck-/Knicknachweis",
+    "process": "Rohr ablängen; Enden versiegeln; isolierte Einsätze einkleben",
+    "features": "L539.044; zwei40mm Einbettungen; kein durchbohrtes CFK; Hebelarm und Knickung im Lastscreen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 2,
+    "volume_mm3": 94833.6507786531,
+    "bounding_box_mm": [
+      502.53418918876457,
+      250.5387827991572,
+      52.3860629441874
+    ]
+  },
+  {
+    "id": "P13-CFK30-STREBE-1--1",
+    "name": "CFK-Fachwerkstrebe30×26",
+    "material": "CFK30×26 mit Lieferanten-Druck-/Knicknachweis",
+    "process": "Rohr ablängen; Enden versiegeln; isolierte Einsätze einkleben",
+    "features": "L539.044; zwei40mm Einbettungen; kein durchbohrtes CFK; Hebelarm und Knickung im Lastscreen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 2,
+    "volume_mm3": 94833.65077865322,
+    "bounding_box_mm": [
+      502.5341891887648,
+      250.5387827991576,
+      52.38606294418739
+    ]
+  },
+  {
+    "id": "P13-CFK30-STREBE-1-1",
+    "name": "CFK-Fachwerkstrebe30×26",
+    "material": "CFK30×26 mit Lieferanten-Druck-/Knicknachweis",
+    "process": "Rohr ablängen; Enden versiegeln; isolierte Einsätze einkleben",
+    "features": "L539.044; zwei40mm Einbettungen; kein durchbohrtes CFK; Hebelarm und Knickung im Lastscreen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 2,
+    "volume_mm3": 94833.6507786531,
+    "bounding_box_mm": [
+      502.53418918876457,
+      250.5387827991572,
+      52.3860629441874
+    ]
+  },
+  {
+    "id": "P13-CFK30-STREBE-2--1",
+    "name": "CFK-Fachwerkstrebe30×26",
+    "material": "CFK30×26 mit Lieferanten-Druck-/Knicknachweis",
+    "process": "Rohr ablängen; Enden versiegeln; isolierte Einsätze einkleben",
+    "features": "L539.044; zwei40mm Einbettungen; kein durchbohrtes CFK; Hebelarm und Knickung im Lastscreen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 2,
+    "volume_mm3": 94833.65077865322,
+    "bounding_box_mm": [
+      502.5341891887648,
+      250.5387827991576,
+      52.38606294418739
+    ]
+  },
+  {
+    "id": "P13-CFK30-STREBE-2-1",
+    "name": "CFK-Fachwerkstrebe30×26",
+    "material": "CFK30×26 mit Lieferanten-Druck-/Knicknachweis",
+    "process": "Rohr ablängen; Enden versiegeln; isolierte Einsätze einkleben",
+    "features": "L539.044; zwei40mm Einbettungen; kein durchbohrtes CFK; Hebelarm und Knickung im Lastscreen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 2,
+    "volume_mm3": 94833.6507786531,
+    "bounding_box_mm": [
+      502.53418918876457,
+      250.5387827991572,
+      52.3860629441874
+    ]
+  },
+  {
+    "id": "P13-CFK30-STREBE-3--1",
+    "name": "CFK-Fachwerkstrebe30×26",
+    "material": "CFK30×26 mit Lieferanten-Druck-/Knicknachweis",
+    "process": "Rohr ablängen; Enden versiegeln; isolierte Einsätze einkleben",
+    "features": "L539.044; zwei40mm Einbettungen; kein durchbohrtes CFK; Hebelarm und Knickung im Lastscreen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 2,
+    "volume_mm3": 94833.65077865322,
+    "bounding_box_mm": [
+      502.5341891887648,
+      250.5387827991576,
+      52.38606294418739
+    ]
+  },
+  {
+    "id": "P13-CFK30-STREBE-3-1",
+    "name": "CFK-Fachwerkstrebe30×26",
+    "material": "CFK30×26 mit Lieferanten-Druck-/Knicknachweis",
+    "process": "Rohr ablängen; Enden versiegeln; isolierte Einsätze einkleben",
+    "features": "L539.044; zwei40mm Einbettungen; kein durchbohrtes CFK; Hebelarm und Knickung im Lastscreen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 2,
+    "volume_mm3": 94833.6507786531,
+    "bounding_box_mm": [
+      502.53418918876457,
+      250.5387827991572,
+      52.3860629441874
+    ]
+  },
+  {
+    "id": "P13-CFK30-STREBE-4--1",
+    "name": "CFK-Fachwerkstrebe30×26",
+    "material": "CFK30×26 mit Lieferanten-Druck-/Knicknachweis",
+    "process": "Rohr ablängen; Enden versiegeln; isolierte Einsätze einkleben",
+    "features": "L539.044; zwei40mm Einbettungen; kein durchbohrtes CFK; Hebelarm und Knickung im Lastscreen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 2,
+    "volume_mm3": 94833.65077865322,
+    "bounding_box_mm": [
+      502.5341891887648,
+      250.5387827991576,
+      52.38606294418739
+    ]
+  },
+  {
+    "id": "P13-CFK30-STREBE-4-1",
+    "name": "CFK-Fachwerkstrebe30×26",
+    "material": "CFK30×26 mit Lieferanten-Druck-/Knicknachweis",
+    "process": "Rohr ablängen; Enden versiegeln; isolierte Einsätze einkleben",
+    "features": "L539.044; zwei40mm Einbettungen; kein durchbohrtes CFK; Hebelarm und Knickung im Lastscreen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 2,
+    "volume_mm3": 94833.6507786531,
+    "bounding_box_mm": [
+      502.53418918876457,
+      250.5387827991572,
+      52.3860629441874
+    ]
+  },
+  {
+    "id": "P13-CFK30-STREBE-5--1",
+    "name": "CFK-Fachwerkstrebe30×26",
+    "material": "CFK30×26 mit Lieferanten-Druck-/Knicknachweis",
+    "process": "Rohr ablängen; Enden versiegeln; isolierte Einsätze einkleben",
+    "features": "L539.044; zwei40mm Einbettungen; kein durchbohrtes CFK; Hebelarm und Knickung im Lastscreen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 2,
+    "volume_mm3": 94833.65077865322,
+    "bounding_box_mm": [
+      502.5341891887648,
+      250.5387827991576,
+      52.38606294418739
+    ]
+  },
+  {
+    "id": "P13-CFK30-STREBE-5-1",
+    "name": "CFK-Fachwerkstrebe30×26",
+    "material": "CFK30×26 mit Lieferanten-Druck-/Knicknachweis",
+    "process": "Rohr ablängen; Enden versiegeln; isolierte Einsätze einkleben",
+    "features": "L539.044; zwei40mm Einbettungen; kein durchbohrtes CFK; Hebelarm und Knickung im Lastscreen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 2,
+    "volume_mm3": 94833.6507786531,
+    "bounding_box_mm": [
+      502.53418918876457,
+      250.5387827991572,
+      52.3860629441874
+    ]
+  },
+  {
+    "id": "P13-CFK30-STREBE-6--1",
+    "name": "CFK-Fachwerkstrebe30×26",
+    "material": "CFK30×26 mit Lieferanten-Druck-/Knicknachweis",
+    "process": "Rohr ablängen; Enden versiegeln; isolierte Einsätze einkleben",
+    "features": "L539.044; zwei40mm Einbettungen; kein durchbohrtes CFK; Hebelarm und Knickung im Lastscreen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 2,
+    "volume_mm3": 94833.65077865322,
+    "bounding_box_mm": [
+      502.5341891887648,
+      250.5387827991576,
+      52.38606294418739
+    ]
+  },
+  {
+    "id": "P13-CFK30-STREBE-6-1",
+    "name": "CFK-Fachwerkstrebe30×26",
+    "material": "CFK30×26 mit Lieferanten-Druck-/Knicknachweis",
+    "process": "Rohr ablängen; Enden versiegeln; isolierte Einsätze einkleben",
+    "features": "L539.044; zwei40mm Einbettungen; kein durchbohrtes CFK; Hebelarm und Knickung im Lastscreen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 2,
+    "volume_mm3": 94833.6507786531,
+    "bounding_box_mm": [
+      502.53418918876457,
+      250.5387827991572,
+      52.3860629441874
+    ]
+  },
+  {
+    "id": "P13-CFK30-STREBE-7--1",
+    "name": "CFK-Fachwerkstrebe30×26",
+    "material": "CFK30×26 mit Lieferanten-Druck-/Knicknachweis",
+    "process": "Rohr ablängen; Enden versiegeln; isolierte Einsätze einkleben",
+    "features": "L539.044; zwei40mm Einbettungen; kein durchbohrtes CFK; Hebelarm und Knickung im Lastscreen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 2,
+    "volume_mm3": 94833.65077865322,
+    "bounding_box_mm": [
+      502.5341891887648,
+      250.5387827991576,
+      52.38606294418739
+    ]
+  },
+  {
+    "id": "P13-CFK30-STREBE-7-1",
+    "name": "CFK-Fachwerkstrebe30×26",
+    "material": "CFK30×26 mit Lieferanten-Druck-/Knicknachweis",
+    "process": "Rohr ablängen; Enden versiegeln; isolierte Einsätze einkleben",
+    "features": "L539.044; zwei40mm Einbettungen; kein durchbohrtes CFK; Hebelarm und Knickung im Lastscreen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 2,
+    "volume_mm3": 94833.6507786531,
+    "bounding_box_mm": [
+      502.53418918876457,
+      250.5387827991572,
+      52.3860629441874
+    ]
+  },
+  {
+    "id": "P13-TAUMEL-M100",
+    "name": "Dünnring-LagermutterM100",
+    "material": "42CrMo4+QT",
+    "process": "Drehen/Gewinde; Stirnlochschlüssel",
+    "features": "M100×2 symbolisch; klemmt61820-Innenring gegen integrierte Schulter; Sicherungsschraube und Paarabstimmung vorsehen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 2,
+    "volume_mm3": 8168.101629425299,
+    "bounding_box_mm": [
+      109.62810967580687,
+      109.8138974098395,
+      5.0
+    ]
+  },
+  {
+    "id": "P13-GE-DECKEL-UNTEN",
+    "name": "GE60 Außensitzdeckel UNTEN",
+    "material": "EN AW-7075 T6",
+    "process": "Drehen/Bohren",
+    "features": "Äußere axiale Nennkontur; GE60C36/Schultern endgültig anhand Lieferzeichnung abgleichen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 2,
+    "volume_mm3": 11381.970083932616,
+    "bounding_box_mm": [
+      99.73921993759049,
+      99.86952484997138,
+      3.0
+    ]
+  },
+  {
+    "id": "P13-GE-DECKEL-OBEN",
+    "name": "GE60 Außensitzdeckel OBEN",
+    "material": "EN AW-7075 T6",
+    "process": "Drehen/Bohren",
+    "features": "Äußere axiale Nennkontur; GE60C36/Schultern endgültig anhand Lieferzeichnung abgleichen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 2,
+    "volume_mm3": 11787.098556636218,
+    "bounding_box_mm": [
+      99.6057350657239,
+      99.80267284282715,
+      3.0
+    ]
+  },
+  {
+    "id": "P13-TAUMEL-AUSSENDECKEL",
+    "name": "Taumel-Außenringdeckel",
+    "material": "EN AW-7075 T6",
+    "process": "Drehen/Bohren",
+    "features": "61820 Außenring geklemmt;8×M3; außenR73 hält Abstand zu den Pitchgelenkgabeln",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 2,
+    "volume_mm3": 16077.540227717294,
+    "bounding_box_mm": [
+      146.0,
+      145.2001967237679,
+      3.0
+    ]
+  },
+  {
+    "id": "P13-GE-M60-UNTEN",
+    "name": "GleithülsenmutterM60 UNTEN",
+    "material": "42CrMo4+QT",
+    "process": "Drehen/Gewinde; Stirnlochschlüssel",
+    "features": "M60×1.5 symbolisch; GE60-Innenring axial gehalten; Rundlauf, Freistich und Sicherung festlegen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 2,
+    "volume_mm3": 5057.924902371395,
+    "bounding_box_mm": [
+      69.6090789178795,
+      69.80426580268261,
+      5.0
+    ]
+  },
+  {
+    "id": "P13-GE-M60-OBEN",
+    "name": "GleithülsenmutterM60 OBEN",
+    "material": "42CrMo4+QT",
+    "process": "Drehen/Gewinde; Stirnlochschlüssel",
+    "features": "M60×1.5 symbolisch; GE60-Innenring axial gehalten; Rundlauf, Freistich und Sicherung festlegen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 2,
+    "volume_mm3": 5057.924902371395,
+    "bounding_box_mm": [
+      69.6090789178795,
+      69.80426580268261,
+      5.0
+    ]
+  },
+  {
+    "id": "P13-HUBANSCHLAG-OBEN",
+    "name": "Oberer geteilter Hubanschlag",
+    "material": "EN AW-7075 T6",
+    "process": "Drehen/Fräsen; geteilte M5-Klemmung",
+    "features": "Verstellbarer oberer Anschlag; keine Stellbremse; getrennte SchellenhälfteA;2×M5-Kernloch; keine ungeteilte Ringschelle",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 2,
+    "volume_mm3": 8630.037065255481,
+    "bounding_box_mm": [
+      68.0,
+      33.39468061171486,
+      12.0
+    ]
+  },
+  {
+    "id": "STD-GE6-INNEN",
+    "name": "Scheren-GelenklagerGE6 Innenring",
+    "material": "Kaufteil",
+    "process": "Kaufen",
+    "features": "d6/D14/B6/C4; angenäherte innere Kugelfläche",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "ISO12240-1 GE6E Nennmaßfamilie",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 16,
+    "volume_mm3": 245.04422300570684,
+    "bounding_box_mm": [
+      9.839845213073694,
+      6.0,
+      10.0
+    ]
+  },
+  {
+    "id": "STD-GE6-AUSSEN",
+    "name": "Scheren-GelenklagerGE6 Außenring",
+    "material": "Kaufteil",
+    "process": "Kaufen",
+    "features": "D14/C4; Lieferteil-Kippwinkel mindestens2° erforderlich",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "ISO12240-1 GE6E Nennmaßfamilie",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 16,
+    "volume_mm3": 305.6560294701013,
+    "bounding_box_mm": [
+      13.960853160536521,
+      4.0,
+      13.921815783575902
+    ]
+  },
+  {
+    "id": "STD-DIN472-14",
+    "name": "Scheren-Innensicherungsring14",
+    "material": "Federstahl",
+    "process": "Kaufen",
+    "features": "Nennhülle;14mm-Sitz, NutØ15×1.1; konkrete DIN472-Liefermaße abgleichen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "DIN472 Maßfamilie14",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 16,
+    "volume_mm3": 75.09848525546715,
+    "bounding_box_mm": [
+      14.730485948309884,
+      1.0,
+      14.790117614445283
+    ]
+  },
+  {
+    "id": "P13-SCHERENDISTANZ-2",
+    "name": "Scheren-Distanzbuchse2",
+    "material": "C45",
+    "process": "Drehen/Schleifen",
+    "features": "Ø8/Ø6.2×2; Kontakt nur am Gelenklager-Innenring",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 8,
+    "volume_mm3": 40.149554112877546,
+    "bounding_box_mm": [
+      7.977630377449441,
+      2.0,
+      7.9553233049005145
+    ]
+  },
+  {
+    "id": "P13-SCHERENDISTANZ-4",
+    "name": "Scheren-Distanzbuchse4",
+    "material": "C45",
+    "process": "Drehen/Schleifen",
+    "features": "Ø8/Ø6.2×4; Kontakt nur am Gelenklager-Innenring",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 4,
+    "volume_mm3": 80.29910822575509,
+    "bounding_box_mm": [
+      7.977630377449441,
+      4.0,
+      7.9553233049005145
+    ]
+  },
+  {
+    "id": "P13-SCHERENDISTANZ-6",
+    "name": "Scheren-Distanzbuchse6",
+    "material": "C45",
+    "process": "Drehen/Schleifen",
+    "features": "Ø8/Ø6.2×6; Kontakt nur am Gelenklager-Innenring",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 8,
+    "volume_mm3": 120.44866233863263,
+    "bounding_box_mm": [
+      7.977630377449441,
+      6.0,
+      7.9553233049005145
+    ]
+  },
+  {
+    "id": "P13-SCHERENDISTANZ-12",
+    "name": "Scheren-Distanzbuchse12",
+    "material": "C45",
+    "process": "Drehen/Schleifen",
+    "features": "Ø8/Ø6.2×12; Kontakt nur am Gelenklager-Innenring",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 8,
+    "volume_mm3": 240.89732467726526,
+    "bounding_box_mm": [
+      7.977630377449441,
+      12.0,
+      7.9553233049005145
+    ]
+  },
+  {
+    "id": "P13-SCHERENFESTPUNKT",
+    "name": "Scheren-Festpunktschelle",
+    "material": "EN AW-7075 T6",
+    "process": "Drehen/Fräsen; geteilte Klemmung",
+    "features": "Ø40.2-Sitz; zwei Schellenhälften und M5-Klemmung vor Lieferfreigabe ausarbeiten; fester Drehmomentpfad zur Säule; getrennte SchellenhälfteA;2×M5-Kernloch; keine ungeteilte Ringschelle",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 2,
+    "volume_mm3": 12209.743748213332,
+    "bounding_box_mm": [
+      81.0,
+      27.748109682153157,
+      24.0
+    ]
+  },
+  {
+    "id": "P13-FACHWERK-PYLON-MITNEHMER",
+    "name": "Rotorpylon mit integrierter Scherengabel",
+    "material": "EN AW-7075 T6",
+    "process": "5-Achs-Fräsen/Bohren",
+    "features": "Fachwerkpylon2, zusätzliche sphärische Scherenabstützung bei R110/Z120/Phase70; keine überlappenden Unterflansche",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 2,
+    "volume_mm3": 58661.27944678985,
+    "bounding_box_mm": [
+      60.28587696070481,
+      94.36082825958192,
+      93.0
+    ]
+  },
+  {
+    "id": "STD-ISO4762-M3x8",
+    "name": "ZylinderschraubeM3×8",
+    "material": "Stahl8.8, Oberfläche und Korrosionspaarung festzulegen",
+    "process": "Kaufen",
+    "features": "M3×8; KopfØ5.5×3; SW2.5; Gewinde nurØ2.4-Kernkontur, Masse unterschätzt",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "ISO4762 / ISO261 Nennmaßfamilie",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 40,
+    "volume_mm3": 99.34704253719374,
+    "bounding_box_mm": [
+      5.469284772119104,
+      5.484620884496491,
+      11.0
+    ]
+  },
+  {
+    "id": "STD-DIN1444B-6x35",
+    "name": "Gabelbolzen6×35",
+    "material": "Stahl",
+    "process": "Kaufen",
+    "features": "FormB,Ø6×35; QuerlochØ1.6; Nennkontur mit Kopf; reale Lieferform abgleichen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "DIN1444 FormB Maßfamilie",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 12,
+    "volume_mm3": 1213.2653132415653,
+    "bounding_box_mm": [
+      9.944154131125643,
+      9.972037971811801,
+      38.0
+    ]
+  },
+  {
+    "id": "STD-ISO7089-M6-GELENK",
+    "name": "Gelenkscheibe",
+    "material": "Stahl200HV",
+    "process": "Kaufen",
+    "features": "Ø6.4/Ø12×1.6; Nennkontur",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "ISO7089 Maßfamilie",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 84,
+    "volume_mm3": 129.4838828103569,
+    "bounding_box_mm": [
+      11.932984957350772,
+      11.966445566174162,
+      1.6
+    ]
+  },
+  {
+    "id": "STD-DIN94-1.6",
+    "name": "Splint",
+    "material": "Weicher Stahl",
+    "process": "Kaufen; nach Montage Schenkel spreizen",
+    "features": "Haarnadelartige Einbaukontur; genormte Lieferform und Längen vor Bestellung abgleichen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "DIN94 / ISO1234 Familie",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 28,
+    "volume_mm3": 8.157377821432384,
+    "bounding_box_mm": [
+      12.751999999999999,
+      1.504,
+      0.6391052150979777
+    ]
+  },
+  {
+    "id": "STD-DIN1444B-8x30",
+    "name": "Gabelbolzen8×30",
+    "material": "Stahl",
+    "process": "Kaufen",
+    "features": "FormB,Ø8×30; QuerlochØ2; Nennkontur mit Kopf; reale Lieferform abgleichen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "DIN1444 FormB Maßfamilie",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 64,
+    "volume_mm3": 1822.320173054081,
+    "bounding_box_mm": [
+      11.932984957350772,
+      11.966445566174162,
+      33.0
+    ]
+  },
+  {
+    "id": "STD-ISO7089-M8-GELENK",
+    "name": "Gelenkscheibe",
+    "material": "Stahl200HV",
+    "process": "Kaufen",
+    "features": "Ø8.4/Ø16×1.6; Nennkontur",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "ISO7089 Maßfamilie",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 256,
+    "volume_mm3": 233.0307766726765,
+    "bounding_box_mm": [
+      15.910646609801029,
+      15.955260754898882,
+      1.6
+    ]
+  },
+  {
+    "id": "STD-DIN94-2",
+    "name": "Splint",
+    "material": "Weicher Stahl",
+    "process": "Kaufen; nach Montage Schenkel spreizen",
+    "features": "Haarnadelartige Einbaukontur; genormte Lieferform und Längen vor Bestellung abgleichen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "DIN94 / ISO1234 Familie",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 64,
+    "volume_mm3": 12.916449610038928,
+    "bounding_box_mm": [
+      12.940000000000001,
+      1.8800000000000001,
+      0.798881518872472
+    ]
+  },
+  {
+    "id": "P13-ZENTRALPLATTE-OBEN",
+    "name": "Zentralplatte mit Servoträgern Oben",
+    "material": "EN AW-6082 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "Ø228×10; drei GE20ES-Kardansitze,Ø35H7; bündige Lagerdeckel; vertikale4.4mm-Stiftführungen; mittleres90×64-M6-Lochbild",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 1,
+    "volume_mm3": 372073.0660076835,
+    "bounding_box_mm": [
+      228.0,
+      227.22126440552074,
+      24.0
+    ]
+  },
+  {
+    "id": "REF-AKTUATORMOTOR-OBEN",
+    "name": "Aktorservo100W Oben",
+    "material": "Kaufteil",
+    "process": "Kaufen",
+    "features": "Ø40×60 Hülle; RFQ-Flansch4×M3/PCD30, WelleØ5; kein identifiziertes Lieferprodukt",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "Industrieservo-Funktionsanforderung; eigene vorgegebene Einbaumaße",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 3,
+    "volume_mm3": 75653.47808925921,
+    "bounding_box_mm": [
+      39.77661652450257,
+      39.888151887247204,
+      79.0
+    ]
+  },
+  {
+    "id": "P13-SERVO-DISTANZ2",
+    "name": "Servo-Distanz2mm",
+    "material": "EN AW-6082 T6",
+    "process": "Drehen",
+    "features": "Ø6/Ø3.4×2",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 24,
+    "volume_mm3": 38.39026222686727,
+    "bounding_box_mm": [
+      5.966492478675386,
+      5.983222783087081,
+      2.0
+    ]
+  },
+  {
+    "id": "STD-ISO4762-M3x12",
+    "name": "ZylinderschraubeM3×12",
+    "material": "Stahl8.8, Oberfläche und Korrosionspaarung festzulegen",
+    "process": "Kaufen",
+    "features": "M3×12; KopfØ5.5×3; SW2.5; Gewinde nurØ2.4-Kernkontur, Masse unterschätzt",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "ISO4762 / ISO261 Nennmaßfamilie",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 24,
+    "volume_mm3": 117.44261622187095,
+    "bounding_box_mm": [
+      5.469284772119104,
+      5.484620884496491,
+      15.0
+    ]
+  },
+  {
+    "id": "STD-HTD3M20-Spindel",
+    "name": "Zahnriemenscheibe20HTD3M Spindel",
+    "material": "Aluminium",
+    "process": "Kaufen / Bohrung anpassen",
+    "features": "20Z/3mm; TeilkreisØ19.099; Zahnung nur Rundhülle; Klemmnabe nach Lieferant",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "HTD3M20 Systemfamilie, genaue Lieferkontur offen",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 6,
+    "volume_mm3": 999.7804460784159,
+    "bounding_box_mm": [
+      18.893892849138723,
+      18.946872146442423,
+      6.0
+    ]
+  },
+  {
+    "id": "STD-HTD3M20-Motor",
+    "name": "Zahnriemenscheibe20HTD3M Motor",
+    "material": "Aluminium",
+    "process": "Kaufen / Bohrung anpassen",
+    "features": "20Z/3mm; TeilkreisØ19.099; Zahnung nur Rundhülle; Klemmnabe nach Lieferant",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "HTD3M20 Systemfamilie, genaue Lieferkontur offen",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 6,
+    "volume_mm3": 1573.749423889271,
+    "bounding_box_mm": [
+      18.893892849138723,
+      18.946872146442423,
+      6.0
+    ]
+  },
+  {
+    "id": "STD-HTD3M-L450",
+    "name": "ZahnriemenHTD3M450",
+    "material": "Kaufteil",
+    "process": "Kaufen",
+    "features": "L450,Breite6,Achsabstand195;20/20Z; glatte Riemenhülle, kein Zahneingriffmodell",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "HTD3M Systemfamilie, konkrete Riemenlänge/Spannreserve mit Lieferant bestätigen",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 3,
+    "volume_mm3": 3954.6696425720493,
+    "bounding_box_mm": [
+      216.88803586069025,
+      22.0,
+      6.0
+    ]
+  },
+  {
+    "id": "P13-ZENTRALPLATTE-UNTEN",
+    "name": "Zentralplatte mit Servoträgern Unten",
+    "material": "EN AW-6082 T6",
+    "process": "5-Achs-Fräsen/Bohren/Gewinde",
+    "features": "Ø228×10; drei GE20ES-Kardansitze,Ø35H7; bündige Lagerdeckel; vertikale4.4mm-Stiftführungen; mittleres90×64-M6-Lochbild",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 1,
+    "volume_mm3": 372073.0660076835,
+    "bounding_box_mm": [
+      228.0,
+      227.22126440552074,
+      24.0
+    ]
+  },
+  {
+    "id": "REF-AKTUATORMOTOR-UNTEN",
+    "name": "Aktorservo100W Unten",
+    "material": "Kaufteil",
+    "process": "Kaufen",
+    "features": "Ø40×60 Hülle; RFQ-Flansch4×M3/PCD30, WelleØ5; kein identifiziertes Lieferprodukt",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "Industrieservo-Funktionsanforderung; eigene vorgegebene Einbaumaße",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 3,
+    "volume_mm3": 75653.47808925921,
+    "bounding_box_mm": [
+      39.77661652450257,
+      39.888151887247204,
+      79.0
+    ]
+  },
+  {
+    "id": "STD-HTD3M-L540",
+    "name": "ZahnriemenHTD3M540",
+    "material": "Kaufteil",
+    "process": "Kaufen",
+    "features": "L540,Breite6,Achsabstand240;20/20Z; glatte Riemenhülle, kein Zahneingriffmodell",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "HTD3M Systemfamilie, konkrete Riemenlänge/Spannreserve mit Lieferant bestätigen",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 3,
+    "volume_mm3": 4737.669642572046,
+    "bounding_box_mm": [
+      261.88803586069025,
+      22.0,
+      6.0
+    ]
+  },
+  {
+    "id": "P13-DECKSTUETZE",
+    "name": "Deckstütze",
+    "material": "EN AW-6082 T6",
+    "process": "Drehen/Bohren",
+    "features": "Ø60/Ø20×30;4×Ø6.6/PCD44",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 4,
+    "volume_mm3": 71292.7904064439,
+    "bounding_box_mm": [
+      59.66492478675386,
+      59.832227830870806,
+      30.0
+    ]
+  },
+  {
+    "id": "P13-DECKTRAEGER",
+    "name": "DeckträgerRHS60×40×3",
+    "material": "EN AW-6082 T6",
+    "process": "Standard-RHS-Zuschnitt/Bohren",
+    "features": "L1000; zugehörige M6-Druckhülsen verhindern Rohrwandquetschung",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 2,
+    "volume_mm3": 562357.8266881155,
+    "bounding_box_mm": [
+      1000.0,
+      60.0,
+      40.0
+    ]
+  },
+  {
+    "id": "P13-DECK",
+    "name": "Standdeck",
+    "material": "EN AW-6082 T6",
+    "process": "Plattenzuschnitt/CNC; rutschfeste Auflage",
+    "features": "1100×320×8; Lochbild über16M6-Schrauben; Kantenschutz und rutschfeste Deckauflage erforderlich",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 1,
+    "volume_mm3": 2811620.87116831,
+    "bounding_box_mm": [
+      1100.0,
+      320.0,
+      8.0
+    ]
+  },
+  {
+    "id": "P13-DECK-DRUCKHUELSE",
+    "name": "Deckträger-Druckhülse",
+    "material": "EN AW-6082 T6",
+    "process": "Drehen",
+    "features": "Ø10/Ø6.6×34; Einsetzen vor Endmontage",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 16,
+    "volume_mm3": 1507.1476596331672,
+    "bounding_box_mm": [
+      9.944154131125643,
+      9.972037971811801,
+      34.0
+    ]
+  },
+  {
+    "id": "STD-SCHEIBE-DECKM6",
+    "name": "DeckscheibeM6",
+    "material": "Stahl200HV",
+    "process": "Kaufen",
+    "features": "Ø6.4/12×1.6",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "ISO7089 M6",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 16,
+    "volume_mm3": 129.48388281035704,
+    "bounding_box_mm": [
+      11.932984957350772,
+      11.966445566174162,
+      1.6000000000000227
+    ]
+  },
+  {
+    "id": "STD-ISO4762-M6x100",
+    "name": "ZylinderschraubeM6×100",
+    "material": "Stahl8.8, Oberfläche und Korrosionspaarung festzulegen",
+    "process": "Kaufen",
+    "features": "M6×100; KopfØ10×6; SW5; Gewinde nurØ4.9-Kernkontur, Masse unterschätzt",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "ISO4762 / ISO261 Nennmaßfamilie",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 16,
+    "volume_mm3": 2292.0279830719096,
+    "bounding_box_mm": [
+      9.944154131125643,
+      9.972037971811801,
+      106.0
+    ]
+  },
+  {
+    "id": "P13-LANDEBEIN",
+    "name": "Landebein32×26",
+    "material": "EN AW-6082 T6",
+    "process": "Rohr32×26; CNC-Flansch; qualifizierte Fügung",
+    "features": "Obere Anlagez-331; Unterkante-479; quasistatisches Kufenfahrwerk, kein Crashdämpfer",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 4,
+    "volume_mm3": 59195.899398237176,
+    "bounding_box_mm": [
+      69.6090789178795,
+      69.80426580268261,
+      148.0
+    ]
+  },
+  {
+    "id": "P13-KUFENKLEMME-1",
+    "name": "Kufen-Schweißsattel",
+    "material": "EN AW-6082 T6",
+    "process": "Fräsen; qualifizierte Aluminium-Schweißbaugruppe",
+    "features": "SattelsitzØ32.2; Spalt0.1 für Fügung; a3-Symbole nach ISO2553; Verfahren nach ENISO15614-2; Schweißnahtprüfung nach ISO10042; keine Klemmhälfte",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 4,
+    "volume_mm3": 44935.34242483316,
+    "bounding_box_mm": [
+      70.0,
+      40.0,
+      21.75
+    ]
+  },
+  {
+    "id": "P13-LANDEKUFE",
+    "name": "Landekufe32×26",
+    "material": "EN AW-6082 T6",
+    "process": "Rohrzuschnitt; Endkappen; abriebfeste Auflage",
+    "features": "L600; zwei getrennte Sattelklemmungen je Kufe",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 2,
+    "volume_mm3": 163991.1365173872,
+    "bounding_box_mm": [
+      31.910521509797764,
+      600.0,
+      31.821293219602012
+    ]
+  },
+  {
+    "id": "P13-SCHERENFESTPUNKT-B",
+    "name": "Scheren-Festpunktschelle HälfteB",
+    "material": "EN AW-7075 T6",
+    "process": "Fräsen/Bohren",
+    "features": "Trennfuge0.5;2×Ø5.5; M5×30-Queranzug",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 2,
+    "volume_mm3": 11849.11154688321,
+    "bounding_box_mm": [
+      81.0,
+      27.681427820484256,
+      24.0
+    ]
+  },
+  {
+    "id": "STD-ISO4762-M5x30",
+    "name": "ZylinderschraubeM5×30",
+    "material": "Stahl8.8, Oberfläche und Korrosionspaarung festzulegen",
+    "process": "Kaufen",
+    "features": "M5×30; KopfØ8.5×5; SW4; Gewinde nurØ4.1-Kernkontur, Masse unterschätzt",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "ISO4762 / ISO261 Nennmaßfamilie",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 12,
+    "volume_mm3": 645.1603641772838,
+    "bounding_box_mm": [
+      8.452531011456797,
+      8.476232276040031,
+      35.0
+    ]
+  },
+  {
+    "id": "P13-HUBANSCHLAG-B",
+    "name": "Geteilter Hubanschlag HälfteB",
+    "material": "EN AW-7075 T6",
+    "process": "Fräsen/Bohren",
+    "features": "Trennfuge0.5;2×Ø5.5; M5×30-Queranzug",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 2,
+    "volume_mm3": 8134.159710561977,
+    "bounding_box_mm": [
+      68.0,
+      33.75,
+      12.0
+    ]
+  },
+  {
+    "id": "P13-HUBANSCHLAG-OBEN-B",
+    "name": "Oberer geteilter Hubanschlag HälfteB",
+    "material": "EN AW-7075 T6",
+    "process": "Fräsen/Bohren",
+    "features": "Trennfuge0.5;2×Ø5.5; M5×30-Queranzug",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 2,
+    "volume_mm3": 8134.159710561979,
+    "bounding_box_mm": [
+      68.0,
+      33.75,
+      12.0
+    ]
+  },
+  {
+    "id": "P13-GELENKDISTANZ8-L3",
+    "name": "Fachwerk-GelenkdistanzØ12/8.2×3",
+    "material": "42CrMo4+QT",
+    "process": "Drehen/Schleifen",
+    "features": "3mm Innenringdistanz zwischen8mm-Gelenkkugel und14mm-Gabelspalt; Kontakt nur an Kugelplanfläche",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 128,
+    "volume_mm3": 180.86148906716437,
+    "bounding_box_mm": [
+      11.932984957350772,
+      11.966445566174162,
+      3.0
+    ]
+  },
+  {
+    "id": "P13-GELENKDISTANZ6-L1",
+    "name": "GelenkdistanzØ8/6.2×1",
+    "material": "42CrMo4+QT",
+    "process": "Drehen/Schleifen",
+    "features": "Ballkontaktfläche; Gehäuse bleibt winkelbeweglich; reale Gelenkkugelbreite vor Bestellung prüfen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 6,
+    "volume_mm3": 20.074777056438773,
+    "bounding_box_mm": [
+      1.0,
+      7.977630377449441,
+      7.9553233049005145
+    ]
+  },
+  {
+    "id": "P13-GELENKDISTANZ6-L2",
+    "name": "GelenkdistanzØ8/6.2×2",
+    "material": "42CrMo4+QT",
+    "process": "Drehen/Schleifen",
+    "features": "Ballkontaktfläche; Gehäuse bleibt winkelbeweglich; reale Gelenkkugelbreite vor Bestellung prüfen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 6,
+    "volume_mm3": 40.149554112877546,
+    "bounding_box_mm": [
+      2.0,
+      7.977630377449441,
+      7.9553233049005145
+    ]
+  },
+  {
+    "id": "P13-GELENKDISTANZ6-L3",
+    "name": "GelenkdistanzØ8/6.2×3",
+    "material": "42CrMo4+QT",
+    "process": "Drehen/Schleifen",
+    "features": "Ballkontaktfläche; Gehäuse bleibt winkelbeweglich; reale Gelenkkugelbreite vor Bestellung prüfen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 64,
+    "volume_mm3": 60.224331169316315,
+    "bounding_box_mm": [
+      3.0,
+      7.977630377449441,
+      7.9553233049005145
+    ]
+  },
+  {
+    "id": "STD-DIN1444B-6x30",
+    "name": "Gabelbolzen6×30",
+    "material": "Stahl",
+    "process": "Kaufen",
+    "features": "FormB,Ø6×30; QuerlochØ1.6; Nennkontur mit Kopf; reale Lieferform abgleichen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "DIN1444 FormB Maßfamilie",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 16,
+    "volume_mm3": 1071.8936520806992,
+    "bounding_box_mm": [
+      9.944154131125643,
+      9.972037971811801,
+      33.0
+    ]
+  },
+  {
+    "id": "STD-DIN988-6-L1",
+    "name": "PassscheibeM6×1",
+    "material": "Stahl",
+    "process": "Kaufen",
+    "features": "Ø6.2/12×1; exakte Liefermaße abgleichen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "DIN988 Maßfamilie",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 16,
+    "volume_mm3": 82.90663012823462,
+    "bounding_box_mm": [
+      11.932984957350772,
+      11.966445566174162,
+      1.0
+    ]
+  },
+  {
+    "id": "P13-ACHS-SICHERUNGSBLECH",
+    "name": "Rollenachsen-Sicherungsblech",
+    "material": "DC01,1mm",
+    "process": "Laserschneiden/Biegen",
+    "features": "Eigenkonstruktion nach Prinzip Sicherungsblech: eine Zunge um Gabelrückkante-20, eine am Mutterflach; keine erneute Verwendung nach Aufbiegen",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 6,
+    "volume_mm3": 560.9411276964515,
+    "bounding_box_mm": [
+      35.0,
+      27.836922266532326,
+      15.0
+    ]
+  },
+  {
+    "id": "STD-GE20-INNEN",
+    "name": "Aktor-Gelenklager GE20 Innenring",
+    "material": "Kaufteil",
+    "process": "Kaufen",
+    "features": "GE20ES20×35×16,C12; angenäherte innere Kugelfläche; Innen-/Außenkörper getrennt für Freigangprüfung",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "ISO12240-1 MaßfamilieGE20ES; innere Kontur nicht Hersteller-CAD",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 6,
+    "volume_mm3": 5210.855014754275,
+    "bounding_box_mm": [
+      29.737065914930973,
+      29.31266945176866,
+      16.000000000000007
+    ]
+  },
+  {
+    "id": "STD-GE20-AUSSEN",
+    "name": "Aktor-Gelenklager GE20 Außenring",
+    "material": "Kaufteil",
+    "process": "Kaufen",
+    "features": "GE20ES,D35,C12; schwenkbarer Fußpunkt(82,0,30)",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "ISO12240-1 MaßfamilieGE20ES; innere Kontur Nennmodell",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 6,
+    "volume_mm3": 3401.967852719308,
+    "bounding_box_mm": [
+      34.80453945893975,
+      34.902132901341304,
+      12.000000000000007
+    ]
+  },
+  {
+    "id": "P13-AKTOR-M20",
+    "name": "Aktorfuß-NutmutterM20×1",
+    "material": "42CrMo4+QT",
+    "process": "Drehen/Gewinde, Sicherungslasche",
+    "features": "SondermutterØ28×3 mit M20×1, keine KM4-Normmutter; GE20-Innenring axial geklemmt; Sicherungslasche zu montieren",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 6,
+    "volume_mm3": 895.3303443281891,
+    "bounding_box_mm": [
+      27.843631567151803,
+      27.921706321073042,
+      3.0
+    ]
+  },
+  {
+    "id": "STD-DIN6325-4x25",
+    "name": "Verdrehsicherungsstift4×25",
+    "material": "Gehärteter Stahl",
+    "process": "Kaufen; Ringnut als Sonderbearbeitung",
+    "features": "Ø4m6×25, Gehäusebohrung nach H7; CAD-Montagespiel0.02; äußere Ringnut separat bemaßt",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "DIN6325 Maßfamilie, Ringnut Sonderbearbeitung",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 6,
+    "volume_mm3": 311.8973186483947,
+    "bounding_box_mm": [
+      3.9888151887247205,
+      25.0,
+      3.9776616524502586
+    ]
+  },
+  {
+    "id": "P13-GE20-DECKEL-OBEN",
+    "name": "Aktorfuß-Lagerdeckel OBEN",
+    "material": "EN AW-7075 T6",
+    "process": "Drehen, Bohren,90°-Senken",
+    "features": "GE20-Außenring zwischen zwei2mm-Deckeln;4×M3PCD39; ISO10642-M3×6 bündig",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 6,
+    "volume_mm3": 2464.705100447337,
+    "bounding_box_mm": [
+      49.720770655628215,
+      49.860189859059005,
+      2.0
+    ]
+  },
+  {
+    "id": "P13-GE20-DECKEL-UNTEN",
+    "name": "Aktorfuß-Lagerdeckel UNTEN",
+    "material": "EN AW-7075 T6",
+    "process": "Drehen, Bohren,90°-Senken",
+    "features": "GE20-Außenring zwischen zwei2mm-Deckeln;4×M3PCD39; ISO10642-M3×6 bündig",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 6,
+    "volume_mm3": 2464.7051004473356,
+    "bounding_box_mm": [
+      49.720770655628215,
+      49.860189859059005,
+      2.0
+    ]
+  },
+  {
+    "id": "P13-AKTOR-MOTORTRAEGER-OBEN",
+    "name": "Schwenkbarer Aktor-Motorträger Oben",
+    "material": "EN AW-6082 T6",
+    "process": "5-Achs-Fräsen",
+    "features": "Achsabstand195mm; starre gemeinsame Riemenebene;2×M4 zur Aktorflanschplatte;4×M3PCD30 am Servo",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 3,
+    "volume_mm3": 61979.92594243144,
+    "bounding_box_mm": [
+      216.0,
+      49.79796569765551,
+      20.0
+    ]
+  },
+  {
+    "id": "STD-ISO10642-M3x6",
+    "name": "SenkschraubeM3×6",
+    "material": "Stahl8.8",
+    "process": "Kaufen",
+    "features": "M3×6, KopfØ6×1.7; GewindekernØ2.4; Antrieb nicht ausmodelliert",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "ISO10642 Nennmaßfamilie",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 48,
+    "volume_mm3": 47.4914561443169,
+    "bounding_box_mm": [
+      5.966492478675386,
+      5.983222783087081,
+      6.0
+    ]
+  },
+  {
+    "id": "P13-AKTOR-MOTORTRAEGER-UNTEN",
+    "name": "Schwenkbarer Aktor-Motorträger Unten",
+    "material": "EN AW-6082 T6",
+    "process": "5-Achs-Fräsen",
+    "features": "Achsabstand240mm; starre gemeinsame Riemenebene;2×M4 zur Aktorflanschplatte;4×M3PCD30 am Servo",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 3,
+    "volume_mm3": 76379.92594243148,
+    "bounding_box_mm": [
+      261.0,
+      49.79796569765551,
+      20.0
+    ]
+  },
+  {
+    "id": "STD-GE60-INNEN",
+    "name": "Taumel-Gelenklager GE60 Innenring",
+    "material": "Kaufteil",
+    "process": "Kaufen",
+    "features": "d60/D90/B44/C36; innere Kugelfläche angenähert",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "ISO12240-1 GE60ES Nennmaßfamilie",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 2,
+    "volume_mm3": 74459.9346802829,
+    "bounding_box_mm": [
+      79.45797620145684,
+      79.27274131927862,
+      44.000000000000014
+    ]
+  },
+  {
+    "id": "STD-GE60-AUSSEN",
+    "name": "Taumel-Gelenklager GE60 Außenring",
+    "material": "Kaufteil",
+    "process": "Kaufen",
+    "features": "D90/C36; innere Kugelfläche angenähert",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": true,
+    "standard": "ISO12240-1 GE60ES Nennmaßfamilie",
+    "source": "Nennmaßfamilie, kein verifiziertes Lieferanten-CAD",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 2,
+    "volume_mm3": 59374.97017949178,
+    "bounding_box_mm": [
+      90.0,
+      90.0,
+      36.000000000000014
+    ]
+  },
+  {
+    "id": "P13-GE60-AUSSENDISTANZ",
+    "name": "GE60-Außenringdistanz",
+    "material": "42CrMo4+QT",
+    "process": "Drehen/Schleifen",
+    "features": "C36 auf44mm Gehäuse-Axialanschlag abgestimmt; tatsächliche Schultergeometrie nach Lieferteil",
+    "open": "Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen",
+    "reference": false,
+    "standard": "",
+    "source": "P13 Eigenkonstruktion",
+    "tolerance": "ISO2768-1m nur unbemaßte Längen; GPS nach ISO22081 vereinbaren; Funktionspassungen separat",
+    "count": 4,
+    "volume_mm3": 9160.884177867838,
+    "bounding_box_mm": [
+      90.0,
+      90.0,
+      4.0
+    ]
+  }
+]

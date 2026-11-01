@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297">
+<rect width="420" height="297" fill="white"/><style>text{font-family:DejaVu Sans,sans-serif;fill:#142c3d}path,line,circle,ellipse{vector-effect:non-scaling-stroke}</style>
+<rect x="8" y="8" width="404" height="281" fill="none" stroke="#223b4b" stroke-width=".3"/>
+<text x="14" y="19" font-size="6">P13-ZENTRALPLATTE-OBEN · Zentralplatte mit Servoträgern Oben</text>
+<text x="14" y="27" font-size="3.5" fill="#a13e26">ANFRAGEZEICHNUNG · Nenngeometrie · keine Fertigungsfreigabe</text>
+<text x="76" y="39" text-anchor="middle" font-size="4">Draufsicht</text>
+<g transform="translate(76,96) scale(0.43859649122807015)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<circle cx ="0" cy ="0" r ="114" /><path d="M109.828 6.15359 A28.5 28.5 0 1 1 109.828 -6.15359" /><path d="M110.5 0 A28.5 28.5 0 0 1 109.828 6.15359" /><path d="M109.828 -6.15359 A28.5 28.5 0 0 1 110.5 -6.98049e-15" /><path d="M-60.243 92.0368 A28.5 28.5 0 1 1 -49.5847 98.1904" /><path d="M-55.25 95.6958 A28.5 28.5 0 0 1 -60.243 92.0368" /><path d="M-49.5847 98.1904 A28.5 28.5 0 0 1 -55.25 95.6958" /><path d="M-49.5847 -98.1904 A28.5 28.5 0 1 1 -60.243 -92.0368" /><path d="M-55.25 -95.6958 A28.5 28.5 0 0 1 -49.5847 -98.1904" /><path d="M-60.243 -92.0368 A28.5 28.5 0 0 1 -55.25 -95.6958" /><circle cx ="0" cy ="0" r ="12.5" /><circle cx ="-45" cy ="-32" r ="3.3" /><circle cx ="45" cy ="-32" r ="3.3" /><circle cx ="-45" cy ="32" r ="3.3" /><circle cx ="45" cy ="32" r ="3.3" /><circle cx ="68.2114" cy ="-13.7886" r ="1.25" /><circle cx ="95.7886" cy ="-13.7886" r ="1.25" /><circle cx ="68.2114" cy ="13.7886" r ="1.25" /><circle cx ="82" cy ="0" r ="17.51" /><circle cx ="95.7886" cy ="13.7886" r ="1.25" /><circle cx ="-22.1644" cy ="65.9671" r ="1.25" /><circle cx ="-35.953" cy ="89.8496" r ="1.25" /><circle cx ="-46.047" cy ="52.1785" r ="1.25" /><circle cx ="-41" cy ="71.0141" r ="17.51" /><circle cx ="-59.8356" cy ="76.0611" r ="1.25" /><circle cx ="-46.047" cy ="-52.1785" r ="1.25" /><circle cx ="-59.8356" cy ="-76.0611" r ="1.25" /><circle cx ="-22.1644" cy ="-65.9671" r ="1.25" /><circle cx ="-41" cy ="-71.0141" r ="17.51" /><circle cx ="-35.953" cy ="-89.8496" r ="1.25" /><path id= "31" d=" M -69.1147 61.7102 L -72.5788 59.7102 " />
+<path id= "32" d=" M -67.2147 58.4193 L -69.1147 61.7102 " />
+<path id= "33" d=" M -70.6788 56.4193 L -72.5788 59.7102 " />
+<path id= "34" d=" M -67.2147 58.4193 L -70.6788 56.4193 " />
+<path id= "35" d=" M -18.8853 -90.7102 L -15.4212 -92.7102 " />
+<path id= "36" d=" M -13.5212 -89.4193 L -15.4212 -92.7102 " />
+<path id= "37" d=" M -16.9853 -87.4193 L -13.5212 -89.4193 " />
+<path id= "38" d=" M -16.9853 -87.4193 L -18.8853 -90.7102 " />
+<path id= "39" d=" M -63.1147 51.3179 L -65.0147 54.6088 " />
+<path id= "40" d=" M -65.0147 54.6088 L -68.4788 52.6088 " />
+<path id= "41" d=" M -63.1147 51.3179 L -66.5788 49.3179 " />
+<path id= "42" d=" M -66.5788 49.3179 L -68.4788 52.6088 " />
+<path id= "43" d=" M -12.8853 -80.3179 L -14.7853 -83.6088 " />
+<path id= "44" d=" M -14.7853 -83.6088 L -11.3212 -85.6088 " />
+<path id= "45" d=" M -9.42116 -82.3179 L -11.3212 -85.6088 " />
+<path id= "46" d=" M -12.8853 -80.3179 L -9.42116 -82.3179 " />
+<path id= "47" d=" M 76 29 L 79.8 29 " />
+<path id= "48" d=" M 79.8 29 L 79.8 33 " />
+<path id= "49" d=" M 76 29 L 76 33 " />
+<path id= "50" d=" M 76 33 L 79.8 33 " />
+<path id= "51" d=" M 88 29 L 88 33 " />
+<path id= "52" d=" M 84.2 29 L 88 29 " />
+<path id= "53" d=" M 84.2 33 L 88 33 " />
+<path id= "54" d=" M 84.2 29 L 84.2 33 " />
+</g>
+</g>
+<text x="76" y="157" text-anchor="middle" font-size="3.5">Hülle 228.000 × 228.000 mm · Maßstab 0.439:1</text>
+<text x="210" y="39" text-anchor="middle" font-size="4">Vorderansicht</text>
+<g transform="translate(210,96) scale(0.49122807017543857)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 6 -114 L -4 -114 " />
+<path id= "2" d=" M 12 57 L 6 57 " />
+<path id= "3" d=" M 12 -16 L 6 -16 " />
+<path id= "4" d=" M 12 -66 L 6 -66 " />
+</g>
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path d="M-4, -114 L-4, -111.142  L-4, -102.71  L-4, -89.1288  L-4, -71.0778  L-4, -49.4627  L-4, -25.3674  L-4, -2.13163e-14  L-4, 25.3674  L-4, 49.4627  L-4, 71.0778  L-4, 89.1288  L-4, 102.71  L-4, 111.142  L-4, 114 " /><path id= "2" d=" M 6 114 L -4 114 " />
+<path d="M6, -114 L6, -111.142  L6, -102.71  L6, -89.1288  L6, -71.0778  L6, -49.4627  L6, -25.3674  L6, -2.13163e-14  L6, 25.3674  L6, 49.4627  L6, 71.0778  L6, 89.1288  L6, 102.71  L6, 111.142  L6, 114 " /><path id= "4" d=" M 12 107 L 6 107 " />
+<path d="M12, 57 L12, 57.6268  L12, 59.4758  L12, 62.4542  L12, 66.4128  L12, 71.1529  L12, 76.437  L12, 82  L12, 87.563  L12, 92.8471  L12, 97.5872  L12, 101.546  L12, 104.524  L12, 106.373  L12, 107 " /><path d="M12, -53.5 L12, -50.1335  L12, -46.563  L12, -42.8683  L12, -39.1317  L12, -35.437  L12, -31.8665  L12, -28.5  L12, -25.4128  L12, -22.6737  L12, -20.344  L12, -18.4758  L12, -17.1107  L12, -16.2792  L12, -16 " /><path d="M12, -66 L12, -65.9301  L12, -65.7208  L12, -65.3732  L12, -64.8893  L12, -64.2718  L12, -63.5242  L12, -62.6506  L12, -61.656  L12, -60.5458  L12, -59.3263  L12, -58.0043  L12, -56.5872  L12, -55.083  L12, -53.5 " /><path id= "8" d=" M -4 -72.5788 L -12 -72.5788 " />
+<path id= "9" d=" M -12 -70.6788 L -4 -70.6788 " />
+<path id= "10" d=" M -12 -70.6788 L -12 -72.5788 " />
+<path id= "11" d=" M -12 -68.4788 L -12 -70.6788 " />
+<path id= "12" d=" M -4 -18.8853 L -12 -18.8853 " />
+<path id= "13" d=" M -4 -15.4212 L -12 -15.4212 " />
+<path id= "14" d=" M -12 -18.8853 L -12 -15.4212 " />
+<path id= "15" d=" M -12 -13.5212 L -4 -13.5212 " />
+<path id= "16" d=" M -12 -13.5212 L -12 -15.4212 " />
+<path id= "17" d=" M -4 -63.1147 L -12 -63.1147 " />
+<path id= "18" d=" M -12 -68.4788 L -4 -68.4788 " />
+<path id= "19" d=" M -4 -66.5788 L -12 -66.5788 " />
+<path id= "20" d=" M -12 -63.1147 L -12 -66.5788 " />
+<path id= "21" d=" M -12 -66.5788 L -12 -68.4788 " />
+<path id= "22" d=" M -12 -13.5212 L -12 -11.3212 " />
+<path id= "23" d=" M -12 -11.3212 L -4 -11.3212 " />
+<path id= "24" d=" M -4 -9.42116 L -12 -9.42116 " />
+<path id= "25" d=" M -12 -9.42116 L -12 -11.3212 " />
+<path id= "26" d=" M -4 76 L -12 76 " />
+<path id= "27" d=" M -12 76 L -12 79.8 " />
+<path id= "28" d=" M -12 79.8 L -4 79.8 " />
+<path id= "29" d=" M -4 88 L -12 88 " />
+<path id= "30" d=" M -12 84.2 L -4 84.2 " />
+<path id= "31" d=" M -12 84.2 L -12 88 " />
+</g>
+</g>
+<text x="210" y="157" text-anchor="middle" font-size="3.5">Hülle 228.000 × 24.000 mm · Maßstab 0.491:1</text>
+<text x="344" y="39" text-anchor="middle" font-size="4">Seitenansicht</text>
+<g transform="translate(344,96) scale(0.49122807017543857)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M -6 -114 L 4 -114 " />
+<path id= "2" d=" M -6 114 L 4 114 " />
+<path id= "3" d=" M -12 -25 L -6 -25 " />
+<path id= "4" d=" M -12 25 L -6 25 " />
+<path id= "5" d=" M -12 -96.0141 L -6 -96.0141 " />
+<path id= "6" d=" M -12 -46.0141 L -6 -46.0141 " />
+<path id= "7" d=" M -12 46.0141 L -6 46.0141 " />
+<path id= "8" d=" M -12 96.0141 L -6 96.0141 " />
+</g>
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path d="M4, 0 L4, -12.764  L4, -25.3674  L4, -37.6518  L4, -49.4627  L4, -60.6517  L4, -71.0778  L4, -80.6102  L4, -89.1288  L4, -96.5266  L4, -102.71  L4, -107.603  L4, -111.142  L4, -113.283  L4, -114 " /><path d="M4, 114 L4, 113.283  L4, 111.142  L4, 107.603  L4, 102.71  L4, 96.5266  L4, 89.1288  L4, 80.6102  L4, 71.0778  L4, 60.6517  L4, 49.4627  L4, 37.6518  L4, 25.3674  L4, 12.764  L4, 2.75335e-14 " /><path d="M-6, 0 L-6, -12.764  L-6, -25.3674  L-6, -37.6518  L-6, -49.4627  L-6, -60.6517  L-6, -71.0778  L-6, -80.6102  L-6, -89.1288  L-6, -96.5266  L-6, -102.71  L-6, -107.603  L-6, -111.142  L-6, -113.283  L-6, -114 " /><path d="M-6, 114 L-6, 113.283  L-6, 111.142  L-6, 107.603  L-6, 102.71  L-6, 96.5266  L-6, 89.1288  L-6, 80.6102  L-6, 71.0778  L-6, 60.6517  L-6, 49.4627  L-6, 37.6518  L-6, 25.3674  L-6, 12.764  L-6, 2.75335e-14 " /><path d="M-12, 0 L-12, -2.79911  L-12, -5.56302  L-12, -8.25698  L-12, -10.8471  L-12, -13.3008  L-12, -15.5872  L-12, -17.6777  L-12, -19.5458  L-12, -21.1681  L-12, -22.5242  L-12, -23.5971  L-12, -24.3732  L-12, -24.8428  L-12, -25 " /><path d="M-12, 25 L-12, 24.8428  L-12, 24.3732  L-12, 23.5971  L-12, 22.5242  L-12, 21.1681  L-12, 19.5458  L-12, 17.6777  L-12, 15.5872  L-12, 13.3008  L-12, 10.8471  L-12, 8.25698  L-12, 5.56302  L-12, 2.79911  L-12, 6.21725e-15 " /><path d="M-12, -46.0141 L-12, -46.6409  L-12, -48.4899  L-12, -51.4683  L-12, -55.4268  L-12, -60.167  L-12, -65.4511  L-12, -71.0141  L-12, -76.5771  L-12, -81.8612  L-12, -86.6013  L-12, -90.5599  L-12, -93.5383  L-12, -95.3873  L-12, -96.0141 " /><path d="M-12, 96.0141 L-12, 95.3873  L-12, 93.5383  L-12, 90.5599  L-12, 86.6013  L-12, 81.8612  L-12, 76.5771  L-12, 71.0141  L-12, 65.4511  L-12, 60.167  L-12, 55.4268  L-12, 51.4683  L-12, 48.4899  L-12, 46.6409  L-12, 46.0141 " /><path id= "9" d=" M 4 -61.7102 L 12 -61.7102 " />
+<path id= "10" d=" M 12 -58.4193 L 4 -58.4193 " />
+<path id= "11" d=" M 12 -58.4193 L 12 -61.7102 " />
+<path id= "12" d=" M 12 -56.4193 L 4 -56.4193 " />
+<path id= "13" d=" M 12 -58.4193 L 12 -56.4193 " />
+<path id= "14" d=" M 4 92.7102 L 12 92.7102 " />
+<path id= "15" d=" M 12 89.4193 L 4 89.4193 " />
+<path id= "16" d=" M 12 89.4193 L 12 92.7102 " />
+<path id= "17" d=" M 12 87.4193 L 12 89.4193 " />
+<path id= "18" d=" M 12 87.4193 L 4 87.4193 " />
+<path id= "19" d=" M 4 -51.3179 L 12 -51.3179 " />
+<path id= "20" d=" M 12 -51.3179 L 12 -54.6088 " />
+<path id= "21" d=" M 12 -54.6088 L 4 -54.6088 " />
+<path id= "22" d=" M 4 -49.3179 L 12 -49.3179 " />
+<path id= "23" d=" M 12 -51.3179 L 12 -49.3179 " />
+<path id= "24" d=" M 4 80.3179 L 12 80.3179 " />
+<path id= "25" d=" M 12 85.6088 L 4 85.6088 " />
+<path id= "26" d=" M 4 82.3179 L 12 82.3179 " />
+<path id= "27" d=" M 12 82.3179 L 12 85.6088 " />
+<path id= "28" d=" M 12 80.3179 L 12 82.3179 " />
+<path id= "29" d=" M 4 -29 L 12 -29 " />
+<path id= "30" d=" M 4 -33 L 12 -33 " />
+<path id= "31" d=" M 12 -29 L 12 -33 " />
+</g>
+</g>
+<text x="344" y="157" text-anchor="middle" font-size="3.5">Hülle 228.000 × 24.000 mm · Maßstab 0.491:1</text>
+<text x="14" y="174" font-size="3.1">Menge: 1 · Werkstoff: EN AW-6082 T6</text>
+<text x="14" y="179" font-size="3.1">Verfahren: 5-Achs-Fräsen/Bohren/Gewinde</text>
+<text x="14" y="184" font-size="3.1">Merkmale: Ø228×10; drei GE20ES-Kardansitze,Ø35H7; bündige Lagerdeckel; vertikale4.4mm-Stiftführungen;</text>
+<text x="14" y="189" font-size="3.1">mittleres90×64-M6-Lochbild</text>
+<text x="14" y="194" font-size="3.1">Offen: Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen</text>
+<text x="14" y="199" font-size="3.1">Unbemaßte Längen ISO2768-1m als Anfragebasis; Funktionspassungen separat nach ISO286.</text>
+<text x="14" y="204" font-size="3.1">Geometrische GPS-Toleranzen/Bezüge nach ISO22081 mit Fertiger abstimmen. STEP enthält Nennmaße.</text>
+<text x="14" y="209" font-size="3.1">Datum01.11.2026 · P13 · Herkunft/Normfamilie und Grenzen siehe Stückliste und Anfrageunterlagen.</text>
+</svg>

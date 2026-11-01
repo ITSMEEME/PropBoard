@@ -1,0 +1,171 @@
+[
+  {
+    "ids": [
+      "P13-FACHWERK-PYLON",
+      "STD-ISO7089-M6-GELENK"
+    ],
+    "count": 6,
+    "maximum_volume_mm3": 70.06529662767987,
+    "example": {
+      "a": "Oben_Fachwerk3_Pylon",
+      "b": "Oben_RotorScherenpin2_Distanzscheibe",
+      "volume_mm3": 68.31873101941326
+    }
+  },
+  {
+    "ids": [
+      "P13-FACHWERK-PYLON",
+      "STD-DIN1444B-6x35"
+    ],
+    "count": 4,
+    "maximum_volume_mm3": 274.72139982193505,
+    "example": {
+      "a": "Oben_Fachwerk3_Pylon",
+      "b": "Oben_RotorScherenpin1_Bolzen",
+      "volume_mm3": 274.72139982193505
+    }
+  },
+  {
+    "ids": [
+      "P13-TAUMEL-AUSSEN",
+      "P13-TAUMEL-INNEN"
+    ],
+    "count": 2,
+    "maximum_volume_mm3": 359.99999999999847,
+    "example": {
+      "a": "Oben_Taumelring",
+      "b": "Oben_Taumeltraeger",
+      "volume_mm3": 359.9999999999981
+    }
+  },
+  {
+    "ids": [
+      "P13-FACHWERK-PYLON",
+      "P13-FACHWERK-PYLON-MITNEHMER"
+    ],
+    "count": 2,
+    "maximum_volume_mm3": 321.8800105803125,
+    "example": {
+      "a": "Oben_Fachwerk3_Pylon",
+      "b": "Oben_Fachwerk2_Pylon",
+      "volume_mm3": 321.8800105801414
+    }
+  },
+  {
+    "ids": [
+      "P13-SCHERENLASCHEN",
+      "P13-TAUMEL-AUSSEN"
+    ],
+    "count": 2,
+    "maximum_volume_mm3": 110.52986253164401,
+    "example": {
+      "a": "Oben_Taumelring",
+      "b": "Oben_StationaerSchere1_5",
+      "volume_mm3": 110.5298625316428
+    }
+  },
+  {
+    "ids": [
+      "P13-FACHWERK-PYLON-MITNEHMER",
+      "P13-SCHERENLASCHEN"
+    ],
+    "count": 2,
+    "maximum_volume_mm3": 109.97039388265904,
+    "example": {
+      "a": "Oben_Fachwerk2_Pylon",
+      "b": "Oben_RotorSchere1_5",
+      "volume_mm3": 109.97039388265904
+    }
+  },
+  {
+    "ids": [
+      "P13-FACHWERK-PYLON",
+      "P13-SCHERENDISTANZ-6"
+    ],
+    "count": 2,
+    "maximum_volume_mm3": 40.14988191755722,
+    "example": {
+      "a": "Oben_Fachwerk3_Pylon",
+      "b": "Oben_RotorScherenpin1_Distanz2",
+      "volume_mm3": 40.14988191075177
+    }
+  },
+  {
+    "ids": [
+      "P13-TAUMEL-AUSSEN",
+      "STD-GE6-AUSSEN"
+    ],
+    "count": 2,
+    "maximum_volume_mm3": 11.750673258022097,
+    "example": {
+      "a": "Oben_Taumelring",
+      "b": "Oben_StationaerSchere1_1_Aussenring",
+      "volume_mm3": 11.750673258021957
+    }
+  },
+  {
+    "ids": [
+      "P13-FACHWERK-PYLON",
+      "STD-DIN94-1.6"
+    ],
+    "count": 2,
+    "maximum_volume_mm3": 8.15737782143238,
+    "example": {
+      "a": "Oben_Fachwerk3_Pylon",
+      "b": "Oben_RotorScherenpin2_Splint",
+      "volume_mm3": 8.157377821432371
+    }
+  },
+  {
+    "ids": [
+      "P13-TAUMEL-AUSSEN",
+      "STD-DIN472-14"
+    ],
+    "count": 2,
+    "maximum_volume_mm3": 4.421268161328329,
+    "example": {
+      "a": "Oben_Taumelring",
+      "b": "Oben_StationaerSchere1_1_Sicherungsring",
+      "volume_mm3": 4.421268161328295
+    }
+  },
+  {
+    "ids": [
+      "P13-FACHWERK-PYLON-MITNEHMER",
+      "STD-DIN1444B-6x35"
+    ],
+    "count": 2,
+    "maximum_volume_mm3": 1.2382320656368004,
+    "example": {
+      "a": "Unten_RotorScherenpin1_Bolzen",
+      "b": "Unten_Fachwerk2_Pylon",
+      "volume_mm3": 1.2382320656357628
+    }
+  },
+  {
+    "ids": [
+      "P13-FACHWERK-PYLON-MITNEHMER",
+      "P13-TAUMEL-AUSSEN"
+    ],
+    "count": 2,
+    "maximum_volume_mm3": 1.1008734619957012,
+    "example": {
+      "a": "Oben_Taumelring",
+      "b": "Oben_Fachwerk2_Pylon",
+      "volume_mm3": 1.10087346199564
+    }
+  },
+  {
+    "ids": [
+      "P13-FACHWERK-PYLON",
+      "P13-SCHERENDISTANZ-2"
+    ],
+    "count": 2,
+    "maximum_volume_mm3": 0.49217024257427433,
+    "example": {
+      "a": "Oben_Fachwerk3_Pylon",
+      "b": "Oben_RotorScherenpin2_Distanz1",
+      "volume_mm3": 0.49217024257419084
+    }
+  }
+]

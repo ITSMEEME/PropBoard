@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297">
+<rect width="420" height="297" fill="white"/><style>text{font-family:DejaVu Sans,sans-serif;fill:#142c3d}path,line,circle,ellipse{vector-effect:non-scaling-stroke}</style>
+<rect x="8" y="8" width="404" height="281" fill="none" stroke="#223b4b" stroke-width=".3"/>
+<text x="14" y="19" font-size="6">P13-FACHWERK-PYLON-MITNEHMER · Rotorpylon mit integrierter Scherengabel</text>
+<text x="14" y="27" font-size="3.5" fill="#a13e26">ANFRAGEZEICHNUNG · Nenngeometrie · keine Fertigungsfreigabe</text>
+<text x="76" y="39" text-anchor="middle" font-size="4">Draufsicht</text>
+<g transform="translate(76,96) scale(1.0597617872206848)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 0.142938 8.81959 L 30.1429 8.81959 " />
+<path id= "2" d=" M -3.85706 -47.1804 L 30.1429 -47.1804 " />
+<path id= "3" d=" M -9.85706 -47.1804 L -3.85706 -47.1804 " />
+<path id= "4" d=" M -3.85706 -47.1804 L -3.85706 -44.1804 " />
+<path id= "5" d=" M -3.85706 -44.1804 L 30.1429 -44.1804 " />
+<path id= "6" d=" M 30.1429 -44.1804 L 30.1429 5.81959 " />
+<path id= "7" d=" M -3.85706 5.81959 L 30.1429 5.81959 " />
+<path id= "8" d=" M -3.85706 5.81959 L -3.85706 8.81959 " />
+<path id= "9" d=" M -9.85706 8.81959 L -3.85706 8.81959 " />
+<path id= "10" d=" M -9.85706 -47.1804 L -9.85706 8.81959 " />
+<circle cx ="20.1429" cy ="-35.1804" r ="3.3" /><circle cx ="20.1429" cy ="-3.18041" r ="3.3" /><circle cx ="10.1429" cy ="-19.1804" r ="3.3" /><circle cx ="5.14294" cy ="-35.1804" r ="3.3" /><circle cx ="5.14294" cy ="-3.18041" r ="3.3" /><path id= "16" d=" M -3.85706 -47.1804 L -3.85706 -44.1804 " />
+<path id= "17" d=" M -3.85706 8.81959 L -3.85706 5.81959 " />
+<path id= "18" d=" M -9.85706 8.81959 L -9.85706 14.3346 " />
+<path id= "19" d=" M 0.142938 5.81959 L 0.142938 18.9977 " />
+<path id= "20" d=" M 30.1429 -47.1804 L 30.1429 -44.1804 " />
+<path id= "21" d=" M 30.1429 5.81959 L 30.1429 8.81959 " />
+<path d="M6.10532 -32.0239 A4.2 4.2 0 0 1 8.01677 -36.8025" /><path d="M8.01677 -1.55834 A4.2 4.2 0 0 1 6.10532 -6.33697" /><path id= "24" d=" M -9.11537 19.094 L -17.5677 37.2201 " />
+<path id= "25" d=" M -18.3096 10.3931 L -20.0001 14.0183 " />
+<path id= "26" d=" M -3.46122 21.7305 L -11.9136 39.8567 " />
+<path id= "27" d=" M -0.967637 22.8933 L -9.42 41.0195 " />
+<path id= "28" d=" M -28.4525 32.1445 L -30.1429 35.7697 " />
+<path id= "29" d=" M -18.3096 10.3931 L 6.16068 21.8038 " />
+<path id= "30" d=" M 6.16068 21.8038 L -5.67263 47.1804 " />
+<path id= "31" d=" M -30.1429 35.7697 L -5.67263 47.1804 " />
+<path id= "32" d=" M -28.4525 32.1445 L -9.42 41.0195 " />
+<path id= "33" d=" M -20.0001 14.0183 L -0.967637 22.8933 " />
+</g>
+</g>
+<text x="76" y="157" text-anchor="middle" font-size="3.5">Hülle 60.286 × 94.361 mm · Maßstab 1.06:1</text>
+<text x="210" y="39" text-anchor="middle" font-size="4">Vorderansicht</text>
+<g transform="translate(210,96) scale(1.075268817204301)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 46.5 -9.85706 L 46.5 30.1429 " />
+<path id= "2" d=" M 46.5 30.1429 L 43.5 30.1429 " />
+<path id= "3" d=" M 43.5 -3.85706 L 43.5 30.1429 " />
+<path id= "4" d=" M 43.5 -3.85706 L 29.5 -3.85706 " />
+<path id= "5" d=" M 29.5 -3.85706 L 29.5 30.1429 " />
+<path id= "6" d=" M 29.5 30.1429 L 26.5 30.1429 " />
+<path id= "7" d=" M 26.5 -3.85706 L 26.5 30.1429 " />
+<path id= "8" d=" M 26.5 -3.85706 L -46.5 -3.85706 " />
+<path id= "9" d=" M -46.5 -9.85706 L -46.5 -3.85706 " />
+<path id= "10" d=" M 46.5 -9.85706 L -46.5 -9.85706 " />
+<path id= "11" d=" M -46.5 -3.85706 L -46.5 30.1429 " />
+<path id= "12" d=" M -40.5 -3.85706 L -40.5 30.1429 " />
+<path id= "13" d=" M -40.5 30.1429 L -46.5 30.1429 " />
+<path id= "14" d=" M -12.5 -3.85706 L -12.5 0.142938 " />
+<path id= "15" d=" M -8.5 -3.85706 L -8.5 0.142938 " />
+<path id= "16" d=" M -8.5 0.142938 L -12.5 0.142938 " />
+<path id= "17" d=" M -8.5 -18.3096 L -8.5 -9.85706 " />
+<path id= "18" d=" M -8.5 -18.3096 L -8.5 -20.0001 " />
+<path id= "19" d=" M -8.5 -28.4525 L -8.5 -20.0001 " />
+<path id= "20" d=" M -8.5 -28.4525 L -8.5 -30.1429 " />
+<path id= "21" d=" M -8.5 0.142938 L -8.5 6.16068 " />
+<path id= "22" d=" M -8.5 -18.3096 L -28.5 -18.3096 " />
+<path id= "23" d=" M -8.5 -20.0001 L -28.5 -20.0001 " />
+<path id= "24" d=" M -28.5 -18.3096 L -28.5 -20.0001 " />
+<path id= "25" d=" M -8.5 -28.4525 L -28.5 -28.4525 " />
+<path id= "26" d=" M -8.5 -30.1429 L -28.5 -30.1429 " />
+<path id= "27" d=" M -28.5 -28.4525 L -28.5 -30.1429 " />
+<path id= "28" d=" M -8.5 6.16068 L -28.5 6.16068 " />
+<path id= "29" d=" M -28.5 -18.3096 L -28.5 -9.85706 " />
+<path id= "30" d=" M -28.5 -3.85706 L -28.5 6.16068 " />
+<path d="M-15.4741 -9.85706 A3.1 2.80955 180 0 0 -21.5259 -9.85706" />
+<path d="M-21.4564 -10.0918 A3.1 2.80955 180 0 0 -21.3618 -9.85706" />
+<path d="M-15.6382 -9.85706 A3.1 2.80955 180 0 0 -15.5436 -10.0918" />
+<path id= "34" d=" M -28.5 -28.4525 L -28.5 -20.0001 " />
+<path d="M-15.4741 -20.0001 A3.1 2.80955 180 0 0 -21.5259 -20.0001" />
+<path d="M-21.4564 -20.2346 A3.1 2.80955 180 0 0 -21.3619 -20.0001" />
+<path d="M-15.6381 -20.0001 A3.1 2.80955 180 0 0 -15.5436 -20.2346" />
+</g>
+</g>
+<text x="210" y="157" text-anchor="middle" font-size="3.5">Hülle 60.286 × 93.000 mm · Maßstab 1.08:1</text>
+<text x="344" y="39" text-anchor="middle" font-size="4">Seitenansicht</text>
+<g transform="translate(344,96) scale(1.075268817204301)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M -26.5 -8.81959 L 8.5 -8.81959 " />
+<path id= "2" d=" M -29.5 -8.81959 L -26.5 -8.81959 " />
+<path id= "3" d=" M -43.5 -8.81959 L -29.5 -8.81959 " />
+<path id= "4" d=" M -46.5 -8.81959 L -43.5 -8.81959 " />
+<path id= "5" d=" M -46.5 47.1804 L -46.5 -8.81959 " />
+<path id= "6" d=" M -46.5 47.1804 L -43.5 47.1804 " />
+<path id= "7" d=" M -43.5 47.1804 L -29.5 47.1804 " />
+<path id= "8" d=" M -29.5 47.1804 L -26.5 47.1804 " />
+<path id= "9" d=" M -26.5 47.1804 L 46.5 47.1804 " />
+<path id= "10" d=" M 46.5 47.1804 L 46.5 44.1804 " />
+<path id= "11" d=" M 46.5 44.1804 L 46.5 -5.81959 " />
+<path id= "12" d=" M 46.5 -5.81959 L 46.5 -8.81959 " />
+<path id= "13" d=" M 12.5 -8.81959 L 46.5 -8.81959 " />
+<path id= "14" d=" M 40.5 44.1804 L 46.5 44.1804 " />
+<path id= "15" d=" M 40.5 44.1804 L 40.5 -5.81959 " />
+<path id= "16" d=" M 40.5 -5.81959 L 46.5 -5.81959 " />
+<path id= "17" d=" M 12.5 9.18041 L 12.5 -18.9977 " />
+<path id= "18" d=" M -43.5 47.1804 L -43.5 -8.81959 " />
+<path id= "19" d=" M -29.5 47.1804 L -29.5 -8.81959 " />
+<path id= "20" d=" M -26.5 47.1804 L -26.5 -8.81959 " />
+<path id= "21" d=" M 8.5 9.18041 L 12.5 9.18041 " />
+<path id= "22" d=" M 8.5 9.18041 L 8.5 -18.9977 " />
+<path id= "23" d=" M 12.5 -18.9977 L 8.5 -18.9977 " />
+<path id= "24" d=" M 8.5 -21.8038 L 8.5 -47.1804 " />
+<path id= "25" d=" M 8.5 -18.9977 L 8.5 -21.8038 " />
+<path id= "26" d=" M 12.5 -10.3931 L 28.5 -10.3931 " />
+<path id= "27" d=" M 8.5 -21.8038 L 28.5 -21.8038 " />
+<path id= "28" d=" M 28.5 -10.3931 L 28.5 -21.8038 " />
+<path d="M21.6 -14.6193 A3.1 1.31012 180 0 0 15.4 -14.6193" />
+<path d="M15.4 -14.6193 A3.1 1.31012 180 0 0 21.6 -14.6193" />
+<path id= "31" d=" M 28.5 -21.8038 L 28.5 -47.1804 " />
+<path id= "32" d=" M 8.5 -47.1804 L 28.5 -47.1804 " />
+</g>
+</g>
+<text x="344" y="157" text-anchor="middle" font-size="3.5">Hülle 94.361 × 93.000 mm · Maßstab 1.08:1</text>
+<text x="14" y="174" font-size="3.1">Menge: 2 · Werkstoff: EN AW-7075 T6</text>
+<text x="14" y="179" font-size="3.1">Verfahren: 5-Achs-Fräsen/Bohren</text>
+<text x="14" y="184" font-size="3.1">Merkmale: Fachwerkpylon2, zusätzliche sphärische Scherenabstützung bei R110/Z120/Phase70; keine überlappenden Unterflansche</text>
+<text x="14" y="189" font-size="3.1">Offen: Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen</text>
+<text x="14" y="194" font-size="3.1">Unbemaßte Längen ISO2768-1m als Anfragebasis; Funktionspassungen separat nach ISO286.</text>
+<text x="14" y="199" font-size="3.1">Geometrische GPS-Toleranzen/Bezüge nach ISO22081 mit Fertiger abstimmen. STEP enthält Nennmaße.</text>
+<text x="14" y="204" font-size="3.1">Datum01.11.2026 · P13 · Herkunft/Normfamilie und Grenzen siehe Stückliste und Anfrageunterlagen.</text>
+</svg>

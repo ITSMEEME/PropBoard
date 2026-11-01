@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297">
+<rect width="420" height="297" fill="white"/><style>text{font-family:DejaVu Sans,sans-serif;fill:#142c3d}path,line,circle,ellipse{vector-effect:non-scaling-stroke}</style>
+<rect x="8" y="8" width="404" height="281" fill="none" stroke="#223b4b" stroke-width=".3"/>
+<text x="14" y="19" font-size="6">P13-GE-DECKEL-UNTEN · GE60 Außensitzdeckel UNTEN</text>
+<text x="14" y="27" font-size="3.5" fill="#a13e26">ANFRAGEZEICHNUNG · Nenngeometrie · keine Fertigungsfreigabe</text>
+<text x="76" y="39" text-anchor="middle" font-size="4">Draufsicht</text>
+<g transform="translate(76,96) scale(1.0)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path d="M49.8696 5.1 A50 50 0 0 1 -20.3225 45.6254" /><path id= "2" d=" M 49.8696 5.1 L 45.6304 5.1 " />
+<path id= "3" d=" M -20.3225 45.6254 L -18.2029 41.9542 " />
+<path id= "4" d=" M -18.2029 41.9542 L -27.0363 36.8542 " />
+<path id= "5" d=" M -29.1559 40.5254 L -27.0363 36.8542 " />
+<path d="M-29.1559 40.5254 A50 50 0 0 1 -29.1559 -40.5254" /><path id= "7" d=" M -29.1559 -40.5254 L -27.0363 -36.8542 " />
+<path id= "8" d=" M -27.0363 -36.8542 L -18.2029 -41.9542 " />
+<path id= "9" d=" M -20.3225 -45.6254 L -18.2029 -41.9542 " />
+<path d="M-20.3225 -45.6254 A50 50 0 0 1 49.8696 -5.1" /><path id= "11" d=" M 49.8696 -5.1 L 45.6304 -5.1 " />
+<path id= "12" d=" M 45.6304 -5.1 L 45.6304 5.1 " />
+<circle cx ="0.13039" cy ="-47" r ="1.7" /><circle cx ="-40.5728" cy ="-23.5" r ="1.7" /><circle cx ="40.8336" cy ="-23.5" r ="1.7" /><circle cx ="-40.5728" cy ="23.5" r ="1.7" /><circle cx ="0.13039" cy ="0" r ="35.1" /><circle cx ="40.8336" cy ="23.5" r ="1.7" /><circle cx ="0.13039" cy ="47" r ="1.7" /></g>
+</g>
+<text x="76" y="157" text-anchor="middle" font-size="3.5">Hülle 99.739 × 100.000 mm · Maßstab 1:1</text>
+<text x="210" y="39" text-anchor="middle" font-size="4">Vorderansicht</text>
+<g transform="translate(210,96) scale(1.122928373312739)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 1.5 -49.8696 L -1.5 -49.8696 " />
+</g>
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path d="M-1.5, -49.8696 L-1.5, -49.7557  L-1.5, -49.4147  L-1.5, -48.8479  L-1.5, -48.0581  L-1.5, -47.0488  L-1.5, -45.8246  L-1.5, -44.391  L-1.5, -42.7548  L-1.5, -40.9231  L-1.5, -38.9045  L-1.5, -36.7081  L-1.5, -34.3439  L-1.5, -31.8227  L-1.5, -29.1559 " /><path id= "2" d=" M -1.5 -29.1559 L -1.5 -27.0363 " />
+<path id= "3" d=" M -1.5 -27.0363 L -1.5 -20.3225 " />
+<path d="M-1.5, -20.3225 L-1.5, -13.9955  L-1.5, -7.41148  L-1.5, -0.690201  L-1.5, 6.04601  L-1.5, 12.6746  L-1.5, 19.0749  L-1.5, 25.1304  L-1.5, 30.731  L-1.5, 35.7747  L-1.5, 40.1697  L-1.5, 43.8361  L-1.5, 46.7072  L-1.5, 48.7306  L-1.5, 49.8696 " /><path d="M1.5, -49.8696 L1.5, -49.7557  L1.5, -49.4147  L1.5, -48.8479  L1.5, -48.0581  L1.5, -47.0488  L1.5, -45.8246  L1.5, -44.391  L1.5, -42.7548  L1.5, -40.9231  L1.5, -38.9045  L1.5, -36.7081  L1.5, -34.3439  L1.5, -31.8227  L1.5, -29.1559 " /><path id= "6" d=" M 1.5 -29.1559 L 1.5 -27.0363 " />
+<path id= "7" d=" M 1.5 -27.0363 L 1.5 -20.3225 " />
+<path d="M1.5, -20.3225 L1.5, -13.9955  L1.5, -7.41148  L1.5, -0.690201  L1.5, 6.04601  L1.5, 12.6746  L1.5, 19.0749  L1.5, 25.1304  L1.5, 30.731  L1.5, 35.7747  L1.5, 40.1697  L1.5, 43.8361  L1.5, 46.7072  L1.5, 48.7306  L1.5, 49.8696 " /><path id= "9" d=" M 1.5 49.8696 L -1.5 49.8696 " />
+<path id= "10" d=" M 1.5 -20.3225 L -1.5 -20.3225 " />
+<path id= "11" d=" M 1.5 -27.0363 L -1.5 -27.0363 " />
+<path id= "12" d=" M 1.5 -29.1559 L -1.5 -29.1559 " />
+</g>
+</g>
+<text x="210" y="157" text-anchor="middle" font-size="3.5">Hülle 99.739 × 3.000 mm · Maßstab 1.12:1</text>
+<text x="344" y="39" text-anchor="middle" font-size="4">Seitenansicht</text>
+<g transform="translate(344,96) scale(1.12)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M -1.5 -50 L 1.5 -50 " />
+<path id= "2" d=" M -1.5 50 L 1.5 50 " />
+</g>
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path d="M1.5, -5.1 L1.5, -10.2801  L1.5, -15.3472  L1.5, -20.2456  L1.5, -24.9213  L1.5, -29.3231  L1.5, -33.4025  L1.5, -37.1147  L1.5, -40.4188  L1.5, -43.2786  L1.5, -45.6625  L1.5, -47.5444  L1.5, -48.9036  L1.5, -49.7251  L1.5, -50 " /><path id= "2" d=" M -1.5 -5.1 L 1.5 -5.1 " />
+<path d="M-1.5, -5.1 L-1.5, -10.2801  L-1.5, -15.3472  L-1.5, -20.2456  L-1.5, -24.9213  L-1.5, -29.3231  L-1.5, -33.4025  L-1.5, -37.1147  L-1.5, -40.4188  L-1.5, -43.2786  L-1.5, -45.6625  L-1.5, -47.5444  L-1.5, -48.9036  L-1.5, -49.7251  L-1.5, -50 " /><path d="M1.5, 50 L1.5, 49.7251  L1.5, 48.9036  L1.5, 47.5444  L1.5, 45.6625  L1.5, 43.2786  L1.5, 40.4188  L1.5, 37.1147  L1.5, 33.4025  L1.5, 29.3231  L1.5, 24.9213  L1.5, 20.2456  L1.5, 15.3472  L1.5, 10.2801  L1.5, 5.1 " /><path id= "5" d=" M 1.5 5.1 L 1.5 -5.1 " />
+<path d="M-1.5, 50 L-1.5, 49.7251  L-1.5, 48.9036  L-1.5, 47.5444  L-1.5, 45.6625  L-1.5, 43.2786  L-1.5, 40.4188  L-1.5, 37.1147  L-1.5, 33.4025  L-1.5, 29.3231  L-1.5, 24.9213  L-1.5, 20.2456  L-1.5, 15.3472  L-1.5, 10.2801  L-1.5, 5.1 " /><path id= "7" d=" M -1.5 5.1 L -1.5 -5.1 " />
+<path id= "8" d=" M -1.5 -5.1 L 1.5 -5.1 " />
+<path id= "9" d=" M -1.5 5.1 L 1.5 5.1 " />
+</g>
+</g>
+<text x="344" y="157" text-anchor="middle" font-size="3.5">Hülle 100.000 × 3.000 mm · Maßstab 1.12:1</text>
+<text x="14" y="174" font-size="3.1">Menge: 2 · Werkstoff: EN AW-7075 T6</text>
+<text x="14" y="179" font-size="3.1">Verfahren: Drehen/Bohren</text>
+<text x="14" y="184" font-size="3.1">Merkmale: Äußere axiale Nennkontur; GE60C36/Schultern endgültig anhand Lieferzeichnung abgleichen</text>
+<text x="14" y="189" font-size="3.1">Offen: Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen</text>
+<text x="14" y="194" font-size="3.1">Unbemaßte Längen ISO2768-1m als Anfragebasis; Funktionspassungen separat nach ISO286.</text>
+<text x="14" y="199" font-size="3.1">Geometrische GPS-Toleranzen/Bezüge nach ISO22081 mit Fertiger abstimmen. STEP enthält Nennmaße.</text>
+<text x="14" y="204" font-size="3.1">Datum01.11.2026 · P13 · Herkunft/Normfamilie und Grenzen siehe Stückliste und Anfrageunterlagen.</text>
+</svg>

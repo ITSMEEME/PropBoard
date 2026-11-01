@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297">
+<rect width="420" height="297" fill="white"/><style>text{font-family:DejaVu Sans,sans-serif;fill:#142c3d}path,line,circle,ellipse{vector-effect:non-scaling-stroke}</style>
+<rect x="8" y="8" width="404" height="281" fill="none" stroke="#223b4b" stroke-width=".3"/>
+<text x="14" y="19" font-size="6">P13-FACHWERK-PYLON · Rotorfachwerk-Pylon</text>
+<text x="14" y="27" font-size="3.5" fill="#a13e26">ANFRAGEZEICHNUNG · Nenngeometrie · keine Fertigungsfreigabe</text>
+<text x="76" y="39" text-anchor="middle" font-size="4">Draufsicht</text>
+<g transform="translate(76,96) scale(1.7857142857142858)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M -20 -28 L -20 28 " />
+<path id= "2" d=" M -20 -28 L -14 -28 " />
+<path id= "3" d=" M -14 -28 L -14 -25 " />
+<path id= "4" d=" M -14 -25 L 20 -25 " />
+<path id= "5" d=" M 20 -25 L 20 25 " />
+<path id= "6" d=" M -14 25 L 20 25 " />
+<path id= "7" d=" M -14 25 L -14 28 " />
+<path id= "8" d=" M -20 28 L -14 28 " />
+<circle cx ="10" cy ="-16" r ="3.3" /><circle cx ="10" cy ="16" r ="3.3" /><circle cx ="0" cy ="0" r ="3.3" /><circle cx ="-5" cy ="-16" r ="3.3" /><circle cx ="-5" cy ="16" r ="3.3" /><path id= "14" d=" M -14 -28 L -14 -25 " />
+<path id= "15" d=" M -14 25 L -14 28 " />
+<path id= "16" d=" M -14 -28 L 20 -28 " />
+<path id= "17" d=" M 20 -28 L 20 -25 " />
+<path id= "18" d=" M 20 25 L 20 28 " />
+<path id= "19" d=" M -14 28 L 20 28 " />
+<path d="M-4.03762 -12.8434 A4.2 4.2 0 0 1 -2.12617 -17.6221" /><path d="M-2.12617 17.6221 A4.2 4.2 0 0 1 -4.03762 12.8434" /></g>
+</g>
+<text x="76" y="157" text-anchor="middle" font-size="3.5">Hülle 40.000 × 56.000 mm · Maßstab 1.79:1</text>
+<text x="210" y="39" text-anchor="middle" font-size="4">Vorderansicht</text>
+<g transform="translate(210,96) scale(1.075268817204301)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 46.5 -20 L -46.5 -20 " />
+<path id= "2" d=" M -46.5 -20 L -46.5 -14 " />
+<path id= "3" d=" M -46.5 -14 L -46.5 20 " />
+<path id= "4" d=" M 26.5 -14 L -46.5 -14 " />
+<path id= "5" d=" M -40.5 -14 L -40.5 20 " />
+<path id= "6" d=" M -40.5 20 L -46.5 20 " />
+<path id= "7" d=" M 26.5 -14 L 26.5 20 " />
+<path id= "8" d=" M 29.5 20 L 26.5 20 " />
+<path id= "9" d=" M 43.5 -14 L 29.5 -14 " />
+<path id= "10" d=" M 43.5 -14 L 43.5 20 " />
+<path id= "11" d=" M 46.5 20 L 43.5 20 " />
+<path id= "12" d=" M 29.5 -14 L 29.5 20 " />
+<path id= "13" d=" M 46.5 -20 L 46.5 20 " />
+</g>
+</g>
+<text x="210" y="157" text-anchor="middle" font-size="3.5">Hülle 40.000 × 93.000 mm · Maßstab 1.08:1</text>
+<text x="344" y="39" text-anchor="middle" font-size="4">Seitenansicht</text>
+<g transform="translate(344,96) scale(1.075268817204301)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 46.5 28 L 46.5 25 " />
+<path id= "2" d=" M 46.5 25 L 46.5 -25 " />
+<path id= "3" d=" M 46.5 -25 L 46.5 -28 " />
+<path id= "4" d=" M -26.5 28 L 46.5 28 " />
+<path id= "5" d=" M -26.5 -28 L 46.5 -28 " />
+<path id= "6" d=" M 40.5 25 L 46.5 25 " />
+<path id= "7" d=" M 40.5 25 L 40.5 -25 " />
+<path id= "8" d=" M 40.5 -25 L 46.5 -25 " />
+<path id= "9" d=" M -26.5 28 L -26.5 -28 " />
+<path id= "10" d=" M -29.5 28 L -26.5 28 " />
+<path id= "11" d=" M -29.5 28 L -29.5 -28 " />
+<path id= "12" d=" M -29.5 -28 L -26.5 -28 " />
+<path id= "13" d=" M -43.5 28 L -29.5 28 " />
+<path id= "14" d=" M -43.5 -28 L -29.5 -28 " />
+<path id= "15" d=" M -43.5 28 L -43.5 -28 " />
+<path id= "16" d=" M -46.5 28 L -43.5 28 " />
+<path id= "17" d=" M -46.5 28 L -46.5 -28 " />
+<path id= "18" d=" M -46.5 -28 L -43.5 -28 " />
+</g>
+</g>
+<text x="344" y="157" text-anchor="middle" font-size="3.5">Hülle 56.000 × 93.000 mm · Maßstab 1.08:1</text>
+<text x="14" y="174" font-size="3.1">Menge: 14 · Werkstoff: EN AW-7075 T6</text>
+<text x="14" y="179" font-size="3.1">Verfahren: 5-Achs-Fräsen/Bohren</text>
+<text x="14" y="184" font-size="3.1">Merkmale: 4×M6 am Innenring; zweiØ8-Gabelbolzen; untere Knoten65mm über Mittelebene; Funktionsflächen spanend</text>
+<text x="14" y="189" font-size="3.1">Offen: Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen</text>
+<text x="14" y="194" font-size="3.1">Unbemaßte Längen ISO2768-1m als Anfragebasis; Funktionspassungen separat nach ISO286.</text>
+<text x="14" y="199" font-size="3.1">Geometrische GPS-Toleranzen/Bezüge nach ISO22081 mit Fertiger abstimmen. STEP enthält Nennmaße.</text>
+<text x="14" y="204" font-size="3.1">Datum01.11.2026 · P13 · Herkunft/Normfamilie und Grenzen siehe Stückliste und Anfrageunterlagen.</text>
+</svg>

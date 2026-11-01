@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297">
+<rect width="420" height="297" fill="white"/><style>text{font-family:DejaVu Sans,sans-serif;fill:#142c3d}path,line,circle,ellipse{vector-effect:non-scaling-stroke}</style>
+<rect x="8" y="8" width="404" height="281" fill="none" stroke="#223b4b" stroke-width=".3"/>
+<text x="14" y="19" font-size="6">P13-WURZELGEHAEUSE · Pitchlagerpatrone</text>
+<text x="14" y="27" font-size="3.5" fill="#a13e26">ANFRAGEZEICHNUNG · Nenngeometrie · keine Fertigungsfreigabe</text>
+<text x="76" y="39" text-anchor="middle" font-size="4">Draufsicht</text>
+<g transform="translate(76,96) scale(1.9230769230769231)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M -16.5 -20 L 14.5 -20 " />
+<path id= "2" d=" M -16.5 20 L 14.5 20 " />
+<path id= "3" d=" M -20.5 -26 L -16.5 -26 " />
+<path id= "4" d=" M -20.5 26 L -16.5 26 " />
+<path id= "5" d=" M 14.5 -26 L 20.5 -26 " />
+<path id= "6" d=" M 14.5 26 L 20.5 26 " />
+</g>
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path d="M-16.5, 0 L-16.5, -2.91108  L-16.5, -5.78554  L-16.5, -8.58726  L-16.5, -11.281  L-16.5, -13.8328  L-16.5, -16.2107  L-16.5, -18.3848  L-16.5, -20.3276  L-16.5, -22.0148  L-16.5, -23.4252  L-16.5, -24.541  L-16.5, -25.3481  L-16.5, -25.8365  L-16.5, -26 " /><path d="M-16.5, 26 L-16.5, 25.8365  L-16.5, 25.3481  L-16.5, 24.541  L-16.5, 23.4252  L-16.5, 22.0148  L-16.5, 20.3276  L-16.5, 18.3848  L-16.5, 16.2107  L-16.5, 13.8328  L-16.5, 11.281  L-16.5, 8.58726  L-16.5, 5.78554  L-16.5, 2.91108  L-16.5, 6.43929e-15 " /><path d="M14.5, 0 L14.5, -2.91108  L14.5, -5.78554  L14.5, -8.58726  L14.5, -11.281  L14.5, -13.8328  L14.5, -16.2107  L14.5, -18.3848  L14.5, -20.3276  L14.5, -22.0148  L14.5, -23.4252  L14.5, -24.541  L14.5, -25.3481  L14.5, -25.8365  L14.5, -26 " /><path d="M14.5, 26 L14.5, 25.8365  L14.5, 25.3481  L14.5, 24.541  L14.5, 23.4252  L14.5, 22.0148  L14.5, 20.3276  L14.5, 18.3848  L14.5, 16.2107  L14.5, 13.8328  L14.5, 11.281  L14.5, 8.58726  L14.5, 5.78554  L14.5, 2.91108  L14.5, 6.43929e-15 " /><path d="M-20.5, 0 L-20.5, -2.91108  L-20.5, -5.78554  L-20.5, -8.58726  L-20.5, -11.281  L-20.5, -13.8328  L-20.5, -16.2107  L-20.5, -18.3848  L-20.5, -20.3276  L-20.5, -22.0148  L-20.5, -23.4252  L-20.5, -24.541  L-20.5, -25.3481  L-20.5, -25.8365  L-20.5, -26 " /><path d="M-20.5, 26 L-20.5, 25.8365  L-20.5, 25.3481  L-20.5, 24.541  L-20.5, 23.4252  L-20.5, 22.0148  L-20.5, 20.3276  L-20.5, 18.3848  L-20.5, 16.2107  L-20.5, 13.8328  L-20.5, 11.281  L-20.5, 8.58726  L-20.5, 5.78554  L-20.5, 2.91108  L-20.5, 6.43929e-15 " /><path d="M20.5, 0 L20.5, -2.91108  L20.5, -5.78554  L20.5, -8.58726  L20.5, -11.281  L20.5, -13.8328  L20.5, -16.2107  L20.5, -18.3848  L20.5, -20.3276  L20.5, -22.0148  L20.5, -23.4252  L20.5, -24.541  L20.5, -25.3481  L20.5, -25.8365  L20.5, -26 " /><path d="M20.5, 26 L20.5, 25.8365  L20.5, 25.3481  L20.5, 24.541  L20.5, 23.4252  L20.5, 22.0148  L20.5, 20.3276  L20.5, 18.3848  L20.5, 16.2107  L20.5, 13.8328  L20.5, 11.281  L20.5, 8.58726  L20.5, 5.78554  L20.5, 2.91108  L20.5, 6.43929e-15 " /></g>
+</g>
+<text x="76" y="157" text-anchor="middle" font-size="3.5">Hülle 41.000 × 52.000 mm · Maßstab 1.92:1</text>
+<text x="210" y="39" text-anchor="middle" font-size="4">Vorderansicht</text>
+<g transform="translate(210,96) scale(1.9230769230769231)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 20 -16.5 L 20 14.5 " />
+<path id= "2" d=" M 26 -20.5 L 26 -16.5 " />
+<path id= "3" d=" M 26 14.5 L 26 20.5 " />
+</g>
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M -20 -16.5 L -20 14.5 " />
+<path d="M-26, -16.5 L-25.3481, -16.5  L-23.4252, -16.5  L-20.3276, -16.5  L-16.2107, -16.5  L-11.281, -16.5  L-5.78554, -16.5  L-1.77636e-15, -16.5  L5.78554, -16.5  L11.281, -16.5  L16.2107, -16.5  L20.3276, -16.5  L23.4252, -16.5  L25.3481, -16.5  L26, -16.5 " /><path d="M-26, 14.5 L-25.3481, 14.5  L-23.4252, 14.5  L-20.3276, 14.5  L-16.2107, 14.5  L-11.281, 14.5  L-5.78554, 14.5  L-1.77636e-15, 14.5  L5.78554, 14.5  L11.281, 14.5  L16.2107, 14.5  L20.3276, 14.5  L23.4252, 14.5  L25.3481, 14.5  L26, 14.5 " /><path id= "4" d=" M -26 -20.5 L -26 -16.5 " />
+<path d="M-26, -20.5 L-25.3481, -20.5  L-23.4252, -20.5  L-20.3276, -20.5  L-16.2107, -20.5  L-11.281, -20.5  L-5.78554, -20.5  L-1.77636e-15, -20.5  L5.78554, -20.5  L11.281, -20.5  L16.2107, -20.5  L20.3276, -20.5  L23.4252, -20.5  L25.3481, -20.5  L26, -20.5 " /><path d="M-26, 20.5 L-25.3481, 20.5  L-23.4252, 20.5  L-20.3276, 20.5  L-16.2107, 20.5  L-11.281, 20.5  L-5.78554, 20.5  L-1.77636e-15, 20.5  L5.78554, 20.5  L11.281, 20.5  L16.2107, 20.5  L20.3276, 20.5  L23.4252, 20.5  L25.3481, 20.5  L26, 20.5 " /><path id= "7" d=" M -26 14.5 L -26 20.5 " />
+</g>
+</g>
+<text x="210" y="157" text-anchor="middle" font-size="3.5">Hülle 41.000 × 52.000 mm · Maßstab 1.92:1</text>
+<text x="344" y="39" text-anchor="middle" font-size="4">Seitenansicht</text>
+<g transform="translate(344,96) scale(1.9230769230769231)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<circle cx ="-12" cy ="-18.8" r ="1.65" /><circle cx ="12" cy ="-18.8" r ="1.65" /><circle cx ="-12" cy ="18.8" r ="1.65" /><circle cx ="12" cy ="18.8" r ="1.65" /><circle cx ="0" cy ="0" r ="26" /><circle cx ="-12" cy ="-18.8" r ="2.2" /><circle cx ="12" cy ="-18.8" r ="2.2" /><circle cx ="-12" cy ="18.8" r ="2.2" /><circle cx ="12" cy ="18.8" r ="2.2" /><circle cx ="0" cy ="0" r ="10.5" /></g>
+</g>
+<text x="344" y="157" text-anchor="middle" font-size="3.5">Hülle 52.000 × 52.000 mm · Maßstab 1.92:1</text>
+<text x="14" y="174" font-size="3.1">Menge: 16 · Werkstoff: EN AW-7075 T6</text>
+<text x="14" y="179" font-size="3.1">Verfahren: Drehen/Fräsen; Lagersitze nach ISO286</text>
+<text x="14" y="184" font-size="3.1">Merkmale: 2×7201B12×32×10 DB; SitzeØ32 H7; Außenringdistanz10; Frontschulter x137; GehäuseØ40; FlanscheØ52</text>
+<text x="14" y="189" font-size="3.1">Offen: Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen</text>
+<text x="14" y="194" font-size="3.1">Unbemaßte Längen ISO2768-1m als Anfragebasis; Funktionspassungen separat nach ISO286.</text>
+<text x="14" y="199" font-size="3.1">Geometrische GPS-Toleranzen/Bezüge nach ISO22081 mit Fertiger abstimmen. STEP enthält Nennmaße.</text>
+<text x="14" y="204" font-size="3.1">Datum01.11.2026 · P13 · Herkunft/Normfamilie und Grenzen siehe Stückliste und Anfrageunterlagen.</text>
+</svg>

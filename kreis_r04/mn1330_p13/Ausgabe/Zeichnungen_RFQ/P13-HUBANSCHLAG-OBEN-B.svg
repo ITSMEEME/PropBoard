@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297">
+<rect width="420" height="297" fill="white"/><style>text{font-family:DejaVu Sans,sans-serif;fill:#142c3d}path,line,circle,ellipse{vector-effect:non-scaling-stroke}</style>
+<rect x="8" y="8" width="404" height="281" fill="none" stroke="#223b4b" stroke-width=".3"/>
+<text x="14" y="19" font-size="6">P13-HUBANSCHLAG-OBEN-B · Oberer geteilter Hubanschlag HälfteB</text>
+<text x="14" y="27" font-size="3.5" fill="#a13e26">ANFRAGEZEICHNUNG · Nenngeometrie · keine Fertigungsfreigabe</text>
+<text x="76" y="39" text-anchor="middle" font-size="4">Draufsicht</text>
+<g transform="translate(76,96) scale(1.6470588235294117)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path d="M24.2583 6.69795 A34 34 0 0 1 -24.2583 6.69795" /><path d="M-24.2583, 6.69795 L-24.2296, 6.72715 " /><path d="M-23.5, 7.44632 C-23.4991, 7.44683 -23.6243, 7.32861 -23.8508, 7.10591 " /><path id= "4" d=" M 22 -16.875 L 20.0984 -16.875 " />
+<path id= "5" d=" M 24.2583 0.875 L 24.2583 6.69795 " />
+<path id= "6" d=" M -24.2583 0.875 L -24.2583 6.69795 " />
+<path id= "7" d=" M -20.0984 -16.875 L -22 -16.875 " />
+<path d="M20.0984 -16.875 A20.1 20.1 0 0 1 -20.0984 -16.875" /><path id= "9" d=" M -22 -16.875 L -34 -16.875 " />
+<path id= "10" d=" M -22 -16.875 L -22 0.875 " />
+<path id= "11" d=" M 22 -16.875 L 22 0.875 " />
+<path id= "12" d=" M -34 -16.875 L -34 0.875 " />
+<path id= "13" d=" M -34 0.875 L -22 0.875 " />
+<path id= "14" d=" M 34 -16.875 L 22 -16.875 " />
+<path id= "15" d=" M 34 -16.875 L 34 0.875 " />
+<path id= "16" d=" M 22 0.875 L 34 0.875 " />
+</g>
+</g>
+<text x="76" y="157" text-anchor="middle" font-size="3.5">Hülle 68.000 × 33.750 mm · Maßstab 1.65:1</text>
+<text x="210" y="39" text-anchor="middle" font-size="4">Vorderansicht</text>
+<g transform="translate(210,96) scale(1.6470588235294117)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M -2.5 22 L -2.5 20.0984 " />
+<path id= "2" d=" M -2.5 -20.0984 L -2.5 -22 " />
+<path d="M-2.5, 20.0984 L-2.5, 19.5473  L-2.5, 18.0313  L-2.5, 15.6253  L-2.5, 12.4482  L-2.5, 8.65665  L-2.5, 4.43784  L-2.5, 5.06262e-14  L-2.5, -4.43784  L-2.5, -8.65665  L-2.5, -12.4482  L-2.5, -15.6253  L-2.5, -18.0313  L-2.5, -19.5473  L-2.5, -20.0984 " /><path id= "4" d=" M 2.5 22 L 2.5 20.0984 " />
+<path id= "5" d=" M 2.5 -20.0984 L 2.5 -22 " />
+<path d="M2.5, 20.0984 L2.5, 19.5473  L2.5, 18.0313  L2.5, 15.6253  L2.5, 12.4482  L2.5, 8.65665  L2.5, 4.43784  L2.5, 5.06262e-14  L2.5, -4.43784  L2.5, -8.65665  L2.5, -12.4482  L2.5, -15.6253  L2.5, -18.0313  L2.5, -19.5473  L2.5, -20.0984 " /><path id= "7" d=" M 2.5 20.0984 L -2.5 20.0984 " />
+<path id= "8" d=" M 2.5 -20.0984 L -2.5 -20.0984 " />
+<path id= "9" d=" M 6 -22 L 2.5 -22 " />
+<path id= "10" d=" M 6 -22 L 6 -34 " />
+<path id= "11" d=" M 6 -34 L -6 -34 " />
+<path id= "12" d=" M -6 -22 L -6 -34 " />
+<path id= "13" d=" M -2.5 -22 L -6 -22 " />
+<circle cx ="0" cy ="-28" r ="2.75" /><path id= "15" d=" M -2.5 22 L -6 22 " />
+<path id= "16" d=" M 6 22 L 2.5 22 " />
+<path id= "17" d=" M -6 34 L -6 22 " />
+<path id= "18" d=" M 6 34 L 6 22 " />
+<path id= "19" d=" M 6 34 L -6 34 " />
+<circle cx ="0" cy ="28" r ="2.75" /></g>
+</g>
+<text x="210" y="157" text-anchor="middle" font-size="3.5">Hülle 68.000 × 12.000 mm · Maßstab 1.65:1</text>
+<text x="344" y="39" text-anchor="middle" font-size="4">Seitenansicht</text>
+<g transform="translate(344,96) scale(3.3185185185185184)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M -2.5 -16.875 L 2.5 -16.875 " />
+</g>
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path d="M2.5, -6.69795 L2.5, -8.03544  L2.5, -9.29194  L2.5, -10.4634  L2.5, -11.546  L2.5, -12.5364  L2.5, -13.4312  L2.5, -14.2277  L2.5, -14.9232  L2.5, -15.5156  L2.5, -16.0029  L2.5, -16.3835  L2.5, -16.6563  L2.5, -16.8203  L2.5, -16.875 " /><path d="M-2.5, -6.69795 C-1.80447, -7.17553 -0.907954, -7.44882 -2.73965e-12, -7.44632  C0.907954, -7.44882 1.80447, -7.17553 2.5, -6.69795 " /><path d="M-2.5, -6.69795 L-2.5, -8.03544  L-2.5, -9.29194  L-2.5, -10.4634  L-2.5, -11.546  L-2.5, -12.5364  L-2.5, -13.4312  L-2.5, -14.2277  L-2.5, -14.9232  L-2.5, -15.5156  L-2.5, -16.0029  L-2.5, -16.3835  L-2.5, -16.6563  L-2.5, -16.8203  L-2.5, -16.875 " /><path id= "4" d=" M 2.5 -0.875 L 2.5 -6.69795 " />
+<path id= "5" d=" M -2.5 -0.875 L -2.5 -6.69795 " />
+<path d="M-2.5, -0.875 L-2.5, -1.15984  L-2.5, -1.42485  L-2.5, -1.66972  L-2.5, -1.8942  L-2.5, -2.09805  L-2.5, -2.28103  L-2.5, -2.44296  L-2.5, -2.58365  L-2.5, -2.70296  L-2.5, -2.80075  L-2.5, -2.87692  L-2.5, -2.93139  L-2.5, -2.96409  L-2.5, -2.975 " /><path id= "7" d=" M 6 16.875 L 6 -0.875 " />
+<path id= "8" d=" M -6 16.875 L -6 -0.875 " />
+<path id= "9" d=" M -6 16.875 L 6 16.875 " />
+<path id= "10" d=" M -6 -0.875 L 6 -0.875 " />
+</g>
+</g>
+<text x="344" y="157" text-anchor="middle" font-size="3.5">Hülle 33.750 × 12.000 mm · Maßstab 3.32:1</text>
+<text x="14" y="174" font-size="3.1">Menge: 2 · Werkstoff: EN AW-7075 T6</text>
+<text x="14" y="179" font-size="3.1">Verfahren: Fräsen/Bohren</text>
+<text x="14" y="184" font-size="3.1">Merkmale: Trennfuge0.5;2×Ø5.5; M5×30-Queranzug</text>
+<text x="14" y="189" font-size="3.1">Offen: Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen</text>
+<text x="14" y="194" font-size="3.1">Unbemaßte Längen ISO2768-1m als Anfragebasis; Funktionspassungen separat nach ISO286.</text>
+<text x="14" y="199" font-size="3.1">Geometrische GPS-Toleranzen/Bezüge nach ISO22081 mit Fertiger abstimmen. STEP enthält Nennmaße.</text>
+<text x="14" y="204" font-size="3.1">Datum01.11.2026 · P13 · Herkunft/Normfamilie und Grenzen siehe Stückliste und Anfrageunterlagen.</text>
+</svg>

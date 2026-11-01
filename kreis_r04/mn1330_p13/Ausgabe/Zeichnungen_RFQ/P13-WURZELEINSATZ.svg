@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297">
+<rect width="420" height="297" fill="white"/><style>text{font-family:DejaVu Sans,sans-serif;fill:#142c3d}path,line,circle,ellipse{vector-effect:non-scaling-stroke}</style>
+<rect x="8" y="8" width="404" height="281" fill="none" stroke="#223b4b" stroke-width=".3"/>
+<text x="14" y="19" font-size="6">P13-WURZELEINSATZ · Flügel-Wurzeleinsatz</text>
+<text x="14" y="27" font-size="3.5" fill="#a13e26">ANFRAGEZEICHNUNG · Nenngeometrie · keine Fertigungsfreigabe</text>
+<text x="76" y="39" text-anchor="middle" font-size="4">Draufsicht</text>
+<g transform="translate(76,96) scale(2.24)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M -25 -9 L 25 -9 " />
+<path id= "2" d=" M -25 9 L 25 9 " />
+</g>
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path d="M25, 0 L25, -1.00768  L25, -2.00269  L25, -2.97251  L25, -3.90495  L25, -4.78829  L25, -5.61141  L25, -6.36396  L25, -7.03648  L25, -7.62052  L25, -8.10872  L25, -8.49495  L25, -8.77435  L25, -8.94341  L25, -9 " /><path d="M25, 9 L25, 8.94341  L25, 8.77435  L25, 8.49495  L25, 8.10872  L25, 7.62052  L25, 7.03648  L25, 6.36396  L25, 5.61141  L25, 4.78829  L25, 3.90495  L25, 2.97251  L25, 2.00269  L25, 1.00768  L25, 2.22045e-15 " /><path d="M-25, 0 L-25, -1.00768  L-25, -2.00269  L-25, -2.97251  L-25, -3.90495  L-25, -4.78829  L-25, -5.61141  L-25, -6.36396  L-25, -7.03648  L-25, -7.62052  L-25, -8.10872  L-25, -8.49495  L-25, -8.77435  L-25, -8.94341  L-25, -9 " /><path d="M-25, 9 L-25, 8.94341  L-25, 8.77435  L-25, 8.49495  L-25, 8.10872  L-25, 7.62052  L-25, 7.03648  L-25, 6.36396  L-25, 5.61141  L-25, 4.78829  L-25, 3.90495  L-25, 2.97251  L-25, 2.00269  L-25, 1.00768  L-25, 2.22045e-15 " /></g>
+</g>
+<text x="76" y="157" text-anchor="middle" font-size="3.5">Hülle 50.000 × 18.000 mm · Maßstab 2.24:1</text>
+<text x="210" y="39" text-anchor="middle" font-size="4">Vorderansicht</text>
+<g transform="translate(210,96) scale(2.24)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 9 -25 L 9 25 " />
+</g>
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path d="M-9, 25 L-8.77435, 25  L-8.10872, 25  L-7.03648, 25  L-5.61141, 25  L-3.90495, 25  L-2.00269, 25  L-4.44089e-16, 25  L2.00269, 25  L3.90495, 25  L5.61141, 25  L7.03648, 25  L8.10872, 25  L8.77435, 25  L9, 25 " /><path id= "2" d=" M -9 -25 L -9 25 " />
+<path d="M-9, -25 L-8.77435, -25  L-8.10872, -25  L-7.03648, -25  L-5.61141, -25  L-3.90495, -25  L-2.00269, -25  L-4.44089e-16, -25  L2.00269, -25  L3.90495, -25  L5.61141, -25  L7.03648, -25  L8.10872, -25  L8.77435, -25  L9, -25 " /></g>
+</g>
+<text x="210" y="157" text-anchor="middle" font-size="3.5">Hülle 50.000 × 18.000 mm · Maßstab 2.24:1</text>
+<text x="344" y="39" text-anchor="middle" font-size="4">Seitenansicht</text>
+<g transform="translate(344,96) scale(4)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<circle cx ="0" cy ="0" r ="9" /><circle cx ="0" cy ="0" r ="6.05" /></g>
+</g>
+<text x="344" y="157" text-anchor="middle" font-size="3.5">Hülle 18.000 × 18.000 mm · Maßstab 4:1</text>
+<text x="14" y="174" font-size="3.1">Menge: 16 · Werkstoff: Titan Grade5 oder freigegebenes isoliertes Aluminium</text>
+<text x="14" y="179" font-size="3.1">Verfahren: Drehen/Fräsen, Klebflächen vorbereiten</text>
+<text x="14" y="184" font-size="3.1">Merkmale: Ø18; BohrungØ12.1; Passfedernut4;50mm Einbettlänge;0.2mm Klebfuge zur CFK-Wurzel</text>
+<text x="14" y="189" font-size="3.1">Offen: Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen</text>
+<text x="14" y="194" font-size="3.1">Unbemaßte Längen ISO2768-1m als Anfragebasis; Funktionspassungen separat nach ISO286.</text>
+<text x="14" y="199" font-size="3.1">Geometrische GPS-Toleranzen/Bezüge nach ISO22081 mit Fertiger abstimmen. STEP enthält Nennmaße.</text>
+<text x="14" y="204" font-size="3.1">Datum01.11.2026 · P13 · Herkunft/Normfamilie und Grenzen siehe Stückliste und Anfrageunterlagen.</text>
+</svg>

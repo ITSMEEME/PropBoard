@@ -3,7 +3,7 @@ import json,hashlib,re
 from parameter_schema import SCHEMA,defaults,validate
 from geometrie import build
 COLORS={'frame':(.56,.62,.67),'motor':(.92,.68,.34),'drive':(.36,.77,.8),'upper':(.15,.57,.8),'lower':(.86,.51,.27),'column':(.59,.77,.47)}
-def fingerprint(p):return hashlib.sha256(json.dumps(p,sort_keys=True).encode()).hexdigest()
+def fingerprint(p):return hashlib.sha256(('P12_GEOMETRIE_2026_11_01_BEFESTIGUNGEN_1\n'+json.dumps(p,sort_keys=True)).encode()).hexdigest()
 def current(obj):
     return {k:int(round(getattr(obj,'p_'+k))) if s['unit']=='int' and float(getattr(obj,'p_'+k)).is_integer() else float(getattr(obj,'p_'+k)) for k,s in SCHEMA.items()}
 

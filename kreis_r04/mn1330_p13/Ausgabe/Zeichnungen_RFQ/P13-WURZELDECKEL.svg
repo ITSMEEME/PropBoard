@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297">
+<rect width="420" height="297" fill="white"/><style>text{font-family:DejaVu Sans,sans-serif;fill:#142c3d}path,line,circle,ellipse{vector-effect:non-scaling-stroke}</style>
+<rect x="8" y="8" width="404" height="281" fill="none" stroke="#223b4b" stroke-width=".3"/>
+<text x="14" y="19" font-size="6">P13-WURZELDECKEL · Patronendeckel</text>
+<text x="14" y="27" font-size="3.5" fill="#a13e26">ANFRAGEZEICHNUNG · Nenngeometrie · keine Fertigungsfreigabe</text>
+<text x="76" y="39" text-anchor="middle" font-size="4">Draufsicht</text>
+<g transform="translate(76,96) scale(1.9230769230769231)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M -4 -26 L 0 -26 " />
+<path id= "2" d=" M -4 26 L 0 26 " />
+<path id= "3" d=" M 0 -16 L 4 -16 " />
+<path id= "4" d=" M 0 16 L 4 16 " />
+</g>
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path d="M0, 0 L0, -2.91108  L0, -5.78554  L0, -8.58726  L0, -11.281  L0, -13.8328  L0, -16.2107  L0, -18.3848  L0, -20.3276  L0, -22.0148  L0, -23.4252  L0, -24.541  L0, -25.3481  L0, -25.8365  L0, -26 " /><path d="M0, 26 L0, 25.8365  L0, 25.3481  L0, 24.541  L0, 23.4252  L0, 22.0148  L0, 20.3276  L0, 18.3848  L0, 16.2107  L0, 13.8328  L0, 11.281  L0, 8.58726  L0, 5.78554  L0, 2.91108  L0, 6.43929e-15 " /><path d="M-4, 0 L-4, -2.91108  L-4, -5.78554  L-4, -8.58726  L-4, -11.281  L-4, -13.8328  L-4, -16.2107  L-4, -18.3848  L-4, -20.3276  L-4, -22.0148  L-4, -23.4252  L-4, -24.541  L-4, -25.3481  L-4, -25.8365  L-4, -26 " /><path d="M-4, 26 L-4, 25.8365  L-4, 25.3481  L-4, 24.541  L-4, 23.4252  L-4, 22.0148  L-4, 20.3276  L-4, 18.3848  L-4, 16.2107  L-4, 13.8328  L-4, 11.281  L-4, 8.58726  L-4, 5.78554  L-4, 2.91108  L-4, 6.43929e-15 " /><path d="M4, 0 L4, -1.79143  L4, -3.56033  L4, -5.28446  L4, -6.94214  L4, -8.51251  L4, -9.97584  L4, -11.3137  L4, -12.5093  L4, -13.5476  L4, -14.4155  L4, -15.1021  L4, -15.5988  L4, -15.8994  L4, -16 " /><path d="M4, 16 L4, 15.8994  L4, 15.5988  L4, 15.1021  L4, 14.4155  L4, 13.5476  L4, 12.5093  L4, 11.3137  L4, 9.97584  L4, 8.51251  L4, 6.94214  L4, 5.28446  L4, 3.56033  L4, 1.79143  L4, 3.88578e-15 " /></g>
+</g>
+<text x="76" y="157" text-anchor="middle" font-size="3.5">Hülle 8.000 × 52.000 mm · Maßstab 1.92:1</text>
+<text x="210" y="39" text-anchor="middle" font-size="4">Vorderansicht</text>
+<g transform="translate(210,96) scale(1.9230769230769231)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 26 -4 L 26 0 " />
+<path id= "2" d=" M 16 0 L 16 4 " />
+</g>
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path d="M-26, 0 L-25.3481, 0  L-23.4252, 0  L-20.3276, 0  L-16.2107, 0  L-11.281, 0  L-5.78554, 0  L-1.77636e-15, 0  L5.78554, 0  L11.281, 0  L16.2107, 0  L20.3276, 0  L23.4252, 0  L25.3481, 0  L26, 0 " /><path id= "2" d=" M -26 -4 L -26 0 " />
+<path d="M-26, -4 L-25.3481, -4  L-23.4252, -4  L-20.3276, -4  L-16.2107, -4  L-11.281, -4  L-5.78554, -4  L-1.77636e-15, -4  L5.78554, -4  L11.281, -4  L16.2107, -4  L20.3276, -4  L23.4252, -4  L25.3481, -4  L26, -4 " /><path d="M-16, 4 L-15.5988, 4  L-14.4155, 4  L-12.5093, 4  L-9.97584, 4  L-6.94214, 4  L-3.56033, 4  L-8.88178e-16, 4  L3.56033, 4  L6.94214, 4  L9.97584, 4  L12.5093, 4  L14.4155, 4  L15.5988, 4  L16, 4 " /><path id= "5" d=" M -16 0 L -16 4 " />
+</g>
+</g>
+<text x="210" y="157" text-anchor="middle" font-size="3.5">Hülle 8.000 × 52.000 mm · Maßstab 1.92:1</text>
+<text x="344" y="39" text-anchor="middle" font-size="4">Seitenansicht</text>
+<g transform="translate(344,96) scale(1.9230769230769231)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<circle cx ="0" cy ="0" r ="26" /><circle cx ="-12" cy ="-18.8" r ="2.2" /><circle cx ="12" cy ="-18.8" r ="2.2" /><circle cx ="-12" cy ="18.8" r ="2.2" /><circle cx ="12" cy ="18.8" r ="2.2" /><circle cx ="0" cy ="0" r ="16" /><circle cx ="0" cy ="0" r ="14" /></g>
+</g>
+<text x="344" y="157" text-anchor="middle" font-size="3.5">Hülle 52.000 × 52.000 mm · Maßstab 1.92:1</text>
+<text x="14" y="174" font-size="3.1">Menge: 16 · Werkstoff: EN AW-7075 T6</text>
+<text x="14" y="179" font-size="3.1">Verfahren: Drehen/Fräsen/Bohren</text>
+<text x="14" y="184" font-size="3.1">Merkmale: Außenringanschlag x107; zentrale MutterfreistellungØ24; 4×Ø4.4</text>
+<text x="14" y="189" font-size="3.1">Offen: Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen</text>
+<text x="14" y="194" font-size="3.1">Unbemaßte Längen ISO2768-1m als Anfragebasis; Funktionspassungen separat nach ISO286.</text>
+<text x="14" y="199" font-size="3.1">Geometrische GPS-Toleranzen/Bezüge nach ISO22081 mit Fertiger abstimmen. STEP enthält Nennmaße.</text>
+<text x="14" y="204" font-size="3.1">Datum01.11.2026 · P13 · Herkunft/Normfamilie und Grenzen siehe Stückliste und Anfrageunterlagen.</text>
+</svg>

@@ -1,0 +1,21 @@
+{
+  "original_p12_sha256": {
+    "geometrie.py": "d19135ce4ee4009f3654a5a3f3be6f10c2fe196a2d734c1b308a246ee844452a",
+    "parameter_schema.py": "477cb70d901bce09585382099f6c26a3511902f3479e6bf81c4e82829e26efb9",
+    "cfk_rahmen.py": "ebac20cbbb284666f781698d4bd5003d9235c891b1b1e4d03c3fe63174993285",
+    "befestigungen.py": "106179b5b20ffebe737f93b98d3c73666cd2496b7a2f8d75e37313c4e1481d6b",
+    "parameter.json": "a2541a539699668b5193ec8fa346fc079a5d293d1d27a584fcfe12d1118fa345"
+  },
+  "p13_basis_sha256": {
+    "geometrie.py": "571ca8c868ed8dbf51d5059747c5b746116acf88fab7d5c3996897f014346a94",
+    "parameter_schema.py": "477cb70d901bce09585382099f6c26a3511902f3479e6bf81c4e82829e26efb9",
+    "cfk_rahmen.py": "197b1977fb3c6501019f472c09b49d67ca99097faec5aa81f7b76b0d36589a41",
+    "befestigungen.py": "92a75b5fc37e46c892e69b4022fa78b3884433937fbd02f5a446c0efc4f7e1c6",
+    "parameter.json": "a2541a539699668b5193ec8fa346fc079a5d293d1d27a584fcfe12d1118fa345"
+  },
+  "changes": [
+    "Spiegelungen mit analytisch formtreuer transformShape-Reflexion ersetzt; siehe spiegeln.py",
+    "Klemmschraube M4 auf bevorzugte Lagerlänge16mm geändert"
+  ],
+  "note": "QUELLSTAND.json erhält die unveränderten P12-Ursprungshashes; MODIFIKATIONEN.json dokumentiert die P13-Kopie."
+}

@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297">
+<rect width="420" height="297" fill="white"/><style>text{font-family:DejaVu Sans,sans-serif;fill:#142c3d}path,line,circle,ellipse{vector-effect:non-scaling-stroke}</style>
+<rect x="8" y="8" width="404" height="281" fill="none" stroke="#223b4b" stroke-width=".3"/>
+<text x="14" y="19" font-size="6">P13-AKTOR-MOTORTRAEGER-UNTEN · Schwenkbarer Aktor-Motorträger Unten</text>
+<text x="14" y="27" font-size="3.5" fill="#a13e26">ANFRAGEZEICHNUNG · Nenngeometrie · keine Fertigungsfreigabe</text>
+<text x="76" y="39" text-anchor="middle" font-size="4">Draufsicht</text>
+<g transform="translate(76,96) scale(0.42911877394636017)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M -94.5 12 L -94.5 20 " />
+<path id= "2" d=" M -94.5 20 L -106.5 20 " />
+<path id= "3" d=" M -106.5 12 L -106.5 20 " />
+<path id= "4" d=" M -94.5 12 L -106.5 12 " />
+<path id= "5" d=" M -94.5 20 L 90.5 20 " />
+<path id= "6" d=" M -100.5 -12 L -100.5 12 " />
+<path id= "7" d=" M -94.5 -20 L -94.5 -12 " />
+<path id= "8" d=" M -94.5 -20 L 90.5 -20 " />
+<path d="M90.5 -20 A25 25 0 0 1 130.5 -6.12323e-15" /><path d="M130.5 0 A25 25 0 0 1 90.5 20" /><path d="M105.5 3 A3 3 0 0 1 105.5 -3" /><path d="M108.5 0 A3 3 0 0 1 105.5 3" /><path d="M105.5 -3 A3 3 0 0 1 108.5 -7.34788e-16" /><circle cx ="94.8934" cy ="-10.6066" r ="2.9" /><circle cx ="94.8934" cy ="10.6066" r ="2.9" /><circle cx ="116.107" cy ="-10.6066" r ="2.9" /><circle cx ="116.107" cy ="10.6066" r ="2.9" /><path id= "18" d=" M -94.5 -12 L -106.5 -12 " />
+<path id= "19" d=" M -106.5 -20 L -106.5 -12 " />
+<path id= "20" d=" M -94.5 -20 L -106.5 -20 " />
+<path id= "21" d=" M -106.5 -20 L -123.5 -20 " />
+<path id= "22" d=" M -123.5 -20 L -123.5 -14.4997 " />
+<path d="M-123.5 -14.4997 A18.2 18.2 0 0 1 -120.816 -12" /><circle cx ="-118.5" cy ="-16" r ="2.2" /><path d="M-120.816 12 A18.2 18.2 0 0 1 -130.5 17.755" /><path id= "26" d=" M -130.5 17.755 L -130.5 20 " />
+<circle cx ="-118.5" cy ="16" r ="2.2" /><circle cx ="94.8934" cy ="-10.6066" r ="1.7" /><circle cx ="94.8934" cy ="10.6066" r ="1.7" /><circle cx ="116.107" cy ="-10.6066" r ="1.7" /><circle cx ="116.107" cy ="10.6066" r ="1.7" /><path id= "32" d=" M -120.816 -12 L -106.5 -12 " />
+<path id= "33" d=" M -106.5 20 L -130.5 20 " />
+<path id= "34" d=" M -120.816 12 L -106.5 12 " />
+</g>
+</g>
+<text x="76" y="157" text-anchor="middle" font-size="3.5">Hülle 261.000 × 50.000 mm · Maßstab 0.429:1</text>
+<text x="210" y="39" text-anchor="middle" font-size="4">Vorderansicht</text>
+<g transform="translate(210,96) scale(0.42911877394636017)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 10 130.5 L 2 130.5 " />
+</g>
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 2 -94.5 L 2 90.5 " />
+<path d="M2, 90.5 L2, 93.8373  L2, 97.4658  L2, 101.295  L2, 105.229  L2, 109.17  L2, 113.019  L2, 116.68  L2, 120.063  L2, 123.082  L2, 125.661  L2, 127.738  L2, 129.26  L2, 130.188  L2, 130.5 " /><path id= "3" d=" M 2 -94.5 L -10 -106.5 " />
+<path id= "4" d=" M 10 -100.5 L 10 90.5 " />
+<path id= "5" d=" M 10 90.5 L 2 90.5 " />
+<path id= "6" d=" M -10 -106.5 L -10 -123.5 " />
+<path id= "7" d=" M -10 -123.5 L -4 -123.5 " />
+<path id= "8" d=" M -4 -123.5 L -4 -108.5 " />
+<path id= "9" d=" M -4 -108.5 L -6 -108.5 " />
+<path id= "10" d=" M -6 -108.5 L 2 -100.5 " />
+<path id= "11" d=" M 10 -100.5 L 2 -100.5 " />
+<path id= "12" d=" M -6 -108.5 L 2 -100.5 " />
+<path d="M-4, -123.5 C-4, -123.649 -4, -123.798 -4, -123.948  C-4, -124.1 -4, -124.253 -4, -124.405  C-4, -124.561 -4, -124.717 -4, -124.872  C-4, -125.031 -4, -125.19 -4, -125.348  C-4, -125.51 -4, -125.671 -4, -125.833  C-4, -126.16 -4, -126.491 -4, -126.825  C-4, -128.002 -4, -129.236 -4, -130.5 " /><path id= "14" d=" M -4 -130.5 L -10 -130.5 " />
+<path d="M-10, -123.5 C-10, -123.649 -10, -123.798 -10, -123.948  C-10, -124.1 -10, -124.253 -10, -124.405  C-10, -124.561 -10, -124.717 -10, -124.872  C-10, -125.031 -10, -125.19 -10, -125.348  C-10, -125.51 -10, -125.671 -10, -125.833  C-10, -126.16 -10, -126.491 -10, -126.825  C-10, -128.002 -10, -129.236 -10, -130.5 " /><path d="M10, 90.5 L10, 93.8373  L10, 97.4658  L10, 101.295  L10, 105.229  L10, 109.17  L10, 113.019  L10, 116.68  L10, 120.063  L10, 123.082  L10, 125.661  L10, 127.738  L10, 129.26  L10, 130.188  L10, 130.5 " /></g>
+</g>
+<text x="210" y="157" text-anchor="middle" font-size="3.5">Hülle 261.000 × 20.000 mm · Maßstab 0.429:1</text>
+<text x="344" y="39" text-anchor="middle" font-size="4">Seitenansicht</text>
+<g transform="translate(344,96) scale(2.24)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M -10 -25 L -2 -25 " />
+<path id= "2" d=" M -10 25 L -2 25 " />
+</g>
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M -2 -20 L 10 -20 " />
+<path id= "2" d=" M 10 -12 L 10 -20 " />
+<path id= "3" d=" M -2 -12 L 10 -12 " />
+<path d="M-2, 25 L-2, 24.8428  L-2, 24.3732  L-2, 23.5971  L-2, 22.5242  L-2, 21.1681  L-2, 19.5458  L-2, 17.6777  L-2, 15.5872  L-2, 13.3008  L-2, 10.8471  L-2, 8.25698  L-2, 5.56302  L-2, 2.79911  L-2, 6.21725e-15 " /><path d="M-2, 0 L-2, -2.79911  L-2, -5.56302  L-2, -8.25698  L-2, -10.8471  L-2, -13.3008  L-2, -15.5872  L-2, -17.6777  L-2, -19.5458  L-2, -21.1681  L-2, -22.5242  L-2, -23.5971  L-2, -24.3732  L-2, -24.8428  L-2, -25 " /><path id= "6" d=" M -2 12 L 10 12 " />
+<path id= "7" d=" M 10 20 L 10 12 " />
+<path id= "8" d=" M -2 20 L 10 20 " />
+<path d="M-10, 0 L-10, -2.79911  L-10, -5.56302  L-10, -8.25698  L-10, -10.8471  L-10, -13.3008  L-10, -15.5872  L-10, -17.6777  L-10, -19.5458  L-10, -21.1681  L-10, -22.5242  L-10, -23.5971  L-10, -24.3732  L-10, -24.8428  L-10, -25 " /><path d="M-10, 25 L-10, 24.8428  L-10, 24.3732  L-10, 23.5971  L-10, 22.5242  L-10, 21.1681  L-10, 19.5458  L-10, 17.6777  L-10, 15.5872  L-10, 13.3008  L-10, 10.8471  L-10, 8.25698  L-10, 5.56302  L-10, 2.79911  L-10, 6.21725e-15 " /></g>
+</g>
+<text x="344" y="157" text-anchor="middle" font-size="3.5">Hülle 50.000 × 20.000 mm · Maßstab 2.24:1</text>
+<text x="14" y="174" font-size="3.1">Menge: 3 · Werkstoff: EN AW-6082 T6</text>
+<text x="14" y="179" font-size="3.1">Verfahren: 5-Achs-Fräsen</text>
+<text x="14" y="184" font-size="3.1">Merkmale: Achsabstand240mm; starre gemeinsame Riemenebene;2×M4 zur Aktorflanschplatte;4×M3PCD30 am Servo</text>
+<text x="14" y="189" font-size="3.1">Offen: Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen</text>
+<text x="14" y="194" font-size="3.1">Unbemaßte Längen ISO2768-1m als Anfragebasis; Funktionspassungen separat nach ISO286.</text>
+<text x="14" y="199" font-size="3.1">Geometrische GPS-Toleranzen/Bezüge nach ISO22081 mit Fertiger abstimmen. STEP enthält Nennmaße.</text>
+<text x="14" y="204" font-size="3.1">Datum01.11.2026 · P13 · Herkunft/Normfamilie und Grenzen siehe Stückliste und Anfrageunterlagen.</text>
+</svg>

@@ -1,0 +1,29 @@
+{
+  "native_sha256": "b515b3350f9fdfe926dde79f6f21dd22c9e83f5de3d2e4e35027a489ad2aeec5",
+  "source_sha256": {
+    "visualisieren.py": "53d23bece861b6334bf237469a20db0e0c4d8969a8a141b15fd89faf2bc9b2cb",
+    "verbindungen.py": "4890a3a93ae6bb2c720714161ed3b5c5af57898c4f8fb415d9ba129f99c0de9c",
+    "scheren.py": "e8830e5ac544d1c9652be12c67afb47493a69d3284b6606d7f58b50821b2ca9e",
+    "anfrage_erstellen.py": "0ebf2f12f6632bff08503f131508a6163ce750c696cb94cd25f19f602fe0f336",
+    "gimbal.py": "859d223f285aa1a397ad8a62c6d4a6a6cd0bd250ba9da732275b4ba6d036d0b8",
+    "gesamt_step.py": "dda5448ea1b7da26afa8a10fa724fe49270c6cab28828acea0976600faddf723",
+    "erstellen.py": "8dbe30c9c0a64309f9f1540d0a956562bce7bde81b124b690ac1bdaaa4fc8ff8",
+    "fahrwerk.py": "3d0d48d8030ad0e460d1e4ce2ed06c9fa1450a860b4f96d77ee378676861022d",
+    "abschluss.py": "688cc82db537a5ae7aad8a0d3dfc8326e675c73eaf110e29fa37a830a9fc982c",
+    "beschaffung.py": "c4c4f4b371bfe4cb8a851b8ef70f1b41500745e7dc92231975d511af795ace5f",
+    "kollisionsgruppen.py": "808bb3d0956049991f7ef40d47279a8ba6425ab43ccbab123d46cb5e10274c9d",
+    "anlenkung.py": "f7c19394a8e3df605af844f354d374e465b07f40610a1ff7f22ce8f71dcbcf62",
+    "spiegeln.py": "f88366d0827de993665e8311b67745250c872865ccf5beb5edc1d0517aa7f10c",
+    "gelenke.py": "41b69dac324a459615ad16bd97af9a1afd52ff2fd4ff79d3f684065c6114c7b7",
+    "paket_erstellen.py": "c2469ee6fbca5915c44dc030a4c4dd347da124fa332d6eacf2fb0cc83068c7cc",
+    "mechanik.py": "af7055a1d3ff98126c1cc7b9474104f22ce101e1380784e9f43e33447bdf7e6b",
+    "kinematik.py": "ed9abed2203fcf29424a717a9859462b06536847b6477a09f7a55ddb23b99ecb",
+    "truss.py": "4e50ab9aadb6859d37aa3bfdcb3534b9d298610651a661f7496364be80886e53",
+    "pruefen.py": "7ac46b3947eb81d959cac62bf40e37e2954228201c5a7858c0a155f86fd4f182",
+    "basis_p12/cfk_rahmen.py": "197b1977fb3c6501019f472c09b49d67ca99097faec5aa81f7b76b0d36589a41",
+    "basis_p12/parameter_schema.py": "477cb70d901bce09585382099f6c26a3511902f3479e6bf81c4e82829e26efb9",
+    "basis_p12/geometrie.py": "571ca8c868ed8dbf51d5059747c5b746116acf88fab7d5c3996897f014346a94",
+    "basis_p12/befestigungen.py": "92a75b5fc37e46c892e69b4022fa78b3884433937fbd02f5a446c0efc4f7e1c6",
+    "parameter.json": "c98d034f5920c0f9264f4b5adc2c381210efe4c2c4b434353b09027b7f090ace"
+  }
+}
