@@ -1,6 +1,14 @@
 # PropBoard
 
-**Mechanischer Ergänzungsstand: P13 – Anfrageentwurf mit Motoranschlüssen, Pitchlagerung, Taumelscheiben, Aktoren, CFK-Flügeln und Fahrwerk.**
+**Leichtbauentwicklung P14: Außenrahmen entfernt, Flügel nur innen gelagert, Zentrum verstärkt und reale PH54-Servos ausgewählt.**
+[Konstruktion und native CAD-Dateien](kreis_r04/mn1330_p14/README.md) ·
+[Animierter parametrischer Entwicklungsprüfstand](kreis_r04/mn1330_p14/P14_Entwicklungspruefstand.html) ·
+[Ergebnis und Massengrenzen](kreis_r04/mn1330_p14/ERGEBNIS.md) ·
+[Offene Freigaben](kreis_r04/mn1330_p14/FREIGABESTATUS.md).
+P14 untersucht 4–12 Blätter je Rotor und 1–4 gegenläufige Rotorpaare mit CAD-Masse/-Trägheit.
+Es ist noch nicht produktionsreif; das aktive H01-Profil bleibt deshalb erhalten.
+
+**Vorheriger Ergänzungsstand P13 – Anfrageentwurf mit Motoranschlüssen, Pitchlagerung, Taumelscheiben, Aktoren, CFK-Flügeln und Fahrwerk.**
 [Ergebnis: 32 offene Überschneidungen](kreis_r04/mn1330_p13/ERGEBNIS.md) ·
 [Entwurf und Prüfgrenzen](kreis_r04/mn1330_p13/README.md) ·
 [Offene Freigabepunkte](kreis_r04/mn1330_p13/FREIGABESTATUS.md).

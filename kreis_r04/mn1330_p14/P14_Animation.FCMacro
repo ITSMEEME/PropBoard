@@ -1,0 +1,10 @@
+from pathlib import Path
+import sys
+import FreeCAD
+try:p14_dir=Path(__file__).resolve().parent
+except NameError:
+    if not FreeCAD.ActiveDocument or not FreeCAD.ActiveDocument.FileName:raise RuntimeError('Zuerst die erzeugte P14-FCStd-Datei öffnen.')
+    p14_dir=Path(FreeCAD.ActiveDocument.FileName).resolve().parent.parent
+if str(p14_dir) not in sys.path:sys.path.insert(0,str(p14_dir))
+import animieren
+animieren.gui()

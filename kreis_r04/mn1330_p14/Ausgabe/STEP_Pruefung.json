@@ -1,0 +1,838 @@
+{
+  "native_sha256": "1133c2ac3aa7ac82faca89303635fb2c1914e8d9de3b080e94a0a3c7cf4d7970",
+  "all_active_single_parts_pass": true,
+  "parts": [
+    {
+      "id": "A01",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 1.1213252548714081e-14,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A02",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 0.0,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A03",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 3.8968828164342995e-14,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "MN1330",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 0.0,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A04",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 2.220446049250313e-16,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A04F",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 1.3322676295501878e-15,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A05",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 0.0,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "B7212",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 0.0,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A06O",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 0.0,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A07",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 0.0,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A08W",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 2.220446049250313e-16,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A08",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 6.661338147750939e-16,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A04W",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 6.661338147750939e-16,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A04N",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 1.7763568394002505e-15,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A09",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 3.23680126022019e-05,
+      "pass": true,
+      "pass_basis": "bidirectional material difference<=0.1mm3 and bbox agreement<1e-5mm; numerical volume integration differs",
+      "bidirectional_cut_difference_mm3": 0.0,
+      "bbox_max_difference_mm": 3.5498715078574605e-11,
+      "difference_shapes_valid": true
+    },
+    {
+      "id": "B7205",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 0.0,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A11",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 1.8207657603852567e-14,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A11O",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 4.18554080283684e-14,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A12",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 0.0,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A13",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 1.6986412276764895e-14,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A13U",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 1.6986412276764895e-14,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A13C",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 0.0,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A13D",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 0.0,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A14",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 0.0,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A14W",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 8.881784197001252e-16,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A14S",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 0.0,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A18S",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 3.3306690738754696e-16,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A18T",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 0.0,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A18W",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 0.0,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "F6_PITCH_END",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 1.3700152123874432e-13,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A16A",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 0.0,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "F6_ROOT",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 1.1102230246251565e-15,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "CFK01",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 3.50941498084012e-13,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A18",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 6.917942845241498e-07,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A18B",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 7.926992395823618e-14,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A19",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 3.885780586188048e-15,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "POM01",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 0.0,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A20",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 2.313704783318826e-13,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A20C",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 3.6637359812630166e-15,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "POM02",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 4.551914400963142e-15,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "POM02U",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 1.5054624213917123e-13,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "B61832",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 0.0,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A21C",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 0.0,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A21",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 2.0683454948766666e-13,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A22",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 0.0,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A24",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 3.3306690738754696e-16,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "SERVO",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 0.0,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A25",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 2.220446049250313e-16,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "B6002",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 0.0,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A26",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 9.103828801926284e-15,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A26K",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 2.886579864025407e-15,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A26S",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 6.661338147750939e-16,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A26N",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 1.2678746941219288e-13,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A27",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 2.4424906541753444e-14,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "KUPP",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 1.2212453270876722e-15,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A28",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 7.571721027943568e-14,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "A29",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 3.581579477440755e-13,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "F5_MOTOR",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 7.771561172376096e-15,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "F6_STATOR",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 3.774758283725532e-15,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "TIE6",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 0.0,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "N6",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 1.20570220474292e-13,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "F6_HUB",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 6.661338147750939e-16,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "W6",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 0.0,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "W4",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 0.0,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "F4_CRADLE",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 4.440892098500626e-16,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "F6_SUPPORT",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 8.881784197001252e-16,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "F4_HOUSING",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 0.0,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "F3_CAP",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 6.661338147750939e-15,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "F3_TAUMEL",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 6.661338147750939e-15,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "F3_CUP",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 4.440892098500626e-15,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "F3_ROOT_CAP",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 6.8833827526759706e-15,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "F6_ROOT_OUT",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 2.6645352591003757e-15,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "W6_ROOT_OUT",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 3.3306690738754696e-15,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "J_GE8_O",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 0.0002004041504073406,
+      "pass": true,
+      "pass_basis": "bidirectional material difference<=0.1mm3 and bbox agreement<1e-5mm; numerical volume integration differs",
+      "bidirectional_cut_difference_mm3": 0.0,
+      "bbox_max_difference_mm": 1.7763568394002505e-15,
+      "difference_shapes_valid": true
+    },
+    {
+      "id": "J_GE8_I",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 1.3873508015183056e-05,
+      "pass": true,
+      "pass_basis": "bidirectional material difference<=0.1mm3 and bbox agreement<1e-5mm; numerical volume integration differs",
+      "bidirectional_cut_difference_mm3": 0.0,
+      "bbox_max_difference_mm": 0.0,
+      "difference_shapes_valid": true
+    },
+    {
+      "id": "J_CLIP16",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 2.298161660974074e-14,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "J_SHIM16",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 1.5543122344752192e-15,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "J_R_ADAPT",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 0.0,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "J_BUSH8",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 0.0,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "J_PIN8",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 2.8407094366800223e-06,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "J_W8",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 3.3306690738754696e-16,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "J_COTTER",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 3.5312740052084735e-06,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "J_SP_L",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 0.0,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "J_SP_R",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 0.0,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "J_EYE_P",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 1.0494636915048261e-07,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "J_EYE_S",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 1.0872566802433425e-07,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "J_JAM6",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 1.1890488593735427e-13,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "J_PTFE_-1",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 6.661338147750939e-16,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "J_R_SP_-1",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 0.0,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "J_PTFE_1",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 8.881784197001252e-16,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "J_R_SP_1",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 0.0,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "ROD_PITCH_0",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 1.0380585280245214e-13,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "ROD_PITCH_1",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 1.0380585280245214e-13,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "ROD_PITCH_2",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 1.0380585280245214e-13,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "ROD_PITCH_3",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 1.0380585280245214e-13,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "ROD_PITCH_4",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 1.0380585280245214e-13,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "ROD_PITCH_5",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 1.0380585280245214e-13,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "ROD_PITCH_6",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 1.0380585280245214e-13,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "ROD_PITCH_7",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 1.0380585280245214e-13,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "ROD_SERVO_0",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 1.2789769243681803e-13,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "ROD_SERVO_1",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 1.2878587085651816e-13,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    },
+    {
+      "id": "ROD_SERVO_2",
+      "valid": true,
+      "solids": 1,
+      "relative_volume_error": 1.2789769243681803e-13,
+      "pass": true,
+      "pass_basis": "valid solid and relative volume<1e-5"
+    }
+  ],
+  "aggregate": {
+    "valid": true,
+    "solids": 1437,
+    "expected_solids": 1437,
+    "relative_volume_error": 4.795915625299685e-06,
+    "pass": true
+  }
+}

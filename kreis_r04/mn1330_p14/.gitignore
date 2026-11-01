@@ -1,0 +1,4 @@
+__pycache__/
+Ausgabe/*.FCBak
+Ausgabe/*.FCStd1
+*.pyc

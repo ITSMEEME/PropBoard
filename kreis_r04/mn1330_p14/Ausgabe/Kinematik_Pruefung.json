@@ -1,0 +1,2831 @@
+{
+  "states": 2160,
+  "max_link_closure_error_mm": 8.824940778140444e-12,
+  "blade_lever_pitch_range_deg": [
+    5.465221037072297,
+    18.773672076999894
+  ],
+  "servo_range_deg": [
+    -35.438408968188924,
+    -23.91123068196703
+  ],
+  "max_phase_slot_radial_offset_mm": 0.010105321608079976,
+  "max_phase_slot_tangent_offset_mm": 0.010105257475413687,
+  "slot_available_centre_travel_mm": [
+    2,
+    0.15
+  ],
+  "passed": true,
+  "scope": "Rigid kinematics, not tolerance/wear/elastic load qualification",
+  "fixtures": [
+    {
+      "config": {
+        "revision": "P14_LEICHTBAU_ENTWICKLUNG",
+        "production_ready": false,
+        "geometry": {
+          "blades_per_rotor": 4,
+          "lift_units": 1,
+          "rotor_radius_mm": 710,
+          "rotor_spacing_mm": 360,
+          "chord_mm": 120,
+          "airfoil_tc": 0.12,
+          "root_tc_min": 0.3,
+          "pitch_axis_fraction": 0.25,
+          "skin_mm": 1.2,
+          "spar_width_mm": 32,
+          "spar_wall_mm": 2,
+          "spar_height_root_mm": 28,
+          "spar_height_tip_mm": 10,
+          "root_bearing_bore_mm": 25,
+          "root_housing_radius_mm": 38,
+          "root_phase_arm_half_width_mm": 4,
+          "root_clearance_mm": 5,
+          "root_min_radius_mm": 95,
+          "blade_root_offset_mm": 82,
+          "motor_diameter_mm": 150,
+          "motor_length_mm": 66,
+          "motor_stator_plate_z_mm": 14,
+          "motor_stator_pcd_mm": 50,
+          "motor_rotor_pcd_mm": 40,
+          "motor_stator_engagement_assumed_mm": 6,
+          "motor_rotor_engagement_assumed_mm": 4,
+          "swash_z_mm": 120,
+          "swash_joint_r_mm": 130,
+          "servo_r_mm": 245,
+          "servo_swash_x_mm": 165,
+          "servo_z_mm": 80,
+          "servo_horn_mm": 28,
+          "servo_joint_y_mm": -40,
+          "servo_neutral_deg": -30,
+          "servo_min_deg": -80,
+          "servo_max_deg": 35,
+          "pitch_lever_mm": 42,
+          "pitch_rod_port_radius_mm": 15,
+          "pitch_link_envelope_radius_mm": 6,
+          "neutral_pitch_deg": 12,
+          "pitch_limits_deg": [
+            4,
+            20
+          ],
+          "collective_limits_mm": [
+            -3.5,
+            3.5
+          ],
+          "cyclic_limit_deg": 0.5,
+          "unit_disk_clearance_mm": 80
+        },
+        "operating": {
+          "rpm": 850,
+          "payload_kg": 100,
+          "motor_mass_each_kg": 2.75,
+          "motor_mass_source": "Nutzer-XLS:2750g inklusive Kabel; nicht selbst gewogen",
+          "battery_mass_assumed_kg": 12,
+          "electronics_mass_assumed_kg": 2,
+          "design_total_mass_case_kg": 150,
+          "load_factor": 2,
+          "cfk_density_assumed_kg_m3": 1600,
+          "cfk_axial_modulus_screen_Pa": 90000000000,
+          "cfk_modulus_range_Pa": [
+            70000000000,
+            110000000000
+          ],
+          "aluminium_density_kg_m3": 2810,
+          "motor_continuous_torque_Nm": null,
+          "motor_peak_torque_Nm": null,
+          "motor_power_limit_W": null,
+          "motor_kv_reference": 40,
+          "motor_torque_limit_assumption_Nm": 46.25,
+          "motor_default_mode": "conservative_spec",
+          "motor_conflicting_180s_power_W": 3400,
+          "motor_short_time_reference_s": 180,
+          "motor_bench_peak_input_W": 16270,
+          "motor_bench_max_recorded_torque_Nm": 46.25,
+          "motor_spinup_s_assumed": 3,
+          "battery_voltage_assumption_V": 92,
+          "battery_series_cells": 24,
+          "motor_efficiency_assumption": 0.82
+        },
+        "servo": {
+          "model": "ROBOTIS DYNAMIXEL PH54-200-S500-R",
+          "supply_V": 24,
+          "mass_kg": 0.855,
+          "body_mm": [
+            54,
+            126,
+            54
+          ],
+          "stall_torque_Nm": null,
+          "continuous_current_A": 9.3,
+          "no_load_speed_rpm": 33.1,
+          "continuous_speed_rpm": 29,
+          "external_radial_load_limit_N_at_10mm": 370,
+          "axial_load_limit_N": 130,
+          "backlash_deg": 0.1,
+          "continuous_torque_Nm": 44.7,
+          "axis_from_case_top_assumed_mm": 27,
+          "coupling_plane_assumed_mm": -8,
+          "thermal_torque_screen_fraction": 1.0,
+          "protocol": "RS485 DYNAMIXEL Protocol2.0; kein direktes PWM-Servo",
+          "oem_step_status": "Download www.robotis.com 403; Nennmassmodell statt behauptetem Original-CAD",
+          "horn_interface_status": "OEM-Horn/Flanschmasse und Klemmung vor Fertigung bestaetigen",
+          "source": "ROBOTIS-GIT/emanual _data/dxl_p_info.yml und docs/en/dxl/p/ph54-200-s500-r.md; XH540 verworfen wegen Lastscreen"
+        }
+      },
+      "inputs": [
+        3.5,
+        0.5,
+        0,
+        0
+      ],
+      "solution": {
+        "pitches_deg": [
+          17.267809808125996,
+          17.853361053013025,
+          15.85285009630115,
+          15.270151805526442
+        ],
+        "servo_deg": [
+          -25.96102559797418,
+          -23.91123068196703,
+          -26.5754825654194
+        ],
+        "servo_points_mm": [
+          [
+            [
+              219.82542309679783,
+              -40.0,
+              67.74272959649008
+            ],
+            [
+              164.95721919153416,
+              -40.0,
+              103.15016372065492
+            ]
+          ],
+          [
+            [
+              -75.06054049993998,
+              210.00866978947755,
+              68.65101804555728
+            ],
+            [
+              -47.68512058636885,
+              163.11349886021554,
+              104.92270837172644
+            ]
+          ],
+          [
+            [
+              -144.62017557377726,
+              -170.4894918933135,
+              67.47345997805999
+            ],
+            [
+              -117.27209860516533,
+              -122.58990673031303,
+              102.42941252376836
+            ]
+          ]
+        ],
+        "pitch_points_mm": [
+          [
+            [
+              114.01561619909505,
+              62.45111876375551,
+              124.04500265683627
+            ],
+            [
+              75.0,
+              40.106964298792796,
+              192.46721359147102
+            ]
+          ],
+          [
+            [
+              -62.45349680154549,
+              114.01127483379356,
+              124.49496132213038
+            ],
+            [
+              -39.97745966985662,
+              75.0,
+              192.8764404376748
+            ]
+          ],
+          [
+            [
+              -114.01561619909505,
+              -62.451118763755495,
+              122.95499734316373
+            ],
+            [
+              -75.0,
+              -40.4025900889669,
+              191.47304293127647
+            ]
+          ],
+          [
+            [
+              62.45349680154548,
+              -114.01127483379358,
+              122.50503867786962
+            ],
+            [
+              40.51717958565641,
+              -75.00000000000001,
+              191.06156220538793
+            ]
+          ]
+        ],
+        "stationary_phase_deg": -0.06114442444801006,
+        "swash_z_mm": 123.5,
+        "tilt_deg": [
+          0.5,
+          0
+        ]
+      }
+    },
+    {
+      "config": {
+        "revision": "P14_LEICHTBAU_ENTWICKLUNG",
+        "production_ready": false,
+        "geometry": {
+          "blades_per_rotor": 4,
+          "lift_units": 1,
+          "rotor_radius_mm": 710,
+          "rotor_spacing_mm": 360,
+          "chord_mm": 120,
+          "airfoil_tc": 0.12,
+          "root_tc_min": 0.3,
+          "pitch_axis_fraction": 0.25,
+          "skin_mm": 1.2,
+          "spar_width_mm": 32,
+          "spar_wall_mm": 2,
+          "spar_height_root_mm": 28,
+          "spar_height_tip_mm": 10,
+          "root_bearing_bore_mm": 25,
+          "root_housing_radius_mm": 38,
+          "root_phase_arm_half_width_mm": 4,
+          "root_clearance_mm": 5,
+          "root_min_radius_mm": 95,
+          "blade_root_offset_mm": 82,
+          "motor_diameter_mm": 150,
+          "motor_length_mm": 66,
+          "motor_stator_plate_z_mm": 14,
+          "motor_stator_pcd_mm": 50,
+          "motor_rotor_pcd_mm": 40,
+          "motor_stator_engagement_assumed_mm": 6,
+          "motor_rotor_engagement_assumed_mm": 4,
+          "swash_z_mm": 120,
+          "swash_joint_r_mm": 130,
+          "servo_r_mm": 245,
+          "servo_swash_x_mm": 165,
+          "servo_z_mm": 80,
+          "servo_horn_mm": 28,
+          "servo_joint_y_mm": -40,
+          "servo_neutral_deg": -30,
+          "servo_min_deg": -80,
+          "servo_max_deg": 35,
+          "pitch_lever_mm": 42,
+          "pitch_rod_port_radius_mm": 15,
+          "pitch_link_envelope_radius_mm": 6,
+          "neutral_pitch_deg": 12,
+          "pitch_limits_deg": [
+            4,
+            20
+          ],
+          "collective_limits_mm": [
+            -3.5,
+            3.5
+          ],
+          "cyclic_limit_deg": 0.5,
+          "unit_disk_clearance_mm": 80
+        },
+        "operating": {
+          "rpm": 850,
+          "payload_kg": 100,
+          "motor_mass_each_kg": 2.75,
+          "motor_mass_source": "Nutzer-XLS:2750g inklusive Kabel; nicht selbst gewogen",
+          "battery_mass_assumed_kg": 12,
+          "electronics_mass_assumed_kg": 2,
+          "design_total_mass_case_kg": 150,
+          "load_factor": 2,
+          "cfk_density_assumed_kg_m3": 1600,
+          "cfk_axial_modulus_screen_Pa": 90000000000,
+          "cfk_modulus_range_Pa": [
+            70000000000,
+            110000000000
+          ],
+          "aluminium_density_kg_m3": 2810,
+          "motor_continuous_torque_Nm": null,
+          "motor_peak_torque_Nm": null,
+          "motor_power_limit_W": null,
+          "motor_kv_reference": 40,
+          "motor_torque_limit_assumption_Nm": 46.25,
+          "motor_default_mode": "conservative_spec",
+          "motor_conflicting_180s_power_W": 3400,
+          "motor_short_time_reference_s": 180,
+          "motor_bench_peak_input_W": 16270,
+          "motor_bench_max_recorded_torque_Nm": 46.25,
+          "motor_spinup_s_assumed": 3,
+          "battery_voltage_assumption_V": 92,
+          "battery_series_cells": 24,
+          "motor_efficiency_assumption": 0.82
+        },
+        "servo": {
+          "model": "ROBOTIS DYNAMIXEL PH54-200-S500-R",
+          "supply_V": 24,
+          "mass_kg": 0.855,
+          "body_mm": [
+            54,
+            126,
+            54
+          ],
+          "stall_torque_Nm": null,
+          "continuous_current_A": 9.3,
+          "no_load_speed_rpm": 33.1,
+          "continuous_speed_rpm": 29,
+          "external_radial_load_limit_N_at_10mm": 370,
+          "axial_load_limit_N": 130,
+          "backlash_deg": 0.1,
+          "continuous_torque_Nm": 44.7,
+          "axis_from_case_top_assumed_mm": 27,
+          "coupling_plane_assumed_mm": -8,
+          "thermal_torque_screen_fraction": 1.0,
+          "protocol": "RS485 DYNAMIXEL Protocol2.0; kein direktes PWM-Servo",
+          "oem_step_status": "Download www.robotis.com 403; Nennmassmodell statt behauptetem Original-CAD",
+          "horn_interface_status": "OEM-Horn/Flanschmasse und Klemmung vor Fertigung bestaetigen",
+          "source": "ROBOTIS-GIT/emanual _data/dxl_p_info.yml und docs/en/dxl/p/ph54-200-s500-r.md; XH540 verworfen wegen Lastscreen"
+        }
+      },
+      "inputs": [
+        3.5,
+        0.5,
+        0,
+        90
+      ],
+      "solution": {
+        "pitches_deg": [
+          17.853361053013025,
+          15.85285009630115,
+          15.270151805526442,
+          17.267809808125996
+        ],
+        "servo_deg": [
+          -25.96102559797418,
+          -23.91123068196703,
+          -26.5754825654194
+        ],
+        "servo_points_mm": [
+          [
+            [
+              219.82542309679783,
+              -40.0,
+              67.74272959649008
+            ],
+            [
+              164.95721919153416,
+              -40.0,
+              103.15016372065492
+            ]
+          ],
+          [
+            [
+              -75.06054049993998,
+              210.00866978947755,
+              68.65101804555728
+            ],
+            [
+              -47.68512058636885,
+              163.11349886021554,
+              104.92270837172644
+            ]
+          ],
+          [
+            [
+              -144.62017557377726,
+              -170.4894918933135,
+              67.47345997805999
+            ],
+            [
+              -117.27209860516533,
+              -122.58990673031303,
+              102.42941252376836
+            ]
+          ]
+        ],
+        "pitch_points_mm": [
+          [
+            [
+              -62.45349680154549,
+              114.01127483379356,
+              124.49496132213038
+            ],
+            [
+              -39.97745966985662,
+              75.0,
+              192.8764404376748
+            ]
+          ],
+          [
+            [
+              -114.01561619909505,
+              -62.451118763755495,
+              122.95499734316373
+            ],
+            [
+              -75.0,
+              -40.4025900889669,
+              191.47304293127647
+            ]
+          ],
+          [
+            [
+              62.45349680154548,
+              -114.01127483379358,
+              122.50503867786962
+            ],
+            [
+              40.51717958565641,
+              -75.00000000000001,
+              191.06156220538793
+            ]
+          ],
+          [
+            [
+              114.01561619909506,
+              62.45111876375548,
+              124.04500265683627
+            ],
+            [
+              75.00000000000001,
+              40.106964298792775,
+              192.46721359147102
+            ]
+          ]
+        ],
+        "stationary_phase_deg": -0.06114442444801006,
+        "swash_z_mm": 123.5,
+        "tilt_deg": [
+          0.5,
+          0
+        ]
+      }
+    },
+    {
+      "config": {
+        "revision": "P14_LEICHTBAU_ENTWICKLUNG",
+        "production_ready": false,
+        "geometry": {
+          "blades_per_rotor": 6,
+          "lift_units": 1,
+          "rotor_radius_mm": 710,
+          "rotor_spacing_mm": 360,
+          "chord_mm": 120,
+          "airfoil_tc": 0.12,
+          "root_tc_min": 0.3,
+          "pitch_axis_fraction": 0.25,
+          "skin_mm": 1.2,
+          "spar_width_mm": 32,
+          "spar_wall_mm": 2,
+          "spar_height_root_mm": 28,
+          "spar_height_tip_mm": 10,
+          "root_bearing_bore_mm": 25,
+          "root_housing_radius_mm": 38,
+          "root_phase_arm_half_width_mm": 4,
+          "root_clearance_mm": 5,
+          "root_min_radius_mm": 95,
+          "blade_root_offset_mm": 82,
+          "motor_diameter_mm": 150,
+          "motor_length_mm": 66,
+          "motor_stator_plate_z_mm": 14,
+          "motor_stator_pcd_mm": 50,
+          "motor_rotor_pcd_mm": 40,
+          "motor_stator_engagement_assumed_mm": 6,
+          "motor_rotor_engagement_assumed_mm": 4,
+          "swash_z_mm": 120,
+          "swash_joint_r_mm": 130,
+          "servo_r_mm": 245,
+          "servo_swash_x_mm": 165,
+          "servo_z_mm": 80,
+          "servo_horn_mm": 28,
+          "servo_joint_y_mm": -40,
+          "servo_neutral_deg": -30,
+          "servo_min_deg": -80,
+          "servo_max_deg": 35,
+          "pitch_lever_mm": 42,
+          "pitch_rod_port_radius_mm": 15,
+          "pitch_link_envelope_radius_mm": 6,
+          "neutral_pitch_deg": 12,
+          "pitch_limits_deg": [
+            4,
+            20
+          ],
+          "collective_limits_mm": [
+            -3.5,
+            3.5
+          ],
+          "cyclic_limit_deg": 0.5,
+          "unit_disk_clearance_mm": 80
+        },
+        "operating": {
+          "rpm": 850,
+          "payload_kg": 100,
+          "motor_mass_each_kg": 2.75,
+          "motor_mass_source": "Nutzer-XLS:2750g inklusive Kabel; nicht selbst gewogen",
+          "battery_mass_assumed_kg": 12,
+          "electronics_mass_assumed_kg": 2,
+          "design_total_mass_case_kg": 150,
+          "load_factor": 2,
+          "cfk_density_assumed_kg_m3": 1600,
+          "cfk_axial_modulus_screen_Pa": 90000000000,
+          "cfk_modulus_range_Pa": [
+            70000000000,
+            110000000000
+          ],
+          "aluminium_density_kg_m3": 2810,
+          "motor_continuous_torque_Nm": null,
+          "motor_peak_torque_Nm": null,
+          "motor_power_limit_W": null,
+          "motor_kv_reference": 40,
+          "motor_torque_limit_assumption_Nm": 46.25,
+          "motor_default_mode": "conservative_spec",
+          "motor_conflicting_180s_power_W": 3400,
+          "motor_short_time_reference_s": 180,
+          "motor_bench_peak_input_W": 16270,
+          "motor_bench_max_recorded_torque_Nm": 46.25,
+          "motor_spinup_s_assumed": 3,
+          "battery_voltage_assumption_V": 92,
+          "battery_series_cells": 24,
+          "motor_efficiency_assumption": 0.82
+        },
+        "servo": {
+          "model": "ROBOTIS DYNAMIXEL PH54-200-S500-R",
+          "supply_V": 24,
+          "mass_kg": 0.855,
+          "body_mm": [
+            54,
+            126,
+            54
+          ],
+          "stall_torque_Nm": null,
+          "continuous_current_A": 9.3,
+          "no_load_speed_rpm": 33.1,
+          "continuous_speed_rpm": 29,
+          "external_radial_load_limit_N_at_10mm": 370,
+          "axial_load_limit_N": 130,
+          "backlash_deg": 0.1,
+          "continuous_torque_Nm": 44.7,
+          "axis_from_case_top_assumed_mm": 27,
+          "coupling_plane_assumed_mm": -8,
+          "thermal_torque_screen_fraction": 1.0,
+          "protocol": "RS485 DYNAMIXEL Protocol2.0; kein direktes PWM-Servo",
+          "oem_step_status": "Download www.robotis.com 403; Nennmassmodell statt behauptetem Original-CAD",
+          "horn_interface_status": "OEM-Horn/Flanschmasse und Klemmung vor Fertigung bestaetigen",
+          "source": "ROBOTIS-GIT/emanual _data/dxl_p_info.yml und docs/en/dxl/p/ph54-200-s500-r.md; XH540 verworfen wegen Lastscreen"
+        }
+      },
+      "inputs": [
+        3.5,
+        0.5,
+        0,
+        0
+      ],
+      "solution": {
+        "pitches_deg": [
+          17.267809808125996,
+          18.03476225100621,
+          17.3251707982572,
+          15.85285009630115,
+          15.090080957174898,
+          15.795585794206088
+        ],
+        "servo_deg": [
+          -25.96102559797418,
+          -23.91123068196703,
+          -26.5754825654194
+        ],
+        "servo_points_mm": [
+          [
+            [
+              219.82542309679783,
+              -40.0,
+              67.74272959649008
+            ],
+            [
+              164.95721919153416,
+              -40.0,
+              103.15016372065492
+            ]
+          ],
+          [
+            [
+              -75.06054049993998,
+              210.00866978947755,
+              68.65101804555728
+            ],
+            [
+              -47.68512058636885,
+              163.11349886021554,
+              104.92270837172644
+            ]
+          ],
+          [
+            [
+              -144.62017557377726,
+              -170.4894918933135,
+              67.47345997805999
+            ],
+            [
+              -117.27209860516533,
+              -122.58990673031303,
+              102.42941252376836
+            ]
+          ]
+        ],
+        "pitch_points_mm": [
+          [
+            [
+              114.01561619909505,
+              62.45111876375551,
+              124.04500265683627
+            ],
+            [
+              75.0,
+              40.106964298792796,
+              192.46721359147102
+            ]
+          ],
+          [
+            [
+              2.9214933142389476,
+              129.96221970579242,
+              124.634163109166
+            ],
+            [
+              2.913983439180761,
+              84.92015125541874,
+              193.00294625356045
+            ]
+          ],
+          [
+            [
+              -111.0941228848561,
+              67.51110094203695,
+              124.08916045232972
+            ],
+            [
+              -72.22282333476268,
+              44.904673884483856,
+              192.50735994859878
+            ]
+          ],
+          [
+            [
+              -114.01561619909505,
+              -62.451118763755495,
+              122.95499734316373
+            ],
+            [
+              -75.0,
+              -40.4025900889669,
+              191.47304293127647
+            ]
+          ],
+          [
+            [
+              -2.9214933142389925,
+              -129.96221970579242,
+              122.365836890834
+            ],
+            [
+              -2.38115950443116,
+              -85.22777729757712,
+              190.93416921073816
+            ]
+          ],
+          [
+            [
+              111.09412288485612,
+              -67.51110094203692,
+              122.91083954767028
+            ],
+            [
+              72.49958240644702,
+              -44.74488695994623,
+              191.43265681425072
+            ]
+          ]
+        ],
+        "stationary_phase_deg": -0.06114442444801006,
+        "swash_z_mm": 123.5,
+        "tilt_deg": [
+          0.5,
+          0
+        ]
+      }
+    },
+    {
+      "config": {
+        "revision": "P14_LEICHTBAU_ENTWICKLUNG",
+        "production_ready": false,
+        "geometry": {
+          "blades_per_rotor": 6,
+          "lift_units": 1,
+          "rotor_radius_mm": 710,
+          "rotor_spacing_mm": 360,
+          "chord_mm": 120,
+          "airfoil_tc": 0.12,
+          "root_tc_min": 0.3,
+          "pitch_axis_fraction": 0.25,
+          "skin_mm": 1.2,
+          "spar_width_mm": 32,
+          "spar_wall_mm": 2,
+          "spar_height_root_mm": 28,
+          "spar_height_tip_mm": 10,
+          "root_bearing_bore_mm": 25,
+          "root_housing_radius_mm": 38,
+          "root_phase_arm_half_width_mm": 4,
+          "root_clearance_mm": 5,
+          "root_min_radius_mm": 95,
+          "blade_root_offset_mm": 82,
+          "motor_diameter_mm": 150,
+          "motor_length_mm": 66,
+          "motor_stator_plate_z_mm": 14,
+          "motor_stator_pcd_mm": 50,
+          "motor_rotor_pcd_mm": 40,
+          "motor_stator_engagement_assumed_mm": 6,
+          "motor_rotor_engagement_assumed_mm": 4,
+          "swash_z_mm": 120,
+          "swash_joint_r_mm": 130,
+          "servo_r_mm": 245,
+          "servo_swash_x_mm": 165,
+          "servo_z_mm": 80,
+          "servo_horn_mm": 28,
+          "servo_joint_y_mm": -40,
+          "servo_neutral_deg": -30,
+          "servo_min_deg": -80,
+          "servo_max_deg": 35,
+          "pitch_lever_mm": 42,
+          "pitch_rod_port_radius_mm": 15,
+          "pitch_link_envelope_radius_mm": 6,
+          "neutral_pitch_deg": 12,
+          "pitch_limits_deg": [
+            4,
+            20
+          ],
+          "collective_limits_mm": [
+            -3.5,
+            3.5
+          ],
+          "cyclic_limit_deg": 0.5,
+          "unit_disk_clearance_mm": 80
+        },
+        "operating": {
+          "rpm": 850,
+          "payload_kg": 100,
+          "motor_mass_each_kg": 2.75,
+          "motor_mass_source": "Nutzer-XLS:2750g inklusive Kabel; nicht selbst gewogen",
+          "battery_mass_assumed_kg": 12,
+          "electronics_mass_assumed_kg": 2,
+          "design_total_mass_case_kg": 150,
+          "load_factor": 2,
+          "cfk_density_assumed_kg_m3": 1600,
+          "cfk_axial_modulus_screen_Pa": 90000000000,
+          "cfk_modulus_range_Pa": [
+            70000000000,
+            110000000000
+          ],
+          "aluminium_density_kg_m3": 2810,
+          "motor_continuous_torque_Nm": null,
+          "motor_peak_torque_Nm": null,
+          "motor_power_limit_W": null,
+          "motor_kv_reference": 40,
+          "motor_torque_limit_assumption_Nm": 46.25,
+          "motor_default_mode": "conservative_spec",
+          "motor_conflicting_180s_power_W": 3400,
+          "motor_short_time_reference_s": 180,
+          "motor_bench_peak_input_W": 16270,
+          "motor_bench_max_recorded_torque_Nm": 46.25,
+          "motor_spinup_s_assumed": 3,
+          "battery_voltage_assumption_V": 92,
+          "battery_series_cells": 24,
+          "motor_efficiency_assumption": 0.82
+        },
+        "servo": {
+          "model": "ROBOTIS DYNAMIXEL PH54-200-S500-R",
+          "supply_V": 24,
+          "mass_kg": 0.855,
+          "body_mm": [
+            54,
+            126,
+            54
+          ],
+          "stall_torque_Nm": null,
+          "continuous_current_A": 9.3,
+          "no_load_speed_rpm": 33.1,
+          "continuous_speed_rpm": 29,
+          "external_radial_load_limit_N_at_10mm": 370,
+          "axial_load_limit_N": 130,
+          "backlash_deg": 0.1,
+          "continuous_torque_Nm": 44.7,
+          "axis_from_case_top_assumed_mm": 27,
+          "coupling_plane_assumed_mm": -8,
+          "thermal_torque_screen_fraction": 1.0,
+          "protocol": "RS485 DYNAMIXEL Protocol2.0; kein direktes PWM-Servo",
+          "oem_step_status": "Download www.robotis.com 403; Nennmassmodell statt behauptetem Original-CAD",
+          "horn_interface_status": "OEM-Horn/Flanschmasse und Klemmung vor Fertigung bestaetigen",
+          "source": "ROBOTIS-GIT/emanual _data/dxl_p_info.yml und docs/en/dxl/p/ph54-200-s500-r.md; XH540 verworfen wegen Lastscreen"
+        }
+      },
+      "inputs": [
+        3.5,
+        0.5,
+        0,
+        90
+      ],
+      "solution": {
+        "pitches_deg": [
+          17.853361053013025,
+          16.592759090221993,
+          15.303183850694952,
+          15.270151805526442,
+          16.526570547351184,
+          17.820233358378562
+        ],
+        "servo_deg": [
+          -25.96102559797418,
+          -23.91123068196703,
+          -26.5754825654194
+        ],
+        "servo_points_mm": [
+          [
+            [
+              219.82542309679783,
+              -40.0,
+              67.74272959649008
+            ],
+            [
+              164.95721919153416,
+              -40.0,
+              103.15016372065492
+            ]
+          ],
+          [
+            [
+              -75.06054049993998,
+              210.00866978947755,
+              68.65101804555728
+            ],
+            [
+              -47.68512058636885,
+              163.11349886021554,
+              104.92270837172644
+            ]
+          ],
+          [
+            [
+              -144.62017557377726,
+              -170.4894918933135,
+              67.47345997805999
+            ],
+            [
+              -117.27209860516533,
+              -122.58990673031303,
+              102.42941252376836
+            ]
+          ]
+        ],
+        "pitch_points_mm": [
+          [
+            [
+              -62.45349680154549,
+              114.01127483379356,
+              124.49496132213038
+            ],
+            [
+              -39.97745966985662,
+              75.0,
+              192.8764404376748
+            ]
+          ],
+          [
+            [
+              -129.9671684573256,
+              2.921382072725477,
+              123.52549451511497
+            ],
+            [
+              -85.07743738440237,
+              2.641555872455278,
+              191.993824689222
+            ]
+          ],
+          [
+            [
+              -67.5136716557801,
+              -111.0898927610681,
+              122.53053319298459
+            ],
+            [
+              -44.69650745209736,
+              -72.58337817208644,
+              191.0849192469992
+            ]
+          ],
+          [
+            [
+              62.45349680154548,
+              -114.01127483379358,
+              122.50503867786962
+            ],
+            [
+              40.51717958565641,
+              -75.00000000000001,
+              191.06156220538793
+            ]
+          ],
+          [
+            [
+              129.9671684573256,
+              -2.9213820727255504,
+              123.47450548488503
+            ],
+            [
+              85.08435163516309,
+              -2.629580038841482,
+              191.94731834527087
+            ]
+          ],
+          [
+            [
+              67.51367165578012,
+              111.08989276106809,
+              124.46946680701541
+            ],
+            [
+              44.95945629277951,
+              72.12793742023362,
+              192.85332382539679
+            ]
+          ]
+        ],
+        "stationary_phase_deg": -0.06114442444801006,
+        "swash_z_mm": 123.5,
+        "tilt_deg": [
+          0.5,
+          0
+        ]
+      }
+    },
+    {
+      "config": {
+        "revision": "P14_LEICHTBAU_ENTWICKLUNG",
+        "production_ready": false,
+        "geometry": {
+          "blades_per_rotor": 8,
+          "lift_units": 1,
+          "rotor_radius_mm": 710,
+          "rotor_spacing_mm": 360,
+          "chord_mm": 120,
+          "airfoil_tc": 0.12,
+          "root_tc_min": 0.3,
+          "pitch_axis_fraction": 0.25,
+          "skin_mm": 1.2,
+          "spar_width_mm": 32,
+          "spar_wall_mm": 2,
+          "spar_height_root_mm": 28,
+          "spar_height_tip_mm": 10,
+          "root_bearing_bore_mm": 25,
+          "root_housing_radius_mm": 38,
+          "root_phase_arm_half_width_mm": 4,
+          "root_clearance_mm": 5,
+          "root_min_radius_mm": 95,
+          "blade_root_offset_mm": 82,
+          "motor_diameter_mm": 150,
+          "motor_length_mm": 66,
+          "motor_stator_plate_z_mm": 14,
+          "motor_stator_pcd_mm": 50,
+          "motor_rotor_pcd_mm": 40,
+          "motor_stator_engagement_assumed_mm": 6,
+          "motor_rotor_engagement_assumed_mm": 4,
+          "swash_z_mm": 120,
+          "swash_joint_r_mm": 130,
+          "servo_r_mm": 245,
+          "servo_swash_x_mm": 165,
+          "servo_z_mm": 80,
+          "servo_horn_mm": 28,
+          "servo_joint_y_mm": -40,
+          "servo_neutral_deg": -30,
+          "servo_min_deg": -80,
+          "servo_max_deg": 35,
+          "pitch_lever_mm": 42,
+          "pitch_rod_port_radius_mm": 15,
+          "pitch_link_envelope_radius_mm": 6,
+          "neutral_pitch_deg": 12,
+          "pitch_limits_deg": [
+            4,
+            20
+          ],
+          "collective_limits_mm": [
+            -3.5,
+            3.5
+          ],
+          "cyclic_limit_deg": 0.5,
+          "unit_disk_clearance_mm": 80
+        },
+        "operating": {
+          "rpm": 850,
+          "payload_kg": 100,
+          "motor_mass_each_kg": 2.75,
+          "motor_mass_source": "Nutzer-XLS:2750g inklusive Kabel; nicht selbst gewogen",
+          "battery_mass_assumed_kg": 12,
+          "electronics_mass_assumed_kg": 2,
+          "design_total_mass_case_kg": 150,
+          "load_factor": 2,
+          "cfk_density_assumed_kg_m3": 1600,
+          "cfk_axial_modulus_screen_Pa": 90000000000,
+          "cfk_modulus_range_Pa": [
+            70000000000,
+            110000000000
+          ],
+          "aluminium_density_kg_m3": 2810,
+          "motor_continuous_torque_Nm": null,
+          "motor_peak_torque_Nm": null,
+          "motor_power_limit_W": null,
+          "motor_kv_reference": 40,
+          "motor_torque_limit_assumption_Nm": 46.25,
+          "motor_default_mode": "conservative_spec",
+          "motor_conflicting_180s_power_W": 3400,
+          "motor_short_time_reference_s": 180,
+          "motor_bench_peak_input_W": 16270,
+          "motor_bench_max_recorded_torque_Nm": 46.25,
+          "motor_spinup_s_assumed": 3,
+          "battery_voltage_assumption_V": 92,
+          "battery_series_cells": 24,
+          "motor_efficiency_assumption": 0.82
+        },
+        "servo": {
+          "model": "ROBOTIS DYNAMIXEL PH54-200-S500-R",
+          "supply_V": 24,
+          "mass_kg": 0.855,
+          "body_mm": [
+            54,
+            126,
+            54
+          ],
+          "stall_torque_Nm": null,
+          "continuous_current_A": 9.3,
+          "no_load_speed_rpm": 33.1,
+          "continuous_speed_rpm": 29,
+          "external_radial_load_limit_N_at_10mm": 370,
+          "axial_load_limit_N": 130,
+          "backlash_deg": 0.1,
+          "continuous_torque_Nm": 44.7,
+          "axis_from_case_top_assumed_mm": 27,
+          "coupling_plane_assumed_mm": -8,
+          "thermal_torque_screen_fraction": 1.0,
+          "protocol": "RS485 DYNAMIXEL Protocol2.0; kein direktes PWM-Servo",
+          "oem_step_status": "Download www.robotis.com 403; Nennmassmodell statt behauptetem Original-CAD",
+          "horn_interface_status": "OEM-Horn/Flanschmasse und Klemmung vor Fertigung bestaetigen",
+          "source": "ROBOTIS-GIT/emanual _data/dxl_p_info.yml und docs/en/dxl/p/ph54-200-s500-r.md; XH540 verworfen wegen Lastscreen"
+        }
+      },
+      "inputs": [
+        3.5,
+        0.5,
+        0,
+        0
+      ],
+      "solution": {
+        "pitches_deg": [
+          17.357059883278446,
+          18.19197475179225,
+          18.18452292088568,
+          17.33924583456882,
+          16.155720625295547,
+          15.32695914752639,
+          15.334221939668168,
+          16.17334714707704
+        ],
+        "servo_deg": [
+          -25.96102559797418,
+          -23.91123068196703,
+          -26.5754825654194
+        ],
+        "servo_points_mm": [
+          [
+            [
+              219.82542309679783,
+              -40.0,
+              67.74272959649008
+            ],
+            [
+              164.95721919153416,
+              -40.0,
+              103.15016372065492
+            ]
+          ],
+          [
+            [
+              -75.06054049993998,
+              210.00866978947755,
+              68.65101804555728
+            ],
+            [
+              -47.68512058636885,
+              163.11349886021554,
+              104.92270837172644
+            ]
+          ],
+          [
+            [
+              -144.62017557377726,
+              -170.4894918933135,
+              67.47345997805999
+            ],
+            [
+              -117.27209860516533,
+              -122.58990673031303,
+              102.42941252376836
+            ]
+          ]
+        ],
+        "pitch_points_mm": [
+          [
+            [
+              119.79367767045535,
+              50.49040147896871,
+              123.94062305840929
+            ],
+            [
+              97.46803743153548,
+              40.08749537359751,
+              192.5296733665247
+            ]
+          ],
+          [
+            [
+              49.003457074908304,
+              120.40580171463799,
+              124.55076551280396
+            ],
+            [
+              40.70628070770197,
+              97.134339725864,
+              193.11247793978745
+            ]
+          ],
+          [
+            [
+              -50.492324071952225,
+              119.78911629427802,
+              124.545383780672
+            ],
+            [
+              -39.90236823903235,
+              97.46803743153548,
+              193.10728838916202
+            ]
+          ],
+          [
+            [
+              -120.41038657320064,
+              49.001591173417886,
+              123.92763040770723
+            ],
+            [
+              -97.26920330551933,
+              40.57141712804663,
+              192.51720900547696
+            ]
+          ],
+          [
+            [
+              -119.79367767045535,
+              -50.49040147896869,
+              123.05937694159071
+            ],
+            [
+              -97.46803743153548,
+              -40.34137837962413,
+              191.6864532871181
+            ]
+          ],
+          [
+            [
+              -49.00345707490832,
+              -120.40580171463799,
+              122.44923448719604
+            ],
+            [
+              -40.27810688456616,
+              -97.56251354899983,
+              191.10172853892098
+            ]
+          ],
+          [
+            [
+              50.49232407195221,
+              -119.78911629427802,
+              122.454616219328
+            ],
+            [
+              40.50478483217989,
+              -97.46803743153549,
+              191.10686299991175
+            ]
+          ],
+          [
+            [
+              120.41038657320064,
+              -49.0015911734179,
+              123.07236959229277
+            ],
+            [
+              97.44342886985669,
+              -40.39719156370929,
+              191.6988633894647
+            ]
+          ]
+        ],
+        "stationary_phase_deg": -0.06114442444801006,
+        "swash_z_mm": 123.5,
+        "tilt_deg": [
+          0.5,
+          0
+        ]
+      }
+    },
+    {
+      "config": {
+        "revision": "P14_LEICHTBAU_ENTWICKLUNG",
+        "production_ready": false,
+        "geometry": {
+          "blades_per_rotor": 8,
+          "lift_units": 1,
+          "rotor_radius_mm": 710,
+          "rotor_spacing_mm": 360,
+          "chord_mm": 120,
+          "airfoil_tc": 0.12,
+          "root_tc_min": 0.3,
+          "pitch_axis_fraction": 0.25,
+          "skin_mm": 1.2,
+          "spar_width_mm": 32,
+          "spar_wall_mm": 2,
+          "spar_height_root_mm": 28,
+          "spar_height_tip_mm": 10,
+          "root_bearing_bore_mm": 25,
+          "root_housing_radius_mm": 38,
+          "root_phase_arm_half_width_mm": 4,
+          "root_clearance_mm": 5,
+          "root_min_radius_mm": 95,
+          "blade_root_offset_mm": 82,
+          "motor_diameter_mm": 150,
+          "motor_length_mm": 66,
+          "motor_stator_plate_z_mm": 14,
+          "motor_stator_pcd_mm": 50,
+          "motor_rotor_pcd_mm": 40,
+          "motor_stator_engagement_assumed_mm": 6,
+          "motor_rotor_engagement_assumed_mm": 4,
+          "swash_z_mm": 120,
+          "swash_joint_r_mm": 130,
+          "servo_r_mm": 245,
+          "servo_swash_x_mm": 165,
+          "servo_z_mm": 80,
+          "servo_horn_mm": 28,
+          "servo_joint_y_mm": -40,
+          "servo_neutral_deg": -30,
+          "servo_min_deg": -80,
+          "servo_max_deg": 35,
+          "pitch_lever_mm": 42,
+          "pitch_rod_port_radius_mm": 15,
+          "pitch_link_envelope_radius_mm": 6,
+          "neutral_pitch_deg": 12,
+          "pitch_limits_deg": [
+            4,
+            20
+          ],
+          "collective_limits_mm": [
+            -3.5,
+            3.5
+          ],
+          "cyclic_limit_deg": 0.5,
+          "unit_disk_clearance_mm": 80
+        },
+        "operating": {
+          "rpm": 850,
+          "payload_kg": 100,
+          "motor_mass_each_kg": 2.75,
+          "motor_mass_source": "Nutzer-XLS:2750g inklusive Kabel; nicht selbst gewogen",
+          "battery_mass_assumed_kg": 12,
+          "electronics_mass_assumed_kg": 2,
+          "design_total_mass_case_kg": 150,
+          "load_factor": 2,
+          "cfk_density_assumed_kg_m3": 1600,
+          "cfk_axial_modulus_screen_Pa": 90000000000,
+          "cfk_modulus_range_Pa": [
+            70000000000,
+            110000000000
+          ],
+          "aluminium_density_kg_m3": 2810,
+          "motor_continuous_torque_Nm": null,
+          "motor_peak_torque_Nm": null,
+          "motor_power_limit_W": null,
+          "motor_kv_reference": 40,
+          "motor_torque_limit_assumption_Nm": 46.25,
+          "motor_default_mode": "conservative_spec",
+          "motor_conflicting_180s_power_W": 3400,
+          "motor_short_time_reference_s": 180,
+          "motor_bench_peak_input_W": 16270,
+          "motor_bench_max_recorded_torque_Nm": 46.25,
+          "motor_spinup_s_assumed": 3,
+          "battery_voltage_assumption_V": 92,
+          "battery_series_cells": 24,
+          "motor_efficiency_assumption": 0.82
+        },
+        "servo": {
+          "model": "ROBOTIS DYNAMIXEL PH54-200-S500-R",
+          "supply_V": 24,
+          "mass_kg": 0.855,
+          "body_mm": [
+            54,
+            126,
+            54
+          ],
+          "stall_torque_Nm": null,
+          "continuous_current_A": 9.3,
+          "no_load_speed_rpm": 33.1,
+          "continuous_speed_rpm": 29,
+          "external_radial_load_limit_N_at_10mm": 370,
+          "axial_load_limit_N": 130,
+          "backlash_deg": 0.1,
+          "continuous_torque_Nm": 44.7,
+          "axis_from_case_top_assumed_mm": 27,
+          "coupling_plane_assumed_mm": -8,
+          "thermal_torque_screen_fraction": 1.0,
+          "protocol": "RS485 DYNAMIXEL Protocol2.0; kein direktes PWM-Servo",
+          "oem_step_status": "Download www.robotis.com 403; Nennmassmodell statt behauptetem Original-CAD",
+          "horn_interface_status": "OEM-Horn/Flanschmasse und Klemmung vor Fertigung bestaetigen",
+          "source": "ROBOTIS-GIT/emanual _data/dxl_p_info.yml und docs/en/dxl/p/ph54-200-s500-r.md; XH540 verworfen wegen Lastscreen"
+        }
+      },
+      "inputs": [
+        3.5,
+        0.5,
+        0,
+        90
+      ],
+      "solution": {
+        "pitches_deg": [
+          18.18452292088568,
+          17.33924583456882,
+          16.155720625295547,
+          15.32695914752639,
+          15.334221939668168,
+          16.17334714707704,
+          17.357059883278446,
+          18.19197475179225
+        ],
+        "servo_deg": [
+          -25.96102559797418,
+          -23.91123068196703,
+          -26.5754825654194
+        ],
+        "servo_points_mm": [
+          [
+            [
+              219.82542309679783,
+              -40.0,
+              67.74272959649008
+            ],
+            [
+              164.95721919153416,
+              -40.0,
+              103.15016372065492
+            ]
+          ],
+          [
+            [
+              -75.06054049993998,
+              210.00866978947755,
+              68.65101804555728
+            ],
+            [
+              -47.68512058636885,
+              163.11349886021554,
+              104.92270837172644
+            ]
+          ],
+          [
+            [
+              -144.62017557377726,
+              -170.4894918933135,
+              67.47345997805999
+            ],
+            [
+              -117.27209860516533,
+              -122.58990673031303,
+              102.42941252376836
+            ]
+          ]
+        ],
+        "pitch_points_mm": [
+          [
+            [
+              -50.492324071952225,
+              119.78911629427802,
+              124.545383780672
+            ],
+            [
+              -39.90236823903235,
+              97.46803743153548,
+              193.10728838916202
+            ]
+          ],
+          [
+            [
+              -120.41038657320064,
+              49.001591173417886,
+              123.92763040770723
+            ],
+            [
+              -97.26920330551933,
+              40.57141712804663,
+              192.51720900547696
+            ]
+          ],
+          [
+            [
+              -119.79367767045535,
+              -50.49040147896869,
+              123.05937694159071
+            ],
+            [
+              -97.46803743153548,
+              -40.34137837962413,
+              191.6864532871181
+            ]
+          ],
+          [
+            [
+              -49.00345707490832,
+              -120.40580171463799,
+              122.44923448719604
+            ],
+            [
+              -40.27810688456616,
+              -97.56251354899983,
+              191.10172853892098
+            ]
+          ],
+          [
+            [
+              50.49232407195221,
+              -119.78911629427802,
+              122.454616219328
+            ],
+            [
+              40.50478483217989,
+              -97.46803743153549,
+              191.10686299991175
+            ]
+          ],
+          [
+            [
+              120.41038657320064,
+              -49.0015911734179,
+              123.07236959229277
+            ],
+            [
+              97.44342886985669,
+              -40.39719156370929,
+              191.6988633894647
+            ]
+          ],
+          [
+            [
+              119.79367767045537,
+              50.49040147896868,
+              123.94062305840929
+            ],
+            [
+              97.46803743153549,
+              40.08749537359749,
+              192.5296733665247
+            ]
+          ],
+          [
+            [
+              49.00345707490833,
+              120.40580171463797,
+              124.55076551280396
+            ],
+            [
+              40.70628070770199,
+              97.13433972586398,
+              193.11247793978745
+            ]
+          ]
+        ],
+        "stationary_phase_deg": -0.06114442444801006,
+        "swash_z_mm": 123.5,
+        "tilt_deg": [
+          0.5,
+          0
+        ]
+      }
+    },
+    {
+      "config": {
+        "revision": "P14_LEICHTBAU_ENTWICKLUNG",
+        "production_ready": false,
+        "geometry": {
+          "blades_per_rotor": 10,
+          "lift_units": 1,
+          "rotor_radius_mm": 710,
+          "rotor_spacing_mm": 360,
+          "chord_mm": 120,
+          "airfoil_tc": 0.12,
+          "root_tc_min": 0.3,
+          "pitch_axis_fraction": 0.25,
+          "skin_mm": 1.2,
+          "spar_width_mm": 32,
+          "spar_wall_mm": 2,
+          "spar_height_root_mm": 28,
+          "spar_height_tip_mm": 10,
+          "root_bearing_bore_mm": 25,
+          "root_housing_radius_mm": 38,
+          "root_phase_arm_half_width_mm": 4,
+          "root_clearance_mm": 5,
+          "root_min_radius_mm": 95,
+          "blade_root_offset_mm": 82,
+          "motor_diameter_mm": 150,
+          "motor_length_mm": 66,
+          "motor_stator_plate_z_mm": 14,
+          "motor_stator_pcd_mm": 50,
+          "motor_rotor_pcd_mm": 40,
+          "motor_stator_engagement_assumed_mm": 6,
+          "motor_rotor_engagement_assumed_mm": 4,
+          "swash_z_mm": 120,
+          "swash_joint_r_mm": 130,
+          "servo_r_mm": 245,
+          "servo_swash_x_mm": 165,
+          "servo_z_mm": 80,
+          "servo_horn_mm": 28,
+          "servo_joint_y_mm": -40,
+          "servo_neutral_deg": -30,
+          "servo_min_deg": -80,
+          "servo_max_deg": 35,
+          "pitch_lever_mm": 42,
+          "pitch_rod_port_radius_mm": 15,
+          "pitch_link_envelope_radius_mm": 6,
+          "neutral_pitch_deg": 12,
+          "pitch_limits_deg": [
+            4,
+            20
+          ],
+          "collective_limits_mm": [
+            -3.5,
+            3.5
+          ],
+          "cyclic_limit_deg": 0.5,
+          "unit_disk_clearance_mm": 80
+        },
+        "operating": {
+          "rpm": 850,
+          "payload_kg": 100,
+          "motor_mass_each_kg": 2.75,
+          "motor_mass_source": "Nutzer-XLS:2750g inklusive Kabel; nicht selbst gewogen",
+          "battery_mass_assumed_kg": 12,
+          "electronics_mass_assumed_kg": 2,
+          "design_total_mass_case_kg": 150,
+          "load_factor": 2,
+          "cfk_density_assumed_kg_m3": 1600,
+          "cfk_axial_modulus_screen_Pa": 90000000000,
+          "cfk_modulus_range_Pa": [
+            70000000000,
+            110000000000
+          ],
+          "aluminium_density_kg_m3": 2810,
+          "motor_continuous_torque_Nm": null,
+          "motor_peak_torque_Nm": null,
+          "motor_power_limit_W": null,
+          "motor_kv_reference": 40,
+          "motor_torque_limit_assumption_Nm": 46.25,
+          "motor_default_mode": "conservative_spec",
+          "motor_conflicting_180s_power_W": 3400,
+          "motor_short_time_reference_s": 180,
+          "motor_bench_peak_input_W": 16270,
+          "motor_bench_max_recorded_torque_Nm": 46.25,
+          "motor_spinup_s_assumed": 3,
+          "battery_voltage_assumption_V": 92,
+          "battery_series_cells": 24,
+          "motor_efficiency_assumption": 0.82
+        },
+        "servo": {
+          "model": "ROBOTIS DYNAMIXEL PH54-200-S500-R",
+          "supply_V": 24,
+          "mass_kg": 0.855,
+          "body_mm": [
+            54,
+            126,
+            54
+          ],
+          "stall_torque_Nm": null,
+          "continuous_current_A": 9.3,
+          "no_load_speed_rpm": 33.1,
+          "continuous_speed_rpm": 29,
+          "external_radial_load_limit_N_at_10mm": 370,
+          "axial_load_limit_N": 130,
+          "backlash_deg": 0.1,
+          "continuous_torque_Nm": 44.7,
+          "axis_from_case_top_assumed_mm": 27,
+          "coupling_plane_assumed_mm": -8,
+          "thermal_torque_screen_fraction": 1.0,
+          "protocol": "RS485 DYNAMIXEL Protocol2.0; kein direktes PWM-Servo",
+          "oem_step_status": "Download www.robotis.com 403; Nennmassmodell statt behauptetem Original-CAD",
+          "horn_interface_status": "OEM-Horn/Flanschmasse und Klemmung vor Fertigung bestaetigen",
+          "source": "ROBOTIS-GIT/emanual _data/dxl_p_info.yml und docs/en/dxl/p/ph54-200-s500-r.md; XH540 verworfen wegen Lastscreen"
+        }
+      },
+      "inputs": [
+        3.5,
+        0.5,
+        0,
+        0
+      ],
+      "solution": {
+        "pitches_deg": [
+          17.446973370252625,
+          18.264325443874444,
+          18.58094736173279,
+          18.273925900713035,
+          17.46257530744787,
+          16.459880437910222,
+          15.648679969212939,
+          15.335818729286077,
+          15.639013525317761,
+          16.444239014567756
+        ],
+        "servo_deg": [
+          -25.96102559797418,
+          -23.91123068196703,
+          -26.5754825654194
+        ],
+        "servo_points_mm": [
+          [
+            [
+              219.82542309679783,
+              -40.0,
+              67.74272959649008
+            ],
+            [
+              164.95721919153416,
+              -40.0,
+              103.15016372065492
+            ]
+          ],
+          [
+            [
+              -75.06054049993998,
+              210.00866978947755,
+              68.65101804555728
+            ],
+            [
+              -47.68512058636885,
+              163.11349886021554,
+              104.92270837172644
+            ]
+          ],
+          [
+            [
+              -144.62017557377726,
+              -170.4894918933135,
+              67.47345997805999
+            ],
+            [
+              -117.27209860516533,
+              -122.58990673031303,
+              102.42941252376836
+            ]
+          ]
+        ],
+        "pitch_points_mm": [
+          [
+            [
+              123.83919131004521,
+              39.544096959617114,
+              123.84509610607152
+            ],
+            [
+              128.65112624723693,
+              40.06778337486609,
+              192.59256667343098
+            ]
+          ],
+          [
+            [
+              76.94368825883006,
+              104.77992512287561,
+              124.41440055367293
+            ],
+            [
+              80.63767728090087,
+              107.88612795700382,
+              193.16285234547507
+            ]
+          ],
+          [
+            [
+              0.6583115125180655,
+              129.99338322786463,
+              124.63443506910302
+            ],
+            [
+              1.893134255567496,
+              134.65668274743075,
+              193.38305341955544
+            ]
+          ],
+          [
+            [
+              -75.87851785639046,
+              105.5537872523999,
+              124.42115394616557
+            ],
+            [
+              -77.68529419801507,
+              110.03031716209486,
+              193.16953511932587
+            ]
+          ],
+          [
+            [
+              -123.43233242012369,
+              40.79623218779378,
+              123.85602332466398
+            ],
+            [
+              -127.63018323814185,
+              43.20649235982342,
+              192.60347687113958
+            ]
+          ],
+          [
+            [
+              -123.83919131004522,
+              -39.54409695961707,
+              123.15490389392848
+            ],
+            [
+              -128.65112624723693,
+              -40.27877164834944,
+              191.9004434581288
+            ]
+          ],
+          [
+            [
+              -76.9436882588301,
+              -104.77992512287558,
+              122.58559944632707
+            ],
+            [
+              -80.30902097430555,
+              -108.33848455545048,
+              191.32899814897453
+            ]
+          ],
+          [
+            [
+              -0.6583115125181103,
+              -129.99338322786463,
+              122.36556493089698
+            ],
+            [
+              -1.2333392048890843,
+              -134.87106315487318,
+              191.10799183301782
+            ]
+          ],
+          [
+            [
+              75.87851785639045,
+              -105.55378725239991,
+              122.57884605383443
+            ],
+            [
+              78.2209866544778,
+              -109.85626013186672,
+              191.32217476115477
+            ]
+          ],
+          [
+            [
+              123.43233242012367,
+              -40.7962321877938,
+              123.14397667533602
+            ],
+            [
+              127.7581241221102,
+              -43.03039684024029,
+              191.8894471382574
+            ]
+          ]
+        ],
+        "stationary_phase_deg": -0.06114442444801006,
+        "swash_z_mm": 123.5,
+        "tilt_deg": [
+          0.5,
+          0
+        ]
+      }
+    },
+    {
+      "config": {
+        "revision": "P14_LEICHTBAU_ENTWICKLUNG",
+        "production_ready": false,
+        "geometry": {
+          "blades_per_rotor": 10,
+          "lift_units": 1,
+          "rotor_radius_mm": 710,
+          "rotor_spacing_mm": 360,
+          "chord_mm": 120,
+          "airfoil_tc": 0.12,
+          "root_tc_min": 0.3,
+          "pitch_axis_fraction": 0.25,
+          "skin_mm": 1.2,
+          "spar_width_mm": 32,
+          "spar_wall_mm": 2,
+          "spar_height_root_mm": 28,
+          "spar_height_tip_mm": 10,
+          "root_bearing_bore_mm": 25,
+          "root_housing_radius_mm": 38,
+          "root_phase_arm_half_width_mm": 4,
+          "root_clearance_mm": 5,
+          "root_min_radius_mm": 95,
+          "blade_root_offset_mm": 82,
+          "motor_diameter_mm": 150,
+          "motor_length_mm": 66,
+          "motor_stator_plate_z_mm": 14,
+          "motor_stator_pcd_mm": 50,
+          "motor_rotor_pcd_mm": 40,
+          "motor_stator_engagement_assumed_mm": 6,
+          "motor_rotor_engagement_assumed_mm": 4,
+          "swash_z_mm": 120,
+          "swash_joint_r_mm": 130,
+          "servo_r_mm": 245,
+          "servo_swash_x_mm": 165,
+          "servo_z_mm": 80,
+          "servo_horn_mm": 28,
+          "servo_joint_y_mm": -40,
+          "servo_neutral_deg": -30,
+          "servo_min_deg": -80,
+          "servo_max_deg": 35,
+          "pitch_lever_mm": 42,
+          "pitch_rod_port_radius_mm": 15,
+          "pitch_link_envelope_radius_mm": 6,
+          "neutral_pitch_deg": 12,
+          "pitch_limits_deg": [
+            4,
+            20
+          ],
+          "collective_limits_mm": [
+            -3.5,
+            3.5
+          ],
+          "cyclic_limit_deg": 0.5,
+          "unit_disk_clearance_mm": 80
+        },
+        "operating": {
+          "rpm": 850,
+          "payload_kg": 100,
+          "motor_mass_each_kg": 2.75,
+          "motor_mass_source": "Nutzer-XLS:2750g inklusive Kabel; nicht selbst gewogen",
+          "battery_mass_assumed_kg": 12,
+          "electronics_mass_assumed_kg": 2,
+          "design_total_mass_case_kg": 150,
+          "load_factor": 2,
+          "cfk_density_assumed_kg_m3": 1600,
+          "cfk_axial_modulus_screen_Pa": 90000000000,
+          "cfk_modulus_range_Pa": [
+            70000000000,
+            110000000000
+          ],
+          "aluminium_density_kg_m3": 2810,
+          "motor_continuous_torque_Nm": null,
+          "motor_peak_torque_Nm": null,
+          "motor_power_limit_W": null,
+          "motor_kv_reference": 40,
+          "motor_torque_limit_assumption_Nm": 46.25,
+          "motor_default_mode": "conservative_spec",
+          "motor_conflicting_180s_power_W": 3400,
+          "motor_short_time_reference_s": 180,
+          "motor_bench_peak_input_W": 16270,
+          "motor_bench_max_recorded_torque_Nm": 46.25,
+          "motor_spinup_s_assumed": 3,
+          "battery_voltage_assumption_V": 92,
+          "battery_series_cells": 24,
+          "motor_efficiency_assumption": 0.82
+        },
+        "servo": {
+          "model": "ROBOTIS DYNAMIXEL PH54-200-S500-R",
+          "supply_V": 24,
+          "mass_kg": 0.855,
+          "body_mm": [
+            54,
+            126,
+            54
+          ],
+          "stall_torque_Nm": null,
+          "continuous_current_A": 9.3,
+          "no_load_speed_rpm": 33.1,
+          "continuous_speed_rpm": 29,
+          "external_radial_load_limit_N_at_10mm": 370,
+          "axial_load_limit_N": 130,
+          "backlash_deg": 0.1,
+          "continuous_torque_Nm": 44.7,
+          "axis_from_case_top_assumed_mm": 27,
+          "coupling_plane_assumed_mm": -8,
+          "thermal_torque_screen_fraction": 1.0,
+          "protocol": "RS485 DYNAMIXEL Protocol2.0; kein direktes PWM-Servo",
+          "oem_step_status": "Download www.robotis.com 403; Nennmassmodell statt behauptetem Original-CAD",
+          "horn_interface_status": "OEM-Horn/Flanschmasse und Klemmung vor Fertigung bestaetigen",
+          "source": "ROBOTIS-GIT/emanual _data/dxl_p_info.yml und docs/en/dxl/p/ph54-200-s500-r.md; XH540 verworfen wegen Lastscreen"
+        }
+      },
+      "inputs": [
+        3.5,
+        0.5,
+        0,
+        90
+      ],
+      "solution": {
+        "pitches_deg": [
+          18.503514742843432,
+          17.91507184207603,
+          16.961108643904478,
+          16.00778288932179,
+          15.417262403933824,
+          15.412182125234732,
+          15.99447497462733,
+          16.944676857089693,
+          17.90182875506706,
+          18.49847582620077
+        ],
+        "servo_deg": [
+          -25.96102559797418,
+          -23.91123068196703,
+          -26.5754825654194
+        ],
+        "servo_points_mm": [
+          [
+            [
+              219.82542309679783,
+              -40.0,
+              67.74272959649008
+            ],
+            [
+              164.95721919153416,
+              -40.0,
+              103.15016372065492
+            ]
+          ],
+          [
+            [
+              -75.06054049993998,
+              210.00866978947755,
+              68.65101804555728
+            ],
+            [
+              -47.68512058636885,
+              163.11349886021554,
+              104.92270837172644
+            ]
+          ],
+          [
+            [
+              -144.62017557377726,
+              -170.4894918933135,
+              67.47345997805999
+            ],
+            [
+              -117.27209860516533,
+              -122.58990673031303,
+              102.42941252376836
+            ]
+          ]
+        ],
+        "pitch_points_mm": [
+          [
+            [
+              -39.54560273499475,
+              123.83447589310462,
+              124.58068709905703
+            ],
+            [
+              -39.828775926972,
+              128.65112624723693,
+              193.3292388439496
+            ]
+          ],
+          [
+            [
+              -104.78391497328191,
+              76.94075847894985,
+              124.1714518269665
+            ],
+            [
+              -107.95044023034905,
+              80.59095167924286,
+              192.91949094160745
+            ]
+          ],
+          [
+            [
+              -129.99833316605444,
+              0.6582864460328848,
+              123.50574477878298
+            ],
+            [
+              -134.76867049808266,
+              1.5484713990209258,
+              192.25234561984513
+            ]
+          ],
+          [
+            [
+              -105.55780657022689,
+              -75.87562863493525,
+              122.8378434203622
+            ],
+            [
+              -109.87903760353954,
+              -78.15088480489189,
+              191.58225298527694
+            ]
+          ],
+          [
+            [
+              -40.79778564245965,
+              -123.42763249512292,
+              122.4228633694887
+            ],
+            [
+              -42.86323298285378,
+              -127.8795757736469,
+              191.16555609417583
+            ]
+          ],
+          [
+            [
+              39.54560273499471,
+              -123.83447589310464,
+              122.41931290094297
+            ],
+            [
+              40.48963465597735,
+              -128.65112624723693,
+              191.16196601972413
+            ]
+          ],
+          [
+            [
+              104.7839149732819,
+              -76.94075847894986,
+              122.8285481730335
+            ],
+            [
+              108.28257370870418,
+              -80.34964258224352,
+              191.57287572763406
+            ]
+          ],
+          [
+            [
+              129.99833316605444,
+              -0.6582864460329008,
+              123.49425522121702
+            ],
+            [
+              134.76975582236395,
+              -1.545131114347896,
+              192.24082391436008
+            ]
+          ],
+          [
+            [
+              105.5578065702269,
+              75.87562863493524,
+              124.1621565796378
+            ],
+            [
+              110.00414788837988,
+              77.76583494090748,
+              192.9102535984959
+            ]
+          ],
+          [
+            [
+              40.797785642459665,
+              123.42763249512292,
+              124.5771366305113
+            ],
+            [
+              43.396129864074396,
+              127.49240352639872,
+              193.32573602337968
+            ]
+          ]
+        ],
+        "stationary_phase_deg": -0.06114442444801006,
+        "swash_z_mm": 123.5,
+        "tilt_deg": [
+          0.5,
+          0
+        ]
+      }
+    },
+    {
+      "config": {
+        "revision": "P14_LEICHTBAU_ENTWICKLUNG",
+        "production_ready": false,
+        "geometry": {
+          "blades_per_rotor": 12,
+          "lift_units": 1,
+          "rotor_radius_mm": 710,
+          "rotor_spacing_mm": 360,
+          "chord_mm": 120,
+          "airfoil_tc": 0.12,
+          "root_tc_min": 0.3,
+          "pitch_axis_fraction": 0.25,
+          "skin_mm": 1.2,
+          "spar_width_mm": 32,
+          "spar_wall_mm": 2,
+          "spar_height_root_mm": 28,
+          "spar_height_tip_mm": 10,
+          "root_bearing_bore_mm": 25,
+          "root_housing_radius_mm": 38,
+          "root_phase_arm_half_width_mm": 4,
+          "root_clearance_mm": 5,
+          "root_min_radius_mm": 95,
+          "blade_root_offset_mm": 82,
+          "motor_diameter_mm": 150,
+          "motor_length_mm": 66,
+          "motor_stator_plate_z_mm": 14,
+          "motor_stator_pcd_mm": 50,
+          "motor_rotor_pcd_mm": 40,
+          "motor_stator_engagement_assumed_mm": 6,
+          "motor_rotor_engagement_assumed_mm": 4,
+          "swash_z_mm": 120,
+          "swash_joint_r_mm": 130,
+          "servo_r_mm": 245,
+          "servo_swash_x_mm": 165,
+          "servo_z_mm": 80,
+          "servo_horn_mm": 28,
+          "servo_joint_y_mm": -40,
+          "servo_neutral_deg": -30,
+          "servo_min_deg": -80,
+          "servo_max_deg": 35,
+          "pitch_lever_mm": 42,
+          "pitch_rod_port_radius_mm": 15,
+          "pitch_link_envelope_radius_mm": 6,
+          "neutral_pitch_deg": 12,
+          "pitch_limits_deg": [
+            4,
+            20
+          ],
+          "collective_limits_mm": [
+            -3.5,
+            3.5
+          ],
+          "cyclic_limit_deg": 0.5,
+          "unit_disk_clearance_mm": 80
+        },
+        "operating": {
+          "rpm": 850,
+          "payload_kg": 100,
+          "motor_mass_each_kg": 2.75,
+          "motor_mass_source": "Nutzer-XLS:2750g inklusive Kabel; nicht selbst gewogen",
+          "battery_mass_assumed_kg": 12,
+          "electronics_mass_assumed_kg": 2,
+          "design_total_mass_case_kg": 150,
+          "load_factor": 2,
+          "cfk_density_assumed_kg_m3": 1600,
+          "cfk_axial_modulus_screen_Pa": 90000000000,
+          "cfk_modulus_range_Pa": [
+            70000000000,
+            110000000000
+          ],
+          "aluminium_density_kg_m3": 2810,
+          "motor_continuous_torque_Nm": null,
+          "motor_peak_torque_Nm": null,
+          "motor_power_limit_W": null,
+          "motor_kv_reference": 40,
+          "motor_torque_limit_assumption_Nm": 46.25,
+          "motor_default_mode": "conservative_spec",
+          "motor_conflicting_180s_power_W": 3400,
+          "motor_short_time_reference_s": 180,
+          "motor_bench_peak_input_W": 16270,
+          "motor_bench_max_recorded_torque_Nm": 46.25,
+          "motor_spinup_s_assumed": 3,
+          "battery_voltage_assumption_V": 92,
+          "battery_series_cells": 24,
+          "motor_efficiency_assumption": 0.82
+        },
+        "servo": {
+          "model": "ROBOTIS DYNAMIXEL PH54-200-S500-R",
+          "supply_V": 24,
+          "mass_kg": 0.855,
+          "body_mm": [
+            54,
+            126,
+            54
+          ],
+          "stall_torque_Nm": null,
+          "continuous_current_A": 9.3,
+          "no_load_speed_rpm": 33.1,
+          "continuous_speed_rpm": 29,
+          "external_radial_load_limit_N_at_10mm": 370,
+          "axial_load_limit_N": 130,
+          "backlash_deg": 0.1,
+          "continuous_torque_Nm": 44.7,
+          "axis_from_case_top_assumed_mm": 27,
+          "coupling_plane_assumed_mm": -8,
+          "thermal_torque_screen_fraction": 1.0,
+          "protocol": "RS485 DYNAMIXEL Protocol2.0; kein direktes PWM-Servo",
+          "oem_step_status": "Download www.robotis.com 403; Nennmassmodell statt behauptetem Original-CAD",
+          "horn_interface_status": "OEM-Horn/Flanschmasse und Klemmung vor Fertigung bestaetigen",
+          "source": "ROBOTIS-GIT/emanual _data/dxl_p_info.yml und docs/en/dxl/p/ph54-200-s500-r.md; XH540 verworfen wegen Lastscreen"
+        }
+      },
+      "inputs": [
+        3.5,
+        0.5,
+        0,
+        0
+      ],
+      "solution": {
+        "pitches_deg": [
+          17.51012197667751,
+          18.268405417834405,
+          18.712075323926,
+          18.720368242292345,
+          18.29108034239562,
+          17.54111664063111,
+          16.673179999740565,
+          15.919728207033584,
+          15.480899377444983,
+          15.472614722096301,
+          15.897071810014493,
+          16.642195599853036
+        ],
+        "servo_deg": [
+          -25.96102559797418,
+          -23.91123068196703,
+          -26.5754825654194
+        ],
+        "servo_points_mm": [
+          [
+            [
+              219.82542309679783,
+              -40.0,
+              67.74272959649008
+            ],
+            [
+              164.95721919153416,
+              -40.0,
+              103.15016372065492
+            ]
+          ],
+          [
+            [
+              -75.06054049993998,
+              210.00866978947755,
+              68.65101804555728
+            ],
+            [
+              -47.68512058636885,
+              163.11349886021554,
+              104.92270837172644
+            ]
+          ],
+          [
+            [
+              -144.62017557377726,
+              -170.4894918933135,
+              67.47345997805999
+            ],
+            [
+              -117.27209860516533,
+              -122.58990673031303,
+              102.42941252376836
+            ]
+          ]
+        ],
+        "pitch_points_mm": [
+          [
+            [
+              125.88654180199909,
+              32.44223230180884,
+              123.78311907213497
+            ],
+            [
+              159.40638795573724,
+              40.05388013055502,
+              192.6367197676901
+            ]
+          ],
+          [
+            [
+              92.7992093702806,
+              91.03667154295516,
+              124.29446499666611
+            ],
+            [
+              118.10841345753775,
+              114.2430030016674,
+              193.16569241625155
+            ]
+          ],
+          [
+            [
+              34.84640372954872,
+              125.23790816254926,
+              124.59293466692576
+            ],
+            [
+              45.25270963345786,
+              157.93997790514476,
+              193.47412970278023
+            ]
+          ],
+          [
+            [
+              -32.443467649644596,
+              125.8817484282252,
+              124.59855337580268
+            ],
+            [
+              -39.77804217482013,
+              159.40638795573724,
+              193.47988726726715
+            ]
+          ],
+          [
+            [
+              -91.04013807245036,
+              92.79567586074045,
+              124.30981559479079
+            ],
+            [
+              -114.23848800124978,
+              118.11102019424425,
+              193.18147521934281
+            ]
+          ],
+          [
+            [
+              -125.24267701992517,
+              34.845076885270025,
+              123.80408837913657
+            ],
+            [
+              -158.07350065707956,
+              45.021441443140404,
+              192.6583854220499
+            ]
+          ],
+          [
+            [
+              -125.8865418019991,
+              -32.44223230180883,
+              123.21688092786503
+            ],
+            [
+              -159.40638795573724,
+              -40.23418990878164,
+              192.0503096385152
+            ]
+          ],
+          [
+            [
+              -92.79920937028056,
+              -91.03667154295519,
+              122.70553500333389
+            ],
+            [
+              -117.85539612671953,
+              -114.68124187384001,
+              191.5201947545536
+            ]
+          ],
+          [
+            [
+              -34.84640372954876,
+              -125.23790816254925,
+              122.40706533307424
+            ],
+            [
+              -44.649760489936,
+              -158.2880907554648,
+              191.21051891199082
+            ]
+          ],
+          [
+            [
+              32.443467649644575,
+              -125.88174842822521,
+              122.40144662419732
+            ],
+            [
+              40.477839076946864,
+              -159.40638795573724,
+              191.20466615570456
+            ]
+          ],
+          [
+            [
+              91.04013807245039,
+              -92.79567586074042,
+              122.69018440520921
+            ],
+            [
+              114.68518424499646,
+              -117.85311999767109,
+              191.50422281602562
+            ]
+          ],
+          [
+            [
+              125.24267701992515,
+              -34.845076885270096,
+              123.19591162086343
+            ],
+            [
+              158.1703317898554,
+              -44.85372500141824,
+              192.02855004060015
+            ]
+          ]
+        ],
+        "stationary_phase_deg": -0.06114442444801006,
+        "swash_z_mm": 123.5,
+        "tilt_deg": [
+          0.5,
+          0
+        ]
+      }
+    },
+    {
+      "config": {
+        "revision": "P14_LEICHTBAU_ENTWICKLUNG",
+        "production_ready": false,
+        "geometry": {
+          "blades_per_rotor": 12,
+          "lift_units": 1,
+          "rotor_radius_mm": 710,
+          "rotor_spacing_mm": 360,
+          "chord_mm": 120,
+          "airfoil_tc": 0.12,
+          "root_tc_min": 0.3,
+          "pitch_axis_fraction": 0.25,
+          "skin_mm": 1.2,
+          "spar_width_mm": 32,
+          "spar_wall_mm": 2,
+          "spar_height_root_mm": 28,
+          "spar_height_tip_mm": 10,
+          "root_bearing_bore_mm": 25,
+          "root_housing_radius_mm": 38,
+          "root_phase_arm_half_width_mm": 4,
+          "root_clearance_mm": 5,
+          "root_min_radius_mm": 95,
+          "blade_root_offset_mm": 82,
+          "motor_diameter_mm": 150,
+          "motor_length_mm": 66,
+          "motor_stator_plate_z_mm": 14,
+          "motor_stator_pcd_mm": 50,
+          "motor_rotor_pcd_mm": 40,
+          "motor_stator_engagement_assumed_mm": 6,
+          "motor_rotor_engagement_assumed_mm": 4,
+          "swash_z_mm": 120,
+          "swash_joint_r_mm": 130,
+          "servo_r_mm": 245,
+          "servo_swash_x_mm": 165,
+          "servo_z_mm": 80,
+          "servo_horn_mm": 28,
+          "servo_joint_y_mm": -40,
+          "servo_neutral_deg": -30,
+          "servo_min_deg": -80,
+          "servo_max_deg": 35,
+          "pitch_lever_mm": 42,
+          "pitch_rod_port_radius_mm": 15,
+          "pitch_link_envelope_radius_mm": 6,
+          "neutral_pitch_deg": 12,
+          "pitch_limits_deg": [
+            4,
+            20
+          ],
+          "collective_limits_mm": [
+            -3.5,
+            3.5
+          ],
+          "cyclic_limit_deg": 0.5,
+          "unit_disk_clearance_mm": 80
+        },
+        "operating": {
+          "rpm": 850,
+          "payload_kg": 100,
+          "motor_mass_each_kg": 2.75,
+          "motor_mass_source": "Nutzer-XLS:2750g inklusive Kabel; nicht selbst gewogen",
+          "battery_mass_assumed_kg": 12,
+          "electronics_mass_assumed_kg": 2,
+          "design_total_mass_case_kg": 150,
+          "load_factor": 2,
+          "cfk_density_assumed_kg_m3": 1600,
+          "cfk_axial_modulus_screen_Pa": 90000000000,
+          "cfk_modulus_range_Pa": [
+            70000000000,
+            110000000000
+          ],
+          "aluminium_density_kg_m3": 2810,
+          "motor_continuous_torque_Nm": null,
+          "motor_peak_torque_Nm": null,
+          "motor_power_limit_W": null,
+          "motor_kv_reference": 40,
+          "motor_torque_limit_assumption_Nm": 46.25,
+          "motor_default_mode": "conservative_spec",
+          "motor_conflicting_180s_power_W": 3400,
+          "motor_short_time_reference_s": 180,
+          "motor_bench_peak_input_W": 16270,
+          "motor_bench_max_recorded_torque_Nm": 46.25,
+          "motor_spinup_s_assumed": 3,
+          "battery_voltage_assumption_V": 92,
+          "battery_series_cells": 24,
+          "motor_efficiency_assumption": 0.82
+        },
+        "servo": {
+          "model": "ROBOTIS DYNAMIXEL PH54-200-S500-R",
+          "supply_V": 24,
+          "mass_kg": 0.855,
+          "body_mm": [
+            54,
+            126,
+            54
+          ],
+          "stall_torque_Nm": null,
+          "continuous_current_A": 9.3,
+          "no_load_speed_rpm": 33.1,
+          "continuous_speed_rpm": 29,
+          "external_radial_load_limit_N_at_10mm": 370,
+          "axial_load_limit_N": 130,
+          "backlash_deg": 0.1,
+          "continuous_torque_Nm": 44.7,
+          "axis_from_case_top_assumed_mm": 27,
+          "coupling_plane_assumed_mm": -8,
+          "thermal_torque_screen_fraction": 1.0,
+          "protocol": "RS485 DYNAMIXEL Protocol2.0; kein direktes PWM-Servo",
+          "oem_step_status": "Download www.robotis.com 403; Nennmassmodell statt behauptetem Original-CAD",
+          "horn_interface_status": "OEM-Horn/Flanschmasse und Klemmung vor Fertigung bestaetigen",
+          "source": "ROBOTIS-GIT/emanual _data/dxl_p_info.yml und docs/en/dxl/p/ph54-200-s500-r.md; XH540 verworfen wegen Lastscreen"
+        }
+      },
+      "inputs": [
+        3.5,
+        0.5,
+        0,
+        90
+      ],
+      "solution": {
+        "pitches_deg": [
+          18.720368242292345,
+          18.29108034239562,
+          17.54111664063111,
+          16.673179999740565,
+          15.919728207033584,
+          15.480899377444983,
+          15.472614722096301,
+          15.897071810014493,
+          16.642195599853036,
+          17.51012197667751,
+          18.268405417834405,
+          18.712075323926
+        ],
+        "servo_deg": [
+          -25.96102559797418,
+          -23.91123068196703,
+          -26.5754825654194
+        ],
+        "servo_points_mm": [
+          [
+            [
+              219.82542309679783,
+              -40.0,
+              67.74272959649008
+            ],
+            [
+              164.95721919153416,
+              -40.0,
+              103.15016372065492
+            ]
+          ],
+          [
+            [
+              -75.06054049993998,
+              210.00866978947755,
+              68.65101804555728
+            ],
+            [
+              -47.68512058636885,
+              163.11349886021554,
+              104.92270837172644
+            ]
+          ],
+          [
+            [
+              -144.62017557377726,
+              -170.4894918933135,
+              67.47345997805999
+            ],
+            [
+              -117.27209860516533,
+              -122.58990673031303,
+              102.42941252376836
+            ]
+          ]
+        ],
+        "pitch_points_mm": [
+          [
+            [
+              -32.443467649644596,
+              125.8817484282252,
+              124.59855337580268
+            ],
+            [
+              -39.77804217482013,
+              159.40638795573724,
+              193.47988726726715
+            ]
+          ],
+          [
+            [
+              -91.04013807245036,
+              92.79567586074045,
+              124.30981559479079
+            ],
+            [
+              -114.23848800124978,
+              118.11102019424425,
+              193.18147521934281
+            ]
+          ],
+          [
+            [
+              -125.24267701992517,
+              34.845076885270025,
+              123.80408837913657
+            ],
+            [
+              -158.07350065707956,
+              45.021441443140404,
+              192.6583854220499
+            ]
+          ],
+          [
+            [
+              -125.8865418019991,
+              -32.44223230180883,
+              123.21688092786503
+            ],
+            [
+              -159.40638795573724,
+              -40.23418990878164,
+              192.0503096385152
+            ]
+          ],
+          [
+            [
+              -92.79920937028056,
+              -91.03667154295519,
+              122.70553500333389
+            ],
+            [
+              -117.85539612671953,
+              -114.68124187384001,
+              191.5201947545536
+            ]
+          ],
+          [
+            [
+              -34.84640372954876,
+              -125.23790816254925,
+              122.40706533307424
+            ],
+            [
+              -44.649760489936,
+              -158.2880907554648,
+              191.21051891199082
+            ]
+          ],
+          [
+            [
+              32.443467649644575,
+              -125.88174842822521,
+              122.40144662419732
+            ],
+            [
+              40.477839076946864,
+              -159.40638795573724,
+              191.20466615570456
+            ]
+          ],
+          [
+            [
+              91.04013807245039,
+              -92.79567586074042,
+              122.69018440520921
+            ],
+            [
+              114.68518424499646,
+              -117.85311999767109,
+              191.50422281602562
+            ]
+          ],
+          [
+            [
+              125.24267701992515,
+              -34.845076885270096,
+              123.19591162086343
+            ],
+            [
+              158.1703317898554,
+              -44.85372500141824,
+              192.02855004060015
+            ]
+          ],
+          [
+            [
+              125.8865418019991,
+              32.442232301808815,
+              123.78311907213497
+            ],
+            [
+              159.40638795573724,
+              40.05388013055499,
+              192.6367197676901
+            ]
+          ],
+          [
+            [
+              92.79920937028056,
+              91.03667154295518,
+              124.29446499666611
+            ],
+            [
+              118.10841345753772,
+              114.2430030016674,
+              193.16569241625155
+            ]
+          ],
+          [
+            [
+              34.84640372954867,
+              125.23790816254927,
+              124.59293466692576
+            ],
+            [
+              45.2527096334578,
+              157.9399779051448,
+              193.47412970278023
+            ]
+          ]
+        ],
+        "stationary_phase_deg": -0.06114442444801006,
+        "swash_z_mm": 123.5,
+        "tilt_deg": [
+          0.5,
+          0
+        ]
+      }
+    }
+  ],
+  "rod_port_envelope_radius_mm": 12.544181752913715,
+  "rod_port_min_screen_clearance_mm": 2.4558182470862846,
+  "joint_articulation_screen": {
+    "max_spherical_misalignment_deg": 2.99029347757852,
+    "nominal_limit_deg": 12,
+    "max_R_leg_out_of_plane_deg": 0.0,
+    "states": 2160,
+    "passed": true,
+    "scope": "Nominal axes over supported blade counts and spacing; OEM profile/ratings/tolerances remain unqualified"
+  },
+  "native": {
+    "all_moved_shapes_valid": true,
+    "poses": 5,
+    "reset_translation_error_mm": 0.0,
+    "selected_pair_count": 18,
+    "selected_dynamic_overlaps": [],
+    "scope": "Selected root/link/neighbor pairs at5 poses; not a complete swept-volume test"
+  },
+  "native_sha256": "1133c2ac3aa7ac82faca89303635fb2c1914e8d9de3b080e94a0a3c7cf4d7970"
+}

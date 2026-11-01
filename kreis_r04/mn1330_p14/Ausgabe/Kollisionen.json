@@ -1,0 +1,13 @@
+{
+  "native_sha256": "1133c2ac3aa7ac82faca89303635fb2c1914e8d9de3b080e94a0a3c7cf4d7970",
+  "pose": "neutral only; not a swept-clearance certificate",
+  "all_bodies": 1437,
+  "bbox_pairs_tested": 7227,
+  "exact_boolean_pairs": 1780,
+  "identical_rigid_pair_cache_hits": 5447,
+  "cache_relative_transform_rounding_mm": 1e-08,
+  "threshold_mm3": 0.1,
+  "overlaps": [],
+  "open_count": 0,
+  "seconds": 629.6470024585724
+}
