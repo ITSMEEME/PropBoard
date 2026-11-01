@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="de">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>P14 · Flugsimulator mit WASD</title><link rel="stylesheet" href="p14_flugsimulator.css"></head>
+<body>
+<header class="topbar"><div><span class="eyebrow">PROPBOARD / P14</span><h1>Flugsimulator</h1><p>MN1330 · freitragende CFK-Flügel · CAD-Masse und Trägheit</p></div><nav aria-label="Modell und Ansicht"><a href="../../modell_r04_taumel/simulation/H01_Flugsimulator.html">P11 · kleines Modell</a><a href="P14_Flugsimulator.html" aria-current="page">P14 · Großmodell</a><a href="P14_Entwicklungspruefstand.html">Technischer Prüfstand ↗</a></nav><span class="development">Entwicklungsmodell</span></header>
+<div id="error" role="alert" hidden></div>
+<main class="cockpit">
+  <section class="scene" aria-label="Flugansicht">
+    <canvas id="view" tabindex="0" aria-label="P14-Flugansicht. WASD bewegen, QE drehen, RF Höhe, T Start, L Landung, Leertaste Pause."></canvas>
+    <div class="scene-top"><span id="phase" class="pill">CAD wird geladen …</span><span id="motorBadge" class="pill">MN1330-Daten</span><span id="geometry" class="pill"></span></div>
+    <div class="hud" aria-label="Flugwerte"><div><span>HÖHE</span><strong id="height">0,00</strong><small>m</small></div><div><span>GESCHWINDIGKEIT</span><strong id="speed">0,00</strong><small>m/s</small></div><div><span>KURS</span><strong id="heading">0</strong><small>°</small></div><div><span>MODELLZEIT</span><strong id="time">0,0</strong><small>s</small></div></div>
+    <div class="scene-bottom"><span id="cameraHint">Verfolger · Raster 1 m · Pfeil = vorne</span><span>Rotoranzeige ×0,035</span></div>
+  </section>
+  <aside class="panel">
+    <section class="card"><span class="eyebrow">FLUGBEDIENUNG</span><h2>P14 selbst steuern</h2>
+      <p id="status" role="status" aria-live="polite">CAD und Flugmodell werden geladen …</p>
+      <div class="actions"><button id="start" class="primary" disabled>Start / T</button><button id="land" disabled>Landen / L</button><button id="pause" disabled>Pause / Leertaste</button><button id="reset" disabled>Zurücksetzen / ⌫</button></div>
+      <label for="motorMode">Motor-Rechenfall</label><select id="motorMode"><option value="conservative_spec">MN1330 · 3,4 kW / 180 s</option><option value="bench_peak">MN1330 · Prüfmaxima, Dauer unbekannt</option><option value="free_assumption">Flugtraining · freie Leistungsannahme</option></select>
+      <p id="motorInfo" class="note">MN1330-Daten begrenzen die Leistung. Im Standardfall reicht der Schub damit nicht zum Abheben.</p>
+      <button id="training" class="training" disabled>Trainingsflug · freie Motorleistung</button><p class="note">Training: 150 Nm und 40 kW elektrisch je Motor, bis 2.800/min. Frei gewählte Annahmen, keine bestätigten MN1330-Betriebswerte.</p>
+      <label for="controlMode">Steuerungsmodus / M</label><select id="controlMode"><option value="POSITION">Position halten</option><option value="ANGLE">Winkelmodus</option></select><p class="note" id="modeInfo">WASD bewegt das Modell. Beim Loslassen bremst der Modellregler und hält die Position.</p>
+    </section>
+    <section class="card"><h2>Modell parametrisieren</h2><div class="two"><label for="blades">Blätter je Rotor<select id="blades"><option>4</option><option>6</option><option selected>8</option><option>10</option><option>12</option></select></label><label for="pairs">Rotorpaare<select id="pairs"><option selected>1</option><option>2</option><option>3</option><option>4</option></select></label></div>
+      <label for="payload">Nutzlast <output id="payloadOut">100 kg</output></label><input id="payload" type="range" min="0" max="150" step="1" value="100">
+      <label for="payloadZ">Nutzlast-Schwerpunkt <output id="payloadZOut">0,90 m</output></label><input id="payloadZ" type="range" min="0" max="1.3" step=".05" value=".9">
+      <p class="note">Änderungen setzen den Flugzustand zurück. Geometrie, Masse, Schwerpunkt und Trägheit werden nachgeführt.</p><div id="modelWarning" class="notice" hidden></div>
+      <div class="two"><label for="camera">Kamera / C<select id="camera"><option value="follow">Verfolger</option><option value="orbit">Orbit</option><option value="overview">Übersicht</option></select></label><label for="timescale">Modellzeit<select id="timescale"><option value="1">1×</option><option value=".5">0,5×</option><option value=".25">0,25×</option></select></label></div>
+      <button id="export">Konfiguration speichern</button>
+    </section>
+    <section class="card"><h2>Navigation</h2><canvas id="map" width="320" height="180" aria-label="Flugspur und Ausrichtung in der Draufsicht"></canvas><div id="telemetry" class="telemetry"></div><p class="note">Startkreis und Bodenmarkierungen dienen der Orientierung; kein Hindernis-Kollisionsmodell.</p></section>
+  </aside>
+  <section class="controls card"><div><span class="eyebrow">TASTATUR / GAMEPAD / TOUCH</span><h2>Steuerung</h2><dl class="key-help"><div><dt><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></dt><dd>vor / links / zurück / rechts</dd></div><div><dt><kbd>Q</kbd><kbd>E</kbd></dt><dd>links / rechts drehen</dd></div><div><dt><kbd>R</kbd><kbd>F</kbd></dt><dd>steigen / sinken</dd></div><div><dt><kbd>T</kbd><kbd>L</kbd><kbd>X</kbd></dt><dd>Start / Landung / Motoren aus</dd></div><div><dt><kbd>Leertaste</kbd><kbd>⌫</kbd></dt><dd>Pause / zurücksetzen</dd></div><div><dt><kbd>M</kbd><kbd>C</kbd></dt><dd>Steuerungsmodus / Kamera</dd></div></dl><p class="note">Kamera: ziehen und Mausrad. Fokusverlust pausiert den Flug. In Eingabefeldern bleiben die Flugtasten frei.</p><p id="gamepad" class="note">Gamepad: nicht verbunden. Standard-Gamepad: links Höhe/Gier, rechts Bewegung; A Start, B Landung, Y Modus, Start Pause.</p></div>
+    <div class="touch-controls" aria-label="Bildschirmsteuerung"><div class="touch-pad"><button data-pilot="forward" aria-label="Vorwärts">W ↑</button><div><button data-pilot="left" aria-label="Links">A ←</button><button data-pilot="back" aria-label="Rückwärts">S ↓</button><button data-pilot="right" aria-label="Rechts">D →</button></div></div><div class="touch-pad"><div><button data-pilot="yawLeft" aria-label="Links drehen">Q ↶</button><button data-pilot="yawRight" aria-label="Rechts drehen">E ↷</button></div><div><button data-pilot="up" aria-label="Steigen">R +</button><button data-pilot="down" aria-label="Sinken">F −</button></div></div></div>
+  </section>
+</main>
+<footer>Idealisierter Modellregler, starres CAD-Modell und vereinfachte Aerodynamik. Vorwärtsflug, Servo-Dynamik und Motorthermik sind nicht validiert. Keine Fertigungs- oder Flugfreigabe. <a href="FLUGSTEUERUNG.md">Bedienung und Modellgrenzen</a> · <a href="FREIGABESTATUS.md">Offene Nachweise</a></footer>
+<script src="../simulation/r04_physik.js"></script><script src="motor_daten.js"></script><script src="Ausgabe/modell.js"></script><script src="Ausgabe/massen.js"></script><script src="Ausgabe/variante_8.js"></script><script src="p14_physik.js"></script><script src="p14_3d.js"></script><script src="p14_pilot.js"></script><script src="p14_eingabe.js"></script><script src="p14_flugsimulator.js"></script>
+</body></html>

@@ -8,7 +8,8 @@ P14 setzt den gewünschten Leichtbau als neue Entwicklungsrevision um. P13 bleib
 
 ## Öffnen
 
-- [Interaktiver CAD- und Flugprüfstand](P14_Entwicklungspruefstand.html)
+- [P14-Flugsimulator mit WASD, Gamepad und Touch](P14_Flugsimulator.html), [Bedienung und Modellgrenzen](FLUGSTEUERUNG.md)
+- [Technischer CAD- und Leistungsprüfstand](P14_Entwicklungspruefstand.html)
 - [Native FreeCAD-Baugruppe](Ausgabe/P14_MN1330_Leichtbau.FCStd)
 - [Gesamt-STEP](Ausgabe/P14_MN1330_Leichtbau.step)
 - [Einzelteile und Kaufteilreferenzen](Ausgabe/Teile.json), [Stückliste](Ausgabe/Stueckliste.csv)
@@ -47,7 +48,9 @@ Eine im Browser gespeicherte Konfiguration lässt sich mit `--config /pfad/konfi
 
 ## Flugrechnung und bestehender Simulator
 
-Die große Ausführung liegt in einem **separaten Entwicklungsprüfstand**. Das aktive H01-Profil des kleinen Modells wird noch nicht umgestellt: Die vom Nutzer gewünschte Voraussetzung „produktionsreif“ ist nicht erfüllt.
+Die große Ausführung besitzt einen **interaktiven P14-Flugsimulator** mit WASD, QE zum Drehen, RF für die Höhe, Start/Landung/Pause und Positions-/Winkelmodus. Standard-Gamepad und Mehrfinger-Touch sind ebenfalls verfügbar. Der bisherige H01/P11-Simulator verlinkt P14 in seiner Modellauswahl. Der technische Entwicklungsprüfstand bleibt für direkte Pitch-/Leistungsstudien erhalten. Fertigungs- und Flugfreigaben fehlen weiterhin.
+
+Für einen steuerbaren Flug ausdrücklich **„Trainingsflug · freie Motorleistung“** wählen:150Nm und40kW elektrisch je Motor sind dort freie Annahmen. „Start / T“ verwendet den aktuell gewählten Motorfall; mit den voreingestellten MN1330-Daten bleibt die Standardkonfiguration am Boden. Der neue Modellregler verändert ausschließlich Drehzahl- und Pitchbefehle; die bisherige Physik berechnet Auftrieb, Leistung und Bewegung. Die Kameranachführung zeigt die tatsächliche Flugposition. [Alle Tasten und Prüfbedingungen](FLUGSTEUERUNG.md).
 
 Die Rechnung verbindet CAD-Masse/-Trägheit, Nutzlastschwerpunkt, unabhängigen Wellenhochlauf beider Motoren, statische BEMT mit oberem Nachlauf, linearisierte zyklische Momente und einen starren Körper mit Gegenmomenten/Kreiseleffekt. Ein idealisierter Bodenprüfstand hält das Modell bis zum Abheben aufrecht. Motor-Moment und elektrische Leistung begrenzen den Hochlauf; eine idealisierte Drehzahlregelung ist kein bestätigtes ESC-Modell.
 
@@ -64,6 +67,8 @@ Die bereitgestellten MN1330-Daten liefern 2,75 kg Motormasse, 24S und eine NS52�
 /usr/bin/python3 kreis_r04/mn1330_p14/montage_nachweis.py
 /usr/bin/python3 kreis_r04/mn1330_p14/lastscreen.py
 node kreis_r04/mn1330_p14/pruefen_simulation.js
+node kreis_r04/mn1330_p14/pruefen_flugsteuerung.cjs
+node kreis_r04/mn1330_p14/pruefen_flugsimulator.cjs
 ```
 
 Alle Volumenüberschneidungen über 0,1 mm³ werden mitgezählt, ohne pauschale Kontakt-Ausnahmen. Der dynamische CAD-Test prüft ausgewählte kritische Paare in fünf Stellungen; er ist kein vollständiger Hüllvolumen-Nachweis. Der Montageprüfer kontrolliert kontinuierliche Bolzen-Auszugshüllen, benannte Lager-/Baugruppen-Einbauwege und 30-mm-Sechskantbits. Prüfumfang und Restpunkte stehen in [MONTAGE.md](MONTAGE.md). Der Lastscreen berechnet Beanspruchungen ohne erfundene zulässige CFK-/Alu-Dauerlasten.

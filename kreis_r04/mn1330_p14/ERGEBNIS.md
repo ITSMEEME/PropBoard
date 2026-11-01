@@ -2,7 +2,7 @@
 
 **Außenrahmen und Spitzenlager entfernt; verstärktes Zentrum, freitragende CFK-Flügel und sechs reale PH54-Servos je Rotorpaar als Entwicklungsstand umgesetzt.** Die native Baugruppe hat 1437 gültige Körper und 102 aktive Teiletypen. Sie ist animierbar und mit CAD-Masse/-Trägheit im separaten parametrischen Entwicklungsprüfstand untersuchbar. **Produktions- und Flugfreigabe fehlen.**
 
-[Prüfstand öffnen](P14_Entwicklungspruefstand.html) · [FreeCAD](Ausgabe/P14_MN1330_Leichtbau.FCStd) · [STEP](Ausgabe/P14_MN1330_Leichtbau.step) · [offene Freigaben](FREIGABESTATUS.md)
+[Flugsimulator mit WASD](P14_Flugsimulator.html) · [Technischer Prüfstand](P14_Entwicklungspruefstand.html) · [FreeCAD](Ausgabe/P14_MN1330_Leichtbau.FCStd) · [STEP](Ausgabe/P14_MN1330_Leichtbau.step) · [offene Freigaben](FREIGABESTATUS.md)
 
 ![P14](Ansichten/P14_Gesamt.png)
 
@@ -80,6 +80,14 @@ Der konservative 3,4-kW-Rechenfall beendet die Zeitrechnung nach180s. Ein Vergle
 
 Die Geometrien und Trägheiten wurden für alle fünf Blattzahlen neu aus CAD erzeugt. 1–4 Rotorpaare lassen sich mit geänderter Gesamtmasse, Schwerpunktlage und Trägheit im Prüfstand untersuchen. Bei mehreren Paaren fehlt der Verbindungsrahmen; diese Anordnungen sind konstruktiv unvollständig und können das Zielmaß überschreiten.
 
-Die 19 Physik-/Datenprüfungen und 9 Browserprüfungen bestehen, einschließlich Gegenmomenten, Leistungsgrenzen,180s-Zeitgrenze, Parameterwechsel, Export und mobiler Darstellung. Die bisherigen BEMT-Standardfälle bleiben numerisch unverändert. Das bestehende H01-Modell wird erst nach den offenen Freigaben als produktionsnahes Großmodell ergänzt.
+Die 19 Physik-/Datenprüfungen und 9 Browserprüfungen bestehen, einschließlich Gegenmomenten, Leistungsgrenzen,180s-Zeitgrenze, Parameterwechsel, Export und mobiler Darstellung. Die bisherigen BEMT-Standardfälle bleiben numerisch unverändert. P14 ist als Entwicklungsmodell aus der H01-Modellauswahl erreichbar; eine Produktions- oder Flugfreigabe folgt daraus nicht.
+
+## Interaktiver Flugsimulator
+
+P14 ist mit WASD, QE, RF und Start/Landung/Pause steuerbar. Der ideale Modellregler bietet Positionshaltung und Winkelmodus, Kamera-Nachführung und eine Navigationsanzeige. Standard-Gamepad und Mehrfinger-Touch sind implementiert. Aus dem bisherigen H01/P11-Simulator führt die Modellauswahl zum P14-Flugsimulator; die unterschiedlichen Physikmodelle bleiben getrennt.
+
+13 Reglerprüfungen bestehen, darunter kalter Bodenstart, Positions-/Höhenregelung, Gieren, Landung, alle fünf Blattzahlen und mehrere Rotorpaare. 11 zusätzliche Browserprüfungen bestehen mit tatsächlichen Tastaturereignissen, Fokus-/Pausenverhalten, Parameterwechsel, Gamepad-API und Zweifinger-Touch. Die Software-Quellhashes stehen in den Berichten.
+
+Der ausdrücklich gewählte Trainingsfall verwendet150Nm und40kW elektrische Leistung je Motor bei höchstens2.800/min als freie Annahmen. Das ist keine MN1330-Freigabe. Die dokumentierten Datenfälle erhalten ihre Leistungs-/Zeitgrenzen und bleiben im Standardfall am Boden. Der Regler gibt nur Drehzahl-/Pitchbefehle vor; es wird keine zusätzliche Auftriebskraft erzeugt. [Bedienung und Grenzen](FLUGSTEUERUNG.md).
 
 Native SHA256: `1133c2ac3aa7ac82faca89303635fb2c1914e8d9de3b080e94a0a3c7cf4d7970`.

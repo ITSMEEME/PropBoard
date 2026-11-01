@@ -44,11 +44,20 @@
       gl.linkProgram(program);if(!gl.getProgramParameter(program,gl.LINK_STATUS))throw Error(gl.getProgramInfoLog(program));gl.useProgram(program);this.program=program;
       this.loc={p:gl.getAttribLocation(program,'p'),n:gl.getAttribLocation(program,'n'),model:gl.getUniformLocation(program,'model'),vp:gl.getUniformLocation(program,'vp'),color:gl.getUniformLocation(program,'color')};
       gl.enable(gl.DEPTH_TEST);this.buffers={};this.az=-65;this.el=26;this.distance=2700;this.target=[0,0,370];this.showLower=true;this.showBlades=true;this.showDetails=false;
-      let drag=null;canvas.addEventListener('pointerdown',e=>{drag=[e.clientX,e.clientY];canvas.setPointerCapture(e.pointerId);});canvas.addEventListener('pointermove',e=>{if(!drag)return;this.az-=(e.clientX-drag[0])*.35;this.el=P.clamp(this.el+(e.clientY-drag[1])*.3,-60,85);drag=[e.clientX,e.clientY];});canvas.addEventListener('pointerup',()=>drag=null);
-      canvas.addEventListener('wheel',e=>{e.preventDefault();this.distance=P.clamp(this.distance*Math.exp(e.deltaY*.001),300,13000);},{passive:false});
+      let drag=null;canvas.addEventListener('pointerdown',e=>{drag=[e.clientX,e.clientY];canvas.setPointerCapture(e.pointerId);});canvas.addEventListener('pointermove',e=>{if(!drag)return;this.az-=(e.clientX-drag[0])*.35;this.el=P.clamp(this.el+(e.clientY-drag[1])*.3,-60,85);drag=[e.clientX,e.clientY];});for(const event of ['pointerup','pointercancel','lostpointercapture'])canvas.addEventListener(event,()=>drag=null);
+      canvas.addEventListener('wheel',e=>{e.preventDefault();this.distance=P.clamp(this.distance*Math.exp(e.deltaY*.001),300,this.navigation?80000:13000);},{passive:false});
       const grid=[];for(let i=-4000;i<=4000;i+=250){grid.push(i,-4000,0,0,0,1,i,4000,0,0,0,1,-4000,i,0,0,0,1,4000,i,0,0,0,1);}this.grid=this.buffer(grid);
     }
     buffer(array){const gl=this.gl,b=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,b);gl.bufferData(gl.ARRAY_BUFFER,new Float32Array(array),gl.STATIC_DRAW);return{buffer:b,count:array.length/6};}
+    enableNavigation(){
+      this.navigation=true;this.followXY=true;
+      const grid=[];for(let i=-30000;i<=30000;i+=1000)for(let j=-30000;j<30000;j+=1000)grid.push(i,j,0,0,0,1,i,j+1000,0,0,0,1,j,i,0,0,0,1,j+1000,i,0,0,0,1);
+      this.navigationGrid=this.buffer(grid);
+      const marks=[];for(let a=0;a<360;a+=5){const b=(a+5)*D;marks.push(1000*Math.cos(a*D),1000*Math.sin(a*D),2,0,0,1,1000*Math.cos(b),1000*Math.sin(b),2,0,0,1);}
+      for(const x of [-10000,10000])for(const y of [-10000,10000])marks.push(x-500,y,2,0,0,1,x+500,y,2,0,0,1,x,y-500,2,0,0,1,x,y+500,2,0,0,1);
+      this.navigationMarks=this.buffer(marks);
+      this.heading=this.buffer([0,0,0,0,0,1,600,0,0,0,0,1,600,0,0,0,0,1,420,100,0,0,0,1,600,0,0,0,0,1,420,-100,0,0,0,1]);
+    }
     setVariant(v){
       for(const b of Object.values(this.buffers))this.gl.deleteBuffer(b.buffer);this.buffers={};this.variant=v;
       for(const [id,m] of Object.entries(v.meshes)){const a=[];for(const face of m.triangles){const p=face.map(i=>m.vertices_mm[i]),normal=P.cross(P.sub(p[1],p[0]),P.sub(p[2],p[0])),nn=P.length(normal);if(nn<1e-15)continue;const n=P.scale(normal,1/nn);for(const x of p)a.push(...x,...n);}this.buffers[id]=this.buffer(a);}
@@ -56,14 +65,17 @@
     drawBuffer(buffer,m,color,lines=false){const gl=this.gl,l=this.loc;gl.bindBuffer(gl.ARRAY_BUFFER,buffer.buffer);gl.enableVertexAttribArray(l.p);gl.enableVertexAttribArray(l.n);gl.vertexAttribPointer(l.p,3,gl.FLOAT,false,24,0);gl.vertexAttribPointer(l.n,3,gl.FLOAT,false,24,12);gl.uniformMatrix4fv(l.model,false,transpose(m));gl.uniform3fv(l.color,new Float32Array(color));gl.drawArrays(lines?gl.LINES:gl.TRIANGLES,0,buffer.count);}
     draw(c,commands,angles=[0,0],flight=null){
       if(!this.variant)return;const gl=this.gl,canvas=this.canvas,dpr=Math.min(devicePixelRatio||1,1.7),w=Math.max(1,Math.floor(canvas.clientWidth*dpr)),h=Math.max(1,Math.floor(canvas.clientHeight*dpr));if(canvas.width!==w||canvas.height!==h){canvas.width=w;canvas.height=h;}gl.viewport(0,0,w,h);gl.clearColor(.91,.94,.96,1);gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);
-      const target=this.target.slice();if(flight)target[2]+=flight.height*1000;
+      const target=this.target.slice();if(flight){target[2]+=flight.height*1000;if(this.followXY){target[0]+=flight.position[0]*1000;target[1]+=flight.position[1]*1000;}}
       const eye=P.add(target,[this.distance*Math.cos(this.el*D)*Math.cos(this.az*D),this.distance*Math.cos(this.el*D)*Math.sin(this.az*D),this.distance*Math.sin(this.el*D)]);
       const f=P.scale(P.sub(target,eye),1/P.length(P.sub(target,eye))),side=P.scale(P.cross(f,[0,0,1]),1/P.length(P.cross(f,[0,0,1]))),up=P.cross(side,f);
-      const view=[...side,-P.dot(side,eye),...up,-P.dot(up,eye),...P.scale(f,-1),P.dot(f,eye),0,0,0,1],a=1/Math.tan(40*D/2),near=10,far=30000;
+      const view=[...side,-P.dot(side,eye),...up,-P.dot(up,eye),...P.scale(f,-1),P.dot(f,eye),0,0,0,1],a=1/Math.tan(40*D/2),near=10,far=this.navigation?200000:30000;
       const projection=[a/(w/h),0,0,0,0,a,0,0,0,0,(far+near)/(near-far),2*far*near/(near-far),0,0,-1,0];gl.uniformMatrix4fv(this.loc.vp,false,transpose(mul(projection,view)));
-      this.drawBuffer(this.grid,I(),[.64,.72,.77],true);
+      const gridWorld=this.navigation&&flight?T(Math.round(flight.position[0]/10)*10000,Math.round(flight.position[1]/10)*10000,0):I();
+      this.drawBuffer(this.navigation?this.navigationGrid:this.grid,gridWorld,[.64,.72,.77],true);
+      if(this.navigation)this.drawBuffer(this.navigationMarks,I(),[.07,.47,.55],true);
       const derived=P.derive(c),floor=c.geometry.rotor_spacing_mm/2+90;
       const world=flight?chain(T(...P.scale(flight.position,1000)),quat(flight.quaternion),T(...P.scale(flight.properties.cg,-1000))):T(0,0,floor);
+      if(this.navigation)this.drawBuffer(this.heading,mul(world,T(0,0,c.geometry.rotor_spacing_mm/2+100)),[.02,.35,.64],true);
       const poses=[P.podPose(c,commands,1,angles[0]),P.podPose(c,commands,-1,angles[1])];let count=0;
       for(const centre of derived.unit_centres_mm){
         const unit=chain(world,T(...centre));
