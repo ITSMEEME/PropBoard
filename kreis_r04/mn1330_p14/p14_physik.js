@@ -143,7 +143,8 @@
       if(!(dt>0&&dt<=.025))throw Error('Integrationsschritt muss 0..25ms sein');
       const p=this.properties,c=this.config,cmd=this.commands,q=derive(c),N=c.geometry.lift_units;
       if((cmd.motorMode??c.operating.motor_default_mode)==='conservative_spec'&&this.time+dt>180+1e-8)throw Error('180-s-Zeitbezug erreicht; keine bestätigte Dauerleistung für weitere Flugrechnung');
-      if(![cmd.rpm,cmd.collectiveUpper,cmd.collectiveLower,cmd.cyclicX,cmd.cyclicY,cmd.torqueCap].every(Number.isFinite)||cmd.rpm<0||cmd.rpm>2400||Math.abs(cmd.collectiveUpper)>3.5||Math.abs(cmd.collectiveLower)>3.5||Math.hypot(cmd.cyclicX,cmd.cyclicY)>.500001||cmd.torqueCap<0||cmd.torqueCap>200)throw Error('Stellgröße außerhalb des Rechenbereichs');
+      const rpmCeiling=cmd.motorMode==='free_assumption'?2800:2400;
+      if(![cmd.rpm,cmd.collectiveUpper,cmd.collectiveLower,cmd.cyclicX,cmd.cyclicY,cmd.torqueCap].every(Number.isFinite)||cmd.rpm<0||cmd.rpm>rpmCeiling||Math.abs(cmd.collectiveUpper)>3.5||Math.abs(cmd.collectiveLower)>3.5||Math.hypot(cmd.cyclicX,cmd.cyclicY)>.500001||cmd.torqueCap<0||cmd.torqueCap>200)throw Error('Stellgröße außerhalb des Rechenbereichs');
       this.aeroAge+=dt;
       if(this.aeroAge>=.1){this.aero=aerodynamics(c,cmd,...this.shaftOmega.map(w=>w*60/(2*Math.PI)));this.aeroAge=0;}
       const s=this.aero,rot=[s.upper,s.lower],directions=[-1,1],wdot=[],torque=[],inputPower=[],limits=motorLimits(c,cmd);

@@ -19,5 +19,14 @@
     "Motor-Montagebezug65/66mm und Gewindeeingriffe",
     "Personendeck, reale Versorgung/Kühlung, Schutz-/Landestruktur",
     "Mehrrotor-Verbindungsrahmen bei mehr als einem Paar"
-  ]
+  ],
+  "P14_interactive_flight_available": true,
+  "H01_model_navigation_available": true,
+  "interactive_flight_checks_passed": true,
+  "training_motor_assumptions": {
+    "torque_each_Nm": 150,
+    "input_power_each_W": 40000,
+    "max_rpm": 2800,
+    "hardware_verified": false
+  }
 }

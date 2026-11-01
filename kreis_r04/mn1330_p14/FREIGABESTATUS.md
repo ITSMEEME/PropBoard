@@ -1,6 +1,6 @@
 # Freigabestatus P14
 
-**Produktionsreif: nein. Bestellfreigabe: nein. Personen-/Flugfreigabe: nein.** Animierbarkeit und gültige CAD-Körper sind separat geprüft; sie ersetzen diese Freigaben nicht. Das große Modell bleibt deshalb als eigener Entwicklungsprüfstand neben H01.
+**Produktionsreif: nein. Bestellfreigabe: nein. Personen-/Flugfreigabe: nein.** Animierbarkeit, gültige CAD-Körper und die interaktive Flugrechnung sind separat geprüft; sie ersetzen diese Freigaben nicht. P14 ist als eigener Flugsimulator aus H01 erreichbar und bleibt ein Entwicklungsmodell.
 
 | Bereich | Erledigt | Noch erforderlich |
 |---|---|---|
@@ -16,7 +16,7 @@
 | Kabel / Versorgung | Bauraum und Verbraucherbedarf als Untersuchungsgrenze benannt | realer Kabelbaum, Stecker, Biegeradien, 24-V-Servo-Zweig, Akku, Gehäuse, Kühlung und Massenerfassung |
 | Nutzlast / Boden | gemeinsamer Zentralanschluss, Punktmassenszenario, idealer Simulatorboden | Personendeck, Rückhalt, Schutzkonzept, reale Landestruktur, entsprechende Lasten/Massen |
 | Mehrere Rotorpaare | parametrische nicht überlappende Anordnung; neue Gesamtmasse und Trägheit | konstruktiver Verbindungsrahmen, Versorgung, Regelung und Zielmaßnachweis je Anordnung |
-| Simulation | separate parametrische Entwicklungsrechnung mit tatsächlichen CAD-Massendaten | Messabgleich, dynamische Rotor-/Servomodelle, elastische Kopplung, Flugregler, tatsächliche Motorgrenzen |
+| Simulation | parametrischer P14-Flugsimulator mit CAD-Massendaten, WASD/Touch/Gamepad und idealem Positions-/Winkelregler; dokumentierte Motorgrenzen bleiben wirksam | Messabgleich, dynamische Rotor-/Servomodelle, elastische Kopplung, realer Flugregler, tatsächliche Motorgrenzen; Trainingsleistung ist freie Annahme |
 
 Das vollständige statische Kollisionsprotokoll steht in [Kollisionen.json](Ausgabe/Kollisionen.json), ohne pauschale Kontakt-Ausnahmen. Die dynamische Stichprobe steht in [Kinematik_Pruefung.json](Ausgabe/Kinematik_Pruefung.json), die Montageprüfung in [Montage_Pruefung.json](Ausgabe/Montage_Pruefung.json). Diese Prüfungen gelten mit ihrem jeweiligen Umfang; Variantenkörper allein belegen keine Kollisionsfreiheit aller Parameterkombinationen.
 

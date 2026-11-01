@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "production_ready": false,
+  "native_sha256": "1133c2ac3aa7ac82faca89303635fb2c1914e8d9de3b080e94a0a3c7cf4d7970",
+  "repository_navigation_checked": true,
+  "source_sha256": {
+    "p14_pilot.js": "fa4672f7bec0323fe68d63f8c0c27b80a5f454a0c001614c05ab637696bf65d6",
+    "p14_eingabe.js": "2bef94329e792ef7ecfc66d3969b81fc23d703572e7b759b2110c44f014dd9d3",
+    "p14_flugsimulator.js": "6329c21a376c41e47fcdd905c116c97930b7dae8e9d752f46acc656cd82bace5",
+    "p14_physik.js": "97dded97b3e1bfe5c98aed421e56630404fc8761c6eaa84cb5c4dd3dc7d0a8e8",
+    "p14_3d.js": "b4f597338e63f665fa6254fd8ef671f669eac647840879f13559e3291a1aa55b",
+    "P14_Flugsimulator.html": "2596c38872a8c266548eeea5335f2b4c1288f6cd28401d4cb0fd783ac7744d29",
+    "p14_flugsimulator.css": "043b4649943222d1f68f4a4a30d56631bc5e7c786470bc1d733a278589305f45"
+  },
+  "checks": [
+    "P14 entry page renders native CAD and is linked from H01 and the technical bench",
+    "Keyboard T respects MN1330 power and180s limits; pause does not start cold motors; reset clears the flight",
+    "Lower payload can reach model hover inside the unchanged bench-maxima case; no blanket no-flight flag",
+    "Explicit training action selects labelled free power assumptions and performs actual ground takeoff",
+    "Real W/Q/R key events produce translation, yaw and climb; released keys return to position/height hold",
+    "M/C modes, pause/resume, blur neutralization and editing-field keyboard isolation work",
+    "Keyboard landing reaches the floor and leaves the rotors in physical coast-down",
+    "Parameter changes load real12-blade/two-pair CAD mass/inertia, reset flight and export assumptions",
+    "Standard Mode2 gamepad axes, button edges and disconnect neutralization work",
+    "A denied Gamepad API leaves keyboard controls and rendering operational",
+    "Mobile layout and actual two-finger pointer capture/release/cancel keep flight input usable"
+  ],
+  "before": {
+    "native_sha256": "1133c2ac3aa7ac82faca89303635fb2c1914e8d9de3b080e94a0a3c7cf4d7970",
+    "mass": 174.56144306075956
+  },
+  "changed": {
+    "mass": 277.50353117692,
+    "n": 12,
+    "missing": true,
+    "time": 0
+  },
+  "console_page_errors": []
+}

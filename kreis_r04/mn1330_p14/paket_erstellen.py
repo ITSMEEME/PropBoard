@@ -31,9 +31,15 @@ def main():
     shared=[R/'kreis_r04/simulation'/f for f in ['r04_physik.js','lbm.js','pruefen.js']]
     start='''# P14 – lokales Entwicklungspaket
 
-Öffnen: `kreis_r04/mn1330_p14/P14_Entwicklungspruefstand.html`.
+Flugsimulator: `kreis_r04/mn1330_p14/P14_Flugsimulator.html`.
+Technischer Prüfstand: `kreis_r04/mn1330_p14/P14_Entwicklungspruefstand.html`.
 CAD: `kreis_r04/mn1330_p14/Ausgabe/P14_MN1330_Leichtbau.FCStd`.
 Ergebnis: `kreis_r04/mn1330_p14/ERGEBNIS.md`.
+
+WASD bewegen, QE drehen, RF Höhe, T Start, L Landung, Leertaste Pause.
+Für einen steuerbaren Flug ausdrücklich „Trainingsflug“ wählen.150Nm/40kW je Motor
+sind dort freie Annahmen. Der voreingestellte MN1330-Fall bleibt bei100kg am Boden.
+Gamepad und Mehrfinger-Touch sind verfügbar. Bedienung: `kreis_r04/mn1330_p14/FLUGSTEUERUNG.md`.
 
 Dieses Paket ist ein Entwicklungsstand ohne Produktions-, Bestell- oder Flugfreigabe.
 3,4kW/180s ist keine Dauerleistung. Höhere Motorprüfpunkte haben keine angegebene Haltedauer.
@@ -43,10 +49,11 @@ Lieferprofile/Toleranzen und Last-/Ermüdungsnachweise bleiben offen.
 
 Falls der Browser lokale Skripte sperrt, hier `python3 -m http.server8050 --bind127.0.0.1`
 mit Leerzeichen zwischen `server`, `8050`, `--bind` und `127.0.0.1` starten und anschließend
-`http://127.0.0.1:8050/kreis_r04/mn1330_p14/P14_Entwicklungspruefstand.html` aufrufen.
+`http://127.0.0.1:8050/kreis_r04/mn1330_p14/P14_Flugsimulator.html` aufrufen.
 
 Die JSON-SHA256-Liste im P14-Verzeichnis prüft die unveränderten Paketdateien; sich selbst schließt sie aus.
 Node-Prüfung aus diesem Verzeichnis: `node kreis_r04/mn1330_p14/pruefen_simulation.js`.
+Flugregler-Prüfung: `node kreis_r04/mn1330_p14/pruefen_flugsteuerung.cjs`.
 FreeCAD-Animation: zuerst FCStd öffnen, dann das benachbarte P14_Animation.FCMacro ausführen.
 '''
     # Keep the actual copy/paste command unambiguous.

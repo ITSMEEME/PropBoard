@@ -7,9 +7,13 @@ def de(v,n=2):return f'{v:,.{n}f}'.replace(',','@').replace('.',',').replace('@'
 def main():
     model=read('Modell.json');p=read('Pruefung.json');step=read('STEP_Pruefung.json');kin=read('Kinematik_Pruefung.json');col=read('Kollisionen.json');sim=read('Simulation_Pruefung.json');browser=read('Browser_Pruefung.json');load=read('Lastscreen.json');mass=read('Massenvarianten.json');motor=json.loads((H/'Motor_Daten.json').read_text())
     assembly=read('Montage_Pruefung.json');oldjoint=json.loads((H/'Quellen/P14_Gelenkfix_Ausgangsbefund.json').read_text())
+    pilot=read('Flugsteuerung_Pruefung.json');pilotbrowser=read('Flugsimulator_Browser_Pruefung.json')
     sha=hashlib.sha256((O/'P14_MN1330_Leichtbau.FCStd').read_bytes()).hexdigest()
     assert sha==model['source_native_sha256']==p['native_sha256']
-    for report in [step,kin,col,sim,browser,load,assembly]:assert report['native_sha256']==sha
+    for report in [step,kin,col,sim,browser,load,assembly,pilot,pilotbrowser]:assert report['native_sha256']==sha
+    assert pilot['passed'] and pilotbrowser['passed']
+    for report in [pilot,pilotbrowser]:
+        for name,digest in report['source_sha256'].items():assert hashlib.sha256((H/name).read_bytes()).hexdigest()==digest,name
     assert p['all_valid'] and step['all_active_single_parts_pass'] and step['aggregate']['pass'] and sim['passed'] and browser['passed']
     assert not kin['native']['selected_dynamic_overlaps']
     assert col['open_count']==0 and assembly['passed']
@@ -25,7 +29,7 @@ def main():
 
 **Außenrahmen und Spitzenlager entfernt; verstärktes Zentrum, freitragende CFK-Flügel und sechs reale PH54-Servos je Rotorpaar als Entwicklungsstand umgesetzt.** Die native Baugruppe hat {p['body_count']} gültige Körper und {p['type_count']} aktive Teiletypen. Sie ist animierbar und mit CAD-Masse/-Trägheit im separaten parametrischen Entwicklungsprüfstand untersuchbar. **Produktions- und Flugfreigabe fehlen.**
 
-[Prüfstand öffnen](P14_Entwicklungspruefstand.html) · [FreeCAD](Ausgabe/P14_MN1330_Leichtbau.FCStd) · [STEP](Ausgabe/P14_MN1330_Leichtbau.step) · [offene Freigaben](FREIGABESTATUS.md)
+[Flugsimulator mit WASD](P14_Flugsimulator.html) · [Technischer Prüfstand](P14_Entwicklungspruefstand.html) · [FreeCAD](Ausgabe/P14_MN1330_Leichtbau.FCStd) · [STEP](Ausgabe/P14_MN1330_Leichtbau.step) · [offene Freigaben](FREIGABESTATUS.md)
 
 ![P14](Ansichten/P14_Gesamt.png)
 
@@ -99,7 +103,15 @@ Der konservative 3,4-kW-Rechenfall beendet die Zeitrechnung nach180s. Ein Vergle
 
 Die Geometrien und Trägheiten wurden für alle fünf Blattzahlen neu aus CAD erzeugt. 1–4 Rotorpaare lassen sich mit geänderter Gesamtmasse, Schwerpunktlage und Trägheit im Prüfstand untersuchen. Bei mehreren Paaren fehlt der Verbindungsrahmen; diese Anordnungen sind konstruktiv unvollständig und können das Zielmaß überschreiten.
 
-Die {len(sim['checks'])} Physik-/Datenprüfungen und {len(browser['checks'])} Browserprüfungen bestehen, einschließlich Gegenmomenten, Leistungsgrenzen,180s-Zeitgrenze, Parameterwechsel, Export und mobiler Darstellung. Die bisherigen BEMT-Standardfälle bleiben numerisch unverändert. Das bestehende H01-Modell wird erst nach den offenen Freigaben als produktionsnahes Großmodell ergänzt.
+Die {len(sim['checks'])} Physik-/Datenprüfungen und {len(browser['checks'])} Browserprüfungen bestehen, einschließlich Gegenmomenten, Leistungsgrenzen,180s-Zeitgrenze, Parameterwechsel, Export und mobiler Darstellung. Die bisherigen BEMT-Standardfälle bleiben numerisch unverändert. P14 ist als Entwicklungsmodell aus der H01-Modellauswahl erreichbar; eine Produktions- oder Flugfreigabe folgt daraus nicht.
+
+## Interaktiver Flugsimulator
+
+P14 ist mit WASD, QE, RF und Start/Landung/Pause steuerbar. Der ideale Modellregler bietet Positionshaltung und Winkelmodus, Kamera-Nachführung und eine Navigationsanzeige. Standard-Gamepad und Mehrfinger-Touch sind implementiert. Aus dem bisherigen H01/P11-Simulator führt die Modellauswahl zum P14-Flugsimulator; die unterschiedlichen Physikmodelle bleiben getrennt.
+
+{len(pilot['checks'])} Reglerprüfungen bestehen, darunter kalter Bodenstart, Positions-/Höhenregelung, Gieren, Landung, alle fünf Blattzahlen und mehrere Rotorpaare. {len(pilotbrowser['checks'])} zusätzliche Browserprüfungen bestehen mit tatsächlichen Tastaturereignissen, Fokus-/Pausenverhalten, Parameterwechsel, Gamepad-API und Zweifinger-Touch. Die Software-Quellhashes stehen in den Berichten.
+
+Der ausdrücklich gewählte Trainingsfall verwendet150Nm und40kW elektrische Leistung je Motor bei höchstens2.800/min als freie Annahmen. Das ist keine MN1330-Freigabe. Die dokumentierten Datenfälle erhalten ihre Leistungs-/Zeitgrenzen und bleiben im Standardfall am Boden. Der Regler gibt nur Drehzahl-/Pitchbefehle vor; es wird keine zusätzliche Auftriebskraft erzeugt. [Bedienung und Grenzen](FLUGSTEUERUNG.md).
 
 Native SHA256: `{sha}`.
 '''
@@ -110,6 +122,7 @@ Native SHA256: `{sha}`.
         w=csv.writer(f,delimiter=';');w.writerow(['ID','Bezeichnung','Anzahl','Werkstoff','Kategorie','Status','Hinweis'])
         for id,t in model['types'].items():w.writerow([id,t['name'],counts[id],t['material'],t['kind'],'ENTWICKLUNG_KEINE_BESTELLFREIGABE',t['note']])
     gate=dict(production_ready=False,manufacturing_release=False,flight_release=False,H01_large_profile_activated=False,native_sha256=sha,all_report_sources_match=True,static_open_overlaps=col['open_count'],selected_dynamic_overlaps=0,nominal_assembly_paths_passed=assembly['passed'],joint_geometry_completed=True,motor_time_reference_s=180,continuous_motor_rating_verified=False,blocking=['Servo-OEM-Horn/Gehäusebefestigung und spezifischer Dauerbetrieb','GE8E/DIN472-Lieferprofile, Toleranzkette und Alu-Gelenk-Tragfähigkeit','Sonderrotor-Schwebebedarf über dokumentierten Motorprüfwerten','CFK/Alu/Lager-Vorspannungs-/Ermüdungsnachweise','Motor-Montagebezug65/66mm und Gewindeeingriffe','Personendeck, reale Versorgung/Kühlung, Schutz-/Landestruktur','Mehrrotor-Verbindungsrahmen bei mehr als einem Paar'])
+    gate.update(P14_interactive_flight_available=True,H01_model_navigation_available=True,interactive_flight_checks_passed=True,training_motor_assumptions=dict(torque_each_Nm=150,input_power_each_W=40000,max_rpm=2800,hardware_verified=False))
     (O/'Freigabe.json').write_text(json.dumps(gate,indent=2,ensure_ascii=False)+'\n')
     plot_motor(motor,h)
     print(json.dumps(dict(native_sha256=sha,structural_mass_reduction_percent=reduction*100,cad_mass_kg=m['dry_cad_mass_assumed_kg'],scenario_mass_kg=m['total_scenario_mass_kg'],production_ready=False),indent=2))
