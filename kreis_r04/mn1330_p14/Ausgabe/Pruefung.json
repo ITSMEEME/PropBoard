@@ -1,0 +1,29 @@
+{
+  "revision": "P14",
+  "production_ready": false,
+  "body_count": 1437,
+  "type_count": 102,
+  "native_sha256": "1133c2ac3aa7ac82faca89303635fb2c1914e8d9de3b080e94a0a3c7cf4d7970",
+  "all_valid": true,
+  "outer_frame_removed": true,
+  "tip_support_removed": true,
+  "actuator_belt_spindles_removed": true,
+  "mass": {
+    "dry_cad_mass_assumed_kg": 60.56144306075956,
+    "cfk_assumed_kg": 8.836408137895676,
+    "aluminium_assumed_kg": 31.916386121198602,
+    "motor_masses_assumed": false,
+    "motor_mass_source": "Nutzer-XLS:2750g inklusive Kabel; nicht selbst gewogen",
+    "bearing_masses_assumed": true,
+    "servo_mass_source": "ROBOTIS855g PH54-200",
+    "total_scenario_mass_kg": 174.56144306075956,
+    "scope": "CAD-Struktur inkl dokumentierter Motor-/Servo-Massen und Lagerannahmen; Schrauben, reale Kabel, Akkugehäuse und Personendeck nicht vollständig enthalten; keine gewogene Fahrzeugmasse"
+  },
+  "limitations": [
+    "CFK- und Ermuedungsnachweise offen",
+    "Servo Original-STEP nicht erreichbar; Nennmassmodell, Horn-/Montagebezug offen",
+    "MN1330:3400W für180s;16270W-Prüfpunkt ohne Haltedauer; Sonderrotor-/Dauerbetrieb nicht belegt",
+    "Alu-Verbindungsmittel und Gewindetiefen muessen real ausgelegt werden",
+    "Keine Personen-/Flugfreigabe"
+  ]
+}

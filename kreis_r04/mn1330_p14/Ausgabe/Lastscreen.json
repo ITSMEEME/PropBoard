@@ -1,0 +1,348 @@
+{
+  "production_ready": false,
+  "method": "Isotropic uniform-E linear beam from 41 exact CAD slices; no centrifugal stiffening. Demand only, no strength/fatigue allowables.",
+  "load_case": {
+    "total_mass_kg": 174.56144306075956,
+    "load_factor": 2,
+    "flap_force_per_blade_N": 214.05596955325643,
+    "flap_root_moment_Nm": 73.14611793284672,
+    "shaft_last_support_moment_Nm": 81.60132873020035,
+    "bearing_pair_spacing_mm": 35,
+    "bearing_couple_reaction_N": 2331.4665351485814
+  },
+  "cfk_sections": [
+    {
+      "r_mm": 200.4680374315355,
+      "area_mm2": 2435.991954583019,
+      "I_flap_mm4": 291529.706060607,
+      "zmax_mm": 24.00000000000089
+    },
+    {
+      "r_mm": 213.1813364957471,
+      "area_mm2": 2114.8369545664004,
+      "I_flap_mm4": 165093.81201256067,
+      "zmax_mm": 17.996530044381934
+    },
+    {
+      "r_mm": 225.89463555995872,
+      "area_mm2": 2114.8369545666533,
+      "I_flap_mm4": 165093.81201259792,
+      "zmax_mm": 17.996530044381938
+    },
+    {
+      "r_mm": 238.60793462417033,
+      "area_mm2": 2114.836954566398,
+      "I_flap_mm4": 165093.81201259792,
+      "zmax_mm": 17.996530044381945
+    },
+    {
+      "r_mm": 251.32123368838194,
+      "area_mm2": 2114.83695456603,
+      "I_flap_mm4": 165093.81201248616,
+      "zmax_mm": 17.99653004438192
+    },
+    {
+      "r_mm": 264.0345327525936,
+      "area_mm2": 2114.8369545664173,
+      "I_flap_mm4": 165093.81201282144,
+      "zmax_mm": 17.996530044381934
+    },
+    {
+      "r_mm": 276.74783181680516,
+      "area_mm2": 444.0127501550442,
+      "I_flap_mm4": 73353.75166614074,
+      "zmax_mm": 17.99653004502853
+    },
+    {
+      "r_mm": 289.46113088101674,
+      "area_mm2": 556.3203997255131,
+      "I_flap_mm4": 76889.99441108666,
+      "zmax_mm": 17.996530044383928
+    },
+    {
+      "r_mm": 302.1744299452284,
+      "area_mm2": 535.513789642568,
+      "I_flap_mm4": 62581.52504085563,
+      "zmax_mm": 17.996530044384354
+    },
+    {
+      "r_mm": 314.88772900944,
+      "area_mm2": 514.7071795596266,
+      "I_flap_mm4": 50005.38590338081,
+      "zmax_mm": 17.996530044384986
+    },
+    {
+      "r_mm": 327.6010280736516,
+      "area_mm2": 493.90056954149674,
+      "I_flap_mm4": 39074.24974229187,
+      "zmax_mm": 13.368850890114512
+    },
+    {
+      "r_mm": 340.3143271378632,
+      "area_mm2": 473.093959451909,
+      "I_flap_mm4": 29700.789296133444,
+      "zmax_mm": 13.36885089011314
+    },
+    {
+      "r_mm": 353.0276262020749,
+      "area_mm2": 452.2873493622433,
+      "I_flap_mm4": 21797.677312027663,
+      "zmax_mm": 13.36885089011197
+    },
+    {
+      "r_mm": 365.74092526628647,
+      "area_mm2": 431.4807392726148,
+      "I_flap_mm4": 15277.586530642584,
+      "zmax_mm": 13.368850890110933
+    },
+    {
+      "r_mm": 378.45422433049805,
+      "area_mm2": 410.6741291829579,
+      "I_flap_mm4": 10053.189696436748,
+      "zmax_mm": 13.368850890111023
+    },
+    {
+      "r_mm": 391.1675233947097,
+      "area_mm2": 409.0149153740242,
+      "I_flap_mm4": 9689.73693777807,
+      "zmax_mm": 7.198612017752071
+    },
+    {
+      "r_mm": 403.88082245892133,
+      "area_mm2": 409.01491537403064,
+      "I_flap_mm4": 9689.736937619746,
+      "zmax_mm": 7.198612017752067
+    },
+    {
+      "r_mm": 416.5941215231329,
+      "area_mm2": 409.0149153739455,
+      "I_flap_mm4": 9689.736937275156,
+      "zmax_mm": 7.198612017752115
+    },
+    {
+      "r_mm": 429.3074205873445,
+      "area_mm2": 409.0149153740545,
+      "I_flap_mm4": 9689.736937666312,
+      "zmax_mm": 7.198612017752073
+    },
+    {
+      "r_mm": 442.02071965155613,
+      "area_mm2": 409.01491537390547,
+      "I_flap_mm4": 9689.73693780601,
+      "zmax_mm": 7.198612017752115
+    },
+    {
+      "r_mm": 454.7340187157678,
+      "area_mm2": 409.01491537401415,
+      "I_flap_mm4": 9689.736937377602,
+      "zmax_mm": 7.198612017752073
+    },
+    {
+      "r_mm": 467.44731777997936,
+      "area_mm2": 409.014915374037,
+      "I_flap_mm4": 9689.736937042326,
+      "zmax_mm": 7.198612017752067
+    },
+    {
+      "r_mm": 480.16061684419094,
+      "area_mm2": 409.0149153740763,
+      "I_flap_mm4": 9689.736937619746,
+      "zmax_mm": 7.19861201775204
+    },
+    {
+      "r_mm": 492.8739159084026,
+      "area_mm2": 409.01491537410067,
+      "I_flap_mm4": 9689.736937247217,
+      "zmax_mm": 7.198612017752026
+    },
+    {
+      "r_mm": 505.5872149726142,
+      "area_mm2": 409.01491537422106,
+      "I_flap_mm4": 9689.736937656999,
+      "zmax_mm": 7.198612017752014
+    },
+    {
+      "r_mm": 518.3005140368258,
+      "area_mm2": 409.0149153741412,
+      "I_flap_mm4": 9689.736936427653,
+      "zmax_mm": 7.198612017752068
+    },
+    {
+      "r_mm": 531.0138131010374,
+      "area_mm2": 409.0149153741412,
+      "I_flap_mm4": 9689.73693806678,
+      "zmax_mm": 7.198612017752069
+    },
+    {
+      "r_mm": 543.7271121652491,
+      "area_mm2": 409.014915374177,
+      "I_flap_mm4": 9689.736937768757,
+      "zmax_mm": 7.198612017752055
+    },
+    {
+      "r_mm": 556.4404112294606,
+      "area_mm2": 409.0149153741773,
+      "I_flap_mm4": 9689.7369370237,
+      "zmax_mm": 7.198612017752056
+    },
+    {
+      "r_mm": 569.1537102936722,
+      "area_mm2": 409.0149153741287,
+      "I_flap_mm4": 9689.736937936395,
+      "zmax_mm": 7.198612017752083
+    },
+    {
+      "r_mm": 581.867009357884,
+      "area_mm2": 409.01491537395685,
+      "I_flap_mm4": 9689.736938457936,
+      "zmax_mm": 7.198612017752166
+    },
+    {
+      "r_mm": 594.5803084220954,
+      "area_mm2": 409.01491537419736,
+      "I_flap_mm4": 9689.736936986446,
+      "zmax_mm": 7.198612017752083
+    },
+    {
+      "r_mm": 607.2936074863071,
+      "area_mm2": 409.0149153741058,
+      "I_flap_mm4": 9689.73693717271,
+      "zmax_mm": 7.198612017752083
+    },
+    {
+      "r_mm": 620.0069065505188,
+      "area_mm2": 409.0149153742461,
+      "I_flap_mm4": 9689.736936781555,
+      "zmax_mm": 7.198612017752055
+    },
+    {
+      "r_mm": 632.7202056147303,
+      "area_mm2": 409.0149153741706,
+      "I_flap_mm4": 9689.736937209964,
+      "zmax_mm": 7.198612017752053
+    },
+    {
+      "r_mm": 645.433504678942,
+      "area_mm2": 409.01491537405974,
+      "I_flap_mm4": 9689.736938104033,
+      "zmax_mm": 7.198612017752082
+    },
+    {
+      "r_mm": 658.1468037431536,
+      "area_mm2": 409.014915374161,
+      "I_flap_mm4": 9689.736937843263,
+      "zmax_mm": 7.1986120177520565
+    },
+    {
+      "r_mm": 670.8601028073651,
+      "area_mm2": 409.01491537405974,
+      "I_flap_mm4": 9689.736937060952,
+      "zmax_mm": 7.198612017752083
+    },
+    {
+      "r_mm": 683.5734018715768,
+      "area_mm2": 409.014915374177,
+      "I_flap_mm4": 9689.736937433481,
+      "zmax_mm": 7.198612017752055
+    },
+    {
+      "r_mm": 696.2867009357883,
+      "area_mm2": 409.0149153741052,
+      "I_flap_mm4": 9689.73693922162,
+      "zmax_mm": 7.198612017752083
+    },
+    {
+      "r_mm": 709.0,
+      "area_mm2": 1175.7266122300916,
+      "I_flap_mm4": 14031.494611725211,
+      "zmax_mm": 7.198612017752035
+    }
+  ],
+  "beam": [
+    {
+      "E_assumed_Pa": 70000000000,
+      "tip_deflection_mm": 2.5986789893222997,
+      "max_flap_stress_MPa": 49.01547639203842
+    },
+    {
+      "E_assumed_Pa": 110000000000,
+      "tip_deflection_mm": 1.653704811386918,
+      "max_flap_stress_MPa": 49.01547639203842
+    }
+  ],
+  "rpm_cases": [
+    {
+      "rpm": 850,
+      "centrifugal_root_N": 2395.371335944505,
+      "CFK_clamp_M6_nominal_force_each_N": 427.38119367539275,
+      "CFK_clamp_M6_nominal_tensile_MPa": 21.262745953999637,
+      "shaft_nominal_axial_MPa": 7.109280907341817,
+      "shaft_flap_MPa": 58.99794647054711,
+      "shaft_nominal_sum_MPa": 66.10722737788892,
+      "cfk_inertial_pitch_torque_Nm": 0.9995058961166439,
+      "aero_hinge_Cm_assumed": 0.05,
+      "aero_hinge_torque_Nm": 0.40761394156023956,
+      "cyclic_pitch_accel_rad_s2": 214.01120937662847,
+      "cfk_pitch_inertia_torque_Nm": 0.14686632964046936,
+      "linkforce_demand_N": 37.82626530255355,
+      "servo_virtual_ratio": 1.116436450457595,
+      "servo_collective_demand_Nm": 4.189226338518525,
+      "servo_peak_abs_sum_screen_Nm": 4.626471468533301,
+      "servo_stall_Nm": null,
+      "servo_continuous_rating_Nm": 44.7,
+      "servo_thermal_screen_assumption_Nm": null
+    },
+    {
+      "rpm": 1500,
+      "centrifugal_root_N": 7459.633918166281,
+      "CFK_clamp_M6_nominal_force_each_N": 1330.9448937988013,
+      "CFK_clamp_M6_nominal_tensile_MPa": 66.21616387058712,
+      "shaft_nominal_axial_MPa": 22.139629123209815,
+      "shaft_flap_MPa": 58.99794647054711,
+      "shaft_nominal_sum_MPa": 81.13757559375694,
+      "cfk_inertial_pitch_torque_Nm": 3.112648119394393,
+      "aero_hinge_Cm_assumed": 0.05,
+      "aero_hinge_torque_Nm": 1.2693859771772174,
+      "cyclic_pitch_accel_rad_s2": 666.4708942524763,
+      "cfk_pitch_inertia_torque_Nm": 0.4573691926519808,
+      "linkforce_demand_N": 117.79805803563391,
+      "servo_virtual_ratio": 1.116436450457595,
+      "servo_collective_demand_Nm": 13.0460335801615,
+      "servo_peak_abs_sum_screen_Nm": 14.407696614809588,
+      "servo_stall_Nm": null,
+      "servo_continuous_rating_Nm": 44.7,
+      "servo_thermal_screen_assumption_Nm": null
+    },
+    {
+      "rpm": 2100,
+      "centrifugal_root_N": 14620.882479605909,
+      "CFK_clamp_M6_nominal_force_each_N": 2608.65199184565,
+      "CFK_clamp_M6_nominal_tensile_MPa": 129.78368118635075,
+      "shaft_nominal_axial_MPa": 43.39367308149123,
+      "shaft_flap_MPa": 58.99794647054711,
+      "shaft_nominal_sum_MPa": 102.39161955203834,
+      "cfk_inertial_pitch_torque_Nm": 6.100790314013009,
+      "aero_hinge_Cm_assumed": 0.05,
+      "aero_hinge_torque_Nm": 2.4879965152673447,
+      "cyclic_pitch_accel_rad_s2": 1306.2829527348533,
+      "cfk_pitch_inertia_torque_Nm": 0.8964436175978822,
+      "linkforce_demand_N": 230.8841937498424,
+      "servo_virtual_ratio": 1.116436450457595,
+      "servo_collective_demand_Nm": 25.57022581711653,
+      "servo_peak_abs_sum_screen_Nm": 28.23908536502679,
+      "servo_stall_Nm": null,
+      "servo_continuous_rating_Nm": 44.7,
+      "servo_thermal_screen_assumption_Nm": null
+    }
+  ],
+  "unresolved": [
+    "Orthotrope Laminate, Delamination und CFK-Flansch/Bohrung nicht nachgewiesen",
+    "Kerbfaktoren an D-Flach, Gewinden, hohler Welle und Klemmung fehlen",
+    "Alu-Bolzen/Vorspannung/Reibung/galvanische Trennung und Temperatur nicht nachgewiesen",
+    "Lagertragzahlen, Paarvorspannung, Lebensdauer und Gehäuseverformung fehlen",
+    "Anwendungsspezifischer Servo-Dauerbetrieb/Kühlung, dynamische Reibung und OEM-Hornanschluss offen",
+    "Wurzelstern-Verformung, Nutzlastanschluss und Motorhochlauf brauchen FE/Prüfversuche",
+    "MN1330:3.4kW beziehen sich auf180s, nicht Dauerleistung; Prüftabellen-Haltedauer unbekannt"
+  ],
+  "native_sha256": "1133c2ac3aa7ac82faca89303635fb2c1914e8d9de3b080e94a0a3c7cf4d7970"
+}

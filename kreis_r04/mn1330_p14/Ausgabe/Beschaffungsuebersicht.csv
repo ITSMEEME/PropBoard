@@ -1,0 +1,103 @@
+﻿ID;Bezeichnung;Anzahl;Werkstoff;Kategorie;Status;Hinweis
+A01;Zentrale Statorplatte;2;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"8mm; 4×M6/PCD50;2mm Kopfsenkung; M6×12 ->6mm Motoreingriff angenommen"
+A02;Zentralkaefig-Druckhuelse76;8;Aluminium6082-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"16×10.2 Rohr; vier Stützen statt Perimeterrahmen"
+A03;Zentrales Hauptlagerjoch;2;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;Festigkeit, Passungen und Freigabe offen
+MN1330;T-Motor MN1330 – Zeichnungsreferenz;2;Kaufteil;Motor;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"Ø150×66 nach Nutzerzeichnung, XLS nennt65mm;2.75kg inkl Kabel nach XLS;3400W für180s, NS52x20-Prüfwerte bis16270W mit unbekannter Haltedauer; keine Dauerdaten"
+A04;Haupt-Hohlwelle mit abnehmbarem Rotorflansch;2;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"60/50.4; oberer Flansch separat montierbar; durchgehender unterbrochener M60x1.5-Bereich148..175 mit D57;12×M5/PCD40"
+A04F;Abnehmbarer D57-Rotorflansch;2;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"D57-Sitz,80mm Zentrierbund; sechs M6/PCD96 von oben direkt in12mm Alu-Gewinde; beide7212 montierbar"
+A05;Hauptlagerpatrone;2;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"Zwei7212B in DB-Anordnung; Innenringdistanz6mm; Montage-/Thermalspiel zu qualifizieren"
+B7212;Hauptlager7212B;4;Wälzlagerstahl;Normlager;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"60×110×22;0.65kg Masseannahme, reale Lieferdaten/Schulterradien offen"
+A06O;Verschraubter Hauptlager-Aussendeckel;2;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;Festigkeit, Passungen und Freigabe offen
+A07;Hauptlager-Innendistanz;2;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;Festigkeit, Passungen und Freigabe offen
+A08W;Hauptlager-Sicherungsblech;2;Aluminium1050;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"Innennase in durchgehender Wellennut; Aussentab in Mutternut umlegen, nach Demontage ersetzen"
+A08;Hauptlager-Klemmmutter M60;2;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"M60x1.5, mit Formschluss-Sicherungsblech; konkrete Lagervorspannung nach Lieferteil"
+A04W;Flansch-Sicherungsblech;2;Aluminium1050;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;Festigkeit, Passungen und Freigabe offen
+A04N;Flansch-Haltemutter M60;2;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"M60x1.5, D-Flansch formschluessig; keyed tab washer retains nut"
+A09;Monolithischer Wurzelstern mit integralen Lagersitzen;2;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"Ein CNC-Teil statt Stern plus8 verschraubten Patronen; geschlossene Lager-/Fliehkraftpfade im Zentrum"
+B7205;Pitchlager7205B;32;Wälzlagerstahl;Normlager;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"25×52×15; Paarabstimmung, Tragzahlen und Massendaten nach Lieferteil"
+A11;Verschraubter Pitchlager-Deckel;16;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;Festigkeit, Passungen und Freigabe offen
+A11O;Abnehmbarer Aussenlagerdeckel;16;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"Offenes Aussenlager-Montagefenster52.1mm; sechs M6/PCD64,14.4mm Eingriff"
+A12;Pitchlager-Innendistanz;16;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;Festigkeit, Passungen und Freigabe offen
+A13;Pitchwelle25 mit Integralflansch und Wurzelmandrel unten;8;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"Ein CNC-Teil statt Welle/Innenplatte/Einsatz/Endschraube;12mm Integralflansch,4xM6/PCD64; obere Bohrungen-24Grad indexiert; Ermuedung/Flankenpressung offen"
+A13U;Pitchwelle25 mit Integralflansch und Wurzelmandrel oben;8;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"Ein CNC-Teil statt Welle/Innenplatte/Einsatz/Endschraube;12mm Integralflansch,4xM6/PCD64; obere Bohrungen-24Grad indexiert; Ermuedung/Flankenpressung offen"
+A13C;Abnehmbare Pitchlager-Schulter;16;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;Separater Ring statt unmontierbarem Integralbund
+A13D;Pitchlager-Aussendistanz;16;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;Festigkeit, Passungen und Freigabe offen
+A14;Pitchlager-Klemmmutter25;16;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"M25x1.5; Sicherungsblech mit Innennase und Aussentab"
+A14W;Pitchlager-Sicherungsblech;16;Aluminium1050;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;Festigkeit, Passungen und Freigabe offen
+A14S;Pitchlager-Anlagedistanz2;16;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;Festigkeit, Passungen und Freigabe offen
+A18S;Pitchhebel-Vorderdistanz5;16;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;Festigkeit, Passungen und Freigabe offen
+A18T;Pitchhebel-Hinterdistanz2;16;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;Festigkeit, Passungen und Freigabe offen
+A18W;Axiale Pitchhebel-Scheibe;16;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;Festigkeit, Passungen und Freigabe offen
+F6_PITCH_END;Pitchhebel-AxialschraubeM6x14;16;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"Positiver Endanschlag;13mm Gewindeeingriff; Sicherungskleber und Kontrollmarke, Anzug qualifizieren"
+A16A;Aeussere CFK-Wurzelklemmplatte;16;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"Vier M6/PCD64 von aussen in12mm Integralflansch; CFK-Klemmdruck und Ermuedung qualifizieren"
+F6_ROOT;CFK-Klemmung M6x25 von aussen;64;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"SW5 von aussen;12mm Gewindeeingriff im Integralflansch; Alu-Verbindung und CFK-Lip qualifizieren"
+CFK01;Freitragender CFK-Fluegel mit Kastenspar;16;CFK;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"Kontinuierliche Innenanbindung; 1.2mm nominale Vertikalschale; interner geschlossener Kastenspar und Wurzelaufdickung; Laminatnachweis offen"
+A18;Pitchhebel42 mit D-Flach und Klemmung;16;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"D-Flach10.5/10.6mm zur Welle; M4×30-Klemmung axial sichern; Füge-/Ermüdungsnachweis offen"
+A18B;Pitchhebel-KlemmschraubeM4x30;16;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"ISO4762-Konturfamilie, keine übertragene Stahl8.8-Festigkeit; Anzug/Alu-Schraube qualifizieren"
+A19;Sphaerischer Schiebekragen;2;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"Eigenkonstruktion, nicht als Norm-Gelenklager ausgegeben; verschleißarme Auskleidung und Spiel prüfen"
+POM01;Gleitfolien-Buchse;2;PTFE;Verschleissteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"0.2mm nominale Folie; realen Verbund, Kriechen und Reibung qualifizieren"
+A20;Stationaerer Taumeltraeger Unterhaelfte;2;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"Geteilte Kugelpfanne: Ball und PTFE montierbar; Phase durch eine gefuehrte RRS-Anlenkung"
+A20C;Stationaere Kugelpfanne Oberhaelfte;2;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;Vier M3/PCD152,6mm Eingriff, vor Montage des Rotationslagers schliessen
+POM02;Sphaerische Gleitpfanne unten;2;PTFE;Verschleissteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;Festigkeit, Passungen und Freigabe offen
+POM02U;Sphaerische Gleitpfanne oben;2;PTFE;Verschleissteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;Festigkeit, Passungen und Freigabe offen
+B61832;Rotationslager61832;2;Wälzlagerstahl;Normlager;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"160×200×20; Massendatum0.90kg angenommen, Lieferdaten prüfen"
+A21C;Abnehmbarer Rotationslagerdeckel;2;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"Vier M3/PCD206;61832 von oben montierbar"
+A21;Rotierender Taumelring;2;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;Festigkeit, Passungen und Freigabe offen
+A22;Taumellager-Klemmmutter160;2;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;Festigkeit, Passungen und Freigabe offen
+A24;Phasen-Gleitstift8;4;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"D8-Schulter/M6-Anker; harteloxiert; tangentiale Spielführung mit wechselbarer Gleitbuchse, keine Schubführung"
+SERVO;DYNAMIXEL PH54-200-S500-R;6;Kaufteil;Servo;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"Herstellernennmaße54×126×54;0.855kg;44.7Nm continuous@24V; OEM-STEP/Horn-/Montagebezug offen"
+A25;Servo-Sattel und Umlenk-Lagerbock;6;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"Klemmhalter ist Vorentwurf; OEM-Montage-/Kühlfreigaben fehlen"
+B6002;Umlenkungslager6002;12;Wälzlagerstahl;Normlager;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"15×32×9; externe Lager tragen Gestängelast; Liefermasse angenommen"
+A26;Umlenkwelle15 mit Passfeder und Schulter;6;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"Runde Lagerzapfen; DIN6885-Familie5x5x8 am Hebel, D-Flach an OEM-Kupplungsreserve; zwei M15x1-Sondermuttern; Kerbfestigkeit/Preload offen"
+A26K;Passfeder5x5x8 Alu;6;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"DIN6885-Konturfamilie, Alu-Sonderteil; Flankenpressung und Lastwechsel qualifizieren"
+A26S;Umlenkwellen-Distanzring;6;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;Festigkeit, Passungen und Freigabe offen
+A26N;Umlenkwellenmutter M15x1;12;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"Sondermutter mit19mm SW; Gewinde und Verliersicherung nominal/offen"
+A27;Umlenk-Gabelhebel28;6;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;Festigkeit, Passungen und Freigabe offen
+KUPP;Drehmomentkupplung zum OEM-Horn;6;Kaufteil;Anschlussreserve;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"D-Flach6.5 zur eigenen Welle; OEM-Horn/Flanschanschluss noch offen; keine erfundene Verzahnung"
+A28;Servotraeger-Ausleger;6;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"Vier M6 direkt auf Zentralblock; Fussausnehmungen mit0.3mm Abstand zu diagonalen Statorarmen"
+A29;Gemeinsamer Zentralblock und Nutzlastanschluss;1;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"Ein Mittelblock für beide Motoren;4×M8-Anschluss im Zentrum, noch kein freigegebenes Personendeck"
+F5_MOTOR;Motorrotor M5x10;24;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"Kern-/Kopfkontur;12×M5;4mm Motoreingriff Annahme"
+F6_STATOR;Motorstator M6x12;8;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"Kern-/Kopfkontur;4×M6;6mm Motoreingriff Annahme"
+TIE6;Durchgehender Zentralanker M6;4;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"Vier gemeinsame Zuganker statt doppelter Schrauben; Vorspannung/Ermüdung offen"
+N6;Alu-Mutter M6;8;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"ISO4032-Konturfamilie, Gewinde nominal; keine übertragene Stahlklassifizierung"
+F6_HUB;Hohlwellenflansch M6x40 von oben;12;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"6xM6/PCD96, SW5 von oben;12mm Gewindeeingriff direkt im Rotorflansch"
+W6;Scheibe ISO7089-M6;24;Aluminium7075-T6;Normteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;Festigkeit, Passungen und Freigabe offen
+W4;Scheibe ISO7089-M4;24;Aluminium7075-T6;Normteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;Festigkeit, Passungen und Freigabe offen
+F4_CRADLE;Servosattel M4x16;24;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"Vier M4 von oben, vor Montage der Umlenkwelle;8mm Gewinde im Ausleger"
+F6_SUPPORT;Zentralanschluss M6x60;24;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;Vier M6 je Servotraeger,12mm Eingriff im Zentralblock, Scheibe1.6mm
+F4_HOUSING;Hauptlagerpatrone M4x16;8;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"Vier M4, von unten vor Montage ueber Motor zugaenglich;8mm Eingriff"
+F3_CAP;Hauptlagerdeckel M3x8;8;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"Vier M3 von oben;6mm Eingriff"
+F3_TAUMEL;Rotationslagerdeckel M3x8;8;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;Vier M3,5mm Gewindeeingriff
+F3_CUP;Kugelpfannenverbindung M3x22;8;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;Vier M3,6mm Gewindeeingriff
+F3_ROOT_CAP;Pitchlagerdeckel M3x10;48;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"Drei M3 auf PCD60;6mm Eingriff"
+F6_ROOT_OUT;Aussenlagerdeckel M6x20;96;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"M6x20 unter Kopf, von aussen nach innen;14.4mm Gewindeeingriff"
+W6_ROOT_OUT;Aussenlagerdeckel-ScheibeM6;96;Aluminium7075-T6;Normteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;Festigkeit, Passungen und Freigabe offen
+J_GE8_O;GE8E Aussenring;42;Wälzlagerstahl;Normlager;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"Nenngeometrie und Einbau geprüft; Norm-Innenprofile/Massen und Werkstoff-Lebensdauer nach Lieferteil qualifizieren"
+J_GE8_I;GE8E Innenring;42;Wälzlagerstahl;Normlager;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"Nenngeometrie und Einbau geprüft; Norm-Innenprofile/Massen und Werkstoff-Lebensdauer nach Lieferteil qualifizieren"
+J_CLIP16;Sicherungsring DIN472-16x1;44;Federstahl;Normsicherung;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"Nenngeometrie und Einbau geprüft; Norm-Innenprofile/Massen und Werkstoff-Lebensdauer nach Lieferteil qualifizieren"
+J_SHIM16;Passscheibe0.15 fuer GE8;44;Aluminium1050;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"Nenngeometrie und Einbau geprüft; Norm-Innenprofile/Massen und Werkstoff-Lebensdauer nach Lieferteil qualifizieren"
+J_R_ADAPT;R-Gelenk Buchsenadapter;2;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"Nenngeometrie und Einbau geprüft; Norm-Innenprofile/Massen und Werkstoff-Lebensdauer nach Lieferteil qualifizieren"
+J_BUSH8;Gleitbuchse DIN1494-8x10x8;2;PTFE;Normlager;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"Nenngeometrie und Einbau geprüft; Norm-Innenprofile/Massen und Werkstoff-Lebensdauer nach Lieferteil qualifizieren"
+J_PIN8;Kopfbolzen8 mit Splintloch;44;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"Nenngeometrie und Einbau geprüft; Norm-Innenprofile/Massen und Werkstoff-Lebensdauer nach Lieferteil qualifizieren"
+J_W8;Scheibe ISO7092-8;44;Aluminium7075-T6;Normteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"Nenngeometrie und Einbau geprüft; Norm-Innenprofile/Massen und Werkstoff-Lebensdauer nach Lieferteil qualifizieren"
+J_COTTER;Splint ISO1234-1.6;44;Sicherungsstahl;Normsicherung;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"Nenngeometrie und Einbau geprüft; Norm-Innenprofile/Massen und Werkstoff-Lebensdauer nach Lieferteil qualifizieren"
+J_SP_L;Distanz links5;42;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"Nenngeometrie und Einbau geprüft; Norm-Innenprofile/Massen und Werkstoff-Lebensdauer nach Lieferteil qualifizieren"
+J_SP_R;Distanz rechts5;42;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"Nenngeometrie und Einbau geprüft; Norm-Innenprofile/Massen und Werkstoff-Lebensdauer nach Lieferteil qualifizieren"
+J_EYE_P;Alu-Gelenkauge M6 RH/LH P;32;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"GE8E-Sitz16H7, Schulter und DIN472-Nut;20mm M6-Bereich, Mindestgewindeeingriff10.5mm; Sonderteil"
+J_EYE_S;Alu-Gelenkauge M6 RH/LH S;12;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"GE8E-Sitz16H7, Schulter und DIN472-Nut;20mm M6-Bereich, Mindestgewindeeingriff10.5mm; Sonderteil"
+J_JAM6;Kontermutter M6 RH/LH;44;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"5mm Kontermutter; Gewindehand je Einbaulage in Gelenkregister"
+J_PTFE_-1;R-Anlauf PTFE0.3;2;PTFE;Verschleissteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;Festigkeit, Passungen und Freigabe offen
+J_R_SP_-1;R-Distanz4.7;2;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;Festigkeit, Passungen und Freigabe offen
+J_PTFE_1;R-Anlauf PTFE0.3;2;PTFE;Verschleissteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;Festigkeit, Passungen und Freigabe offen
+J_R_SP_1;R-Distanz4.7;2;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;Festigkeit, Passungen und Freigabe offen
+ROD_PITCH_0;Einstellhuelse M6 RH/LH P0;2;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"SW10, zwei gegenläufige M6; Gewinde-Kernkontur; keine Nennachsen-Stange durch Gelenke"
+ROD_PITCH_1;Einstellhuelse M6 RH/LH P1;2;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"SW10, zwei gegenläufige M6; Gewinde-Kernkontur; keine Nennachsen-Stange durch Gelenke"
+ROD_PITCH_2;Einstellhuelse M6 RH/LH P2;2;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"SW10, zwei gegenläufige M6; Gewinde-Kernkontur; keine Nennachsen-Stange durch Gelenke"
+ROD_PITCH_3;Einstellhuelse M6 RH/LH P3;2;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"SW10, zwei gegenläufige M6; Gewinde-Kernkontur; keine Nennachsen-Stange durch Gelenke"
+ROD_PITCH_4;Einstellhuelse M6 RH/LH P4;2;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"SW10, zwei gegenläufige M6; Gewinde-Kernkontur; keine Nennachsen-Stange durch Gelenke"
+ROD_PITCH_5;Einstellhuelse M6 RH/LH P5;2;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"SW10, zwei gegenläufige M6; Gewinde-Kernkontur; keine Nennachsen-Stange durch Gelenke"
+ROD_PITCH_6;Einstellhuelse M6 RH/LH P6;2;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"SW10, zwei gegenläufige M6; Gewinde-Kernkontur; keine Nennachsen-Stange durch Gelenke"
+ROD_PITCH_7;Einstellhuelse M6 RH/LH P7;2;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"SW10, zwei gegenläufige M6; Gewinde-Kernkontur; keine Nennachsen-Stange durch Gelenke"
+ROD_SERVO_0;Einstellhuelse M6 RH/LH S0;2;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"SW10, zwei gegenläufige M6; Gewinde-Kernkontur; keine Nennachsen-Stange durch Gelenke"
+ROD_SERVO_1;Einstellhuelse M6 RH/LH S1;2;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"SW10, zwei gegenläufige M6; Gewinde-Kernkontur; keine Nennachsen-Stange durch Gelenke"
+ROD_SERVO_2;Einstellhuelse M6 RH/LH S2;2;Aluminium7075-T6;Sonderteil;ENTWICKLUNG_KEINE_BESTELLFREIGABE;"SW10, zwei gegenläufige M6; Gewinde-Kernkontur; keine Nennachsen-Stange durch Gelenke"

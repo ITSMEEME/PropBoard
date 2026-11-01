@@ -51,12 +51,14 @@
 
   /* Ein Ringrotor. ext(r) liefert {v0, wt}: axiale Zustroemung und Fremddrall (erhoeht Relativgeschwindigkeit). */
   function solveRotor(p, pitchDeg, ext) {
-    const { blades: B, rIn, rOut, chord: c, rho, nu } = p, n = p.elements;
+    const { blades: B, rIn, rOut, rho, nu } = p, n = p.elements;
     const omega = p.rpm * 2 * Math.PI / 60, dr = (rOut - rIn) / n;
     const out = { r: [], v: [], w: [], v0: [], wt: [], phi: [], alpha: [], cl: [], cd: [], dT: [], dQ: [], re: [], stalled: [], F: [] };
     let T = 0, Q = 0, stalledLen = 0;
     for (let k = 0; k < n; k++) {
       const r = rIn + (k + 0.5) * dr;
+      const c = p.chordFunction ? p.chordFunction(r) : p.chord;
+      const tc = p.thicknessFunction ? p.thicknessFunction(r) : p.thickness;
       const theta = (pitchDeg + p.twist * twistShape(p, r)) * DEG;
       const e = ext ? ext(r) : { v0: 0, wt: 0 };
       let w = 0, last = null;
@@ -66,7 +68,7 @@
           const up = e.v0 + v, ut = omega * r + e.wt - w;
           const phi = Math.atan2(up, ut), vrel2 = up * up + ut * ut;
           const alpha = theta - phi, re = Math.sqrt(vrel2) * c / nu;
-          const pol = p.polarFunction ? p.polarFunction(alpha / DEG, re, p.thickness) : polar(alpha / DEG, re, p.thickness);
+          const pol = p.polarFunction ? p.polarFunction(alpha / DEG, re, tc) : polar(alpha / DEG, re, tc);
           const F = Math.max(0.05, prandtl(B, rOut - r, r, phi) * prandtl(B, r - rIn, r, phi));
           const q = 0.5 * rho * vrel2 * B * c;
           const dTbe = q * (pol.cl * Math.cos(phi) - pol.cd * Math.sin(phi));
@@ -136,7 +138,8 @@
     const p = Object.assign({}, DEFAULTS, input);
     const upper = solveRotor(p, p.pitchUpper, null);
     const wake = wakeModel(p, upper);
-    const lower = solveRotor(p, p.pitchLower, (r) => wake.at(r));
+    const lowerParams = p.rpmLower === undefined ? p : Object.assign({}, p, { rpm: p.rpmLower });
+    const lower = solveRotor(lowerParams, p.pitchLower, (r) => wake.at(r));
     const T = upper.T + lower.T, P = upper.P + lower.P;
     const area = Math.PI * (p.rOut ** 2 - p.rIn ** 2);
     const pIdeal = T > 0 ? Math.pow(T, 1.5) / Math.sqrt(2 * p.rho * area) : 0;

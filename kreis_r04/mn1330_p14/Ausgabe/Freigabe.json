@@ -1,0 +1,23 @@
+{
+  "production_ready": false,
+  "manufacturing_release": false,
+  "flight_release": false,
+  "H01_large_profile_activated": false,
+  "native_sha256": "1133c2ac3aa7ac82faca89303635fb2c1914e8d9de3b080e94a0a3c7cf4d7970",
+  "all_report_sources_match": true,
+  "static_open_overlaps": 0,
+  "selected_dynamic_overlaps": 0,
+  "nominal_assembly_paths_passed": true,
+  "joint_geometry_completed": true,
+  "motor_time_reference_s": 180,
+  "continuous_motor_rating_verified": false,
+  "blocking": [
+    "Servo-OEM-Horn/Gehäusebefestigung und spezifischer Dauerbetrieb",
+    "GE8E/DIN472-Lieferprofile, Toleranzkette und Alu-Gelenk-Tragfähigkeit",
+    "Sonderrotor-Schwebebedarf über dokumentierten Motorprüfwerten",
+    "CFK/Alu/Lager-Vorspannungs-/Ermüdungsnachweise",
+    "Motor-Montagebezug65/66mm und Gewindeeingriffe",
+    "Personendeck, reale Versorgung/Kühlung, Schutz-/Landestruktur",
+    "Mehrrotor-Verbindungsrahmen bei mehr als einem Paar"
+  ]
+}

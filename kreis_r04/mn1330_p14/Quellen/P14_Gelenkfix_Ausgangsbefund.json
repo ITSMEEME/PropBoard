@@ -1,0 +1,213 @@
+{
+  "origin": "P14 package before joint/assembly revision",
+  "native_sha256": "f0e0d3faaf8eb84be58fe407cb7f98f12e3f9a849f77329da2ccc69fc61dfd49",
+  "dry_cad_mass_kg": 53.14985424010331,
+  "body_count": 559,
+  "static_collision_report": {
+    "native_sha256": "f0e0d3faaf8eb84be58fe407cb7f98f12e3f9a849f77329da2ccc69fc61dfd49",
+    "pose": "neutral only; not a swept-clearance certificate",
+    "all_bodies": 559,
+    "bbox_pairs_tested": 2358,
+    "threshold_mm3": 0.1,
+    "overlaps": [
+      {
+        "a": "U1_Oben_A20",
+        "b": "U1_Oben_Servo1_Gestange",
+        "part_a": "A20",
+        "part_b": "ROD_SERVO_0",
+        "volume_mm3": 212.10689171022892
+      },
+      {
+        "a": "U1_Oben_A20",
+        "b": "U1_Oben_Servo2_Gestange",
+        "part_a": "A20",
+        "part_b": "ROD_SERVO_1",
+        "volume_mm3": 212.10688766073852
+      },
+      {
+        "a": "U1_Oben_A20",
+        "b": "U1_Oben_Servo3_Gestange",
+        "part_a": "A20",
+        "part_b": "ROD_SERVO_2",
+        "volume_mm3": 212.10688766083274
+      },
+      {
+        "a": "U1_Oben_Blatt1_A18",
+        "b": "U1_Oben_Blatt1_Gestange",
+        "part_a": "A18",
+        "part_b": "ROD_PITCH_0",
+        "volume_mm3": 128.6413100278756
+      },
+      {
+        "a": "U1_Oben_Blatt2_A18",
+        "b": "U1_Oben_Blatt2_Gestange",
+        "part_a": "A18",
+        "part_b": "ROD_PITCH_1",
+        "volume_mm3": 128.64683273358682
+      },
+      {
+        "a": "U1_Oben_Blatt3_A18",
+        "b": "U1_Oben_Blatt3_Gestange",
+        "part_a": "A18",
+        "part_b": "ROD_PITCH_2",
+        "volume_mm3": 128.64131004728853
+      },
+      {
+        "a": "U1_Oben_Blatt4_A18",
+        "b": "U1_Oben_Blatt4_Gestange",
+        "part_a": "A18",
+        "part_b": "ROD_PITCH_3",
+        "volume_mm3": 128.64517299313007
+      },
+      {
+        "a": "U1_Oben_Blatt5_A18",
+        "b": "U1_Oben_Blatt5_Gestange",
+        "part_a": "A18",
+        "part_b": "ROD_PITCH_4",
+        "volume_mm3": 128.6448579628504
+      },
+      {
+        "a": "U1_Oben_Blatt6_A18",
+        "b": "U1_Oben_Blatt6_Gestange",
+        "part_a": "A18",
+        "part_b": "ROD_PITCH_5",
+        "volume_mm3": 128.64517295121084
+      },
+      {
+        "a": "U1_Oben_Blatt7_A18",
+        "b": "U1_Oben_Blatt7_Gestange",
+        "part_a": "A18",
+        "part_b": "ROD_PITCH_6",
+        "volume_mm3": 128.64485787489212
+      },
+      {
+        "a": "U1_Oben_Blatt8_A18",
+        "b": "U1_Oben_Blatt8_Gestange",
+        "part_a": "A18",
+        "part_b": "ROD_PITCH_7",
+        "volume_mm3": 128.64683271905255
+      },
+      {
+        "a": "U1_Oben_Servo1_Hebel",
+        "b": "U1_Oben_Servo1_Gestange",
+        "part_a": "A27",
+        "part_b": "ROD_SERVO_0",
+        "volume_mm3": 67.38317074398907
+      },
+      {
+        "a": "U1_Oben_Servo2_Hebel",
+        "b": "U1_Oben_Servo2_Gestange",
+        "part_a": "A27",
+        "part_b": "ROD_SERVO_1",
+        "volume_mm3": 67.38329366233653
+      },
+      {
+        "a": "U1_Oben_Servo3_Hebel",
+        "b": "U1_Oben_Servo3_Gestange",
+        "part_a": "A27",
+        "part_b": "ROD_SERVO_2",
+        "volume_mm3": 67.38329368174698
+      },
+      {
+        "a": "U1_Unten_A20",
+        "b": "U1_Unten_Servo1_Gestange",
+        "part_a": "A20",
+        "part_b": "ROD_SERVO_0",
+        "volume_mm3": 212.10689171023336
+      },
+      {
+        "a": "U1_Unten_A20",
+        "b": "U1_Unten_Servo2_Gestange",
+        "part_a": "A20",
+        "part_b": "ROD_SERVO_1",
+        "volume_mm3": 212.10688766062336
+      },
+      {
+        "a": "U1_Unten_A20",
+        "b": "U1_Unten_Servo3_Gestange",
+        "part_a": "A20",
+        "part_b": "ROD_SERVO_2",
+        "volume_mm3": 212.10688766083013
+      },
+      {
+        "a": "U1_Unten_Blatt1_A18",
+        "b": "U1_Unten_Blatt1_Gestange",
+        "part_a": "A18",
+        "part_b": "ROD_PITCH_0",
+        "volume_mm3": 128.6413100419456
+      },
+      {
+        "a": "U1_Unten_Blatt2_A18",
+        "b": "U1_Unten_Blatt2_Gestange",
+        "part_a": "A18",
+        "part_b": "ROD_PITCH_1",
+        "volume_mm3": 128.64683271089058
+      },
+      {
+        "a": "U1_Unten_Blatt3_A18",
+        "b": "U1_Unten_Blatt3_Gestange",
+        "part_a": "A18",
+        "part_b": "ROD_PITCH_2",
+        "volume_mm3": 128.6413100285581
+      },
+      {
+        "a": "U1_Unten_Blatt4_A18",
+        "b": "U1_Unten_Blatt4_Gestange",
+        "part_a": "A18",
+        "part_b": "ROD_PITCH_3",
+        "volume_mm3": 128.64517302656543
+      },
+      {
+        "a": "U1_Unten_Blatt5_A18",
+        "b": "U1_Unten_Blatt5_Gestange",
+        "part_a": "A18",
+        "part_b": "ROD_PITCH_4",
+        "volume_mm3": 128.64485794623675
+      },
+      {
+        "a": "U1_Unten_Blatt6_A18",
+        "b": "U1_Unten_Blatt6_Gestange",
+        "part_a": "A18",
+        "part_b": "ROD_PITCH_5",
+        "volume_mm3": 128.64517295322406
+      },
+      {
+        "a": "U1_Unten_Blatt7_A18",
+        "b": "U1_Unten_Blatt7_Gestange",
+        "part_a": "A18",
+        "part_b": "ROD_PITCH_6",
+        "volume_mm3": 128.6448578938084
+      },
+      {
+        "a": "U1_Unten_Blatt8_A18",
+        "b": "U1_Unten_Blatt8_Gestange",
+        "part_a": "A18",
+        "part_b": "ROD_PITCH_7",
+        "volume_mm3": 128.64683271241603
+      },
+      {
+        "a": "U1_Unten_Servo1_Hebel",
+        "b": "U1_Unten_Servo1_Gestange",
+        "part_a": "A27",
+        "part_b": "ROD_SERVO_0",
+        "volume_mm3": 67.38317074684137
+      },
+      {
+        "a": "U1_Unten_Servo2_Hebel",
+        "b": "U1_Unten_Servo2_Gestange",
+        "part_a": "A27",
+        "part_b": "ROD_SERVO_1",
+        "volume_mm3": 67.3832936719946
+      },
+      {
+        "a": "U1_Unten_Servo3_Hebel",
+        "b": "U1_Unten_Servo3_Gestange",
+        "part_a": "A27",
+        "part_b": "ROD_SERVO_2",
+        "volume_mm3": 67.38329382645324
+      }
+    ],
+    "open_count": 28,
+    "seconds": 258.61695861816406
+  }
+}

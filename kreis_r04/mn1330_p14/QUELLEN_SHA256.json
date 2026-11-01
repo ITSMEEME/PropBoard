@@ -1,0 +1,86 @@
+{
+  "sources": [
+    {
+      "file": "Legacy_BEMT_4dc7252.json",
+      "sha256": "2117145297278ffd76f2e297665e00d65725ae778bf3fffba09de4299e451085",
+      "origin": "Exact outputs from committed R04 code before P14; source SHA inside file"
+    },
+    {
+      "file": "MN1330_NS52x20_Nutzertabelle.csv",
+      "sha256": "2fca6ef2478240ce59d515b927055cc3037e3ebebcb3d39f27a93f1f399ea1ab",
+      "origin": "User pasted19-row NS52x20 test line; temperature note117C/ambient25C; dwell unknown"
+    },
+    {
+      "file": "P13_Lastscreen_4dc7252.json",
+      "sha256": "2d40b83af4dd6a77889fa5bc4edb30ea12ca1393d6fcdb8aa37e460ef0cf2e75",
+      "origin": "Project baseline commit4dc7252fe58bc008df2559b8ebddab5328d36f94"
+    },
+    {
+      "file": "P14_Gelenkfix_Ausgangsbefund.json",
+      "sha256": "02185ffb32b2c59c34d6f6f13203c86aca327f3dc69d70fae17783f8b7f2ff92",
+      "origin": "Local source artifact"
+    },
+    {
+      "file": "basicParameter_MN1330 KV40.xls",
+      "sha256": "1031932b195f7e68f95de6e4d9eb138ee685c703e82805a14923cea8032c3f6b",
+      "origin": "User upload, original bytes; XLS contains product HTML"
+    },
+    {
+      "file": "dxl_p_info.yml",
+      "sha256": "f264bd85ef56ed01654fa2cb0f0d4e093354b4450c9908ec4b61e7b2db71d515",
+      "origin": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_data/dxl_p_info.yml"
+    },
+    {
+      "file": "dxl_x_info.yml",
+      "sha256": "440121eb2577fca1b9954965dc74727b1ce3ba3332438952c8c20ee29ae6ebc0",
+      "origin": "Rejected XH540 candidate; ROBOTIS-GIT/emanual _data/dxl_x_info.yml"
+    },
+    {
+      "file": "h54p_drawing.png",
+      "sha256": "0944b9eee670ddc767a45b33ab216638ea01d6c576921dcefcf364cefc77e672",
+      "origin": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/assets/images/dxl/p/h54p_drawing.png"
+    },
+    {
+      "file": "ph54-100-s500-r.md",
+      "sha256": "e522ed01711901ae933b474de15ad68ccff7b017c779e4b327f09de1a9399972",
+      "origin": "Alternative, not selected; ROBOTIS-GIT/emanual docs/en/dxl/p/ph54-100-s500-r.md"
+    },
+    {
+      "file": "ph54-200-s500-r.md",
+      "sha256": "7c3fc4ab46938d9a6516e0bc9ccc43f0f5d92a8ebcfa531cd412437846ddfd48",
+      "origin": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/docs/en/dxl/p/ph54-200-s500-r.md"
+    },
+    {
+      "file": "ph54_performance.jpg",
+      "sha256": "39ce33e9deb8034ce3722d22bfb9e48db5929026d090fd53fe3cc3900df9b3c3",
+      "origin": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/assets/images/dxl/pro/h54-200-s500-r_performance_graph_2.jpg"
+    },
+    {
+      "file": "specifications_p.md",
+      "sha256": "5d622d7e23cfceabaf1d2d7020766749feac5f4f20baa2e51c0dba99e532e65f",
+      "origin": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/p/specifications_p.md"
+    },
+    {
+      "file": "specifications_x.md",
+      "sha256": "61f1800996abec70539e5e1fd89163f298c11d12d7537cc6a542a596f4a82203",
+      "origin": "Rejected XH540 candidate; ROBOTIS-GIT/emanual _includes/en/dxl/specifications_x.md"
+    },
+    {
+      "file": "x540_drawing.md",
+      "sha256": "91f98d1ae80767f3f960558fa4d680478d9d06699763522383c0ca7107d10c26",
+      "origin": "Rejected XH540 candidate; OEM download links, no original STEP retrieved"
+    },
+    {
+      "file": "xh540-w150.md",
+      "sha256": "81adb57ab8f7526f472749f2d7cd4bf7d69127b3d71bf7042a83d4858a3225bc",
+      "origin": "Rejected candidate; ROBOTIS-GIT/emanual docs/en/dxl/x/xh540-w150.md"
+    },
+    {
+      "file": "xh540_w150_performance.jpg",
+      "sha256": "1c5e3a3ab71c8237ee18aff251bcb3affc21bdf32c22749f1659a6cf7f3732fb",
+      "origin": "Rejected XH540 candidate; ROBOTIS-GIT/emanual assets/images/dxl/x/xh540_w150_performance_graph.jpg"
+    }
+  ],
+  "blocked_oem_step": "https://www.robotis.com/service/download.php?no=1258 returned403; only nominal servo geometry supplied",
+  "user_clarification": "180s qualifier is essential; no continuous motor rating inferred"
+}

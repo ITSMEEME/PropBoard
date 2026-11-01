@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "checks": [
+    "Source matches CAD and every mass variant",
+    "Legacy BEMT default is numerically unchanged",
+    "Optional second shaft RPM affects lower rotor, preserves upper",
+    "Python and browser close the same real linkage",
+    "WebGL and native CAD use the same rigid motion",
+    "Upper/lower foils have correct opposed handedness",
+    "Mass and inertia update from rebuilt CAD for 5 blade counts and 4 pair counts",
+    "Unsupported dimensions require rebuilt mass data",
+    "Uploaded mass and all19 bench points retain source units and duty scope",
+    "Torque trim cancels steady yaw without inventing thrust",
+    "Large-model trim remains finite beyond the legacy windmilling bracket",
+    "Blade count changes aerodynamic result as well as CAD mass",
+    "Countershaft spin-up conserves yaw and shaft work",
+    "Pitch cyclic creates body torque in the requested direction",
+    "180s-case electrical power and recorded torque bound shaft spin-up",
+    "Recorded maxima remain an unqualified bounded study, not a continuous curve",
+    "180s is a time boundary; larger test points acquire no invented dwell time",
+    "Motor off creates no RPM or free hover",
+    "Hover demand is compared to the actual NS52x20 reference without transferring its thrust"
+  ],
+  "hover_demand": {
+    "found": true,
+    "rpm": 2143.6723589897156,
+    "collectiveLower": 2.1173182067832386,
+    "thrust_N": 1712.4384690987335,
+    "shaftPower_W": 45919.73372197381,
+    "electricalPowerAssumed_W": 55999.67527069978,
+    "efficiency_assumed": 0.82,
+    "torques_Nm": [
+      102.27802644364584,
+      102.27802644384094
+    ],
+    "tipMach": 0.4687771752589186,
+    "stallFraction": 0,
+    "motorCurveVerified": false,
+    "motorEvidence": {
+      "source": "User XLS and NS52x20 table",
+      "reference_voltage_V": 92,
+      "duty_scope_incomplete": true,
+      "power_180s_W": 3400,
+      "maximum_recorded_torque_Nm": 46.25,
+      "maximum_recorded_input_power_W": 16270,
+      "exceeds_recorded_torque": true,
+      "exceeds_recorded_input": true,
+      "NS52x20_reference_at_required_rpm": {
+        "rpm": 2143.6723589897156,
+        "torque_Nm": 26.26902330727413,
+        "input_power_W": 6825.44502315028,
+        "scope": "Interpolation of the NS52x20 load line; not a motor limit"
+      },
+      "custom_rotor_operating_map_verified": false
+    }
+  },
+  "production_ready": false,
+  "native_sha256": "1133c2ac3aa7ac82faca89303635fb2c1914e8d9de3b080e94a0a3c7cf4d7970"
+}

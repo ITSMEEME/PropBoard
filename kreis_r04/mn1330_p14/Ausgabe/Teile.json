@@ -1,0 +1,4162 @@
+[
+  {
+    "id": "A01",
+    "name": "Zentrale Statorplatte",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "8mm; 4×M6/PCD50;2mm Kopfsenkung; M6×12 ->6mm Motoreingriff angenommen",
+    "socket": null,
+    "volume_mm3": 167917.75521838423,
+    "mass_kg": 0.4718488921636597,
+    "cg_mm": [
+      2.731987019345525e-14,
+      -3.79141735436532e-15,
+      10.008984865561118
+    ],
+    "inertia_cg_kgm2": [
+      [
+        0.000927399448612126,
+        -4.7106295824050947e-20,
+        -2.1208772295802474e-20
+      ],
+      [
+        -4.7106295824050947e-20,
+        0.0009273994486121284,
+        -2.4097355941077294e-22
+      ],
+      [
+        -2.1208772295802474e-20,
+        -2.4097355941077294e-22,
+        0.00184977722388746
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      175.36248173426378,
+      175.36248173426378,
+      8.0
+    ]
+  },
+  {
+    "id": "A02",
+    "name": "Zentralkaefig-Druckhuelse76",
+    "material": "Aluminium6082-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "16×10.2 Rohr; vier Stützen statt Perimeterrahmen",
+    "socket": null,
+    "volume_mm3": 9070.531973150592,
+    "mass_kg": 0.0244904363275066,
+    "cg_mm": [
+      1.1029608571047495e-15,
+      3.8944905046134264e-16,
+      52.0
+    ],
+    "inertia_cg_kgm2": [
+      [
+        1.233915939576626e-05,
+        -4.1815345641385895e-23,
+        -8.840288501232835e-23
+      ],
+      [
+        -4.1815345641385895e-23,
+        1.2339159395766229e-05,
+        1.0163090744237498e-23
+      ],
+      [
+        -8.840288501232835e-23,
+        1.0163090744237498e-23,
+        1.102192086919441e-06
+      ]
+    ],
+    "density_assumed_kg_m3": 2700,
+    "bbox_mm": [
+      16.0,
+      16.0,
+      76.0
+    ]
+  },
+  {
+    "id": "A03",
+    "name": "Zentrales Hauptlagerjoch",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Festigkeit, Passungen und Freigabe offen",
+    "socket": null,
+    "volume_mm3": 76119.3113266357,
+    "mass_kg": 0.21389526482784632,
+    "cg_mm": [
+      1.3405968046799028e-14,
+      -2.432669424535011e-14,
+      93.57471690074325
+    ],
+    "inertia_cg_kgm2": [
+      [
+        0.0005045434093704845,
+        -6.477115675807006e-20,
+        -1.9875952658365918e-20
+      ],
+      [
+        -6.477115675807006e-20,
+        0.0005045434093704849,
+        8.366980779231894e-21
+      ],
+      [
+        -1.9875952658365918e-20,
+        8.366980779231894e-21,
+        0.0010071252179989908
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      172.53405460951763,
+      172.53405460951763,
+      8.0
+    ]
+  },
+  {
+    "id": "MN1330",
+    "name": "T-Motor MN1330 – Zeichnungsreferenz",
+    "material": "Kaufteil",
+    "kind": "Motor",
+    "mass_override_kg": 2.75,
+    "note": "Ø150×66 nach Nutzerzeichnung, XLS nennt65mm;2.75kg inkl Kabel nach XLS;3400W für180s, NS52x20-Prüfwerte bis16270W mit unbekannter Haltedauer; keine Dauerdaten",
+    "socket": null,
+    "volume_mm3": 1164509.1657190132,
+    "mass_kg": 2.75,
+    "cg_mm": [
+      3.657475452992978e-15,
+      -3.7457297186748504e-15,
+      46.991083072875995
+    ],
+    "inertia_cg_kgm2": [
+      [
+        0.004867924594279417,
+        3.3774712223652217e-19,
+        -2.0239989960937822e-19
+      ],
+      [
+        3.3774712223652217e-19,
+        0.004867924594279352,
+        1.7403632268881634e-19
+      ],
+      [
+        -2.0239989960937822e-19,
+        1.7403632268881634e-19,
+        0.0077442552842505105
+      ]
+    ],
+    "density_assumed_kg_m3": 7850,
+    "bbox_mm": [
+      150.0,
+      150.0,
+      66.0
+    ]
+  },
+  {
+    "id": "A04",
+    "name": "Haupt-Hohlwelle mit abnehmbarem Rotorflansch",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "60/50.4; oberer Flansch separat montierbar; durchgehender unterbrochener M60x1.5-Bereich148..175 mit D57;12×M5/PCD40",
+    "socket": null,
+    "volume_mm3": 116523.78080922744,
+    "mass_kg": 0.32743182407392907,
+    "cg_mm": [
+      4.745578755149274e-15,
+      -0.030529503079067703,
+      113.41412497162106
+    ],
+    "inertia_cg_kgm2": [
+      [
+        0.0004324808196573534,
+        2.8149233499602576e-21,
+        -1.7430280211997163e-20
+      ],
+      [
+        2.8149233499602576e-21,
+        0.00043040426649654684,
+        4.806823174981096e-07
+      ],
+      [
+        -1.7430280211997163e-20,
+        4.806823174981096e-07,
+        0.0002852328113544641
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      88.0,
+      88.0,
+      95.0
+    ]
+  },
+  {
+    "id": "A04F",
+    "name": "Abnehmbarer D57-Rotorflansch",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "D57-Sitz,80mm Zentrierbund; sechs M6/PCD96 von oben direkt in12mm Alu-Gewinde; beide7212 montierbar",
+    "socket": null,
+    "volume_mm3": 81113.62196562624,
+    "mass_kg": 0.22792927772340976,
+    "cg_mm": [
+      -4.951484726857916e-14,
+      -2.1423776252116778e-15,
+      162.18422288506778
+    ],
+    "inertia_cg_kgm2": [
+      [
+        0.0002232418184648152,
+        1.6048369854415565e-20,
+        -5.801784428685155e-20
+      ],
+      [
+        1.6048369854415565e-20,
+        0.0002242996480953787,
+        3.3727466840418845e-21
+      ],
+      [
+        -5.801784428685155e-20,
+        3.3727466840418845e-21,
+        0.0004416387437709416
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      110.0,
+      110.0,
+      14.0
+    ]
+  },
+  {
+    "id": "A05",
+    "name": "Hauptlagerpatrone",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Zwei7212B in DB-Anordnung; Innenringdistanz6mm; Montage-/Thermalspiel zu qualifizieren",
+    "socket": null,
+    "volume_mm3": 172357.16633797012,
+    "mass_kg": 0.4843236374096961,
+    "cg_mm": [
+      -8.06295400322373e-15,
+      -6.4974579328998835e-15,
+      123.02056030850677
+    ],
+    "inertia_cg_kgm2": [
+      [
+        0.0008925583321171726,
+        -4.751881706030164e-20,
+        3.1778497997454045e-19
+      ],
+      [
+        -4.751881706030164e-20,
+        0.0008925583321171579,
+        2.7757812331939696e-20
+      ],
+      [
+        3.1778497997454045e-19,
+        2.7757812331939696e-20,
+        0.001613264426827093
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      126.0,
+      126.0,
+      50.0
+    ]
+  },
+  {
+    "id": "B7212",
+    "name": "Hauptlager7212B",
+    "material": "Wälzlagerstahl",
+    "kind": "Normlager",
+    "mass_override_kg": 0.65,
+    "note": "60×110×22;0.65kg Masseannahme, reale Lieferdaten/Schulterradien offen",
+    "socket": null,
+    "volume_mm3": 146786.4908632527,
+    "mass_kg": 0.65,
+    "cg_mm": [
+      -1.1103300419487742e-14,
+      -5.3132215319322325e-15,
+      11.000000000000002
+    ],
+    "inertia_cg_kgm2": [
+      [
+        0.000664224231666677,
+        6.113115665221959e-20,
+        -9.279186779143329e-21
+      ],
+      [
+        6.113115665221959e-20,
+        0.0006642242316666629,
+        -3.435952194480262e-22
+      ],
+      [
+        -9.279186779143329e-21,
+        -3.435952194480262e-22,
+        0.0012760151300000066
+      ]
+    ],
+    "density_assumed_kg_m3": 7850,
+    "bbox_mm": [
+      110.0,
+      110.0,
+      22.0
+    ]
+  },
+  {
+    "id": "A06O",
+    "name": "Verschraubter Hauptlager-Aussendeckel",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Festigkeit, Passungen und Freigabe offen",
+    "socket": null,
+    "volume_mm3": 10985.772518485071,
+    "mass_kg": 0.030870020776943053,
+    "cg_mm": [
+      1.2709315375129703e-15,
+      -5.3398528110468615e-15,
+      149.00000000000006
+    ],
+    "inertia_cg_kgm2": [
+      [
+        4.764888594058309e-05,
+        5.3752341955259905e-21,
+        9.900265496298767e-22
+      ],
+      [
+        5.3752341955259905e-21,
+        4.764888594058184e-05,
+        -6.77255229675304e-23
+      ],
+      [
+        9.900265496298767e-22,
+        -6.77255229675304e-23,
+        9.527719186731482e-05
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      126.0,
+      126.0,
+      2.0
+    ]
+  },
+  {
+    "id": "A07",
+    "name": "Hauptlager-Innendistanz",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Festigkeit, Passungen und Freigabe offen",
+    "socket": null,
+    "volume_mm3": 12388.823505541544,
+    "mass_kg": 0.034812594050571743,
+    "cg_mm": [
+      1.8206303926986703e-14,
+      -5.042619760768097e-15,
+      122.99999999999996
+    ],
+    "inertia_cg_kgm2": [
+      [
+        2.154249011379142e-05,
+        9.057868172682899e-22,
+        -3.169043338857628e-21
+      ],
+      [
+        9.057868172682899e-22,
+        2.1542490113791167e-05,
+        4.6487550425480154e-36
+      ],
+      [
+        -3.169043338857628e-21,
+        4.6487550425480154e-36,
+        4.287610466327825e-05
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      79.0,
+      79.0,
+      6.0
+    ]
+  },
+  {
+    "id": "A08W",
+    "name": "Hauptlager-Sicherungsblech",
+    "material": "Aluminium1050",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Innennase in durchgehender Wellennut; Aussentab in Mutternut umlegen, nach Demontage ersetzen",
+    "socket": null,
+    "volume_mm3": 2211.2447739615704,
+    "mass_kg": 0.00597036088969624,
+    "cg_mm": [
+      0.3182822672042263,
+      0.047437082151719705,
+      148.52442063431235
+    ],
+    "inertia_cg_kgm2": [
+      [
+        3.708918245777189e-06,
+        9.014278973213898e-11,
+        -5.654374445441042e-09
+      ],
+      [
+        9.014278973213898e-11,
+        3.774263459209321e-06,
+        6.916326577972722e-12
+      ],
+      [
+        -5.654374445441042e-09,
+        6.916326577972722e-12,
+        7.4811245658952515e-06
+      ]
+    ],
+    "density_assumed_kg_m3": 2700,
+    "bbox_mm": [
+      80.0,
+      80.0,
+      6.0
+    ]
+  },
+  {
+    "id": "A08",
+    "name": "Hauptlager-Klemmmutter M60",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "M60x1.5, mit Formschluss-Sicherungsblech; konkrete Lagervorspannung nach Lieferteil",
+    "socket": null,
+    "volume_mm3": 13075.361399161688,
+    "mass_kg": 0.03674176553164435,
+    "cg_mm": [
+      -0.18468179779372657,
+      3.3385597291368114e-15,
+      152.0000000000001
+    ],
+    "inertia_cg_kgm2": [
+      [
+        2.3211534020032586e-05,
+        -1.7034592407955257e-21,
+        -3.2712705433368687e-22
+      ],
+      [
+        -1.7034592407955257e-21,
+        2.2949129140716055e-05,
+        -7.187466442211765e-25
+      ],
+      [
+        -3.2712705433368687e-22,
+        -7.187466442211765e-25,
+        4.594021256756125e-05
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      79.96170041427166,
+      80.0,
+      6.0
+    ]
+  },
+  {
+    "id": "A04W",
+    "name": "Flansch-Sicherungsblech",
+    "material": "Aluminium1050",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Festigkeit, Passungen und Freigabe offen",
+    "socket": null,
+    "volume_mm3": 1033.1475288653985,
+    "mass_kg": 0.002789498327936576,
+    "cg_mm": [
+      0.5941068268092218,
+      0.10152954642905491,
+      168.5522674627691
+    ],
+    "inertia_cg_kgm2": [
+      [
+        1.4621496097082835e-06,
+        1.6826085611521065e-10,
+        -4.88515922465054e-09
+      ],
+      [
+        1.6826085611521065e-10,
+        1.509342772600256e-06,
+        1.480300786783191e-11
+      ],
+      [
+        -4.88515922465054e-09,
+        1.480300786783191e-11,
+        2.9699735071125695e-06
+      ]
+    ],
+    "density_assumed_kg_m3": 2700,
+    "bbox_mm": [
+      70.0,
+      70.0,
+      6.0
+    ]
+  },
+  {
+    "id": "A04N",
+    "name": "Flansch-Haltemutter M60",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "M60x1.5, D-Flansch formschluessig; keyed tab washer retains nut",
+    "socket": null,
+    "volume_mm3": 6006.816247792083,
+    "mass_kg": 0.016879153656295755,
+    "cg_mm": [
+      -0.34956641977716546,
+      -1.3847937164387293e-15,
+      171.9999999999999
+    ],
+    "inertia_cg_kgm2": [
+      [
+        9.123900698475289e-06,
+        -1.2024812321470982e-21,
+        2.6170164346694946e-21
+      ],
+      [
+        -1.2024812321470982e-21,
+        8.924266361664809e-06,
+        1.0383410136514424e-24
+      ],
+      [
+        2.6170164346694946e-21,
+        1.0383410136514424e-24,
+        1.7946892138200863e-05
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      69.95622262201681,
+      70.0,
+      6.0
+    ]
+  },
+  {
+    "id": "A09",
+    "name": "Monolithischer Wurzelstern mit integralen Lagersitzen",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Ein CNC-Teil statt Stern plus8 verschraubten Patronen; geschlossene Lager-/Fliehkraftpfade im Zentrum",
+    "socket": null,
+    "volume_mm3": 1715698.2249286126,
+    "mass_kg": 4.821112012049402,
+    "cg_mm": [
+      -2.015904833681487e-06,
+      0.0011712734467494272,
+      168.97728043148402
+    ],
+    "inertia_cg_kgm2": [
+      [
+        0.03717512638507449,
+        -0.000613656266007762,
+        -3.2084175329078043e-10
+      ],
+      [
+        -0.000613656266007762,
+        0.0371659405775187,
+        8.542891474210613e-08
+      ],
+      [
+        -3.2084175329078043e-10,
+        8.542891474210613e-08,
+        0.07080469446545234
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      346.936074863071,
+      346.936074863071,
+      83.5
+    ]
+  },
+  {
+    "id": "B7205",
+    "name": "Pitchlager7205B",
+    "material": "Wälzlagerstahl",
+    "kind": "Normlager",
+    "mass_override_kg": 0.12,
+    "note": "25×52×15; Paarabstimmung, Tragzahlen und Massendaten nach Lieferteil",
+    "socket": null,
+    "volume_mm3": 24469.060931091575,
+    "mass_kg": 0.12,
+    "cg_mm": [
+      7.500000000000003,
+      1.7888999289583505e-15,
+      2.973533653242181e-16
+    ],
+    "inertia_cg_kgm2": [
+      [
+        4.9965024000000304e-05,
+        4.1462612380503166e-23,
+        6.958068748586704e-22
+      ],
+      [
+        4.1462612380503166e-23,
+        2.7232511999999878e-05,
+        -4.351707387673217e-21
+      ],
+      [
+        6.958068748586704e-22,
+        -4.351707387673217e-21,
+        2.7232512000000396e-05
+      ]
+    ],
+    "density_assumed_kg_m3": 7850,
+    "bbox_mm": [
+      15.0,
+      52.0,
+      52.0
+    ]
+  },
+  {
+    "id": "A11",
+    "name": "Verschraubter Pitchlager-Deckel",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Festigkeit, Passungen und Freigabe offen",
+    "socket": null,
+    "volume_mm3": 6170.982155406611,
+    "mass_kg": 0.01734045985669258,
+    "cg_mm": [
+      115.46803743153546,
+      2.284428559743828e-15,
+      1.0270717113364388e-14
+    ],
+    "inertia_cg_kgm2": [
+      [
+        1.2741012540173116e-05,
+        -2.9703275046535725e-21,
+        -6.371850828022971e-22
+      ],
+      [
+        -2.9703275046535725e-21,
+        6.393626883228759e-06,
+        1.4247916624299255e-21
+      ],
+      [
+        -6.371850828022971e-22,
+        1.4247916624299255e-21,
+        6.393626883228717e-06
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      4.0,
+      62.0,
+      65.5
+    ]
+  },
+  {
+    "id": "A11O",
+    "name": "Abnehmbarer Aussenlagerdeckel",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Offenes Aussenlager-Montagefenster52.1mm; sechs M6/PCD64,14.4mm Eingriff",
+    "socket": null,
+    "volume_mm3": 10210.521686815471,
+    "mass_kg": 0.028691565939951476,
+    "cg_mm": [
+      173.77738695916705,
+      3.674313379753885e-16,
+      1.0873323211866373e-15
+    ],
+    "inertia_cg_kgm2": [
+      [
+        2.085845725080408e-05,
+        -4.3834214588146595e-21,
+        -1.777971337321611e-21
+      ],
+      [
+        -4.3834214588146595e-21,
+        1.0644181155902941e-05,
+        -3.20737854053732e-22
+      ],
+      [
+        -1.777971337321611e-21,
+        -3.20737854053732e-22,
+        1.0644181155902941e-05
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      10.0,
+      76.0,
+      67.42562584220408
+    ]
+  },
+  {
+    "id": "A12",
+    "name": "Pitchlager-Innendistanz",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Festigkeit, Passungen und Freigabe offen",
+    "socket": null,
+    "volume_mm3": 10461.346456821333,
+    "mass_kg": 0.02939638354366795,
+    "cg_mm": [
+      142.46803743153555,
+      1.2583599186050445e-15,
+      -1.2171402483777293e-15
+    ],
+    "inertia_cg_kgm2": [
+      [
+        7.07721608361752e-06,
+        8.210810763225675e-23,
+        -2.480421783326718e-21
+      ],
+      [
+        8.210810763225675e-23,
+        4.518487493264132e-06,
+        -9.147701357955011e-22
+      ],
+      [
+        -2.480421783326718e-21,
+        -9.147701357955011e-22,
+        4.5184874932639646e-06
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      20.0,
+      36.0,
+      36.0
+    ]
+  },
+  {
+    "id": "A13",
+    "name": "Pitchwelle25 mit Integralflansch und Wurzelmandrel unten",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Ein CNC-Teil statt Welle/Innenplatte/Einsatz/Endschraube;12mm Integralflansch,4xM6/PCD64; obere Bohrungen-24Grad indexiert; Ermuedung/Flankenpressung offen",
+    "socket": null,
+    "volume_mm3": 134057.56695721726,
+    "mass_kg": 0.37670176314978054,
+    "cg_mm": [
+      193.22803480883292,
+      -2.240201681138028e-16,
+      -0.025150391849930075
+    ],
+    "inertia_cg_kgm2": [
+      [
+        0.00014837889767681646,
+        -3.989657068000106e-21,
+        -8.715071099380445e-07
+      ],
+      [
+        -3.989657068000106e-21,
+        0.0007167400924370372,
+        -1.3986689078729513e-21
+      ],
+      [
+        -8.715071099380445e-07,
+        -1.3986689078729513e-21,
+        0.0007168415949466223
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      177.0,
+      78.0,
+      78.0
+    ]
+  },
+  {
+    "id": "A13U",
+    "name": "Pitchwelle25 mit Integralflansch und Wurzelmandrel oben",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Ein CNC-Teil statt Welle/Innenplatte/Einsatz/Endschraube;12mm Integralflansch,4xM6/PCD64; obere Bohrungen-24Grad indexiert; Ermuedung/Flankenpressung offen",
+    "socket": null,
+    "volume_mm3": 134057.56695721726,
+    "mass_kg": 0.37670176314978054,
+    "cg_mm": [
+      193.22803480883292,
+      3.184577468450244e-16,
+      -0.02515039184993104
+    ],
+    "inertia_cg_kgm2": [
+      [
+        0.00014837889767681646,
+        9.030937280512108e-22,
+        -8.715071099380766e-07
+      ],
+      [
+        9.030937280512108e-22,
+        0.0007167400924370372,
+        -1.850784249594097e-21
+      ],
+      [
+        -8.715071099380766e-07,
+        -1.850784249594097e-21,
+        0.0007168415949466223
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      177.0,
+      78.0,
+      78.0
+    ]
+  },
+  {
+    "id": "A13C",
+    "name": "Abnehmbare Pitchlager-Schulter",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Separater Ring statt unmontierbarem Integralbund",
+    "socket": null,
+    "volume_mm3": 2092.269291364267,
+    "mass_kg": 0.00587927670873359,
+    "cg_mm": [
+      169.46803743153546,
+      1.4754734589392559e-15,
+      1.9561182563213505e-15
+    ],
+    "inertia_cg_kgm2": [
+      [
+        1.415443216723504e-06,
+        3.257822643353452e-24,
+        1.2947233092943552e-21
+      ],
+      [
+        3.257822643353452e-24,
+        7.155606439734232e-07,
+        -1.5204564064939963e-22
+      ],
+      [
+        1.2947233092943552e-21,
+        -1.5204564064939963e-22,
+        7.15560643973507e-07
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      4.0,
+      36.0,
+      36.0
+    ]
+  },
+  {
+    "id": "A13D",
+    "name": "Pitchlager-Aussendistanz",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Festigkeit, Passungen und Freigabe offen",
+    "socket": null,
+    "volume_mm3": 8369.077165457067,
+    "mass_kg": 0.02351710683493436,
+    "cg_mm": [
+      179.46803743153546,
+      1.6301735245336556e-15,
+      2.8255041480197283e-15
+    ],
+    "inertia_cg_kgm2": [
+      [
+        5.661772866894019e-06,
+        9.327330485039097e-23,
+        5.382694157331553e-21
+      ],
+      [
+        9.327330485039097e-23,
+        3.3325847125920753e-06,
+        -6.968737457806619e-22
+      ],
+      [
+        5.382694157331553e-21,
+        -6.968737457806619e-22,
+        3.3325847125924103e-06
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      16.0,
+      36.0,
+      36.0
+    ]
+  },
+  {
+    "id": "A14",
+    "name": "Pitchlager-Klemmmutter25",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "M25x1.5; Sicherungsblech mit Innennase und Aussentab",
+    "socket": null,
+    "volume_mm3": 4426.367311136658,
+    "mass_kg": 0.012438092144294009,
+    "cg_mm": [
+      110.9680374315355,
+      -0.19712658379510042,
+      -1.797880311579824e-15
+    ],
+    "inertia_cg_kgm2": [
+      [
+        3.2156095779915703e-06,
+        0.0,
+        -5.187272293804921e-22
+      ],
+      [
+        0.0,
+        1.6807350744779415e-06,
+        2.2297945069169173e-23
+      ],
+      [
+        -5.187272293804921e-22,
+        2.2297945069169173e-23,
+        1.6364522560252991e-06
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      7.0,
+      37.93251171926218,
+      38.0
+    ]
+  },
+  {
+    "id": "A14W",
+    "name": "Pitchlager-Sicherungsblech",
+    "material": "Aluminium1050",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Festigkeit, Passungen und Freigabe offen",
+    "socket": null,
+    "volume_mm3": 653.06029146045,
+    "mass_kg": 0.001763262786943215,
+    "cg_mm": [
+      114.92393736852961,
+      0.3175204536418495,
+      0.041274902719503875
+    ],
+    "inertia_cg_kgm2": [
+      [
+        4.582975334655373e-07,
+        1.3749896095248298e-09,
+        -3.2095364354857337e-12
+      ],
+      [
+        1.3749896095248298e-09,
+        2.2501754214471335e-07,
+        2.3108662335307792e-11
+      ],
+      [
+        -3.2095364354857337e-12,
+        2.3108662335307792e-11,
+        2.340335700102333e-07
+      ]
+    ],
+    "density_assumed_kg_m3": 2700,
+    "bbox_mm": [
+      5.0,
+      38.0,
+      38.0
+    ]
+  },
+  {
+    "id": "A14S",
+    "name": "Pitchlager-Anlagedistanz2",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Festigkeit, Passungen und Freigabe offen",
+    "socket": null,
+    "volume_mm3": 1046.1346456821334,
+    "mass_kg": 0.002939638354366795,
+    "cg_mm": [
+      116.46803743153548,
+      1.4754734589392559e-15,
+      1.9561182563213505e-15
+    ],
+    "inertia_cg_kgm2": [
+      [
+        7.07721608361752e-07,
+        8.14455660838363e-25,
+        3.4259680129333264e-22
+      ],
+      [
+        8.14455660838363e-25,
+        3.5484068363231953e-07,
+        -7.602282032469981e-23
+      ],
+      [
+        3.4259680129333264e-22,
+        -7.602282032469981e-23,
+        3.5484068363232996e-07
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      2.0,
+      36.0,
+      36.0
+    ]
+  },
+  {
+    "id": "A18S",
+    "name": "Pitchhebel-Vorderdistanz5",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Festigkeit, Passungen und Freigabe offen",
+    "socket": null,
+    "volume_mm3": 2615.336614205334,
+    "mass_kg": 0.00734909588591699,
+    "cg_mm": [
+      94.96803743153549,
+      1.03324465074009e-15,
+      2.2604033184157823e-15
+    ],
+    "inertia_cg_kgm2": [
+      [
+        1.7693040209043804e-06,
+        6.498003647849308e-25,
+        2.690932921605016e-22
+      ],
+      [
+        6.498003647849308e-25,
+        8.999626268811458e-07,
+        -1.6553527080138467e-22
+      ],
+      [
+        2.690932921605016e-22,
+        -1.6553527080138467e-22,
+        8.999626268811668e-07
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      5.0,
+      36.0,
+      36.0
+    ]
+  },
+  {
+    "id": "A18T",
+    "name": "Pitchhebel-Hinterdistanz2",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Festigkeit, Passungen und Freigabe offen",
+    "socket": null,
+    "volume_mm3": 1046.1346456821334,
+    "mass_kg": 0.002939638354366795,
+    "cg_mm": [
+      106.46803743153546,
+      7.686541937234624e-16,
+      4.129582985567296e-15
+    ],
+    "inertia_cg_kgm2": [
+      [
+        7.077216083617524e-07,
+        -3.631839876990637e-38,
+        1.4752197750332892e-22
+      ],
+      [
+        -3.631839876990637e-38,
+        3.548406836323352e-07,
+        -5.2627066919313944e-23
+      ],
+      [
+        1.4752197750332892e-22,
+        -5.2627066919313944e-23,
+        3.5484068363234044e-07
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      2.0,
+      36.0,
+      36.0
+    ]
+  },
+  {
+    "id": "A18W",
+    "name": "Axiale Pitchhebel-Scheibe",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Festigkeit, Passungen und Freigabe offen",
+    "socket": null,
+    "volume_mm3": 985.7061109903334,
+    "mass_kg": 0.002769834171882837,
+    "cg_mm": [
+      91.96803743153548,
+      1.2112988951303802e-16,
+      -1.1605627598518357e-15
+    ],
+    "inertia_cg_kgm2": [
+      [
+        4.628946868050623e-07,
+        -2.0314684056948847e-25,
+        1.0177089525313248e-22
+      ],
+      [
+        -2.0314684056948847e-25,
+        2.3167816291684341e-07,
+        -1.070128337173284e-23
+      ],
+      [
+        1.0177089525313248e-22,
+        -1.070128337173284e-23,
+        2.3167816291685387e-07
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      1.0,
+      36.0,
+      36.0
+    ]
+  },
+  {
+    "id": "F6_PITCH_END",
+    "name": "Pitchhebel-AxialschraubeM6x14",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Positiver Endanschlag;13mm Gewindeeingriff; Sicherungskleber und Kontrollmarke, Anzug qualifizieren",
+    "socket": {
+      "face_mm": [
+        85.46803743153548,
+        0,
+        0
+      ],
+      "access_axis": [
+        -1,
+        0,
+        0
+      ],
+      "af_mm": 5,
+      "depth_mm": 3
+    },
+    "volume_mm3": 670.2907313990542,
+    "mass_kg": 0.0018835169552313424,
+    "cg_mm": [
+      92.5520342945925,
+      -2.1023954049054495e-17,
+      -1.7557103969591404e-16
+    ],
+    "inertia_cg_kgm2": [
+      [
+        1.8145012992090577e-08,
+        -4.998928550275672e-25,
+        3.6859083174663766e-24
+      ],
+      [
+        -4.998928550275672e-25,
+        6.738421148260385e-08,
+        -4.0947341576517853e-25
+      ],
+      [
+        3.6859083174663766e-24,
+        -4.0947341576517853e-25,
+        6.738421148259862e-08
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      20.0,
+      10.0,
+      10.0
+    ]
+  },
+  {
+    "id": "A16A",
+    "name": "Aeussere CFK-Wurzelklemmplatte",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Vier M6/PCD64 von aussen in12mm Integralflansch; CFK-Klemmdruck und Ermuedung qualifizieren",
+    "socket": null,
+    "volume_mm3": 15300.81286004373,
+    "mass_kg": 0.042995284136722885,
+    "cg_mm": [
+      209.46803743153544,
+      1.545464444431389e-15,
+      2.4370785469879595e-15
+    ],
+    "inertia_cg_kgm2": [
+      [
+        3.814102503027538e-05,
+        1.7932944933634488e-22,
+        5.919439529395459e-21
+      ],
+      [
+        1.7932944933634488e-22,
+        1.9127839560653554e-05,
+        -6.746995495632289e-22
+      ],
+      [
+        5.919439529395459e-21,
+        -6.746995495632289e-22,
+        1.9127839560653554e-05
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      4.0,
+      78.0,
+      78.0
+    ]
+  },
+  {
+    "id": "F6_ROOT",
+    "name": "CFK-Klemmung M6x25 von aussen",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "SW5 von aussen;12mm Gewindeeingriff im Integralflansch; Alu-Verbindung und CFK-Lip qualifizieren",
+    "socket": {
+      "face_mm": [
+        217.4680374315355,
+        0,
+        0
+      ],
+      "access_axis": [
+        1,
+        0,
+        0
+      ],
+      "af_mm": 5,
+      "depth_mm": 3
+    },
+    "volume_mm3": 877.7222403339547,
+    "mass_kg": 0.0024663994953384124,
+    "cg_mm": [
+      206.0317988868817,
+      8.629072879364226e-17,
+      -8.854237497068755e-17
+    ],
+    "inertia_cg_kgm2": [
+      [
+        1.989438921558693e-08,
+        -1.765608694217642e-24,
+        -7.137391612232622e-24
+      ],
+      [
+        -1.765608694217642e-24,
+        2.2510187100181025e-07,
+        -8.627733830239873e-25
+      ],
+      [
+        -7.137391612232622e-24,
+        -8.627733830239873e-25,
+        2.2510187100174744e-07
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      31.0,
+      10.0,
+      10.0
+    ]
+  },
+  {
+    "id": "CFK01",
+    "name": "Freitragender CFK-Fluegel mit Kastenspar",
+    "material": "CFK",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Kontinuierliche Innenanbindung; 1.2mm nominale Vertikalschale; interner geschlossener Kastenspar und Wurzelaufdickung; Laminatnachweis offen",
+    "socket": null,
+    "volume_mm3": 345172.19288654986,
+    "mass_kg": 0.5522755086184797,
+    "cg_mm": [
+      374.3756842199089,
+      19.885014516594012,
+      1.7390349383312764e-16
+    ],
+    "inertia_cg_kgm2": [
+      [
+        0.00046787795497337014,
+        0.0004950704498610153,
+        2.728844922363554e-19
+      ],
+      [
+        0.0004950704498610153,
+        0.013836154200747984,
+        -9.303852718134991e-20
+      ],
+      [
+        2.728844922363554e-19,
+        -9.303852718134991e-20,
+        0.014238084251356323
+      ]
+    ],
+    "density_assumed_kg_m3": 1600,
+    "bbox_mm": [
+      510.5319625684645,
+      120.0,
+      48.0
+    ]
+  },
+  {
+    "id": "A18",
+    "name": "Pitchhebel42 mit D-Flach und Klemmung",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "D-Flach10.5/10.6mm zur Welle; M4×30-Klemmung axial sichern; Füge-/Ermüdungsnachweis offen",
+    "socket": null,
+    "volume_mm3": 11028.578776573531,
+    "mass_kg": 0.030990306362171625,
+    "cg_mm": [
+      98.43648899237061,
+      16.698005839997247,
+      5.85612396013636
+    ],
+    "inertia_cg_kgm2": [
+      [
+        1.9414027063213108e-05,
+        2.2098135256768584e-06,
+        5.549660907601818e-07
+      ],
+      [
+        2.2098135256768584e-06,
+        5.8519950643177965e-06,
+        -3.1065931288413922e-06
+      ],
+      [
+        5.549660907601818e-07,
+        -3.1065931288413922e-06,
+        1.6475159959811632e-05
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      34.33045935427566,
+      70.91300594719894,
+      46.27989479185813
+    ]
+  },
+  {
+    "id": "A18B",
+    "name": "Pitchhebel-KlemmschraubeM4x30",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "ISO4762-Konturfamilie, keine übertragene Stahl8.8-Festigkeit; Anzug/Alu-Schraube qualifizieren",
+    "socket": {
+      "face_mm": [
+        101.46803743153548,
+        -16,
+        23
+      ],
+      "access_axis": [
+        0,
+        0,
+        1
+      ],
+      "af_mm": 3,
+      "depth_mm": 2
+    },
+    "volume_mm3": 379.62389855347607,
+    "mass_kg": 0.0010667431549352677,
+    "cg_mm": [
+      101.46803743153548,
+      -16.000000000000007,
+      10.154392435556915
+    ],
+    "inertia_cg_kgm2": [
+      [
+        1.2355662037985282e-07,
+        -3.2712705433368677e-22,
+        -3.2712705433368677e-22
+      ],
+      [
+        -3.2712705433368677e-22,
+        1.2355662037985505e-07,
+        0.0
+      ],
+      [
+        -3.2712705433368677e-22,
+        0.0,
+        3.462527094298782e-09
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      7.0,
+      7.0,
+      34.0
+    ]
+  },
+  {
+    "id": "A19",
+    "name": "Sphaerischer Schiebekragen",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Eigenkonstruktion, nicht als Norm-Gelenklager ausgegeben; verschleißarme Auskleidung und Spiel prüfen",
+    "socket": null,
+    "volume_mm3": 88793.8490973555,
+    "mass_kg": 0.24951071596356897,
+    "cg_mm": [
+      6.817585673488843e-14,
+      -1.2347197661275645e-14,
+      119.99999999999994
+    ],
+    "inertia_cg_kgm2": [
+      [
+        0.0005735773771160083,
+        -1.1877636730780214e-19,
+        3.140419721603304e-20
+      ],
+      [
+        -1.1877636730780214e-19,
+        0.0005735773771160002,
+        2.2470077930019518e-21
+      ],
+      [
+        3.140419721603304e-20,
+        2.2470077930019518e-21,
+        0.0010991914158618428
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      140.0,
+      140.0,
+      36.0
+    ]
+  },
+  {
+    "id": "POM01",
+    "name": "Gleitfolien-Buchse",
+    "material": "PTFE",
+    "kind": "Verschleissteil",
+    "mass_override_kg": null,
+    "note": "0.2mm nominale Folie; realen Verbund, Kriechen und Reibung qualifizieren",
+    "socket": null,
+    "volume_mm3": 2856.8386954684975,
+    "mass_kg": 0.006285045130030695,
+    "cg_mm": [
+      3.2599760570757374e-13,
+      -2.6287893226302607e-13,
+      120.00000000000033
+    ],
+    "inertia_cg_kgm2": [
+      [
+        1.3210952743048231e-05,
+        1.5477161471613397e-19,
+        1.1473894119262765e-19
+      ],
+      [
+        1.5477161471613397e-19,
+        1.3210952743050329e-05,
+        -9.051805615471452e-22
+      ],
+      [
+        1.1473894119262765e-19,
+        -9.051805615471452e-22,
+        2.5064335738017034e-05
+      ]
+    ],
+    "density_assumed_kg_m3": 2200,
+    "bbox_mm": [
+      126.5,
+      126.5,
+      36.0
+    ]
+  },
+  {
+    "id": "A20",
+    "name": "Stationaerer Taumeltraeger Unterhaelfte",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Geteilte Kugelpfanne: Ball und PTFE montierbar; Phase durch eine gefuehrte RRS-Anlenkung",
+    "socket": null,
+    "volume_mm3": 105442.001394877,
+    "mass_kg": 0.29629202391960435,
+    "cg_mm": [
+      -5.175326851205521e-15,
+      -1.0488662418443188e-14,
+      108.50864996192767
+    ],
+    "inertia_cg_kgm2": [
+      [
+        0.001366597541192001,
+        -3.9516948163509365e-19,
+        -9.44200872580132e-20
+      ],
+      [
+        -3.9516948163509365e-19,
+        0.0013665975411919808,
+        1.6002002978538405e-19
+      ],
+      [
+        -9.44200872580132e-20,
+        1.6002002978538405e-19,
+        0.0027086029320181307
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      304.6493464005753,
+      311.7787643056313,
+      27.5
+    ]
+  },
+  {
+    "id": "A20C",
+    "name": "Stationaere Kugelpfanne Oberhaelfte",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Vier M3/PCD152,6mm Eingriff, vor Montage des Rotationslagers schliessen",
+    "socket": null,
+    "volume_mm3": 72019.04285214993,
+    "mass_kg": 0.20237351041454132,
+    "cg_mm": [
+      -2.9500247978901555e-14,
+      -7.555465108651558e-15,
+      128.23823261181116
+    ],
+    "inertia_cg_kgm2": [
+      [
+        0.0005785917460406298,
+        2.373497182238509e-20,
+        4.568403075504985e-20
+      ],
+      [
+        2.373497182238509e-20,
+        0.0005785917460406165,
+        8.618250369386368e-22
+      ],
+      [
+        4.568403075504985e-20,
+        8.618250369386368e-22,
+        0.0011484690080947077
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      160.0,
+      160.0,
+      16.0
+    ]
+  },
+  {
+    "id": "POM02",
+    "name": "Sphaerische Gleitpfanne unten",
+    "material": "PTFE",
+    "kind": "Verschleissteil",
+    "mass_override_kg": null,
+    "note": "Festigkeit, Passungen und Freigabe offen",
+    "socket": null,
+    "volume_mm3": 6378.689723847958,
+    "mass_kg": 0.01403311739246551,
+    "cg_mm": [
+      1.6060584170553164e-12,
+      -1.0768950122184455e-13,
+      112.00000000000014
+    ],
+    "inertia_cg_kgm2": [
+      [
+        3.45760985420487e-05,
+        2.6434042460887814e-21,
+        1.6391277313232748e-19
+      ],
+      [
+        2.6434042460887814e-21,
+        3.457609854205185e-05,
+        1.3974702397957118e-21
+      ],
+      [
+        1.6391277313232748e-19,
+        1.3974702397957118e-21,
+        6.855345074202231e-05
+      ]
+    ],
+    "density_assumed_kg_m3": 2200,
+    "bbox_mm": [
+      141.9,
+      141.9,
+      16.000000000000085
+    ]
+  },
+  {
+    "id": "POM02U",
+    "name": "Sphaerische Gleitpfanne oben",
+    "material": "PTFE",
+    "kind": "Verschleissteil",
+    "mass_override_kg": null,
+    "note": "Festigkeit, Passungen und Freigabe offen",
+    "socket": null,
+    "volume_mm3": 6378.68972384918,
+    "mass_kg": 0.014033117392468196,
+    "cg_mm": [
+      -1.095039829810233e-12,
+      -5.869467932045367e-14,
+      128.0
+    ],
+    "inertia_cg_kgm2": [
+      [
+        3.457609854205418e-05,
+        -2.8476300596181256e-20,
+        -6.556510925292968e-20
+      ],
+      [
+        -2.8476300596181256e-20,
+        3.457609854205313e-05,
+        -4.652379757803418e-22
+      ],
+      [
+        -6.556510925292968e-20,
+        -4.652379757803418e-22,
+        6.855345074202781e-05
+      ]
+    ],
+    "density_assumed_kg_m3": 2200,
+    "bbox_mm": [
+      141.9,
+      141.9,
+      16.00000000000003
+    ]
+  },
+  {
+    "id": "B61832",
+    "name": "Rotationslager61832",
+    "material": "Wälzlagerstahl",
+    "kind": "Normlager",
+    "mass_override_kg": 0.9,
+    "note": "160×200×20; Massendatum0.90kg angenommen, Lieferdaten prüfen",
+    "socket": null,
+    "volume_mm3": 225993.58399589424,
+    "mass_kg": 0.9,
+    "cg_mm": [
+      2.884709338662813e-14,
+      -1.042724221800241e-15,
+      125.99999999999997
+    ],
+    "inertia_cg_kgm2": [
+      [
+        0.0037207200900000663,
+        -3.3163639226930064e-19,
+        1.8544560034260854e-19
+      ],
+      [
+        -3.3163639226930064e-19,
+        0.0037207200899999904,
+        5.461823771970883e-21
+      ],
+      [
+        1.8544560034260854e-19,
+        5.461823771970883e-21,
+        0.0073814401800000465
+      ]
+    ],
+    "density_assumed_kg_m3": 7850,
+    "bbox_mm": [
+      200.0,
+      200.0,
+      20.0
+    ]
+  },
+  {
+    "id": "A21C",
+    "name": "Abnehmbarer Rotationslagerdeckel",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Vier M3/PCD206;61832 von oben montierbar",
+    "socket": null,
+    "volume_mm3": 22736.711343678482,
+    "mass_kg": 0.06389015887573654,
+    "cg_mm": [
+      1.9710568847205387e-14,
+      -1.1700337671857079e-15,
+      137.49999999999986
+    ],
+    "inertia_cg_kgm2": [
+      [
+        0.00032701253059729815,
+        3.688357537612319e-20,
+        -3.0971967817095175e-20
+      ],
+      [
+        3.688357537612319e-20,
+        0.0003270125305972914,
+        -5.590550244959538e-23
+      ],
+      [
+        -3.0971967817095175e-20,
+        -5.590550244959538e-23,
+        0.0006539292259562721
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      214.0,
+      214.0,
+      3.0
+    ]
+  },
+  {
+    "id": "A21",
+    "name": "Rotierender Taumelring",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Festigkeit, Passungen und Freigabe offen",
+    "socket": null,
+    "volume_mm3": 183308.87484785423,
+    "mass_kg": 0.5150979383224704,
+    "cg_mm": [
+      -4.921849773545244e-15,
+      -3.873972079822708e-14,
+      121.87355408426225
+    ],
+    "inertia_cg_kgm2": [
+      [
+        0.0034529473399791395,
+        -0.0005673845943295251,
+        7.310633965884084e-20
+      ],
+      [
+        -0.0005673845943295251,
+        0.0034388794239135806,
+        5.944330413087801e-20
+      ],
+      [
+        7.310633965884084e-20,
+        5.944330413087801e-20,
+        0.006849383441865944
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      305.7568184875927,
+      309.32386193292086,
+      27.395211339912635
+    ]
+  },
+  {
+    "id": "A22",
+    "name": "Taumellager-Klemmmutter160",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Festigkeit, Passungen und Freigabe offen",
+    "socket": null,
+    "volume_mm3": 10266.69337600495,
+    "mass_kg": 0.028849408386573912,
+    "cg_mm": [
+      1.0205212701600295e-13,
+      -1.2881231533170541e-15,
+      137.99999999999983
+    ],
+    "inertia_cg_kgm2": [
+      [
+        9.836448004227176e-05,
+        1.3394623654125755e-20,
+        -5.430309101939245e-20
+      ],
+      [
+        1.3394623654125755e-20,
+        9.836448004226975e-05,
+        2.2662680832421574e-35
+      ],
+      [
+        -5.430309101939245e-20,
+        2.2662680832421574e-35,
+        0.00019665202832884162
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      170.0,
+      170.0,
+      4.0
+    ]
+  },
+  {
+    "id": "A24",
+    "name": "Phasen-Gleitstift8",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "D8-Schulter/M6-Anker; harteloxiert; tangentiale Spielführung mit wechselbarer Gleitbuchse, keine Schubführung",
+    "socket": null,
+    "volume_mm3": 1368.4777599037138,
+    "mass_kg": 0.003845422505329436,
+    "cg_mm": [
+      142.97910446826324,
+      144.76262619092745,
+      122.06060606060603
+    ],
+    "inertia_cg_kgm2": [
+      [
+        2.9944368609701134e-07,
+        2.0936131477355957e-20,
+        0.0
+      ],
+      [
+        2.0936131477355957e-20,
+        2.994436860970532e-07,
+        1.0468065738677978e-20
+      ],
+      [
+        0.0,
+        1.0468065738677978e-20,
+        2.8006328634211643e-08
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      8.0,
+      8.0,
+      33.0
+    ]
+  },
+  {
+    "id": "SERVO",
+    "name": "DYNAMIXEL PH54-200-S500-R",
+    "material": "Kaufteil",
+    "kind": "Servo",
+    "mass_override_kg": 0.855,
+    "note": "Herstellernennmaße54×126×54;0.855kg;44.7Nm continuous@24V; OEM-STEP/Horn-/Montagebezug offen",
+    "socket": null,
+    "volume_mm3": 364912.8841778678,
+    "mass_kg": 0.855,
+    "cg_mm": [
+      200.0,
+      63.41842881347987,
+      80.00000000000001
+    ],
+    "inertia_cg_kgm2": [
+      [
+        0.0013234045943595514,
+        2.2344827378851914e-18,
+        4.468965475770383e-18
+      ],
+      [
+        2.2344827378851914e-18,
+        0.00041292210208280394,
+        5.5862068447129785e-19
+      ],
+      [
+        4.468965475770383e-18,
+        5.5862068447129785e-19,
+        0.0013234045943595568
+      ]
+    ],
+    "density_assumed_kg_m3": 7850,
+    "bbox_mm": [
+      54.0,
+      126.0,
+      54.0
+    ]
+  },
+  {
+    "id": "A25",
+    "name": "Servo-Sattel und Umlenk-Lagerbock",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Klemmhalter ist Vorentwurf; OEM-Montage-/Kühlfreigaben fehlen",
+    "socket": null,
+    "volume_mm3": 108834.80819894654,
+    "mass_kg": 0.30582581103903983,
+    "cg_mm": [
+      200.3861172288633,
+      41.423079732367796,
+      79.96728310600993
+    ],
+    "inertia_cg_kgm2": [
+      [
+        0.0011460056260232548,
+        9.452108896814653e-06,
+        3.4205904637002304e-06
+      ],
+      [
+        9.452108896814653e-06,
+        0.00036044498365247145,
+        -0.0001288149721764993
+      ],
+      [
+        3.4205904637002304e-06,
+        -0.0001288149721764993,
+        0.0011474989963720973
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      64.0,
+      200.0,
+      64.0
+    ]
+  },
+  {
+    "id": "B6002",
+    "name": "Umlenkungslager6002",
+    "material": "Wälzlagerstahl",
+    "kind": "Normlager",
+    "mass_override_kg": 0.03,
+    "note": "15×32×9; externe Lager tragen Gestängelast; Liefermasse angenommen",
+    "socket": null,
+    "volume_mm3": 5639.304583092805,
+    "mass_kg": 0.03,
+    "cg_mm": [
+      4.870758707004238e-16,
+      4.5,
+      3.3868340423557464e-15
+    ],
+    "inertia_cg_kgm2": [
+      [
+        2.5466279999999926e-06,
+        -1.0353567145798888e-24,
+        2.9617703631838593e-22
+      ],
+      [
+        -1.0353567145798888e-24,
+        4.688256000000024e-06,
+        1.2095835865556169e-23
+      ],
+      [
+        2.9617703631838593e-22,
+        1.2095835865556169e-23,
+        2.546628000000038e-06
+      ]
+    ],
+    "density_assumed_kg_m3": 7850,
+    "bbox_mm": [
+      32.0,
+      9.0,
+      32.0
+    ]
+  },
+  {
+    "id": "A26",
+    "name": "Umlenkwelle15 mit Passfeder und Schulter",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Runde Lagerzapfen; DIN6885-Familie5x5x8 am Hebel, D-Flach an OEM-Kupplungsreserve; zwei M15x1-Sondermuttern; Kerbfestigkeit/Preload offen",
+    "socket": null,
+    "volume_mm3": 13694.075997546237,
+    "mass_kg": 0.03848035355310493,
+    "cg_mm": [
+      200.00000000000006,
+      -37.94933499541919,
+      79.94760626472014
+    ],
+    "inertia_cg_kgm2": [
+      [
+        1.4549949649500463e-05,
+        -1.2561678886413575e-19,
+        2.512335777282715e-19
+      ],
+      [
+        -1.2561678886413575e-19,
+        1.3278043675000157e-06,
+        1.9386041557175072e-08
+      ],
+      [
+        2.512335777282715e-19,
+        1.9386041557175072e-08,
+        1.4562657030949015e-05
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      20.0,
+      68.0,
+      20.0
+    ]
+  },
+  {
+    "id": "A26K",
+    "name": "Passfeder5x5x8 Alu",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "DIN6885-Konturfamilie, Alu-Sonderteil; Flankenpressung und Lastwechsel qualifizieren",
+    "socket": null,
+    "volume_mm3": 198.40319999999974,
+    "mass_kg": 0.0005575129919999993,
+    "cg_mm": [
+      199.99999999999997,
+      -39.99999999999999,
+      88.0
+    ],
+    "inertia_cg_kgm2": [
+      [
+        4.12561472456611e-09,
+        1.3085082173347473e-21,
+        0.0
+      ],
+      [
+        1.3085082173347473e-21,
+        2.3044242011326364e-09,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        4.125614724565456e-09
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      4.97999999999999,
+      8.0,
+      4.980000000000004
+    ]
+  },
+  {
+    "id": "A26S",
+    "name": "Umlenkwellen-Distanzring",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Festigkeit, Passungen und Freigabe offen",
+    "socket": null,
+    "volume_mm3": 1620.9675614727255,
+    "mass_kg": 0.0045549188477383585,
+    "cg_mm": [
+      200.00000000000006,
+      -30.000000000000004,
+      80.0
+    ],
+    "inertia_cg_kgm2": [
+      [
+        2.3344243777087635e-07,
+        -1.0468065738677977e-20,
+        1.0468065738677977e-20
+      ],
+      [
+        -1.0468065738677977e-20,
+        3.575668231960043e-07,
+        2.6170164346694942e-21
+      ],
+      [
+        1.0468065738677977e-20,
+        2.6170164346694942e-21,
+        2.3344243777080308e-07
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      20.0,
+      12.0,
+      20.0
+    ]
+  },
+  {
+    "id": "A26N",
+    "name": "Umlenkwellenmutter M15x1",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Sondermutter mit19mm SW; Gewinde und Verliersicherung nominal/offen",
+    "socket": null,
+    "volume_mm3": 534.2261421197211,
+    "mass_kg": 0.0015011754593564164,
+    "cg_mm": [
+      200.0,
+      -68.0,
+      80.0
+    ],
+    "inertia_cg_kgm2": [
+      [
+        6.141179635063992e-08,
+        9.546556960110494e-24,
+        -9.759720132253026e-25
+      ],
+      [
+        9.546556960110494e-24,
+        1.1882045814299545e-07,
+        -1.9806520867859953e-23
+      ],
+      [
+        -9.759720132253026e-25,
+        -1.9806520867859953e-23,
+        6.141179635063928e-08
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      19.0,
+      4.0,
+      21.939310229205773
+    ]
+  },
+  {
+    "id": "A27",
+    "name": "Umlenk-Gabelhebel28",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Festigkeit, Passungen und Freigabe offen",
+    "socket": null,
+    "volume_mm3": 6527.646361124216,
+    "mass_kg": 0.01834268627475905,
+    "cg_mm": [
+      191.50450123294806,
+      -40.000000000000014,
+      76.95488268686825
+    ],
+    "inertia_cg_kgm2": [
+      [
+        2.0613960344255173e-06,
+        -1.0468065738677978e-19,
+        -1.1618146973368511e-07
+      ],
+      [
+        -1.0468065738677978e-19,
+        3.7328216834552337e-06,
+        -3.1404197216033936e-20
+      ],
+      [
+        -1.1618146973368511e-07,
+        -3.1404197216033936e-20,
+        3.6998410018748145e-06
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      49.5,
+      26.000000000000004,
+      30.99411662899842
+    ]
+  },
+  {
+    "id": "KUPP",
+    "name": "Drehmomentkupplung zum OEM-Horn",
+    "material": "Kaufteil",
+    "kind": "Anschlussreserve",
+    "mass_override_kg": 0.03,
+    "note": "D-Flach6.5 zur eigenen Welle; OEM-Horn/Flanschanschluss noch offen; keine erfundene Verzahnung",
+    "socket": null,
+    "volume_mm3": 2214.3698412171343,
+    "mass_kg": 0.03,
+    "cg_mm": [
+      200.00000000000003,
+      -4.0,
+      80.14711815396488
+    ],
+    "inertia_cg_kgm2": [
+      [
+        1.6711816439388896e-06,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        2.9943245603915478e-06,
+        -1.5771799226132906e-21
+      ],
+      [
+        0.0,
+        -1.5771799226132906e-21,
+        1.6431429164521515e-06
+      ]
+    ],
+    "density_assumed_kg_m3": 7850,
+    "bbox_mm": [
+      24.0,
+      8.0,
+      24.0
+    ]
+  },
+  {
+    "id": "A28",
+    "name": "Servotraeger-Ausleger",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Vier M6 direkt auf Zentralblock; Fussausnehmungen mit0.3mm Abstand zu diagonalen Statorarmen",
+    "socket": null,
+    "volume_mm3": 71890.07756543875,
+    "mass_kg": 0.2020111179588829,
+    "cg_mm": [
+      132.61912418252024,
+      0.022842836835022372,
+      33.92989650145011
+    ],
+    "inertia_cg_kgm2": [
+      [
+        4.649184088797554e-05,
+        -4.862807897998313e-07,
+        -7.344898986494669e-05
+      ],
+      [
+        -4.862807897998313e-07,
+        0.0005897876627941203,
+        -5.108307015557909e-08
+      ],
+      [
+        -7.344898986494669e-05,
+        -5.108307015557909e-08,
+        0.0005698326316393295
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      182.0,
+      30.000000000000007,
+      43.0
+    ]
+  },
+  {
+    "id": "A29",
+    "name": "Gemeinsamer Zentralblock und Nutzlastanschluss",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Ein Mittelblock für beide Motoren;4×M8-Anschluss im Zentrum, noch kein freigegebenes Personendeck",
+    "socket": null,
+    "volume_mm3": 437465.6191401192,
+    "mass_kg": 1.229278389783735,
+    "cg_mm": [
+      -1.400420065737826e-13,
+      3.891903745637189e-15,
+      2.7442911026928893e-16
+    ],
+    "inertia_cg_kgm2": [
+      [
+        0.004682089040488957,
+        8.50530341267585e-19,
+        -1.3085082173347947e-21
+      ],
+      [
+        8.50530341267585e-19,
+        0.004682089040488925,
+        -9.813811630010592e-22
+      ],
+      [
+        -1.3085082173347947e-21,
+        -9.813811630010592e-22,
+        0.009334675399623068
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      244.0,
+      226.31019852340302,
+      12.0
+    ]
+  },
+  {
+    "id": "F5_MOTOR",
+    "name": "Motorrotor M5x10",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Kern-/Kopfkontur;12×M5;4mm Motoreingriff Annahme",
+    "socket": {
+      "face_mm": [
+        0,
+        0,
+        91
+      ],
+      "access_axis": [
+        0,
+        0,
+        1
+      ],
+      "af_mm": 4,
+      "depth_mm": 2.5
+    },
+    "volume_mm3": 374.7477765195424,
+    "mass_kg": 0.0010530412520199143,
+    "cg_mm": [
+      -1.3814202873291654e-16,
+      -1.1909601173471904e-16,
+      85.8694865506033
+    ],
+    "inertia_cg_kgm2": [
+      [
+        2.082201811236109e-08,
+        3.369304835132425e-25,
+        -6.574580500411541e-25
+      ],
+      [
+        3.369304835132425e-25,
+        2.08220181123624e-08,
+        2.5221942342529167e-25
+      ],
+      [
+        -6.574580500411541e-25,
+        2.5221942342529167e-25,
+        7.690238175107458e-09
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      8.5,
+      8.5,
+      15.0
+    ]
+  },
+  {
+    "id": "F6_STATOR",
+    "name": "Motorstator M6x12",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Kern-/Kopfkontur;4×M6;6mm Motoreingriff Annahme",
+    "socket": {
+      "face_mm": [
+        0,
+        0,
+        2
+      ],
+      "access_axis": [
+        0,
+        0,
+        -1
+      ],
+      "af_mm": 5,
+      "depth_mm": 3
+    },
+    "volume_mm3": 641.9064417738703,
+    "mass_kg": 0.0018037571013845757,
+    "cg_mm": [
+      -3.164059868095333e-16,
+      -1.743407973488439e-16,
+      8.455336720051513
+    ],
+    "inertia_cg_kgm2": [
+      [
+        5.2457523002113336e-08,
+        8.735234757750733e-25,
+        -8.040025266813044e-25
+      ],
+      [
+        8.735234757750733e-25,
+        5.245752300211316e-08,
+        -1.1614678277828704e-24
+      ],
+      [
+        -8.040025266813044e-25,
+        -1.1614678277828704e-24,
+        1.79875674488863e-08
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      10.0,
+      10.0,
+      18.0
+    ]
+  },
+  {
+    "id": "TIE6",
+    "name": "Durchgehender Zentralanker M6",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Vier gemeinsame Zuganker statt doppelter Schrauben; Vorspannung/Ermüdung offen",
+    "socket": null,
+    "volume_mm3": 3769.9111843077512,
+    "mass_kg": 0.010593450427904782,
+    "cg_mm": [
+      -1.5078185156567785e-16,
+      -3.0011423157782036e-17,
+      0.0
+    ],
+    "inertia_cg_kgm2": [
+      [
+        3.255963198081709e-05,
+        2.537455723117766e-24,
+        2.0445440895855426e-23
+      ],
+      [
+        2.537455723117766e-24,
+        3.255963198081709e-05,
+        -2.8226622180684953e-25
+      ],
+      [
+        2.0445440895855426e-23,
+        -2.8226622180684953e-25,
+        3.3104532587202614e-08
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      5.0,
+      5.0,
+      192.0
+    ]
+  },
+  {
+    "id": "N6",
+    "name": "Alu-Mutter M6",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "ISO4032-Konturfamilie, Gewinde nominal; keine übertragene Stahlklassifizierung",
+    "socket": null,
+    "volume_mm3": 326.82687020088446,
+    "mass_kg": 0.0009183835052644855,
+    "cg_mm": [
+      5.761271246170536e-16,
+      -4.1656638192806464e-16,
+      2.5000000000000004
+    ],
+    "inertia_cg_kgm2": [
+      [
+        9.858794825384361e-09,
+        -5.519542845714559e-26,
+        5.690381499334766e-25
+      ],
+      [
+        -5.519542845714559e-26,
+        9.858794825384376e-09,
+        -6.620064906049952e-25
+      ],
+      [
+        5.690381499334766e-25,
+        -6.620064906049952e-25,
+        1.5890991712166717e-08
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      11.547005383792516,
+      10.000000000000004,
+      5.000000000000002
+    ]
+  },
+  {
+    "id": "F6_HUB",
+    "name": "Hohlwellenflansch M6x40 von oben",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "6xM6/PCD96, SW5 von oben;12mm Gewindeeingriff direkt im Rotorflansch",
+    "socket": {
+      "face_mm": [
+        0,
+        0,
+        198.0
+      ],
+      "access_axis": [
+        0,
+        0,
+        1
+      ],
+      "af_mm": 5,
+      "depth_mm": 3
+    },
+    "volume_mm3": 1191.685156152084,
+    "mass_kg": 0.003348635288787356,
+    "cg_mm": [
+      -1.7701183369599604e-16,
+      -1.8119918111448089e-16,
+      179.75974503642377
+    ],
+    "inertia_cg_kgm2": [
+      [
+        6.988096641539791e-07,
+        1.3730094296355108e-24,
+        6.536602509325361e-24
+      ],
+      [
+        1.3730094296355108e-24,
+        6.988096641539582e-07,
+        6.1372676296070215e-24
+      ],
+      [
+        6.536602509325361e-24,
+        6.1372676296070215e-24,
+        2.281531178452002e-08
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      10.0,
+      10.0,
+      46.0
+    ]
+  },
+  {
+    "id": "W6",
+    "name": "Scheibe ISO7089-M6",
+    "material": "Aluminium7075-T6",
+    "kind": "Normteil",
+    "mass_override_kg": null,
+    "note": "Festigkeit, Passungen und Freigabe offen",
+    "socket": null,
+    "volume_mm3": 129.4838828103569,
+    "mass_kg": 0.0003638497106971029,
+    "cg_mm": [
+      -9.603124038235258e-16,
+      -4.791841304672351e-16,
+      0.8
+    ],
+    "inertia_cg_kgm2": [
+      [
+        4.283723927273958e-09,
+        4.5816806263595015e-25,
+        -7.986500349943529e-26
+      ],
+      [
+        4.5816806263595015e-25,
+        4.283723927273871e-09,
+        -7.473194240545715e-28
+      ],
+      [
+        -7.986500349943529e-26,
+        -7.473194240545715e-28,
+        8.412205311317065e-09
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      12.0,
+      12.0,
+      1.6
+    ]
+  },
+  {
+    "id": "W4",
+    "name": "Scheibe ISO7089-M4",
+    "material": "Aluminium7075-T6",
+    "kind": "Normteil",
+    "mass_override_kg": null,
+    "note": "Festigkeit, Passungen und Freigabe offen",
+    "socket": null,
+    "volume_mm3": 39.276191355179606,
+    "mass_kg": 0.0001103660977080547,
+    "cg_mm": [
+      -2.826707443665472e-16,
+      5.8501885885499795e-18,
+      0.4000000000000001
+    ],
+    "inertia_cg_kgm2": [
+      [
+        6.921563831886713e-10,
+        7.415299956065434e-26,
+        -9.359180097590069e-27
+      ],
+      [
+        7.415299956065434e-26,
+        6.921563831886563e-10,
+        -4.2228141635870576e-27
+      ],
+      [
+        -9.359180097590069e-27,
+        -4.2228141635870576e-27,
+        1.3725403826218014e-09
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      9.0,
+      9.0,
+      0.8
+    ]
+  },
+  {
+    "id": "F4_CRADLE",
+    "name": "Servosattel M4x16",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Vier M4 von oben, vor Montage der Umlenkwelle;8mm Gewinde im Ausleger",
+    "socket": {
+      "face_mm": [
+        0,
+        0,
+        57.8
+      ],
+      "access_axis": [
+        0,
+        0,
+        1
+      ],
+      "af_mm": 3,
+      "depth_mm": 2
+    },
+    "volume_mm3": 267.0292178488179,
+    "mass_kg": 0.0007503521021551783,
+    "cg_mm": [
+      -1.3190251516287027e-16,
+      -9.873696709571174e-17,
+      50.922688001446105
+    ],
+    "inertia_cg_kgm2": [
+      [
+        2.8070510580434167e-08,
+        1.8328481247043261e-25,
+        3.0597569152033643e-25
+      ],
+      [
+        1.8328481247043261e-25,
+        2.8070510580433512e-08,
+        3.513428205032361e-25
+      ],
+      [
+        3.0597569152033643e-25,
+        3.513428205032361e-25,
+        3.0575465467369604e-09
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      7.0,
+      7.0,
+      20.0
+    ]
+  },
+  {
+    "id": "F6_SUPPORT",
+    "name": "Zentralanschluss M6x60",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Vier M6 je Servotraeger,12mm Eingriff im Zentralblock, Scheibe1.6mm",
+    "socket": {
+      "face_mm": [
+        0,
+        0,
+        56.6
+      ],
+      "access_axis": [
+        0,
+        0,
+        1
+      ],
+      "af_mm": 5,
+      "depth_mm": 3
+    },
+    "volume_mm3": 1584.3842378508084,
+    "mass_kg": 0.004452119708360772,
+    "cg_mm": [
+      -2.645950420884801e-16,
+      -1.8830925495475556e-16,
+      29.000767051957094
+    ],
+    "inertia_cg_kgm2": [
+      [
+        1.920699679029163e-06,
+        1.6013637897681768e-24,
+        2.2700723650757713e-23
+      ],
+      [
+        1.6013637897681768e-24,
+        1.9206996790291645e-06,
+        8.675976015539066e-24
+      ],
+      [
+        2.2700723650757713e-23,
+        8.675976015539066e-24,
+        2.6263700595686958e-08
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      10.0,
+      10.0,
+      66.0
+    ]
+  },
+  {
+    "id": "F4_HOUSING",
+    "name": "Hauptlagerpatrone M4x16",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Vier M4, von unten vor Montage ueber Motor zugaenglich;8mm Eingriff",
+    "socket": {
+      "face_mm": [
+        0,
+        0,
+        86
+      ],
+      "access_axis": [
+        0,
+        0,
+        -1
+      ],
+      "af_mm": 3,
+      "depth_mm": 2
+    },
+    "volume_mm3": 267.02921784881784,
+    "mass_kg": 0.0007503521021551781,
+    "cg_mm": [
+      -1.3512472002500504e-16,
+      -9.981443346529525e-17,
+      92.87731199855392
+    ],
+    "inertia_cg_kgm2": [
+      [
+        2.8070510580430892e-08,
+        1.2750365240622784e-25,
+        -2.2813438102994348e-26
+      ],
+      [
+        1.2750365240622784e-25,
+        2.8070510580426968e-08,
+        -2.4549050037739167e-25
+      ],
+      [
+        -2.2813438102994348e-26,
+        -2.4549050037739167e-25,
+        3.05754654673696e-09
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      7.0,
+      7.0,
+      20.0
+    ]
+  },
+  {
+    "id": "F3_CAP",
+    "name": "Hauptlagerdeckel M3x8",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Vier M3 von oben;6mm Eingriff",
+    "socket": {
+      "face_mm": [
+        0,
+        0,
+        153
+      ],
+      "access_axis": [
+        0,
+        0,
+        1
+      ],
+      "af_mm": 2.5,
+      "depth_mm": 1.5
+    },
+    "volume_mm3": 99.3470425371938,
+    "mass_kg": 0.0002791651895295146,
+    "cg_mm": [
+      -7.445476697301632e-17,
+      -9.333233233866446e-17,
+      149.43511164084217
+    ],
+    "inertia_cg_kgm2": [
+      [
+        2.966897102502035e-09,
+        1.9345491644321902e-26,
+        -3.806423198559964e-25
+      ],
+      [
+        1.9345491644321902e-26,
+        2.966897102507269e-09,
+        6.05847493344353e-26
+      ],
+      [
+        -3.806423198559964e-25,
+        6.05847493344353e-26,
+        8.107357090153813e-10
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      5.5,
+      5.5,
+      11.0
+    ]
+  },
+  {
+    "id": "F3_TAUMEL",
+    "name": "Rotationslagerdeckel M3x8",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Vier M3,5mm Gewindeeingriff",
+    "socket": {
+      "face_mm": [
+        0,
+        0,
+        142
+      ],
+      "access_axis": [
+        0,
+        0,
+        1
+      ],
+      "af_mm": 2.5,
+      "depth_mm": 1.5
+    },
+    "volume_mm3": 99.3470425371938,
+    "mass_kg": 0.0002791651895295146,
+    "cg_mm": [
+      -7.445476697301632e-17,
+      -9.333233233866446e-17,
+      138.43511164084217
+    ],
+    "inertia_cg_kgm2": [
+      [
+        2.9668971025013806e-09,
+        1.9345491644321902e-26,
+        -4.24045517558571e-25
+      ],
+      [
+        1.9345491644321902e-26,
+        2.9668971025033435e-09,
+        -3.222711996666566e-26
+      ],
+      [
+        -4.24045517558571e-25,
+        -3.222711996666566e-26,
+        8.107357090153813e-10
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      5.5,
+      5.5,
+      11.0
+    ]
+  },
+  {
+    "id": "F3_CUP",
+    "name": "Kugelpfannenverbindung M3x22",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Vier M3,6mm Gewindeeingriff",
+    "socket": {
+      "face_mm": [
+        0,
+        0,
+        139
+      ],
+      "access_axis": [
+        0,
+        0,
+        1
+      ],
+      "af_mm": 2.5,
+      "depth_mm": 1.5
+    },
+    "volume_mm3": 162.68155043356396,
+    "mass_kg": 0.00045713515671831476,
+    "cg_mm": [
+      -1.3529605173133792e-16,
+      -3.464397486833924e-17,
+      129.81529372193657
+    ],
+    "inertia_cg_kgm2": [
+      [
+        2.8584442746503823e-08,
+        1.7828160537655622e-26,
+        5.565960620345381e-25
+      ],
+      [
+        1.7828160537655622e-26,
+        2.8584442746501206e-08,
+        9.040235857466892e-26
+      ],
+      [
+        5.565960620345381e-25,
+        9.040235857466892e-26,
+        9.388740853913182e-10
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      5.5,
+      5.5,
+      25.0
+    ]
+  },
+  {
+    "id": "F3_ROOT_CAP",
+    "name": "Pitchlagerdeckel M3x10",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Drei M3 auf PCD60;6mm Eingriff",
+    "socket": {
+      "face_mm": [
+        110.46803743153548,
+        0,
+        0
+      ],
+      "access_axis": [
+        -1,
+        0,
+        0
+      ],
+      "af_mm": 2.5,
+      "depth_mm": 1.5
+    },
+    "volume_mm3": 108.39482937953231,
+    "mass_kg": 0.00030458947055648583,
+    "cg_mm": [
+      114.73701004041752,
+      -9.296489045760276e-18,
+      -2.24052464519688e-18
+    ],
+    "inertia_cg_kgm2": [
+      [
+        8.290411913548009e-10,
+        -4.0191762820134837e-26,
+        -1.026698066407782e-24
+      ],
+      [
+        -4.0191762820134837e-26,
+        4.64249483048592e-09,
+        -3.3676889076796224e-26
+      ],
+      [
+        -1.026698066407782e-24,
+        -3.3676889076796224e-26,
+        4.64249483048592e-09
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      13.0,
+      5.5,
+      5.5
+    ]
+  },
+  {
+    "id": "F6_ROOT_OUT",
+    "name": "Aussenlagerdeckel M6x20",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "M6x20 unter Kopf, von aussen nach innen;14.4mm Gewindeeingriff",
+    "socket": {
+      "face_mm": [
+        185.06803743153546,
+        0,
+        0
+      ],
+      "access_axis": [
+        1,
+        0,
+        0
+      ],
+      "af_mm": 5,
+      "depth_mm": 3
+    },
+    "volume_mm3": 798.9860744533597,
+    "mass_kg": 0.0022451508692139413,
+    "cg_mm": [
+      175.5566399411993,
+      2.3046296963213425e-16,
+      -3.059766844994372e-16
+    ],
+    "inertia_cg_kgm2": [
+      [
+        1.9366922973353067e-08,
+        -1.4974355084316481e-24,
+        -7.751809908747434e-24
+      ],
+      [
+        -1.4974355084316481e-24,
+        1.4118956774427975e-07,
+        -1.0807006721693123e-24
+      ],
+      [
+        -7.751809908747434e-24,
+        -1.0807006721693123e-24,
+        1.4118956774432163e-07
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      26.0,
+      10.0,
+      10.0
+    ]
+  },
+  {
+    "id": "W6_ROOT_OUT",
+    "name": "Aussenlagerdeckel-ScheibeM6",
+    "material": "Aluminium7075-T6",
+    "kind": "Normteil",
+    "mass_override_kg": null,
+    "note": "Festigkeit, Passungen und Freigabe offen",
+    "socket": null,
+    "volume_mm3": 129.48388281035687,
+    "mass_kg": 0.00036384971069710286,
+    "cg_mm": [
+      178.26803743153548,
+      4.441664205484469e-16,
+      -2.112687288411757e-15
+    ],
+    "inertia_cg_kgm2": [
+      [
+        8.412205311317062e-09,
+        -2.0116368758972552e-26,
+        2.525092931527222e-23
+      ],
+      [
+        -2.0116368758972552e-26,
+        4.283723927274165e-09,
+        -2.672463264971555e-25
+      ],
+      [
+        2.525092931527222e-23,
+        -2.672463264971555e-25,
+        4.283723927274165e-09
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      1.5999999999999943,
+      12.0,
+      12.0
+    ]
+  },
+  {
+    "id": "J_GE8_O",
+    "name": "GE8E Aussenring",
+    "material": "Wälzlagerstahl",
+    "kind": "Normlager",
+    "mass_override_kg": null,
+    "note": "Nenngeometrie und Einbau geprüft; Norm-Innenprofile/Massen und Werkstoff-Lebensdauer nach Lieferteil qualifizieren",
+    "socket": null,
+    "volume_mm3": 324.45950917702004,
+    "mass_kg": 0.0025470071470396075,
+    "cg_mm": [
+      -8.423192991231909e-08,
+      1.33235176719876e-13,
+      1.333778425995056e-08
+    ],
+    "inertia_cg_kgm2": [
+      [
+        7.397903133660802e-08,
+        -3.5861276698827706e-20,
+        -5.6518637674533945e-16
+      ],
+      [
+        -3.5861276698827706e-20,
+        1.3648922959680637e-07,
+        -4.500407166031229e-21
+      ],
+      [
+        -5.6518637674533945e-16,
+        -4.500407166031229e-21,
+        7.397903056888929e-08
+      ]
+    ],
+    "density_assumed_kg_m3": 7850,
+    "bbox_mm": [
+      16.0,
+      13.48,
+      16.0
+    ]
+  },
+  {
+    "id": "J_GE8_I",
+    "name": "GE8E Innenring",
+    "material": "Wälzlagerstahl",
+    "kind": "Normlager",
+    "mass_override_kg": null,
+    "note": "Nenngeometrie und Einbau geprüft; Norm-Innenprofile/Massen und Werkstoff-Lebensdauer nach Lieferteil qualifizieren",
+    "socket": null,
+    "volume_mm3": 588.0123145798248,
+    "mass_kg": 0.004615896669451625,
+    "cg_mm": [
+      -5.753716520954852e-09,
+      -2.8312510986436284e-13,
+      3.633082474271969e-08
+    ],
+    "inertia_cg_kgm2": [
+      [
+        8.554705393714063e-08,
+        3.63196109226083e-20,
+        2.470150076081057e-16
+      ],
+      [
+        3.63196109226083e-20,
+        1.3083685625366916e-07,
+        1.721935971279742e-21
+      ],
+      [
+        2.470150076081057e-16,
+        1.721935971279742e-21,
+        8.554705447943345e-08
+      ]
+    ],
+    "density_assumed_kg_m3": 7850,
+    "bbox_mm": [
+      13.4,
+      13.4,
+      13.4
+    ]
+  },
+  {
+    "id": "J_CLIP16",
+    "name": "Sicherungsring DIN472-16x1",
+    "material": "Federstahl",
+    "kind": "Normsicherung",
+    "mass_override_kg": null,
+    "note": "Nenngeometrie und Einbau geprüft; Norm-Innenprofile/Massen und Werkstoff-Lebensdauer nach Lieferteil qualifizieren",
+    "socket": null,
+    "volume_mm3": 67.4748751836955,
+    "mass_kg": 0.0005296777701920098,
+    "cg_mm": [
+      0.7673002003422408,
+      3.1500000000000012,
+      -3.838688562815406e-15
+    ],
+    "inertia_cg_kgm2": [
+      [
+        1.6875540944577193e-08,
+        -2.231104190286715e-25,
+        -1.199053903212264e-23
+      ],
+      [
+        -2.231104190286715e-25,
+        3.036603290527528e-08,
+        -3.4246577795826963e-25
+      ],
+      [
+        -1.199053903212264e-23,
+        -3.4246577795826963e-25,
+        1.3578771589063425e-08
+      ]
+    ],
+    "density_assumed_kg_m3": 7850,
+    "bbox_mm": [
+      16.337443199421728,
+      1.0,
+      16.72
+    ]
+  },
+  {
+    "id": "J_SHIM16",
+    "name": "Passscheibe0.15 fuer GE8",
+    "material": "Aluminium1050",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Nenngeometrie und Einbau geprüft; Norm-Innenprofile/Massen und Werkstoff-Lebensdauer nach Lieferteil qualifizieren",
+    "socket": null,
+    "volume_mm3": 6.737538144705013,
+    "mass_kg": 1.8191352990703534e-05,
+    "cg_mm": [
+      -2.47030548624006e-16,
+      2.575,
+      -1.5819043703340908e-15
+    ],
+    "inertia_cg_kgm2": [
+      [
+        5.171346871432222e-10,
+        3.976578822319657e-28,
+        -1.2671388649683084e-25
+      ],
+      [
+        3.976578822319657e-28,
+        1.0342011567127406e-09,
+        2.1822543772032076e-26
+      ],
+      [
+        -1.2671388649683084e-25,
+        2.1822543772032076e-26,
+        5.17134687143233e-10
+      ]
+    ],
+    "density_assumed_kg_m3": 2700,
+    "bbox_mm": [
+      16.0,
+      0.1499999999999999,
+      16.0
+    ]
+  },
+  {
+    "id": "J_R_ADAPT",
+    "name": "R-Gelenk Buchsenadapter",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Nenngeometrie und Einbau geprüft; Norm-Innenprofile/Massen und Werkstoff-Lebensdauer nach Lieferteil qualifizieren",
+    "socket": null,
+    "volume_mm3": 749.5516864413039,
+    "mass_kg": 0.0021062402389000643,
+    "cg_mm": [
+      -9.829540507204359e-17,
+      -7.583655655647614e-17,
+      -3.715991271267331e-15
+    ],
+    "inertia_cg_kgm2": [
+      [
+        5.228664263884793e-08,
+        -1.1981613061071841e-25,
+        4.379500216818859e-24
+      ],
+      [
+        -1.1981613061071841e-25,
+        8.908140635178524e-08,
+        5.9355531176727255e-40
+      ],
+      [
+        4.379500216818859e-24,
+        5.9355531176727255e-40,
+        5.228664263884894e-08
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      16.0,
+      8.0,
+      16.0
+    ]
+  },
+  {
+    "id": "J_BUSH8",
+    "name": "Gleitbuchse DIN1494-8x10x8",
+    "material": "PTFE",
+    "kind": "Normlager",
+    "mass_override_kg": null,
+    "note": "Nenngeometrie und Einbau geprüft; Norm-Innenprofile/Massen und Werkstoff-Lebensdauer nach Lieferteil qualifizieren",
+    "socket": null,
+    "volume_mm3": 222.16337936537877,
+    "mass_kg": 0.0004887594346038334,
+    "cg_mm": [
+      -3.4791236181428693e-16,
+      -6.796364539481395e-17,
+      -1.791041949228038e-15
+    ],
+    "inertia_cg_kgm2": [
+      [
+        7.636100442570655e-09,
+        -1.2277297112990505e-26,
+        6.738547986678706e-25
+      ],
+      [
+        -1.2277297112990505e-26,
+        1.0058766916033873e-08,
+        5.5686832922674505e-25
+      ],
+      [
+        6.738547986678706e-25,
+        5.5686832922674505e-25,
+        7.636100442570766e-09
+      ]
+    ],
+    "density_assumed_kg_m3": 2200,
+    "bbox_mm": [
+      10.0,
+      8.0,
+      10.0
+    ]
+  },
+  {
+    "id": "J_PIN8",
+    "name": "Kopfbolzen8 mit Splintloch",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Nenngeometrie und Einbau geprüft; Norm-Innenprofile/Massen und Werkstoff-Lebensdauer nach Lieferteil qualifizieren",
+    "socket": null,
+    "volume_mm3": 2188.081506631515,
+    "mass_kg": 0.006148509033634557,
+    "cg_mm": [
+      1.5076928865360084e-16,
+      -2.1849665860302143,
+      -2.2387946438118703e-06
+    ],
+    "inertia_cg_kgm2": [
+      [
+        8.088024448565155e-07,
+        -1.497402541778601e-23,
+        -8.470187744851324e-25
+      ],
+      [
+        -1.497402541778601e-23,
+        7.752655874152218e-08,
+        2.4868381993569837e-13
+      ],
+      [
+        -8.470187744851324e-25,
+        2.4868381993569837e-13,
+        8.085190120731636e-07
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      14.0,
+      36.0,
+      14.0
+    ]
+  },
+  {
+    "id": "J_W8",
+    "name": "Scheibe ISO7092-8",
+    "material": "Aluminium7075-T6",
+    "kind": "Normteil",
+    "mass_override_kg": null,
+    "note": "Nenngeometrie und Einbau geprüft; Norm-Innenprofile/Massen und Werkstoff-Lebensdauer nach Lieferteil qualifizieren",
+    "socket": null,
+    "volume_mm3": 198.2470628121303,
+    "mass_kg": 0.0005570742465020862,
+    "cg_mm": [
+      3.4201895680992654e-16,
+      13.799999999999999,
+      2.150476458055116e-16
+    ],
+    "inertia_cg_kgm2": [
+      [
+        1.0293803618281015e-08,
+        4.9102561501812594e-26,
+        5.340222092913023e-25
+      ],
+      [
+        4.9102561501812594e-26,
+        2.0349922224721324e-08,
+        5.590550244960463e-26
+      ],
+      [
+        5.340222092913023e-25,
+        5.590550244960463e-26,
+        1.029380361828124e-08
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      15.0,
+      1.5999999999999996,
+      15.0
+    ]
+  },
+  {
+    "id": "J_COTTER",
+    "name": "Splint ISO1234-1.6",
+    "material": "Sicherungsstahl",
+    "kind": "Normsicherung",
+    "mass_override_kg": null,
+    "note": "Nenngeometrie und Einbau geprüft; Norm-Innenprofile/Massen und Werkstoff-Lebensdauer nach Lieferteil qualifizieren",
+    "socket": null,
+    "volume_mm3": 13.184606875539368,
+    "mass_kg": 0.00010349916397298404,
+    "cg_mm": [
+      -0.13777876094585975,
+      16.073160636981076,
+      7.3447194922444444e-09
+    ],
+    "inertia_cg_kgm2": [
+      [
+        7.35974488974069e-11,
+        4.2173577584200914e-11,
+        2.867940085346241e-18
+      ],
+      [
+        4.2173577584200914e-11,
+        2.122759614520119e-09,
+        -9.577354823350056e-12
+      ],
+      [
+        2.867940085346241e-18,
+        -9.577354823350056e-12,
+        2.1361468765380825e-09
+      ]
+    ],
+    "density_assumed_kg_m3": 7850,
+    "bbox_mm": [
+      15.100635237442766,
+      3.4636550409356612,
+      4.737615433949869
+    ]
+  },
+  {
+    "id": "J_SP_L",
+    "name": "Distanz links5",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Nenngeometrie und Einbau geprüft; Norm-Innenprofile/Massen und Werkstoff-Lebensdauer nach Lieferteil qualifizieren",
+    "socket": null,
+    "volume_mm3": 178.47191515502763,
+    "mass_kg": 0.0005015060815856277,
+    "cg_mm": [
+      -6.820969339353974e-16,
+      -6.500000000000001,
+      -7.962515952640449e-16
+    ],
+    "inertia_cg_kgm2": [
+      [
+        6.5316726708096904e-09,
+        1.041346738436762e-26,
+        1.2358756690495943e-24
+      ],
+      [
+        1.041346738436762e-26,
+        1.0973736668346068e-08,
+        -9.184475402435055e-25
+      ],
+      [
+        1.2358756690495943e-24,
+        -9.184475402435055e-25,
+        6.531672670809808e-09
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      10.5,
+      5.0,
+      10.5
+    ]
+  },
+  {
+    "id": "J_SP_R",
+    "name": "Distanz rechts5",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Nenngeometrie und Einbau geprüft; Norm-Innenprofile/Massen und Werkstoff-Lebensdauer nach Lieferteil qualifizieren",
+    "socket": null,
+    "volume_mm3": 178.47191515502763,
+    "mass_kg": 0.0005015060815856277,
+    "cg_mm": [
+      -6.820969339353974e-16,
+      6.500000000000001,
+      -7.962515952640449e-16
+    ],
+    "inertia_cg_kgm2": [
+      [
+        6.5316726708096904e-09,
+        -1.041346738436762e-26,
+        1.2358756690495943e-24
+      ],
+      [
+        -1.041346738436762e-26,
+        1.0973736668346068e-08,
+        5.989875262457644e-25
+      ],
+      [
+        1.2358756690495943e-24,
+        5.989875262457644e-25,
+        6.531672670809808e-09
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      10.5,
+      5.0,
+      10.5
+    ]
+  },
+  {
+    "id": "J_EYE_P",
+    "name": "Alu-Gelenkauge M6 RH/LH P",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "GE8E-Sitz16H7, Schulter und DIN472-Nut;20mm M6-Bereich, Mindestgewindeeingriff10.5mm; Sonderteil",
+    "socket": null,
+    "volume_mm3": 2687.4327836328407,
+    "mass_kg": 0.007551686122008283,
+    "cg_mm": [
+      3.3528854434886917,
+      0.26188336690470215,
+      -4.1674853690912613e-07
+    ],
+    "inertia_cg_kgm2": [
+      [
+        3.774478731460702e-07,
+        6.630871926235814e-09,
+        5.006869025664684e-15
+      ],
+      [
+        6.630871926235814e-09,
+        1.1848271216036843e-06,
+        -3.611384122316688e-15
+      ],
+      [
+        5.006869025664684e-15,
+        -3.611384122316688e-15,
+        8.982708803534003e-07
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      45.0,
+      8.90000000205486,
+      24.0
+    ]
+  },
+  {
+    "id": "J_EYE_S",
+    "name": "Alu-Gelenkauge M6 RH/LH S",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "GE8E-Sitz16H7, Schulter und DIN472-Nut;20mm M6-Bereich, Mindestgewindeeingriff10.5mm; Sonderteil",
+    "socket": null,
+    "volume_mm3": 2643.126253768418,
+    "mass_kg": 0.007427184773089255,
+    "cg_mm": [
+      2.8756058108045512,
+      0.2662732982970487,
+      -4.293600687936275e-07
+    ],
+    "inertia_cg_kgm2": [
+      [
+        3.7706553156117295e-07,
+        5.686974637377444e-09,
+        6.597713394551985e-15
+      ],
+      [
+        5.686974637377444e-09,
+        1.0819611426279759e-06,
+        -3.666767479001162e-15
+      ],
+      [
+        6.597713394551985e-15,
+        -3.666767479001162e-15,
+        7.953962201199503e-07
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      42.650444832519945,
+      8.90000000205486,
+      24.0
+    ]
+  },
+  {
+    "id": "J_JAM6",
+    "name": "Kontermutter M6 RH/LH",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "5mm Kontermutter; Gewindehand je Einbaulage in Gelenkregister",
+    "socket": null,
+    "volume_mm3": 330.8716707423813,
+    "mass_kg": 0.0009297493947860914,
+    "cg_mm": [
+      16.5,
+      4.32011016287244e-16,
+      6.147182611765261e-16
+    ],
+    "inertia_cg_kgm2": [
+      [
+        1.5966361767056865e-08,
+        1.4811779061693294e-24,
+        1.0444844988910516e-24
+      ],
+      [
+        1.4811779061693294e-24,
+        9.92015878933281e-09,
+        -2.835459900369712e-25
+      ],
+      [
+        1.0444844988910516e-24,
+        -2.835459900369712e-25,
+        9.92015878933281e-09
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      5.000000000000002,
+      10.000000000000004,
+      11.547005383792516
+    ]
+  },
+  {
+    "id": "J_PTFE_-1",
+    "name": "R-Anlauf PTFE0.3",
+    "material": "PTFE",
+    "kind": "Verschleissteil",
+    "mass_override_kg": null,
+    "note": "Festigkeit, Passungen und Freigabe offen",
+    "socket": null,
+    "volume_mm3": 30.338360255716644,
+    "mass_kg": 6.674439256257661e-05,
+    "cg_mm": [
+      2.317662800161448e-16,
+      -4.15,
+      1.7565453351080822e-15
+    ],
+    "inertia_cg_kgm2": [
+      [
+        1.0986127015800058e-09,
+        1.105136583388531e-27,
+        1.2118459581591147e-25
+      ],
+      [
+        1.105136583388531e-27,
+        2.196224237271595e-09,
+        -7.229772336359024e-26
+      ],
+      [
+        1.2118459581591147e-25,
+        -7.229772336359024e-26,
+        1.0986127015800273e-09
+      ]
+    ],
+    "density_assumed_kg_m3": 2200,
+    "bbox_mm": [
+      14.0,
+      0.2999999999999998,
+      14.0
+    ]
+  },
+  {
+    "id": "J_R_SP_-1",
+    "name": "R-Distanz4.7",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Festigkeit, Passungen und Freigabe offen",
+    "socket": null,
+    "volume_mm3": 167.76360024572602,
+    "mass_kg": 0.00047141571669049014,
+    "cg_mm": [
+      -6.237799264165782e-16,
+      -6.65,
+      5.082456991047094e-16
+    ],
+    "inertia_cg_kgm2": [
+      [
+        6.0254539992636704e-09,
+        -1.4728624501377185e-25,
+        8.631463543913339e-25
+      ],
+      [
+        -1.4728624501377185e-25,
+        1.0315312468245311e-08,
+        -6.349267778205105e-25
+      ],
+      [
+        8.631463543913339e-25,
+        -6.349267778205105e-25,
+        6.025453999263783e-09
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      10.5,
+      4.7,
+      10.5
+    ]
+  },
+  {
+    "id": "J_PTFE_1",
+    "name": "R-Anlauf PTFE0.3",
+    "material": "PTFE",
+    "kind": "Verschleissteil",
+    "mass_override_kg": null,
+    "note": "Festigkeit, Passungen und Freigabe offen",
+    "socket": null,
+    "volume_mm3": 30.338360255716644,
+    "mass_kg": 6.674439256257661e-05,
+    "cg_mm": [
+      2.3176628001614487e-16,
+      4.1499999999999995,
+      1.873648357448621e-15
+    ],
+    "inertia_cg_kgm2": [
+      [
+        1.0986127015800064e-09,
+        -1.1465005238571235e-27,
+        1.2118459581591147e-25
+      ],
+      [
+        -1.1465005238571235e-27,
+        2.196224237271595e-09,
+        1.6726175999792747e-25
+      ],
+      [
+        1.2118459581591147e-25,
+        1.6726175999792747e-25,
+        1.0986127015800283e-09
+      ]
+    ],
+    "density_assumed_kg_m3": 2200,
+    "bbox_mm": [
+      14.0,
+      0.2999999999999998,
+      14.0
+    ]
+  },
+  {
+    "id": "J_R_SP_1",
+    "name": "R-Distanz4.7",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "Festigkeit, Passungen und Freigabe offen",
+    "socket": null,
+    "volume_mm3": 167.76360024572597,
+    "mass_kg": 0.00047141571669049,
+    "cg_mm": [
+      -7.417653159600007e-16,
+      6.650000000000001,
+      8.47076165174516e-17
+    ],
+    "inertia_cg_kgm2": [
+      [
+        6.0254539992636704e-09,
+        4.842874890635607e-26,
+        1.2210541656075035e-24
+      ],
+      [
+        4.842874890635607e-26,
+        1.0315312468245308e-08,
+        -1.0122889193553418e-24
+      ],
+      [
+        1.2210541656075035e-24,
+        -1.0122889193553418e-24,
+        6.025453999263772e-09
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      10.5,
+      4.7,
+      10.5
+    ]
+  },
+  {
+    "id": "ROD_PITCH_0",
+    "name": "Einstellhuelse M6 RH/LH P0",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "SW10, zwei gegenläufige M6; Gewinde-Kernkontur; keine Nennachsen-Stange durch Gelenke",
+    "socket": null,
+    "volume_mm3": 2428.0517136386056,
+    "mass_kg": 0.006822825315324482,
+    "cg_mm": [
+      36.43868991087638,
+      4.1220008438372037e-16,
+      6.008245401706425e-16
+    ],
+    "inertia_cg_kgm2": [
+      [
+        1.1246988193733469e-07,
+        -1.7897523339616442e-23,
+        1.8634871762929537e-23
+      ],
+      [
+        -1.7897523339616442e-23,
+        7.146311236930712e-07,
+        2.7893458500676365e-24
+      ],
+      [
+        1.8634871762929537e-23,
+        2.7893458500676365e-24,
+        7.146311236930725e-07
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      34.877379821752754,
+      10.000000000000004,
+      11.547005383792516
+    ]
+  },
+  {
+    "id": "ROD_PITCH_1",
+    "name": "Einstellhuelse M6 RH/LH P1",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "SW10, zwei gegenläufige M6; Gewinde-Kernkontur; keine Nennachsen-Stange durch Gelenke",
+    "socket": null,
+    "volume_mm3": 2428.0517136386056,
+    "mass_kg": 0.006822825315324482,
+    "cg_mm": [
+      36.43868991087638,
+      4.1220008438372037e-16,
+      6.008245401706425e-16
+    ],
+    "inertia_cg_kgm2": [
+      [
+        1.1246988193733469e-07,
+        -1.7897523339616442e-23,
+        1.8634871762929537e-23
+      ],
+      [
+        -1.7897523339616442e-23,
+        7.146311236930712e-07,
+        2.7893458500676365e-24
+      ],
+      [
+        1.8634871762929537e-23,
+        2.7893458500676365e-24,
+        7.146311236930725e-07
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      34.877379821752754,
+      10.000000000000004,
+      11.547005383792516
+    ]
+  },
+  {
+    "id": "ROD_PITCH_2",
+    "name": "Einstellhuelse M6 RH/LH P2",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "SW10, zwei gegenläufige M6; Gewinde-Kernkontur; keine Nennachsen-Stange durch Gelenke",
+    "socket": null,
+    "volume_mm3": 2428.0517136386056,
+    "mass_kg": 0.006822825315324482,
+    "cg_mm": [
+      36.43868991087638,
+      4.1220008438372037e-16,
+      6.008245401706425e-16
+    ],
+    "inertia_cg_kgm2": [
+      [
+        1.1246988193733469e-07,
+        -1.7897523339616442e-23,
+        1.8634871762929537e-23
+      ],
+      [
+        -1.7897523339616442e-23,
+        7.146311236930712e-07,
+        2.7893458500676365e-24
+      ],
+      [
+        1.8634871762929537e-23,
+        2.7893458500676365e-24,
+        7.146311236930725e-07
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      34.877379821752754,
+      10.000000000000004,
+      11.547005383792516
+    ]
+  },
+  {
+    "id": "ROD_PITCH_3",
+    "name": "Einstellhuelse M6 RH/LH P3",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "SW10, zwei gegenläufige M6; Gewinde-Kernkontur; keine Nennachsen-Stange durch Gelenke",
+    "socket": null,
+    "volume_mm3": 2428.0517136386056,
+    "mass_kg": 0.006822825315324482,
+    "cg_mm": [
+      36.43868991087638,
+      4.1220008438372037e-16,
+      6.008245401706425e-16
+    ],
+    "inertia_cg_kgm2": [
+      [
+        1.1246988193733469e-07,
+        -1.7897523339616442e-23,
+        1.8634871762929537e-23
+      ],
+      [
+        -1.7897523339616442e-23,
+        7.146311236930712e-07,
+        2.7893458500676365e-24
+      ],
+      [
+        1.8634871762929537e-23,
+        2.7893458500676365e-24,
+        7.146311236930725e-07
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      34.877379821752754,
+      10.000000000000004,
+      11.547005383792516
+    ]
+  },
+  {
+    "id": "ROD_PITCH_4",
+    "name": "Einstellhuelse M6 RH/LH P4",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "SW10, zwei gegenläufige M6; Gewinde-Kernkontur; keine Nennachsen-Stange durch Gelenke",
+    "socket": null,
+    "volume_mm3": 2428.0517136386056,
+    "mass_kg": 0.006822825315324482,
+    "cg_mm": [
+      36.43868991087638,
+      4.1220008438372037e-16,
+      6.008245401706425e-16
+    ],
+    "inertia_cg_kgm2": [
+      [
+        1.1246988193733469e-07,
+        -1.7897523339616442e-23,
+        1.8634871762929537e-23
+      ],
+      [
+        -1.7897523339616442e-23,
+        7.146311236930712e-07,
+        2.7893458500676365e-24
+      ],
+      [
+        1.8634871762929537e-23,
+        2.7893458500676365e-24,
+        7.146311236930725e-07
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      34.877379821752754,
+      10.000000000000004,
+      11.547005383792516
+    ]
+  },
+  {
+    "id": "ROD_PITCH_5",
+    "name": "Einstellhuelse M6 RH/LH P5",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "SW10, zwei gegenläufige M6; Gewinde-Kernkontur; keine Nennachsen-Stange durch Gelenke",
+    "socket": null,
+    "volume_mm3": 2428.0517136386056,
+    "mass_kg": 0.006822825315324482,
+    "cg_mm": [
+      36.43868991087638,
+      4.1220008438372037e-16,
+      6.008245401706425e-16
+    ],
+    "inertia_cg_kgm2": [
+      [
+        1.1246988193733469e-07,
+        -1.7897523339616442e-23,
+        1.8634871762929537e-23
+      ],
+      [
+        -1.7897523339616442e-23,
+        7.146311236930712e-07,
+        2.7893458500676365e-24
+      ],
+      [
+        1.8634871762929537e-23,
+        2.7893458500676365e-24,
+        7.146311236930725e-07
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      34.877379821752754,
+      10.000000000000004,
+      11.547005383792516
+    ]
+  },
+  {
+    "id": "ROD_PITCH_6",
+    "name": "Einstellhuelse M6 RH/LH P6",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "SW10, zwei gegenläufige M6; Gewinde-Kernkontur; keine Nennachsen-Stange durch Gelenke",
+    "socket": null,
+    "volume_mm3": 2428.0517136386056,
+    "mass_kg": 0.006822825315324482,
+    "cg_mm": [
+      36.43868991087638,
+      4.1220008438372037e-16,
+      6.008245401706425e-16
+    ],
+    "inertia_cg_kgm2": [
+      [
+        1.1246988193733469e-07,
+        -1.7897523339616442e-23,
+        1.8634871762929537e-23
+      ],
+      [
+        -1.7897523339616442e-23,
+        7.146311236930712e-07,
+        2.7893458500676365e-24
+      ],
+      [
+        1.8634871762929537e-23,
+        2.7893458500676365e-24,
+        7.146311236930725e-07
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      34.877379821752754,
+      10.000000000000004,
+      11.547005383792516
+    ]
+  },
+  {
+    "id": "ROD_PITCH_7",
+    "name": "Einstellhuelse M6 RH/LH P7",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "SW10, zwei gegenläufige M6; Gewinde-Kernkontur; keine Nennachsen-Stange durch Gelenke",
+    "socket": null,
+    "volume_mm3": 2428.0517136386056,
+    "mass_kg": 0.006822825315324482,
+    "cg_mm": [
+      36.43868991087638,
+      4.1220008438372037e-16,
+      6.008245401706425e-16
+    ],
+    "inertia_cg_kgm2": [
+      [
+        1.1246988193733469e-07,
+        -1.7897523339616442e-23,
+        1.8634871762929537e-23
+      ],
+      [
+        -1.7897523339616442e-23,
+        7.146311236930712e-07,
+        2.7893458500676365e-24
+      ],
+      [
+        1.8634871762929537e-23,
+        2.7893458500676365e-24,
+        7.146311236930725e-07
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      34.877379821752754,
+      10.000000000000004,
+      11.547005383792516
+    ]
+  },
+  {
+    "id": "ROD_SERVO_0",
+    "name": "Einstellhuelse M6 RH/LH S0",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "SW10, zwei gegenläufige M6; Gewinde-Kernkontur; keine Nennachsen-Stange durch Gelenke",
+    "socket": null,
+    "volume_mm3": 1867.9028139343598,
+    "mass_kg": 0.005248806907155551,
+    "cg_mm": [
+      32.650444832516634,
+      2.9268020256631576e-16,
+      6.173113637250552e-16
+    ],
+    "inertia_cg_kgm2": [
+      [
+        8.773907323329242e-08,
+        1.108915891995073e-24,
+        4.6232852308486434e-24
+      ],
+      [
+        1.108915891995073e-24,
+        3.5931400039505544e-07,
+        -4.438108243909745e-25
+      ],
+      [
+        4.6232852308486434e-24,
+        -4.438108243909745e-25,
+        3.5931400039505544e-07
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      27.300889665033253,
+      10.000000000000004,
+      11.547005383792516
+    ]
+  },
+  {
+    "id": "ROD_SERVO_1",
+    "name": "Einstellhuelse M6 RH/LH S1",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "SW10, zwei gegenläufige M6; Gewinde-Kernkontur; keine Nennachsen-Stange durch Gelenke",
+    "socket": null,
+    "volume_mm3": 1867.9028139343613,
+    "mass_kg": 0.005248806907155556,
+    "cg_mm": [
+      32.65044483251664,
+      4.748122133358464e-16,
+      7.481913582294423e-16
+    ],
+    "inertia_cg_kgm2": [
+      [
+        8.773907323329248e-08,
+        5.2887989221572153e-23,
+        6.43099836428553e-23
+      ],
+      [
+        5.2887989221572153e-23,
+        3.5931400039505485e-07,
+        1.9961283682421452e-25
+      ],
+      [
+        6.43099836428553e-23,
+        1.9961283682421452e-25,
+        3.5931400039505485e-07
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      27.300889665033267,
+      10.000000000000004,
+      11.547005383792516
+    ]
+  },
+  {
+    "id": "ROD_SERVO_2",
+    "name": "Einstellhuelse M6 RH/LH S2",
+    "material": "Aluminium7075-T6",
+    "kind": "Sonderteil",
+    "mass_override_kg": null,
+    "note": "SW10, zwei gegenläufige M6; Gewinde-Kernkontur; keine Nennachsen-Stange durch Gelenke",
+    "socket": null,
+    "volume_mm3": 1867.9028139343598,
+    "mass_kg": 0.005248806907155551,
+    "cg_mm": [
+      32.650444832516634,
+      2.9268020256631576e-16,
+      6.173113637250552e-16
+    ],
+    "inertia_cg_kgm2": [
+      [
+        8.773907323329242e-08,
+        1.108915891995073e-24,
+        4.6232852308486434e-24
+      ],
+      [
+        1.108915891995073e-24,
+        3.5931400039505544e-07,
+        -4.438108243909745e-25
+      ],
+      [
+        4.6232852308486434e-24,
+        -4.438108243909745e-25,
+        3.5931400039505544e-07
+      ]
+    ],
+    "density_assumed_kg_m3": 2810,
+    "bbox_mm": [
+      27.300889665033253,
+      10.000000000000004,
+      11.547005383792516
+    ]
+  }
+]
