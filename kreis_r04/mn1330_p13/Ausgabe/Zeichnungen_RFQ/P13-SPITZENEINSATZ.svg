@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297">
+<rect width="420" height="297" fill="white"/><style>text{font-family:DejaVu Sans,sans-serif;fill:#142c3d}path,line,circle,ellipse{vector-effect:non-scaling-stroke}</style>
+<rect x="8" y="8" width="404" height="281" fill="none" stroke="#223b4b" stroke-width=".3"/>
+<text x="14" y="19" font-size="6">P13-SPITZENEINSATZ · Flügel-Spitzeneinsatz</text>
+<text x="14" y="27" font-size="3.5" fill="#a13e26">ANFRAGEZEICHNUNG · Nenngeometrie · keine Fertigungsfreigabe</text>
+<text x="76" y="39" text-anchor="middle" font-size="4">Draufsicht</text>
+<g transform="translate(76,96) scale(2.9473684210526314)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M -19 -6 L 19 -6 " />
+<path id= "2" d=" M -19 6 L 19 6 " />
+</g>
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path d="M19, 0 L19, -0.671787  L19, -1.33513  L19, -1.98167  L19, -2.6033  L19, -3.19219  L19, -3.74094  L19, -4.24264  L19, -4.69099  L19, -5.08035  L19, -5.40581  L19, -5.6633  L19, -5.84957  L19, -5.96227  L19, -6 " /><path d="M19, 6 L19, 5.96227  L19, 5.84957  L19, 5.6633  L19, 5.40581  L19, 5.08035  L19, 4.69099  L19, 4.24264  L19, 3.74094  L19, 3.19219  L19, 2.6033  L19, 1.98167  L19, 1.33513  L19, 0.671787  L19, 1.44329e-15 " /><path d="M-19, 0 L-19, -0.671787  L-19, -1.33513  L-19, -1.98167  L-19, -2.6033  L-19, -3.19219  L-19, -3.74094  L-19, -4.24264  L-19, -4.69099  L-19, -5.08035  L-19, -5.40581  L-19, -5.6633  L-19, -5.84957  L-19, -5.96227  L-19, -6 " /><path d="M-19, 6 L-19, 5.96227  L-19, 5.84957  L-19, 5.6633  L-19, 5.40581  L-19, 5.08035  L-19, 4.69099  L-19, 4.24264  L-19, 3.74094  L-19, 3.19219  L-19, 2.6033  L-19, 1.98167  L-19, 1.33513  L-19, 0.671787  L-19, 1.44329e-15 " /></g>
+</g>
+<text x="76" y="157" text-anchor="middle" font-size="3.5">Hülle 38.000 × 12.000 mm · Maßstab 2.95:1</text>
+<text x="210" y="39" text-anchor="middle" font-size="4">Vorderansicht</text>
+<g transform="translate(210,96) scale(2.9473684210526314)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 6 -19 L 6 19 " />
+</g>
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path d="M-6, 19 L-5.84957, 19  L-5.40581, 19  L-4.69099, 19  L-3.74094, 19  L-2.6033, 19  L-1.33513, 19  L-4.44089e-16, 19  L1.33513, 19  L2.6033, 19  L3.74094, 19  L4.69099, 19  L5.40581, 19  L5.84957, 19  L6, 19 " /><path id= "2" d=" M -6 -19 L -6 19 " />
+<path d="M-6, -19 L-5.84957, -19  L-5.40581, -19  L-4.69099, -19  L-3.74094, -19  L-2.6033, -19  L-1.33513, -19  L-4.44089e-16, -19  L1.33513, -19  L2.6033, -19  L3.74094, -19  L4.69099, -19  L5.40581, -19  L5.84957, -19  L6, -19 " /></g>
+</g>
+<text x="210" y="157" text-anchor="middle" font-size="3.5">Hülle 38.000 × 12.000 mm · Maßstab 2.95:1</text>
+<text x="344" y="39" text-anchor="middle" font-size="4">Seitenansicht</text>
+<g transform="translate(344,96) scale(4)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<circle cx ="0" cy ="0" r ="6" /><circle cx ="0" cy ="0" r ="4.05" /></g>
+</g>
+<text x="344" y="157" text-anchor="middle" font-size="3.5">Hülle 12.000 × 12.000 mm · Maßstab 4:1</text>
+<text x="14" y="174" font-size="3.1">Menge: 16 · Werkstoff: Titan Grade5 oder isoliertes Aluminium</text>
+<text x="14" y="179" font-size="3.1">Verfahren: Drehen, Klebvorbereitung</text>
+<text x="14" y="184" font-size="3.1">Merkmale: Ø12/Ø8.1×38; CFK-Klebfuge0.2</text>
+<text x="14" y="189" font-size="3.1">Offen: Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen</text>
+<text x="14" y="194" font-size="3.1">Unbemaßte Längen ISO2768-1m als Anfragebasis; Funktionspassungen separat nach ISO286.</text>
+<text x="14" y="199" font-size="3.1">Geometrische GPS-Toleranzen/Bezüge nach ISO22081 mit Fertiger abstimmen. STEP enthält Nennmaße.</text>
+<text x="14" y="204" font-size="3.1">Datum01.11.2026 · P13 · Herkunft/Normfamilie und Grenzen siehe Stückliste und Anfrageunterlagen.</text>
+</svg>

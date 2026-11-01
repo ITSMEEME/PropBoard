@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297">
+<rect width="420" height="297" fill="white"/><style>text{font-family:DejaVu Sans,sans-serif;fill:#142c3d}path,line,circle,ellipse{vector-effect:non-scaling-stroke}</style>
+<rect x="8" y="8" width="404" height="281" fill="none" stroke="#223b4b" stroke-width=".3"/>
+<text x="14" y="19" font-size="6">P13-PITCHWELLE · Pitchwelle Festlager</text>
+<text x="14" y="27" font-size="3.5" fill="#a13e26">ANFRAGEZEICHNUNG · Nenngeometrie · keine Fertigungsfreigabe</text>
+<text x="76" y="39" text-anchor="middle" font-size="4">Draufsicht</text>
+<g transform="translate(76,96) scale(0.8484848484848485)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 11 -6 L 66 -6 " />
+<path id= "2" d=" M 11 6 L 66 6 " />
+<path id= "3" d=" M 3 -8 L 11 -8 " />
+<path id= "4" d=" M 3 8 L 11 8 " />
+<path id= "5" d=" M -66 -6 L 3 -6 " />
+<path id= "6" d=" M -66 6 L 3 6 " />
+</g>
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path d="M18, 2 C18, 1.35904 18, 0.679744 18, 1.55431e-15 " /><path id= "2" d=" M 18 2 L 44 2 " />
+<path d="M44, 2 C44, 1.35904 44, 0.679744 44, 1.55431e-15 " /><path d="M66, 0 L66, -0.671787  L66, -1.33513  L66, -1.98167  L66, -2.6033  L66, -3.19219  L66, -3.74094  L66, -4.24264  L66, -4.69099  L66, -5.08035  L66, -5.40581  L66, -5.6633  L66, -5.84957  L66, -5.96227  L66, -6 " /><path d="M66, 6 L66, 5.96227  L66, 5.84957  L66, 5.6633  L66, 5.40581  L66, 5.08035  L66, 4.69099  L66, 4.24264  L66, 3.74094  L66, 3.19219  L66, 2.6033  L66, 1.98167  L66, 1.33513  L66, 0.671787  L66, 1.44329e-15 " /><path d="M44, 0 C44, -0.679744 44, -1.35904 44, -2 " /><path id= "7" d=" M 18 -2 L 44 -2 " />
+<path d="M18, 0 C18, -0.679744 18, -1.35904 18, -2 " /><path d="M11, 0 L11, -0.895716  L11, -1.78017  L11, -2.64223  L11, -3.47107  L11, -4.25626  L11, -4.98792  L11, -5.65685  L11, -6.25465  L11, -6.77379  L11, -7.20775  L11, -7.55107  L11, -7.79942  L11, -7.9497  L11, -8 " /><path d="M11, 8 L11, 7.9497  L11, 7.79942  L11, 7.55107  L11, 7.20775  L11, 6.77379  L11, 6.25465  L11, 5.65685  L11, 4.98792  L11, 4.25626  L11, 3.47107  L11, 2.64223  L11, 1.78017  L11, 0.895716  L11, 1.94289e-15 " /><path d="M3, 0 L3, -0.895716  L3, -1.78017  L3, -2.64223  L3, -3.47107  L3, -4.25626  L3, -4.98792  L3, -5.65685  L3, -6.25465  L3, -6.77379  L3, -7.20775  L3, -7.55107  L3, -7.79942  L3, -7.9497  L3, -8 " /><path d="M3, 8 L3, 7.9497  L3, 7.79942  L3, 7.55107  L3, 7.20775  L3, 6.77379  L3, 6.25465  L3, 5.65685  L3, 4.98792  L3, 4.25626  L3, 3.47107  L3, 2.64223  L3, 1.78017  L3, 0.895716  L3, 1.94289e-15 " /><path d="M-58, 0 C-58, -1.17205 -58, -2.34014 -58, -3.31662 " /><path id= "14" d=" M -66 -3.31662 L -58 -3.31662 " />
+<path d="M-66, -3.31662 L-66, -3.65995  L-66, -3.98517  L-66, -4.29066  L-66, -4.57491  L-66, -4.83653  L-66, -5.0742  L-66, -5.28676  L-66, -5.47316  L-66, -5.63247  L-66, -5.76391  L-66, -5.86681  L-66, -5.94068  L-66, -5.98515  L-66, -6 " /><path d="M-66, 6 L-66, 5.98515  L-66, 5.94068  L-66, 5.86681  L-66, 5.76391  L-66, 5.63247  L-66, 5.47316  L-66, 5.28676  L-66, 5.0742  L-66, 4.83653  L-66, 4.57491  L-66, 4.29066  L-66, 3.98517  L-66, 3.65995  L-66, 3.31662 " /><path id= "17" d=" M -66 3.31662 L -58 3.31662 " />
+<path d="M-58, 3.31662 C-58, 2.34014 -58, 1.17205 -58, 1.55431e-15 " /><path id= "19" d=" M -66 -3.31662 L -66 3.31662 " />
+</g>
+</g>
+<text x="76" y="157" text-anchor="middle" font-size="3.5">Hülle 132.000 × 16.000 mm · Maßstab 0.848:1</text>
+<text x="210" y="39" text-anchor="middle" font-size="4">Vorderansicht</text>
+<g transform="translate(210,96) scale(0.8484848484848485)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 6 11 L 6 66 " />
+<path id= "2" d=" M 8 3 L 8 11 " />
+<path id= "3" d=" M 6 -66 L 6 3 " />
+</g>
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M -6 11 L -6 18 " />
+<path id= "2" d=" M -6 44 L -6 66 " />
+<path d="M-6, 66 L-5.84957, 66  L-5.40581, 66  L-4.69099, 66  L-3.74094, 66  L-2.6033, 66  L-1.33513, 66  L-4.44089e-16, 66  L1.33513, 66  L2.6033, 66  L3.74094, 66  L4.69099, 66  L5.40581, 66  L5.84957, 66  L6, 66 " /><path d="M-6, 44 Q-5.99795, 44 -5.65685, 44 " /><path id= "5" d=" M -5.65685 18 L -5.65685 44 " />
+<path d="M-6, 18 Q-5.99795, 18 -5.65685, 18 " /><path d="M-8, 11 L-7.79942, 11  L-7.20775, 11  L-6.25465, 11  L-4.98792, 11  L-3.47107, 11  L-1.78017, 11  L-4.44089e-16, 11  L1.78017, 11  L3.47107, 11  L4.98792, 11  L6.25465, 11  L7.20775, 11  L7.79942, 11  L8, 11 " /><path id= "8" d=" M -8 3 L -8 11 " />
+<path d="M-8, 3 L-7.79942, 3  L-7.20775, 3  L-6.25465, 3  L-4.98792, 3  L-3.47107, 3  L-1.78017, 3  L-4.44089e-16, 3  L1.78017, 3  L3.47107, 3  L4.98792, 3  L6.25465, 3  L7.20775, 3  L7.79942, 3  L8, 3 " /><path id= "10" d=" M -6 -58 L -6 3 " />
+<path d="M-6, -58 L-5.99475, -58  L-5.97901, -58  L-5.95281, -58  L-5.91619, -58  L-5.86922, -58  L-5.81198, -58  L-5.74456, -58  L-5.6671, -58  L-5.57972, -58  L-5.48257, -58  L-5.37583, -58  L-5.25969, -58  L-5.13433, -58  L-5, -58 " /><path id= "12" d=" M -5 -66 L -5 -58 " />
+<path d="M-5, -66 L-4.31477, -66  L-3.48612, -66  L-2.5416, -66  L-1.51261, -66  L-0.433343, -66  L0.660328, -66  L1.73205, -66  L2.74621, -66  L3.66908, -66  L4.47001, -66  L5.12236, -66  L5.60446, -66  L5.90029, -66  L6, -66 " /></g>
+</g>
+<text x="210" y="157" text-anchor="middle" font-size="3.5">Hülle 132.000 × 16.000 mm · Maßstab 0.848:1</text>
+<text x="344" y="39" text-anchor="middle" font-size="4">Seitenansicht</text>
+<g transform="translate(344,96) scale(4)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<circle cx ="0" cy ="0" r ="6" /><circle cx ="0" cy ="0" r ="8" /><circle cx ="0" cy ="0" r ="2.1" /></g>
+</g>
+<text x="344" y="157" text-anchor="middle" font-size="3.5">Hülle 16.000 × 16.000 mm · Maßstab 4:1</text>
+<text x="14" y="174" font-size="3.1">Menge: 16 · Werkstoff: 42CrMo4+QT</text>
+<text x="14" y="179" font-size="3.1">Verfahren: Drehen, Schleifen, Fräsen</text>
+<text x="14" y="184" font-size="3.1">Merkmale: Ø12 k6 Lagersitze; M12×1 x96..107 symbolisch; Schulter x137; Passfedernut4×4 an x152..178; ISO13715 Kanten</text>
+<text x="14" y="189" font-size="3.1">Offen: Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen</text>
+<text x="14" y="194" font-size="3.1">Unbemaßte Längen ISO2768-1m als Anfragebasis; Funktionspassungen separat nach ISO286.</text>
+<text x="14" y="199" font-size="3.1">Geometrische GPS-Toleranzen/Bezüge nach ISO22081 mit Fertiger abstimmen. STEP enthält Nennmaße.</text>
+<text x="14" y="204" font-size="3.1">Datum01.11.2026 · P13 · Herkunft/Normfamilie und Grenzen siehe Stückliste und Anfrageunterlagen.</text>
+</svg>

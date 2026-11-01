@@ -1,0 +1,2773 @@
+{
+  "passed": false,
+  "files": 395,
+  "volume_relative_tolerance": 0.0001,
+  "scope": "RFQ-Einzel-STEP-Rückleseprüfung; Körperzahl, Formgültigkeit und Volumen; keine GPS-/Passungsfreigabe",
+  "results": [
+    {
+      "file": "STEP_Nennkonturen/REF-7202B.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "f9055ddc517ce4a89af5f9f9322816f85dc881e7832505d7ef8f10ab29006463"
+    },
+    {
+      "file": "STEP_Nennkonturen/REF-ACHS-MUTTER-M14.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 3.1410224439214307e-14,
+      "sha256": "970bfd20e8f45874bf428eba4023295c3ab900c1dc2527064f545fc88ee7ae61"
+    },
+    {
+      "file": "STEP_Nennkonturen/REF-AKTUATORMOTOR-OBEN.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.9234958650807672e-16,
+      "sha256": "d2405f28bb1ea12aae24fc4489b3b31d10bb1f7785dd4881d96e545fc0c926b4"
+    },
+    {
+      "file": "STEP_Nennkonturen/REF-AKTUATORMOTOR-UNTEN.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.9234958650807672e-16,
+      "sha256": "9dc1835bd4163c214fa464e1ca48126dbbe8b5f172ed77005eb1d3a7394cd506"
+    },
+    {
+      "file": "STEP_Nennkonturen/REF-MN1330.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "ee790b775dd28f2fe4c61d894f72d0772c2d2ef9d57283303e26bc053bcb3d45"
+    },
+    {
+      "file": "STEP_Nennkonturen/REF-SCHRAUBE-M3-L8-K2.4.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 7.581255371781512e-15,
+      "sha256": "a46a0e15646cbc051dec71a987ef5b03a8e1c0ab2ae3a17d018bda76e6287628"
+    },
+    {
+      "file": "STEP_Nennkonturen/REF-SCHRAUBE-M4-L16-K3.2.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.1287340508554634e-16,
+      "sha256": "756735dc3cc3aadd4a5c8f46709d6d2ea27fee97f7949ceed07f3e4c5d553d2d"
+    },
+    {
+      "file": "STEP_Nennkonturen/REF-SCHRAUBE-M4-L8-K3.2.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.2620067181158499e-15,
+      "sha256": "5341b89670ddda0ed5a145418289f6aea35b8f180ea28832468ebafc843a8547"
+    },
+    {
+      "file": "STEP_Nennkonturen/REF-SCHRAUBE-M5-L60-K4.1.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.402057602093104e-15,
+      "sha256": "cf0fd00424331201b49965eb273fc7abc9df674b560b27f8c45d600fe05ad169"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-608.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "3c1a054c1ea2745e124ef7c3dbf2eff8f4329be8de582b206001d2e5f863f12c"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-61820.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "d4b959ec40333dc179f327a6fd9858b3cadd44393a8eed1e34572b8140c605cc"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-7001B.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "e425ea74a7ff12de0e4351d1d5986790ad6d1ecb07d1969992416ce02d6017e5"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-7201B.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "12f09066147a79348dc5b971aba637932de178522b616190ac445bd9cdfc25d1"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-DIN1444B-6x30.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 3.01139573309978e-07,
+      "sha256": "3d36a34c5a93ae054016448a621b5bf3564b1ccfaffa2cdc302867fc92738159"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-DIN1444B-6x35.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.67074418101781e-07,
+      "sha256": "d85b983aedef2345f3b845bf868c501ff047689186f13104ce58311c7fdbcc55"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-DIN1444B-8x30.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 8.456869226770064e-07,
+      "sha256": "e426903d1782e21514ec6de06d7af5d26fcb3ca7dc75379de848aa44db7a4d05"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-DIN471-8.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.4548369833062234e-14,
+      "sha256": "47e623e6ea032ac1bf4a2a1eb3739e07707ae89c0cc9874a99c3107f6f690b90"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-DIN472-14.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.892295785575443e-15,
+      "sha256": "2ac43ae8efa8e8111687a3bfbe2326be33ce9d7413a4033a4f6ff82957247565"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-DIN6325-4x25.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "18439d33885b634171cb6cba5a73d5f00812d31b3df8ec5a3064eab84fce0d08"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-DIN94-1.6.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.1776076556526757e-16,
+      "sha256": "681701f78ed7784836fff618004d1c3f08f940f0533f64ad8f68ed3846e941b8"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-DIN94-2.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "0432bca9e7992c3e4b09dd50d5cca9350d7e41c8e9a5b1cd4596bfdb85ff7d8a"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-DIN976-M6-ROTOR.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "f733a859e2a4cd0b4ba712b5b0132a0c473721c2072fd13ba65a920629646b30"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-DIN988-6-L1.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "1db867e9248e9f083af183eaf5c8693718f8a8935f8308abe3ca27a450aebd84"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-GE20-AUSSEN.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 4.010155626746759e-15,
+      "sha256": "254f762669a77d5a508f6dfdcd73e1c2882ed94be89d7627e88210c902a1c005"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-GE20-INNEN.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.5708462992694398e-15,
+      "sha256": "8dd60b793b2d0ca229bd7800b107d2cd6cbc68a2469782ba81087f268cae49dd"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-GE6-AUSSEN.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 7.224694908697646e-05,
+      "sha256": "672dec3b921361c930bee5f5fbd5301d7503f50f2c4727aa4cc71b52547450f9"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-GE6-INNEN.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.404623177376297e-05,
+      "sha256": "7db837decdaf9e53cbcee132286d5762c3a6dd877e7b1a6089c4889070ef936a"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-GE60-AUSSEN.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 7.352550334447045e-16,
+      "sha256": "a12a3c976987f76511fdbcb8dcb15fa0bc37b9f17f7bc6094d1d4ee87837280b"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-GE60-INNEN.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "ed02e04db42d15e195786df7d9fc9b05a433d684d695ef7c9d5feac50f083743"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-GELENKKOPF6.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 8.846572470832538e-06,
+      "sha256": "9aa51e9f5359838f9ac9aedf475a273544de8039bf3657a2fb34af3f5308cf30"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-GELENKKUGEL6.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.2744676769977714e-05,
+      "sha256": "4692d5024c754c1203dab31556f7b57b434dbb98abd1471d7babf0a6b08b3afd"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-HTD3M-L450.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "d9aadf734d18f13b883edc84921ade791905cf7ffcb8fbb7ae1b6a838b1634f9"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-HTD3M-L540.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "7ff7fb33192d0d159080dbab3ec884f9e5e94df0dc8dbb378bd363830085d8b1"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-HTD3M20-Motor.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "d2f56ba2408453424037dad974723b831e39f11bf0f18a0192443c8222d22c4a"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-HTD3M20-Spindel.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "8d861a134797a61cde26e08e5f71af675cca19cb2cada6a02007bf1578b6bfd6"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-ISO10642-M3x6.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 4.42859972846206e-13,
+      "sha256": "8e01c0abd04f25c09f92156dc09b4f38ba6461e075c7e4f056838cd42f70b898"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-ISO4762-M3x12.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 6.171129474041244e-15,
+      "sha256": "2a299f5d1bd92c66ffa2b9dc6b732c3e21370ae0b003413e2379e57245df1242"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-ISO4762-M3x8.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 7.438212817596952e-15,
+      "sha256": "789ded5abd041fcdb83c4b76e7fa13d9121a6702ecf681eff2d24db4ee4190f2"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-ISO4762-M4x12.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.420317895187176e-16,
+      "sha256": "8d76e55ea83c53e4f908dad6ae4b49be452b96cf269b9e5543d5ec99562c88b5"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-ISO4762-M4x16.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 4.257468101710927e-16,
+      "sha256": "99e92718874d01982201bf4c55b4942c9c680a11ec21ed4a8d301a74ab628c40"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-ISO4762-M4x20.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.139911459688906e-15,
+      "sha256": "72958eeaeea08aad112dbe94b09010741fe5dd3ab58e5bd46094752ade29147d"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-ISO4762-M4x8.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.1217837494363111e-15,
+      "sha256": "ae1ccc3f3d688be727d7efe1641d7cd59535d5a70b699ffccf7b0dc50a860474"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-ISO4762-M5x12.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 6.834914888708516e-15,
+      "sha256": "6092f86f5b830eb453ca74faed5d2ba6f303bb95986357bf6dc31608077612b5"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-ISO4762-M5x30.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 4.405371285734162e-15,
+      "sha256": "47f63052a560cfed308d98f6154a951b303b919f0885b2ea720f7c0b13186052"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-ISO4762-M5x40.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 3.5107230746010196e-15,
+      "sha256": "1ccb5f0eafe8d4ab1fb6e10e56136baeaa8fdbb2542f781b136dbc33d51cb594"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-ISO4762-M6x100.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.1824431886066403e-15,
+      "sha256": "5ccf49f491bb27cce85ec72e7ee2d571c6c2a3a6e629b1dfe3354094f9daea1a"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-ISO4762-M6x12.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.875527458777205e-15,
+      "sha256": "4117087af7acf0862d12f103193699138be263f2cbdbe71f8449431abe40aa3e"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-ISO4762-M6x16.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.248027187629889e-15,
+      "sha256": "d7731264a4bdf02df68d12b1a2fcdcc1f34931726e5041214daa16c5b4f4a82e"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-ISO4762-M6x25.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 7.771490740284348e-16,
+      "sha256": "4d1dfb1333a7d86aef4ab241d51234b0f2296d21bbd7254082b41062933dc88e"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-ISO4762-M6x30.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 5.848032467836876e-16,
+      "sha256": "8024224f111ff8f042ba2cf9ac73d8725d8eca4a61c8b2084b6efda840911c52"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-ISO4762-M6x90.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.7295262970558271e-15,
+      "sha256": "3d8e5935f1d8d05fa429fa01d1619e0623c85293a8b7e87ef86c0c863a5fd6d1"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-ISO7089-M6-GELENK.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "0fd7542fb1160a7a20f83314094f3a226a40b142e2df89a2da3a9e3c07894aac"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-ISO7089-M6-SPEICHE.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 8.779999120672233e-16,
+      "sha256": "b77c10922458a053cea13f97beaeb19d31e3ee5c2b9681f7b8732142a3cee151"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-ISO7089-M8-GELENK.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "c371a8aec78fe1cbfce86aa0e753a84823d31b210beba53b38e5ab18b8fac7e1"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-KGT1204.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "7de47f463cbc20fe373c59e256e53ba9b2de040dcc894c3e297957b9e4439d0e"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-KM1.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "e74958ff63a4eee2f7a7ef2b1a1257dd4c2af9d2a0df1a62755856c07ddbded0"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-LINEARFUEHRUNG.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "726f203cdb618e0728d4130789c242c68e857234f06a07ad7e4c70f9a83d321f"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-M8-GELENKKUGEL.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 6.361109362927031e-16,
+      "sha256": "5fedef1739fc32b319b09923af3ac79554be2326b27f74b782cd5d17e2abd210"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-M8-ZUGSTANGENKOPF.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 4.6809709479377385e-07,
+      "sha256": "e6129c9a043ababdbc52cd2226d5655a0edd794c9edeab87db9d5c64ca2e4a5e"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-MB1.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "67ac9a13187a6ce51bee6607b89bd84f4b1da2e2dcb68d69d2ee13a8f08957f2"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-MUTTER-M6.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.3679078237020794e-13,
+      "sha256": "a838db12780b82fb443ceaff6a1778b4dd5678075e0e0dc972d052cf6c450552"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-PASSFEDER4.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "bdde4b2c921a02968136d8afb7ee6b2cd9ed3ebe3befdc04069a493e5bce104b"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-SCHEIBE-DECKM6.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.3389498659025144e-14,
+      "sha256": "417111bd89a432dacb261b9409268d6f85896388b5d06f9309e16a4339840deb"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-SCHEIBE-M4.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "51c0ce6987c54d83f4d1457e5aad275d2a3e79fd0c2be2298aa07a82da59c7a4"
+    },
+    {
+      "file": "STEP_Nennkonturen/STD-SCHEIBE-M6.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "f5244b728dcf314236d54d1084a93a4b9bd6963967fd7072ebb532c2dd285f4d"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-BRUECKE-END.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "59526b78b8d396408678cae56d1a80ce098c62ce86b5f0e911370e4fc7bb21f0"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-GUIDE-A.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.2094232559117205e-13,
+      "sha256": "8a9dbe9f335e4fe3ec191911397c1ce7e0098a8dfe7014e5c41fa095d9bbb711"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-GUIDE-B.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 3.560127754361707e-14,
+      "sha256": "96df0f6f5b1424f03b2ff7e7cecfd3e96b6a63c88c2dc363f375558e1ec95dbe"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-GUIDE-FILM.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 7.486377640637989e-15,
+      "sha256": "b965548bf4f8873c6734dd8515c50f3cf8cdf8e25261257042ee770267916df1"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KLEMM-A.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 4.103149446562097e-14,
+      "sha256": "8c0e7f696a93b67477ec319a0180edac29cb45d95dbabbf3872e963b1e8c7d3c"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KLEMM-A_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 5.428782344682159e-14,
+      "sha256": "9f3d14ab2bbaaab9b6c3cc01374242ce0452083aab6ca1feb2bd2437725b93c9"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KLEMM-B.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 6.759343311834099e-14,
+      "sha256": "588a623ed568d8dec914b5b8d0c5c37509745f7be2d451ff8786b6bfc15836a2"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KLEMM-B_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.3902914361407016e-13,
+      "sha256": "c14d31902721b0b3502e1073d0e24e2c590f4d6737eca4b44c51429a503d3667"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-000.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 6.298233021647031e-09,
+      "sha256": "6bcbd55dcc565e0350470edf98aaa93d973011e8d71e0d962d3b896a13d73c61"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-001.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 8.855721507757442e-06,
+      "sha256": "9a82644e07889158a3a632a467be45433a6f608023fe0c3a44242552cf8cc61f"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-002.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 4.253793191586067e-06,
+      "sha256": "1929b03330bff5cb2d7d6bbf52c7856923f55fa5fd5cd438c1eccae3840bcdb3"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-003.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 3.3976523415491004e-06,
+      "sha256": "cd8c0e15d47067c8adffebdf7174dd469bb873558eeab048f939ad7ef545c087"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-004.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 7.77519197369789e-06,
+      "sha256": "3df6553eca36899ce07f0b7dc5ee7c7b095e81f0bd6d736a622eaa93fe814883"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-005.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 4.82778635752145e-08,
+      "sha256": "8a586b1e535033e5b657716d6089d7df8c0fe4756ac32255ffbd637af8e65e8e"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-006.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.7539603931389085e-07,
+      "sha256": "3e8a20c1e70c7f85bc5feadbe37bdb164e8cddb218459feca384b26f6e3ff269"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-007.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 6.363982240207804e-06,
+      "sha256": "2b7d43f4af3defdfcdfb4d32760a6e6cee7875a5adbf506ed853a3bac1465bb7"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-008.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.832579887281249e-07,
+      "sha256": "84b2ca94db7da5bd4f33fdba95308c08979d1d4705af0b0de5a2c7a4414c3ee3"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-009.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 3.560009360262303e-06,
+      "sha256": "dec9716cf059360d6e966d3f8b5ab2bb1a39933e6aad3b20a89bcff308ead737"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-010.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 6.453525379132928e-06,
+      "sha256": "542ca7ccfef7ff437db8dd97699897bdb499afa2ebb6bccd2b6e54e6ce740ae9"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-011.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 4.148946218941858e-06,
+      "sha256": "93577bbb2390ee9a562ff7efe24816bacb3a8fbd626dad10cfa6d70b97cc919b"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-012.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 9.712267426581933e-08,
+      "sha256": "89b4eb2212b31516f92771cf0f8b63c840e5aa0b08f30d492b84e65b1ebeb9ec"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-013.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 7.41179571781128e-06,
+      "sha256": "1a568e77a61b0ac19f134d344c7f5143e5818f5c19bca509a48c1e64d7ba8402"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-014.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 7.703015687030975e-06,
+      "sha256": "98485276695ba1015db2fb0bfa2dd54876b4a554d77f63e17e0eace0a74f5160"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-015.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 3.7550583122943616e-06,
+      "sha256": "04e9488259572fc5d49fa4e1d9a91345578840d832f4c995da3c8c0d00ef0899"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-016.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 3.6822518561120084e-06,
+      "sha256": "4816fc453f9bc6cc8360ce5fb557596295f420d7c68a7470ee59d3c1ab58a19e"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-017.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 5.5185969992781984e-06,
+      "sha256": "92e64c560d68461e2ffc0d1bd99b9e8434b27a78945e821274eda89267850485"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-018.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 7.529695637037139e-06,
+      "sha256": "bc15982bac22b16f05fc22a9904f9562dbccb655c453c32c20ee3a800d763a87"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-019.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 6.975701757685251e-06,
+      "sha256": "cdf5aa10a301ec753e04c894d430c1c01f3e2e00d18bbb7e6a77e90dcea0508e"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-020.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 4.003336194534753e-06,
+      "sha256": "0d5e90d09b3ff399d1924a813a36bab3af0bc4cc90926b2adcd77e7db37ef991"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-021.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 3.753219496891904e-07,
+      "sha256": "c9b05550eb894a594f3714821f5866a126eddc7e91699c62bafe2642a3a9eb6d"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-022.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.7285234260080944e-06,
+      "sha256": "b58ec013f0441cb70dec68c4659ea998b69eb6ad9a25406c80e33f9441939347"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-023.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 5.205302479623712e-06,
+      "sha256": "499153406f522c4997724bd4ef8979b98bc3679efc93a117102f344426112db6"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-024.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 4.556210275320281e-06,
+      "sha256": "28224c690cb561ce94efa643955b0074848a264837f9da4aad4ff01c246f66f6"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-025.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.1158905304479805e-07,
+      "sha256": "2cd021518534f81b7d47a94f267e721a5240668b01b78d20026c6ffad14811c1"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-026.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 8.885808487287173e-06,
+      "sha256": "f643e126691ded0fc9c040bc224372f95f67866575af7a92792fed316004f167"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-027.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 9.797558182600375e-06,
+      "sha256": "bae48825b218df74b4323d35c522045d5a7614d1cb32f769c2c97b07c77e08ca"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-028.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 4.778157459385652e-06,
+      "sha256": "c2f1dde9754c4ebc91fad0a9c96d1c80f98caea0fba77a446285225b134213b4"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-029.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 5.4178618994197135e-06,
+      "sha256": "9d331b028b776e1ca76a8a2bc182399976bcef006fbbfb5b972e9e7c024c49cf"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-030.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 5.6786452155384965e-06,
+      "sha256": "d78044d278f432c202355a10b6062dd78a5306e0d1ce4e82f485b112af919905"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-031.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 8.87268724464219e-06,
+      "sha256": "cea2623fcba539cbf59950bd2dc77e3e92a2161d8d3ab3b40b975c405955c8ef"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-032.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 3.338307996848356e-06,
+      "sha256": "97d5a4c2d1a6b393d402fd32f22cb2f9f8cbeba91fed269cfb482effb42b8a63"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-033.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.9500906118162156e-06,
+      "sha256": "cec9429d257ffe59d7b41db4844ce8a183ee20a87982f61035effa66f3a8da8b"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-034.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 5.949442672816787e-07,
+      "sha256": "863c80d05005f64c08ece6b053b3d283c135456c21b98568e1b16a19a6eb9856"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-035.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 4.04721154600149e-07,
+      "sha256": "edeafc76cdb10222a8fdc0a14f706a7d46dae4e78b3da46dc8e3ad3761846094"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-036.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 5.880881739369717e-06,
+      "sha256": "5caf6f96aaf6c3dc2ffb9ae3bd2e8227c485bee4ece456b75a53e825c84f115a"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-037.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 6.656970244372742e-06,
+      "sha256": "80acaecd892c67a96d3b6ab8b5fb747bcf2ae39216069e611481f7d7d4d9c4ba"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-038.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.0848678716319529e-06,
+      "sha256": "1283198e51a52b8ed75163d95edcf0048c894025fc9141aa83715ec314214f65"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-039.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 3.0896941232524403e-09,
+      "sha256": "1090f11b66e37780bcc2603fdbfae41048e386b97abbf2503fdd9fa317b0d678"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-040.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 3.0896878159070596e-09,
+      "sha256": "5ce5dbafacd3999d8e81172615827f6b9dd7c63c07edc64bc350c075de7dcff7"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-041.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.7750320081388653e-08,
+      "sha256": "709dbe3c9793197c101b8b0856e5f34727c79ddf12a713919b9c47a0f8472039"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-042.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.775021676106824e-08,
+      "sha256": "4a3fdd04a47fc302de460dfbc4631beb8f2915a1b382ad40be22adaf98343c51"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-043.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 8.424224300743781e-08,
+      "sha256": "81ee650aa8068a6d15f7b8cf24cc6ebe8c9266a48b3db8a0696814f5a4032c64"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-044.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 8.424221759092362e-08,
+      "sha256": "5f8f41d07af78415019055bfc77acd12d5a3c1ec2f7bea386652d5e7445d19e3"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-045.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.637251609428651e-08,
+      "sha256": "c21ee77d02e5dc7f6a26566b05dbd84110c2182d736653ea2247eb33efa85fc5"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-046.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.637244948549805e-08,
+      "sha256": "cc64cd2e7b6598d883c89f47805aff682036be4d7e04de3b80e97f250ebca2a9"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-047.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 6.671842035180591e-06,
+      "sha256": "25996b44bfa05d1129a89981a187c534ea2ff90da4cdcb50c6c768397bec84d2"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-048.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.4683176719702811e-06,
+      "sha256": "f266393ee503726c6798d63bbfd73da1e8c10992ce489985fb3845f36f239684"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-049.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 4.460126171231513e-06,
+      "sha256": "23c733fac05970e73cb6ada559afd873e5b321be15196e8e3fbbc370a1bf0005"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-KNOTEN-050.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 4.073432392152407e-06,
+      "sha256": "d05d3c48bb94f484fbc1c8e7508c97bbb269e15d382dfe5b98dd726a5f1fccae"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-000.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.848772656772905e-14,
+      "sha256": "27e6225ce5e98bb92196636e6cbcd3942f6d60955ec71dea0ccdd470335eb702"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-001.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.8102565597568032e-14,
+      "sha256": "3dacac8892f6e1df6bb49d305e16b6f9c5651efa49889d8a9507bc3952b7c37e"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-002.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.6878027916168002e-14,
+      "sha256": "6cfa285f4d78eee9556582a1ba76855eb6e2710c156ea03e28b7b5dfacdca7b2"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-003.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 4.3960179016194695e-15,
+      "sha256": "dd8f0962e79c0b0715809832aebe36684cc89c317060930160241070385f053b"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-004.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 7.042873674237539e-15,
+      "sha256": "878e406baad2c86a30ef0c1d3f721a01c1a252dc647091d1e28d3e588ede3866"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-005.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.6228292973314973e-15,
+      "sha256": "a222ade732f2bb8b768404c2aed05b6bf5e1cdcc60ecd29bc39c01259ca20d1a"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-006.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 5.3621666388629996e-14,
+      "sha256": "f2ee4dc19b4a13aa9e868019c97dbd17e7b416c03eaf93e1d8054bab2e3ebb46"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-007.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.8388833736334873e-14,
+      "sha256": "65a2c7255f3475008a9c41521d9807d9e8d522e08b6698fe0ff5a34ab04a2505"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-008.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.9841858174274824e-14,
+      "sha256": "7c3bd4815b9d9b86cfc5508a52d806103ea98eedbfff003e54d9d3e3ad8fe9d9"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-009.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.0072577455371037e-14,
+      "sha256": "4ef5b66da15f0f4caff0bd18b842d010ac2b7f7af2dc34a5857fe58695603144"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-010.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.7716071526468975e-14,
+      "sha256": "9e06ac4a25e0de959fd4179980bbd2fc5a34c0eeb7076c77f19ac41a76d5d398"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-011.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 3.576090706581443e-14,
+      "sha256": "f7d4738b011839febda6c71b12599fed3f0740d41948f45be67df563c06f0ee9"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-012.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 5.332153405517814e-15,
+      "sha256": "6147f6475d8093154c39ed7a0da847d5b1a3d33a8b113d916ff54c4f907f6568"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-013.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.848772656772905e-14,
+      "sha256": "0026627f89668847c33aedf8fa032eef9a379fa8bfe95a5236ad072cf64d949d"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-014.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.8102565597568032e-14,
+      "sha256": "4157bd381ed818ccc985d2b5a5d6bba523b84d129053451e9617adff6ce71942"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-015.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.6878027916168002e-14,
+      "sha256": "0f88c4015d50b7809add13f7ccdb3799725f2a4937e0631e97000a4ecaa8f929"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-016.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 4.3960179016194695e-15,
+      "sha256": "5b6fa1ae751e4291af371e2cc61d212aa93bd64bed234a4125cde39ea3bcd440"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-017.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 7.042873674237539e-15,
+      "sha256": "b273f41be2d283f149e4a04fd0610ee896eabe5099db55543efe6003c9efd6de"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-018.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.6228292973314973e-15,
+      "sha256": "6f3b439f34e0452fe3dff8e1575895c7e3fb4bbb31f808a6e2937fc5a1dbb725"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-019.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 5.3621666388629996e-14,
+      "sha256": "fc6a5f366a6b8d244d75d73980731137a42090bfa1a9c5c78b82b91e57c43f30"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-020.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.8388833736334873e-14,
+      "sha256": "fe73dcc908afbba029bc21608f9ed8588fec5f4b36cddd87f1b68a74875a4ee3"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-021.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.9841858174274824e-14,
+      "sha256": "4d167f8faaf3213dd555301b396f554f35f7854052324d112d4faf9ee34c412d"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-022.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.0072577455371037e-14,
+      "sha256": "b623a88c67dcf27e4b7735f59dc59a3e66d59fde9eae40f812539e7f77cf1ea9"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-023.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.7716071526468975e-14,
+      "sha256": "bbb6a646310dae64de6c0e1acb3208b27e79ccc6a0b6a1e3f382fe36ca1a242e"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-024.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 3.576090706581443e-14,
+      "sha256": "4864f36cb67e854b6bd102409c5cd27d3a0d0fc499246a627c7da73561461ebd"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-025.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 5.332153405517814e-15,
+      "sha256": "76d98d30b4f9504284aed34bcdbe12bb2e53de6963d586a37d47118967aef0a9"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-026.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.848772656772905e-14,
+      "sha256": "93a3c88aa807ede1e628b05c61e803de20a79ad9f3efee00b74f4bb565aab5a4"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-027.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.8102565597568032e-14,
+      "sha256": "7c489ccd8cdd548d979b8efb0f991ba938c36f470b036d51c410a7e66f7fb483"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-028.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.6878027916168002e-14,
+      "sha256": "a23f0db4c65554d9be175e507a2c24cf4acc2c691404155fc1cf9b51fbab8c9d"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-029.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 4.3960179016194695e-15,
+      "sha256": "98509e2b5da77dc5da5848c5e29e35d49fb60e35fca23e666c3bfbfb7fe4f73f"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-030.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 7.042873674237539e-15,
+      "sha256": "cd0d6ab7962682ac0380daa110ab26f60b505fe3c466a46a33f2ad4256db54d8"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-031.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.6228292973314973e-15,
+      "sha256": "76ae46806b97afb9ad15f22101e067d58a637ae23227fdd75fe7b00d09526adb"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-032.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 5.3621666388629996e-14,
+      "sha256": "50aef86ac80d23f58ed148ab9225d73f83b86dce2182fe6b9e187697b5aa6dce"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-033.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.8388833736334873e-14,
+      "sha256": "430b65c8eada95fb79c070938281f3a27d96cac09a6284e725ec61647bd5eee8"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-034.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.9841858174274824e-14,
+      "sha256": "d2c0ff7b577d42fa1532de7f12194907b0d2a620418c2856941922a40c1295cf"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-035.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.0072577455371037e-14,
+      "sha256": "67ee52ce7e45484843d89cad0d905ea2b637355385ff1f1e73af3a0afbd74668"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-036.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.7716071526468975e-14,
+      "sha256": "e663208a2601204d8557223954716c3ebeecab90da83f2306340ab767bc69716"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-037.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 3.576090706581443e-14,
+      "sha256": "94d64e4c53c2e13b1d9870e85a407ff42e2bef3a1d8531e2aff8a81a26a81818"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-038.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 5.332153405517814e-15,
+      "sha256": "7f3617e39cbc08e36f2a41874ce57ff1e92f34942bef0d7dfb2005c7a8726cb9"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-039.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "0c221f36a705a93fe31eb79acbc471853656d4ccc401cbdb78064e726bc3db3e"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-040.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "966662737a1585a123cacdf610c885b07a754bd15bae20ea677910252844187e"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-041.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "f9b990adeef0ba3df4a44c4fefc41d897886c0637c4827d3cd96eb07d8e7ee1e"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-042.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "841dce16d157fd8cc5411b350de0e691c097fbce31a9334710e5b90631241d47"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-043.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "e535b0709011a3b3192e386ac961adbff749dbb6fd2386492344ac3f5a097f38"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-044.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "e9b29df6f3ef605a06d63dbb32be20a915071afb3e894089485dff8f0dd3b081"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-045.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "0c4deceaed82be67ee1cb44819b011ab68641224e996ac62cd34f46bcd69688c"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-046.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "10cf98ea7b1e197790f1f50806494aeb61a0f71ec8f94c60ff5595843564ac52"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-047.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "f28a50ca3a5b6aeb660afc9951821e74ae9f6e4ccf1bf5202a39b9f95f6294c3"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-048.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "441070fdda31dece2df199ce3b05e6cd3e641a8fb4ad3c2633c8730018a25972"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-049.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "9ad9bdb4b98685a9c1292b1a1bf8b73004d3ab07c7b11844911a2aa3a30c827c"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-050.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "f8da2097daf564f610d837c5c273316c1c52c35139f2e85f21f66e7b271efc35"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-051.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "8ff3cf0977a563c648ee03c0443b01d741bea7d329e5c774d263c1f225091a8b"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-052.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "c5b6392d1a5634e43e6bc0995db2ef7c038d2d93fad542cd863a36446468e973"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-053.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "f12bfbfd7a8ae0cfdca48e54de5cda218d285aa8fdcb32818001429a80bbed4d"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-054.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "3c584137443e15cad1d7767a4675e375329b75e63ea77a7905884cedfe442664"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-055.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "1edbbeb06064b2f5513da523b9cee99b3d6d54bcf7ef3ff3776f80a83df80a9b"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-056.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "39e0d873ab35aac7fbf02f152d243ee84fa6fd3412124673e17c7bc25e897836"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-057.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "ce1d27faaa37f9a78c9d619b6ecb445a4309baa5c3fa5851eddaec3c50f950a3"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-058.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "161604737f90a1cabb2eaf5fb0d6c8e01deab55895bc2a72a8351bb0f8ecc015"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-059.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "24087afc97cef5a0cc8f26bd82974ce6c2d0205ad7279a812490e24d4f71ac49"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-060.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "7d9da3614a0ed65f4f0f19cd8365aa52e51ffcaa94eec59fe7268bf6ba45d5cf"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-061.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "311d6ed7029c3d6d3b5f6490420afe98780dd3cbbc0d291ff22005824b59c067"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-062.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "6b622a0c67c2d75a191340727daffa44c471a65058154d422c5299851df004fa"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-063.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "82568e9a6a4991c63a27f0e6c8a2f5d7e6c23e806839a4e43a3243bc15b8502e"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-064.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "419c02b06b22410a4d345486d727b26bbc4d6d694ef8badaa076f7b8e1ed49b7"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-065.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 7.245640099122413e-15,
+      "sha256": "0b7d3c3550dbcd84bef36458351fae9f7e5912a030804b215da8fe6b8da3e4f4"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-066.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 7.245640099122413e-15,
+      "sha256": "7e5edd4c6228e0fcb5853baedac42360a9ac514c74249af54e95d6e15829a8ad"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-067.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 7.970204109034648e-15,
+      "sha256": "2c6d86e098a9188a38cd830baed3d3c7bcfe047ea7b2ea46fd8d29d4b1a19e93"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-068.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 7.245640099122413e-15,
+      "sha256": "2eae69cb92ab7d14369fc0e7ca2885723a319c668939e1f322e49b6fdb283561"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-069.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 7.245640099122413e-15,
+      "sha256": "bbe2e703356dfc154f635a27fdca155b17aaf7281af5d53a2057493f08914114"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-070.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 7.245640099122413e-15,
+      "sha256": "a513a908f478afbcaffb1fe4a892e84928dc66eee16acb6b8d55e497eeb9940e"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-071.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 7.970204109034648e-15,
+      "sha256": "403454306a6066497e7c759825a9ff39f8032150ba6a4af93942c27e133e5bd9"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-072.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 7.245640099122413e-15,
+      "sha256": "c7c23c8bede3e10d5069abb2eabed293548dfdaccdca307552439df2635348d1"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-073.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 4.650200528744194e-15,
+      "sha256": "a9afd802232e771f6ee95e542390dff16a3f2aedc4a7a44e58427647f83e17da"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-074.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 4.650200528744194e-15,
+      "sha256": "fd5a812732b944aab9711cf8b7bba91606c05826cc25cfa991c6c08824534a42"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-075.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 4.923741736317381e-15,
+      "sha256": "49cc01d573d46c1c8011164783d01f3257a4be927bc6b93ce308f520831bebcb"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ROHR-076.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 4.650200528744194e-15,
+      "sha256": "9b652dcf06f4ba49800102ad42e650f8871872374543c0b5e4f88e789e167892"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ZWISCHENLAGE.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 9.582563380016573e-15,
+      "sha256": "12a9adcd0052dacb0b54059d833857c180d736f29214be2af3bd69d9768e4411"
+    },
+    {
+      "file": "STEP_Sonderteile/CFK-ZWISCHENLAGE_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 9.582563380016573e-15,
+      "sha256": "548d81e4dfc95d20299e746bc721ea13662c9c0fe7b62239d74fe93f41519b3f"
+    },
+    {
+      "file": "STEP_Sonderteile/P12-001.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "58bc1ef08b771b92c42f0406a3bd9fc8577e7571c3405d10862fd58675b8e6ac"
+    },
+    {
+      "file": "STEP_Sonderteile/P12-001_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "147bc1ad783ac6df9382b98e7156e8d367e136278760e2a7b86c14f7dedb13b2"
+    },
+    {
+      "file": "STEP_Sonderteile/P12-002.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "7b17a483972e636aeb26287737f64fb929c234d1c3b3139edbb4c57ac4cb9b76"
+    },
+    {
+      "file": "STEP_Sonderteile/P12-002_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.289588816103979e-16,
+      "sha256": "ab3d276f9d3a7ee8453c9dc63040220b7f6163fc1dc207c21537bb4c2657d14f"
+    },
+    {
+      "file": "STEP_Sonderteile/P12-003.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 4.468522866388468e-13,
+      "sha256": "2f2bb0681b4e23558b36ed50b534382387b687f62b27a0d79c40218553efe3db"
+    },
+    {
+      "file": "STEP_Sonderteile/P12-003_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 4.471789330472085e-13,
+      "sha256": "4bcf1668fffcf21be6b9a7668037e6eaa3ff6b1ca3aea2cc6423ec2e7a72b5ad"
+    },
+    {
+      "file": "STEP_Sonderteile/P12-004.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "669b58b3b1ed5787f190f9dcc38de74f743b119fe376c2cb7d59c8f83ca2908c"
+    },
+    {
+      "file": "STEP_Sonderteile/P12-004_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.6518098800437138e-16,
+      "sha256": "8a87b5e07e76618b7cccc82f312afea396b743be429b9475db352d0e2c64fb50"
+    },
+    {
+      "file": "STEP_Sonderteile/P12-011.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "4093d59f9759ca5eb9c362c9501822cd78af730174f15388aa58771dcf71a0da"
+    },
+    {
+      "file": "STEP_Sonderteile/P12-011_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "7e8bda6f2d36e0d89c014374f39090d0065b29b95477c9dd881385f4377e66a7"
+    },
+    {
+      "file": "STEP_Sonderteile/P12-012.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 3.218751847876687e-14,
+      "sha256": "3604fa82503007df43677c5ca5ff205308029534adfc25db4c8387ba4b79eda7"
+    },
+    {
+      "file": "STEP_Sonderteile/P12-013.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "7851ab052052daae471b1bc0a6b474731af9f337ab3e056722de1d8ee9a537c3"
+    },
+    {
+      "file": "STEP_Sonderteile/P12-015.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 3.135151797513701e-13,
+      "sha256": "7cdd3294a8246337822d80230a16d9854a135e79d6434b5b0dd6c7426aecf21e"
+    },
+    {
+      "file": "STEP_Sonderteile/P12-015_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 3.1298648636224473e-13,
+      "sha256": "6637fedf7b6b67f82fc2197f45192875a56af8cb825d1c0ecea379ada218b5c9"
+    },
+    {
+      "file": "STEP_Sonderteile/P12-016.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "244855d7937ebe41bb8f6d87838f11d9eac0f82c80f41177697f97d2211b6eb0"
+    },
+    {
+      "file": "STEP_Sonderteile/P12-016_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.3264316538580953e-16,
+      "sha256": "c7926a599ef584da429376c13bccbd3801ed34abf29ed7dd33318d22815447a8"
+    },
+    {
+      "file": "STEP_Sonderteile/P12-017.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "fa1870964c468e4bceda1d05dad7fd622a44fd8961756c19e2a34a1bab6dcbf8"
+    },
+    {
+      "file": "STEP_Sonderteile/P12-017_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "8336c9eeb74fd123a92803f25d47aaaf3025fe1269f355378db1e90a4b52ed7e"
+    },
+    {
+      "file": "STEP_Sonderteile/P12-018.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "29430e4fa258b3aabab6059e4db07a8f96d5a823f848279c1e6502137972acc3"
+    },
+    {
+      "file": "STEP_Sonderteile/P12-018_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.4264109377148367e-16,
+      "sha256": "fe73ae234090f38d46a910c50dff176a6cd90dd03422e62134412e4d4c5a8665"
+    },
+    {
+      "file": "STEP_Sonderteile/P12-019.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "be59443f30fdf1b35c851d0013208b7cfaa5b194309ef67dadf5a17e12c52dbe"
+    },
+    {
+      "file": "STEP_Sonderteile/P12-019_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "ace9e92690bf0700666175edc608170d3a4a3374c2a9ff178259c7b756aeeea4"
+    },
+    {
+      "file": "STEP_Sonderteile/P12-020.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "da77258b08ba2ef700a318b8415fa605859dcd2983982c2dc83f2af6c4fe495d"
+    },
+    {
+      "file": "STEP_Sonderteile/P12-020_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "25fe0143aaefcdf755ad4983aa443092e934f8d450c31472737eede61d81c1d2"
+    },
+    {
+      "file": "STEP_Sonderteile/P12-022.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "45c52db13a6ce265d602cbb3c5867dc890bc8b1155c9f94b746c4a6909627a55"
+    },
+    {
+      "file": "STEP_Sonderteile/P12-022_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.1417876642851963e-16,
+      "sha256": "b54748466c889dc856f7943be680a1a40577b5d52f903654afb6d7640646d177"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-ACHS-SICHERUNGSBLECH.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 9.48503103564693e-14,
+      "sha256": "323f90740d05f7b8a2e7ea75184251454889af16f841cf1e248d4d9046e39521"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-ACHS-SICHERUNGSBLECH_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.319392137650887e-13,
+      "sha256": "8b58a28051aeab01be9789bcab08a272fde629405345ac8cdaf704b32efd650d"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-AKTOR-M20.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "eed108e25a2e93198de98d0d0f367c1fe31d9e75733bf4ec3abc872c8284d1f0"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-AKTOR-M20_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "075b6923f81229a658bb1ed7c107f57ccfbbf43a3816a406ef7306bf89b86ec9"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-AKTOR-MOTORTRAEGER-OBEN.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.6765413330352595e-14,
+      "sha256": "5d3249680dd2d0b12cd11ad88d468a108a36da9c55893685fc606e874bb1124f"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-AKTOR-MOTORTRAEGER-UNTEN_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 9.468851637731886e-14,
+      "sha256": "cb6e3a4287101cbb71d24aa2293f7e510bdf413f460d14460223723fbce7212f"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-AKTUATORGEHAEUSE.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.6251268592690768e-06,
+      "sha256": "3e29d92cff5afff654cd32fe2b493b13a61a796a93891eddad5282c9edf702e9"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-AKTUATORGEHAEUSE_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.1288707909674118e-05,
+      "sha256": "6fa930a97b1e9d19391cc4ab557729bcb3789cbeac86cf9ab5b019b8926ed3ec"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-AKTUATORWAGEN.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 5.410598126381658e-16,
+      "sha256": "450654a34d70378d5ebbc5528fa07f5cd6e390a6a940a7f94ebe01e6e453fa2c"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-AKTUATORWAGEN_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 3.607065417587772e-16,
+      "sha256": "60f85333639e80418bc9eda8a770fd9e17aa8a5beb010097302b83e9e44a5522"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-AUSSENLAGERTRAEGER.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 8.896554523704137e-07,
+      "sha256": "b8cb6d12980cf70385561cca84268919a1e06366d23f3e22795f95fadc4cd714"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-AUSSENLAGERTRAEGER_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 4.732653206709587e-06,
+      "sha256": "e830ca9cb00a96c3e4829b725928024f02608871682fbc06d4ba5ba0bfcc35a4"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-AUSSENRING.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0018179224647351536,
+      "sha256": "b03d363639f21a97ad2336eb26dc2045151bb90cb9e56d795534390fb6cadec9"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-AUSSENRING_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0007291972865529951,
+      "sha256": "4b6d88646993f54a01c97a97fd6fb09d9059fe37c91aa0ed6de51ca98b6c50b9"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-AUSSENZAPFEN.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "10547e35982a74d5dbd7b517ea210fa26a1e6e86478ca7ce2c7dcc46bd2ed73a"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-AUSSENZAPFEN_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.417872245107755e-16,
+      "sha256": "93e87fa103f5dc552b8ff558665eb9aef2da5b38f06c51ee1c4e9fc9e1b0b4c0"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-BUCHSE8-M4-L12.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "2a0368b31e4eb2f73a457b14a2dc686b404ea39c0b68c951580ffa45b6a8c972"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-BUCHSE8-M4-L12_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.2399823319545873e-16,
+      "sha256": "02e98edb26080ae92f4364cae9ae3d189f7348723e6cef0695f554f0a32967be"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-BUCHSE8-M4-L8.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "0d7d9ceca1935e948c5399aa24b220b5b9605b8417f8c84cb2de56adfabcd636"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK-HOLM_HINTEN.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 6.016762101015104e-14,
+      "sha256": "73b5f28191abb34d607fdd2e8c2be67003127e12c1caed17e51290f700417fbc"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK-HOLM_HINTEN_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 6.016762101015104e-14,
+      "sha256": "55348d47201941e0d5737784220bdbbf71df8518854eb5f503dbf37ff98cea66"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK-HOLM_VORN.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.3882663498979506e-14,
+      "sha256": "b14077a7e2e63ebd6d5edd7d42cb16ed4c2e926e8d8bb39d49a78e51906905e9"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK-HOLM_VORN_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 6.205410003153649e-14,
+      "sha256": "f98725096dcae45968825fde00480a3c240ba8e33ee9e69fd4836e02659150b6"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK-SCHALE_OBEN.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.7820854204795348e-13,
+      "sha256": "83f9fc347f566a87481ab8214a1ee2eab4cd8af62b79ec372811f5df32484445"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK-SCHALE_OBEN_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.8894423578032326e-13,
+      "sha256": "5af633424439245bfb615e0eefba55624516d5419fa6270c41e84d3140f55ce8"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK-SCHALE_UNTEN.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.9611534892576253e-13,
+      "sha256": "3e1a23324a9930435de6432a2cdb883174e2e4ec4241029eafaebdfe694da7a1"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK-SCHALE_UNTEN_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.865089100449416e-13,
+      "sha256": "35d7f06228bd7f8df45e2027aabeb5e564ebe63d9ba6f8b8b60bdf90492a23a0"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK-SPITZENBLOCK.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.2012501038760494e-08,
+      "sha256": "70c13d8961a90b7f797358f48a628ebadc3f1e00346a55ae9eb44eb2f23b8022"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK-SPITZENBLOCK_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.608202187479819e-08,
+      "sha256": "655a9e4e3a3a0a67a62d2083e795654b33e9eda0f3f42caa6cc5a0e1ddcea89f"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK-WURZELBLOCK.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 9.332304710556607e-14,
+      "sha256": "9ea928c7fdfbe16069e886987df4daf53a3cf41b003a37bdc187a70bb5383116"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK-WURZELBLOCK_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 8.199096281417591e-14,
+      "sha256": "9869c7cffa7dd83602175e2e206e145154887ca1806af0c826d42b7d28835709"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK30-STREBE-0--1.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 6.659588824490159e-14,
+      "sha256": "c8b8b39049e5000fbdf557a2d9403228c894eb186db040aaea2f3dfd504d48af"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK30-STREBE-0--1_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 6.444763378538863e-14,
+      "sha256": "0a588c39b447357ab018cf6f51e7acb16867b4ec311f934c122d58d89aa02881"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK30-STREBE-0-1.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 9.2068048264841e-16,
+      "sha256": "d582344e244b9d36c4698cb072e01215cdb953aaa2670ac2110da00e34309d3d"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK30-STREBE-0-1_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 5.5240828958904606e-15,
+      "sha256": "9148020fdc47787a71ea5e8cd0a89038d890f3a67f20e823506a16c40c6e55b5"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK30-STREBE-1--1.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 6.659588824490159e-14,
+      "sha256": "07a008a8bce70395851c104b569dad08717b06bcfd85f354f8cbad6112bba3ee"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK30-STREBE-1--1_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 6.444763378538863e-14,
+      "sha256": "66a1102b62b69b80b69fcd8afd97a4c5271d999737da159be02a9b681e540f72"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK30-STREBE-1-1.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 9.2068048264841e-16,
+      "sha256": "3d0e2cd6e1a93f787336c94e82ad014477528e07a092e24534a10bea0a9d85d9"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK30-STREBE-1-1_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 5.5240828958904606e-15,
+      "sha256": "2c440be51d238ce5483ee52cb73a17d2331becf0296808905352ad5be3fbfd98"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK30-STREBE-2--1.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 6.659588824490159e-14,
+      "sha256": "3828c99caaad27a0656d55896b6373bc92e019994b2a5f37b5107863c5a10f62"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK30-STREBE-2--1_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 6.444763378538863e-14,
+      "sha256": "615560a5e3fb65afc14576d02c5e4fa520f3f2174b907dc239ab77f73c2e1db4"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK30-STREBE-2-1.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 9.2068048264841e-16,
+      "sha256": "1ca1e92ffc69cd940077e7e46be9ec10495ab17c1960b0faebabb15e5a4d12c7"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK30-STREBE-2-1_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 5.5240828958904606e-15,
+      "sha256": "3bea24cc0590579fafdb99861c271f056d7883f966b4f7715cd3b14299e19295"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK30-STREBE-3--1.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 6.659588824490159e-14,
+      "sha256": "da57faf46482fe1d0c4394a3dffc367aee763f5cdc4bd9e4967597fb7262b64d"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK30-STREBE-3--1_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 6.444763378538863e-14,
+      "sha256": "8567b80755f4667b53154209bd4296160bb3e64ff65f7447d3669b796db282b7"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK30-STREBE-3-1.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 9.2068048264841e-16,
+      "sha256": "18b3cb72916fdda01ff4a128b3769529f9d849d52c9ff7dce164e03bbb6582c1"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK30-STREBE-3-1_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 5.5240828958904606e-15,
+      "sha256": "7869c476d2df5138ea1dd10603c226ddc88f65dd33c0f4565965ab91179bef39"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK30-STREBE-4--1.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 6.659588824490159e-14,
+      "sha256": "e0bedeb9cd5f8f3574c91614b899056a39a44526c50a27330475a5b3e27fe0fe"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK30-STREBE-4--1_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 6.444763378538863e-14,
+      "sha256": "254a69c51685090d43fc651ae8e591c42e83ccb7b511f68bc711fe50a4da86b9"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK30-STREBE-4-1.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 9.2068048264841e-16,
+      "sha256": "f65ec8b6903fb1caddcc93921fe455ea786fd40cfffa0198728a3eb5a539a065"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK30-STREBE-4-1_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 5.5240828958904606e-15,
+      "sha256": "7127f38768c2e71fe0b42922d6e35b04a143f3ebd245ece324077404468e5fee"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK30-STREBE-5--1.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 6.659588824490159e-14,
+      "sha256": "ae3bc70cba51e73f3e79f649dae7b09dbb4edb1c58bfd3cdc4515f0f020c14dc"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK30-STREBE-5--1_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 6.444763378538863e-14,
+      "sha256": "2753f24d3fd13c2be5728c1418de716c4c2aa4e90b1da3c8d6e7ab4cd5b8ece2"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK30-STREBE-5-1.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 9.2068048264841e-16,
+      "sha256": "b5ae45406aac950c3db8c180f8a10d54496af6823aa20b5dc678b972ee46abf9"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK30-STREBE-5-1_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 5.5240828958904606e-15,
+      "sha256": "f09fe531728f5fcb80cca019f5e903b36f0bf3d97b936f1824846e96d8e7244c"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK30-STREBE-6--1.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 6.659588824490159e-14,
+      "sha256": "d7c9a8cbc68ff6d1b47582081f03f2be45d622e1f8e1fe3c4d2f71fb52f8a7f4"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK30-STREBE-6--1_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 6.444763378538863e-14,
+      "sha256": "07b5ae6aa89eb862ecda48b33ee4f135b9e3e8f22f20c36c972db45deffca211"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK30-STREBE-6-1.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 9.2068048264841e-16,
+      "sha256": "ac24dfc8f9457937f626dcba6f7722a2e60daf37d3803d63e141a0b89f3fd1d5"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK30-STREBE-6-1_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 5.5240828958904606e-15,
+      "sha256": "86e391d99157bdbd6dfb98968f6fb33181c2f0b279aa930f8a6366997323133a"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK30-STREBE-7--1.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 6.659588824490159e-14,
+      "sha256": "964d3e6743d5f0962eecd20196f767de61032fc877783279b1ff8b37cc3133cc"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK30-STREBE-7--1_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 6.444763378538863e-14,
+      "sha256": "4addfa813306ce792b419376be38fffb226ced3498c890ce588d3412aa74905c"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK30-STREBE-7-1.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 9.2068048264841e-16,
+      "sha256": "eb4b8a0535910407bf0711d8d864ce797719bbe63a45b2693c36c4d3e7a17cc0"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-CFK30-STREBE-7-1_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 5.5240828958904606e-15,
+      "sha256": "703d224eb4f79c4a7b79a3c6f8a5906005bdc2263f8f2488775d8aa317019df2"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-DECK-DRUCKHUELSE.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "f218e9e7463fe9dbccabc89fd556d4c498e41323dbb270fced6c96f733cd09b5"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-DECK.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.656202271376096e-16,
+      "sha256": "be6c339b1a4e3ec9da11444bb35d4a2049a9dc13968f8a3225ec7683bf2e4164"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-DECKSTUETZE.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "a5a353f0d1d6d5e40810ec4828d208514cdf970422e2164162d511f377337bf2"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-DECKTRAEGER.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.0701289517483488e-16,
+      "sha256": "3604af462e95c5716fd152c4ce73d439e1bb161ee09c05573656f5489cb43094"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-DISTANZ-AUSSEN.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "efe6d647e10c3ca5ce792f68d8c9f89365469e8e6c1675b75c9bfe7796ce97d1"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-DISTANZ-AUSSEN_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 9.81359847478311e-16,
+      "sha256": "876ffaa1ff0b4b22938a286ab3b743de265c4717d6967e43be2d31b3015df4eb"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-DISTANZ-INNEN.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "7b5cb23ceda2fa3862c6e106f42523fd130a80f58ca9bf575aef7b4be893cdbd"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-DISTANZ-INNEN_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 4.890497578795564e-16,
+      "sha256": "b483b6cbf8ada6d0033cb5edc46f569fe87ad09ab8a2155c42b33719d09ffd13"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-FACHWERK-INSERT.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "a44d0c772862f4dd693f8806f28b0f8dcde940a0139067b972b4ceed91497cc4"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-FACHWERK-INSERT_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "583997de3c2f5ed5c86cd9b1d4fe36d354dd39873a2853babeee676f463d3088"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-FACHWERK-PYLON-MITNEHMER.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.3147539814623814e-14,
+      "sha256": "70d1365de3088182565e5bfd16c1242602c0d3a859041664d9ed28987f0a6d78"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-FACHWERK-PYLON-MITNEHMER_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.3271573209101397e-14,
+      "sha256": "c2bff774f2563cdcece2951a96f81d1ca803c4a2f0e23861d3f0f238f5b6509c"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-FACHWERK-PYLON.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "e95b1c4e49f8171514e13bd49d4a517a667f6ab3464e4b94823fd9c49acdab28"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-FACHWERK-PYLON_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.421623318625159e-16,
+      "sha256": "417b9ea97f660bc9fbf9edb17f34804ad90d920a8fe2792d1557cf2476e8a5c0"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-GE-DECKEL-OBEN.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "2e4ebaa08750b196ea8bc1f2aa606c66ccba06af8ecfd04e83bb004545066504"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-GE-DECKEL-OBEN_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 3.086407388223208e-16,
+      "sha256": "26946611a74c0d24076a02b3d249963d1c7a739af9f38cc18562d07c53eee82a"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-GE-DECKEL-UNTEN.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 7.51122181276341e-15,
+      "sha256": "7fa5fffa79145850085e135abb8abebcef21d19a8dcf57f034afca85913e1fe6"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-GE-DECKEL-UNTEN_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.9609083328214265e-13,
+      "sha256": "256df88c23822ea8cb1dd044d6425110eae444fb94f85c5342b7989e0613358f"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-GE-M60-OBEN.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "020bc9475665cdd002cbe65a4cff83473aa1be53e969dbf814972fdc8a36fd33"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-GE-M60-OBEN_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "34f49c5c7da40f69466062f9855ebbc0f2fde0748e6ce00103db78399c4f71d8"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-GE-M60-UNTEN.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "cacae62eeebd626f36d49175bd117c4b6e88a12e132991330987ffabe43ce277"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-GE-M60-UNTEN_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "94e9ef136ee41c574d30dbb87155162139403e2d981b4656a68af62f9cf7a5ed"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-GE20-DECKEL-OBEN.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "ead185563d773c0d8b696ee819925148b2af8dd2cee87c6214c9b136357e7bbe"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-GE20-DECKEL-OBEN_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.8450375698250018e-16,
+      "sha256": "a3308f4b9d424759e67311ef4558dc674662d5cca1bb5c4a8c2b8088cc7b4ca1"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-GE20-DECKEL-UNTEN.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.0664420782040032e-14,
+      "sha256": "d772a8f436ae090b3a889b763ac628b06b9aeaa037cbc880af362f70267dab46"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-GE20-DECKEL-UNTEN_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.103342829600503e-14,
+      "sha256": "5b4bd5a7b5e310261c7b3d2436abe232f400d281e75bf5506be84e5e3f6e9ca2"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-GE60-AUSSENDISTANZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "91aadc19fde3e872cc916ea73f0db17b1498fd509bc8ef57cc0cabe4c1ba1489"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-GE60-AUSSENDISTANZ_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 5.956813889014432e-16,
+      "sha256": "e0bc8cdd37707ba586e57111d97f76d2019f66673262bfe89634901412f1e7d7"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-GELENKDISTANZ6-L1.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "a4ae63f9fc473d6340a321ee354c897874bc7b3a1ff6775e391290c6f04e6fcb"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-GELENKDISTANZ6-L1_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.7697400418506792e-16,
+      "sha256": "52c28e44b77363507f8e4b52447be386504028e5ffa6da8725a9118252691e8a"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-GELENKDISTANZ6-L2.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "17161cd210acc1fad60e842f4703af4cb529d853453da7145427ff3e7bfbfea7"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-GELENKDISTANZ6-L2_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.7697400418506792e-16,
+      "sha256": "cfa4f11cfb03115f14643bc80214b9142c869133913c48990faf6024e689a178"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-GELENKDISTANZ6-L3.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "873349619d40bfa04247b270013b6a86b78fc3af1100daaa926dbaa0024f2d8a"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-GELENKDISTANZ6-L3_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 5.899133472835598e-16,
+      "sha256": "a5d4e185f3f50ff10d94e60ca4a9c1895cef0f526a8fa09f81349fe7aba3e342"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-GELENKDISTANZ8-L3.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "adfdf680a6ecfec5988f12eb54a51cfda2a9285668a607aed6d440e8964f2118"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-GELENKDISTANZ8-L3_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 3.1429255146571723e-16,
+      "sha256": "2d4f352d48c903d4e57e0b1a0ed1ff4bf36591e0c6b21ef8778fa194a8decb84"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-GLEITHUELSE.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "e887e53d99d917be54c1e2dd6a2daf6f9335cfb2eb88dddb4b663f3beb62a675"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-GLEITHUELSE_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.7294324482712926e-16,
+      "sha256": "f7ae8e3590252476449763682bc9cc31978f9f9b51b502568535c7582cc41694"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-HEBEL-ANLAUF.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "47618b934379e8719e37acb6ecf8fc5d24efdfd1f46d57c4542ff127a66e0063"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-HEBEL-ANLAUF_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.854027712115043e-16,
+      "sha256": "5fc18de3c211a44a089743aaf5e988f18d79138f57bc54e9672f282a98e7c278"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-HEBEL-DISTANZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "5bf3fd18a9e0c041d6dcd9a9e2e062ff5beefe4b7bfdb0bac710d1b4956dd1b3"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-HEBEL-DISTANZ_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.2075302663692753e-16,
+      "sha256": "e0e19c9608cb36b0604c62f29c58e505e2e6475e300855f8b725e70ce4480034"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-HEBEL-ENDSCHEIBE.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "b7463d6be5b3e9fa7cf3a1e343b829e3f4bc03fb6ce0838a8d7c990eafa1eab4"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-HEBEL-ENDSCHEIBE_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "df0fe165b10e47e4ef218ea1689254e0110b3a0884c4820ab52f701d695e4af1"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-HUBANSCHLAG-B.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 3.0197339310029836e-08,
+      "sha256": "d5903aa3dbc3fed5da96c8f35a68d5fe8b163ad89f31a38ce5e426e6b5c56e9c"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-HUBANSCHLAG-B_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 3.017333645619289e-08,
+      "sha256": "276b88e5ee6ce16d23681aa2ad6c22e14a49806cf796bfac29156c0b5e35b170"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-HUBANSCHLAG-OBEN-B.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 3.0197312587019524e-08,
+      "sha256": "dfc197ad9044862328658ef8d30d93bf90d1f1ed873706be49dcf7f8812ff8c1"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-HUBANSCHLAG-OBEN-B_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 3.017370331057277e-08,
+      "sha256": "aae81e280c227f40b297408a5cb9980a824baffa57a5932eeffa397779494687"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-HUBANSCHLAG-OBEN.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.5735023214760395e-09,
+      "sha256": "436f7ff8bc7201c3f39801c7be0ee1ede1fff4ed77fda738c2b08765fb91fca4"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-HUBANSCHLAG-OBEN_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.590187209396672e-09,
+      "sha256": "57752caf8e767deaf4d65120bbf2bd4cc037b046b8ce2aa0c68261bfdd3962a9"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-HUBANSCHLAG.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.574073519637057e-09,
+      "sha256": "cfe0e2d7f3cc13957f26fa46e1ba62e7a6a080b7243c5ff08155266f686bcd3e"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-HUBANSCHLAG_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.5823282815183627e-09,
+      "sha256": "b951209f3d4830e0271274b8d7a3ac36d4d0e44e008ef9dee23b42632bdee4f8"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-INNENRING.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 6.775969400270614e-07,
+      "sha256": "b6d39d4f9981f76eb24d493b8ca2338b8ee6740602ed8efba585bb1482f1b357"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-INNENRING_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 5.7573739856236095e-06,
+      "sha256": "245972379beae4601854886c6c43b642b305cae15aacafba4d4e32df9ce97590"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-KUFENKLEMME-1.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.3277489213775724e-14,
+      "sha256": "b438740723686c549ef22a225bb10bcfc9279aa758be35bdd67353130986c74a"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-LANDEBEIN.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "327d28b7d9beb0a6cee0c71706e4826cfd697a3530e109b749ed645ed1ef47c2"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-LANDEKUFE.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "40b4f3d559b50549c463d4038e8ff030b1831a1c10aacf218bcdb0ef75611f42"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-PITCHGESTAENGE.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 8.207410286700715e-16,
+      "sha256": "a543bfcd42d31880b4ee2894471c0c7d068972c2909de0d2f2405f237861dcdd"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-PITCHGESTAENGE_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.7146009523262617e-13,
+      "sha256": "069bafccbb7722faead6f408f515014fe1308c584088a486775a4d9c9a0e4a1f"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-PITCHHEBEL.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 4.2016776315241744e-15,
+      "sha256": "36eb4b3b87cd0cadf8e58110bcffd17829fd128cc79ac3039efba708d447e145"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-PITCHHEBEL_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 4.5836483252990995e-15,
+      "sha256": "e717eb37609c2f753b6f6482a7512cd1355e7ac8d8cce39f1a3fca02f660dfbb"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-PITCHWELLE.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.524735680532473e-15,
+      "sha256": "f28099a61d7eeb19fceaae81e4f130d79e44bef259c826b6181625534339cf50"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-PITCHWELLE_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.4427061031614132e-15,
+      "sha256": "8ad2bc0845fd4738a47ccf24ba0b02f39fb65bb3d6bfa1cd195e6e764593480a"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-SCHERENDISTANZ-12.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "bd043cddf4b23c219da1b372b7fef9e2edbc0d26bbf0a455b156efd451286cb4"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-SCHERENDISTANZ-12_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 5.899133472835598e-16,
+      "sha256": "639219c123e70008a43cef62d51f828c5863a701ff0f58cdc725e5a02e4a538c"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-SCHERENDISTANZ-2.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "d85479f2f6d131ab2639324e689f99c8bf4b26ed1cd54ec346b5eeb88941267e"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-SCHERENDISTANZ-2_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.7697400418506792e-16,
+      "sha256": "7053673191d2303e6e1b5bacedd5d3aa2abde202c5c6cf171a71cdfb6bc6feb3"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-SCHERENDISTANZ-4.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "81379d4441ec70bf31bd93ea635ea15de3758bfc718974e591b56f15bcfc137f"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-SCHERENDISTANZ-4_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.7697400418506792e-16,
+      "sha256": "42c8dc312cc6a7b4b83ecc7b148013a931b990188b9568bcfdcdfec916348fb8"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-SCHERENDISTANZ-6.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "74861f8b116d12ef1365ff52b7841c49cf699f182e8ee03e2ab2d8c380dd83d2"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-SCHERENDISTANZ-6_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 5.899133472835598e-16,
+      "sha256": "bbe76c8d9551c230645370cd847a93697b37a54e8d67f508a2b55c2d1c2a9609"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-SCHERENFESTPUNKT-B.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 5.8849446113540296e-08,
+      "sha256": "9700c42646fbf466b6530afd132fd8c009686a5d1c256da1aabe8d5141a8c7ea"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-SCHERENFESTPUNKT-B_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 6.154464032119686e-08,
+      "sha256": "7f150fda8ebcdb6f03c45d95693fd634b0ab39351bfffbf9b44592f1f9029e86"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-SCHERENFESTPUNKT.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.3240647208069123e-14,
+      "sha256": "56367e194f14ae9dee3a3b39df8dc19293c0434908065c1c756b6099f69b1b5f"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-SCHERENFESTPUNKT_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.353860422355719e-14,
+      "sha256": "92d8663758aeb885757ae28a1687f35e00a7ffa763c34d1283163f08086496da"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-SCHERENLASCHEN.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "1aaf770012de630dd9809ba5e1a8e0e3f52ed5d41dcc5cd572c7bd20471a0f2b"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-SCHERENLASCHEN_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.807614740232733e-16,
+      "sha256": "aff9d81e64a4b0db8a5b894c0f60e9b85df03b48e848f2f1192d292f88626b59"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-SERVO-DISTANZ2.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "ba9574b687d0248cb0ad20b95291fb695ff815ac921e3f927dcb8a34e0af50ff"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-SERVO-DISTANZ2_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "35c8077d6f2fad4998c0512f9773aa8e0835e9815ac0cc5f72d46815c78f4253"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-SPEICHE-CFK.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "4e5832a8e11cca40bbc0ddfcdecc9c63d10fa7b9478eda9ac80f5317fc178586"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-SPEICHE-CFK_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 6.025977793082417e-16,
+      "sha256": "f51c998a452f90964135a6ffdc81dd0564ecb84845ab568d23c18bfddbe61148"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-SPEICHENWURZEL.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.4824039728929262e-14,
+      "sha256": "a57f0a1227d03f3446c3ba5c20f5c637354ba44f7db79a63c50fa33c8d601c37"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-SPEICHENWURZEL_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 1.6111756554833895e-14,
+      "sha256": "1265f41a1e1606f46cccee46a5258a23687f9886814d6e4dfe2950c5efca5ad9"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-SPITZENEINSATZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "8800b5e6d02ea3a60f04861f143af79af3dc1dcbab78b04b9c5aee0687ef7dce"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-SPITZENEINSATZ_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "496b79a4103465ffdbd03d9078cdf4c692e35cac8c747ccbee7f3a3249f4c323"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-TAUMEL-AUSSEN.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.2062252299552854e-13,
+      "sha256": "b7ec41571134f57cbffeb48db2b49e32e6e3bc525f3ae461b15e90191c50bab3"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-TAUMEL-AUSSENDECKEL.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.262770769386678e-16,
+      "sha256": "8623ac9eaef871f0a6cff0283ac5f46e064201711b109c7e73daf1cdd12d0802"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-TAUMEL-AUSSENDECKEL_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 4.525541538773356e-16,
+      "sha256": "905a2a0df52c4b924bb4876636184ec32d814ea2a0fa7ba8d5ab1aa7bd791e1e"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-TAUMEL-AUSSEN_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.3704094331147483e-13,
+      "sha256": "036cb5125971cc6d8ea721b179db6db8ed3847035f8920e451bae8cf3ae71b10"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-TAUMEL-INNEN.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 8.849688757936452e-14,
+      "sha256": "09b30a8c3329323432dcc8dc5bd74e538844399ac4dbd03e45bc5494d2817669"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-TAUMEL-INNEN_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 7.284437685104154e-14,
+      "sha256": "fc0374fd4bc9114540f2792f90b7c09000b6c2e9b8c016450d326c5a4203e737"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-TAUMEL-M100.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "e1793c479f25cb99706a70f8d197c554bbd2788eee4e1473164d4a8a5c5cc33f"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-TAUMEL-M100_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "6661d582cd4a1f9410c0c393efcf44506681e197c5419828694705a7408feacc"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-WURZEL-ENDSCHEIBE.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "609c42ec10badccbb9a3cee049c06e0770ce2d6521fb7fb8dd04fe55795f16b1"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-WURZEL-ENDSCHEIBE_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "b8942ee5127717da2225b5652ac3896c8e3b332e454310bf6ce590388357bb4f"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-WURZELDECKEL.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "f2a0cbd3d69d1954db0860920ecd69ab4ec1756b6a14f55a5cceb80e49fc7a31"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-WURZELDECKEL_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.780243114302604e-16,
+      "sha256": "060e93c15541c0045d4862556b7ead9c4176ef575f73155dc4e63337cd1d85b5"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-WURZELEINSATZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 8.105784627767417e-16,
+      "sha256": "7f9f6eb93b10b0dad22d75e4d1e44eef4a4d0575baf69389d2aa3b3939316069"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-WURZELEINSATZ_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 5.403856418511611e-16,
+      "sha256": "9774997170da329b8dc099ca99bea5592ddc0060aa53fef0efffbb457d362574"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-WURZELGEHAEUSE.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 0.0,
+      "sha256": "0e6cd683e97deab46fe6c2ff9b2f283ebb23e2cc0fc13c9a3960fa42c0363c1b"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-WURZELGEHAEUSE_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.434407475309007e-16,
+      "sha256": "43d8b9c70ca411ba5da0147d7fee05fbef65db1b6eaf7fb4a7894775e6c3c115"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-ZENTRALPLATTE-OBEN.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 2.1901807124402693e-15,
+      "sha256": "820c9e4eb68f1956fdea413d41949026c76d4b1ed7729c7d464525332940f1da"
+    },
+    {
+      "file": "STEP_Sonderteile/P13-ZENTRALPLATTE-UNTEN_MZ.step",
+      "solids": 1,
+      "valid": true,
+      "volume_relative_error": 4.693244383800578e-16,
+      "sha256": "a20fcec139f3a64cc1002aef5d55e32433ee728b76b25d483c8895587ed091ad"
+    }
+  ]
+}

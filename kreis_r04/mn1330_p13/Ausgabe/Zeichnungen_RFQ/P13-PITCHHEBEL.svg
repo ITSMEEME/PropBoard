@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297">
+<rect width="420" height="297" fill="white"/><style>text{font-family:DejaVu Sans,sans-serif;fill:#142c3d}path,line,circle,ellipse{vector-effect:non-scaling-stroke}</style>
+<rect x="8" y="8" width="404" height="281" fill="none" stroke="#223b4b" stroke-width=".3"/>
+<text x="14" y="19" font-size="6">P13-PITCHHEBEL · Pitchhebel</text>
+<text x="14" y="27" font-size="3.5" fill="#a13e26">ANFRAGEZEICHNUNG · Nenngeometrie · keine Fertigungsfreigabe</text>
+<text x="76" y="39" text-anchor="middle" font-size="4">Draufsicht</text>
+<g transform="translate(76,96) scale(2.380952380952381)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M -3 -21 L 3 -21 " />
+<path id= "2" d=" M -3 21 L 3 21 " />
+</g>
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M -3 -1.83485 L -3 8.25544 " />
+<path id= "2" d=" M -3 -1.83485 L 3 -1.83485 " />
+<path id= "3" d=" M 3 -1.83485 L 3 8.25544 " />
+<path id= "4" d=" M -3 8.25544 L 3 8.25544 " />
+<path d="M-3, -1.83485 Q-3, -2.01597 -3, -2.1971  Q-3, -2.40838 -3, -2.61967  Q-3, -2.85967 -3, -3.09967  Q-3, -3.36674 -3, -3.63381  Q-3, -3.92613 -3, -4.21844  Q-3, -4.53398 -3, -4.84953  Q-3, -5.18615 -3, -5.52277  Q-3, -5.87816 -3, -6.23355  Q-3, -6.60527 -3, -6.97699  Q-3, -7.3625 -3, -7.748  Q-3, -8.14465 -3, -8.5413  Q-3, -8.94637 -3, -9.35145  Q-3, -10.1713 -3, -11 " /><path d="M-3, 14 Q-3, 13.5185 -3, 13.0405  Q-3, 12.5645 -3, 12.0991  Q-3, 11.8699 -3, 11.6407  Q-3, 11.4171 -3, 11.1936  Q-3, 10.9766 -3, 10.7596  Q-3, 10.5503 -3, 10.341  Q-3, 10.1404 -3, 9.93969  Q-3, 9.74862 -3, 9.55755  Q-3, 9.37698 -3, 9.19641  Q-3, 9.02718 -3, 8.85796  Q-3, 8.70088 -3, 8.54381  Q-3, 8.39962 -3, 8.25544 " /><path d="M-3, 21 L-3, 20.956  L-3, 20.8245  L-3, 20.6072  L-3, 20.3068  L-3, 19.9271  L-3, 19.4728  L-3, 18.9497  L-3, 18.3644  L-3, 17.7242  L-3, 17.0372  L-3, 16.312  L-3, 15.5576  L-3, 14.7838  L-3, 14 " /><path d="M-3, -11 L-3, -12.1196  L-3, -13.2252  L-3, -14.3028  L-3, -15.3388  L-3, -16.3203  L-3, -17.2349  L-3, -18.0711  L-3, -18.8183  L-3, -19.4672  L-3, -20.0097  L-3, -20.4388  L-3, -20.7493  L-3, -20.9371  L-3, -21 " /><path d="M3, -1.83485 Q3, -2.01597 3, -2.1971  Q3, -2.40838 3, -2.61967  Q3, -2.85967 3, -3.09967  Q3, -3.36674 3, -3.63381  Q3, -3.92613 3, -4.21844  Q3, -4.53398 3, -4.84953  Q3, -5.18615 3, -5.52277  Q3, -5.87816 3, -6.23355  Q3, -6.60527 3, -6.97699  Q3, -7.3625 3, -7.748  Q3, -8.14465 3, -8.5413  Q3, -8.94637 3, -9.35145  Q3, -10.1713 3, -11 " /><path d="M3, -11 L3, -12.1196  L3, -13.2252  L3, -14.3028  L3, -15.3388  L3, -16.3203  L3, -17.2349  L3, -18.0711  L3, -18.8183  L3, -19.4672  L3, -20.0097  L3, -20.4388  L3, -20.7493  L3, -20.9371  L3, -21 " /><path d="M3, 21 L3, 20.956  L3, 20.8245  L3, 20.6072  L3, 20.3068  L3, 19.9271  L3, 19.4728  L3, 18.9497  L3, 18.3644  L3, 17.7242  L3, 17.0372  L3, 16.312  L3, 15.5576  L3, 14.7838  L3, 14 " /><path d="M3, 14 Q3, 13.5185 3, 13.0405  Q3, 12.5645 3, 12.0991  Q3, 11.8699 3, 11.6407  Q3, 11.4171 3, 11.1936  Q3, 10.9766 3, 10.7596  Q3, 10.5503 3, 10.341  Q3, 10.1404 3, 9.93969  Q3, 9.74862 3, 9.55755  Q3, 9.37698 3, 9.19641  Q3, 9.02718 3, 8.85796  Q3, 8.70088 3, 8.54381  Q3, 8.39962 3, 8.25544 " /></g>
+</g>
+<text x="76" y="157" text-anchor="middle" font-size="3.5">Hülle 6.000 × 42.000 mm · Maßstab 2.38:1</text>
+<text x="210" y="39" text-anchor="middle" font-size="4">Vorderansicht</text>
+<g transform="translate(210,96) scale(4)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 10 -3 L 10 3 " />
+<path id= "2" d=" M -10 -3 L -10 3 " />
+</g>
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path d="M-10, -3 L-9.74928, -3  L-9.00969, -3  L-7.81831, -3  L-6.2349, -3  L-4.33884, -3  L-2.22521, -3  L-4.44089e-16, -3  L2.22521, -3  L4.33884, -3  L6.2349, -3  L7.81831, -3  L9.00969, -3  L9.74928, -3  L10, -3 " /><path d="M-10, 3 L-9.74928, 3  L-9.00969, 3  L-7.81831, 3  L-6.2349, 3  L-4.33884, 3  L-2.22521, 3  L-4.44089e-16, 3  L2.22521, 3  L4.33884, 3  L6.2349, 3  L7.81831, 3  L9.00969, 3  L9.74928, 3  L10, 3 " /></g>
+</g>
+<text x="210" y="157" text-anchor="middle" font-size="3.5">Hülle 6.000 × 20.000 mm · Maßstab 4:1</text>
+<text x="344" y="39" text-anchor="middle" font-size="4">Seitenansicht</text>
+<g transform="translate(344,96) scale(2.6666666666666665)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 4 1.83485 L 4 -8.25544 " />
+<path id= "2" d=" M -4 1.83485 L -4 -8.25544 " />
+<path id= "3" d=" M 5.05 7.66833 L 5.05 14.3317 " />
+<path d="M3.1 -14 A3.1 3.1 0 0 1 -3.1 -14" /><path d="M-3.1 -14 A3.1 3.1 0 0 1 3.1 -14" /><path d="M4 1.83485 A10 10 0 0 1 10 11" /><path d="M10 11 A10 10 0 1 1 -4 1.83485" /><path d="M-4 -8.25544 A7 7 0 1 1 7 -14" /><path d="M7 -14 A7 7 0 0 1 4 -8.25544" /><path d="M4 6.461 A6.05 6.05 0 0 1 5.05 7.66833" /><path d="M-4 6.461 A6.05 6.05 0 0 1 4 6.461" /><path d="M5.05 14.3317 A6.05 6.05 0 1 1 -4 6.461" /></g>
+</g>
+<text x="344" y="157" text-anchor="middle" font-size="3.5">Hülle 42.000 × 20.000 mm · Maßstab 2.67:1</text>
+<text x="14" y="174" font-size="3.1">Menge: 16 · Werkstoff: EN AW-7075 T6</text>
+<text x="14" y="179" font-size="3.1">Verfahren: Fräsen/Bohren; geteilte Klemmstelle</text>
+<text x="14" y="184" font-size="3.1">Merkmale: Hebel25; WellenaufnahmeØ12.1; GelenkbolzenØ6; Klemmsicherung/Torsionsschluss separat bemessen</text>
+<text x="14" y="189" font-size="3.1">Offen: Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen</text>
+<text x="14" y="194" font-size="3.1">Unbemaßte Längen ISO2768-1m als Anfragebasis; Funktionspassungen separat nach ISO286.</text>
+<text x="14" y="199" font-size="3.1">Geometrische GPS-Toleranzen/Bezüge nach ISO22081 mit Fertiger abstimmen. STEP enthält Nennmaße.</text>
+<text x="14" y="204" font-size="3.1">Datum01.11.2026 · P13 · Herkunft/Normfamilie und Grenzen siehe Stückliste und Anfrageunterlagen.</text>
+</svg>

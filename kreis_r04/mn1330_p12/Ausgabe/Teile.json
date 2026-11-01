@@ -2013,5 +2013,70 @@
     "volume_mm3": 607.4330907620506,
     "valid": true,
     "solids": 1
+  },
+  {
+    "id": "REF-SCHRAUBE-M3-L8-K2.4",
+    "name": "Schraube M3×8 Entwurf",
+    "material": "Stahl, Festigkeitsklasse/Ausführung offen",
+    "process": "Kaufen; konkrete Norm-/Lieferantenauswahl offen",
+    "features": "M3×8; Kopf Ø5.5×3; SW2.5; symbolischer Gewindekern Ø2.4",
+    "open": "Entwurfsmaße; Gewinde nur Kernkontur mit Spiel; Länge, Vorspannung, Sicherung und Lieferteil bestätigen",
+    "reference": true,
+    "count": 48,
+    "volume_mm3": 99.34704253719372,
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "id": "REF-ACHS-MUTTER-M14",
+    "name": "Rollenachsenmutter Entwurf",
+    "material": "Stahl, Festigkeitsklasse/Ausführung offen",
+    "process": "Kaufen; konkrete Norm-/Lieferantenauswahl offen",
+    "features": "Bohrung Ø14.1; SW21; Höhe11.2; keine Sicherungsfunktion modelliert",
+    "open": "Entwurfsmaße; Gewinde nur Kernkontur mit Spiel; Länge, Vorspannung, Sicherung und Lieferteil bestätigen",
+    "reference": true,
+    "count": 6,
+    "volume_mm3": 2528.6485750835777,
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "id": "REF-SCHRAUBE-M4-L8-K3.2",
+    "name": "Schraube M4×8 Entwurf",
+    "material": "Stahl, Festigkeitsklasse/Ausführung offen",
+    "process": "Kaufen; konkrete Norm-/Lieferantenauswahl offen",
+    "features": "M4×8; Kopf Ø7×4; SW3; symbolischer Gewindekern Ø3.2",
+    "open": "Entwurfsmaße; Gewinde nur Kernkontur mit Spiel; Länge, Vorspannung, Sicherung und Lieferteil bestätigen",
+    "reference": true,
+    "count": 616,
+    "volume_mm3": 202.68940030329895,
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "id": "REF-SCHRAUBE-M4-L14-K3.2",
+    "name": "Schraube M4×14 Entwurf",
+    "material": "Stahl, Festigkeitsklasse/Ausführung offen",
+    "process": "Kaufen; konkrete Norm-/Lieferantenauswahl offen",
+    "features": "M4×14; Kopf Ø7×4; SW3; symbolischer Gewindekern Ø3.2",
+    "open": "Entwurfsmaße; Gewinde nur Kernkontur mit Spiel; Länge, Vorspannung, Sicherung und Lieferteil bestätigen",
+    "reference": true,
+    "count": 308,
+    "volume_mm3": 250.9442634624381,
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "id": "REF-SCHRAUBE-M5-L60-K4.1",
+    "name": "Schraube M5×60 Entwurf",
+    "material": "Stahl, Festigkeitsklasse/Ausführung offen",
+    "process": "Kaufen; konkrete Norm-/Lieferantenauswahl offen",
+    "features": "M5×60; Kopf Ø8.5×5; SW4; symbolischer Gewindekern Ø4.1",
+    "open": "Entwurfsmaße; Gewinde nur Kernkontur mit Spiel; Länge, Vorspannung, Sicherung und Lieferteil bestätigen",
+    "reference": true,
+    "count": 12,
+    "volume_mm3": 1041.2366579786164,
+    "valid": true,
+    "solids": 1
   }
 ]

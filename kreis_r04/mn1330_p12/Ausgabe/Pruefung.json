@@ -1,13 +1,13 @@
 {
   "revision": "P12_PARAMETRISCH",
   "manufacturing_release": false,
-  "parts": 735,
-  "types": 155,
+  "parts": 1725,
+  "types": 160,
   "all_single_solids_valid": true,
   "overlaps": [],
   "battery_excluded": true,
-  "parameter_hash": "8fde35a28f02e8630cb9b7a252700a82d0931d35a03e03432511059a9c2f0b4c",
-  "native_sha256": "35dd67d385a17b6c3f716d1a00147fb0805eb39fe10c5afe401ab006aef8b332",
+  "parameter_hash": "dd0d41051108c4d14950be993dd04a12daedf15c8a98888b6982956bf93a3b9b",
+  "native_sha256": "ad42a732c7ceeed8fb9db7eaae3aabc3d34c3bb98a69de933c19256349c4d703",
   "bounding_box_mm": {
     "x": 1790.0,
     "y": 1784.0998818344528,
@@ -18,6 +18,10 @@
   "limitations": [
     "Pitchmechanik und Rotor-Pitchlageranschluss bleiben offen",
     "Nur neutrale Geometrie, kein vollständiger Bewegungs-/Festigkeitsnachweis",
-    "Kaufteilabmessungen sind Referenzen, keine frei skalierbaren realen Produkte"
-  ]
+    "Kaufteilabmessungen sind Referenzen, keine frei skalierbaren realen Produkte",
+    "Befestigungen: eigene Entwurfsmaße; glatte Gewindekernkonturen unterschätzen Außendurchmesser und Masse"
+  ],
+  "geometry_complete": false,
+  "added_fastener_references": 990,
+  "geometry_status_document": "../GEOMETRIESTATUS.md"
 }

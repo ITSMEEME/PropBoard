@@ -1,9 +1,16 @@
 # PropBoard
 
-**Großausführung aktuell: P12 – parametrischer Direktantrieb mit CFK-Rohrrahmen.**
+**Mechanischer Ergänzungsstand: P13 – Anfrageentwurf mit Motoranschlüssen, Pitchlagerung, Taumelscheiben, Aktoren, CFK-Flügeln und Fahrwerk.**
+[Ergebnis: 32 offene Überschneidungen](kreis_r04/mn1330_p13/ERGEBNIS.md) ·
+[Entwurf und Prüfgrenzen](kreis_r04/mn1330_p13/README.md) ·
+[Offene Freigabepunkte](kreis_r04/mn1330_p13/FREIGABESTATUS.md).
+P13 ist nicht bestell- oder flugfreigegeben; Masse und Bauraum überschreiten bisherige Ziele.
+
+**Parametrische Vergleichsbasis: P12 – Direktantrieb mit CFK-Rohrrahmen.**
 [Parametrisches CAD und Bedienung](kreis_r04/mn1330_p12/README.md) ·
 [CFK-Rahmen CBU20171005TG](kreis_r04/mn1330_p12/CFK_RAHMEN.md) ·
 [Aktuelle CAD-Ansicht](kreis_r04/mn1330_p12/Ausgabe/Zwischenstand_P12_Perspektive.png).
+[Geometrieergänzungen und offene Baugruppen](kreis_r04/mn1330_p12/GEOMETRIESTATUS.md).
 P12 ist ein Fertigungsentwurf mit offenen Last-/Klemm- und Pitchmechaniknachweisen.
 
 **Kleines Referenzmodell: P11 – Direktantrieb 1:1 mit kugelgelagerten Führungsrollen.**

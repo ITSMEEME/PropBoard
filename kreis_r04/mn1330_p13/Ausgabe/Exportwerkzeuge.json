@@ -1,0 +1,8 @@
+{
+  "native_sha256": "b515b3350f9fdfe926dde79f6f21dd22c9e83f5de3d2e4e35027a489ad2aeec5",
+  "post_build_tool_updates": {
+    "gesamt_step.py": "ebdd605eb4e268efd6fd4ab393b869e1acd0629eca705795f804fc2d32efb97c",
+    "paket_erstellen.py": "abdd1b5c21a1791e4071f780661282d9f61a9b803a0dd916213263df02f864dc"
+  },
+  "note": "Nur Export-/Paketwerkzeuge nach CAD-Aufbau geändert; geometrische Konstruktionsquellen unverändert. Gesamtexport bei fehlgeschlagener Prüfung ausgeschlossen."
+}

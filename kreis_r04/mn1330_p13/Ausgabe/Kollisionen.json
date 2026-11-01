@@ -1,0 +1,162 @@
+[
+  {
+    "a": "Oben_Taumelring",
+    "b": "Oben_Taumeltraeger",
+    "volume_mm3": 359.9999999999981
+  },
+  {
+    "a": "Oben_Taumelring",
+    "b": "Oben_StationaerSchere1_5",
+    "volume_mm3": 110.5298625316428
+  },
+  {
+    "a": "Oben_Taumelring",
+    "b": "Oben_StationaerSchere1_1_Sicherungsring",
+    "volume_mm3": 4.421268161328295
+  },
+  {
+    "a": "Oben_Taumelring",
+    "b": "Oben_StationaerSchere1_1_Aussenring",
+    "volume_mm3": 11.750673258021957
+  },
+  {
+    "a": "Oben_Taumelring",
+    "b": "Oben_Fachwerk2_Pylon",
+    "volume_mm3": 1.10087346199564
+  },
+  {
+    "a": "Unten_Taumelring",
+    "b": "Unten_Taumeltraeger",
+    "volume_mm3": 359.99999999999847
+  },
+  {
+    "a": "Unten_Taumelring",
+    "b": "Unten_StationaerSchere1_5",
+    "volume_mm3": 110.52986253164401
+  },
+  {
+    "a": "Unten_Taumelring",
+    "b": "Unten_StationaerSchere1_1_Sicherungsring",
+    "volume_mm3": 4.421268161328329
+  },
+  {
+    "a": "Unten_Taumelring",
+    "b": "Unten_StationaerSchere1_1_Aussenring",
+    "volume_mm3": 11.750673258022097
+  },
+  {
+    "a": "Unten_Taumelring",
+    "b": "Unten_Fachwerk2_Pylon",
+    "volume_mm3": 1.1008734619957012
+  },
+  {
+    "a": "Oben_Fachwerk3_Pylon",
+    "b": "Oben_RotorScherenpin1_Bolzen",
+    "volume_mm3": 274.72139982193505
+  },
+  {
+    "a": "Oben_Fachwerk3_Pylon",
+    "b": "Oben_RotorScherenpin2_Bolzen",
+    "volume_mm3": 222.9585004018273
+  },
+  {
+    "a": "Oben_Fachwerk3_Pylon",
+    "b": "Oben_RotorScherenpin2_Distanzscheibe",
+    "volume_mm3": 68.31873101941326
+  },
+  {
+    "a": "Oben_Fachwerk3_Pylon",
+    "b": "Oben_RotorScherenpin1_ScheibeKopf",
+    "volume_mm3": 70.06529662767971
+  },
+  {
+    "a": "Oben_Fachwerk3_Pylon",
+    "b": "Oben_RotorScherenpin2_Splint",
+    "volume_mm3": 8.157377821432371
+  },
+  {
+    "a": "Oben_Fachwerk3_Pylon",
+    "b": "Oben_RotorScherenpin2_ScheibeSplint",
+    "volume_mm3": 66.32478181728925
+  },
+  {
+    "a": "Oben_Fachwerk3_Pylon",
+    "b": "Oben_Fachwerk2_Pylon",
+    "volume_mm3": 321.8800105801414
+  },
+  {
+    "a": "Oben_Fachwerk3_Pylon",
+    "b": "Oben_RotorScherenpin1_Distanz2",
+    "volume_mm3": 40.14988191075177
+  },
+  {
+    "a": "Oben_Fachwerk3_Pylon",
+    "b": "Oben_RotorScherenpin2_Distanz1",
+    "volume_mm3": 0.49217024257419084
+  },
+  {
+    "a": "Unten_Fachwerk3_Pylon",
+    "b": "Unten_RotorScherenpin1_Bolzen",
+    "volume_mm3": 274.72139943718247
+  },
+  {
+    "a": "Unten_Fachwerk3_Pylon",
+    "b": "Unten_RotorScherenpin2_Bolzen",
+    "volume_mm3": 222.95850051261618
+  },
+  {
+    "a": "Unten_Fachwerk3_Pylon",
+    "b": "Unten_RotorScherenpin2_Distanzscheibe",
+    "volume_mm3": 68.31873101941325
+  },
+  {
+    "a": "Unten_Fachwerk3_Pylon",
+    "b": "Unten_RotorScherenpin1_ScheibeKopf",
+    "volume_mm3": 70.06529662767987
+  },
+  {
+    "a": "Unten_Fachwerk3_Pylon",
+    "b": "Unten_RotorScherenpin2_Splint",
+    "volume_mm3": 8.15737782143238
+  },
+  {
+    "a": "Unten_Fachwerk3_Pylon",
+    "b": "Unten_RotorScherenpin2_ScheibeSplint",
+    "volume_mm3": 66.32478181728902
+  },
+  {
+    "a": "Unten_Fachwerk3_Pylon",
+    "b": "Unten_Fachwerk2_Pylon",
+    "volume_mm3": 321.8800105803125
+  },
+  {
+    "a": "Unten_Fachwerk3_Pylon",
+    "b": "Unten_RotorScherenpin1_Distanz2",
+    "volume_mm3": 40.14988191755722
+  },
+  {
+    "a": "Unten_Fachwerk3_Pylon",
+    "b": "Unten_RotorScherenpin2_Distanz1",
+    "volume_mm3": 0.49217024257427433
+  },
+  {
+    "a": "Unten_RotorScherenpin1_Bolzen",
+    "b": "Unten_Fachwerk2_Pylon",
+    "volume_mm3": 1.2382320656357628
+  },
+  {
+    "a": "Oben_RotorScherenpin1_Bolzen",
+    "b": "Oben_Fachwerk2_Pylon",
+    "volume_mm3": 1.2382320656368004
+  },
+  {
+    "a": "Oben_Fachwerk2_Pylon",
+    "b": "Oben_RotorSchere1_5",
+    "volume_mm3": 109.97039388265904
+  },
+  {
+    "a": "Unten_Fachwerk2_Pylon",
+    "b": "Unten_RotorSchere1_5",
+    "volume_mm3": 109.97039388265384
+  }
+]

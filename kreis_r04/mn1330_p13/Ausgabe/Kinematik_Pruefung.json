@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "link_states": 6912,
+  "pitch_min_deg": 0.07100140710504393,
+  "pitch_max_deg": 19.50576797195687,
+  "pitch_link_centres_mm": 53.382043143117976,
+  "actuator_stroke_range_mm": [
+    -5.143370763305086,
+    3.1483035552218723
+  ],
+  "actuator_available_stroke_mm": 12,
+  "maximum_actuator_gimbal_deg": 0.37659107124038593,
+  "maximum_antirotation_pin_x_mm": 0.08526922959826441,
+  "slot_radial_clearance_mm": 0.2,
+  "scissor_endpoint_distance_range_mm": {
+    "stationary": [
+      33.806854628526885,
+      39.881598606296535
+    ],
+    "rotating": [
+      28.46140884886475,
+      32.77511922469053
+    ]
+  },
+  "scissor_scope": "Dreiecksreichweite2×30mm; keine Freigabe der Gelenklager-Kippwinkel oder Bewegungskollision",
+  "maximum_joint_closure_error_mm": 2.2748467065386707e-14,
+  "scope": "Starrkörper-Gelenkschluss im vorgegebenen Stellraum; keine vollständige BRep-Bewegungskollision, Elastik, Dynamik oder Flugfreigabe"
+}

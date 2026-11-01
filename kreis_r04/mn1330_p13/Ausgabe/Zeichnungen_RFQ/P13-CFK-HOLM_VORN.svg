@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297">
+<rect width="420" height="297" fill="white"/><style>text{font-family:DejaVu Sans,sans-serif;fill:#142c3d}path,line,circle,ellipse{vector-effect:non-scaling-stroke}</style>
+<rect x="8" y="8" width="404" height="281" fill="none" stroke="#223b4b" stroke-width=".3"/>
+<text x="14" y="19" font-size="6">P13-CFK-HOLM_VORN · CFK-Flügel HOLM_VORN</text>
+<text x="14" y="27" font-size="3.5" fill="#a13e26">ANFRAGEZEICHNUNG · Nenngeometrie · keine Fertigungsfreigabe</text>
+<text x="76" y="39" text-anchor="middle" font-size="4">Draufsicht</text>
+<g transform="translate(76,96) scale(0.22134387351778656)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M -245 0.202561 L -245 -1.29744 " />
+<path id= "2" d=" M -245 0.202561 L -253 0.202561 " />
+<path id= "3" d=" M -253 -1.29744 L -253 0.202561 " />
+<path id= "4" d=" M -245 -1.29744 L -253 -1.29744 " />
+<path d="M-245, 0.202561 L-205, 0.202561 " /><path d="M-245, -1.29744 L-205, -1.29744 " /><path id= "7" d=" M -205 0.202561 L -205 -1.29744 " />
+<path id= "8" d=" M 175 -1.29744 L -205 -1.29744 " />
+<path d="M175, -1.29744 L215, -1.29744 " /><path id= "10" d=" M 175 0.202561 L -205 0.202561 " />
+<path d="M175, 0.202561 L215, 0.202561 " /><path id= "12" d=" M 175 0.202561 L 175 -1.29744 " />
+<path d="M215, -1.29744 L215, 0.202561 " /></g>
+</g>
+<text x="76" y="157" text-anchor="middle" font-size="3.5">Hülle 506.000 × 4.262 mm · Maßstab 0.221:1</text>
+<text x="210" y="39" text-anchor="middle" font-size="4">Vorderansicht</text>
+<g transform="translate(210,96) scale(0.22134387351778656)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M -12.9879 -245 L -12.9056 -245 " />
+<path id= "2" d=" M -12.9879 -245 L -12.9879 -253 " />
+<path id= "3" d=" M -12.9056 -253 L -12.9879 -253 " />
+<path id= "4" d=" M -12.9056 -245 L -12.9056 -253 " />
+<path d="M-12.9879, -245 L-5.89396, -205 " /><path d="M-12.9056, -245 L-5.85283, -205 " /><path id= "7" d=" M -5.89396 -205 L -5.85283 -205 " />
+<path id= "8" d=" M 7.02829 215 L -7.02829 215 " />
+<path d="M5.85283, 175 L7.02829, 215 " /><path id= "10" d=" M 5.85283 -205 L 5.85283 175 " />
+<path d="M12.9056, -245 L5.85283, -205 " /><path id= "12" d=" M 12.9056 -253 L 12.9056 -245 " />
+<path id= "13" d=" M 12.9056 -253 L -12.9056 -253 " />
+<path id= "14" d=" M -5.85283 175 L -5.85283 -205 " />
+<path d="M-5.85283, 175 L-7.02829, 215 " /><path id= "16" d=" M 12.9879 -253 L 12.9056 -253 " />
+<path d="M5.89396, 175 L7.07628, 215 " /><path id= "18" d=" M 5.89396 -205 L 5.89396 175 " />
+<path d="M12.9879, -245 L5.89396, -205 " /><path id= "20" d=" M 12.9879 -253 L 12.9879 -245 " />
+<path id= "21" d=" M -5.89396 175 L -5.89396 -205 " />
+<path d="M-5.89396, 175 L-7.07628, 215 " /><path id= "23" d=" M -5.89396 175 L -5.85283 175 " />
+<path d="M7.07628, 215 L7.02829, 215 " /><path d="M-7.02829, 215 L-7.07628, 215 " /><path id= "26" d=" M 12.9056 -245 L 12.9879 -245 " />
+<path id= "27" d=" M 5.85283 -205 L 5.89396 -205 " />
+<path id= "28" d=" M 5.85283 175 L 5.89396 175 " />
+</g>
+</g>
+<text x="210" y="157" text-anchor="middle" font-size="3.5">Hülle 506.000 × 26.187 mm · Maßstab 0.221:1</text>
+<text x="344" y="39" text-anchor="middle" font-size="4">Seitenansicht</text>
+<g transform="translate(344,96) scale(3.818642052020096)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 12.9879 -0.202561 L 12.9056 1.29744 " />
+<path d="M12.9879, -0.202561 L7.07628, -0.202561 " /><path d="M12.9056, 1.29744 L7.02829, 1.29744 " /><path id= "4" d=" M -7.02829 1.29744 L 7.02829 1.29744 " />
+<path d="M-12.9056, 1.29744 L-7.02829, 1.29744 " /><path id= "6" d=" M -7.07628 -0.202561 L 7.07628 -0.202561 " />
+<path d="M-12.9879, -0.202561 L-7.07628, -0.202561 " /><path d="M-7.07628, -0.202561 L-7.02829, 1.29744 " /><path d="M7.02829, 1.29744 L7.07628, -0.202561 " /><path id= "10" d=" M -12.9056 1.29744 L -12.9879 -0.202561 " />
+</g>
+</g>
+<text x="344" y="157" text-anchor="middle" font-size="3.5">Hülle 4.262 × 26.187 mm · Maßstab 3.82:1</text>
+<text x="14" y="174" font-size="3.1">Menge: 16 · Werkstoff: CFK/Epoxid; Laminat vom Dienstleister auszulegen</text>
+<text x="14" y="179" font-size="3.1">Verfahren: Geteilte Negativformen, Prepreg/Infusion nach qualifiziertem Prozess; Klebemontage</text>
+<text x="14" y="184" font-size="3.1">Merkmale: Geometrische Innen-/Außenform;1.2mm Z-Abstand im Hauptbereich; keine festgelegte Lagenfreigabe</text>
+<text x="14" y="189" font-size="3.1">Offen: Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen</text>
+<text x="14" y="194" font-size="3.1">Unbemaßte Längen ISO2768-1m als Anfragebasis; Funktionspassungen separat nach ISO286.</text>
+<text x="14" y="199" font-size="3.1">Geometrische GPS-Toleranzen/Bezüge nach ISO22081 mit Fertiger abstimmen. STEP enthält Nennmaße.</text>
+<text x="14" y="204" font-size="3.1">Datum01.11.2026 · P13 · Herkunft/Normfamilie und Grenzen siehe Stückliste und Anfrageunterlagen.</text>
+</svg>

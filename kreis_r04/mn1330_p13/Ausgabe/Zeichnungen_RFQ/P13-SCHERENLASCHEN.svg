@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297">
+<rect width="420" height="297" fill="white"/><style>text{font-family:DejaVu Sans,sans-serif;fill:#142c3d}path,line,circle,ellipse{vector-effect:non-scaling-stroke}</style>
+<rect x="8" y="8" width="404" height="281" fill="none" stroke="#223b4b" stroke-width=".3"/>
+<text x="14" y="19" font-size="6">P13-SCHERENLASCHEN · Sphärisch gelagerte Scherenlasche30</text>
+<text x="14" y="27" font-size="3.5" fill="#a13e26">ANFRAGEZEICHNUNG · Nenngeometrie · keine Fertigungsfreigabe</text>
+<text x="76" y="39" text-anchor="middle" font-size="4">Draufsicht</text>
+<g transform="translate(76,96) scale(2.24)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M -25 -4 L -25 4 " />
+<path id= "2" d=" M 25 -4 L 25 4 " />
+</g>
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path d="M-25, 4 L-24.9371, 4  L-24.7493, 4  L-24.4388, 4  L-24.0097, 4  L-23.4672, 4  L-22.8183, 4  L-22.0711, 4  L-21.2349, 4  L-20.3203, 4  L-19.3388, 4  L-18.3028, 4  L-17.2252, 4  L-16.1196, 4  L-15, 4 " /><path d="M-25, -4 L-24.9371, -4  L-24.7493, -4  L-24.4388, -4  L-24.0097, -4  L-23.4672, -4  L-22.8183, -4  L-22.0711, -4  L-21.2349, -4  L-20.3203, -4  L-19.3388, -4  L-18.3028, -4  L-17.2252, -4  L-16.1196, -4  L-15, -4 " /><path id= "3" d=" M -15 -4 L 15 -4 " />
+<path id= "4" d=" M -15 4 L 15 4 " />
+<path d="M15, 4 L16.1196, 4  L17.2252, 4  L18.3028, 4  L19.3388, 4  L20.3203, 4  L21.2349, 4  L22.0711, 4  L22.8183, 4  L23.4672, 4  L24.0097, 4  L24.4388, 4  L24.7493, 4  L24.9371, 4  L25, 4 " /><path d="M15, -4 L16.1196, -4  L17.2252, -4  L18.3028, -4  L19.3388, -4  L20.3203, -4  L21.2349, -4  L22.0711, -4  L22.8183, -4  L23.4672, -4  L24.0097, -4  L24.4388, -4  L24.7493, -4  L24.9371, -4  L25, -4 " /></g>
+</g>
+<text x="76" y="157" text-anchor="middle" font-size="3.5">Hülle 50.000 × 8.000 mm · Maßstab 2.24:1</text>
+<text x="210" y="39" text-anchor="middle" font-size="4">Vorderansicht</text>
+<g transform="translate(210,96) scale(2.24)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path d="M10 -15 A10 10 0 0 0 -10 -15" /><path id= "2" d=" M 10 -15 L 10 15 " />
+<path id= "3" d=" M -10 -15 L -10 15 " />
+<path d="M-10 15 A10 10 0 0 0 10 15" /><path d="M-5.5 -15 A5.5 5.5 0 0 0 5.5 -15" /><path d="M5.5 -15 A5.5 5.5 0 0 0 -5.5 -15" /><path d="M5.5 15 A5.5 5.5 0 0 0 -5.5 15" /><path d="M-5.5 15 A5.5 5.5 0 0 0 5.5 15" /></g>
+</g>
+<text x="210" y="157" text-anchor="middle" font-size="3.5">Hülle 50.000 × 20.000 mm · Maßstab 2.24:1</text>
+<text x="344" y="39" text-anchor="middle" font-size="4">Seitenansicht</text>
+<g transform="translate(344,96) scale(4)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M -10 4 L -10 -4 " />
+<path id= "2" d=" M 10 4 L 10 -4 " />
+<path d="M10, -4 L9.74928, -4  L9.00969, -4  L7.81831, -4  L6.2349, -4  L4.33884, -4  L2.22521, -4  L4.44089e-16, -4  L-2.22521, -4  L-4.33884, -4  L-6.2349, -4  L-7.81831, -4  L-9.00969, -4  L-9.74928, -4  L-10, -4 " /><path d="M10, 4 L9.74928, 4  L9.00969, 4  L7.81831, 4  L6.2349, 4  L4.33884, 4  L2.22521, 4  L4.44089e-16, 4  L-2.22521, 4  L-4.33884, 4  L-6.2349, 4  L-7.81831, 4  L-9.00969, 4  L-9.74928, 4  L-10, 4 " /></g>
+</g>
+<text x="344" y="157" text-anchor="middle" font-size="3.5">Hülle 8.000 × 20.000 mm · Maßstab 4:1</text>
+<text x="14" y="174" font-size="3.1">Menge: 8 · Werkstoff: EN AW-7075 T6</text>
+<text x="14" y="179" font-size="3.1">Verfahren: Fräsen/Bohren, kantenrunden</text>
+<text x="14" y="184" font-size="3.1">Merkmale: Achsabstand30; Dicke8;2×GE6E6×14×6/C4; integrierte Schulter und DIN472-14-Nut; Schwenkfähigkeit statt verspannter</text>
+<text x="14" y="189" font-size="3.1">Parallelbolzen</text>
+<text x="14" y="194" font-size="3.1">Offen: Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen</text>
+<text x="14" y="199" font-size="3.1">Unbemaßte Längen ISO2768-1m als Anfragebasis; Funktionspassungen separat nach ISO286.</text>
+<text x="14" y="204" font-size="3.1">Geometrische GPS-Toleranzen/Bezüge nach ISO22081 mit Fertiger abstimmen. STEP enthält Nennmaße.</text>
+<text x="14" y="209" font-size="3.1">Datum01.11.2026 · P13 · Herkunft/Normfamilie und Grenzen siehe Stückliste und Anfrageunterlagen.</text>
+</svg>

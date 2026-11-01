@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297">
+<rect width="420" height="297" fill="white"/><style>text{font-family:DejaVu Sans,sans-serif;fill:#142c3d}path,line,circle,ellipse{vector-effect:non-scaling-stroke}</style>
+<rect x="8" y="8" width="404" height="281" fill="none" stroke="#223b4b" stroke-width=".3"/>
+<text x="14" y="19" font-size="6">P13-TAUMEL-AUSSENDECKEL · Taumel-Außenringdeckel</text>
+<text x="14" y="27" font-size="3.5" fill="#a13e26">ANFRAGEZEICHNUNG · Nenngeometrie · keine Fertigungsfreigabe</text>
+<text x="76" y="39" text-anchor="middle" font-size="4">Draufsicht</text>
+<g transform="translate(76,96) scale(0.684931506849315)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<circle cx ="0" cy ="0" r ="73" /><circle cx ="-49.4975" cy ="-49.4975" r ="1.7" /><circle cx ="-1.28588e-14" cy ="-70" r ="1.7" /><circle cx ="49.4975" cy ="-49.4975" r ="1.7" /><circle cx ="-70" cy ="8.57253e-15" r ="1.7" /><circle cx ="-49.4975" cy ="49.4975" r ="1.7" /><circle cx ="0" cy ="0" r ="60" /><circle cx ="70" cy ="0" r ="1.7" /><circle cx ="4.28626e-15" cy ="70" r ="1.7" /><circle cx ="49.4975" cy ="49.4975" r ="1.7" /></g>
+</g>
+<text x="76" y="157" text-anchor="middle" font-size="3.5">Hülle 146.000 × 146.000 mm · Maßstab 0.685:1</text>
+<text x="210" y="39" text-anchor="middle" font-size="4">Vorderansicht</text>
+<g transform="translate(210,96) scale(0.7671232876712328)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 1.5 -73 L -1.5 -73 " />
+</g>
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path d="M-1.5, -73 L-1.5, -71.1697  L-1.5, -65.7707  L-1.5, -57.0737  L-1.5, -45.5148  L-1.5, -31.6735  L-1.5, -16.244  L-1.5, -1.42109e-14  L-1.5, 16.244  L-1.5, 31.6735  L-1.5, 45.5148  L-1.5, 57.0737  L-1.5, 65.7707  L-1.5, 71.1697  L-1.5, 73 " /><path id= "2" d=" M 1.5 73 L -1.5 73 " />
+<path d="M1.5, -73 L1.5, -71.1697  L1.5, -65.7707  L1.5, -57.0737  L1.5, -45.5148  L1.5, -31.6735  L1.5, -16.244  L1.5, -1.42109e-14  L1.5, 16.244  L1.5, 31.6735  L1.5, 45.5148  L1.5, 57.0737  L1.5, 65.7707  L1.5, 71.1697  L1.5, 73 " /></g>
+</g>
+<text x="210" y="157" text-anchor="middle" font-size="3.5">Hülle 146.000 × 3.000 mm · Maßstab 0.767:1</text>
+<text x="344" y="39" text-anchor="middle" font-size="4">Seitenansicht</text>
+<g transform="translate(344,96) scale(0.7671232876712328)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M -1.5 -73 L 1.5 -73 " />
+<path id= "2" d=" M -1.5 73 L 1.5 73 " />
+</g>
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path d="M1.5, 0 L1.5, -8.17341  L1.5, -16.244  L1.5, -24.1104  L1.5, -31.6735  L1.5, -38.8383  L1.5, -45.5148  L1.5, -51.6188  L1.5, -57.0737  L1.5, -61.8109  L1.5, -65.7707  L1.5, -68.9035  L1.5, -71.1697  L1.5, -72.541  L1.5, -73 " /><path d="M1.5, 73 L1.5, 72.541  L1.5, 71.1697  L1.5, 68.9035  L1.5, 65.7707  L1.5, 61.8109  L1.5, 57.0737  L1.5, 51.6188  L1.5, 45.5148  L1.5, 38.8383  L1.5, 31.6735  L1.5, 24.1104  L1.5, 16.244  L1.5, 8.17341  L1.5, 1.77636e-14 " /><path d="M-1.5, 0 L-1.5, -8.17341  L-1.5, -16.244  L-1.5, -24.1104  L-1.5, -31.6735  L-1.5, -38.8383  L-1.5, -45.5148  L-1.5, -51.6188  L-1.5, -57.0737  L-1.5, -61.8109  L-1.5, -65.7707  L-1.5, -68.9035  L-1.5, -71.1697  L-1.5, -72.541  L-1.5, -73 " /><path d="M-1.5, 73 L-1.5, 72.541  L-1.5, 71.1697  L-1.5, 68.9035  L-1.5, 65.7707  L-1.5, 61.8109  L-1.5, 57.0737  L-1.5, 51.6188  L-1.5, 45.5148  L-1.5, 38.8383  L-1.5, 31.6735  L-1.5, 24.1104  L-1.5, 16.244  L-1.5, 8.17341  L-1.5, 1.77636e-14 " /></g>
+</g>
+<text x="344" y="157" text-anchor="middle" font-size="3.5">Hülle 146.000 × 3.000 mm · Maßstab 0.767:1</text>
+<text x="14" y="174" font-size="3.1">Menge: 2 · Werkstoff: EN AW-7075 T6</text>
+<text x="14" y="179" font-size="3.1">Verfahren: Drehen/Bohren</text>
+<text x="14" y="184" font-size="3.1">Merkmale: 61820 Außenring geklemmt;8×M3; außenR73 hält Abstand zu den Pitchgelenkgabeln</text>
+<text x="14" y="189" font-size="3.1">Offen: Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen</text>
+<text x="14" y="194" font-size="3.1">Unbemaßte Längen ISO2768-1m als Anfragebasis; Funktionspassungen separat nach ISO286.</text>
+<text x="14" y="199" font-size="3.1">Geometrische GPS-Toleranzen/Bezüge nach ISO22081 mit Fertiger abstimmen. STEP enthält Nennmaße.</text>
+<text x="14" y="204" font-size="3.1">Datum01.11.2026 · P13 · Herkunft/Normfamilie und Grenzen siehe Stückliste und Anfrageunterlagen.</text>
+</svg>

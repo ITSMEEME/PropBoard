@@ -18,13 +18,17 @@ Der Ausgangsstand aus Aluminium bleibt mit `frame_mode=0` verfügbar. Seine nati
 
 [Schrägansicht](Ausgabe/Zwischenstand_P12_Perspektive.png) · [Drauf-/Vorderansicht](Ausgabe/Zwischenstand_P12_Orthogonal.png) · [FreeCAD](Ausgabe/P12_MN1330.FCStd) · [STEP](Ausgabe/P12_MN1330.step)
 
-Aktueller Standard:735 Instanzen,155 Geometrietypen, Außenmaße1790×1784,1×776mm.77 Zuschnitte benötigen nach der aktuellen Packung25 Rohlinge, entsprechend1125,50€ reinem Rohrpreis.
+Aktueller Standard:1725 Instanzen,160 Geometrietypen, Außenmaße1790×1784,1×776mm. Davon sind990 neue Befestigungsreferenzen an CFK-Klemmen, Lagerdeckeln und Rollenachsen.77 Zuschnitte benötigen nach der aktuellen Packung25 Rohlinge, entsprechend1125,50€ reinem Rohrpreis.
+
+[Geometrieergänzungen und vollständige Liste der noch offenen Baugruppen](GEOMETRIESTATUS.md).
+Die neuen Befestigungen sind eigene Nennkonturen mit vereinfachten Gewindekernen,
+keine verifizierten Hersteller-CADs oder freigegebenen Bestellpositionen.
 
 Die aktuelle Stückzahl und die gemessenen Außenmaße stehen in `Ausgabe/Pruefung.json`. Die BRep-Körper enthalten Fertigungsmerkmale, Nennkonturen und offene Punkte. Gewinde werden durch Kern-/Nenndurchmesser und Beschriftung beschrieben; keine helikalen Gewindeflanken. Flügel sind massive aerodynamische Referenzkörper, keine gefertigten CFK-Bauteile.
 
 ## Noch offen — nicht als fertig darstellen
 
-Schrauben und Muttern, Klemmdruck-/CFK-/Knotennachweise, Pitchwellen und deren Lagergehäuse, Verbindung der äußeren Laufbahn zum Rotor, Taumelscheibenlager und vollständige Aktuator-/Pitchanlenkung, Motor-Gewindetiefen, Lagerpassungen/Vorspannung, Schweißnahtbemessung, Oberflächen/Härte, CFK-Laminat und Wellenanbindung. Diese Punkte verhindern derzeit eine Fertigungsfreigabe. Keine Fertigung nach diesem Zwischenstand beauftragen.
+Restliche Schrauben-/Mutternverbindungen laut Geometriestatus, Klemmdruck-/CFK-/Knotennachweise, Pitchwellen und deren Lagergehäuse, Verbindung der äußeren Laufbahn zum Rotor, Taumelscheibenlager und vollständige Aktuator-/Pitchanlenkung, Motor-Gewindetiefen, Lagerpassungen/Vorspannung, Schweißnahtbemessung, Oberflächen/Härte, CFK-Laminat und Wellenanbindung. Diese Punkte verhindern derzeit eine Fertigungsfreigabe. Keine Fertigung nach diesem Zwischenstand beauftragen.
 
 Die Membran soll axiale Lasten vom Motorlager entkoppeln. Dass ihre Steifigkeit und Dauerfestigkeit dazu ausreichen, ist noch zu berechnen. Ebenso ist die voll belastete V-Rollenführung noch nicht bemessen. Vorläufige Werkstoffe und Standardlager sind keine Tragfähigkeitszusage.
 

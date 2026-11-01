@@ -1,0 +1,230 @@
+[
+  {
+    "id": "P13-INNENRING",
+    "file": "Zeichnungen_RFQ/P13-INNENRING.svg"
+  },
+  {
+    "id": "P13-AUSSENRING",
+    "file": "Zeichnungen_RFQ/P13-AUSSENRING.svg"
+  },
+  {
+    "id": "P13-WURZELGEHAEUSE",
+    "file": "Zeichnungen_RFQ/P13-WURZELGEHAEUSE.svg"
+  },
+  {
+    "id": "P13-WURZELDECKEL",
+    "file": "Zeichnungen_RFQ/P13-WURZELDECKEL.svg"
+  },
+  {
+    "id": "P13-PITCHWELLE",
+    "file": "Zeichnungen_RFQ/P13-PITCHWELLE.svg"
+  },
+  {
+    "id": "P13-WURZELEINSATZ",
+    "file": "Zeichnungen_RFQ/P13-WURZELEINSATZ.svg"
+  },
+  {
+    "id": "P13-AUSSENZAPFEN",
+    "file": "Zeichnungen_RFQ/P13-AUSSENZAPFEN.svg"
+  },
+  {
+    "id": "P13-SPITZENEINSATZ",
+    "file": "Zeichnungen_RFQ/P13-SPITZENEINSATZ.svg"
+  },
+  {
+    "id": "P13-SPEICHENWURZEL",
+    "file": "Zeichnungen_RFQ/P13-SPEICHENWURZEL.svg"
+  },
+  {
+    "id": "P13-AUSSENLAGERTRAEGER",
+    "file": "Zeichnungen_RFQ/P13-AUSSENLAGERTRAEGER.svg"
+  },
+  {
+    "id": "P13-SPEICHE-CFK",
+    "file": "Zeichnungen_RFQ/P13-SPEICHE-CFK.svg"
+  },
+  {
+    "id": "P13-CFK-SCHALE_OBEN",
+    "file": "Zeichnungen_RFQ/P13-CFK-SCHALE_OBEN.svg"
+  },
+  {
+    "id": "P13-CFK-SCHALE_UNTEN",
+    "file": "Zeichnungen_RFQ/P13-CFK-SCHALE_UNTEN.svg"
+  },
+  {
+    "id": "P13-CFK-WURZELBLOCK",
+    "file": "Zeichnungen_RFQ/P13-CFK-WURZELBLOCK.svg"
+  },
+  {
+    "id": "P13-CFK-SPITZENBLOCK",
+    "file": "Zeichnungen_RFQ/P13-CFK-SPITZENBLOCK.svg"
+  },
+  {
+    "id": "P13-CFK-HOLM_VORN",
+    "file": "Zeichnungen_RFQ/P13-CFK-HOLM_VORN.svg"
+  },
+  {
+    "id": "P13-CFK-HOLM_HINTEN",
+    "file": "Zeichnungen_RFQ/P13-CFK-HOLM_HINTEN.svg"
+  },
+  {
+    "id": "P13-PITCHHEBEL",
+    "file": "Zeichnungen_RFQ/P13-PITCHHEBEL.svg"
+  },
+  {
+    "id": "P13-GLEITHUELSE",
+    "file": "Zeichnungen_RFQ/P13-GLEITHUELSE.svg"
+  },
+  {
+    "id": "P13-TAUMEL-INNEN",
+    "file": "Zeichnungen_RFQ/P13-TAUMEL-INNEN.svg"
+  },
+  {
+    "id": "P13-TAUMEL-AUSSEN",
+    "file": "Zeichnungen_RFQ/P13-TAUMEL-AUSSEN.svg"
+  },
+  {
+    "id": "P13-PITCHGESTAENGE",
+    "file": "Zeichnungen_RFQ/P13-PITCHGESTAENGE.svg"
+  },
+  {
+    "id": "P13-AKTUATORGEHAEUSE",
+    "file": "Zeichnungen_RFQ/P13-AKTUATORGEHAEUSE.svg"
+  },
+  {
+    "id": "P13-AKTUATORWAGEN",
+    "file": "Zeichnungen_RFQ/P13-AKTUATORWAGEN.svg"
+  },
+  {
+    "id": "P13-HUBANSCHLAG",
+    "file": "Zeichnungen_RFQ/P13-HUBANSCHLAG.svg"
+  },
+  {
+    "id": "P13-SCHERENLASCHEN",
+    "file": "Zeichnungen_RFQ/P13-SCHERENLASCHEN.svg"
+  },
+  {
+    "id": "P13-WURZEL-ENDSCHEIBE",
+    "file": "Zeichnungen_RFQ/P13-WURZEL-ENDSCHEIBE.svg"
+  },
+  {
+    "id": "P13-HEBEL-ENDSCHEIBE",
+    "file": "Zeichnungen_RFQ/P13-HEBEL-ENDSCHEIBE.svg"
+  },
+  {
+    "id": "P13-HEBEL-ANLAUF",
+    "file": "Zeichnungen_RFQ/P13-HEBEL-ANLAUF.svg"
+  },
+  {
+    "id": "P13-FACHWERK-PYLON",
+    "file": "Zeichnungen_RFQ/P13-FACHWERK-PYLON.svg"
+  },
+  {
+    "id": "P13-FACHWERK-INSERT",
+    "file": "Zeichnungen_RFQ/P13-FACHWERK-INSERT.svg"
+  },
+  {
+    "id": "P13-TAUMEL-M100",
+    "file": "Zeichnungen_RFQ/P13-TAUMEL-M100.svg"
+  },
+  {
+    "id": "P13-GE-DECKEL-UNTEN",
+    "file": "Zeichnungen_RFQ/P13-GE-DECKEL-UNTEN.svg"
+  },
+  {
+    "id": "P13-GE-DECKEL-OBEN",
+    "file": "Zeichnungen_RFQ/P13-GE-DECKEL-OBEN.svg"
+  },
+  {
+    "id": "P13-TAUMEL-AUSSENDECKEL",
+    "file": "Zeichnungen_RFQ/P13-TAUMEL-AUSSENDECKEL.svg"
+  },
+  {
+    "id": "P13-GE-M60-UNTEN",
+    "file": "Zeichnungen_RFQ/P13-GE-M60-UNTEN.svg"
+  },
+  {
+    "id": "P13-GE-M60-OBEN",
+    "file": "Zeichnungen_RFQ/P13-GE-M60-OBEN.svg"
+  },
+  {
+    "id": "P13-HUBANSCHLAG-OBEN",
+    "file": "Zeichnungen_RFQ/P13-HUBANSCHLAG-OBEN.svg"
+  },
+  {
+    "id": "P13-SCHERENFESTPUNKT",
+    "file": "Zeichnungen_RFQ/P13-SCHERENFESTPUNKT.svg"
+  },
+  {
+    "id": "P13-FACHWERK-PYLON-MITNEHMER",
+    "file": "Zeichnungen_RFQ/P13-FACHWERK-PYLON-MITNEHMER.svg"
+  },
+  {
+    "id": "P13-ZENTRALPLATTE-OBEN",
+    "file": "Zeichnungen_RFQ/P13-ZENTRALPLATTE-OBEN.svg"
+  },
+  {
+    "id": "P13-ZENTRALPLATTE-UNTEN",
+    "file": "Zeichnungen_RFQ/P13-ZENTRALPLATTE-UNTEN.svg"
+  },
+  {
+    "id": "P13-DECKSTUETZE",
+    "file": "Zeichnungen_RFQ/P13-DECKSTUETZE.svg"
+  },
+  {
+    "id": "P13-DECKTRAEGER",
+    "file": "Zeichnungen_RFQ/P13-DECKTRAEGER.svg"
+  },
+  {
+    "id": "P13-DECK",
+    "file": "Zeichnungen_RFQ/P13-DECK.svg"
+  },
+  {
+    "id": "P13-LANDEBEIN",
+    "file": "Zeichnungen_RFQ/P13-LANDEBEIN.svg"
+  },
+  {
+    "id": "P13-KUFENKLEMME-1",
+    "file": "Zeichnungen_RFQ/P13-KUFENKLEMME-1.svg"
+  },
+  {
+    "id": "P13-LANDEKUFE",
+    "file": "Zeichnungen_RFQ/P13-LANDEKUFE.svg"
+  },
+  {
+    "id": "P13-SCHERENFESTPUNKT-B",
+    "file": "Zeichnungen_RFQ/P13-SCHERENFESTPUNKT-B.svg"
+  },
+  {
+    "id": "P13-HUBANSCHLAG-B",
+    "file": "Zeichnungen_RFQ/P13-HUBANSCHLAG-B.svg"
+  },
+  {
+    "id": "P13-HUBANSCHLAG-OBEN-B",
+    "file": "Zeichnungen_RFQ/P13-HUBANSCHLAG-OBEN-B.svg"
+  },
+  {
+    "id": "P13-ACHS-SICHERUNGSBLECH",
+    "file": "Zeichnungen_RFQ/P13-ACHS-SICHERUNGSBLECH.svg"
+  },
+  {
+    "id": "P13-AKTOR-M20",
+    "file": "Zeichnungen_RFQ/P13-AKTOR-M20.svg"
+  },
+  {
+    "id": "P13-GE20-DECKEL-OBEN",
+    "file": "Zeichnungen_RFQ/P13-GE20-DECKEL-OBEN.svg"
+  },
+  {
+    "id": "P13-GE20-DECKEL-UNTEN",
+    "file": "Zeichnungen_RFQ/P13-GE20-DECKEL-UNTEN.svg"
+  },
+  {
+    "id": "P13-AKTOR-MOTORTRAEGER-OBEN",
+    "file": "Zeichnungen_RFQ/P13-AKTOR-MOTORTRAEGER-OBEN.svg"
+  },
+  {
+    "id": "P13-AKTOR-MOTORTRAEGER-UNTEN",
+    "file": "Zeichnungen_RFQ/P13-AKTOR-MOTORTRAEGER-UNTEN.svg"
+  }
+]

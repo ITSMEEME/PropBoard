@@ -1,0 +1,27 @@
+{
+  "revision": "P13",
+  "parts": 4780,
+  "types": 303,
+  "all_valid": true,
+  "manufacturing_release": false,
+  "geometry_complete": false,
+  "collision_status": "KOLLISIONEN_OFFEN",
+  "bounding_box_mm": {
+    "x": 1810.0,
+    "y": 1784.0998818344528,
+    "z": 1066.6
+  },
+  "native_sha256": "b515b3350f9fdfe926dde79f6f21dd22c9e83f5de3d2e4e35027a489ad2aeec5",
+  "limitations": [
+    "Normteilkonturen sind Nennmaße, keine Hersteller-CADs",
+    "Gewinde überwiegend Kern-/Nennkonturen ohne Flanken",
+    "Aktuator/Getriebe/Führung als spezifizierte Baugruppe, konkrete Lieferteile offen",
+    "CFK-Laminat und Kleb-/Füge-/Lastnachweise offen",
+    "Keine Fertigungs- oder Flugfreigabe"
+  ],
+  "overlap_count": 32,
+  "interface_reference_errors": 0,
+  "brep_pairs_checked": 16931,
+  "mirrored_rotor_pairs_checked": 1120,
+  "checked_native_sha256": "b515b3350f9fdfe926dde79f6f21dd22c9e83f5de3d2e4e35027a489ad2aeec5"
+}

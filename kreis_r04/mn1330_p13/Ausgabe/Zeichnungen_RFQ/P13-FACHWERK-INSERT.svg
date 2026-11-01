@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297">
+<rect width="420" height="297" fill="white"/><style>text{font-family:DejaVu Sans,sans-serif;fill:#142c3d}path,line,circle,ellipse{vector-effect:non-scaling-stroke}</style>
+<rect x="8" y="8" width="404" height="281" fill="none" stroke="#223b4b" stroke-width=".3"/>
+<text x="14" y="19" font-size="6">P13-FACHWERK-INSERT · CFK30-Endeinsatz</text>
+<text x="14" y="27" font-size="3.5" fill="#a13e26">ANFRAGEZEICHNUNG · Nenngeometrie · keine Fertigungsfreigabe</text>
+<text x="76" y="39" text-anchor="middle" font-size="4">Draufsicht</text>
+<g transform="translate(76,96) scale(2.8)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M -20 -12.8 L 20 -12.8 " />
+<path id= "2" d=" M -20 12.8 L 20 12.8 " />
+</g>
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path d="M20, 0 L20, -1.43315  L20, -2.84827  L20, -4.22757  L20, -5.55371  L20, -6.81001  L20, -7.98067  L20, -9.05097  L20, -10.0074  L20, -10.8381  L20, -11.5324  L20, -12.0817  L20, -12.4791  L20, -12.7195  L20, -12.8 " /><path d="M20, 12.8 L20, 12.7195  L20, 12.4791  L20, 12.0817  L20, 11.5324  L20, 10.8381  L20, 10.0074  L20, 9.05097  L20, 7.98067  L20, 6.81001  L20, 5.55371  L20, 4.22757  L20, 2.84827  L20, 1.43315  L20, 3.10862e-15 " /><path d="M-20, 0 L-20, -1.43315  L-20, -2.84827  L-20, -4.22757  L-20, -5.55371  L-20, -6.81001  L-20, -7.98067  L-20, -9.05097  L-20, -10.0074  L-20, -10.8381  L-20, -11.5324  L-20, -12.0817  L-20, -12.4791  L-20, -12.7195  L-20, -12.8 " /><path d="M-20, 12.8 L-20, 12.7195  L-20, 12.4791  L-20, 12.0817  L-20, 11.5324  L-20, 10.8381  L-20, 10.0074  L-20, 9.05097  L-20, 7.98067  L-20, 6.81001  L-20, 5.55371  L-20, 4.22757  L-20, 2.84827  L-20, 1.43315  L-20, 3.10862e-15 " /></g>
+</g>
+<text x="76" y="157" text-anchor="middle" font-size="3.5">Hülle 40.000 × 25.600 mm · Maßstab 2.8:1</text>
+<text x="210" y="39" text-anchor="middle" font-size="4">Vorderansicht</text>
+<g transform="translate(210,96) scale(2.8)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 12.8 -20 L 12.8 20 " />
+</g>
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path d="M-12.8, 20 L-12.4791, 20  L-11.5324, 20  L-10.0074, 20  L-7.98067, 20  L-5.55371, 20  L-2.84827, 20  L-8.88178e-16, 20  L2.84827, 20  L5.55371, 20  L7.98067, 20  L10.0074, 20  L11.5324, 20  L12.4791, 20  L12.8, 20 " /><path id= "2" d=" M -12.8 -20 L -12.8 20 " />
+<path d="M-12.8, -20 L-12.4791, -20  L-11.5324, -20  L-10.0074, -20  L-7.98067, -20  L-5.55371, -20  L-2.84827, -20  L-8.88178e-16, -20  L2.84827, -20  L5.55371, -20  L7.98067, -20  L10.0074, -20  L11.5324, -20  L12.4791, -20  L12.8, -20 " /></g>
+</g>
+<text x="210" y="157" text-anchor="middle" font-size="3.5">Hülle 40.000 × 25.600 mm · Maßstab 2.8:1</text>
+<text x="344" y="39" text-anchor="middle" font-size="4">Seitenansicht</text>
+<g transform="translate(344,96) scale(3.90625)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<circle cx ="0" cy ="0" r ="12.8" /><circle cx ="0" cy ="0" r ="4.1" /></g>
+</g>
+<text x="344" y="157" text-anchor="middle" font-size="3.5">Hülle 25.600 × 25.600 mm · Maßstab 3.91:1</text>
+<text x="14" y="174" font-size="3.1">Menge: 64 · Werkstoff: TitanGrade5 oder isoliertes Aluminium</text>
+<text x="14" y="179" font-size="3.1">Verfahren: Drehen/Gewinde; qualifizierte Klebung</text>
+<text x="14" y="184" font-size="3.1">Merkmale: Ø25.6/Ø8.2×40;0.2mm Klebefuge imØ26-Rohr; GewindezugangM8, Sicherung vor Bestellung abstimmen</text>
+<text x="14" y="189" font-size="3.1">Offen: Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen</text>
+<text x="14" y="194" font-size="3.1">Unbemaßte Längen ISO2768-1m als Anfragebasis; Funktionspassungen separat nach ISO286.</text>
+<text x="14" y="199" font-size="3.1">Geometrische GPS-Toleranzen/Bezüge nach ISO22081 mit Fertiger abstimmen. STEP enthält Nennmaße.</text>
+<text x="14" y="204" font-size="3.1">Datum01.11.2026 · P13 · Herkunft/Normfamilie und Grenzen siehe Stückliste und Anfrageunterlagen.</text>
+</svg>

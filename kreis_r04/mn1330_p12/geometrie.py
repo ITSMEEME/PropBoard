@@ -151,5 +151,6 @@ def build(p,materials=None):
     for x,y in footholes:put('P12-013',f'Mitteltraeger_Huelse_{x:g}_{y:g}',(x,y,-p['middle_height']/2+p['middle_wall']))
     if p.get('frame_mode',0)==1:
         from cfk_rahmen import apply
-        return apply(p,q,parts,scene)
-    return parts,scene,q
+        parts,scene,q=apply(p,q,parts,scene)
+    from befestigungen import apply as befestigungen
+    return befestigungen(p,q,parts,scene)

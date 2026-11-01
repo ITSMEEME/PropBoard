@@ -1,0 +1,2200 @@
+[
+  {
+    "a": "Oben_Innenring",
+    "b": "Oben_Blatt1_Patrone",
+    "interface": "Ø40.2 Gehäuseaufnahme; Flanschanschlag x138; Deckel von innen montierbar",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt1_Patrone",
+    "b": "Oben_Blatt1_Pitchwelle",
+    "interface": "7201B-DB-Paar; KM1/MB1; axialer Festlagerpfad",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt1_Pitchwelle",
+    "b": "Oben_Blatt1_Wurzeleinsatz",
+    "interface": "Ø12/4×4 Passfeder; zusätzliche axiale Sicherung vor Freigabe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt1_Wurzeleinsatz",
+    "b": "Oben_Blatt1_WURZELBLOCK",
+    "interface": "50mm Klebeeinbettung;0.2mm Fuge; galvanische Isolation",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt1_SPITZENBLOCK",
+    "b": "Oben_Blatt1_Spitzeneinsatz",
+    "interface": "38mm Einbettung;0.2mm Klebfuge",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt1_Aussenzapfen",
+    "b": "Oben_Blatt1_608",
+    "interface": "Ø8 k6; Außenring imØ22-H7-Sitz axial±1mm",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt1_Aussenlagertraeger",
+    "b": "Oben_Aussenring",
+    "interface": "Vier M4;6mm Eingriff im separaten Tragsteg; V-Kontur bleibt durchgehend",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Innenring",
+    "b": "Oben_Blatt1_Speichensockel",
+    "interface": "Vier M6;4×Blindkernloch12tief; keine CFK-Querbohrung",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt1_Speichensockel",
+    "b": "Oben_Blatt1_Speiche",
+    "interface": "Geteilte Standardklemme und Isolierlage",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt1_Speiche",
+    "b": "Oben_Blatt1_Aussenlagertraeger",
+    "interface": "Geteilte Standardklemme und Isolierlage",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Innenring",
+    "b": "Oben_Blatt2_Patrone",
+    "interface": "Ø40.2 Gehäuseaufnahme; Flanschanschlag x138; Deckel von innen montierbar",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt2_Patrone",
+    "b": "Oben_Blatt2_Pitchwelle",
+    "interface": "7201B-DB-Paar; KM1/MB1; axialer Festlagerpfad",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt2_Pitchwelle",
+    "b": "Oben_Blatt2_Wurzeleinsatz",
+    "interface": "Ø12/4×4 Passfeder; zusätzliche axiale Sicherung vor Freigabe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt2_Wurzeleinsatz",
+    "b": "Oben_Blatt2_WURZELBLOCK",
+    "interface": "50mm Klebeeinbettung;0.2mm Fuge; galvanische Isolation",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt2_SPITZENBLOCK",
+    "b": "Oben_Blatt2_Spitzeneinsatz",
+    "interface": "38mm Einbettung;0.2mm Klebfuge",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt2_Aussenzapfen",
+    "b": "Oben_Blatt2_608",
+    "interface": "Ø8 k6; Außenring imØ22-H7-Sitz axial±1mm",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt2_Aussenlagertraeger",
+    "b": "Oben_Aussenring",
+    "interface": "Vier M4;6mm Eingriff im separaten Tragsteg; V-Kontur bleibt durchgehend",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Innenring",
+    "b": "Oben_Blatt2_Speichensockel",
+    "interface": "Vier M6;4×Blindkernloch12tief; keine CFK-Querbohrung",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt2_Speichensockel",
+    "b": "Oben_Blatt2_Speiche",
+    "interface": "Geteilte Standardklemme und Isolierlage",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt2_Speiche",
+    "b": "Oben_Blatt2_Aussenlagertraeger",
+    "interface": "Geteilte Standardklemme und Isolierlage",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Innenring",
+    "b": "Oben_Blatt3_Patrone",
+    "interface": "Ø40.2 Gehäuseaufnahme; Flanschanschlag x138; Deckel von innen montierbar",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt3_Patrone",
+    "b": "Oben_Blatt3_Pitchwelle",
+    "interface": "7201B-DB-Paar; KM1/MB1; axialer Festlagerpfad",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt3_Pitchwelle",
+    "b": "Oben_Blatt3_Wurzeleinsatz",
+    "interface": "Ø12/4×4 Passfeder; zusätzliche axiale Sicherung vor Freigabe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt3_Wurzeleinsatz",
+    "b": "Oben_Blatt3_WURZELBLOCK",
+    "interface": "50mm Klebeeinbettung;0.2mm Fuge; galvanische Isolation",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt3_SPITZENBLOCK",
+    "b": "Oben_Blatt3_Spitzeneinsatz",
+    "interface": "38mm Einbettung;0.2mm Klebfuge",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt3_Aussenzapfen",
+    "b": "Oben_Blatt3_608",
+    "interface": "Ø8 k6; Außenring imØ22-H7-Sitz axial±1mm",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt3_Aussenlagertraeger",
+    "b": "Oben_Aussenring",
+    "interface": "Vier M4;6mm Eingriff im separaten Tragsteg; V-Kontur bleibt durchgehend",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Innenring",
+    "b": "Oben_Blatt3_Speichensockel",
+    "interface": "Vier M6;4×Blindkernloch12tief; keine CFK-Querbohrung",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt3_Speichensockel",
+    "b": "Oben_Blatt3_Speiche",
+    "interface": "Geteilte Standardklemme und Isolierlage",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt3_Speiche",
+    "b": "Oben_Blatt3_Aussenlagertraeger",
+    "interface": "Geteilte Standardklemme und Isolierlage",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Innenring",
+    "b": "Oben_Blatt4_Patrone",
+    "interface": "Ø40.2 Gehäuseaufnahme; Flanschanschlag x138; Deckel von innen montierbar",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt4_Patrone",
+    "b": "Oben_Blatt4_Pitchwelle",
+    "interface": "7201B-DB-Paar; KM1/MB1; axialer Festlagerpfad",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt4_Pitchwelle",
+    "b": "Oben_Blatt4_Wurzeleinsatz",
+    "interface": "Ø12/4×4 Passfeder; zusätzliche axiale Sicherung vor Freigabe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt4_Wurzeleinsatz",
+    "b": "Oben_Blatt4_WURZELBLOCK",
+    "interface": "50mm Klebeeinbettung;0.2mm Fuge; galvanische Isolation",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt4_SPITZENBLOCK",
+    "b": "Oben_Blatt4_Spitzeneinsatz",
+    "interface": "38mm Einbettung;0.2mm Klebfuge",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt4_Aussenzapfen",
+    "b": "Oben_Blatt4_608",
+    "interface": "Ø8 k6; Außenring imØ22-H7-Sitz axial±1mm",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt4_Aussenlagertraeger",
+    "b": "Oben_Aussenring",
+    "interface": "Vier M4;6mm Eingriff im separaten Tragsteg; V-Kontur bleibt durchgehend",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Innenring",
+    "b": "Oben_Blatt4_Speichensockel",
+    "interface": "Vier M6;4×Blindkernloch12tief; keine CFK-Querbohrung",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt4_Speichensockel",
+    "b": "Oben_Blatt4_Speiche",
+    "interface": "Geteilte Standardklemme und Isolierlage",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt4_Speiche",
+    "b": "Oben_Blatt4_Aussenlagertraeger",
+    "interface": "Geteilte Standardklemme und Isolierlage",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Innenring",
+    "b": "Oben_Blatt5_Patrone",
+    "interface": "Ø40.2 Gehäuseaufnahme; Flanschanschlag x138; Deckel von innen montierbar",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt5_Patrone",
+    "b": "Oben_Blatt5_Pitchwelle",
+    "interface": "7201B-DB-Paar; KM1/MB1; axialer Festlagerpfad",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt5_Pitchwelle",
+    "b": "Oben_Blatt5_Wurzeleinsatz",
+    "interface": "Ø12/4×4 Passfeder; zusätzliche axiale Sicherung vor Freigabe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt5_Wurzeleinsatz",
+    "b": "Oben_Blatt5_WURZELBLOCK",
+    "interface": "50mm Klebeeinbettung;0.2mm Fuge; galvanische Isolation",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt5_SPITZENBLOCK",
+    "b": "Oben_Blatt5_Spitzeneinsatz",
+    "interface": "38mm Einbettung;0.2mm Klebfuge",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt5_Aussenzapfen",
+    "b": "Oben_Blatt5_608",
+    "interface": "Ø8 k6; Außenring imØ22-H7-Sitz axial±1mm",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt5_Aussenlagertraeger",
+    "b": "Oben_Aussenring",
+    "interface": "Vier M4;6mm Eingriff im separaten Tragsteg; V-Kontur bleibt durchgehend",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Innenring",
+    "b": "Oben_Blatt5_Speichensockel",
+    "interface": "Vier M6;4×Blindkernloch12tief; keine CFK-Querbohrung",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt5_Speichensockel",
+    "b": "Oben_Blatt5_Speiche",
+    "interface": "Geteilte Standardklemme und Isolierlage",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt5_Speiche",
+    "b": "Oben_Blatt5_Aussenlagertraeger",
+    "interface": "Geteilte Standardklemme und Isolierlage",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Innenring",
+    "b": "Oben_Blatt6_Patrone",
+    "interface": "Ø40.2 Gehäuseaufnahme; Flanschanschlag x138; Deckel von innen montierbar",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt6_Patrone",
+    "b": "Oben_Blatt6_Pitchwelle",
+    "interface": "7201B-DB-Paar; KM1/MB1; axialer Festlagerpfad",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt6_Pitchwelle",
+    "b": "Oben_Blatt6_Wurzeleinsatz",
+    "interface": "Ø12/4×4 Passfeder; zusätzliche axiale Sicherung vor Freigabe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt6_Wurzeleinsatz",
+    "b": "Oben_Blatt6_WURZELBLOCK",
+    "interface": "50mm Klebeeinbettung;0.2mm Fuge; galvanische Isolation",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt6_SPITZENBLOCK",
+    "b": "Oben_Blatt6_Spitzeneinsatz",
+    "interface": "38mm Einbettung;0.2mm Klebfuge",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt6_Aussenzapfen",
+    "b": "Oben_Blatt6_608",
+    "interface": "Ø8 k6; Außenring imØ22-H7-Sitz axial±1mm",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt6_Aussenlagertraeger",
+    "b": "Oben_Aussenring",
+    "interface": "Vier M4;6mm Eingriff im separaten Tragsteg; V-Kontur bleibt durchgehend",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Innenring",
+    "b": "Oben_Blatt6_Speichensockel",
+    "interface": "Vier M6;4×Blindkernloch12tief; keine CFK-Querbohrung",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt6_Speichensockel",
+    "b": "Oben_Blatt6_Speiche",
+    "interface": "Geteilte Standardklemme und Isolierlage",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt6_Speiche",
+    "b": "Oben_Blatt6_Aussenlagertraeger",
+    "interface": "Geteilte Standardklemme und Isolierlage",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Innenring",
+    "b": "Oben_Blatt7_Patrone",
+    "interface": "Ø40.2 Gehäuseaufnahme; Flanschanschlag x138; Deckel von innen montierbar",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt7_Patrone",
+    "b": "Oben_Blatt7_Pitchwelle",
+    "interface": "7201B-DB-Paar; KM1/MB1; axialer Festlagerpfad",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt7_Pitchwelle",
+    "b": "Oben_Blatt7_Wurzeleinsatz",
+    "interface": "Ø12/4×4 Passfeder; zusätzliche axiale Sicherung vor Freigabe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt7_Wurzeleinsatz",
+    "b": "Oben_Blatt7_WURZELBLOCK",
+    "interface": "50mm Klebeeinbettung;0.2mm Fuge; galvanische Isolation",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt7_SPITZENBLOCK",
+    "b": "Oben_Blatt7_Spitzeneinsatz",
+    "interface": "38mm Einbettung;0.2mm Klebfuge",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt7_Aussenzapfen",
+    "b": "Oben_Blatt7_608",
+    "interface": "Ø8 k6; Außenring imØ22-H7-Sitz axial±1mm",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt7_Aussenlagertraeger",
+    "b": "Oben_Aussenring",
+    "interface": "Vier M4;6mm Eingriff im separaten Tragsteg; V-Kontur bleibt durchgehend",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Innenring",
+    "b": "Oben_Blatt7_Speichensockel",
+    "interface": "Vier M6;4×Blindkernloch12tief; keine CFK-Querbohrung",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt7_Speichensockel",
+    "b": "Oben_Blatt7_Speiche",
+    "interface": "Geteilte Standardklemme und Isolierlage",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt7_Speiche",
+    "b": "Oben_Blatt7_Aussenlagertraeger",
+    "interface": "Geteilte Standardklemme und Isolierlage",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Innenring",
+    "b": "Oben_Blatt8_Patrone",
+    "interface": "Ø40.2 Gehäuseaufnahme; Flanschanschlag x138; Deckel von innen montierbar",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt8_Patrone",
+    "b": "Oben_Blatt8_Pitchwelle",
+    "interface": "7201B-DB-Paar; KM1/MB1; axialer Festlagerpfad",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt8_Pitchwelle",
+    "b": "Oben_Blatt8_Wurzeleinsatz",
+    "interface": "Ø12/4×4 Passfeder; zusätzliche axiale Sicherung vor Freigabe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt8_Wurzeleinsatz",
+    "b": "Oben_Blatt8_WURZELBLOCK",
+    "interface": "50mm Klebeeinbettung;0.2mm Fuge; galvanische Isolation",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt8_SPITZENBLOCK",
+    "b": "Oben_Blatt8_Spitzeneinsatz",
+    "interface": "38mm Einbettung;0.2mm Klebfuge",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt8_Aussenzapfen",
+    "b": "Oben_Blatt8_608",
+    "interface": "Ø8 k6; Außenring imØ22-H7-Sitz axial±1mm",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt8_Aussenlagertraeger",
+    "b": "Oben_Aussenring",
+    "interface": "Vier M4;6mm Eingriff im separaten Tragsteg; V-Kontur bleibt durchgehend",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Innenring",
+    "b": "Oben_Blatt8_Speichensockel",
+    "interface": "Vier M6;4×Blindkernloch12tief; keine CFK-Querbohrung",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt8_Speichensockel",
+    "b": "Oben_Blatt8_Speiche",
+    "interface": "Geteilte Standardklemme und Isolierlage",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt8_Speiche",
+    "b": "Oben_Blatt8_Aussenlagertraeger",
+    "interface": "Geteilte Standardklemme und Isolierlage",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Innenring",
+    "b": "Unten_Blatt1_Patrone",
+    "interface": "Ø40.2 Gehäuseaufnahme; Flanschanschlag x138; Deckel von innen montierbar",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt1_Patrone",
+    "b": "Unten_Blatt1_Pitchwelle",
+    "interface": "7201B-DB-Paar; KM1/MB1; axialer Festlagerpfad",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt1_Pitchwelle",
+    "b": "Unten_Blatt1_Wurzeleinsatz",
+    "interface": "Ø12/4×4 Passfeder; zusätzliche axiale Sicherung vor Freigabe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt1_Wurzeleinsatz",
+    "b": "Unten_Blatt1_WURZELBLOCK",
+    "interface": "50mm Klebeeinbettung;0.2mm Fuge; galvanische Isolation",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt1_SPITZENBLOCK",
+    "b": "Unten_Blatt1_Spitzeneinsatz",
+    "interface": "38mm Einbettung;0.2mm Klebfuge",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt1_Aussenzapfen",
+    "b": "Unten_Blatt1_608",
+    "interface": "Ø8 k6; Außenring imØ22-H7-Sitz axial±1mm",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt1_Aussenlagertraeger",
+    "b": "Unten_Aussenring",
+    "interface": "Vier M4;6mm Eingriff im separaten Tragsteg; V-Kontur bleibt durchgehend",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Innenring",
+    "b": "Unten_Blatt1_Speichensockel",
+    "interface": "Vier M6;4×Blindkernloch12tief; keine CFK-Querbohrung",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt1_Speichensockel",
+    "b": "Unten_Blatt1_Speiche",
+    "interface": "Geteilte Standardklemme und Isolierlage",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt1_Speiche",
+    "b": "Unten_Blatt1_Aussenlagertraeger",
+    "interface": "Geteilte Standardklemme und Isolierlage",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Innenring",
+    "b": "Unten_Blatt2_Patrone",
+    "interface": "Ø40.2 Gehäuseaufnahme; Flanschanschlag x138; Deckel von innen montierbar",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt2_Patrone",
+    "b": "Unten_Blatt2_Pitchwelle",
+    "interface": "7201B-DB-Paar; KM1/MB1; axialer Festlagerpfad",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt2_Pitchwelle",
+    "b": "Unten_Blatt2_Wurzeleinsatz",
+    "interface": "Ø12/4×4 Passfeder; zusätzliche axiale Sicherung vor Freigabe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt2_Wurzeleinsatz",
+    "b": "Unten_Blatt2_WURZELBLOCK",
+    "interface": "50mm Klebeeinbettung;0.2mm Fuge; galvanische Isolation",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt2_SPITZENBLOCK",
+    "b": "Unten_Blatt2_Spitzeneinsatz",
+    "interface": "38mm Einbettung;0.2mm Klebfuge",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt2_Aussenzapfen",
+    "b": "Unten_Blatt2_608",
+    "interface": "Ø8 k6; Außenring imØ22-H7-Sitz axial±1mm",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt2_Aussenlagertraeger",
+    "b": "Unten_Aussenring",
+    "interface": "Vier M4;6mm Eingriff im separaten Tragsteg; V-Kontur bleibt durchgehend",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Innenring",
+    "b": "Unten_Blatt2_Speichensockel",
+    "interface": "Vier M6;4×Blindkernloch12tief; keine CFK-Querbohrung",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt2_Speichensockel",
+    "b": "Unten_Blatt2_Speiche",
+    "interface": "Geteilte Standardklemme und Isolierlage",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt2_Speiche",
+    "b": "Unten_Blatt2_Aussenlagertraeger",
+    "interface": "Geteilte Standardklemme und Isolierlage",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Innenring",
+    "b": "Unten_Blatt3_Patrone",
+    "interface": "Ø40.2 Gehäuseaufnahme; Flanschanschlag x138; Deckel von innen montierbar",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt3_Patrone",
+    "b": "Unten_Blatt3_Pitchwelle",
+    "interface": "7201B-DB-Paar; KM1/MB1; axialer Festlagerpfad",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt3_Pitchwelle",
+    "b": "Unten_Blatt3_Wurzeleinsatz",
+    "interface": "Ø12/4×4 Passfeder; zusätzliche axiale Sicherung vor Freigabe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt3_Wurzeleinsatz",
+    "b": "Unten_Blatt3_WURZELBLOCK",
+    "interface": "50mm Klebeeinbettung;0.2mm Fuge; galvanische Isolation",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt3_SPITZENBLOCK",
+    "b": "Unten_Blatt3_Spitzeneinsatz",
+    "interface": "38mm Einbettung;0.2mm Klebfuge",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt3_Aussenzapfen",
+    "b": "Unten_Blatt3_608",
+    "interface": "Ø8 k6; Außenring imØ22-H7-Sitz axial±1mm",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt3_Aussenlagertraeger",
+    "b": "Unten_Aussenring",
+    "interface": "Vier M4;6mm Eingriff im separaten Tragsteg; V-Kontur bleibt durchgehend",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Innenring",
+    "b": "Unten_Blatt3_Speichensockel",
+    "interface": "Vier M6;4×Blindkernloch12tief; keine CFK-Querbohrung",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt3_Speichensockel",
+    "b": "Unten_Blatt3_Speiche",
+    "interface": "Geteilte Standardklemme und Isolierlage",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt3_Speiche",
+    "b": "Unten_Blatt3_Aussenlagertraeger",
+    "interface": "Geteilte Standardklemme und Isolierlage",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Innenring",
+    "b": "Unten_Blatt4_Patrone",
+    "interface": "Ø40.2 Gehäuseaufnahme; Flanschanschlag x138; Deckel von innen montierbar",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt4_Patrone",
+    "b": "Unten_Blatt4_Pitchwelle",
+    "interface": "7201B-DB-Paar; KM1/MB1; axialer Festlagerpfad",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt4_Pitchwelle",
+    "b": "Unten_Blatt4_Wurzeleinsatz",
+    "interface": "Ø12/4×4 Passfeder; zusätzliche axiale Sicherung vor Freigabe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt4_Wurzeleinsatz",
+    "b": "Unten_Blatt4_WURZELBLOCK",
+    "interface": "50mm Klebeeinbettung;0.2mm Fuge; galvanische Isolation",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt4_SPITZENBLOCK",
+    "b": "Unten_Blatt4_Spitzeneinsatz",
+    "interface": "38mm Einbettung;0.2mm Klebfuge",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt4_Aussenzapfen",
+    "b": "Unten_Blatt4_608",
+    "interface": "Ø8 k6; Außenring imØ22-H7-Sitz axial±1mm",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt4_Aussenlagertraeger",
+    "b": "Unten_Aussenring",
+    "interface": "Vier M4;6mm Eingriff im separaten Tragsteg; V-Kontur bleibt durchgehend",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Innenring",
+    "b": "Unten_Blatt4_Speichensockel",
+    "interface": "Vier M6;4×Blindkernloch12tief; keine CFK-Querbohrung",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt4_Speichensockel",
+    "b": "Unten_Blatt4_Speiche",
+    "interface": "Geteilte Standardklemme und Isolierlage",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt4_Speiche",
+    "b": "Unten_Blatt4_Aussenlagertraeger",
+    "interface": "Geteilte Standardklemme und Isolierlage",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Innenring",
+    "b": "Unten_Blatt5_Patrone",
+    "interface": "Ø40.2 Gehäuseaufnahme; Flanschanschlag x138; Deckel von innen montierbar",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt5_Patrone",
+    "b": "Unten_Blatt5_Pitchwelle",
+    "interface": "7201B-DB-Paar; KM1/MB1; axialer Festlagerpfad",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt5_Pitchwelle",
+    "b": "Unten_Blatt5_Wurzeleinsatz",
+    "interface": "Ø12/4×4 Passfeder; zusätzliche axiale Sicherung vor Freigabe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt5_Wurzeleinsatz",
+    "b": "Unten_Blatt5_WURZELBLOCK",
+    "interface": "50mm Klebeeinbettung;0.2mm Fuge; galvanische Isolation",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt5_SPITZENBLOCK",
+    "b": "Unten_Blatt5_Spitzeneinsatz",
+    "interface": "38mm Einbettung;0.2mm Klebfuge",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt5_Aussenzapfen",
+    "b": "Unten_Blatt5_608",
+    "interface": "Ø8 k6; Außenring imØ22-H7-Sitz axial±1mm",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt5_Aussenlagertraeger",
+    "b": "Unten_Aussenring",
+    "interface": "Vier M4;6mm Eingriff im separaten Tragsteg; V-Kontur bleibt durchgehend",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Innenring",
+    "b": "Unten_Blatt5_Speichensockel",
+    "interface": "Vier M6;4×Blindkernloch12tief; keine CFK-Querbohrung",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt5_Speichensockel",
+    "b": "Unten_Blatt5_Speiche",
+    "interface": "Geteilte Standardklemme und Isolierlage",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt5_Speiche",
+    "b": "Unten_Blatt5_Aussenlagertraeger",
+    "interface": "Geteilte Standardklemme und Isolierlage",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Innenring",
+    "b": "Unten_Blatt6_Patrone",
+    "interface": "Ø40.2 Gehäuseaufnahme; Flanschanschlag x138; Deckel von innen montierbar",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt6_Patrone",
+    "b": "Unten_Blatt6_Pitchwelle",
+    "interface": "7201B-DB-Paar; KM1/MB1; axialer Festlagerpfad",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt6_Pitchwelle",
+    "b": "Unten_Blatt6_Wurzeleinsatz",
+    "interface": "Ø12/4×4 Passfeder; zusätzliche axiale Sicherung vor Freigabe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt6_Wurzeleinsatz",
+    "b": "Unten_Blatt6_WURZELBLOCK",
+    "interface": "50mm Klebeeinbettung;0.2mm Fuge; galvanische Isolation",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt6_SPITZENBLOCK",
+    "b": "Unten_Blatt6_Spitzeneinsatz",
+    "interface": "38mm Einbettung;0.2mm Klebfuge",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt6_Aussenzapfen",
+    "b": "Unten_Blatt6_608",
+    "interface": "Ø8 k6; Außenring imØ22-H7-Sitz axial±1mm",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt6_Aussenlagertraeger",
+    "b": "Unten_Aussenring",
+    "interface": "Vier M4;6mm Eingriff im separaten Tragsteg; V-Kontur bleibt durchgehend",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Innenring",
+    "b": "Unten_Blatt6_Speichensockel",
+    "interface": "Vier M6;4×Blindkernloch12tief; keine CFK-Querbohrung",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt6_Speichensockel",
+    "b": "Unten_Blatt6_Speiche",
+    "interface": "Geteilte Standardklemme und Isolierlage",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt6_Speiche",
+    "b": "Unten_Blatt6_Aussenlagertraeger",
+    "interface": "Geteilte Standardklemme und Isolierlage",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Innenring",
+    "b": "Unten_Blatt7_Patrone",
+    "interface": "Ø40.2 Gehäuseaufnahme; Flanschanschlag x138; Deckel von innen montierbar",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt7_Patrone",
+    "b": "Unten_Blatt7_Pitchwelle",
+    "interface": "7201B-DB-Paar; KM1/MB1; axialer Festlagerpfad",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt7_Pitchwelle",
+    "b": "Unten_Blatt7_Wurzeleinsatz",
+    "interface": "Ø12/4×4 Passfeder; zusätzliche axiale Sicherung vor Freigabe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt7_Wurzeleinsatz",
+    "b": "Unten_Blatt7_WURZELBLOCK",
+    "interface": "50mm Klebeeinbettung;0.2mm Fuge; galvanische Isolation",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt7_SPITZENBLOCK",
+    "b": "Unten_Blatt7_Spitzeneinsatz",
+    "interface": "38mm Einbettung;0.2mm Klebfuge",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt7_Aussenzapfen",
+    "b": "Unten_Blatt7_608",
+    "interface": "Ø8 k6; Außenring imØ22-H7-Sitz axial±1mm",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt7_Aussenlagertraeger",
+    "b": "Unten_Aussenring",
+    "interface": "Vier M4;6mm Eingriff im separaten Tragsteg; V-Kontur bleibt durchgehend",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Innenring",
+    "b": "Unten_Blatt7_Speichensockel",
+    "interface": "Vier M6;4×Blindkernloch12tief; keine CFK-Querbohrung",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt7_Speichensockel",
+    "b": "Unten_Blatt7_Speiche",
+    "interface": "Geteilte Standardklemme und Isolierlage",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt7_Speiche",
+    "b": "Unten_Blatt7_Aussenlagertraeger",
+    "interface": "Geteilte Standardklemme und Isolierlage",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Innenring",
+    "b": "Unten_Blatt8_Patrone",
+    "interface": "Ø40.2 Gehäuseaufnahme; Flanschanschlag x138; Deckel von innen montierbar",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt8_Patrone",
+    "b": "Unten_Blatt8_Pitchwelle",
+    "interface": "7201B-DB-Paar; KM1/MB1; axialer Festlagerpfad",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt8_Pitchwelle",
+    "b": "Unten_Blatt8_Wurzeleinsatz",
+    "interface": "Ø12/4×4 Passfeder; zusätzliche axiale Sicherung vor Freigabe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt8_Wurzeleinsatz",
+    "b": "Unten_Blatt8_WURZELBLOCK",
+    "interface": "50mm Klebeeinbettung;0.2mm Fuge; galvanische Isolation",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt8_SPITZENBLOCK",
+    "b": "Unten_Blatt8_Spitzeneinsatz",
+    "interface": "38mm Einbettung;0.2mm Klebfuge",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt8_Aussenzapfen",
+    "b": "Unten_Blatt8_608",
+    "interface": "Ø8 k6; Außenring imØ22-H7-Sitz axial±1mm",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt8_Aussenlagertraeger",
+    "b": "Unten_Aussenring",
+    "interface": "Vier M4;6mm Eingriff im separaten Tragsteg; V-Kontur bleibt durchgehend",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Innenring",
+    "b": "Unten_Blatt8_Speichensockel",
+    "interface": "Vier M6;4×Blindkernloch12tief; keine CFK-Querbohrung",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt8_Speichensockel",
+    "b": "Unten_Blatt8_Speiche",
+    "interface": "Geteilte Standardklemme und Isolierlage",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt8_Speiche",
+    "b": "Unten_Blatt8_Aussenlagertraeger",
+    "interface": "Geteilte Standardklemme und Isolierlage",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt1_Pitchhebel",
+    "b": "Oben_Blatt1_Pitchgestaenge",
+    "interface": "Zwei M6-Gelenkköpfe,Ø6-Schulterbolzen; RH/LH-Gestänge; Kugelmittenabstand aus CAD",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt1_Pitchgestaenge",
+    "b": "Oben_Taumelring",
+    "interface": "KugelgelenkR90; Winkelfreigang separat in Kinematikprüfung",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt2_Pitchhebel",
+    "b": "Oben_Blatt2_Pitchgestaenge",
+    "interface": "Zwei M6-Gelenkköpfe,Ø6-Schulterbolzen; RH/LH-Gestänge; Kugelmittenabstand aus CAD",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt2_Pitchgestaenge",
+    "b": "Oben_Taumelring",
+    "interface": "KugelgelenkR90; Winkelfreigang separat in Kinematikprüfung",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt3_Pitchhebel",
+    "b": "Oben_Blatt3_Pitchgestaenge",
+    "interface": "Zwei M6-Gelenkköpfe,Ø6-Schulterbolzen; RH/LH-Gestänge; Kugelmittenabstand aus CAD",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt3_Pitchgestaenge",
+    "b": "Oben_Taumelring",
+    "interface": "KugelgelenkR90; Winkelfreigang separat in Kinematikprüfung",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt4_Pitchhebel",
+    "b": "Oben_Blatt4_Pitchgestaenge",
+    "interface": "Zwei M6-Gelenkköpfe,Ø6-Schulterbolzen; RH/LH-Gestänge; Kugelmittenabstand aus CAD",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt4_Pitchgestaenge",
+    "b": "Oben_Taumelring",
+    "interface": "KugelgelenkR90; Winkelfreigang separat in Kinematikprüfung",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt5_Pitchhebel",
+    "b": "Oben_Blatt5_Pitchgestaenge",
+    "interface": "Zwei M6-Gelenkköpfe,Ø6-Schulterbolzen; RH/LH-Gestänge; Kugelmittenabstand aus CAD",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt5_Pitchgestaenge",
+    "b": "Oben_Taumelring",
+    "interface": "KugelgelenkR90; Winkelfreigang separat in Kinematikprüfung",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt6_Pitchhebel",
+    "b": "Oben_Blatt6_Pitchgestaenge",
+    "interface": "Zwei M6-Gelenkköpfe,Ø6-Schulterbolzen; RH/LH-Gestänge; Kugelmittenabstand aus CAD",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt6_Pitchgestaenge",
+    "b": "Oben_Taumelring",
+    "interface": "KugelgelenkR90; Winkelfreigang separat in Kinematikprüfung",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt7_Pitchhebel",
+    "b": "Oben_Blatt7_Pitchgestaenge",
+    "interface": "Zwei M6-Gelenkköpfe,Ø6-Schulterbolzen; RH/LH-Gestänge; Kugelmittenabstand aus CAD",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt7_Pitchgestaenge",
+    "b": "Oben_Taumelring",
+    "interface": "KugelgelenkR90; Winkelfreigang separat in Kinematikprüfung",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt8_Pitchhebel",
+    "b": "Oben_Blatt8_Pitchgestaenge",
+    "interface": "Zwei M6-Gelenkköpfe,Ø6-Schulterbolzen; RH/LH-Gestänge; Kugelmittenabstand aus CAD",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Blatt8_Pitchgestaenge",
+    "b": "Oben_Taumelring",
+    "interface": "KugelgelenkR90; Winkelfreigang separat in Kinematikprüfung",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Zentralplatte",
+    "b": "Oben_Aktor1_Gehaeuse",
+    "interface": "GE20ES-Gelenkfuß;12mm nutzbarer Hub; geführter Außenwagen; Schnittstellengehäuse nach RFQ",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Aktor1_Wagen",
+    "b": "Oben_Taumeltraeger",
+    "interface": "M6-Kugelgelenk, seitlicher Abtrieb; stationäre Scherenführung gegen Mitdrehen",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Zentralplatte",
+    "b": "Oben_Aktor2_Gehaeuse",
+    "interface": "GE20ES-Gelenkfuß;12mm nutzbarer Hub; geführter Außenwagen; Schnittstellengehäuse nach RFQ",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Aktor2_Wagen",
+    "b": "Oben_Taumeltraeger",
+    "interface": "M6-Kugelgelenk, seitlicher Abtrieb; stationäre Scherenführung gegen Mitdrehen",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Zentralplatte",
+    "b": "Oben_Aktor3_Gehaeuse",
+    "interface": "GE20ES-Gelenkfuß;12mm nutzbarer Hub; geführter Außenwagen; Schnittstellengehäuse nach RFQ",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Aktor3_Wagen",
+    "b": "Oben_Taumeltraeger",
+    "interface": "M6-Kugelgelenk, seitlicher Abtrieb; stationäre Scherenführung gegen Mitdrehen",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt1_Pitchhebel",
+    "b": "Unten_Blatt1_Pitchgestaenge",
+    "interface": "Zwei M6-Gelenkköpfe,Ø6-Schulterbolzen; RH/LH-Gestänge; Kugelmittenabstand aus CAD",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt1_Pitchgestaenge",
+    "b": "Unten_Taumelring",
+    "interface": "KugelgelenkR90; Winkelfreigang separat in Kinematikprüfung",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt2_Pitchhebel",
+    "b": "Unten_Blatt2_Pitchgestaenge",
+    "interface": "Zwei M6-Gelenkköpfe,Ø6-Schulterbolzen; RH/LH-Gestänge; Kugelmittenabstand aus CAD",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt2_Pitchgestaenge",
+    "b": "Unten_Taumelring",
+    "interface": "KugelgelenkR90; Winkelfreigang separat in Kinematikprüfung",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt3_Pitchhebel",
+    "b": "Unten_Blatt3_Pitchgestaenge",
+    "interface": "Zwei M6-Gelenkköpfe,Ø6-Schulterbolzen; RH/LH-Gestänge; Kugelmittenabstand aus CAD",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt3_Pitchgestaenge",
+    "b": "Unten_Taumelring",
+    "interface": "KugelgelenkR90; Winkelfreigang separat in Kinematikprüfung",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt4_Pitchhebel",
+    "b": "Unten_Blatt4_Pitchgestaenge",
+    "interface": "Zwei M6-Gelenkköpfe,Ø6-Schulterbolzen; RH/LH-Gestänge; Kugelmittenabstand aus CAD",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt4_Pitchgestaenge",
+    "b": "Unten_Taumelring",
+    "interface": "KugelgelenkR90; Winkelfreigang separat in Kinematikprüfung",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt5_Pitchhebel",
+    "b": "Unten_Blatt5_Pitchgestaenge",
+    "interface": "Zwei M6-Gelenkköpfe,Ø6-Schulterbolzen; RH/LH-Gestänge; Kugelmittenabstand aus CAD",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt5_Pitchgestaenge",
+    "b": "Unten_Taumelring",
+    "interface": "KugelgelenkR90; Winkelfreigang separat in Kinematikprüfung",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt6_Pitchhebel",
+    "b": "Unten_Blatt6_Pitchgestaenge",
+    "interface": "Zwei M6-Gelenkköpfe,Ø6-Schulterbolzen; RH/LH-Gestänge; Kugelmittenabstand aus CAD",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt6_Pitchgestaenge",
+    "b": "Unten_Taumelring",
+    "interface": "KugelgelenkR90; Winkelfreigang separat in Kinematikprüfung",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt7_Pitchhebel",
+    "b": "Unten_Blatt7_Pitchgestaenge",
+    "interface": "Zwei M6-Gelenkköpfe,Ø6-Schulterbolzen; RH/LH-Gestänge; Kugelmittenabstand aus CAD",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt7_Pitchgestaenge",
+    "b": "Unten_Taumelring",
+    "interface": "KugelgelenkR90; Winkelfreigang separat in Kinematikprüfung",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt8_Pitchhebel",
+    "b": "Unten_Blatt8_Pitchgestaenge",
+    "interface": "Zwei M6-Gelenkköpfe,Ø6-Schulterbolzen; RH/LH-Gestänge; Kugelmittenabstand aus CAD",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Blatt8_Pitchgestaenge",
+    "b": "Unten_Taumelring",
+    "interface": "KugelgelenkR90; Winkelfreigang separat in Kinematikprüfung",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Zentralplatte",
+    "b": "Unten_Aktor1_Gehaeuse",
+    "interface": "GE20ES-Gelenkfuß;12mm nutzbarer Hub; geführter Außenwagen; Schnittstellengehäuse nach RFQ",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Aktor1_Wagen",
+    "b": "Unten_Taumeltraeger",
+    "interface": "M6-Kugelgelenk, seitlicher Abtrieb; stationäre Scherenführung gegen Mitdrehen",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Zentralplatte",
+    "b": "Unten_Aktor2_Gehaeuse",
+    "interface": "GE20ES-Gelenkfuß;12mm nutzbarer Hub; geführter Außenwagen; Schnittstellengehäuse nach RFQ",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Aktor2_Wagen",
+    "b": "Unten_Taumeltraeger",
+    "interface": "M6-Kugelgelenk, seitlicher Abtrieb; stationäre Scherenführung gegen Mitdrehen",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Zentralplatte",
+    "b": "Unten_Aktor3_Gehaeuse",
+    "interface": "GE20ES-Gelenkfuß;12mm nutzbarer Hub; geführter Außenwagen; Schnittstellengehäuse nach RFQ",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Aktor3_Wagen",
+    "b": "Unten_Taumeltraeger",
+    "interface": "M6-Kugelgelenk, seitlicher Abtrieb; stationäre Scherenführung gegen Mitdrehen",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Membran",
+    "b": "Oben_Innenring",
+    "interface": "DIN976-M6-Zuganker; Distanzsäule; ISO7089-Scheiben/ISO4032-Muttern beidseitig",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Membran",
+    "b": "Oben_Innenring",
+    "interface": "DIN976-M6-Zuganker; Distanzsäule; ISO7089-Scheiben/ISO4032-Muttern beidseitig",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Membran",
+    "b": "Oben_Innenring",
+    "interface": "DIN976-M6-Zuganker; Distanzsäule; ISO7089-Scheiben/ISO4032-Muttern beidseitig",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Membran",
+    "b": "Oben_Innenring",
+    "interface": "DIN976-M6-Zuganker; Distanzsäule; ISO7089-Scheiben/ISO4032-Muttern beidseitig",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Membran",
+    "b": "Oben_Innenring",
+    "interface": "DIN976-M6-Zuganker; Distanzsäule; ISO7089-Scheiben/ISO4032-Muttern beidseitig",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Membran",
+    "b": "Oben_Innenring",
+    "interface": "DIN976-M6-Zuganker; Distanzsäule; ISO7089-Scheiben/ISO4032-Muttern beidseitig",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Membran",
+    "b": "Oben_Innenring",
+    "interface": "DIN976-M6-Zuganker; Distanzsäule; ISO7089-Scheiben/ISO4032-Muttern beidseitig",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Membran",
+    "b": "Oben_Innenring",
+    "interface": "DIN976-M6-Zuganker; Distanzsäule; ISO7089-Scheiben/ISO4032-Muttern beidseitig",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Membran",
+    "b": "Unten_Innenring",
+    "interface": "DIN976-M6-Zuganker; Distanzsäule; ISO7089-Scheiben/ISO4032-Muttern beidseitig",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Membran",
+    "b": "Unten_Innenring",
+    "interface": "DIN976-M6-Zuganker; Distanzsäule; ISO7089-Scheiben/ISO4032-Muttern beidseitig",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Membran",
+    "b": "Unten_Innenring",
+    "interface": "DIN976-M6-Zuganker; Distanzsäule; ISO7089-Scheiben/ISO4032-Muttern beidseitig",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Membran",
+    "b": "Unten_Innenring",
+    "interface": "DIN976-M6-Zuganker; Distanzsäule; ISO7089-Scheiben/ISO4032-Muttern beidseitig",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Membran",
+    "b": "Unten_Innenring",
+    "interface": "DIN976-M6-Zuganker; Distanzsäule; ISO7089-Scheiben/ISO4032-Muttern beidseitig",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Membran",
+    "b": "Unten_Innenring",
+    "interface": "DIN976-M6-Zuganker; Distanzsäule; ISO7089-Scheiben/ISO4032-Muttern beidseitig",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Membran",
+    "b": "Unten_Innenring",
+    "interface": "DIN976-M6-Zuganker; Distanzsäule; ISO7089-Scheiben/ISO4032-Muttern beidseitig",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Membran",
+    "b": "Unten_Innenring",
+    "interface": "DIN976-M6-Zuganker; Distanzsäule; ISO7089-Scheiben/ISO4032-Muttern beidseitig",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Motor",
+    "b": "Oben_Statorplatte",
+    "interface": "Nutzerzeichnung4×M6/PCD50, Phase0°; ISO4762-M6×12; angenommener Eingriff6mm",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Gewindetiefe vor Schraubenbestellung abgleichen"
+  },
+  {
+    "a": "Oben_Motor",
+    "b": "Oben_Nabe",
+    "interface": "Nutzerzeichnung12×M5/PCD40; ISO4762-M5×40; angenommener Eingriff5mm",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Gewindetiefe/Zentrierung vor Bestellung abgleichen"
+  },
+  {
+    "a": "Unten_Motor",
+    "b": "Unten_Statorplatte",
+    "interface": "Nutzerzeichnung4×M6/PCD50, Phase0°; ISO4762-M6×12; angenommener Eingriff6mm",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Gewindetiefe vor Schraubenbestellung abgleichen"
+  },
+  {
+    "a": "Unten_Motor",
+    "b": "Unten_Nabe",
+    "interface": "Nutzerzeichnung12×M5/PCD40; ISO4762-M5×40; angenommener Eingriff5mm",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Gewindetiefe/Zentrierung vor Bestellung abgleichen"
+  },
+  {
+    "a": "Oben_Fachwerk1_Pylon",
+    "b": "Oben_Fachwerk1_Strebe-1",
+    "interface": "M8-Gelenkkopf;Ø8-Gabelbolzen;30×26-CFK-Druck/Zugstrebe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Fachwerk1_Strebe-1",
+    "b": "Oben_Blatt8_Aussenlagertraeger",
+    "interface": "M8-Gelenkkopf; isolierter40mm-Klebeinsert; V-Fachwerk",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Fachwerk1_Pylon",
+    "b": "Oben_Fachwerk1_Strebe1",
+    "interface": "M8-Gelenkkopf;Ø8-Gabelbolzen;30×26-CFK-Druck/Zugstrebe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Fachwerk1_Strebe1",
+    "b": "Oben_Blatt1_Aussenlagertraeger",
+    "interface": "M8-Gelenkkopf; isolierter40mm-Klebeinsert; V-Fachwerk",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Fachwerk2_Pylon",
+    "b": "Oben_Fachwerk2_Strebe-1",
+    "interface": "M8-Gelenkkopf;Ø8-Gabelbolzen;30×26-CFK-Druck/Zugstrebe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Fachwerk2_Strebe-1",
+    "b": "Oben_Blatt1_Aussenlagertraeger",
+    "interface": "M8-Gelenkkopf; isolierter40mm-Klebeinsert; V-Fachwerk",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Fachwerk2_Pylon",
+    "b": "Oben_Fachwerk2_Strebe1",
+    "interface": "M8-Gelenkkopf;Ø8-Gabelbolzen;30×26-CFK-Druck/Zugstrebe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Fachwerk2_Strebe1",
+    "b": "Oben_Blatt2_Aussenlagertraeger",
+    "interface": "M8-Gelenkkopf; isolierter40mm-Klebeinsert; V-Fachwerk",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Fachwerk3_Pylon",
+    "b": "Oben_Fachwerk3_Strebe-1",
+    "interface": "M8-Gelenkkopf;Ø8-Gabelbolzen;30×26-CFK-Druck/Zugstrebe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Fachwerk3_Strebe-1",
+    "b": "Oben_Blatt2_Aussenlagertraeger",
+    "interface": "M8-Gelenkkopf; isolierter40mm-Klebeinsert; V-Fachwerk",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Fachwerk3_Pylon",
+    "b": "Oben_Fachwerk3_Strebe1",
+    "interface": "M8-Gelenkkopf;Ø8-Gabelbolzen;30×26-CFK-Druck/Zugstrebe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Fachwerk3_Strebe1",
+    "b": "Oben_Blatt3_Aussenlagertraeger",
+    "interface": "M8-Gelenkkopf; isolierter40mm-Klebeinsert; V-Fachwerk",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Fachwerk4_Pylon",
+    "b": "Oben_Fachwerk4_Strebe-1",
+    "interface": "M8-Gelenkkopf;Ø8-Gabelbolzen;30×26-CFK-Druck/Zugstrebe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Fachwerk4_Strebe-1",
+    "b": "Oben_Blatt3_Aussenlagertraeger",
+    "interface": "M8-Gelenkkopf; isolierter40mm-Klebeinsert; V-Fachwerk",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Fachwerk4_Pylon",
+    "b": "Oben_Fachwerk4_Strebe1",
+    "interface": "M8-Gelenkkopf;Ø8-Gabelbolzen;30×26-CFK-Druck/Zugstrebe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Fachwerk4_Strebe1",
+    "b": "Oben_Blatt4_Aussenlagertraeger",
+    "interface": "M8-Gelenkkopf; isolierter40mm-Klebeinsert; V-Fachwerk",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Fachwerk5_Pylon",
+    "b": "Oben_Fachwerk5_Strebe-1",
+    "interface": "M8-Gelenkkopf;Ø8-Gabelbolzen;30×26-CFK-Druck/Zugstrebe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Fachwerk5_Strebe-1",
+    "b": "Oben_Blatt4_Aussenlagertraeger",
+    "interface": "M8-Gelenkkopf; isolierter40mm-Klebeinsert; V-Fachwerk",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Fachwerk5_Pylon",
+    "b": "Oben_Fachwerk5_Strebe1",
+    "interface": "M8-Gelenkkopf;Ø8-Gabelbolzen;30×26-CFK-Druck/Zugstrebe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Fachwerk5_Strebe1",
+    "b": "Oben_Blatt5_Aussenlagertraeger",
+    "interface": "M8-Gelenkkopf; isolierter40mm-Klebeinsert; V-Fachwerk",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Fachwerk6_Pylon",
+    "b": "Oben_Fachwerk6_Strebe-1",
+    "interface": "M8-Gelenkkopf;Ø8-Gabelbolzen;30×26-CFK-Druck/Zugstrebe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Fachwerk6_Strebe-1",
+    "b": "Oben_Blatt5_Aussenlagertraeger",
+    "interface": "M8-Gelenkkopf; isolierter40mm-Klebeinsert; V-Fachwerk",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Fachwerk6_Pylon",
+    "b": "Oben_Fachwerk6_Strebe1",
+    "interface": "M8-Gelenkkopf;Ø8-Gabelbolzen;30×26-CFK-Druck/Zugstrebe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Fachwerk6_Strebe1",
+    "b": "Oben_Blatt6_Aussenlagertraeger",
+    "interface": "M8-Gelenkkopf; isolierter40mm-Klebeinsert; V-Fachwerk",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Fachwerk7_Pylon",
+    "b": "Oben_Fachwerk7_Strebe-1",
+    "interface": "M8-Gelenkkopf;Ø8-Gabelbolzen;30×26-CFK-Druck/Zugstrebe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Fachwerk7_Strebe-1",
+    "b": "Oben_Blatt6_Aussenlagertraeger",
+    "interface": "M8-Gelenkkopf; isolierter40mm-Klebeinsert; V-Fachwerk",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Fachwerk7_Pylon",
+    "b": "Oben_Fachwerk7_Strebe1",
+    "interface": "M8-Gelenkkopf;Ø8-Gabelbolzen;30×26-CFK-Druck/Zugstrebe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Fachwerk7_Strebe1",
+    "b": "Oben_Blatt7_Aussenlagertraeger",
+    "interface": "M8-Gelenkkopf; isolierter40mm-Klebeinsert; V-Fachwerk",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Fachwerk8_Pylon",
+    "b": "Oben_Fachwerk8_Strebe-1",
+    "interface": "M8-Gelenkkopf;Ø8-Gabelbolzen;30×26-CFK-Druck/Zugstrebe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Fachwerk8_Strebe-1",
+    "b": "Oben_Blatt7_Aussenlagertraeger",
+    "interface": "M8-Gelenkkopf; isolierter40mm-Klebeinsert; V-Fachwerk",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Fachwerk8_Pylon",
+    "b": "Oben_Fachwerk8_Strebe1",
+    "interface": "M8-Gelenkkopf;Ø8-Gabelbolzen;30×26-CFK-Druck/Zugstrebe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Fachwerk8_Strebe1",
+    "b": "Oben_Blatt8_Aussenlagertraeger",
+    "interface": "M8-Gelenkkopf; isolierter40mm-Klebeinsert; V-Fachwerk",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Innenring",
+    "b": "Oben_Aussenring",
+    "interface": "8 V-Fachwerkfelder; je2CFK30×26-Streben; ursprüngliche20×17-Speichen bleiben Lage-/Torsionsverbindung",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Fachwerk1_Pylon",
+    "b": "Unten_Fachwerk1_Strebe-1",
+    "interface": "M8-Gelenkkopf;Ø8-Gabelbolzen;30×26-CFK-Druck/Zugstrebe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Fachwerk1_Strebe-1",
+    "b": "Unten_Blatt8_Aussenlagertraeger",
+    "interface": "M8-Gelenkkopf; isolierter40mm-Klebeinsert; V-Fachwerk",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Fachwerk1_Pylon",
+    "b": "Unten_Fachwerk1_Strebe1",
+    "interface": "M8-Gelenkkopf;Ø8-Gabelbolzen;30×26-CFK-Druck/Zugstrebe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Fachwerk1_Strebe1",
+    "b": "Unten_Blatt1_Aussenlagertraeger",
+    "interface": "M8-Gelenkkopf; isolierter40mm-Klebeinsert; V-Fachwerk",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Fachwerk2_Pylon",
+    "b": "Unten_Fachwerk2_Strebe-1",
+    "interface": "M8-Gelenkkopf;Ø8-Gabelbolzen;30×26-CFK-Druck/Zugstrebe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Fachwerk2_Strebe-1",
+    "b": "Unten_Blatt1_Aussenlagertraeger",
+    "interface": "M8-Gelenkkopf; isolierter40mm-Klebeinsert; V-Fachwerk",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Fachwerk2_Pylon",
+    "b": "Unten_Fachwerk2_Strebe1",
+    "interface": "M8-Gelenkkopf;Ø8-Gabelbolzen;30×26-CFK-Druck/Zugstrebe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Fachwerk2_Strebe1",
+    "b": "Unten_Blatt2_Aussenlagertraeger",
+    "interface": "M8-Gelenkkopf; isolierter40mm-Klebeinsert; V-Fachwerk",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Fachwerk3_Pylon",
+    "b": "Unten_Fachwerk3_Strebe-1",
+    "interface": "M8-Gelenkkopf;Ø8-Gabelbolzen;30×26-CFK-Druck/Zugstrebe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Fachwerk3_Strebe-1",
+    "b": "Unten_Blatt2_Aussenlagertraeger",
+    "interface": "M8-Gelenkkopf; isolierter40mm-Klebeinsert; V-Fachwerk",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Fachwerk3_Pylon",
+    "b": "Unten_Fachwerk3_Strebe1",
+    "interface": "M8-Gelenkkopf;Ø8-Gabelbolzen;30×26-CFK-Druck/Zugstrebe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Fachwerk3_Strebe1",
+    "b": "Unten_Blatt3_Aussenlagertraeger",
+    "interface": "M8-Gelenkkopf; isolierter40mm-Klebeinsert; V-Fachwerk",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Fachwerk4_Pylon",
+    "b": "Unten_Fachwerk4_Strebe-1",
+    "interface": "M8-Gelenkkopf;Ø8-Gabelbolzen;30×26-CFK-Druck/Zugstrebe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Fachwerk4_Strebe-1",
+    "b": "Unten_Blatt3_Aussenlagertraeger",
+    "interface": "M8-Gelenkkopf; isolierter40mm-Klebeinsert; V-Fachwerk",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Fachwerk4_Pylon",
+    "b": "Unten_Fachwerk4_Strebe1",
+    "interface": "M8-Gelenkkopf;Ø8-Gabelbolzen;30×26-CFK-Druck/Zugstrebe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Fachwerk4_Strebe1",
+    "b": "Unten_Blatt4_Aussenlagertraeger",
+    "interface": "M8-Gelenkkopf; isolierter40mm-Klebeinsert; V-Fachwerk",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Fachwerk5_Pylon",
+    "b": "Unten_Fachwerk5_Strebe-1",
+    "interface": "M8-Gelenkkopf;Ø8-Gabelbolzen;30×26-CFK-Druck/Zugstrebe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Fachwerk5_Strebe-1",
+    "b": "Unten_Blatt4_Aussenlagertraeger",
+    "interface": "M8-Gelenkkopf; isolierter40mm-Klebeinsert; V-Fachwerk",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Fachwerk5_Pylon",
+    "b": "Unten_Fachwerk5_Strebe1",
+    "interface": "M8-Gelenkkopf;Ø8-Gabelbolzen;30×26-CFK-Druck/Zugstrebe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Fachwerk5_Strebe1",
+    "b": "Unten_Blatt5_Aussenlagertraeger",
+    "interface": "M8-Gelenkkopf; isolierter40mm-Klebeinsert; V-Fachwerk",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Fachwerk6_Pylon",
+    "b": "Unten_Fachwerk6_Strebe-1",
+    "interface": "M8-Gelenkkopf;Ø8-Gabelbolzen;30×26-CFK-Druck/Zugstrebe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Fachwerk6_Strebe-1",
+    "b": "Unten_Blatt5_Aussenlagertraeger",
+    "interface": "M8-Gelenkkopf; isolierter40mm-Klebeinsert; V-Fachwerk",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Fachwerk6_Pylon",
+    "b": "Unten_Fachwerk6_Strebe1",
+    "interface": "M8-Gelenkkopf;Ø8-Gabelbolzen;30×26-CFK-Druck/Zugstrebe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Fachwerk6_Strebe1",
+    "b": "Unten_Blatt6_Aussenlagertraeger",
+    "interface": "M8-Gelenkkopf; isolierter40mm-Klebeinsert; V-Fachwerk",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Fachwerk7_Pylon",
+    "b": "Unten_Fachwerk7_Strebe-1",
+    "interface": "M8-Gelenkkopf;Ø8-Gabelbolzen;30×26-CFK-Druck/Zugstrebe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Fachwerk7_Strebe-1",
+    "b": "Unten_Blatt6_Aussenlagertraeger",
+    "interface": "M8-Gelenkkopf; isolierter40mm-Klebeinsert; V-Fachwerk",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Fachwerk7_Pylon",
+    "b": "Unten_Fachwerk7_Strebe1",
+    "interface": "M8-Gelenkkopf;Ø8-Gabelbolzen;30×26-CFK-Druck/Zugstrebe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Fachwerk7_Strebe1",
+    "b": "Unten_Blatt7_Aussenlagertraeger",
+    "interface": "M8-Gelenkkopf; isolierter40mm-Klebeinsert; V-Fachwerk",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Fachwerk8_Pylon",
+    "b": "Unten_Fachwerk8_Strebe-1",
+    "interface": "M8-Gelenkkopf;Ø8-Gabelbolzen;30×26-CFK-Druck/Zugstrebe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Fachwerk8_Strebe-1",
+    "b": "Unten_Blatt7_Aussenlagertraeger",
+    "interface": "M8-Gelenkkopf; isolierter40mm-Klebeinsert; V-Fachwerk",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Fachwerk8_Pylon",
+    "b": "Unten_Fachwerk8_Strebe1",
+    "interface": "M8-Gelenkkopf;Ø8-Gabelbolzen;30×26-CFK-Druck/Zugstrebe",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Fachwerk8_Strebe1",
+    "b": "Unten_Blatt8_Aussenlagertraeger",
+    "interface": "M8-Gelenkkopf; isolierter40mm-Klebeinsert; V-Fachwerk",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Innenring",
+    "b": "Unten_Aussenring",
+    "interface": "8 V-Fachwerkfelder; je2CFK30×26-Streben; ursprüngliche20×17-Speichen bleiben Lage-/Torsionsverbindung",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Taumeltraeger",
+    "b": "Oben_Mittelstuetze_Rohr",
+    "interface": "Sphärisch gelagerte30mm-Scherenlaschen;GE6E; DIN1444B6×35; ISO1234-Splinte und Innenringdistanzen; Phasenhaltung bei Hub/Kippung",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Taumelring",
+    "b": "Oben_Innenring",
+    "interface": "Sphärisch gelagerte30mm-Scherenlaschen;GE6E; DIN1444B6×35; ISO1234-Splinte und Innenringdistanzen; Phasenhaltung bei Hub/Kippung",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Taumeltraeger",
+    "b": "Unten_Mittelstuetze_Rohr",
+    "interface": "Sphärisch gelagerte30mm-Scherenlaschen;GE6E; DIN1444B6×35; ISO1234-Splinte und Innenringdistanzen; Phasenhaltung bei Hub/Kippung",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Taumelring",
+    "b": "Unten_Innenring",
+    "interface": "Sphärisch gelagerte30mm-Scherenlaschen;GE6E; DIN1444B6×35; ISO1234-Splinte und Innenringdistanzen; Phasenhaltung bei Hub/Kippung",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Zentralplatte",
+    "b": "Oben_Aktor1_Motor",
+    "interface": "Auskragender Servoträger;4×M3/PCD30 nach RFQ;2mm Distanz;15mm Langloch-Spannreserve noch nicht modelliert",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Zentralplatte",
+    "b": "Oben_Aktor2_Motor",
+    "interface": "Auskragender Servoträger;4×M3/PCD30 nach RFQ;2mm Distanz;15mm Langloch-Spannreserve noch nicht modelliert",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Zentralplatte",
+    "b": "Oben_Aktor3_Motor",
+    "interface": "Auskragender Servoträger;4×M3/PCD30 nach RFQ;2mm Distanz;15mm Langloch-Spannreserve noch nicht modelliert",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Zentralplatte",
+    "b": "Unten_Aktor1_Motor",
+    "interface": "Auskragender Servoträger;4×M3/PCD30 nach RFQ;2mm Distanz;15mm Langloch-Spannreserve noch nicht modelliert",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Zentralplatte",
+    "b": "Unten_Aktor2_Motor",
+    "interface": "Auskragender Servoträger;4×M3/PCD30 nach RFQ;2mm Distanz;15mm Langloch-Spannreserve noch nicht modelliert",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Zentralplatte",
+    "b": "Unten_Aktor3_Motor",
+    "interface": "Auskragender Servoträger;4×M3/PCD30 nach RFQ;2mm Distanz;15mm Langloch-Spannreserve noch nicht modelliert",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Motorstütze_-1_-1",
+    "b": "Deckstuetze_Oben_Motorstütze_-1_-1",
+    "interface": "CNC-Decksockel;4×ISO4762-M6×100; durchgehende Druckhülsen im Deckträger",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Motorstütze_-1_1",
+    "b": "Deckstuetze_Oben_Motorstütze_-1_1",
+    "interface": "CNC-Decksockel;4×ISO4762-M6×100; durchgehende Druckhülsen im Deckträger",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Motorstütze_1_-1",
+    "b": "Deckstuetze_Oben_Motorstütze_1_-1",
+    "interface": "CNC-Decksockel;4×ISO4762-M6×100; durchgehende Druckhülsen im Deckträger",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Motorstütze_1_1",
+    "b": "Deckstuetze_Oben_Motorstütze_1_1",
+    "interface": "CNC-Decksockel;4×ISO4762-M6×100; durchgehende Druckhülsen im Deckträger",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Ring0_6",
+    "b": "Landebein_Ring0_6",
+    "interface": "Integrierter CNC-Knotenflansch;4×M6;30mm-Gewinde-/Fügungsnachweis offen",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Ring0_5",
+    "b": "Landebein_Ring0_5",
+    "interface": "Integrierter CNC-Knotenflansch;4×M6;30mm-Gewinde-/Fügungsnachweis offen",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Ring0_12",
+    "b": "Landebein_Ring0_12",
+    "interface": "Integrierter CNC-Knotenflansch;4×M6;30mm-Gewinde-/Fügungsnachweis offen",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Ring0_0",
+    "b": "Landebein_Ring0_0",
+    "interface": "Integrierter CNC-Knotenflansch;4×M6;30mm-Gewinde-/Fügungsnachweis offen",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Zentralplatte",
+    "b": "Oben_Aktor1_Gehaeuse",
+    "interface": "GE20ES-Gelenkfuß;Ø4-Verdrehsicherungsstift im4.4mm-Schwenkschlitz; gesamter Riemenantrieb schwenkt mit",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Zentralplatte",
+    "b": "Oben_Aktor2_Gehaeuse",
+    "interface": "GE20ES-Gelenkfuß;Ø4-Verdrehsicherungsstift im4.4mm-Schwenkschlitz; gesamter Riemenantrieb schwenkt mit",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Oben_Zentralplatte",
+    "b": "Oben_Aktor3_Gehaeuse",
+    "interface": "GE20ES-Gelenkfuß;Ø4-Verdrehsicherungsstift im4.4mm-Schwenkschlitz; gesamter Riemenantrieb schwenkt mit",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Zentralplatte",
+    "b": "Unten_Aktor1_Gehaeuse",
+    "interface": "GE20ES-Gelenkfuß;Ø4-Verdrehsicherungsstift im4.4mm-Schwenkschlitz; gesamter Riemenantrieb schwenkt mit",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Zentralplatte",
+    "b": "Unten_Aktor2_Gehaeuse",
+    "interface": "GE20ES-Gelenkfuß;Ø4-Verdrehsicherungsstift im4.4mm-Schwenkschlitz; gesamter Riemenantrieb schwenkt mit",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  },
+  {
+    "a": "Unten_Zentralplatte",
+    "b": "Unten_Aktor3_Gehaeuse",
+    "interface": "GE20ES-Gelenkfuß;Ø4-Verdrehsicherungsstift im4.4mm-Schwenkschlitz; gesamter Riemenantrieb schwenkt mit",
+    "geometric_status": "DIMENSIONIERTE_SCHNITTSTELLE",
+    "release_pending": "Last-/Montagenachweis offen"
+  }
+]

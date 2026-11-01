@@ -1,0 +1,13 @@
+import sys
+from pathlib import Path
+folder=Path(__file__).resolve().parent
+sys.path.insert(0,str(folder))
+import erstellen
+# Parameteränderungen erfolgen in parameter.json. Die Tabelle der gespeicherten
+# Baugruppe dokumentiert Maße und ist ausdrücklich keine automatische Kopplung.
+saved=sys.argv
+try:
+    sys.argv=['erstellen.py','--output',str(folder/'Ausgabe')]
+    erstellen.main()
+finally:
+    sys.argv=saved

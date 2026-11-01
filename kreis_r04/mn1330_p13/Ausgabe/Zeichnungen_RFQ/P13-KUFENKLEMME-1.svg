@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297">
+<rect width="420" height="297" fill="white"/><style>text{font-family:DejaVu Sans,sans-serif;fill:#142c3d}path,line,circle,ellipse{vector-effect:non-scaling-stroke}</style>
+<rect x="8" y="8" width="404" height="281" fill="none" stroke="#223b4b" stroke-width=".3"/>
+<text x="14" y="19" font-size="6">P13-KUFENKLEMME-1 · Kufen-Schweißsattel</text>
+<text x="14" y="27" font-size="3.5" fill="#a13e26">ANFRAGEZEICHNUNG · Nenngeometrie · keine Fertigungsfreigabe</text>
+<text x="76" y="39" text-anchor="middle" font-size="4">Draufsicht</text>
+<g transform="translate(76,96) scale(1.6)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M -35 -20 L -35 20 " />
+<path id= "2" d=" M -35 -20 L 35 -20 " />
+<path id= "3" d=" M 35 -20 L 35 20 " />
+<path id= "4" d=" M -35 20 L 35 20 " />
+</g>
+</g>
+<text x="76" y="157" text-anchor="middle" font-size="3.5">Hülle 70.000 × 40.000 mm · Maßstab 1.6:1</text>
+<text x="210" y="39" text-anchor="middle" font-size="4">Vorderansicht</text>
+<g transform="translate(210,96) scale(1.6)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 10.875 -35 L -10.875 -35 " />
+<path id= "2" d=" M 10.875 -35 L 10.875 -16.0981 " />
+<path id= "3" d=" M -10.875 -35 L -10.875 35 " />
+<path id= "4" d=" M 10.875 35 L -10.875 35 " />
+<path id= "5" d=" M 10.875 16.0981 L 10.875 35 " />
+<path d="M-4.975 0 A16.1 16.1 0 0 0 10.875 16.0981" /><path d="M10.875 -16.0981 A16.1 16.1 0 0 0 -4.975 -3.94336e-15" /></g>
+</g>
+<text x="210" y="157" text-anchor="middle" font-size="3.5">Hülle 70.000 × 21.750 mm · Maßstab 1.6:1</text>
+<text x="344" y="39" text-anchor="middle" font-size="4">Seitenansicht</text>
+<g transform="translate(344,96) scale(2.8)" stroke="#142c3d" stroke-width=".2" fill="none"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="1.0"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M -10.875 20 L 10.875 20 " />
+<path id= "2" d=" M 10.875 20 L 10.875 -20 " />
+<path id= "3" d=" M -10.875 -20 L 10.875 -20 " />
+<path id= "4" d=" M -10.875 20 L -10.875 -20 " />
+</g>
+</g>
+<text x="344" y="157" text-anchor="middle" font-size="3.5">Hülle 40.000 × 21.750 mm · Maßstab 2.8:1</text>
+<text x="14" y="174" font-size="3.1">Menge: 4 · Werkstoff: EN AW-6082 T6</text>
+<text x="14" y="179" font-size="3.1">Verfahren: Fräsen; qualifizierte Aluminium-Schweißbaugruppe</text>
+<text x="14" y="184" font-size="3.1">Merkmale: SattelsitzØ32.2; Spalt0.1 für Fügung; a3-Symbole nach ISO2553; Verfahren nach ENISO15614-2; Schweißnahtprüfung nach</text>
+<text x="14" y="189" font-size="3.1">ISO10042; keine Klemmhälfte</text>
+<text x="14" y="194" font-size="3.1">Offen: Festigkeits-/Ermüdungs- und Lieferantenfreigabe offen</text>
+<text x="14" y="199" font-size="3.1">Unbemaßte Längen ISO2768-1m als Anfragebasis; Funktionspassungen separat nach ISO286.</text>
+<text x="14" y="204" font-size="3.1">Geometrische GPS-Toleranzen/Bezüge nach ISO22081 mit Fertiger abstimmen. STEP enthält Nennmaße.</text>
+<text x="14" y="209" font-size="3.1">Datum01.11.2026 · P13 · Herkunft/Normfamilie und Grenzen siehe Stückliste und Anfrageunterlagen.</text>
+</svg>

@@ -1,0 +1,10 @@
+{
+  "passed": false,
+  "native_sha256": "b515b3350f9fdfe926dde79f6f21dd22c9e83f5de3d2e4e35027a489ad2aeec5",
+  "step_sha256": "1e1de428c9c825708b284eb0ca8a72e54281d186da6faf4787bbcaa1a78ffdc6",
+  "exported_bodies": 4780,
+  "step_roundtrip_solids": 4782,
+  "volume_relative_error": null,
+  "failure": "Gesamt-STEP-Rückleseprüfung: 4782 statt4780 Volumenkörper; Export wird nicht ausgeliefert.",
+  "evidence": "Traceback (most recent call last):\n  File \"/workspace/PropBoard/kreis_r04/mn1330_p13/gesamt_step.py\", line 23, in <module>\n    if __name__=='__main__':main()\n                            ~~~~^^\n  File \"/workspace/PropBoard/kreis_r04/mn1330_p13/gesamt_step.py\", line 19, in main\n    assert len(solids)==len(objects),(len(solids),len(objects))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: (4782, 4780)\n"
+}
