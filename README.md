@@ -1,5 +1,8 @@
 # PropBoard
 
+**Antriebsvergleich mit 1–10 Motoren:** [Ausführliche Studie](studie_antrieb/Studie.pdf) · [Ergebnisse und Reproduktion](studie_antrieb/README.md).
+Verglichen werden klassische Multicopter, P14-Koaxialpaare und Mischsysteme einschließlich Rotorblattzahl, Blattlänge, Motor-Leistungsklassen und Batterie-Massenrückkopplung. Stationäre Vorstudie mit angenommenen Neuentwurfsmassen; kein Flugnachweis.
+
 **Leichtbauentwicklung P14: Außenrahmen entfernt, Flügel nur innen gelagert, Zentrum verstärkt und reale PH54-Servos ausgewählt.**
 [Konstruktion und native CAD-Dateien](kreis_r04/mn1330_p14/README.md) ·
 [P14-Flugsimulator mit WASD, Gamepad und Touch](kreis_r04/mn1330_p14/P14_Flugsimulator.html) ·
