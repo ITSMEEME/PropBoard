@@ -1,0 +1,70 @@
+{
+  "case": {
+    "id": "QUAD_R380",
+    "type": "classic",
+    "motors": 4,
+    "radius_mm": 380,
+    "blades": 3,
+    "chord_mm": 87.78976166684316,
+    "blade_root_mm": 90
+  },
+  "body_count": 133,
+  "solid_count": 953,
+  "all_shapes_valid": true,
+  "native_sha256": "6e2fcf0aeb26525671c56a3500021d1da054c000bddffee7667c41dd6ca6d223",
+  "mass_categories_kg": {
+    "new_static": 17.95360885170548,
+    "rotor": 5.566734217268368,
+    "battery": 12,
+    "electronics": 2.0,
+    "motor": 11.0
+  },
+  "total_mass_with_payload_kg": 148.52034306897383,
+  "dry_without_battery_electronics_payload_kg": 34.52034306897383,
+  "mass_complete": false,
+  "motor_mass_verified": false,
+  "bounds_mm": [
+    1680.0,
+    1678.0,
+    393.0
+  ],
+  "bounds_min_mm": [
+    -839.0000000000001,
+    -839.0000000000001,
+    -290.0
+  ],
+  "bounds_max_mm": [
+    841.0,
+    839.0,
+    103.0
+  ],
+  "envelope_pass": true,
+  "tip_swept_radius_mm": 385.332957077949,
+  "guard_inner_radius_mm": 405,
+  "radial_clearance_mm": 19.667042922050996,
+  "radial_reserve_after_18mm_mm": 1.667042922050996,
+  "swept_half_height_mm": 45.78678585087559,
+  "rotor_envelope_intersections": [],
+  "new_vs_inherited_static_intersections": [],
+  "centres_mm": [
+    [
+      422.00000000000006,
+      422.0
+    ],
+    [
+      -422.0,
+      422.00000000000006
+    ],
+    [
+      -422.0000000000001,
+      -422.0
+    ],
+    [
+      421.99999999999994,
+      -422.0000000000001
+    ]
+  ],
+  "guard_containment_verified": false,
+  "frame_joints_detailed": false,
+  "scope": "Volume-based frame/mass and swept geometric screening. Material allowables, OEM interfaces, all joints, mesh fixation, payload restraint and fatigue unresolved."
+}

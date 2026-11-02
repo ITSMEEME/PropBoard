@@ -1,0 +1,24 @@
+(()=>{'use strict';
+ const by=id=>document.getElementById(id),canvas=by('view');
+ try{
+ const gl=canvas.getContext('webgl',{antialias:true,preserveDrawingBuffer:true});if(!gl)throw Error('WebGL ist nicht verfügbar. Bitte die FreeCAD-Datei oder die Zeichnungen im Bericht öffnen.');
+ function shader(type,source){const s=gl.createShader(type);gl.shaderSource(s,source);gl.compileShader(s);if(!gl.getShaderParameter(s,gl.COMPILE_STATUS))throw Error(gl.getShaderInfoLog(s));return s;}
+ const prog=gl.createProgram();gl.attachShader(prog,shader(gl.VERTEX_SHADER,'attribute vec3 p;attribute vec3 n;uniform float yaw;uniform float pitch;uniform float zoom;uniform float aspect;varying vec3 normal;void main(){vec3 v=p*.001;float x=cos(yaw)*v.x-sin(yaw)*v.y;float y=sin(yaw)*v.x+cos(yaw)*v.y;float z=cos(pitch)*v.z-sin(pitch)*y;float depth=sin(pitch)*v.z+cos(pitch)*y;gl_Position=vec4(x*zoom/aspect,z*zoom,-depth*.2,1.);normal=n;}'));
+ gl.attachShader(prog,shader(gl.FRAGMENT_SHADER,'precision mediump float;varying vec3 normal;uniform vec3 colour;void main(){float l=.35+.65*abs(dot(normalize(normal),normalize(vec3(.4,-.6,.8))));gl_FragColor=vec4(colour*l,1.);}'));gl.linkProgram(prog);if(!gl.getProgramParameter(prog,gl.LINK_STATUS))throw Error(gl.getProgramInfoLog(prog));gl.useProgram(prog);
+ const loc={};for(const k of ['p','n'])loc[k]=gl.getAttribLocation(prog,k);for(const k of ['yaw','pitch','zoom','aspect','colour'])loc[k]=gl.getUniformLocation(prog,k);
+ let yaw=.65,pitch=.8,zoom=1.3,objects=[],current;
+ const fmt=(v,n=1)=>Number(v).toLocaleString('de-DE',{maximumFractionDigits:n,minimumFractionDigits:n});
+ function load(id){objects.forEach(o=>gl.deleteBuffer(o.buf));objects=[];current=AB_MODELS.find(c=>c.id===id);
+  for(const m of current.meshes){const a=[];for(const f of m.faces){const vs=f.map(i=>m.vertices[i]),u=vs[1].map((v,i)=>v-vs[0][i]),v=vs[2].map((x,i)=>x-vs[0][i]),n=[u[1]*v[2]-u[2]*v[1],u[2]*v[0]-u[0]*v[2],u[0]*v[1]-u[1]*v[0]],len=Math.hypot(...n)||1;for(const p of vs)a.push(...p,...n.map(x=>x/len));}
+   const buf=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,buf);gl.bufferData(gl.ARRAY_BUFFER,new Float32Array(a),gl.STATIC_DRAW);objects.push({buf,count:a.length/6,category:m.category,colour:m.colour.match(/[a-f\d]{2}/gi).map(h=>parseInt(h,16)/255)});
+  }
+  const r=current.report,p=AB_POWER.find(p=>p.id===id),facts=[['CAD-Masse mit 100 kg',fmt(r.total_mass_with_payload_kg)+' kg'],['Hülle',r.bounds_mm.map(v=>fmt(v,0)).join(' × ')+' mm'],['Blätter je Rotor',r.case.blades],['Radius',r.case.radius_mm+' mm'],['Elektrisch Schweben',fmt(p.electric_kW)+' kW'],['Drehzahl',fmt(p.rpm,0)+' /min'],['Moment je Motor',fmt(p.torque_Nm)+' Nm'],['Rotorraum-Screen',p.rotor_clearance_screen_pass?'bestanden':'offen']];by('facts').replaceChildren(...facts.flatMap(([k,v])=>{const dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=k;dd.textContent=v;return[dt,dd];}));draw();
+ }
+ function draw(){const dpr=Math.min(devicePixelRatio||1,2),w=Math.max(1,Math.round(canvas.clientWidth*dpr)),h=Math.max(1,Math.round(canvas.clientHeight*dpr));if(canvas.width!==w||canvas.height!==h){canvas.width=w;canvas.height=h;}gl.viewport(0,0,w,h);gl.clearColor(.93,.96,.97,1);gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);gl.enable(gl.DEPTH_TEST);gl.uniform1f(loc.yaw,yaw);gl.uniform1f(loc.pitch,pitch);gl.uniform1f(loc.zoom,zoom);gl.uniform1f(loc.aspect,w/h);
+ for(const o of objects){if(by(o.category)&&!by(o.category).checked)continue;gl.bindBuffer(gl.ARRAY_BUFFER,o.buf);gl.enableVertexAttribArray(loc.p);gl.vertexAttribPointer(loc.p,3,gl.FLOAT,false,24,0);gl.enableVertexAttribArray(loc.n);gl.vertexAttribPointer(loc.n,3,gl.FLOAT,false,24,12);gl.uniform3fv(loc.colour,o.colour);gl.drawArrays(gl.TRIANGLES,0,o.count);}}
+ for(const m of AB_MODELS){const opt=document.createElement('option');opt.value=m.id;opt.textContent=m.id.replaceAll('_',' ');by('case').append(opt);}by('case').value='QUAD_R380';by('case').addEventListener('change',e=>load(e.target.value));
+ for(const id of ['guard','deck','drive','battery'])by(id).addEventListener('change',draw);
+ by('iso').onclick=()=>{yaw=.65;pitch=.8;zoom=1.3;draw();};by('top').onclick=()=>{yaw=0;pitch=Math.PI/2;zoom=1.05;draw();};
+ let drag=null;canvas.onpointerdown=e=>{drag=[e.clientX,e.clientY];canvas.setPointerCapture(e.pointerId);};canvas.onpointermove=e=>{if(!drag)return;yaw+=(e.clientX-drag[0])*.008;pitch=Math.max(-1.5,Math.min(1.58,pitch+(e.clientY-drag[1])*.008));drag=[e.clientX,e.clientY];draw();};canvas.onpointerup=canvas.onpointercancel=()=>drag=null;canvas.addEventListener('wheel',e=>{e.preventDefault();zoom=Math.max(.5,Math.min(6,zoom*Math.exp(-e.deltaY*.001)));draw();},{passive:false});window.addEventListener('resize',draw);load('QUAD_R380');window.AB_VIEWER={load,draw,get current(){return current.id;}};
+ }catch(e){by('error').textContent=e.message;throw e;}
+})();

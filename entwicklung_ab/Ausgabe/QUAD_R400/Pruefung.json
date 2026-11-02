@@ -1,0 +1,70 @@
+{
+  "case": {
+    "id": "QUAD_R400",
+    "type": "classic",
+    "motors": 4,
+    "radius_mm": 400,
+    "blades": 3,
+    "chord_mm": 90.07039500489618,
+    "blade_root_mm": 90
+  },
+  "body_count": 133,
+  "solid_count": 1001,
+  "all_shapes_valid": true,
+  "native_sha256": "af19880ebc377cab20d6cdaa9854a8037f1b4e55e7ca762acec466624eb2619f",
+  "mass_categories_kg": {
+    "battery": 12,
+    "electronics": 2.0,
+    "motor": 11.0,
+    "new_static": 18.583004194203788,
+    "rotor": 5.672004349515814
+  },
+  "total_mass_with_payload_kg": 149.2550085437196,
+  "dry_without_battery_electronics_payload_kg": 35.25500854371961,
+  "mass_complete": false,
+  "motor_mass_verified": false,
+  "bounds_mm": [
+    1760.0,
+    1758.0,
+    393.0
+  ],
+  "bounds_min_mm": [
+    -879.0000000000001,
+    -879.0000000000001,
+    -290.0
+  ],
+  "bounds_max_mm": [
+    881.0,
+    879.0,
+    103.0
+  ],
+  "envelope_pass": false,
+  "tip_swept_radius_mm": 405.3348035369702,
+  "guard_inner_radius_mm": 425,
+  "radial_clearance_mm": 19.665196463029815,
+  "radial_reserve_after_18mm_mm": 1.6651964630298153,
+  "swept_half_height_mm": 46.50864075702441,
+  "rotor_envelope_intersections": [],
+  "new_vs_inherited_static_intersections": [],
+  "centres_mm": [
+    [
+      442.00000000000006,
+      442.0
+    ],
+    [
+      -442.0,
+      442.00000000000006
+    ],
+    [
+      -442.0000000000001,
+      -442.0
+    ],
+    [
+      441.99999999999994,
+      -442.0000000000001
+    ]
+  ],
+  "guard_containment_verified": false,
+  "frame_joints_detailed": false,
+  "scope": "Volume-based frame/mass and swept geometric screening. Material allowables, OEM interfaces, all joints, mesh fixation, payload restraint and fatigue unresolved."
+}

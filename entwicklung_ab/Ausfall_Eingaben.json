@@ -1,0 +1,1132 @@
+[
+  {
+    "id": "P14_R750",
+    "failed_motor_index": 0,
+    "remaining": 1,
+    "allocation_model": "fixed-axis hover; thrust, roll, pitch and yaw; equal yaw torque/thrust ratio approximation",
+    "requires_solver": true,
+    "coords": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "signs": [
+      1,
+      -1
+    ],
+    "required_thrust_N": 1719.678041350999,
+    "assumed_healthy_max_thrust_N": 1024.1872970098575
+  },
+  {
+    "id": "P14_R750",
+    "failed_motor_index": 1,
+    "remaining": 1,
+    "allocation_model": "fixed-axis hover; thrust, roll, pitch and yaw; equal yaw torque/thrust ratio approximation",
+    "requires_solver": true,
+    "coords": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "signs": [
+      1,
+      -1
+    ],
+    "required_thrust_N": 1719.678041350999,
+    "assumed_healthy_max_thrust_N": 1024.1872970098575
+  },
+  {
+    "id": "P14_R800",
+    "failed_motor_index": 0,
+    "remaining": 1,
+    "allocation_model": "fixed-axis hover; thrust, roll, pitch and yaw; equal yaw torque/thrust ratio approximation",
+    "requires_solver": true,
+    "coords": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "signs": [
+      1,
+      -1
+    ],
+    "required_thrust_N": 1730.906824061572,
+    "assumed_healthy_max_thrust_N": 1030.8748142872298
+  },
+  {
+    "id": "P14_R800",
+    "failed_motor_index": 1,
+    "remaining": 1,
+    "allocation_model": "fixed-axis hover; thrust, roll, pitch and yaw; equal yaw torque/thrust ratio approximation",
+    "requires_solver": true,
+    "coords": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "signs": [
+      1,
+      -1
+    ],
+    "required_thrust_N": 1730.906824061572,
+    "assumed_healthy_max_thrust_N": 1030.8748142872298
+  },
+  {
+    "id": "QUAD_R400",
+    "failed_motor_index": 0,
+    "remaining": 3,
+    "allocation_model": "fixed-axis hover; thrust, roll, pitch and yaw; equal yaw torque/thrust ratio approximation",
+    "requires_solver": true,
+    "coords": [
+      [
+        442.00000000000006,
+        442
+      ],
+      [
+        -442,
+        442.00000000000006
+      ],
+      [
+        -442.0000000000001,
+        -442
+      ],
+      [
+        441.99999999999994,
+        -442.0000000000001
+      ]
+    ],
+    "signs": [
+      -1,
+      1,
+      -1,
+      1
+    ],
+    "required_thrust_N": 1464.1916338138894,
+    "assumed_healthy_max_thrust_N": 436.013729221717
+  },
+  {
+    "id": "QUAD_R400",
+    "failed_motor_index": 1,
+    "remaining": 3,
+    "allocation_model": "fixed-axis hover; thrust, roll, pitch and yaw; equal yaw torque/thrust ratio approximation",
+    "requires_solver": true,
+    "coords": [
+      [
+        442.00000000000006,
+        442
+      ],
+      [
+        -442,
+        442.00000000000006
+      ],
+      [
+        -442.0000000000001,
+        -442
+      ],
+      [
+        441.99999999999994,
+        -442.0000000000001
+      ]
+    ],
+    "signs": [
+      -1,
+      1,
+      -1,
+      1
+    ],
+    "required_thrust_N": 1464.1916338138894,
+    "assumed_healthy_max_thrust_N": 436.013729221717
+  },
+  {
+    "id": "QUAD_R400",
+    "failed_motor_index": 2,
+    "remaining": 3,
+    "allocation_model": "fixed-axis hover; thrust, roll, pitch and yaw; equal yaw torque/thrust ratio approximation",
+    "requires_solver": true,
+    "coords": [
+      [
+        442.00000000000006,
+        442
+      ],
+      [
+        -442,
+        442.00000000000006
+      ],
+      [
+        -442.0000000000001,
+        -442
+      ],
+      [
+        441.99999999999994,
+        -442.0000000000001
+      ]
+    ],
+    "signs": [
+      -1,
+      1,
+      -1,
+      1
+    ],
+    "required_thrust_N": 1464.1916338138894,
+    "assumed_healthy_max_thrust_N": 436.013729221717
+  },
+  {
+    "id": "QUAD_R400",
+    "failed_motor_index": 3,
+    "remaining": 3,
+    "allocation_model": "fixed-axis hover; thrust, roll, pitch and yaw; equal yaw torque/thrust ratio approximation",
+    "requires_solver": true,
+    "coords": [
+      [
+        442.00000000000006,
+        442
+      ],
+      [
+        -442,
+        442.00000000000006
+      ],
+      [
+        -442.0000000000001,
+        -442
+      ],
+      [
+        441.99999999999994,
+        -442.0000000000001
+      ]
+    ],
+    "signs": [
+      -1,
+      1,
+      -1,
+      1
+    ],
+    "required_thrust_N": 1464.1916338138894,
+    "assumed_healthy_max_thrust_N": 436.013729221717
+  },
+  {
+    "id": "QUAD_R380",
+    "failed_motor_index": 0,
+    "remaining": 3,
+    "allocation_model": "fixed-axis hover; thrust, roll, pitch and yaw; equal yaw torque/thrust ratio approximation",
+    "requires_solver": true,
+    "coords": [
+      [
+        422.00000000000006,
+        422
+      ],
+      [
+        -422,
+        422.00000000000006
+      ],
+      [
+        -422.0000000000001,
+        -422
+      ],
+      [
+        421.99999999999994,
+        -422.0000000000001
+      ]
+    ],
+    "signs": [
+      -1,
+      1,
+      -1,
+      1
+    ],
+    "required_thrust_N": 1456.9845655066333,
+    "assumed_healthy_max_thrust_N": 433.86757522327
+  },
+  {
+    "id": "QUAD_R380",
+    "failed_motor_index": 1,
+    "remaining": 3,
+    "allocation_model": "fixed-axis hover; thrust, roll, pitch and yaw; equal yaw torque/thrust ratio approximation",
+    "requires_solver": true,
+    "coords": [
+      [
+        422.00000000000006,
+        422
+      ],
+      [
+        -422,
+        422.00000000000006
+      ],
+      [
+        -422.0000000000001,
+        -422
+      ],
+      [
+        421.99999999999994,
+        -422.0000000000001
+      ]
+    ],
+    "signs": [
+      -1,
+      1,
+      -1,
+      1
+    ],
+    "required_thrust_N": 1456.9845655066333,
+    "assumed_healthy_max_thrust_N": 433.86757522327
+  },
+  {
+    "id": "QUAD_R380",
+    "failed_motor_index": 2,
+    "remaining": 3,
+    "allocation_model": "fixed-axis hover; thrust, roll, pitch and yaw; equal yaw torque/thrust ratio approximation",
+    "requires_solver": true,
+    "coords": [
+      [
+        422.00000000000006,
+        422
+      ],
+      [
+        -422,
+        422.00000000000006
+      ],
+      [
+        -422.0000000000001,
+        -422
+      ],
+      [
+        421.99999999999994,
+        -422.0000000000001
+      ]
+    ],
+    "signs": [
+      -1,
+      1,
+      -1,
+      1
+    ],
+    "required_thrust_N": 1456.9845655066333,
+    "assumed_healthy_max_thrust_N": 433.86757522327
+  },
+  {
+    "id": "QUAD_R380",
+    "failed_motor_index": 3,
+    "remaining": 3,
+    "allocation_model": "fixed-axis hover; thrust, roll, pitch and yaw; equal yaw torque/thrust ratio approximation",
+    "requires_solver": true,
+    "coords": [
+      [
+        422.00000000000006,
+        422
+      ],
+      [
+        -422,
+        422.00000000000006
+      ],
+      [
+        -422.0000000000001,
+        -422
+      ],
+      [
+        421.99999999999994,
+        -422.0000000000001
+      ]
+    ],
+    "signs": [
+      -1,
+      1,
+      -1,
+      1
+    ],
+    "required_thrust_N": 1456.9845655066333,
+    "assumed_healthy_max_thrust_N": 433.86757522327
+  },
+  {
+    "id": "HEXA_R275",
+    "failed_motor_index": 0,
+    "remaining": 5,
+    "allocation_model": "fixed-axis hover; thrust, roll, pitch and yaw; equal yaw torque/thrust ratio approximation",
+    "requires_solver": true,
+    "coords": [
+      [
+        634.0000000000001,
+        0
+      ],
+      [
+        317.0000000000001,
+        549.0601059993342
+      ],
+      [
+        -316.99999999999994,
+        549.0601059993343
+      ],
+      [
+        -634.0000000000001,
+        7.764260706594221e-14
+      ],
+      [
+        -317.00000000000034,
+        -549.060105999334
+      ],
+      [
+        317.0000000000001,
+        -549.0601059993342
+      ]
+    ],
+    "signs": [
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1
+    ],
+    "required_thrust_N": 1555.4196180196184,
+    "assumed_healthy_max_thrust_N": 308.7866790545876
+  },
+  {
+    "id": "HEXA_R275",
+    "failed_motor_index": 1,
+    "remaining": 5,
+    "allocation_model": "fixed-axis hover; thrust, roll, pitch and yaw; equal yaw torque/thrust ratio approximation",
+    "requires_solver": true,
+    "coords": [
+      [
+        634.0000000000001,
+        0
+      ],
+      [
+        317.0000000000001,
+        549.0601059993342
+      ],
+      [
+        -316.99999999999994,
+        549.0601059993343
+      ],
+      [
+        -634.0000000000001,
+        7.764260706594221e-14
+      ],
+      [
+        -317.00000000000034,
+        -549.060105999334
+      ],
+      [
+        317.0000000000001,
+        -549.0601059993342
+      ]
+    ],
+    "signs": [
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1
+    ],
+    "required_thrust_N": 1555.4196180196184,
+    "assumed_healthy_max_thrust_N": 308.7866790545876
+  },
+  {
+    "id": "HEXA_R275",
+    "failed_motor_index": 2,
+    "remaining": 5,
+    "allocation_model": "fixed-axis hover; thrust, roll, pitch and yaw; equal yaw torque/thrust ratio approximation",
+    "requires_solver": true,
+    "coords": [
+      [
+        634.0000000000001,
+        0
+      ],
+      [
+        317.0000000000001,
+        549.0601059993342
+      ],
+      [
+        -316.99999999999994,
+        549.0601059993343
+      ],
+      [
+        -634.0000000000001,
+        7.764260706594221e-14
+      ],
+      [
+        -317.00000000000034,
+        -549.060105999334
+      ],
+      [
+        317.0000000000001,
+        -549.0601059993342
+      ]
+    ],
+    "signs": [
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1
+    ],
+    "required_thrust_N": 1555.4196180196184,
+    "assumed_healthy_max_thrust_N": 308.7866790545876
+  },
+  {
+    "id": "HEXA_R275",
+    "failed_motor_index": 3,
+    "remaining": 5,
+    "allocation_model": "fixed-axis hover; thrust, roll, pitch and yaw; equal yaw torque/thrust ratio approximation",
+    "requires_solver": true,
+    "coords": [
+      [
+        634.0000000000001,
+        0
+      ],
+      [
+        317.0000000000001,
+        549.0601059993342
+      ],
+      [
+        -316.99999999999994,
+        549.0601059993343
+      ],
+      [
+        -634.0000000000001,
+        7.764260706594221e-14
+      ],
+      [
+        -317.00000000000034,
+        -549.060105999334
+      ],
+      [
+        317.0000000000001,
+        -549.0601059993342
+      ]
+    ],
+    "signs": [
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1
+    ],
+    "required_thrust_N": 1555.4196180196184,
+    "assumed_healthy_max_thrust_N": 308.7866790545876
+  },
+  {
+    "id": "HEXA_R275",
+    "failed_motor_index": 4,
+    "remaining": 5,
+    "allocation_model": "fixed-axis hover; thrust, roll, pitch and yaw; equal yaw torque/thrust ratio approximation",
+    "requires_solver": true,
+    "coords": [
+      [
+        634.0000000000001,
+        0
+      ],
+      [
+        317.0000000000001,
+        549.0601059993342
+      ],
+      [
+        -316.99999999999994,
+        549.0601059993343
+      ],
+      [
+        -634.0000000000001,
+        7.764260706594221e-14
+      ],
+      [
+        -317.00000000000034,
+        -549.060105999334
+      ],
+      [
+        317.0000000000001,
+        -549.0601059993342
+      ]
+    ],
+    "signs": [
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1
+    ],
+    "required_thrust_N": 1555.4196180196184,
+    "assumed_healthy_max_thrust_N": 308.7866790545876
+  },
+  {
+    "id": "HEXA_R275",
+    "failed_motor_index": 5,
+    "remaining": 5,
+    "allocation_model": "fixed-axis hover; thrust, roll, pitch and yaw; equal yaw torque/thrust ratio approximation",
+    "requires_solver": true,
+    "coords": [
+      [
+        634.0000000000001,
+        0
+      ],
+      [
+        317.0000000000001,
+        549.0601059993342
+      ],
+      [
+        -316.99999999999994,
+        549.0601059993343
+      ],
+      [
+        -634.0000000000001,
+        7.764260706594221e-14
+      ],
+      [
+        -317.00000000000034,
+        -549.060105999334
+      ],
+      [
+        317.0000000000001,
+        -549.0601059993342
+      ]
+    ],
+    "signs": [
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1
+    ],
+    "required_thrust_N": 1555.4196180196184,
+    "assumed_healthy_max_thrust_N": 308.7866790545876
+  },
+  {
+    "id": "HEXA_R265",
+    "failed_motor_index": 0,
+    "remaining": 5,
+    "allocation_model": "fixed-axis hover; thrust, roll, pitch and yaw; equal yaw torque/thrust ratio approximation",
+    "requires_solver": true,
+    "coords": [
+      [
+        614.0000000000001,
+        0
+      ],
+      [
+        307.0000000000001,
+        531.7395979236454
+      ],
+      [
+        -306.99999999999994,
+        531.7395979236454
+      ],
+      [
+        -614.0000000000001,
+        7.51933134676475e-14
+      ],
+      [
+        -307.00000000000034,
+        -531.7395979236453
+      ],
+      [
+        307.0000000000001,
+        -531.7395979236454
+      ]
+    ],
+    "signs": [
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1
+    ],
+    "required_thrust_N": 1550.2386513392532,
+    "assumed_healthy_max_thrust_N": 307.75813763914664
+  },
+  {
+    "id": "HEXA_R265",
+    "failed_motor_index": 1,
+    "remaining": 5,
+    "allocation_model": "fixed-axis hover; thrust, roll, pitch and yaw; equal yaw torque/thrust ratio approximation",
+    "requires_solver": true,
+    "coords": [
+      [
+        614.0000000000001,
+        0
+      ],
+      [
+        307.0000000000001,
+        531.7395979236454
+      ],
+      [
+        -306.99999999999994,
+        531.7395979236454
+      ],
+      [
+        -614.0000000000001,
+        7.51933134676475e-14
+      ],
+      [
+        -307.00000000000034,
+        -531.7395979236453
+      ],
+      [
+        307.0000000000001,
+        -531.7395979236454
+      ]
+    ],
+    "signs": [
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1
+    ],
+    "required_thrust_N": 1550.2386513392532,
+    "assumed_healthy_max_thrust_N": 307.75813763914664
+  },
+  {
+    "id": "HEXA_R265",
+    "failed_motor_index": 2,
+    "remaining": 5,
+    "allocation_model": "fixed-axis hover; thrust, roll, pitch and yaw; equal yaw torque/thrust ratio approximation",
+    "requires_solver": true,
+    "coords": [
+      [
+        614.0000000000001,
+        0
+      ],
+      [
+        307.0000000000001,
+        531.7395979236454
+      ],
+      [
+        -306.99999999999994,
+        531.7395979236454
+      ],
+      [
+        -614.0000000000001,
+        7.51933134676475e-14
+      ],
+      [
+        -307.00000000000034,
+        -531.7395979236453
+      ],
+      [
+        307.0000000000001,
+        -531.7395979236454
+      ]
+    ],
+    "signs": [
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1
+    ],
+    "required_thrust_N": 1550.2386513392532,
+    "assumed_healthy_max_thrust_N": 307.75813763914664
+  },
+  {
+    "id": "HEXA_R265",
+    "failed_motor_index": 3,
+    "remaining": 5,
+    "allocation_model": "fixed-axis hover; thrust, roll, pitch and yaw; equal yaw torque/thrust ratio approximation",
+    "requires_solver": true,
+    "coords": [
+      [
+        614.0000000000001,
+        0
+      ],
+      [
+        307.0000000000001,
+        531.7395979236454
+      ],
+      [
+        -306.99999999999994,
+        531.7395979236454
+      ],
+      [
+        -614.0000000000001,
+        7.51933134676475e-14
+      ],
+      [
+        -307.00000000000034,
+        -531.7395979236453
+      ],
+      [
+        307.0000000000001,
+        -531.7395979236454
+      ]
+    ],
+    "signs": [
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1
+    ],
+    "required_thrust_N": 1550.2386513392532,
+    "assumed_healthy_max_thrust_N": 307.75813763914664
+  },
+  {
+    "id": "HEXA_R265",
+    "failed_motor_index": 4,
+    "remaining": 5,
+    "allocation_model": "fixed-axis hover; thrust, roll, pitch and yaw; equal yaw torque/thrust ratio approximation",
+    "requires_solver": true,
+    "coords": [
+      [
+        614.0000000000001,
+        0
+      ],
+      [
+        307.0000000000001,
+        531.7395979236454
+      ],
+      [
+        -306.99999999999994,
+        531.7395979236454
+      ],
+      [
+        -614.0000000000001,
+        7.51933134676475e-14
+      ],
+      [
+        -307.00000000000034,
+        -531.7395979236453
+      ],
+      [
+        307.0000000000001,
+        -531.7395979236454
+      ]
+    ],
+    "signs": [
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1
+    ],
+    "required_thrust_N": 1550.2386513392532,
+    "assumed_healthy_max_thrust_N": 307.75813763914664
+  },
+  {
+    "id": "HEXA_R265",
+    "failed_motor_index": 5,
+    "remaining": 5,
+    "allocation_model": "fixed-axis hover; thrust, roll, pitch and yaw; equal yaw torque/thrust ratio approximation",
+    "requires_solver": true,
+    "coords": [
+      [
+        614.0000000000001,
+        0
+      ],
+      [
+        307.0000000000001,
+        531.7395979236454
+      ],
+      [
+        -306.99999999999994,
+        531.7395979236454
+      ],
+      [
+        -614.0000000000001,
+        7.51933134676475e-14
+      ],
+      [
+        -307.00000000000034,
+        -531.7395979236453
+      ],
+      [
+        307.0000000000001,
+        -531.7395979236454
+      ]
+    ],
+    "signs": [
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1
+    ],
+    "required_thrust_N": 1550.2386513392532,
+    "assumed_healthy_max_thrust_N": 307.75813763914664
+  },
+  {
+    "id": "HEXA_R265_B4",
+    "failed_motor_index": 0,
+    "remaining": 5,
+    "allocation_model": "fixed-axis hover; thrust, roll, pitch and yaw; equal yaw torque/thrust ratio approximation",
+    "requires_solver": true,
+    "coords": [
+      [
+        614.0000000000001,
+        0
+      ],
+      [
+        307.0000000000001,
+        531.7395979236454
+      ],
+      [
+        -306.99999999999994,
+        531.7395979236454
+      ],
+      [
+        -614.0000000000001,
+        7.51933134676475e-14
+      ],
+      [
+        -307.00000000000034,
+        -531.7395979236453
+      ],
+      [
+        307.0000000000001,
+        -531.7395979236454
+      ]
+    ],
+    "signs": [
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1
+    ],
+    "required_thrust_N": 1567.9174096006755,
+    "assumed_healthy_max_thrust_N": 311.26777901830314
+  },
+  {
+    "id": "HEXA_R265_B4",
+    "failed_motor_index": 1,
+    "remaining": 5,
+    "allocation_model": "fixed-axis hover; thrust, roll, pitch and yaw; equal yaw torque/thrust ratio approximation",
+    "requires_solver": true,
+    "coords": [
+      [
+        614.0000000000001,
+        0
+      ],
+      [
+        307.0000000000001,
+        531.7395979236454
+      ],
+      [
+        -306.99999999999994,
+        531.7395979236454
+      ],
+      [
+        -614.0000000000001,
+        7.51933134676475e-14
+      ],
+      [
+        -307.00000000000034,
+        -531.7395979236453
+      ],
+      [
+        307.0000000000001,
+        -531.7395979236454
+      ]
+    ],
+    "signs": [
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1
+    ],
+    "required_thrust_N": 1567.9174096006755,
+    "assumed_healthy_max_thrust_N": 311.26777901830314
+  },
+  {
+    "id": "HEXA_R265_B4",
+    "failed_motor_index": 2,
+    "remaining": 5,
+    "allocation_model": "fixed-axis hover; thrust, roll, pitch and yaw; equal yaw torque/thrust ratio approximation",
+    "requires_solver": true,
+    "coords": [
+      [
+        614.0000000000001,
+        0
+      ],
+      [
+        307.0000000000001,
+        531.7395979236454
+      ],
+      [
+        -306.99999999999994,
+        531.7395979236454
+      ],
+      [
+        -614.0000000000001,
+        7.51933134676475e-14
+      ],
+      [
+        -307.00000000000034,
+        -531.7395979236453
+      ],
+      [
+        307.0000000000001,
+        -531.7395979236454
+      ]
+    ],
+    "signs": [
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1
+    ],
+    "required_thrust_N": 1567.9174096006755,
+    "assumed_healthy_max_thrust_N": 311.26777901830314
+  },
+  {
+    "id": "HEXA_R265_B4",
+    "failed_motor_index": 3,
+    "remaining": 5,
+    "allocation_model": "fixed-axis hover; thrust, roll, pitch and yaw; equal yaw torque/thrust ratio approximation",
+    "requires_solver": true,
+    "coords": [
+      [
+        614.0000000000001,
+        0
+      ],
+      [
+        307.0000000000001,
+        531.7395979236454
+      ],
+      [
+        -306.99999999999994,
+        531.7395979236454
+      ],
+      [
+        -614.0000000000001,
+        7.51933134676475e-14
+      ],
+      [
+        -307.00000000000034,
+        -531.7395979236453
+      ],
+      [
+        307.0000000000001,
+        -531.7395979236454
+      ]
+    ],
+    "signs": [
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1
+    ],
+    "required_thrust_N": 1567.9174096006755,
+    "assumed_healthy_max_thrust_N": 311.26777901830314
+  },
+  {
+    "id": "HEXA_R265_B4",
+    "failed_motor_index": 4,
+    "remaining": 5,
+    "allocation_model": "fixed-axis hover; thrust, roll, pitch and yaw; equal yaw torque/thrust ratio approximation",
+    "requires_solver": true,
+    "coords": [
+      [
+        614.0000000000001,
+        0
+      ],
+      [
+        307.0000000000001,
+        531.7395979236454
+      ],
+      [
+        -306.99999999999994,
+        531.7395979236454
+      ],
+      [
+        -614.0000000000001,
+        7.51933134676475e-14
+      ],
+      [
+        -307.00000000000034,
+        -531.7395979236453
+      ],
+      [
+        307.0000000000001,
+        -531.7395979236454
+      ]
+    ],
+    "signs": [
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1
+    ],
+    "required_thrust_N": 1567.9174096006755,
+    "assumed_healthy_max_thrust_N": 311.26777901830314
+  },
+  {
+    "id": "HEXA_R265_B4",
+    "failed_motor_index": 5,
+    "remaining": 5,
+    "allocation_model": "fixed-axis hover; thrust, roll, pitch and yaw; equal yaw torque/thrust ratio approximation",
+    "requires_solver": true,
+    "coords": [
+      [
+        614.0000000000001,
+        0
+      ],
+      [
+        307.0000000000001,
+        531.7395979236454
+      ],
+      [
+        -306.99999999999994,
+        531.7395979236454
+      ],
+      [
+        -614.0000000000001,
+        7.51933134676475e-14
+      ],
+      [
+        -307.00000000000034,
+        -531.7395979236453
+      ],
+      [
+        307.0000000000001,
+        -531.7395979236454
+      ]
+    ],
+    "signs": [
+      -1,
+      1,
+      -1,
+      1,
+      -1,
+      1
+    ],
+    "required_thrust_N": 1567.9174096006755,
+    "assumed_healthy_max_thrust_N": 311.26777901830314
+  }
+]

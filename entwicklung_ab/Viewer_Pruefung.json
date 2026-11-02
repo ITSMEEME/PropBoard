@@ -1,0 +1,45 @@
+{
+  "checks": [
+    {
+      "case": "P14_R750",
+      "passed": true,
+      "webgl_error": 0,
+      "visible_samples": 25731,
+      "facts": "CAD-Masse mit 100 kg\n175,3 kg\nHülle\n1.574 × 1.574 × 589 mm\nBlätter je Rotor\n4\nRadius\n750 mm\nElektrisch Schweben\n51,9 kW\nDrehzahl\n2.084 /min\nMoment je Motor\n97,4 Nm\nRotorraum-Screen\nbestanden"
+    },
+    {
+      "case": "P14_R800",
+      "passed": true,
+      "webgl_error": 0,
+      "visible_samples": 27708,
+      "facts": "CAD-Masse mit 100 kg\n176,4 kg\nHülle\n1.674 × 1.674 × 589 mm\nBlätter je Rotor\n4\nRadius\n800 mm\nElektrisch Schweben\n49,0 kW\nDrehzahl\n1.868 /min\nMoment je Motor\n102,7 Nm\nRotorraum-Screen\nbestanden"
+    },
+    {
+      "case": "QUAD_R380",
+      "passed": true,
+      "webgl_error": 0,
+      "visible_samples": 23562,
+      "facts": "CAD-Masse mit 100 kg\n148,5 kg\nHülle\n1.680 × 1.678 × 393 mm\nBlätter je Rotor\n3\nRadius\n380 mm\nElektrisch Schweben\n45,6 kW\nDrehzahl\n4.840 /min\nMoment je Motor\n18,5 Nm\nRotorraum-Screen\nbestanden"
+    },
+    {
+      "case": "HEXA_R265_B4",
+      "passed": true,
+      "webgl_error": 0,
+      "visible_samples": 26814,
+      "facts": "CAD-Masse mit 100 kg\n159,8 kg\nHülle\n1.834 × 1.667 × 393 mm\nBlätter je Rotor\n4\nRadius\n265 mm\nElektrisch Schweben\n60,6 kW\nDrehzahl\n7.547 /min\nMoment je Motor\n10,5 Nm\nRotorraum-Screen\nbestanden"
+    },
+    {
+      "test": "deck visibility",
+      "passed": true
+    },
+    {
+      "test": "pointer orbit",
+      "passed": true
+    },
+    {
+      "test": "mobile layout and top view",
+      "passed": true
+    }
+  ],
+  "page_errors": []
+}

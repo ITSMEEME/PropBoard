@@ -1,0 +1,78 @@
+{
+  "case": {
+    "id": "HEXA_R265_B4",
+    "type": "classic",
+    "motors": 6,
+    "radius_mm": 265,
+    "blades": 4,
+    "chord_mm": 73.31199006522701,
+    "blade_root_mm": 90
+  },
+  "body_count": 199,
+  "solid_count": 1087,
+  "all_shapes_valid": true,
+  "native_sha256": "7f3c21ac981cb070c92559588c8072623daee0ed45bcfbf00ab8a34ad188571f",
+  "mass_categories_kg": {
+    "electronics": 2.0,
+    "motor": 16.5,
+    "rotor": 9.35363783455481,
+    "new_static": 19.97484428579946,
+    "battery": 12
+  },
+  "total_mass_with_payload_kg": 159.82848212035427,
+  "dry_without_battery_electronics_payload_kg": 45.828482120354266,
+  "mass_complete": false,
+  "motor_mass_verified": false,
+  "bounds_mm": [
+    1834.0000000000002,
+    1667.4791958472908,
+    393.0
+  ],
+  "bounds_min_mm": [
+    -916.0000000000001,
+    -833.7395979236454,
+    -290.0
+  ],
+  "bounds_max_mm": [
+    918.0000000000001,
+    833.7395979236454,
+    103.0
+  ],
+  "envelope_pass": true,
+  "tip_swept_radius_mm": 270.31703740221343,
+  "guard_inner_radius_mm": 290,
+  "radial_clearance_mm": 19.68296259778657,
+  "radial_reserve_after_18mm_mm": 1.6829625977865703,
+  "swept_half_height_mm": 41.204352416112826,
+  "rotor_envelope_intersections": [],
+  "new_vs_inherited_static_intersections": [],
+  "centres_mm": [
+    [
+      614.0000000000001,
+      0.0
+    ],
+    [
+      307.0000000000001,
+      531.7395979236454
+    ],
+    [
+      -306.99999999999994,
+      531.7395979236454
+    ],
+    [
+      -614.0000000000001,
+      7.51933134676475e-14
+    ],
+    [
+      -307.00000000000034,
+      -531.7395979236453
+    ],
+    [
+      307.0000000000001,
+      -531.7395979236454
+    ]
+  ],
+  "guard_containment_verified": false,
+  "frame_joints_detailed": false,
+  "scope": "Volume-based frame/mass and swept geometric screening. Material allowables, OEM interfaces, all joints, mesh fixation, payload restraint and fatigue unresolved."
+}
