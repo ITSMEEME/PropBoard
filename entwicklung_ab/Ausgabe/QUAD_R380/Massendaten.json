@@ -1,0 +1,2130 @@
+[
+  {
+    "id": "CENTER_FRAME",
+    "label": "Zentralrahmen 40×40×2,5",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.6098000000000002,
+    "volume_mm3": 381125.0000000002,
+    "cg_mm": [
+      1.7410754236983652e-13,
+      6.042218655005715e-15,
+      -110.00000000000003
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Rohranschlüsse als starrer Ersatz; reale Klemmen und Laminatnachweis offen"
+  },
+  {
+    "id": "ARM_0",
+    "label": "CFK-Ausleger 1",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.27707887399286757,
+    "volume_mm3": 173174.2962455422,
+    "cg_mm": [
+      258.72970773009206,
+      258.72970773009195,
+      -110.0
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "MOUNT_0",
+    "label": "Motorträger 170×170×8, PCD50-Annahme",
+    "group": "new_static",
+    "material": "Aluminium",
+    "mass_kg": 0.6465956619957365,
+    "volume_mm3": 230105.21779207705,
+    "cg_mm": [
+      421.99999999999994,
+      421.9999999999999,
+      -85.99999999999996
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "4×Ø6,6 auf PCD50 als Platzhalter; neuer Motor noch nicht ausgewählt"
+  },
+  {
+    "id": "MOTOR_0",
+    "label": "Motorbauraum Ø150×66, neuer Typ offen",
+    "group": "motor",
+    "material": "Reserve",
+    "mass_kg": 2.75,
+    "volume_mm3": 1166316.2726452108,
+    "cg_mm": [
+      422.0,
+      422.0,
+      -48.99999999999999
+    ],
+    "solid_count": 1,
+    "mass_override": true,
+    "note": "2,75 kg freie Masseannahme; kein ausgewählter Motor, keine bestätigte Dauerkennlinie oder Montage"
+  },
+  {
+    "id": "HUB_0",
+    "label": "Rotornabe Nennkörper",
+    "group": "rotor",
+    "material": "Aluminium",
+    "mass_kg": 0.35752895194178635,
+    "volume_mm3": 127234.5024703866,
+    "cg_mm": [
+      422.00000000000006,
+      421.99999999999994,
+      -6.000000000000001
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Anschluss-, Lager- und Blattwurzelkonstruktion noch offen"
+  },
+  {
+    "id": "BLADE_0_0",
+    "label": "Profilblatt 3-Blatt-Referenz, Schalenmasse geschätzt",
+    "group": "rotor",
+    "material": "CFK",
+    "mass_kg": 0.21776267859219656,
+    "volume_mm3": 182095.39144536524,
+    "cg_mm": [
+      657.0,
+      436.3410518888816,
+      3.5756258261252865
+    ],
+    "solid_count": 1,
+    "mass_override": true,
+    "note": "Vollprofil als äußere Hülle, 2×1,2mm Schalenmasse +120g Wurzel/Spar; Laminat und Hubanschluss offen"
+  },
+  {
+    "id": "GRIP_0_0",
+    "label": "Nabensteg mit formgleichem Blattwurzel-Nennsitz",
+    "group": "rotor",
+    "material": "Aluminium",
+    "mass_kg": 0.12695552219957196,
+    "volume_mm3": 45179.9011386377,
+    "cg_mm": [
+      489.88824861757223,
+      421.618841455444,
+      -0.09503349868079629
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrische Lastpfadreserve Nabe–Blatt; Teilung, Bolzen, CFK-Klemmdruck, Fliehkraft und Ermüdung offen"
+  },
+  {
+    "id": "BLADE_0_1",
+    "label": "Profilblatt 3-Blatt-Referenz, Schalenmasse geschätzt",
+    "group": "rotor",
+    "material": "CFK",
+    "mass_kg": 0.21776267859219656,
+    "volume_mm3": 182095.39144536518,
+    "cg_mm": [
+      292.0802847472378,
+      618.3454439449024,
+      3.5756258261252856
+    ],
+    "solid_count": 1,
+    "mass_override": true,
+    "note": "Vollprofil als äußere Hülle, 2×1,2mm Schalenmasse +120g Wurzel/Spar; Laminat und Hubanschluss offen"
+  },
+  {
+    "id": "GRIP_0_1",
+    "label": "Nabensteg mit formgleichem Blattwurzel-Nennsitz",
+    "group": "rotor",
+    "material": "Aluminium",
+    "mass_kg": 0.12695552219957187,
+    "volume_mm3": 45179.90113863768,
+    "cg_mm": [
+      388.38596867366897,
+      480.9835271935298,
+      -0.09503349868079464
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrische Lastpfadreserve Nabe–Blatt; Teilung, Bolzen, CFK-Klemmdruck, Fliehkraft und Ermüdung offen"
+  },
+  {
+    "id": "BLADE_0_2",
+    "label": "Profilblatt 3-Blatt-Referenz, Schalenmasse geschätzt",
+    "group": "rotor",
+    "material": "CFK",
+    "mass_kg": 0.21776267859219656,
+    "volume_mm3": 182095.39144536524,
+    "cg_mm": [
+      316.9197152527623,
+      211.31350416621618,
+      3.575625826125285
+    ],
+    "solid_count": 1,
+    "mass_override": true,
+    "note": "Vollprofil als äußere Hülle, 2×1,2mm Schalenmasse +120g Wurzel/Spar; Laminat und Hubanschluss offen"
+  },
+  {
+    "id": "GRIP_0_2",
+    "label": "Nabensteg mit formgleichem Blattwurzel-Nennsitz",
+    "group": "rotor",
+    "material": "Aluminium",
+    "mass_kg": 0.12695552219957204,
+    "volume_mm3": 45179.90113863773,
+    "cg_mm": [
+      387.7257827087589,
+      363.3976313510268,
+      -0.09503349868079526
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrische Lastpfadreserve Nabe–Blatt; Teilung, Bolzen, CFK-Klemmdruck, Fliehkraft und Ermüdung offen"
+  },
+  {
+    "id": "ESC_0",
+    "label": "ESC-Platzhalter 120×65×22",
+    "group": "electronics",
+    "material": "Reserve",
+    "mass_kg": 0.325,
+    "volume_mm3": 171599.99999999997,
+    "cg_mm": [
+      232.1,
+      232.1,
+      -149.0
+    ],
+    "solid_count": 1,
+    "mass_override": true,
+    "note": "Massenbudget; Strom, Spannung, Kühlung und Befestigung offen"
+  },
+  {
+    "id": "ARM_1",
+    "label": "CFK-Ausleger 2",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.2770788739928676,
+    "volume_mm3": 173174.29624554224,
+    "cg_mm": [
+      -258.729707730092,
+      258.729707730092,
+      -110.0
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "MOUNT_1",
+    "label": "Motorträger 170×170×8, PCD50-Annahme",
+    "group": "new_static",
+    "material": "Aluminium",
+    "mass_kg": 0.6465956619957365,
+    "volume_mm3": 230105.21779207705,
+    "cg_mm": [
+      -421.99999999999994,
+      422.0,
+      -85.99999999999996
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "4×Ø6,6 auf PCD50 als Platzhalter; neuer Motor noch nicht ausgewählt"
+  },
+  {
+    "id": "MOTOR_1",
+    "label": "Motorbauraum Ø150×66, neuer Typ offen",
+    "group": "motor",
+    "material": "Reserve",
+    "mass_kg": 2.75,
+    "volume_mm3": 1166316.2726452106,
+    "cg_mm": [
+      -421.99999999999994,
+      422.00000000000006,
+      -49.0
+    ],
+    "solid_count": 1,
+    "mass_override": true,
+    "note": "2,75 kg freie Masseannahme; kein ausgewählter Motor, keine bestätigte Dauerkennlinie oder Montage"
+  },
+  {
+    "id": "HUB_1",
+    "label": "Rotornabe Nennkörper",
+    "group": "rotor",
+    "material": "Aluminium",
+    "mass_kg": 0.3575289519417864,
+    "volume_mm3": 127234.50247038662,
+    "cg_mm": [
+      -421.99999999999994,
+      421.99999999999994,
+      -5.999999999999999
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Anschluss-, Lager- und Blattwurzelkonstruktion noch offen"
+  },
+  {
+    "id": "BLADE_1_0",
+    "label": "Profilblatt 3-Blatt-Referenz, Schalenmasse geschätzt",
+    "group": "rotor",
+    "material": "CFK",
+    "mass_kg": 0.21776267859219656,
+    "volume_mm3": 182095.39144536524,
+    "cg_mm": [
+      -187.00000000000006,
+      436.3410518888817,
+      3.5756258261252865
+    ],
+    "solid_count": 1,
+    "mass_override": true,
+    "note": "Vollprofil als äußere Hülle, 2×1,2mm Schalenmasse +120g Wurzel/Spar; Laminat und Hubanschluss offen"
+  },
+  {
+    "id": "GRIP_1_0",
+    "label": "Nabensteg mit formgleichem Blattwurzel-Nennsitz",
+    "group": "rotor",
+    "material": "Aluminium",
+    "mass_kg": 0.12695552219957199,
+    "volume_mm3": 45179.90113863772,
+    "cg_mm": [
+      -354.1117513824274,
+      421.618841455444,
+      -0.09503349868079551
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrische Lastpfadreserve Nabe–Blatt; Teilung, Bolzen, CFK-Klemmdruck, Fliehkraft und Ermüdung offen"
+  },
+  {
+    "id": "BLADE_1_1",
+    "label": "Profilblatt 3-Blatt-Referenz, Schalenmasse geschätzt",
+    "group": "rotor",
+    "material": "CFK",
+    "mass_kg": 0.21776267859219656,
+    "volume_mm3": 182095.39144536524,
+    "cg_mm": [
+      -551.9197152527622,
+      618.3454439449023,
+      3.5756258261252842
+    ],
+    "solid_count": 1,
+    "mass_override": true,
+    "note": "Vollprofil als äußere Hülle, 2×1,2mm Schalenmasse +120g Wurzel/Spar; Laminat und Hubanschluss offen"
+  },
+  {
+    "id": "GRIP_1_1",
+    "label": "Nabensteg mit formgleichem Blattwurzel-Nennsitz",
+    "group": "rotor",
+    "material": "Aluminium",
+    "mass_kg": 0.12695552219957199,
+    "volume_mm3": 45179.90113863771,
+    "cg_mm": [
+      -455.6140313263309,
+      480.98352719352977,
+      -0.09503349868079486
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrische Lastpfadreserve Nabe–Blatt; Teilung, Bolzen, CFK-Klemmdruck, Fliehkraft und Ermüdung offen"
+  },
+  {
+    "id": "BLADE_1_2",
+    "label": "Profilblatt 3-Blatt-Referenz, Schalenmasse geschätzt",
+    "group": "rotor",
+    "material": "CFK",
+    "mass_kg": 0.21776267859219656,
+    "volume_mm3": 182095.3914453652,
+    "cg_mm": [
+      -527.0802847472378,
+      211.31350416621615,
+      3.5756258261252887
+    ],
+    "solid_count": 1,
+    "mass_override": true,
+    "note": "Vollprofil als äußere Hülle, 2×1,2mm Schalenmasse +120g Wurzel/Spar; Laminat und Hubanschluss offen"
+  },
+  {
+    "id": "GRIP_1_2",
+    "label": "Nabensteg mit formgleichem Blattwurzel-Nennsitz",
+    "group": "rotor",
+    "material": "Aluminium",
+    "mass_kg": 0.12695552219957204,
+    "volume_mm3": 45179.90113863773,
+    "cg_mm": [
+      -456.27421729124114,
+      363.3976313510266,
+      -0.09503349868079683
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrische Lastpfadreserve Nabe–Blatt; Teilung, Bolzen, CFK-Klemmdruck, Fliehkraft und Ermüdung offen"
+  },
+  {
+    "id": "ESC_1",
+    "label": "ESC-Platzhalter 120×65×22",
+    "group": "electronics",
+    "material": "Reserve",
+    "mass_kg": 0.325,
+    "volume_mm3": 171599.99999999994,
+    "cg_mm": [
+      -232.1,
+      232.10000000000002,
+      -149.0
+    ],
+    "solid_count": 1,
+    "mass_override": true,
+    "note": "Massenbudget; Strom, Spannung, Kühlung und Befestigung offen"
+  },
+  {
+    "id": "ARM_2",
+    "label": "CFK-Ausleger 3",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.2770788739928677,
+    "volume_mm3": 173174.2962455423,
+    "cg_mm": [
+      -258.7297077300922,
+      -258.729707730092,
+      -110.0
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "MOUNT_2",
+    "label": "Motorträger 170×170×8, PCD50-Annahme",
+    "group": "new_static",
+    "material": "Aluminium",
+    "mass_kg": 0.6465956619957365,
+    "volume_mm3": 230105.21779207705,
+    "cg_mm": [
+      -422.00000000000006,
+      -422.0,
+      -85.99999999999996
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "4×Ø6,6 auf PCD50 als Platzhalter; neuer Motor noch nicht ausgewählt"
+  },
+  {
+    "id": "MOTOR_2",
+    "label": "Motorbauraum Ø150×66, neuer Typ offen",
+    "group": "motor",
+    "material": "Reserve",
+    "mass_kg": 2.75,
+    "volume_mm3": 1166316.2726452108,
+    "cg_mm": [
+      -422.0000000000001,
+      -422.0,
+      -48.99999999999999
+    ],
+    "solid_count": 1,
+    "mass_override": true,
+    "note": "2,75 kg freie Masseannahme; kein ausgewählter Motor, keine bestätigte Dauerkennlinie oder Montage"
+  },
+  {
+    "id": "HUB_2",
+    "label": "Rotornabe Nennkörper",
+    "group": "rotor",
+    "material": "Aluminium",
+    "mass_kg": 0.35752895194178635,
+    "volume_mm3": 127234.5024703866,
+    "cg_mm": [
+      -422.00000000000017,
+      -421.99999999999994,
+      -6.000000000000001
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Anschluss-, Lager- und Blattwurzelkonstruktion noch offen"
+  },
+  {
+    "id": "BLADE_2_0",
+    "label": "Profilblatt 3-Blatt-Referenz, Schalenmasse geschätzt",
+    "group": "rotor",
+    "material": "CFK",
+    "mass_kg": 0.21776267859219656,
+    "volume_mm3": 182095.39144536524,
+    "cg_mm": [
+      -187.00000000000006,
+      -407.6589481111184,
+      3.5756258261252856
+    ],
+    "solid_count": 1,
+    "mass_override": true,
+    "note": "Vollprofil als äußere Hülle, 2×1,2mm Schalenmasse +120g Wurzel/Spar; Laminat und Hubanschluss offen"
+  },
+  {
+    "id": "GRIP_2_0",
+    "label": "Nabensteg mit formgleichem Blattwurzel-Nennsitz",
+    "group": "rotor",
+    "material": "Aluminium",
+    "mass_kg": 0.126955522199572,
+    "volume_mm3": 45179.901138637724,
+    "cg_mm": [
+      -354.1117513824279,
+      -422.38115854455606,
+      -0.09503349868079577
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrische Lastpfadreserve Nabe–Blatt; Teilung, Bolzen, CFK-Klemmdruck, Fliehkraft und Ermüdung offen"
+  },
+  {
+    "id": "BLADE_2_1",
+    "label": "Profilblatt 3-Blatt-Referenz, Schalenmasse geschätzt",
+    "group": "rotor",
+    "material": "CFK",
+    "mass_kg": 0.21776267859219656,
+    "volume_mm3": 182095.3914453652,
+    "cg_mm": [
+      -551.9197152527623,
+      -225.6545560550977,
+      3.575625826125286
+    ],
+    "solid_count": 1,
+    "mass_override": true,
+    "note": "Vollprofil als äußere Hülle, 2×1,2mm Schalenmasse +120g Wurzel/Spar; Laminat und Hubanschluss offen"
+  },
+  {
+    "id": "GRIP_2_1",
+    "label": "Nabensteg mit formgleichem Blattwurzel-Nennsitz",
+    "group": "rotor",
+    "material": "Aluminium",
+    "mass_kg": 0.126955522199572,
+    "volume_mm3": 45179.901138637724,
+    "cg_mm": [
+      -455.6140313263312,
+      -363.0164728064706,
+      -0.09503349868079543
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrische Lastpfadreserve Nabe–Blatt; Teilung, Bolzen, CFK-Klemmdruck, Fliehkraft und Ermüdung offen"
+  },
+  {
+    "id": "BLADE_2_2",
+    "label": "Profilblatt 3-Blatt-Referenz, Schalenmasse geschätzt",
+    "group": "rotor",
+    "material": "CFK",
+    "mass_kg": 0.21776267859219656,
+    "volume_mm3": 182095.39144536524,
+    "cg_mm": [
+      -527.0802847472379,
+      -632.6864958337839,
+      3.575625826125285
+    ],
+    "solid_count": 1,
+    "mass_override": true,
+    "note": "Vollprofil als äußere Hülle, 2×1,2mm Schalenmasse +120g Wurzel/Spar; Laminat und Hubanschluss offen"
+  },
+  {
+    "id": "GRIP_2_2",
+    "label": "Nabensteg mit formgleichem Blattwurzel-Nennsitz",
+    "group": "rotor",
+    "material": "Aluminium",
+    "mass_kg": 0.1269555221995721,
+    "volume_mm3": 45179.90113863775,
+    "cg_mm": [
+      -456.2742172912411,
+      -480.6023686489732,
+      -0.09503349868079378
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrische Lastpfadreserve Nabe–Blatt; Teilung, Bolzen, CFK-Klemmdruck, Fliehkraft und Ermüdung offen"
+  },
+  {
+    "id": "ESC_2",
+    "label": "ESC-Platzhalter 120×65×22",
+    "group": "electronics",
+    "material": "Reserve",
+    "mass_kg": 0.325,
+    "volume_mm3": 171600.0,
+    "cg_mm": [
+      -232.10000000000008,
+      -232.1,
+      -149.0
+    ],
+    "solid_count": 1,
+    "mass_override": true,
+    "note": "Massenbudget; Strom, Spannung, Kühlung und Befestigung offen"
+  },
+  {
+    "id": "ARM_3",
+    "label": "CFK-Ausleger 4",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.2770788739928677,
+    "volume_mm3": 173174.2962455423,
+    "cg_mm": [
+      258.72970773009206,
+      -258.72970773009206,
+      -110.0
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "MOUNT_3",
+    "label": "Motorträger 170×170×8, PCD50-Annahme",
+    "group": "new_static",
+    "material": "Aluminium",
+    "mass_kg": 0.6465956619957364,
+    "volume_mm3": 230105.217792077,
+    "cg_mm": [
+      422.0,
+      -422.00000000000017,
+      -85.99999999999999
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "4×Ø6,6 auf PCD50 als Platzhalter; neuer Motor noch nicht ausgewählt"
+  },
+  {
+    "id": "MOTOR_3",
+    "label": "Motorbauraum Ø150×66, neuer Typ offen",
+    "group": "motor",
+    "material": "Reserve",
+    "mass_kg": 2.75,
+    "volume_mm3": 1166316.2726452108,
+    "cg_mm": [
+      421.99999999999994,
+      -422.00000000000006,
+      -48.999999999999986
+    ],
+    "solid_count": 1,
+    "mass_override": true,
+    "note": "2,75 kg freie Masseannahme; kein ausgewählter Motor, keine bestätigte Dauerkennlinie oder Montage"
+  },
+  {
+    "id": "HUB_3",
+    "label": "Rotornabe Nennkörper",
+    "group": "rotor",
+    "material": "Aluminium",
+    "mass_kg": 0.35752895194178635,
+    "volume_mm3": 127234.5024703866,
+    "cg_mm": [
+      421.9999999999999,
+      -422.00000000000017,
+      -6.000000000000001
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Anschluss-, Lager- und Blattwurzelkonstruktion noch offen"
+  },
+  {
+    "id": "BLADE_3_0",
+    "label": "Profilblatt 3-Blatt-Referenz, Schalenmasse geschätzt",
+    "group": "rotor",
+    "material": "CFK",
+    "mass_kg": 0.21776267859219656,
+    "volume_mm3": 182095.39144536524,
+    "cg_mm": [
+      657.0,
+      -407.6589481111184,
+      3.5756258261252865
+    ],
+    "solid_count": 1,
+    "mass_override": true,
+    "note": "Vollprofil als äußere Hülle, 2×1,2mm Schalenmasse +120g Wurzel/Spar; Laminat und Hubanschluss offen"
+  },
+  {
+    "id": "GRIP_3_0",
+    "label": "Nabensteg mit formgleichem Blattwurzel-Nennsitz",
+    "group": "rotor",
+    "material": "Aluminium",
+    "mass_kg": 0.12695552219957204,
+    "volume_mm3": 45179.90113863773,
+    "cg_mm": [
+      489.88824861757206,
+      -422.38115854455606,
+      -0.09503349868079496
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrische Lastpfadreserve Nabe–Blatt; Teilung, Bolzen, CFK-Klemmdruck, Fliehkraft und Ermüdung offen"
+  },
+  {
+    "id": "BLADE_3_1",
+    "label": "Profilblatt 3-Blatt-Referenz, Schalenmasse geschätzt",
+    "group": "rotor",
+    "material": "CFK",
+    "mass_kg": 0.21776267859219656,
+    "volume_mm3": 182095.3914453652,
+    "cg_mm": [
+      292.08028474723767,
+      -225.65455605509786,
+      3.5756258261252842
+    ],
+    "solid_count": 1,
+    "mass_override": true,
+    "note": "Vollprofil als äußere Hülle, 2×1,2mm Schalenmasse +120g Wurzel/Spar; Laminat und Hubanschluss offen"
+  },
+  {
+    "id": "GRIP_3_1",
+    "label": "Nabensteg mit formgleichem Blattwurzel-Nennsitz",
+    "group": "rotor",
+    "material": "Aluminium",
+    "mass_kg": 0.126955522199572,
+    "volume_mm3": 45179.901138637724,
+    "cg_mm": [
+      388.38596867366863,
+      -363.01647280647035,
+      -0.09503349868079534
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrische Lastpfadreserve Nabe–Blatt; Teilung, Bolzen, CFK-Klemmdruck, Fliehkraft und Ermüdung offen"
+  },
+  {
+    "id": "BLADE_3_2",
+    "label": "Profilblatt 3-Blatt-Referenz, Schalenmasse geschätzt",
+    "group": "rotor",
+    "material": "CFK",
+    "mass_kg": 0.21776267859219656,
+    "volume_mm3": 182095.3914453652,
+    "cg_mm": [
+      316.91971525276216,
+      -632.686495833784,
+      3.575625826125285
+    ],
+    "solid_count": 1,
+    "mass_override": true,
+    "note": "Vollprofil als äußere Hülle, 2×1,2mm Schalenmasse +120g Wurzel/Spar; Laminat und Hubanschluss offen"
+  },
+  {
+    "id": "GRIP_3_2",
+    "label": "Nabensteg mit formgleichem Blattwurzel-Nennsitz",
+    "group": "rotor",
+    "material": "Aluminium",
+    "mass_kg": 0.12695552219957204,
+    "volume_mm3": 45179.90113863773,
+    "cg_mm": [
+      387.72578270875823,
+      -480.60236864897337,
+      -0.0950334986807972
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrische Lastpfadreserve Nabe–Blatt; Teilung, Bolzen, CFK-Klemmdruck, Fliehkraft und Ermüdung offen"
+  },
+  {
+    "id": "ESC_3",
+    "label": "ESC-Platzhalter 120×65×22",
+    "group": "electronics",
+    "material": "Reserve",
+    "mass_kg": 0.325,
+    "volume_mm3": 171600.00000000003,
+    "cg_mm": [
+      232.1,
+      -232.10000000000008,
+      -148.99999999999997
+    ],
+    "solid_count": 1,
+    "mass_override": true,
+    "note": "Massenbudget; Strom, Spannung, Kühlung und Befestigung offen"
+  },
+  {
+    "id": "DECK_POST_0",
+    "label": "Zentrale Deckstütze",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.05593600000000002,
+    "volume_mm3": 34960.00000000001,
+    "cg_mm": [
+      -119.99999999999997,
+      -70.0,
+      -15.000000000000027
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "DECK_PAD_0",
+    "label": "Deckauflage",
+    "group": "new_static",
+    "material": "Aluminium",
+    "mass_kg": 0.022479999999999997,
+    "volume_mm3": 7999.999999999998,
+    "cg_mm": [
+      -120.00000000000001,
+      -70.0,
+      92.49999999999999
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "DECK_POST_1",
+    "label": "Zentrale Deckstütze",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.05593600000000002,
+    "volume_mm3": 34960.00000000001,
+    "cg_mm": [
+      -119.99999999999997,
+      70.0,
+      -15.000000000000027
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "DECK_PAD_1",
+    "label": "Deckauflage",
+    "group": "new_static",
+    "material": "Aluminium",
+    "mass_kg": 0.022479999999999997,
+    "volume_mm3": 7999.999999999998,
+    "cg_mm": [
+      -120.00000000000001,
+      70.0,
+      92.49999999999999
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "DECK_POST_2",
+    "label": "Zentrale Deckstütze",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.055935999999999986,
+    "volume_mm3": 34959.99999999999,
+    "cg_mm": [
+      120.00000000000003,
+      -70.0,
+      -15.000000000000012
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "DECK_PAD_2",
+    "label": "Deckauflage",
+    "group": "new_static",
+    "material": "Aluminium",
+    "mass_kg": 0.022479999999999997,
+    "volume_mm3": 7999.999999999998,
+    "cg_mm": [
+      120.00000000000001,
+      -70.0,
+      92.49999999999999
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "DECK_POST_3",
+    "label": "Zentrale Deckstütze",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.055935999999999986,
+    "volume_mm3": 34959.99999999999,
+    "cg_mm": [
+      120.00000000000003,
+      70.0,
+      -15.000000000000012
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "DECK_PAD_3",
+    "label": "Deckauflage",
+    "group": "new_static",
+    "material": "Aluminium",
+    "mass_kg": 0.022479999999999997,
+    "volume_mm3": 7999.999999999998,
+    "cg_mm": [
+      120.00000000000001,
+      70.0,
+      92.49999999999999
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "DECK_BEAM_0",
+    "label": "Deckquerträger",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.11468800000000014,
+    "volume_mm3": 71680.00000000009,
+    "cg_mm": [
+      -8.526512829121202e-14,
+      -70.0,
+      80.0
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "DECK_BEAM_1",
+    "label": "Deckquerträger",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.11468800000000014,
+    "volume_mm3": 71680.00000000009,
+    "cg_mm": [
+      -8.526512829121202e-14,
+      70.0,
+      80.0
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "RING_0_LOW",
+    "label": "Schutzring 12×12 Nennquerschnitt",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.5949824627521887,
+    "volume_mm3": 371864.03922011796,
+    "cg_mm": [
+      422.00000000000244,
+      421.9999999999992,
+      -54.99999999999992
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "RING_0_HIGH",
+    "label": "Schutzring 12×12 Nennquerschnitt",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.5949824627521887,
+    "volume_mm3": 371864.03922011796,
+    "cg_mm": [
+      422.00000000000244,
+      421.9999999999992,
+      54.99999999999992
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GUARD_POST_0_0",
+    "label": "Ringdistanzrohr Ø12×1,5 bis Gitterlagen",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.01080645040981817,
+    "volume_mm3": 6754.031506136355,
+    "cg_mm": [
+      832.9999999999998,
+      422.0,
+      3.1595018016021073e-15
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GUARD_POST_0_1",
+    "label": "Ringdistanzrohr Ø12×1,5 bis Gitterlagen",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.010806450409818195,
+    "volume_mm3": 6754.031506136372,
+    "cg_mm": [
+      712.6208870676711,
+      712.6208870676711,
+      1.0772762323617915e-15
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GUARD_POST_0_2",
+    "label": "Ringdistanzrohr Ø12×1,5 bis Gitterlagen",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.01080645040981819,
+    "volume_mm3": 6754.031506136368,
+    "cg_mm": [
+      422.00000000000006,
+      833.0000000000001,
+      -5.38559214113096e-15
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GUARD_POST_0_3",
+    "label": "Ringdistanzrohr Ø12×1,5 bis Gitterlagen",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.0108064504098182,
+    "volume_mm3": 6754.031506136375,
+    "cg_mm": [
+      131.37911293232906,
+      712.620887067671,
+      4.308052901876498e-16
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GUARD_POST_0_4",
+    "label": "Ringdistanzrohr Ø12×1,5 bis Gitterlagen",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.010806450409818175,
+    "volume_mm3": 6754.031506136359,
+    "cg_mm": [
+      11.000000000000052,
+      422.0,
+      2.8369238477467005e-15
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GUARD_POST_0_5",
+    "label": "Ringdistanzrohr Ø12×1,5 bis Gitterlagen",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.010806450409818171,
+    "volume_mm3": 6754.031506136356,
+    "cg_mm": [
+      131.37911293232898,
+      131.37911293232898,
+      -9.695749098148812e-16
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GUARD_POST_0_6",
+    "label": "Ringdistanzrohr Ø12×1,5 bis Gitterlagen",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.010806450409818162,
+    "volume_mm3": 6754.031506136351,
+    "cg_mm": [
+      422.0000000000001,
+      11.0,
+      1.508081522549446e-15
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GUARD_POST_0_7",
+    "label": "Ringdistanzrohr Ø12×1,5 bis Gitterlagen",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.010806450409818164,
+    "volume_mm3": 6754.031506136352,
+    "cg_mm": [
+      712.6208870676709,
+      131.3791129323289,
+      3.554669657833456e-15
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GRID_0_TOP",
+    "label": "Drahtgitter Ø1,2 / 30 mm, Ausschnitt unten",
+    "group": "new_static",
+    "material": "Steel",
+    "mass_kg": 0.3178491343969413,
+    "volume_mm3": 40490.335591967036,
+    "cg_mm": [
+      421.9999999999991,
+      421.9999999999992,
+      66.99999999999986
+    ],
+    "solid_count": 54,
+    "mass_override": false,
+    "note": "Nennvolumen aus Drahtsegmenten; Befestigung, Maschenverformung, Durchgriff- und Fragmentrückhalt nicht nachgewiesen"
+  },
+  {
+    "id": "GRID_0_BOTTOM",
+    "label": "Drahtgitter Ø1,2 / 30 mm, Ausschnitt unten",
+    "group": "new_static",
+    "material": "Steel",
+    "mass_kg": 0.3055473153343725,
+    "volume_mm3": 38923.22488335956,
+    "cg_mm": [
+      421.9998048464423,
+      421.99981126567,
+      -66.99997007177353
+    ],
+    "solid_count": 64,
+    "mass_override": false,
+    "note": "Nennvolumen aus Drahtsegmenten; Befestigung, Maschenverformung, Durchgriff- und Fragmentrückhalt nicht nachgewiesen"
+  },
+  {
+    "id": "GRID_0_SIDE",
+    "label": "Seitliches Berührungsgitter",
+    "group": "new_static",
+    "material": "Steel",
+    "mass_kg": 0.1632690100300503,
+    "volume_mm3": 20798.60000382806,
+    "cg_mm": [
+      421.9999999999395,
+      421.9999999999496,
+      -2.3600652528527406
+    ],
+    "solid_count": 90,
+    "mass_override": false,
+    "note": "Nenn-Drahtgitter; Kreuzungen nicht verschweißt modelliert, kein Containmentnachweis"
+  },
+  {
+    "id": "GUARD_ARM_0_0",
+    "label": "Schutzringausleger unter Rotor",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.06479160000000021,
+    "volume_mm3": 40494.75000000013,
+    "cg_mm": [
+      651.5670133165411,
+      421.99999999999994,
+      -108.53408312188617
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GUARD_ARM_0_1",
+    "label": "Schutzringausleger unter Rotor",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.06498900000000013,
+    "volume_mm3": 40618.12500000007,
+    "cg_mm": [
+      306.94504640618726,
+      621.2752531433268,
+      -108.53340826954721
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GUARD_ARM_0_2",
+    "label": "Schutzringausleger unter Rotor",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.06498900000000005,
+    "volume_mm3": 40618.12500000002,
+    "cg_mm": [
+      306.94504640618715,
+      222.72474685667348,
+      -108.53340826954724
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "RING_1_LOW",
+    "label": "Schutzring 12×12 Nennquerschnitt",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.5949824627521887,
+    "volume_mm3": 371864.03922011796,
+    "cg_mm": [
+      -421.9999999999973,
+      421.9999999999986,
+      -54.99999999999992
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "RING_1_HIGH",
+    "label": "Schutzring 12×12 Nennquerschnitt",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.5949824627521887,
+    "volume_mm3": 371864.03922011796,
+    "cg_mm": [
+      -421.9999999999973,
+      421.9999999999986,
+      54.99999999999992
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GUARD_POST_1_0",
+    "label": "Ringdistanzrohr Ø12×1,5 bis Gitterlagen",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.010806450409818175,
+    "volume_mm3": 6754.031506136359,
+    "cg_mm": [
+      -11.000000000000004,
+      422.0,
+      4.990950298684954e-15
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GUARD_POST_1_1",
+    "label": "Ringdistanzrohr Ø12×1,5 bis Gitterlagen",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.010806450409818202,
+    "volume_mm3": 6754.031506136376,
+    "cg_mm": [
+      -131.379112932329,
+      712.620887067671,
+      7.898096986773578e-16
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GUARD_POST_1_2",
+    "label": "Ringdistanzrohr Ø12×1,5 bis Gitterlagen",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.01080645040981819,
+    "volume_mm3": 6754.031506136368,
+    "cg_mm": [
+      -422.00000000000006,
+      833.0000000000001,
+      -5.38559214113096e-15
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GUARD_POST_1_3",
+    "label": "Ringdistanzrohr Ø12×1,5 bis Gitterlagen",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.010806450409818195,
+    "volume_mm3": 6754.031506136372,
+    "cg_mm": [
+      -712.6208870676708,
+      712.6208870676712,
+      1.0772762323617915e-15
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GUARD_POST_1_4",
+    "label": "Ringdistanzrohr Ø12×1,5 bis Gitterlagen",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.01080645040981817,
+    "volume_mm3": 6754.031506136355,
+    "cg_mm": [
+      -833.0,
+      422.0,
+      -3.16002781538744e-15
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GUARD_POST_1_5",
+    "label": "Ringdistanzrohr Ø12×1,5 bis Gitterlagen",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.010806450409818164,
+    "volume_mm3": 6754.031506136352,
+    "cg_mm": [
+      -712.620887067671,
+      131.37911293232912,
+      -9.336744689659109e-16
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GUARD_POST_1_6",
+    "label": "Ringdistanzrohr Ø12×1,5 bis Gitterlagen",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.010806450409818159,
+    "volume_mm3": 6754.031506136349,
+    "cg_mm": [
+      -422.0000000000001,
+      11.000000000000055,
+      1.5080815225494464e-15
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GUARD_POST_1_7",
+    "label": "Ringdistanzrohr Ø12×1,5 bis Gitterlagen",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.010806450409818171,
+    "volume_mm3": 6754.031506136356,
+    "cg_mm": [
+      -131.37911293232898,
+      131.37911293232895,
+      -3.6262075326387285e-15
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GRID_1_TOP",
+    "label": "Drahtgitter Ø1,2 / 30 mm, Ausschnitt unten",
+    "group": "new_static",
+    "material": "Steel",
+    "mass_kg": 0.3178491343969413,
+    "volume_mm3": 40490.335591967036,
+    "cg_mm": [
+      -421.9999999999991,
+      421.99999999999926,
+      66.99999999999984
+    ],
+    "solid_count": 54,
+    "mass_override": false,
+    "note": "Nennvolumen aus Drahtsegmenten; Befestigung, Maschenverformung, Durchgriff- und Fragmentrückhalt nicht nachgewiesen"
+  },
+  {
+    "id": "GRID_1_BOTTOM",
+    "label": "Drahtgitter Ø1,2 / 30 mm, Ausschnitt unten",
+    "group": "new_static",
+    "material": "Steel",
+    "mass_kg": 0.30554731533467805,
+    "volume_mm3": 38923.22488339848,
+    "cg_mm": [
+      -421.9998177498287,
+      421.9998112582799,
+      -66.99997007094893
+    ],
+    "solid_count": 64,
+    "mass_override": false,
+    "note": "Nennvolumen aus Drahtsegmenten; Befestigung, Maschenverformung, Durchgriff- und Fragmentrückhalt nicht nachgewiesen"
+  },
+  {
+    "id": "GRID_1_SIDE",
+    "label": "Seitliches Berührungsgitter",
+    "group": "new_static",
+    "material": "Steel",
+    "mass_kg": 0.1632690100300503,
+    "volume_mm3": 20798.60000382806,
+    "cg_mm": [
+      -421.999999999938,
+      421.99999999995816,
+      -2.3600652528528525
+    ],
+    "solid_count": 90,
+    "mass_override": false,
+    "note": "Nenn-Drahtgitter; Kreuzungen nicht verschweißt modelliert, kein Containmentnachweis"
+  },
+  {
+    "id": "GUARD_ARM_1_0",
+    "label": "Schutzringausleger unter Rotor",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.06479159999999996,
+    "volume_mm3": 40494.74999999997,
+    "cg_mm": [
+      -192.43298668345906,
+      421.99999999999994,
+      -108.53408312188616
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GUARD_ARM_1_1",
+    "label": "Schutzringausleger unter Rotor",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.0649889999999999,
+    "volume_mm3": 40618.124999999935,
+    "cg_mm": [
+      -537.0549535938122,
+      621.2752531433263,
+      -108.53340826954728
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GUARD_ARM_1_2",
+    "label": "Schutzringausleger unter Rotor",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.06498899999999996,
+    "volume_mm3": 40618.12499999998,
+    "cg_mm": [
+      -537.0549535938131,
+      222.72474685667353,
+      -108.53340826954731
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "RING_2_LOW",
+    "label": "Schutzring 12×12 Nennquerschnitt",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.5949824627521887,
+    "volume_mm3": 371864.03922011796,
+    "cg_mm": [
+      -421.9999999999986,
+      -421.9999999999992,
+      -54.99999999999992
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "RING_2_HIGH",
+    "label": "Schutzring 12×12 Nennquerschnitt",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.5949824627521887,
+    "volume_mm3": 371864.03922011796,
+    "cg_mm": [
+      -421.9999999999986,
+      -421.9999999999992,
+      54.99999999999992
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GUARD_POST_2_0",
+    "label": "Ringdistanzrohr Ø12×1,5 bis Gitterlagen",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.010806450409818175,
+    "volume_mm3": 6754.031506136359,
+    "cg_mm": [
+      -11.000000000000123,
+      -421.99999999999983,
+      4.990950298684954e-15
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GUARD_POST_2_1",
+    "label": "Ringdistanzrohr Ø12×1,5 bis Gitterlagen",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.010806450409818171,
+    "volume_mm3": 6754.031506136356,
+    "cg_mm": [
+      -131.37911293232898,
+      -131.37911293232898,
+      -4.664427241439554e-16
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GUARD_POST_2_2",
+    "label": "Ringdistanzrohr Ø12×1,5 bis Gitterlagen",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.010806450409818159,
+    "volume_mm3": 6754.031506136349,
+    "cg_mm": [
+      -422.0000000000002,
+      -10.999999999999998,
+      -6.105705013251726e-16
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GUARD_POST_2_3",
+    "label": "Ringdistanzrohr Ø12×1,5 bis Gitterlagen",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.010806450409818164,
+    "volume_mm3": 6754.031506136352,
+    "cg_mm": [
+      -712.620887067671,
+      -131.37911293232895,
+      -9.336744689659109e-16
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GUARD_POST_2_4",
+    "label": "Ringdistanzrohr Ø12×1,5 bis Gitterlagen",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.01080645040981817,
+    "volume_mm3": 6754.031506136355,
+    "cg_mm": [
+      -833.0000000000002,
+      -421.9999999999999,
+      3.1595018016021073e-15
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GUARD_POST_2_5",
+    "label": "Ringdistanzrohr Ø12×1,5 bis Gitterlagen",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.010806450409818194,
+    "volume_mm3": 6754.031506136371,
+    "cg_mm": [
+      -712.6208870676712,
+      -712.6208870676711,
+      5.421492581979929e-15
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GUARD_POST_2_6",
+    "label": "Ringdistanzrohr Ø12×1,5 bis Gitterlagen",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.01080645040981819,
+    "volume_mm3": 6754.031506136368,
+    "cg_mm": [
+      -422.00000000000017,
+      -833.0000000000001,
+      -5.134289055188165e-15
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GUARD_POST_2_7",
+    "label": "Ringdistanzrohr Ø12×1,5 bis Gitterlagen",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.010806450409818199,
+    "volume_mm3": 6754.031506136374,
+    "cg_mm": [
+      -131.37911293232924,
+      -712.6208870676711,
+      2.5130308594279577e-16
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GRID_2_TOP",
+    "label": "Drahtgitter Ø1,2 / 30 mm, Ausschnitt unten",
+    "group": "new_static",
+    "material": "Steel",
+    "mass_kg": 0.31784913439694135,
+    "volume_mm3": 40490.33559196704,
+    "cg_mm": [
+      -421.9999999999993,
+      -421.9999999999991,
+      66.99999999999984
+    ],
+    "solid_count": 54,
+    "mass_override": false,
+    "note": "Nennvolumen aus Drahtsegmenten; Befestigung, Maschenverformung, Durchgriff- und Fragmentrückhalt nicht nachgewiesen"
+  },
+  {
+    "id": "GRID_2_BOTTOM",
+    "label": "Drahtgitter Ø1,2 / 30 mm, Ausschnitt unten",
+    "group": "new_static",
+    "material": "Steel",
+    "mass_kg": 0.30554731533425683,
+    "volume_mm3": 38923.22488334482,
+    "cg_mm": [
+      -421.99981775003306,
+      -421.9998113317016,
+      -66.99997007058025
+    ],
+    "solid_count": 64,
+    "mass_override": false,
+    "note": "Nennvolumen aus Drahtsegmenten; Befestigung, Maschenverformung, Durchgriff- und Fragmentrückhalt nicht nachgewiesen"
+  },
+  {
+    "id": "GRID_2_SIDE",
+    "label": "Seitliches Berührungsgitter",
+    "group": "new_static",
+    "material": "Steel",
+    "mass_kg": 0.1632690100300503,
+    "volume_mm3": 20798.60000382806,
+    "cg_mm": [
+      -421.99999999993946,
+      -421.99999999994384,
+      -2.3600652528527295
+    ],
+    "solid_count": 90,
+    "mass_override": false,
+    "note": "Nenn-Drahtgitter; Kreuzungen nicht verschweißt modelliert, kein Containmentnachweis"
+  },
+  {
+    "id": "GUARD_ARM_2_0",
+    "label": "Schutzringausleger unter Rotor",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.06479159999999996,
+    "volume_mm3": 40494.74999999997,
+    "cg_mm": [
+      -192.43298668345906,
+      -422.0,
+      -108.53408312188616
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GUARD_ARM_2_1",
+    "label": "Schutzringausleger unter Rotor",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.06498900000000006,
+    "volume_mm3": 40618.12500000004,
+    "cg_mm": [
+      -537.0549535938123,
+      -222.7247468566733,
+      -108.5334082695472
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GUARD_ARM_2_2",
+    "label": "Schutzringausleger unter Rotor",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.06498899999999998,
+    "volume_mm3": 40618.124999999985,
+    "cg_mm": [
+      -537.0549535938128,
+      -621.2752531433266,
+      -108.53340826954728
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "RING_3_LOW",
+    "label": "Schutzring 12×12 Nennquerschnitt",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.5949824627521887,
+    "volume_mm3": 371864.03922011796,
+    "cg_mm": [
+      422.0000000000005,
+      -422.0000000000005,
+      -54.99999999999992
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "RING_3_HIGH",
+    "label": "Schutzring 12×12 Nennquerschnitt",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.5949824627521887,
+    "volume_mm3": 371864.03922011796,
+    "cg_mm": [
+      422.0000000000005,
+      -422.0000000000005,
+      54.99999999999992
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GUARD_POST_3_0",
+    "label": "Ringdistanzrohr Ø12×1,5 bis Gitterlagen",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.010806450409818171,
+    "volume_mm3": 6754.031506136356,
+    "cg_mm": [
+      832.9999999999997,
+      -422.0,
+      2.2258273326361966e-15
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GUARD_POST_3_1",
+    "label": "Ringdistanzrohr Ø12×1,5 bis Gitterlagen",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.010806450409818164,
+    "volume_mm3": 6754.031506136352,
+    "cg_mm": [
+      712.6208870676709,
+      -131.37911293232912,
+      2.262253787270502e-15
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GUARD_POST_3_2",
+    "label": "Ringdistanzrohr Ø12×1,5 bis Gitterlagen",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.010806450409818162,
+    "volume_mm3": 6754.031506136351,
+    "cg_mm": [
+      422.0,
+      -11.00000000000011,
+      1.508081522549446e-15
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GUARD_POST_3_3",
+    "label": "Ringdistanzrohr Ø12×1,5 bis Gitterlagen",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.010806450409818171,
+    "volume_mm3": 6754.031506136356,
+    "cg_mm": [
+      131.37911293232898,
+      -131.37911293232904,
+      -1.1131766732107647e-15
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GUARD_POST_3_4",
+    "label": "Ringdistanzrohr Ø12×1,5 bis Gitterlagen",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.010806450409818175,
+    "volume_mm3": 6754.031506136359,
+    "cg_mm": [
+      10.999999999999941,
+      -422.0,
+      2.8369238477467005e-15
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GUARD_POST_3_5",
+    "label": "Ringdistanzrohr Ø12×1,5 bis Gitterlagen",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.0108064504098182,
+    "volume_mm3": 6754.031506136375,
+    "cg_mm": [
+      131.37911293232887,
+      -712.6208870676711,
+      -3.878825653044846e-15
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GUARD_POST_3_6",
+    "label": "Ringdistanzrohr Ø12×1,5 bis Gitterlagen",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.010806450409818192,
+    "volume_mm3": 6754.031506136369,
+    "cg_mm": [
+      421.99999999999994,
+      -833.0000000000003,
+      7.890206779993593e-19
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GUARD_POST_3_7",
+    "label": "Ringdistanzrohr Ø12×1,5 bis Gitterlagen",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.010806450409818197,
+    "volume_mm3": 6754.031506136373,
+    "cg_mm": [
+      712.6208870676708,
+      -712.6208870676711,
+      -6.823713830231121e-16
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GRID_3_TOP",
+    "label": "Drahtgitter Ø1,2 / 30 mm, Ausschnitt unten",
+    "group": "new_static",
+    "material": "Steel",
+    "mass_kg": 0.3178491343969414,
+    "volume_mm3": 40490.33559196705,
+    "cg_mm": [
+      421.9999999999989,
+      -421.9999999999992,
+      66.99999999999984
+    ],
+    "solid_count": 54,
+    "mass_override": false,
+    "note": "Nennvolumen aus Drahtsegmenten; Befestigung, Maschenverformung, Durchgriff- und Fragmentrückhalt nicht nachgewiesen"
+  },
+  {
+    "id": "GRID_3_BOTTOM",
+    "label": "Drahtgitter Ø1,2 / 30 mm, Ausschnitt unten",
+    "group": "new_static",
+    "material": "Steel",
+    "mass_kg": 0.3055473153343772,
+    "volume_mm3": 38923.22488336015,
+    "cg_mm": [
+      421.9998048464234,
+      -421.99981133698,
+      -66.99997007177093
+    ],
+    "solid_count": 64,
+    "mass_override": false,
+    "note": "Nennvolumen aus Drahtsegmenten; Befestigung, Maschenverformung, Durchgriff- und Fragmentrückhalt nicht nachgewiesen"
+  },
+  {
+    "id": "GRID_3_SIDE",
+    "label": "Seitliches Berührungsgitter",
+    "group": "new_static",
+    "material": "Steel",
+    "mass_kg": 0.16326901003005165,
+    "volume_mm3": 20798.600003828236,
+    "cg_mm": [
+      421.99999999994736,
+      -421.9999999999461,
+      -2.3600652528527206
+    ],
+    "solid_count": 90,
+    "mass_override": false,
+    "note": "Nenn-Drahtgitter; Kreuzungen nicht verschweißt modelliert, kein Containmentnachweis"
+  },
+  {
+    "id": "GUARD_ARM_3_0",
+    "label": "Schutzringausleger unter Rotor",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.06479160000000043,
+    "volume_mm3": 40494.75000000027,
+    "cg_mm": [
+      651.567013316541,
+      -422.00000000000006,
+      -108.5340831218861
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GUARD_ARM_3_1",
+    "label": "Schutzringausleger unter Rotor",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.06498899999999995,
+    "volume_mm3": 40618.12499999996,
+    "cg_mm": [
+      306.94504640618743,
+      -222.72474685667348,
+      -108.53340826954722
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "GUARD_ARM_3_2",
+    "label": "Schutzringausleger unter Rotor",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.06498900000000006,
+    "volume_mm3": 40618.12500000004,
+    "cg_mm": [
+      306.94504640618715,
+      -621.2752531433272,
+      -108.53340826954734
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "DECK",
+    "label": "Personendeck 620×360×8, Voll-CFK-Ersatz",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 2.8569600000000004,
+    "volume_mm3": 1785600.0,
+    "cg_mm": [
+      -7.808568606530268e-16,
+      -1.2835610710505039e-15,
+      99.0
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Vollplatten-Ersatz; Auflagen, Rutschbelag, Laminat, Decklast und Rückhalt offen"
+  },
+  {
+    "id": "BATTERY",
+    "label": "Batteriebauraum, 12 kg / 2,64 kWh angenommen",
+    "group": "battery",
+    "material": "Reserve",
+    "mass_kg": 12,
+    "volume_mm3": 5940000.0,
+    "cg_mm": [
+      5.268064323716299e-16,
+      -4.042198674546348e-16,
+      -193.0
+    ],
+    "solid_count": 1,
+    "mass_override": true,
+    "note": "Packtyp, tatsächliche Masse/Kapazität, Strom, Kühlung und Halterung offen"
+  },
+  {
+    "id": "BATTERY_TRAY",
+    "label": "Batteriewanne 2mm Alu",
+    "group": "new_static",
+    "material": "Aluminium",
+    "mass_kg": 0.41911711999999995,
+    "volume_mm3": 149151.99999999997,
+    "cg_mm": [
+      -1.2132479578424914e-15,
+      -5.396527107038737e-16,
+      -240.0
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "BATTERY_HANGER_0",
+    "label": "Batteriewannen-Halter",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.01809599999999999,
+    "volume_mm3": 11309.999999999993,
+    "cg_mm": [
+      -140.0,
+      -100.0,
+      -175.0
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "BATTERY_HANGER_1",
+    "label": "Batteriewannen-Halter",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.01809599999999999,
+    "volume_mm3": 11309.999999999993,
+    "cg_mm": [
+      -140.0,
+      100.0,
+      -175.0
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "BATTERY_HANGER_2",
+    "label": "Batteriewannen-Halter",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.01809599999999999,
+    "volume_mm3": 11309.999999999993,
+    "cg_mm": [
+      140.0,
+      -100.0,
+      -175.0
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "BATTERY_HANGER_3",
+    "label": "Batteriewannen-Halter",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.01809599999999999,
+    "volume_mm3": 11309.999999999993,
+    "cg_mm": [
+      140.0,
+      100.0,
+      -175.0
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "ELECTRONICS",
+    "label": "Restelektronik-/Kabelbudget",
+    "group": "electronics",
+    "material": "Reserve",
+    "mass_kg": 0.7,
+    "volume_mm3": 270000.0,
+    "cg_mm": [
+      -1.5057584808649457e-15,
+      -7.579122514774402e-17,
+      75.0
+    ],
+    "solid_count": 1,
+    "mass_override": true,
+    "note": "Elektronik insgesamt 2kg einschließlich ESC-Reservemassen; Stecker/Kabel/Kühlung noch unbestimmt"
+  },
+  {
+    "id": "SKID_0",
+    "label": "Kufenrohr 30×30×2",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.258048,
+    "volume_mm3": 161280.0,
+    "cg_mm": [
+      -5.684341886080802e-14,
+      -240.0,
+      -275.0
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "LEG_0_0",
+    "label": "Kufenstütze außerhalb Rotor oder darunter",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.05252680839342896,
+    "volume_mm3": 32829.255245893095,
+    "cg_mm": [
+      -250.0,
+      -169.99999999999994,
+      -184.99999999999994
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "LEG_0_1",
+    "label": "Kufenstütze außerhalb Rotor oder darunter",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.05252680839342898,
+    "volume_mm3": 32829.25524589311,
+    "cg_mm": [
+      250.0,
+      -169.99999999999994,
+      -185.00000000000006
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "SKID_1",
+    "label": "Kufenrohr 30×30×2",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.258048,
+    "volume_mm3": 161280.0,
+    "cg_mm": [
+      -5.684341886080802e-14,
+      240.0,
+      -275.0
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "LEG_1_0",
+    "label": "Kufenstütze außerhalb Rotor oder darunter",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.05252680839342897,
+    "volume_mm3": 32829.2552458931,
+    "cg_mm": [
+      -250.0,
+      170.0,
+      -184.99999999999997
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  },
+  {
+    "id": "LEG_1_1",
+    "label": "Kufenstütze außerhalb Rotor oder darunter",
+    "group": "new_static",
+    "material": "CFK",
+    "mass_kg": 0.05252680839342897,
+    "volume_mm3": 32829.2552458931,
+    "cg_mm": [
+      250.00000000000003,
+      170.0,
+      -184.99999999999997
+    ],
+    "solid_count": 1,
+    "mass_override": false,
+    "note": "Geometrievorschlag; Last-/Montagenachweis offen"
+  }
+]

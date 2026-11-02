@@ -1,0 +1,86 @@
+[
+  {
+    "id": "P14_R750",
+    "native_shape_valid": true,
+    "native_objects": 994,
+    "frame_step_valid": true,
+    "frame_step_solids": 450,
+    "relative_frame_step_volume_difference": 2.5435238359960977e-09,
+    "blade_polar_inertia_each_motor_kgm2": 0.4174862096212814,
+    "inertia_scope": "CAD equivalent blade mass distribution only; hub, grip, shaft and motor rotor inertia excluded",
+    "native_sha256": "a21316e9cfc2baa35af14150ac9b593e2ab18d49f0de754a65e390f30500352e",
+    "envelope_with_3mm_tolerance_each_side_pass": true
+  },
+  {
+    "id": "P14_R800",
+    "native_shape_valid": true,
+    "native_objects": 994,
+    "frame_step_valid": true,
+    "frame_step_solids": 469,
+    "relative_frame_step_volume_difference": 2.4725813618786674e-09,
+    "blade_polar_inertia_each_motor_kgm2": 0.497552789426534,
+    "inertia_scope": "CAD equivalent blade mass distribution only; hub, grip, shaft and motor rotor inertia excluded",
+    "native_sha256": "892227cdc7e97281185d2e590e5d2905dfa577bb77039006c95753afc93ae9ba",
+    "envelope_with_3mm_tolerance_each_side_pass": true
+  },
+  {
+    "id": "QUAD_R400",
+    "native_shape_valid": true,
+    "native_objects": 133,
+    "frame_step_valid": true,
+    "frame_step_solids": 1001,
+    "relative_frame_step_volume_difference": 2.3544558525046e-09,
+    "blade_polar_inertia_each_motor_kgm2": 0.04680602082626918,
+    "inertia_scope": "CAD equivalent blade mass distribution only; hub, grip, shaft and motor rotor inertia excluded",
+    "native_sha256": "af19880ebc377cab20d6cdaa9854a8037f1b4e55e7ca762acec466624eb2619f",
+    "envelope_with_3mm_tolerance_each_side_pass": false
+  },
+  {
+    "id": "QUAD_R380",
+    "native_shape_valid": true,
+    "native_objects": 133,
+    "frame_step_valid": true,
+    "frame_step_solids": 953,
+    "relative_frame_step_volume_difference": 2.4055849534576623e-09,
+    "blade_polar_inertia_each_motor_kgm2": 0.0410482087282243,
+    "inertia_scope": "CAD equivalent blade mass distribution only; hub, grip, shaft and motor rotor inertia excluded",
+    "native_sha256": "6e2fcf0aeb26525671c56a3500021d1da054c000bddffee7667c41dd6ca6d223",
+    "envelope_with_3mm_tolerance_each_side_pass": true
+  },
+  {
+    "id": "HEXA_R275",
+    "native_shape_valid": true,
+    "native_objects": 187,
+    "frame_step_valid": true,
+    "frame_step_solids": 1141,
+    "relative_frame_step_volume_difference": 3.0913466231297093e-09,
+    "blade_polar_inertia_each_motor_kgm2": 0.018997469370037236,
+    "inertia_scope": "CAD equivalent blade mass distribution only; hub, grip, shaft and motor rotor inertia excluded",
+    "native_sha256": "71c3327681cb70add5a03919f1592598cbe091fd16089c73c6b692e71c8a916b",
+    "envelope_with_3mm_tolerance_each_side_pass": false
+  },
+  {
+    "id": "HEXA_R265",
+    "native_shape_valid": true,
+    "native_objects": 187,
+    "frame_step_valid": true,
+    "frame_step_solids": 1075,
+    "relative_frame_step_volume_difference": 3.1283037271734315e-09,
+    "blade_polar_inertia_each_motor_kgm2": 0.017507161024173126,
+    "inertia_scope": "CAD equivalent blade mass distribution only; hub, grip, shaft and motor rotor inertia excluded",
+    "native_sha256": "327a37ccb809211631b7b3924dbcc618109eb09e25a76840ece5dd35accabae4",
+    "envelope_with_3mm_tolerance_each_side_pass": true
+  },
+  {
+    "id": "HEXA_R265_B4",
+    "native_shape_valid": true,
+    "native_objects": 199,
+    "frame_step_valid": true,
+    "frame_step_solids": 1087,
+    "relative_frame_step_volume_difference": 3.045170782201012e-09,
+    "blade_polar_inertia_each_motor_kgm2": 0.02334288136556417,
+    "inertia_scope": "CAD equivalent blade mass distribution only; hub, grip, shaft and motor rotor inertia excluded",
+    "native_sha256": "7f3c21ac981cb070c92559588c8072623daee0ed45bcfbf00ab8a34ad188571f",
+    "envelope_with_3mm_tolerance_each_side_pass": true
+  }
+]

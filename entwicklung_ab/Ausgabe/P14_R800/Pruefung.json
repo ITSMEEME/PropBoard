@@ -1,0 +1,54 @@
+{
+  "case": {
+    "id": "P14_R800",
+    "type": "coax",
+    "radius_mm": 800,
+    "blades": 4
+  },
+  "body_count": 994,
+  "solid_count": 1418,
+  "all_shapes_valid": true,
+  "native_sha256": "892227cdc7e97281185d2e590e5d2905dfa577bb77039006c95753afc93ae9ba",
+  "mass_categories_kg": {
+    "new_static": 16.842770099582932,
+    "P14_existing": 45.600331231871905,
+    "battery": 12,
+    "electronics": 2
+  },
+  "total_mass_with_payload_kg": 176.44310133145484,
+  "dry_without_battery_electronics_payload_kg": 62.44310133145484,
+  "mass_complete": false,
+  "motor_mass_verified": true,
+  "bounds_mm": [
+    1674.0,
+    1674.0,
+    589.0
+  ],
+  "bounds_min_mm": [
+    -837.0,
+    -837.0,
+    -290.0
+  ],
+  "bounds_max_mm": [
+    837.0,
+    837.0,
+    299.0
+  ],
+  "envelope_pass": true,
+  "tip_swept_radius_mm": 804.8290868895409,
+  "guard_inner_radius_mm": 825,
+  "radial_clearance_mm": 20.170913110459082,
+  "radial_reserve_after_18mm_mm": 2.1709131104590824,
+  "swept_half_height_mm": 55.981812899310185,
+  "rotor_envelope_intersections": [],
+  "new_vs_inherited_static_intersections": [],
+  "centres_mm": [
+    [
+      0,
+      0
+    ]
+  ],
+  "guard_containment_verified": false,
+  "frame_joints_detailed": false,
+  "scope": "Volume-based frame/mass and swept geometric screening. Material allowables, OEM interfaces, all joints, mesh fixation, payload restraint and fatigue unresolved."
+}

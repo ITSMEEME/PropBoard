@@ -1,5 +1,8 @@
 # PropBoard
 
+**A/B-Weiterentwicklung:** [P14-Vierblatt und neue Quad-/Hexakopter-Rahmen](entwicklung_ab/README.md) · [CAD-Ansicht](entwicklung_ab/Modelle.html) · [Entwicklungsbericht](entwicklung_ab/Entwicklungsbericht.pdf).
+Neue native Entwürfe schließen den modellierten Schutzraum und Strukturmassenumfang; Komponenten-, Verbindungs- und Festigkeitsnachweise bleiben offen.
+
 **Antriebsvergleich mit 1–10 Motoren:** [Ausführliche Studie](studie_antrieb/Studie.pdf) · [Ergebnisse und Reproduktion](studie_antrieb/README.md).
 Verglichen werden klassische Multicopter, P14-Koaxialpaare und Mischsysteme einschließlich Rotorblattzahl, Blattlänge, Motor-Leistungsklassen und Batterie-Massenrückkopplung. Stationäre Vorstudie mit angenommenen Neuentwurfsmassen; kein Flugnachweis.
 
