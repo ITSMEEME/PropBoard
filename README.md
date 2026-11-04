@@ -1,5 +1,7 @@
 # PropBoard
 
+**Quad D11 (lokaler Aufbau):** [Motornahe Reglerhalter](quad_r380_d11/README.md) · [3D-Ansicht](quad_r380_d11/Projekt.html). Vier detaillierte Montageeinheiten, an Rohrvarianten angepasst. Reglertyp und Anschlüsse bleiben unbestätigt; noch kein vollständiger elektrischer Einbau.
+
 **Quad D10:** [Innenverkabelung und leichtere Aufnahmen für1–4 Rohre](quad_r380_d10/README.md) · [3D-Ansicht](quad_r380_d10/Projekt.html). DC-/Signalleitungen im Ausleger, V5 mit vier Rohren, gemessene Materialreduzierung. Nominale CAD-Prüfungen bestanden; Toleranzen, elektrische Auslegung und Festigkeit bleiben offen.
 
 **Quad HEP-S D09:** [10 Rotorgrößen × V1–V4](quad_r380_d09/README.md) · [3D-Ansicht](quad_r380_d09/Projekt.html). 40 Umschalterstellungen und nominale Rotorhüllen geprüft; abgeschlossene statische Prüfung meldet Anschlusskollisionen. Keine Produktions-/Flugfreigabe.

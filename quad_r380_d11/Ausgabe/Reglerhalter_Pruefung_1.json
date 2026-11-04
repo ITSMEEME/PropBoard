@@ -1,0 +1,100 @@
+{
+  "native_sha256": "283a7d862d0970d448144474b2cb1c6ad909b1befcd2f3a91e6a352addceef5e",
+  "nominal_clear": true,
+  "new_parts_rotor_Z_gap_mm": 41.25696154176272,
+  "findings": [],
+  "candidates": 2796,
+  "switch_checks": [
+    {
+      "propeller_index": 1,
+      "variant": "V1",
+      "visible_modules": 4,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V2",
+      "visible_modules": 4,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V3",
+      "visible_modules": 4,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V4",
+      "visible_modules": 4,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V5",
+      "visible_modules": 4,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V1",
+      "visible_modules": 4,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V2",
+      "visible_modules": 4,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V3",
+      "visible_modules": 4,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V4",
+      "visible_modules": 4,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V5",
+      "visible_modules": 4,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V1",
+      "visible_modules": 4,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V2",
+      "visible_modules": 4,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V3",
+      "visible_modules": 4,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V4",
+      "visible_modules": 4,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V5",
+      "visible_modules": 4,
+      "passed": true
+    }
+  ],
+  "scope": "Actual mounting components vs all selected prior CAD at all4 corners; internal component pairs on one arm per50 state,other corners rigid copies.ESC body checked only as74x146x39.5 envelope.No actual OEM body,ports,thermal,preload or strength release."
+}
