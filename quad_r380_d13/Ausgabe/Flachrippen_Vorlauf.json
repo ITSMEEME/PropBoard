@@ -1,0 +1,212 @@
+{
+  "checks": [
+    {
+      "propeller_index": 0,
+      "variant": "V1",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V2",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V3",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V4",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V5",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V1",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V2",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V3",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V4",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V5",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V1",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V2",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V3",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V4",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V5",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V1",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V2",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V3",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V4",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V5",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V1",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V2",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V3",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V4",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V5",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    }
+  ],
+  "new_interferences": [],
+  "baseline_contacts": [],
+  "native_sha256": "4936a2a9904397784c0251c440b5a4be4023c1ade2ddda1a187a2aff52004f22",
+  "completed_algorithm_sha256": "d6fa1e49d1f0f3e0629ff3bdbcfe37c156a82f5433b330eb3e7f73a1d707efb1",
+  "source_reader_sha256": "e0187dac621ba392a0cd41e15bccb1207021182fcbaf7f145b47afdb5f537391",
+  "successful_cases_include_all_asserted_bore_checks": true,
+  "completed_algorithm_source": "\"\"\"Native BREP/placement verification directly from saved FCStd ZIP.\nNo GUI-mesh geometry and no25000-link restoration; explicit selector bindings.\n\"\"\"\nfrom pathlib import Path\nimport sys,json,hashlib,math\nH=Path(__file__).resolve().parents[1];R=H.parent;O=H/'Ausgabe';sys.path.extend(['/usr/lib/freecad-python3/lib']);sys.path.insert(0,str(R/'quad_r380_d07'));sys.path.insert(0,str(H))\nimport FreeCAD as A,Part\nfrom zipcad import Native\nfrom geometrie import intersection_volume\nfrom planung import axis_geometry\nmeta=json.loads((O/'Flachrippen_Aufbau.json').read_text());native=O/'Quad_Flachrippen_Mensch.FCStd';n=Native(native);original=Native(O/'Quad_Standardkabelbaum.FCStd');data=json.loads((O/'projekt.js').read_text()[len('globalThis.QD_MODEL='):].strip().rstrip(';'));rows=data['instances'];del data\ncs=json.loads((R/'quad_r380_d10/Konfigurationen.json').read_text());vs=json.loads((R/'quad_r380_d10/Varianten.json').read_text());hits=[];baseline=[];checks=[];corr=[];cache={};paircache={};shapes={};V=A.Vector\nfor pi,c in enumerate(cs):\n for vidx,v in enumerate(vs):\n  vi=v['id'];nodes=[r for r in meta['changes'] if r['propeller_index']==pi and r['variant']==vi];active=[r for r in rows if ('propeller_index' not in r or r['propeller_index']==pi) and ('variant' not in r or r['variant']==vi) and r.get('group') not in ['Rotorhuelle','Mensch','Bildpropeller']];changed={r['master'] for r in nodes};a,b=axis_geometry(v,c)\n  for r in nodes:\n   name=r['master'];s=n.shape(name)\n   if ('valid',name) not in cache:cache[('valid',name)]=s.isValid() and len(s.Solids)==1\n   assert cache[('valid',name)]\n   for inst in r['instances']:\n    ex=' '.join(x.get('expression','') for x in n.expressions(inst));assert f'Variantensteuerung.Variante == {vidx}' in ex and f'Variantensteuerung.Propeller == {pi}' in ex\n    assert n.linked(inst)==name\n   if r['part']=='Motor':\n    assert abs(s.Solids[0].CenterOfMass.y)<.001\n    assert abs(s.Volume-intersection_volume(s,s.mirror(V(),V(0,1,0))))<.1\n   for j,(aa,bb) in enumerate(zip(a,b)):\n    aa=V(*aa);bb=V(*bb);d=bb-aa;d.normalize();start=aa-d*30 if r['part']=='Root' else bb-d*60;length=90 if r['part']=='Root' else 64;key=('bore',name,j,tuple(round(x,6) for x in start),tuple(round(x,6) for x in d))\n    if key not in cache:cache[key]=intersection_volume(s,Part.makeCylinder(v['di']/2-.4,length,start,d))\n    vol=cache[key];corr.append(dict(propeller_index=pi,variant=vi,part=r['part'],tube=j,volume_mm3=vol));assert vol<.1,(pi,vi,r['part'],j,vol)\n   inst=next(i for i in r['instances'] if i.endswith('_45'));world=n.instance(inst)\n   for p in active:\n    if p['id'] in changed:continue\n    key=('world',p['instance'])\n    if key not in shapes:shapes[key]=n.row(p)\n    t=shapes[key]\n    if not world.BoundBox.intersect(t.BoundBox):continue\n    pair=(name,p['id'],tuple(round(x,5) for x in p['placement_mm']),tuple(round(x,5) for x in p['placement_quaternion']))\n    if pair not in paircache:\n     vol=intersection_volume(world,t);oldvol=0\n     if vol>.1:\n      print('Contact',pi,vi,r['part'],p['instance'],vol,flush=True);oldvol=intersection_volume(original.instance(inst),original.row(p))\n     paircache[pair]=(vol,oldvol)\n    vol,oldvol=paircache[pair]\n    if vol>.1:\n     finding=dict(propeller_index=pi,variant=vi,part=r['part'],other=p['instance'],other_master=p['id'],volume_mm3=vol,previous_volume_mm3=oldvol)\n     (baseline if vol<=oldvol+.1 else hits).append(finding)\n  checks.append(dict(propeller_index=pi,variant=vi,single_solid_nodes=True,motor_symmetric=True,eight_native_link_bindings_checked=True,new_interferences=sum(1 for x in hits if x['propeller_index']==pi and x['variant']==vi)));(O/'Flachrippen_Zwischenpruefung.json').write_text(json.dumps(dict(checks=checks,new_interferences=hits,baseline_contacts=baseline),indent=2));print('Native ZIP check',pi,vi,'new',len(hits),flush=True)\npeople=[n.shape(r['id']) for r in meta['human']];height=max(s.BoundBox.ZMax for s in people)-min(s.BoundBox.ZMin for s in people);assert abs(height-1750)<.01\nreport=dict(native_sha256=hashlib.sha256(native.read_bytes()).hexdigest(),checks=checks,internal_corridor_checks=corr,new_interferences=hits,unchanged_or_reduced_baseline_contacts=baseline,human_height_measured_mm=height,human_lowest_z_mm=min(s.BoundBox.ZMin for s in people),geometry_passed=not hits,scope='Saved native BREP and native LinkPlacements from FCStd ZIP;one rigid45degree corner vs active assembly peers;all50 configurations;mirror Boolean and full cable bores.Native selector expressions/links verified,not50 GUI recomputations.Human excluded as reference;no structural/thermal/tolerance approval.',strength_revalidation_required=True,production_ready=False)\n(O/'Flachrippen_Pruefung.json').write_text(json.dumps(report,indent=2));assert not hits,hits;print('All50 native saved geometries pass',flush=True)\n",
+  "original_checkpoint_sha256": "24e4ceb642891396110d63b37c3285d827c926b2b01ffe8b1f3e6abeea7468ee"
+}

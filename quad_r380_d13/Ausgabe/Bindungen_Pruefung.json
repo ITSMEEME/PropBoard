@@ -1,0 +1,1873 @@
+{
+  "native_sha256": "51fd41d237a83687e1276f652f79bbe833d1417f0727d58006206a5edcb20dcb",
+  "all400_yoke_placements_unchanged": true,
+  "link_bindings_checked": 400,
+  "protected_cable_and_CFK_shapes": [
+    "P9_V1_Tube0",
+    "P9_V2_Tube0",
+    "P9_V2_Tube1",
+    "P9_V3_Tube0",
+    "P9_V3_Tube1",
+    "P9_V4_Tube0",
+    "P9_V4_Tube1",
+    "P9_V4_Tube2",
+    "P9_V5_Tube0",
+    "P9_V5_Tube1",
+    "P9_V5_Tube2",
+    "P9_V5_Tube3",
+    "P8_V1_Tube0",
+    "P8_V2_Tube0",
+    "P8_V2_Tube1",
+    "P8_V3_Tube0",
+    "P8_V3_Tube1",
+    "P8_V4_Tube0",
+    "P8_V4_Tube1",
+    "P8_V4_Tube2",
+    "P8_V5_Tube0",
+    "P8_V5_Tube1",
+    "P8_V5_Tube2",
+    "P8_V5_Tube3",
+    "P7_V1_Tube0",
+    "P7_V2_Tube0",
+    "P7_V2_Tube1",
+    "P7_V3_Tube0",
+    "P7_V3_Tube1",
+    "P7_V4_Tube0",
+    "P7_V4_Tube1",
+    "P7_V4_Tube2",
+    "P7_V5_Tube0",
+    "P7_V5_Tube1",
+    "P7_V5_Tube2",
+    "P7_V5_Tube3",
+    "P6_V1_Tube0",
+    "P6_V2_Tube0",
+    "P6_V2_Tube1",
+    "P6_V3_Tube0",
+    "P6_V3_Tube1",
+    "P6_V4_Tube0",
+    "P6_V4_Tube1",
+    "P6_V4_Tube2",
+    "P6_V5_Tube0",
+    "P6_V5_Tube1",
+    "P6_V5_Tube2",
+    "P6_V5_Tube3",
+    "P5_V1_Tube0",
+    "P5_V2_Tube0",
+    "P5_V2_Tube1",
+    "P5_V3_Tube0",
+    "P5_V3_Tube1",
+    "P5_V4_Tube0",
+    "P5_V4_Tube1",
+    "P5_V4_Tube2",
+    "P5_V5_Tube0",
+    "P5_V5_Tube1",
+    "P5_V5_Tube2",
+    "P5_V5_Tube3",
+    "P4_V1_Tube0",
+    "P4_V2_Tube0",
+    "P4_V2_Tube1",
+    "P4_V3_Tube0",
+    "P4_V3_Tube1",
+    "P4_V4_Tube0",
+    "P4_V4_Tube1",
+    "P4_V4_Tube2",
+    "P4_V5_Tube0",
+    "P4_V5_Tube1",
+    "P4_V5_Tube2",
+    "P4_V5_Tube3",
+    "P3_V1_Tube0",
+    "P3_V2_Tube0",
+    "P3_V2_Tube1",
+    "P3_V3_Tube0",
+    "P3_V3_Tube1",
+    "P3_V4_Tube0",
+    "P3_V4_Tube1",
+    "P3_V4_Tube2",
+    "P3_V5_Tube0",
+    "P3_V5_Tube1",
+    "P3_V5_Tube2",
+    "P3_V5_Tube3",
+    "P2_V1_Tube0",
+    "P2_V2_Tube0",
+    "P2_V2_Tube1",
+    "P2_V3_Tube0",
+    "P2_V3_Tube1",
+    "P2_V4_Tube0",
+    "P2_V4_Tube1",
+    "P2_V4_Tube2",
+    "P2_V5_Tube0",
+    "P2_V5_Tube1",
+    "P2_V5_Tube2",
+    "P2_V5_Tube3",
+    "P1_V1_Tube0",
+    "P1_V2_Tube0",
+    "P1_V2_Tube1",
+    "P1_V3_Tube0",
+    "P1_V3_Tube1",
+    "P1_V4_Tube0",
+    "P1_V4_Tube1",
+    "P1_V4_Tube2",
+    "P1_V5_Tube0",
+    "P1_V5_Tube1",
+    "P1_V5_Tube2",
+    "P1_V5_Tube3",
+    "P0_V1_Tube0",
+    "P0_V2_Tube0",
+    "P0_V2_Tube1",
+    "P0_V3_Tube0",
+    "P0_V3_Tube1",
+    "P0_V4_Tube0",
+    "P0_V4_Tube1",
+    "P0_V4_Tube2",
+    "P0_V5_Tube0",
+    "P0_V5_Tube1",
+    "P0_V5_Tube2",
+    "P0_V5_Tube3",
+    "H13_P0_V1_DC_PLUS_Cu",
+    "H13_P0_V1_DC_PLUS_Isolation",
+    "H13_P0_V1_DC_MINUS_Cu",
+    "H13_P0_V1_DC_MINUS_Isolation",
+    "H13_P0_V1_CAN_Cu",
+    "H13_P0_V1_CAN_Isolation",
+    "H13_P0_V1_PWM_Cu",
+    "H13_P0_V1_PWM_Isolation",
+    "H13_P0_V1_SERVICE_5C_Cu",
+    "H13_P0_V1_SERVICE_5C_Isolation",
+    "H13_P0_V1_Liner0",
+    "H13_P0_V2_DC_PLUS_Cu",
+    "H13_P0_V2_DC_PLUS_Isolation",
+    "H13_P0_V2_DC_MINUS_Cu",
+    "H13_P0_V2_DC_MINUS_Isolation",
+    "H13_P0_V2_CAN_Cu",
+    "H13_P0_V2_CAN_Isolation",
+    "H13_P0_V2_SERVICE_5C_Cu",
+    "H13_P0_V2_SERVICE_5C_Isolation",
+    "H13_P0_V2_PWM_Cu",
+    "H13_P0_V2_PWM_Isolation",
+    "H13_P0_V2_Liner0",
+    "H13_P0_V2_Liner1",
+    "H13_P0_V3_DC_PLUS_Cu",
+    "H13_P0_V3_DC_PLUS_Isolation",
+    "H13_P0_V3_DC_MINUS_Cu",
+    "H13_P0_V3_DC_MINUS_Isolation",
+    "H13_P0_V3_CAN_Cu",
+    "H13_P0_V3_CAN_Isolation",
+    "H13_P0_V3_SERVICE_5C_Cu",
+    "H13_P0_V3_SERVICE_5C_Isolation",
+    "H13_P0_V3_PWM_Cu",
+    "H13_P0_V3_PWM_Isolation",
+    "H13_P0_V3_Liner0",
+    "H13_P0_V3_Liner1",
+    "H13_P0_V4_DC_PLUS_Cu",
+    "H13_P0_V4_DC_PLUS_Isolation",
+    "H13_P0_V4_DC_MINUS_Cu",
+    "H13_P0_V4_DC_MINUS_Isolation",
+    "H13_P0_V4_CAN_Cu",
+    "H13_P0_V4_CAN_Isolation",
+    "H13_P0_V4_PWM_Cu",
+    "H13_P0_V4_PWM_Isolation",
+    "H13_P0_V4_SERVICE_5C_Cu",
+    "H13_P0_V4_SERVICE_5C_Isolation",
+    "H13_P0_V4_Liner0",
+    "H13_P0_V4_Liner1",
+    "H13_P0_V4_Liner2",
+    "H13_P0_V5_DC_PLUS_Cu",
+    "H13_P0_V5_DC_PLUS_Isolation",
+    "H13_P0_V5_DC_MINUS_Cu",
+    "H13_P0_V5_DC_MINUS_Isolation",
+    "H13_P0_V5_CAN_Cu",
+    "H13_P0_V5_CAN_Isolation",
+    "H13_P0_V5_PWM_Cu",
+    "H13_P0_V5_PWM_Isolation",
+    "H13_P0_V5_SERVICE_5C_Cu",
+    "H13_P0_V5_SERVICE_5C_Isolation",
+    "H13_P0_V5_Liner0",
+    "H13_P0_V5_Liner1",
+    "H13_P0_V5_Liner2",
+    "H13_P1_V1_DC_PLUS_Cu",
+    "H13_P1_V1_DC_PLUS_Isolation",
+    "H13_P1_V1_DC_MINUS_Cu",
+    "H13_P1_V1_DC_MINUS_Isolation",
+    "H13_P1_V1_CAN_Cu",
+    "H13_P1_V1_CAN_Isolation",
+    "H13_P1_V1_PWM_Cu",
+    "H13_P1_V1_PWM_Isolation",
+    "H13_P1_V1_SERVICE_5C_Cu",
+    "H13_P1_V1_SERVICE_5C_Isolation",
+    "H13_P1_V1_Liner0",
+    "H13_P1_V2_DC_PLUS_Cu",
+    "H13_P1_V2_DC_PLUS_Isolation",
+    "H13_P1_V2_DC_MINUS_Cu",
+    "H13_P1_V2_DC_MINUS_Isolation",
+    "H13_P1_V2_CAN_Cu",
+    "H13_P1_V2_CAN_Isolation",
+    "H13_P1_V2_SERVICE_5C_Cu",
+    "H13_P1_V2_SERVICE_5C_Isolation",
+    "H13_P1_V2_PWM_Cu",
+    "H13_P1_V2_PWM_Isolation",
+    "H13_P1_V2_Liner0",
+    "H13_P1_V2_Liner1",
+    "H13_P1_V3_DC_PLUS_Cu",
+    "H13_P1_V3_DC_PLUS_Isolation",
+    "H13_P1_V3_DC_MINUS_Cu",
+    "H13_P1_V3_DC_MINUS_Isolation",
+    "H13_P1_V3_CAN_Cu",
+    "H13_P1_V3_CAN_Isolation",
+    "H13_P1_V3_SERVICE_5C_Cu",
+    "H13_P1_V3_SERVICE_5C_Isolation",
+    "H13_P1_V3_PWM_Cu",
+    "H13_P1_V3_PWM_Isolation",
+    "H13_P1_V3_Liner0",
+    "H13_P1_V3_Liner1",
+    "H13_P1_V4_DC_PLUS_Cu",
+    "H13_P1_V4_DC_PLUS_Isolation",
+    "H13_P1_V4_DC_MINUS_Cu",
+    "H13_P1_V4_DC_MINUS_Isolation",
+    "H13_P1_V4_CAN_Cu",
+    "H13_P1_V4_CAN_Isolation",
+    "H13_P1_V4_PWM_Cu",
+    "H13_P1_V4_PWM_Isolation",
+    "H13_P1_V4_SERVICE_5C_Cu",
+    "H13_P1_V4_SERVICE_5C_Isolation",
+    "H13_P1_V4_Liner0",
+    "H13_P1_V4_Liner1",
+    "H13_P1_V4_Liner2",
+    "H13_P1_V5_DC_PLUS_Cu",
+    "H13_P1_V5_DC_PLUS_Isolation",
+    "H13_P1_V5_DC_MINUS_Cu",
+    "H13_P1_V5_DC_MINUS_Isolation",
+    "H13_P1_V5_CAN_Cu",
+    "H13_P1_V5_CAN_Isolation",
+    "H13_P1_V5_PWM_Cu",
+    "H13_P1_V5_PWM_Isolation",
+    "H13_P1_V5_SERVICE_5C_Cu",
+    "H13_P1_V5_SERVICE_5C_Isolation",
+    "H13_P1_V5_Liner0",
+    "H13_P1_V5_Liner1",
+    "H13_P1_V5_Liner2",
+    "H13_P2_V1_DC_PLUS_Cu",
+    "H13_P2_V1_DC_PLUS_Isolation",
+    "H13_P2_V1_DC_MINUS_Cu",
+    "H13_P2_V1_DC_MINUS_Isolation",
+    "H13_P2_V1_CAN_Cu",
+    "H13_P2_V1_CAN_Isolation",
+    "H13_P2_V1_PWM_Cu",
+    "H13_P2_V1_PWM_Isolation",
+    "H13_P2_V1_SERVICE_5C_Cu",
+    "H13_P2_V1_SERVICE_5C_Isolation",
+    "H13_P2_V1_Liner0",
+    "H13_P2_V2_DC_PLUS_Cu",
+    "H13_P2_V2_DC_PLUS_Isolation",
+    "H13_P2_V2_DC_MINUS_Cu",
+    "H13_P2_V2_DC_MINUS_Isolation",
+    "H13_P2_V2_CAN_Cu",
+    "H13_P2_V2_CAN_Isolation",
+    "H13_P2_V2_SERVICE_5C_Cu",
+    "H13_P2_V2_SERVICE_5C_Isolation",
+    "H13_P2_V2_PWM_Cu",
+    "H13_P2_V2_PWM_Isolation",
+    "H13_P2_V2_Liner0",
+    "H13_P2_V2_Liner1",
+    "H13_P2_V3_DC_PLUS_Cu",
+    "H13_P2_V3_DC_PLUS_Isolation",
+    "H13_P2_V3_DC_MINUS_Cu",
+    "H13_P2_V3_DC_MINUS_Isolation",
+    "H13_P2_V3_CAN_Cu",
+    "H13_P2_V3_CAN_Isolation",
+    "H13_P2_V3_SERVICE_5C_Cu",
+    "H13_P2_V3_SERVICE_5C_Isolation",
+    "H13_P2_V3_PWM_Cu",
+    "H13_P2_V3_PWM_Isolation",
+    "H13_P2_V3_Liner0",
+    "H13_P2_V3_Liner1",
+    "H13_P2_V4_DC_PLUS_Cu",
+    "H13_P2_V4_DC_PLUS_Isolation",
+    "H13_P2_V4_DC_MINUS_Cu",
+    "H13_P2_V4_DC_MINUS_Isolation",
+    "H13_P2_V4_CAN_Cu",
+    "H13_P2_V4_CAN_Isolation",
+    "H13_P2_V4_PWM_Cu",
+    "H13_P2_V4_PWM_Isolation",
+    "H13_P2_V4_SERVICE_5C_Cu",
+    "H13_P2_V4_SERVICE_5C_Isolation",
+    "H13_P2_V4_Liner0",
+    "H13_P2_V4_Liner1",
+    "H13_P2_V4_Liner2",
+    "H13_P2_V5_DC_PLUS_Cu",
+    "H13_P2_V5_DC_PLUS_Isolation",
+    "H13_P2_V5_DC_MINUS_Cu",
+    "H13_P2_V5_DC_MINUS_Isolation",
+    "H13_P2_V5_CAN_Cu",
+    "H13_P2_V5_CAN_Isolation",
+    "H13_P2_V5_PWM_Cu",
+    "H13_P2_V5_PWM_Isolation",
+    "H13_P2_V5_SERVICE_5C_Cu",
+    "H13_P2_V5_SERVICE_5C_Isolation",
+    "H13_P2_V5_Liner0",
+    "H13_P2_V5_Liner1",
+    "H13_P2_V5_Liner2",
+    "H13_P3_V1_DC_PLUS_Cu",
+    "H13_P3_V1_DC_PLUS_Isolation",
+    "H13_P3_V1_DC_MINUS_Cu",
+    "H13_P3_V1_DC_MINUS_Isolation",
+    "H13_P3_V1_CAN_Cu",
+    "H13_P3_V1_CAN_Isolation",
+    "H13_P3_V1_PWM_Cu",
+    "H13_P3_V1_PWM_Isolation",
+    "H13_P3_V1_SERVICE_5C_Cu",
+    "H13_P3_V1_SERVICE_5C_Isolation",
+    "H13_P3_V1_Liner0",
+    "H13_P3_V2_DC_PLUS_Cu",
+    "H13_P3_V2_DC_PLUS_Isolation",
+    "H13_P3_V2_DC_MINUS_Cu",
+    "H13_P3_V2_DC_MINUS_Isolation",
+    "H13_P3_V2_CAN_Cu",
+    "H13_P3_V2_CAN_Isolation",
+    "H13_P3_V2_SERVICE_5C_Cu",
+    "H13_P3_V2_SERVICE_5C_Isolation",
+    "H13_P3_V2_PWM_Cu",
+    "H13_P3_V2_PWM_Isolation",
+    "H13_P3_V2_Liner0",
+    "H13_P3_V2_Liner1",
+    "H13_P3_V3_DC_PLUS_Cu",
+    "H13_P3_V3_DC_PLUS_Isolation",
+    "H13_P3_V3_DC_MINUS_Cu",
+    "H13_P3_V3_DC_MINUS_Isolation",
+    "H13_P3_V3_CAN_Cu",
+    "H13_P3_V3_CAN_Isolation",
+    "H13_P3_V3_SERVICE_5C_Cu",
+    "H13_P3_V3_SERVICE_5C_Isolation",
+    "H13_P3_V3_PWM_Cu",
+    "H13_P3_V3_PWM_Isolation",
+    "H13_P3_V3_Liner0",
+    "H13_P3_V3_Liner1",
+    "H13_P3_V4_DC_PLUS_Cu",
+    "H13_P3_V4_DC_PLUS_Isolation",
+    "H13_P3_V4_DC_MINUS_Cu",
+    "H13_P3_V4_DC_MINUS_Isolation",
+    "H13_P3_V4_CAN_Cu",
+    "H13_P3_V4_CAN_Isolation",
+    "H13_P3_V4_PWM_Cu",
+    "H13_P3_V4_PWM_Isolation",
+    "H13_P3_V4_SERVICE_5C_Cu",
+    "H13_P3_V4_SERVICE_5C_Isolation",
+    "H13_P3_V4_Liner0",
+    "H13_P3_V4_Liner1",
+    "H13_P3_V4_Liner2",
+    "H13_P3_V5_DC_PLUS_Cu",
+    "H13_P3_V5_DC_PLUS_Isolation",
+    "H13_P3_V5_DC_MINUS_Cu",
+    "H13_P3_V5_DC_MINUS_Isolation",
+    "H13_P3_V5_CAN_Cu",
+    "H13_P3_V5_CAN_Isolation",
+    "H13_P3_V5_PWM_Cu",
+    "H13_P3_V5_PWM_Isolation",
+    "H13_P3_V5_SERVICE_5C_Cu",
+    "H13_P3_V5_SERVICE_5C_Isolation",
+    "H13_P3_V5_Liner0",
+    "H13_P3_V5_Liner1",
+    "H13_P3_V5_Liner2",
+    "H13_P4_V1_DC_PLUS_Cu",
+    "H13_P4_V1_DC_PLUS_Isolation",
+    "H13_P4_V1_DC_MINUS_Cu",
+    "H13_P4_V1_DC_MINUS_Isolation",
+    "H13_P4_V1_CAN_Cu",
+    "H13_P4_V1_CAN_Isolation",
+    "H13_P4_V1_PWM_Cu",
+    "H13_P4_V1_PWM_Isolation",
+    "H13_P4_V1_SERVICE_5C_Cu",
+    "H13_P4_V1_SERVICE_5C_Isolation",
+    "H13_P4_V1_Liner0",
+    "H13_P4_V2_DC_PLUS_Cu",
+    "H13_P4_V2_DC_PLUS_Isolation",
+    "H13_P4_V2_DC_MINUS_Cu",
+    "H13_P4_V2_DC_MINUS_Isolation",
+    "H13_P4_V2_CAN_Cu",
+    "H13_P4_V2_CAN_Isolation",
+    "H13_P4_V2_SERVICE_5C_Cu",
+    "H13_P4_V2_SERVICE_5C_Isolation",
+    "H13_P4_V2_PWM_Cu",
+    "H13_P4_V2_PWM_Isolation",
+    "H13_P4_V2_Liner0",
+    "H13_P4_V2_Liner1",
+    "H13_P4_V3_DC_PLUS_Cu",
+    "H13_P4_V3_DC_PLUS_Isolation",
+    "H13_P4_V3_DC_MINUS_Cu",
+    "H13_P4_V3_DC_MINUS_Isolation",
+    "H13_P4_V3_CAN_Cu",
+    "H13_P4_V3_CAN_Isolation",
+    "H13_P4_V3_SERVICE_5C_Cu",
+    "H13_P4_V3_SERVICE_5C_Isolation",
+    "H13_P4_V3_PWM_Cu",
+    "H13_P4_V3_PWM_Isolation",
+    "H13_P4_V3_Liner0",
+    "H13_P4_V3_Liner1",
+    "H13_P4_V4_DC_PLUS_Cu",
+    "H13_P4_V4_DC_PLUS_Isolation",
+    "H13_P4_V4_DC_MINUS_Cu",
+    "H13_P4_V4_DC_MINUS_Isolation",
+    "H13_P4_V4_CAN_Cu",
+    "H13_P4_V4_CAN_Isolation",
+    "H13_P4_V4_PWM_Cu",
+    "H13_P4_V4_PWM_Isolation",
+    "H13_P4_V4_SERVICE_5C_Cu",
+    "H13_P4_V4_SERVICE_5C_Isolation",
+    "H13_P4_V4_Liner0",
+    "H13_P4_V4_Liner1",
+    "H13_P4_V4_Liner2",
+    "H13_P4_V5_DC_PLUS_Cu",
+    "H13_P4_V5_DC_PLUS_Isolation",
+    "H13_P4_V5_DC_MINUS_Cu",
+    "H13_P4_V5_DC_MINUS_Isolation",
+    "H13_P4_V5_CAN_Cu",
+    "H13_P4_V5_CAN_Isolation",
+    "H13_P4_V5_PWM_Cu",
+    "H13_P4_V5_PWM_Isolation",
+    "H13_P4_V5_SERVICE_5C_Cu",
+    "H13_P4_V5_SERVICE_5C_Isolation",
+    "H13_P4_V5_Liner0",
+    "H13_P4_V5_Liner1",
+    "H13_P4_V5_Liner2",
+    "H13_P5_V1_DC_PLUS_Cu",
+    "H13_P5_V1_DC_PLUS_Isolation",
+    "H13_P5_V1_DC_MINUS_Cu",
+    "H13_P5_V1_DC_MINUS_Isolation",
+    "H13_P5_V1_CAN_Cu",
+    "H13_P5_V1_CAN_Isolation",
+    "H13_P5_V1_PWM_Cu",
+    "H13_P5_V1_PWM_Isolation",
+    "H13_P5_V1_SERVICE_5C_Cu",
+    "H13_P5_V1_SERVICE_5C_Isolation",
+    "H13_P5_V1_Liner0",
+    "H13_P5_V2_DC_PLUS_Cu",
+    "H13_P5_V2_DC_PLUS_Isolation",
+    "H13_P5_V2_DC_MINUS_Cu",
+    "H13_P5_V2_DC_MINUS_Isolation",
+    "H13_P5_V2_CAN_Cu",
+    "H13_P5_V2_CAN_Isolation",
+    "H13_P5_V2_SERVICE_5C_Cu",
+    "H13_P5_V2_SERVICE_5C_Isolation",
+    "H13_P5_V2_PWM_Cu",
+    "H13_P5_V2_PWM_Isolation",
+    "H13_P5_V2_Liner0",
+    "H13_P5_V2_Liner1",
+    "H13_P5_V3_DC_PLUS_Cu",
+    "H13_P5_V3_DC_PLUS_Isolation",
+    "H13_P5_V3_DC_MINUS_Cu",
+    "H13_P5_V3_DC_MINUS_Isolation",
+    "H13_P5_V3_CAN_Cu",
+    "H13_P5_V3_CAN_Isolation",
+    "H13_P5_V3_SERVICE_5C_Cu",
+    "H13_P5_V3_SERVICE_5C_Isolation",
+    "H13_P5_V3_PWM_Cu",
+    "H13_P5_V3_PWM_Isolation",
+    "H13_P5_V3_Liner0",
+    "H13_P5_V3_Liner1",
+    "H13_P5_V4_DC_PLUS_Cu",
+    "H13_P5_V4_DC_PLUS_Isolation",
+    "H13_P5_V4_DC_MINUS_Cu",
+    "H13_P5_V4_DC_MINUS_Isolation",
+    "H13_P5_V4_CAN_Cu",
+    "H13_P5_V4_CAN_Isolation",
+    "H13_P5_V4_PWM_Cu",
+    "H13_P5_V4_PWM_Isolation",
+    "H13_P5_V4_SERVICE_5C_Cu",
+    "H13_P5_V4_SERVICE_5C_Isolation",
+    "H13_P5_V4_Liner0",
+    "H13_P5_V4_Liner1",
+    "H13_P5_V4_Liner2",
+    "H13_P5_V5_DC_PLUS_Cu",
+    "H13_P5_V5_DC_PLUS_Isolation",
+    "H13_P5_V5_DC_MINUS_Cu",
+    "H13_P5_V5_DC_MINUS_Isolation",
+    "H13_P5_V5_CAN_Cu",
+    "H13_P5_V5_CAN_Isolation",
+    "H13_P5_V5_PWM_Cu",
+    "H13_P5_V5_PWM_Isolation",
+    "H13_P5_V5_SERVICE_5C_Cu",
+    "H13_P5_V5_SERVICE_5C_Isolation",
+    "H13_P5_V5_Liner0",
+    "H13_P5_V5_Liner1",
+    "H13_P5_V5_Liner2",
+    "H13_P6_V1_DC_PLUS_Cu",
+    "H13_P6_V1_DC_PLUS_Isolation",
+    "H13_P6_V1_DC_MINUS_Cu",
+    "H13_P6_V1_DC_MINUS_Isolation",
+    "H13_P6_V1_CAN_Cu",
+    "H13_P6_V1_CAN_Isolation",
+    "H13_P6_V1_PWM_Cu",
+    "H13_P6_V1_PWM_Isolation",
+    "H13_P6_V1_SERVICE_5C_Cu",
+    "H13_P6_V1_SERVICE_5C_Isolation",
+    "H13_P6_V1_Liner0",
+    "H13_P6_V2_DC_PLUS_Cu",
+    "H13_P6_V2_DC_PLUS_Isolation",
+    "H13_P6_V2_DC_MINUS_Cu",
+    "H13_P6_V2_DC_MINUS_Isolation",
+    "H13_P6_V2_CAN_Cu",
+    "H13_P6_V2_CAN_Isolation",
+    "H13_P6_V2_SERVICE_5C_Cu",
+    "H13_P6_V2_SERVICE_5C_Isolation",
+    "H13_P6_V2_PWM_Cu",
+    "H13_P6_V2_PWM_Isolation",
+    "H13_P6_V2_Liner0",
+    "H13_P6_V2_Liner1",
+    "H13_P6_V3_DC_PLUS_Cu",
+    "H13_P6_V3_DC_PLUS_Isolation",
+    "H13_P6_V3_DC_MINUS_Cu",
+    "H13_P6_V3_DC_MINUS_Isolation",
+    "H13_P6_V3_CAN_Cu",
+    "H13_P6_V3_CAN_Isolation",
+    "H13_P6_V3_SERVICE_5C_Cu",
+    "H13_P6_V3_SERVICE_5C_Isolation",
+    "H13_P6_V3_PWM_Cu",
+    "H13_P6_V3_PWM_Isolation",
+    "H13_P6_V3_Liner0",
+    "H13_P6_V3_Liner1",
+    "H13_P6_V4_DC_PLUS_Cu",
+    "H13_P6_V4_DC_PLUS_Isolation",
+    "H13_P6_V4_DC_MINUS_Cu",
+    "H13_P6_V4_DC_MINUS_Isolation",
+    "H13_P6_V4_CAN_Cu",
+    "H13_P6_V4_CAN_Isolation",
+    "H13_P6_V4_PWM_Cu",
+    "H13_P6_V4_PWM_Isolation",
+    "H13_P6_V4_SERVICE_5C_Cu",
+    "H13_P6_V4_SERVICE_5C_Isolation",
+    "H13_P6_V4_Liner0",
+    "H13_P6_V4_Liner1",
+    "H13_P6_V4_Liner2",
+    "H13_P6_V5_DC_PLUS_Cu",
+    "H13_P6_V5_DC_PLUS_Isolation",
+    "H13_P6_V5_DC_MINUS_Cu",
+    "H13_P6_V5_DC_MINUS_Isolation",
+    "H13_P6_V5_CAN_Cu",
+    "H13_P6_V5_CAN_Isolation",
+    "H13_P6_V5_PWM_Cu",
+    "H13_P6_V5_PWM_Isolation",
+    "H13_P6_V5_SERVICE_5C_Cu",
+    "H13_P6_V5_SERVICE_5C_Isolation",
+    "H13_P6_V5_Liner0",
+    "H13_P6_V5_Liner1",
+    "H13_P6_V5_Liner2",
+    "H13_P7_V1_DC_PLUS_Cu",
+    "H13_P7_V1_DC_PLUS_Isolation",
+    "H13_P7_V1_DC_MINUS_Cu",
+    "H13_P7_V1_DC_MINUS_Isolation",
+    "H13_P7_V1_CAN_Cu",
+    "H13_P7_V1_CAN_Isolation",
+    "H13_P7_V1_PWM_Cu",
+    "H13_P7_V1_PWM_Isolation",
+    "H13_P7_V1_SERVICE_5C_Cu",
+    "H13_P7_V1_SERVICE_5C_Isolation",
+    "H13_P7_V1_Liner0",
+    "H13_P7_V2_DC_PLUS_Cu",
+    "H13_P7_V2_DC_PLUS_Isolation",
+    "H13_P7_V2_DC_MINUS_Cu",
+    "H13_P7_V2_DC_MINUS_Isolation",
+    "H13_P7_V2_CAN_Cu",
+    "H13_P7_V2_CAN_Isolation",
+    "H13_P7_V2_SERVICE_5C_Cu",
+    "H13_P7_V2_SERVICE_5C_Isolation",
+    "H13_P7_V2_PWM_Cu",
+    "H13_P7_V2_PWM_Isolation",
+    "H13_P7_V2_Liner0",
+    "H13_P7_V2_Liner1",
+    "H13_P7_V3_DC_PLUS_Cu",
+    "H13_P7_V3_DC_PLUS_Isolation",
+    "H13_P7_V3_DC_MINUS_Cu",
+    "H13_P7_V3_DC_MINUS_Isolation",
+    "H13_P7_V3_CAN_Cu",
+    "H13_P7_V3_CAN_Isolation",
+    "H13_P7_V3_SERVICE_5C_Cu",
+    "H13_P7_V3_SERVICE_5C_Isolation",
+    "H13_P7_V3_PWM_Cu",
+    "H13_P7_V3_PWM_Isolation",
+    "H13_P7_V3_Liner0",
+    "H13_P7_V3_Liner1",
+    "H13_P7_V4_DC_PLUS_Cu",
+    "H13_P7_V4_DC_PLUS_Isolation",
+    "H13_P7_V4_DC_MINUS_Cu",
+    "H13_P7_V4_DC_MINUS_Isolation",
+    "H13_P7_V4_CAN_Cu",
+    "H13_P7_V4_CAN_Isolation",
+    "H13_P7_V4_PWM_Cu",
+    "H13_P7_V4_PWM_Isolation",
+    "H13_P7_V4_SERVICE_5C_Cu",
+    "H13_P7_V4_SERVICE_5C_Isolation",
+    "H13_P7_V4_Liner0",
+    "H13_P7_V4_Liner1",
+    "H13_P7_V4_Liner2",
+    "H13_P7_V5_DC_PLUS_Cu",
+    "H13_P7_V5_DC_PLUS_Isolation",
+    "H13_P7_V5_DC_MINUS_Cu",
+    "H13_P7_V5_DC_MINUS_Isolation",
+    "H13_P7_V5_CAN_Cu",
+    "H13_P7_V5_CAN_Isolation",
+    "H13_P7_V5_PWM_Cu",
+    "H13_P7_V5_PWM_Isolation",
+    "H13_P7_V5_SERVICE_5C_Cu",
+    "H13_P7_V5_SERVICE_5C_Isolation",
+    "H13_P7_V5_Liner0",
+    "H13_P7_V5_Liner1",
+    "H13_P7_V5_Liner2",
+    "H13_P8_V1_DC_PLUS_Cu",
+    "H13_P8_V1_DC_PLUS_Isolation",
+    "H13_P8_V1_DC_MINUS_Cu",
+    "H13_P8_V1_DC_MINUS_Isolation",
+    "H13_P8_V1_CAN_Cu",
+    "H13_P8_V1_CAN_Isolation",
+    "H13_P8_V1_PWM_Cu",
+    "H13_P8_V1_PWM_Isolation",
+    "H13_P8_V1_SERVICE_5C_Cu",
+    "H13_P8_V1_SERVICE_5C_Isolation",
+    "H13_P8_V1_Liner0",
+    "H13_P8_V2_DC_PLUS_Cu",
+    "H13_P8_V2_DC_PLUS_Isolation",
+    "H13_P8_V2_DC_MINUS_Cu",
+    "H13_P8_V2_DC_MINUS_Isolation",
+    "H13_P8_V2_CAN_Cu",
+    "H13_P8_V2_CAN_Isolation",
+    "H13_P8_V2_SERVICE_5C_Cu",
+    "H13_P8_V2_SERVICE_5C_Isolation",
+    "H13_P8_V2_PWM_Cu",
+    "H13_P8_V2_PWM_Isolation",
+    "H13_P8_V2_Liner0",
+    "H13_P8_V2_Liner1",
+    "H13_P8_V3_DC_PLUS_Cu",
+    "H13_P8_V3_DC_PLUS_Isolation",
+    "H13_P8_V3_DC_MINUS_Cu",
+    "H13_P8_V3_DC_MINUS_Isolation",
+    "H13_P8_V3_CAN_Cu",
+    "H13_P8_V3_CAN_Isolation",
+    "H13_P8_V3_SERVICE_5C_Cu",
+    "H13_P8_V3_SERVICE_5C_Isolation",
+    "H13_P8_V3_PWM_Cu",
+    "H13_P8_V3_PWM_Isolation",
+    "H13_P8_V3_Liner0",
+    "H13_P8_V3_Liner1",
+    "H13_P8_V4_DC_PLUS_Cu",
+    "H13_P8_V4_DC_PLUS_Isolation",
+    "H13_P8_V4_DC_MINUS_Cu",
+    "H13_P8_V4_DC_MINUS_Isolation",
+    "H13_P8_V4_CAN_Cu",
+    "H13_P8_V4_CAN_Isolation",
+    "H13_P8_V4_PWM_Cu",
+    "H13_P8_V4_PWM_Isolation",
+    "H13_P8_V4_SERVICE_5C_Cu",
+    "H13_P8_V4_SERVICE_5C_Isolation",
+    "H13_P8_V4_Liner0",
+    "H13_P8_V4_Liner1",
+    "H13_P8_V4_Liner2",
+    "H13_P8_V5_DC_PLUS_Cu",
+    "H13_P8_V5_DC_PLUS_Isolation",
+    "H13_P8_V5_DC_MINUS_Cu",
+    "H13_P8_V5_DC_MINUS_Isolation",
+    "H13_P8_V5_CAN_Cu",
+    "H13_P8_V5_CAN_Isolation",
+    "H13_P8_V5_PWM_Cu",
+    "H13_P8_V5_PWM_Isolation",
+    "H13_P8_V5_SERVICE_5C_Cu",
+    "H13_P8_V5_SERVICE_5C_Isolation",
+    "H13_P8_V5_Liner0",
+    "H13_P8_V5_Liner1",
+    "H13_P8_V5_Liner2",
+    "H13_P9_V1_DC_PLUS_Cu",
+    "H13_P9_V1_DC_PLUS_Isolation",
+    "H13_P9_V1_DC_MINUS_Cu",
+    "H13_P9_V1_DC_MINUS_Isolation",
+    "H13_P9_V1_CAN_Cu",
+    "H13_P9_V1_CAN_Isolation",
+    "H13_P9_V1_PWM_Cu",
+    "H13_P9_V1_PWM_Isolation",
+    "H13_P9_V1_SERVICE_5C_Cu",
+    "H13_P9_V1_SERVICE_5C_Isolation",
+    "H13_P9_V1_Liner0",
+    "H13_P9_V2_DC_PLUS_Cu",
+    "H13_P9_V2_DC_PLUS_Isolation",
+    "H13_P9_V2_DC_MINUS_Cu",
+    "H13_P9_V2_DC_MINUS_Isolation",
+    "H13_P9_V2_CAN_Cu",
+    "H13_P9_V2_CAN_Isolation",
+    "H13_P9_V2_SERVICE_5C_Cu",
+    "H13_P9_V2_SERVICE_5C_Isolation",
+    "H13_P9_V2_PWM_Cu",
+    "H13_P9_V2_PWM_Isolation",
+    "H13_P9_V2_Liner0",
+    "H13_P9_V2_Liner1",
+    "H13_P9_V3_DC_PLUS_Cu",
+    "H13_P9_V3_DC_PLUS_Isolation",
+    "H13_P9_V3_DC_MINUS_Cu",
+    "H13_P9_V3_DC_MINUS_Isolation",
+    "H13_P9_V3_CAN_Cu",
+    "H13_P9_V3_CAN_Isolation",
+    "H13_P9_V3_SERVICE_5C_Cu",
+    "H13_P9_V3_SERVICE_5C_Isolation",
+    "H13_P9_V3_PWM_Cu",
+    "H13_P9_V3_PWM_Isolation",
+    "H13_P9_V3_Liner0",
+    "H13_P9_V3_Liner1",
+    "H13_P9_V4_DC_PLUS_Cu",
+    "H13_P9_V4_DC_PLUS_Isolation",
+    "H13_P9_V4_DC_MINUS_Cu",
+    "H13_P9_V4_DC_MINUS_Isolation",
+    "H13_P9_V4_CAN_Cu",
+    "H13_P9_V4_CAN_Isolation",
+    "H13_P9_V4_PWM_Cu",
+    "H13_P9_V4_PWM_Isolation",
+    "H13_P9_V4_SERVICE_5C_Cu",
+    "H13_P9_V4_SERVICE_5C_Isolation",
+    "H13_P9_V4_Liner0",
+    "H13_P9_V4_Liner1",
+    "H13_P9_V4_Liner2",
+    "H13_P9_V5_DC_PLUS_Cu",
+    "H13_P9_V5_DC_PLUS_Isolation",
+    "H13_P9_V5_DC_MINUS_Cu",
+    "H13_P9_V5_DC_MINUS_Isolation",
+    "H13_P9_V5_CAN_Cu",
+    "H13_P9_V5_CAN_Isolation",
+    "H13_P9_V5_PWM_Cu",
+    "H13_P9_V5_PWM_Isolation",
+    "H13_P9_V5_SERVICE_5C_Cu",
+    "H13_P9_V5_SERVICE_5C_Isolation",
+    "H13_P9_V5_Liner0",
+    "H13_P9_V5_Liner1",
+    "H13_P9_V5_Liner2"
+  ],
+  "protected_count": 730,
+  "saved_geometry_equivalent_within_documented_precision": true,
+  "serialization_roundtrip_differences": [
+    {
+      "master": "H13_P0_V3_DC_PLUS_Cu",
+      "bbox_difference_mm": 1.7053025658242404e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P0_V3_DC_PLUS_Isolation",
+      "bbox_difference_mm": 1.7053025658242404e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P0_V3_DC_MINUS_Cu",
+      "bbox_difference_mm": 1.7053025658242404e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P0_V3_DC_MINUS_Isolation",
+      "bbox_difference_mm": 1.7053025658242404e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P0_V3_CAN_Cu",
+      "bbox_difference_mm": 1.7053025658242404e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P0_V3_CAN_Isolation",
+      "bbox_difference_mm": 1.7053025658242404e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P0_V3_SERVICE_5C_Cu",
+      "bbox_difference_mm": 1.7053025658242404e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P0_V3_SERVICE_5C_Isolation",
+      "bbox_difference_mm": 1.7053025658242404e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P0_V3_PWM_Cu",
+      "bbox_difference_mm": 1.7053025658242404e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P0_V3_PWM_Isolation",
+      "bbox_difference_mm": 1.7053025658242404e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P0_V3_Liner0",
+      "bbox_difference_mm": 0.0,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P0_V3_Liner1",
+      "bbox_difference_mm": 0.0,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P0_V4_DC_PLUS_Cu",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P0_V4_DC_PLUS_Isolation",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P0_V4_DC_MINUS_Cu",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P0_V4_DC_MINUS_Isolation",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P0_V4_CAN_Cu",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P0_V4_CAN_Isolation",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P0_V4_PWM_Cu",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P0_V4_PWM_Isolation",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P0_V5_SERVICE_5C_Cu",
+      "bbox_difference_mm": 5.684341886080802e-14,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P0_V5_SERVICE_5C_Isolation",
+      "bbox_difference_mm": 5.684341886080802e-14,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P1_V3_DC_PLUS_Cu",
+      "bbox_difference_mm": 1.7053025658242404e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P1_V3_DC_PLUS_Isolation",
+      "bbox_difference_mm": 1.7053025658242404e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P1_V3_DC_MINUS_Cu",
+      "bbox_difference_mm": 1.7053025658242404e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P1_V3_DC_MINUS_Isolation",
+      "bbox_difference_mm": 1.7053025658242404e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P1_V3_CAN_Cu",
+      "bbox_difference_mm": 1.7053025658242404e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P1_V3_CAN_Isolation",
+      "bbox_difference_mm": 1.7053025658242404e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P1_V3_SERVICE_5C_Cu",
+      "bbox_difference_mm": 1.7053025658242404e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P1_V3_SERVICE_5C_Isolation",
+      "bbox_difference_mm": 1.7053025658242404e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P1_V3_PWM_Cu",
+      "bbox_difference_mm": 1.7053025658242404e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P1_V3_PWM_Isolation",
+      "bbox_difference_mm": 1.7053025658242404e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P1_V3_Liner0",
+      "bbox_difference_mm": 0.0,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P1_V3_Liner1",
+      "bbox_difference_mm": 0.0,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P1_V4_DC_PLUS_Cu",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P1_V4_DC_PLUS_Isolation",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P1_V4_DC_MINUS_Cu",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P1_V4_DC_MINUS_Isolation",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P1_V4_CAN_Cu",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P1_V4_CAN_Isolation",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P1_V4_PWM_Cu",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P1_V4_PWM_Isolation",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P1_V5_SERVICE_5C_Cu",
+      "bbox_difference_mm": 5.684341886080802e-14,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P1_V5_SERVICE_5C_Isolation",
+      "bbox_difference_mm": 5.684341886080802e-14,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P2_V3_DC_PLUS_Cu",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P2_V3_DC_PLUS_Isolation",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P2_V3_DC_MINUS_Cu",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P2_V3_DC_MINUS_Isolation",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P2_V3_CAN_Cu",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P2_V3_CAN_Isolation",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P2_V3_SERVICE_5C_Cu",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P2_V3_SERVICE_5C_Isolation",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P2_V3_PWM_Cu",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P2_V3_PWM_Isolation",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P2_V3_Liner0",
+      "bbox_difference_mm": 0.0,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P2_V3_Liner1",
+      "bbox_difference_mm": 0.0,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P2_V4_DC_PLUS_Cu",
+      "bbox_difference_mm": 5.684341886080802e-14,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P2_V4_DC_PLUS_Isolation",
+      "bbox_difference_mm": 5.684341886080802e-14,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P2_V4_DC_MINUS_Cu",
+      "bbox_difference_mm": 5.684341886080802e-14,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P2_V4_DC_MINUS_Isolation",
+      "bbox_difference_mm": 5.684341886080802e-14,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P2_V4_CAN_Cu",
+      "bbox_difference_mm": 5.684341886080802e-14,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P2_V4_CAN_Isolation",
+      "bbox_difference_mm": 5.684341886080802e-14,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P2_V4_PWM_Cu",
+      "bbox_difference_mm": 5.684341886080802e-14,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P2_V4_PWM_Isolation",
+      "bbox_difference_mm": 5.684341886080802e-14,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P2_V4_Liner0",
+      "bbox_difference_mm": 0.0,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P2_V4_Liner1",
+      "bbox_difference_mm": 0.0,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P2_V5_SERVICE_5C_Cu",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P2_V5_SERVICE_5C_Isolation",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P3_V3_DC_PLUS_Cu",
+      "bbox_difference_mm": 1.7053025658242404e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P3_V3_DC_PLUS_Isolation",
+      "bbox_difference_mm": 1.7053025658242404e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P3_V3_DC_MINUS_Cu",
+      "bbox_difference_mm": 1.7053025658242404e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P3_V3_DC_MINUS_Isolation",
+      "bbox_difference_mm": 1.7053025658242404e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P3_V3_CAN_Cu",
+      "bbox_difference_mm": 1.7053025658242404e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P3_V3_CAN_Isolation",
+      "bbox_difference_mm": 1.7053025658242404e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P3_V3_SERVICE_5C_Cu",
+      "bbox_difference_mm": 1.7053025658242404e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P3_V3_SERVICE_5C_Isolation",
+      "bbox_difference_mm": 1.7053025658242404e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P3_V3_PWM_Cu",
+      "bbox_difference_mm": 1.7053025658242404e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P3_V3_PWM_Isolation",
+      "bbox_difference_mm": 1.7053025658242404e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P3_V3_Liner0",
+      "bbox_difference_mm": 0.0,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P3_V3_Liner1",
+      "bbox_difference_mm": 0.0,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P3_V4_DC_PLUS_Cu",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P3_V4_DC_PLUS_Isolation",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P3_V4_DC_MINUS_Cu",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P3_V4_DC_MINUS_Isolation",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P3_V4_CAN_Cu",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P3_V4_CAN_Isolation",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P3_V4_PWM_Cu",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P3_V4_PWM_Isolation",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P3_V5_SERVICE_5C_Cu",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P3_V5_SERVICE_5C_Isolation",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P4_V3_DC_PLUS_Cu",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P4_V3_DC_PLUS_Isolation",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P4_V3_DC_MINUS_Cu",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P4_V3_DC_MINUS_Isolation",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P4_V3_CAN_Cu",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P4_V3_CAN_Isolation",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P4_V3_SERVICE_5C_Cu",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P4_V3_SERVICE_5C_Isolation",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P4_V3_PWM_Cu",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P4_V3_PWM_Isolation",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P4_V3_Liner0",
+      "bbox_difference_mm": 0.0,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P4_V3_Liner1",
+      "bbox_difference_mm": 0.0,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P4_V4_CAN_Cu",
+      "bbox_difference_mm": 0.0,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P4_V4_CAN_Isolation",
+      "bbox_difference_mm": 0.0,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P4_V4_PWM_Cu",
+      "bbox_difference_mm": 0.0,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P4_V4_PWM_Isolation",
+      "bbox_difference_mm": 0.0,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P4_V4_Liner0",
+      "bbox_difference_mm": 0.0,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P4_V4_Liner1",
+      "bbox_difference_mm": 0.0,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P4_V5_SERVICE_5C_Cu",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P4_V5_SERVICE_5C_Isolation",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P5_V3_DC_PLUS_Cu",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P5_V3_DC_PLUS_Isolation",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P5_V3_DC_MINUS_Cu",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P5_V3_DC_MINUS_Isolation",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P5_V3_CAN_Cu",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P5_V3_CAN_Isolation",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P5_V3_SERVICE_5C_Cu",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P5_V3_SERVICE_5C_Isolation",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P5_V3_PWM_Cu",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P5_V3_PWM_Isolation",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P5_V3_Liner0",
+      "bbox_difference_mm": 0.0,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P5_V3_Liner1",
+      "bbox_difference_mm": 0.0,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P5_V4_DC_PLUS_Cu",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P5_V4_DC_PLUS_Isolation",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P5_V4_DC_MINUS_Cu",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P5_V4_DC_MINUS_Isolation",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P5_V4_CAN_Cu",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P5_V4_CAN_Isolation",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P5_V4_PWM_Cu",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P5_V4_PWM_Isolation",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P5_V5_SERVICE_5C_Cu",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P5_V5_SERVICE_5C_Isolation",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P6_V3_DC_PLUS_Cu",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P6_V3_DC_PLUS_Isolation",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P6_V3_DC_MINUS_Cu",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P6_V3_DC_MINUS_Isolation",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P6_V3_CAN_Cu",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P6_V3_CAN_Isolation",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P6_V3_SERVICE_5C_Cu",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P6_V3_SERVICE_5C_Isolation",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P6_V3_PWM_Cu",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P6_V3_PWM_Isolation",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P6_V3_Liner0",
+      "bbox_difference_mm": 0.0,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P6_V3_Liner1",
+      "bbox_difference_mm": 0.0,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P6_V4_DC_PLUS_Cu",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P6_V4_DC_PLUS_Isolation",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P6_V4_DC_MINUS_Cu",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P6_V4_DC_MINUS_Isolation",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P6_V4_CAN_Cu",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P6_V4_CAN_Isolation",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P6_V4_PWM_Cu",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P6_V4_PWM_Isolation",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P6_V5_SERVICE_5C_Cu",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P6_V5_SERVICE_5C_Isolation",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P7_V3_DC_PLUS_Cu",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P7_V3_DC_PLUS_Isolation",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P7_V3_DC_MINUS_Cu",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P7_V3_DC_MINUS_Isolation",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P7_V3_CAN_Cu",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P7_V3_CAN_Isolation",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P7_V3_SERVICE_5C_Cu",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P7_V3_SERVICE_5C_Isolation",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P7_V3_PWM_Cu",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P7_V3_PWM_Isolation",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P7_V3_Liner0",
+      "bbox_difference_mm": 0.0,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P7_V3_Liner1",
+      "bbox_difference_mm": 0.0,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P7_V4_DC_PLUS_Cu",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P7_V4_DC_PLUS_Isolation",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P7_V4_DC_MINUS_Cu",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P7_V4_DC_MINUS_Isolation",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P7_V4_CAN_Cu",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P7_V4_CAN_Isolation",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P7_V4_PWM_Cu",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P7_V4_PWM_Isolation",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P7_V4_Liner0",
+      "bbox_difference_mm": 0.0,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P7_V4_Liner1",
+      "bbox_difference_mm": 0.0,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P7_V5_SERVICE_5C_Cu",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P7_V5_SERVICE_5C_Isolation",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P8_V3_DC_PLUS_Cu",
+      "bbox_difference_mm": 3.410605131648481e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P8_V3_DC_PLUS_Isolation",
+      "bbox_difference_mm": 3.410605131648481e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P8_V3_DC_MINUS_Cu",
+      "bbox_difference_mm": 3.410605131648481e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P8_V3_DC_MINUS_Isolation",
+      "bbox_difference_mm": 3.410605131648481e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P8_V3_CAN_Cu",
+      "bbox_difference_mm": 3.410605131648481e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P8_V3_CAN_Isolation",
+      "bbox_difference_mm": 3.410605131648481e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P8_V3_SERVICE_5C_Cu",
+      "bbox_difference_mm": 3.410605131648481e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P8_V3_SERVICE_5C_Isolation",
+      "bbox_difference_mm": 3.410605131648481e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P8_V3_PWM_Cu",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P8_V3_PWM_Isolation",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P8_V3_Liner0",
+      "bbox_difference_mm": 0.0,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P8_V3_Liner1",
+      "bbox_difference_mm": 0.0,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P8_V4_DC_PLUS_Cu",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P8_V4_DC_PLUS_Isolation",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P8_V4_DC_MINUS_Cu",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P8_V4_DC_MINUS_Isolation",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P8_V4_CAN_Cu",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P8_V4_CAN_Isolation",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P8_V4_PWM_Cu",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P8_V4_PWM_Isolation",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P8_V4_Liner0",
+      "bbox_difference_mm": 0.0,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P8_V4_Liner1",
+      "bbox_difference_mm": 0.0,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P8_V5_SERVICE_5C_Cu",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P8_V5_SERVICE_5C_Isolation",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P9_V3_DC_PLUS_Cu",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P9_V3_DC_PLUS_Isolation",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P9_V3_DC_MINUS_Cu",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P9_V3_DC_MINUS_Isolation",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P9_V3_CAN_Cu",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P9_V3_CAN_Isolation",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P9_V3_SERVICE_5C_Cu",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P9_V3_SERVICE_5C_Isolation",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P9_V3_PWM_Cu",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P9_V3_PWM_Isolation",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P9_V3_Liner0",
+      "bbox_difference_mm": 0.0,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P9_V3_Liner1",
+      "bbox_difference_mm": 0.0,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P9_V4_DC_PLUS_Cu",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P9_V4_DC_PLUS_Isolation",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P9_V4_DC_MINUS_Cu",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P9_V4_DC_MINUS_Isolation",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P9_V4_CAN_Cu",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P9_V4_CAN_Isolation",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P9_V4_PWM_Cu",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P9_V4_PWM_Isolation",
+      "bbox_difference_mm": 2.2737367544323206e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P9_V4_Liner0",
+      "bbox_difference_mm": 0.0,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P9_V4_Liner1",
+      "bbox_difference_mm": 0.0,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P9_V5_SERVICE_5C_Cu",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    },
+    {
+      "master": "H13_P9_V5_SERVICE_5C_Isolation",
+      "bbox_difference_mm": 1.1368683772161603e-13,
+      "symmetric_difference_volume_mm3": 0.0
+    }
+  ],
+  "precision_bbox_mm": 1e-06,
+  "precision_symmetric_difference_mm3": 0.001
+}

@@ -1,0 +1,2915 @@
+{
+  "native_sha256": "51fd41d237a83687e1276f652f79bbe833d1417f0727d58006206a5edcb20dcb",
+  "checks": [
+    {
+      "propeller_index": 0,
+      "variant": "V1",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V2",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V3",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V4",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V5",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V1",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V2",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V3",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V4",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V5",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V1",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V2",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V3",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V4",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V5",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V1",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V2",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V3",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V4",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V5",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V1",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V2",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V3",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V4",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V5",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V1",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V2",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V3",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V4",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V5",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V1",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V2",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V3",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V4",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V5",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V1",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V2",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V3",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V4",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V5",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V1",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V2",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V3",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V4",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V5",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V1",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V2",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 1
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V3",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V4",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V5",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0,
+      "previous_interferences_before_pad_clearance": 2
+    }
+  ],
+  "internal_corridor_checks": [
+    {
+      "propeller_index": 5,
+      "variant": "V1",
+      "part": "Root",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V1",
+      "part": "Motor",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V2",
+      "part": "Root",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V2",
+      "part": "Root",
+      "tube": 1,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V2",
+      "part": "Motor",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V2",
+      "part": "Motor",
+      "tube": 1,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V3",
+      "part": "Root",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V3",
+      "part": "Root",
+      "tube": 1,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V3",
+      "part": "Motor",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V3",
+      "part": "Motor",
+      "tube": 1,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V4",
+      "part": "Root",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V4",
+      "part": "Root",
+      "tube": 1,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V4",
+      "part": "Root",
+      "tube": 2,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V4",
+      "part": "Motor",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V4",
+      "part": "Motor",
+      "tube": 1,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V4",
+      "part": "Motor",
+      "tube": 2,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V5",
+      "part": "Root",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V5",
+      "part": "Root",
+      "tube": 1,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V5",
+      "part": "Root",
+      "tube": 2,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V5",
+      "part": "Root",
+      "tube": 3,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V5",
+      "part": "Motor",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V5",
+      "part": "Motor",
+      "tube": 1,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V5",
+      "part": "Motor",
+      "tube": 2,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V5",
+      "part": "Motor",
+      "tube": 3,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V1",
+      "part": "Root",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V1",
+      "part": "Motor",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V2",
+      "part": "Root",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V2",
+      "part": "Root",
+      "tube": 1,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V2",
+      "part": "Motor",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V2",
+      "part": "Motor",
+      "tube": 1,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V3",
+      "part": "Root",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V3",
+      "part": "Root",
+      "tube": 1,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V3",
+      "part": "Motor",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V3",
+      "part": "Motor",
+      "tube": 1,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V4",
+      "part": "Root",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V4",
+      "part": "Root",
+      "tube": 1,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V4",
+      "part": "Root",
+      "tube": 2,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V4",
+      "part": "Motor",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V4",
+      "part": "Motor",
+      "tube": 1,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V4",
+      "part": "Motor",
+      "tube": 2,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V5",
+      "part": "Root",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V5",
+      "part": "Root",
+      "tube": 1,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V5",
+      "part": "Root",
+      "tube": 2,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V5",
+      "part": "Root",
+      "tube": 3,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V5",
+      "part": "Motor",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V5",
+      "part": "Motor",
+      "tube": 1,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V5",
+      "part": "Motor",
+      "tube": 2,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V5",
+      "part": "Motor",
+      "tube": 3,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V1",
+      "part": "Root",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V1",
+      "part": "Motor",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V2",
+      "part": "Root",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V2",
+      "part": "Root",
+      "tube": 1,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V2",
+      "part": "Motor",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V2",
+      "part": "Motor",
+      "tube": 1,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V3",
+      "part": "Root",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V3",
+      "part": "Root",
+      "tube": 1,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V3",
+      "part": "Motor",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V3",
+      "part": "Motor",
+      "tube": 1,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V4",
+      "part": "Root",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V4",
+      "part": "Root",
+      "tube": 1,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V4",
+      "part": "Root",
+      "tube": 2,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V4",
+      "part": "Motor",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V4",
+      "part": "Motor",
+      "tube": 1,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V4",
+      "part": "Motor",
+      "tube": 2,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V5",
+      "part": "Root",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V5",
+      "part": "Root",
+      "tube": 1,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V5",
+      "part": "Root",
+      "tube": 2,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V5",
+      "part": "Root",
+      "tube": 3,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V5",
+      "part": "Motor",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V5",
+      "part": "Motor",
+      "tube": 1,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V5",
+      "part": "Motor",
+      "tube": 2,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V5",
+      "part": "Motor",
+      "tube": 3,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V1",
+      "part": "Root",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V1",
+      "part": "Motor",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V2",
+      "part": "Root",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V2",
+      "part": "Root",
+      "tube": 1,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V2",
+      "part": "Motor",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V2",
+      "part": "Motor",
+      "tube": 1,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V3",
+      "part": "Root",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V3",
+      "part": "Root",
+      "tube": 1,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V3",
+      "part": "Motor",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V3",
+      "part": "Motor",
+      "tube": 1,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V4",
+      "part": "Root",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V4",
+      "part": "Root",
+      "tube": 1,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V4",
+      "part": "Root",
+      "tube": 2,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V4",
+      "part": "Motor",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V4",
+      "part": "Motor",
+      "tube": 1,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V4",
+      "part": "Motor",
+      "tube": 2,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V5",
+      "part": "Root",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V5",
+      "part": "Root",
+      "tube": 1,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V5",
+      "part": "Root",
+      "tube": 2,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V5",
+      "part": "Root",
+      "tube": 3,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V5",
+      "part": "Motor",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V5",
+      "part": "Motor",
+      "tube": 1,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V5",
+      "part": "Motor",
+      "tube": 2,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V5",
+      "part": "Motor",
+      "tube": 3,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V1",
+      "part": "Root",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V1",
+      "part": "Motor",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V2",
+      "part": "Root",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V2",
+      "part": "Root",
+      "tube": 1,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V2",
+      "part": "Motor",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V2",
+      "part": "Motor",
+      "tube": 1,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V3",
+      "part": "Root",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V3",
+      "part": "Root",
+      "tube": 1,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V3",
+      "part": "Motor",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V3",
+      "part": "Motor",
+      "tube": 1,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V4",
+      "part": "Root",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V4",
+      "part": "Root",
+      "tube": 1,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V4",
+      "part": "Root",
+      "tube": 2,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V4",
+      "part": "Motor",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V4",
+      "part": "Motor",
+      "tube": 1,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V4",
+      "part": "Motor",
+      "tube": 2,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V5",
+      "part": "Root",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V5",
+      "part": "Root",
+      "tube": 1,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V5",
+      "part": "Root",
+      "tube": 2,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V5",
+      "part": "Root",
+      "tube": 3,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V5",
+      "part": "Motor",
+      "tube": 0,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V5",
+      "part": "Motor",
+      "tube": 1,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V5",
+      "part": "Motor",
+      "tube": 2,
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V5",
+      "part": "Motor",
+      "tube": 3,
+      "volume_mm3": 0
+    }
+  ],
+  "unchanged_or_reduced_baseline_contacts": [],
+  "human_height_measured_mm": 1750.0,
+  "human_lowest_z_mm": 244.0,
+  "geometry_passed": true,
+  "scope": "Saved native BREP and native LinkPlacements from FCStd ZIP;one rigid45degree corner vs active assembly peers;all50 configurations;mirror Boolean and full cable bores.Native selector expressions/links verified,not50 GUI recomputations.Human excluded as reference;no structural/thermal/tolerance approval. Motor-end correction:exact native material subset checks for50 solids,validity/symmetry andall120 end-pad fits repeated.Removal cannot create new collisions or obstruct previously clear bores.Unchanged roots/mating positions retain prior checks.No structural approval.",
+  "strength_revalidation_required": true,
+  "production_ready": false,
+  "resumed_completed_cases": [
+    {
+      "propeller_index": 0,
+      "variant": "V1",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V2",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V3",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V4",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V5",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V1",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V2",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V3",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V4",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V5",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V1",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V2",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V3",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V4",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V5",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V1",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V2",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V3",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V4",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V5",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V1",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V2",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V3",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V4",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V5",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V1",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V2",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V3",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V4",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V5",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V1",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V2",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V3",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V4",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V5",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V1",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V2",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V3",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V4",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V5",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V1",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V2",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V3",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V4",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V5",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V1",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V2",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 1
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V3",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V4",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V5",
+      "single_solid_nodes": true,
+      "motor_symmetric": true,
+      "eight_native_link_bindings_checked": true,
+      "new_interferences": 2
+    }
+  ],
+  "resumed_source_checkpoint_sha256": "24e4ceb642891396110d63b37c3285d827c926b2b01ffe8b1f3e6abeea7468ee",
+  "resumed_completed_case_bores_verified": true,
+  "source_completed_algorithm_sha256": "d6fa1e49d1f0f3e0629ff3bdbcfe37c156a82f5433b330eb3e7f73a1d707efb1",
+  "source_before_material_removal_sha256": "4936a2a9904397784c0251c440b5a4be4023c1ade2ddda1a187a2aff52004f22",
+  "removed_interferences": [
+    {
+      "propeller_index": 9,
+      "variant": "V2",
+      "part": "Motor",
+      "other": "P9_V2_Pad1_motor_45",
+      "other_master": "P9_V2_Pad1_motor",
+      "volume_mm3": 1.6933058846730633,
+      "previous_volume_mm3": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V5",
+      "part": "Motor",
+      "other": "P9_V5_Pad2_motor_45",
+      "other_master": "P9_V5_Pad2_motor",
+      "volume_mm3": 1.703998560940283,
+      "previous_volume_mm3": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V5",
+      "part": "Motor",
+      "other": "P9_V5_Pad3_motor_45",
+      "other_master": "P9_V5_Pad3_motor",
+      "volume_mm3": 1.7039985609396382,
+      "previous_volume_mm3": 0
+    }
+  ],
+  "new_interferences": [],
+  "material_subset_checks": [
+    {
+      "propeller_index": 9,
+      "variant": "V1",
+      "master": "P9_V1_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 22.631248078083445,
+      "motor_mirror_error_mm3": 5.820766091346741e-11,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V2",
+      "master": "P9_V2_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 27.290520670369006,
+      "motor_mirror_error_mm3": 4.547473508864641e-10,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V3",
+      "master": "P9_V3_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 25.23484298994299,
+      "motor_mirror_error_mm3": 0.0,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V4",
+      "master": "P9_V4_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 37.852264485256455,
+      "motor_mirror_error_mm3": 8.003553375601768e-11,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V5",
+      "master": "P9_V5_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 54.60626064072858,
+      "motor_mirror_error_mm3": 1.709850039333105e-09,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V1",
+      "master": "P8_V1_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 22.63124807827262,
+      "motor_mirror_error_mm3": 3.637978807091713e-11,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V2",
+      "master": "P8_V2_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 25.234842990739708,
+      "motor_mirror_error_mm3": 1.2514647096395493e-09,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V3",
+      "master": "P8_V3_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 25.234842990037578,
+      "motor_mirror_error_mm3": 1.0186340659856796e-10,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V4",
+      "master": "P8_V4_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 37.85226448534377,
+      "motor_mirror_error_mm3": 7.275957614183426e-12,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V5",
+      "master": "P8_V5_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 50.46968597995874,
+      "motor_mirror_error_mm3": 2.837623469531536e-10,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V1",
+      "master": "P7_V1_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 22.63124807828717,
+      "motor_mirror_error_mm3": 1.4551915228366852e-11,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V2",
+      "master": "P7_V2_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 25.23484299082338,
+      "motor_mirror_error_mm3": 1.342414179816842e-09,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V3",
+      "master": "P7_V3_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 25.234842989993922,
+      "motor_mirror_error_mm3": 1.4551915228366852e-11,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V4",
+      "master": "P7_V4_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 37.852264485074556,
+      "motor_mirror_error_mm3": 1.8917489796876907e-09,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V5",
+      "master": "P7_V5_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 50.46968597952946,
+      "motor_mirror_error_mm3": 2.204615157097578e-09,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V1",
+      "master": "P6_V1_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 22.63124807830536,
+      "motor_mirror_error_mm3": 3.637978807091713e-12,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V2",
+      "master": "P6_V2_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 25.234842990848847,
+      "motor_mirror_error_mm3": 1.3860699255019426e-09,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V3",
+      "master": "P6_V3_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 25.23484298997937,
+      "motor_mirror_error_mm3": 1.8189894035458565e-10,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V4",
+      "master": "P6_V4_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 37.85226448444155,
+      "motor_mirror_error_mm3": 7.108610589057207e-09,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V5",
+      "master": "P6_V5_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 50.469685979929636,
+      "motor_mirror_error_mm3": 3.281456883996725e-09,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V1",
+      "master": "P5_V1_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 22.63124807829081,
+      "motor_mirror_error_mm3": 1.4551915228366852e-11,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V2",
+      "master": "P5_V2_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 25.234842990943434,
+      "motor_mirror_error_mm3": 1.4479155652225018e-09,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V3",
+      "master": "P5_V3_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 25.234842989957542,
+      "motor_mirror_error_mm3": 2.9103830456733704e-10,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V4",
+      "master": "P5_V4_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 37.85226448303001,
+      "motor_mirror_error_mm3": 2.147135091945529e-08,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V5",
+      "master": "P5_V5_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 50.46968597939849,
+      "motor_mirror_error_mm3": 1.0397343430668116e-08,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V1",
+      "master": "P4_V1_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 22.631248078301724,
+      "motor_mirror_error_mm3": 1.0913936421275139e-11,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V2",
+      "master": "P4_V2_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 25.234842991038022,
+      "motor_mirror_error_mm3": 1.4551915228366852e-09,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V3",
+      "master": "P4_V3_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 25.234842989884783,
+      "motor_mirror_error_mm3": 6.693881005048752e-10,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V4",
+      "master": "P4_V4_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 37.852264475302945,
+      "motor_mirror_error_mm3": 2.1827872842550278e-10,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V5",
+      "master": "P4_V5_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 50.46968597871455,
+      "motor_mirror_error_mm3": 2.1391315385699272e-08,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V1",
+      "master": "P3_V1_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 22.63124807828717,
+      "motor_mirror_error_mm3": 1.8189894035458565e-11,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V2",
+      "master": "P3_V2_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 25.23484299104166,
+      "motor_mirror_error_mm3": 1.4806573744863272e-09,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V3",
+      "master": "P3_V3_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 25.234842989826575,
+      "motor_mirror_error_mm3": 1.2951204553246498e-09,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V4",
+      "master": "P3_V4_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 37.85226447400055,
+      "motor_mirror_error_mm3": 8.527422323822975e-09,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V5",
+      "master": "P3_V5_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 50.46968597808882,
+      "motor_mirror_error_mm3": 3.260356606915593e-08,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V1",
+      "master": "P2_V1_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 22.631248078279896,
+      "motor_mirror_error_mm3": 2.546585164964199e-11,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V2",
+      "master": "P2_V2_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 25.234842991136247,
+      "motor_mirror_error_mm3": 1.5315890777856112e-09,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V3",
+      "master": "P2_V3_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 25.234842989535537,
+      "motor_mirror_error_mm3": 2.699380274862051e-09,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V4",
+      "master": "P2_V4_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 37.85226447432797,
+      "motor_mirror_error_mm3": 7.938069757074118e-09,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V5",
+      "master": "P2_V5_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 50.469685971344006,
+      "motor_mirror_error_mm3": 4.649336915463209e-09,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V1",
+      "master": "P1_V1_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 22.631248078298086,
+      "motor_mirror_error_mm3": 1.4551915228366852e-11,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V2",
+      "master": "P1_V2_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 25.23484299131451,
+      "motor_mirror_error_mm3": 1.7171259969472885e-09,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V3",
+      "master": "P1_V3_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 25.23484298834228,
+      "motor_mirror_error_mm3": 1.0179064702242613e-08,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V4",
+      "master": "P1_V4_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 37.85226447491732,
+      "motor_mirror_error_mm3": 6.51925802230835e-09,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V5",
+      "master": "P1_V5_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 50.4696859718606,
+      "motor_mirror_error_mm3": 3.856257535517216e-09,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V1",
+      "master": "P0_V1_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 22.631248078298086,
+      "motor_mirror_error_mm3": 1.4551915228366852e-11,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V2",
+      "master": "P0_V2_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 25.23484299131451,
+      "motor_mirror_error_mm3": 1.7171259969472885e-09,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V3",
+      "master": "P0_V3_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 25.23484298834228,
+      "motor_mirror_error_mm3": 1.0179064702242613e-08,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V4",
+      "master": "P0_V4_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 37.85226447491732,
+      "motor_mirror_error_mm3": 6.51925802230835e-09,
+      "single_solid_valid": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V5",
+      "master": "P0_V5_Motor",
+      "added_material_volume_mm3": 0.0,
+      "removed_material_volume_mm3": 50.4696859718606,
+      "motor_mirror_error_mm3": 3.856257535517216e-09,
+      "single_solid_valid": true
+    }
+  ],
+  "end_pad_fit_checks": [
+    {
+      "propeller_index": 9,
+      "variant": "V1",
+      "pad": "P9_V1_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V2",
+      "pad": "P9_V2_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V2",
+      "pad": "P9_V2_Pad1_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V3",
+      "pad": "P9_V3_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V3",
+      "pad": "P9_V3_Pad1_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V4",
+      "pad": "P9_V4_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V4",
+      "pad": "P9_V4_Pad1_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V4",
+      "pad": "P9_V4_Pad2_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V5",
+      "pad": "P9_V5_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V5",
+      "pad": "P9_V5_Pad1_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V5",
+      "pad": "P9_V5_Pad2_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V5",
+      "pad": "P9_V5_Pad3_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V1",
+      "pad": "P8_V1_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V2",
+      "pad": "P8_V2_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V2",
+      "pad": "P8_V2_Pad1_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V3",
+      "pad": "P8_V3_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V3",
+      "pad": "P8_V3_Pad1_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V4",
+      "pad": "P8_V4_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V4",
+      "pad": "P8_V4_Pad1_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V4",
+      "pad": "P8_V4_Pad2_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V5",
+      "pad": "P8_V5_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V5",
+      "pad": "P8_V5_Pad1_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V5",
+      "pad": "P8_V5_Pad2_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V5",
+      "pad": "P8_V5_Pad3_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V1",
+      "pad": "P7_V1_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V2",
+      "pad": "P7_V2_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V2",
+      "pad": "P7_V2_Pad1_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V3",
+      "pad": "P7_V3_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V3",
+      "pad": "P7_V3_Pad1_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V4",
+      "pad": "P7_V4_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V4",
+      "pad": "P7_V4_Pad1_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V4",
+      "pad": "P7_V4_Pad2_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V5",
+      "pad": "P7_V5_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V5",
+      "pad": "P7_V5_Pad1_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V5",
+      "pad": "P7_V5_Pad2_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V5",
+      "pad": "P7_V5_Pad3_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V1",
+      "pad": "P6_V1_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V2",
+      "pad": "P6_V2_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V2",
+      "pad": "P6_V2_Pad1_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V3",
+      "pad": "P6_V3_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V3",
+      "pad": "P6_V3_Pad1_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V4",
+      "pad": "P6_V4_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V4",
+      "pad": "P6_V4_Pad1_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V4",
+      "pad": "P6_V4_Pad2_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V5",
+      "pad": "P6_V5_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V5",
+      "pad": "P6_V5_Pad1_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V5",
+      "pad": "P6_V5_Pad2_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V5",
+      "pad": "P6_V5_Pad3_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V1",
+      "pad": "P5_V1_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V2",
+      "pad": "P5_V2_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V2",
+      "pad": "P5_V2_Pad1_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V3",
+      "pad": "P5_V3_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V3",
+      "pad": "P5_V3_Pad1_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V4",
+      "pad": "P5_V4_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V4",
+      "pad": "P5_V4_Pad1_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V4",
+      "pad": "P5_V4_Pad2_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V5",
+      "pad": "P5_V5_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V5",
+      "pad": "P5_V5_Pad1_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V5",
+      "pad": "P5_V5_Pad2_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V5",
+      "pad": "P5_V5_Pad3_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V1",
+      "pad": "P4_V1_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V2",
+      "pad": "P4_V2_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V2",
+      "pad": "P4_V2_Pad1_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V3",
+      "pad": "P4_V3_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V3",
+      "pad": "P4_V3_Pad1_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V4",
+      "pad": "P4_V4_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V4",
+      "pad": "P4_V4_Pad1_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V4",
+      "pad": "P4_V4_Pad2_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V5",
+      "pad": "P4_V5_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V5",
+      "pad": "P4_V5_Pad1_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V5",
+      "pad": "P4_V5_Pad2_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V5",
+      "pad": "P4_V5_Pad3_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V1",
+      "pad": "P3_V1_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V2",
+      "pad": "P3_V2_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V2",
+      "pad": "P3_V2_Pad1_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V3",
+      "pad": "P3_V3_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V3",
+      "pad": "P3_V3_Pad1_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V4",
+      "pad": "P3_V4_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V4",
+      "pad": "P3_V4_Pad1_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V4",
+      "pad": "P3_V4_Pad2_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V5",
+      "pad": "P3_V5_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V5",
+      "pad": "P3_V5_Pad1_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V5",
+      "pad": "P3_V5_Pad2_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V5",
+      "pad": "P3_V5_Pad3_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V1",
+      "pad": "P2_V1_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V2",
+      "pad": "P2_V2_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V2",
+      "pad": "P2_V2_Pad1_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V3",
+      "pad": "P2_V3_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V3",
+      "pad": "P2_V3_Pad1_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V4",
+      "pad": "P2_V4_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V4",
+      "pad": "P2_V4_Pad1_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V4",
+      "pad": "P2_V4_Pad2_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V5",
+      "pad": "P2_V5_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V5",
+      "pad": "P2_V5_Pad1_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V5",
+      "pad": "P2_V5_Pad2_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V5",
+      "pad": "P2_V5_Pad3_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V1",
+      "pad": "P1_V1_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V2",
+      "pad": "P1_V2_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V2",
+      "pad": "P1_V2_Pad1_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V3",
+      "pad": "P1_V3_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V3",
+      "pad": "P1_V3_Pad1_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V4",
+      "pad": "P1_V4_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V4",
+      "pad": "P1_V4_Pad1_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V4",
+      "pad": "P1_V4_Pad2_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V5",
+      "pad": "P1_V5_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V5",
+      "pad": "P1_V5_Pad1_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V5",
+      "pad": "P1_V5_Pad2_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V5",
+      "pad": "P1_V5_Pad3_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V1",
+      "pad": "P0_V1_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V2",
+      "pad": "P0_V2_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V2",
+      "pad": "P0_V2_Pad1_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V3",
+      "pad": "P0_V3_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V3",
+      "pad": "P0_V3_Pad1_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V4",
+      "pad": "P0_V4_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V4",
+      "pad": "P0_V4_Pad1_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V4",
+      "pad": "P0_V4_Pad2_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V5",
+      "pad": "P0_V5_Pad0_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V5",
+      "pad": "P0_V5_Pad1_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V5",
+      "pad": "P0_V5_Pad2_motor_45",
+      "volume_mm3": 0
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V5",
+      "pad": "P0_V5_Pad3_motor_45",
+      "volume_mm3": 0
+    }
+  ],
+  "source_collision_proof": "Flachrippen_Vor_Padfreistellung.json"
+}

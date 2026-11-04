@@ -1,6 +1,6 @@
 # PropBoard
 
-**Quad D13 (lokaler Entwurf):** [Standard-Innenkabelbaum](quad_r380_d13/README.md) · [3D-Ansicht](quad_r380_d13/Projekt.html) · [Projektschnittstellen](quad_r380_d13/SCHNITTSTELLEN.md). DC-Paar und getrennte Steuer-/Serviceleitungen im CFK-Rohr, alle 50 nominalen Kabelkonfigurationen geprüft. OEM-Adapter, Kaufteilgehäuse und Außenbögen bleiben offen; D12-Strukturdefizite bestehen fort.
+**Quad D13:** [Mensch, neue Anschlussknoten und Innenkabelbaum](quad_r380_d13/README.md) · [3D-Ansicht](quad_r380_d13/Projekt.html) · [Zweiblatt-Bildpropeller](quad_r380_d13/PROPELLER_BILDREFERENZ.md) · [Antriebsberechnung und Grenzen](quad_r380_d13/ANTRIEB_UND_KNOTEN.md). Maßstäbliche Person, offene integrierte Rahmenknoten, symmetrische Motorträger sowie berechneter Schub, Drehzahl und DC-Strom. Zehn Rotorgrößen × fünf Rohrvarianten mit CW-/CCW-Bildpropellern. HEP-S-Kennfelder, OEM-Adapter und Festigkeitsfreigabe bleiben offen.
 
 **Quad D12 (lokaler Entwurf, V200A-Daten ergänzt):** [Reglerhalter als CFK-Landefüße](quad_r380_d12/README.md) · [3D-Ansicht](quad_r380_d12/Projekt.html). Zwei kurze CFK-Stützen je Einheit und austauschbare Sohle. [Festigkeits-/Landestoßstudie](quad_r380_d12/Ausgabe/Festigkeit/BERICHT.md) zeigt unter den Studienannahmen rechnerische Nachweisdefizite; keine Tragfähigkeitsfreigabe.
 

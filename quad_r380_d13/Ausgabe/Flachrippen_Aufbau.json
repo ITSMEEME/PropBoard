@@ -1,0 +1,2401 @@
+{
+  "native_sha256": "51fd41d237a83687e1276f652f79bbe833d1417f0727d58006206a5edcb20dcb",
+  "source_native_sha256": "e8572efdbb39c19f5b211db0bccaa591e04b4acc3f27adc49cac521eab5e23de",
+  "source_native": "Quad_Standardkabelbaum.FCStd",
+  "changes": [
+    {
+      "propeller_index": 9,
+      "variant": "V1",
+      "part": "Root",
+      "master": "P9_V1_Root",
+      "instances": [
+        "P9_V1_Root_45",
+        "P9_V1_Root_135",
+        "P9_V1_Root_225",
+        "P9_V1_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.29209469882944455,
+      "mass_new_per_corner_kg": 0.2834503842276848,
+      "volume_mm3": 100872.02285682733,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V1",
+      "part": "Motor",
+      "master": "P9_V1_Motor",
+      "instances": [
+        "P9_V1_Motor_45",
+        "P9_V1_Motor_135",
+        "P9_V1_Motor_225",
+        "P9_V1_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.0940847104251758,
+      "mass_new_per_corner_kg": 0.06810262744925992,
+      "volume_mm3": 24235.81048016367,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 2.313952262634324e-16,
+      "geometry_cache": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V2",
+      "part": "Root",
+      "master": "P9_V2_Root",
+      "instances": [
+        "P9_V2_Root_45",
+        "P9_V2_Root_135",
+        "P9_V2_Root_225",
+        "P9_V2_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.3703569734875955,
+      "mass_new_per_corner_kg": 0.319197807421747,
+      "volume_mm3": 113593.52577286371,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V2",
+      "part": "Motor",
+      "master": "P9_V2_Motor",
+      "instances": [
+        "P9_V2_Motor_45",
+        "P9_V2_Motor_135",
+        "P9_V2_Motor_225",
+        "P9_V2_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.13923330556477706,
+      "mass_new_per_corner_kg": 0.08809747331795766,
+      "volume_mm3": 31351.413992155747,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 1.311093782845418e-13,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V3",
+      "part": "Root",
+      "master": "P9_V3_Root",
+      "instances": [
+        "P9_V3_Root_45",
+        "P9_V3_Root_135",
+        "P9_V3_Root_225",
+        "P9_V3_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.40047177798432604,
+      "mass_new_per_corner_kg": 0.31836904651364184,
+      "volume_mm3": 113298.59306535296,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V3",
+      "part": "Motor",
+      "master": "P9_V3_Motor",
+      "instances": [
+        "P9_V3_Motor_45",
+        "P9_V3_Motor_135",
+        "P9_V3_Motor_225",
+        "P9_V3_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.10527180032955306,
+      "mass_new_per_corner_kg": 0.09450170587297713,
+      "volume_mm3": 33630.500310668016,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 8.925138255457878e-11,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V4",
+      "part": "Root",
+      "master": "P9_V4_Root",
+      "instances": [
+        "P9_V4_Root_45",
+        "P9_V4_Root_135",
+        "P9_V4_Root_225",
+        "P9_V4_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.5061302186459853,
+      "mass_new_per_corner_kg": 0.36294844455439174,
+      "volume_mm3": 129163.14752825328,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V4",
+      "part": "Motor",
+      "master": "P9_V4_Motor",
+      "instances": [
+        "P9_V4_Motor_45",
+        "P9_V4_Motor_135",
+        "P9_V4_Motor_225",
+        "P9_V4_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.1673076317020973,
+      "mass_new_per_corner_kg": 0.12790467313190187,
+      "volume_mm3": 45517.67727113945,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 5.903175894223019e-11,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V5",
+      "part": "Root",
+      "master": "P9_V5_Root",
+      "instances": [
+        "P9_V5_Root_45",
+        "P9_V5_Root_135",
+        "P9_V5_Root_225",
+        "P9_V5_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.5968683739921207,
+      "mass_new_per_corner_kg": 0.4041396976080587,
+      "volume_mm3": 143821.956444149,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V5",
+      "part": "Motor",
+      "master": "P9_V5_Motor",
+      "instances": [
+        "P9_V5_Motor_45",
+        "P9_V5_Motor_135",
+        "P9_V5_Motor_225",
+        "P9_V5_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.14366481023246344,
+      "mass_new_per_corner_kg": 0.16009209050626286,
+      "volume_mm3": 56972.27420151703,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 3.796718925270727e-11,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V1",
+      "part": "Root",
+      "master": "P9_V1_Root",
+      "instances": [
+        "P8_V1_Root_45",
+        "P8_V1_Root_135",
+        "P8_V1_Root_225",
+        "P8_V1_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.29209469882944455,
+      "mass_new_per_corner_kg": 0.2834503842276848,
+      "volume_mm3": 100872.02285682733,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V1",
+      "part": "Motor",
+      "master": "P8_V1_Motor",
+      "instances": [
+        "P8_V1_Motor_45",
+        "P8_V1_Motor_135",
+        "P8_V1_Motor_225",
+        "P8_V1_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.094084710425192,
+      "mass_new_per_corner_kg": 0.06810262744925963,
+      "volume_mm3": 24235.810480163567,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 9.907230548271277e-15,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V2",
+      "part": "Root",
+      "master": "P9_V2_Root",
+      "instances": [
+        "P8_V2_Root_45",
+        "P8_V2_Root_135",
+        "P8_V2_Root_225",
+        "P8_V2_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.3703569734875955,
+      "mass_new_per_corner_kg": 0.319197807421747,
+      "volume_mm3": 113593.52577286371,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V2",
+      "part": "Motor",
+      "master": "P8_V2_Motor",
+      "instances": [
+        "P8_V2_Motor_45",
+        "P8_V2_Motor_135",
+        "P8_V2_Motor_225",
+        "P8_V2_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.1438527516294429,
+      "mass_new_per_corner_kg": 0.08958285505095638,
+      "volume_mm3": 31880.01959108768,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 6.15895892428354e-13,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V3",
+      "part": "Root",
+      "master": "P9_V3_Root",
+      "instances": [
+        "P8_V3_Root_45",
+        "P8_V3_Root_135",
+        "P8_V3_Root_225",
+        "P8_V3_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.40047177798432604,
+      "mass_new_per_corner_kg": 0.31836904651364184,
+      "volume_mm3": 113298.59306535296,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V3",
+      "part": "Motor",
+      "master": "P8_V3_Motor",
+      "instances": [
+        "P8_V3_Motor_45",
+        "P8_V3_Motor_135",
+        "P8_V3_Motor_225",
+        "P8_V3_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.10889962140823795,
+      "mass_new_per_corner_kg": 0.09603071059367238,
+      "volume_mm3": 34174.63010450974,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 1.0538223756810163e-10,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V4",
+      "part": "Root",
+      "master": "P9_V4_Root",
+      "instances": [
+        "P8_V4_Root_45",
+        "P8_V4_Root_135",
+        "P8_V4_Root_225",
+        "P8_V4_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.5061302186459853,
+      "mass_new_per_corner_kg": 0.36294844455439174,
+      "volume_mm3": 129163.14752825328,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V4",
+      "part": "Motor",
+      "master": "P8_V4_Motor",
+      "instances": [
+        "P8_V4_Motor_45",
+        "P8_V4_Motor_135",
+        "P8_V4_Motor_225",
+        "P8_V4_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.17372452944757955,
+      "mass_new_per_corner_kg": 0.12940108435957745,
+      "volume_mm3": 46050.207957145,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 6.888785827450702e-11,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V5",
+      "part": "Root",
+      "master": "P9_V5_Root",
+      "instances": [
+        "P8_V5_Root_45",
+        "P8_V5_Root_135",
+        "P8_V5_Root_225",
+        "P8_V5_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.5968683739921207,
+      "mass_new_per_corner_kg": 0.4041396976080587,
+      "volume_mm3": 143821.956444149,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V5",
+      "part": "Motor",
+      "master": "P8_V5_Motor",
+      "instances": [
+        "P8_V5_Motor_45",
+        "P8_V5_Motor_135",
+        "P8_V5_Motor_225",
+        "P8_V5_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.14527377345526105,
+      "mass_new_per_corner_kg": 0.16514492770715503,
+      "volume_mm3": 58770.436906460855,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 5.938633640828474e-11,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V1",
+      "part": "Root",
+      "master": "P9_V1_Root",
+      "instances": [
+        "P7_V1_Root_45",
+        "P7_V1_Root_135",
+        "P7_V1_Root_225",
+        "P7_V1_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.29209469882944455,
+      "mass_new_per_corner_kg": 0.2834503842276848,
+      "volume_mm3": 100872.02285682733,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V1",
+      "part": "Motor",
+      "master": "P7_V1_Motor",
+      "instances": [
+        "P7_V1_Motor_45",
+        "P7_V1_Motor_135",
+        "P7_V1_Motor_225",
+        "P7_V1_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.09408471042519244,
+      "mass_new_per_corner_kg": 0.06810262744925959,
+      "volume_mm3": 24235.810480163553,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 9.60729547017792e-15,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V2",
+      "part": "Root",
+      "master": "P9_V2_Root",
+      "instances": [
+        "P7_V2_Root_45",
+        "P7_V2_Root_135",
+        "P7_V2_Root_225",
+        "P7_V2_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.3703569734875955,
+      "mass_new_per_corner_kg": 0.319197807421747,
+      "volume_mm3": 113593.52577286371,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V2",
+      "part": "Motor",
+      "master": "P7_V2_Motor",
+      "instances": [
+        "P7_V2_Motor_45",
+        "P7_V2_Motor_135",
+        "P7_V2_Motor_225",
+        "P7_V2_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.14549340507184624,
+      "mass_new_per_corner_kg": 0.08961163583326591,
+      "volume_mm3": 31890.26186237221,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 6.383853840775634e-13,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V3",
+      "part": "Root",
+      "master": "P9_V3_Root",
+      "instances": [
+        "P7_V3_Root_45",
+        "P7_V3_Root_135",
+        "P7_V3_Root_225",
+        "P7_V3_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.40047177798432604,
+      "mass_new_per_corner_kg": 0.31836904651364184,
+      "volume_mm3": 113298.59306535296,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V3",
+      "part": "Motor",
+      "master": "P7_V3_Motor",
+      "instances": [
+        "P7_V3_Motor_45",
+        "P7_V3_Motor_135",
+        "P7_V3_Motor_225",
+        "P7_V3_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.11020727920399226,
+      "mass_new_per_corner_kg": 0.09662796473487892,
+      "volume_mm3": 34387.17606223449,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 1.1073142850596233e-10,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V4",
+      "part": "Root",
+      "master": "P9_V4_Root",
+      "instances": [
+        "P7_V4_Root_45",
+        "P7_V4_Root_135",
+        "P7_V4_Root_225",
+        "P7_V4_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.5061302186459853,
+      "mass_new_per_corner_kg": 0.36294844455439174,
+      "volume_mm3": 129163.14752825328,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V4",
+      "part": "Motor",
+      "master": "P7_V4_Motor",
+      "instances": [
+        "P7_V4_Motor_45",
+        "P7_V4_Motor_135",
+        "P7_V4_Motor_225",
+        "P7_V4_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.1760139948073699,
+      "mass_new_per_corner_kg": 0.12997258082692273,
+      "volume_mm3": 46253.587482890645,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 7.568080859761862e-11,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V5",
+      "part": "Root",
+      "master": "P9_V5_Root",
+      "instances": [
+        "P7_V5_Root_45",
+        "P7_V5_Root_135",
+        "P7_V5_Root_225",
+        "P7_V5_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.5968683739921207,
+      "mass_new_per_corner_kg": 0.4041396976080587,
+      "volume_mm3": 143821.956444149,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V5",
+      "part": "Motor",
+      "master": "P7_V5_Motor",
+      "instances": [
+        "P7_V5_Motor_45",
+        "P7_V5_Motor_135",
+        "P7_V5_Motor_225",
+        "P7_V5_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.1458616911279367,
+      "mass_new_per_corner_kg": 0.16656316414440103,
+      "volume_mm3": 59275.14738234912,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 5.473817987922019e-11,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V1",
+      "part": "Root",
+      "master": "P9_V1_Root",
+      "instances": [
+        "P6_V1_Root_45",
+        "P6_V1_Root_135",
+        "P6_V1_Root_225",
+        "P6_V1_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.29209469882944455,
+      "mass_new_per_corner_kg": 0.2834503842276848,
+      "volume_mm3": 100872.02285682733,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V1",
+      "part": "Motor",
+      "master": "P6_V1_Motor",
+      "instances": [
+        "P6_V1_Motor_45",
+        "P6_V1_Motor_135",
+        "P6_V1_Motor_225",
+        "P6_V1_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.09408471042516643,
+      "mass_new_per_corner_kg": 0.06810262744925953,
+      "volume_mm3": 24235.81048016353,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 1.0140383206632916e-14,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V2",
+      "part": "Root",
+      "master": "P9_V2_Root",
+      "instances": [
+        "P6_V2_Root_45",
+        "P6_V2_Root_135",
+        "P6_V2_Root_225",
+        "P6_V2_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.3703569734875955,
+      "mass_new_per_corner_kg": 0.319197807421747,
+      "volume_mm3": 113593.52577286371,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V2",
+      "part": "Motor",
+      "master": "P6_V2_Motor",
+      "instances": [
+        "P6_V2_Motor_45",
+        "P6_V2_Motor_135",
+        "P6_V2_Motor_225",
+        "P6_V2_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.14712018144658717,
+      "mass_new_per_corner_kg": 0.08963740806171079,
+      "volume_mm3": 31899.43347391843,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 6.667192469304477e-13,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V3",
+      "part": "Root",
+      "master": "P9_V3_Root",
+      "instances": [
+        "P6_V3_Root_45",
+        "P6_V3_Root_135",
+        "P6_V3_Root_225",
+        "P6_V3_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.40047177798432604,
+      "mass_new_per_corner_kg": 0.31836904651364184,
+      "volume_mm3": 113298.59306535296,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V3",
+      "part": "Motor",
+      "master": "P6_V3_Motor",
+      "instances": [
+        "P6_V3_Motor_45",
+        "P6_V3_Motor_135",
+        "P6_V3_Motor_225",
+        "P6_V3_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.11151202409864766,
+      "mass_new_per_corner_kg": 0.09724228386387022,
+      "volume_mm3": 34605.79496934883,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 1.1642278518746805e-10,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V4",
+      "part": "Root",
+      "master": "P9_V4_Root",
+      "instances": [
+        "P6_V4_Root_45",
+        "P6_V4_Root_135",
+        "P6_V4_Root_225",
+        "P6_V4_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.5061302186459853,
+      "mass_new_per_corner_kg": 0.36294844455439174,
+      "volume_mm3": 129163.14752825328,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V4",
+      "part": "Motor",
+      "master": "P6_V4_Motor",
+      "instances": [
+        "P6_V4_Motor_45",
+        "P6_V4_Motor_135",
+        "P6_V4_Motor_225",
+        "P6_V4_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.17825106254129836,
+      "mass_new_per_corner_kg": 0.13055579048050203,
+      "volume_mm3": 46461.13540231389,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 8.967492219201547e-11,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V5",
+      "part": "Root",
+      "master": "P9_V5_Root",
+      "instances": [
+        "P6_V5_Root_45",
+        "P6_V5_Root_135",
+        "P6_V5_Root_225",
+        "P6_V5_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.5968683739921207,
+      "mass_new_per_corner_kg": 0.4041396976080587,
+      "volume_mm3": 143821.956444149,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V5",
+      "part": "Motor",
+      "master": "P6_V5_Motor",
+      "instances": [
+        "P6_V5_Motor_45",
+        "P6_V5_Motor_135",
+        "P6_V5_Motor_225",
+        "P6_V5_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.14645232565927394,
+      "mass_new_per_corner_kg": 0.16754318501860058,
+      "volume_mm3": 59623.909259288455,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 8.023230447303993e-11,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V1",
+      "part": "Root",
+      "master": "P9_V1_Root",
+      "instances": [
+        "P5_V1_Root_45",
+        "P5_V1_Root_135",
+        "P5_V1_Root_225",
+        "P5_V1_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.29209469882944455,
+      "mass_new_per_corner_kg": 0.2834503842276848,
+      "volume_mm3": 100872.02285682733,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V1",
+      "part": "Motor",
+      "master": "P5_V1_Motor",
+      "instances": [
+        "P5_V1_Motor_45",
+        "P5_V1_Motor_135",
+        "P5_V1_Motor_225",
+        "P5_V1_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.0940847104251621,
+      "mass_new_per_corner_kg": 0.06810262744925961,
+      "volume_mm3": 24235.81048016356,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 6.240641380719836e-15,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V2",
+      "part": "Root",
+      "master": "P9_V2_Root",
+      "instances": [
+        "P5_V2_Root_45",
+        "P5_V2_Root_135",
+        "P5_V2_Root_225",
+        "P5_V2_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.3703569734875955,
+      "mass_new_per_corner_kg": 0.319197807421747,
+      "volume_mm3": 113593.52577286371,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V2",
+      "part": "Motor",
+      "master": "P5_V2_Motor",
+      "instances": [
+        "P5_V2_Motor_45",
+        "P5_V2_Motor_135",
+        "P5_V2_Motor_225",
+        "P5_V2_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.14873610055120992,
+      "mass_new_per_corner_kg": 0.08966061917931316,
+      "volume_mm3": 31907.693658118562,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 6.81859100615787e-13,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V3",
+      "part": "Root",
+      "master": "P9_V3_Root",
+      "instances": [
+        "P5_V3_Root_45",
+        "P5_V3_Root_135",
+        "P5_V3_Root_225",
+        "P5_V3_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.40047177798432604,
+      "mass_new_per_corner_kg": 0.31836904651364184,
+      "volume_mm3": 113298.59306535296,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V3",
+      "part": "Motor",
+      "master": "P5_V3_Motor",
+      "instances": [
+        "P5_V3_Motor_45",
+        "P5_V3_Motor_135",
+        "P5_V3_Motor_225",
+        "P5_V3_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.11281705273852423,
+      "mass_new_per_corner_kg": 0.09787129368729497,
+      "volume_mm3": 34829.64188159963,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 1.2212296021252606e-10,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V4",
+      "part": "Root",
+      "master": "P9_V4_Root",
+      "instances": [
+        "P5_V4_Root_45",
+        "P5_V4_Root_135",
+        "P5_V4_Root_225",
+        "P5_V4_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.5061302186459853,
+      "mass_new_per_corner_kg": 0.36294844455439174,
+      "volume_mm3": 129163.14752825328,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V4",
+      "part": "Motor",
+      "master": "P5_V4_Motor",
+      "instances": [
+        "P5_V4_Motor_45",
+        "P5_V4_Motor_135",
+        "P5_V4_Motor_225",
+        "P5_V4_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.18043818482205984,
+      "mass_new_per_corner_kg": 0.13114927582878044,
+      "volume_mm3": 46672.3401525909,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 1.202386374241552e-10,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V5",
+      "part": "Root",
+      "master": "P9_V5_Root",
+      "instances": [
+        "P5_V5_Root_45",
+        "P5_V5_Root_135",
+        "P5_V5_Root_225",
+        "P5_V5_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.5968683739921207,
+      "mass_new_per_corner_kg": 0.4041396976080587,
+      "volume_mm3": 143821.956444149,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V5",
+      "part": "Motor",
+      "master": "P5_V5_Motor",
+      "instances": [
+        "P5_V5_Motor_45",
+        "P5_V5_Motor_135",
+        "P5_V5_Motor_225",
+        "P5_V5_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.14704796195505374,
+      "mass_new_per_corner_kg": 0.16851007057831402,
+      "volume_mm3": 59967.99664708684,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 9.658722922915217e-11,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V1",
+      "part": "Root",
+      "master": "P9_V1_Root",
+      "instances": [
+        "P4_V1_Root_45",
+        "P4_V1_Root_135",
+        "P4_V1_Root_225",
+        "P4_V1_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.29209469882944455,
+      "mass_new_per_corner_kg": 0.2834503842276848,
+      "volume_mm3": 100872.02285682733,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V1",
+      "part": "Motor",
+      "master": "P4_V1_Motor",
+      "instances": [
+        "P4_V1_Motor_45",
+        "P4_V1_Motor_135",
+        "P4_V1_Motor_225",
+        "P4_V1_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.09408471042518202,
+      "mass_new_per_corner_kg": 0.06810262744925961,
+      "volume_mm3": 24235.810480163564,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": -4.503712656995596e-15,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V2",
+      "part": "Root",
+      "master": "P9_V2_Root",
+      "instances": [
+        "P4_V2_Root_45",
+        "P4_V2_Root_135",
+        "P4_V2_Root_225",
+        "P4_V2_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.3703569734875955,
+      "mass_new_per_corner_kg": 0.319197807421747,
+      "volume_mm3": 113593.52577286371,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V2",
+      "part": "Motor",
+      "master": "P4_V2_Motor",
+      "instances": [
+        "P4_V2_Motor_45",
+        "P4_V2_Motor_135",
+        "P4_V2_Motor_225",
+        "P4_V2_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.14994230152215704,
+      "mass_new_per_corner_kg": 0.08967656770298657,
+      "volume_mm3": 31913.369289319064,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 6.904018591251531e-13,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V3",
+      "part": "Root",
+      "master": "P9_V3_Root",
+      "instances": [
+        "P4_V3_Root_45",
+        "P4_V3_Root_135",
+        "P4_V3_Root_225",
+        "P4_V3_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.40047177798432604,
+      "mass_new_per_corner_kg": 0.31836904651364184,
+      "volume_mm3": 113298.59306535296,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V3",
+      "part": "Motor",
+      "master": "P4_V3_Motor",
+      "instances": [
+        "P4_V3_Motor_45",
+        "P4_V3_Motor_135",
+        "P4_V3_Motor_225",
+        "P4_V3_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.11382184007707898,
+      "mass_new_per_corner_kg": 0.09835147620637487,
+      "volume_mm3": 35000.525340346925,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 1.269663920023949e-10,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V4",
+      "part": "Root",
+      "master": "P9_V4_Root",
+      "instances": [
+        "P4_V4_Root_45",
+        "P4_V4_Root_135",
+        "P4_V4_Root_225",
+        "P4_V4_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.5061302186459853,
+      "mass_new_per_corner_kg": 0.36294844455439174,
+      "volume_mm3": 129163.14752825328,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V4",
+      "part": "Motor",
+      "master": "P4_V4_Motor",
+      "instances": [
+        "P4_V4_Motor_45",
+        "P4_V4_Motor_135",
+        "P4_V4_Motor_225",
+        "P4_V4_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.20319557427041907,
+      "mass_new_per_corner_kg": 0.13160039079775193,
+      "volume_mm3": 46832.8792874562,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 1.0862849140803144e-10,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V5",
+      "part": "Root",
+      "master": "P9_V5_Root",
+      "instances": [
+        "P4_V5_Root_45",
+        "P4_V5_Root_135",
+        "P4_V5_Root_225",
+        "P4_V5_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.5968683739921207,
+      "mass_new_per_corner_kg": 0.4041396976080587,
+      "volume_mm3": 143821.956444149,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V5",
+      "part": "Motor",
+      "master": "P4_V5_Motor",
+      "instances": [
+        "P4_V5_Motor_45",
+        "P4_V5_Motor_135",
+        "P4_V5_Motor_225",
+        "P4_V5_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.14749882965599234,
+      "mass_new_per_corner_kg": 0.16923888995684425,
+      "volume_mm3": 60227.362973965915,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 1.1818665842531609e-10,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V1",
+      "part": "Root",
+      "master": "P9_V1_Root",
+      "instances": [
+        "P3_V1_Root_45",
+        "P3_V1_Root_135",
+        "P3_V1_Root_225",
+        "P3_V1_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.29209469882944455,
+      "mass_new_per_corner_kg": 0.2834503842276848,
+      "volume_mm3": 100872.02285682733,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V1",
+      "part": "Motor",
+      "master": "P3_V1_Motor",
+      "instances": [
+        "P3_V1_Motor_45",
+        "P3_V1_Motor_135",
+        "P3_V1_Motor_225",
+        "P3_V1_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.09408471042518132,
+      "mass_new_per_corner_kg": 0.06810262744925968,
+      "volume_mm3": 24235.810480163585,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": -3.903842500808878e-15,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V2",
+      "part": "Root",
+      "master": "P9_V2_Root",
+      "instances": [
+        "P3_V2_Root_45",
+        "P3_V2_Root_135",
+        "P3_V2_Root_225",
+        "P3_V2_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.3703569734875955,
+      "mass_new_per_corner_kg": 0.319197807421747,
+      "volume_mm3": 113593.52577286371,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V2",
+      "part": "Motor",
+      "master": "P3_V2_Motor",
+      "instances": [
+        "P3_V2_Motor_45",
+        "P3_V2_Motor_135",
+        "P3_V2_Motor_225",
+        "P3_V2_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.15074419583413606,
+      "mass_new_per_corner_kg": 0.08968657791321705,
+      "volume_mm3": 31916.931641714247,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 7.002833528359731e-13,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V3",
+      "part": "Root",
+      "master": "P9_V3_Root",
+      "instances": [
+        "P3_V3_Root_45",
+        "P3_V3_Root_135",
+        "P3_V3_Root_225",
+        "P3_V3_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.40047177798432604,
+      "mass_new_per_corner_kg": 0.31836904651364184,
+      "volume_mm3": 113298.59306535296,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V3",
+      "part": "Motor",
+      "master": "P3_V3_Motor",
+      "instances": [
+        "P3_V3_Motor_45",
+        "P3_V3_Motor_135",
+        "P3_V3_Motor_225",
+        "P3_V3_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.11446208588759889,
+      "mass_new_per_corner_kg": 0.0986751986441922,
+      "volume_mm3": 35115.72905487267,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 1.3035657233856295e-10,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V4",
+      "part": "Root",
+      "master": "P9_V4_Root",
+      "instances": [
+        "P3_V4_Root_45",
+        "P3_V4_Root_135",
+        "P3_V4_Root_225",
+        "P3_V4_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.5061302186459853,
+      "mass_new_per_corner_kg": 0.36294844455439174,
+      "volume_mm3": 129163.14752825328,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V4",
+      "part": "Motor",
+      "master": "P3_V4_Motor",
+      "instances": [
+        "P3_V4_Motor_45",
+        "P3_V4_Motor_135",
+        "P3_V4_Motor_225",
+        "P3_V4_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.20427275060549357,
+      "mass_new_per_corner_kg": 0.1319037355859567,
+      "volume_mm3": 46940.8311693796,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 9.985037116460012e-11,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V5",
+      "part": "Root",
+      "master": "P9_V5_Root",
+      "instances": [
+        "P3_V5_Root_45",
+        "P3_V5_Root_135",
+        "P3_V5_Root_225",
+        "P3_V5_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.5968683739921207,
+      "mass_new_per_corner_kg": 0.4041396976080587,
+      "volume_mm3": 143821.956444149,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V5",
+      "part": "Motor",
+      "master": "P3_V5_Motor",
+      "instances": [
+        "P3_V5_Motor_45",
+        "P3_V5_Motor_135",
+        "P3_V5_Motor_225",
+        "P3_V5_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.14780178114208184,
+      "mass_new_per_corner_kg": 0.1697265141322767,
+      "volume_mm3": 60400.89470899526,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 1.3967982703552277e-10,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V1",
+      "part": "Root",
+      "master": "P9_V1_Root",
+      "instances": [
+        "P2_V1_Root_45",
+        "P2_V1_Root_135",
+        "P2_V1_Root_225",
+        "P2_V1_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.29209469882944455,
+      "mass_new_per_corner_kg": 0.2834503842276848,
+      "volume_mm3": 100872.02285682733,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V1",
+      "part": "Motor",
+      "master": "P2_V1_Motor",
+      "instances": [
+        "P2_V1_Motor_45",
+        "P2_V1_Motor_135",
+        "P2_V1_Motor_225",
+        "P2_V1_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.09408471042517291,
+      "mass_new_per_corner_kg": 0.06810262744925973,
+      "volume_mm3": 24235.8104801636,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": -4.203777578902236e-15,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V2",
+      "part": "Root",
+      "master": "P9_V2_Root",
+      "instances": [
+        "P2_V2_Root_45",
+        "P2_V2_Root_135",
+        "P2_V2_Root_225",
+        "P2_V2_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.3703569734875955,
+      "mass_new_per_corner_kg": 0.319197807421747,
+      "volume_mm3": 113593.52577286371,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V2",
+      "part": "Motor",
+      "master": "P2_V2_Motor",
+      "instances": [
+        "P2_V2_Motor_45",
+        "P2_V2_Motor_135",
+        "P2_V2_Motor_225",
+        "P2_V2_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.15234347664494183,
+      "mass_new_per_corner_kg": 0.08970525502490696,
+      "volume_mm3": 31923.578300678633,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 7.225627377851398e-13,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V3",
+      "part": "Root",
+      "master": "P9_V3_Root",
+      "instances": [
+        "P2_V3_Root_45",
+        "P2_V3_Root_135",
+        "P2_V3_Root_225",
+        "P2_V3_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.40047177798432604,
+      "mass_new_per_corner_kg": 0.31836904651364184,
+      "volume_mm3": 113298.59306535296,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V3",
+      "part": "Motor",
+      "master": "P2_V3_Motor",
+      "instances": [
+        "P2_V3_Motor_45",
+        "P2_V3_Motor_135",
+        "P2_V3_Motor_225",
+        "P2_V3_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.11582555686840972,
+      "mass_new_per_corner_kg": 0.09933042718019804,
+      "volume_mm3": 35348.90646982136,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 1.379032608887176e-10,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V4",
+      "part": "Root",
+      "master": "P9_V4_Root",
+      "instances": [
+        "P2_V4_Root_45",
+        "P2_V4_Root_135",
+        "P2_V4_Root_225",
+        "P2_V4_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.5061302186459853,
+      "mass_new_per_corner_kg": 0.36294844455439174,
+      "volume_mm3": 129163.14752825328,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V4",
+      "part": "Motor",
+      "master": "P2_V4_Motor",
+      "instances": [
+        "P2_V4_Motor_45",
+        "P2_V4_Motor_135",
+        "P2_V4_Motor_225",
+        "P2_V4_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.20641124576859987,
+      "mass_new_per_corner_kg": 0.13251611422372184,
+      "volume_mm3": 47158.759510221294,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 1.0381871934485509e-10,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V5",
+      "part": "Root",
+      "master": "P9_V5_Root",
+      "instances": [
+        "P2_V5_Root_45",
+        "P2_V5_Root_135",
+        "P2_V5_Root_225",
+        "P2_V5_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.5968683739921207,
+      "mass_new_per_corner_kg": 0.4041396976080587,
+      "volume_mm3": 143821.956444149,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V5",
+      "part": "Motor",
+      "master": "P2_V5_Motor",
+      "instances": [
+        "P2_V5_Motor_45",
+        "P2_V5_Motor_135",
+        "P2_V5_Motor_225",
+        "P2_V5_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.14841439121549968,
+      "mass_new_per_corner_kg": 0.1707059020968644,
+      "volume_mm3": 60749.43135119729,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 9.653296740793643e-11,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V1",
+      "part": "Root",
+      "master": "P9_V1_Root",
+      "instances": [
+        "P1_V1_Root_45",
+        "P1_V1_Root_135",
+        "P1_V1_Root_225",
+        "P1_V1_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.29209469882944455,
+      "mass_new_per_corner_kg": 0.2834503842276848,
+      "volume_mm3": 100872.02285682733,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V1",
+      "part": "Motor",
+      "master": "P1_V1_Motor",
+      "instances": [
+        "P1_V1_Motor_45",
+        "P1_V1_Motor_135",
+        "P1_V1_Motor_225",
+        "P1_V1_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.09408471042517767,
+      "mass_new_per_corner_kg": 0.06810262744925963,
+      "volume_mm3": 24235.810480163567,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": -4.2037775789022364e-15,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V2",
+      "part": "Root",
+      "master": "P9_V2_Root",
+      "instances": [
+        "P1_V2_Root_45",
+        "P1_V2_Root_135",
+        "P1_V2_Root_225",
+        "P1_V2_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.3703569734875955,
+      "mass_new_per_corner_kg": 0.319197807421747,
+      "volume_mm3": 113593.52577286371,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V2",
+      "part": "Motor",
+      "master": "P1_V2_Motor",
+      "instances": [
+        "P1_V2_Motor_45",
+        "P1_V2_Motor_135",
+        "P1_V2_Motor_225",
+        "P1_V2_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.15592557622447123,
+      "mass_new_per_corner_kg": 0.08974172516384124,
+      "volume_mm3": 31936.556997808268,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 7.777436865554768e-13,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V3",
+      "part": "Root",
+      "master": "P9_V3_Root",
+      "instances": [
+        "P1_V3_Root_45",
+        "P1_V3_Root_135",
+        "P1_V3_Root_225",
+        "P1_V3_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.40047177798432604,
+      "mass_new_per_corner_kg": 0.31836904651364184,
+      "volume_mm3": 113298.59306535296,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V3",
+      "part": "Motor",
+      "master": "P1_V3_Motor",
+      "instances": [
+        "P1_V3_Motor_45",
+        "P1_V3_Motor_135",
+        "P1_V3_Motor_225",
+        "P1_V3_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.11884903913368705,
+      "mass_new_per_corner_kg": 0.1008368503700242,
+      "volume_mm3": 35885.000131681205,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 1.6035124993159894e-10,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V4",
+      "part": "Root",
+      "master": "P9_V4_Root",
+      "instances": [
+        "P1_V4_Root_45",
+        "P1_V4_Root_135",
+        "P1_V4_Root_225",
+        "P1_V4_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.5061302186459853,
+      "mass_new_per_corner_kg": 0.36294844455439174,
+      "volume_mm3": 129163.14752825328,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V4",
+      "part": "Motor",
+      "master": "P1_V4_Motor",
+      "instances": [
+        "P1_V4_Motor_45",
+        "P1_V4_Motor_135",
+        "P1_V4_Motor_225",
+        "P1_V4_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.21119232719586314,
+      "mass_new_per_corner_kg": 0.1339178901064892,
+      "volume_mm3": 47657.61213754064,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 1.1180838952105665e-10,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V5",
+      "part": "Root",
+      "master": "P9_V5_Root",
+      "instances": [
+        "P1_V5_Root_45",
+        "P1_V5_Root_135",
+        "P1_V5_Root_225",
+        "P1_V5_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.5968683739921207,
+      "mass_new_per_corner_kg": 0.4041396976080587,
+      "volume_mm3": 143821.956444149,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V5",
+      "part": "Motor",
+      "master": "P1_V5_Motor",
+      "instances": [
+        "P1_V5_Motor_45",
+        "P1_V5_Motor_135",
+        "P1_V5_Motor_225",
+        "P1_V5_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.14983408165054724,
+      "mass_new_per_corner_kg": 0.17292889617511956,
+      "volume_mm3": 61540.53244666176,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 1.0394137046933809e-10,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V1",
+      "part": "Root",
+      "master": "P9_V1_Root",
+      "instances": [
+        "P0_V1_Root_45",
+        "P0_V1_Root_135",
+        "P0_V1_Root_225",
+        "P0_V1_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.29209469882944455,
+      "mass_new_per_corner_kg": 0.2834503842276848,
+      "volume_mm3": 100872.02285682733,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V1",
+      "part": "Motor",
+      "master": "P0_V1_Motor",
+      "instances": [
+        "P0_V1_Motor_45",
+        "P0_V1_Motor_135",
+        "P0_V1_Motor_225",
+        "P0_V1_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.09408471042517767,
+      "mass_new_per_corner_kg": 0.06810262744925963,
+      "volume_mm3": 24235.810480163567,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": -4.2037775789022364e-15,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V2",
+      "part": "Root",
+      "master": "P9_V2_Root",
+      "instances": [
+        "P0_V2_Root_45",
+        "P0_V2_Root_135",
+        "P0_V2_Root_225",
+        "P0_V2_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.3703569734875955,
+      "mass_new_per_corner_kg": 0.319197807421747,
+      "volume_mm3": 113593.52577286371,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V2",
+      "part": "Motor",
+      "master": "P0_V2_Motor",
+      "instances": [
+        "P0_V2_Motor_45",
+        "P0_V2_Motor_135",
+        "P0_V2_Motor_225",
+        "P0_V2_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.15592557622447123,
+      "mass_new_per_corner_kg": 0.08974172516384124,
+      "volume_mm3": 31936.556997808268,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 7.777436865554768e-13,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V3",
+      "part": "Root",
+      "master": "P9_V3_Root",
+      "instances": [
+        "P0_V3_Root_45",
+        "P0_V3_Root_135",
+        "P0_V3_Root_225",
+        "P0_V3_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.40047177798432604,
+      "mass_new_per_corner_kg": 0.31836904651364184,
+      "volume_mm3": 113298.59306535296,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V3",
+      "part": "Motor",
+      "master": "P0_V3_Motor",
+      "instances": [
+        "P0_V3_Motor_45",
+        "P0_V3_Motor_135",
+        "P0_V3_Motor_225",
+        "P0_V3_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.11884903913368705,
+      "mass_new_per_corner_kg": 0.1008368503700242,
+      "volume_mm3": 35885.000131681205,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 1.6035124993159894e-10,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V4",
+      "part": "Root",
+      "master": "P9_V4_Root",
+      "instances": [
+        "P0_V4_Root_45",
+        "P0_V4_Root_135",
+        "P0_V4_Root_225",
+        "P0_V4_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.5061302186459853,
+      "mass_new_per_corner_kg": 0.36294844455439174,
+      "volume_mm3": 129163.14752825328,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V4",
+      "part": "Motor",
+      "master": "P0_V4_Motor",
+      "instances": [
+        "P0_V4_Motor_45",
+        "P0_V4_Motor_135",
+        "P0_V4_Motor_225",
+        "P0_V4_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.21119232719586314,
+      "mass_new_per_corner_kg": 0.1339178901064892,
+      "volume_mm3": 47657.61213754064,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 1.1180838952105665e-10,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V5",
+      "part": "Root",
+      "master": "P9_V5_Root",
+      "instances": [
+        "P0_V5_Root_45",
+        "P0_V5_Root_135",
+        "P0_V5_Root_225",
+        "P0_V5_Root_315"
+      ],
+      "mass_old_per_corner_kg": 0.5968683739921207,
+      "mass_new_per_corner_kg": 0.4041396976080587,
+      "volume_mm3": 143821.956444149,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": null,
+      "geometry_cache": false
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V5",
+      "part": "Motor",
+      "master": "P0_V5_Motor",
+      "instances": [
+        "P0_V5_Motor_45",
+        "P0_V5_Motor_135",
+        "P0_V5_Motor_225",
+        "P0_V5_Motor_315"
+      ],
+      "mass_old_per_corner_kg": 0.14983408165054724,
+      "mass_new_per_corner_kg": 0.17292889617511956,
+      "volume_mm3": 61540.53244666176,
+      "valid": true,
+      "solids": 1,
+      "motor_COM_y_mm": 1.0394137046933809e-10,
+      "geometry_cache": false
+    }
+  ],
+  "human": [
+    {
+      "instance": "MENSCH_Schuh_m1_Referenz",
+      "id": "MENSCH_Schuh_m1",
+      "label": "Gr\u00f6\u00dfenreferenz Schuh_-1",
+      "group": "Mensch",
+      "role": "anthropometric_reference",
+      "colour": [
+        0.14,
+        0.16,
+        0.18
+      ],
+      "mass_kg": 0,
+      "placement_mm": [
+        0,
+        0,
+        0
+      ],
+      "placement_quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "reference_only": true
+    },
+    {
+      "instance": "MENSCH_Unterschenkel_m1_Referenz",
+      "id": "MENSCH_Unterschenkel_m1",
+      "label": "Gr\u00f6\u00dfenreferenz Unterschenkel_-1",
+      "group": "Mensch",
+      "role": "anthropometric_reference",
+      "colour": [
+        0.16,
+        0.2,
+        0.25
+      ],
+      "mass_kg": 0,
+      "placement_mm": [
+        0,
+        0,
+        0
+      ],
+      "placement_quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "reference_only": true
+    },
+    {
+      "instance": "MENSCH_Oberschenkel_m1_Referenz",
+      "id": "MENSCH_Oberschenkel_m1",
+      "label": "Gr\u00f6\u00dfenreferenz Oberschenkel_-1",
+      "group": "Mensch",
+      "role": "anthropometric_reference",
+      "colour": [
+        0.16,
+        0.2,
+        0.25
+      ],
+      "mass_kg": 0,
+      "placement_mm": [
+        0,
+        0,
+        0
+      ],
+      "placement_quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "reference_only": true
+    },
+    {
+      "instance": "MENSCH_Oberarm_m1_Referenz",
+      "id": "MENSCH_Oberarm_m1",
+      "label": "Gr\u00f6\u00dfenreferenz Oberarm_-1",
+      "group": "Mensch",
+      "role": "anthropometric_reference",
+      "colour": [
+        0.18,
+        0.42,
+        0.68
+      ],
+      "mass_kg": 0,
+      "placement_mm": [
+        0,
+        0,
+        0
+      ],
+      "placement_quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "reference_only": true
+    },
+    {
+      "instance": "MENSCH_Unterarm_m1_Referenz",
+      "id": "MENSCH_Unterarm_m1",
+      "label": "Gr\u00f6\u00dfenreferenz Unterarm_-1",
+      "group": "Mensch",
+      "role": "anthropometric_reference",
+      "colour": [
+        0.73,
+        0.48,
+        0.32
+      ],
+      "mass_kg": 0,
+      "placement_mm": [
+        0,
+        0,
+        0
+      ],
+      "placement_quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "reference_only": true
+    },
+    {
+      "instance": "MENSCH_Hand_m1_Referenz",
+      "id": "MENSCH_Hand_m1",
+      "label": "Gr\u00f6\u00dfenreferenz Hand_-1",
+      "group": "Mensch",
+      "role": "anthropometric_reference",
+      "colour": [
+        0.73,
+        0.48,
+        0.32
+      ],
+      "mass_kg": 0,
+      "placement_mm": [
+        0,
+        0,
+        0
+      ],
+      "placement_quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "reference_only": true
+    },
+    {
+      "instance": "MENSCH_Schuh_1_Referenz",
+      "id": "MENSCH_Schuh_1",
+      "label": "Gr\u00f6\u00dfenreferenz Schuh_1",
+      "group": "Mensch",
+      "role": "anthropometric_reference",
+      "colour": [
+        0.14,
+        0.16,
+        0.18
+      ],
+      "mass_kg": 0,
+      "placement_mm": [
+        0,
+        0,
+        0
+      ],
+      "placement_quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "reference_only": true
+    },
+    {
+      "instance": "MENSCH_Unterschenkel_1_Referenz",
+      "id": "MENSCH_Unterschenkel_1",
+      "label": "Gr\u00f6\u00dfenreferenz Unterschenkel_1",
+      "group": "Mensch",
+      "role": "anthropometric_reference",
+      "colour": [
+        0.16,
+        0.2,
+        0.25
+      ],
+      "mass_kg": 0,
+      "placement_mm": [
+        0,
+        0,
+        0
+      ],
+      "placement_quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "reference_only": true
+    },
+    {
+      "instance": "MENSCH_Oberschenkel_1_Referenz",
+      "id": "MENSCH_Oberschenkel_1",
+      "label": "Gr\u00f6\u00dfenreferenz Oberschenkel_1",
+      "group": "Mensch",
+      "role": "anthropometric_reference",
+      "colour": [
+        0.16,
+        0.2,
+        0.25
+      ],
+      "mass_kg": 0,
+      "placement_mm": [
+        0,
+        0,
+        0
+      ],
+      "placement_quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "reference_only": true
+    },
+    {
+      "instance": "MENSCH_Oberarm_1_Referenz",
+      "id": "MENSCH_Oberarm_1",
+      "label": "Gr\u00f6\u00dfenreferenz Oberarm_1",
+      "group": "Mensch",
+      "role": "anthropometric_reference",
+      "colour": [
+        0.18,
+        0.42,
+        0.68
+      ],
+      "mass_kg": 0,
+      "placement_mm": [
+        0,
+        0,
+        0
+      ],
+      "placement_quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "reference_only": true
+    },
+    {
+      "instance": "MENSCH_Unterarm_1_Referenz",
+      "id": "MENSCH_Unterarm_1",
+      "label": "Gr\u00f6\u00dfenreferenz Unterarm_1",
+      "group": "Mensch",
+      "role": "anthropometric_reference",
+      "colour": [
+        0.73,
+        0.48,
+        0.32
+      ],
+      "mass_kg": 0,
+      "placement_mm": [
+        0,
+        0,
+        0
+      ],
+      "placement_quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "reference_only": true
+    },
+    {
+      "instance": "MENSCH_Hand_1_Referenz",
+      "id": "MENSCH_Hand_1",
+      "label": "Gr\u00f6\u00dfenreferenz Hand_1",
+      "group": "Mensch",
+      "role": "anthropometric_reference",
+      "colour": [
+        0.73,
+        0.48,
+        0.32
+      ],
+      "mass_kg": 0,
+      "placement_mm": [
+        0,
+        0,
+        0
+      ],
+      "placement_quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "reference_only": true
+    },
+    {
+      "instance": "MENSCH_Becken_Referenz",
+      "id": "MENSCH_Becken",
+      "label": "Gr\u00f6\u00dfenreferenz Becken",
+      "group": "Mensch",
+      "role": "anthropometric_reference",
+      "colour": [
+        0.16,
+        0.2,
+        0.25
+      ],
+      "mass_kg": 0,
+      "placement_mm": [
+        0,
+        0,
+        0
+      ],
+      "placement_quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "reference_only": true
+    },
+    {
+      "instance": "MENSCH_Oberkoerper_Referenz",
+      "id": "MENSCH_Oberkoerper",
+      "label": "Gr\u00f6\u00dfenreferenz Oberkoerper",
+      "group": "Mensch",
+      "role": "anthropometric_reference",
+      "colour": [
+        0.18,
+        0.42,
+        0.68
+      ],
+      "mass_kg": 0,
+      "placement_mm": [
+        0,
+        0,
+        0
+      ],
+      "placement_quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "reference_only": true
+    },
+    {
+      "instance": "MENSCH_Hals_Referenz",
+      "id": "MENSCH_Hals",
+      "label": "Gr\u00f6\u00dfenreferenz Hals",
+      "group": "Mensch",
+      "role": "anthropometric_reference",
+      "colour": [
+        0.73,
+        0.48,
+        0.32
+      ],
+      "mass_kg": 0,
+      "placement_mm": [
+        0,
+        0,
+        0
+      ],
+      "placement_quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "reference_only": true
+    },
+    {
+      "instance": "MENSCH_Kopf_Referenz",
+      "id": "MENSCH_Kopf",
+      "label": "Gr\u00f6\u00dfenreferenz Kopf",
+      "group": "Mensch",
+      "role": "anthropometric_reference",
+      "colour": [
+        0.73,
+        0.48,
+        0.32
+      ],
+      "mass_kg": 0,
+      "placement_mm": [
+        0,
+        0,
+        0
+      ],
+      "placement_quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "reference_only": true
+    },
+    {
+      "instance": "MENSCH_Nase_Referenz",
+      "id": "MENSCH_Nase",
+      "label": "Gr\u00f6\u00dfenreferenz Nase",
+      "group": "Mensch",
+      "role": "anthropometric_reference",
+      "colour": [
+        0.73,
+        0.48,
+        0.32
+      ],
+      "mass_kg": 0,
+      "placement_mm": [
+        0,
+        0,
+        0
+      ],
+      "placement_quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "reference_only": true
+    },
+    {
+      "instance": "MENSCH_Auge_m31_Referenz",
+      "id": "MENSCH_Auge_m31",
+      "label": "Gr\u00f6\u00dfenreferenz Auge_-31",
+      "group": "Mensch",
+      "role": "anthropometric_reference",
+      "colour": [
+        0.13,
+        0.14,
+        0.15
+      ],
+      "mass_kg": 0,
+      "placement_mm": [
+        0,
+        0,
+        0
+      ],
+      "placement_quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "reference_only": true
+    },
+    {
+      "instance": "MENSCH_Auge_31_Referenz",
+      "id": "MENSCH_Auge_31",
+      "label": "Gr\u00f6\u00dfenreferenz Auge_31",
+      "group": "Mensch",
+      "role": "anthropometric_reference",
+      "colour": [
+        0.13,
+        0.14,
+        0.15
+      ],
+      "mass_kg": 0,
+      "placement_mm": [
+        0,
+        0,
+        0
+      ],
+      "placement_quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "reference_only": true
+    }
+  ],
+  "human_height_mm": 1750,
+  "human_sole_z_mm": 244,
+  "human_stance_x_mm": [
+    -200,
+    200
+  ],
+  "human_mass_not_in_CAD_BOM": true,
+  "cable_and_arm_shapes_unchanged": true,
+  "protected_shape_count": 730,
+  "changed_yoke_master_count": 55,
+  "strength_revalidation_required": true,
+  "production_ready": false,
+  "initial_flat_yoke_native_sha256": "e5734653b51a17ade37c011bd207fad9fd98ca91c63b739dc660152e67043470",
+  "root_revision": "open_bridge_outside_vertical_frame_clamp",
+  "end_pad_counterbore_depth_mm": 0.425,
+  "counterbore_reference_pad_thickness_mm": 0.3,
+  "end_pad_axial_free_gap_mm": 0.125
+}

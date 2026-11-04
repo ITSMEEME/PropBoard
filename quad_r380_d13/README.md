@@ -1,8 +1,10 @@
-# Quad D13 – interner Standard-Kabelbaum
+# Quad D13 – Mensch, Flachrippenknoten und Standard-Kabelbaum
 
-[3D-Ansicht](Projekt.html) · [FreeCAD-Modell](Ausgabe/Quad_Standardkabelbaum.FCStd) · [Schnittstellen und Pinbelegung](SCHNITTSTELLEN.md) · [Pinliste CSV](Ausgabe/Pinbelegung.csv) · [Zuschnitt CSV](Ausgabe/Zuschnitt.csv)
+[3D-Ansicht](Projekt.html) · [aktuelles FreeCAD-Modell](Ausgabe/Quad_Flachrippen_Mensch.FCStd) · [Zweiblatt-Bildpropeller und STEP-Dateien](PROPELLER_BILDREFERENZ.md) · [Mensch, Anschlussknoten und Antriebsberechnung](ANTRIEB_UND_KNOTEN.md) · [Schnittstellen und Pinbelegung](SCHNITTSTELLEN.md) · [Pinliste CSV](Ausgabe/Pinbelegung.csv) · [Zuschnitt CSV](Ausgabe/Zuschnitt.csv)
 
-Die internen Kabel und Schutzliner wurden im nativen D12-Modell ersetzt. Alle zehn Propellergrößen und fünf Rohrvarianten bleiben umschaltbar. Rahmen, Motoraufnahmen und Landefüße haben gegenüber D12 identische geprüfte BREP-Geometrien. Die strukturellen Nachweisdefizite aus der [D12-Studie](../quad_r380_d12/Ausgabe/Festigkeit/BERICHT.md) bestehen damit fort.
+Die Ansicht enthält eine zuschaltbare 1,75-m-Person auf den Fußplatten, neu konstruierte Rahmen-/Motoranschlüsse mit flachen integrierten Rippen und eine durchmesserabhängige Schätzung von Schub, Drehzahl und DC-Strom. Alle zehn Propellergrößen und fünf Rohrvarianten bleiben umschaltbar. [Aktuelle Anschlussprüfung](Ausgabe/Flachrippen_Pruefung.json) und [Rechenmodell](ANTRIEB_UND_KNOTEN.md) beschreiben die neuen Prüfungen und Grenzen. HEP-S-Messkennfelder fehlen; die Antriebsanzeige ist kein Leistungsnachweis.
+
+Die folgenden Kabelangaben stammen aus dem ersten D13-Stand. Dort waren Rahmen, Motoraufnahmen und Landefüße gegenüber D12 unverändert. **Im aktuellen Stand sind die Alu-Anschlussknoten geändert; CFK-Arme und innere Kabelgeometrien bleiben erhalten.** Die [D12-Studie](../quad_r380_d12/Ausgabe/Festigkeit/BERICHT.md) dokumentiert Defizite des früheren Aufbaus und erteilt auch dem neuen Aufbau keine Tragfähigkeitsfreigabe. Die geänderten Knoten benötigen eine neue Festigkeitsbewertung.
 
 ## Kabelauswahl und Führung
 

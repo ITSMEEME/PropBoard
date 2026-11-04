@@ -1,0 +1,26 @@
+from pathlib import Path
+H=Path(__file__).resolve().parents[1]
+p=H/'Projekt.html';s=p.read_text();s=s.replace('Quad D13 · Standard-Kabelbaum','Quad D13 · Mensch, Anschlussknoten und Antrieb');s=s.replace('<dl id="facts"></dl>','''<label><input id="human" type="checkbox" checked> Mensch · 1,75 m · Größenreferenz</label>
+<section class="note" aria-labelledby="driveTitle"><h2 id="driveTitle" style="font-size:18px;margin:0">Antrieb · Rechenschätzung</h2>
+<label>Drehzahl je Rotor <input id="rpm" type="range" min="0" max="4000" step="50" value="2500"> <output id="rpmValue">2500 min⁻¹</output></label>
+<label>Akkuspannung <input id="voltage" type="number" min="72" max="100.8" step="0.1" value="92" style="width:76px"> V</label>
+<label>Gesamtmasse inkl. Person <input id="allUpMass" type="number" min="100" max="250" step="1" value="160" style="width:66px"> kg</label>
+<dl id="driveFacts" aria-live="polite"></dl><p id="driveStatus"></p>
+<small>kgf = Schub als Gewichtskraftäquivalent. HEP-S-Kennfelder fehlen: Koeffizientenmodell mit NS52-Referenz und angenommener Übertragung. Keine zugesicherte Leistung. <a href="ANTRIEB_UND_KNOTEN.md">Formeln und Grenzen</a></small></section>
+<dl id="facts"></dl>''')
+s=s.replace('<script src="viewer.js"></script>','<script src="Ausgabe/antrieb_daten.js"></script><script src="antrieb_modell.js"></script><script src="viewer.js"></script>')
+s=s.replace('Neue DC-Paar-', 'Die aktuellen Alu-Anschlüsse verwenden durchgängige flache Rippen statt gekreuzter Rundstreben. Die Person ist eine Größenreferenz ohne Tragfähigkeitsnachweis. Neue DC-Paar-')
+p.write_text(s)
+p=H/'viewer.js';s=p.read_text();s=s.replace("if(r.group==='Reglerhalter'&&!by('escHolders').checked", "if(r.group==='Mensch'&&!by('human').checked)continue;if(r.group==='Reglerhalter'&&!by('escHolders').checked")
+s=s.replace("gl.uniform3fv(loc.colour,by('conflicts')", "gl.uniform3fv(loc.colour,r.colour|| (by('conflicts')").replace("[.23,.52,.64]);gl.drawArrays", "[.23,.52,.64]));gl.drawArrays")
+s=s.replace("function facts(){", "function facts(){updateDrive();")
+pos=s.index("by('variant').onchange=")
+s=s[:pos]+'''let driveResult;
+function updateDrive(){const p=QD_DRIVE,c=QD_MODEL.propeller_configurations[propeller],rpm=+by('rpm').value,voltage=+by('voltage').value,mass=+by('allUpMass').value;by('rpmValue').value=rpm+' min⁻¹';if(!Number.isFinite(voltage)||voltage<72||voltage>100.8||!Number.isFinite(mass)||mass<100||mass>250){by('driveStatus').textContent='Spannung 72–100,8 V und Gesamtmasse 100–250 kg eingeben.';by('driveFacts').replaceChildren();driveResult=null;return;}const d=QuadDrive.evaluate(c,rpm,voltage,mass,p);driveResult=d;const f=(v,n=1)=>v.toLocaleString('de-DE',{minimumFractionDigits:n,maximumFractionDigits:n});by('driveFacts').replaceChildren();for(const[k,v]of [['Gesamtschub, geschätzt',f(d.total_kgf)+' kgf'],['Schub je Rotor',f(d.per_rotor_kgf)+' kgf'],['Schubempfindlichkeit ±25 %',f(d.sensitivity_low_kgf)+'–'+f(d.sensitivity_high_kgf)+' kgf'],['DC-Strom gesamt',f(d.total_current_DC_A)+' A'],['DC-Strom je Regler',f(d.current_DC_per_ESC_A)+' A'],['Elektrische Leistung gesamt',f(d.total_electric_W/1000,2)+' kW'],['Stromempfindlichkeit ±35 %',f(d.current_sensitivity_low_A)+'–'+f(d.current_sensitivity_high_A)+' A'],['Moment je Motor',f(d.torque_Nm)+' Nm'],['Blattspitzengeschwindigkeit',f(d.tip_speed_m_s,0)+' m/s'],['Schwebedrehzahl für '+f(mass,0)+' kg',f(d.hover_rpm,0)+' min⁻¹'],['Schwebestrom gesamt, rechnerisch',f(d.hover_total_current_DC_A)+' A']]){const a=document.createElement('dt'),b=document.createElement('dd');a.textContent=k;b.textContent=v;by('driveFacts').append(a,b);}const notes=['Schätzung ohne HEP-S-Messkennfeld.'];if(d.above_ideal_no_load)notes.push('Gewählte Drehzahl erreicht/überschreitet KV×U-Leerlaufgrenze; unter Last so nicht erreichbar.');if(d.above_sampled_torque)notes.push('Moment über höchstem MN1330-Tabellenwert; Betriebspunkt unbelegt.');if(d.rpm>p.motor_measured_max_rpm)notes.push('Drehzahl oberhalb des vorhandenen MN1330-Prüfbereichs.');if(d.total_kgf<mass)notes.push('Schub liegt unter der eingegebenen Gesamtmasse.');if(d.hover_above_ideal_no_load||d.hover_above_sampled_torque)notes.push('Berechneter Schwebezustand überschreitet die Leerlaufgrenze oder die belegte Momenthülle.');notes.push('DC-Batteriestrom ist nicht der 100-A-Ausgangsstrom des Reglers. Thermik und Dauerbetrieb sind offen.');by('driveStatus').textContent=notes.join(' ');}
+for(const id of ['rpm','voltage','allUpMass'])by(id).oninput=updateDrive;
+by('human').onchange=()=>{fit();};
+''' +s[pos:]
+# Initial facts must run after driveResult declaration to avoid TDZ.
+s=s.replace("const w=QD_MODEL.propeller_configurations[propeller].unprotected_width_mm/1000;view([0,0,.02],Math.min(1.65/w,1.45*canvas.clientWidth/canvas.clientHeight/w));", "const w=QD_MODEL.propeller_configurations[propeller].unprotected_width_mm/1000;if(by('human').checked)view([0,0,.85],Math.min(1.45/w,.72*canvas.clientWidth/canvas.clientHeight,.83),.5,.2);else view([0,0,.02],Math.min(1.65/w,1.45*canvas.clientWidth/canvas.clientHeight/w));")
+s=s.replace("get rotorAngle(){return rotorAngle;},instances", "get rotorAngle(){return rotorAngle;},get drive(){return driveResult;},instances")
+p.write_text(s)

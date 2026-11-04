@@ -1,0 +1,467 @@
+{
+  "native_sha256": "51fd41d237a83687e1276f652f79bbe833d1417f0727d58006206a5edcb20dcb",
+  "configurations": [
+    {
+      "propeller_index": 0,
+      "nominal_diameter_mm": 457.2,
+      "tip_reaches_native_cylinder_radius": true,
+      "conservative_native_z_min_mm": 154.0,
+      "conservative_native_z_max_mm": 164.58578707101006,
+      "enclosure_outside_volume_mm3": 0.0,
+      "minimum_rotor_circle_gap_mm": 382.8,
+      "all_phase_clear": true
+    },
+    {
+      "propeller_index": 1,
+      "nominal_diameter_mm": 558.8,
+      "tip_reaches_native_cylinder_radius": true,
+      "conservative_native_z_min_mm": 152.8191153171964,
+      "conservative_native_z_max_mm": 166.21222526483444,
+      "enclosure_outside_volume_mm3": 0.0,
+      "minimum_rotor_circle_gap_mm": 281.20000000000005,
+      "all_phase_clear": true
+    },
+    {
+      "propeller_index": 2,
+      "nominal_diameter_mm": 660.4,
+      "tip_reaches_native_cylinder_radius": true,
+      "conservative_native_z_min_mm": 150.59345697592508,
+      "conservative_native_z_max_mm": 168.603039823905,
+      "enclosure_outside_volume_mm3": 0.0,
+      "minimum_rotor_circle_gap_mm": 269.6,
+      "all_phase_clear": true
+    },
+    {
+      "propeller_index": 3,
+      "nominal_diameter_mm": 711.1999999999999,
+      "tip_reaches_native_cylinder_radius": true,
+      "conservative_native_z_min_mm": 149.831166091957,
+      "conservative_native_z_max_mm": 169.55740393705577,
+      "enclosure_outside_volume_mm3": 0.0,
+      "minimum_rotor_circle_gap_mm": 258.80000000000007,
+      "all_phase_clear": true
+    },
+    {
+      "propeller_index": 4,
+      "nominal_diameter_mm": 736.5999999999999,
+      "tip_reaches_native_cylinder_radius": true,
+      "conservative_native_z_min_mm": 147.55468754458965,
+      "conservative_native_z_max_mm": 171.56239358262215,
+      "enclosure_outside_volume_mm3": 0.0,
+      "minimum_rotor_circle_gap_mm": 253.4000000000001,
+      "all_phase_clear": true
+    },
+    {
+      "propeller_index": 5,
+      "nominal_diameter_mm": 762.0,
+      "tip_reaches_native_cylinder_radius": true,
+      "conservative_native_z_min_mm": 147.18395549955457,
+      "conservative_native_z_max_mm": 172.09325251528506,
+      "enclosure_outside_volume_mm3": 0.0,
+      "minimum_rotor_circle_gap_mm": 258.0,
+      "all_phase_clear": true
+    },
+    {
+      "propeller_index": 6,
+      "nominal_diameter_mm": 812.8,
+      "tip_reaches_native_cylinder_radius": true,
+      "conservative_native_z_min_mm": 145.07757952709997,
+      "conservative_native_z_max_mm": 174.29229804521768,
+      "enclosure_outside_volume_mm3": 0.0,
+      "minimum_rotor_circle_gap_mm": 247.20000000000005,
+      "all_phase_clear": true
+    },
+    {
+      "propeller_index": 7,
+      "nominal_diameter_mm": 863.5999999999999,
+      "tip_reaches_native_cylinder_radius": true,
+      "conservative_native_z_min_mm": 141.7885528948236,
+      "conservative_native_z_max_mm": 177.39044253386362,
+      "enclosure_outside_volume_mm3": 0.0,
+      "minimum_rotor_circle_gap_mm": 236.4000000000001,
+      "all_phase_clear": true
+    },
+    {
+      "propeller_index": 8,
+      "nominal_diameter_mm": 914.4,
+      "tip_reaches_native_cylinder_radius": true,
+      "conservative_native_z_min_mm": 140.08285687200507,
+      "conservative_native_z_max_mm": 179.08074153988366,
+      "enclosure_outside_volume_mm3": 0.0,
+      "minimum_rotor_circle_gap_mm": 225.60000000000002,
+      "all_phase_clear": true
+    },
+    {
+      "propeller_index": 9,
+      "nominal_diameter_mm": 1066.8,
+      "tip_reaches_native_cylinder_radius": true,
+      "conservative_native_z_min_mm": 135.96073871960323,
+      "conservative_native_z_max_mm": 183.22551251339218,
+      "enclosure_outside_volume_mm3": 0.0,
+      "minimum_rotor_circle_gap_mm": 183.20000000000005,
+      "all_phase_clear": true
+    }
+  ],
+  "checks": [
+    {
+      "propeller_index": 0,
+      "variant": "V1",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V2",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V3",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V4",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V5",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V1",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V2",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V3",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V4",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V5",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V1",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V2",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V3",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V4",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V5",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V1",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V2",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V3",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V4",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V5",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V1",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V2",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V3",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V4",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V5",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V1",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V2",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V3",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V4",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V5",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V1",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V2",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V3",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V4",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V5",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V1",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V2",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V3",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V4",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V5",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V1",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V2",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V3",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V4",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V5",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V1",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V2",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V3",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V4",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V5",
+      "rotor_count": 4,
+      "all_phase_envelopes_checked": true,
+      "passed": true
+    }
+  ],
+  "interferences": [],
+  "nominal_geometry_passed": true,
+  "scope": "Saved native BREP;photo blade solid contained by a rotation-invariant inner cylinder(radius75,z154up) and outer annulus(radius75toR,native bounding zrange);enclosures vs native vehicle/scale-human geometry at all4axes in all50 configurations.Rotor circles checked pairwise.Geometry is a photo-derived assumption;no blade deflection,OEM contour/PCD,manufacturing tolerance or structural clearance certification.",
+  "production_ready": false,
+  "verification_stamp": {
+    "Ausgabe/Quad_Flachrippen_Mensch.FCStd": "51fd41d237a83687e1276f652f79bbe833d1417f0727d58006206a5edcb20dcb",
+    "Ausgabe/Propeller_Aufbau.json": "a8f6da8ba9ed470af4986f7c7786496745fa1740c0cbcbf405d554f7f56467de",
+    "ueberarbeitung/zipcad.py": "e0187dac621ba392a0cd41e15bccb1207021182fcbaf7f145b47afdb5f537391",
+    "ueberarbeitung/propeller_pruefen.py": "d394c97c4c39bc1e38e02741e3dcb703142db3c66be7dcebc440acd90b38527a"
+  }
+}

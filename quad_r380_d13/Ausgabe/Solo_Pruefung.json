@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "propeller_index": 0,
+      "solo_count": 1,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "solo_count": 1,
+      "passed": true
+    },
+    {
+      "propeller_index": 2,
+      "solo_count": 1,
+      "passed": true
+    },
+    {
+      "propeller_index": 3,
+      "solo_count": 1,
+      "passed": true
+    },
+    {
+      "propeller_index": 4,
+      "solo_count": 1,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "solo_count": 1,
+      "passed": true
+    },
+    {
+      "propeller_index": 6,
+      "solo_count": 1,
+      "passed": true
+    },
+    {
+      "propeller_index": 7,
+      "solo_count": 1,
+      "passed": true
+    },
+    {
+      "propeller_index": 8,
+      "solo_count": 1,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "solo_count": 1,
+      "passed": true
+    }
+  ],
+  "full_view_restored_count": 1055,
+  "page_errors": [],
+  "native_sha256": "51fd41d237a83687e1276f652f79bbe833d1417f0727d58006206a5edcb20dcb",
+  "viewer_js_sha256": "5306eb89ca55a8e84f5b58f5c1de6280177c839cf9eb457e069de81b1a4cde7e"
+}

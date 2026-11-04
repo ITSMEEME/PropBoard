@@ -1,81 +1,122 @@
 {
-  "revision": "D13",
-  "native_sha256": "e8572efdbb39c19f5b211db0bccaa591e04b4acc3f27adc49cac521eab5e23de",
+  "revision": "D13_open_yokes_human_photo_propellers",
+  "native_path": "Ausgabe/Quad_Flachrippen_Mensch.FCStd",
+  "native_sha256": "51fd41d237a83687e1276f652f79bbe833d1417f0727d58006206a5edcb20dcb",
   "files": [
+    {
+      "path": "ANTRIEB_UND_KNOTEN.md",
+      "bytes": 11119,
+      "sha256": "d56035bf477a5755f4f9bad853e1f71e360928423ec242d86f45e172b7a248a2"
+    },
+    {
+      "path": "Ausgabe/Antrieb_Annahmen.json",
+      "bytes": 1326,
+      "sha256": "c5dcae2a71ecb8f7eeb90b7f4f15d8653c7a57d0b46d49aaae4b89cb30577a61"
+    },
+    {
+      "path": "Ausgabe/Antrieb_Pruefung.json",
+      "bytes": 13284,
+      "sha256": "22696916107732b4fecc36b0a01db5d80a6eefbaf16c946b3e10003cc7e5f094"
+    },
     {
       "path": "Ausgabe/Aufbau.json",
       "bytes": 34268,
       "sha256": "8b9ba581550d0ceb91d8bb06daf071b5f05406ae7cd97c23bc8910c41f329925"
     },
     {
+      "path": "Ausgabe/Bindungen_Pruefung.json",
+      "bytes": 54330,
+      "sha256": "a05af4a62040b21173c61c11277b76e1df9c0f5c4440ed168533fada34e0356f"
+    },
+    {
+      "path": "Ausgabe/Flachrippen_Aufbau.json",
+      "bytes": 60392,
+      "sha256": "47b4079f90fc80a23f92c6fea8efd5394ee4e6b10017ff3a2632a6b075e63d24"
+    },
+    {
+      "path": "Ausgabe/Flachrippen_Pruefung.json",
+      "bytes": 69532,
+      "sha256": "53bbeb8fbc0902c3ed64ca421d7139ab227741c2b4f553807523cdad2e5bec30"
+    },
+    {
+      "path": "Ausgabe/Flachrippen_Vor_Padfreistellung.json",
+      "bytes": 37575,
+      "sha256": "577ad00e7c90d9db83ab85e8386242dbc5a0083124ea9d094e0cc49fe46d07f7"
+    },
+    {
+      "path": "Ausgabe/Flachrippen_Vorlauf.json",
+      "bytes": 10639,
+      "sha256": "6b27eb0a500c29890f520df3c6d0de13e3a7e276eef71f5e7628b826ad7758e3"
+    },
+    {
       "path": "Ausgabe/HEPS_18_V5.png",
-      "bytes": 228232,
-      "sha256": "53318da8a5851808b3f165818da7627a58aa3b4b9b09c6337d75711d75ac6a66"
+      "bytes": 197043,
+      "sha256": "6c5d78e4bf7d18f5353e75e7bd1fdcbd219cc32cff3c424e5754cb5cc11782ea"
     },
     {
       "path": "Ausgabe/HEPS_22_V5.png",
-      "bytes": 221199,
-      "sha256": "9276af63fd73a4e4e4ce3ad0d3f15ff3cfa193943b043fc97a626e8313f53778"
+      "bytes": 201054,
+      "sha256": "26101fb73808c36c70c80511e94abe7567a8e26136470e5bcb93d4b89c55f05b"
     },
     {
       "path": "Ausgabe/HEPS_26_V5.png",
-      "bytes": 213268,
-      "sha256": "36a8cc3952fdb8b19c7458988de56153a2e3100e5c7a202ddee042c1a8d95bd7"
+      "bytes": 206184,
+      "sha256": "26121cf187ebfd183c81bfc7d9b026cae097f303810b5e1bbe3493aa0f58841a"
     },
     {
       "path": "Ausgabe/HEPS_28_V5.png",
-      "bytes": 209848,
-      "sha256": "dc2524e39300dcb3f3121157889fd1244e15db1a45a90b24db7e5d6655ed7cfc"
+      "bytes": 207486,
+      "sha256": "747e8d72985e07122d1725cce99194090354e8c5e34fd87f69f8392f0895945a"
     },
     {
       "path": "Ausgabe/HEPS_29_V5.png",
-      "bytes": 206489,
-      "sha256": "cf27afe8d36e0598afe5a248619256cf6845bb44ad6c68299cad7a99579f488e"
+      "bytes": 208654,
+      "sha256": "fa371080f447dd047c2f3e494c401dfd42e249a127f34d0cd075d7fa9eb5466d"
     },
     {
       "path": "Ausgabe/HEPS_30_V5.png",
-      "bytes": 205502,
-      "sha256": "bb279edf66346ca2011ddf2b72b2c4d3c7c0b21b2d4635166c6c5af7245501ff"
+      "bytes": 207924,
+      "sha256": "11e8e44cdac976cd96b83533da73d6bebd30c4c27d3516aff8781124b8bbd88b"
     },
     {
       "path": "Ausgabe/HEPS_32_V5.png",
-      "bytes": 201880,
-      "sha256": "54b95a3e87972929d05b54d662b8be00e4854f0144332c451feaace4d352d9aa"
+      "bytes": 202508,
+      "sha256": "d7371494e45156a50d26d6c91262c454dc59c0876c4d15c038a514129c642780"
     },
     {
       "path": "Ausgabe/HEPS_34_V5.png",
-      "bytes": 199685,
-      "sha256": "55a09f08728c8078f3829c9a8d240149cf0bce15a6e67cb325401a955f5406eb"
+      "bytes": 198645,
+      "sha256": "2b676c475fca34c0c842a0ff00b1cce8504349940030beb6e159e3f550e18419"
     },
     {
       "path": "Ausgabe/HEPS_36_V5.png",
-      "bytes": 197419,
-      "sha256": "1815aa9b593d79b3aa82d41c501051aa03c38e168799131c574a36d94d42d78f"
+      "bytes": 194462,
+      "sha256": "d8d35307ebbd4cd30d63713a49b0a7d7abb79f5d69e8521f991eae54f340b468"
     },
     {
       "path": "Ausgabe/HEPS_42_V5.png",
-      "bytes": 189940,
-      "sha256": "e260d2ca77f784dedf017c844cbaea0883ef873bd0a4e60d225b26209d921254"
+      "bytes": 185477,
+      "sha256": "dd7a1e80d184a03129775b1267a35eea523b040c786267368b30cf2560b5a292"
     },
     {
       "path": "Ausgabe/Innenverkabelung_V1.png",
-      "bytes": 180173,
-      "sha256": "8a9a8bd44fed1d243523bcd43fc4f93c17fad93d900ace0de92a89eef6c3f817"
+      "bytes": 164436,
+      "sha256": "171144d4d0129a246b892737c71868d59a4b4ca8f32be4634bac7cdfba725100"
     },
     {
       "path": "Ausgabe/Innenverkabelung_V2.png",
-      "bytes": 183059,
-      "sha256": "76f64f0f9d9b5d937f059576f1d70598d565e6d3684c333f19200e7e909f187a"
+      "bytes": 166553,
+      "sha256": "6ee7be69ac119195d9250f64ad3b12c419d2a398172bf3b557375e9c08cb4a75"
     },
     {
       "path": "Ausgabe/Innenverkabelung_V3.png",
-      "bytes": 187058,
-      "sha256": "143c58ae8856908316d4c577b83e061186169b1d0f1ea23e3a715ee262203f37"
+      "bytes": 165536,
+      "sha256": "5485194f318ff4895e4807111cad945f282279d86f316987696a5d3e2cc48908"
     },
     {
       "path": "Ausgabe/Innenverkabelung_V5.png",
-      "bytes": 190394,
-      "sha256": "27933b060c13ab164a105ef1ee4b9f09f25df622274a07d577ad14870d8de3a5"
+      "bytes": 169708,
+      "sha256": "74963eeaed2b1312e5fa4bfe7dee806037efd48fe44a5585e718d76ab1e603a4"
     },
     {
       "path": "Ausgabe/Kabel_Bauteile.json",
@@ -104,8 +145,23 @@
     },
     {
       "path": "Ausgabe/Landefuss_42_V4.png",
-      "bytes": 168719,
-      "sha256": "50338a21f89c46ac8320fc5b9ef90f666183b871faff5ef4dab541ad269d4eab"
+      "bytes": 150360,
+      "sha256": "e8b6da18ef0627b57570c566abedf0b3b093ebc761a0d473554ca39961a7fbce"
+    },
+    {
+      "path": "Ausgabe/Mensch_Gesamtansicht.png",
+      "bytes": 168124,
+      "sha256": "d9b787f3572a0a1e882ef7d6fbba856b3d19388e9f51f7a53eab6774ed116719"
+    },
+    {
+      "path": "Ausgabe/Mobile_Ansicht.png",
+      "bytes": 64729,
+      "sha256": "0ccee32b0f7ee1b8e87cdb344e008b47d79d418fdf5ebde0455dbb091dd5c506"
+    },
+    {
+      "path": "Ausgabe/Motoranschluss_V4.png",
+      "bytes": 153947,
+      "sha256": "e7cac37a4dd1d6c04db6908eb73cb90f90307e796546548be2bbf0bf0c77a447"
     },
     {
       "path": "Ausgabe/Pinbelegung.csv",
@@ -113,14 +169,149 @@
       "sha256": "781076367b0137d5515c1d8c184f1d0d5fedc7e191821437d9d18990a3cdd593"
     },
     {
+      "path": "Ausgabe/Propeller_18_Detail.png",
+      "bytes": 109049,
+      "sha256": "fe6ed4f6984abe09dba79dc00c53ceff33f216821f033a1d39efe822f86bc6f5"
+    },
+    {
+      "path": "Ausgabe/Propeller_42_Detail.png",
+      "bytes": 115740,
+      "sha256": "5107a07ac4b7ce5fbd606fc7f5bf74245d374882ec6ffc61275cf48dfc2d131a"
+    },
+    {
+      "path": "Ausgabe/Propeller_Aufbau.json",
+      "bytes": 58984,
+      "sha256": "a8f6da8ba9ed470af4986f7c7786496745fa1740c0cbcbf405d554f7f56467de"
+    },
+    {
+      "path": "Ausgabe/Propeller_Pruefung.json",
+      "bytes": 12411,
+      "sha256": "c4f9ed17f16342e0163e796d01241343ee9f32f8748aa125f5a1f5307b3a97ab"
+    },
+    {
+      "path": "Ausgabe/Propeller_STEP/HEP_S_18_6p7_CCW.step",
+      "bytes": 1313039,
+      "sha256": "5532de4e3a6467f8fff22f99280bd29a63a139c0091f8e069fbe2d042b2f5352"
+    },
+    {
+      "path": "Ausgabe/Propeller_STEP/HEP_S_18_6p7_CW.step",
+      "bytes": 1313147,
+      "sha256": "87e9664a9f4829b0004305e990dc038e7d45c3b3410ba55955f74102dcc9b231"
+    },
+    {
+      "path": "Ausgabe/Propeller_STEP/HEP_S_22_7p2_CCW.step",
+      "bytes": 1323813,
+      "sha256": "562e2b6307ae79fa667a322b74e2714f3b3b98ac70ef09092388a0b2aa351b0f"
+    },
+    {
+      "path": "Ausgabe/Propeller_STEP/HEP_S_22_7p2_CW.step",
+      "bytes": 1323895,
+      "sha256": "d066c4943e31d07c14270c63798627746f931f3acafb7537dca1ed62dd34a1be"
+    },
+    {
+      "path": "Ausgabe/Propeller_STEP/HEP_S_26_8p8_CCW.step",
+      "bytes": 1327018,
+      "sha256": "f9e568fb543c56ee52a684540cc086ccbcc1c2e1759df9477f9f49ffb7e5da1b"
+    },
+    {
+      "path": "Ausgabe/Propeller_STEP/HEP_S_26_8p8_CW.step",
+      "bytes": 1327095,
+      "sha256": "da5ee7bbc5455aa39d889347617928d6cc59db89e45a4c3557cddb5d4a5b2fe7"
+    },
+    {
+      "path": "Ausgabe/Propeller_STEP/HEP_S_28_9_CCW.step",
+      "bytes": 1319518,
+      "sha256": "65d3e9b7b605073c1b1763d6a40d96a032bb79cf04d28ef01c6e5db9f1f27201"
+    },
+    {
+      "path": "Ausgabe/Propeller_STEP/HEP_S_28_9_CW.step",
+      "bytes": 1319582,
+      "sha256": "1876bf75dccfcf1ea635efce97b12321d4f931b1a52c4aa8dd408017de88e7a8"
+    },
+    {
+      "path": "Ausgabe/Propeller_STEP/HEP_S_29_11_CCW.step",
+      "bytes": 1319137,
+      "sha256": "cb99176a7c031c43a20af87bd0c823ce4087d031b36a55d7e1fe9e954a86d860"
+    },
+    {
+      "path": "Ausgabe/Propeller_STEP/HEP_S_29_11_CW.step",
+      "bytes": 1319218,
+      "sha256": "ce9278a0c7f84a897210edf3502dbd591639c7463dce2ab624442efa96af9470"
+    },
+    {
+      "path": "Ausgabe/Propeller_STEP/HEP_S_30_10p5_CCW.step",
+      "bytes": 1327927,
+      "sha256": "c9d0ececc7b72c5d8c86d22dbf0bc86dc8698189d76e64427829e8ee82af05c6"
+    },
+    {
+      "path": "Ausgabe/Propeller_STEP/HEP_S_30_10p5_CW.step",
+      "bytes": 1328035,
+      "sha256": "bd8ea132aa84ccb40e2b0c1e5751e1c632f338aeca0d4e30077b0634e2910c78"
+    },
+    {
+      "path": "Ausgabe/Propeller_STEP/HEP_S_32_11_CCW.step",
+      "bytes": 1331234,
+      "sha256": "47d91269eca0b90c501d2686927574d992d57075f60649267f9ce34c0cfec127"
+    },
+    {
+      "path": "Ausgabe/Propeller_STEP/HEP_S_32_11_CW.step",
+      "bytes": 1331302,
+      "sha256": "b31c50730560e48396be0342fc7702b881b386058eca3a5299c17d27d5d0bbaa"
+    },
+    {
+      "path": "Ausgabe/Propeller_STEP/HEP_S_34_11p5_CCW.step",
+      "bytes": 1320971,
+      "sha256": "030aa5b7bca0f56c41e1679cae3dc4e39b96186bb2326ca126a8a10c19c6e8c4"
+    },
+    {
+      "path": "Ausgabe/Propeller_STEP/HEP_S_34_11p5_CW.step",
+      "bytes": 1321064,
+      "sha256": "04f4a8d2198bc9cd1cb84e63a4584282ad800e845544afe0f5d82094dedefdcd"
+    },
+    {
+      "path": "Ausgabe/Propeller_STEP/HEP_S_36_12_CCW.step",
+      "bytes": 1324402,
+      "sha256": "1bcd7dcf9a3d4a5df5485091fa7c5946dbf8961b36288f5b2e59bf5b9ba1fe53"
+    },
+    {
+      "path": "Ausgabe/Propeller_STEP/HEP_S_36_12_CW.step",
+      "bytes": 1324481,
+      "sha256": "1e080e3afe26518821d3ac08935ed533b22f6fd8bc818de24a08a219e9089bbe"
+    },
+    {
+      "path": "Ausgabe/Propeller_STEP/HEP_S_42_16_CCW.step",
+      "bytes": 1326034,
+      "sha256": "8eeae29e4f5b57a5d24d4bb1019b1a21ea31ecc46195a64dfa6826b4130ebce2"
+    },
+    {
+      "path": "Ausgabe/Propeller_STEP/HEP_S_42_16_CW.step",
+      "bytes": 1326131,
+      "sha256": "9092d6266b1d0e274079a5cc03d735bd918b9571982f244bc163190bf42d696b"
+    },
+    {
+      "path": "Ausgabe/Quad_Flachrippen_Mensch.FCStd",
+      "bytes": 97095061,
+      "sha256": "51fd41d237a83687e1276f652f79bbe833d1417f0727d58006206a5edcb20dcb"
+    },
+    {
       "path": "Ausgabe/Quad_Standardkabelbaum.FCStd",
       "bytes": 94354136,
       "sha256": "e8572efdbb39c19f5b211db0bccaa591e04b4acc3f27adc49cac521eab5e23de"
     },
     {
+      "path": "Ausgabe/Rahmenanschluss_V4.png",
+      "bytes": 216795,
+      "sha256": "3f52ccb3005f4d30a0ac84c62e7b0fd7e315c7e0613a414da97473159dddfcca"
+    },
+    {
+      "path": "Ausgabe/Solo_Pruefung.json",
+      "bytes": 1122,
+      "sha256": "1f73cd922fe27e3cec103a6877fad36b7ad5c6a6552516da6e285a4eacf74ba2"
+    },
+    {
       "path": "Ausgabe/Viewer_Pruefung.json",
       "bytes": 5842,
-      "sha256": "39ca97fe387c7a8602e678cfc5cb79e3999865d314cfd17da03a842d54f935bb"
+      "sha256": "f335202d83e0a0052ee471328f86eba95ab9981861789bb974e48c9c5be76d9c"
     },
     {
       "path": "Ausgabe/Zuschnitt.csv",
@@ -128,14 +319,24 @@
       "sha256": "410d4c43bc71c1d89bf1e6789bc2a602dd9ca40fa7dfb6e873f9b28404e85540"
     },
     {
+      "path": "Ausgabe/antrieb_daten.js",
+      "bytes": 1227,
+      "sha256": "2a300104f1e4f45508b186d6abd050f3a7148e71fa488963b902e6583f41e519"
+    },
+    {
       "path": "Ausgabe/projekt.js",
-      "bytes": 68392403,
-      "sha256": "e8a76295516c727c61df4dbda43de54444ae9ff91829817052c01488ba8bdb62"
+      "bytes": 74651066,
+      "sha256": "81bf6b774865511a25f016afca193db6f6496085361ab02d18e234bdd9a603e9"
+    },
+    {
+      "path": "PROPELLER_BILDREFERENZ.md",
+      "bytes": 5143,
+      "sha256": "32049b07c89ecc304b639cfac1cadbc3d8657271613de5f2ee338f7dcd9d313e"
     },
     {
       "path": "Projekt.html",
-      "bytes": 6148,
-      "sha256": "42bcde001548f619773e228d28f375973b13942ec29a4c115c4bc9563531098c"
+      "bytes": 7892,
+      "sha256": "9563bcf74bbbb55958cec07d8c8213761b5f97ae182856818398f6bcd6557642"
     },
     {
       "path": "Quellen/README.md",
@@ -144,13 +345,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 6209,
-      "sha256": "fa88feb1018beb9584fd4b53100bbc389ef83d246b00ce11ca470ef5f825e8d1"
+      "bytes": 7044,
+      "sha256": "38076f5322d7972d5eafddccdb8dbf9cce33a4f4ed8fb83d451b3ed4857ed3e9"
     },
     {
       "path": "SCHNITTSTELLEN.md",
       "bytes": 5231,
       "sha256": "5bb6f7be88f6b3362023c9e7136154d2a7bcfa1ae33f44e7f8cada626dd4afaa"
+    },
+    {
+      "path": "antrieb_modell.js",
+      "bytes": 2184,
+      "sha256": "a6a181de7bb4e79f9bf7b1b18872102d6813aca95f48cd93d3f834a4cea3c33f"
     },
     {
       "path": "bauen.py",
@@ -173,9 +379,99 @@
       "sha256": "0de1a11b289f6f4c0209b410fb6a7e63a21af741ea39f883b69e1af50a2223c7"
     },
     {
+      "path": "solo_pruefen.cjs",
+      "bytes": 2594,
+      "sha256": "079a91d41c35b6e3c0ecc547aae12207077fb54591ab43037ea33cab4f6b902b"
+    },
+    {
+      "path": "ueberarbeitung/ansicht_anpassen.py",
+      "bytes": 5278,
+      "sha256": "6af2b234cf420becc64c2bae4230fdccb3d3db63950099e881064adf4d039bc6"
+    },
+    {
+      "path": "ueberarbeitung/antrieb_daten.py",
+      "bytes": 2148,
+      "sha256": "13ef7ef89ca55172058363e50579ccc541dc7f3c1c4a753e90284ab89abb6ab7"
+    },
+    {
+      "path": "ueberarbeitung/antrieb_pruefen.cjs",
+      "bytes": 1874,
+      "sha256": "e9143e24466a3c36abec3b35a52b981652e81fbd86a2553b7fffa5074812ba9c"
+    },
+    {
+      "path": "ueberarbeitung/bauen.py",
+      "bytes": 5833,
+      "sha256": "1840835fb068debb7c307f4adaa45061010cc892dfc7a9e35714807f1e4a21db"
+    },
+    {
+      "path": "ueberarbeitung/bindungen_pruefen.py",
+      "bytes": 1965,
+      "sha256": "bf75130608b018ee54baae6b0317389f336f3e8a8b54e88d54abbb5f55b09363"
+    },
+    {
+      "path": "ueberarbeitung/check_and_export.py",
+      "bytes": 164,
+      "sha256": "c6eb3f6b90fd377f9ae8eb51bba971c41c44d1a964b6d0a04fdc03ceaa511ba8"
+    },
+    {
+      "path": "ueberarbeitung/fast_pruefen.py",
+      "bytes": 5848,
+      "sha256": "9de54928d819521a121230f558039dcf11319c769c43eafc21210423d6badc1d"
+    },
+    {
+      "path": "ueberarbeitung/knoten.py",
+      "bytes": 3874,
+      "sha256": "f107aa59a1b422d29ce287cc17f359ad3bea4be5b68834697068c29f8c4d329d"
+    },
+    {
+      "path": "ueberarbeitung/mensch.py",
+      "bytes": 1931,
+      "sha256": "d7ebb5d8bbe49fc010560e032209c60c259f0586228b7b968e4f577f07cb5773"
+    },
+    {
+      "path": "ueberarbeitung/pad_freistellen.py",
+      "bytes": 4155,
+      "sha256": "e7de6a919a98d88bd98afd45e9915d6d3d17600dd67663bde1ae91fa2ac08f93"
+    },
+    {
+      "path": "ueberarbeitung/patch_bauen.py",
+      "bytes": 2814,
+      "sha256": "aaaa680d15255869a94e40d9683bbc2aa65786ebbe73662b617b5916aeb2eb91"
+    },
+    {
+      "path": "ueberarbeitung/propeller.py",
+      "bytes": 2534,
+      "sha256": "821323b7c86ddd15e831a746b23b3a8465c665d25784dd1b2d1f9e5971675328"
+    },
+    {
+      "path": "ueberarbeitung/propeller_einbauen.py",
+      "bytes": 3511,
+      "sha256": "4fce155e3e5ef74a815a4f00fdad3928f9249f51c604f16ade2567dc8389707c"
+    },
+    {
+      "path": "ueberarbeitung/propeller_pruefen.py",
+      "bytes": 5457,
+      "sha256": "d394c97c4c39bc1e38e02741e3dcb703142db3c66be7dcebc440acd90b38527a"
+    },
+    {
+      "path": "ueberarbeitung/pruefen.py",
+      "bytes": 5530,
+      "sha256": "6f0e6adceab1cc45e49e50b2efe0bf48e66feb2d0e25f1768fd325f23ea725fd"
+    },
+    {
+      "path": "ueberarbeitung/viewer_export.py",
+      "bytes": 2977,
+      "sha256": "23c1b53764583a679ba00e01d13f77c77acf13bea1228394fd66877c0e71ef72"
+    },
+    {
+      "path": "ueberarbeitung/zipcad.py",
+      "bytes": 2390,
+      "sha256": "e0187dac621ba392a0cd41e15bccb1207021182fcbaf7f145b47afdb5f537391"
+    },
+    {
       "path": "viewer.js",
-      "bytes": 12295,
-      "sha256": "9a8cdaaf1639c27dce555fcc929109923c32d0d2541e51c33560a2fbd128d6d8"
+      "bytes": 16853,
+      "sha256": "5306eb89ca55a8e84f5b58f5c1de6280177c839cf9eb457e069de81b1a4cde7e"
     },
     {
       "path": "viewer_export.py",
@@ -184,8 +480,8 @@
     },
     {
       "path": "viewer_pruefen.cjs",
-      "bytes": 4865,
-      "sha256": "9fa977a45b3dc2df00e39be8ec87e0d4b2d932c024876c94004396bafc74122b"
+      "bytes": 7528,
+      "sha256": "a637c7e270840421ac6ee5171679416a9504cdabc4dcdcda0c74ac893ebea4a8"
     }
   ]
 }
