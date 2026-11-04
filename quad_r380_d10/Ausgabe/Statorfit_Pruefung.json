@@ -1,0 +1,1607 @@
+{
+  "native_sha256": "f7c3db379147fd8fe0368953691e5c39b934540f0cc7bb969cdff98dbde9422e",
+  "checks": [
+    {
+      "propeller_index": 9,
+      "variant": "V1",
+      "carrier": "P9_V1_Motor_45",
+      "bolt": "P9_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V1",
+      "carrier": "P9_V1_Motor_45",
+      "bolt": "P9_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V1",
+      "carrier": "P9_V1_Motor_45",
+      "bolt": "P9_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V1",
+      "carrier": "P9_V1_Motor_45",
+      "bolt": "P9_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V2",
+      "carrier": "P9_V2_Motor_45",
+      "bolt": "P9_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V2",
+      "carrier": "P9_V2_Motor_45",
+      "bolt": "P9_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V2",
+      "carrier": "P9_V2_Motor_45",
+      "bolt": "P9_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V2",
+      "carrier": "P9_V2_Motor_45",
+      "bolt": "P9_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V3",
+      "carrier": "P9_V3_Motor_45",
+      "bolt": "P9_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V3",
+      "carrier": "P9_V3_Motor_45",
+      "bolt": "P9_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V3",
+      "carrier": "P9_V3_Motor_45",
+      "bolt": "P9_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V3",
+      "carrier": "P9_V3_Motor_45",
+      "bolt": "P9_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V4",
+      "carrier": "P9_V4_Motor_45",
+      "bolt": "P9_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V4",
+      "carrier": "P9_V4_Motor_45",
+      "bolt": "P9_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V4",
+      "carrier": "P9_V4_Motor_45",
+      "bolt": "P9_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V4",
+      "carrier": "P9_V4_Motor_45",
+      "bolt": "P9_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V5",
+      "carrier": "P9_V5_Motor_45",
+      "bolt": "P9_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V5",
+      "carrier": "P9_V5_Motor_45",
+      "bolt": "P9_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V5",
+      "carrier": "P9_V5_Motor_45",
+      "bolt": "P9_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V5",
+      "carrier": "P9_V5_Motor_45",
+      "bolt": "P9_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V1",
+      "carrier": "P8_V1_Motor_45",
+      "bolt": "P8_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V1",
+      "carrier": "P8_V1_Motor_45",
+      "bolt": "P8_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V1",
+      "carrier": "P8_V1_Motor_45",
+      "bolt": "P8_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V1",
+      "carrier": "P8_V1_Motor_45",
+      "bolt": "P8_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V2",
+      "carrier": "P8_V2_Motor_45",
+      "bolt": "P8_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V2",
+      "carrier": "P8_V2_Motor_45",
+      "bolt": "P8_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V2",
+      "carrier": "P8_V2_Motor_45",
+      "bolt": "P8_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V2",
+      "carrier": "P8_V2_Motor_45",
+      "bolt": "P8_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V3",
+      "carrier": "P8_V3_Motor_45",
+      "bolt": "P8_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V3",
+      "carrier": "P8_V3_Motor_45",
+      "bolt": "P8_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V3",
+      "carrier": "P8_V3_Motor_45",
+      "bolt": "P8_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V3",
+      "carrier": "P8_V3_Motor_45",
+      "bolt": "P8_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V4",
+      "carrier": "P8_V4_Motor_45",
+      "bolt": "P8_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V4",
+      "carrier": "P8_V4_Motor_45",
+      "bolt": "P8_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V4",
+      "carrier": "P8_V4_Motor_45",
+      "bolt": "P8_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V4",
+      "carrier": "P8_V4_Motor_45",
+      "bolt": "P8_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V5",
+      "carrier": "P8_V5_Motor_45",
+      "bolt": "P8_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V5",
+      "carrier": "P8_V5_Motor_45",
+      "bolt": "P8_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V5",
+      "carrier": "P8_V5_Motor_45",
+      "bolt": "P8_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V5",
+      "carrier": "P8_V5_Motor_45",
+      "bolt": "P8_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V1",
+      "carrier": "P7_V1_Motor_45",
+      "bolt": "P7_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V1",
+      "carrier": "P7_V1_Motor_45",
+      "bolt": "P7_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V1",
+      "carrier": "P7_V1_Motor_45",
+      "bolt": "P7_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V1",
+      "carrier": "P7_V1_Motor_45",
+      "bolt": "P7_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V2",
+      "carrier": "P7_V2_Motor_45",
+      "bolt": "P7_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V2",
+      "carrier": "P7_V2_Motor_45",
+      "bolt": "P7_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V2",
+      "carrier": "P7_V2_Motor_45",
+      "bolt": "P7_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V2",
+      "carrier": "P7_V2_Motor_45",
+      "bolt": "P7_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V3",
+      "carrier": "P7_V3_Motor_45",
+      "bolt": "P7_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V3",
+      "carrier": "P7_V3_Motor_45",
+      "bolt": "P7_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V3",
+      "carrier": "P7_V3_Motor_45",
+      "bolt": "P7_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V3",
+      "carrier": "P7_V3_Motor_45",
+      "bolt": "P7_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V4",
+      "carrier": "P7_V4_Motor_45",
+      "bolt": "P7_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V4",
+      "carrier": "P7_V4_Motor_45",
+      "bolt": "P7_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V4",
+      "carrier": "P7_V4_Motor_45",
+      "bolt": "P7_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V4",
+      "carrier": "P7_V4_Motor_45",
+      "bolt": "P7_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V5",
+      "carrier": "P7_V5_Motor_45",
+      "bolt": "P7_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V5",
+      "carrier": "P7_V5_Motor_45",
+      "bolt": "P7_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V5",
+      "carrier": "P7_V5_Motor_45",
+      "bolt": "P7_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V5",
+      "carrier": "P7_V5_Motor_45",
+      "bolt": "P7_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V1",
+      "carrier": "P6_V1_Motor_45",
+      "bolt": "P6_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V1",
+      "carrier": "P6_V1_Motor_45",
+      "bolt": "P6_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V1",
+      "carrier": "P6_V1_Motor_45",
+      "bolt": "P6_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V1",
+      "carrier": "P6_V1_Motor_45",
+      "bolt": "P6_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V2",
+      "carrier": "P6_V2_Motor_45",
+      "bolt": "P6_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V2",
+      "carrier": "P6_V2_Motor_45",
+      "bolt": "P6_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V2",
+      "carrier": "P6_V2_Motor_45",
+      "bolt": "P6_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V2",
+      "carrier": "P6_V2_Motor_45",
+      "bolt": "P6_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V3",
+      "carrier": "P6_V3_Motor_45",
+      "bolt": "P6_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V3",
+      "carrier": "P6_V3_Motor_45",
+      "bolt": "P6_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V3",
+      "carrier": "P6_V3_Motor_45",
+      "bolt": "P6_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V3",
+      "carrier": "P6_V3_Motor_45",
+      "bolt": "P6_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V4",
+      "carrier": "P6_V4_Motor_45",
+      "bolt": "P6_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V4",
+      "carrier": "P6_V4_Motor_45",
+      "bolt": "P6_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V4",
+      "carrier": "P6_V4_Motor_45",
+      "bolt": "P6_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V4",
+      "carrier": "P6_V4_Motor_45",
+      "bolt": "P6_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V5",
+      "carrier": "P6_V5_Motor_45",
+      "bolt": "P6_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V5",
+      "carrier": "P6_V5_Motor_45",
+      "bolt": "P6_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V5",
+      "carrier": "P6_V5_Motor_45",
+      "bolt": "P6_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V5",
+      "carrier": "P6_V5_Motor_45",
+      "bolt": "P6_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V1",
+      "carrier": "P5_V1_Motor_45",
+      "bolt": "P5_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V1",
+      "carrier": "P5_V1_Motor_45",
+      "bolt": "P5_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V1",
+      "carrier": "P5_V1_Motor_45",
+      "bolt": "P5_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V1",
+      "carrier": "P5_V1_Motor_45",
+      "bolt": "P5_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V2",
+      "carrier": "P5_V2_Motor_45",
+      "bolt": "P5_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V2",
+      "carrier": "P5_V2_Motor_45",
+      "bolt": "P5_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V2",
+      "carrier": "P5_V2_Motor_45",
+      "bolt": "P5_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V2",
+      "carrier": "P5_V2_Motor_45",
+      "bolt": "P5_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V3",
+      "carrier": "P5_V3_Motor_45",
+      "bolt": "P5_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V3",
+      "carrier": "P5_V3_Motor_45",
+      "bolt": "P5_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V3",
+      "carrier": "P5_V3_Motor_45",
+      "bolt": "P5_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V3",
+      "carrier": "P5_V3_Motor_45",
+      "bolt": "P5_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V4",
+      "carrier": "P5_V4_Motor_45",
+      "bolt": "P5_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V4",
+      "carrier": "P5_V4_Motor_45",
+      "bolt": "P5_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V4",
+      "carrier": "P5_V4_Motor_45",
+      "bolt": "P5_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V4",
+      "carrier": "P5_V4_Motor_45",
+      "bolt": "P5_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V5",
+      "carrier": "P5_V5_Motor_45",
+      "bolt": "P5_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V5",
+      "carrier": "P5_V5_Motor_45",
+      "bolt": "P5_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V5",
+      "carrier": "P5_V5_Motor_45",
+      "bolt": "P5_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V5",
+      "carrier": "P5_V5_Motor_45",
+      "bolt": "P5_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V1",
+      "carrier": "P4_V1_Motor_45",
+      "bolt": "P4_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V1",
+      "carrier": "P4_V1_Motor_45",
+      "bolt": "P4_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V1",
+      "carrier": "P4_V1_Motor_45",
+      "bolt": "P4_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V1",
+      "carrier": "P4_V1_Motor_45",
+      "bolt": "P4_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V2",
+      "carrier": "P4_V2_Motor_45",
+      "bolt": "P4_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V2",
+      "carrier": "P4_V2_Motor_45",
+      "bolt": "P4_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V2",
+      "carrier": "P4_V2_Motor_45",
+      "bolt": "P4_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V2",
+      "carrier": "P4_V2_Motor_45",
+      "bolt": "P4_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V3",
+      "carrier": "P4_V3_Motor_45",
+      "bolt": "P4_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V3",
+      "carrier": "P4_V3_Motor_45",
+      "bolt": "P4_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V3",
+      "carrier": "P4_V3_Motor_45",
+      "bolt": "P4_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V3",
+      "carrier": "P4_V3_Motor_45",
+      "bolt": "P4_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V4",
+      "carrier": "P4_V4_Motor_45",
+      "bolt": "P4_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V4",
+      "carrier": "P4_V4_Motor_45",
+      "bolt": "P4_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V4",
+      "carrier": "P4_V4_Motor_45",
+      "bolt": "P4_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V4",
+      "carrier": "P4_V4_Motor_45",
+      "bolt": "P4_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V5",
+      "carrier": "P4_V5_Motor_45",
+      "bolt": "P4_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V5",
+      "carrier": "P4_V5_Motor_45",
+      "bolt": "P4_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V5",
+      "carrier": "P4_V5_Motor_45",
+      "bolt": "P4_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V5",
+      "carrier": "P4_V5_Motor_45",
+      "bolt": "P4_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V1",
+      "carrier": "P3_V1_Motor_45",
+      "bolt": "P3_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V1",
+      "carrier": "P3_V1_Motor_45",
+      "bolt": "P3_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V1",
+      "carrier": "P3_V1_Motor_45",
+      "bolt": "P3_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V1",
+      "carrier": "P3_V1_Motor_45",
+      "bolt": "P3_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V2",
+      "carrier": "P3_V2_Motor_45",
+      "bolt": "P3_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V2",
+      "carrier": "P3_V2_Motor_45",
+      "bolt": "P3_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V2",
+      "carrier": "P3_V2_Motor_45",
+      "bolt": "P3_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V2",
+      "carrier": "P3_V2_Motor_45",
+      "bolt": "P3_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V3",
+      "carrier": "P3_V3_Motor_45",
+      "bolt": "P3_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V3",
+      "carrier": "P3_V3_Motor_45",
+      "bolt": "P3_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V3",
+      "carrier": "P3_V3_Motor_45",
+      "bolt": "P3_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V3",
+      "carrier": "P3_V3_Motor_45",
+      "bolt": "P3_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V4",
+      "carrier": "P3_V4_Motor_45",
+      "bolt": "P3_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V4",
+      "carrier": "P3_V4_Motor_45",
+      "bolt": "P3_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V4",
+      "carrier": "P3_V4_Motor_45",
+      "bolt": "P3_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V4",
+      "carrier": "P3_V4_Motor_45",
+      "bolt": "P3_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V5",
+      "carrier": "P3_V5_Motor_45",
+      "bolt": "P3_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V5",
+      "carrier": "P3_V5_Motor_45",
+      "bolt": "P3_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V5",
+      "carrier": "P3_V5_Motor_45",
+      "bolt": "P3_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V5",
+      "carrier": "P3_V5_Motor_45",
+      "bolt": "P3_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V1",
+      "carrier": "P2_V1_Motor_45",
+      "bolt": "P2_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V1",
+      "carrier": "P2_V1_Motor_45",
+      "bolt": "P2_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V1",
+      "carrier": "P2_V1_Motor_45",
+      "bolt": "P2_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V1",
+      "carrier": "P2_V1_Motor_45",
+      "bolt": "P2_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V2",
+      "carrier": "P2_V2_Motor_45",
+      "bolt": "P2_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V2",
+      "carrier": "P2_V2_Motor_45",
+      "bolt": "P2_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V2",
+      "carrier": "P2_V2_Motor_45",
+      "bolt": "P2_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V2",
+      "carrier": "P2_V2_Motor_45",
+      "bolt": "P2_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V3",
+      "carrier": "P2_V3_Motor_45",
+      "bolt": "P2_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V3",
+      "carrier": "P2_V3_Motor_45",
+      "bolt": "P2_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V3",
+      "carrier": "P2_V3_Motor_45",
+      "bolt": "P2_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V3",
+      "carrier": "P2_V3_Motor_45",
+      "bolt": "P2_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V4",
+      "carrier": "P2_V4_Motor_45",
+      "bolt": "P2_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V4",
+      "carrier": "P2_V4_Motor_45",
+      "bolt": "P2_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V4",
+      "carrier": "P2_V4_Motor_45",
+      "bolt": "P2_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V4",
+      "carrier": "P2_V4_Motor_45",
+      "bolt": "P2_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V5",
+      "carrier": "P2_V5_Motor_45",
+      "bolt": "P2_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V5",
+      "carrier": "P2_V5_Motor_45",
+      "bolt": "P2_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V5",
+      "carrier": "P2_V5_Motor_45",
+      "bolt": "P2_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V5",
+      "carrier": "P2_V5_Motor_45",
+      "bolt": "P2_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V1",
+      "carrier": "P1_V1_Motor_45",
+      "bolt": "P1_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V1",
+      "carrier": "P1_V1_Motor_45",
+      "bolt": "P1_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V1",
+      "carrier": "P1_V1_Motor_45",
+      "bolt": "P1_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V1",
+      "carrier": "P1_V1_Motor_45",
+      "bolt": "P1_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V2",
+      "carrier": "P1_V2_Motor_45",
+      "bolt": "P1_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V2",
+      "carrier": "P1_V2_Motor_45",
+      "bolt": "P1_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V2",
+      "carrier": "P1_V2_Motor_45",
+      "bolt": "P1_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V2",
+      "carrier": "P1_V2_Motor_45",
+      "bolt": "P1_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V3",
+      "carrier": "P1_V3_Motor_45",
+      "bolt": "P1_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V3",
+      "carrier": "P1_V3_Motor_45",
+      "bolt": "P1_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V3",
+      "carrier": "P1_V3_Motor_45",
+      "bolt": "P1_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V3",
+      "carrier": "P1_V3_Motor_45",
+      "bolt": "P1_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V4",
+      "carrier": "P1_V4_Motor_45",
+      "bolt": "P1_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V4",
+      "carrier": "P1_V4_Motor_45",
+      "bolt": "P1_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V4",
+      "carrier": "P1_V4_Motor_45",
+      "bolt": "P1_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V4",
+      "carrier": "P1_V4_Motor_45",
+      "bolt": "P1_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V5",
+      "carrier": "P1_V5_Motor_45",
+      "bolt": "P1_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V5",
+      "carrier": "P1_V5_Motor_45",
+      "bolt": "P1_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V5",
+      "carrier": "P1_V5_Motor_45",
+      "bolt": "P1_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V5",
+      "carrier": "P1_V5_Motor_45",
+      "bolt": "P1_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V1",
+      "carrier": "P0_V1_Motor_45",
+      "bolt": "P0_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V1",
+      "carrier": "P0_V1_Motor_45",
+      "bolt": "P0_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V1",
+      "carrier": "P0_V1_Motor_45",
+      "bolt": "P0_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V1",
+      "carrier": "P0_V1_Motor_45",
+      "bolt": "P0_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V2",
+      "carrier": "P0_V2_Motor_45",
+      "bolt": "P0_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V2",
+      "carrier": "P0_V2_Motor_45",
+      "bolt": "P0_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V2",
+      "carrier": "P0_V2_Motor_45",
+      "bolt": "P0_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V2",
+      "carrier": "P0_V2_Motor_45",
+      "bolt": "P0_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V3",
+      "carrier": "P0_V3_Motor_45",
+      "bolt": "P0_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V3",
+      "carrier": "P0_V3_Motor_45",
+      "bolt": "P0_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V3",
+      "carrier": "P0_V3_Motor_45",
+      "bolt": "P0_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V3",
+      "carrier": "P0_V3_Motor_45",
+      "bolt": "P0_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V4",
+      "carrier": "P0_V4_Motor_45",
+      "bolt": "P0_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V4",
+      "carrier": "P0_V4_Motor_45",
+      "bolt": "P0_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V4",
+      "carrier": "P0_V4_Motor_45",
+      "bolt": "P0_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V4",
+      "carrier": "P0_V4_Motor_45",
+      "bolt": "P0_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V5",
+      "carrier": "P0_V5_Motor_45",
+      "bolt": "P0_D05_I_838",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V5",
+      "carrier": "P0_V5_Motor_45",
+      "bolt": "P0_D05_I_839",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V5",
+      "carrier": "P0_V5_Motor_45",
+      "bolt": "P0_D05_I_840",
+      "intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V5",
+      "carrier": "P0_V5_Motor_45",
+      "bolt": "P0_D05_I_841",
+      "intersection_mm3": 0,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "scope": "Actual bolt/carrier solid pairs at45-degree arm,for all50 size/layout states.Other corners are rigid copies,not independently rechecked here.Nominal fit only;no preload,strength or OEM thread-depth release."
+}

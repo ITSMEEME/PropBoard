@@ -1,5 +1,7 @@
 # PropBoard
 
+**Quad D10:** [Innenverkabelung und leichtere Aufnahmen für1–4 Rohre](quad_r380_d10/README.md) · [3D-Ansicht](quad_r380_d10/Projekt.html). DC-/Signalleitungen im Ausleger, V5 mit vier Rohren, gemessene Materialreduzierung. Nominale CAD-Prüfungen bestanden; Toleranzen, elektrische Auslegung und Festigkeit bleiben offen.
+
 **Quad HEP-S D09:** [10 Rotorgrößen × V1–V4](quad_r380_d09/README.md) · [3D-Ansicht](quad_r380_d09/Projekt.html). 40 Umschalterstellungen und nominale Rotorhüllen geprüft; abgeschlossene statische Prüfung meldet Anschlusskollisionen. Keine Produktions-/Flugfreigabe.
 
 **Quad R380 V1–V4:** [Parametrisierte Motor- und Rahmenanschlüsse](quad_r380_varianten/README.md) · [Umschaltbare CAD-Ansicht](quad_r380_varianten/Projekt.html). Gemeinsames natives CAD mit 1/2/2/3 Rohren je Motor, symmetrischen integrierten Motorträgern und Klemmverschraubungen. V3 ist voreingestellt; bestehende Rotor-/Fußstrebenkonflikte und Festigkeitsnachweise bleiben offen.

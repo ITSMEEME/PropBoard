@@ -1,0 +1,1506 @@
+{
+  "native_sha256": "f7c3db379147fd8fe0368953691e5c39b934540f0cc7bb969cdff98dbde9422e",
+  "configurations": [
+    {
+      "variant": "V1",
+      "propeller_index": 9,
+      "propeller": "HEP-S 42\u00d716",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 1,
+      "diameter_mm": 35,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.0003180536767605225,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -4.546945595484642e-16,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 0.6502893183389793,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V2",
+      "propeller_index": 9,
+      "propeller": "HEP-S 42\u00d716",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 2,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.0002599943423842006,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -7.789947064268288e-16,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 0.807295319418376,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V3",
+      "propeller_index": 9,
+      "propeller": "HEP-S 42\u00d716",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 2,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.00024113389343076262,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -3.083077319467755e-15,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 0.7992826443974471,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V4",
+      "propeller_index": 9,
+      "propeller": "HEP-S 42\u00d716",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 3,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.0001064015456133368,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -1.1422753891523929e-14,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 1.109839742523519,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V5",
+      "propeller_index": 9,
+      "propeller": "HEP-S 42\u00d716",
+      "root_geometry_reused": false,
+      "tubes_per_motor": 4,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": -0.32865368806748635,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": 2.36167822988101e-15,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 1.3136062350762507,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V1",
+      "propeller_index": 8,
+      "propeller": "HEP-S 36\u00d712",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 1,
+      "diameter_mm": 35,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.0003180536767605225,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -1.4146052963729134e-15,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 0.6306428899864491,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V2",
+      "propeller_index": 8,
+      "propeller": "HEP-S 36\u00d712",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 2,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.0002599943423842006,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -1.6168869652223859e-15,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 0.7901988106301815,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V3",
+      "propeller_index": 8,
+      "propeller": "HEP-S 36\u00d712",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 2,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.00024113389343076262,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -4.295352924037967e-15,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 0.7811711812491501,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V4",
+      "propeller_index": 8,
+      "propeller": "HEP-S 36\u00d712",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 3,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.0001064015456133368,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -3.0742859087112546e-12,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 1.0837020034948819,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V5",
+      "propeller_index": 8,
+      "propeller": "HEP-S 36\u00d712",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 4,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": -0.32865368806748635,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -1.1417124179105475e-14,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 1.2717326601841759,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V1",
+      "propeller_index": 7,
+      "propeller": "HEP-S 34\u00d711.5",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 1,
+      "diameter_mm": 35,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.0003180536767605225,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -1.616691767283297e-15,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 0.6234987342218925,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V2",
+      "propeller_index": 7,
+      "propeller": "HEP-S 34\u00d711.5",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 2,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.0002599943423842006,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -1.2152920374463004e-15,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 0.7839420257468268,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V3",
+      "propeller_index": 7,
+      "propeller": "HEP-S 34\u00d711.5",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 2,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.00024113389343076262,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": 3.575051173578053e-16,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 0.7745968921594544,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V4",
+      "propeller_index": 7,
+      "propeller": "HEP-S 34\u00d711.5",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 3,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.0001064015456133368,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -7.057931865018702e-15,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 1.0741772837396883,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V5",
+      "propeller_index": 7,
+      "propeller": "HEP-S 34\u00d711.5",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 4,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": -0.32865368806748635,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -3.2257892178005174e-15,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 1.2565089102231148,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V1",
+      "propeller_index": 6,
+      "propeller": "HEP-S 32\u00d711",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 1,
+      "diameter_mm": 35,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.0003180536767605225,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -4.041729418208475e-16,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 0.6163545784573282,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V2",
+      "propeller_index": 6,
+      "propeller": "HEP-S 32\u00d711",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 2,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.0002599943423842006,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": 1.6872411268088477e-17,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 0.7776708628416225,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V3",
+      "propeller_index": 6,
+      "propeller": "HEP-S 32\u00d711",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 2,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.00024113389343076262,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -1.2192383058403082e-14,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 0.7680195632221464,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V4",
+      "propeller_index": 6,
+      "propeller": "HEP-S 32\u00d711",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 3,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.0001064015456133368,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": 1.300447320536969e-15,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 1.0645549401470191,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V5",
+      "propeller_index": 6,
+      "propeller": "HEP-S 32\u00d711",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 4,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": -0.32865368806748635,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -6.7250034127889795e-15,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 1.2412879252471904,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V1",
+      "propeller_index": 5,
+      "propeller": "HEP-S 30\u00d710.5",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 1,
+      "diameter_mm": 35,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.0003180536767605225,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -1.263040443190144e-15,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 0.6092104226927697,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V2",
+      "propeller_index": 5,
+      "propeller": "HEP-S 30\u00d710.5",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 2,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.0002599943423842006,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": 0.0,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 0.7713882804461103,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V3",
+      "propeller_index": 5,
+      "propeller": "HEP-S 30\u00d710.5",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 2,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.00024113389343076262,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -9.123948403736409e-15,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 0.7614927519746825,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V4",
+      "propeller_index": 5,
+      "propeller": "HEP-S 30\u00d710.5",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 3,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.0001064015456133368,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -1.02719796605077e-14,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 1.055066124184283,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V5",
+      "propeller_index": 5,
+      "propeller": "HEP-S 30\u00d710.5",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 4,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": -0.32865368806748635,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -9.273149821184166e-15,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 1.2260719738791728,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V1",
+      "propeller_index": 4,
+      "propeller": "HEP-S 29\u00d711",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 1,
+      "diameter_mm": 35,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.0003180536767605225,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": 3.031297063656387e-16,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 0.6038523058693492,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V2",
+      "propeller_index": 4,
+      "propeller": "HEP-S 29\u00d711",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 2,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.0002599943423842006,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -1.2007495900206277e-16,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 0.7666702093227759,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V3",
+      "propeller_index": 4,
+      "propeller": "HEP-S 29\u00d711",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 2,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.00024113389343076262,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -9.0031405915229e-15,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 0.7565672345585258,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V4",
+      "propeller_index": 4,
+      "propeller": "HEP-S 29\u00d711",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 3,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.0001064015456133368,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -3.704746729098341e-15,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 1.0689596795728589,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V5",
+      "propeller_index": 4,
+      "propeller": "HEP-S 29\u00d711",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 4,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": -0.32865368806748635,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -9.904292079829576e-15,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 1.2146641613468294,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V1",
+      "propeller_index": 3,
+      "propeller": "HEP-S 28\u00d79",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 1,
+      "diameter_mm": 35,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.0003180536767605225,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -1.0104323545520864e-16,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 0.6002802279870741,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V2",
+      "propeller_index": 3,
+      "propeller": "HEP-S 28\u00d79",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 2,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.0002599943423842006,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": 3.8718565461216904e-16,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 0.7635223939127417,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V3",
+      "propeller_index": 3,
+      "propeller": "HEP-S 28\u00d79",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 2,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.00024113389343076262,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -4.130638180518912e-15,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 0.7533195662936265,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V4",
+      "propeller_index": 3,
+      "propeller": "HEP-S 28\u00d79",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 3,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.0001064015456133368,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -4.424850108524105e-15,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 1.0641073526643288,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V5",
+      "propeller_index": 3,
+      "propeller": "HEP-S 28\u00d79",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 4,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": -0.32865368806748635,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": 1.4121412477346854e-15,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 1.2070613270874544,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V1",
+      "propeller_index": 2,
+      "propeller": "HEP-S 26\u00d78.8",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 1,
+      "diameter_mm": 35,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.0003180536767605225,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": 7.073026481864772e-16,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 0.5931360722225133,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V2",
+      "propeller_index": 2,
+      "propeller": "HEP-S 26\u00d78.8",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 2,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.0002599943423842006,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": 1.0599552664618624e-15,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 0.7572217827491802,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V3",
+      "propeller_index": 2,
+      "propeller": "HEP-S 26\u00d78.8",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 2,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.00024113389343076262,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -2.808903639130592e-15,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 0.7467216348989617,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V4",
+      "propeller_index": 2,
+      "propeller": "HEP-S 26\u00d78.8",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 3,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.0001064015456133368,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -1.0058637944806581e-14,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 1.054464376201292,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V5",
+      "propeller_index": 2,
+      "propeller": "HEP-S 26\u00d78.8",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 4,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": -0.32865368806748635,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -3.761831355669338e-15,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 1.1918623587515649,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V1",
+      "propeller_index": 1,
+      "propeller": "HEP-S 22\u00d77.2",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 1,
+      "diameter_mm": 35,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.0003180536767605225,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -6.06259412731268e-16,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 0.5770617217522558,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V2",
+      "propeller_index": 1,
+      "propeller": "HEP-S 22\u00d77.2",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 2,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.0002599943423842006,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -7.731397367976574e-16,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 0.7430268840553776,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V3",
+      "propeller_index": 1,
+      "propeller": "HEP-S 22\u00d77.2",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 2,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.00024113389343076262,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -1.2350884646488199e-14,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 0.7321608588782983,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V4",
+      "propeller_index": 1,
+      "propeller": "HEP-S 22\u00d77.2",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 3,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.0001064015456133368,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -1.0201912267478396e-14,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 1.0327494442618073,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V5",
+      "propeller_index": 1,
+      "propeller": "HEP-S 22\u00d77.2",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 4,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": -0.32865368806748635,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -1.043818636733071e-14,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 1.1577057893089293,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V1",
+      "propeller_index": 0,
+      "propeller": "HEP-S 18\u00d76.7",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 1,
+      "diameter_mm": 35,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.0003180536767605225,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -6.06259412731268e-16,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 0.5770617217522558,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V2",
+      "propeller_index": 0,
+      "propeller": "HEP-S 18\u00d76.7",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 2,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.0002599943423842006,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -7.731397367976574e-16,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 0.7430268840553776,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V3",
+      "propeller_index": 0,
+      "propeller": "HEP-S 18\u00d76.7",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 2,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.00024113389343076262,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -1.2350884646488199e-14,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 0.7321608588782983,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V4",
+      "propeller_index": 0,
+      "propeller": "HEP-S 18\u00d76.7",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 3,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.0001064015456133368,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -1.0201912267478396e-14,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 1.0327494442618073,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    },
+    {
+      "variant": "V5",
+      "propeller_index": 0,
+      "propeller": "HEP-S 18\u00d76.7",
+      "root_geometry_reused": true,
+      "tubes_per_motor": 4,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": -0.32865368806748635,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -1.043818636733071e-14,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 1.1577057893089293,
+      "scope": "Vorgefertigte Gr\u00f6\u00dfenkonfiguration; wiederverwendete Wurzelgeometrie besitzt unver\u00e4nderte Rohr-/Klemmaxen. Echte Anschlussgeometrien in vier Projektecken. Klemmkappen und Durchg\u00e4nge modelliert; Isolierungen modelliert; Klemmverschraubungen und Gewindepassung noch offen. Vollst\u00e4ndige Gesamtfahrzeug-Freiraumpr\u00fcfung ausstehend. Keine Festigkeitsfreigabe."
+    }
+  ],
+  "geometry_stage_native_sha256": "534be2cec85f4439a6ec4083e7d890205c1be56f929285d86675f3f8dbe00dda"
+}

@@ -1,0 +1,11 @@
+{
+  "native_sha256": "f7c3db379147fd8fe0368953691e5c39b934540f0cc7bb969cdff98dbde9422e",
+  "native_configurations": 50,
+  "nominal_internal_cable_checks_passed": true,
+  "minimum_nominal_gap_mm": 0.09999999999997833,
+  "nominal_rotor_hulls_clear": true,
+  "complete_harness": false,
+  "strength_release": false,
+  "production_ready": false,
+  "flight_release": false
+}

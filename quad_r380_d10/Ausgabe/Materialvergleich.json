@@ -1,0 +1,497 @@
+[
+  {
+    "master": "P9_V1_Root",
+    "part": "Root",
+    "variant": "V1",
+    "propeller_index": 0,
+    "before_mm3": 115716.78177659275,
+    "after_mm3": 103948.29139837885,
+    "saved_g": 33.06945796278106
+  },
+  {
+    "master": "P0_V1_Motor",
+    "part": "Motor",
+    "variant": "V1",
+    "propeller_index": 0,
+    "before_mm3": 36004.17970289849,
+    "after_mm3": 33482.103354155755,
+    "saved_g": 7.087034539967077
+  },
+  {
+    "master": "P9_V2_Root",
+    "part": "Root",
+    "variant": "V2",
+    "propeller_index": 0,
+    "before_mm3": 141538.82945666346,
+    "after_mm3": 131799.63469309447,
+    "saved_g": 27.367137285628854
+  },
+  {
+    "master": "P0_V2_Motor",
+    "part": "Motor",
+    "variant": "V2",
+    "propeller_index": 0,
+    "before_mm3": 57053.71349646641,
+    "after_mm3": 55489.52890550577,
+    "saved_g": 4.395358700599383
+  },
+  {
+    "master": "P9_V3_Root",
+    "part": "Root",
+    "variant": "V3",
+    "propeller_index": 0,
+    "before_mm3": 150849.74107127087,
+    "after_mm3": 142516.64696951103,
+    "saved_g": 23.415994425945144
+  },
+  {
+    "master": "P0_V3_Motor",
+    "part": "Motor",
+    "variant": "V3",
+    "propeller_index": 0,
+    "before_mm3": 43888.26045839506,
+    "after_mm3": 42295.03172017333,
+    "saved_g": 4.476972754403069
+  },
+  {
+    "master": "P9_V4_Root",
+    "part": "Root",
+    "variant": "V4",
+    "propeller_index": 0,
+    "before_mm3": 191183.30166399808,
+    "after_mm3": 180117.5155323791,
+    "saved_g": 31.094859029849335
+  },
+  {
+    "master": "P0_V4_Motor",
+    "part": "Motor",
+    "variant": "V4",
+    "propeller_index": 0,
+    "before_mm3": 77626.86943440286,
+    "after_mm3": 75157.41181347443,
+    "saved_g": 6.9391759148088825
+  },
+  {
+    "master": "P9_V5_Root",
+    "part": "Root",
+    "variant": "V5",
+    "propeller_index": 0,
+    "before_mm3": 224238.48908008955,
+    "after_mm3": 212408.6740185483,
+    "saved_g": 33.2417803229309
+  },
+  {
+    "master": "P0_V5_Motor",
+    "part": "Motor",
+    "variant": "V5",
+    "propeller_index": 0,
+    "before_mm3": 56112.6777516568,
+    "after_mm3": 53321.73724218783,
+    "saved_g": 7.842542831607811
+  },
+  {
+    "master": "P1_V1_Motor",
+    "part": "Motor",
+    "variant": "V1",
+    "propeller_index": 1,
+    "before_mm3": 36004.17970289849,
+    "after_mm3": 33482.103354155755,
+    "saved_g": 7.087034539967077
+  },
+  {
+    "master": "P1_V2_Motor",
+    "part": "Motor",
+    "variant": "V2",
+    "propeller_index": 1,
+    "before_mm3": 57053.71349646641,
+    "after_mm3": 55489.52890550577,
+    "saved_g": 4.395358700599383
+  },
+  {
+    "master": "P1_V3_Motor",
+    "part": "Motor",
+    "variant": "V3",
+    "propeller_index": 1,
+    "before_mm3": 43888.26045839506,
+    "after_mm3": 42295.03172017333,
+    "saved_g": 4.476972754403069
+  },
+  {
+    "master": "P1_V4_Motor",
+    "part": "Motor",
+    "variant": "V4",
+    "propeller_index": 1,
+    "before_mm3": 77626.86943440286,
+    "after_mm3": 75157.41181347443,
+    "saved_g": 6.9391759148088825
+  },
+  {
+    "master": "P1_V5_Motor",
+    "part": "Motor",
+    "variant": "V5",
+    "propeller_index": 1,
+    "before_mm3": 56112.6777516568,
+    "after_mm3": 53321.73724218783,
+    "saved_g": 7.842542831607811
+  },
+  {
+    "master": "P2_V1_Motor",
+    "part": "Motor",
+    "variant": "V1",
+    "propeller_index": 2,
+    "before_mm3": 36004.17970289863,
+    "after_mm3": 33482.10335415406,
+    "saved_g": 7.08703453997225
+  },
+  {
+    "master": "P2_V2_Motor",
+    "part": "Motor",
+    "variant": "V2",
+    "propeller_index": 2,
+    "before_mm3": 55773.255236113604,
+    "after_mm3": 54214.76037186541,
+    "saved_g": 4.379370568537415
+  },
+  {
+    "master": "P2_V3_Motor",
+    "part": "Motor",
+    "variant": "V3",
+    "propeller_index": 2,
+    "before_mm3": 42740.27024692986,
+    "after_mm3": 41219.0593837757,
+    "saved_g": 4.274602525463199
+  },
+  {
+    "master": "P2_V4_Motor",
+    "part": "Motor",
+    "variant": "V4",
+    "propeller_index": 2,
+    "before_mm3": 75861.7676642263,
+    "after_mm3": 73455.95934825618,
+    "saved_g": 6.760321367876037
+  },
+  {
+    "master": "P2_V5_Motor",
+    "part": "Motor",
+    "variant": "V5",
+    "propeller_index": 2,
+    "before_mm3": 55606.90037115012,
+    "after_mm3": 52816.50932935931,
+    "saved_g": 7.840998827432181
+  },
+  {
+    "master": "P3_V1_Motor",
+    "part": "Motor",
+    "variant": "V1",
+    "propeller_index": 3,
+    "before_mm3": 36004.17970289946,
+    "after_mm3": 33482.10335415705,
+    "saved_g": 7.087034539966178
+  },
+  {
+    "master": "P3_V2_Motor",
+    "part": "Motor",
+    "variant": "V2",
+    "propeller_index": 3,
+    "before_mm3": 55201.23288935517,
+    "after_mm3": 53645.62129328685,
+    "saved_g": 4.371268584951969
+  },
+  {
+    "master": "P3_V3_Motor",
+    "part": "Motor",
+    "variant": "V3",
+    "propeller_index": 3,
+    "before_mm3": 42275.06140914654,
+    "after_mm3": 40733.83839416331,
+    "saved_g": 4.330836672102882
+  },
+  {
+    "master": "P3_V4_Motor",
+    "part": "Motor",
+    "variant": "V4",
+    "propeller_index": 3,
+    "before_mm3": 75074.39386084976,
+    "after_mm3": 72694.92904110091,
+    "saved_g": 6.686296143494247
+  },
+  {
+    "master": "P3_V5_Motor",
+    "part": "Motor",
+    "variant": "V5",
+    "propeller_index": 3,
+    "before_mm3": 55388.61249038961,
+    "after_mm3": 52598.49862707539,
+    "saved_g": 7.840219955912974
+  },
+  {
+    "master": "P4_V1_Motor",
+    "part": "Motor",
+    "variant": "V1",
+    "propeller_index": 4,
+    "before_mm3": 36004.17970289791,
+    "after_mm3": 33482.1033541573,
+    "saved_g": 7.087034539961127
+  },
+  {
+    "master": "P4_V2_Motor",
+    "part": "Motor",
+    "variant": "V2",
+    "propeller_index": 4,
+    "before_mm3": 54914.33553385967,
+    "after_mm3": 53360.249652013175,
+    "saved_g": 4.366981327988641
+  },
+  {
+    "master": "P4_V3_Motor",
+    "part": "Motor",
+    "variant": "V3",
+    "propeller_index": 4,
+    "before_mm3": 42024.20167622184,
+    "after_mm3": 40505.992909992514,
+    "saved_g": 4.266166633104409
+  },
+  {
+    "master": "P4_V4_Motor",
+    "part": "Motor",
+    "variant": "V4",
+    "propeller_index": 4,
+    "before_mm3": 74691.68157731513,
+    "after_mm3": 72311.59226705304,
+    "saved_g": 6.688050961836474
+  },
+  {
+    "master": "P4_V5_Motor",
+    "part": "Motor",
+    "variant": "V5",
+    "propeller_index": 4,
+    "before_mm3": 55280.66075336536,
+    "after_mm3": 52490.686710317554,
+    "saved_g": 7.839827060964332
+  },
+  {
+    "master": "P5_V1_Motor",
+    "part": "Motor",
+    "variant": "V1",
+    "propeller_index": 5,
+    "before_mm3": 36004.17970289843,
+    "after_mm3": 33482.1033541502,
+    "saved_g": 7.087034539982534
+  },
+  {
+    "master": "P5_V2_Motor",
+    "part": "Motor",
+    "variant": "V2",
+    "propeller_index": 5,
+    "before_mm3": 54482.68985943614,
+    "after_mm3": 52930.99663744126,
+    "saved_g": 4.360257953805611
+  },
+  {
+    "master": "P5_V3_Motor",
+    "part": "Motor",
+    "variant": "V3",
+    "propeller_index": 5,
+    "before_mm3": 41667.134503456684,
+    "after_mm3": 40148.417344670546,
+    "saved_g": 4.267595216189046
+  },
+  {
+    "master": "P5_V4_Motor",
+    "part": "Motor",
+    "variant": "V4",
+    "propeller_index": 5,
+    "before_mm3": 66583.07729743274,
+    "after_mm3": 64212.87716087539,
+    "saved_g": 6.6602623837261605
+  },
+  {
+    "master": "P5_V5_Motor",
+    "part": "Motor",
+    "variant": "V5",
+    "propeller_index": 5,
+    "before_mm3": 55120.00045860521,
+    "after_mm3": 52330.235571193494,
+    "saved_g": 7.839239333626919
+  },
+  {
+    "master": "P6_V1_Motor",
+    "part": "Motor",
+    "variant": "V1",
+    "propeller_index": 6,
+    "before_mm3": 36004.179702898386,
+    "after_mm3": 33482.10335415175,
+    "saved_g": 7.087034539978036
+  },
+  {
+    "master": "P6_V2_Motor",
+    "part": "Motor",
+    "variant": "V2",
+    "propeller_index": 6,
+    "before_mm3": 53904.2515809875,
+    "after_mm3": 52355.93645786019,
+    "saved_g": 4.350765495987734
+  },
+  {
+    "master": "P6_V3_Motor",
+    "part": "Motor",
+    "variant": "V3",
+    "propeller_index": 6,
+    "before_mm3": 41176.61600474781,
+    "after_mm3": 39683.99434115575,
+    "saved_g": 4.194266874693701
+  },
+  {
+    "master": "P6_V4_Motor",
+    "part": "Motor",
+    "variant": "V4",
+    "propeller_index": 6,
+    "before_mm3": 65740.84210604899,
+    "after_mm3": 63434.541829643524,
+    "saved_g": 6.480703776699368
+  },
+  {
+    "master": "P6_V5_Motor",
+    "part": "Motor",
+    "variant": "V5",
+    "propeller_index": 6,
+    "before_mm3": 54907.756361520136,
+    "after_mm3": 52118.26535917222,
+    "saved_g": 7.838469716597647
+  },
+  {
+    "master": "P7_V1_Motor",
+    "part": "Motor",
+    "variant": "V1",
+    "propeller_index": 7,
+    "before_mm3": 36004.179702900445,
+    "after_mm3": 33482.10335416101,
+    "saved_g": 7.087034539957815
+  },
+  {
+    "master": "P7_V2_Motor",
+    "part": "Motor",
+    "variant": "V2",
+    "propeller_index": 7,
+    "before_mm3": 53321.749426984534,
+    "after_mm3": 51777.012481084064,
+    "saved_g": 4.3407108179803195
+  },
+  {
+    "master": "P7_V3_Motor",
+    "part": "Motor",
+    "variant": "V3",
+    "propeller_index": 7,
+    "before_mm3": 40704.07533160622,
+    "after_mm3": 39219.67231458799,
+    "saved_g": 4.171172477821227
+  },
+  {
+    "master": "P7_V4_Motor",
+    "part": "Motor",
+    "variant": "V4",
+    "propeller_index": 7,
+    "before_mm3": 64946.125644178755,
+    "after_mm3": 62638.432315789985,
+    "saved_g": 6.484618252772444
+  },
+  {
+    "master": "P7_V5_Motor",
+    "part": "Motor",
+    "variant": "V5",
+    "propeller_index": 7,
+    "before_mm3": 54697.30358397504,
+    "after_mm3": 51908.075134497056,
+    "saved_g": 7.837731943033128
+  },
+  {
+    "master": "P8_V1_Motor",
+    "part": "Motor",
+    "variant": "V1",
+    "propeller_index": 8,
+    "before_mm3": 36004.1797028997,
+    "after_mm3": 33482.10335416085,
+    "saved_g": 7.087034539956179
+  },
+  {
+    "master": "P8_V2_Motor",
+    "part": "Motor",
+    "variant": "V2",
+    "propeller_index": 8,
+    "before_mm3": 52734.13053922715,
+    "after_mm3": 51193.150046065086,
+    "saved_g": 4.33015518578541
+  },
+  {
+    "master": "P8_V3_Motor",
+    "part": "Motor",
+    "variant": "V3",
+    "propeller_index": 8,
+    "before_mm3": 40230.45286216133,
+    "after_mm3": 38754.31366841208,
+    "saved_g": 4.147951134435397
+  },
+  {
+    "master": "P8_V4_Motor",
+    "part": "Motor",
+    "variant": "V4",
+    "propeller_index": 8,
+    "before_mm3": 64116.66760313564,
+    "after_mm3": 61823.67595999272,
+    "saved_g": 6.443306517231613
+  },
+  {
+    "master": "P8_V5_Motor",
+    "part": "Motor",
+    "variant": "V5",
+    "propeller_index": 8,
+    "before_mm3": 54487.83478690548,
+    "after_mm3": 51698.851763438106,
+    "saved_g": 7.837042295943315
+  },
+  {
+    "master": "P9_V1_Motor",
+    "part": "Motor",
+    "variant": "V1",
+    "propeller_index": 9,
+    "before_mm3": 36004.17970289753,
+    "after_mm3": 33482.103354155086,
+    "saved_g": 7.087034539966259
+  },
+  {
+    "master": "P9_V2_Motor",
+    "part": "Motor",
+    "variant": "V2",
+    "propeller_index": 9,
+    "before_mm3": 51079.15737332837,
+    "after_mm3": 49549.21906219822,
+    "saved_g": 4.299126654275723
+  },
+  {
+    "master": "P9_V3_Motor",
+    "part": "Motor",
+    "variant": "V3",
+    "propeller_index": 9,
+    "before_mm3": 38939.43881198286,
+    "after_mm3": 37463.27413863098,
+    "saved_g": 4.148022732118781
+  },
+  {
+    "master": "P9_V4_Motor",
+    "part": "Motor",
+    "variant": "V4",
+    "propeller_index": 9,
+    "before_mm3": 61815.9995211762,
+    "after_mm3": 59540.0824562624,
+    "saved_g": 6.395326952407787
+  },
+  {
+    "master": "P9_V5_Motor",
+    "part": "Motor",
+    "variant": "V5",
+    "propeller_index": 9,
+    "before_mm3": 53914.73598612348,
+    "after_mm3": 51126.266986641924,
+    "saved_g": 7.835597888543173
+  }
+]
