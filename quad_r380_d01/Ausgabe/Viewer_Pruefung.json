@@ -1,0 +1,14 @@
+{
+  "checks": [
+    "351 placed actual CAD instances rendered",
+    "WebGL buffers and shaders valid",
+    "Normteil visibility filter preserves 47 custom instances",
+    "Arm root detail camera and rendered fasteners",
+    "End clamp detail camera",
+    "Deck column detail camera",
+    "12 BRep-projected A3 part sheets rendered to PDF",
+    "Mobile layout and detail view"
+  ],
+  "page_errors": [],
+  "passed": true
+}

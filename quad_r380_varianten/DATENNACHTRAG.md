@@ -1,0 +1,23 @@
+# Datennachtrag: MN1330, CFK-Rohr und Reglerzeichnung
+
+Die neue [MN1330-Webseite als unveränderter Nutzerexport](Quellen/Nutzer_Nachtrag/MN1330_Herstellerseite_Nutzerexport.html) ist archiviert. [Quellenmanifest und Zahlen](Quellen/Nutzer_Nachtrag/Quellenmanifest.json) · [CFK-Produktangaben](Quellen/Nutzer_Nachtrag/CFK_Produktangaben.json). Die canonical-URL weist auf den T-Motor-Shop. Ein aktueller Liveabruf und eine verbindliche Dokumentrevision sind damit nicht nachgewiesen. Skripte der gespeicherten Seite wurden nicht ausgeführt.
+
+## Was jetzt besser belegt ist
+
+- **CFK:** Artikel CBU 2017 1005 TG, Ø20/17 × 1000 mm, Außendurchmessertoleranz ±0,2 mm; Kohlenstoff/Epoxid-Prepreg, Kernfasern 0°/90°, Gewebe-Außenschicht und PU-Beschichtung. Die Beschreibung verweist auf technische Eigenschaften der High-Precision-Serie, enthält aber deren Zahlenwerte nicht. Außen- und Innendurchmesser ergeben nominal 1,5 mm Wandstärke, keine bestätigte Wandstärkentoleranz. Hersteller und Lieferanten-URL bleiben zu belegen.
+- **Motor:** Die HTML-Tabelle bestätigt KV40, 24S, 2750 g einschließlich Anschlussdraht, 177 A, 19,5 mΩ, 36N42P, Lager 6004ZZ, Anschlussdraht 150 mm sowie M200A24S/NS52×20 als empfohlene Kombination. Die 3400-W-Angabe mit 180 s bleibt unverändert enthalten; daraus wird keine Dauerleistung abgeleitet.
+- **Temperaturbezug neu geschlossen:** 117 °C Gehäusetemperatur bei 25 °C Umgebung, laut Fußnote nach 10 Minuten Betrieb bei 80 % Gas. Der zugehörige Tabellenpunkt nennt 92,02 V, 112,91 A, 2434/min, 57,770 kgf Schub, 10,390 kW elektrische Leistung und 34,98 Nm. Daraus folgen rechnerisch rund 8,916 kW Wellenleistung. Kühlströmung, Temperaturverlauf und thermischer Beharrungszustand sind nicht belegt. Die Fußnote gibt keine 10-Minuten-Freigabe für den 100-%-Punkt und keinen Dauerbetrieb mit R380.
+- **Motorzeichnung im Chat:** Ø150, axiales Maß 66 mm, Ø55-Absatz mit Maß 3 mm, statorseitig 4×M6 auf Ø50, rotorseitig 12×M5 auf Ø40 sowie 4×M5 auf Ø30. Zusätzlich sind weitere Bohrungen und Adapterteile dargestellt; deren Zuordnung wird nicht ohne vollständige Zeichnung freigegeben. Die bekannten Hauptlochbilder passen zur bisherigen Bezugsannahme. Gewindetiefen für M6/M5 sind nicht angegeben.
+- **Reglerzeichnung im Chat:** Gehäusemaße 74 × 146 × 39,5 mm, rückseitiges Befestigungsraster 66 × 126 mm und 4×M3 mit 4 mm Gewindetiefe sind ablesbar. Überstehende Anschlüsse und Leitungsbiegeräume sind zusätzlich zu berücksichtigen. Eine eindeutige Typ-/Revisionszuordnung zu M200A24S fehlt; daher noch kein verbindliches Kaufteil im CAD.
+
+## Was weiterhin fehlt
+
+1. **Motor:** verbindliche Schnittstellenzeichnung/STEP derselben Variante, Aufklärung 65 mm in Tabelle versus 66 mm Zeichnung, M6-/M5-Gewindetiefen und Anzugsmomente, Lagerlastgrenzen, zulässige Rotorträgheit, vollständige Dauer-/Zeitgrenzkennfelder mit Kühlbedingungen. Die bisher pauschale Aussage „Temperatur-Zeitbezug unbekannt“ ist für den 80-%-Prüfpunkt durch diesen Nachtrag überholt.
+2. **Rohr/Klemmung:** numerische orthotrope Materialkennwerte, vollständiger Lagenaufbau, Innendurchmessertoleranz/Ovalität, Klemmpressung, Reibung auf PU beziehungsweise Isolierlage, Schlupf- und Ermüdungsprüfungen. 0°/90° allein genügt nicht zur Bemessung unter Biegung, Torsion und Klemmlasten. Die produktseitig erwähnten möglichen Lufteinschlüsse benötigen für die tragende Anwendung definierte Annahme-/Ausschusskriterien.
+3. **Regler:** Typbestätigung der Zeichnung, Originaldatenblatt mit DC-/Phasenstrom, Spannungsgrenzen, Kühlung/Derating, Masse, Anschlussbelegung, Kabel-/Steckerdaten und Motor-Kompatibilität. Eine Bezeichnung „200A“ ersetzt keine Dauerstrom- und Temperaturdaten.
+4. **R380:** eigener belastbarer Schub-/Leistungsnachweis, Blatt-/Nabenfestigkeit und Drehzahlgrenzen. Die Shop-Angabe „140 kg MTOW“ beschreibt keine Freigabe unseres QuadR380. Die Prüfdaten betreffen NS52×20 (etwa 1321 mm Durchmesser), nicht den 760-mm-Rotor.
+5. **Gesamtsystem:** Rotorkollisionen, vollständige Masse/Schwerpunkt, Akku/BMS/Stromverteilung, Verkabelung, Schutz, Struktur- und Systemtests bleiben offen.
+
+## Auswirkung auf den aktuellen CAD-Stand
+
+Die neuen Belege ergänzen die Datenbasis. Die nominalen Rohrmaße und die Haupt-Motorlochbilder waren bereits angesetzt; die Formen und Massen der V1–V4-Baugruppe bleiben daher unverändert. Es wurden weder fehlende Gewindetiefen geraten noch ein unidentifizierter Regler als freigegebenes Lieferteil eingebaut. Die vorhandenen CAD-Prüfberichte behalten ihren bisherigen, geometrischen Geltungsbereich. Das bestehende ZIP-Paket ist ein früherer Stand; dieser Nachtrag wird separat im Projekt geführt.

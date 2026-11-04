@@ -1,0 +1,33 @@
+{
+  "repository": "https://github.com/shaise/FreeCAD_FastenersWB",
+  "commit": "fddd07af422b7d3a69098b32333711c5eeae184c",
+  "rows": [
+    {
+      "id": "ISO4762_M4x20",
+      "standard": "ISO4762",
+      "diameter": "M4",
+      "length_mm": 20,
+      "real_helical_thread": true,
+      "table": {
+        "Dia": "M4",
+        "P": "0.7",
+        "b": "20.0",
+        "dk_max": "7.0",
+        "da": "4.7",
+        "ds_min": "3.82",
+        "e": "3.44",
+        "lf": "0.6",
+        "k": "4.0",
+        "r": "0.2",
+        "s_mean": "3.06",
+        "t": "2.0",
+        "v": "0.4",
+        "dw": "6.53",
+        "w": "1.4"
+      },
+      "brep_sha256": "324b12443a307fe869709e4f31d17f6a905fca247c823163040ee20dd1c242a0",
+      "volume_mm3": 334.1001568392334,
+      "geometry_scope": "Nominal ISO profile from open Fasteners implementation; 6g/6H tolerances and property class remain drawing/procurement requirements"
+    }
+  ]
+}

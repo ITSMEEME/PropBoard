@@ -1,0 +1,240 @@
+[
+  {
+    "instance": "I_23",
+    "id": "D02_ARM_TUBE",
+    "length_mm": 342.0,
+    "article": "CBU20171005TG",
+    "stock_mm": 1000
+  },
+  {
+    "instance": "I_42",
+    "id": "D02_ARM_TUBE",
+    "length_mm": 342.0,
+    "article": "CBU20171005TG",
+    "stock_mm": 1000
+  },
+  {
+    "instance": "I_61",
+    "id": "D02_ARM_TUBE",
+    "length_mm": 342.0,
+    "article": "CBU20171005TG",
+    "stock_mm": 1000
+  },
+  {
+    "instance": "I_80",
+    "id": "D02_ARM_TUBE",
+    "length_mm": 342.0,
+    "article": "CBU20171005TG",
+    "stock_mm": 1000
+  },
+  {
+    "instance": "I_114",
+    "id": "D02_ARM_TUBE",
+    "length_mm": 342.0,
+    "article": "CBU20171005TG",
+    "stock_mm": 1000
+  },
+  {
+    "instance": "I_133",
+    "id": "D02_ARM_TUBE",
+    "length_mm": 342.0,
+    "article": "CBU20171005TG",
+    "stock_mm": 1000
+  },
+  {
+    "instance": "I_152",
+    "id": "D02_ARM_TUBE",
+    "length_mm": 342.0,
+    "article": "CBU20171005TG",
+    "stock_mm": 1000
+  },
+  {
+    "instance": "I_171",
+    "id": "D02_ARM_TUBE",
+    "length_mm": 342.0,
+    "article": "CBU20171005TG",
+    "stock_mm": 1000
+  },
+  {
+    "instance": "I_205",
+    "id": "D02_ARM_TUBE",
+    "length_mm": 342.0,
+    "article": "CBU20171005TG",
+    "stock_mm": 1000
+  },
+  {
+    "instance": "I_224",
+    "id": "D02_ARM_TUBE",
+    "length_mm": 342.0,
+    "article": "CBU20171005TG",
+    "stock_mm": 1000
+  },
+  {
+    "instance": "I_243",
+    "id": "D02_ARM_TUBE",
+    "length_mm": 342.0,
+    "article": "CBU20171005TG",
+    "stock_mm": 1000
+  },
+  {
+    "instance": "I_262",
+    "id": "D02_ARM_TUBE",
+    "length_mm": 342.0,
+    "article": "CBU20171005TG",
+    "stock_mm": 1000
+  },
+  {
+    "instance": "I_296",
+    "id": "D02_ARM_TUBE",
+    "length_mm": 342.0,
+    "article": "CBU20171005TG",
+    "stock_mm": 1000
+  },
+  {
+    "instance": "I_315",
+    "id": "D02_ARM_TUBE",
+    "length_mm": 342.0,
+    "article": "CBU20171005TG",
+    "stock_mm": 1000
+  },
+  {
+    "instance": "I_334",
+    "id": "D02_ARM_TUBE",
+    "length_mm": 342.0,
+    "article": "CBU20171005TG",
+    "stock_mm": 1000
+  },
+  {
+    "instance": "I_353",
+    "id": "D02_ARM_TUBE",
+    "length_mm": 342.0,
+    "article": "CBU20171005TG",
+    "stock_mm": 1000
+  },
+  {
+    "instance": "I_367",
+    "id": "D02_RAIL",
+    "length_mm": 760.0,
+    "article": "CBU20171005TG",
+    "stock_mm": 1000
+  },
+  {
+    "instance": "I_368",
+    "id": "D02_RAIL",
+    "length_mm": 760.0,
+    "article": "CBU20171005TG",
+    "stock_mm": 1000
+  },
+  {
+    "instance": "D04_I_521",
+    "id": "D04_TUBE_RING",
+    "length_mm": 145.0609665440988,
+    "article": "CBU20171005TG",
+    "stock_mm": 1000
+  },
+  {
+    "instance": "D04_I_540",
+    "id": "D04_TUBE_RING",
+    "length_mm": 145.0609665440988,
+    "article": "CBU20171005TG",
+    "stock_mm": 1000
+  },
+  {
+    "instance": "D04_I_559",
+    "id": "D04_TUBE_RING",
+    "length_mm": 145.0609665440988,
+    "article": "CBU20171005TG",
+    "stock_mm": 1000
+  },
+  {
+    "instance": "D04_I_578",
+    "id": "D04_TUBE_RING",
+    "length_mm": 145.0609665440988,
+    "article": "CBU20171005TG",
+    "stock_mm": 1000
+  },
+  {
+    "instance": "D04_I_597",
+    "id": "D04_TUBE_RING",
+    "length_mm": 145.0609665440988,
+    "article": "CBU20171005TG",
+    "stock_mm": 1000
+  },
+  {
+    "instance": "D04_I_616",
+    "id": "D04_TUBE_RING",
+    "length_mm": 145.0609665440988,
+    "article": "CBU20171005TG",
+    "stock_mm": 1000
+  },
+  {
+    "instance": "D04_I_635",
+    "id": "D04_TUBE_RING",
+    "length_mm": 145.0609665440988,
+    "article": "CBU20171005TG",
+    "stock_mm": 1000
+  },
+  {
+    "instance": "D04_I_654",
+    "id": "D04_TUBE_RING",
+    "length_mm": 145.0609665440988,
+    "article": "CBU20171005TG",
+    "stock_mm": 1000
+  },
+  {
+    "instance": "D04_I_673",
+    "id": "D04_TUBE_VERTICAL",
+    "length_mm": 160.0,
+    "article": "CBU20171005TG",
+    "stock_mm": 1000
+  },
+  {
+    "instance": "D04_I_692",
+    "id": "D04_TUBE_VERTICAL",
+    "length_mm": 160.0,
+    "article": "CBU20171005TG",
+    "stock_mm": 1000
+  },
+  {
+    "instance": "D04_I_711",
+    "id": "D04_TUBE_VERTICAL",
+    "length_mm": 160.0,
+    "article": "CBU20171005TG",
+    "stock_mm": 1000
+  },
+  {
+    "instance": "D04_I_730",
+    "id": "D04_TUBE_VERTICAL",
+    "length_mm": 160.0,
+    "article": "CBU20171005TG",
+    "stock_mm": 1000
+  },
+  {
+    "instance": "D04_I_814",
+    "id": "D04_TUBE_STAY",
+    "length_mm": 210.17768759937763,
+    "article": "CBU20171005TG",
+    "stock_mm": 1000
+  },
+  {
+    "instance": "D04_I_824",
+    "id": "D04_TUBE_STAY",
+    "length_mm": 210.17768759937763,
+    "article": "CBU20171005TG",
+    "stock_mm": 1000
+  },
+  {
+    "instance": "D04_I_834",
+    "id": "D04_TUBE_STAY",
+    "length_mm": 210.17768759937763,
+    "article": "CBU20171005TG",
+    "stock_mm": 1000
+  },
+  {
+    "instance": "D04_I_844",
+    "id": "D04_TUBE_STAY",
+    "length_mm": 210.17768759937763,
+    "article": "CBU20171005TG",
+    "stock_mm": 1000
+  }
+]

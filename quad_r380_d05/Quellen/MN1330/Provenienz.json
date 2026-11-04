@@ -1,0 +1,38 @@
+[
+  {
+    "source_repository_path": "kreis_r04/mn1330_p14/Ausgabe/STEP_Referenzen/MN1330.step",
+    "file": "Quellen/MN1330/MN1330.step",
+    "sha256": "13f03e345980cd48259ed23e594ac37c8b613552a629c9619cd94cb218bc913d",
+    "status": "User product data / legacy project reference; not complete OEM CAD"
+  },
+  {
+    "source_repository_path": "kreis_r04/mn1330_p14/Quellen/basicParameter_MN1330 KV40.xls",
+    "file": "Quellen/MN1330/basicParameter_MN1330 KV40.xls",
+    "sha256": "1031932b195f7e68f95de6e4d9eb138ee685c703e82805a14923cea8032c3f6b",
+    "status": "User product data / legacy project reference; not complete OEM CAD"
+  },
+  {
+    "source_repository_path": "kreis_r04/mn1330_p14/Quellen/MN1330_NS52x20_Nutzertabelle.csv",
+    "file": "Quellen/MN1330/MN1330_NS52x20_Nutzertabelle.csv",
+    "sha256": "2fca6ef2478240ce59d515b927055cc3037e3ebebcb3d39f27a93f1f399ea1ab",
+    "status": "User product data / legacy project reference; not complete OEM CAD"
+  },
+  {
+    "source_repository_path": "kreis_r04/mn1330_p14/Motor_Daten.json",
+    "file": "Quellen/MN1330/Motor_Daten.json",
+    "sha256": "91233597849421586876dac06eb0303bd324e71602f7ce69e22f1f94f5df1dd8",
+    "status": "User product data / legacy project reference; not complete OEM CAD"
+  },
+  {
+    "source_repository_path": "kreis_r04/mn1330_p14/MOTOR_DATEN.md",
+    "file": "Quellen/MN1330/MOTOR_DATEN.md",
+    "sha256": "957926d7c43dfb0791f4cf12b96f3a5a2b6b2c341fef3ae2196694546a504742",
+    "status": "User product data / legacy project reference; not complete OEM CAD"
+  },
+  {
+    "source_repository_path": "konstruktion/MN1330/Direktantrieb.md",
+    "file": "Quellen/MN1330/Direktantrieb.md",
+    "sha256": "1d9cd8b1626e128e34318fcbaccc0f6b60feedf8613dc0640300321543d54040",
+    "status": "User product data / legacy project reference; not complete OEM CAD"
+  }
+]

@@ -1,0 +1,60 @@
+{
+  "native_sha256": "9842c83362c6117f37fd90cb0bbee737e61358ddb5fb1b0d7577e726e2674d18",
+  "step_sha256": "2e706593822288dc49b133fa1c2368a88ec50e1a36dcdf85e46166e9f113446d",
+  "expected_solids": 1052,
+  "reimported_solids": 1052,
+  "native_master_solids_valid": true,
+  "new_propeller_step_prototypes": [
+    {
+      "part": "D06_HUB",
+      "valid": true,
+      "volume_delta_mm3": 1.696753315627575e-08
+    },
+    {
+      "part": "D06_ROOT_CAP",
+      "valid": true,
+      "volume_delta_mm3": 0.0
+    },
+    {
+      "part": "D06_BLADE_CCW",
+      "valid": true,
+      "volume_delta_mm3": 0.003690769284730777
+    },
+    {
+      "part": "D06_CORE_1_CCW",
+      "valid": true,
+      "volume_delta_mm3": 1.0813892004080117e-08
+    },
+    {
+      "part": "D06_CORE_2_CCW",
+      "valid": true,
+      "volume_delta_mm3": 1.5668774722144008e-08
+    },
+    {
+      "part": "D06_BLADE_CW",
+      "valid": true,
+      "volume_delta_mm3": 2.0567250338790473
+    },
+    {
+      "part": "D06_CORE_1_CW",
+      "valid": true,
+      "volume_delta_mm3": 5.5065014748834074e-05
+    },
+    {
+      "part": "D06_CORE_2_CW",
+      "valid": true,
+      "volume_delta_mm3": 9.361006959807128e-06
+    },
+    {
+      "part": "D06_ROOT_BUSH",
+      "valid": true,
+      "volume_delta_mm3": 0.0
+    },
+    {
+      "part": "D06_ROOT_BOND",
+      "valid": true,
+      "volume_delta_mm3": 0.0
+    }
+  ],
+  "assembly_reimport_each_solid_validity_checked": false
+}

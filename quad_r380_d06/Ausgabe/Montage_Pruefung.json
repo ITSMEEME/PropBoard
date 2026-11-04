@@ -1,0 +1,1016 @@
+{
+  "native_sha256": "9842c83362c6117f37fd90cb0bbee737e61358ddb5fb1b0d7577e726e2674d18",
+  "passed": true,
+  "check_count": 72,
+  "checks": [
+    {
+      "instance": "I_90",
+      "label": "Motorträger Schott M6",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "outer_radius_mm": 3.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "I_92",
+      "label": "Motorträger Schott M6",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "outer_radius_mm": 3.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "I_181",
+      "label": "Motorträger Schott M6",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "outer_radius_mm": 3.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "I_183",
+      "label": "Motorträger Schott M6",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "outer_radius_mm": 3.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "I_272",
+      "label": "Motorträger Schott M6",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "outer_radius_mm": 3.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "I_274",
+      "label": "Motorträger Schott M6",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "outer_radius_mm": 3.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "I_363",
+      "label": "Motorträger Schott M6",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "outer_radius_mm": 3.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "I_365",
+      "label": "Motorträger Schott M6",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "outer_radius_mm": 3.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D05_I_838",
+      "label": "MN1330 Statorschraube M6x12",
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "outer_radius_mm": 3.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D05_I_839",
+      "label": "MN1330 Statorschraube M6x12",
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "outer_radius_mm": 3.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D05_I_840",
+      "label": "MN1330 Statorschraube M6x12",
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "outer_radius_mm": 3.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D05_I_841",
+      "label": "MN1330 Statorschraube M6x12",
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "outer_radius_mm": 3.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D05_I_843",
+      "label": "MN1330 Statorschraube M6x12",
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "outer_radius_mm": 3.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D05_I_844",
+      "label": "MN1330 Statorschraube M6x12",
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "outer_radius_mm": 3.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D05_I_845",
+      "label": "MN1330 Statorschraube M6x12",
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "outer_radius_mm": 3.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D05_I_846",
+      "label": "MN1330 Statorschraube M6x12",
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "outer_radius_mm": 3.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D05_I_848",
+      "label": "MN1330 Statorschraube M6x12",
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "outer_radius_mm": 3.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D05_I_849",
+      "label": "MN1330 Statorschraube M6x12",
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "outer_radius_mm": 3.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D05_I_850",
+      "label": "MN1330 Statorschraube M6x12",
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "outer_radius_mm": 3.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D05_I_851",
+      "label": "MN1330 Statorschraube M6x12",
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "outer_radius_mm": 3.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D05_I_853",
+      "label": "MN1330 Statorschraube M6x12",
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "outer_radius_mm": 3.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D05_I_854",
+      "label": "MN1330 Statorschraube M6x12",
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "outer_radius_mm": 3.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D05_I_855",
+      "label": "MN1330 Statorschraube M6x12",
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "outer_radius_mm": 3.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D05_I_856",
+      "label": "MN1330 Statorschraube M6x12",
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "outer_radius_mm": 3.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_866",
+      "label": "Blattwurzel M5x35",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "outer_radius_mm": 2.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_867",
+      "label": "Sicherungsmutter Blattwurzel",
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "outer_radius_mm": 6.2,
+      "inner_radius_mm": 3,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_872",
+      "label": "Blattwurzel M5x35",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "outer_radius_mm": 2.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_873",
+      "label": "Sicherungsmutter Blattwurzel",
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "outer_radius_mm": 6.2,
+      "inner_radius_mm": 3,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_882",
+      "label": "Blattwurzel M5x35",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "outer_radius_mm": 2.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_883",
+      "label": "Sicherungsmutter Blattwurzel",
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "outer_radius_mm": 6.2,
+      "inner_radius_mm": 3,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_888",
+      "label": "Blattwurzel M5x35",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "outer_radius_mm": 2.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_889",
+      "label": "Sicherungsmutter Blattwurzel",
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "outer_radius_mm": 6.2,
+      "inner_radius_mm": 3,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_898",
+      "label": "Blattwurzel M5x35",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "outer_radius_mm": 2.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_899",
+      "label": "Sicherungsmutter Blattwurzel",
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "outer_radius_mm": 6.2,
+      "inner_radius_mm": 3,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_904",
+      "label": "Blattwurzel M5x35",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "outer_radius_mm": 2.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_905",
+      "label": "Sicherungsmutter Blattwurzel",
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "outer_radius_mm": 6.2,
+      "inner_radius_mm": 3,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_915",
+      "label": "Blattwurzel M5x35",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "outer_radius_mm": 2.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_916",
+      "label": "Sicherungsmutter Blattwurzel",
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "outer_radius_mm": 6.2,
+      "inner_radius_mm": 3,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_921",
+      "label": "Blattwurzel M5x35",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "outer_radius_mm": 2.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_922",
+      "label": "Sicherungsmutter Blattwurzel",
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "outer_radius_mm": 6.2,
+      "inner_radius_mm": 3,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_931",
+      "label": "Blattwurzel M5x35",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "outer_radius_mm": 2.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_932",
+      "label": "Sicherungsmutter Blattwurzel",
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "outer_radius_mm": 6.2,
+      "inner_radius_mm": 3,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_937",
+      "label": "Blattwurzel M5x35",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "outer_radius_mm": 2.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_938",
+      "label": "Sicherungsmutter Blattwurzel",
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "outer_radius_mm": 6.2,
+      "inner_radius_mm": 3,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_947",
+      "label": "Blattwurzel M5x35",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "outer_radius_mm": 2.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_948",
+      "label": "Sicherungsmutter Blattwurzel",
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "outer_radius_mm": 6.2,
+      "inner_radius_mm": 3,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_953",
+      "label": "Blattwurzel M5x35",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "outer_radius_mm": 2.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_954",
+      "label": "Sicherungsmutter Blattwurzel",
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "outer_radius_mm": 6.2,
+      "inner_radius_mm": 3,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_964",
+      "label": "Blattwurzel M5x35",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "outer_radius_mm": 2.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_965",
+      "label": "Sicherungsmutter Blattwurzel",
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "outer_radius_mm": 6.2,
+      "inner_radius_mm": 3,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_970",
+      "label": "Blattwurzel M5x35",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "outer_radius_mm": 2.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_971",
+      "label": "Sicherungsmutter Blattwurzel",
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "outer_radius_mm": 6.2,
+      "inner_radius_mm": 3,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_980",
+      "label": "Blattwurzel M5x35",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "outer_radius_mm": 2.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_981",
+      "label": "Sicherungsmutter Blattwurzel",
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "outer_radius_mm": 6.2,
+      "inner_radius_mm": 3,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_986",
+      "label": "Blattwurzel M5x35",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "outer_radius_mm": 2.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_987",
+      "label": "Sicherungsmutter Blattwurzel",
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "outer_radius_mm": 6.2,
+      "inner_radius_mm": 3,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_996",
+      "label": "Blattwurzel M5x35",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "outer_radius_mm": 2.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_997",
+      "label": "Sicherungsmutter Blattwurzel",
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "outer_radius_mm": 6.2,
+      "inner_radius_mm": 3,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_1002",
+      "label": "Blattwurzel M5x35",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "outer_radius_mm": 2.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_1003",
+      "label": "Sicherungsmutter Blattwurzel",
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "outer_radius_mm": 6.2,
+      "inner_radius_mm": 3,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_1013",
+      "label": "Blattwurzel M5x35",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "outer_radius_mm": 2.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_1014",
+      "label": "Sicherungsmutter Blattwurzel",
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "outer_radius_mm": 6.2,
+      "inner_radius_mm": 3,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_1019",
+      "label": "Blattwurzel M5x35",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "outer_radius_mm": 2.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_1020",
+      "label": "Sicherungsmutter Blattwurzel",
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "outer_radius_mm": 6.2,
+      "inner_radius_mm": 3,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_1029",
+      "label": "Blattwurzel M5x35",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "outer_radius_mm": 2.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_1030",
+      "label": "Sicherungsmutter Blattwurzel",
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "outer_radius_mm": 6.2,
+      "inner_radius_mm": 3,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_1035",
+      "label": "Blattwurzel M5x35",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "outer_radius_mm": 2.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_1036",
+      "label": "Sicherungsmutter Blattwurzel",
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "outer_radius_mm": 6.2,
+      "inner_radius_mm": 3,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_1045",
+      "label": "Blattwurzel M5x35",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "outer_radius_mm": 2.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_1046",
+      "label": "Sicherungsmutter Blattwurzel",
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "outer_radius_mm": 6.2,
+      "inner_radius_mm": 3,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_1051",
+      "label": "Blattwurzel M5x35",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "outer_radius_mm": 2.6,
+      "inner_radius_mm": 0,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "instance": "D06_I_1052",
+      "label": "Sicherungsmutter Blattwurzel",
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "outer_radius_mm": 6.2,
+      "inner_radius_mm": 3,
+      "length_mm": 35,
+      "interferences": [],
+      "passed": true
+    }
+  ],
+  "scope": "Straight35mm approach corridors at default phase, including24 root bolt keys,24 hollow socket corridors below root nuts and24 prior motor/carrier tools. Socket annulus R6.2/R3 clears protruding bolt; no wrench handle, engagement geometry, human hand, assembly order, torque, preload, rotor position range or motor-to-hub bolt release."
+}

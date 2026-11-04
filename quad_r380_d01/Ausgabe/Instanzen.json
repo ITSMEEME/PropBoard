@@ -1,0 +1,6671 @@
+[
+  {
+    "instance": "I_1",
+    "label": "Zentralplatte oben",
+    "id": "QD_P01",
+    "group": "Rahmen",
+    "mass_kg": 2.692830873949396,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      0.0,
+      0.0,
+      -87.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_2",
+    "label": "Zentralplatte unten",
+    "id": "QD_P02",
+    "group": "Rahmen",
+    "mass_kg": 2.7046545217949607,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      0.0,
+      0.0,
+      -141.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_3",
+    "label": "Ausleger 1",
+    "id": "QD_R01",
+    "group": "Rahmen",
+    "mass_kg": 0.6824540172116411,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      98.99494936611666,
+      98.99494936611664,
+      -110.0
+    ],
+    "placement_quaternion": [
+      0.27059805007309856,
+      0.6532814824381884,
+      0.6532814824381884,
+      0.27059805007309845
+    ]
+  },
+  {
+    "instance": "I_4",
+    "label": "Druckstueck 1",
+    "id": "QD_E01",
+    "group": "Rahmen",
+    "mass_kg": 0.7022214750189119,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      98.99494936611666,
+      98.99494936611664,
+      -110.0
+    ],
+    "placement_quaternion": [
+      0.27059805007309856,
+      0.6532814824381884,
+      0.6532814824381884,
+      0.27059805007309845
+    ]
+  },
+  {
+    "instance": "I_5",
+    "label": "Endtraeger oben 1",
+    "id": "QD_M01",
+    "group": "Rahmen",
+    "mass_kg": 0.6094324856296941,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      425.00000000000006,
+      425.0,
+      -87.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "I_6",
+    "label": "Endtraeger unten 1",
+    "id": "QD_M02",
+    "group": "Rahmen",
+    "mass_kg": 0.40628602210731957,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      425.00000000000006,
+      425.0,
+      -145.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "I_7",
+    "label": "Wurzelklemmschraube",
+    "id": "ISO4762_M6x80",
+    "group": "Normteile",
+    "mass_kg": 0.019754295019988703,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      134.35028842544403,
+      84.85281374238569,
+      -77.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_8",
+    "label": "Kopfscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      134.35028842544403,
+      84.85281374238569,
+      -79.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_9",
+    "label": "Mutterscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      134.35028842544403,
+      84.85281374238569,
+      -142.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_10",
+    "label": "Ganzmetall-Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      134.35028842544403,
+      84.85281374238569,
+      -142.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_11",
+    "label": "Wurzelklemmschraube",
+    "id": "ISO4762_M6x80",
+    "group": "Normteile",
+    "mass_kg": 0.019754295019988703,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      84.8528137423857,
+      134.35028842544403,
+      -77.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_12",
+    "label": "Kopfscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      84.8528137423857,
+      134.35028842544403,
+      -79.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_13",
+    "label": "Mutterscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      84.8528137423857,
+      134.35028842544403,
+      -142.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_14",
+    "label": "Ganzmetall-Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      84.8528137423857,
+      134.35028842544403,
+      -142.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_15",
+    "label": "Wurzelklemmschraube",
+    "id": "ISO4762_M6x80",
+    "group": "Normteile",
+    "mass_kg": 0.019754295019988703,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      176.7766952966369,
+      127.27922061357853,
+      -77.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_16",
+    "label": "Kopfscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      176.7766952966369,
+      127.27922061357853,
+      -79.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_17",
+    "label": "Mutterscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      176.7766952966369,
+      127.27922061357853,
+      -142.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_18",
+    "label": "Ganzmetall-Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      176.7766952966369,
+      127.27922061357853,
+      -142.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_19",
+    "label": "Wurzelklemmschraube",
+    "id": "ISO4762_M6x80",
+    "group": "Normteile",
+    "mass_kg": 0.019754295019988703,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      127.27922061357856,
+      176.77669529663686,
+      -77.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_20",
+    "label": "Kopfscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      127.27922061357856,
+      176.77669529663686,
+      -79.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_21",
+    "label": "Mutterscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      127.27922061357856,
+      176.77669529663686,
+      -142.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_22",
+    "label": "Ganzmetall-Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      127.27922061357856,
+      176.77669529663686,
+      -142.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_23",
+    "label": "Endtraeger-Klemmschraube",
+    "id": "ISO4762_M6x90",
+    "group": "Normteile",
+    "mass_kg": 0.021973827546889608,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      416.5147186257615,
+      362.7746032555838,
+      -65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_24",
+    "label": "Kopfscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      416.5147186257615,
+      362.7746032555838,
+      -67.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_25",
+    "label": "Mutterscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      416.5147186257615,
+      362.7746032555838,
+      -146.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_26",
+    "label": "Ganzmetall-Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      416.5147186257615,
+      362.7746032555838,
+      -146.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_27",
+    "label": "Endtraeger-Klemmschraube",
+    "id": "ISO4762_M6x90",
+    "group": "Normteile",
+    "mass_kg": 0.021973827546889608,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      362.7746032555839,
+      416.5147186257614,
+      -65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_28",
+    "label": "Kopfscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      362.7746032555839,
+      416.5147186257614,
+      -67.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_29",
+    "label": "Mutterscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      362.7746032555839,
+      416.5147186257614,
+      -146.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_30",
+    "label": "Ganzmetall-Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      362.7746032555839,
+      416.5147186257614,
+      -146.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_31",
+    "label": "Endtraeger-Klemmschraube",
+    "id": "ISO4762_M6x90",
+    "group": "Normteile",
+    "mass_kg": 0.021973827546889608,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      444.7989898732234,
+      391.05887450304573,
+      -65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_32",
+    "label": "Kopfscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      444.7989898732234,
+      391.05887450304573,
+      -67.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_33",
+    "label": "Mutterscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      444.7989898732234,
+      391.05887450304573,
+      -146.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_34",
+    "label": "Ganzmetall-Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      444.7989898732234,
+      391.05887450304573,
+      -146.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_35",
+    "label": "Endtraeger-Klemmschraube",
+    "id": "ISO4762_M6x90",
+    "group": "Normteile",
+    "mass_kg": 0.021973827546889608,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      391.0588745030458,
+      444.7989898732233,
+      -65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_36",
+    "label": "Kopfscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      391.0588745030458,
+      444.7989898732233,
+      -67.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_37",
+    "label": "Mutterscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      391.0588745030458,
+      444.7989898732233,
+      -146.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_38",
+    "label": "Ganzmetall-Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      391.0588745030458,
+      444.7989898732233,
+      -146.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_39",
+    "label": "Druckstueck-Sicherung",
+    "id": "ISO4762_M5x16",
+    "group": "Normteile",
+    "mass_kg": 0.0038819447800679664,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      94.75230867899737,
+      131.52186130069782,
+      -110.0
+    ],
+    "placement_quaternion": [
+      0.09229595564125682,
+      -0.7010573846499779,
+      -0.5609855267969313,
+      0.43045933457687924
+    ]
+  },
+  {
+    "instance": "I_40",
+    "label": "Sicherungsscheibe",
+    "id": "ISO7089_M5",
+    "group": "Normteile",
+    "mass_kg": 0.00044335215814979767,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      95.45941546018392,
+      130.81475451951127,
+      -110.0
+    ],
+    "placement_quaternion": [
+      -0.5,
+      -0.4999999999999999,
+      0.0,
+      0.7071067811865476
+    ]
+  },
+  {
+    "instance": "I_41",
+    "label": "Druckstueck-Sicherung",
+    "id": "ISO4762_M5x16",
+    "group": "Normteile",
+    "mass_kg": 0.0038819447800679664,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      130.10764773832474,
+      166.8772003600252,
+      -110.0
+    ],
+    "placement_quaternion": [
+      0.09229595564125682,
+      -0.7010573846499779,
+      -0.5609855267969313,
+      0.43045933457687924
+    ]
+  },
+  {
+    "instance": "I_42",
+    "label": "Sicherungsscheibe",
+    "id": "ISO7089_M5",
+    "group": "Normteile",
+    "mass_kg": 0.00044335215814979767,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      130.8147545195113,
+      166.17009357883865,
+      -110.0
+    ],
+    "placement_quaternion": [
+      -0.5,
+      -0.4999999999999999,
+      0.0,
+      0.7071067811865476
+    ]
+  },
+  {
+    "instance": "I_43",
+    "label": "Ausleger 2",
+    "id": "QD_R01",
+    "group": "Rahmen",
+    "mass_kg": 0.6824540172116411,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      -98.99494936611664,
+      98.99494936611666,
+      -110.0
+    ],
+    "placement_quaternion": [
+      -0.27059805007309845,
+      0.6532814824381884,
+      0.6532814824381884,
+      -0.27059805007309834
+    ]
+  },
+  {
+    "instance": "I_44",
+    "label": "Druckstueck 2",
+    "id": "QD_E01",
+    "group": "Rahmen",
+    "mass_kg": 0.7022214750189119,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      -98.99494936611664,
+      98.99494936611666,
+      -110.0
+    ],
+    "placement_quaternion": [
+      -0.27059805007309845,
+      0.6532814824381884,
+      0.6532814824381884,
+      -0.27059805007309834
+    ]
+  },
+  {
+    "instance": "I_45",
+    "label": "Endtraeger oben 2",
+    "id": "QD_M01",
+    "group": "Rahmen",
+    "mass_kg": 0.6094324856296941,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      -425.0,
+      425.00000000000006,
+      -87.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "I_46",
+    "label": "Endtraeger unten 2",
+    "id": "QD_M02",
+    "group": "Rahmen",
+    "mass_kg": 0.40628602210731957,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      -425.0,
+      425.00000000000006,
+      -145.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "I_47",
+    "label": "Wurzelklemmschraube",
+    "id": "ISO4762_M6x80",
+    "group": "Normteile",
+    "mass_kg": 0.019754295019988703,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -84.85281374238569,
+      134.35028842544403,
+      -77.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_48",
+    "label": "Kopfscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -84.85281374238569,
+      134.35028842544403,
+      -79.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_49",
+    "label": "Mutterscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -84.85281374238569,
+      134.35028842544403,
+      -142.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_50",
+    "label": "Ganzmetall-Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -84.85281374238569,
+      134.35028842544403,
+      -142.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_51",
+    "label": "Wurzelklemmschraube",
+    "id": "ISO4762_M6x80",
+    "group": "Normteile",
+    "mass_kg": 0.019754295019988703,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -134.35028842544403,
+      84.8528137423857,
+      -77.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_52",
+    "label": "Kopfscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -134.35028842544403,
+      84.8528137423857,
+      -79.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_53",
+    "label": "Mutterscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -134.35028842544403,
+      84.8528137423857,
+      -142.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_54",
+    "label": "Ganzmetall-Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -134.35028842544403,
+      84.8528137423857,
+      -142.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_55",
+    "label": "Wurzelklemmschraube",
+    "id": "ISO4762_M6x80",
+    "group": "Normteile",
+    "mass_kg": 0.019754295019988703,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -127.27922061357853,
+      176.7766952966369,
+      -77.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_56",
+    "label": "Kopfscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -127.27922061357853,
+      176.7766952966369,
+      -79.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_57",
+    "label": "Mutterscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -127.27922061357853,
+      176.7766952966369,
+      -142.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_58",
+    "label": "Ganzmetall-Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -127.27922061357853,
+      176.7766952966369,
+      -142.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_59",
+    "label": "Wurzelklemmschraube",
+    "id": "ISO4762_M6x80",
+    "group": "Normteile",
+    "mass_kg": 0.019754295019988703,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -176.77669529663686,
+      127.27922061357856,
+      -77.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_60",
+    "label": "Kopfscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -176.77669529663686,
+      127.27922061357856,
+      -79.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_61",
+    "label": "Mutterscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -176.77669529663686,
+      127.27922061357856,
+      -142.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_62",
+    "label": "Ganzmetall-Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -176.77669529663686,
+      127.27922061357856,
+      -142.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_63",
+    "label": "Endtraeger-Klemmschraube",
+    "id": "ISO4762_M6x90",
+    "group": "Normteile",
+    "mass_kg": 0.021973827546889608,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -362.7746032555838,
+      416.5147186257615,
+      -65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_64",
+    "label": "Kopfscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -362.7746032555838,
+      416.5147186257615,
+      -67.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_65",
+    "label": "Mutterscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -362.7746032555838,
+      416.5147186257615,
+      -146.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_66",
+    "label": "Ganzmetall-Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -362.7746032555838,
+      416.5147186257615,
+      -146.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_67",
+    "label": "Endtraeger-Klemmschraube",
+    "id": "ISO4762_M6x90",
+    "group": "Normteile",
+    "mass_kg": 0.021973827546889608,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -416.5147186257614,
+      362.7746032555839,
+      -65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_68",
+    "label": "Kopfscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -416.5147186257614,
+      362.7746032555839,
+      -67.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_69",
+    "label": "Mutterscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -416.5147186257614,
+      362.7746032555839,
+      -146.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_70",
+    "label": "Ganzmetall-Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -416.5147186257614,
+      362.7746032555839,
+      -146.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_71",
+    "label": "Endtraeger-Klemmschraube",
+    "id": "ISO4762_M6x90",
+    "group": "Normteile",
+    "mass_kg": 0.021973827546889608,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -391.05887450304573,
+      444.7989898732234,
+      -65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_72",
+    "label": "Kopfscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -391.05887450304573,
+      444.7989898732234,
+      -67.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_73",
+    "label": "Mutterscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -391.05887450304573,
+      444.7989898732234,
+      -146.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_74",
+    "label": "Ganzmetall-Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -391.05887450304573,
+      444.7989898732234,
+      -146.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_75",
+    "label": "Endtraeger-Klemmschraube",
+    "id": "ISO4762_M6x90",
+    "group": "Normteile",
+    "mass_kg": 0.021973827546889608,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -444.7989898732233,
+      391.0588745030458,
+      -65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_76",
+    "label": "Kopfscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -444.7989898732233,
+      391.0588745030458,
+      -67.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_77",
+    "label": "Mutterscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -444.7989898732233,
+      391.0588745030458,
+      -146.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_78",
+    "label": "Ganzmetall-Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -444.7989898732233,
+      391.0588745030458,
+      -146.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_79",
+    "label": "Druckstueck-Sicherung",
+    "id": "ISO4762_M5x16",
+    "group": "Normteile",
+    "mass_kg": 0.0038819447800679664,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -131.52186130069782,
+      94.75230867899737,
+      -110.0
+    ],
+    "placement_quaternion": [
+      0.5609855267969307,
+      -0.43045933457687924,
+      -0.09229595564125719,
+      0.7010573846499782
+    ]
+  },
+  {
+    "instance": "I_80",
+    "label": "Sicherungsscheibe",
+    "id": "ISO7089_M5",
+    "group": "Normteile",
+    "mass_kg": 0.00044335215814979767,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -130.81475451951127,
+      95.45941546018392,
+      -110.0
+    ],
+    "placement_quaternion": [
+      0.4999999999999999,
+      -0.5,
+      0.0,
+      0.7071067811865476
+    ]
+  },
+  {
+    "instance": "I_81",
+    "label": "Druckstueck-Sicherung",
+    "id": "ISO4762_M5x16",
+    "group": "Normteile",
+    "mass_kg": 0.0038819447800679664,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -166.8772003600252,
+      130.10764773832474,
+      -110.0
+    ],
+    "placement_quaternion": [
+      0.5609855267969307,
+      -0.43045933457687924,
+      -0.09229595564125719,
+      0.7010573846499782
+    ]
+  },
+  {
+    "instance": "I_82",
+    "label": "Sicherungsscheibe",
+    "id": "ISO7089_M5",
+    "group": "Normteile",
+    "mass_kg": 0.00044335215814979767,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -166.17009357883865,
+      130.8147545195113,
+      -110.0
+    ],
+    "placement_quaternion": [
+      0.4999999999999999,
+      -0.5,
+      0.0,
+      0.7071067811865476
+    ]
+  },
+  {
+    "instance": "I_83",
+    "label": "Ausleger 3",
+    "id": "QD_R01",
+    "group": "Rahmen",
+    "mass_kg": 0.6824540172116411,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      -98.99494936611667,
+      -98.99494936611664,
+      -110.0
+    ],
+    "placement_quaternion": [
+      0.6532814824381881,
+      -0.27059805007309856,
+      -0.27059805007309856,
+      0.6532814824381883
+    ]
+  },
+  {
+    "instance": "I_84",
+    "label": "Druckstueck 3",
+    "id": "QD_E01",
+    "group": "Rahmen",
+    "mass_kg": 0.7022214750189119,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      -98.99494936611667,
+      -98.99494936611664,
+      -110.0
+    ],
+    "placement_quaternion": [
+      0.6532814824381881,
+      -0.27059805007309856,
+      -0.27059805007309856,
+      0.6532814824381883
+    ]
+  },
+  {
+    "instance": "I_85",
+    "label": "Endtraeger oben 3",
+    "id": "QD_M01",
+    "group": "Rahmen",
+    "mass_kg": 0.6094324856296941,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      -425.00000000000017,
+      -425.0,
+      -87.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "I_86",
+    "label": "Endtraeger unten 3",
+    "id": "QD_M02",
+    "group": "Rahmen",
+    "mass_kg": 0.40628602210731957,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      -425.00000000000017,
+      -425.0,
+      -145.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "I_87",
+    "label": "Wurzelklemmschraube",
+    "id": "ISO4762_M6x80",
+    "group": "Normteile",
+    "mass_kg": 0.019754295019988703,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -134.35028842544403,
+      -84.85281374238569,
+      -77.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_88",
+    "label": "Kopfscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -134.35028842544403,
+      -84.85281374238569,
+      -79.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_89",
+    "label": "Mutterscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -134.35028842544403,
+      -84.85281374238569,
+      -142.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_90",
+    "label": "Ganzmetall-Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -134.35028842544403,
+      -84.85281374238569,
+      -142.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_91",
+    "label": "Wurzelklemmschraube",
+    "id": "ISO4762_M6x80",
+    "group": "Normteile",
+    "mass_kg": 0.019754295019988703,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -84.85281374238572,
+      -134.35028842544403,
+      -77.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_92",
+    "label": "Kopfscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -84.85281374238572,
+      -134.35028842544403,
+      -79.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_93",
+    "label": "Mutterscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -84.85281374238572,
+      -134.35028842544403,
+      -142.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_94",
+    "label": "Ganzmetall-Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -84.85281374238572,
+      -134.35028842544403,
+      -142.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_95",
+    "label": "Wurzelklemmschraube",
+    "id": "ISO4762_M6x80",
+    "group": "Normteile",
+    "mass_kg": 0.019754295019988703,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -176.77669529663692,
+      -127.27922061357853,
+      -77.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_96",
+    "label": "Kopfscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -176.77669529663692,
+      -127.27922061357853,
+      -79.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_97",
+    "label": "Mutterscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -176.77669529663692,
+      -127.27922061357853,
+      -142.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_98",
+    "label": "Ganzmetall-Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -176.77669529663692,
+      -127.27922061357853,
+      -142.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_99",
+    "label": "Wurzelklemmschraube",
+    "id": "ISO4762_M6x80",
+    "group": "Normteile",
+    "mass_kg": 0.019754295019988703,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -127.27922061357859,
+      -176.77669529663686,
+      -77.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_100",
+    "label": "Kopfscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -127.27922061357859,
+      -176.77669529663686,
+      -79.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_101",
+    "label": "Mutterscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -127.27922061357859,
+      -176.77669529663686,
+      -142.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_102",
+    "label": "Ganzmetall-Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -127.27922061357859,
+      -176.77669529663686,
+      -142.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_103",
+    "label": "Endtraeger-Klemmschraube",
+    "id": "ISO4762_M6x90",
+    "group": "Normteile",
+    "mass_kg": 0.021973827546889608,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -416.5147186257616,
+      -362.7746032555838,
+      -65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_104",
+    "label": "Kopfscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -416.5147186257616,
+      -362.7746032555838,
+      -67.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_105",
+    "label": "Mutterscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -416.5147186257616,
+      -362.7746032555838,
+      -146.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_106",
+    "label": "Ganzmetall-Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -416.5147186257616,
+      -362.7746032555838,
+      -146.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_107",
+    "label": "Endtraeger-Klemmschraube",
+    "id": "ISO4762_M6x90",
+    "group": "Normteile",
+    "mass_kg": 0.021973827546889608,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -362.774603255584,
+      -416.5147186257614,
+      -65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_108",
+    "label": "Kopfscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -362.774603255584,
+      -416.5147186257614,
+      -67.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_109",
+    "label": "Mutterscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -362.774603255584,
+      -416.5147186257614,
+      -146.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_110",
+    "label": "Ganzmetall-Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -362.774603255584,
+      -416.5147186257614,
+      -146.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_111",
+    "label": "Endtraeger-Klemmschraube",
+    "id": "ISO4762_M6x90",
+    "group": "Normteile",
+    "mass_kg": 0.021973827546889608,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -444.7989898732235,
+      -391.05887450304573,
+      -65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_112",
+    "label": "Kopfscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -444.7989898732235,
+      -391.05887450304573,
+      -67.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_113",
+    "label": "Mutterscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -444.7989898732235,
+      -391.05887450304573,
+      -146.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_114",
+    "label": "Ganzmetall-Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -444.7989898732235,
+      -391.05887450304573,
+      -146.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_115",
+    "label": "Endtraeger-Klemmschraube",
+    "id": "ISO4762_M6x90",
+    "group": "Normteile",
+    "mass_kg": 0.021973827546889608,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -391.0588745030459,
+      -444.7989898732233,
+      -65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_116",
+    "label": "Kopfscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -391.0588745030459,
+      -444.7989898732233,
+      -67.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_117",
+    "label": "Mutterscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -391.0588745030459,
+      -444.7989898732233,
+      -146.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_118",
+    "label": "Ganzmetall-Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -391.0588745030459,
+      -444.7989898732233,
+      -146.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_119",
+    "label": "Druckstueck-Sicherung",
+    "id": "ISO4762_M5x16",
+    "group": "Normteile",
+    "mass_kg": 0.0038819447800679664,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -94.7523086789974,
+      -131.52186130069782,
+      -110.0
+    ],
+    "placement_quaternion": [
+      -0.7010573846499777,
+      -0.09229595564125695,
+      -0.4304593345768791,
+      -0.5609855267969316
+    ]
+  },
+  {
+    "instance": "I_120",
+    "label": "Sicherungsscheibe",
+    "id": "ISO7089_M5",
+    "group": "Normteile",
+    "mass_kg": 0.00044335215814979767,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -95.45941546018395,
+      -130.8147545195113,
+      -110.0
+    ],
+    "placement_quaternion": [
+      0.5000000000000001,
+      0.4999999999999999,
+      0.0,
+      0.7071067811865476
+    ]
+  },
+  {
+    "instance": "I_121",
+    "label": "Druckstueck-Sicherung",
+    "id": "ISO4762_M5x16",
+    "group": "Normteile",
+    "mass_kg": 0.0038819447800679664,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -130.10764773832477,
+      -166.8772003600252,
+      -110.0
+    ],
+    "placement_quaternion": [
+      -0.7010573846499777,
+      -0.09229595564125695,
+      -0.4304593345768791,
+      -0.5609855267969316
+    ]
+  },
+  {
+    "instance": "I_122",
+    "label": "Sicherungsscheibe",
+    "id": "ISO7089_M5",
+    "group": "Normteile",
+    "mass_kg": 0.00044335215814979767,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -130.81475451951133,
+      -166.17009357883865,
+      -110.0
+    ],
+    "placement_quaternion": [
+      0.5000000000000001,
+      0.4999999999999999,
+      0.0,
+      0.7071067811865476
+    ]
+  },
+  {
+    "instance": "I_123",
+    "label": "Ausleger 4",
+    "id": "QD_R01",
+    "group": "Rahmen",
+    "mass_kg": 0.6824540172116411,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      98.99494936611663,
+      -98.99494936611667,
+      -110.0
+    ],
+    "placement_quaternion": [
+      0.6532814824381883,
+      0.2705980500730985,
+      0.2705980500730985,
+      0.6532814824381883
+    ]
+  },
+  {
+    "instance": "I_124",
+    "label": "Druckstueck 4",
+    "id": "QD_E01",
+    "group": "Rahmen",
+    "mass_kg": 0.7022214750189119,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      98.99494936611663,
+      -98.99494936611667,
+      -110.0
+    ],
+    "placement_quaternion": [
+      0.6532814824381883,
+      0.2705980500730985,
+      0.2705980500730985,
+      0.6532814824381883
+    ]
+  },
+  {
+    "instance": "I_125",
+    "label": "Endtraeger oben 4",
+    "id": "QD_M01",
+    "group": "Rahmen",
+    "mass_kg": 0.6094324856296941,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      424.99999999999994,
+      -425.00000000000017,
+      -87.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "I_126",
+    "label": "Endtraeger unten 4",
+    "id": "QD_M02",
+    "group": "Rahmen",
+    "mass_kg": 0.40628602210731957,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      424.99999999999994,
+      -425.00000000000017,
+      -145.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "I_127",
+    "label": "Wurzelklemmschraube",
+    "id": "ISO4762_M6x80",
+    "group": "Normteile",
+    "mass_kg": 0.019754295019988703,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      84.85281374238568,
+      -134.35028842544403,
+      -77.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_128",
+    "label": "Kopfscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      84.85281374238568,
+      -134.35028842544403,
+      -79.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_129",
+    "label": "Mutterscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      84.85281374238568,
+      -134.35028842544403,
+      -142.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_130",
+    "label": "Ganzmetall-Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      84.85281374238568,
+      -134.35028842544403,
+      -142.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_131",
+    "label": "Wurzelklemmschraube",
+    "id": "ISO4762_M6x80",
+    "group": "Normteile",
+    "mass_kg": 0.019754295019988703,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      134.350288425444,
+      -84.85281374238573,
+      -77.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_132",
+    "label": "Kopfscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      134.350288425444,
+      -84.85281374238573,
+      -79.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_133",
+    "label": "Mutterscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      134.350288425444,
+      -84.85281374238573,
+      -142.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_134",
+    "label": "Ganzmetall-Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      134.350288425444,
+      -84.85281374238573,
+      -142.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_135",
+    "label": "Wurzelklemmschraube",
+    "id": "ISO4762_M6x80",
+    "group": "Normteile",
+    "mass_kg": 0.019754295019988703,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      127.2792206135785,
+      -176.77669529663692,
+      -77.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_136",
+    "label": "Kopfscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      127.2792206135785,
+      -176.77669529663692,
+      -79.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_137",
+    "label": "Mutterscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      127.2792206135785,
+      -176.77669529663692,
+      -142.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_138",
+    "label": "Ganzmetall-Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      127.2792206135785,
+      -176.77669529663692,
+      -142.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_139",
+    "label": "Wurzelklemmschraube",
+    "id": "ISO4762_M6x80",
+    "group": "Normteile",
+    "mass_kg": 0.019754295019988703,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      176.77669529663683,
+      -127.27922061357859,
+      -77.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_140",
+    "label": "Kopfscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      176.77669529663683,
+      -127.27922061357859,
+      -79.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_141",
+    "label": "Mutterscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      176.77669529663683,
+      -127.27922061357859,
+      -142.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_142",
+    "label": "Ganzmetall-Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      176.77669529663683,
+      -127.27922061357859,
+      -142.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_143",
+    "label": "Endtraeger-Klemmschraube",
+    "id": "ISO4762_M6x90",
+    "group": "Normteile",
+    "mass_kg": 0.021973827546889608,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      362.77460325558377,
+      -416.5147186257616,
+      -65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_144",
+    "label": "Kopfscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      362.77460325558377,
+      -416.5147186257616,
+      -67.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_145",
+    "label": "Mutterscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      362.77460325558377,
+      -416.5147186257616,
+      -146.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_146",
+    "label": "Ganzmetall-Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      362.77460325558377,
+      -416.5147186257616,
+      -146.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_147",
+    "label": "Endtraeger-Klemmschraube",
+    "id": "ISO4762_M6x90",
+    "group": "Normteile",
+    "mass_kg": 0.021973827546889608,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      416.51471862576136,
+      -362.774603255584,
+      -65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_148",
+    "label": "Kopfscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      416.51471862576136,
+      -362.774603255584,
+      -67.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_149",
+    "label": "Mutterscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      416.51471862576136,
+      -362.774603255584,
+      -146.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_150",
+    "label": "Ganzmetall-Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      416.51471862576136,
+      -362.774603255584,
+      -146.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_151",
+    "label": "Endtraeger-Klemmschraube",
+    "id": "ISO4762_M6x90",
+    "group": "Normteile",
+    "mass_kg": 0.021973827546889608,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      391.0588745030457,
+      -444.7989898732235,
+      -65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_152",
+    "label": "Kopfscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      391.0588745030457,
+      -444.7989898732235,
+      -67.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_153",
+    "label": "Mutterscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      391.0588745030457,
+      -444.7989898732235,
+      -146.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_154",
+    "label": "Ganzmetall-Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      391.0588745030457,
+      -444.7989898732235,
+      -146.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_155",
+    "label": "Endtraeger-Klemmschraube",
+    "id": "ISO4762_M6x90",
+    "group": "Normteile",
+    "mass_kg": 0.021973827546889608,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      444.79898987322326,
+      -391.0588745030459,
+      -65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_156",
+    "label": "Kopfscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      444.79898987322326,
+      -391.0588745030459,
+      -67.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_157",
+    "label": "Mutterscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      444.79898987322326,
+      -391.0588745030459,
+      -146.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_158",
+    "label": "Ganzmetall-Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      444.79898987322326,
+      -391.0588745030459,
+      -146.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_159",
+    "label": "Druckstueck-Sicherung",
+    "id": "ISO4762_M5x16",
+    "group": "Normteile",
+    "mass_kg": 0.0038819447800679664,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      131.52186130069782,
+      -94.75230867899741,
+      -110.0
+    ],
+    "placement_quaternion": [
+      -0.43045933457688,
+      -0.5609855267969306,
+      -0.7010573846499779,
+      -0.09229595564125803
+    ]
+  },
+  {
+    "instance": "I_160",
+    "label": "Sicherungsscheibe",
+    "id": "ISO7089_M5",
+    "group": "Normteile",
+    "mass_kg": 0.00044335215814979767,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      130.81475451951127,
+      -95.45941546018395,
+      -110.0
+    ],
+    "placement_quaternion": [
+      -0.49999999999999983,
+      0.5000000000000001,
+      0.0,
+      0.7071067811865476
+    ]
+  },
+  {
+    "instance": "I_161",
+    "label": "Druckstueck-Sicherung",
+    "id": "ISO4762_M5x16",
+    "group": "Normteile",
+    "mass_kg": 0.0038819447800679664,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      166.8772003600252,
+      -130.10764773832477,
+      -110.0
+    ],
+    "placement_quaternion": [
+      -0.43045933457688,
+      -0.5609855267969306,
+      -0.7010573846499779,
+      -0.09229595564125803
+    ]
+  },
+  {
+    "instance": "I_162",
+    "label": "Sicherungsscheibe",
+    "id": "ISO7089_M5",
+    "group": "Normteile",
+    "mass_kg": 0.00044335215814979767,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      166.17009357883865,
+      -130.81475451951133,
+      -110.0
+    ],
+    "placement_quaternion": [
+      -0.49999999999999983,
+      0.5000000000000001,
+      0.0,
+      0.7071067811865476
+    ]
+  },
+  {
+    "instance": "I_163",
+    "label": "Decktraeger",
+    "id": "QD_R02",
+    "group": "Rahmen",
+    "mass_kg": 0.6147030254845527,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      -310.0,
+      -70.0,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.5,
+      0.5,
+      0.5,
+      0.4999999999999999
+    ]
+  },
+  {
+    "instance": "I_164",
+    "label": "Decktraeger",
+    "id": "QD_R02",
+    "group": "Rahmen",
+    "mass_kg": 0.6147030254845527,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      -310.0,
+      70.0,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.5,
+      0.5,
+      0.5,
+      0.4999999999999999
+    ]
+  },
+  {
+    "instance": "I_165",
+    "label": "Deckstuetze",
+    "id": "QD_S01",
+    "group": "Rahmen",
+    "mass_kg": 0.173431904038314,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      -85.0,
+      -70.0,
+      -79.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_166",
+    "label": "Sicherungsmutter-Kassette",
+    "id": "QD_K01",
+    "group": "Rahmen",
+    "mass_kg": 0.044516512414013665,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      -85.0,
+      -70.0,
+      76.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_167",
+    "label": "Kassettendeckel",
+    "id": "QD_K02",
+    "group": "Rahmen",
+    "mass_kg": 0.006111005610038768,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      -85.0,
+      -70.0,
+      84.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_168",
+    "label": "Stuetzenfuss M6",
+    "id": "ISO4762_M6x25",
+    "group": "Normteile",
+    "mass_kg": 0.00754686612203392,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -105.0,
+      -79.0,
+      -88.6
+    ],
+    "placement_quaternion": [
+      0.9659258262890683,
+      0.2588190451025207,
+      1e-16,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_169",
+    "label": "Fussscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -105.0,
+      -79.0,
+      -88.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_170",
+    "label": "Fusssicherung",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -105.0,
+      -79.0,
+      -73.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_171",
+    "label": "Stuetzenkopf M6",
+    "id": "ISO4762_M6x20",
+    "group": "Normteile",
+    "mass_kg": 0.00662098132242616,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -105.0,
+      -79.0,
+      65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_172",
+    "label": "Kopfscheibe Stuetze",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -105.0,
+      -79.0,
+      65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_173",
+    "label": "Gefangene Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -105.0,
+      -79.0,
+      76.8
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_174",
+    "label": "Stuetzenfuss M6",
+    "id": "ISO4762_M6x25",
+    "group": "Normteile",
+    "mass_kg": 0.00754686612203392,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -105.0,
+      -61.0,
+      -88.6
+    ],
+    "placement_quaternion": [
+      0.9659258262890683,
+      0.2588190451025207,
+      1e-16,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_175",
+    "label": "Fussscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -105.0,
+      -61.0,
+      -88.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_176",
+    "label": "Fusssicherung",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -105.0,
+      -61.0,
+      -73.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_177",
+    "label": "Stuetzenkopf M6",
+    "id": "ISO4762_M6x20",
+    "group": "Normteile",
+    "mass_kg": 0.00662098132242616,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -105.0,
+      -61.0,
+      65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_178",
+    "label": "Kopfscheibe Stuetze",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -105.0,
+      -61.0,
+      65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_179",
+    "label": "Gefangene Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -105.0,
+      -61.0,
+      76.8
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_180",
+    "label": "Stuetzenfuss M6",
+    "id": "ISO4762_M6x25",
+    "group": "Normteile",
+    "mass_kg": 0.00754686612203392,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -65.0,
+      -79.0,
+      -88.6
+    ],
+    "placement_quaternion": [
+      0.9659258262890683,
+      0.2588190451025207,
+      1e-16,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_181",
+    "label": "Fussscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -65.0,
+      -79.0,
+      -88.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_182",
+    "label": "Fusssicherung",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -65.0,
+      -79.0,
+      -73.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_183",
+    "label": "Stuetzenkopf M6",
+    "id": "ISO4762_M6x20",
+    "group": "Normteile",
+    "mass_kg": 0.00662098132242616,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -65.0,
+      -79.0,
+      65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_184",
+    "label": "Kopfscheibe Stuetze",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -65.0,
+      -79.0,
+      65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_185",
+    "label": "Gefangene Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -65.0,
+      -79.0,
+      76.8
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_186",
+    "label": "Stuetzenfuss M6",
+    "id": "ISO4762_M6x25",
+    "group": "Normteile",
+    "mass_kg": 0.00754686612203392,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -65.0,
+      -61.0,
+      -88.6
+    ],
+    "placement_quaternion": [
+      0.9659258262890683,
+      0.2588190451025207,
+      1e-16,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_187",
+    "label": "Fussscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -65.0,
+      -61.0,
+      -88.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_188",
+    "label": "Fusssicherung",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -65.0,
+      -61.0,
+      -73.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_189",
+    "label": "Stuetzenkopf M6",
+    "id": "ISO4762_M6x20",
+    "group": "Normteile",
+    "mass_kg": 0.00662098132242616,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -65.0,
+      -61.0,
+      65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_190",
+    "label": "Kopfscheibe Stuetze",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -65.0,
+      -61.0,
+      65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_191",
+    "label": "Gefangene Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -65.0,
+      -61.0,
+      76.8
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_192",
+    "label": "Kassetten-Deckelschraube",
+    "id": "ISO4762_M3x8",
+    "group": "Normteile",
+    "mass_kg": 0.0008399882737634045,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -115.0,
+      -70.0,
+      85.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.2588190451025207,
+      0.9659258262890683
+    ]
+  },
+  {
+    "instance": "I_193",
+    "label": "Kassetten-Deckelschraube",
+    "id": "ISO4762_M3x8",
+    "group": "Normteile",
+    "mass_kg": 0.0008399882737634045,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -55.0,
+      -70.0,
+      85.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.2588190451025207,
+      0.9659258262890683
+    ]
+  },
+  {
+    "instance": "I_194",
+    "label": "Deckstuetze",
+    "id": "QD_S01",
+    "group": "Rahmen",
+    "mass_kg": 0.173431904038314,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      -85.0,
+      70.0,
+      -79.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_195",
+    "label": "Sicherungsmutter-Kassette",
+    "id": "QD_K01",
+    "group": "Rahmen",
+    "mass_kg": 0.044516512414013665,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      -85.0,
+      70.0,
+      76.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_196",
+    "label": "Kassettendeckel",
+    "id": "QD_K02",
+    "group": "Rahmen",
+    "mass_kg": 0.006111005610038768,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      -85.0,
+      70.0,
+      84.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_197",
+    "label": "Stuetzenfuss M6",
+    "id": "ISO4762_M6x25",
+    "group": "Normteile",
+    "mass_kg": 0.00754686612203392,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -105.0,
+      61.0,
+      -88.6
+    ],
+    "placement_quaternion": [
+      0.9659258262890683,
+      0.2588190451025207,
+      1e-16,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_198",
+    "label": "Fussscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -105.0,
+      61.0,
+      -88.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_199",
+    "label": "Fusssicherung",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -105.0,
+      61.0,
+      -73.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_200",
+    "label": "Stuetzenkopf M6",
+    "id": "ISO4762_M6x20",
+    "group": "Normteile",
+    "mass_kg": 0.00662098132242616,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -105.0,
+      61.0,
+      65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_201",
+    "label": "Kopfscheibe Stuetze",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -105.0,
+      61.0,
+      65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_202",
+    "label": "Gefangene Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -105.0,
+      61.0,
+      76.8
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_203",
+    "label": "Stuetzenfuss M6",
+    "id": "ISO4762_M6x25",
+    "group": "Normteile",
+    "mass_kg": 0.00754686612203392,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -105.0,
+      79.0,
+      -88.6
+    ],
+    "placement_quaternion": [
+      0.9659258262890683,
+      0.2588190451025207,
+      1e-16,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_204",
+    "label": "Fussscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -105.0,
+      79.0,
+      -88.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_205",
+    "label": "Fusssicherung",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -105.0,
+      79.0,
+      -73.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_206",
+    "label": "Stuetzenkopf M6",
+    "id": "ISO4762_M6x20",
+    "group": "Normteile",
+    "mass_kg": 0.00662098132242616,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -105.0,
+      79.0,
+      65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_207",
+    "label": "Kopfscheibe Stuetze",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -105.0,
+      79.0,
+      65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_208",
+    "label": "Gefangene Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -105.0,
+      79.0,
+      76.8
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_209",
+    "label": "Stuetzenfuss M6",
+    "id": "ISO4762_M6x25",
+    "group": "Normteile",
+    "mass_kg": 0.00754686612203392,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -65.0,
+      61.0,
+      -88.6
+    ],
+    "placement_quaternion": [
+      0.9659258262890683,
+      0.2588190451025207,
+      1e-16,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_210",
+    "label": "Fussscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -65.0,
+      61.0,
+      -88.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_211",
+    "label": "Fusssicherung",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -65.0,
+      61.0,
+      -73.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_212",
+    "label": "Stuetzenkopf M6",
+    "id": "ISO4762_M6x20",
+    "group": "Normteile",
+    "mass_kg": 0.00662098132242616,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -65.0,
+      61.0,
+      65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_213",
+    "label": "Kopfscheibe Stuetze",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -65.0,
+      61.0,
+      65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_214",
+    "label": "Gefangene Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -65.0,
+      61.0,
+      76.8
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_215",
+    "label": "Stuetzenfuss M6",
+    "id": "ISO4762_M6x25",
+    "group": "Normteile",
+    "mass_kg": 0.00754686612203392,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -65.0,
+      79.0,
+      -88.6
+    ],
+    "placement_quaternion": [
+      0.9659258262890683,
+      0.2588190451025207,
+      1e-16,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_216",
+    "label": "Fussscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -65.0,
+      79.0,
+      -88.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_217",
+    "label": "Fusssicherung",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -65.0,
+      79.0,
+      -73.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_218",
+    "label": "Stuetzenkopf M6",
+    "id": "ISO4762_M6x20",
+    "group": "Normteile",
+    "mass_kg": 0.00662098132242616,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -65.0,
+      79.0,
+      65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_219",
+    "label": "Kopfscheibe Stuetze",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -65.0,
+      79.0,
+      65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_220",
+    "label": "Gefangene Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -65.0,
+      79.0,
+      76.8
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_221",
+    "label": "Kassetten-Deckelschraube",
+    "id": "ISO4762_M3x8",
+    "group": "Normteile",
+    "mass_kg": 0.0008399882737634045,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -115.0,
+      70.0,
+      85.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.2588190451025207,
+      0.9659258262890683
+    ]
+  },
+  {
+    "instance": "I_222",
+    "label": "Kassetten-Deckelschraube",
+    "id": "ISO4762_M3x8",
+    "group": "Normteile",
+    "mass_kg": 0.0008399882737634045,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -55.0,
+      70.0,
+      85.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.2588190451025207,
+      0.9659258262890683
+    ]
+  },
+  {
+    "instance": "I_223",
+    "label": "Deckstuetze",
+    "id": "QD_S01",
+    "group": "Rahmen",
+    "mass_kg": 0.173431904038314,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      85.0,
+      -70.0,
+      -79.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_224",
+    "label": "Sicherungsmutter-Kassette",
+    "id": "QD_K01",
+    "group": "Rahmen",
+    "mass_kg": 0.044516512414013665,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      85.0,
+      -70.0,
+      76.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_225",
+    "label": "Kassettendeckel",
+    "id": "QD_K02",
+    "group": "Rahmen",
+    "mass_kg": 0.006111005610038768,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      85.0,
+      -70.0,
+      84.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_226",
+    "label": "Stuetzenfuss M6",
+    "id": "ISO4762_M6x25",
+    "group": "Normteile",
+    "mass_kg": 0.00754686612203392,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      65.0,
+      -79.0,
+      -88.6
+    ],
+    "placement_quaternion": [
+      0.9659258262890683,
+      0.2588190451025207,
+      1e-16,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_227",
+    "label": "Fussscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      65.0,
+      -79.0,
+      -88.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_228",
+    "label": "Fusssicherung",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      65.0,
+      -79.0,
+      -73.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_229",
+    "label": "Stuetzenkopf M6",
+    "id": "ISO4762_M6x20",
+    "group": "Normteile",
+    "mass_kg": 0.00662098132242616,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      65.0,
+      -79.0,
+      65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_230",
+    "label": "Kopfscheibe Stuetze",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      65.0,
+      -79.0,
+      65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_231",
+    "label": "Gefangene Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      65.0,
+      -79.0,
+      76.8
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_232",
+    "label": "Stuetzenfuss M6",
+    "id": "ISO4762_M6x25",
+    "group": "Normteile",
+    "mass_kg": 0.00754686612203392,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      65.0,
+      -61.0,
+      -88.6
+    ],
+    "placement_quaternion": [
+      0.9659258262890683,
+      0.2588190451025207,
+      1e-16,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_233",
+    "label": "Fussscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      65.0,
+      -61.0,
+      -88.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_234",
+    "label": "Fusssicherung",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      65.0,
+      -61.0,
+      -73.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_235",
+    "label": "Stuetzenkopf M6",
+    "id": "ISO4762_M6x20",
+    "group": "Normteile",
+    "mass_kg": 0.00662098132242616,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      65.0,
+      -61.0,
+      65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_236",
+    "label": "Kopfscheibe Stuetze",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      65.0,
+      -61.0,
+      65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_237",
+    "label": "Gefangene Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      65.0,
+      -61.0,
+      76.8
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_238",
+    "label": "Stuetzenfuss M6",
+    "id": "ISO4762_M6x25",
+    "group": "Normteile",
+    "mass_kg": 0.00754686612203392,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      105.0,
+      -79.0,
+      -88.6
+    ],
+    "placement_quaternion": [
+      0.9659258262890683,
+      0.2588190451025207,
+      1e-16,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_239",
+    "label": "Fussscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      105.0,
+      -79.0,
+      -88.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_240",
+    "label": "Fusssicherung",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      105.0,
+      -79.0,
+      -73.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_241",
+    "label": "Stuetzenkopf M6",
+    "id": "ISO4762_M6x20",
+    "group": "Normteile",
+    "mass_kg": 0.00662098132242616,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      105.0,
+      -79.0,
+      65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_242",
+    "label": "Kopfscheibe Stuetze",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      105.0,
+      -79.0,
+      65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_243",
+    "label": "Gefangene Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      105.0,
+      -79.0,
+      76.8
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_244",
+    "label": "Stuetzenfuss M6",
+    "id": "ISO4762_M6x25",
+    "group": "Normteile",
+    "mass_kg": 0.00754686612203392,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      105.0,
+      -61.0,
+      -88.6
+    ],
+    "placement_quaternion": [
+      0.9659258262890683,
+      0.2588190451025207,
+      1e-16,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_245",
+    "label": "Fussscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      105.0,
+      -61.0,
+      -88.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_246",
+    "label": "Fusssicherung",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      105.0,
+      -61.0,
+      -73.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_247",
+    "label": "Stuetzenkopf M6",
+    "id": "ISO4762_M6x20",
+    "group": "Normteile",
+    "mass_kg": 0.00662098132242616,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      105.0,
+      -61.0,
+      65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_248",
+    "label": "Kopfscheibe Stuetze",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      105.0,
+      -61.0,
+      65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_249",
+    "label": "Gefangene Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      105.0,
+      -61.0,
+      76.8
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_250",
+    "label": "Kassetten-Deckelschraube",
+    "id": "ISO4762_M3x8",
+    "group": "Normteile",
+    "mass_kg": 0.0008399882737634045,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      55.0,
+      -70.0,
+      85.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.2588190451025207,
+      0.9659258262890683
+    ]
+  },
+  {
+    "instance": "I_251",
+    "label": "Kassetten-Deckelschraube",
+    "id": "ISO4762_M3x8",
+    "group": "Normteile",
+    "mass_kg": 0.0008399882737634045,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      115.0,
+      -70.0,
+      85.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.2588190451025207,
+      0.9659258262890683
+    ]
+  },
+  {
+    "instance": "I_252",
+    "label": "Deckstuetze",
+    "id": "QD_S01",
+    "group": "Rahmen",
+    "mass_kg": 0.173431904038314,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      85.0,
+      70.0,
+      -79.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_253",
+    "label": "Sicherungsmutter-Kassette",
+    "id": "QD_K01",
+    "group": "Rahmen",
+    "mass_kg": 0.044516512414013665,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      85.0,
+      70.0,
+      76.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_254",
+    "label": "Kassettendeckel",
+    "id": "QD_K02",
+    "group": "Rahmen",
+    "mass_kg": 0.006111005610038768,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      85.0,
+      70.0,
+      84.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_255",
+    "label": "Stuetzenfuss M6",
+    "id": "ISO4762_M6x25",
+    "group": "Normteile",
+    "mass_kg": 0.00754686612203392,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      65.0,
+      61.0,
+      -88.6
+    ],
+    "placement_quaternion": [
+      0.9659258262890683,
+      0.2588190451025207,
+      1e-16,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_256",
+    "label": "Fussscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      65.0,
+      61.0,
+      -88.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_257",
+    "label": "Fusssicherung",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      65.0,
+      61.0,
+      -73.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_258",
+    "label": "Stuetzenkopf M6",
+    "id": "ISO4762_M6x20",
+    "group": "Normteile",
+    "mass_kg": 0.00662098132242616,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      65.0,
+      61.0,
+      65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_259",
+    "label": "Kopfscheibe Stuetze",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      65.0,
+      61.0,
+      65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_260",
+    "label": "Gefangene Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      65.0,
+      61.0,
+      76.8
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_261",
+    "label": "Stuetzenfuss M6",
+    "id": "ISO4762_M6x25",
+    "group": "Normteile",
+    "mass_kg": 0.00754686612203392,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      65.0,
+      79.0,
+      -88.6
+    ],
+    "placement_quaternion": [
+      0.9659258262890683,
+      0.2588190451025207,
+      1e-16,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_262",
+    "label": "Fussscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      65.0,
+      79.0,
+      -88.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_263",
+    "label": "Fusssicherung",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      65.0,
+      79.0,
+      -73.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_264",
+    "label": "Stuetzenkopf M6",
+    "id": "ISO4762_M6x20",
+    "group": "Normteile",
+    "mass_kg": 0.00662098132242616,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      65.0,
+      79.0,
+      65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_265",
+    "label": "Kopfscheibe Stuetze",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      65.0,
+      79.0,
+      65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_266",
+    "label": "Gefangene Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      65.0,
+      79.0,
+      76.8
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_267",
+    "label": "Stuetzenfuss M6",
+    "id": "ISO4762_M6x25",
+    "group": "Normteile",
+    "mass_kg": 0.00754686612203392,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      105.0,
+      61.0,
+      -88.6
+    ],
+    "placement_quaternion": [
+      0.9659258262890683,
+      0.2588190451025207,
+      1e-16,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_268",
+    "label": "Fussscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      105.0,
+      61.0,
+      -88.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_269",
+    "label": "Fusssicherung",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      105.0,
+      61.0,
+      -73.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_270",
+    "label": "Stuetzenkopf M6",
+    "id": "ISO4762_M6x20",
+    "group": "Normteile",
+    "mass_kg": 0.00662098132242616,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      105.0,
+      61.0,
+      65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_271",
+    "label": "Kopfscheibe Stuetze",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      105.0,
+      61.0,
+      65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_272",
+    "label": "Gefangene Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      105.0,
+      61.0,
+      76.8
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_273",
+    "label": "Stuetzenfuss M6",
+    "id": "ISO4762_M6x25",
+    "group": "Normteile",
+    "mass_kg": 0.00754686612203392,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      105.0,
+      79.0,
+      -88.6
+    ],
+    "placement_quaternion": [
+      0.9659258262890683,
+      0.2588190451025207,
+      1e-16,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_274",
+    "label": "Fussscheibe",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      105.0,
+      79.0,
+      -88.6
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_275",
+    "label": "Fusssicherung",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      105.0,
+      79.0,
+      -73.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_276",
+    "label": "Stuetzenkopf M6",
+    "id": "ISO4762_M6x20",
+    "group": "Normteile",
+    "mass_kg": 0.00662098132242616,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      105.0,
+      79.0,
+      65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_277",
+    "label": "Kopfscheibe Stuetze",
+    "id": "ISO7089_M6",
+    "group": "Normteile",
+    "mass_kg": 0.001016448480061302,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      105.0,
+      79.0,
+      65.4
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_278",
+    "label": "Gefangene Sicherungsmutter",
+    "id": "ISO7719_M6",
+    "group": "Normteile",
+    "mass_kg": 0.0028041378427679066,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      105.0,
+      79.0,
+      76.8
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_279",
+    "label": "Kassetten-Deckelschraube",
+    "id": "ISO4762_M3x8",
+    "group": "Normteile",
+    "mass_kg": 0.0008399882737634045,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      55.0,
+      70.0,
+      85.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.2588190451025207,
+      0.9659258262890683
+    ]
+  },
+  {
+    "instance": "I_280",
+    "label": "Kassetten-Deckelschraube",
+    "id": "ISO4762_M3x8",
+    "group": "Normteile",
+    "mass_kg": 0.0008399882737634045,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      115.0,
+      70.0,
+      85.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.2588190451025207,
+      0.9659258262890683
+    ]
+  },
+  {
+    "instance": "I_281",
+    "label": "Deck-Druckhuelse",
+    "id": "QD_H01",
+    "group": "Rahmen",
+    "mass_kg": 0.0024148048281358793,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      -270.0,
+      -70.0,
+      76.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_282",
+    "label": "Deckschraube",
+    "id": "ISO4762_M5x50",
+    "group": "Normteile",
+    "mass_kg": 0.008943073428960363,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -270.0,
+      -70.0,
+      111.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.8910065241883679,
+      -0.4539904997395467
+    ]
+  },
+  {
+    "instance": "I_283",
+    "label": "Deck-Kopfscheibe",
+    "id": "ISO7089_M5",
+    "group": "Normteile",
+    "mass_kg": 0.00044335215814979767,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -270.0,
+      -70.0,
+      110.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_284",
+    "label": "Deck-Mutterscheibe",
+    "id": "ISO7089_M5",
+    "group": "Normteile",
+    "mass_kg": 0.00044335215814979767,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -270.0,
+      -70.0,
+      72.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_285",
+    "label": "Deck-Sicherungsmutter",
+    "id": "ISO7719_M5",
+    "group": "Normteile",
+    "mass_kg": 0.001562056981743643,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -270.0,
+      -70.0,
+      72.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_286",
+    "label": "Deck-Druckhuelse",
+    "id": "QD_H01",
+    "group": "Rahmen",
+    "mass_kg": 0.0024148048281358793,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      -210.0,
+      -70.0,
+      76.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_287",
+    "label": "Deckschraube",
+    "id": "ISO4762_M5x50",
+    "group": "Normteile",
+    "mass_kg": 0.008943073428960363,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -210.0,
+      -70.0,
+      111.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.8910065241883679,
+      -0.4539904997395467
+    ]
+  },
+  {
+    "instance": "I_288",
+    "label": "Deck-Kopfscheibe",
+    "id": "ISO7089_M5",
+    "group": "Normteile",
+    "mass_kg": 0.00044335215814979767,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -210.0,
+      -70.0,
+      110.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_289",
+    "label": "Deck-Mutterscheibe",
+    "id": "ISO7089_M5",
+    "group": "Normteile",
+    "mass_kg": 0.00044335215814979767,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -210.0,
+      -70.0,
+      72.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_290",
+    "label": "Deck-Sicherungsmutter",
+    "id": "ISO7719_M5",
+    "group": "Normteile",
+    "mass_kg": 0.001562056981743643,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -210.0,
+      -70.0,
+      72.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_291",
+    "label": "Deck-Druckhuelse",
+    "id": "QD_H01",
+    "group": "Rahmen",
+    "mass_kg": 0.0024148048281358793,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      -150.0,
+      -70.0,
+      76.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_292",
+    "label": "Deckschraube",
+    "id": "ISO4762_M5x50",
+    "group": "Normteile",
+    "mass_kg": 0.008943073428960363,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -150.0,
+      -70.0,
+      111.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.8910065241883679,
+      -0.4539904997395467
+    ]
+  },
+  {
+    "instance": "I_293",
+    "label": "Deck-Kopfscheibe",
+    "id": "ISO7089_M5",
+    "group": "Normteile",
+    "mass_kg": 0.00044335215814979767,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -150.0,
+      -70.0,
+      110.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_294",
+    "label": "Deck-Mutterscheibe",
+    "id": "ISO7089_M5",
+    "group": "Normteile",
+    "mass_kg": 0.00044335215814979767,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -150.0,
+      -70.0,
+      72.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_295",
+    "label": "Deck-Sicherungsmutter",
+    "id": "ISO7719_M5",
+    "group": "Normteile",
+    "mass_kg": 0.001562056981743643,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -150.0,
+      -70.0,
+      72.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_296",
+    "label": "Deck-Druckhuelse",
+    "id": "QD_H01",
+    "group": "Rahmen",
+    "mass_kg": 0.0024148048281358793,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      0.0,
+      -70.0,
+      76.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_297",
+    "label": "Deckschraube",
+    "id": "ISO4762_M5x50",
+    "group": "Normteile",
+    "mass_kg": 0.008943073428960363,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      0.0,
+      -70.0,
+      111.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.8910065241883679,
+      -0.4539904997395467
+    ]
+  },
+  {
+    "instance": "I_298",
+    "label": "Deck-Kopfscheibe",
+    "id": "ISO7089_M5",
+    "group": "Normteile",
+    "mass_kg": 0.00044335215814979767,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      0.0,
+      -70.0,
+      110.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_299",
+    "label": "Deck-Mutterscheibe",
+    "id": "ISO7089_M5",
+    "group": "Normteile",
+    "mass_kg": 0.00044335215814979767,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      0.0,
+      -70.0,
+      72.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_300",
+    "label": "Deck-Sicherungsmutter",
+    "id": "ISO7719_M5",
+    "group": "Normteile",
+    "mass_kg": 0.001562056981743643,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      0.0,
+      -70.0,
+      72.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_301",
+    "label": "Deck-Druckhuelse",
+    "id": "QD_H01",
+    "group": "Rahmen",
+    "mass_kg": 0.0024148048281358793,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      150.0,
+      -70.0,
+      76.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_302",
+    "label": "Deckschraube",
+    "id": "ISO4762_M5x50",
+    "group": "Normteile",
+    "mass_kg": 0.008943073428960363,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      150.0,
+      -70.0,
+      111.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.8910065241883679,
+      -0.4539904997395467
+    ]
+  },
+  {
+    "instance": "I_303",
+    "label": "Deck-Kopfscheibe",
+    "id": "ISO7089_M5",
+    "group": "Normteile",
+    "mass_kg": 0.00044335215814979767,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      150.0,
+      -70.0,
+      110.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_304",
+    "label": "Deck-Mutterscheibe",
+    "id": "ISO7089_M5",
+    "group": "Normteile",
+    "mass_kg": 0.00044335215814979767,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      150.0,
+      -70.0,
+      72.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_305",
+    "label": "Deck-Sicherungsmutter",
+    "id": "ISO7719_M5",
+    "group": "Normteile",
+    "mass_kg": 0.001562056981743643,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      150.0,
+      -70.0,
+      72.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_306",
+    "label": "Deck-Druckhuelse",
+    "id": "QD_H01",
+    "group": "Rahmen",
+    "mass_kg": 0.0024148048281358793,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      210.0,
+      -70.0,
+      76.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_307",
+    "label": "Deckschraube",
+    "id": "ISO4762_M5x50",
+    "group": "Normteile",
+    "mass_kg": 0.008943073428960363,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      210.0,
+      -70.0,
+      111.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.8910065241883679,
+      -0.4539904997395467
+    ]
+  },
+  {
+    "instance": "I_308",
+    "label": "Deck-Kopfscheibe",
+    "id": "ISO7089_M5",
+    "group": "Normteile",
+    "mass_kg": 0.00044335215814979767,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      210.0,
+      -70.0,
+      110.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_309",
+    "label": "Deck-Mutterscheibe",
+    "id": "ISO7089_M5",
+    "group": "Normteile",
+    "mass_kg": 0.00044335215814979767,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      210.0,
+      -70.0,
+      72.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_310",
+    "label": "Deck-Sicherungsmutter",
+    "id": "ISO7719_M5",
+    "group": "Normteile",
+    "mass_kg": 0.001562056981743643,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      210.0,
+      -70.0,
+      72.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_311",
+    "label": "Deck-Druckhuelse",
+    "id": "QD_H01",
+    "group": "Rahmen",
+    "mass_kg": 0.0024148048281358793,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      270.0,
+      -70.0,
+      76.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_312",
+    "label": "Deckschraube",
+    "id": "ISO4762_M5x50",
+    "group": "Normteile",
+    "mass_kg": 0.008943073428960363,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      270.0,
+      -70.0,
+      111.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.8910065241883679,
+      -0.4539904997395467
+    ]
+  },
+  {
+    "instance": "I_313",
+    "label": "Deck-Kopfscheibe",
+    "id": "ISO7089_M5",
+    "group": "Normteile",
+    "mass_kg": 0.00044335215814979767,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      270.0,
+      -70.0,
+      110.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_314",
+    "label": "Deck-Mutterscheibe",
+    "id": "ISO7089_M5",
+    "group": "Normteile",
+    "mass_kg": 0.00044335215814979767,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      270.0,
+      -70.0,
+      72.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_315",
+    "label": "Deck-Sicherungsmutter",
+    "id": "ISO7719_M5",
+    "group": "Normteile",
+    "mass_kg": 0.001562056981743643,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      270.0,
+      -70.0,
+      72.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_316",
+    "label": "Deck-Druckhuelse",
+    "id": "QD_H01",
+    "group": "Rahmen",
+    "mass_kg": 0.0024148048281358793,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      -270.0,
+      70.0,
+      76.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_317",
+    "label": "Deckschraube",
+    "id": "ISO4762_M5x50",
+    "group": "Normteile",
+    "mass_kg": 0.008943073428960363,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -270.0,
+      70.0,
+      111.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.8910065241883679,
+      -0.4539904997395467
+    ]
+  },
+  {
+    "instance": "I_318",
+    "label": "Deck-Kopfscheibe",
+    "id": "ISO7089_M5",
+    "group": "Normteile",
+    "mass_kg": 0.00044335215814979767,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -270.0,
+      70.0,
+      110.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_319",
+    "label": "Deck-Mutterscheibe",
+    "id": "ISO7089_M5",
+    "group": "Normteile",
+    "mass_kg": 0.00044335215814979767,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -270.0,
+      70.0,
+      72.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_320",
+    "label": "Deck-Sicherungsmutter",
+    "id": "ISO7719_M5",
+    "group": "Normteile",
+    "mass_kg": 0.001562056981743643,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -270.0,
+      70.0,
+      72.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_321",
+    "label": "Deck-Druckhuelse",
+    "id": "QD_H01",
+    "group": "Rahmen",
+    "mass_kg": 0.0024148048281358793,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      -210.0,
+      70.0,
+      76.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_322",
+    "label": "Deckschraube",
+    "id": "ISO4762_M5x50",
+    "group": "Normteile",
+    "mass_kg": 0.008943073428960363,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -210.0,
+      70.0,
+      111.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.8910065241883679,
+      -0.4539904997395467
+    ]
+  },
+  {
+    "instance": "I_323",
+    "label": "Deck-Kopfscheibe",
+    "id": "ISO7089_M5",
+    "group": "Normteile",
+    "mass_kg": 0.00044335215814979767,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -210.0,
+      70.0,
+      110.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_324",
+    "label": "Deck-Mutterscheibe",
+    "id": "ISO7089_M5",
+    "group": "Normteile",
+    "mass_kg": 0.00044335215814979767,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -210.0,
+      70.0,
+      72.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_325",
+    "label": "Deck-Sicherungsmutter",
+    "id": "ISO7719_M5",
+    "group": "Normteile",
+    "mass_kg": 0.001562056981743643,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -210.0,
+      70.0,
+      72.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_326",
+    "label": "Deck-Druckhuelse",
+    "id": "QD_H01",
+    "group": "Rahmen",
+    "mass_kg": 0.0024148048281358793,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      -150.0,
+      70.0,
+      76.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_327",
+    "label": "Deckschraube",
+    "id": "ISO4762_M5x50",
+    "group": "Normteile",
+    "mass_kg": 0.008943073428960363,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -150.0,
+      70.0,
+      111.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.8910065241883679,
+      -0.4539904997395467
+    ]
+  },
+  {
+    "instance": "I_328",
+    "label": "Deck-Kopfscheibe",
+    "id": "ISO7089_M5",
+    "group": "Normteile",
+    "mass_kg": 0.00044335215814979767,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -150.0,
+      70.0,
+      110.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_329",
+    "label": "Deck-Mutterscheibe",
+    "id": "ISO7089_M5",
+    "group": "Normteile",
+    "mass_kg": 0.00044335215814979767,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -150.0,
+      70.0,
+      72.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_330",
+    "label": "Deck-Sicherungsmutter",
+    "id": "ISO7719_M5",
+    "group": "Normteile",
+    "mass_kg": 0.001562056981743643,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -150.0,
+      70.0,
+      72.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_331",
+    "label": "Deck-Druckhuelse",
+    "id": "QD_H01",
+    "group": "Rahmen",
+    "mass_kg": 0.0024148048281358793,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      0.0,
+      70.0,
+      76.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_332",
+    "label": "Deckschraube",
+    "id": "ISO4762_M5x50",
+    "group": "Normteile",
+    "mass_kg": 0.008943073428960363,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      0.0,
+      70.0,
+      111.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.8910065241883679,
+      -0.4539904997395467
+    ]
+  },
+  {
+    "instance": "I_333",
+    "label": "Deck-Kopfscheibe",
+    "id": "ISO7089_M5",
+    "group": "Normteile",
+    "mass_kg": 0.00044335215814979767,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      0.0,
+      70.0,
+      110.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_334",
+    "label": "Deck-Mutterscheibe",
+    "id": "ISO7089_M5",
+    "group": "Normteile",
+    "mass_kg": 0.00044335215814979767,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      0.0,
+      70.0,
+      72.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_335",
+    "label": "Deck-Sicherungsmutter",
+    "id": "ISO7719_M5",
+    "group": "Normteile",
+    "mass_kg": 0.001562056981743643,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      0.0,
+      70.0,
+      72.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_336",
+    "label": "Deck-Druckhuelse",
+    "id": "QD_H01",
+    "group": "Rahmen",
+    "mass_kg": 0.0024148048281358793,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      150.0,
+      70.0,
+      76.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_337",
+    "label": "Deckschraube",
+    "id": "ISO4762_M5x50",
+    "group": "Normteile",
+    "mass_kg": 0.008943073428960363,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      150.0,
+      70.0,
+      111.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.8910065241883679,
+      -0.4539904997395467
+    ]
+  },
+  {
+    "instance": "I_338",
+    "label": "Deck-Kopfscheibe",
+    "id": "ISO7089_M5",
+    "group": "Normteile",
+    "mass_kg": 0.00044335215814979767,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      150.0,
+      70.0,
+      110.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_339",
+    "label": "Deck-Mutterscheibe",
+    "id": "ISO7089_M5",
+    "group": "Normteile",
+    "mass_kg": 0.00044335215814979767,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      150.0,
+      70.0,
+      72.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_340",
+    "label": "Deck-Sicherungsmutter",
+    "id": "ISO7719_M5",
+    "group": "Normteile",
+    "mass_kg": 0.001562056981743643,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      150.0,
+      70.0,
+      72.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_341",
+    "label": "Deck-Druckhuelse",
+    "id": "QD_H01",
+    "group": "Rahmen",
+    "mass_kg": 0.0024148048281358793,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      210.0,
+      70.0,
+      76.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_342",
+    "label": "Deckschraube",
+    "id": "ISO4762_M5x50",
+    "group": "Normteile",
+    "mass_kg": 0.008943073428960363,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      210.0,
+      70.0,
+      111.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.8910065241883679,
+      -0.4539904997395467
+    ]
+  },
+  {
+    "instance": "I_343",
+    "label": "Deck-Kopfscheibe",
+    "id": "ISO7089_M5",
+    "group": "Normteile",
+    "mass_kg": 0.00044335215814979767,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      210.0,
+      70.0,
+      110.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_344",
+    "label": "Deck-Mutterscheibe",
+    "id": "ISO7089_M5",
+    "group": "Normteile",
+    "mass_kg": 0.00044335215814979767,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      210.0,
+      70.0,
+      72.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_345",
+    "label": "Deck-Sicherungsmutter",
+    "id": "ISO7719_M5",
+    "group": "Normteile",
+    "mass_kg": 0.001562056981743643,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      210.0,
+      70.0,
+      72.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_346",
+    "label": "Deck-Druckhuelse",
+    "id": "QD_H01",
+    "group": "Rahmen",
+    "mass_kg": 0.0024148048281358793,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      270.0,
+      70.0,
+      76.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_347",
+    "label": "Deckschraube",
+    "id": "ISO4762_M5x50",
+    "group": "Normteile",
+    "mass_kg": 0.008943073428960363,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      270.0,
+      70.0,
+      111.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.8910065241883679,
+      -0.4539904997395467
+    ]
+  },
+  {
+    "instance": "I_348",
+    "label": "Deck-Kopfscheibe",
+    "id": "ISO7089_M5",
+    "group": "Normteile",
+    "mass_kg": 0.00044335215814979767,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      270.0,
+      70.0,
+      110.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_349",
+    "label": "Deck-Mutterscheibe",
+    "id": "ISO7089_M5",
+    "group": "Normteile",
+    "mass_kg": 0.00044335215814979767,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      270.0,
+      70.0,
+      72.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "I_350",
+    "label": "Deck-Sicherungsmutter",
+    "id": "ISO7719_M5",
+    "group": "Normteile",
+    "mass_kg": 0.001562056981743643,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      270.0,
+      70.0,
+      72.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "instance": "I_351",
+    "label": "Personendeck",
+    "id": "QD_D01",
+    "group": "Rahmen",
+    "mass_kg": 3.007040938468892,
+    "source": "Parametrisches PartDesign-Bauteil",
+    "placement_mm": [
+      0.0,
+      0.0,
+      105.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  }
+]

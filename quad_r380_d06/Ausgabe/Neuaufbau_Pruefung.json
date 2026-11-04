@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "native_sha256": "9842c83362c6117f37fd90cb0bbee737e61358ddb5fb1b0d7577e726e2674d18",
+  "instances": 1052,
+  "part_types": 49,
+  "all_positions_and_quaternions_match": true,
+  "root_screw_phases_included": true,
+  "mass_delivered_kg": 34.57247901674111,
+  "mass_rebuilt_kg": 34.57247901674111,
+  "total_mass_delta_kg": 0.0,
+  "maximum_prototype_mass_delta_kg": 0.0,
+  "source_script_sha256": "fecaa82af121f4386af5786b068cf48ba7eaa45c1b860bbf1249ec5a6838b1c7",
+  "geometry_script_sha256": "fd3b2f95a974d14ac17c56a3f75e3d01eaa877f8e1b159614892957146d047b4"
+}

@@ -1,0 +1,2182 @@
+{
+  "configurations": [
+    {
+      "id": "HEP_S_18_6p7",
+      "label": "HEP-S 18×6.7",
+      "diameter_in": 18,
+      "pitch_in": 6.7,
+      "diameter_mm": 457.2,
+      "pitch_mm": 170.18,
+      "radius_mm": 228.6,
+      "motor_half_spacing_mm": 420,
+      "unprotected_width_mm": 1297.2,
+      "rotor_edge_gap_mm": 382.8,
+      "frame_rectangle_clearance_lower_bound_mm": 72.61254953935767,
+      "oem_shape_available": false,
+      "oem_performance_available": false,
+      "visualization": "Rotor swept-space envelope only; not an OEM propeller solid"
+    },
+    {
+      "id": "HEP_S_22_7p2",
+      "label": "HEP-S 22×7.2",
+      "diameter_in": 22,
+      "pitch_in": 7.2,
+      "diameter_mm": 558.8,
+      "pitch_mm": 182.88,
+      "radius_mm": 279.4,
+      "motor_half_spacing_mm": 420,
+      "unprotected_width_mm": 1398.8,
+      "rotor_edge_gap_mm": 281.20000000000005,
+      "frame_rectangle_clearance_lower_bound_mm": 21.81254953935769,
+      "oem_shape_available": false,
+      "oem_performance_available": false,
+      "visualization": "Rotor swept-space envelope only; not an OEM propeller solid"
+    },
+    {
+      "id": "HEP_S_26_8p8",
+      "label": "HEP-S 26×8.8",
+      "diameter_in": 26,
+      "pitch_in": 8.8,
+      "diameter_mm": 660.4,
+      "pitch_mm": 223.52,
+      "radius_mm": 330.2,
+      "motor_half_spacing_mm": 465,
+      "unprotected_width_mm": 1590.4,
+      "rotor_edge_gap_mm": 269.6,
+      "frame_rectangle_clearance_lower_bound_mm": 22.232972350772002,
+      "oem_shape_available": false,
+      "oem_performance_available": false,
+      "visualization": "Rotor swept-space envelope only; not an OEM propeller solid"
+    },
+    {
+      "id": "HEP_S_28_9",
+      "label": "HEP-S 28×9",
+      "diameter_in": 28,
+      "pitch_in": 9,
+      "diameter_mm": 711.1999999999999,
+      "pitch_mm": 228.6,
+      "radius_mm": 355.59999999999997,
+      "motor_half_spacing_mm": 485,
+      "unprotected_width_mm": 1681.1999999999998,
+      "rotor_edge_gap_mm": 258.80000000000007,
+      "frame_rectangle_clearance_lower_bound_mm": 20.81599328402615,
+      "oem_shape_available": false,
+      "oem_performance_available": false,
+      "visualization": "Rotor swept-space envelope only; not an OEM propeller solid"
+    },
+    {
+      "id": "HEP_S_29_11",
+      "label": "HEP-S 29×11",
+      "diameter_in": 29,
+      "pitch_in": 11,
+      "diameter_mm": 736.5999999999999,
+      "pitch_mm": 279.4,
+      "radius_mm": 368.29999999999995,
+      "motor_half_spacing_mm": 495,
+      "unprotected_width_mm": 1726.6,
+      "rotor_edge_gap_mm": 253.4000000000001,
+      "frame_rectangle_clearance_lower_bound_mm": 20.324497426500443,
+      "oem_shape_available": false,
+      "oem_performance_available": false,
+      "visualization": "Rotor swept-space envelope only; not an OEM propeller solid"
+    },
+    {
+      "id": "HEP_S_30_10p5",
+      "label": "HEP-S 30×10.5",
+      "diameter_in": 30,
+      "pitch_in": 10.5,
+      "diameter_mm": 762.0,
+      "pitch_mm": 266.7,
+      "radius_mm": 381.0,
+      "motor_half_spacing_mm": 510,
+      "unprotected_width_mm": 1782.0,
+      "rotor_edge_gap_mm": 258.0,
+      "frame_rectangle_clearance_lower_bound_mm": 26.171953847511475,
+      "oem_shape_available": false,
+      "oem_performance_available": false,
+      "visualization": "Rotor swept-space envelope only; not an OEM propeller solid"
+    },
+    {
+      "id": "HEP_S_32_11",
+      "label": "HEP-S 32×11",
+      "diameter_in": 32,
+      "pitch_in": 11,
+      "diameter_mm": 812.8,
+      "pitch_mm": 279.4,
+      "radius_mm": 406.4,
+      "motor_half_spacing_mm": 530,
+      "unprotected_width_mm": 1872.8,
+      "rotor_edge_gap_mm": 247.20000000000005,
+      "frame_rectangle_clearance_lower_bound_mm": 25.883471809876198,
+      "oem_shape_available": false,
+      "oem_performance_available": false,
+      "visualization": "Rotor swept-space envelope only; not an OEM propeller solid"
+    },
+    {
+      "id": "HEP_S_34_11p5",
+      "label": "HEP-S 34×11.5",
+      "diameter_in": 34,
+      "pitch_in": 11.5,
+      "diameter_mm": 863.5999999999999,
+      "pitch_mm": 292.09999999999997,
+      "radius_mm": 431.79999999999995,
+      "motor_half_spacing_mm": 550,
+      "unprotected_width_mm": 1963.6,
+      "rotor_edge_gap_mm": 236.4000000000001,
+      "frame_rectangle_clearance_lower_bound_mm": 25.965223668203123,
+      "oem_shape_available": false,
+      "oem_performance_available": false,
+      "visualization": "Rotor swept-space envelope only; not an OEM propeller solid"
+    },
+    {
+      "id": "HEP_S_36_12",
+      "label": "HEP-S 36×12",
+      "diameter_in": 36,
+      "pitch_in": 12,
+      "diameter_mm": 914.4,
+      "pitch_mm": 304.79999999999995,
+      "radius_mm": 457.2,
+      "motor_half_spacing_mm": 570,
+      "unprotected_width_mm": 2054.4,
+      "rotor_edge_gap_mm": 225.60000000000002,
+      "frame_rectangle_clearance_lower_bound_mm": 26.358683098545953,
+      "oem_shape_available": false,
+      "oem_performance_available": false,
+      "visualization": "Rotor swept-space envelope only; not an OEM propeller solid"
+    },
+    {
+      "id": "HEP_S_42_16",
+      "label": "HEP-S 42×16",
+      "diameter_in": 42,
+      "pitch_in": 16,
+      "diameter_mm": 1066.8,
+      "pitch_mm": 406.4,
+      "radius_mm": 533.4,
+      "motor_half_spacing_mm": 625,
+      "unprotected_width_mm": 2316.8,
+      "rotor_edge_gap_mm": 183.20000000000005,
+      "frame_rectangle_clearance_lower_bound_mm": 22.34184654387866,
+      "oem_shape_available": false,
+      "oem_performance_available": false,
+      "visualization": "Rotor swept-space envelope only; not an OEM propeller solid"
+    }
+  ],
+  "cases": [
+    {
+      "propeller": "HEP_S_18_6p7",
+      "figure_of_merit_assumed": 0.55,
+      "flight_minutes": 3,
+      "total_mass_kg": 196.77329409790357,
+      "battery_mass_kg": 61.773294097903566,
+      "total_shaft_power_kW": 121.5698427846742,
+      "total_electric_power_kW": 148.25590583496856,
+      "thrust_per_motor_N": 482.58650377510855,
+      "required_CT_by_rpm": {
+        "2434": 5.478675138832736,
+        "2744": 4.310706786021682,
+        "3000": 3.6064024367549514,
+        "3456": 2.7174979781199893,
+        "4032": 1.9965291267820335
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 119.23854607694423,
+        "3000": 96.74220705042742,
+        "3456": 83.97761028682936,
+        "4032": 71.98080881728231
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_18_6p7",
+      "figure_of_merit_assumed": 0.55,
+      "flight_minutes": 5,
+      "converged": false
+    },
+    {
+      "propeller": "HEP_S_18_6p7",
+      "figure_of_merit_assumed": 0.55,
+      "flight_minutes": 8,
+      "converged": false
+    },
+    {
+      "propeller": "HEP_S_18_6p7",
+      "figure_of_merit_assumed": 0.65,
+      "flight_minutes": 3,
+      "total_mass_kg": 181.18212000120587,
+      "battery_mass_kg": 46.18212000120587,
+      "total_shaft_power_kW": 90.88641216237315,
+      "total_electric_power_kW": 110.83708800289409,
+      "thrust_per_motor_N": 444.3491493029574,
+      "required_CT_by_rpm": {
+        "2434": 5.044576709468176,
+        "2744": 3.9691513920908332,
+        "3000": 3.3206520329108944,
+        "3456": 2.502179205933291,
+        "4032": 1.838335743134663
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 89.14351944656353,
+        "3000": 72.32510877764521,
+        "3456": 62.78221248059481,
+        "4032": 53.813324983366975
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_18_6p7",
+      "figure_of_merit_assumed": 0.65,
+      "flight_minutes": 5,
+      "total_mass_kg": 294.5330369093896,
+      "battery_mass_kg": 159.5330369093896,
+      "total_shaft_power_kW": 188.37660998260725,
+      "total_electric_power_kW": 229.72757314952105,
+      "thrust_per_motor_N": 722.342273020278,
+      "required_CT_by_rpm": {
+        "2434": 8.200558080191072,
+        "2744": 6.452326606278057,
+        "3000": 5.398113940636496,
+        "3456": 4.067589232371009,
+        "4032": 2.9884329054154355
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 184.76418636992204,
+        "3000": 149.9053432081301,
+        "3456": 130.1261659792796,
+        "4032": 111.53671369652537
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_18_6p7",
+      "figure_of_merit_assumed": 0.65,
+      "flight_minutes": 8,
+      "converged": false
+    },
+    {
+      "propeller": "HEP_S_18_6p7",
+      "figure_of_merit_assumed": 0.75,
+      "flight_minutes": 3,
+      "total_mass_kg": 172.03069575176394,
+      "battery_mass_kg": 37.030695751763936,
+      "total_shaft_power_kW": 72.87640923947143,
+      "total_electric_power_kW": 88.87366980423344,
+      "thrust_per_motor_N": 421.9052813312011,
+      "required_CT_by_rpm": {
+        "2434": 4.78977749624068,
+        "2744": 3.768671409303103,
+        "3000": 3.1529274498353836,
+        "3456": 2.3757953030323042,
+        "4032": 1.7454822634523055
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 71.47888721394669,
+        "3000": 57.99320382624875,
+        "3456": 50.34132276584093,
+        "4032": 43.149705227863656
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_18_6p7",
+      "figure_of_merit_assumed": 0.75,
+      "flight_minutes": 5,
+      "total_mass_kg": 231.0872001473808,
+      "battery_mass_kg": 96.0872001473808,
+      "total_shaft_power_kW": 113.45976593402725,
+      "total_electric_power_kW": 138.36556821222837,
+      "thrust_per_motor_N": 566.7413583614515,
+      "required_CT_by_rpm": {
+        "2434": 6.434062631080426,
+        "2744": 5.062420520044941,
+        "3000": 4.2352975058685685,
+        "3456": 3.191383272048436,
+        "4032": 2.3446897508927287
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 111.28399295675763,
+        "3000": 90.28841295224936,
+        "3456": 78.37535846549424,
+        "4032": 67.17887868470935
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_18_6p7",
+      "figure_of_merit_assumed": 0.75,
+      "flight_minutes": 8,
+      "converged": false
+    },
+    {
+      "propeller": "HEP_S_22_7p2",
+      "figure_of_merit_assumed": 0.55,
+      "flight_minutes": 3,
+      "total_mass_kg": 178.76470671239872,
+      "battery_mass_kg": 43.764706712398734,
+      "total_shaft_power_kW": 86.1289428100007,
+      "total_electric_power_kW": 105.03529610975696,
+      "thrust_per_motor_N": 438.42044321215786,
+      "required_CT_by_rpm": {
+        "2434": 2.2304396214607993,
+        "2744": 1.754944574810322,
+        "3000": 1.4682131504487796,
+        "3456": 1.1063286301968642,
+        "4032": 0.8128128711650431
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 84.47728219899815,
+        "3000": 68.53923495745384,
+        "3456": 59.49586367834535,
+        "4032": 50.99645458143887
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_22_7p2",
+      "figure_of_merit_assumed": 0.55,
+      "flight_minutes": 5,
+      "total_mass_kg": 271.5923799826238,
+      "battery_mass_kg": 136.59237998262384,
+      "total_shaft_power_kW": 161.28828228348226,
+      "total_electric_power_kW": 196.69302717497837,
+      "thrust_per_motor_N": 666.080311907385,
+      "required_CT_by_rpm": {
+        "2434": 3.388646541818012,
+        "2744": 2.6662397884675477,
+        "3000": 2.230616496877644,
+        "3456": 1.6808151409969703,
+        "4032": 1.234884593385529
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 158.19532079838024,
+        "3000": 128.34913694108585,
+        "3456": 111.41418137247035,
+        "4032": 95.49786974783173
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_22_7p2",
+      "figure_of_merit_assumed": 0.55,
+      "flight_minutes": 8,
+      "converged": false
+    },
+    {
+      "propeller": "HEP_S_22_7p2",
+      "figure_of_merit_assumed": 0.65,
+      "flight_minutes": 3,
+      "total_mass_kg": 169.05632931914965,
+      "battery_mass_kg": 34.05632931914965,
+      "total_shaft_power_kW": 67.0228561000865,
+      "total_electric_power_kW": 81.73519036595914,
+      "thrust_per_motor_N": 414.61064765521456,
+      "required_CT_by_rpm": {
+        "2434": 2.109308610780741,
+        "2744": 1.6596368121661877,
+        "3000": 1.3884772360145057,
+        "3456": 1.0462459882680675,
+        "4032": 0.7686705219928659
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 65.73758534387154,
+        "3000": 53.335094242327784,
+        "3456": 46.29782486313176,
+        "4032": 39.68384988268436
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_22_7p2",
+      "figure_of_merit_assumed": 0.65,
+      "flight_minutes": 5,
+      "total_mass_kg": 218.27087036609208,
+      "battery_mass_kg": 83.2708703660921,
+      "total_shaft_power_kW": 98.32624372828155,
+      "total_electric_power_kW": 119.91005332717263,
+      "thrust_per_motor_N": 535.3093095728409,
+      "required_CT_by_rpm": {
+        "2434": 2.7233563404576633,
+        "2744": 2.142779113577304,
+        "3000": 1.7926813861920448,
+        "3456": 1.3508220804036792,
+        "4032": 0.9924407121333154
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 96.44068031027822,
+        "3000": 78.2455386250724,
+        "3456": 67.92147450093091,
+        "4032": 58.21840671508364
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_22_7p2",
+      "figure_of_merit_assumed": 0.65,
+      "flight_minutes": 8,
+      "converged": false
+    },
+    {
+      "propeller": "HEP_S_22_7p2",
+      "figure_of_merit_assumed": 0.75,
+      "flight_minutes": 3,
+      "total_mass_kg": 162.9242375096345,
+      "battery_mass_kg": 27.9242375096345,
+      "total_shaft_power_kW": 54.95489941896069,
+      "total_electric_power_kW": 67.0181700231228,
+      "thrust_per_motor_N": 399.57169249237865,
+      "required_CT_by_rpm": {
+        "2434": 2.0327987628028503,
+        "2744": 1.5994376741413605,
+        "3000": 1.3381137274670718,
+        "3456": 1.0082960547681805,
+        "4032": 0.7407889381970306
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 53.90105108655827,
+        "3000": 43.73171944822761,
+        "3456": 37.961562021030915,
+        "4032": 32.53848173231221
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_22_7p2",
+      "figure_of_merit_assumed": 0.75,
+      "flight_minutes": 5,
+      "total_mass_kg": 196.77329409790357,
+      "battery_mass_kg": 61.77329409790357,
+      "total_shaft_power_kW": 72.94190567080454,
+      "total_electric_power_kW": 88.95354350098116,
+      "thrust_per_motor_N": 482.58650377510855,
+      "required_CT_by_rpm": {
+        "2434": 2.455131998216078,
+        "2744": 1.9317360305367302,
+        "3000": 1.6161195538248236,
+        "3456": 1.2177791294614615,
+        "4032": 0.8946948706247472
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 71.54312764616655,
+        "3000": 58.04532423025647,
+        "3456": 50.38656617209763,
+        "4032": 43.1884852903694
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_22_7p2",
+      "figure_of_merit_assumed": 0.75,
+      "flight_minutes": 8,
+      "converged": false
+    },
+    {
+      "propeller": "HEP_S_26_8p8",
+      "figure_of_merit_assumed": 0.55,
+      "flight_minutes": 3,
+      "total_mass_kg": 169.05632931914965,
+      "battery_mass_kg": 34.05632931914964,
+      "total_shaft_power_kW": 67.02285610008649,
+      "total_electric_power_kW": 81.73519036595913,
+      "thrust_per_motor_N": 414.61064765521456,
+      "required_CT_by_rpm": {
+        "2434": 1.0812782245173775,
+        "2744": 0.8507665196220422,
+        "3000": 0.7117641263432083,
+        "3456": 0.5363288230185488,
+        "4032": 0.39403750262587267
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 65.73758534387153,
+        "3000": 53.33509424232778,
+        "3456": 46.29782486313175,
+        "4032": 39.683849882684356
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_26_8p8",
+      "figure_of_merit_assumed": 0.55,
+      "flight_minutes": 5,
+      "total_mass_kg": 218.27087036609208,
+      "battery_mass_kg": 83.27087036609207,
+      "total_shaft_power_kW": 98.32624372828151,
+      "total_electric_power_kW": 119.91005332717258,
+      "thrust_per_motor_N": 535.3093095728409,
+      "required_CT_by_rpm": {
+        "2434": 1.3960526655453462,
+        "2744": 1.0984359441856133,
+        "3000": 0.9189681094932852,
+        "3456": 0.6924612611319724,
+        "4032": 0.5087470489949186
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 96.44068031027818,
+        "3000": 78.24553862507237,
+        "3456": 67.92147450093088,
+        "4032": 58.21840671508361
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_26_8p8",
+      "figure_of_merit_assumed": 0.55,
+      "flight_minutes": 8,
+      "converged": false
+    },
+    {
+      "propeller": "HEP_S_26_8p8",
+      "figure_of_merit_assumed": 0.65,
+      "flight_minutes": 3,
+      "total_mass_kg": 162.0422160087443,
+      "battery_mass_kg": 27.042216008744298,
+      "total_shaft_power_kW": 53.21908110520877,
+      "total_electric_power_kW": 64.90131842098631,
+      "thrust_per_motor_N": 397.4085347614454,
+      "required_CT_by_rpm": {
+        "2434": 1.036416207121264,
+        "2744": 0.815468386784538,
+        "3000": 0.6822331750173449,
+        "3456": 0.5140766473594721,
+        "4032": 0.3776889654069591
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 52.19851987285824,
+        "3000": 42.350399123512325,
+        "3456": 36.76249923916001,
+        "4032": 31.510713633565718
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_26_8p8",
+      "figure_of_merit_assumed": 0.65,
+      "flight_minutes": 5,
+      "total_mass_kg": 194.07485694127064,
+      "battery_mass_kg": 59.074856941270625,
+      "total_shaft_power_kW": 69.75559107625236,
+      "total_electric_power_kW": 85.06779399542971,
+      "thrust_per_motor_N": 475.96858664846627,
+      "required_CT_by_rpm": {
+        "2434": 1.24129583069772,
+        "2744": 0.9766708602454416,
+        "3000": 0.8170976002632248,
+        "3456": 0.6156997494267402,
+        "4032": 0.4523508363135235
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 68.41791574414009,
+        "3000": 55.50973564041233,
+        "3456": 48.18553441008015,
+        "4032": 41.30188663721156
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_26_8p8",
+      "figure_of_merit_assumed": 0.65,
+      "flight_minutes": 8,
+      "converged": false
+    },
+    {
+      "propeller": "HEP_S_26_8p8",
+      "figure_of_merit_assumed": 0.75,
+      "flight_minutes": 3,
+      "total_mass_kg": 157.44669683061204,
+      "battery_mass_kg": 22.446696830612034,
+      "total_shaft_power_kW": 44.175099362644474,
+      "total_electric_power_kW": 53.872072393468876,
+      "thrust_per_motor_N": 386.13802397707605,
+      "required_CT_by_rpm": {
+        "2434": 1.0070234311295072,
+        "2744": 0.7923416936120212,
+        "3000": 0.6628850340391872,
+        "3456": 0.4994974275107204,
+        "4032": 0.366977701844611
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 43.32797098484287,
+        "3000": 35.153427125702514,
+        "3456": 30.515127713283437,
+        "4032": 26.155823754242945
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_26_8p8",
+      "figure_of_merit_assumed": 0.75,
+      "flight_minutes": 5,
+      "total_mass_kg": 181.18212000120587,
+      "battery_mass_kg": 46.18212000120588,
+      "total_shaft_power_kW": 54.531847297423894,
+      "total_electric_power_kW": 66.50225280173646,
+      "thrust_per_motor_N": 444.3491493029574,
+      "required_CT_by_rpm": {
+        "2434": 1.1588343472154583,
+        "2744": 0.9117888828650244,
+        "3000": 0.7628163575479983,
+        "3456": 0.5747977231234314,
+        "4032": 0.4223003680090517
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 53.486111667938125,
+        "3000": 43.39506526658713,
+        "3456": 37.66932748835689,
+        "4032": 32.28799499002019
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_26_8p8",
+      "figure_of_merit_assumed": 0.75,
+      "flight_minutes": 8,
+      "total_mass_kg": 267.7267873326663,
+      "battery_mass_kg": 132.72678733266625,
+      "total_shaft_power_kW": 97.95236905150769,
+      "total_electric_power_kW": 119.45410859939962,
+      "thrust_per_motor_N": 656.5999459333641,
+      "required_CT_by_rpm": {
+        "2434": 1.7123709383060386,
+        "2744": 1.347320079561212,
+        "3000": 1.1271883380643346,
+        "3456": 0.8493594609498083,
+        "4032": 0.6240191957998593
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 96.07397528004746,
+        "3000": 77.94801861054518,
+        "3456": 67.66321059943158,
+        "4032": 57.99703765665564
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_28_9",
+      "figure_of_merit_assumed": 0.55,
+      "flight_minutes": 3,
+      "total_mass_kg": 165.6815429541574,
+      "battery_mass_kg": 30.68154295415742,
+      "total_shaft_power_kW": 60.381276533781794,
+      "total_electric_power_kW": 73.63570308997781,
+      "thrust_per_motor_N": 406.33398409507106,
+      "required_CT_by_rpm": {
+        "2434": 0.787846153264658,
+        "2744": 0.6198896034457364,
+        "3000": 0.5186090094633775,
+        "3456": 0.39078249290438233,
+        "4032": 0.28710550499097476
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 59.22336871744065,
+        "3000": 48.04989315275018,
+        "3456": 41.70997669509565,
+        "4032": 35.75140859579626
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_28_9",
+      "figure_of_merit_assumed": 0.55,
+      "flight_minutes": 5,
+      "total_mass_kg": 205.78300888490915,
+      "battery_mass_kg": 70.78300888490915,
+      "total_shaft_power_kW": 83.58057689130072,
+      "total_electric_power_kW": 101.92753279426918,
+      "thrust_per_motor_N": 504.68282929023974,
+      "required_CT_by_rpm": {
+        "2434": 0.9785359857619218,
+        "2744": 0.7699273286514011,
+        "3000": 0.6441328376071731,
+        "3456": 0.4853672640630825,
+        "4032": 0.3565963572708361
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 81.97778528382959,
+        "3000": 66.51130979361375,
+        "3456": 57.73551197362304,
+        "4032": 49.487581691676894
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_28_9",
+      "figure_of_merit_assumed": 0.55,
+      "flight_minutes": 8,
+      "converged": false
+    },
+    {
+      "propeller": "HEP_S_28_9",
+      "figure_of_merit_assumed": 0.65,
+      "flight_minutes": 3,
+      "total_mass_kg": 159.52862960588786,
+      "battery_mass_kg": 24.528629605887865,
+      "total_shaft_power_kW": 48.272343064387314,
+      "total_electric_power_kW": 58.86871105413087,
+      "thrust_per_motor_N": 391.24396410843997,
+      "required_CT_by_rpm": {
+        "2434": 0.7585879207158085,
+        "2744": 0.596868771146087,
+        "3000": 0.4993494332911362,
+        "3456": 0.37627000844782027,
+        "4032": 0.2764432715126843
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 47.34664346749185,
+        "3000": 38.41391006662506,
+        "3456": 33.34540804394536,
+        "4032": 28.58177832338174
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_28_9",
+      "figure_of_merit_assumed": 0.65,
+      "flight_minutes": 5,
+      "total_mass_kg": 186.79992472285986,
+      "battery_mass_kg": 51.79992472285986,
+      "total_shaft_power_kW": 61.16535111275294,
+      "total_electric_power_kW": 74.59189160091822,
+      "thrust_per_motor_N": 458.12681538281385,
+      "required_CT_by_rpm": {
+        "2434": 0.8882679355765858,
+        "2744": 0.6989030232063117,
+        "3000": 0.5847128304156402,
+        "3456": 0.4405930736518314,
+        "4032": 0.3237010337033863
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 59.99240740887011,
+        "3000": 48.673839877729954,
+        "3456": 42.25159711608503,
+        "4032": 36.21565467093002
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_28_9",
+      "figure_of_merit_assumed": 0.65,
+      "flight_minutes": 8,
+      "total_mass_kg": 326.64718930029994,
+      "battery_mass_kg": 191.6471893002999,
+      "total_shaft_power_kW": 141.43562570362133,
+      "total_electric_power_kW": 172.48247037026994,
+      "thrust_per_motor_N": 801.1022317589857,
+      "required_CT_by_rpm": {
+        "2434": 1.553267352393982,
+        "2744": 1.222134904296812,
+        "3000": 1.022456528751045,
+        "3456": 0.7704419011253412,
+        "4032": 0.5660389477655567
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 138.72337074790343,
+        "3000": 112.55089480013231,
+        "3456": 97.70042951400374,
+        "4032": 83.7432252977175
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_28_9",
+      "figure_of_merit_assumed": 0.75,
+      "flight_minutes": 3,
+      "total_mass_kg": 155.44766557171087,
+      "battery_mass_kg": 20.447665571710864,
+      "total_shaft_power_kW": 40.24100584512698,
+      "total_electric_power_kW": 49.07439737210608,
+      "thrust_per_motor_N": 381.2353998146209,
+      "required_CT_by_rpm": {
+        "2434": 0.739182187532678,
+        "2744": 0.581600038541863,
+        "3000": 0.4865753808669274,
+        "3456": 0.3666444987483478,
+        "4032": 0.2693714684681739
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 39.4693200199783,
+        "3000": 32.02277497620906,
+        "3456": 27.7975477224037,
+        "4032": 23.826469476346027
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_28_9",
+      "figure_of_merit_assumed": 0.75,
+      "flight_minutes": 5,
+      "total_mass_kg": 176.08739095902405,
+      "battery_mass_kg": 41.087390959024056,
+      "total_shaft_power_kW": 48.5159912444156,
+      "total_electric_power_kW": 59.16584298099464,
+      "thrust_per_motor_N": 431.8543263270065,
+      "required_CT_by_rpm": {
+        "2434": 0.837327870877339,
+        "2744": 0.6588225882444002,
+        "3000": 0.5511809328665989,
+        "3456": 0.4153261032041188,
+        "4032": 0.3051375452111893
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 47.58561930290791,
+        "3000": 38.607799127759286,
+        "3456": 33.51371452062438,
+        "4032": 28.726041017678043
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_28_9",
+      "figure_of_merit_assumed": 0.75,
+      "flight_minutes": 8,
+      "total_mass_kg": 238.86205117507842,
+      "battery_mass_kg": 103.8620511750784,
+      "total_shaft_power_kW": 76.65019376720787,
+      "total_electric_power_kW": 93.47584605757056,
+      "thrust_per_motor_N": 585.8091805068799,
+      "required_CT_by_rpm": {
+        "2434": 1.1358329046420153,
+        "2744": 0.8936909902035598,
+        "3000": 0.7476753870681503,
+        "3456": 0.5633886922714046,
+        "4032": 0.4139182228932769
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 75.180303371011,
+        "3000": 60.99628613501359,
+        "3456": 52.948165047754856,
+        "4032": 45.384141469504165
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_29_11",
+      "figure_of_merit_assumed": 0.55,
+      "flight_minutes": 3,
+      "total_mass_kg": 164.23697535974398,
+      "battery_mass_kg": 29.23697535974397,
+      "total_shaft_power_kW": 57.53836750797613,
+      "total_electric_power_kW": 70.16874086338552,
+      "thrust_per_motor_N": 402.7911820697721,
+      "required_CT_by_rpm": {
+        "2434": 0.6787007991900705,
+        "2744": 0.534012341781285,
+        "3000": 0.4467627946540545,
+        "3456": 0.3366449009678627,
+        "4032": 0.2473309476498583
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 56.434977031630034,
+        "3000": 45.787578031662505,
+        "3456": 39.74616148581815,
+        "4032": 34.06813841641556
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_29_11",
+      "figure_of_merit_assumed": 0.55,
+      "flight_minutes": 5,
+      "total_mass_kg": 200.94760721770712,
+      "battery_mass_kg": 65.94760721770712,
+      "total_shaft_power_kW": 77.87093460266856,
+      "total_electric_power_kW": 94.96455439349825,
+      "thrust_per_motor_N": 492.82400670142675,
+      "required_CT_by_rpm": {
+        "2434": 0.8304055850715516,
+        "2744": 0.6533760261392146,
+        "3000": 0.5466242567057954,
+        "3456": 0.4118925545441769,
+        "4032": 0.3026149380324565
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 76.37763454314143,
+        "3000": 61.967720826002086,
+        "3456": 53.79142432812681,
+        "4032": 46.10693513839441
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_29_11",
+      "figure_of_merit_assumed": 0.55,
+      "flight_minutes": 8,
+      "converged": false
+    },
+    {
+      "propeller": "HEP_S_29_11",
+      "figure_of_merit_assumed": 0.65,
+      "flight_minutes": 3,
+      "total_mass_kg": 158.4410412311375,
+      "battery_mass_kg": 23.441041231137476,
+      "total_shaft_power_kW": 46.131969142878546,
+      "total_electric_power_kW": 56.25849895472994,
+      "thrust_per_motor_N": 388.5766536193647,
+      "required_CT_by_rpm": {
+        "2434": 0.6547494014215604,
+        "2744": 0.5151670096016846,
+        "3000": 0.4309965049786923,
+        "3456": 0.3247646793157825,
+        "4032": 0.23860262153812595
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 45.24731464863541,
+        "3000": 36.71065461825953,
+        "3456": 31.8668876894614,
+        "4032": 27.314475162395485
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_29_11",
+      "figure_of_merit_assumed": 0.65,
+      "flight_minutes": 5,
+      "total_mass_kg": 183.82289335452197,
+      "battery_mass_kg": 48.82289335452198,
+      "total_shaft_power_kW": 57.650072473019556,
+      "total_electric_power_kW": 70.30496643051166,
+      "thrust_per_motor_N": 450.82564595196516,
+      "required_CT_by_rpm": {
+        "2434": 0.7596385914674193,
+        "2744": 0.597695455230117,
+        "3000": 0.5000410496879506,
+        "3456": 0.37679115554466763,
+        "4032": 0.2768261550940415
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 56.5445398748176,
+        "3000": 45.87647001843535,
+        "3456": 39.823324668780685,
+        "4032": 34.1342782875263
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_29_11",
+      "figure_of_merit_assumed": 0.65,
+      "flight_minutes": 8,
+      "total_mass_kg": 288.94727155850376,
+      "battery_mass_kg": 153.94727155850376,
+      "total_shaft_power_kW": 113.61308641017577,
+      "total_electric_power_kW": 138.55254440265338,
+      "thrust_per_motor_N": 708.6431834972306,
+      "required_CT_by_rpm": {
+        "2434": 1.1940596427874484,
+        "2744": 0.939504693131911,
+        "3000": 0.7860038232339642,
+        "3456": 0.592269952644227,
+        "4032": 0.4351371080651463
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 111.43437326688236,
+        "3000": 90.41042151053055,
+        "3456": 78.48126867233556,
+        "4032": 67.2696588620019
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_29_11",
+      "figure_of_merit_assumed": 0.75,
+      "flight_minutes": 3,
+      "total_mass_kg": 154.57692382032678,
+      "battery_mass_kg": 19.576923820326776,
+      "total_shaft_power_kW": 38.52738607840309,
+      "total_electric_power_kW": 46.98461716878426,
+      "thrust_per_motor_N": 379.0999056693515,
+      "required_CT_by_rpm": {
+        "2434": 0.6387811362417066,
+        "2744": 0.5026029302709187,
+        "3000": 0.42048520635337483,
+        "3456": 0.3168442008715027,
+        "4032": 0.23278349451783875
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 37.78856166056527,
+        "3000": 30.659119693938624,
+        "3456": 26.613819178766168,
+        "4032": 22.811845010371
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_29_11",
+      "figure_of_merit_assumed": 0.75,
+      "flight_minutes": 5,
+      "total_mass_kg": 173.95072890397586,
+      "battery_mass_kg": 38.95072890397585,
+      "total_shaft_power_kW": 45.99302068981469,
+      "total_electric_power_kW": 56.08904962172524,
+      "thrust_per_motor_N": 426.6141626370008,
+      "required_CT_by_rpm": {
+        "2434": 0.7188423828935262,
+        "2744": 0.5655963639923575,
+        "3000": 0.4731864649055067,
+        "3456": 0.35655567680114497,
+        "4032": 0.2619592727518616
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 45.111030755003014,
+        "3000": 36.60008295255911,
+        "3456": 31.770905340763118,
+        "4032": 27.23220457779696
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_29_11",
+      "figure_of_merit_assumed": 0.75,
+      "flight_minutes": 8,
+      "total_mass_kg": 229.35136434665907,
+      "battery_mass_kg": 94.35136434665907,
+      "total_shaft_power_kW": 69.63130688783438,
+      "total_electric_power_kW": 84.91622791199316,
+      "thrust_per_motor_N": 562.4842210601814,
+      "required_CT_by_rpm": {
+        "2434": 0.9477826411284759,
+        "2744": 0.7457301189164024,
+        "3000": 0.6238890862961483,
+        "3456": 0.4701131835154955,
+        "4032": 0.3453892776848539
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 68.29601490436062,
+        "3000": 55.41083342573791,
+        "3456": 48.09968179317527,
+        "4032": 41.228298679864515
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_30_10p5",
+      "figure_of_merit_assumed": 0.55,
+      "flight_minutes": 3,
+      "total_mass_kg": 162.92423750963448,
+      "battery_mass_kg": 27.924237509634487,
+      "total_shaft_power_kW": 54.95489941896066,
+      "total_electric_power_kW": 67.01817002312276,
+      "thrust_per_motor_N": 399.5716924923786,
+      "required_CT_by_rpm": {
+        "2434": 0.587895440714993,
+        "2744": 0.4625652738193313,
+        "3000": 0.3869890979525015,
+        "3456": 0.29160419827873435,
+        "4032": 0.21423981914355994
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 53.90105108655823,
+        "3000": 43.73171944822758,
+        "3456": 37.961562021030886,
+        "4032": 32.538481732312185
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_30_10p5",
+      "figure_of_merit_assumed": 0.55,
+      "flight_minutes": 5,
+      "total_mass_kg": 196.77329409790354,
+      "battery_mass_kg": 61.77329409790355,
+      "total_shaft_power_kW": 72.94190567080452,
+      "total_electric_power_kW": 88.95354350098111,
+      "thrust_per_motor_N": 482.58650377510844,
+      "required_CT_by_rpm": {
+        "2434": 0.7100362979927225,
+        "2744": 0.5586675994684099,
+        "3000": 0.4673897558034416,
+        "3456": 0.3521877379643506,
+        "4032": 0.2587501748309515
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 71.54312764616652,
+        "3000": 58.04532423025645,
+        "3456": 50.38656617209761,
+        "4032": 43.188485290369385
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_30_10p5",
+      "figure_of_merit_assumed": 0.55,
+      "flight_minutes": 8,
+      "converged": false
+    },
+    {
+      "propeller": "HEP_S_30_10p5",
+      "figure_of_merit_assumed": 0.65,
+      "flight_minutes": 3,
+      "total_mass_kg": 157.44669683061204,
+      "battery_mass_kg": 22.44669683061203,
+      "total_shaft_power_kW": 44.17509936264447,
+      "total_electric_power_kW": 53.87207239346886,
+      "thrust_per_motor_N": 386.13802397707605,
+      "required_CT_by_rpm": {
+        "2434": 0.5681302956343676,
+        "2744": 0.447013750345737,
+        "3000": 0.37397845841369337,
+        "3456": 0.28180041535078887,
+        "4032": 0.20703703984955918
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 43.327970984842864,
+        "3000": 35.153427125702514,
+        "3456": 30.51512771328343,
+        "4032": 26.15582375424294
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_30_10p5",
+      "figure_of_merit_assumed": 0.65,
+      "flight_minutes": 5,
+      "total_mass_kg": 181.18212000120585,
+      "battery_mass_kg": 46.18212000120585,
+      "total_shaft_power_kW": 54.53184729742387,
+      "total_electric_power_kW": 66.50225280173643,
+      "thrust_per_motor_N": 444.34914930295736,
+      "required_CT_by_rpm": {
+        "2434": 0.6537771415470756,
+        "2744": 0.514402020414972,
+        "3000": 0.43035650346525195,
+        "3456": 0.3242824250889545,
+        "4032": 0.23824831231025229
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 53.486111667938104,
+        "3000": 43.39506526658712,
+        "3456": 37.66932748835687,
+        "4032": 32.28799499002018
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_30_10p5",
+      "figure_of_merit_assumed": 0.65,
+      "flight_minutes": 8,
+      "total_mass_kg": 267.7267873326661,
+      "battery_mass_kg": 132.7267873326661,
+      "total_shaft_power_kW": 97.95236905150759,
+      "total_electric_power_kW": 119.4541085993995,
+      "thrust_per_motor_N": 656.5999459333636,
+      "required_CT_by_rpm": {
+        "2434": 0.9660647183991847,
+        "2744": 0.7601147415772394,
+        "3000": 0.6359234789818359,
+        "3456": 0.47918134447777694,
+        "4032": 0.3520516000244892
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 96.07397528004736,
+        "3000": 77.9480186105451,
+        "3456": 67.66321059943151,
+        "4032": 57.997037656655586
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_30_10p5",
+      "figure_of_merit_assumed": 0.75,
+      "flight_minutes": 3,
+      "total_mass_kg": 153.7777978643612,
+      "battery_mass_kg": 18.777797864361194,
+      "total_shaft_power_kW": 36.95470619706282,
+      "total_electric_power_kW": 45.06671487446686,
+      "thrust_per_motor_N": 377.1400492623458,
+      "required_CT_by_rpm": {
+        "2434": 0.5548914491148295,
+        "2744": 0.4365972200560744,
+        "3000": 0.365263831768015,
+        "3456": 0.27523376598067295,
+        "4032": 0.20221256276131075
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 36.24604043819584,
+        "3000": 29.407620808856226,
+        "3456": 25.527448618798807,
+        "4032": 21.88067024468469
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_30_10p5",
+      "figure_of_merit_assumed": 0.75,
+      "flight_minutes": 5,
+      "total_mass_kg": 172.03069575176391,
+      "battery_mass_kg": 37.03069575176393,
+      "total_shaft_power_kW": 43.725845543682844,
+      "total_electric_power_kW": 53.32420188254006,
+      "thrust_per_motor_N": 421.905281331201,
+      "required_CT_by_rpm": {
+        "2434": 0.620755163512792,
+        "2744": 0.48841981464568207,
+        "3000": 0.4086193974986657,
+        "3456": 0.30790307127298666,
+        "4032": 0.22621450134341878
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 42.887332328368004,
+        "3000": 34.79592229574924,
+        "3456": 30.204793659504553,
+        "4032": 25.88982313671819
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_30_10p5",
+      "figure_of_merit_assumed": 0.75,
+      "flight_minutes": 8,
+      "total_mass_kg": 221.65288102201222,
+      "battery_mass_kg": 86.65288102201222,
+      "total_shaft_power_kW": 63.94982619424501,
+      "total_electric_power_kW": 77.987592919811,
+      "thrust_per_motor_N": 543.603690706485,
+      "required_CT_by_rpm": {
+        "2434": 0.7998117417396415,
+        "2744": 0.629304314508317,
+        "3000": 0.5264854990050775,
+        "3456": 0.39671758882881625,
+        "4032": 0.2914659836293344
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 62.72348571496505,
+        "3000": 50.889654743408315,
+        "3456": 44.175047520319715,
+        "4032": 37.86432644598833
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_32_11",
+      "figure_of_merit_assumed": 0.55,
+      "flight_minutes": 3,
+      "total_mass_kg": 160.62731861390435,
+      "battery_mass_kg": 25.627318613904347,
+      "total_shaft_power_kW": 50.43456303216375,
+      "total_electric_power_kW": 61.505564673370436,
+      "thrust_per_motor_N": 393.93849890060045,
+      "required_CT_by_rpm": {
+        "2434": 0.44773279910908287,
+        "2744": 0.35228312804383816,
+        "3000": 0.2947253883109655,
+        "3456": 0.22208160649878647,
+        "4032": 0.16316199661135333
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 49.46739939964234,
+        "3000": 40.13455004624315,
+        "3456": 34.83901913736385,
+        "4032": 29.862016403454724
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_32_11",
+      "figure_of_merit_assumed": 0.55,
+      "flight_minutes": 5,
+      "total_mass_kg": 189.90846181187314,
+      "battery_mass_kg": 54.908461811873146,
+      "total_shaft_power_kW": 64.8359117074598,
+      "total_electric_power_kW": 79.06818500909733,
+      "thrust_per_motor_N": 465.7505025936189,
+      "required_CT_by_rpm": {
+        "2434": 0.529351096160115,
+        "2744": 0.4165016732296325,
+        "3000": 0.34845159362697276,
+        "3456": 0.26256540077263935,
+        "4032": 0.19290519240438808
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 63.59257911737006,
+        "3000": 51.59477919055958,
+        "3456": 44.78713471402741,
+        "4032": 38.388972612023494
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_32_11",
+      "figure_of_merit_assumed": 0.55,
+      "flight_minutes": 8,
+      "converged": false
+    },
+    {
+      "propeller": "HEP_S_32_11",
+      "figure_of_merit_assumed": 0.65,
+      "flight_minutes": 3,
+      "total_mass_kg": 155.69321182565358,
+      "battery_mass_kg": 20.693211825653588,
+      "total_shaft_power_kW": 40.724240872886256,
+      "total_electric_power_kW": 49.66370838156861,
+      "thrust_per_motor_N": 381.8376020024154,
+      "required_CT_by_rpm": {
+        "2434": 0.4339794633597838,
+        "2744": 0.341461789628513,
+        "3000": 0.2856720930702573,
+        "3456": 0.21525976341737896,
+        "4032": 0.15815003026582947
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 39.94328824107344,
+        "3000": 32.40732119292425,
+        "3456": 28.13135520219119,
+        "4032": 24.112590173306735
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_32_11",
+      "figure_of_merit_assumed": 0.65,
+      "flight_minutes": 5,
+      "total_mass_kg": 176.69864830040444,
+      "battery_mass_kg": 41.69864830040443,
+      "total_shaft_power_kW": 49.23776391311755,
+      "total_electric_power_kW": 60.04605355258238,
+      "thrust_per_motor_N": 433.3534349567419,
+      "required_CT_by_rpm": {
+        "2434": 0.49253004460900685,
+        "2744": 0.38753029734629557,
+        "3000": 0.32421370277329303,
+        "3456": 0.24430165440937035,
+        "4032": 0.17948692977014966
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 48.29355082311668,
+        "3000": 39.182167567822006,
+        "3456": 34.0122982359566,
+        "4032": 29.1533984879628
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_32_11",
+      "figure_of_merit_assumed": 0.65,
+      "flight_minutes": 8,
+      "total_mass_kg": 241.80387034282762,
+      "battery_mass_kg": 106.80387034282761,
+      "total_shaft_power_kW": 78.82125631300677,
+      "total_electric_power_kW": 96.12348330854485,
+      "thrust_per_motor_N": 593.0239920157848,
+      "required_CT_by_rpm": {
+        "2434": 0.6740044261352213,
+        "2744": 0.5303171624387949,
+        "3000": 0.4436713517778617,
+        "3456": 0.3343154355482778,
+        "4032": 0.2456195036681225
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 77.30973231056875,
+        "3000": 62.723962814641446,
+        "3456": 54.447884387709585,
+        "4032": 46.66961518946536
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_32_11",
+      "figure_of_merit_assumed": 0.75,
+      "flight_minutes": 3,
+      "total_mass_kg": 152.36155278410104,
+      "battery_mass_kg": 17.36155278410103,
+      "total_shaft_power_kW": 34.16753587911082,
+      "total_electric_power_kW": 41.66772668184247,
+      "thrust_per_motor_N": 373.66670820300783,
+      "required_CT_by_rpm": {
+        "2434": 0.4246927925666485,
+        "2744": 0.33415489265194814,
+        "3000": 0.2795590326443311,
+        "3456": 0.2106534473894518,
+        "4032": 0.15476579808204624
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 33.512318581122685,
+        "3000": 27.189661142150875,
+        "3456": 23.60213640811708,
+        "4032": 20.230402635528925
+      },
+      "within_4x_observed_80percent_shaft_power": true,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_32_11",
+      "figure_of_merit_assumed": 0.75,
+      "flight_minutes": 5,
+      "total_mass_kg": 168.71850459536336,
+      "battery_mass_kg": 33.71850459536336,
+      "total_shaft_power_kW": 39.81481022620506,
+      "total_electric_power_kW": 48.55464661732325,
+      "thrust_per_motor_N": 413.78213252012864,
+      "required_CT_by_rpm": {
+        "2434": 0.47028618155269175,
+        "2744": 0.37002848002835476,
+        "3000": 0.30957141793319765,
+        "3456": 0.2332683933837873,
+        "4032": 0.1713808604452315
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 39.0512973855769,
+        "3000": 31.683619278831394,
+        "3456": 27.503141735096698,
+        "4032": 23.57412148722574
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_32_11",
+      "figure_of_merit_assumed": 0.75,
+      "flight_minutes": 8,
+      "total_mass_kg": 209.81882672017042,
+      "battery_mass_kg": 74.81882672017043,
+      "total_shaft_power_kW": 55.21629411948578,
+      "total_electric_power_kW": 67.3369440481534,
+      "thrust_per_motor_N": 514.5806725312179,
+      "required_CT_by_rpm": {
+        "2434": 0.5848492734851242,
+        "2744": 0.4601685020786454,
+        "3000": 0.3849839224963596,
+        "3456": 0.2900932575716444,
+        "4032": 0.21312974025671835
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 54.15743312447893,
+        "3000": 43.93973074166057,
+        "3456": 38.14212737991369,
+        "4032": 32.69325203992602
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_34_11p5",
+      "figure_of_merit_assumed": 0.55,
+      "flight_minutes": 3,
+      "total_mass_kg": 158.68328131427984,
+      "battery_mass_kg": 23.683281314279824,
+      "total_shaft_power_kW": 46.60869762650268,
+      "total_electric_power_kW": 56.83987515427157,
+      "thrust_per_motor_N": 389.17074742327134,
+      "required_CT_by_rpm": {
+        "2434": 0.3470682756549831,
+        "2744": 0.27307871577827014,
+        "3000": 0.22846178014291707,
+        "3456": 0.17215062281698876,
+        "4032": 0.1264780086002366
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 45.71490109901433,
+        "3000": 37.09002309166696,
+        "3456": 32.19620060040535,
+        "4032": 27.59674337177601
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_34_11p5",
+      "figure_of_merit_assumed": 0.55,
+      "flight_minutes": 5,
+      "total_mass_kg": 184.4777333127697,
+      "battery_mass_kg": 49.47773331276968,
+      "total_shaft_power_kW": 58.423307495718426,
+      "total_electric_power_kW": 71.24793597038834,
+      "thrust_per_motor_N": 452.4316409495677,
+      "required_CT_by_rpm": {
+        "2434": 0.4034852838138349,
+        "2744": 0.3174684950140614,
+        "3000": 0.26559894023046626,
+        "3456": 0.20013423230618416,
+        "4032": 0.14703739516372713
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 57.302946875850665,
+        "3000": 46.491790898606844,
+        "3456": 40.35745737726289,
+        "4032": 34.59210632336819
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_34_11p5",
+      "figure_of_merit_assumed": 0.55,
+      "flight_minutes": 8,
+      "total_mass_kg": 295.4502339827161,
+      "battery_mass_kg": 160.45023398271613,
+      "total_shaft_power_kW": 118.4122726792445,
+      "total_electric_power_kW": 144.40521058444452,
+      "thrust_per_motor_N": 724.5916988426113,
+      "required_CT_by_rpm": {
+        "2434": 0.6462016817458823,
+        "2744": 0.5084415308541334,
+        "3000": 0.42536986782903435,
+        "3456": 0.32052489317267846,
+        "4032": 0.23548767661666173
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 116.14152744236122,
+        "3000": 94.22949259823575,
+        "3456": 81.79643454707964,
+        "4032": 70.11122961178255
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_34_11p5",
+      "figure_of_merit_assumed": 0.65,
+      "flight_minutes": 3,
+      "total_mass_kg": 154.19563958581125,
+      "battery_mass_kg": 19.195639585811264,
+      "total_shaft_power_kW": 37.77701870487657,
+      "total_electric_power_kW": 46.06953500594704,
+      "thrust_per_motor_N": 378.1648060842021,
+      "required_CT_by_rpm": {
+        "2434": 0.33725301305417893,
+        "2744": 0.2653559145484666,
+        "3000": 0.22200076793395596,
+        "3456": 0.16728211800579,
+        "4032": 0.12290114792262122
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 37.05258378485679,
+        "3000": 30.061996310780476,
+        "3456": 26.09548290866361,
+        "4032": 22.36755677885452
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_34_11p5",
+      "figure_of_merit_assumed": 0.65,
+      "flight_minutes": 5,
+      "total_mass_kg": 173.0298672524003,
+      "battery_mass_kg": 38.0298672524003,
+      "total_shaft_power_kW": 44.90566725163427,
+      "total_electric_power_kW": 54.76300884345643,
+      "thrust_per_motor_N": 424.35574943651176,
+      "required_CT_by_rpm": {
+        "2434": 0.37844678511003943,
+        "2744": 0.2977678149154706,
+        "3000": 0.24911705356081928,
+        "3456": 0.18771479368671878,
+        "4032": 0.13791290964738523
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 44.0445290628848,
+        "3000": 35.734794579687204,
+        "3456": 31.01978696153403,
+        "4032": 26.58838882417203
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_34_11p5",
+      "figure_of_merit_assumed": 0.65,
+      "flight_minutes": 8,
+      "total_mass_kg": 225.5704308964701,
+      "battery_mass_kg": 90.5704308964701,
+      "total_shaft_power_kW": 66.84097800159493,
+      "total_electric_power_kW": 81.5133878068231,
+      "thrust_per_motor_N": 553.2114817735929,
+      "required_CT_by_rpm": {
+        "2434": 0.4933622486349749,
+        "2744": 0.3881850884136958,
+        "3000": 0.3247615108749007,
+        "3456": 0.24471443901525475,
+        "4032": 0.17979020009284022
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 65.5591950496126,
+        "3000": 53.19036025025235,
+        "3456": 46.172187717232944,
+        "4032": 39.576160900485384
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_34_11p5",
+      "figure_of_merit_assumed": 0.75,
+      "flight_minutes": 3,
+      "total_mass_kg": 151.14496322824343,
+      "battery_mass_kg": 16.14496322824343,
+      "total_shaft_power_kW": 31.773287633183067,
+      "total_electric_power_kW": 38.74791174778423,
+      "thrust_per_motor_N": 370.68302231726705,
+      "required_CT_by_rpm": {
+        "2434": 0.3305806467265285,
+        "2744": 0.2601059929746254,
+        "3000": 0.2176086042131322,
+        "3456": 0.16397253283324603,
+        "4032": 0.12046961595911954
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 31.163983885178755,
+        "3000": 25.284378925508364,
+        "3456": 21.948245595059344,
+        "4032": 18.812781938622294
+      },
+      "within_4x_observed_80percent_shaft_power": true,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_34_11p5",
+      "figure_of_merit_assumed": 0.75,
+      "flight_minutes": 5,
+      "total_mass_kg": 165.95994834022582,
+      "battery_mass_kg": 30.959948340225818,
+      "total_shaft_power_kW": 36.55750700013865,
+      "total_electric_power_kW": 44.58232560992518,
+      "thrust_per_motor_N": 407.01677330440384,
+      "required_CT_by_rpm": {
+        "2434": 0.36298362764602665,
+        "2744": 0.2856011621893439,
+        "3000": 0.23893824803850047,
+        "3456": 0.1800448555942115,
+        "4032": 0.13227785308962475
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 35.856458172896254,
+        "3000": 29.09153973094316,
+        "3456": 25.253072683110382,
+        "4032": 21.64549087123747
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_34_11p5",
+      "figure_of_merit_assumed": 0.75,
+      "flight_minutes": 8,
+      "total_mass_kg": 201.04957051523263,
+      "battery_mass_kg": 66.04957051523263,
+      "total_shaft_power_kW": 48.744583040241686,
+      "total_electric_power_kW": 59.44461346370937,
+      "thrust_per_motor_N": 493.07407168860806,
+      "required_CT_by_rpm": {
+        "2434": 0.43973080958477406,
+        "2744": 0.3459870382648298,
+        "3000": 0.2894579844609349,
+        "3456": 0.21811250999238557,
+        "4032": 0.16024592570869145
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 47.8098274844361,
+        "3000": 38.78970669903916,
+        "3456": 33.67162039847149,
+        "4032": 28.861388912975563
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_36_12",
+      "figure_of_merit_assumed": 0.55,
+      "flight_minutes": 3,
+      "total_mass_kg": 157.015934462737,
+      "battery_mass_kg": 22.015934462737004,
+      "total_shaft_power_kW": 43.32735902266642,
+      "total_electric_power_kW": 52.838242710568814,
+      "thrust_per_motor_N": 385.0815792698625,
+      "required_CT_by_rpm": {
+        "2434": 0.27323299272054025,
+        "2744": 0.21498396711588721,
+        "3000": 0.17985883553576548,
+        "3456": 0.13552731024529008,
+        "4032": 0.09957108507817232
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 42.49648742548023,
+        "3000": 34.478816797872966,
+        "3456": 29.929528470375836,
+        "4032": 25.65388154603643
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_36_12",
+      "figure_of_merit_assumed": 0.55,
+      "flight_minutes": 5,
+      "total_mass_kg": 180.06082426971972,
+      "battery_mass_kg": 45.0608242697197,
+      "total_shaft_power_kW": 53.20782129768503,
+      "total_electric_power_kW": 64.88758694839638,
+      "thrust_per_motor_N": 441.5991715214876,
+      "required_CT_by_rpm": {
+        "2434": 0.3133348093318427,
+        "2744": 0.24653669996052321,
+        "3000": 0.20625632863043986,
+        "3456": 0.155418361055682,
+        "4032": 0.11418491832662353
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 52.18747599020212,
+        "3000": 42.341438853383984,
+        "3456": 36.754721226895825,
+        "4032": 31.504046765910704
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_36_12",
+      "figure_of_merit_assumed": 0.55,
+      "flight_minutes": 8,
+      "total_mass_kg": 260.3523880204621,
+      "battery_mass_kg": 125.35238802046213,
+      "total_shaft_power_kW": 92.51006235910106,
+      "total_electric_power_kW": 112.81714921841593,
+      "thrust_per_motor_N": 638.5142316201834,
+      "required_CT_by_rpm": {
+        "2434": 0.4530550506493492,
+        "2744": 0.3564707583103096,
+        "3000": 0.29822882307164184,
+        "3456": 0.2247215162275464,
+        "4032": 0.16510152212636064
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 90.73603354677742,
+        "3000": 73.61716855095209,
+        "3456": 63.903792144923685,
+        "4032": 54.77467898136316
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_36_12",
+      "figure_of_merit_assumed": 0.65,
+      "flight_minutes": 3,
+      "total_mass_kg": 152.90145301027763,
+      "battery_mass_kg": 17.901453010277642,
+      "total_shaft_power_kW": 35.230059524226405,
+      "total_electric_power_kW": 42.963487224666345,
+      "thrust_per_motor_N": 374.9908135077059,
+      "required_CT_by_rpm": {
+        "2434": 0.2660731328974251,
+        "2744": 0.20935047807987875,
+        "3000": 0.17514577347996205,
+        "3456": 0.13197592161576033,
+        "4032": 0.0969619015952525
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 34.554466631279816,
+        "3000": 28.035190593511693,
+        "3456": 24.33610294575668,
+        "4032": 20.859516810648582
+      },
+      "within_4x_observed_80percent_shaft_power": true,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_36_12",
+      "figure_of_merit_assumed": 0.65,
+      "flight_minutes": 5,
+      "total_mass_kg": 169.96794952528552,
+      "battery_mass_kg": 34.96794952528553,
+      "total_shaft_power_kW": 41.29015479945715,
+      "total_electric_power_kW": 50.35384731641116,
+      "thrust_per_motor_N": 416.84639621076275,
+      "required_CT_by_rpm": {
+        "2434": 0.2957715831471157,
+        "2744": 0.23271768051140387,
+        "3000": 0.19469512813856826,
+        "3456": 0.14670676008705288,
+        "4032": 0.10778455843130418
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 40.498349860496006,
+        "3000": 32.85766118681576,
+        "3456": 28.52227533577757,
+        "4032": 24.44766457352363
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_36_12",
+      "figure_of_merit_assumed": 0.65,
+      "flight_minutes": 8,
+      "total_mass_kg": 214.09514430841,
+      "battery_mass_kg": 79.09514430841001,
+      "total_shaft_power_kW": 58.37221649960659,
+      "total_electric_power_kW": 71.18562987756901,
+      "thrust_per_motor_N": 525.0683414163756,
+      "required_CT_by_rpm": {
+        "2434": 0.37256000294801617,
+        "2744": 0.2931360031780308,
+        "3000": 0.2452420098694553,
+        "3456": 0.18479486903020054,
+        "4032": 0.13576765887933104
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 57.25283563152843,
+        "3000": 46.4511339757134,
+        "3456": 40.322164909473436,
+        "4032": 34.56185563669152
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_36_12",
+      "figure_of_merit_assumed": 0.75,
+      "flight_minutes": 3,
+      "total_mass_kg": 150.08841883083414,
+      "battery_mass_kg": 15.088418830834133,
+      "total_shaft_power_kW": 29.69400825908157,
+      "total_electric_power_kW": 36.21220519400192,
+      "thrust_per_motor_N": 368.09184718262077,
+      "required_CT_by_rpm": {
+        "2434": 0.26117800075619063,
+        "2744": 0.2054989119977569,
+        "3000": 0.17192349509421587,
+        "3456": 0.12954786896446385,
+        "4032": 0.09517802617797347
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 29.12457802780031,
+        "3000": 23.629740973221985,
+        "3456": 20.511927928144086,
+        "4032": 17.581652509837788
+      },
+      "within_4x_observed_80percent_shaft_power": true,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_36_12",
+      "figure_of_merit_assumed": 0.75,
+      "flight_minutes": 5,
+      "total_mass_kg": 163.62506265300482,
+      "battery_mass_kg": 28.625062653004825,
+      "total_shaft_power_kW": 33.800473980668094,
+      "total_electric_power_kW": 41.22009022032695,
+      "thrust_per_motor_N": 401.29046615649435,
+      "required_CT_by_rpm": {
+        "2434": 0.2847339393020423,
+        "2744": 0.22403309071205585,
+        "3000": 0.18742946907863228,
+        "3456": 0.14123193742060325,
+        "4032": 0.10376223973758607
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 33.15229568327231,
+        "3000": 26.8975625643616,
+        "3456": 23.34857861489722,
+        "4032": 20.01306738419762
+      },
+      "within_4x_observed_80percent_shaft_power": true,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_36_12",
+      "figure_of_merit_assumed": 0.75,
+      "flight_minutes": 8,
+      "total_mass_kg": 194.23613926282687,
+      "battery_mass_kg": 59.236139262826875,
+      "total_shaft_power_kW": 43.71627077596623,
+      "total_electric_power_kW": 53.31252533654419,
+      "thrust_per_motor_N": 476.36413154208293,
+      "required_CT_by_rpm": {
+        "2434": 0.3380021384890767,
+        "2744": 0.26594533808864085,
+        "3000": 0.2224938885745103,
+        "3456": 0.1676536944915472,
+        "4032": 0.123174142891749
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 42.87794117217826,
+        "3000": 34.78830293769396,
+        "3456": 30.1981796334149,
+        "4032": 25.884153971498485
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_42_16",
+      "figure_of_merit_assumed": 0.55,
+      "flight_minutes": 3,
+      "total_mass_kg": 153.18427648687694,
+      "battery_mass_kg": 18.184276486876932,
+      "total_shaft_power_kW": 35.7866561261738,
+      "total_electric_power_kW": 43.64226356850464,
+      "thrust_per_motor_N": 375.68443808406573,
+      "required_CT_by_rpm": {
+        "2434": 0.14388530506899,
+        "2744": 0.1132111952711696,
+        "3000": 0.09471419671081129,
+        "3456": 0.0713690838930568,
+        "4032": 0.052434428982653984
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 35.10038960072156,
+        "3000": 28.478116096052094,
+        "3456": 24.72058688893411,
+        "4032": 21.189074476229237
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_42_16",
+      "figure_of_merit_assumed": 0.55,
+      "flight_minutes": 5,
+      "total_mass_kg": 170.62889565068605,
+      "battery_mass_kg": 35.62889565068603,
+      "total_shaft_power_kW": 42.07059998433007,
+      "total_electric_power_kW": 51.3056097369879,
+      "thrust_per_motor_N": 418.4673665833076,
+      "required_CT_by_rpm": {
+        "2434": 0.16027095774667885,
+        "2744": 0.12610368157510413,
+        "3000": 0.10550024557247595,
+        "3456": 0.07949659225838812,
+        "4032": 0.05840565961840761
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 41.26382875727986,
+        "3000": 33.47871973173973,
+        "3456": 29.06138865602407,
+        "4032": 24.90976170516349
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_42_16",
+      "figure_of_merit_assumed": 0.55,
+      "flight_minutes": 8,
+      "total_mass_kg": 216.44516495342114,
+      "battery_mass_kg": 81.44516495342114,
+      "total_shaft_power_kW": 60.1065317356248,
+      "total_electric_power_kW": 73.30064845807902,
+      "thrust_per_motor_N": 530.8317670482654,
+      "required_CT_by_rpm": {
+        "2434": 0.2033059743745884,
+        "2744": 0.1599643018005278,
+        "3000": 0.1338285521246599,
+        "3456": 0.10084255048938129,
+        "4032": 0.0740884044411781
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 58.9538925914209,
+        "3000": 47.83125818917283,
+        "3456": 41.52018940032364,
+        "4032": 35.588733771705975
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_42_16",
+      "figure_of_merit_assumed": 0.65,
+      "flight_minutes": 3,
+      "total_mass_kg": 149.89356066881786,
+      "battery_mass_kg": 14.89356066881785,
+      "total_shaft_power_kW": 29.310527396233525,
+      "total_electric_power_kW": 35.744545605162834,
+      "thrust_per_motor_N": 367.6139575402758,
+      "required_CT_by_rpm": {
+        "2434": 0.14079435043424754,
+        "2744": 0.11077918410393907,
+        "3000": 0.09267953941791524,
+        "3456": 0.06983592801914185,
+        "4032": 0.05130802874875728
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 28.748451025519632,
+        "3000": 23.324576598704926,
+        "3456": 20.247028297486917,
+        "4032": 17.354595683560216
+      },
+      "within_4x_observed_80percent_shaft_power": true,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_42_16",
+      "figure_of_merit_assumed": 0.65,
+      "flight_minutes": 5,
+      "total_mass_kg": 163.2003460137156,
+      "battery_mass_kg": 28.200346013715595,
+      "total_shaft_power_kW": 33.29896857299537,
+      "total_electric_power_kW": 40.608498259750455,
+      "thrust_per_motor_N": 400.24884859863755,
+      "required_CT_by_rpm": {
+        "2434": 0.15329335433170174,
+        "2744": 0.1206135947148859,
+        "3000": 0.10090715594390483,
+        "3456": 0.07603560530591785,
+        "4032": 0.05586289369414373
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 32.660407446100386,
+        "3000": 26.49847724126945,
+        "3456": 23.002150383046395,
+        "4032": 19.716128899754054
+      },
+      "within_4x_observed_80percent_shaft_power": true,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_42_16",
+      "figure_of_merit_assumed": 0.65,
+      "flight_minutes": 8,
+      "total_mass_kg": 193.04885358805305,
+      "battery_mass_kg": 58.048853588053056,
+      "total_shaft_power_kW": 42.84005394798316,
+      "total_electric_power_kW": 52.24396822924775,
+      "thrust_per_motor_N": 473.45231342470015,
+      "required_CT_by_rpm": {
+        "2434": 0.18132992385883287,
+        "2744": 0.14267320355366114,
+        "3000": 0.11936255804362443,
+        "3456": 0.08994212815546061,
+        "4032": 0.06607993088972618
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 42.01852720713836,
+        "3000": 34.09103174072493,
+        "3456": 29.592909497157056,
+        "4032": 25.36535099756319
+      },
+      "within_4x_observed_80percent_shaft_power": false,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_42_16",
+      "figure_of_merit_assumed": 0.75,
+      "flight_minutes": 3,
+      "total_mass_kg": 147.61448855961612,
+      "battery_mass_kg": 12.61448855961612,
+      "total_shaft_power_kW": 24.825313485324525,
+      "total_electric_power_kW": 30.27477254307869,
+      "thrust_per_motor_N": 362.02453319245853,
+      "required_CT_by_rpm": {
+        "2434": 0.13865362820591354,
+        "2744": 0.10909483056903813,
+        "3000": 0.0912703837981637,
+        "3456": 0.06877410044590603,
+        "4032": 0.050527910531686065
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 24.34924828468747,
+        "3000": 19.755356774976434,
+        "3456": 17.148747200500377,
+        "4032": 14.698926171857465
+      },
+      "within_4x_observed_80percent_shaft_power": true,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_42_16",
+      "figure_of_merit_assumed": 0.75,
+      "flight_minutes": 5,
+      "total_mass_kg": 158.36140349478572,
+      "battery_mass_kg": 23.36140349478573,
+      "total_shaft_power_kW": 27.58514524664299,
+      "total_electric_power_kW": 33.64042103249145,
+      "thrust_per_motor_N": 388.381342070962,
+      "required_CT_by_rpm": {
+        "2434": 0.1487481572885367,
+        "2744": 0.11703736300899363,
+        "3000": 0.09791522645792068,
+        "3456": 0.07378112526065829,
+        "4032": 0.05420654100783059
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 27.056155845795804,
+        "3000": 21.951561109555662,
+        "3456": 19.055174574267067,
+        "4032": 16.3330067779432
+      },
+      "within_4x_observed_80percent_shaft_power": true,
+      "converged": true
+    },
+    {
+      "propeller": "HEP_S_42_16",
+      "figure_of_merit_assumed": 0.75,
+      "flight_minutes": 8,
+      "total_mass_kg": 180.47462427751617,
+      "battery_mass_kg": 45.474624277516156,
+      "total_shaft_power_kW": 33.56027271680693,
+      "total_electric_power_kW": 40.927161849764545,
+      "thrust_per_motor_N": 442.6140160406084,
+      "required_CT_by_rpm": {
+        "2434": 0.16951900656466115,
+        "2744": 0.13338019018109346,
+        "3000": 0.11158788262837666,
+        "3456": 0.0840837512571559,
+        "4032": 0.061775817250155365
+      },
+      "required_torque_Nm_by_rpm": {
+        "2434": 32.916700663877734,
+        "3000": 26.706416471959468,
+        "3456": 23.18265318746482,
+        "4032": 19.87084558925556
+      },
+      "within_4x_observed_80percent_shaft_power": true,
+      "converged": true
+    }
+  ],
+  "assumptions": {
+    "payload_kg": 100,
+    "dry_vehicle_budget_kg": 35,
+    "usable_pack_specific_energy_before_reserve_Wh_kg": 150,
+    "energy_reserve_fraction": 0.2,
+    "motor_ESC_efficiency": 0.82,
+    "air_density_kg_m3": 1.225
+  },
+  "comparison_point": "4×8.916kW is the calculated shaft power of the observed MN1330 NS52 80%/10min point,not a universal motor power limit or an HEP-S approval.",
+  "diameter_pitch_only": true,
+  "blade_count_verified": false,
+  "positive_propeller_selections": [],
+  "scope": "Actuator-disk lower bound plus assumed figure of merit,efficiency and battery feedback. CT requirements are target values to request from manufacturer,not inferred HEP-S coefficients. Pitch alone cannot determine thrust/torque/efficiency or rated RPM. No manufacturer profile,chord,twist or hub CAD supplied.20mm planning clearance is nominal and not a verified deflection allowance."
+}

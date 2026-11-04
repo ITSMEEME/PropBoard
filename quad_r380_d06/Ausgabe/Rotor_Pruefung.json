@@ -1,0 +1,1735 @@
+{
+  "native_sha256": "9842c83362c6117f37fd90cb0bbee737e61358ddb5fb1b0d7577e726e2674d18",
+  "static_new_part_candidates": 598,
+  "static_new_part_interferences": [],
+  "static_new_part_interference_count": 0,
+  "continuous_sweep_hulls": [
+    {
+      "id": "H1",
+      "rotor_id": "R1",
+      "source_instance": "D06_I_857",
+      "source_part": "D06_HUB",
+      "inner_radius_mm": 0.0,
+      "outer_radius_mm": 180.50578280086071,
+      "zmin_mm": 154.0,
+      "zmax_mm": 163.0
+    },
+    {
+      "id": "H2",
+      "rotor_id": "R1",
+      "source_instance": "D06_I_858",
+      "source_part": "D06_BLADE_CCW",
+      "inner_radius_mm": 86.0,
+      "outer_radius_mm": 380,
+      "zmin_mm": 138.6427315448157,
+      "zmax_mm": 178.14003723789338
+    },
+    {
+      "id": "H3",
+      "rotor_id": "R1",
+      "source_instance": "D06_I_859",
+      "source_part": "D06_CORE_1_CCW",
+      "inner_radius_mm": 164.99999999999994,
+      "outer_radius_mm": 310.26498635068145,
+      "zmin_mm": 159.3793351231951,
+      "zmax_mm": 175.60254874608952
+    },
+    {
+      "id": "H4",
+      "rotor_id": "R1",
+      "source_instance": "D06_I_860",
+      "source_part": "D06_CORE_2_CCW",
+      "inner_radius_mm": 165.1466493765468,
+      "outer_radius_mm": 312.14375549159587,
+      "zmin_mm": 148.67235313459994,
+      "zmax_mm": 167.45043742276914
+    },
+    {
+      "id": "H5",
+      "rotor_id": "R1",
+      "source_instance": "D06_I_861",
+      "source_part": "D06_ROOT_CAP",
+      "inner_radius_mm": 86.0,
+      "outer_radius_mm": 133.5065541462291,
+      "zmin_mm": 171.0,
+      "zmax_mm": 177.0
+    },
+    {
+      "id": "H6",
+      "rotor_id": "R1",
+      "source_instance": "D06_I_862",
+      "source_part": "D06_ROOT_BUSH",
+      "inner_radius_mm": 94.0,
+      "outer_radius_mm": 102.07840124139877,
+      "zmin_mm": 163.0,
+      "zmax_mm": 171.0
+    },
+    {
+      "id": "H7",
+      "rotor_id": "R1",
+      "source_instance": "D06_I_863",
+      "source_part": "D06_ROOT_BOND",
+      "inner_radius_mm": 93.9,
+      "outer_radius_mm": 102.1822880933873,
+      "zmin_mm": 163.0,
+      "zmax_mm": 171.0
+    },
+    {
+      "id": "H8",
+      "rotor_id": "R1",
+      "source_instance": "D06_I_864",
+      "source_part": "ISO7089_M5",
+      "inner_radius_mm": 93.0,
+      "outer_radius_mm": 103.12128781197411,
+      "zmin_mm": 153.0,
+      "zmax_mm": 154.0
+    },
+    {
+      "id": "H9",
+      "rotor_id": "R1",
+      "source_instance": "D06_I_865",
+      "source_part": "ISO7089_M5",
+      "inner_radius_mm": 93.0,
+      "outer_radius_mm": 103.12128781197411,
+      "zmin_mm": 177.0,
+      "zmax_mm": 178.0
+    },
+    {
+      "id": "H10",
+      "rotor_id": "R1",
+      "source_instance": "D06_I_866",
+      "source_part": "ISO4762_M5x35",
+      "inner_radius_mm": 93.27706959319386,
+      "outer_radius_mm": 102.70324129725462,
+      "zmin_mm": 142.5400001904526,
+      "zmax_mm": 183.0
+    },
+    {
+      "id": "H11",
+      "rotor_id": "R1",
+      "source_instance": "D06_I_867",
+      "source_part": "ISO7719_M5",
+      "inner_radius_mm": 93.38119784648299,
+      "outer_radius_mm": 102.7226941272278,
+      "zmin_mm": 146.92000610633002,
+      "zmax_mm": 153.78
+    },
+    {
+      "id": "H12",
+      "rotor_id": "R1",
+      "source_instance": "D06_I_868",
+      "source_part": "D06_ROOT_BUSH",
+      "inner_radius_mm": 118.0,
+      "outer_radius_mm": 126.0634760745554,
+      "zmin_mm": 163.0,
+      "zmax_mm": 171.0
+    },
+    {
+      "id": "H13",
+      "rotor_id": "R1",
+      "source_instance": "D06_I_869",
+      "source_part": "D06_ROOT_BOND",
+      "inner_radius_mm": 117.9,
+      "outer_radius_mm": 126.16663584323709,
+      "zmin_mm": 163.0,
+      "zmax_mm": 171.0
+    },
+    {
+      "id": "H14",
+      "rotor_id": "R1",
+      "source_instance": "D06_I_870",
+      "source_part": "ISO7089_M5",
+      "inner_radius_mm": 117.0,
+      "outer_radius_mm": 127.09838708654017,
+      "zmin_mm": 153.0,
+      "zmax_mm": 154.0
+    },
+    {
+      "id": "H15",
+      "rotor_id": "R1",
+      "source_instance": "D06_I_871",
+      "source_part": "ISO7089_M5",
+      "inner_radius_mm": 117.0,
+      "outer_radius_mm": 127.09838708654017,
+      "zmin_mm": 177.0,
+      "zmax_mm": 178.0
+    },
+    {
+      "id": "H16",
+      "rotor_id": "R1",
+      "source_instance": "D06_I_872",
+      "source_part": "ISO4762_M5x35",
+      "inner_radius_mm": 117.27706959319386,
+      "outer_radius_mm": 126.68371553527216,
+      "zmin_mm": 142.5400001904526,
+      "zmax_mm": 183.0
+    },
+    {
+      "id": "H17",
+      "rotor_id": "R1",
+      "source_instance": "D06_I_873",
+      "source_part": "ISO7719_M5",
+      "inner_radius_mm": 117.38119784648299,
+      "outer_radius_mm": 126.70301650759865,
+      "zmin_mm": 146.92000610633002,
+      "zmax_mm": 153.78
+    },
+    {
+      "id": "H18",
+      "rotor_id": "R2",
+      "source_instance": "D06_I_906",
+      "source_part": "D06_HUB",
+      "inner_radius_mm": 0.0,
+      "outer_radius_mm": 180.50578280086071,
+      "zmin_mm": 154.0,
+      "zmax_mm": 163.0
+    },
+    {
+      "id": "H19",
+      "rotor_id": "R2",
+      "source_instance": "D06_I_907",
+      "source_part": "D06_BLADE_CW",
+      "inner_radius_mm": 86.0,
+      "outer_radius_mm": 380,
+      "zmin_mm": 138.6427315448157,
+      "zmax_mm": 178.14003723789338
+    },
+    {
+      "id": "H20",
+      "rotor_id": "R2",
+      "source_instance": "D06_I_908",
+      "source_part": "D06_CORE_1_CW",
+      "inner_radius_mm": 164.99999999999994,
+      "outer_radius_mm": 310.26498635068145,
+      "zmin_mm": 159.3793351231951,
+      "zmax_mm": 175.60254874608952
+    },
+    {
+      "id": "H21",
+      "rotor_id": "R2",
+      "source_instance": "D06_I_909",
+      "source_part": "D06_CORE_2_CW",
+      "inner_radius_mm": 165.1466493765468,
+      "outer_radius_mm": 312.14375549159587,
+      "zmin_mm": 148.67235313459994,
+      "zmax_mm": 167.45043742276914
+    },
+    {
+      "id": "H22",
+      "rotor_id": "R2",
+      "source_instance": "D06_I_910",
+      "source_part": "D06_ROOT_CAP",
+      "inner_radius_mm": 86.0,
+      "outer_radius_mm": 133.5065541462291,
+      "zmin_mm": 171.0,
+      "zmax_mm": 177.0
+    },
+    {
+      "id": "H23",
+      "rotor_id": "R2",
+      "source_instance": "D06_I_911",
+      "source_part": "D06_ROOT_BUSH",
+      "inner_radius_mm": 94.0,
+      "outer_radius_mm": 102.07840124139877,
+      "zmin_mm": 163.0,
+      "zmax_mm": 171.0
+    },
+    {
+      "id": "H24",
+      "rotor_id": "R2",
+      "source_instance": "D06_I_912",
+      "source_part": "D06_ROOT_BOND",
+      "inner_radius_mm": 93.9,
+      "outer_radius_mm": 102.1822880933873,
+      "zmin_mm": 163.0,
+      "zmax_mm": 171.0
+    },
+    {
+      "id": "H25",
+      "rotor_id": "R2",
+      "source_instance": "D06_I_913",
+      "source_part": "ISO7089_M5",
+      "inner_radius_mm": 93.0,
+      "outer_radius_mm": 103.12128781197411,
+      "zmin_mm": 153.0,
+      "zmax_mm": 154.0
+    },
+    {
+      "id": "H26",
+      "rotor_id": "R2",
+      "source_instance": "D06_I_914",
+      "source_part": "ISO7089_M5",
+      "inner_radius_mm": 93.0,
+      "outer_radius_mm": 103.12128781197411,
+      "zmin_mm": 177.0,
+      "zmax_mm": 178.0
+    },
+    {
+      "id": "H27",
+      "rotor_id": "R2",
+      "source_instance": "D06_I_915",
+      "source_part": "ISO4762_M5x35",
+      "inner_radius_mm": 93.27706959319386,
+      "outer_radius_mm": 102.70324129725462,
+      "zmin_mm": 142.5400001904526,
+      "zmax_mm": 183.0
+    },
+    {
+      "id": "H28",
+      "rotor_id": "R2",
+      "source_instance": "D06_I_916",
+      "source_part": "ISO7719_M5",
+      "inner_radius_mm": 93.38119784648299,
+      "outer_radius_mm": 102.7226941272278,
+      "zmin_mm": 146.92000610633002,
+      "zmax_mm": 153.78
+    },
+    {
+      "id": "H29",
+      "rotor_id": "R2",
+      "source_instance": "D06_I_917",
+      "source_part": "D06_ROOT_BUSH",
+      "inner_radius_mm": 118.0,
+      "outer_radius_mm": 126.0634760745554,
+      "zmin_mm": 163.0,
+      "zmax_mm": 171.0
+    },
+    {
+      "id": "H30",
+      "rotor_id": "R2",
+      "source_instance": "D06_I_918",
+      "source_part": "D06_ROOT_BOND",
+      "inner_radius_mm": 117.9,
+      "outer_radius_mm": 126.16663584323709,
+      "zmin_mm": 163.0,
+      "zmax_mm": 171.0
+    },
+    {
+      "id": "H31",
+      "rotor_id": "R2",
+      "source_instance": "D06_I_919",
+      "source_part": "ISO7089_M5",
+      "inner_radius_mm": 117.0,
+      "outer_radius_mm": 127.09838708654017,
+      "zmin_mm": 153.0,
+      "zmax_mm": 154.0
+    },
+    {
+      "id": "H32",
+      "rotor_id": "R2",
+      "source_instance": "D06_I_920",
+      "source_part": "ISO7089_M5",
+      "inner_radius_mm": 117.0,
+      "outer_radius_mm": 127.09838708654017,
+      "zmin_mm": 177.0,
+      "zmax_mm": 178.0
+    },
+    {
+      "id": "H33",
+      "rotor_id": "R2",
+      "source_instance": "D06_I_921",
+      "source_part": "ISO4762_M5x35",
+      "inner_radius_mm": 117.27706959319386,
+      "outer_radius_mm": 126.68371553527216,
+      "zmin_mm": 142.5400001904526,
+      "zmax_mm": 183.0
+    },
+    {
+      "id": "H34",
+      "rotor_id": "R2",
+      "source_instance": "D06_I_922",
+      "source_part": "ISO7719_M5",
+      "inner_radius_mm": 117.38119784648299,
+      "outer_radius_mm": 126.70301650759865,
+      "zmin_mm": 146.92000610633002,
+      "zmax_mm": 153.78
+    },
+    {
+      "id": "H35",
+      "rotor_id": "R3",
+      "source_instance": "D06_I_955",
+      "source_part": "D06_HUB",
+      "inner_radius_mm": 0.0,
+      "outer_radius_mm": 180.50578280086071,
+      "zmin_mm": 154.0,
+      "zmax_mm": 163.0
+    },
+    {
+      "id": "H36",
+      "rotor_id": "R3",
+      "source_instance": "D06_I_956",
+      "source_part": "D06_BLADE_CCW",
+      "inner_radius_mm": 86.0,
+      "outer_radius_mm": 380,
+      "zmin_mm": 138.6427315448157,
+      "zmax_mm": 178.14003723789338
+    },
+    {
+      "id": "H37",
+      "rotor_id": "R3",
+      "source_instance": "D06_I_957",
+      "source_part": "D06_CORE_1_CCW",
+      "inner_radius_mm": 164.99999999999994,
+      "outer_radius_mm": 310.26498635068145,
+      "zmin_mm": 159.3793351231951,
+      "zmax_mm": 175.60254874608952
+    },
+    {
+      "id": "H38",
+      "rotor_id": "R3",
+      "source_instance": "D06_I_958",
+      "source_part": "D06_CORE_2_CCW",
+      "inner_radius_mm": 165.1466493765468,
+      "outer_radius_mm": 312.14375549159587,
+      "zmin_mm": 148.67235313459994,
+      "zmax_mm": 167.45043742276914
+    },
+    {
+      "id": "H39",
+      "rotor_id": "R3",
+      "source_instance": "D06_I_959",
+      "source_part": "D06_ROOT_CAP",
+      "inner_radius_mm": 86.0,
+      "outer_radius_mm": 133.5065541462291,
+      "zmin_mm": 171.0,
+      "zmax_mm": 177.0
+    },
+    {
+      "id": "H40",
+      "rotor_id": "R3",
+      "source_instance": "D06_I_960",
+      "source_part": "D06_ROOT_BUSH",
+      "inner_radius_mm": 94.0,
+      "outer_radius_mm": 102.07840124139877,
+      "zmin_mm": 163.0,
+      "zmax_mm": 171.0
+    },
+    {
+      "id": "H41",
+      "rotor_id": "R3",
+      "source_instance": "D06_I_961",
+      "source_part": "D06_ROOT_BOND",
+      "inner_radius_mm": 93.9,
+      "outer_radius_mm": 102.1822880933873,
+      "zmin_mm": 163.0,
+      "zmax_mm": 171.0
+    },
+    {
+      "id": "H42",
+      "rotor_id": "R3",
+      "source_instance": "D06_I_962",
+      "source_part": "ISO7089_M5",
+      "inner_radius_mm": 93.0,
+      "outer_radius_mm": 103.12128781197411,
+      "zmin_mm": 153.0,
+      "zmax_mm": 154.0
+    },
+    {
+      "id": "H43",
+      "rotor_id": "R3",
+      "source_instance": "D06_I_963",
+      "source_part": "ISO7089_M5",
+      "inner_radius_mm": 93.0,
+      "outer_radius_mm": 103.12128781197411,
+      "zmin_mm": 177.0,
+      "zmax_mm": 178.0
+    },
+    {
+      "id": "H44",
+      "rotor_id": "R3",
+      "source_instance": "D06_I_964",
+      "source_part": "ISO4762_M5x35",
+      "inner_radius_mm": 93.27706959319386,
+      "outer_radius_mm": 102.70324129725462,
+      "zmin_mm": 142.5400001904526,
+      "zmax_mm": 183.0
+    },
+    {
+      "id": "H45",
+      "rotor_id": "R3",
+      "source_instance": "D06_I_965",
+      "source_part": "ISO7719_M5",
+      "inner_radius_mm": 93.38119784648299,
+      "outer_radius_mm": 102.7226941272278,
+      "zmin_mm": 146.92000610633002,
+      "zmax_mm": 153.78
+    },
+    {
+      "id": "H46",
+      "rotor_id": "R3",
+      "source_instance": "D06_I_966",
+      "source_part": "D06_ROOT_BUSH",
+      "inner_radius_mm": 118.0,
+      "outer_radius_mm": 126.0634760745554,
+      "zmin_mm": 163.0,
+      "zmax_mm": 171.0
+    },
+    {
+      "id": "H47",
+      "rotor_id": "R3",
+      "source_instance": "D06_I_967",
+      "source_part": "D06_ROOT_BOND",
+      "inner_radius_mm": 117.9,
+      "outer_radius_mm": 126.16663584323709,
+      "zmin_mm": 163.0,
+      "zmax_mm": 171.0
+    },
+    {
+      "id": "H48",
+      "rotor_id": "R3",
+      "source_instance": "D06_I_968",
+      "source_part": "ISO7089_M5",
+      "inner_radius_mm": 117.0,
+      "outer_radius_mm": 127.09838708654017,
+      "zmin_mm": 153.0,
+      "zmax_mm": 154.0
+    },
+    {
+      "id": "H49",
+      "rotor_id": "R3",
+      "source_instance": "D06_I_969",
+      "source_part": "ISO7089_M5",
+      "inner_radius_mm": 117.0,
+      "outer_radius_mm": 127.09838708654017,
+      "zmin_mm": 177.0,
+      "zmax_mm": 178.0
+    },
+    {
+      "id": "H50",
+      "rotor_id": "R3",
+      "source_instance": "D06_I_970",
+      "source_part": "ISO4762_M5x35",
+      "inner_radius_mm": 117.27706959319386,
+      "outer_radius_mm": 126.68371553527216,
+      "zmin_mm": 142.5400001904526,
+      "zmax_mm": 183.0
+    },
+    {
+      "id": "H51",
+      "rotor_id": "R3",
+      "source_instance": "D06_I_971",
+      "source_part": "ISO7719_M5",
+      "inner_radius_mm": 117.38119784648299,
+      "outer_radius_mm": 126.70301650759865,
+      "zmin_mm": 146.92000610633002,
+      "zmax_mm": 153.78
+    },
+    {
+      "id": "H52",
+      "rotor_id": "R4",
+      "source_instance": "D06_I_1004",
+      "source_part": "D06_HUB",
+      "inner_radius_mm": 0.0,
+      "outer_radius_mm": 180.50578280086071,
+      "zmin_mm": 154.0,
+      "zmax_mm": 163.0
+    },
+    {
+      "id": "H53",
+      "rotor_id": "R4",
+      "source_instance": "D06_I_1005",
+      "source_part": "D06_BLADE_CW",
+      "inner_radius_mm": 86.0,
+      "outer_radius_mm": 380,
+      "zmin_mm": 138.6427315448157,
+      "zmax_mm": 178.14003723789338
+    },
+    {
+      "id": "H54",
+      "rotor_id": "R4",
+      "source_instance": "D06_I_1006",
+      "source_part": "D06_CORE_1_CW",
+      "inner_radius_mm": 164.99999999999994,
+      "outer_radius_mm": 310.26498635068145,
+      "zmin_mm": 159.3793351231951,
+      "zmax_mm": 175.60254874608952
+    },
+    {
+      "id": "H55",
+      "rotor_id": "R4",
+      "source_instance": "D06_I_1007",
+      "source_part": "D06_CORE_2_CW",
+      "inner_radius_mm": 165.1466493765468,
+      "outer_radius_mm": 312.14375549159587,
+      "zmin_mm": 148.67235313459994,
+      "zmax_mm": 167.45043742276914
+    },
+    {
+      "id": "H56",
+      "rotor_id": "R4",
+      "source_instance": "D06_I_1008",
+      "source_part": "D06_ROOT_CAP",
+      "inner_radius_mm": 86.0,
+      "outer_radius_mm": 133.5065541462291,
+      "zmin_mm": 171.0,
+      "zmax_mm": 177.0
+    },
+    {
+      "id": "H57",
+      "rotor_id": "R4",
+      "source_instance": "D06_I_1009",
+      "source_part": "D06_ROOT_BUSH",
+      "inner_radius_mm": 94.0,
+      "outer_radius_mm": 102.07840124139877,
+      "zmin_mm": 163.0,
+      "zmax_mm": 171.0
+    },
+    {
+      "id": "H58",
+      "rotor_id": "R4",
+      "source_instance": "D06_I_1010",
+      "source_part": "D06_ROOT_BOND",
+      "inner_radius_mm": 93.9,
+      "outer_radius_mm": 102.1822880933873,
+      "zmin_mm": 163.0,
+      "zmax_mm": 171.0
+    },
+    {
+      "id": "H59",
+      "rotor_id": "R4",
+      "source_instance": "D06_I_1011",
+      "source_part": "ISO7089_M5",
+      "inner_radius_mm": 93.0,
+      "outer_radius_mm": 103.12128781197411,
+      "zmin_mm": 153.0,
+      "zmax_mm": 154.0
+    },
+    {
+      "id": "H60",
+      "rotor_id": "R4",
+      "source_instance": "D06_I_1012",
+      "source_part": "ISO7089_M5",
+      "inner_radius_mm": 93.0,
+      "outer_radius_mm": 103.12128781197411,
+      "zmin_mm": 177.0,
+      "zmax_mm": 178.0
+    },
+    {
+      "id": "H61",
+      "rotor_id": "R4",
+      "source_instance": "D06_I_1013",
+      "source_part": "ISO4762_M5x35",
+      "inner_radius_mm": 93.27706959319386,
+      "outer_radius_mm": 102.70324129725462,
+      "zmin_mm": 142.5400001904526,
+      "zmax_mm": 183.0
+    },
+    {
+      "id": "H62",
+      "rotor_id": "R4",
+      "source_instance": "D06_I_1014",
+      "source_part": "ISO7719_M5",
+      "inner_radius_mm": 93.38119784648299,
+      "outer_radius_mm": 102.7226941272278,
+      "zmin_mm": 146.92000610633002,
+      "zmax_mm": 153.78
+    },
+    {
+      "id": "H63",
+      "rotor_id": "R4",
+      "source_instance": "D06_I_1015",
+      "source_part": "D06_ROOT_BUSH",
+      "inner_radius_mm": 118.0,
+      "outer_radius_mm": 126.0634760745554,
+      "zmin_mm": 163.0,
+      "zmax_mm": 171.0
+    },
+    {
+      "id": "H64",
+      "rotor_id": "R4",
+      "source_instance": "D06_I_1016",
+      "source_part": "D06_ROOT_BOND",
+      "inner_radius_mm": 117.9,
+      "outer_radius_mm": 126.16663584323709,
+      "zmin_mm": 163.0,
+      "zmax_mm": 171.0
+    },
+    {
+      "id": "H65",
+      "rotor_id": "R4",
+      "source_instance": "D06_I_1017",
+      "source_part": "ISO7089_M5",
+      "inner_radius_mm": 117.0,
+      "outer_radius_mm": 127.09838708654017,
+      "zmin_mm": 153.0,
+      "zmax_mm": 154.0
+    },
+    {
+      "id": "H66",
+      "rotor_id": "R4",
+      "source_instance": "D06_I_1018",
+      "source_part": "ISO7089_M5",
+      "inner_radius_mm": 117.0,
+      "outer_radius_mm": 127.09838708654017,
+      "zmin_mm": 177.0,
+      "zmax_mm": 178.0
+    },
+    {
+      "id": "H67",
+      "rotor_id": "R4",
+      "source_instance": "D06_I_1019",
+      "source_part": "ISO4762_M5x35",
+      "inner_radius_mm": 117.27706959319386,
+      "outer_radius_mm": 126.68371553527216,
+      "zmin_mm": 142.5400001904526,
+      "zmax_mm": 183.0
+    },
+    {
+      "id": "H68",
+      "rotor_id": "R4",
+      "source_instance": "D06_I_1020",
+      "source_part": "ISO7719_M5",
+      "inner_radius_mm": 117.38119784648299,
+      "outer_radius_mm": 126.70301650759865,
+      "zmin_mm": 146.92000610633002,
+      "zmax_mm": 153.78
+    }
+  ],
+  "continuous_sweep_candidates": [
+    {
+      "hull_id": "H2",
+      "rotor_id": "R1",
+      "source_instance": "D06_I_858",
+      "source_part": "D06_BLADE_CCW",
+      "fixed_instance": "I_547",
+      "fixed_part": "D04_HIGH_P_P",
+      "fixed_label": "Schienen-Endknoten D04",
+      "conservative_envelope_intersection_mm3": 48094.09444688924
+    },
+    {
+      "hull_id": "H2",
+      "rotor_id": "R1",
+      "source_instance": "D06_I_858",
+      "source_part": "D06_BLADE_CCW",
+      "fixed_instance": "D04_I_835",
+      "fixed_part": "CFK_KLEMM_A",
+      "fixed_label": "Oberer Strebenport 1/1 A",
+      "conservative_envelope_intersection_mm3": 7091.841345579849
+    },
+    {
+      "hull_id": "H2",
+      "rotor_id": "R1",
+      "source_instance": "D06_I_858",
+      "source_part": "D06_BLADE_CCW",
+      "fixed_instance": "D04_I_836",
+      "fixed_part": "CFK_KLEMM_B",
+      "fixed_label": "Oberer Strebenport 1/1 B",
+      "conservative_envelope_intersection_mm3": 5538.488740926737
+    },
+    {
+      "hull_id": "H2",
+      "rotor_id": "R1",
+      "source_instance": "D06_I_858",
+      "source_part": "D06_BLADE_CCW",
+      "fixed_instance": "D04_I_837",
+      "fixed_part": "CFK_FILM",
+      "fixed_label": "Oberer Strebenport 1/1 Isolierung",
+      "conservative_envelope_intersection_mm3": 482.57960007360845
+    },
+    {
+      "hull_id": "H2",
+      "rotor_id": "R1",
+      "source_instance": "D06_I_858",
+      "source_part": "D06_BLADE_CCW",
+      "fixed_instance": "D04_I_838",
+      "fixed_part": "ISO4762_M4x10",
+      "fixed_label": "Oberer Strebenport 1/1 Flansch M4",
+      "conservative_envelope_intersection_mm3": 176.09303196215342
+    },
+    {
+      "hull_id": "H2",
+      "rotor_id": "R1",
+      "source_instance": "D06_I_858",
+      "source_part": "D06_BLADE_CCW",
+      "fixed_instance": "D04_I_839",
+      "fixed_part": "ISO4762_M4x10",
+      "fixed_label": "Oberer Strebenport 1/1 Flansch M4",
+      "conservative_envelope_intersection_mm3": 234.049115749134
+    },
+    {
+      "hull_id": "H2",
+      "rotor_id": "R1",
+      "source_instance": "D06_I_858",
+      "source_part": "D06_BLADE_CCW",
+      "fixed_instance": "D04_I_840",
+      "fixed_part": "ISO4762_M4x10",
+      "fixed_label": "Oberer Strebenport 1/1 Flansch M4",
+      "conservative_envelope_intersection_mm3": 234.04911574913393
+    },
+    {
+      "hull_id": "H2",
+      "rotor_id": "R1",
+      "source_instance": "D06_I_858",
+      "source_part": "D06_BLADE_CCW",
+      "fixed_instance": "D04_I_841",
+      "fixed_part": "ISO4762_M4x10",
+      "fixed_label": "Oberer Strebenport 1/1 Flansch M4",
+      "conservative_envelope_intersection_mm3": 232.8048586756433
+    },
+    {
+      "hull_id": "H2",
+      "rotor_id": "R1",
+      "source_instance": "D06_I_858",
+      "source_part": "D06_BLADE_CCW",
+      "fixed_instance": "D04_I_843",
+      "fixed_part": "ISO4762_M4x16",
+      "fixed_label": "Oberer Strebenport 1/1 Queranzug M4",
+      "conservative_envelope_intersection_mm3": 294.0791285485539
+    },
+    {
+      "hull_id": "H2",
+      "rotor_id": "R1",
+      "source_instance": "D06_I_858",
+      "source_part": "D06_BLADE_CCW",
+      "fixed_instance": "D04_I_844",
+      "fixed_part": "D04_TUBE_STAY",
+      "fixed_label": "Carbon Schienenstrebe D04",
+      "conservative_envelope_intersection_mm3": 2978.2669144825477
+    },
+    {
+      "hull_id": "H3",
+      "rotor_id": "R1",
+      "source_instance": "D06_I_859",
+      "source_part": "D06_CORE_1_CCW",
+      "fixed_instance": "I_547",
+      "fixed_part": "D04_HIGH_P_P",
+      "fixed_label": "Schienen-Endknoten D04",
+      "conservative_envelope_intersection_mm3": 410.200749369142
+    },
+    {
+      "hull_id": "H4",
+      "rotor_id": "R1",
+      "source_instance": "D06_I_860",
+      "source_part": "D06_CORE_2_CCW",
+      "fixed_instance": "I_547",
+      "fixed_part": "D04_HIGH_P_P",
+      "fixed_label": "Schienen-Endknoten D04",
+      "conservative_envelope_intersection_mm3": 758.9534879747998
+    },
+    {
+      "hull_id": "H19",
+      "rotor_id": "R2",
+      "source_instance": "D06_I_907",
+      "source_part": "D06_BLADE_CW",
+      "fixed_instance": "I_487",
+      "fixed_part": "D04_HIGH_M_P",
+      "fixed_label": "Schienen-Endknoten D04",
+      "conservative_envelope_intersection_mm3": 48090.66559096498
+    },
+    {
+      "hull_id": "H19",
+      "rotor_id": "R2",
+      "source_instance": "D06_I_907",
+      "source_part": "D06_BLADE_CW",
+      "fixed_instance": "D04_I_815",
+      "fixed_part": "CFK_KLEMM_A",
+      "fixed_label": "Oberer Strebenport -1/1 A",
+      "conservative_envelope_intersection_mm3": 5595.438317242147
+    },
+    {
+      "hull_id": "H19",
+      "rotor_id": "R2",
+      "source_instance": "D06_I_907",
+      "source_part": "D06_BLADE_CW",
+      "fixed_instance": "D04_I_816",
+      "fixed_part": "CFK_KLEMM_B",
+      "fixed_label": "Oberer Strebenport -1/1 B",
+      "conservative_envelope_intersection_mm3": 7034.86520204729
+    },
+    {
+      "hull_id": "H19",
+      "rotor_id": "R2",
+      "source_instance": "D06_I_907",
+      "source_part": "D06_BLADE_CW",
+      "fixed_instance": "D04_I_817",
+      "fixed_part": "CFK_FILM",
+      "fixed_label": "Oberer Strebenport -1/1 Isolierung",
+      "conservative_envelope_intersection_mm3": 482.4904316225318
+    },
+    {
+      "hull_id": "H19",
+      "rotor_id": "R2",
+      "source_instance": "D06_I_907",
+      "source_part": "D06_BLADE_CW",
+      "fixed_instance": "D04_I_818",
+      "fixed_part": "ISO4762_M4x10",
+      "fixed_label": "Oberer Strebenport -1/1 Flansch M4",
+      "conservative_envelope_intersection_mm3": 234.04911574913402
+    },
+    {
+      "hull_id": "H19",
+      "rotor_id": "R2",
+      "source_instance": "D06_I_907",
+      "source_part": "D06_BLADE_CW",
+      "fixed_instance": "D04_I_819",
+      "fixed_part": "ISO4762_M4x10",
+      "fixed_label": "Oberer Strebenport -1/1 Flansch M4",
+      "conservative_envelope_intersection_mm3": 176.3620803267098
+    },
+    {
+      "hull_id": "H19",
+      "rotor_id": "R2",
+      "source_instance": "D06_I_907",
+      "source_part": "D06_BLADE_CW",
+      "fixed_instance": "D04_I_820",
+      "fixed_part": "ISO4762_M4x10",
+      "fixed_label": "Oberer Strebenport -1/1 Flansch M4",
+      "conservative_envelope_intersection_mm3": 232.80481295680238
+    },
+    {
+      "hull_id": "H19",
+      "rotor_id": "R2",
+      "source_instance": "D06_I_907",
+      "source_part": "D06_BLADE_CW",
+      "fixed_instance": "D04_I_821",
+      "fixed_part": "ISO4762_M4x10",
+      "fixed_label": "Oberer Strebenport -1/1 Flansch M4",
+      "conservative_envelope_intersection_mm3": 234.0491157491342
+    },
+    {
+      "hull_id": "H19",
+      "rotor_id": "R2",
+      "source_instance": "D06_I_907",
+      "source_part": "D06_BLADE_CW",
+      "fixed_instance": "D04_I_823",
+      "fixed_part": "ISO4762_M4x16",
+      "fixed_label": "Oberer Strebenport -1/1 Queranzug M4",
+      "conservative_envelope_intersection_mm3": 294.07912854855414
+    },
+    {
+      "hull_id": "H19",
+      "rotor_id": "R2",
+      "source_instance": "D06_I_907",
+      "source_part": "D06_BLADE_CW",
+      "fixed_instance": "D04_I_824",
+      "fixed_part": "D04_TUBE_STAY",
+      "fixed_label": "Carbon Schienenstrebe D04",
+      "conservative_envelope_intersection_mm3": 2978.7722221939994
+    },
+    {
+      "hull_id": "H20",
+      "rotor_id": "R2",
+      "source_instance": "D06_I_908",
+      "source_part": "D06_CORE_1_CW",
+      "fixed_instance": "I_487",
+      "fixed_part": "D04_HIGH_M_P",
+      "fixed_label": "Schienen-Endknoten D04",
+      "conservative_envelope_intersection_mm3": 410.20074936914244
+    },
+    {
+      "hull_id": "H21",
+      "rotor_id": "R2",
+      "source_instance": "D06_I_909",
+      "source_part": "D06_CORE_2_CW",
+      "fixed_instance": "I_487",
+      "fixed_part": "D04_HIGH_M_P",
+      "fixed_label": "Schienen-Endknoten D04",
+      "conservative_envelope_intersection_mm3": 758.9534879748021
+    },
+    {
+      "hull_id": "H36",
+      "rotor_id": "R3",
+      "source_instance": "D06_I_956",
+      "source_part": "D06_BLADE_CCW",
+      "fixed_instance": "I_457",
+      "fixed_part": "D04_HIGH_M_M",
+      "fixed_label": "Schienen-Endknoten D04",
+      "conservative_envelope_intersection_mm3": 48094.31529272843
+    },
+    {
+      "hull_id": "H36",
+      "rotor_id": "R3",
+      "source_instance": "D06_I_956",
+      "source_part": "D06_BLADE_CCW",
+      "fixed_instance": "D04_I_805",
+      "fixed_part": "CFK_KLEMM_A",
+      "fixed_label": "Oberer Strebenport -1/-1 A",
+      "conservative_envelope_intersection_mm3": 5595.42346638755
+    },
+    {
+      "hull_id": "H36",
+      "rotor_id": "R3",
+      "source_instance": "D06_I_956",
+      "source_part": "D06_BLADE_CCW",
+      "fixed_instance": "D04_I_806",
+      "fixed_part": "CFK_KLEMM_B",
+      "fixed_label": "Oberer Strebenport -1/-1 B",
+      "conservative_envelope_intersection_mm3": 7034.877746058039
+    },
+    {
+      "hull_id": "H36",
+      "rotor_id": "R3",
+      "source_instance": "D06_I_956",
+      "source_part": "D06_BLADE_CCW",
+      "fixed_instance": "D04_I_807",
+      "fixed_part": "CFK_FILM",
+      "fixed_label": "Oberer Strebenport -1/-1 Isolierung",
+      "conservative_envelope_intersection_mm3": 482.5327075275286
+    },
+    {
+      "hull_id": "H36",
+      "rotor_id": "R3",
+      "source_instance": "D06_I_956",
+      "source_part": "D06_BLADE_CCW",
+      "fixed_instance": "D04_I_808",
+      "fixed_part": "ISO4762_M4x10",
+      "fixed_label": "Oberer Strebenport -1/-1 Flansch M4",
+      "conservative_envelope_intersection_mm3": 234.04911574913402
+    },
+    {
+      "hull_id": "H36",
+      "rotor_id": "R3",
+      "source_instance": "D06_I_956",
+      "source_part": "D06_BLADE_CCW",
+      "fixed_instance": "D04_I_809",
+      "fixed_part": "ISO4762_M4x10",
+      "fixed_label": "Oberer Strebenport -1/-1 Flansch M4",
+      "conservative_envelope_intersection_mm3": 232.80487182091477
+    },
+    {
+      "hull_id": "H36",
+      "rotor_id": "R3",
+      "source_instance": "D06_I_956",
+      "source_part": "D06_BLADE_CCW",
+      "fixed_instance": "D04_I_810",
+      "fixed_part": "ISO4762_M4x10",
+      "fixed_label": "Oberer Strebenport -1/-1 Flansch M4",
+      "conservative_envelope_intersection_mm3": 176.36307098921992
+    },
+    {
+      "hull_id": "H36",
+      "rotor_id": "R3",
+      "source_instance": "D06_I_956",
+      "source_part": "D06_BLADE_CCW",
+      "fixed_instance": "D04_I_811",
+      "fixed_part": "ISO4762_M4x10",
+      "fixed_label": "Oberer Strebenport -1/-1 Flansch M4",
+      "conservative_envelope_intersection_mm3": 234.04911574913396
+    },
+    {
+      "hull_id": "H36",
+      "rotor_id": "R3",
+      "source_instance": "D06_I_956",
+      "source_part": "D06_BLADE_CCW",
+      "fixed_instance": "D04_I_812",
+      "fixed_part": "ISO4762_M4x16",
+      "fixed_label": "Oberer Strebenport -1/-1 Queranzug M4",
+      "conservative_envelope_intersection_mm3": 294.07912854855414
+    },
+    {
+      "hull_id": "H36",
+      "rotor_id": "R3",
+      "source_instance": "D06_I_956",
+      "source_part": "D06_BLADE_CCW",
+      "fixed_instance": "D04_I_814",
+      "fixed_part": "D04_TUBE_STAY",
+      "fixed_label": "Carbon Schienenstrebe D04",
+      "conservative_envelope_intersection_mm3": 2976.966998178744
+    },
+    {
+      "hull_id": "H37",
+      "rotor_id": "R3",
+      "source_instance": "D06_I_957",
+      "source_part": "D06_CORE_1_CCW",
+      "fixed_instance": "I_457",
+      "fixed_part": "D04_HIGH_M_M",
+      "fixed_label": "Schienen-Endknoten D04",
+      "conservative_envelope_intersection_mm3": 410.20074936914335
+    },
+    {
+      "hull_id": "H38",
+      "rotor_id": "R3",
+      "source_instance": "D06_I_958",
+      "source_part": "D06_CORE_2_CCW",
+      "fixed_instance": "I_457",
+      "fixed_part": "D04_HIGH_M_M",
+      "fixed_label": "Schienen-Endknoten D04",
+      "conservative_envelope_intersection_mm3": 758.9534879748023
+    },
+    {
+      "hull_id": "H53",
+      "rotor_id": "R4",
+      "source_instance": "D06_I_1005",
+      "source_part": "D06_BLADE_CW",
+      "fixed_instance": "I_517",
+      "fixed_part": "D04_HIGH_P_M",
+      "fixed_label": "Schienen-Endknoten D04",
+      "conservative_envelope_intersection_mm3": 48090.39311566798
+    },
+    {
+      "hull_id": "H53",
+      "rotor_id": "R4",
+      "source_instance": "D06_I_1005",
+      "source_part": "D06_BLADE_CW",
+      "fixed_instance": "D04_I_825",
+      "fixed_part": "CFK_KLEMM_A",
+      "fixed_label": "Oberer Strebenport 1/-1 A",
+      "conservative_envelope_intersection_mm3": 7091.848225249207
+    },
+    {
+      "hull_id": "H53",
+      "rotor_id": "R4",
+      "source_instance": "D06_I_1005",
+      "source_part": "D06_BLADE_CW",
+      "fixed_instance": "D04_I_826",
+      "fixed_part": "CFK_KLEMM_B",
+      "fixed_label": "Oberer Strebenport 1/-1 B",
+      "conservative_envelope_intersection_mm3": 5538.465877942759
+    },
+    {
+      "hull_id": "H53",
+      "rotor_id": "R4",
+      "source_instance": "D06_I_1005",
+      "source_part": "D06_BLADE_CW",
+      "fixed_instance": "D04_I_827",
+      "fixed_part": "CFK_FILM",
+      "fixed_label": "Oberer Strebenport 1/-1 Isolierung",
+      "conservative_envelope_intersection_mm3": 482.5774390928237
+    },
+    {
+      "hull_id": "H53",
+      "rotor_id": "R4",
+      "source_instance": "D06_I_1005",
+      "source_part": "D06_BLADE_CW",
+      "fixed_instance": "D04_I_828",
+      "fixed_part": "ISO4762_M4x10",
+      "fixed_label": "Oberer Strebenport 1/-1 Flansch M4",
+      "conservative_envelope_intersection_mm3": 232.80480897842224
+    },
+    {
+      "hull_id": "H53",
+      "rotor_id": "R4",
+      "source_instance": "D06_I_1005",
+      "source_part": "D06_BLADE_CW",
+      "fixed_instance": "D04_I_829",
+      "fixed_part": "ISO4762_M4x10",
+      "fixed_label": "Oberer Strebenport 1/-1 Flansch M4",
+      "conservative_envelope_intersection_mm3": 234.049115749134
+    },
+    {
+      "hull_id": "H53",
+      "rotor_id": "R4",
+      "source_instance": "D06_I_1005",
+      "source_part": "D06_BLADE_CW",
+      "fixed_instance": "D04_I_830",
+      "fixed_part": "ISO4762_M4x10",
+      "fixed_label": "Oberer Strebenport 1/-1 Flansch M4",
+      "conservative_envelope_intersection_mm3": 234.04911574913402
+    },
+    {
+      "hull_id": "H53",
+      "rotor_id": "R4",
+      "source_instance": "D06_I_1005",
+      "source_part": "D06_BLADE_CW",
+      "fixed_instance": "D04_I_831",
+      "fixed_part": "ISO4762_M4x10",
+      "fixed_label": "Oberer Strebenport 1/-1 Flansch M4",
+      "conservative_envelope_intersection_mm3": 176.1009279835395
+    },
+    {
+      "hull_id": "H53",
+      "rotor_id": "R4",
+      "source_instance": "D06_I_1005",
+      "source_part": "D06_BLADE_CW",
+      "fixed_instance": "D04_I_832",
+      "fixed_part": "ISO4762_M4x16",
+      "fixed_label": "Oberer Strebenport 1/-1 Queranzug M4",
+      "conservative_envelope_intersection_mm3": 294.079128548554
+    },
+    {
+      "hull_id": "H53",
+      "rotor_id": "R4",
+      "source_instance": "D06_I_1005",
+      "source_part": "D06_BLADE_CW",
+      "fixed_instance": "D04_I_834",
+      "fixed_part": "D04_TUBE_STAY",
+      "fixed_label": "Carbon Schienenstrebe D04",
+      "conservative_envelope_intersection_mm3": 2977.4382840083267
+    },
+    {
+      "hull_id": "H54",
+      "rotor_id": "R4",
+      "source_instance": "D06_I_1006",
+      "source_part": "D06_CORE_1_CW",
+      "fixed_instance": "I_517",
+      "fixed_part": "D04_HIGH_P_M",
+      "fixed_label": "Schienen-Endknoten D04",
+      "conservative_envelope_intersection_mm3": 410.200749369142
+    },
+    {
+      "hull_id": "H55",
+      "rotor_id": "R4",
+      "source_instance": "D06_I_1007",
+      "source_part": "D06_CORE_2_CW",
+      "fixed_instance": "I_517",
+      "fixed_part": "D04_HIGH_P_M",
+      "fixed_label": "Schienen-Endknoten D04",
+      "conservative_envelope_intersection_mm3": 758.9534879747982
+    }
+  ],
+  "continuous_sweep_candidate_count": 48,
+  "actual_blade_collision_witnesses": [
+    {
+      "rotor_id": "R1",
+      "blade": "D06_I_858",
+      "fixed_instance": "I_547",
+      "fixed_part": "D04_HIGH_P_P",
+      "fixed_label": "Schienen-Endknoten D04",
+      "extra_phase_deg": 260,
+      "actual_intersection_mm3": 1776.1226776667413
+    },
+    {
+      "rotor_id": "R1",
+      "blade": "D06_I_858",
+      "fixed_instance": "D04_I_835",
+      "fixed_part": "CFK_KLEMM_A",
+      "fixed_label": "Oberer Strebenport 1/1 A",
+      "extra_phase_deg": 255,
+      "actual_intersection_mm3": 54.629840482527264
+    },
+    {
+      "rotor_id": "R1",
+      "blade": "D06_I_858",
+      "fixed_instance": "D04_I_836",
+      "fixed_part": "CFK_KLEMM_B",
+      "fixed_label": "Oberer Strebenport 1/1 B",
+      "extra_phase_deg": 255,
+      "actual_intersection_mm3": 452.2483333108131
+    },
+    {
+      "rotor_id": "R1",
+      "blade": "D06_I_858",
+      "fixed_instance": "D04_I_837",
+      "fixed_part": "CFK_FILM",
+      "fixed_label": "Oberer Strebenport 1/1 Isolierung",
+      "extra_phase_deg": 255,
+      "actual_intersection_mm3": 17.514554146007445
+    },
+    {
+      "rotor_id": "R1",
+      "blade": "D06_I_858",
+      "fixed_instance": "D04_I_844",
+      "fixed_part": "D04_TUBE_STAY",
+      "fixed_label": "Carbon Schienenstrebe D04",
+      "extra_phase_deg": 255,
+      "actual_intersection_mm3": 90.97942540834273
+    },
+    {
+      "rotor_id": "R2",
+      "blade": "D06_I_907",
+      "fixed_instance": "I_487",
+      "fixed_part": "D04_HIGH_M_P",
+      "fixed_label": "Schienen-Endknoten D04",
+      "extra_phase_deg": 280,
+      "actual_intersection_mm3": 1776.1146133110842
+    },
+    {
+      "rotor_id": "R2",
+      "blade": "D06_I_907",
+      "fixed_instance": "D04_I_815",
+      "fixed_part": "CFK_KLEMM_A",
+      "fixed_label": "Oberer Strebenport -1/1 A",
+      "extra_phase_deg": 285,
+      "actual_intersection_mm3": 471.8685630553427
+    },
+    {
+      "rotor_id": "R2",
+      "blade": "D06_I_907",
+      "fixed_instance": "D04_I_816",
+      "fixed_part": "CFK_KLEMM_B",
+      "fixed_label": "Oberer Strebenport -1/1 B",
+      "extra_phase_deg": 285,
+      "actual_intersection_mm3": 53.097871422956764
+    },
+    {
+      "rotor_id": "R2",
+      "blade": "D06_I_907",
+      "fixed_instance": "D04_I_817",
+      "fixed_part": "CFK_FILM",
+      "fixed_label": "Oberer Strebenport -1/1 Isolierung",
+      "extra_phase_deg": 285,
+      "actual_intersection_mm3": 17.514454296954845
+    },
+    {
+      "rotor_id": "R2",
+      "blade": "D06_I_907",
+      "fixed_instance": "D04_I_824",
+      "fixed_part": "D04_TUBE_STAY",
+      "fixed_label": "Carbon Schienenstrebe D04",
+      "extra_phase_deg": 285,
+      "actual_intersection_mm3": 90.97299093786805
+    },
+    {
+      "rotor_id": "R3",
+      "blade": "D06_I_956",
+      "fixed_instance": "I_457",
+      "fixed_part": "D04_HIGH_M_M",
+      "fixed_label": "Schienen-Endknoten D04",
+      "extra_phase_deg": 80,
+      "actual_intersection_mm3": 1776.122677660238
+    },
+    {
+      "rotor_id": "R3",
+      "blade": "D06_I_956",
+      "fixed_instance": "D04_I_805",
+      "fixed_part": "CFK_KLEMM_A",
+      "fixed_label": "Oberer Strebenport -1/-1 A",
+      "extra_phase_deg": 75,
+      "actual_intersection_mm3": 471.8697045339783
+    },
+    {
+      "rotor_id": "R3",
+      "blade": "D06_I_956",
+      "fixed_instance": "D04_I_806",
+      "fixed_part": "CFK_KLEMM_B",
+      "fixed_label": "Oberer Strebenport -1/-1 B",
+      "extra_phase_deg": 75,
+      "actual_intersection_mm3": 53.09787044706978
+    },
+    {
+      "rotor_id": "R3",
+      "blade": "D06_I_956",
+      "fixed_instance": "D04_I_807",
+      "fixed_part": "CFK_FILM",
+      "fixed_label": "Oberer Strebenport -1/-1 Isolierung",
+      "extra_phase_deg": 75,
+      "actual_intersection_mm3": 17.514554146013054
+    },
+    {
+      "rotor_id": "R3",
+      "blade": "D06_I_956",
+      "fixed_instance": "D04_I_814",
+      "fixed_part": "D04_TUBE_STAY",
+      "fixed_label": "Carbon Schienenstrebe D04",
+      "extra_phase_deg": 75,
+      "actual_intersection_mm3": 90.97942540817604
+    },
+    {
+      "rotor_id": "R4",
+      "blade": "D06_I_1005",
+      "fixed_instance": "I_517",
+      "fixed_part": "D04_HIGH_P_M",
+      "fixed_label": "Schienen-Endknoten D04",
+      "extra_phase_deg": 100,
+      "actual_intersection_mm3": 1776.1146133278712
+    },
+    {
+      "rotor_id": "R4",
+      "blade": "D06_I_1005",
+      "fixed_instance": "D04_I_825",
+      "fixed_part": "CFK_KLEMM_A",
+      "fixed_label": "Oberer Strebenport 1/-1 A",
+      "extra_phase_deg": 105,
+      "actual_intersection_mm3": 54.62984048132376
+    },
+    {
+      "rotor_id": "R4",
+      "blade": "D06_I_1005",
+      "fixed_instance": "D04_I_826",
+      "fixed_part": "CFK_KLEMM_B",
+      "fixed_label": "Oberer Strebenport 1/-1 B",
+      "extra_phase_deg": 105,
+      "actual_intersection_mm3": 452.24674976982766
+    },
+    {
+      "rotor_id": "R4",
+      "blade": "D06_I_1005",
+      "fixed_instance": "D04_I_827",
+      "fixed_part": "CFK_FILM",
+      "fixed_label": "Oberer Strebenport 1/-1 Isolierung",
+      "extra_phase_deg": 105,
+      "actual_intersection_mm3": 17.514454296949296
+    },
+    {
+      "rotor_id": "R4",
+      "blade": "D06_I_1005",
+      "fixed_instance": "D04_I_834",
+      "fixed_part": "D04_TUBE_STAY",
+      "fixed_label": "Carbon Schienenstrebe D04",
+      "extra_phase_deg": 105,
+      "actual_intersection_mm3": 90.97299093781027
+    }
+  ],
+  "actual_blade_collision_count": 20,
+  "phase_search": [
+    {
+      "source_instance": "D06_I_858",
+      "fixed_instance": "I_547",
+      "actual_collision_found": true,
+      "search_step_deg": 5,
+      "phase_order": "nearest fixed-body azimuth first; stop at first actual collision"
+    },
+    {
+      "source_instance": "D06_I_858",
+      "fixed_instance": "D04_I_835",
+      "actual_collision_found": true,
+      "search_step_deg": 5,
+      "phase_order": "nearest fixed-body azimuth first; stop at first actual collision"
+    },
+    {
+      "source_instance": "D06_I_858",
+      "fixed_instance": "D04_I_836",
+      "actual_collision_found": true,
+      "search_step_deg": 5,
+      "phase_order": "nearest fixed-body azimuth first; stop at first actual collision"
+    },
+    {
+      "source_instance": "D06_I_858",
+      "fixed_instance": "D04_I_837",
+      "actual_collision_found": true,
+      "search_step_deg": 5,
+      "phase_order": "nearest fixed-body azimuth first; stop at first actual collision"
+    },
+    {
+      "source_instance": "D06_I_858",
+      "fixed_instance": "D04_I_844",
+      "actual_collision_found": true,
+      "search_step_deg": 5,
+      "phase_order": "nearest fixed-body azimuth first; stop at first actual collision"
+    },
+    {
+      "source_instance": "D06_I_907",
+      "fixed_instance": "I_487",
+      "actual_collision_found": true,
+      "search_step_deg": 5,
+      "phase_order": "nearest fixed-body azimuth first; stop at first actual collision"
+    },
+    {
+      "source_instance": "D06_I_907",
+      "fixed_instance": "D04_I_815",
+      "actual_collision_found": true,
+      "search_step_deg": 5,
+      "phase_order": "nearest fixed-body azimuth first; stop at first actual collision"
+    },
+    {
+      "source_instance": "D06_I_907",
+      "fixed_instance": "D04_I_816",
+      "actual_collision_found": true,
+      "search_step_deg": 5,
+      "phase_order": "nearest fixed-body azimuth first; stop at first actual collision"
+    },
+    {
+      "source_instance": "D06_I_907",
+      "fixed_instance": "D04_I_817",
+      "actual_collision_found": true,
+      "search_step_deg": 5,
+      "phase_order": "nearest fixed-body azimuth first; stop at first actual collision"
+    },
+    {
+      "source_instance": "D06_I_907",
+      "fixed_instance": "D04_I_824",
+      "actual_collision_found": true,
+      "search_step_deg": 5,
+      "phase_order": "nearest fixed-body azimuth first; stop at first actual collision"
+    },
+    {
+      "source_instance": "D06_I_956",
+      "fixed_instance": "I_457",
+      "actual_collision_found": true,
+      "search_step_deg": 5,
+      "phase_order": "nearest fixed-body azimuth first; stop at first actual collision"
+    },
+    {
+      "source_instance": "D06_I_956",
+      "fixed_instance": "D04_I_805",
+      "actual_collision_found": true,
+      "search_step_deg": 5,
+      "phase_order": "nearest fixed-body azimuth first; stop at first actual collision"
+    },
+    {
+      "source_instance": "D06_I_956",
+      "fixed_instance": "D04_I_806",
+      "actual_collision_found": true,
+      "search_step_deg": 5,
+      "phase_order": "nearest fixed-body azimuth first; stop at first actual collision"
+    },
+    {
+      "source_instance": "D06_I_956",
+      "fixed_instance": "D04_I_807",
+      "actual_collision_found": true,
+      "search_step_deg": 5,
+      "phase_order": "nearest fixed-body azimuth first; stop at first actual collision"
+    },
+    {
+      "source_instance": "D06_I_956",
+      "fixed_instance": "D04_I_814",
+      "actual_collision_found": true,
+      "search_step_deg": 5,
+      "phase_order": "nearest fixed-body azimuth first; stop at first actual collision"
+    },
+    {
+      "source_instance": "D06_I_1005",
+      "fixed_instance": "I_517",
+      "actual_collision_found": true,
+      "search_step_deg": 5,
+      "phase_order": "nearest fixed-body azimuth first; stop at first actual collision"
+    },
+    {
+      "source_instance": "D06_I_1005",
+      "fixed_instance": "D04_I_825",
+      "actual_collision_found": true,
+      "search_step_deg": 5,
+      "phase_order": "nearest fixed-body azimuth first; stop at first actual collision"
+    },
+    {
+      "source_instance": "D06_I_1005",
+      "fixed_instance": "D04_I_826",
+      "actual_collision_found": true,
+      "search_step_deg": 5,
+      "phase_order": "nearest fixed-body azimuth first; stop at first actual collision"
+    },
+    {
+      "source_instance": "D06_I_1005",
+      "fixed_instance": "D04_I_827",
+      "actual_collision_found": true,
+      "search_step_deg": 5,
+      "phase_order": "nearest fixed-body azimuth first; stop at first actual collision"
+    },
+    {
+      "source_instance": "D06_I_1005",
+      "fixed_instance": "D04_I_834",
+      "actual_collision_found": true,
+      "search_step_deg": 5,
+      "phase_order": "nearest fixed-body azimuth first; stop at first actual collision"
+    }
+  ],
+  "phase_witness_scope": "Structural bodies only; ISO fastener envelope conflicts remain unresolved candidates, not separately searched for exact phase witnesses.",
+  "foot_cases": 52,
+  "foot_sweep_envelope_conflicts": [],
+  "rotor_disk_separation": [
+    {
+      "a": "R1",
+      "b": "R2",
+      "axis_distance_mm": 850.0,
+      "nominal_disk_edge_gap_mm": 90.0
+    },
+    {
+      "a": "R1",
+      "b": "R3",
+      "axis_distance_mm": 1202.0815280171307,
+      "nominal_disk_edge_gap_mm": 442.0815280171307
+    },
+    {
+      "a": "R1",
+      "b": "R4",
+      "axis_distance_mm": 850.0,
+      "nominal_disk_edge_gap_mm": 90.0
+    },
+    {
+      "a": "R2",
+      "b": "R3",
+      "axis_distance_mm": 850.0,
+      "nominal_disk_edge_gap_mm": 90.0
+    },
+    {
+      "a": "R2",
+      "b": "R4",
+      "axis_distance_mm": 1202.0815280171307,
+      "nominal_disk_edge_gap_mm": 442.0815280171307
+    },
+    {
+      "a": "R3",
+      "b": "R4",
+      "axis_distance_mm": 850.0,
+      "nominal_disk_edge_gap_mm": 90.0
+    }
+  ],
+  "root_nominal_thread_pairs": [
+    {
+      "bolt": "D06_I_866",
+      "mate": "D06_I_867",
+      "family": "D06 Blattwurzel M5",
+      "fitted_nominal_phase_deg": 37,
+      "intersection_mm3": 0.08833142792572979,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_872",
+      "mate": "D06_I_873",
+      "family": "D06 Blattwurzel M5",
+      "fitted_nominal_phase_deg": 37,
+      "intersection_mm3": 0.08833142792572979,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_882",
+      "mate": "D06_I_883",
+      "family": "D06 Blattwurzel M5",
+      "fitted_nominal_phase_deg": 37,
+      "intersection_mm3": 0.08833142792572979,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_888",
+      "mate": "D06_I_889",
+      "family": "D06 Blattwurzel M5",
+      "fitted_nominal_phase_deg": 37,
+      "intersection_mm3": 0.08833142792572979,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_898",
+      "mate": "D06_I_899",
+      "family": "D06 Blattwurzel M5",
+      "fitted_nominal_phase_deg": 37,
+      "intersection_mm3": 0.08833142792572979,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_904",
+      "mate": "D06_I_905",
+      "family": "D06 Blattwurzel M5",
+      "fitted_nominal_phase_deg": 37,
+      "intersection_mm3": 0.08833142792572979,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_915",
+      "mate": "D06_I_916",
+      "family": "D06 Blattwurzel M5",
+      "fitted_nominal_phase_deg": 37,
+      "intersection_mm3": 0.08833142792572979,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_921",
+      "mate": "D06_I_922",
+      "family": "D06 Blattwurzel M5",
+      "fitted_nominal_phase_deg": 37,
+      "intersection_mm3": 0.08833142792572979,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_931",
+      "mate": "D06_I_932",
+      "family": "D06 Blattwurzel M5",
+      "fitted_nominal_phase_deg": 37,
+      "intersection_mm3": 0.08833142792572979,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_937",
+      "mate": "D06_I_938",
+      "family": "D06 Blattwurzel M5",
+      "fitted_nominal_phase_deg": 37,
+      "intersection_mm3": 0.08833142792572979,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_947",
+      "mate": "D06_I_948",
+      "family": "D06 Blattwurzel M5",
+      "fitted_nominal_phase_deg": 37,
+      "intersection_mm3": 0.08833142792572979,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_953",
+      "mate": "D06_I_954",
+      "family": "D06 Blattwurzel M5",
+      "fitted_nominal_phase_deg": 37,
+      "intersection_mm3": 0.08833142792572979,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_964",
+      "mate": "D06_I_965",
+      "family": "D06 Blattwurzel M5",
+      "fitted_nominal_phase_deg": 37,
+      "intersection_mm3": 0.08833142792572979,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_970",
+      "mate": "D06_I_971",
+      "family": "D06 Blattwurzel M5",
+      "fitted_nominal_phase_deg": 37,
+      "intersection_mm3": 0.08833142792572979,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_980",
+      "mate": "D06_I_981",
+      "family": "D06 Blattwurzel M5",
+      "fitted_nominal_phase_deg": 37,
+      "intersection_mm3": 0.08833142792572979,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_986",
+      "mate": "D06_I_987",
+      "family": "D06 Blattwurzel M5",
+      "fitted_nominal_phase_deg": 37,
+      "intersection_mm3": 0.08833142792572979,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_996",
+      "mate": "D06_I_997",
+      "family": "D06 Blattwurzel M5",
+      "fitted_nominal_phase_deg": 37,
+      "intersection_mm3": 0.08833142792572979,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_1002",
+      "mate": "D06_I_1003",
+      "family": "D06 Blattwurzel M5",
+      "fitted_nominal_phase_deg": 37,
+      "intersection_mm3": 0.08833142792572979,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_1013",
+      "mate": "D06_I_1014",
+      "family": "D06 Blattwurzel M5",
+      "fitted_nominal_phase_deg": 37,
+      "intersection_mm3": 0.08833142792572979,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_1019",
+      "mate": "D06_I_1020",
+      "family": "D06 Blattwurzel M5",
+      "fitted_nominal_phase_deg": 37,
+      "intersection_mm3": 0.08833142792572979,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_1029",
+      "mate": "D06_I_1030",
+      "family": "D06 Blattwurzel M5",
+      "fitted_nominal_phase_deg": 37,
+      "intersection_mm3": 0.08833142792572979,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_1035",
+      "mate": "D06_I_1036",
+      "family": "D06 Blattwurzel M5",
+      "fitted_nominal_phase_deg": 37,
+      "intersection_mm3": 0.08833142792572979,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_1045",
+      "mate": "D06_I_1046",
+      "family": "D06 Blattwurzel M5",
+      "fitted_nominal_phase_deg": 37,
+      "intersection_mm3": 0.08833142792572979,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_1051",
+      "mate": "D06_I_1052",
+      "family": "D06 Blattwurzel M5",
+      "fitted_nominal_phase_deg": 37,
+      "intersection_mm3": 0.08833142792572979,
+      "passed": true
+    }
+  ],
+  "mechanically_clear": false,
+  "production_ready": false,
+  "reporting_threshold_mm3": 0.1,
+  "scope": "All196 added propeller parts versus all856 D05 parts and each other at the default pose, plus corrected native motor references versus all fixed neighbors. Continuous conservative annular envelopes enclose full rotation of every added part. Hull intersections are candidates; separate exact-BRep blade phase witnesses on structural bodies confirm actual collisions. ISO envelope conflicts remain unresolved.52 foot-system cases versus all invariant annuli. Nominal rigid CAD, no deflection/tolerances/person envelope; motor-to-hub bolts not selected, OEM motor reference incomplete. Existing D05-to-D05 structural fastener tests are inherited, not rerun here."
+}

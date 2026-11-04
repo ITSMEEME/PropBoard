@@ -1,0 +1,86 @@
+{
+  "status": "INTEGRATIONSPLAN_KEIN_FERTIGER_KABELBAUM",
+  "physical_oem_parts_modeled": false,
+  "reason": "Keine verifizierten Lieferteilabmessungen, Anschluesse und dauerhaft belastbaren Betriebspunkte",
+  "battery_series_count": 24,
+  "battery_parallel_count": null,
+  "battery_supplier_part": null,
+  "proposed_topology": [
+    {
+      "id": "HV01",
+      "from": "Batterie +",
+      "to": "Hauptsicherung/Service-Trenner",
+      "selection": "offen"
+    },
+    {
+      "id": "HV02",
+      "from": "Hauptsicherung/Service-Trenner",
+      "to": "Hauptschuetz mit Vorladezweig",
+      "selection": "offen"
+    },
+    {
+      "id": "HV03",
+      "from": "Hauptschuetz",
+      "to": "geschuetzte DC-Verteilung",
+      "selection": "offen"
+    },
+    {
+      "id": "HV04-07",
+      "from": "DC-Verteilung",
+      "to": "4 einzeln abgesicherte Reglerzweige",
+      "selection": "offen"
+    },
+    {
+      "id": "PH01-12",
+      "from": "4 Regler",
+      "to": "je 3 Motorphasen",
+      "selection": "offen"
+    },
+    {
+      "id": "HV_RETURN",
+      "from": "Verbraucher",
+      "to": "Stromsensor/Batterie -",
+      "selection": "offen"
+    },
+    {
+      "id": "LV01",
+      "from": "abgesicherter Hilfszweig",
+      "to": "isolierter DC/DC, Flugsteuerung, BMS/Schuetzversorgung",
+      "selection": "offen"
+    },
+    {
+      "id": "SIG01",
+      "from": "Flugsteuerung",
+      "to": "Reglerkommandos/Telemetrie und IMU",
+      "selection": "offen"
+    },
+    {
+      "id": "BMS01",
+      "from": "Zellgruppen und Temperaturfuehler",
+      "to": "BMS / Abschaltlogik",
+      "selection": "offen"
+    }
+  ],
+  "cable_sections_and_routes": "Nach Strom-/Thermik-/Spannungsabfallauslegung und OEM-Anschlusspositionen festlegen",
+  "carbon_frame_is_power_return": false,
+  "open": [
+    "Rueckstrompfade getrennt fuehren; Carbon nicht als Leistungsleiter verwenden",
+    "Scheuerschutz und galvanische Isolation an CFK/Aluminium",
+    "Schaltfolge, Selektivitaet und Fehlerverhalten auslegen",
+    "Kabelradien/Zugentlastungen/Wartungswege physisch modellieren"
+  ],
+  "received_source_status": "UNVERIFIED_TEXT_EXTRACT",
+  "assessment": "Ausgabe/MN1330_Betriebsgrenzen.json",
+  "selected_motor": "MN1330 KV40",
+  "motor_count": 4,
+  "motor_choice_fixed_by_user": true,
+  "battery_series_selection_scope": "24S reference from motor XLS; physical pack not designed",
+  "recommended_esc_from_motor_sheet": "M200A24S",
+  "esc_selection_final": false,
+  "branch_current_max_from_xls_A": 177,
+  "branch_current_continuous_A": null,
+  "total_current_four_max_values_A": 708,
+  "motor_reference_installed": true,
+  "modeled_scope": "Vier alte Motor-Zeichnungsreferenzen und detaillierte Träger; kein physischer Akku/Regler/Kabelbaum",
+  "motor_leads_mass_included_in_2750g": true
+}

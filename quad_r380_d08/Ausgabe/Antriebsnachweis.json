@@ -1,0 +1,490 @@
+{
+  "method": "Stationary annular blade-element/momentum hover with Prandtl tip loss; no swirl or root loss; 134\u2013380 mm lifting span from CAD stations.",
+  "polars_measured": false,
+  "model_validated": false,
+  "assumptions": "Cl slope/clipping and Cd polar assumed; +2 degree zero-lift correction for cambered profile; no Reynolds/Mach-dependent polar, interference, ground effect or motor thermal model. Samples above4032rpm are demands,not permitted operation.",
+  "curves": [
+    {
+      "polar": "low_lift",
+      "rpm": 2434,
+      "thrust_N": 76.76928221801298,
+      "torque_Nm": 3.8277223984745765,
+      "shaft_power_W": 975.6400625382727,
+      "tip_speed_m_s": 96.85739590527572,
+      "max_annulus_residual_N_per_m": 2.8421709430404007e-13,
+      "max_abs_alpha_deg": 22.30172577258186
+    },
+    {
+      "polar": "low_lift",
+      "rpm": 2744,
+      "thrust_N": 97.56960489117948,
+      "torque_Nm": 4.864828109134675,
+      "shaft_power_W": 1397.91326114178,
+      "tip_speed_m_s": 109.19338305837165,
+      "max_annulus_residual_N_per_m": 2.8421709430404007e-13,
+      "max_abs_alpha_deg": 22.30172577258186
+    },
+    {
+      "polar": "low_lift",
+      "rpm": 2880,
+      "thrust_N": 107.48090331321865,
+      "torque_Nm": 5.359006221420105,
+      "shaft_power_W": 1616.2381992725184,
+      "tip_speed_m_s": 114.60530000295566,
+      "max_annulus_residual_N_per_m": 2.2737367544323206e-13,
+      "max_abs_alpha_deg": 22.301725772581857
+    },
+    {
+      "polar": "low_lift",
+      "rpm": 3456,
+      "thrust_N": 154.77250077103483,
+      "torque_Nm": 7.7169689588449515,
+      "shaft_power_W": 2792.8596083429115,
+      "tip_speed_m_s": 137.52636000354678,
+      "max_annulus_residual_N_per_m": 3.410605131648481e-13,
+      "max_abs_alpha_deg": 22.301725772581857
+    },
+    {
+      "polar": "low_lift",
+      "rpm": 4032,
+      "thrust_N": 210.66257049390856,
+      "torque_Nm": 10.503652193983399,
+      "shaft_power_W": 4434.957618803787,
+      "tip_speed_m_s": 160.4474200041379,
+      "max_annulus_residual_N_per_m": 4.547473508864641e-13,
+      "max_abs_alpha_deg": 22.30172577258186
+    },
+    {
+      "polar": "low_lift",
+      "rpm": 4500,
+      "thrust_N": 262.4045491045377,
+      "torque_Nm": 13.083511282763931,
+      "shaft_power_W": 6165.459439363551,
+      "tip_speed_m_s": 179.07078125461823,
+      "max_annulus_residual_N_per_m": 6.821210263296962e-13,
+      "max_abs_alpha_deg": 22.30172577258186
+    },
+    {
+      "polar": "low_lift",
+      "rpm": 5000,
+      "thrust_N": 323.9562334623922,
+      "torque_Nm": 16.15248306514065,
+      "shaft_power_W": 8457.420355779901,
+      "tip_speed_m_s": 198.96753472735358,
+      "max_annulus_residual_N_per_m": 9.094947017729282e-13,
+      "max_abs_alpha_deg": 22.30172577258186
+    },
+    {
+      "polar": "low_lift",
+      "rpm": 6000,
+      "thrust_N": 466.49697618584463,
+      "torque_Nm": 23.259575613802554,
+      "shaft_power_W": 14614.422374787682,
+      "tip_speed_m_s": 238.7610416728243,
+      "max_annulus_residual_N_per_m": 9.094947017729282e-13,
+      "max_abs_alpha_deg": 22.301725772581857
+    },
+    {
+      "polar": "low_lift",
+      "rpm": 7000,
+      "thrust_N": 634.9542175862889,
+      "torque_Nm": 31.658866807675675,
+      "shaft_power_W": 23207.161456260048,
+      "tip_speed_m_s": 278.554548618295,
+      "max_annulus_residual_N_per_m": 1.3642420526593924e-12,
+      "max_abs_alpha_deg": 22.30172577258186
+    },
+    {
+      "polar": "central",
+      "rpm": 2434,
+      "thrust_N": 110.79297540912177,
+      "torque_Nm": 6.057787732637605,
+      "shaft_power_W": 1544.0566966584292,
+      "tip_speed_m_s": 96.85739590527572,
+      "max_annulus_residual_N_per_m": 3.410605131648481e-13,
+      "max_abs_alpha_deg": 19.701928056031356
+    },
+    {
+      "polar": "central",
+      "rpm": 2744,
+      "thrust_N": 140.81187843709884,
+      "torque_Nm": 7.699120514238718,
+      "shaft_power_W": 2212.350040852199,
+      "tip_speed_m_s": 109.19338305837165,
+      "max_annulus_residual_N_per_m": 4.547473508864641e-13,
+      "max_abs_alpha_deg": 19.701928056031356
+    },
+    {
+      "polar": "central",
+      "rpm": 2880,
+      "thrust_N": 155.11580587551114,
+      "torque_Nm": 8.481211218500263,
+      "shaft_power_W": 2557.8730423280413,
+      "tip_speed_m_s": 114.60530000295566,
+      "max_annulus_residual_N_per_m": 4.547473508864641e-13,
+      "max_abs_alpha_deg": 19.701928056031353
+    },
+    {
+      "polar": "central",
+      "rpm": 3456,
+      "thrust_N": 223.36676046073612,
+      "torque_Nm": 12.21294415464038,
+      "shaft_power_W": 4420.004617142856,
+      "tip_speed_m_s": 137.52636000354678,
+      "max_annulus_residual_N_per_m": 6.821210263296962e-13,
+      "max_abs_alpha_deg": 19.701928056031353
+    },
+    {
+      "polar": "central",
+      "rpm": 4032,
+      "thrust_N": 304.02697951600186,
+      "torque_Nm": 16.623173988260515,
+      "shaft_power_W": 7018.803628148145,
+      "tip_speed_m_s": 160.4474200041379,
+      "max_annulus_residual_N_per_m": 1.1368683772161603e-12,
+      "max_abs_alpha_deg": 19.701928056031353
+    },
+    {
+      "polar": "central",
+      "rpm": 4500,
+      "thrust_N": 378.7006979382599,
+      "torque_Nm": 20.706082076416656,
+      "shaft_power_W": 9757.51130038468,
+      "tip_speed_m_s": 179.07078125461823,
+      "max_annulus_residual_N_per_m": 1.3642420526593924e-12,
+      "max_abs_alpha_deg": 19.701928056031353
+    },
+    {
+      "polar": "central",
+      "rpm": 5000,
+      "thrust_N": 467.5317258497033,
+      "torque_Nm": 25.56306429187243,
+      "shaft_power_W": 13384.789163765,
+      "tip_speed_m_s": 198.96753472735358,
+      "max_annulus_residual_N_per_m": 1.8189894035458565e-12,
+      "max_abs_alpha_deg": 19.701928056031353
+    },
+    {
+      "polar": "central",
+      "rpm": 6000,
+      "thrust_N": 673.2456852235728,
+      "torque_Nm": 36.8108125802963,
+      "shaft_power_W": 23128.91567498592,
+      "tip_speed_m_s": 238.7610416728243,
+      "max_annulus_residual_N_per_m": 1.3642420526593924e-12,
+      "max_abs_alpha_deg": 19.701928056031356
+    },
+    {
+      "polar": "central",
+      "rpm": 7000,
+      "thrust_N": 916.3621826654185,
+      "torque_Nm": 50.10360601206994,
+      "shaft_power_W": 36727.861465371134,
+      "tip_speed_m_s": 278.554548618295,
+      "max_annulus_residual_N_per_m": 2.7284841053187847e-12,
+      "max_abs_alpha_deg": 19.701928056031353
+    },
+    {
+      "polar": "high_lift",
+      "rpm": 2434,
+      "thrust_N": 122.40382371767512,
+      "torque_Nm": 6.945711212099412,
+      "shaft_power_W": 1770.377633457961,
+      "tip_speed_m_s": 96.85739590527572,
+      "max_annulus_residual_N_per_m": 4.547473508864641e-13,
+      "max_abs_alpha_deg": 18.578600912993878
+    },
+    {
+      "polar": "high_lift",
+      "rpm": 2744,
+      "thrust_N": 155.56863855242474,
+      "torque_Nm": 8.827623224719469,
+      "shaft_power_W": 2536.6264322941342,
+      "tip_speed_m_s": 109.19338305837165,
+      "max_annulus_residual_N_per_m": 4.547473508864641e-13,
+      "max_abs_alpha_deg": 18.578600912993878
+    },
+    {
+      "polar": "high_lift",
+      "rpm": 2880,
+      "thrust_N": 171.37158459820517,
+      "torque_Nm": 9.72434929258764,
+      "shaft_power_W": 2932.7946526593055,
+      "tip_speed_m_s": 114.60530000295566,
+      "max_annulus_residual_N_per_m": 4.547473508864641e-13,
+      "max_abs_alpha_deg": 18.578600912993878
+    },
+    {
+      "polar": "high_lift",
+      "rpm": 3456,
+      "thrust_N": 246.77508182141545,
+      "torque_Nm": 14.003062981326197,
+      "shaft_power_W": 5067.869159795278,
+      "tip_speed_m_s": 137.52636000354678,
+      "max_annulus_residual_N_per_m": 1.1368683772161603e-12,
+      "max_abs_alpha_deg": 18.578600912993874
+    },
+    {
+      "polar": "high_lift",
+      "rpm": 4032,
+      "thrust_N": 335.8883058124822,
+      "torque_Nm": 19.059724613471776,
+      "shaft_power_W": 8047.588526897134,
+      "tip_speed_m_s": 160.4474200041379,
+      "max_annulus_residual_N_per_m": 1.1368683772161603e-12,
+      "max_abs_alpha_deg": 18.578600912993874
+    },
+    {
+      "polar": "high_lift",
+      "rpm": 4500,
+      "thrust_N": 418.38765771046184,
+      "torque_Nm": 23.741087140106547,
+      "shaft_power_W": 11187.723742139076,
+      "tip_speed_m_s": 179.07078125461823,
+      "max_annulus_residual_N_per_m": 1.8189894035458565e-12,
+      "max_abs_alpha_deg": 18.578600912993874
+    },
+    {
+      "polar": "high_lift",
+      "rpm": 5000,
+      "thrust_N": 516.5279724820517,
+      "torque_Nm": 29.30998412358831,
+      "shaft_power_W": 15346.671799916418,
+      "tip_speed_m_s": 198.96753472735358,
+      "max_annulus_residual_N_per_m": 1.8189894035458565e-12,
+      "max_abs_alpha_deg": 18.578600912993878
+    },
+    {
+      "polar": "high_lift",
+      "rpm": 6000,
+      "thrust_N": 743.8002803741542,
+      "torque_Nm": 42.2063771379672,
+      "shaft_power_W": 26519.048870255592,
+      "tip_speed_m_s": 238.7610416728243,
+      "max_annulus_residual_N_per_m": 2.7284841053187847e-12,
+      "max_abs_alpha_deg": 18.578600912993878
+    },
+    {
+      "polar": "high_lift",
+      "rpm": 7000,
+      "thrust_N": 1012.3948260648212,
+      "torque_Nm": 57.44756888223309,
+      "shaft_power_W": 42111.26741897065,
+      "tip_speed_m_s": 278.554548618295,
+      "max_annulus_residual_N_per_m": 4.547473508864641e-12,
+      "max_abs_alpha_deg": 18.578600912993878
+    }
+  ],
+  "hover": [
+    {
+      "mass_kg": 130,
+      "polar": "low_lift",
+      "rpm": 4960.243744222281,
+      "thrust_N": 318.8249999999999,
+      "torque_Nm": 15.896639364531021,
+      "shaft_power_W": 8257.278979238103,
+      "tip_speed_m_s": 197.38549388693696,
+      "max_annulus_residual_N_per_m": 9.094947017729282e-13,
+      "max_abs_alpha_deg": 22.301725772581857,
+      "ideal_min_supply_V": 124.00609360555703,
+      "within_24S_ideal_no_load": false
+    },
+    {
+      "mass_kg": 150,
+      "polar": "low_lift",
+      "rpm": 5328.1564861479355,
+      "thrust_N": 367.875,
+      "torque_Nm": 18.342276189843496,
+      "shaft_power_W": 10234.315897140385,
+      "tip_speed_m_s": 212.02603213808268,
+      "max_annulus_residual_N_per_m": 6.821210263296962e-13,
+      "max_abs_alpha_deg": 22.30172577258186,
+      "ideal_min_supply_V": 133.20391215369838,
+      "within_24S_ideal_no_load": false
+    },
+    {
+      "mass_kg": 175,
+      "polar": "low_lift",
+      "rpm": 5755.066764544124,
+      "thrust_N": 429.18750000000006,
+      "torque_Nm": 21.39932222148407,
+      "shaft_power_W": 12896.712024575598,
+      "tip_speed_m_s": 229.01428926653426,
+      "max_annulus_residual_N_per_m": 9.094947017729282e-13,
+      "max_abs_alpha_deg": 22.30172577258186,
+      "ideal_min_supply_V": 143.8766691136031,
+      "within_24S_ideal_no_load": false
+    },
+    {
+      "mass_kg": 200,
+      "polar": "low_lift",
+      "rpm": 6152.425163123922,
+      "thrust_N": 490.50000000000017,
+      "torque_Nm": 24.456368253124666,
+      "shaft_power_W": 15756.760101828448,
+      "tip_speed_m_s": 244.82657346026056,
+      "max_annulus_residual_N_per_m": 1.3642420526593924e-12,
+      "max_abs_alpha_deg": 22.301725772581857,
+      "ideal_min_supply_V": 153.81062907809806,
+      "within_24S_ideal_no_load": false
+    },
+    {
+      "mass_kg": 130,
+      "polar": "central",
+      "rpm": 4128.959710997986,
+      "thrust_N": 318.825,
+      "torque_Nm": 17.432280040555447,
+      "shaft_power_W": 7537.432868875089,
+      "tip_speed_m_s": 164.3057869371671,
+      "max_annulus_residual_N_per_m": 1.1368683772161603e-12,
+      "max_abs_alpha_deg": 19.701928056031353,
+      "ideal_min_supply_V": 103.22399277494965,
+      "within_24S_ideal_no_load": false
+    },
+    {
+      "mass_kg": 150,
+      "polar": "central",
+      "rpm": 4435.214195032823,
+      "thrust_N": 367.87500000000006,
+      "torque_Nm": 20.114169277563988,
+      "shaft_power_W": 9342.11732793779,
+      "tip_speed_m_s": 176.49272687468894,
+      "max_annulus_residual_N_per_m": 1.5916157281026244e-12,
+      "max_abs_alpha_deg": 19.701928056031353,
+      "ideal_min_supply_V": 110.88035487582059,
+      "within_24S_ideal_no_load": false
+    },
+    {
+      "mass_kg": 175,
+      "polar": "central",
+      "rpm": 4790.578856650913,
+      "thrust_N": 429.18750000000017,
+      "torque_Nm": 23.466530823824648,
+      "shaft_power_W": 11772.413328757613,
+      "tip_speed_m_s": 190.63393300496327,
+      "max_annulus_residual_N_per_m": 1.8189894035458565e-12,
+      "max_abs_alpha_deg": 19.701928056031353,
+      "ideal_min_supply_V": 119.76447141627281,
+      "within_24S_ideal_no_load": false
+    },
+    {
+      "mass_kg": 200,
+      "polar": "central",
+      "rpm": 5121.344218831699,
+      "thrust_N": 490.49999999999994,
+      "torque_Nm": 26.818892370085297,
+      "shaft_power_W": 14383.130544229189,
+      "tip_speed_m_s": 203.7962467422255,
+      "max_annulus_residual_N_per_m": 1.8189894035458565e-12,
+      "max_abs_alpha_deg": 19.701928056031353,
+      "ideal_min_supply_V": 128.03360547079248,
+      "within_24S_ideal_no_load": false
+    },
+    {
+      "mass_kg": 130,
+      "polar": "high_lift",
+      "rpm": 3928.251325300746,
+      "thrust_N": 318.82499999999993,
+      "torque_Nm": 18.09148039611303,
+      "shaft_power_W": 7442.211183438729,
+      "tip_speed_m_s": 156.31889639690976,
+      "max_annulus_residual_N_per_m": 1.1368683772161603e-12,
+      "max_abs_alpha_deg": 18.578600912993878,
+      "ideal_min_supply_V": 98.20628313251865,
+      "within_24S_ideal_no_load": true
+    },
+    {
+      "mass_kg": 150,
+      "polar": "high_lift",
+      "rpm": 4219.6188045194685,
+      "thrust_N": 367.875,
+      "torque_Nm": 20.874785072438108,
+      "shaft_power_W": 9224.096753428412,
+      "tip_speed_m_s": 167.9134302048843,
+      "max_annulus_residual_N_per_m": 1.3642420526593924e-12,
+      "max_abs_alpha_deg": 18.578600912993878,
+      "ideal_min_supply_V": 105.49047011298671,
+      "within_24S_ideal_no_load": false
+    },
+    {
+      "mass_kg": 175,
+      "polar": "high_lift",
+      "rpm": 4557.7092197027405,
+      "thrust_N": 429.1875000000002,
+      "torque_Nm": 24.353915917844464,
+      "shaft_power_W": 11623.690406999094,
+      "tip_speed_m_s": 181.3672334896769,
+      "max_annulus_residual_N_per_m": 1.3642420526593924e-12,
+      "max_abs_alpha_deg": 18.578600912993874,
+      "ideal_min_supply_V": 113.94273049256851,
+      "within_24S_ideal_no_load": false
+    },
+    {
+      "mass_kg": 200,
+      "polar": "high_lift",
+      "rpm": 4872.396105333844,
+      "thrust_N": 490.5,
+      "torque_Nm": 27.83304676325082,
+      "shaft_power_W": 14201.425982994799,
+      "tip_speed_m_s": 193.88972825868677,
+      "max_annulus_residual_N_per_m": 1.8189894035458565e-12,
+      "max_abs_alpha_deg": 18.578600912993874,
+      "ideal_min_supply_V": 121.80990263334611,
+      "within_24S_ideal_no_load": false
+    }
+  ],
+  "mesh_convergence": [
+    {
+      "rpm": 4032,
+      "thrust_N": 304.13779223402776,
+      "torque_Nm": 16.627066208969776,
+      "shaft_power_W": 7020.447040703112,
+      "tip_speed_m_s": 160.4474200041379,
+      "max_annulus_residual_N_per_m": 1.1368683772161603e-12,
+      "max_abs_alpha_deg": 19.320128591146798
+    },
+    {
+      "rpm": 4032,
+      "thrust_N": 304.02697951600186,
+      "torque_Nm": 16.623173988260515,
+      "shaft_power_W": 7018.803628148145,
+      "tip_speed_m_s": 160.4474200041379,
+      "max_annulus_residual_N_per_m": 1.1368683772161603e-12,
+      "max_abs_alpha_deg": 19.701928056031353
+    },
+    {
+      "rpm": 4032,
+      "thrust_N": 303.99909926510753,
+      "torque_Nm": 16.622488060463652,
+      "shaft_power_W": 7018.514008818367,
+      "tip_speed_m_s": 160.4474200041379,
+      "max_annulus_residual_N_per_m": 1.1368683772161603e-12,
+      "max_abs_alpha_deg": 19.638258680710006
+    }
+  ],
+  "motor_24S_no_load_limits_rpm": {
+    "empty_3V_cell": 2880,
+    "nominal_3_6V_cell": 3456,
+    "full_4_2V_cell": 4032
+  },
+  "ideal_total_hover_power_kW": [
+    {
+      "mass_kg": 130,
+      "power_kW": 21.599662672750615
+    },
+    {
+      "mass_kg": 150,
+      "power_kW": 26.771261043792197
+    },
+    {
+      "mass_kg": 175,
+      "power_kW": 33.73564463776208
+    },
+    {
+      "mass_kg": 200,
+      "power_kW": 41.217052720477774
+    }
+  ],
+  "positive_drive_verification": false,
+  "scope": "This provides a reproducible conditional feasibility check, not a measured R380 map or release. NS52 thrust is not transferred."
+}

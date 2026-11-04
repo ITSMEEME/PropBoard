@@ -1,0 +1,22 @@
+{
+  "native_sha256": "7a19da138b8180489ac0f48d9b042b10fe5b48c15ee581875a40e87ddfe08165",
+  "old_central_plate_instances_absent": true,
+  "old_central_plate_master_bodies_absent": true,
+  "central_cfk_tubes": 12,
+  "nominal_module_min_mm": [
+    -532.5304832720495,
+    -532.5304832720495,
+    -134.0
+  ],
+  "nominal_module_max_mm": [
+    532.5304832720494,
+    532.5304832720494,
+    261.0
+  ],
+  "nominal_module_bounds_mm": [
+    1065.0609665440988,
+    1065.0609665440988,
+    395.0
+  ],
+  "scope": "Physical CAD assembly only, excluding unmodeled OEM drives/rotors/battery/guards/landing gear"
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "mass_case_kg": 150,
+    "rpm": 4867.957833198902,
+    "thrust_each_N": 367.87500287542406,
+    "shaft_each_kW": 9.497398241612245,
+    "torque_each_Nm": 18.630702176870344,
+    "required_continuous_shaft_plus30pct_kW": 12.346617714095919,
+    "electric_total_at_eta082_kW": 46.32877191030364,
+    "pack_current_at92V_A": 503.5736077206917,
+    "energy_only_minutes_12kg_220Whkg": 2.7352333069683024,
+    "tip_Mach": 0.5697444524872326,
+    "scope": "Legacy assumed 3-blade polar and geometry; actual OEM rotor/map must replace this reference"
+  },
+  {
+    "mass_case_kg": 175,
+    "rpm": 5257.7752134531365,
+    "thrust_each_N": 429.18739089332286,
+    "shaft_each_kW": 11.95275823258805,
+    "torque_each_Nm": 21.708884222716772,
+    "required_continuous_shaft_plus30pct_kW": 15.538585702364465,
+    "electric_total_at_eta082_kW": 58.30613771994171,
+    "pack_current_at92V_A": 633.7623665211056,
+    "energy_only_minutes_12kg_220Whkg": 2.1733560986094878,
+    "tip_Mach": 0.6153685719831503,
+    "scope": "Legacy assumed 3-blade polar and geometry; actual OEM rotor/map must replace this reference"
+  },
+  {
+    "mass_case_kg": 200,
+    "rpm": 5620.597138207261,
+    "thrust_each_N": 490.49994968271193,
+    "shaft_each_kW": 14.587478717498007,
+    "torque_each_Nm": 24.78387211944687,
+    "required_continuous_shaft_plus30pct_kW": 18.96372233274741,
+    "electric_total_at_eta082_kW": 71.15843276828296,
+    "pack_current_at92V_A": 773.4612257422061,
+    "energy_only_minutes_12kg_220Whkg": 1.7808149374599798,
+    "tip_Mach": 0.657833150755716,
+    "scope": "Legacy assumed 3-blade polar and geometry; actual OEM rotor/map must replace this reference"
+  }
+]

@@ -1,0 +1,95 @@
+bolt,mate,bolt_id,mate_id,function,assembly_stage,preload_target_N,torque_K018_024_reference_Nm,torque_released,reason,geometric_thread_fit
+I_7,I_10,ISO4762_M6x80,ISO7719_M6,Wurzelklemmschraube,Rahmen vor Antrieb/Schutz,8000,"[8.64, 11.52]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_11,I_14,ISO4762_M6x80,ISO7719_M6,Wurzelklemmschraube,Rahmen vor Antrieb/Schutz,8000,"[8.64, 11.52]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_15,I_18,ISO4762_M6x80,ISO7719_M6,Wurzelklemmschraube,Rahmen vor Antrieb/Schutz,8000,"[8.64, 11.52]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_19,I_22,ISO4762_M6x80,ISO7719_M6,Wurzelklemmschraube,Rahmen vor Antrieb/Schutz,8000,"[8.64, 11.52]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_23,I_26,ISO4762_M6x90,ISO7719_M6,Endtraeger-Klemmschraube,Endtraeger vor OEM-Adapter,6500,"[7.02, 9.36]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_27,I_30,ISO4762_M6x90,ISO7719_M6,Endtraeger-Klemmschraube,Endtraeger vor OEM-Adapter,6500,"[7.02, 9.36]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_31,I_34,ISO4762_M6x90,ISO7719_M6,Endtraeger-Klemmschraube,Endtraeger vor OEM-Adapter,6500,"[7.02, 9.36]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_35,I_38,ISO4762_M6x90,ISO7719_M6,Endtraeger-Klemmschraube,Endtraeger vor OEM-Adapter,6500,"[7.02, 9.36]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_47,I_50,ISO4762_M6x80,ISO7719_M6,Wurzelklemmschraube,Rahmen vor Antrieb/Schutz,8000,"[8.64, 11.52]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_51,I_54,ISO4762_M6x80,ISO7719_M6,Wurzelklemmschraube,Rahmen vor Antrieb/Schutz,8000,"[8.64, 11.52]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_55,I_58,ISO4762_M6x80,ISO7719_M6,Wurzelklemmschraube,Rahmen vor Antrieb/Schutz,8000,"[8.64, 11.52]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_59,I_62,ISO4762_M6x80,ISO7719_M6,Wurzelklemmschraube,Rahmen vor Antrieb/Schutz,8000,"[8.64, 11.52]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_63,I_66,ISO4762_M6x90,ISO7719_M6,Endtraeger-Klemmschraube,Endtraeger vor OEM-Adapter,6500,"[7.02, 9.36]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_67,I_70,ISO4762_M6x90,ISO7719_M6,Endtraeger-Klemmschraube,Endtraeger vor OEM-Adapter,6500,"[7.02, 9.36]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_71,I_74,ISO4762_M6x90,ISO7719_M6,Endtraeger-Klemmschraube,Endtraeger vor OEM-Adapter,6500,"[7.02, 9.36]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_75,I_78,ISO4762_M6x90,ISO7719_M6,Endtraeger-Klemmschraube,Endtraeger vor OEM-Adapter,6500,"[7.02, 9.36]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_87,I_90,ISO4762_M6x80,ISO7719_M6,Wurzelklemmschraube,Rahmen vor Antrieb/Schutz,8000,"[8.64, 11.52]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_91,I_94,ISO4762_M6x80,ISO7719_M6,Wurzelklemmschraube,Rahmen vor Antrieb/Schutz,8000,"[8.64, 11.52]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_95,I_98,ISO4762_M6x80,ISO7719_M6,Wurzelklemmschraube,Rahmen vor Antrieb/Schutz,8000,"[8.64, 11.52]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_99,I_102,ISO4762_M6x80,ISO7719_M6,Wurzelklemmschraube,Rahmen vor Antrieb/Schutz,8000,"[8.64, 11.52]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_103,I_106,ISO4762_M6x90,ISO7719_M6,Endtraeger-Klemmschraube,Endtraeger vor OEM-Adapter,6500,"[7.02, 9.36]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_107,I_110,ISO4762_M6x90,ISO7719_M6,Endtraeger-Klemmschraube,Endtraeger vor OEM-Adapter,6500,"[7.02, 9.36]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_111,I_114,ISO4762_M6x90,ISO7719_M6,Endtraeger-Klemmschraube,Endtraeger vor OEM-Adapter,6500,"[7.02, 9.36]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_115,I_118,ISO4762_M6x90,ISO7719_M6,Endtraeger-Klemmschraube,Endtraeger vor OEM-Adapter,6500,"[7.02, 9.36]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_127,I_130,ISO4762_M6x80,ISO7719_M6,Wurzelklemmschraube,Rahmen vor Antrieb/Schutz,8000,"[8.64, 11.52]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_131,I_134,ISO4762_M6x80,ISO7719_M6,Wurzelklemmschraube,Rahmen vor Antrieb/Schutz,8000,"[8.64, 11.52]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_135,I_138,ISO4762_M6x80,ISO7719_M6,Wurzelklemmschraube,Rahmen vor Antrieb/Schutz,8000,"[8.64, 11.52]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_139,I_142,ISO4762_M6x80,ISO7719_M6,Wurzelklemmschraube,Rahmen vor Antrieb/Schutz,8000,"[8.64, 11.52]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_143,I_146,ISO4762_M6x90,ISO7719_M6,Endtraeger-Klemmschraube,Endtraeger vor OEM-Adapter,6500,"[7.02, 9.36]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_147,I_150,ISO4762_M6x90,ISO7719_M6,Endtraeger-Klemmschraube,Endtraeger vor OEM-Adapter,6500,"[7.02, 9.36]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_151,I_154,ISO4762_M6x90,ISO7719_M6,Endtraeger-Klemmschraube,Endtraeger vor OEM-Adapter,6500,"[7.02, 9.36]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_155,I_158,ISO4762_M6x90,ISO7719_M6,Endtraeger-Klemmschraube,Endtraeger vor OEM-Adapter,6500,"[7.02, 9.36]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_168,I_170,ISO4762_M6x25,ISO7719_M6,Stuetzenfuss M6,Rahmenmontage,3000,"[3.24, 4.32]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_171,I_173,ISO4762_M6x20,ISO7719_M6,Stuetzenkopf M6,Rahmenmontage,3000,"[3.24, 4.32]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_174,I_176,ISO4762_M6x25,ISO7719_M6,Stuetzenfuss M6,Rahmenmontage,3000,"[3.24, 4.32]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_177,I_179,ISO4762_M6x20,ISO7719_M6,Stuetzenkopf M6,Rahmenmontage,3000,"[3.24, 4.32]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_180,I_182,ISO4762_M6x25,ISO7719_M6,Stuetzenfuss M6,Rahmenmontage,3000,"[3.24, 4.32]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_183,I_185,ISO4762_M6x20,ISO7719_M6,Stuetzenkopf M6,Rahmenmontage,3000,"[3.24, 4.32]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_186,I_188,ISO4762_M6x25,ISO7719_M6,Stuetzenfuss M6,Rahmenmontage,3000,"[3.24, 4.32]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_189,I_191,ISO4762_M6x20,ISO7719_M6,Stuetzenkopf M6,Rahmenmontage,3000,"[3.24, 4.32]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_197,I_199,ISO4762_M6x25,ISO7719_M6,Stuetzenfuss M6,Rahmenmontage,3000,"[3.24, 4.32]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_200,I_202,ISO4762_M6x20,ISO7719_M6,Stuetzenkopf M6,Rahmenmontage,3000,"[3.24, 4.32]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_203,I_205,ISO4762_M6x25,ISO7719_M6,Stuetzenfuss M6,Rahmenmontage,3000,"[3.24, 4.32]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_206,I_208,ISO4762_M6x20,ISO7719_M6,Stuetzenkopf M6,Rahmenmontage,3000,"[3.24, 4.32]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_209,I_211,ISO4762_M6x25,ISO7719_M6,Stuetzenfuss M6,Rahmenmontage,3000,"[3.24, 4.32]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_212,I_214,ISO4762_M6x20,ISO7719_M6,Stuetzenkopf M6,Rahmenmontage,3000,"[3.24, 4.32]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_215,I_217,ISO4762_M6x25,ISO7719_M6,Stuetzenfuss M6,Rahmenmontage,3000,"[3.24, 4.32]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_218,I_220,ISO4762_M6x20,ISO7719_M6,Stuetzenkopf M6,Rahmenmontage,3000,"[3.24, 4.32]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_226,I_228,ISO4762_M6x25,ISO7719_M6,Stuetzenfuss M6,Rahmenmontage,3000,"[3.24, 4.32]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_229,I_231,ISO4762_M6x20,ISO7719_M6,Stuetzenkopf M6,Rahmenmontage,3000,"[3.24, 4.32]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_232,I_234,ISO4762_M6x25,ISO7719_M6,Stuetzenfuss M6,Rahmenmontage,3000,"[3.24, 4.32]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_235,I_237,ISO4762_M6x20,ISO7719_M6,Stuetzenkopf M6,Rahmenmontage,3000,"[3.24, 4.32]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_238,I_240,ISO4762_M6x25,ISO7719_M6,Stuetzenfuss M6,Rahmenmontage,3000,"[3.24, 4.32]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_241,I_243,ISO4762_M6x20,ISO7719_M6,Stuetzenkopf M6,Rahmenmontage,3000,"[3.24, 4.32]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_244,I_246,ISO4762_M6x25,ISO7719_M6,Stuetzenfuss M6,Rahmenmontage,3000,"[3.24, 4.32]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_247,I_249,ISO4762_M6x20,ISO7719_M6,Stuetzenkopf M6,Rahmenmontage,3000,"[3.24, 4.32]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_255,I_257,ISO4762_M6x25,ISO7719_M6,Stuetzenfuss M6,Rahmenmontage,3000,"[3.24, 4.32]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_258,I_260,ISO4762_M6x20,ISO7719_M6,Stuetzenkopf M6,Rahmenmontage,3000,"[3.24, 4.32]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_261,I_263,ISO4762_M6x25,ISO7719_M6,Stuetzenfuss M6,Rahmenmontage,3000,"[3.24, 4.32]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_264,I_266,ISO4762_M6x20,ISO7719_M6,Stuetzenkopf M6,Rahmenmontage,3000,"[3.24, 4.32]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_267,I_269,ISO4762_M6x25,ISO7719_M6,Stuetzenfuss M6,Rahmenmontage,3000,"[3.24, 4.32]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_270,I_272,ISO4762_M6x20,ISO7719_M6,Stuetzenkopf M6,Rahmenmontage,3000,"[3.24, 4.32]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_273,I_275,ISO4762_M6x25,ISO7719_M6,Stuetzenfuss M6,Rahmenmontage,3000,"[3.24, 4.32]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_276,I_278,ISO4762_M6x20,ISO7719_M6,Stuetzenkopf M6,Rahmenmontage,3000,"[3.24, 4.32]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_282,I_285,ISO4762_M5x50,ISO7719_M5,Deckschraube,Deckmontage,1500,"[1.35, 1.8]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_287,I_290,ISO4762_M5x50,ISO7719_M5,Deckschraube,Deckmontage,1500,"[1.35, 1.8]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_292,I_295,ISO4762_M5x50,ISO7719_M5,Deckschraube,Deckmontage,1500,"[1.35, 1.8]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_297,I_300,ISO4762_M5x50,ISO7719_M5,Deckschraube,Deckmontage,1500,"[1.35, 1.8]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_302,I_305,ISO4762_M5x50,ISO7719_M5,Deckschraube,Deckmontage,1500,"[1.35, 1.8]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_307,I_310,ISO4762_M5x50,ISO7719_M5,Deckschraube,Deckmontage,1500,"[1.35, 1.8]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_312,I_315,ISO4762_M5x50,ISO7719_M5,Deckschraube,Deckmontage,1500,"[1.35, 1.8]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_317,I_320,ISO4762_M5x50,ISO7719_M5,Deckschraube,Deckmontage,1500,"[1.35, 1.8]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_322,I_325,ISO4762_M5x50,ISO7719_M5,Deckschraube,Deckmontage,1500,"[1.35, 1.8]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_327,I_330,ISO4762_M5x50,ISO7719_M5,Deckschraube,Deckmontage,1500,"[1.35, 1.8]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_332,I_335,ISO4762_M5x50,ISO7719_M5,Deckschraube,Deckmontage,1500,"[1.35, 1.8]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_337,I_340,ISO4762_M5x50,ISO7719_M5,Deckschraube,Deckmontage,1500,"[1.35, 1.8]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_342,I_345,ISO4762_M5x50,ISO7719_M5,Deckschraube,Deckmontage,1500,"[1.35, 1.8]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_347,I_350,ISO4762_M5x50,ISO7719_M5,Deckschraube,Deckmontage,1500,"[1.35, 1.8]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_39,I_4,ISO4762_M5x16,QD_E01,Druckstueck-Sicherung,Arm+Druckstueck vor Wurzelklemmung,2000,"[1.8, 2.4]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_41,I_4,ISO4762_M5x16,QD_E01,Druckstueck-Sicherung,Arm+Druckstueck vor Wurzelklemmung,2000,"[1.8, 2.4]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_79,I_44,ISO4762_M5x16,QD_E01,Druckstueck-Sicherung,Arm+Druckstueck vor Wurzelklemmung,2000,"[1.8, 2.4]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_81,I_44,ISO4762_M5x16,QD_E01,Druckstueck-Sicherung,Arm+Druckstueck vor Wurzelklemmung,2000,"[1.8, 2.4]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_119,I_84,ISO4762_M5x16,QD_E01,Druckstueck-Sicherung,Arm+Druckstueck vor Wurzelklemmung,2000,"[1.8, 2.4]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_121,I_84,ISO4762_M5x16,QD_E01,Druckstueck-Sicherung,Arm+Druckstueck vor Wurzelklemmung,2000,"[1.8, 2.4]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_159,I_124,ISO4762_M5x16,QD_E01,Druckstueck-Sicherung,Arm+Druckstueck vor Wurzelklemmung,2000,"[1.8, 2.4]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_161,I_124,ISO4762_M5x16,QD_E01,Druckstueck-Sicherung,Arm+Druckstueck vor Wurzelklemmung,2000,"[1.8, 2.4]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_192,I_166,ISO4762_M3x8,QD_K01,Kassetten-Deckelschraube,Kassette ausserhalb Deckrohr vormontieren,500,"[0.27, 0.36]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_193,I_166,ISO4762_M3x8,QD_K01,Kassetten-Deckelschraube,Kassette ausserhalb Deckrohr vormontieren,500,"[0.27, 0.36]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_221,I_195,ISO4762_M3x8,QD_K01,Kassetten-Deckelschraube,Kassette ausserhalb Deckrohr vormontieren,500,"[0.27, 0.36]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_222,I_195,ISO4762_M3x8,QD_K01,Kassetten-Deckelschraube,Kassette ausserhalb Deckrohr vormontieren,500,"[0.27, 0.36]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_250,I_224,ISO4762_M3x8,QD_K01,Kassetten-Deckelschraube,Kassette ausserhalb Deckrohr vormontieren,500,"[0.27, 0.36]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_251,I_224,ISO4762_M3x8,QD_K01,Kassetten-Deckelschraube,Kassette ausserhalb Deckrohr vormontieren,500,"[0.27, 0.36]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_279,I_253,ISO4762_M3x8,QD_K01,Kassetten-Deckelschraube,Kassette ausserhalb Deckrohr vormontieren,500,"[0.27, 0.36]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True
+I_280,I_253,ISO4762_M3x8,QD_K01,Kassetten-Deckelschraube,Kassette ausserhalb Deckrohr vormontieren,500,"[0.27, 0.36]",False,"Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",True

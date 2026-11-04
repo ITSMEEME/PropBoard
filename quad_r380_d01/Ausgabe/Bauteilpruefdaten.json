@@ -1,0 +1,1520 @@
+[
+  {
+    "id": "QD_P01",
+    "label": "Zentralplatte oben",
+    "bounds_mm": [
+      380.0,
+      380.0,
+      8.0
+    ],
+    "sketches": [
+      {
+        "name": "SK_QD_P01_Kontur",
+        "fully_constrained": true
+      },
+      {
+        "name": "SK_QD_P01_M6_Durchgang",
+        "fully_constrained": true
+      },
+      {
+        "name": "SK_QD_P01_Zentralfenster",
+        "fully_constrained": true
+      },
+      {
+        "name": "SK_QD_P01_Formschluessige_Armsitze",
+        "fully_constrained": true
+      }
+    ],
+    "hole_groups": [
+      {
+        "feature": "PD_QD_P01_M6_Durchgang",
+        "type": "PartDesign::Pocket",
+        "holes": [
+          {
+            "centre_mm": [
+              134.35028842544403,
+              84.85281374238569,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              84.8528137423857,
+              134.35028842544403,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              176.7766952966369,
+              127.27922061357853,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              127.27922061357856,
+              176.77669529663686,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              -84.85281374238569,
+              134.35028842544403,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              -134.35028842544403,
+              84.8528137423857,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              -127.27922061357853,
+              176.7766952966369,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              -176.77669529663686,
+              127.27922061357856,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              -134.35028842544403,
+              -84.85281374238569,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              -84.85281374238572,
+              -134.35028842544403,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              -176.77669529663692,
+              -127.27922061357853,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              -127.27922061357859,
+              -176.77669529663686,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              84.85281374238568,
+              -134.35028842544403,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              134.350288425444,
+              -84.85281374238573,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              127.2792206135785,
+              -176.77669529663692,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              176.77669529663683,
+              -127.27922061357859,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              -105.0,
+              -79.0,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              -105.0,
+              -61.0,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              -65.0,
+              -79.0,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              -65.0,
+              -61.0,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              -105.0,
+              61.0,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              -105.0,
+              79.0,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              -65.0,
+              61.0,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              -65.0,
+              79.0,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              65.0,
+              -79.0,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              65.0,
+              -61.0,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              105.0,
+              -79.0,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              105.0,
+              -61.0,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              65.0,
+              61.0,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              65.0,
+              79.0,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              105.0,
+              61.0,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              105.0,
+              79.0,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          }
+        ],
+        "depth_mm": 8.0,
+        "thread": null,
+        "thread_class": null,
+        "model_thread": false
+      }
+    ],
+    "feature_count": 8,
+    "mass_kg": 2.692830873949396
+  },
+  {
+    "id": "QD_P02",
+    "label": "Zentralplatte unten",
+    "bounds_mm": [
+      380.0,
+      380.0,
+      8.0
+    ],
+    "sketches": [
+      {
+        "name": "SK_QD_P02_Kontur",
+        "fully_constrained": true
+      },
+      {
+        "name": "SK_QD_P02_M6_Durchgang",
+        "fully_constrained": true
+      },
+      {
+        "name": "SK_QD_P02_Zentralfenster",
+        "fully_constrained": true
+      },
+      {
+        "name": "SK_QD_P02_Formschluessige_Armsitze",
+        "fully_constrained": true
+      }
+    ],
+    "hole_groups": [
+      {
+        "feature": "PD_QD_P02_M6_Durchgang",
+        "type": "PartDesign::Pocket",
+        "holes": [
+          {
+            "centre_mm": [
+              134.35028842544403,
+              84.85281374238569,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              84.8528137423857,
+              134.35028842544403,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              176.7766952966369,
+              127.27922061357853,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              127.27922061357856,
+              176.77669529663686,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              -84.85281374238569,
+              134.35028842544403,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              -134.35028842544403,
+              84.8528137423857,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              -127.27922061357853,
+              176.7766952966369,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              -176.77669529663686,
+              127.27922061357856,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              -134.35028842544403,
+              -84.85281374238569,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              -84.85281374238572,
+              -134.35028842544403,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              -176.77669529663692,
+              -127.27922061357853,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              -127.27922061357859,
+              -176.77669529663686,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              84.85281374238568,
+              -134.35028842544403,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              134.350288425444,
+              -84.85281374238573,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              127.2792206135785,
+              -176.77669529663692,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              176.77669529663683,
+              -127.27922061357859,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          }
+        ],
+        "depth_mm": 8.0,
+        "thread": null,
+        "thread_class": null,
+        "model_thread": false
+      }
+    ],
+    "feature_count": 8,
+    "mass_kg": 2.7046545217949607
+  },
+  {
+    "id": "QD_R01",
+    "label": "Ausleger 50×50×3 mit Sicherungsbohrungen",
+    "bounds_mm": [
+      50.000000000000014,
+      50.0,
+      461.0407640085655
+    ],
+    "sketches": [
+      {
+        "name": "SK_QD_R01_Rohrprofil",
+        "fully_constrained": true
+      },
+      {
+        "name": "SK_QD_R01_Sicherung_M5",
+        "fully_constrained": true
+      }
+    ],
+    "hole_groups": [
+      {
+        "feature": "PD_QD_R01_Sicherung_M5",
+        "type": "PartDesign::Pocket",
+        "holes": [
+          {
+            "centre_mm": [
+              25.000000000000004,
+              1.7319121124709863e-15,
+              20.0
+            ],
+            "profile_diameter_mm": 5.5
+          },
+          {
+            "centre_mm": [
+              25.000000000000014,
+              6.061692393648452e-15,
+              70.0
+            ],
+            "profile_diameter_mm": 5.5
+          }
+        ],
+        "depth_mm": 3.2,
+        "thread": null,
+        "thread_class": null,
+        "model_thread": false
+      }
+    ],
+    "feature_count": 4,
+    "mass_kg": 0.6824540172116411
+  },
+  {
+    "id": "QD_E01",
+    "label": "Eingepasstes Wurzel-Druckstueck 43.97×43.97×135",
+    "bounds_mm": [
+      43.97000000000001,
+      43.97,
+      135.0
+    ],
+    "sketches": [
+      {
+        "name": "SK_QD_E01_Kontur",
+        "fully_constrained": true
+      },
+      {
+        "name": "SK_QD_E01_M5_6H_Blind",
+        "fully_constrained": true
+      }
+    ],
+    "hole_groups": [
+      {
+        "feature": "PD_QD_E01_M5_6H_Blind",
+        "type": "PartDesign::Hole",
+        "holes": [
+          {
+            "centre_mm": [
+              21.985000000000003,
+              1.7319121124709863e-15,
+              20.0
+            ],
+            "profile_diameter_mm": 4.2
+          },
+          {
+            "centre_mm": [
+              21.985000000000014,
+              6.061692393648452e-15,
+              70.0
+            ],
+            "profile_diameter_mm": 4.2
+          }
+        ],
+        "depth_mm": 14.0,
+        "thread": "M5",
+        "thread_class": "6H",
+        "model_thread": true
+      }
+    ],
+    "feature_count": 4,
+    "mass_kg": 0.7022214750189119
+  },
+  {
+    "id": "QD_M01",
+    "label": "Ausleger-Endtraeger oben, Projekteigenes IF90",
+    "bounds_mm": [
+      120.0,
+      110.0,
+      20.000000000000014
+    ],
+    "sketches": [
+      {
+        "name": "SK_QD_M01_Kontur",
+        "fully_constrained": true
+      },
+      {
+        "name": "SK_QD_M01_Armsitz",
+        "fully_constrained": true
+      },
+      {
+        "name": "SK_QD_M01_Klemmbohrungen_M6",
+        "fully_constrained": true
+      },
+      {
+        "name": "SK_QD_M01_Servicebohrung",
+        "fully_constrained": true
+      },
+      {
+        "name": "SK_QD_M01_IF90_M6_6H",
+        "fully_constrained": true
+      }
+    ],
+    "hole_groups": [
+      {
+        "feature": "PD_QD_M01_Klemmbohrungen_M6",
+        "type": "PartDesign::Pocket",
+        "holes": [
+          {
+            "centre_mm": [
+              -50.0,
+              -38.0,
+              20.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              -50.0,
+              38.0,
+              20.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              -10.0,
+              -38.0,
+              20.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              -10.0,
+              38.0,
+              20.0
+            ],
+            "profile_diameter_mm": 6.6
+          }
+        ],
+        "depth_mm": 20.0,
+        "thread": null,
+        "thread_class": null,
+        "model_thread": false
+      },
+      {
+        "feature": "PD_QD_M01_Servicebohrung",
+        "type": "PartDesign::Pocket",
+        "holes": [
+          {
+            "centre_mm": [
+              0.0,
+              0.0,
+              20.0
+            ],
+            "profile_diameter_mm": 42.0
+          }
+        ],
+        "depth_mm": 20.0,
+        "thread": null,
+        "thread_class": null,
+        "model_thread": false
+      },
+      {
+        "feature": "PD_QD_M01_IF90_M6_6H",
+        "type": "PartDesign::Hole",
+        "holes": [
+          {
+            "centre_mm": [
+              45.0,
+              0.0,
+              20.0
+            ],
+            "profile_diameter_mm": 5.0
+          },
+          {
+            "centre_mm": [
+              31.81980515339464,
+              31.819805153394636,
+              20.0
+            ],
+            "profile_diameter_mm": 5.0
+          },
+          {
+            "centre_mm": [
+              2.8e-15,
+              45.0,
+              20.0
+            ],
+            "profile_diameter_mm": 5.0
+          },
+          {
+            "centre_mm": [
+              -31.819805153394636,
+              31.81980515339464,
+              20.0
+            ],
+            "profile_diameter_mm": 5.0
+          },
+          {
+            "centre_mm": [
+              -45.0,
+              5.5e-15,
+              20.0
+            ],
+            "profile_diameter_mm": 5.0
+          },
+          {
+            "centre_mm": [
+              -31.819805153394647,
+              -31.819805153394636,
+              20.0
+            ],
+            "profile_diameter_mm": 5.0
+          },
+          {
+            "centre_mm": [
+              -8.3e-15,
+              -45.0,
+              20.0
+            ],
+            "profile_diameter_mm": 5.0
+          },
+          {
+            "centre_mm": [
+              31.81980515339463,
+              -31.819805153394647,
+              20.0
+            ],
+            "profile_diameter_mm": 5.0
+          }
+        ],
+        "depth_mm": 15.0,
+        "thread": "M6",
+        "thread_class": "6H",
+        "model_thread": true
+      }
+    ],
+    "feature_count": 10,
+    "mass_kg": 0.6094324856296941
+  },
+  {
+    "id": "QD_M02",
+    "label": "Ausleger-Endtraeger unten",
+    "bounds_mm": [
+      120.0,
+      110.0,
+      12.0
+    ],
+    "sketches": [
+      {
+        "name": "SK_QD_M02_Kontur",
+        "fully_constrained": true
+      },
+      {
+        "name": "SK_QD_M02_Armsitz",
+        "fully_constrained": true
+      },
+      {
+        "name": "SK_QD_M02_Klemmbohrungen_M6",
+        "fully_constrained": true
+      }
+    ],
+    "hole_groups": [
+      {
+        "feature": "PD_QD_M02_Klemmbohrungen_M6",
+        "type": "PartDesign::Pocket",
+        "holes": [
+          {
+            "centre_mm": [
+              -50.0,
+              -38.0,
+              12.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              -50.0,
+              38.0,
+              12.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              -10.0,
+              -38.0,
+              12.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              -10.0,
+              38.0,
+              12.0
+            ],
+            "profile_diameter_mm": 6.6
+          }
+        ],
+        "depth_mm": 12.0,
+        "thread": null,
+        "thread_class": null,
+        "model_thread": false
+      }
+    ],
+    "feature_count": 6,
+    "mass_kg": 0.40628602210731957
+  },
+  {
+    "id": "QD_R02",
+    "label": "Decktraeger 40×30×3, Laenge620",
+    "bounds_mm": [
+      40.0,
+      30.0000000000001,
+      620.0
+    ],
+    "sketches": [
+      {
+        "name": "SK_QD_R02_Rechteckrohr",
+        "fully_constrained": true
+      },
+      {
+        "name": "SK_QD_R02_Deckhuelsen_oben",
+        "fully_constrained": true
+      },
+      {
+        "name": "SK_QD_R02_Deckbolzen_unten",
+        "fully_constrained": true
+      },
+      {
+        "name": "SK_QD_R02_Stuetze_M6",
+        "fully_constrained": true
+      }
+    ],
+    "hole_groups": [
+      {
+        "feature": "PD_QD_R02_Deckhuelsen_oben",
+        "type": "PartDesign::Pocket",
+        "holes": [
+          {
+            "centre_mm": [
+              8.881784197001252e-15,
+              14.999999999999991,
+              40.00000000000001
+            ],
+            "profile_diameter_mm": 8.2
+          },
+          {
+            "centre_mm": [
+              2.220446049250313e-14,
+              14.999999999999979,
+              100.00000000000003
+            ],
+            "profile_diameter_mm": 8.2
+          },
+          {
+            "centre_mm": [
+              3.552713678800501e-14,
+              14.999999999999964,
+              160.00000000000003
+            ],
+            "profile_diameter_mm": 8.2
+          },
+          {
+            "centre_mm": [
+              6.88338275267597e-14,
+              14.99999999999993,
+              310.00000000000006
+            ],
+            "profile_diameter_mm": 8.2
+          },
+          {
+            "centre_mm": [
+              1.021405182655144e-13,
+              14.999999999999897,
+              460.0000000000001
+            ],
+            "profile_diameter_mm": 8.2
+          },
+          {
+            "centre_mm": [
+              1.1546319456101628e-13,
+              14.999999999999885,
+              520.0000000000001
+            ],
+            "profile_diameter_mm": 8.2
+          },
+          {
+            "centre_mm": [
+              1.2878587085651816e-13,
+              14.999999999999872,
+              580.0000000000001
+            ],
+            "profile_diameter_mm": 8.2
+          }
+        ],
+        "depth_mm": 3.2,
+        "thread": null,
+        "thread_class": null,
+        "model_thread": false
+      },
+      {
+        "feature": "PD_QD_R02_Deckbolzen_unten",
+        "type": "PartDesign::Pocket",
+        "holes": [
+          {
+            "centre_mm": [
+              -4.440892098500626e-15,
+              -15.000000000000004,
+              39.99999999999999
+            ],
+            "profile_diameter_mm": 5.5
+          },
+          {
+            "centre_mm": [
+              -1.1102230246251565e-14,
+              -15.00000000000001,
+              99.99999999999999
+            ],
+            "profile_diameter_mm": 5.5
+          },
+          {
+            "centre_mm": [
+              -1.7763568394002505e-14,
+              -15.000000000000018,
+              159.99999999999997
+            ],
+            "profile_diameter_mm": 5.5
+          },
+          {
+            "centre_mm": [
+              -3.441691376337985e-14,
+              -15.000000000000034,
+              309.99999999999994
+            ],
+            "profile_diameter_mm": 5.5
+          },
+          {
+            "centre_mm": [
+              -5.10702591327572e-14,
+              -15.000000000000052,
+              459.99999999999994
+            ],
+            "profile_diameter_mm": 5.5
+          },
+          {
+            "centre_mm": [
+              -5.773159728050814e-14,
+              -15.000000000000057,
+              519.9999999999999
+            ],
+            "profile_diameter_mm": 5.5
+          },
+          {
+            "centre_mm": [
+              -6.439293542825908e-14,
+              -15.000000000000064,
+              579.9999999999999
+            ],
+            "profile_diameter_mm": 5.5
+          }
+        ],
+        "depth_mm": 3.2,
+        "thread": null,
+        "thread_class": null,
+        "model_thread": false
+      },
+      {
+        "feature": "PD_QD_R02_Stuetze_M6",
+        "type": "PartDesign::Pocket",
+        "holes": [
+          {
+            "centre_mm": [
+              8.999999999999975,
+              -15.000000000000021,
+              204.99999999999997
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              -9.000000000000021,
+              -15.000000000000023,
+              204.99999999999997
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              8.999999999999972,
+              -15.000000000000027,
+              244.99999999999997
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              -9.000000000000025,
+              -15.000000000000028,
+              244.99999999999997
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              8.999999999999957,
+              -15.00000000000004,
+              374.99999999999994
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              -9.000000000000039,
+              -15.000000000000043,
+              374.99999999999994
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              8.999999999999952,
+              -15.000000000000044,
+              414.99999999999994
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              -9.000000000000044,
+              -15.000000000000046,
+              414.99999999999994
+            ],
+            "profile_diameter_mm": 6.6
+          }
+        ],
+        "depth_mm": 3.2,
+        "thread": null,
+        "thread_class": null,
+        "model_thread": false
+      }
+    ],
+    "feature_count": 8,
+    "mass_kg": 0.6147030254845527
+  },
+  {
+    "id": "QD_S01",
+    "label": "Deckstuetze, aus Vollmaterial gefertigt",
+    "bounds_mm": [
+      60.0,
+      44.0,
+      152.0
+    ],
+    "sketches": [
+      {
+        "name": "SK_QD_S01_Kontur",
+        "fully_constrained": true
+      },
+      {
+        "name": "SK_QD_S01_Rohrschaft",
+        "fully_constrained": true
+      },
+      {
+        "name": "SK_QD_S01_Oberflansch",
+        "fully_constrained": true
+      },
+      {
+        "name": "SK_QD_S01_Leichtbaubohrung",
+        "fully_constrained": true
+      },
+      {
+        "name": "SK_QD_S01_Flanschbohrungen_M6",
+        "fully_constrained": true
+      }
+    ],
+    "hole_groups": [
+      {
+        "feature": "PD_QD_S01_Leichtbaubohrung",
+        "type": "PartDesign::Pocket",
+        "holes": [
+          {
+            "centre_mm": [
+              0.0,
+              0.0,
+              152.0
+            ],
+            "profile_diameter_mm": 17.0
+          }
+        ],
+        "depth_mm": 152.0,
+        "thread": null,
+        "thread_class": null,
+        "model_thread": false
+      },
+      {
+        "feature": "PD_QD_S01_Flanschbohrungen_M6",
+        "type": "PartDesign::Pocket",
+        "holes": [
+          {
+            "centre_mm": [
+              -20.0,
+              -9.0,
+              152.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              -20.0,
+              9.0,
+              152.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              20.0,
+              -9.0,
+              152.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              20.0,
+              9.0,
+              152.0
+            ],
+            "profile_diameter_mm": 6.6
+          }
+        ],
+        "depth_mm": 152.0,
+        "thread": null,
+        "thread_class": null,
+        "model_thread": false
+      }
+    ],
+    "feature_count": 11,
+    "mass_kg": 0.173431904038314
+  },
+  {
+    "id": "QD_K01",
+    "label": "Kassette fuer vier ISO7719-M6-Muttern",
+    "bounds_mm": [
+      72.0,
+      33.6,
+      8.000000000000004
+    ],
+    "sketches": [
+      {
+        "name": "SK_QD_K01_Kontur",
+        "fully_constrained": true
+      },
+      {
+        "name": "SK_QD_K01_Durchgang_M6",
+        "fully_constrained": true
+      },
+      {
+        "name": "SK_QD_K01_Sechskantsitze",
+        "fully_constrained": true
+      },
+      {
+        "name": "SK_QD_K01_Deckel_M3",
+        "fully_constrained": true
+      }
+    ],
+    "hole_groups": [
+      {
+        "feature": "PD_QD_K01_Durchgang_M6",
+        "type": "PartDesign::Pocket",
+        "holes": [
+          {
+            "centre_mm": [
+              -20.0,
+              -9.0,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              -20.0,
+              9.0,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              20.0,
+              -9.0,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              20.0,
+              9.0,
+              8.0
+            ],
+            "profile_diameter_mm": 6.6
+          }
+        ],
+        "depth_mm": 8.0,
+        "thread": null,
+        "thread_class": null,
+        "model_thread": false
+      },
+      {
+        "feature": "PD_QD_K01_Deckel_M3",
+        "type": "PartDesign::Hole",
+        "holes": [
+          {
+            "centre_mm": [
+              -30.0,
+              0.0,
+              8.0
+            ],
+            "profile_diameter_mm": 2.5
+          },
+          {
+            "centre_mm": [
+              30.0,
+              0.0,
+              8.0
+            ],
+            "profile_diameter_mm": 2.5
+          }
+        ],
+        "depth_mm": 7.5,
+        "thread": "M3",
+        "thread_class": "6H",
+        "model_thread": true
+      }
+    ],
+    "feature_count": 9,
+    "mass_kg": 0.044516512414013665
+  },
+  {
+    "id": "QD_K02",
+    "label": "Kassetten-Abdeckblech",
+    "bounds_mm": [
+      72.0,
+      33.6,
+      1.0
+    ],
+    "sketches": [
+      {
+        "name": "SK_QD_K02_Kontur",
+        "fully_constrained": true
+      },
+      {
+        "name": "SK_QD_K02_Bolzenoeffnungen_M6",
+        "fully_constrained": true
+      },
+      {
+        "name": "SK_QD_K02_Deckelschrauben_M3",
+        "fully_constrained": true
+      }
+    ],
+    "hole_groups": [
+      {
+        "feature": "PD_QD_K02_Bolzenoeffnungen_M6",
+        "type": "PartDesign::Pocket",
+        "holes": [
+          {
+            "centre_mm": [
+              -20.0,
+              -9.0,
+              1.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              -20.0,
+              9.0,
+              1.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              20.0,
+              -9.0,
+              1.0
+            ],
+            "profile_diameter_mm": 6.6
+          },
+          {
+            "centre_mm": [
+              20.0,
+              9.0,
+              1.0
+            ],
+            "profile_diameter_mm": 6.6
+          }
+        ],
+        "depth_mm": 1.0,
+        "thread": null,
+        "thread_class": null,
+        "model_thread": false
+      },
+      {
+        "feature": "PD_QD_K02_Deckelschrauben_M3",
+        "type": "PartDesign::Pocket",
+        "holes": [
+          {
+            "centre_mm": [
+              -30.0,
+              0.0,
+              1.0
+            ],
+            "profile_diameter_mm": 3.4
+          },
+          {
+            "centre_mm": [
+              30.0,
+              0.0,
+              1.0
+            ],
+            "profile_diameter_mm": 3.4
+          }
+        ],
+        "depth_mm": 1.0,
+        "thread": null,
+        "thread_class": null,
+        "model_thread": false
+      }
+    ],
+    "feature_count": 6,
+    "mass_kg": 0.006111005610038768
+  },
+  {
+    "id": "QD_H01",
+    "label": "Hut-Druckhuelse fuer Deckverschraubung",
+    "bounds_mm": [
+      12.0,
+      11.996270184009797,
+      29.0
+    ],
+    "sketches": [
+      {
+        "name": "SK_QD_H01_Schaft",
+        "fully_constrained": true
+      },
+      {
+        "name": "SK_QD_H01_Bund",
+        "fully_constrained": true
+      },
+      {
+        "name": "SK_QD_H01_Durchgang_M5",
+        "fully_constrained": true
+      }
+    ],
+    "hole_groups": [
+      {
+        "feature": "PD_QD_H01_Durchgang_M5",
+        "type": "PartDesign::Pocket",
+        "holes": [
+          {
+            "centre_mm": [
+              0.0,
+              0.0,
+              29.0
+            ],
+            "profile_diameter_mm": 5.5
+          }
+        ],
+        "depth_mm": 29.0,
+        "thread": null,
+        "thread_class": null,
+        "model_thread": false
+      }
+    ],
+    "feature_count": 6,
+    "mass_kg": 0.0024148048281358793
+  },
+  {
+    "id": "QD_D01",
+    "label": "Personendeck 620×360×5",
+    "bounds_mm": [
+      620.0,
+      360.0,
+      5.0
+    ],
+    "sketches": [
+      {
+        "name": "SK_QD_D01_Kontur",
+        "fully_constrained": true
+      },
+      {
+        "name": "SK_QD_D01_Deckbohrungen_M5",
+        "fully_constrained": true
+      }
+    ],
+    "hole_groups": [
+      {
+        "feature": "PD_QD_D01_Deckbohrungen_M5",
+        "type": "PartDesign::Pocket",
+        "holes": [
+          {
+            "centre_mm": [
+              -270.0,
+              -70.0,
+              5.0
+            ],
+            "profile_diameter_mm": 5.5
+          },
+          {
+            "centre_mm": [
+              -270.0,
+              70.0,
+              5.0
+            ],
+            "profile_diameter_mm": 5.5
+          },
+          {
+            "centre_mm": [
+              -210.0,
+              -70.0,
+              5.0
+            ],
+            "profile_diameter_mm": 5.5
+          },
+          {
+            "centre_mm": [
+              -210.0,
+              70.0,
+              5.0
+            ],
+            "profile_diameter_mm": 5.5
+          },
+          {
+            "centre_mm": [
+              -150.0,
+              -70.0,
+              5.0
+            ],
+            "profile_diameter_mm": 5.5
+          },
+          {
+            "centre_mm": [
+              -150.0,
+              70.0,
+              5.0
+            ],
+            "profile_diameter_mm": 5.5
+          },
+          {
+            "centre_mm": [
+              0.0,
+              -70.0,
+              5.0
+            ],
+            "profile_diameter_mm": 5.5
+          },
+          {
+            "centre_mm": [
+              0.0,
+              70.0,
+              5.0
+            ],
+            "profile_diameter_mm": 5.5
+          },
+          {
+            "centre_mm": [
+              150.0,
+              -70.0,
+              5.0
+            ],
+            "profile_diameter_mm": 5.5
+          },
+          {
+            "centre_mm": [
+              150.0,
+              70.0,
+              5.0
+            ],
+            "profile_diameter_mm": 5.5
+          },
+          {
+            "centre_mm": [
+              210.0,
+              -70.0,
+              5.0
+            ],
+            "profile_diameter_mm": 5.5
+          },
+          {
+            "centre_mm": [
+              210.0,
+              70.0,
+              5.0
+            ],
+            "profile_diameter_mm": 5.5
+          },
+          {
+            "centre_mm": [
+              270.0,
+              -70.0,
+              5.0
+            ],
+            "profile_diameter_mm": 5.5
+          },
+          {
+            "centre_mm": [
+              270.0,
+              70.0,
+              5.0
+            ],
+            "profile_diameter_mm": 5.5
+          }
+        ],
+        "depth_mm": 5.0,
+        "thread": null,
+        "thread_class": null,
+        "model_thread": false
+      }
+    ],
+    "feature_count": 4,
+    "mass_kg": 3.007040938468892
+  }
+]

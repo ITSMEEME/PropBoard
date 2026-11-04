@@ -1,0 +1,446 @@
+{
+  "native_sha256": "8f1610f5a369fff7bd43edcd6f5129921b3ec91b914011c64d0cd4903f8d1402",
+  "passed": true,
+  "checks": [
+    {
+      "screw": "D05_I_838",
+      "label": "MN1330 Statorschraube M6x12",
+      "stage": "Motor on node,from below",
+      "tool_radius_mm": 3.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D05_I_839",
+      "label": "MN1330 Statorschraube M6x12",
+      "stage": "Motor on node,from below",
+      "tool_radius_mm": 3.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D05_I_840",
+      "label": "MN1330 Statorschraube M6x12",
+      "stage": "Motor on node,from below",
+      "tool_radius_mm": 3.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D05_I_841",
+      "label": "MN1330 Statorschraube M6x12",
+      "stage": "Motor on node,from below",
+      "tool_radius_mm": 3.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D05_I_843",
+      "label": "MN1330 Statorschraube M6x12",
+      "stage": "Motor on node,from below",
+      "tool_radius_mm": 3.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D05_I_844",
+      "label": "MN1330 Statorschraube M6x12",
+      "stage": "Motor on node,from below",
+      "tool_radius_mm": 3.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D05_I_845",
+      "label": "MN1330 Statorschraube M6x12",
+      "stage": "Motor on node,from below",
+      "tool_radius_mm": 3.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D05_I_846",
+      "label": "MN1330 Statorschraube M6x12",
+      "stage": "Motor on node,from below",
+      "tool_radius_mm": 3.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D05_I_848",
+      "label": "MN1330 Statorschraube M6x12",
+      "stage": "Motor on node,from below",
+      "tool_radius_mm": 3.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D05_I_849",
+      "label": "MN1330 Statorschraube M6x12",
+      "stage": "Motor on node,from below",
+      "tool_radius_mm": 3.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D05_I_850",
+      "label": "MN1330 Statorschraube M6x12",
+      "stage": "Motor on node,from below",
+      "tool_radius_mm": 3.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D05_I_851",
+      "label": "MN1330 Statorschraube M6x12",
+      "stage": "Motor on node,from below",
+      "tool_radius_mm": 3.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D05_I_853",
+      "label": "MN1330 Statorschraube M6x12",
+      "stage": "Motor on node,from below",
+      "tool_radius_mm": 3.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D05_I_854",
+      "label": "MN1330 Statorschraube M6x12",
+      "stage": "Motor on node,from below",
+      "tool_radius_mm": 3.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D05_I_855",
+      "label": "MN1330 Statorschraube M6x12",
+      "stage": "Motor on node,from below",
+      "tool_radius_mm": 3.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D05_I_856",
+      "label": "MN1330 Statorschraube M6x12",
+      "stage": "Motor on node,from below",
+      "tool_radius_mm": 3.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D07_I_6",
+      "label": "V3 Rohrklemmung M4x20",
+      "stage": "Before motor/rotor installation",
+      "tool_radius_mm": 2.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D07_I_7",
+      "label": "V3 Rohrklemmung M4x20",
+      "stage": "Before motor/rotor installation",
+      "tool_radius_mm": 2.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D07_I_11",
+      "label": "V3 Rohrklemmung M4x20",
+      "stage": "Before motor/rotor installation",
+      "tool_radius_mm": 2.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D07_I_12",
+      "label": "V3 Rohrklemmung M4x20",
+      "stage": "Before motor/rotor installation",
+      "tool_radius_mm": 2.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D07_I_17",
+      "label": "V3 Rohrklemmung M4x20",
+      "stage": "Before motor/rotor installation",
+      "tool_radius_mm": 2.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D07_I_18",
+      "label": "V3 Rohrklemmung M4x20",
+      "stage": "Before motor/rotor installation",
+      "tool_radius_mm": 2.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D07_I_22",
+      "label": "V3 Rohrklemmung M4x20",
+      "stage": "Before motor/rotor installation",
+      "tool_radius_mm": 2.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D07_I_23",
+      "label": "V3 Rohrklemmung M4x20",
+      "stage": "Before motor/rotor installation",
+      "tool_radius_mm": 2.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D07_I_29",
+      "label": "V3 Rohrklemmung M4x20",
+      "stage": "Before motor/rotor installation",
+      "tool_radius_mm": 2.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D07_I_30",
+      "label": "V3 Rohrklemmung M4x20",
+      "stage": "Before motor/rotor installation",
+      "tool_radius_mm": 2.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D07_I_34",
+      "label": "V3 Rohrklemmung M4x20",
+      "stage": "Before motor/rotor installation",
+      "tool_radius_mm": 2.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D07_I_35",
+      "label": "V3 Rohrklemmung M4x20",
+      "stage": "Before motor/rotor installation",
+      "tool_radius_mm": 2.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D07_I_40",
+      "label": "V3 Rohrklemmung M4x20",
+      "stage": "Before motor/rotor installation",
+      "tool_radius_mm": 2.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D07_I_41",
+      "label": "V3 Rohrklemmung M4x20",
+      "stage": "Before motor/rotor installation",
+      "tool_radius_mm": 2.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D07_I_45",
+      "label": "V3 Rohrklemmung M4x20",
+      "stage": "Before motor/rotor installation",
+      "tool_radius_mm": 2.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D07_I_46",
+      "label": "V3 Rohrklemmung M4x20",
+      "stage": "Before motor/rotor installation",
+      "tool_radius_mm": 2.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D07_I_52",
+      "label": "V3 Rohrklemmung M4x20",
+      "stage": "Before motor/rotor installation",
+      "tool_radius_mm": 2.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D07_I_53",
+      "label": "V3 Rohrklemmung M4x20",
+      "stage": "Before motor/rotor installation",
+      "tool_radius_mm": 2.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D07_I_57",
+      "label": "V3 Rohrklemmung M4x20",
+      "stage": "Before motor/rotor installation",
+      "tool_radius_mm": 2.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D07_I_58",
+      "label": "V3 Rohrklemmung M4x20",
+      "stage": "Before motor/rotor installation",
+      "tool_radius_mm": 2.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D07_I_63",
+      "label": "V3 Rohrklemmung M4x20",
+      "stage": "Before motor/rotor installation",
+      "tool_radius_mm": 2.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D07_I_64",
+      "label": "V3 Rohrklemmung M4x20",
+      "stage": "Before motor/rotor installation",
+      "tool_radius_mm": 2.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D07_I_68",
+      "label": "V3 Rohrklemmung M4x20",
+      "stage": "Before motor/rotor installation",
+      "tool_radius_mm": 2.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D07_I_69",
+      "label": "V3 Rohrklemmung M4x20",
+      "stage": "Before motor/rotor installation",
+      "tool_radius_mm": 2.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D07_I_75",
+      "label": "V3 Rohrklemmung M4x20",
+      "stage": "Before motor/rotor installation",
+      "tool_radius_mm": 2.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D07_I_76",
+      "label": "V3 Rohrklemmung M4x20",
+      "stage": "Before motor/rotor installation",
+      "tool_radius_mm": 2.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D07_I_80",
+      "label": "V3 Rohrklemmung M4x20",
+      "stage": "Before motor/rotor installation",
+      "tool_radius_mm": 2.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D07_I_81",
+      "label": "V3 Rohrklemmung M4x20",
+      "stage": "Before motor/rotor installation",
+      "tool_radius_mm": 2.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D07_I_86",
+      "label": "V3 Rohrklemmung M4x20",
+      "stage": "Before motor/rotor installation",
+      "tool_radius_mm": 2.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D07_I_87",
+      "label": "V3 Rohrklemmung M4x20",
+      "stage": "Before motor/rotor installation",
+      "tool_radius_mm": 2.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D07_I_91",
+      "label": "V3 Rohrklemmung M4x20",
+      "stage": "Before motor/rotor installation",
+      "tool_radius_mm": 2.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D07_I_92",
+      "label": "V3 Rohrklemmung M4x20",
+      "stage": "Before motor/rotor installation",
+      "tool_radius_mm": 2.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    }
+  ],
+  "sequence": [
+    "Assemble central CFK frame and V3 nodes",
+    "Insert two tubes per arm with liners/end pads and35mm engagement",
+    "Fit cap halves and tighten M4 only after preload/contact design is released",
+    "Fit motors and insert4M6 base screws from below",
+    "Fit propellers only after OEM attachment depth and rotor/frame clearance are closed"
+  ],
+  "scope": "Only48 straight35mm approach corridors at default pose. Clamp access assumes motor/propeller removal; no in-place clamp-service claim. No hands,tool grip,engagement torque/preload or assembly-order load release."
+}

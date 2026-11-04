@@ -1,0 +1,38 @@
+{
+  "revision": "QUAD_R380_D01_MECHANISCHE_DETAILLIERUNG",
+  "production_ready": false,
+  "scope": "Detaillierter mechanischer Tragwerksbaustein; keine vollstaendige flugfaehige Fahrzeugbaugruppe",
+  "modeled_instances": 351,
+  "part_types": 23,
+  "parametric_custom_bodies": 12,
+  "mass_modeled_kg": 21.537740704974333,
+  "bounds_mm": [
+    1008.4924240491752,
+    1008.4924240491752,
+    274.47499975206887
+  ],
+  "all_instance_shapes_valid": true,
+  "native_sha256": "f0d1ac7df13fef5bf8f5cfd2dee19a12cb9ec3fb13213a9253b57db3ee75ea37",
+  "omitted_instead_of_schematic": [
+    "Motoren",
+    "Motoradapter mit bestaetigtem OEM-Lochbild",
+    "Rotoren und Blattanschluesse",
+    "Regler und Elektronik",
+    "Batteriepack/BMS/Kontaktoren/Sicherungen",
+    "Herstellerabhaengiger Kabelbaum",
+    "Schutzgitter/Rueckhaltegeometrie",
+    "Landegestell"
+  ],
+  "interface_IF90_scope": "Projekteigenes Anschlussbild, noch keine behauptete OEM-Kompatibilitaet",
+  "release_blockers": [
+    "OEM-Unterlagen abrufen und Bauteile technisch auswaehlen",
+    "Dynamische Lasten, Steifigkeit und Erregungen nachweisen",
+    "Schraubverbindungen mit Toleranzen, Vorspannung, Reibwerten und Ermuedung nachweisen",
+    "Vollstaendige Fahrzeugmasse und Energie schliessen"
+  ],
+  "thread_pairs_checked": 94,
+  "thread_geometry_pass": true,
+  "positive_interference_count_over_0_1mm3": 0,
+  "tool_approach_screen_pass": true,
+  "cassette_insertion_screen_pass": true
+}

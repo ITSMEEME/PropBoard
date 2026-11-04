@@ -1,0 +1,7 @@
+{
+  "native_sha256": "de3278529b6184d32ce460d0c7cbf3da60944b05e532d33dabb217a20f2efdeb",
+  "candidates": 182,
+  "findings": [],
+  "passed": true,
+  "scope": "Changed end-node solids and all routed cable core/jacket solids vs all shared parts at default pose; arm variants checked separately. No connector insertion,clamp retention or flexible cable dynamics."
+}

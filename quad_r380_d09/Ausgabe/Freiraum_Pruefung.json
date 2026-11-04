@@ -1,0 +1,175 @@
+{
+  "native_sha256": "b1b1a6183ae6822d6a0b4eee423392b14dfc542a4971700f4d2735fa817c52c9",
+  "configurations": [
+    {
+      "propeller_index": 0,
+      "propeller": "HEP-S 18×6.7",
+      "nominal_rotor_space_clear": true,
+      "findings": [],
+      "candidates": 4,
+      "rotor_edge_gap_mm": 382.8,
+      "foot_translation_Z_gap_mm": 9.3400001904526,
+      "arm_variants_checked": [
+        "V1",
+        "V2",
+        "V3",
+        "V4"
+      ],
+      "unprotected_width_mm": 1297.2
+    },
+    {
+      "propeller_index": 1,
+      "propeller": "HEP-S 22×7.2",
+      "nominal_rotor_space_clear": true,
+      "findings": [],
+      "candidates": 12,
+      "rotor_edge_gap_mm": 281.20000000000005,
+      "foot_translation_Z_gap_mm": 9.3400001904526,
+      "arm_variants_checked": [
+        "V1",
+        "V2",
+        "V3",
+        "V4"
+      ],
+      "unprotected_width_mm": 1398.8
+    },
+    {
+      "propeller_index": 2,
+      "propeller": "HEP-S 26×8.8",
+      "nominal_rotor_space_clear": true,
+      "findings": [],
+      "candidates": 4,
+      "rotor_edge_gap_mm": 269.6,
+      "foot_translation_Z_gap_mm": 9.3400001904526,
+      "arm_variants_checked": [
+        "V1",
+        "V2",
+        "V3",
+        "V4"
+      ],
+      "unprotected_width_mm": 1590.4
+    },
+    {
+      "propeller_index": 3,
+      "propeller": "HEP-S 28×9",
+      "nominal_rotor_space_clear": true,
+      "findings": [],
+      "candidates": 4,
+      "rotor_edge_gap_mm": 258.80000000000007,
+      "foot_translation_Z_gap_mm": 9.3400001904526,
+      "arm_variants_checked": [
+        "V1",
+        "V2",
+        "V3",
+        "V4"
+      ],
+      "unprotected_width_mm": 1681.1999999999998
+    },
+    {
+      "propeller_index": 4,
+      "propeller": "HEP-S 29×11",
+      "nominal_rotor_space_clear": true,
+      "findings": [],
+      "candidates": 4,
+      "rotor_edge_gap_mm": 253.4000000000001,
+      "foot_translation_Z_gap_mm": 9.3400001904526,
+      "arm_variants_checked": [
+        "V1",
+        "V2",
+        "V3",
+        "V4"
+      ],
+      "unprotected_width_mm": 1726.6
+    },
+    {
+      "propeller_index": 5,
+      "propeller": "HEP-S 30×10.5",
+      "nominal_rotor_space_clear": true,
+      "findings": [],
+      "candidates": 4,
+      "rotor_edge_gap_mm": 258.0,
+      "foot_translation_Z_gap_mm": 9.3400001904526,
+      "arm_variants_checked": [
+        "V1",
+        "V2",
+        "V3",
+        "V4"
+      ],
+      "unprotected_width_mm": 1782.0
+    },
+    {
+      "propeller_index": 6,
+      "propeller": "HEP-S 32×11",
+      "nominal_rotor_space_clear": true,
+      "findings": [],
+      "candidates": 4,
+      "rotor_edge_gap_mm": 247.20000000000005,
+      "foot_translation_Z_gap_mm": 9.3400001904526,
+      "arm_variants_checked": [
+        "V1",
+        "V2",
+        "V3",
+        "V4"
+      ],
+      "unprotected_width_mm": 1872.8
+    },
+    {
+      "propeller_index": 7,
+      "propeller": "HEP-S 34×11.5",
+      "nominal_rotor_space_clear": true,
+      "findings": [],
+      "candidates": 4,
+      "rotor_edge_gap_mm": 236.4000000000001,
+      "foot_translation_Z_gap_mm": 9.3400001904526,
+      "arm_variants_checked": [
+        "V1",
+        "V2",
+        "V3",
+        "V4"
+      ],
+      "unprotected_width_mm": 1963.6
+    },
+    {
+      "propeller_index": 8,
+      "propeller": "HEP-S 36×12",
+      "nominal_rotor_space_clear": true,
+      "findings": [],
+      "candidates": 4,
+      "rotor_edge_gap_mm": 225.60000000000002,
+      "foot_translation_Z_gap_mm": 9.3400001904526,
+      "arm_variants_checked": [
+        "V1",
+        "V2",
+        "V3",
+        "V4"
+      ],
+      "unprotected_width_mm": 2054.4
+    },
+    {
+      "propeller_index": 9,
+      "propeller": "HEP-S 42×16",
+      "nominal_rotor_space_clear": true,
+      "findings": [],
+      "candidates": 4,
+      "rotor_edge_gap_mm": 183.20000000000005,
+      "foot_translation_Z_gap_mm": 9.3400001904526,
+      "arm_variants_checked": [
+        "V1",
+        "V2",
+        "V3",
+        "V4"
+      ],
+      "unprotected_width_mm": 2316.8
+    }
+  ],
+  "all_nominal_rotor_spaces_clear": true,
+  "envelope": {
+    "inner_radius_mm": 80,
+    "zmin_mm": 124,
+    "zmax_mm": 184,
+    "outer_radius": "selected diameter/2"
+  },
+  "scope": "Continuous annular planning envelope vs actual fixed CAD,each size and all four alternative arms including cable routes. All combinations are checked; actual HEP-S inner root/hub contours and vertical blade envelope are unknown. Rotor marks are visual bounds,not physical blades. Foot sweep uses invariant Z-separation throughout permitted translation/retraction.20mm nominal frame/neighbor planning reserve is not a deflection guarantee. No flight/production release.",
+  "loaded_clearance_guaranteed": false,
+  "OEM_envelope_verified": false
+}

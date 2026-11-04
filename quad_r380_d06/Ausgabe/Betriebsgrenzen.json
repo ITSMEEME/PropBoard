@@ -1,0 +1,46 @@
+{
+  "native_sha256": "9842c83362c6117f37fd90cb0bbee737e61358ddb5fb1b0d7577e726e2674d18",
+  "own_propeller_map_available": false,
+  "legacy_R380_hover_rpm_not_transferred": true,
+  "legacy_NS52x20_data_not_transferred": true,
+  "blade_geometry_origin": "Eigener mechanischer Entwurf, keine OEM-Propellergeometrie und kein bestätigtes aerodynamisches Kennfeld",
+  "series_cells_reference": 24,
+  "ideal_no_load_full_rpm": 4032.0,
+  "motor_continuous_rating_verified": false,
+  "ideal_hover_mass_with100kg_person_kg": 134.5724790167411,
+  "ideal_out_of_ground_effect_disk_area_m2": 1.8145839167134645,
+  "ideal_out_of_ground_effect_shaft_lower_bound_kW": 22.749209985996096,
+  "ideal_hover_ignores_profile_swirl_and_electrical_losses": true,
+  "four3400W_reference_kW": 13.6,
+  "motor_3400W_only180s_side_unknown": true,
+  "one_blade_skin_and_core_mass_kg": 0.11202567095857371,
+  "one_blade_skin_and_core_cg_mm": [
+    196.47384565590707,
+    -9.079432475849579,
+    -3.535229461401011
+  ],
+  "conditional_centrifugal_cases": [
+    {
+      "rpm": 3000,
+      "blade_body_centrifugal_resultant_N": 2174.629510864794,
+      "tip_speed_m_s": 119.38052083641215,
+      "tip_mach_at343m_s": 0.3480481657038255
+    },
+    {
+      "rpm": 3456,
+      "blade_body_centrifugal_resultant_N": 2885.959522386712,
+      "tip_speed_m_s": 137.52636000354678,
+      "tip_mach_at343m_s": 0.40095148689080695
+    },
+    {
+      "rpm": 4032,
+      "blade_body_centrifugal_resultant_N": 3928.111572137469,
+      "tip_speed_m_s": 160.4474200041379,
+      "tip_mach_at343m_s": 0.46777673470594144
+    }
+  ],
+  "centrifugal_scope": "Only skin/root and foam bodies; assumed material densities. Conditional rigid-body loads at illustrative rpm including ideal no-load rpm, not approved operating speeds; no airloads, gravity, hub/bolts, fatigue, strength or laminate proof.",
+  "propeller_max_rpm_approved": null,
+  "motor_bearing_axial_load_verified": false,
+  "flight_release": false
+}

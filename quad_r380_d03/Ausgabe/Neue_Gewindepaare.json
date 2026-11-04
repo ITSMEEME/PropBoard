@@ -1,0 +1,170 @@
+[
+  {
+    "bolt": "I_633",
+    "mate": "I_631",
+    "hole_suffix": "Endgewinde_M4_1",
+    "family": "Rack M4"
+  },
+  {
+    "bolt": "I_635",
+    "mate": "I_631",
+    "hole_suffix": "Endgewinde_M4_1",
+    "family": "Rack M4"
+  },
+  {
+    "bolt": "I_637",
+    "mate": "I_632",
+    "hole_suffix": "Endgewinde_M4_-1",
+    "family": "Rack M4"
+  },
+  {
+    "bolt": "I_639",
+    "mate": "I_632",
+    "hole_suffix": "Endgewinde_M4_-1",
+    "family": "Rack M4"
+  },
+  {
+    "bolt": "I_641",
+    "mate": "I_631",
+    "hole_suffix": "Endgewinde_M4_-1",
+    "family": "Rack M4"
+  },
+  {
+    "bolt": "I_643",
+    "mate": "I_631",
+    "hole_suffix": "Endgewinde_M4_-1",
+    "family": "Rack M4"
+  },
+  {
+    "bolt": "I_645",
+    "mate": "I_632",
+    "hole_suffix": "Endgewinde_M4_1",
+    "family": "Rack M4"
+  },
+  {
+    "bolt": "I_647",
+    "mate": "I_632",
+    "hole_suffix": "Endgewinde_M4_1",
+    "family": "Rack M4"
+  },
+  {
+    "bolt": "I_649",
+    "mate": "I_371",
+    "hole_suffix": "Index_M6",
+    "family": "Index M6"
+  },
+  {
+    "bolt": "I_651",
+    "mate": "I_390",
+    "hole_suffix": "Index_M6",
+    "family": "Index M6"
+  },
+  {
+    "bolt": "I_653",
+    "mate": "I_410",
+    "hole_suffix": "Index_M6",
+    "family": "Index M6"
+  },
+  {
+    "bolt": "I_655",
+    "mate": "I_429",
+    "hole_suffix": "Index_M6",
+    "family": "Index M6"
+  },
+  {
+    "bolt": "I_470",
+    "mate": "I_457",
+    "hole_suffix": "Schienenflansch_M4",
+    "family": "Rail flange M4"
+  },
+  {
+    "bolt": "I_471",
+    "mate": "I_457",
+    "hole_suffix": "Schienenflansch_M4",
+    "family": "Rail flange M4"
+  },
+  {
+    "bolt": "I_472",
+    "mate": "I_457",
+    "hole_suffix": "Schienenflansch_M4",
+    "family": "Rail flange M4"
+  },
+  {
+    "bolt": "I_473",
+    "mate": "I_457",
+    "hole_suffix": "Schienenflansch_M4",
+    "family": "Rail flange M4"
+  },
+  {
+    "bolt": "I_530",
+    "mate": "I_517",
+    "hole_suffix": "Schienenflansch_M4",
+    "family": "Rail flange M4"
+  },
+  {
+    "bolt": "I_531",
+    "mate": "I_517",
+    "hole_suffix": "Schienenflansch_M4",
+    "family": "Rail flange M4"
+  },
+  {
+    "bolt": "I_532",
+    "mate": "I_517",
+    "hole_suffix": "Schienenflansch_M4",
+    "family": "Rail flange M4"
+  },
+  {
+    "bolt": "I_533",
+    "mate": "I_517",
+    "hole_suffix": "Schienenflansch_M4",
+    "family": "Rail flange M4"
+  },
+  {
+    "bolt": "I_500",
+    "mate": "I_487",
+    "hole_suffix": "Schienenflansch_M4",
+    "family": "Rail flange M4"
+  },
+  {
+    "bolt": "I_501",
+    "mate": "I_487",
+    "hole_suffix": "Schienenflansch_M4",
+    "family": "Rail flange M4"
+  },
+  {
+    "bolt": "I_502",
+    "mate": "I_487",
+    "hole_suffix": "Schienenflansch_M4",
+    "family": "Rail flange M4"
+  },
+  {
+    "bolt": "I_503",
+    "mate": "I_487",
+    "hole_suffix": "Schienenflansch_M4",
+    "family": "Rail flange M4"
+  },
+  {
+    "bolt": "I_560",
+    "mate": "I_547",
+    "hole_suffix": "Schienenflansch_M4",
+    "family": "Rail flange M4"
+  },
+  {
+    "bolt": "I_561",
+    "mate": "I_547",
+    "hole_suffix": "Schienenflansch_M4",
+    "family": "Rail flange M4"
+  },
+  {
+    "bolt": "I_562",
+    "mate": "I_547",
+    "hole_suffix": "Schienenflansch_M4",
+    "family": "Rail flange M4"
+  },
+  {
+    "bolt": "I_563",
+    "mate": "I_547",
+    "hole_suffix": "Schienenflansch_M4",
+    "family": "Rail flange M4"
+  }
+]

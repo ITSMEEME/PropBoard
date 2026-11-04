@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "variant": "V1",
+      "actual_visible_count": 784,
+      "passed": true
+    },
+    {
+      "variant": "V2",
+      "actual_visible_count": 876,
+      "passed": true
+    },
+    {
+      "variant": "V3",
+      "actual_visible_count": 876,
+      "passed": true
+    },
+    {
+      "variant": "V4",
+      "actual_visible_count": 968,
+      "passed": true
+    }
+  ],
+  "page_errors": [],
+  "mobile_view_checked": true
+}

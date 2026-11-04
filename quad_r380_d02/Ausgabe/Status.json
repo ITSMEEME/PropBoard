@@ -1,0 +1,31 @@
+{
+  "production_ready": false,
+  "scope": "D02 CFK/Fußplatten mechanischer Entwicklungsstand",
+  "modeled_instances": 630,
+  "part_types": 31,
+  "mass_modeled_kg": 21.038117416308914,
+  "native_sha256": "b8632aa73dd805eb122d2d5da068ac3e9bf00bd24fb9958ffb7ccfe74417d53e",
+  "legacy_clamps_exact": true,
+  "cfk_article": "CBU20171005TG",
+  "oem_powertrain_integrated": false,
+  "not_inherited_from_D01": [
+    "Kollisionsfreigabe",
+    "Gewindepaarungen",
+    "Traglastscreen",
+    "Montageprüfung"
+  ],
+  "open_items": [
+    "CFK Kennwerte/Klemmpressung und Gesamttragfähigkeit",
+    "D02 Befestigungsmittel-, Gewinde-, Montage- und Gesamt-Verstellwegprüfung",
+    "Gewindeausführungen der übernommenen P12-Klemmen und Knoten schließen",
+    "OEM Antrieb, Rotoren, Akku und vollständiger Kabelbaum",
+    "Schutz, Landegestell und Rotorfreiraum"
+  ],
+  "all_master_solids_valid": true,
+  "foot_travel_cases_checked": 9,
+  "structural_candidate_pairs": 484,
+  "structural_positive_interferences": 0,
+  "fastener_geometry_verified": false,
+  "received_external_data": "Unbestaetigter Text-Extrakt; Original-OEM-Dokumente/CAD fehlen weiterhin",
+  "external_data_assessment": "KENNDATEN_BEWERTUNG.md"
+}

@@ -1,0 +1,51 @@
+{
+  "native_sha256": "30e3f9620103b4158e28eff1be0f677c7911d33d1bcd702b30064fbe07337d60",
+  "variants": [
+    {
+      "variant": "V1",
+      "all_four_arms_static_candidates": 484,
+      "all_four_arms_findings": [],
+      "all_four_arms_passed": true,
+      "new_part_max_z_mm": 131.00000000000006,
+      "rotor_min_z_mm": 138.6427315448157,
+      "all_new_parts_rotor_sweep_Z_gap_mm": 7.642731544815632,
+      "all_new_parts_moving_foot_Z_gap_mm": 62.34000019045254,
+      "all_new_parts_clear_of_rotor_and_foot_in_Z": true
+    },
+    {
+      "variant": "V2",
+      "all_four_arms_static_candidates": 800,
+      "all_four_arms_findings": [],
+      "all_four_arms_passed": true,
+      "new_part_max_z_mm": 131.00000000000006,
+      "rotor_min_z_mm": 138.6427315448157,
+      "all_new_parts_rotor_sweep_Z_gap_mm": 7.642731544815632,
+      "all_new_parts_moving_foot_Z_gap_mm": 62.34000019045254,
+      "all_new_parts_clear_of_rotor_and_foot_in_Z": true
+    },
+    {
+      "variant": "V3",
+      "all_four_arms_static_candidates": 876,
+      "all_four_arms_findings": [],
+      "all_four_arms_passed": true,
+      "new_part_max_z_mm": 131.00000000000006,
+      "rotor_min_z_mm": 138.6427315448157,
+      "all_new_parts_rotor_sweep_Z_gap_mm": 7.642731544815632,
+      "all_new_parts_moving_foot_Z_gap_mm": 62.34000019045254,
+      "all_new_parts_clear_of_rotor_and_foot_in_Z": true
+    },
+    {
+      "variant": "V4",
+      "all_four_arms_static_candidates": 1108,
+      "all_four_arms_findings": [],
+      "all_four_arms_passed": true,
+      "new_part_max_z_mm": 131.00000000000006,
+      "rotor_min_z_mm": 138.6427315448157,
+      "all_new_parts_rotor_sweep_Z_gap_mm": 7.642731544815632,
+      "all_new_parts_moving_foot_Z_gap_mm": 62.34000019045254,
+      "all_new_parts_clear_of_rotor_and_foot_in_Z": true
+    }
+  ],
+  "threshold_mm3": 0.1,
+  "scope": "All four connections including actual clamp hardware against each other and every shared current frame neighbour,at static default pose. Full-Z-separation screen of every new arm component at every corner versus the retained rotor sweep and moving foot systems. Nominal rigid shapes only; no preload,tolerance,deflection or global-flight release. Existing D06 rotor/foot-support interferences remain unresolved."
+}

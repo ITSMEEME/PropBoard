@@ -1,0 +1,187 @@
+[
+  {
+    "id": "V1",
+    "title": "Einrohrarm",
+    "count": 1,
+    "od": 35,
+    "di": 32,
+    "start": [
+      [
+        0,
+        0,
+        -30
+      ]
+    ],
+    "end": [
+      [
+        385,
+        0,
+        -30
+      ]
+    ],
+    "purpose": "Ein größerer dünnwandiger Querschnitt mit nur zwei Rohr-Klemmstellen; erste Gewichtsoption.",
+    "risk": "Neuer Rohrartikel erforderlich. Bestehendes Ø20/17 und größerer Ø35/32 werden getrennt gescreent; Laminat und Anschlüsse offen."
+  },
+  {
+    "id": "V2",
+    "title": "Vertikale V-Gabel",
+    "count": 2,
+    "od": 20,
+    "di": 17,
+    "start": [
+      [
+        0,
+        0,
+        -20
+      ],
+      [
+        0,
+        0,
+        -120
+      ]
+    ],
+    "end": [
+      [
+        385,
+        0,
+        -20
+      ],
+      [
+        385,
+        0,
+        -60
+      ]
+    ],
+    "purpose": "Zwei vorhandene Rohre übereinander; Bauhöhe als Hebelarm für die vertikale Last nutzen.",
+    "risk": "Seitliche Steifigkeit, Torsion und biegesteife Klemmstellen prüfen."
+  },
+  {
+    "id": "V3",
+    "title": "Horizontale V-Gabel",
+    "count": 2,
+    "od": 20,
+    "di": 17,
+    "start": [
+      [
+        0,
+        -60,
+        -30
+      ],
+      [
+        0,
+        60,
+        -30
+      ]
+    ],
+    "end": [
+      [
+        385,
+        -22,
+        -20
+      ],
+      [
+        385,
+        22,
+        -20
+      ]
+    ],
+    "purpose": "Zwei vorhandene Rohre in der Draufsicht als V; kleine flache Anschlussknoten.",
+    "risk": "Vertikale Biegung und Verdrehung benötigen einen eigenen Nachweis."
+  },
+  {
+    "id": "V4",
+    "title": "Räumliches Dreieck",
+    "count": 3,
+    "od": 20,
+    "di": 17,
+    "start": [
+      [
+        0,
+        -60,
+        -20
+      ],
+      [
+        0,
+        60,
+        -20
+      ],
+      [
+        0,
+        0,
+        -100
+      ]
+    ],
+    "end": [
+      [
+        385,
+        -25,
+        -20
+      ],
+      [
+        385,
+        25,
+        -20
+      ],
+      [
+        385,
+        0,
+        -60
+      ]
+    ],
+    "purpose": "Zwei obere und ein unteres Rohr; räumlicher Querschnitt mit direktem Dreifach-Motorknoten.",
+    "risk": "Zusatzrohr und zusätzliche Klemmstellen nur bei nachgewiesenem Steifigkeitsnutzen."
+  },
+  {
+    "id": "V5",
+    "title": "Vierrohr-Raumrahmen",
+    "count": 4,
+    "od": 20,
+    "di": 17,
+    "start": [
+      [
+        0,
+        -60,
+        -20
+      ],
+      [
+        0,
+        60,
+        -20
+      ],
+      [
+        0,
+        -60,
+        -100
+      ],
+      [
+        0,
+        60,
+        -100
+      ]
+    ],
+    "end": [
+      [
+        385,
+        -25,
+        -20
+      ],
+      [
+        385,
+        25,
+        -20
+      ],
+      [
+        385,
+        -25,
+        -60
+      ],
+      [
+        385,
+        25,
+        -60
+      ]
+    ],
+    "purpose": "Vier vorhandene Rohre mit rechteckigem räumlichem Querschnitt; direkte vierfache Anschlussknoten.",
+    "risk": "Schwerere Rückfalloption, nur wenn die leichteren Varianten Last/Steifigkeit nicht erreichen."
+  }
+]

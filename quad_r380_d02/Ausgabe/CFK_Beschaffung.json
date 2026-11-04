@@ -1,0 +1,149 @@
+{
+  "stock_article": "CBU20171005TG",
+  "stock_mm": 1000,
+  "end_trim_each_mm": 5,
+  "kerf_per_cut_mm": 2,
+  "algorithm": "first fit decreasing, no global minimum claim",
+  "stock_count": 10,
+  "cut_count": 22,
+  "bins": [
+    {
+      "used_mm": 928.1,
+      "cuts": [
+        {
+          "id": "D02_RAIL",
+          "planned_mm": 760.0
+        },
+        {
+          "id": "D02_STAY_TUBE",
+          "planned_mm": 164.1
+        }
+      ]
+    },
+    {
+      "used_mm": 928.1,
+      "cuts": [
+        {
+          "id": "D02_RAIL",
+          "planned_mm": 760.0
+        },
+        {
+          "id": "D02_STAY_TUBE",
+          "planned_mm": 164.1
+        }
+      ]
+    },
+    {
+      "used_mm": 854.3000000000001,
+      "cuts": [
+        {
+          "id": "D02_ARM_TUBE",
+          "planned_mm": 342.1
+        },
+        {
+          "id": "D02_ARM_TUBE",
+          "planned_mm": 342.1
+        },
+        {
+          "id": "D02_STAY_TUBE",
+          "planned_mm": 164.1
+        }
+      ]
+    },
+    {
+      "used_mm": 854.3000000000001,
+      "cuts": [
+        {
+          "id": "D02_ARM_TUBE",
+          "planned_mm": 342.1
+        },
+        {
+          "id": "D02_ARM_TUBE",
+          "planned_mm": 342.1
+        },
+        {
+          "id": "D02_STAY_TUBE",
+          "planned_mm": 164.1
+        }
+      ]
+    },
+    {
+      "used_mm": 688.2,
+      "cuts": [
+        {
+          "id": "D02_ARM_TUBE",
+          "planned_mm": 342.1
+        },
+        {
+          "id": "D02_ARM_TUBE",
+          "planned_mm": 342.1
+        }
+      ]
+    },
+    {
+      "used_mm": 688.2,
+      "cuts": [
+        {
+          "id": "D02_ARM_TUBE",
+          "planned_mm": 342.1
+        },
+        {
+          "id": "D02_ARM_TUBE",
+          "planned_mm": 342.1
+        }
+      ]
+    },
+    {
+      "used_mm": 688.0,
+      "cuts": [
+        {
+          "id": "D02_ARM_TUBE",
+          "planned_mm": 342.0
+        },
+        {
+          "id": "D02_ARM_TUBE",
+          "planned_mm": 342.0
+        }
+      ]
+    },
+    {
+      "used_mm": 688.0,
+      "cuts": [
+        {
+          "id": "D02_ARM_TUBE",
+          "planned_mm": 342.0
+        },
+        {
+          "id": "D02_ARM_TUBE",
+          "planned_mm": 342.0
+        }
+      ]
+    },
+    {
+      "used_mm": 688.0,
+      "cuts": [
+        {
+          "id": "D02_ARM_TUBE",
+          "planned_mm": 342.0
+        },
+        {
+          "id": "D02_ARM_TUBE",
+          "planned_mm": 342.0
+        }
+      ]
+    },
+    {
+      "used_mm": 688.0,
+      "cuts": [
+        {
+          "id": "D02_ARM_TUBE",
+          "planned_mm": 342.0
+        },
+        {
+          "id": "D02_ARM_TUBE",
+          "planned_mm": 342.0
+        }
+      ]
+    }
+  ]
+}

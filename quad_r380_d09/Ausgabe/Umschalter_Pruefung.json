@@ -1,0 +1,366 @@
+{
+  "native_sha256": "b1b1a6183ae6822d6a0b4eee423392b14dfc542a4971700f4d2735fa817c52c9",
+  "checks": [
+    {
+      "propeller_index": 0,
+      "propeller": "HEP-S 18×6.7",
+      "variant": "V1",
+      "visible_config_instances": 176,
+      "arm_tubes": 4,
+      "mass_modeled_excluding_propellers_kg": 24.848067688315524,
+      "passed": true
+    },
+    {
+      "propeller_index": 0,
+      "propeller": "HEP-S 18×6.7",
+      "variant": "V2",
+      "visible_config_instances": 268,
+      "arm_tubes": 8,
+      "mass_modeled_excluding_propellers_kg": 25.592282183190367,
+      "passed": true
+    },
+    {
+      "propeller_index": 0,
+      "propeller": "HEP-S 18×6.7",
+      "variant": "V3",
+      "visible_config_instances": 268,
+      "arm_tubes": 8,
+      "mass_modeled_excluding_propellers_kg": 25.548818082482047,
+      "passed": true
+    },
+    {
+      "propeller_index": 0,
+      "propeller": "HEP-S 18×6.7",
+      "variant": "V4",
+      "visible_config_instances": 360,
+      "arm_tubes": 12,
+      "mass_modeled_excluding_propellers_kg": 26.831526269678438,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "propeller": "HEP-S 22×7.2",
+      "variant": "V1",
+      "visible_config_instances": 176,
+      "arm_tubes": 4,
+      "mass_modeled_excluding_propellers_kg": 24.848067688315524,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "propeller": "HEP-S 22×7.2",
+      "variant": "V2",
+      "visible_config_instances": 268,
+      "arm_tubes": 8,
+      "mass_modeled_excluding_propellers_kg": 25.592282183190367,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "propeller": "HEP-S 22×7.2",
+      "variant": "V3",
+      "visible_config_instances": 268,
+      "arm_tubes": 8,
+      "mass_modeled_excluding_propellers_kg": 25.548818082482047,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "propeller": "HEP-S 22×7.2",
+      "variant": "V4",
+      "visible_config_instances": 360,
+      "arm_tubes": 12,
+      "mass_modeled_excluding_propellers_kg": 26.831526269678438,
+      "passed": true
+    },
+    {
+      "propeller_index": 2,
+      "propeller": "HEP-S 26×8.8",
+      "variant": "V1",
+      "visible_config_instances": 176,
+      "arm_tubes": 4,
+      "mass_modeled_excluding_propellers_kg": 25.123951923812406,
+      "passed": true
+    },
+    {
+      "propeller_index": 2,
+      "propeller": "HEP-S 26×8.8",
+      "variant": "V2",
+      "visible_config_instances": 268,
+      "arm_tubes": 8,
+      "mass_modeled_excluding_propellers_kg": 25.86064861158143,
+      "passed": true
+    },
+    {
+      "propeller_index": 2,
+      "propeller": "HEP-S 26×8.8",
+      "variant": "V3",
+      "visible_config_instances": 268,
+      "arm_tubes": 8,
+      "mass_modeled_excluding_propellers_kg": 25.818648020180554,
+      "passed": true
+    },
+    {
+      "propeller_index": 2,
+      "propeller": "HEP-S 26×8.8",
+      "variant": "V4",
+      "visible_config_instances": 360,
+      "arm_tubes": 12,
+      "mass_modeled_excluding_propellers_kg": 27.129972831052232,
+      "passed": true
+    },
+    {
+      "propeller_index": 3,
+      "propeller": "HEP-S 28×9",
+      "variant": "V1",
+      "visible_config_instances": 176,
+      "arm_tubes": 4,
+      "mass_modeled_excluding_propellers_kg": 25.248162947707428,
+      "passed": true
+    },
+    {
+      "propeller_index": 3,
+      "propeller": "HEP-S 28×9",
+      "variant": "V2",
+      "visible_config_instances": 268,
+      "arm_tubes": 8,
+      "mass_modeled_excluding_propellers_kg": 25.981485457072452,
+      "passed": true
+    },
+    {
+      "propeller_index": 3,
+      "propeller": "HEP-S 28×9",
+      "variant": "V3",
+      "visible_config_instances": 268,
+      "arm_tubes": 8,
+      "mass_modeled_excluding_propellers_kg": 25.940674146595992,
+      "passed": true
+    },
+    {
+      "propeller_index": 3,
+      "propeller": "HEP-S 28×9",
+      "variant": "V4",
+      "visible_config_instances": 360,
+      "arm_tubes": 12,
+      "mass_modeled_excluding_propellers_kg": 27.264179137741156,
+      "passed": true
+    },
+    {
+      "propeller_index": 4,
+      "propeller": "HEP-S 29×11",
+      "variant": "V1",
+      "visible_config_instances": 176,
+      "arm_tubes": 4,
+      "mass_modeled_excluding_propellers_kg": 25.310551593121236,
+      "passed": true
+    },
+    {
+      "propeller_index": 4,
+      "propeller": "HEP-S 29×11",
+      "variant": "V2",
+      "visible_config_instances": 268,
+      "arm_tubes": 8,
+      "mass_modeled_excluding_propellers_kg": 26.042177052597296,
+      "passed": true
+    },
+    {
+      "propeller_index": 4,
+      "propeller": "HEP-S 29×11",
+      "variant": "V3",
+      "visible_config_instances": 268,
+      "arm_tubes": 8,
+      "mass_modeled_excluding_propellers_kg": 26.001765153540294,
+      "passed": true
+    },
+    {
+      "propeller_index": 4,
+      "propeller": "HEP-S 29×11",
+      "variant": "V4",
+      "visible_config_instances": 360,
+      "arm_tubes": 12,
+      "mass_modeled_excluding_propellers_kg": 27.331688779259984,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "propeller": "HEP-S 30×10.5",
+      "variant": "V1",
+      "visible_config_instances": 176,
+      "arm_tubes": 4,
+      "mass_modeled_excluding_propellers_kg": 25.40444168599567,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "propeller": "HEP-S 30×10.5",
+      "variant": "V2",
+      "visible_config_instances": 268,
+      "arm_tubes": 8,
+      "mass_modeled_excluding_propellers_kg": 26.13350696267139,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "propeller": "HEP-S 30×10.5",
+      "variant": "V3",
+      "visible_config_instances": 268,
+      "arm_tubes": 8,
+      "mass_modeled_excluding_propellers_kg": 26.09392484878568,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "propeller": "HEP-S 30×10.5",
+      "variant": "V4",
+      "visible_config_instances": 360,
+      "arm_tubes": 12,
+      "mass_modeled_excluding_propellers_kg": 27.348572183286432,
+      "passed": true
+    },
+    {
+      "propeller_index": 6,
+      "propeller": "HEP-S 32×11",
+      "variant": "V1",
+      "visible_config_instances": 176,
+      "arm_tubes": 4,
+      "mass_modeled_excluding_propellers_kg": 25.530128218641593,
+      "passed": true
+    },
+    {
+      "propeller_index": 6,
+      "propeller": "HEP-S 32×11",
+      "variant": "V2",
+      "visible_config_instances": 268,
+      "arm_tubes": 8,
+      "mass_modeled_excluding_propellers_kg": 26.255747201841125,
+      "passed": true
+    },
+    {
+      "propeller_index": 6,
+      "propeller": "HEP-S 32×11",
+      "variant": "V3",
+      "visible_config_instances": 268,
+      "arm_tubes": 8,
+      "mass_modeled_excluding_propellers_kg": 26.217142003363218,
+      "passed": true
+    },
+    {
+      "propeller_index": 6,
+      "propeller": "HEP-S 32×11",
+      "variant": "V4",
+      "visible_config_instances": 360,
+      "arm_tubes": 12,
+      "mass_modeled_excluding_propellers_kg": 27.483637356725065,
+      "passed": true
+    },
+    {
+      "propeller_index": 7,
+      "propeller": "HEP-S 34×11.5",
+      "variant": "V1",
+      "visible_config_instances": 176,
+      "arm_tubes": 4,
+      "mass_modeled_excluding_propellers_kg": 25.656301269139767,
+      "passed": true
+    },
+    {
+      "propeller_index": 7,
+      "propeller": "HEP-S 34×11.5",
+      "variant": "V2",
+      "visible_config_instances": 268,
+      "arm_tubes": 8,
+      "mass_modeled_excluding_propellers_kg": 26.37842828090186,
+      "passed": true
+    },
+    {
+      "propeller_index": 7,
+      "propeller": "HEP-S 34×11.5",
+      "variant": "V3",
+      "visible_config_instances": 268,
+      "arm_tubes": 8,
+      "mass_modeled_excluding_propellers_kg": 26.34104774655237,
+      "passed": true
+    },
+    {
+      "propeller_index": 7,
+      "propeller": "HEP-S 34×11.5",
+      "variant": "V4",
+      "visible_config_instances": 360,
+      "arm_tubes": 12,
+      "mass_modeled_excluding_propellers_kg": 27.619723158535663,
+      "passed": true
+    },
+    {
+      "propeller_index": 8,
+      "propeller": "HEP-S 36×12",
+      "variant": "V1",
+      "visible_config_instances": 176,
+      "arm_tubes": 4,
+      "mass_modeled_excluding_propellers_kg": 25.78288575094994,
+      "passed": true
+    },
+    {
+      "propeller_index": 8,
+      "propeller": "HEP-S 36×12",
+      "variant": "V2",
+      "visible_config_instances": 268,
+      "arm_tubes": 8,
+      "mass_modeled_excluding_propellers_kg": 26.501463279187224,
+      "passed": true
+    },
+    {
+      "propeller_index": 8,
+      "propeller": "HEP-S 36×12",
+      "variant": "V3",
+      "visible_config_instances": 268,
+      "arm_tubes": 8,
+      "mass_modeled_excluding_propellers_kg": 26.465352761663098,
+      "passed": true
+    },
+    {
+      "propeller_index": 8,
+      "propeller": "HEP-S 36×12",
+      "variant": "V4",
+      "visible_config_instances": 360,
+      "arm_tubes": 12,
+      "mass_modeled_excluding_propellers_kg": 27.75582989630838,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "propeller": "HEP-S 42×16",
+      "variant": "V1",
+      "visible_config_instances": 176,
+      "arm_tubes": 4,
+      "mass_modeled_excluding_propellers_kg": 26.132657156996313,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "propeller": "HEP-S 42×16",
+      "variant": "V2",
+      "visible_config_instances": 268,
+      "arm_tubes": 8,
+      "mass_modeled_excluding_propellers_kg": 26.841035006976256,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "propeller": "HEP-S 42×16",
+      "variant": "V3",
+      "visible_config_instances": 268,
+      "arm_tubes": 8,
+      "mass_modeled_excluding_propellers_kg": 26.80898430689254,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "propeller": "HEP-S 42×16",
+      "variant": "V4",
+      "visible_config_instances": 360,
+      "arm_tubes": 12,
+      "mass_modeled_excluding_propellers_kg": 28.131566545059183,
+      "passed": true
+    }
+  ],
+  "OEM_propellers_modeled": false
+}

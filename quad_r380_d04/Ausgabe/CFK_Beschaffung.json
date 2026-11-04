@@ -1,0 +1,202 @@
+{
+  "article": "CBU20171005TG",
+  "stock_length_mm": 1000,
+  "end_trim_each_mm": 5,
+  "kerf_per_cut_mm": 2,
+  "stock_count": 11,
+  "cut_count": 34,
+  "algorithm": "First fit decreasing, no optimality claim",
+  "bins": [
+    {
+      "used_mm": 974.2,
+      "cuts": [
+        {
+          "instance": "I_367",
+          "planned_mm": 760.0
+        },
+        {
+          "instance": "D04_I_814",
+          "planned_mm": 210.2
+        }
+      ]
+    },
+    {
+      "used_mm": 974.2,
+      "cuts": [
+        {
+          "instance": "I_368",
+          "planned_mm": 760.0
+        },
+        {
+          "instance": "D04_I_824",
+          "planned_mm": 210.2
+        }
+      ]
+    },
+    {
+      "used_mm": 900.2,
+      "cuts": [
+        {
+          "instance": "I_23",
+          "planned_mm": 342.0
+        },
+        {
+          "instance": "I_42",
+          "planned_mm": 342.0
+        },
+        {
+          "instance": "D04_I_834",
+          "planned_mm": 210.2
+        }
+      ]
+    },
+    {
+      "used_mm": 900.2,
+      "cuts": [
+        {
+          "instance": "I_61",
+          "planned_mm": 342.0
+        },
+        {
+          "instance": "I_80",
+          "planned_mm": 342.0
+        },
+        {
+          "instance": "D04_I_844",
+          "planned_mm": 210.2
+        }
+      ]
+    },
+    {
+      "used_mm": 850.0,
+      "cuts": [
+        {
+          "instance": "I_114",
+          "planned_mm": 342.0
+        },
+        {
+          "instance": "I_133",
+          "planned_mm": 342.0
+        },
+        {
+          "instance": "D04_I_673",
+          "planned_mm": 160.0
+        }
+      ]
+    },
+    {
+      "used_mm": 850.0,
+      "cuts": [
+        {
+          "instance": "I_152",
+          "planned_mm": 342.0
+        },
+        {
+          "instance": "I_171",
+          "planned_mm": 342.0
+        },
+        {
+          "instance": "D04_I_692",
+          "planned_mm": 160.0
+        }
+      ]
+    },
+    {
+      "used_mm": 850.0,
+      "cuts": [
+        {
+          "instance": "I_205",
+          "planned_mm": 342.0
+        },
+        {
+          "instance": "I_224",
+          "planned_mm": 342.0
+        },
+        {
+          "instance": "D04_I_711",
+          "planned_mm": 160.0
+        }
+      ]
+    },
+    {
+      "used_mm": 850.0,
+      "cuts": [
+        {
+          "instance": "I_243",
+          "planned_mm": 342.0
+        },
+        {
+          "instance": "I_262",
+          "planned_mm": 342.0
+        },
+        {
+          "instance": "D04_I_730",
+          "planned_mm": 160.0
+        }
+      ]
+    },
+    {
+      "used_mm": 982.2,
+      "cuts": [
+        {
+          "instance": "I_296",
+          "planned_mm": 342.0
+        },
+        {
+          "instance": "I_315",
+          "planned_mm": 342.0
+        },
+        {
+          "instance": "D04_I_521",
+          "planned_mm": 145.1
+        },
+        {
+          "instance": "D04_I_540",
+          "planned_mm": 145.1
+        }
+      ]
+    },
+    {
+      "used_mm": 982.2,
+      "cuts": [
+        {
+          "instance": "I_334",
+          "planned_mm": 342.0
+        },
+        {
+          "instance": "I_353",
+          "planned_mm": 342.0
+        },
+        {
+          "instance": "D04_I_559",
+          "planned_mm": 145.1
+        },
+        {
+          "instance": "D04_I_578",
+          "planned_mm": 145.1
+        }
+      ]
+    },
+    {
+      "used_mm": 588.4,
+      "cuts": [
+        {
+          "instance": "D04_I_597",
+          "planned_mm": 145.1
+        },
+        {
+          "instance": "D04_I_616",
+          "planned_mm": 145.1
+        },
+        {
+          "instance": "D04_I_635",
+          "planned_mm": 145.1
+        },
+        {
+          "instance": "D04_I_654",
+          "planned_mm": 145.1
+        }
+      ]
+    }
+  ]
+}

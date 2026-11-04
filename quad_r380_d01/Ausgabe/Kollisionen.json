@@ -1,0 +1,6 @@
+{
+  "scope": "All placed solid pairs, no excluded part/contact families. Values <=0.1mm\u00b3 are below reporting tolerance. Thread geometry nominal; no preload/contact FEM.",
+  "candidate_pairs": 826,
+  "unique_pairs": 411,
+  "interferences": []
+}

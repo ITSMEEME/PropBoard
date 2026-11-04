@@ -1,0 +1,4520 @@
+[
+  {
+    "result": {
+      "bolt": "I_633",
+      "mate": "I_631",
+      "phase_deg": 29.999999999999886,
+      "reference_phase_deg": 209.99999999999991,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "family": "Rack M4",
+      "reused_D03_exact_master_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "b87757133add718d0dc310f4528bc05cec84837ff866a92b5ad9932b44daf6cb",
+    "relative_placement": [
+      -5.196152422706717,
+      2.9999999999999716,
+      -393.8,
+      -0.6830127018922195,
+      0.18301270189221874,
+      -0.6830127018922194,
+      -0.18301270189221894
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_635",
+      "mate": "I_631",
+      "phase_deg": 29.999999999999886,
+      "reference_phase_deg": 209.99999999999991,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_633",
+      "family": "Rack M4",
+      "reused_D03_exact_master_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "b87757133add718d0dc310f4528bc05cec84837ff866a92b5ad9932b44daf6cb",
+    "relative_placement": [
+      -15.588457268119981,
+      8.999999999999972,
+      -393.8,
+      -0.6830127018922195,
+      0.18301270189221874,
+      -0.6830127018922194,
+      -0.18301270189221894
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_637",
+      "mate": "I_632",
+      "phase_deg": 209.99999999999991,
+      "reference_phase_deg": 209.99999999999991,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_633",
+      "family": "Rack M4",
+      "reused_D03_exact_master_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "b87757133add718d0dc310f4528bc05cec84837ff866a92b5ad9932b44daf6cb",
+    "relative_placement": [
+      5.196152422706547,
+      -3.000000000000057,
+      -393.8000000000001,
+      0.6830127018922194,
+      -0.1830127018922188,
+      -0.6830127018922195,
+      -0.18301270189221863
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_639",
+      "mate": "I_632",
+      "phase_deg": 209.99999999999991,
+      "reference_phase_deg": 209.99999999999991,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_633",
+      "family": "Rack M4",
+      "reused_D03_exact_master_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "b87757133add718d0dc310f4528bc05cec84837ff866a92b5ad9932b44daf6cb",
+    "relative_placement": [
+      15.58845726811984,
+      -9.000000000000043,
+      -393.8000000000001,
+      0.6830127018922194,
+      -0.1830127018922188,
+      -0.6830127018922195,
+      -0.18301270189221863
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_641",
+      "mate": "I_631",
+      "phase_deg": 29.999999999999886,
+      "reference_phase_deg": 209.99999999999991,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_633",
+      "family": "Rack M4",
+      "reused_D03_exact_master_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "b87757133add718d0dc310f4528bc05cec84837ff866a92b5ad9932b44daf6cb",
+    "relative_placement": [
+      5.196152422706717,
+      -2.9999999999999716,
+      -393.80000000000007,
+      0.6830127018922195,
+      -0.18301270189221874,
+      -0.6830127018922194,
+      -0.18301270189221894
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_643",
+      "mate": "I_631",
+      "phase_deg": 29.999999999999886,
+      "reference_phase_deg": 209.99999999999991,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_633",
+      "family": "Rack M4",
+      "reused_D03_exact_master_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "b87757133add718d0dc310f4528bc05cec84837ff866a92b5ad9932b44daf6cb",
+    "relative_placement": [
+      15.588457268119981,
+      -8.999999999999957,
+      -393.80000000000007,
+      0.6830127018922195,
+      -0.18301270189221874,
+      -0.6830127018922194,
+      -0.18301270189221894
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_645",
+      "mate": "I_632",
+      "phase_deg": 209.99999999999991,
+      "reference_phase_deg": 209.99999999999991,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_633",
+      "family": "Rack M4",
+      "reused_D03_exact_master_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "b87757133add718d0dc310f4528bc05cec84837ff866a92b5ad9932b44daf6cb",
+    "relative_placement": [
+      -5.1961524227065325,
+      3.000000000000057,
+      -393.80000000000007,
+      -0.6830127018922194,
+      0.1830127018922188,
+      -0.6830127018922195,
+      -0.18301270189221863
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_647",
+      "mate": "I_632",
+      "phase_deg": 209.99999999999991,
+      "reference_phase_deg": 209.99999999999991,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_633",
+      "family": "Rack M4",
+      "reused_D03_exact_master_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "b87757133add718d0dc310f4528bc05cec84837ff866a92b5ad9932b44daf6cb",
+    "relative_placement": [
+      -15.588457268119825,
+      9.000000000000028,
+      -393.80000000000007,
+      -0.6830127018922194,
+      0.1830127018922188,
+      -0.6830127018922195,
+      -0.18301270189221863
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_649",
+      "mate": "I_371",
+      "phase_deg": 59.999999999999886,
+      "reference_phase_deg": 239.99999999999994,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "family": "Index M6",
+      "reused_D03_exact_master_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "8c267e49ee254bff2aae22fe856b60c2e32926efa5bced094d83473b9d8b98e9",
+    "master_b_sha256": "3f6ccf70306401cc46e5324018e74ce2eab6c767346142fd415dc1c5212b39a3",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -50.599999999999994,
+      -0.3535533905932733,
+      -0.6123724356957948,
+      -0.6123724356957947,
+      -0.35355339059327345
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_651",
+      "mate": "I_390",
+      "phase_deg": 239.99999999999994,
+      "reference_phase_deg": 239.99999999999994,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_649",
+      "family": "Index M6",
+      "reused_D03_exact_master_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "8c267e49ee254bff2aae22fe856b60c2e32926efa5bced094d83473b9d8b98e9",
+    "master_b_sha256": "3f6ccf70306401cc46e5324018e74ce2eab6c767346142fd415dc1c5212b39a3",
+    "relative_placement": [
+      5.684341886080802e-14,
+      0.0,
+      -50.599999999999994,
+      -0.3535533905932733,
+      -0.6123724356957947,
+      -0.6123724356957948,
+      -0.35355339059327345
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_653",
+      "mate": "I_410",
+      "phase_deg": 59.999999999999886,
+      "reference_phase_deg": 239.99999999999994,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_649",
+      "family": "Index M6",
+      "reused_D03_exact_master_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "8c267e49ee254bff2aae22fe856b60c2e32926efa5bced094d83473b9d8b98e9",
+    "master_b_sha256": "3f6ccf70306401cc46e5324018e74ce2eab6c767346142fd415dc1c5212b39a3",
+    "relative_placement": [
+      0.0,
+      -2.842170943040401e-14,
+      -50.599999999999994,
+      -0.3535533905932733,
+      -0.6123724356957948,
+      -0.6123724356957947,
+      -0.35355339059327345
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_655",
+      "mate": "I_429",
+      "phase_deg": 239.99999999999994,
+      "reference_phase_deg": 239.99999999999994,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_649",
+      "family": "Index M6",
+      "reused_D03_exact_master_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "8c267e49ee254bff2aae22fe856b60c2e32926efa5bced094d83473b9d8b98e9",
+    "master_b_sha256": "3f6ccf70306401cc46e5324018e74ce2eab6c767346142fd415dc1c5212b39a3",
+    "relative_placement": [
+      1.4210854715202004e-14,
+      0.0,
+      -50.599999999999994,
+      -0.3535533905932733,
+      -0.6123724356957947,
+      -0.6123724356957948,
+      -0.35355339059327345
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_373",
+      "mate": "I_376",
+      "phase_deg": 144.0,
+      "reference_phase_deg": 144,
+      "intersection_mm3": 0.00010114924492685738,
+      "passed": true,
+      "family": "Foot clamp M5",
+      "bearing_distance_mm": 42.80000000000001,
+      "nominal_protrusion_mm": 1.8999999999999888,
+      "reused_D03_exact_master_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "485d3b98265f6e698b15dd8989188b9dddefafaacd576d1ed2229922a7b5ba42",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -42.80000000000001,
+      0.9510565162951536,
+      0.3090169943749475,
+      -5.823541592445463e-17,
+      1.8921833652170756e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_377",
+      "mate": "I_380",
+      "phase_deg": 144.0,
+      "reference_phase_deg": 144,
+      "intersection_mm3": 0.00010114924492685738,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_373",
+      "family": "Foot clamp M5",
+      "bearing_distance_mm": 42.80000000000001,
+      "nominal_protrusion_mm": 1.8999999999999888,
+      "reused_D03_exact_master_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "485d3b98265f6e698b15dd8989188b9dddefafaacd576d1ed2229922a7b5ba42",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -42.80000000000001,
+      0.9510565162951536,
+      0.3090169943749475,
+      -5.823541592445463e-17,
+      1.8921833652170756e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_381",
+      "mate": "I_384",
+      "phase_deg": 144.0,
+      "reference_phase_deg": 144,
+      "intersection_mm3": 0.00010114924492685738,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_373",
+      "family": "Foot clamp M5",
+      "bearing_distance_mm": 42.80000000000001,
+      "nominal_protrusion_mm": 1.8999999999999888,
+      "reused_D03_exact_master_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "485d3b98265f6e698b15dd8989188b9dddefafaacd576d1ed2229922a7b5ba42",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -42.80000000000001,
+      0.9510565162951536,
+      0.3090169943749475,
+      -5.823541592445463e-17,
+      1.8921833652170756e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_385",
+      "mate": "I_388",
+      "phase_deg": 144.0,
+      "reference_phase_deg": 144,
+      "intersection_mm3": 0.00010114924492685738,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_373",
+      "family": "Foot clamp M5",
+      "bearing_distance_mm": 42.80000000000001,
+      "nominal_protrusion_mm": 1.8999999999999888,
+      "reused_D03_exact_master_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "485d3b98265f6e698b15dd8989188b9dddefafaacd576d1ed2229922a7b5ba42",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -42.80000000000001,
+      0.9510565162951536,
+      0.3090169943749475,
+      -5.823541592445463e-17,
+      1.8921833652170756e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_392",
+      "mate": "I_395",
+      "phase_deg": 144.0,
+      "reference_phase_deg": 144,
+      "intersection_mm3": 0.00010114924492685738,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_373",
+      "family": "Foot clamp M5",
+      "bearing_distance_mm": 42.80000000000001,
+      "nominal_protrusion_mm": 1.8999999999999888,
+      "reused_D03_exact_master_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "485d3b98265f6e698b15dd8989188b9dddefafaacd576d1ed2229922a7b5ba42",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -42.80000000000001,
+      0.9510565162951536,
+      0.3090169943749475,
+      -5.823541592445463e-17,
+      1.8921833652170756e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_396",
+      "mate": "I_399",
+      "phase_deg": 144.0,
+      "reference_phase_deg": 144,
+      "intersection_mm3": 0.00010114924492685738,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_373",
+      "family": "Foot clamp M5",
+      "bearing_distance_mm": 42.80000000000001,
+      "nominal_protrusion_mm": 1.8999999999999888,
+      "reused_D03_exact_master_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "485d3b98265f6e698b15dd8989188b9dddefafaacd576d1ed2229922a7b5ba42",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -42.80000000000001,
+      0.9510565162951536,
+      0.3090169943749475,
+      -5.823541592445463e-17,
+      1.8921833652170756e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_400",
+      "mate": "I_403",
+      "phase_deg": 144.0,
+      "reference_phase_deg": 144,
+      "intersection_mm3": 0.00010114924492685738,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_373",
+      "family": "Foot clamp M5",
+      "bearing_distance_mm": 42.80000000000001,
+      "nominal_protrusion_mm": 1.8999999999999888,
+      "reused_D03_exact_master_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "485d3b98265f6e698b15dd8989188b9dddefafaacd576d1ed2229922a7b5ba42",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -42.80000000000001,
+      0.9510565162951536,
+      0.3090169943749475,
+      -5.823541592445463e-17,
+      1.8921833652170756e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_404",
+      "mate": "I_407",
+      "phase_deg": 144.0,
+      "reference_phase_deg": 144,
+      "intersection_mm3": 0.00010114924492685738,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_373",
+      "family": "Foot clamp M5",
+      "bearing_distance_mm": 42.80000000000001,
+      "nominal_protrusion_mm": 1.8999999999999888,
+      "reused_D03_exact_master_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "485d3b98265f6e698b15dd8989188b9dddefafaacd576d1ed2229922a7b5ba42",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -42.80000000000001,
+      0.9510565162951536,
+      0.3090169943749475,
+      -5.823541592445463e-17,
+      1.8921833652170756e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_412",
+      "mate": "I_415",
+      "phase_deg": 144.0,
+      "reference_phase_deg": 144,
+      "intersection_mm3": 0.00010114924492685738,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_373",
+      "family": "Foot clamp M5",
+      "bearing_distance_mm": 42.80000000000001,
+      "nominal_protrusion_mm": 1.8999999999999888,
+      "reused_D03_exact_master_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "485d3b98265f6e698b15dd8989188b9dddefafaacd576d1ed2229922a7b5ba42",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -42.80000000000001,
+      0.9510565162951536,
+      0.3090169943749475,
+      -5.823541592445463e-17,
+      1.8921833652170756e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_416",
+      "mate": "I_419",
+      "phase_deg": 144.0,
+      "reference_phase_deg": 144,
+      "intersection_mm3": 0.00010114924492685738,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_373",
+      "family": "Foot clamp M5",
+      "bearing_distance_mm": 42.80000000000001,
+      "nominal_protrusion_mm": 1.8999999999999888,
+      "reused_D03_exact_master_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "485d3b98265f6e698b15dd8989188b9dddefafaacd576d1ed2229922a7b5ba42",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -42.80000000000001,
+      0.9510565162951536,
+      0.3090169943749475,
+      -5.823541592445463e-17,
+      1.8921833652170756e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_420",
+      "mate": "I_423",
+      "phase_deg": 144.0,
+      "reference_phase_deg": 144,
+      "intersection_mm3": 0.00010114924492685738,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_373",
+      "family": "Foot clamp M5",
+      "bearing_distance_mm": 42.80000000000001,
+      "nominal_protrusion_mm": 1.8999999999999888,
+      "reused_D03_exact_master_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "485d3b98265f6e698b15dd8989188b9dddefafaacd576d1ed2229922a7b5ba42",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -42.80000000000001,
+      0.9510565162951536,
+      0.3090169943749475,
+      -5.823541592445463e-17,
+      1.8921833652170756e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_424",
+      "mate": "I_427",
+      "phase_deg": 144.0,
+      "reference_phase_deg": 144,
+      "intersection_mm3": 0.00010114924492685738,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_373",
+      "family": "Foot clamp M5",
+      "bearing_distance_mm": 42.80000000000001,
+      "nominal_protrusion_mm": 1.8999999999999888,
+      "reused_D03_exact_master_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "485d3b98265f6e698b15dd8989188b9dddefafaacd576d1ed2229922a7b5ba42",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -42.80000000000001,
+      0.9510565162951536,
+      0.3090169943749475,
+      -5.823541592445463e-17,
+      1.8921833652170756e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_431",
+      "mate": "I_434",
+      "phase_deg": 144.0,
+      "reference_phase_deg": 144,
+      "intersection_mm3": 0.00010114924492685738,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_373",
+      "family": "Foot clamp M5",
+      "bearing_distance_mm": 42.80000000000001,
+      "nominal_protrusion_mm": 1.8999999999999888,
+      "reused_D03_exact_master_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "485d3b98265f6e698b15dd8989188b9dddefafaacd576d1ed2229922a7b5ba42",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -42.80000000000001,
+      0.9510565162951536,
+      0.3090169943749475,
+      -5.823541592445463e-17,
+      1.8921833652170756e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_435",
+      "mate": "I_438",
+      "phase_deg": 144.0,
+      "reference_phase_deg": 144,
+      "intersection_mm3": 0.00010114924492685738,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_373",
+      "family": "Foot clamp M5",
+      "bearing_distance_mm": 42.80000000000001,
+      "nominal_protrusion_mm": 1.8999999999999888,
+      "reused_D03_exact_master_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "485d3b98265f6e698b15dd8989188b9dddefafaacd576d1ed2229922a7b5ba42",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -42.80000000000001,
+      0.9510565162951536,
+      0.3090169943749475,
+      -5.823541592445463e-17,
+      1.8921833652170756e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_439",
+      "mate": "I_442",
+      "phase_deg": 144.0,
+      "reference_phase_deg": 144,
+      "intersection_mm3": 0.00010114924492685738,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_373",
+      "family": "Foot clamp M5",
+      "bearing_distance_mm": 42.80000000000001,
+      "nominal_protrusion_mm": 1.8999999999999888,
+      "reused_D03_exact_master_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "485d3b98265f6e698b15dd8989188b9dddefafaacd576d1ed2229922a7b5ba42",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -42.80000000000001,
+      0.9510565162951536,
+      0.3090169943749475,
+      -5.823541592445463e-17,
+      1.8921833652170756e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_443",
+      "mate": "I_446",
+      "phase_deg": 144.0,
+      "reference_phase_deg": 144,
+      "intersection_mm3": 0.00010114924492685738,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_373",
+      "family": "Foot clamp M5",
+      "bearing_distance_mm": 42.80000000000001,
+      "nominal_protrusion_mm": 1.8999999999999888,
+      "reused_D03_exact_master_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "485d3b98265f6e698b15dd8989188b9dddefafaacd576d1ed2229922a7b5ba42",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -42.80000000000001,
+      0.9510565162951536,
+      0.3090169943749475,
+      -5.823541592445463e-17,
+      1.8921833652170756e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_81",
+      "mate": "I_3",
+      "phase_deg": 145.954836390808,
+      "reference_phase_deg": 90.0,
+      "intersection_mm3": 0.005789303892805308,
+      "passed": true,
+      "family": "D04 Root M6"
+    },
+    "master_a_sha256": "8c267e49ee254bff2aae22fe856b60c2e32926efa5bced094d83473b9d8b98e9",
+    "master_b_sha256": "771ca3dbe1c1c8f9666d29c577a106544eb37b56b339c14d6aaa58cf2a890faf",
+    "relative_placement": [
+      -3.999999999999943,
+      -64.99999999999999,
+      -87.59999999999998,
+      -0.4999999999999998,
+      0.4999999999999998,
+      -0.5000000000000001,
+      0.5000000000000002
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_83",
+      "mate": "I_3",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 225.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "family": "D04 Root M6"
+    },
+    "master_a_sha256": "8c267e49ee254bff2aae22fe856b60c2e32926efa5bced094d83473b9d8b98e9",
+    "master_b_sha256": "771ca3dbe1c1c8f9666d29c577a106544eb37b56b339c14d6aaa58cf2a890faf",
+    "relative_placement": [
+      -48.790367901871775,
+      43.13351365237939,
+      -87.6,
+      0.27059805007309856,
+      0.6532814824381884,
+      0.6532814824381884,
+      0.27059805007309845
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_85",
+      "mate": "I_3",
+      "phase_deg": 145.954836390808,
+      "reference_phase_deg": 90.0,
+      "intersection_mm3": 0.005789303892805308,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_81",
+      "family": "D04 Root M6"
+    },
+    "master_a_sha256": "8c267e49ee254bff2aae22fe856b60c2e32926efa5bced094d83473b9d8b98e9",
+    "master_b_sha256": "771ca3dbe1c1c8f9666d29c577a106544eb37b56b339c14d6aaa58cf2a890faf",
+    "relative_placement": [
+      -3.9999999999999716,
+      65.00000000000001,
+      -87.6,
+      -0.4999999999999998,
+      0.4999999999999998,
+      -0.5000000000000001,
+      0.5000000000000002
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_87",
+      "mate": "I_3",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 225.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_83",
+      "family": "D04 Root M6"
+    },
+    "master_a_sha256": "8c267e49ee254bff2aae22fe856b60c2e32926efa5bced094d83473b9d8b98e9",
+    "master_b_sha256": "771ca3dbe1c1c8f9666d29c577a106544eb37b56b339c14d6aaa58cf2a890faf",
+    "relative_placement": [
+      43.133513652379406,
+      -48.79036790187179,
+      -87.6,
+      0.27059805007309856,
+      0.6532814824381884,
+      0.6532814824381884,
+      0.27059805007309845
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_172",
+      "mate": "I_94",
+      "phase_deg": 117.0397785155195,
+      "reference_phase_deg": 90.0,
+      "intersection_mm3": 0.005789303892805308,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_81",
+      "family": "D04 Root M6"
+    },
+    "master_a_sha256": "8c267e49ee254bff2aae22fe856b60c2e32926efa5bced094d83473b9d8b98e9",
+    "master_b_sha256": "771ca3dbe1c1c8f9666d29c577a106544eb37b56b339c14d6aaa58cf2a890faf",
+    "relative_placement": [
+      -4.000000000000028,
+      -64.99999999999996,
+      -87.60000000000002,
+      -0.4999999999999999,
+      0.5,
+      -0.5,
+      0.5
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_174",
+      "mate": "I_94",
+      "phase_deg": 89.99999999999994,
+      "reference_phase_deg": 225.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_83",
+      "family": "D04 Root M6"
+    },
+    "master_a_sha256": "8c267e49ee254bff2aae22fe856b60c2e32926efa5bced094d83473b9d8b98e9",
+    "master_b_sha256": "771ca3dbe1c1c8f9666d29c577a106544eb37b56b339c14d6aaa58cf2a890faf",
+    "relative_placement": [
+      -48.79036790187175,
+      43.13351365237932,
+      -87.60000000000004,
+      -0.2705980500730981,
+      -0.6532814824381885,
+      -0.6532814824381883,
+      -0.2705980500730987
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_176",
+      "mate": "I_94",
+      "phase_deg": 117.0397785155195,
+      "reference_phase_deg": 90.0,
+      "intersection_mm3": 0.005789303892805308,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_81",
+      "family": "D04 Root M6"
+    },
+    "master_a_sha256": "8c267e49ee254bff2aae22fe856b60c2e32926efa5bced094d83473b9d8b98e9",
+    "master_b_sha256": "771ca3dbe1c1c8f9666d29c577a106544eb37b56b339c14d6aaa58cf2a890faf",
+    "relative_placement": [
+      -3.9999999999999716,
+      65.00000000000007,
+      -87.59999999999998,
+      -0.4999999999999999,
+      0.5,
+      -0.5,
+      0.5
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_178",
+      "mate": "I_94",
+      "phase_deg": 89.99999999999994,
+      "reference_phase_deg": 225.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_83",
+      "family": "D04 Root M6"
+    },
+    "master_a_sha256": "8c267e49ee254bff2aae22fe856b60c2e32926efa5bced094d83473b9d8b98e9",
+    "master_b_sha256": "771ca3dbe1c1c8f9666d29c577a106544eb37b56b339c14d6aaa58cf2a890faf",
+    "relative_placement": [
+      43.133513652379506,
+      -48.79036790187179,
+      -87.59999999999995,
+      -0.2705980500730981,
+      -0.6532814824381885,
+      -0.6532814824381883,
+      -0.2705980500730987
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_263",
+      "mate": "I_185",
+      "phase_deg": 214.045163609192,
+      "reference_phase_deg": 90.0,
+      "intersection_mm3": 0.005789303892805308,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_81",
+      "family": "D04 Root M6"
+    },
+    "master_a_sha256": "8c267e49ee254bff2aae22fe856b60c2e32926efa5bced094d83473b9d8b98e9",
+    "master_b_sha256": "771ca3dbe1c1c8f9666d29c577a106544eb37b56b339c14d6aaa58cf2a890faf",
+    "relative_placement": [
+      -3.999999999999943,
+      -64.99999999999991,
+      -87.60000000000005,
+      -0.4999999999999997,
+      0.5000000000000001,
+      -0.4999999999999999,
+      0.5000000000000004
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_265",
+      "mate": "I_185",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 225.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_83",
+      "family": "D04 Root M6"
+    },
+    "master_a_sha256": "8c267e49ee254bff2aae22fe856b60c2e32926efa5bced094d83473b9d8b98e9",
+    "master_b_sha256": "771ca3dbe1c1c8f9666d29c577a106544eb37b56b339c14d6aaa58cf2a890faf",
+    "relative_placement": [
+      -48.790367901871846,
+      43.133513652379406,
+      -87.59999999999995,
+      -0.2705980500730988,
+      -0.6532814824381881,
+      -0.6532814824381884,
+      -0.2705980500730983
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_267",
+      "mate": "I_185",
+      "phase_deg": 214.045163609192,
+      "reference_phase_deg": 90.0,
+      "intersection_mm3": 0.005789303892805308,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_81",
+      "family": "D04 Root M6"
+    },
+    "master_a_sha256": "8c267e49ee254bff2aae22fe856b60c2e32926efa5bced094d83473b9d8b98e9",
+    "master_b_sha256": "771ca3dbe1c1c8f9666d29c577a106544eb37b56b339c14d6aaa58cf2a890faf",
+    "relative_placement": [
+      -3.999999999999943,
+      65.00000000000009,
+      -87.59999999999994,
+      -0.4999999999999997,
+      0.5000000000000001,
+      -0.4999999999999999,
+      0.5000000000000004
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_269",
+      "mate": "I_185",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 225.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_83",
+      "family": "D04 Root M6"
+    },
+    "master_a_sha256": "8c267e49ee254bff2aae22fe856b60c2e32926efa5bced094d83473b9d8b98e9",
+    "master_b_sha256": "771ca3dbe1c1c8f9666d29c577a106544eb37b56b339c14d6aaa58cf2a890faf",
+    "relative_placement": [
+      43.133513652379364,
+      -48.79036790187175,
+      -87.60000000000004,
+      -0.2705980500730988,
+      -0.6532814824381881,
+      -0.6532814824381884,
+      -0.2705980500730983
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_354",
+      "mate": "I_276",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 90.0,
+      "intersection_mm3": 0.005789303892805308,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_81",
+      "family": "D04 Root M6"
+    },
+    "master_a_sha256": "8c267e49ee254bff2aae22fe856b60c2e32926efa5bced094d83473b9d8b98e9",
+    "master_b_sha256": "771ca3dbe1c1c8f9666d29c577a106544eb37b56b339c14d6aaa58cf2a890faf",
+    "relative_placement": [
+      -3.9999999999999716,
+      -64.99999999999997,
+      -87.6,
+      -0.5000000000000001,
+      0.5,
+      -0.5,
+      0.5000000000000001
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_356",
+      "mate": "I_276",
+      "phase_deg": 270.0,
+      "reference_phase_deg": 225.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_83",
+      "family": "D04 Root M6"
+    },
+    "master_a_sha256": "8c267e49ee254bff2aae22fe856b60c2e32926efa5bced094d83473b9d8b98e9",
+    "master_b_sha256": "771ca3dbe1c1c8f9666d29c577a106544eb37b56b339c14d6aaa58cf2a890faf",
+    "relative_placement": [
+      -48.79036790187175,
+      43.133513652379335,
+      -87.60000000000002,
+      -0.2705980500730984,
+      -0.6532814824381885,
+      -0.6532814824381882,
+      -0.2705980500730985
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_358",
+      "mate": "I_276",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 90.0,
+      "intersection_mm3": 0.005789303892805308,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_81",
+      "family": "D04 Root M6"
+    },
+    "master_a_sha256": "8c267e49ee254bff2aae22fe856b60c2e32926efa5bced094d83473b9d8b98e9",
+    "master_b_sha256": "771ca3dbe1c1c8f9666d29c577a106544eb37b56b339c14d6aaa58cf2a890faf",
+    "relative_placement": [
+      -4.000000000000028,
+      65.00000000000001,
+      -87.59999999999998,
+      -0.5000000000000001,
+      0.5,
+      -0.5,
+      0.5000000000000001
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_360",
+      "mate": "I_276",
+      "phase_deg": 270.0,
+      "reference_phase_deg": 225.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_83",
+      "family": "D04 Root M6"
+    },
+    "master_a_sha256": "8c267e49ee254bff2aae22fe856b60c2e32926efa5bced094d83473b9d8b98e9",
+    "master_b_sha256": "771ca3dbe1c1c8f9666d29c577a106544eb37b56b339c14d6aaa58cf2a890faf",
+    "relative_placement": [
+      43.13351365237942,
+      -48.790367901871846,
+      -87.59999999999997,
+      -0.2705980500730984,
+      -0.6532814824381885,
+      -0.6532814824381882,
+      -0.2705980500730985
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_506",
+      "mate": "D04_I_495",
+      "phase_deg": 14.999999999999943,
+      "reference_phase_deg": 239.99999999999997,
+      "intersection_mm3": 0.040976651900334934,
+      "passed": true,
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      12.99038105676658,
+      7.500000000000043,
+      -26.000000000000014,
+      -0.6830127018922194,
+      -0.1830127018922193,
+      -0.6123724356957948,
+      -0.35355339059327345
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_507",
+      "mate": "D04_I_495",
+      "phase_deg": 14.999999999999943,
+      "reference_phase_deg": 239.99999999999997,
+      "intersection_mm3": 0.040976651900334934,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_506",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      -7.5,
+      12.990381056766608,
+      -26.000000000000014,
+      -0.6830127018922194,
+      -0.1830127018922193,
+      -0.6123724356957948,
+      -0.35355339059327345
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_508",
+      "mate": "D04_I_495",
+      "phase_deg": 14.999999999999943,
+      "reference_phase_deg": 239.99999999999997,
+      "intersection_mm3": 0.040976651900334934,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_506",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      -12.99038105676658,
+      -7.499999999999972,
+      -26.00000000000003,
+      -0.6830127018922194,
+      -0.1830127018922193,
+      -0.6123724356957948,
+      -0.35355339059327345
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_509",
+      "mate": "D04_I_495",
+      "phase_deg": 14.999999999999943,
+      "reference_phase_deg": 239.99999999999997,
+      "intersection_mm3": 0.040976651900334934,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_506",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      7.5,
+      -12.990381056766552,
+      -26.00000000000003,
+      -0.6830127018922194,
+      -0.1830127018922193,
+      -0.6123724356957948,
+      -0.35355339059327345
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_515",
+      "mate": "D04_I_497",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 134.99999999999997,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      -10.606601717798242,
+      10.606601717798242,
+      -25.999999999999986,
+      0.6532814824381883,
+      -0.27059805007309773,
+      -0.6532814824381887,
+      0.27059805007309834
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_516",
+      "mate": "D04_I_497",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 134.99999999999997,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_515",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      -10.606601717798227,
+      -10.606601717798185,
+      -26.000000000000014,
+      0.6532814824381883,
+      -0.27059805007309773,
+      -0.6532814824381887,
+      0.27059805007309834
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_517",
+      "mate": "D04_I_497",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 134.99999999999997,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_515",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      10.606601717798199,
+      -10.60660171779817,
+      -26.00000000000003,
+      0.6532814824381883,
+      -0.27059805007309773,
+      -0.6532814824381887,
+      0.27059805007309834
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_518",
+      "mate": "D04_I_497",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 134.99999999999997,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_515",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      10.606601717798185,
+      10.606601717798256,
+      -26.0,
+      0.6532814824381883,
+      -0.27059805007309773,
+      -0.6532814824381887,
+      0.27059805007309834
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_525",
+      "mate": "D04_I_497",
+      "phase_deg": 104.99999999999994,
+      "reference_phase_deg": 239.99999999999997,
+      "intersection_mm3": 0.040976651900334934,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_506",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      12.990381056766608,
+      7.500000000000014,
+      -26.0,
+      -0.6830127018922191,
+      -0.18301270189221938,
+      -0.6123724356957951,
+      -0.35355339059327356
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_526",
+      "mate": "D04_I_497",
+      "phase_deg": 104.99999999999994,
+      "reference_phase_deg": 239.99999999999997,
+      "intersection_mm3": 0.040976651900334934,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_506",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      -7.499999999999986,
+      12.99038105676658,
+      -26.000000000000014,
+      -0.6830127018922191,
+      -0.18301270189221938,
+      -0.6123724356957951,
+      -0.35355339059327356
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_527",
+      "mate": "D04_I_497",
+      "phase_deg": 104.99999999999994,
+      "reference_phase_deg": 239.99999999999997,
+      "intersection_mm3": 0.040976651900334934,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_506",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      -12.990381056766552,
+      -7.500000000000028,
+      -26.000000000000014,
+      -0.6830127018922191,
+      -0.18301270189221938,
+      -0.6123724356957951,
+      -0.35355339059327356
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_528",
+      "mate": "D04_I_497",
+      "phase_deg": 104.99999999999994,
+      "reference_phase_deg": 239.99999999999997,
+      "intersection_mm3": 0.040976651900334934,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_506",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      7.500000000000043,
+      -12.99038105676658,
+      -26.0,
+      -0.6830127018922191,
+      -0.18301270189221938,
+      -0.6123724356957951,
+      -0.35355339059327356
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_534",
+      "mate": "D04_I_499",
+      "phase_deg": 89.99999999999996,
+      "reference_phase_deg": 134.99999999999997,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_515",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      -10.606601717798242,
+      10.606601717798213,
+      -25.999999999999986,
+      0.6532814824381881,
+      -0.27059805007309834,
+      -0.6532814824381885,
+      0.2705980500730988
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_535",
+      "mate": "D04_I_499",
+      "phase_deg": 89.99999999999996,
+      "reference_phase_deg": 134.99999999999997,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_515",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      -10.606601717798227,
+      -10.606601717798213,
+      -25.999999999999986,
+      0.6532814824381881,
+      -0.27059805007309834,
+      -0.6532814824381885,
+      0.2705980500730988
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_536",
+      "mate": "D04_I_499",
+      "phase_deg": 89.99999999999996,
+      "reference_phase_deg": 134.99999999999997,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_515",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      10.606601717798199,
+      -10.606601717798199,
+      -26.000000000000014,
+      0.6532814824381881,
+      -0.27059805007309834,
+      -0.6532814824381885,
+      0.2705980500730988
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_537",
+      "mate": "D04_I_499",
+      "phase_deg": 89.99999999999996,
+      "reference_phase_deg": 134.99999999999997,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_515",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      10.606601717798185,
+      10.606601717798227,
+      -26.000000000000014,
+      0.6532814824381881,
+      -0.27059805007309834,
+      -0.6532814824381885,
+      0.2705980500730988
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_544",
+      "mate": "D04_I_499",
+      "phase_deg": 194.99999999999994,
+      "reference_phase_deg": 239.99999999999997,
+      "intersection_mm3": 0.040976651900334934,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_506",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      12.99038105676658,
+      7.500000000000043,
+      -26.0,
+      -0.6830127018922194,
+      -0.18301270189221913,
+      -0.6123724356957948,
+      -0.3535533905932733
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_545",
+      "mate": "D04_I_499",
+      "phase_deg": 194.99999999999994,
+      "reference_phase_deg": 239.99999999999997,
+      "intersection_mm3": 0.040976651900334934,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_506",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      -7.5,
+      12.990381056766608,
+      -26.0,
+      -0.6830127018922194,
+      -0.18301270189221913,
+      -0.6123724356957948,
+      -0.3535533905932733
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_546",
+      "mate": "D04_I_499",
+      "phase_deg": 194.99999999999994,
+      "reference_phase_deg": 239.99999999999997,
+      "intersection_mm3": 0.040976651900334934,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_506",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      -12.990381056766566,
+      -7.499999999999972,
+      -26.000000000000014,
+      -0.6830127018922194,
+      -0.18301270189221913,
+      -0.6123724356957948,
+      -0.3535533905932733
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_547",
+      "mate": "D04_I_499",
+      "phase_deg": 194.99999999999994,
+      "reference_phase_deg": 239.99999999999997,
+      "intersection_mm3": 0.040976651900334934,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_506",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      7.500000000000014,
+      -12.990381056766523,
+      -26.000000000000014,
+      -0.6830127018922194,
+      -0.18301270189221913,
+      -0.6123724356957948,
+      -0.3535533905932733
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_553",
+      "mate": "D04_I_501",
+      "phase_deg": 179.99999999999997,
+      "reference_phase_deg": 134.99999999999997,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_515",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      -10.606601717798213,
+      10.606601717798213,
+      -26.0,
+      0.6532814824381885,
+      -0.27059805007309806,
+      -0.6532814824381883,
+      0.2705980500730984
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_554",
+      "mate": "D04_I_501",
+      "phase_deg": 179.99999999999997,
+      "reference_phase_deg": 134.99999999999997,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_515",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      -10.606601717798199,
+      -10.606601717798213,
+      -26.000000000000014,
+      0.6532814824381885,
+      -0.27059805007309806,
+      -0.6532814824381883,
+      0.2705980500730984
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_555",
+      "mate": "D04_I_501",
+      "phase_deg": 179.99999999999997,
+      "reference_phase_deg": 134.99999999999997,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_515",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      10.606601717798227,
+      -10.606601717798213,
+      -26.000000000000014,
+      0.6532814824381885,
+      -0.27059805007309806,
+      -0.6532814824381883,
+      0.2705980500730984
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_556",
+      "mate": "D04_I_501",
+      "phase_deg": 179.99999999999997,
+      "reference_phase_deg": 134.99999999999997,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_515",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      10.606601717798213,
+      10.606601717798213,
+      -26.0,
+      0.6532814824381885,
+      -0.27059805007309806,
+      -0.6532814824381883,
+      0.2705980500730984
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_563",
+      "mate": "D04_I_501",
+      "phase_deg": 285.0,
+      "reference_phase_deg": 239.99999999999997,
+      "intersection_mm3": 0.040976651900334934,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_506",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      12.990381056766594,
+      7.5,
+      -26.000000000000014,
+      -0.6830127018922191,
+      -0.18301270189221946,
+      -0.6123724356957949,
+      -0.35355339059327373
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_564",
+      "mate": "D04_I_501",
+      "phase_deg": 285.0,
+      "reference_phase_deg": 239.99999999999997,
+      "intersection_mm3": 0.040976651900334934,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_506",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      -7.499999999999986,
+      12.99038105676658,
+      -26.00000000000003,
+      -0.6830127018922191,
+      -0.18301270189221946,
+      -0.6123724356957949,
+      -0.35355339059327373
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_565",
+      "mate": "D04_I_501",
+      "phase_deg": 285.0,
+      "reference_phase_deg": 239.99999999999997,
+      "intersection_mm3": 0.040976651900334934,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_506",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      -12.990381056766552,
+      -7.5,
+      -26.000000000000043,
+      -0.6830127018922191,
+      -0.18301270189221946,
+      -0.6123724356957949,
+      -0.35355339059327373
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_566",
+      "mate": "D04_I_501",
+      "phase_deg": 285.0,
+      "reference_phase_deg": 239.99999999999997,
+      "intersection_mm3": 0.040976651900334934,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_506",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      7.500000000000028,
+      -12.99038105676658,
+      -26.00000000000003,
+      -0.6830127018922191,
+      -0.18301270189221946,
+      -0.6123724356957949,
+      -0.35355339059327373
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_572",
+      "mate": "D04_I_495",
+      "phase_deg": 270.0,
+      "reference_phase_deg": 134.99999999999997,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_515",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      -10.606601717798213,
+      10.606601717798199,
+      -26.0,
+      0.6532814824381884,
+      -0.2705980500730984,
+      -0.6532814824381882,
+      0.2705980500730988
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_573",
+      "mate": "D04_I_495",
+      "phase_deg": 270.0,
+      "reference_phase_deg": 134.99999999999997,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_515",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      -10.606601717798199,
+      -10.606601717798227,
+      -25.999999999999986,
+      0.6532814824381884,
+      -0.2705980500730984,
+      -0.6532814824381882,
+      0.2705980500730988
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_574",
+      "mate": "D04_I_495",
+      "phase_deg": 270.0,
+      "reference_phase_deg": 134.99999999999997,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_515",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      10.606601717798227,
+      -10.606601717798213,
+      -25.999999999999986,
+      0.6532814824381884,
+      -0.2705980500730984,
+      -0.6532814824381882,
+      0.2705980500730988
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_575",
+      "mate": "D04_I_495",
+      "phase_deg": 270.0,
+      "reference_phase_deg": 134.99999999999997,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_515",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      10.606601717798213,
+      10.606601717798213,
+      -26.0,
+      0.6532814824381884,
+      -0.2705980500730984,
+      -0.6532814824381882,
+      0.2705980500730988
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_582",
+      "mate": "D04_I_496",
+      "phase_deg": 14.999999999999943,
+      "reference_phase_deg": 239.99999999999997,
+      "intersection_mm3": 0.040976651900334934,
+      "passed": true,
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      12.99038105676658,
+      7.500000000000028,
+      -26.000000000000014,
+      -0.6830127018922194,
+      -0.1830127018922193,
+      -0.6123724356957948,
+      -0.35355339059327345
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_583",
+      "mate": "D04_I_496",
+      "phase_deg": 14.999999999999943,
+      "reference_phase_deg": 239.99999999999997,
+      "intersection_mm3": 0.040976651900334934,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_582",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      -7.5,
+      12.990381056766594,
+      -26.000000000000014,
+      -0.6830127018922194,
+      -0.1830127018922193,
+      -0.6123724356957948,
+      -0.35355339059327345
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_584",
+      "mate": "D04_I_496",
+      "phase_deg": 14.999999999999943,
+      "reference_phase_deg": 239.99999999999997,
+      "intersection_mm3": 0.040976651900334934,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_582",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      -12.99038105676658,
+      -7.5,
+      -26.00000000000003,
+      -0.6830127018922194,
+      -0.1830127018922193,
+      -0.6123724356957948,
+      -0.35355339059327345
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_585",
+      "mate": "D04_I_496",
+      "phase_deg": 14.999999999999943,
+      "reference_phase_deg": 239.99999999999997,
+      "intersection_mm3": 0.040976651900334934,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_582",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      7.5,
+      -12.990381056766566,
+      -26.00000000000003,
+      -0.6830127018922194,
+      -0.1830127018922193,
+      -0.6123724356957948,
+      -0.35355339059327345
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_591",
+      "mate": "D04_I_498",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 134.99999999999997,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      -10.606601717798242,
+      10.606601717798227,
+      -25.99999999999997,
+      0.6532814824381883,
+      -0.27059805007309773,
+      -0.6532814824381887,
+      0.27059805007309834
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_592",
+      "mate": "D04_I_498",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 134.99999999999997,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_591",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      -10.606601717798227,
+      -10.606601717798199,
+      -26.0,
+      0.6532814824381883,
+      -0.27059805007309773,
+      -0.6532814824381887,
+      0.27059805007309834
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_593",
+      "mate": "D04_I_498",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 134.99999999999997,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_591",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      10.606601717798199,
+      -10.606601717798185,
+      -26.000000000000014,
+      0.6532814824381883,
+      -0.27059805007309773,
+      -0.6532814824381887,
+      0.27059805007309834
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_594",
+      "mate": "D04_I_498",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 134.99999999999997,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_591",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      10.606601717798185,
+      10.606601717798242,
+      -25.999999999999986,
+      0.6532814824381883,
+      -0.27059805007309773,
+      -0.6532814824381887,
+      0.27059805007309834
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_601",
+      "mate": "D04_I_498",
+      "phase_deg": 104.99999999999994,
+      "reference_phase_deg": 239.99999999999997,
+      "intersection_mm3": 0.040976651900334934,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_582",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      12.990381056766608,
+      7.500000000000028,
+      -26.000000000000014,
+      -0.6830127018922191,
+      -0.18301270189221938,
+      -0.6123724356957951,
+      -0.35355339059327356
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_602",
+      "mate": "D04_I_498",
+      "phase_deg": 104.99999999999994,
+      "reference_phase_deg": 239.99999999999997,
+      "intersection_mm3": 0.040976651900334934,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_582",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      -7.5,
+      12.990381056766594,
+      -26.00000000000003,
+      -0.6830127018922191,
+      -0.18301270189221938,
+      -0.6123724356957951,
+      -0.35355339059327356
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_603",
+      "mate": "D04_I_498",
+      "phase_deg": 104.99999999999994,
+      "reference_phase_deg": 239.99999999999997,
+      "intersection_mm3": 0.040976651900334934,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_582",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      -12.990381056766552,
+      -7.5,
+      -26.00000000000003,
+      -0.6830127018922191,
+      -0.18301270189221938,
+      -0.6123724356957951,
+      -0.35355339059327356
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_604",
+      "mate": "D04_I_498",
+      "phase_deg": 104.99999999999994,
+      "reference_phase_deg": 239.99999999999997,
+      "intersection_mm3": 0.040976651900334934,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_582",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      7.500000000000043,
+      -12.990381056766566,
+      -26.000000000000014,
+      -0.6830127018922191,
+      -0.18301270189221938,
+      -0.6123724356957951,
+      -0.35355339059327356
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_610",
+      "mate": "D04_I_500",
+      "phase_deg": 89.99999999999996,
+      "reference_phase_deg": 134.99999999999997,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_591",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      -10.606601717798242,
+      10.606601717798199,
+      -25.999999999999986,
+      0.6532814824381881,
+      -0.27059805007309834,
+      -0.6532814824381885,
+      0.2705980500730988
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_611",
+      "mate": "D04_I_500",
+      "phase_deg": 89.99999999999996,
+      "reference_phase_deg": 134.99999999999997,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_591",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      -10.606601717798227,
+      -10.606601717798227,
+      -25.999999999999986,
+      0.6532814824381881,
+      -0.27059805007309834,
+      -0.6532814824381885,
+      0.2705980500730988
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_612",
+      "mate": "D04_I_500",
+      "phase_deg": 89.99999999999996,
+      "reference_phase_deg": 134.99999999999997,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_591",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      10.606601717798199,
+      -10.606601717798213,
+      -26.000000000000014,
+      0.6532814824381881,
+      -0.27059805007309834,
+      -0.6532814824381885,
+      0.2705980500730988
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_613",
+      "mate": "D04_I_500",
+      "phase_deg": 89.99999999999996,
+      "reference_phase_deg": 134.99999999999997,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_591",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      10.606601717798185,
+      10.606601717798213,
+      -26.000000000000014,
+      0.6532814824381881,
+      -0.27059805007309834,
+      -0.6532814824381885,
+      0.2705980500730988
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_620",
+      "mate": "D04_I_500",
+      "phase_deg": 194.99999999999994,
+      "reference_phase_deg": 239.99999999999997,
+      "intersection_mm3": 0.040976651900334934,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_582",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      12.990381056766566,
+      7.500000000000028,
+      -26.0,
+      -0.6830127018922194,
+      -0.18301270189221913,
+      -0.6123724356957948,
+      -0.3535533905932733
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_621",
+      "mate": "D04_I_500",
+      "phase_deg": 194.99999999999994,
+      "reference_phase_deg": 239.99999999999997,
+      "intersection_mm3": 0.040976651900334934,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_582",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      -7.5,
+      12.990381056766594,
+      -26.0,
+      -0.6830127018922194,
+      -0.18301270189221913,
+      -0.6123724356957948,
+      -0.3535533905932733
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_622",
+      "mate": "D04_I_500",
+      "phase_deg": 194.99999999999994,
+      "reference_phase_deg": 239.99999999999997,
+      "intersection_mm3": 0.040976651900334934,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_582",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      -12.99038105676658,
+      -7.499999999999986,
+      -26.000000000000014,
+      -0.6830127018922194,
+      -0.18301270189221913,
+      -0.6123724356957948,
+      -0.3535533905932733
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_623",
+      "mate": "D04_I_500",
+      "phase_deg": 194.99999999999994,
+      "reference_phase_deg": 239.99999999999997,
+      "intersection_mm3": 0.040976651900334934,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_582",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      7.5,
+      -12.990381056766552,
+      -26.000000000000014,
+      -0.6830127018922194,
+      -0.18301270189221913,
+      -0.6123724356957948,
+      -0.3535533905932733
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_629",
+      "mate": "D04_I_502",
+      "phase_deg": 179.99999999999997,
+      "reference_phase_deg": 134.99999999999997,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_591",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      -10.606601717798213,
+      10.606601717798213,
+      -26.0,
+      0.6532814824381885,
+      -0.27059805007309806,
+      -0.6532814824381883,
+      0.2705980500730984
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_630",
+      "mate": "D04_I_502",
+      "phase_deg": 179.99999999999997,
+      "reference_phase_deg": 134.99999999999997,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_591",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      -10.606601717798199,
+      -10.606601717798213,
+      -26.000000000000014,
+      0.6532814824381885,
+      -0.27059805007309806,
+      -0.6532814824381883,
+      0.2705980500730984
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_631",
+      "mate": "D04_I_502",
+      "phase_deg": 179.99999999999997,
+      "reference_phase_deg": 134.99999999999997,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_591",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      10.606601717798227,
+      -10.606601717798213,
+      -26.000000000000014,
+      0.6532814824381885,
+      -0.27059805007309806,
+      -0.6532814824381883,
+      0.2705980500730984
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_632",
+      "mate": "D04_I_502",
+      "phase_deg": 179.99999999999997,
+      "reference_phase_deg": 134.99999999999997,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_591",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      10.606601717798213,
+      10.606601717798213,
+      -26.0,
+      0.6532814824381885,
+      -0.27059805007309806,
+      -0.6532814824381883,
+      0.2705980500730984
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_639",
+      "mate": "D04_I_502",
+      "phase_deg": 285.0,
+      "reference_phase_deg": 239.99999999999997,
+      "intersection_mm3": 0.040976651900334934,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_582",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      12.99038105676658,
+      7.5,
+      -26.0,
+      -0.6830127018922191,
+      -0.18301270189221946,
+      -0.6123724356957949,
+      -0.35355339059327373
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_640",
+      "mate": "D04_I_502",
+      "phase_deg": 285.0,
+      "reference_phase_deg": 239.99999999999997,
+      "intersection_mm3": 0.040976651900334934,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_582",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      -7.5,
+      12.990381056766573,
+      -26.000000000000014,
+      -0.6830127018922191,
+      -0.18301270189221946,
+      -0.6123724356957949,
+      -0.35355339059327373
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_641",
+      "mate": "D04_I_502",
+      "phase_deg": 285.0,
+      "reference_phase_deg": 239.99999999999997,
+      "intersection_mm3": 0.040976651900334934,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_582",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      -12.990381056766552,
+      -7.5,
+      -26.00000000000003,
+      -0.6830127018922191,
+      -0.18301270189221946,
+      -0.6123724356957949,
+      -0.35355339059327373
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_642",
+      "mate": "D04_I_502",
+      "phase_deg": 285.0,
+      "reference_phase_deg": 239.99999999999997,
+      "intersection_mm3": 0.040976651900334934,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_582",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      7.500000000000014,
+      -12.99038105676658,
+      -26.000000000000014,
+      -0.6830127018922191,
+      -0.18301270189221946,
+      -0.6123724356957949,
+      -0.35355339059327373
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_648",
+      "mate": "D04_I_496",
+      "phase_deg": 270.0,
+      "reference_phase_deg": 134.99999999999997,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_591",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      -10.606601717798213,
+      10.606601717798213,
+      -26.0,
+      0.6532814824381884,
+      -0.2705980500730984,
+      -0.6532814824381882,
+      0.2705980500730988
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_649",
+      "mate": "D04_I_496",
+      "phase_deg": 270.0,
+      "reference_phase_deg": 134.99999999999997,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_591",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      -10.606601717798199,
+      -10.606601717798213,
+      -25.999999999999986,
+      0.6532814824381884,
+      -0.2705980500730984,
+      -0.6532814824381882,
+      0.2705980500730988
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_650",
+      "mate": "D04_I_496",
+      "phase_deg": 270.0,
+      "reference_phase_deg": 134.99999999999997,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_591",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      10.606601717798227,
+      -10.606601717798199,
+      -25.999999999999986,
+      0.6532814824381884,
+      -0.2705980500730984,
+      -0.6532814824381882,
+      0.2705980500730988
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_651",
+      "mate": "D04_I_496",
+      "phase_deg": 270.0,
+      "reference_phase_deg": 134.99999999999997,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_591",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      10.606601717798213,
+      10.606601717798227,
+      -26.0,
+      0.6532814824381884,
+      -0.2705980500730984,
+      -0.6532814824381882,
+      0.2705980500730988
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_658",
+      "mate": "D04_I_495",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 225.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      10.606601717798213,
+      10.606601717798213,
+      -26.0,
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_659",
+      "mate": "D04_I_495",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 225.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_658",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      -10.606601717798213,
+      10.606601717798213,
+      -26.0,
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_660",
+      "mate": "D04_I_495",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 225.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_658",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      -10.606601717798213,
+      -10.606601717798213,
+      -26.0,
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_661",
+      "mate": "D04_I_495",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 225.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_658",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      10.606601717798213,
+      -10.606601717798213,
+      -26.0,
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_667",
+      "mate": "D04_I_496",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 165.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      -3.882285676537826,
+      14.488887394336004,
+      -26.0,
+      -0.9914448613738105,
+      -0.1305261922200517,
+      2.6171377140917633e-16,
+      1.0840539357749281e-16
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_668",
+      "mate": "D04_I_496",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 165.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_667",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      -14.488887394336029,
+      -3.882285676537805,
+      -25.999999999999986,
+      -0.9914448613738105,
+      -0.1305261922200517,
+      2.6171377140917633e-16,
+      1.0840539357749281e-16
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_669",
+      "mate": "D04_I_496",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 165.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_667",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      3.882285676537805,
+      -14.488887394336018,
+      -26.0,
+      -0.9914448613738105,
+      -0.1305261922200517,
+      2.6171377140917633e-16,
+      1.0840539357749281e-16
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_670",
+      "mate": "D04_I_496",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 165.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_667",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      14.488887394336011,
+      3.882285676537805,
+      -26.0,
+      -0.9914448613738105,
+      -0.1305261922200517,
+      2.6171377140917633e-16,
+      1.0840539357749281e-16
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_677",
+      "mate": "D04_I_497",
+      "phase_deg": 90.0,
+      "reference_phase_deg": 225.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_658",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      10.606601717798227,
+      10.606601717798199,
+      -26.0,
+      0.0,
+      0.0,
+      -0.9238795325112867,
+      -0.38268343236508984
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_678",
+      "mate": "D04_I_497",
+      "phase_deg": 90.0,
+      "reference_phase_deg": 225.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_658",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      -10.606601717798199,
+      10.606601717798213,
+      -26.0,
+      0.0,
+      0.0,
+      -0.9238795325112867,
+      -0.38268343236508984
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_679",
+      "mate": "D04_I_497",
+      "phase_deg": 90.0,
+      "reference_phase_deg": 225.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_658",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      -10.606601717798213,
+      -10.606601717798213,
+      -26.0,
+      0.0,
+      0.0,
+      -0.9238795325112867,
+      -0.38268343236508984
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_680",
+      "mate": "D04_I_497",
+      "phase_deg": 90.0,
+      "reference_phase_deg": 225.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_658",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      10.606601717798213,
+      -10.606601717798227,
+      -26.0,
+      0.0,
+      0.0,
+      -0.9238795325112867,
+      -0.38268343236508984
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_686",
+      "mate": "D04_I_498",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 165.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_667",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      -3.8822856765378333,
+      14.488887394336047,
+      -26.000000000000014,
+      -0.9914448613738105,
+      -0.13052619222005168,
+      2.6171377140917633e-16,
+      -1.0840539357749278e-16
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_687",
+      "mate": "D04_I_498",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 165.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_667",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      -14.488887394336047,
+      -3.882285676537805,
+      -26.0,
+      -0.9914448613738105,
+      -0.13052619222005168,
+      2.6171377140917633e-16,
+      -1.0840539357749278e-16
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_688",
+      "mate": "D04_I_498",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 165.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_667",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      3.882285676537805,
+      -14.488887394336018,
+      -26.0,
+      -0.9914448613738105,
+      -0.13052619222005168,
+      2.6171377140917633e-16,
+      -1.0840539357749278e-16
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_689",
+      "mate": "D04_I_498",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 165.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_667",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      14.488887394336018,
+      3.8822856765378333,
+      -26.000000000000014,
+      -0.9914448613738105,
+      -0.13052619222005168,
+      2.6171377140917633e-16,
+      -1.0840539357749278e-16
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_696",
+      "mate": "D04_I_499",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 225.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_658",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      10.606601717798213,
+      10.606601717798213,
+      -26.0,
+      0.0,
+      0.0,
+      -0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_697",
+      "mate": "D04_I_499",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 225.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_658",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      -10.606601717798213,
+      10.606601717798213,
+      -26.0,
+      0.0,
+      0.0,
+      -0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_698",
+      "mate": "D04_I_499",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 225.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_658",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      -10.606601717798213,
+      -10.606601717798213,
+      -26.0,
+      0.0,
+      0.0,
+      -0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_699",
+      "mate": "D04_I_499",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 225.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_658",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      10.606601717798213,
+      -10.606601717798213,
+      -26.0,
+      0.0,
+      0.0,
+      -0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_705",
+      "mate": "D04_I_500",
+      "phase_deg": 296.2497391718669,
+      "reference_phase_deg": 165.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_667",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      -3.882285676537826,
+      14.488887394336004,
+      -26.000000000000014,
+      -0.9914448613738104,
+      -0.13052619222005177,
+      5.412502782396242e-17,
+      -3.919819692117065e-16
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_706",
+      "mate": "D04_I_500",
+      "phase_deg": 296.2497391718669,
+      "reference_phase_deg": 165.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_667",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      -14.488887394336032,
+      -3.8822856765378617,
+      -26.0,
+      -0.9914448613738104,
+      -0.13052619222005177,
+      5.412502782396242e-17,
+      -3.919819692117065e-16
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_707",
+      "mate": "D04_I_500",
+      "phase_deg": 296.2497391718669,
+      "reference_phase_deg": 165.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_667",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      3.882285676537819,
+      -14.488887394336047,
+      -25.999999999999986,
+      -0.9914448613738104,
+      -0.13052619222005177,
+      5.412502782396242e-17,
+      -3.919819692117065e-16
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_708",
+      "mate": "D04_I_500",
+      "phase_deg": 296.2497391718669,
+      "reference_phase_deg": 165.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_667",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      14.488887394336025,
+      3.8822856765377765,
+      -26.0,
+      -0.9914448613738104,
+      -0.13052619222005177,
+      5.412502782396242e-17,
+      -3.919819692117065e-16
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_715",
+      "mate": "D04_I_501",
+      "phase_deg": 270.0,
+      "reference_phase_deg": 225.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_658",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      10.606601717798199,
+      10.606601717798227,
+      -26.0,
+      0.0,
+      0.0,
+      -0.9238795325112867,
+      -0.38268343236508995
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_716",
+      "mate": "D04_I_501",
+      "phase_deg": 270.0,
+      "reference_phase_deg": 225.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_658",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      -10.606601717798227,
+      10.606601717798213,
+      -26.0,
+      0.0,
+      0.0,
+      -0.9238795325112867,
+      -0.38268343236508995
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_717",
+      "mate": "D04_I_501",
+      "phase_deg": 270.0,
+      "reference_phase_deg": 225.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_658",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      -10.606601717798227,
+      -10.606601717798213,
+      -26.0,
+      0.0,
+      0.0,
+      -0.9238795325112867,
+      -0.38268343236508995
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_718",
+      "mate": "D04_I_501",
+      "phase_deg": 270.0,
+      "reference_phase_deg": 225.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_658",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "66758d0163a501d8eb536fa5761f11cb6ce86b4b387f69707d85dca91742bb9a",
+    "relative_placement": [
+      10.606601717798213,
+      -10.606601717798199,
+      -26.0,
+      0.0,
+      0.0,
+      -0.9238795325112867,
+      -0.38268343236508995
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_724",
+      "mate": "D04_I_502",
+      "phase_deg": 117.0397785155195,
+      "reference_phase_deg": 165.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_667",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      -3.882285676537812,
+      14.488887394336004,
+      -26.0,
+      -0.9914448613738104,
+      -0.13052619222005168,
+      -1.6134330447562589e-16,
+      1.3310799208740294e-16
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_725",
+      "mate": "D04_I_502",
+      "phase_deg": 117.0397785155195,
+      "reference_phase_deg": 165.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_667",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      -14.488887394336036,
+      -3.8822856765378333,
+      -26.000000000000014,
+      -0.9914448613738104,
+      -0.13052619222005168,
+      -1.6134330447562589e-16,
+      1.3310799208740294e-16
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_726",
+      "mate": "D04_I_502",
+      "phase_deg": 117.0397785155195,
+      "reference_phase_deg": 165.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_667",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      3.882285676537805,
+      -14.488887394336047,
+      -26.0,
+      -0.9914448613738104,
+      -0.13052619222005168,
+      -1.6134330447562589e-16,
+      1.3310799208740294e-16
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_727",
+      "mate": "D04_I_502",
+      "phase_deg": 117.0397785155195,
+      "reference_phase_deg": 165.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_667",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "b4b54d902d14ebfe4c10aa83eef0aac52934435ab62cfb72c6a71b0425602290",
+    "relative_placement": [
+      14.488887394336025,
+      3.8822856765377765,
+      -26.0,
+      -0.9914448613738104,
+      -0.13052619222005168,
+      -1.6134330447562589e-16,
+      1.3310799208740294e-16
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_738",
+      "mate": "D04_I_741",
+      "phase_deg": 90.0,
+      "reference_phase_deg": 90,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "nominal_protrusion_mm": 3.650000000000011,
+      "family": "D04 Saddle nut M6",
+      "reused_exact_D04_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "ab36b41c1ae666d974c54cb512850e41e88c60ee57de98a4d700270057b5f9a1",
+    "master_b_sha256": "780863a0e00d224766c011fc1797d2cbb0bae4a2ee5ff78480df1ca250922531",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -35.44999999999999,
+      0.7071067811865475,
+      0.7071067811865476,
+      -4.329780281177466e-17,
+      4.329780281177467e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_742",
+      "mate": "D04_I_745",
+      "phase_deg": 90.0,
+      "reference_phase_deg": 90,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_738",
+      "nominal_protrusion_mm": 3.650000000000011,
+      "family": "D04 Saddle nut M6",
+      "reused_exact_D04_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "ab36b41c1ae666d974c54cb512850e41e88c60ee57de98a4d700270057b5f9a1",
+    "master_b_sha256": "780863a0e00d224766c011fc1797d2cbb0bae4a2ee5ff78480df1ca250922531",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -35.44999999999999,
+      0.7071067811865475,
+      0.7071067811865476,
+      -4.329780281177466e-17,
+      4.329780281177467e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_746",
+      "mate": "D04_I_749",
+      "phase_deg": 90.0,
+      "reference_phase_deg": 90,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_738",
+      "nominal_protrusion_mm": 3.650000000000011,
+      "family": "D04 Saddle nut M6",
+      "reused_exact_D04_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "ab36b41c1ae666d974c54cb512850e41e88c60ee57de98a4d700270057b5f9a1",
+    "master_b_sha256": "780863a0e00d224766c011fc1797d2cbb0bae4a2ee5ff78480df1ca250922531",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -35.44999999999999,
+      0.7071067811865475,
+      0.7071067811865476,
+      -4.329780281177466e-17,
+      4.329780281177467e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_753",
+      "mate": "D04_I_731",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "25457ba820bf49a27c21e7196ff2a50c7d936bdf1df1eacbe4ffb7e39c20794d",
+    "relative_placement": [
+      119.0430342270069,
+      22.9499083912122,
+      -159.14928089535033,
+      0.6416502477497354,
+      0.1135786712814954,
+      -0.758541261232791,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_754",
+      "mate": "D04_I_731",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_753",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "25457ba820bf49a27c21e7196ff2a50c7d936bdf1df1eacbe4ffb7e39c20794d",
+    "relative_placement": [
+      97.82983079141044,
+      22.949908391212198,
+      -159.1492808953504,
+      0.6416502477497354,
+      0.1135786712814954,
+      -0.758541261232791,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_755",
+      "mate": "D04_I_731",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_753",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "25457ba820bf49a27c21e7196ff2a50c7d936bdf1df1eacbe4ffb7e39c20794d",
+    "relative_placement": [
+      97.82983079141044,
+      1.736704955615771,
+      -159.1492808953504,
+      0.6416502477497354,
+      0.1135786712814954,
+      -0.758541261232791,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_756",
+      "mate": "D04_I_731",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_753",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "25457ba820bf49a27c21e7196ff2a50c7d936bdf1df1eacbe4ffb7e39c20794d",
+    "relative_placement": [
+      119.04303422700687,
+      1.7367049556157745,
+      -159.1492808953503,
+      0.6416502477497354,
+      0.1135786712814954,
+      -0.758541261232791,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_762",
+      "mate": "D04_I_731",
+      "phase_deg": 150.00000000000003,
+      "reference_phase_deg": 150.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "25457ba820bf49a27c21e7196ff2a50c7d936bdf1df1eacbe4ffb7e39c20794d",
+    "relative_placement": [
+      103.96264426197602,
+      58.01748650306177,
+      -159.1492808953505,
+      0.6491828689913377,
+      0.05636273250598945,
+      -0.7326945945306361,
+      0.19632492490313277
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_763",
+      "mate": "D04_I_731",
+      "phase_deg": 150.00000000000003,
+      "reference_phase_deg": 150.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_762",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "25457ba820bf49a27c21e7196ff2a50c7d936bdf1df1eacbe4ffb7e39c20794d",
+    "relative_placement": [
+      85.59147119110219,
+      47.41088478526355,
+      -159.14928089535056,
+      0.6491828689913377,
+      0.05636273250598945,
+      -0.7326945945306361,
+      0.19632492490313277
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_764",
+      "mate": "D04_I_731",
+      "phase_deg": 150.00000000000003,
+      "reference_phase_deg": 150.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_762",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "25457ba820bf49a27c21e7196ff2a50c7d936bdf1df1eacbe4ffb7e39c20794d",
+    "relative_placement": [
+      96.1980729089004,
+      29.039711714389714,
+      -159.14928089535056,
+      0.6491828689913377,
+      0.05636273250598945,
+      -0.7326945945306361,
+      0.19632492490313277
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_765",
+      "mate": "D04_I_731",
+      "phase_deg": 150.00000000000003,
+      "reference_phase_deg": 150.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_762",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "25457ba820bf49a27c21e7196ff2a50c7d936bdf1df1eacbe4ffb7e39c20794d",
+    "relative_placement": [
+      114.56924597977422,
+      39.646313432187924,
+      -159.14928089535053,
+      0.6491828689913377,
+      0.05636273250598945,
+      -0.7326945945306361,
+      0.19632492490313277
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_771",
+      "mate": "D04_I_774",
+      "phase_deg": 90.0,
+      "reference_phase_deg": 90,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_738",
+      "nominal_protrusion_mm": 3.650000000000011,
+      "family": "D04 Saddle nut M6",
+      "reused_exact_D04_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "ab36b41c1ae666d974c54cb512850e41e88c60ee57de98a4d700270057b5f9a1",
+    "master_b_sha256": "780863a0e00d224766c011fc1797d2cbb0bae4a2ee5ff78480df1ca250922531",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -35.44999999999999,
+      0.7071067811865475,
+      0.7071067811865476,
+      -4.329780281177466e-17,
+      4.329780281177467e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_775",
+      "mate": "D04_I_778",
+      "phase_deg": 90.0,
+      "reference_phase_deg": 90,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_738",
+      "nominal_protrusion_mm": 3.650000000000011,
+      "family": "D04 Saddle nut M6",
+      "reused_exact_D04_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "ab36b41c1ae666d974c54cb512850e41e88c60ee57de98a4d700270057b5f9a1",
+    "master_b_sha256": "780863a0e00d224766c011fc1797d2cbb0bae4a2ee5ff78480df1ca250922531",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -35.44999999999999,
+      0.7071067811865475,
+      0.7071067811865476,
+      -4.329780281177466e-17,
+      4.329780281177467e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_783",
+      "mate": "D04_I_786",
+      "phase_deg": 90.0,
+      "reference_phase_deg": 90,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_738",
+      "nominal_protrusion_mm": 3.650000000000011,
+      "family": "D04 Saddle nut M6",
+      "reused_exact_D04_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "ab36b41c1ae666d974c54cb512850e41e88c60ee57de98a4d700270057b5f9a1",
+    "master_b_sha256": "780863a0e00d224766c011fc1797d2cbb0bae4a2ee5ff78480df1ca250922531",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -35.44999999999999,
+      0.7071067811865475,
+      0.7071067811865476,
+      -4.329780281177466e-17,
+      4.329780281177467e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_790",
+      "mate": "D04_I_768",
+      "phase_deg": 150.00000000000003,
+      "reference_phase_deg": 150.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "e18d15617f605ce5271210010f1e15a22cf83f15c69f4a528d28bd8999e22eb4",
+    "relative_placement": [
+      -96.1980729089004,
+      -29.039711714389714,
+      -159.14928089535056,
+      -0.6491828689913377,
+      -0.05636273250598945,
+      -0.7326945945306361,
+      0.19632492490313277
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_791",
+      "mate": "D04_I_768",
+      "phase_deg": 150.00000000000003,
+      "reference_phase_deg": 150.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_790",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "e18d15617f605ce5271210010f1e15a22cf83f15c69f4a528d28bd8999e22eb4",
+    "relative_placement": [
+      -114.56924597977425,
+      -39.64631343218794,
+      -159.14928089535053,
+      -0.6491828689913377,
+      -0.05636273250598945,
+      -0.7326945945306361,
+      0.19632492490313277
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_792",
+      "mate": "D04_I_768",
+      "phase_deg": 150.00000000000003,
+      "reference_phase_deg": 150.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_790",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "e18d15617f605ce5271210010f1e15a22cf83f15c69f4a528d28bd8999e22eb4",
+    "relative_placement": [
+      -103.96264426197602,
+      -58.01748650306177,
+      -159.1492808953505,
+      -0.6491828689913377,
+      -0.05636273250598945,
+      -0.7326945945306361,
+      0.19632492490313277
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_793",
+      "mate": "D04_I_768",
+      "phase_deg": 150.00000000000003,
+      "reference_phase_deg": 150.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_790",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "e18d15617f605ce5271210010f1e15a22cf83f15c69f4a528d28bd8999e22eb4",
+    "relative_placement": [
+      -85.59147119110219,
+      -47.41088478526355,
+      -159.14928089535056,
+      -0.6491828689913377,
+      -0.05636273250598945,
+      -0.7326945945306361,
+      0.19632492490313277
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_799",
+      "mate": "D04_I_768",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "e18d15617f605ce5271210010f1e15a22cf83f15c69f4a528d28bd8999e22eb4",
+    "relative_placement": [
+      -97.82983079141044,
+      -1.736704955615771,
+      -159.1492808953504,
+      -0.6416502477497354,
+      -0.1135786712814954,
+      -0.758541261232791,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_800",
+      "mate": "D04_I_768",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_799",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "e18d15617f605ce5271210010f1e15a22cf83f15c69f4a528d28bd8999e22eb4",
+    "relative_placement": [
+      -119.04303422700687,
+      -1.7367049556157745,
+      -159.1492808953503,
+      -0.6416502477497354,
+      -0.1135786712814954,
+      -0.758541261232791,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_801",
+      "mate": "D04_I_768",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_799",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "e18d15617f605ce5271210010f1e15a22cf83f15c69f4a528d28bd8999e22eb4",
+    "relative_placement": [
+      -119.0430342270069,
+      -22.9499083912122,
+      -159.14928089535033,
+      -0.6416502477497354,
+      -0.1135786712814954,
+      -0.758541261232791,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_802",
+      "mate": "D04_I_768",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_799",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "e18d15617f605ce5271210010f1e15a22cf83f15c69f4a528d28bd8999e22eb4",
+    "relative_placement": [
+      -97.82983079141044,
+      -22.949908391212198,
+      -159.1492808953504,
+      -0.6416502477497354,
+      -0.1135786712814954,
+      -0.758541261232791,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_808",
+      "mate": "I_457",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "613f0ddf7c7eb3f1ac8c0e156ab9e60ad38900b8dc91749722c1b70a52d536e8",
+    "relative_placement": [
+      -95.47810322281408,
+      -15.022531951160875,
+      377.32696849472813,
+      -0.7469298752433857,
+      -0.1322142445485121,
+      -0.6516250110357695,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_809",
+      "mate": "I_457",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_808",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "613f0ddf7c7eb3f1ac8c0e156ab9e60ad38900b8dc91749722c1b70a52d536e8",
+    "relative_placement": [
+      -116.69130665841048,
+      -15.022531951160879,
+      377.32696849472813,
+      -0.7469298752433857,
+      -0.1322142445485121,
+      -0.6516250110357695,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_810",
+      "mate": "I_457",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_808",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "613f0ddf7c7eb3f1ac8c0e156ab9e60ad38900b8dc91749722c1b70a52d536e8",
+    "relative_placement": [
+      -116.69130665841051,
+      -36.235735386757305,
+      377.326968494728,
+      -0.7469298752433857,
+      -0.1322142445485121,
+      -0.6516250110357695,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_811",
+      "mate": "I_457",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_808",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "613f0ddf7c7eb3f1ac8c0e156ab9e60ad38900b8dc91749722c1b70a52d536e8",
+    "relative_placement": [
+      -95.47810322281404,
+      -36.2357353867573,
+      377.3269684947281,
+      -0.7469298752433857,
+      -0.1322142445485121,
+      -0.6516250110357695,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_818",
+      "mate": "I_487",
+      "phase_deg": 150.00000000000003,
+      "reference_phase_deg": 150.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "adadade34bac6fac217b8922234dabffae39c9cd70c743b85d32e929327ebf91",
+    "relative_placement": [
+      -100.8043305894884,
+      -16.35798424166405,
+      377.32696849472813,
+      -0.7556984214474552,
+      -0.06561052365633187,
+      -0.6294214272153488,
+      0.16865296312119693
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_819",
+      "mate": "I_487",
+      "phase_deg": 150.00000000000003,
+      "reference_phase_deg": 150.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_818",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "adadade34bac6fac217b8922234dabffae39c9cd70c743b85d32e929327ebf91",
+    "relative_placement": [
+      -119.17550366036227,
+      -26.964585959462262,
+      377.3269684947281,
+      -0.7556984214474552,
+      -0.06561052365633187,
+      -0.6294214272153488,
+      0.16865296312119693
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_820",
+      "mate": "I_487",
+      "phase_deg": 150.00000000000003,
+      "reference_phase_deg": 150.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_818",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "adadade34bac6fac217b8922234dabffae39c9cd70c743b85d32e929327ebf91",
+    "relative_placement": [
+      -108.56890194256404,
+      -45.33575903033609,
+      377.32696849472813,
+      -0.7556984214474552,
+      -0.06561052365633187,
+      -0.6294214272153488,
+      0.16865296312119693
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_821",
+      "mate": "I_487",
+      "phase_deg": 150.00000000000003,
+      "reference_phase_deg": 150.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_818",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "adadade34bac6fac217b8922234dabffae39c9cd70c743b85d32e929327ebf91",
+    "relative_placement": [
+      -90.19772887169022,
+      -34.72915731253789,
+      377.32696849472813,
+      -0.7556984214474552,
+      -0.06561052365633187,
+      -0.6294214272153488,
+      0.16865296312119693
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_828",
+      "mate": "I_517",
+      "phase_deg": 150.0,
+      "reference_phase_deg": 150,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "family": "D04 M4 Flansch",
+      "reused_exact_D04_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "4cc04d9db9daabde62d4386761a2879adb9a46a01b4bd9e586c2141f60a1e4d6",
+    "relative_placement": [
+      108.56890194256395,
+      45.33575903033631,
+      377.32696849472813,
+      0.7556984214474552,
+      0.06561052365633166,
+      -0.6294214272153488,
+      0.16865296312119718
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_829",
+      "mate": "I_517",
+      "phase_deg": 150.0,
+      "reference_phase_deg": 150,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_828",
+      "family": "D04 M4 Flansch",
+      "reused_exact_D04_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "4cc04d9db9daabde62d4386761a2879adb9a46a01b4bd9e586c2141f60a1e4d6",
+    "relative_placement": [
+      90.19772887169016,
+      34.72915731253811,
+      377.326968494728,
+      0.7556984214474552,
+      0.06561052365633166,
+      -0.6294214272153488,
+      0.16865296312119718
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_830",
+      "mate": "I_517",
+      "phase_deg": 150.0,
+      "reference_phase_deg": 150,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_828",
+      "family": "D04 M4 Flansch",
+      "reused_exact_D04_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "4cc04d9db9daabde62d4386761a2879adb9a46a01b4bd9e586c2141f60a1e4d6",
+    "relative_placement": [
+      100.80433058948833,
+      16.357984241664276,
+      377.326968494728,
+      0.7556984214474552,
+      0.06561052365633166,
+      -0.6294214272153488,
+      0.16865296312119718
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_831",
+      "mate": "I_517",
+      "phase_deg": 150.0,
+      "reference_phase_deg": 150,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_828",
+      "family": "D04 M4 Flansch",
+      "reused_exact_D04_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "4cc04d9db9daabde62d4386761a2879adb9a46a01b4bd9e586c2141f60a1e4d6",
+    "relative_placement": [
+      119.17550366036217,
+      26.964585959462468,
+      377.326968494728,
+      0.7556984214474552,
+      0.06561052365633166,
+      -0.6294214272153488,
+      0.16865296312119718
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_838",
+      "mate": "I_547",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "afcc401219086accf7f6038f737334c989c16a8f2f99c7b01374b767fd48fbae",
+    "relative_placement": [
+      116.69130665841051,
+      36.235735386757305,
+      377.326968494728,
+      0.7469298752433857,
+      0.1322142445485121,
+      -0.6516250110357695,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_839",
+      "mate": "I_547",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_838",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "afcc401219086accf7f6038f737334c989c16a8f2f99c7b01374b767fd48fbae",
+    "relative_placement": [
+      95.47810322281404,
+      36.2357353867573,
+      377.3269684947281,
+      0.7469298752433857,
+      0.1322142445485121,
+      -0.6516250110357695,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_840",
+      "mate": "I_547",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_838",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "afcc401219086accf7f6038f737334c989c16a8f2f99c7b01374b767fd48fbae",
+    "relative_placement": [
+      95.47810322281406,
+      15.022531951160872,
+      377.3269684947281,
+      0.7469298752433857,
+      0.1322142445485121,
+      -0.6516250110357695,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "D04_I_841",
+      "mate": "I_547",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "D04_I_838",
+      "family": "D04 M4 Flansch"
+    },
+    "master_a_sha256": "114cd4924bf863656e487e69695eae98a4d42d78c157b32220e9dba8493da09b",
+    "master_b_sha256": "afcc401219086accf7f6038f737334c989c16a8f2f99c7b01374b767fd48fbae",
+    "relative_placement": [
+      116.69130665841048,
+      15.022531951160879,
+      377.32696849472813,
+      0.7469298752433857,
+      0.1322142445485121,
+      -0.6516250110357695,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_470",
+      "mate": "I_457",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "family": "D04 Rail flange M4"
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "613f0ddf7c7eb3f1ac8c0e156ab9e60ad38900b8dc91749722c1b70a52d536e8",
+    "relative_placement": [
+      -209.39339828220187,
+      -64.39339828220183,
+      383.99999999999994,
+      -0.7071067811865475,
+      0.0,
+      -0.7071067811865476,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_471",
+      "mate": "I_457",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_470",
+      "family": "D04 Rail flange M4"
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "613f0ddf7c7eb3f1ac8c0e156ab9e60ad38900b8dc91749722c1b70a52d536e8",
+    "relative_placement": [
+      -230.6066017177983,
+      -64.39339828220183,
+      383.99999999999994,
+      -0.7071067811865475,
+      0.0,
+      -0.7071067811865476,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_472",
+      "mate": "I_457",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_470",
+      "family": "D04 Rail flange M4"
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "613f0ddf7c7eb3f1ac8c0e156ab9e60ad38900b8dc91749722c1b70a52d536e8",
+    "relative_placement": [
+      -230.6066017177983,
+      -85.60660171779826,
+      383.99999999999994,
+      -0.7071067811865475,
+      0.0,
+      -0.7071067811865476,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_473",
+      "mate": "I_457",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_470",
+      "family": "D04 Rail flange M4"
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "613f0ddf7c7eb3f1ac8c0e156ab9e60ad38900b8dc91749722c1b70a52d536e8",
+    "relative_placement": [
+      -209.39339828220187,
+      -85.60660171779826,
+      383.99999999999994,
+      -0.7071067811865475,
+      0.0,
+      -0.7071067811865476,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_530",
+      "mate": "I_517",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "family": "D04 Rail flange M4",
+      "reused_exact_D04_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "4cc04d9db9daabde62d4386761a2879adb9a46a01b4bd9e586c2141f60a1e4d6",
+    "relative_placement": [
+      230.6066017177983,
+      -64.39339828220174,
+      383.99999999999994,
+      0.7071067811865475,
+      0.0,
+      -0.7071067811865476,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_531",
+      "mate": "I_517",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_530",
+      "family": "D04 Rail flange M4",
+      "reused_exact_D04_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "4cc04d9db9daabde62d4386761a2879adb9a46a01b4bd9e586c2141f60a1e4d6",
+    "relative_placement": [
+      209.39339828220187,
+      -64.39339828220174,
+      383.99999999999994,
+      0.7071067811865475,
+      0.0,
+      -0.7071067811865476,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_532",
+      "mate": "I_517",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_530",
+      "family": "D04 Rail flange M4",
+      "reused_exact_D04_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "4cc04d9db9daabde62d4386761a2879adb9a46a01b4bd9e586c2141f60a1e4d6",
+    "relative_placement": [
+      209.39339828220187,
+      -85.60660171779817,
+      383.99999999999994,
+      0.7071067811865475,
+      0.0,
+      -0.7071067811865476,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_533",
+      "mate": "I_517",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_530",
+      "family": "D04 Rail flange M4",
+      "reused_exact_D04_geometry_and_relative_pose": true
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "4cc04d9db9daabde62d4386761a2879adb9a46a01b4bd9e586c2141f60a1e4d6",
+    "relative_placement": [
+      230.6066017177983,
+      -85.60660171779817,
+      383.99999999999994,
+      0.7071067811865475,
+      0.0,
+      -0.7071067811865476,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_500",
+      "mate": "I_487",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "family": "D04 Rail flange M4"
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "adadade34bac6fac217b8922234dabffae39c9cd70c743b85d32e929327ebf91",
+    "relative_placement": [
+      -209.39339828220187,
+      85.60660171779817,
+      383.99999999999994,
+      -0.7071067811865475,
+      0.0,
+      -0.7071067811865476,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_501",
+      "mate": "I_487",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_500",
+      "family": "D04 Rail flange M4"
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "adadade34bac6fac217b8922234dabffae39c9cd70c743b85d32e929327ebf91",
+    "relative_placement": [
+      -230.6066017177983,
+      85.60660171779817,
+      383.99999999999994,
+      -0.7071067811865475,
+      0.0,
+      -0.7071067811865476,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_502",
+      "mate": "I_487",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_500",
+      "family": "D04 Rail flange M4"
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "adadade34bac6fac217b8922234dabffae39c9cd70c743b85d32e929327ebf91",
+    "relative_placement": [
+      -230.6066017177983,
+      64.39339828220174,
+      383.99999999999994,
+      -0.7071067811865475,
+      0.0,
+      -0.7071067811865476,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_503",
+      "mate": "I_487",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_500",
+      "family": "D04 Rail flange M4"
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "adadade34bac6fac217b8922234dabffae39c9cd70c743b85d32e929327ebf91",
+    "relative_placement": [
+      -209.39339828220187,
+      64.39339828220174,
+      383.99999999999994,
+      -0.7071067811865475,
+      0.0,
+      -0.7071067811865476,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_560",
+      "mate": "I_547",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "family": "D04 Rail flange M4"
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "afcc401219086accf7f6038f737334c989c16a8f2f99c7b01374b767fd48fbae",
+    "relative_placement": [
+      230.6066017177983,
+      85.60660171779826,
+      383.99999999999994,
+      0.7071067811865475,
+      0.0,
+      -0.7071067811865476,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_561",
+      "mate": "I_547",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_560",
+      "family": "D04 Rail flange M4"
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "afcc401219086accf7f6038f737334c989c16a8f2f99c7b01374b767fd48fbae",
+    "relative_placement": [
+      209.39339828220187,
+      85.60660171779826,
+      383.99999999999994,
+      0.7071067811865475,
+      0.0,
+      -0.7071067811865476,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_562",
+      "mate": "I_547",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_560",
+      "family": "D04 Rail flange M4"
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "afcc401219086accf7f6038f737334c989c16a8f2f99c7b01374b767fd48fbae",
+    "relative_placement": [
+      209.39339828220187,
+      64.39339828220183,
+      383.99999999999994,
+      0.7071067811865475,
+      0.0,
+      -0.7071067811865476,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_563",
+      "mate": "I_547",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_560",
+      "family": "D04 Rail flange M4"
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "afcc401219086accf7f6038f737334c989c16a8f2f99c7b01374b767fd48fbae",
+    "relative_placement": [
+      230.6066017177983,
+      64.39339828220183,
+      383.99999999999994,
+      0.7071067811865475,
+      0.0,
+      -0.7071067811865476,
+      6.123233995736766e-17
+    ]
+  }
+]

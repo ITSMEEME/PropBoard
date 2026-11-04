@@ -1,0 +1,335 @@
+{
+  "CFK_KLEMM_A": {
+    "id": "CFK_KLEMM_A",
+    "label": "P12 Rohrklemmhälfte A",
+    "process": "CNC, EN AW-6082 T6",
+    "density_kg_m3": 2810,
+    "material": "EN AW-7075 T6",
+    "volume_mm3": 8644.650610731502,
+    "mass_kg": 0.024291468216155524
+  },
+  "CFK_KLEMM_B": {
+    "id": "CFK_KLEMM_B",
+    "label": "P12 Rohrklemmhälfte B",
+    "process": "CNC, EN AW-6082 T6",
+    "density_kg_m3": 2810,
+    "material": "EN AW-7075 T6",
+    "volume_mm3": 8530.705045186023,
+    "mass_kg": 0.023971281176972725
+  },
+  "CFK_FILM": {
+    "id": "CFK_FILM",
+    "label": "P12 Isolierzwischenlage",
+    "process": "CNC, EN AW-6082 T6",
+    "density_kg_m3": 1900,
+    "material": "GFK-/Isolierfilm; Reibung/Kriechen offen",
+    "volume_mm3": 569.46852258942,
+    "mass_kg": 0.001081990192919898
+  },
+  "D02_ROOT": {
+    "id": "D02_ROOT",
+    "label": "Ausleger Schott D02_ROOT",
+    "process": "CNC, EN AW-6082 T6",
+    "density_kg_m3": 2700,
+    "material": "EN AW-6082 T6",
+    "volume_mm3": 202247.55795007915,
+    "mass_kg": 0.5460684064652137
+  },
+  "D02_TIP": {
+    "id": "D02_TIP",
+    "label": "Ausleger Schott D02_TIP",
+    "process": "CNC, EN AW-6082 T6",
+    "density_kg_m3": 2700,
+    "material": "EN AW-6082 T6",
+    "volume_mm3": 202247.55806347253,
+    "mass_kg": 0.5460684067713759
+  },
+  "D02_ARM_TUBE": {
+    "id": "D02_ARM_TUBE",
+    "label": "CBU20171005TG Rohrzuschnitt 342",
+    "process": "CBU20171005TG zuschneiden, Kanten versiegeln; keine Querbohrung",
+    "density_kg_m3": 1600,
+    "material": "CFK CBU20171005TG; Dichte angenommen",
+    "volume_mm3": 29815.28507889394,
+    "mass_kg": 0.0477044561262303
+  },
+  "D02_MOTOR_PLATE": {
+    "id": "D02_MOTOR_PLATE",
+    "label": "Endplatte mit IF90, OEM Adapter offen",
+    "process": "CNC, EN AW-6082 T6",
+    "density_kg_m3": 2700,
+    "material": "EN AW-6082 T6",
+    "volume_mm3": 178854.19347808187,
+    "mass_kg": 0.4829063223908211
+  },
+  "ISO4762_M4x16": {
+    "id": "ISO4762_M4x16",
+    "label": "ISO4762_M4x16",
+    "process": "Kaufteil nach ISO; 10.9 / Mutter10 / Scheibe300HV, Zertifikat erforderlich",
+    "density_kg_m3": 7850,
+    "material": "Verguetungsstahl, Zinklamelle",
+    "volume_mm3": 294.0791285485541,
+    "mass_kg": 0.0023085211591061493
+  },
+  "ISO4762_M6x20": {
+    "id": "ISO4762_M6x20",
+    "label": "ISO4762_M6x20",
+    "process": "Kaufteil nach ISO; 10.9 / Mutter10 / Scheibe300HV, Zertifikat erforderlich",
+    "density_kg_m3": 7850,
+    "material": "Verguetungsstahl, Zinklamelle",
+    "volume_mm3": 843.4371111370905,
+    "mass_kg": 0.00662098132242616
+  },
+  "ISO7089_M6": {
+    "id": "ISO7089_M6",
+    "label": "ISO7089_M6",
+    "process": "Kaufteil nach ISO; 10.9 / Mutter10 / Scheibe300HV, Zertifikat erforderlich",
+    "density_kg_m3": 7850,
+    "material": "Verguetungsstahl, Zinklamelle",
+    "volume_mm3": 129.48388281035696,
+    "mass_kg": 0.001016448480061302
+  },
+  "D02_RAIL": {
+    "id": "D02_RAIL",
+    "label": "CBU20171005TG Rohrzuschnitt 760",
+    "process": "CBU20171005TG zuschneiden, Kanten versiegeln; keine Querbohrung",
+    "density_kg_m3": 1600,
+    "material": "CFK CBU20171005TG; Dichte angenommen",
+    "volume_mm3": 66256.18906420874,
+    "mass_kg": 0.10600990250273398
+  },
+  "D02_SLIDER_TOP": {
+    "id": "D02_SLIDER_TOP",
+    "label": "Fußschlitten oben",
+    "process": "CNC, EN AW-6082 T6",
+    "density_kg_m3": 2700,
+    "material": "EN AW-6082 T6",
+    "volume_mm3": 45996.2532399065,
+    "mass_kg": 0.12418988374774756
+  },
+  "D02_SLIDER_BOTTOM": {
+    "id": "D02_SLIDER_BOTTOM",
+    "label": "Fußschlitten unten",
+    "process": "CNC, EN AW-6082 T6",
+    "density_kg_m3": 2700,
+    "material": "EN AW-6082 T6",
+    "volume_mm3": 60588.462818210595,
+    "mass_kg": 0.16358884960916864
+  },
+  "D02_SLIDER_FILM": {
+    "id": "D02_SLIDER_FILM",
+    "label": "Anpassbare Isolierhülse Fußschlitten",
+    "process": "CNC, EN AW-6082 T6",
+    "density_kg_m3": 1900,
+    "material": "GFK-/Isolierfilm; Auswahl offen",
+    "volume_mm3": 1138.937045178851,
+    "mass_kg": 0.002163980385839817
+  },
+  "D02_FOOT": {
+    "id": "D02_FOOT",
+    "label": "Fußplatte 300 x 140 x 6, Senkungen Ø11.6/90°",
+    "process": "CNC, EN AW-6082 T6",
+    "density_kg_m3": 2700,
+    "material": "EN AW-6082 T6",
+    "volume_mm3": 249237.30132756,
+    "mass_kg": 0.672940713584412
+  },
+  "ISO7089_M5": {
+    "id": "ISO7089_M5",
+    "label": "ISO7089_M5",
+    "process": "Kaufteil nach ISO; 10.9 / Mutter10 / Scheibe300HV, Zertifikat erforderlich",
+    "density_kg_m3": 7850,
+    "material": "Verguetungsstahl, Zinklamelle",
+    "volume_mm3": 56.477981929910534,
+    "mass_kg": 0.00044335215814979767
+  },
+  "ISO7719_M5": {
+    "id": "ISO7719_M5",
+    "label": "ISO7719_M5",
+    "process": "Kaufteil nach ISO; 10.9 / Mutter10 / Scheibe300HV, Zertifikat erforderlich",
+    "density_kg_m3": 7850,
+    "material": "Verguetungsstahl, Zinklamelle",
+    "volume_mm3": 198.98815054059148,
+    "mass_kg": 0.001562056981743643
+  },
+  "ISO7719_M6": {
+    "id": "ISO7719_M6",
+    "label": "ISO7719_M6",
+    "process": "Kaufteil nach ISO; 10.9 / Mutter10 / Scheibe300HV, Zertifikat erforderlich",
+    "density_kg_m3": 7850,
+    "material": "Verguetungsstahl, Zinklamelle",
+    "volume_mm3": 357.21501181756776,
+    "mass_kg": 0.0028041378427679066
+  },
+  "D03_INDEX_RACK": {
+    "id": "D03_INDEX_RACK",
+    "label": "Indexierleiste 770 x 24 x 10",
+    "process": "CNC, EN AW-6082 T6",
+    "density_kg_m3": 2700,
+    "material": "EN AW-6082 T6",
+    "volume_mm3": 175949.05940694243,
+    "mass_kg": 0.47506246039874456
+  },
+  "ISO7089_M4": {
+    "id": "ISO7089_M4",
+    "label": "ISO7089_M4",
+    "process": "Kaufteil nach ISO; 10.9 / Mutter10 / Scheibe300HV, Zertifikat erforderlich",
+    "density_kg_m3": 7850,
+    "material": "Verguetungsstahl, Zinklamelle",
+    "volume_mm3": 39.27619135517962,
+    "mass_kg": 0.00030831810213816
+  },
+  "ISO10642_M5x50": {
+    "id": "ISO10642_M5x50",
+    "label": "ISO10642 M5x50 Senkschraube",
+    "process": "Kaufteil ISO10642 Klasse10.9; konkrete Lieferung und Zinklamelle qualifizieren",
+    "density_kg_m3": 7850,
+    "material": "Vergütungsstahl",
+    "volume_mm3": 983.1396586082192,
+    "mass_kg": 0.00771764632007452
+  },
+  "D04_CORE_BOTTOM": {
+    "id": "D04_CORE_BOTTOM",
+    "label": "CFK-Rahmenknoten -1",
+    "process": "CNC, EN AW-7075 T6",
+    "density_kg_m3": 2810,
+    "material": "EN AW-7075 T6",
+    "volume_mm3": 83013.00288960879,
+    "mass_kg": 0.2332665381198007
+  },
+  "D04_CORE_TOP": {
+    "id": "D04_CORE_TOP",
+    "label": "CFK-Rahmenknoten 1",
+    "process": "CNC, EN AW-7075 T6",
+    "density_kg_m3": 2810,
+    "material": "EN AW-7075 T6",
+    "volume_mm3": 83013.00267557365,
+    "mass_kg": 0.23326653751836196
+  },
+  "D04_TUBE_RING": {
+    "id": "D04_TUBE_RING",
+    "label": "CBU20171005TG Zuschnitt 145.061",
+    "process": "Sägen, Enden versiegeln; keine Querbohrung",
+    "density_kg_m3": 1600,
+    "material": "CFK CBU20171005TG; Dichte1600 angenommen",
+    "volume_mm3": 12646.298454187716,
+    "mass_kg": 0.020234077526700346
+  },
+  "ISO4762_M4x10": {
+    "id": "ISO4762_M4x10",
+    "label": "ISO4762_M4x10",
+    "process": "Kaufteil nach ISO; 10.9 / Mutter10 / Scheibe300HV, Zertifikat erforderlich",
+    "density_kg_m3": 7850,
+    "material": "Verguetungsstahl, Zinklamelle",
+    "volume_mm3": 234.04911574913396,
+    "mass_kg": 0.0018372855586307015
+  },
+  "D04_TUBE_VERTICAL": {
+    "id": "D04_TUBE_VERTICAL",
+    "label": "CBU20171005TG Zuschnitt 160.0",
+    "process": "Sägen, Enden versiegeln; keine Querbohrung",
+    "density_kg_m3": 1600,
+    "material": "CFK CBU20171005TG; Dichte1600 angenommen",
+    "volume_mm3": 13948.671381938671,
+    "mass_kg": 0.022317874211101877
+  },
+  "D04_SADDLE_TOP_M1": {
+    "id": "D04_SADDLE_TOP_M1",
+    "label": "Gemeinsamer Carbon-Strebensattel oben -1",
+    "process": "CNC EN AW-7075 T6",
+    "density_kg_m3": 2810,
+    "material": "EN AW-7075 T6",
+    "volume_mm3": 100417.87838207198,
+    "mass_kg": 0.2821742382536223
+  },
+  "D04_SADDLE_BOTTOM_M1": {
+    "id": "D04_SADDLE_BOTTOM_M1",
+    "label": "Gemeinsamer Carbon-Strebensattel unten -1",
+    "process": "CNC EN AW-7075 T6",
+    "density_kg_m3": 2810,
+    "material": "EN AW-7075 T6",
+    "volume_mm3": 48342.10336333655,
+    "mass_kg": 0.13584131045097572
+  },
+  "D04_SADDLE_FILM": {
+    "id": "D04_SADDLE_FILM",
+    "label": "Isolierlage Strebensattel",
+    "process": "Anpassen an gemessenen Rohr-OD",
+    "density_kg_m3": 1900,
+    "material": "GFK-/Isolierfilm; Auswahl und Kriechen offen",
+    "volume_mm3": 1518.582726905126,
+    "mass_kg": 0.0028853071811197396
+  },
+  "ISO4762_M6x45": {
+    "id": "ISO4762_M6x45",
+    "label": "ISO4762_M6x45",
+    "process": "Kaufteil nach ISO; 10.9 / Mutter10 / Scheibe300HV, Zertifikat erforderlich",
+    "density_kg_m3": 7850,
+    "material": "Verguetungsstahl, Zinklamelle",
+    "volume_mm3": 1526.870213482257,
+    "mass_kg": 0.011985931175835716
+  },
+  "D04_SADDLE_TOP_1": {
+    "id": "D04_SADDLE_TOP_1",
+    "label": "Gemeinsamer Carbon-Strebensattel oben 1",
+    "process": "CNC EN AW-7075 T6",
+    "density_kg_m3": 2810,
+    "material": "EN AW-7075 T6",
+    "volume_mm3": 100417.87119758375,
+    "mass_kg": 0.28217421806521037
+  },
+  "D04_SADDLE_BOTTOM_1": {
+    "id": "D04_SADDLE_BOTTOM_1",
+    "label": "Gemeinsamer Carbon-Strebensattel unten 1",
+    "process": "CNC EN AW-7075 T6",
+    "density_kg_m3": 2810,
+    "material": "EN AW-7075 T6",
+    "volume_mm3": 48342.103363336544,
+    "mass_kg": 0.1358413104509757
+  },
+  "D04_HIGH_M_M": {
+    "id": "D04_HIGH_M_M",
+    "label": "Schienen-Endknoten -1/-1",
+    "process": "CNC EN AW-7075 T6",
+    "density_kg_m3": 2810,
+    "material": "EN AW-7075 T6",
+    "volume_mm3": 116126.6860451241,
+    "mass_kg": 0.3263159877867987
+  },
+  "D04_TUBE_STAY": {
+    "id": "D04_TUBE_STAY",
+    "label": "CBU20171005TG Zuschnitt 210.178",
+    "process": "Sägen, Enden versiegeln; keine Querbohrung",
+    "density_kg_m3": 1600,
+    "material": "CFK CBU20171005TG; Dichte1600 angenommen",
+    "volume_mm3": 18323.121850871794,
+    "mass_kg": 0.02931699496139487
+  },
+  "D04_HIGH_M_P": {
+    "id": "D04_HIGH_M_P",
+    "label": "Schienen-Endknoten -1/1",
+    "process": "CNC EN AW-7075 T6",
+    "density_kg_m3": 2810,
+    "material": "EN AW-7075 T6",
+    "volume_mm3": 116122.43933230107,
+    "mass_kg": 0.32630405452376604
+  },
+  "D04_HIGH_P_M": {
+    "id": "D04_HIGH_P_M",
+    "label": "Schienen-Endknoten 1/-1",
+    "process": "CNC EN AW-7075 T6",
+    "density_kg_m3": 2810,
+    "material": "EN AW-7075 T6",
+    "volume_mm3": 116122.43341538106,
+    "mass_kg": 0.3263040378972208
+  },
+  "D04_HIGH_P_P": {
+    "id": "D04_HIGH_P_P",
+    "label": "Schienen-Endknoten 1/1",
+    "process": "CNC EN AW-7075 T6",
+    "density_kg_m3": 2810,
+    "material": "EN AW-7075 T6",
+    "volume_mm3": 116126.68488636454,
+    "mass_kg": 0.3263159845306844
+  }
+}

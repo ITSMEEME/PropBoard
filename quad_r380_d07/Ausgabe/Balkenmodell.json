@@ -1,0 +1,391 @@
+{
+  "native_sha256": "8f1610f5a369fff7bd43edcd6f5129921b3ec91b914011c64d0cd4903f8d1402",
+  "selected_variant": "V3",
+  "model": "Two spatial Euler-Bernoulli tube end-stiffness elements; rigid motor node and perfectly clamped root/socket interfaces",
+  "cases": [
+    {
+      "name": "Vertikallast400N",
+      "E_Pa": 70000000000.0,
+      "G_Pa": 5000000000.0,
+      "load_global_force_N": [
+        0,
+        0,
+        400
+      ],
+      "load_global_moment_Nm": [
+        0,
+        0,
+        0
+      ],
+      "hub_translation_mm": [
+        -1.019703198166736,
+        -1.019703198166748,
+        14.72499448533535
+      ],
+      "hub_rotation_deg": [
+        2.2524461531945525,
+        -2.252446153194535,
+        7.417444913782603e-16
+      ],
+      "translation_magnitude_mm": 14.795440237379198,
+      "rotation_magnitude_deg": 3.1854398983628305,
+      "rods": [
+        {
+          "side": -1,
+          "free_length_mm": 317.0,
+          "local_tip_force_N": [
+            5.218009461400495,
+            0.5072630597426429,
+            199.9319256247411
+          ],
+          "local_root_moment_Nm": [
+            -0.6465055414991588,
+            -77.5553786073796,
+            0.1973792411481224
+          ],
+          "peak_axial_plus_bending_stress_MPa": 206.6460168240377,
+          "torsional_shear_stress_MPa": 0.8610535402682031
+        },
+        {
+          "side": 1,
+          "free_length_mm": 317.0,
+          "local_tip_force_N": [
+            5.218009461407721,
+            -0.5072630597437975,
+            199.93192562474303
+          ],
+          "local_root_moment_Nm": [
+            0.6465055414992043,
+            -77.55537860737986,
+            -0.1973792411482926
+          ],
+          "peak_axial_plus_bending_stress_MPa": 206.64601682403853,
+          "torsional_shear_stress_MPa": 0.8610535402682742
+        }
+      ],
+      "equilibrium_residual": 8.046846356725823e-12,
+      "strength_pass": null
+    },
+    {
+      "name": "Motorreaktion20Nm",
+      "E_Pa": 70000000000.0,
+      "G_Pa": 5000000000.0,
+      "load_global_force_N": [
+        0,
+        0,
+        0
+      ],
+      "load_global_moment_Nm": [
+        0,
+        0,
+        20
+      ],
+      "hub_translation_mm": [
+        0.036133684452564686,
+        -0.03613368445256491,
+        1.111775057390447e-15
+      ],
+      "hub_rotation_deg": [
+        0.03518491192293261,
+        0.035184911922932244,
+        0.048554072892082134
+      ],
+      "translation_magnitude_mm": 0.05110074661132698,
+      "rotation_magnitude_deg": 0.06952304688704782,
+      "rods": [
+        {
+          "side": -1,
+          "free_length_mm": 317.0,
+          "local_tip_force_N": [
+            226.04980365130075,
+            -22.313028944598628,
+            -3.5561201492545993
+          ],
+          "local_root_moment_Nm": [
+            0.10491111006262488,
+            0.49292909383682226,
+            -2.8528506815777326
+          ],
+          "peak_axial_plus_bending_stress_MPa": 13.961108352775874,
+          "torsional_shear_stress_MPa": 0.13972669518565564
+        },
+        {
+          "side": 1,
+          "free_length_mm": 317.0,
+          "local_tip_force_N": [
+            -226.0498036513006,
+            -22.313028944598628,
+            3.5561201492546135
+          ],
+          "local_root_moment_Nm": [
+            0.10491111006262498,
+            -0.49292909383683287,
+            -2.852850681577741
+          ],
+          "peak_axial_plus_bending_stress_MPa": 13.961108352775865,
+          "torsional_shear_stress_MPa": 0.1397266951856558
+        }
+      ],
+      "equilibrium_residual": 8.993506153459956e-14,
+      "strength_pass": null
+    },
+    {
+      "name": "Kombiniert400N20Nm",
+      "E_Pa": 70000000000.0,
+      "G_Pa": 5000000000.0,
+      "load_global_force_N": [
+        0,
+        0,
+        400
+      ],
+      "load_global_moment_Nm": [
+        0,
+        0,
+        20
+      ],
+      "hub_translation_mm": [
+        -0.9835695137141713,
+        -1.0558368826193127,
+        14.724994485335353
+      ],
+      "hub_rotation_deg": [
+        2.2876310651174854,
+        -2.2172612412716024,
+        0.048554072892082877
+      ],
+      "translation_magnitude_mm": 14.795528483435925,
+      "rotation_magnitude_deg": 3.1861984872462443,
+      "rods": [
+        {
+          "side": -1,
+          "free_length_mm": 317.0,
+          "local_tip_force_N": [
+            231.267813112694,
+            -21.805765884855948,
+            196.37580547548706
+          ],
+          "local_root_moment_Nm": [
+            -0.5415944314365352,
+            -77.06244951354289,
+            -2.655471440429599
+          ],
+          "peak_axial_plus_bending_stress_MPa": 208.04709188761646,
+          "torsional_shear_stress_MPa": 0.7213268450825476
+        },
+        {
+          "side": 1,
+          "free_length_mm": 317.0,
+          "local_tip_force_N": [
+            -220.83179418989528,
+            -22.820292004342424,
+            203.48804577399815
+          ],
+          "local_root_moment_Nm": [
+            0.7514166515618348,
+            -78.04830770121681,
+            -3.0502299227260226
+          ],
+          "peak_axial_plus_bending_stress_MPa": 210.59030222472109,
+          "torsional_shear_stress_MPa": 1.000780235453931
+        }
+      ],
+      "equilibrium_residual": 2.0040002335513985e-12,
+      "strength_pass": null
+    },
+    {
+      "name": "Vertikallast400N",
+      "E_Pa": 140000000000.0,
+      "G_Pa": 10000000000.0,
+      "load_global_force_N": [
+        0,
+        0,
+        400
+      ],
+      "load_global_moment_Nm": [
+        0,
+        0,
+        0
+      ],
+      "hub_translation_mm": [
+        -0.509851599083368,
+        -0.509851599083374,
+        7.362497242667675
+      ],
+      "hub_rotation_deg": [
+        1.1262230765972763,
+        -1.1262230765972674,
+        3.7087224568913014e-16
+      ],
+      "translation_magnitude_mm": 7.397720118689599,
+      "rotation_magnitude_deg": 1.5927199491814152,
+      "rods": [
+        {
+          "side": -1,
+          "free_length_mm": 317.0,
+          "local_tip_force_N": [
+            5.218009461400495,
+            0.5072630597426429,
+            199.9319256247411
+          ],
+          "local_root_moment_Nm": [
+            -0.6465055414991588,
+            -77.5553786073796,
+            0.1973792411481224
+          ],
+          "peak_axial_plus_bending_stress_MPa": 206.6460168240377,
+          "torsional_shear_stress_MPa": 0.8610535402682031
+        },
+        {
+          "side": 1,
+          "free_length_mm": 317.0,
+          "local_tip_force_N": [
+            5.218009461407721,
+            -0.5072630597437975,
+            199.93192562474303
+          ],
+          "local_root_moment_Nm": [
+            0.6465055414992043,
+            -77.55537860737986,
+            -0.1973792411482926
+          ],
+          "peak_axial_plus_bending_stress_MPa": 206.64601682403853,
+          "torsional_shear_stress_MPa": 0.8610535402682742
+        }
+      ],
+      "equilibrium_residual": 8.046846356725823e-12,
+      "strength_pass": null
+    },
+    {
+      "name": "Motorreaktion20Nm",
+      "E_Pa": 140000000000.0,
+      "G_Pa": 10000000000.0,
+      "load_global_force_N": [
+        0,
+        0,
+        0
+      ],
+      "load_global_moment_Nm": [
+        0,
+        0,
+        20
+      ],
+      "hub_translation_mm": [
+        0.018066842226282343,
+        -0.018066842226282454,
+        5.558875286952235e-16
+      ],
+      "hub_rotation_deg": [
+        0.017592455961466306,
+        0.017592455961466122,
+        0.024277036446041067
+      ],
+      "translation_magnitude_mm": 0.02555037330566349,
+      "rotation_magnitude_deg": 0.03476152344352391,
+      "rods": [
+        {
+          "side": -1,
+          "free_length_mm": 317.0,
+          "local_tip_force_N": [
+            226.04980365130075,
+            -22.313028944598628,
+            -3.5561201492545993
+          ],
+          "local_root_moment_Nm": [
+            0.10491111006262488,
+            0.49292909383682226,
+            -2.8528506815777326
+          ],
+          "peak_axial_plus_bending_stress_MPa": 13.961108352775874,
+          "torsional_shear_stress_MPa": 0.13972669518565564
+        },
+        {
+          "side": 1,
+          "free_length_mm": 317.0,
+          "local_tip_force_N": [
+            -226.0498036513006,
+            -22.313028944598628,
+            3.5561201492546135
+          ],
+          "local_root_moment_Nm": [
+            0.10491111006262498,
+            -0.49292909383683287,
+            -2.852850681577741
+          ],
+          "peak_axial_plus_bending_stress_MPa": 13.961108352775865,
+          "torsional_shear_stress_MPa": 0.1397266951856558
+        }
+      ],
+      "equilibrium_residual": 8.993506153459956e-14,
+      "strength_pass": null
+    },
+    {
+      "name": "Kombiniert400N20Nm",
+      "E_Pa": 140000000000.0,
+      "G_Pa": 10000000000.0,
+      "load_global_force_N": [
+        0,
+        0,
+        400
+      ],
+      "load_global_moment_Nm": [
+        0,
+        0,
+        20
+      ],
+      "hub_translation_mm": [
+        -0.49178475685708567,
+        -0.5279184413096564,
+        7.3624972426676765
+      ],
+      "hub_rotation_deg": [
+        1.1438155325587427,
+        -1.1086306206358012,
+        0.024277036446041438
+      ],
+      "translation_magnitude_mm": 7.3977642417179625,
+      "rotation_magnitude_deg": 1.5930992436231222,
+      "rods": [
+        {
+          "side": -1,
+          "free_length_mm": 317.0,
+          "local_tip_force_N": [
+            231.267813112694,
+            -21.805765884855948,
+            196.37580547548706
+          ],
+          "local_root_moment_Nm": [
+            -0.5415944314365352,
+            -77.06244951354289,
+            -2.655471440429599
+          ],
+          "peak_axial_plus_bending_stress_MPa": 208.04709188761646,
+          "torsional_shear_stress_MPa": 0.7213268450825476
+        },
+        {
+          "side": 1,
+          "free_length_mm": 317.0,
+          "local_tip_force_N": [
+            -220.83179418989528,
+            -22.820292004342424,
+            203.48804577399815
+          ],
+          "local_root_moment_Nm": [
+            0.7514166515618348,
+            -78.04830770121681,
+            -3.0502299227260226
+          ],
+          "peak_axial_plus_bending_stress_MPa": 210.59030222472109,
+          "torsional_shear_stress_MPa": 1.000780235453931
+        }
+      ],
+      "equilibrium_residual": 2.0040002335513985e-12,
+      "strength_pass": null
+    }
+  ],
+  "actual_material_data_verified": false,
+  "allowable_stresses_MPa": null,
+  "allowable_deflection_mm": null,
+  "strength_release": false,
+  "full_frame_model": false,
+  "scope": "Only the two free CFK spans,cut length387mm minus2x35mm grips,with actual motor-node eccentricity. Equivalent isotropic E/G are assumptions,not laminate data.400N and20Nm are comparison loads,not measured demands or approved operating limits. No global-frame/joint compliance,clamp slip/crushing,anisotropic laminate failure,local buckling,fatigue,dynamic amplification,thermal effects or safety factors. Both E and G doubled in second sensitivity case; no acceptable-deflection criterion specified."
+}

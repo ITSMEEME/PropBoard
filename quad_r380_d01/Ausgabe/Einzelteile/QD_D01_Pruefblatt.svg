@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297"><style>text{font-family:DejaVu Sans,sans-serif;fill:#17384b}.d{font-size:3.2px}.n{font-size:3px}.l{stroke:#416275;stroke-width:.2;fill:none}</style><rect x="7" y="7" width="406" height="283" fill="white" stroke="#17384b" stroke-width=".3"/><text x="15" y="18" font-size="6">QD_D01 · Personendeck 620×360×5</text><text x="15" y="26" font-size="3.8">D01 · Bauteilprüfblatt · Maße in mm · keine Fertigungsfreigabe</text><text x="18" y="38" font-size="3.8">Draufsicht · Skalierung 0.1</text><g transform="translate(49.0,63.0) scale(0.1)"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="0.25"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M -298 -180 L 298 -180 " />
+<path d="M-310 -168 A12 12 0 0 1 -298 -180" /><path d="M298 -180 A12 12 0 0 1 310 -168" /><path id= "4" d=" M -310 168 L -310 -168 " />
+<path id= "5" d=" M 310 -168 L 310 168 " />
+<path d="M-298 180 A12 12 0 0 1 -310 168" /><path d="M310 168 A12 12 0 0 1 298 180" /><path id= "8" d=" M 298 180 L -298 180 " />
+<circle cx ="-270" cy ="-70" r ="2.75" /><circle cx ="-210" cy ="-70" r ="2.75" /><circle cx ="-150" cy ="-70" r ="2.75" /><circle cx ="0" cy ="-70" r ="2.75" /><circle cx ="150" cy ="-70" r ="2.75" /><circle cx ="210" cy ="-70" r ="2.75" /><circle cx ="270" cy ="-70" r ="2.75" /><circle cx ="-270" cy ="70" r ="2.75" /><circle cx ="-210" cy ="70" r ="2.75" /><circle cx ="-150" cy ="70" r ="2.75" /><circle cx ="0" cy ="70" r ="2.75" /><circle cx ="150" cy ="70" r ="2.75" /><circle cx ="210" cy ="70" r ="2.75" /><circle cx ="270" cy ="70" r ="2.75" /></g>
+</g><path class="l" d="M 18 84.0 v 6 M 80.0 84.0 v 6 M 18 88.0 H 80.0"/><text class="d" x="49.0" y="93.0" text-anchor="middle">620.000</text><text x="150" y="38" font-size="3.8">Vorderansicht · Skalierung 0.1</text><g transform="translate(181.0,45.0) scale(0.1)"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="0.25"
+   transform="scale(1, -1)"
+  >
+<path d="M-298, 1.9984e-14 L-299.344, 1.99756e-14  L-300.67, 1.99506e-14  L-301.963, 1.99093e-14  L-303.207, 1.98521e-14  L-304.384, 1.97798e-14  L-305.482, 1.96934e-14  L-306.485, 1.95938e-14  L-307.382, 1.94824e-14  L-308.161, 1.93606e-14  L-308.812, 1.92298e-14  L-309.327, 1.90918e-14  L-309.699, 1.89482e-14  L-309.925, 1.88009e-14  L-310, 1.86517e-14 " /><path d="M310, 1.86517e-14 L309.925, 1.88009e-14  L309.699, 1.89482e-14  L309.327, 1.90918e-14  L308.812, 1.92298e-14  L308.161, 1.93606e-14  L307.382, 1.94824e-14  L306.485, 1.95938e-14  L305.482, 1.96934e-14  L304.384, 1.97798e-14  L303.207, 1.98521e-14  L301.963, 1.99093e-14  L300.67, 1.99506e-14  L299.344, 1.99756e-14  L298, 1.9984e-14 " /><path id= "3" d=" M 298 1.9984e-14 L -298 1.9984e-14 " />
+<path d="M-298, -5 L-299.344, -5  L-300.67, -5  L-301.963, -5  L-303.207, -5  L-304.384, -5  L-305.482, -5  L-306.485, -5  L-307.382, -5  L-308.161, -5  L-308.812, -5  L-309.327, -5  L-309.699, -5  L-309.925, -5  L-310, -5 " /><path d="M310, -5 L309.925, -5  L309.699, -5  L309.327, -5  L308.812, -5  L308.161, -5  L307.382, -5  L306.485, -5  L305.482, -5  L304.384, -5  L303.207, -5  L301.963, -5  L300.67, -5  L299.344, -5  L298, -5 " /><path id= "6" d=" M 298 -5 L -298 -5 " />
+<path id= "7" d=" M -310 1.86517e-14 L -310 -5 " />
+<path id= "8" d=" M 310 1.86517e-14 L 310 -5 " />
+</g>
+</g><path class="l" d="M 150 48.50000000000001 v 6 M 212.0 48.50000000000001 v 6 M 150 52.50000000000001 H 212.0"/><text class="d" x="181.0" y="57.50000000000001" text-anchor="middle">620.000</text><text x="282" y="38" font-size="3.8">Seitenansicht · Skalierung 0.2</text><g transform="translate(282.0,81.0) scale(0.2)"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="0.25"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M -3.30846e-14 -180 L 5 -180 " />
+<path d="M-3.44169e-14, -168 L-3.44085e-14, -169.344  L-3.43835e-14, -170.67  L-3.43422e-14, -171.963  L-3.4285e-14, -173.207  L-3.42127e-14, -174.384  L-3.41263e-14, -175.482  L-3.40267e-14, -176.485  L-3.39153e-14, -177.382  L-3.37935e-14, -178.161  L-3.36627e-14, -178.812  L-3.35247e-14, -179.327  L-3.33811e-14, -179.699  L-3.32338e-14, -179.925  L-3.30846e-14, -180 " /><path d="M5, -168 L5, -169.344  L5, -170.67  L5, -171.963  L5, -173.207  L5, -174.384  L5, -175.482  L5, -176.485  L5, -177.382  L5, -178.161  L5, -178.812  L5, -179.327  L5, -179.699  L5, -179.925  L5, -180 " /><path id= "4" d=" M -3.44169e-14 168 L -3.44169e-14 -168 " />
+<path d="M-3.30846e-14, 180 L-3.32338e-14, 179.925  L-3.33811e-14, 179.699  L-3.35247e-14, 179.327  L-3.36627e-14, 178.812  L-3.37935e-14, 178.161  L-3.39153e-14, 177.382  L-3.40267e-14, 176.485  L-3.41263e-14, 175.482  L-3.42127e-14, 174.384  L-3.4285e-14, 173.207  L-3.43422e-14, 171.963  L-3.43835e-14, 170.67  L-3.44085e-14, 169.344  L-3.44169e-14, 168 " /><path id= "6" d=" M 5 168 L 5 -168 " />
+<path d="M5, 180 L5, 179.925  L5, 179.699  L5, 179.327  L5, 178.812  L5, 178.161  L5, 177.382  L5, 176.485  L5, 175.482  L5, 174.384  L5, 173.207  L5, 171.963  L5, 170.67  L5, 169.344  L5, 168 " /><path id= "8" d=" M -3.30846e-14 180 L 5 180 " />
+</g>
+</g><path class="l" d="M 282 120.0 v 6 M 283.0 120.0 v 6 M 282 124.0 H 283.0"/><text class="d" x="282.5" y="129.0" text-anchor="middle">5.000</text><text class="n" x="15" y="211">Werkstoff: EN AW-6082 T6; EN10204-3.1 erforderlich.</text><text class="n" x="15" y="216">CAD-Masse: 3.0070 kg bei angenommener Dichte 2700 kg/m³.</text><text class="n" x="15" y="221">Native Historie: 4 Features; 2/2 Skizzen vollständig festgelegt.</text><text class="n" x="15" y="226">Entgraten 0.2–0.5 mm; Ra3.2, Kontaktflächen Ra1.6 als Vorschlag; Freigabe offen.</text><text class="n" x="15" y="246">14× Ø5.5 · Tiefe 5 / PD_QD_D01_Deckbohrungen_M5</text><text class="n" x="15" y="285">Vollständige Bohrungskoordinaten und Gewindeattribute: Bauteilpruefdaten.json / native Skizzen.</text></svg>

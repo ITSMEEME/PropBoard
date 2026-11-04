@@ -1,0 +1,221 @@
+{
+  "passed": true,
+  "native_sha256": "9842c83362c6117f37fd90cb0bbee737e61358ddb5fb1b0d7577e726e2674d18",
+  "base_native_sha256": "24654103604746400507bbf8b128e5eda0ca6f6fdcbbe954ea5d26612714f4a0",
+  "unchanged_inventory_and_link_placement_count": 856,
+  "unchanged_prototype_metric_count": 38,
+  "actual_native_motor_reference_datum_corrected_count": 4,
+  "prototype_metric_checks": [
+    {
+      "part": "CFK_KLEMM_A",
+      "maximum_geometry_metric_delta": 0.0,
+      "topology_counts_equal": true
+    },
+    {
+      "part": "CFK_KLEMM_B",
+      "maximum_geometry_metric_delta": 0.0,
+      "topology_counts_equal": true
+    },
+    {
+      "part": "CFK_FILM",
+      "maximum_geometry_metric_delta": 0.0,
+      "topology_counts_equal": true
+    },
+    {
+      "part": "D02_ROOT",
+      "maximum_geometry_metric_delta": 0.0,
+      "topology_counts_equal": true
+    },
+    {
+      "part": "D02_ARM_TUBE",
+      "maximum_geometry_metric_delta": 0.0,
+      "topology_counts_equal": true
+    },
+    {
+      "part": "ISO4762_M4x16",
+      "maximum_geometry_metric_delta": 0.0,
+      "topology_counts_equal": true
+    },
+    {
+      "part": "ISO4762_M6x20",
+      "maximum_geometry_metric_delta": 0.0,
+      "topology_counts_equal": true
+    },
+    {
+      "part": "ISO7089_M6",
+      "maximum_geometry_metric_delta": 0.0,
+      "topology_counts_equal": true
+    },
+    {
+      "part": "D02_RAIL",
+      "maximum_geometry_metric_delta": 0.0,
+      "topology_counts_equal": true
+    },
+    {
+      "part": "D02_SLIDER_TOP",
+      "maximum_geometry_metric_delta": 0.0,
+      "topology_counts_equal": true
+    },
+    {
+      "part": "D02_SLIDER_BOTTOM",
+      "maximum_geometry_metric_delta": 0.0,
+      "topology_counts_equal": true
+    },
+    {
+      "part": "D02_SLIDER_FILM",
+      "maximum_geometry_metric_delta": 0.0,
+      "topology_counts_equal": true
+    },
+    {
+      "part": "D02_FOOT",
+      "maximum_geometry_metric_delta": 0.0,
+      "topology_counts_equal": true
+    },
+    {
+      "part": "ISO7089_M5",
+      "maximum_geometry_metric_delta": 0.0,
+      "topology_counts_equal": true
+    },
+    {
+      "part": "ISO7719_M5",
+      "maximum_geometry_metric_delta": 0.0,
+      "topology_counts_equal": true
+    },
+    {
+      "part": "ISO7719_M6",
+      "maximum_geometry_metric_delta": 0.0,
+      "topology_counts_equal": true
+    },
+    {
+      "part": "D03_INDEX_RACK",
+      "maximum_geometry_metric_delta": 0.0,
+      "topology_counts_equal": true
+    },
+    {
+      "part": "ISO7089_M4",
+      "maximum_geometry_metric_delta": 0.0,
+      "topology_counts_equal": true
+    },
+    {
+      "part": "ISO10642_M5x50",
+      "maximum_geometry_metric_delta": 0.0,
+      "topology_counts_equal": true
+    },
+    {
+      "part": "D04_CORE_BOTTOM",
+      "maximum_geometry_metric_delta": 0.0,
+      "topology_counts_equal": true
+    },
+    {
+      "part": "D04_CORE_TOP",
+      "maximum_geometry_metric_delta": 0.0,
+      "topology_counts_equal": true
+    },
+    {
+      "part": "D04_TUBE_RING",
+      "maximum_geometry_metric_delta": 0.0,
+      "topology_counts_equal": true
+    },
+    {
+      "part": "ISO4762_M4x10",
+      "maximum_geometry_metric_delta": 0.0,
+      "topology_counts_equal": true
+    },
+    {
+      "part": "D04_TUBE_VERTICAL",
+      "maximum_geometry_metric_delta": 0.0,
+      "topology_counts_equal": true
+    },
+    {
+      "part": "D04_SADDLE_TOP_M1",
+      "maximum_geometry_metric_delta": 3.903127820947816e-18,
+      "topology_counts_equal": true
+    },
+    {
+      "part": "D04_SADDLE_BOTTOM_M1",
+      "maximum_geometry_metric_delta": 0.0,
+      "topology_counts_equal": true
+    },
+    {
+      "part": "D04_SADDLE_FILM",
+      "maximum_geometry_metric_delta": 0.0,
+      "topology_counts_equal": true
+    },
+    {
+      "part": "ISO4762_M6x45",
+      "maximum_geometry_metric_delta": 0.0,
+      "topology_counts_equal": true
+    },
+    {
+      "part": "D04_SADDLE_TOP_1",
+      "maximum_geometry_metric_delta": 1.0191500421363742e-17,
+      "topology_counts_equal": true
+    },
+    {
+      "part": "D04_SADDLE_BOTTOM_1",
+      "maximum_geometry_metric_delta": 0.0,
+      "topology_counts_equal": true
+    },
+    {
+      "part": "D04_HIGH_M_M",
+      "maximum_geometry_metric_delta": 0.0,
+      "topology_counts_equal": true
+    },
+    {
+      "part": "D04_TUBE_STAY",
+      "maximum_geometry_metric_delta": 0.0,
+      "topology_counts_equal": true
+    },
+    {
+      "part": "D04_HIGH_M_P",
+      "maximum_geometry_metric_delta": 0.0,
+      "topology_counts_equal": true
+    },
+    {
+      "part": "D04_HIGH_P_M",
+      "maximum_geometry_metric_delta": 0.0,
+      "topology_counts_equal": true
+    },
+    {
+      "part": "D04_HIGH_P_P",
+      "maximum_geometry_metric_delta": 0.0,
+      "topology_counts_equal": true
+    },
+    {
+      "part": "D05_MOTOR_PLATE",
+      "maximum_geometry_metric_delta": 0.0,
+      "topology_counts_equal": true
+    },
+    {
+      "part": "D05_MN1330_LEGACY_REF",
+      "maximum_geometry_metric_delta": 0.0,
+      "topology_counts_equal": true
+    },
+    {
+      "part": "ISO4762_M6x12",
+      "maximum_geometry_metric_delta": 0.0,
+      "topology_counts_equal": true
+    }
+  ],
+  "inherited_proofs": [
+    {
+      "file": "quad_r380_d05/Ausgabe/Gewindepruefung.json",
+      "sha256": "89c84fb15b577fd8f24286e9327c1df602de73e7e1e84d01142d9dc7581eef9f",
+      "native_sha256": "24654103604746400507bbf8b128e5eda0ca6f6fdcbbe954ea5d26612714f4a0",
+      "rerun_for_D06": false
+    },
+    {
+      "file": "quad_r380_d05/Ausgabe/Bauraum_Pruefung.json",
+      "sha256": "f369e3ea87bb3daa05b1f4996dcff86b530c6d560ad736550b5dab4da51683c0",
+      "native_sha256": "24654103604746400507bbf8b128e5eda0ca6f6fdcbbe954ea5d26612714f4a0",
+      "rerun_for_D06": false
+    },
+    {
+      "file": "quad_r380_d05/Ausgabe/Motor_Montage_Pruefung.json",
+      "sha256": "5a3d4cf1ed14412e98bee0d149f34a38c4788020b62129633876c9a3206e2444",
+      "native_sha256": "24654103604746400507bbf8b128e5eda0ca6f6fdcbbe954ea5d26612714f4a0",
+      "rerun_for_D06": false
+    }
+  ],
+  "scope": "D05 row data, link placement properties, masses and local master geometry metrics unchanged. Four actual native motor-reference positions are corrected by baking the formerly ignored -14mm master transform; previous D05 motor-clearance/motor-tool checks are superseded by D06. All corrected motors are checked versus fixed neighbors; motor/foot systems are separated in Z. Metrics are not a new full Boolean shape equivalence proof. Previous202 structural thread results retain original D05 hashes, with motor internal threads excluded. D06 checks new propeller interactions and72 tool corridors."
+}

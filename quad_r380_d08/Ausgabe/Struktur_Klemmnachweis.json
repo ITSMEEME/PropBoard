@@ -1,0 +1,3760 @@
+{
+  "cases": [
+    {
+      "variant": "V1",
+      "E_GPa": 50.0,
+      "G_GPa": 3.0,
+      "total_mass_kg": 150,
+      "thrust_factor": 1,
+      "load": [
+        0.0,
+        0.0,
+        367.875,
+        0.0,
+        0.0,
+        20.114169277563988
+      ],
+      "hub_translation_mm": [
+        -0.8508982134284634,
+        1.5508085357686627,
+        8.130139754483347
+      ],
+      "hub_rotation_deg": [
+        0.0,
+        -1.62509588082243,
+        0.36213962266184346
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 348.6396103067892,
+          "root_force_N": [
+            0.0,
+            5.684341886080802e-14,
+            367.875
+          ],
+          "root_moment_Nm": [
+            0.0,
+            -154.38991770126088,
+            20.11416927756398
+          ],
+          "axial_bending_stress_MPa": 122.78811962870844,
+          "torsional_shear_MPa": 0.0,
+          "projected_bearing_pressure_screen_MPa": 22.088479820462265,
+          "friction_resultant_demand_N": 0.0,
+          "required_normal_force_N_by_mu": {
+            "0.1": 0.0,
+            "0.2": 0.0,
+            "0.3": 0.0
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 2.3437142008433856e-13
+    },
+    {
+      "variant": "V1",
+      "E_GPa": 50.0,
+      "G_GPa": 3.0,
+      "total_mass_kg": 175,
+      "thrust_factor": 1,
+      "load": [
+        0.0,
+        0.0,
+        429.1875,
+        0.0,
+        0.0,
+        23.466530823824648
+      ],
+      "hub_translation_mm": [
+        -0.9927145823332073,
+        1.8092766250634393,
+        9.485163046897238
+      ],
+      "hub_rotation_deg": [
+        0.0,
+        -1.8959451942928351,
+        0.4224962264388173
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 348.6396103067892,
+          "root_force_N": [
+            -3.637978807091713e-12,
+            0.0,
+            429.1875
+          ],
+          "root_moment_Nm": [
+            0.0,
+            -180.12157065147102,
+            23.466530823824627
+          ],
+          "axial_bending_stress_MPa": 143.25280623349317,
+          "torsional_shear_MPa": 0.0,
+          "projected_bearing_pressure_screen_MPa": 25.769893123872638,
+          "friction_resultant_demand_N": 3.637978807091713e-12,
+          "required_normal_force_N_by_mu": {
+            "0.1": 3.637978807091713e-11,
+            "0.2": 1.8189894035458565e-11,
+            "0.3": 1.2126596023639044e-11
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 3.6379857459789994e-12
+    },
+    {
+      "variant": "V1",
+      "E_GPa": 50.0,
+      "G_GPa": 3.0,
+      "total_mass_kg": 175,
+      "thrust_factor": 1.5,
+      "load": [
+        0.0,
+        0.0,
+        643.78125,
+        0.0,
+        0.0,
+        35.19979623573697
+      ],
+      "hub_translation_mm": [
+        -1.489071873499811,
+        2.713914937595159,
+        14.227744570345855
+      ],
+      "hub_rotation_deg": [
+        0.0,
+        -2.8439177914392526,
+        0.6337443396582259
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 348.6396103067892,
+          "root_force_N": [
+            0.0,
+            0.0,
+            643.78125
+          ],
+          "root_moment_Nm": [
+            0.0,
+            -270.1823559772065,
+            35.199796235736954
+          ],
+          "axial_bending_stress_MPa": 214.87920935023976,
+          "torsional_shear_MPa": 0.0,
+          "projected_bearing_pressure_screen_MPa": 38.65483968580896,
+          "friction_resultant_demand_N": 0.0,
+          "required_normal_force_N_by_mu": {
+            "0.1": 0.0,
+            "0.2": 0.0,
+            "0.3": 0.0
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 4.549693413077341e-13
+    },
+    {
+      "variant": "V1",
+      "E_GPa": 50.0,
+      "G_GPa": 3.0,
+      "total_mass_kg": 200,
+      "thrust_factor": 2,
+      "load": [
+        0.0,
+        0.0,
+        981.0,
+        0.0,
+        0.0,
+        53.637784740170595
+      ],
+      "hub_translation_mm": [
+        -2.2690619024759022,
+        4.135489428716431,
+        21.68037267862226
+      ],
+      "hub_rotation_deg": [
+        0.0,
+        -4.33358901552648,
+        0.9657056604315818
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 348.6396103067892,
+          "root_force_N": [
+            0.0,
+            0.0,
+            981.0000000000009
+          ],
+          "root_moment_Nm": [
+            0.0,
+            -411.70644720336276,
+            53.6377847401705
+          ],
+          "axial_bending_stress_MPa": 327.43498567655615,
+          "torsional_shear_MPa": 0.0,
+          "projected_bearing_pressure_screen_MPa": 58.90261285456609,
+          "friction_resultant_demand_N": 0.0,
+          "required_normal_force_N_by_mu": {
+            "0.1": 0.0,
+            "0.2": 0.0,
+            "0.3": 0.0
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 1.017491243322306e-12
+    },
+    {
+      "variant": "V1",
+      "E_GPa": 70.0,
+      "G_GPa": 5.0,
+      "total_mass_kg": 150,
+      "thrust_factor": 1,
+      "load": [
+        0.0,
+        0.0,
+        367.875,
+        0.0,
+        0.0,
+        20.114169277563988
+      ],
+      "hub_translation_mm": [
+        -0.6077844381631913,
+        1.1077203826919035,
+        5.807242681773846
+      ],
+      "hub_rotation_deg": [
+        0.0,
+        -1.1607827720160275,
+        0.25867115904417426
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 348.6396103067892,
+          "root_force_N": [
+            0.0,
+            0.0,
+            367.875
+          ],
+          "root_moment_Nm": [
+            0.0,
+            -154.38991770126128,
+            20.114169277563988
+          ],
+          "axial_bending_stress_MPa": 122.78811962870877,
+          "torsional_shear_MPa": 0.0,
+          "projected_bearing_pressure_screen_MPa": 22.08847982046232,
+          "friction_resultant_demand_N": 0.0,
+          "required_normal_force_N_by_mu": {
+            "0.1": 0.0,
+            "0.2": 0.0,
+            "0.3": 0.0
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 1.432144669219779e-14
+    },
+    {
+      "variant": "V1",
+      "E_GPa": 70.0,
+      "G_GPa": 5.0,
+      "total_mass_kg": 175,
+      "thrust_factor": 1,
+      "load": [
+        0.0,
+        0.0,
+        429.1875,
+        0.0,
+        0.0,
+        23.466530823824648
+      ],
+      "hub_translation_mm": [
+        -0.709081844523723,
+        1.2923404464738868,
+        6.7751164620694855
+      ],
+      "hub_rotation_deg": [
+        0.0,
+        -1.3542465673520319,
+        0.30178301888486986
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 348.6396103067892,
+          "root_force_N": [
+            0.0,
+            0.0,
+            429.1875
+          ],
+          "root_moment_Nm": [
+            0.0,
+            -180.1215706514716,
+            23.466530823824655
+          ],
+          "axial_bending_stress_MPa": 143.25280623349366,
+          "torsional_shear_MPa": 0.0,
+          "projected_bearing_pressure_screen_MPa": 25.769893123872723,
+          "friction_resultant_demand_N": 0.0,
+          "required_normal_force_N_by_mu": {
+            "0.1": 0.0,
+            "0.2": 0.0,
+            "0.3": 0.0
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 4.561468539419012e-13
+    },
+    {
+      "variant": "V1",
+      "E_GPa": 70.0,
+      "G_GPa": 5.0,
+      "total_mass_kg": 175,
+      "thrust_factor": 1.5,
+      "load": [
+        0.0,
+        0.0,
+        643.78125,
+        0.0,
+        0.0,
+        35.19979623573697
+      ],
+      "hub_translation_mm": [
+        -1.0636227667855844,
+        1.9385106697108303,
+        10.162674693104227
+      ],
+      "hub_rotation_deg": [
+        0.0,
+        -2.031369851028048,
+        0.4526745283273047
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 348.6396103067892,
+          "root_force_N": [
+            0.0,
+            0.0,
+            643.7812499999995
+          ],
+          "root_moment_Nm": [
+            0.0,
+            -270.18235597720724,
+            35.19979623573698
+          ],
+          "axial_bending_stress_MPa": 214.87920935024033,
+          "torsional_shear_MPa": 0.0,
+          "projected_bearing_pressure_screen_MPa": 38.65483968580906,
+          "friction_resultant_demand_N": 0.0,
+          "required_normal_force_N_by_mu": {
+            "0.1": 0.0,
+            "0.2": 0.0,
+            "0.3": 0.0
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 1.0169514913984367e-12
+    },
+    {
+      "variant": "V1",
+      "E_GPa": 70.0,
+      "G_GPa": 5.0,
+      "total_mass_kg": 200,
+      "thrust_factor": 2,
+      "load": [
+        0.0,
+        0.0,
+        981.0,
+        0.0,
+        0.0,
+        53.637784740170595
+      ],
+      "hub_translation_mm": [
+        -1.62075850176851,
+        2.95392102051174,
+        15.485980484730254
+      ],
+      "hub_rotation_deg": [
+        0.0,
+        -3.0954207253760733,
+        0.6897897574511307
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 348.6396103067892,
+          "root_force_N": [
+            0.0,
+            0.0,
+            981.0
+          ],
+          "root_moment_Nm": [
+            0.0,
+            -411.7064472033634,
+            53.63778474017059
+          ],
+          "axial_bending_stress_MPa": 327.4349856765567,
+          "torsional_shear_MPa": 0.0,
+          "projected_bearing_pressure_screen_MPa": 58.902612854566186,
+          "friction_resultant_demand_N": 0.0,
+          "required_normal_force_N_by_mu": {
+            "0.1": 0.0,
+            "0.2": 0.0,
+            "0.3": 0.0
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 7.8482010346102e-14
+    },
+    {
+      "variant": "V1",
+      "E_GPa": 140.0,
+      "G_GPa": 10.0,
+      "total_mass_kg": 150,
+      "thrust_factor": 1,
+      "load": [
+        0.0,
+        0.0,
+        367.875,
+        0.0,
+        0.0,
+        20.114169277563988
+      ],
+      "hub_translation_mm": [
+        -0.30389221908159564,
+        0.5538601913459518,
+        2.903621340886923
+      ],
+      "hub_rotation_deg": [
+        0.0,
+        -0.5803913860080138,
+        0.12933557952208713
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 348.6396103067892,
+          "root_force_N": [
+            0.0,
+            0.0,
+            367.875
+          ],
+          "root_moment_Nm": [
+            0.0,
+            -154.38991770126128,
+            20.114169277563988
+          ],
+          "axial_bending_stress_MPa": 122.78811962870877,
+          "torsional_shear_MPa": 0.0,
+          "projected_bearing_pressure_screen_MPa": 22.08847982046232,
+          "friction_resultant_demand_N": 0.0,
+          "required_normal_force_N_by_mu": {
+            "0.1": 0.0,
+            "0.2": 0.0,
+            "0.3": 0.0
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 1.432144669219779e-14
+    },
+    {
+      "variant": "V1",
+      "E_GPa": 140.0,
+      "G_GPa": 10.0,
+      "total_mass_kg": 175,
+      "thrust_factor": 1,
+      "load": [
+        0.0,
+        0.0,
+        429.1875,
+        0.0,
+        0.0,
+        23.466530823824648
+      ],
+      "hub_translation_mm": [
+        -0.3545409222618615,
+        0.6461702232369434,
+        3.3875582310347427
+      ],
+      "hub_rotation_deg": [
+        0.0,
+        -0.6771232836760159,
+        0.15089150944243493
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 348.6396103067892,
+          "root_force_N": [
+            0.0,
+            0.0,
+            429.1875
+          ],
+          "root_moment_Nm": [
+            0.0,
+            -180.1215706514716,
+            23.466530823824655
+          ],
+          "axial_bending_stress_MPa": 143.25280623349366,
+          "torsional_shear_MPa": 0.0,
+          "projected_bearing_pressure_screen_MPa": 25.769893123872723,
+          "friction_resultant_demand_N": 0.0,
+          "required_normal_force_N_by_mu": {
+            "0.1": 0.0,
+            "0.2": 0.0,
+            "0.3": 0.0
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 4.561468539419012e-13
+    },
+    {
+      "variant": "V1",
+      "E_GPa": 140.0,
+      "G_GPa": 10.0,
+      "total_mass_kg": 175,
+      "thrust_factor": 1.5,
+      "load": [
+        0.0,
+        0.0,
+        643.78125,
+        0.0,
+        0.0,
+        35.19979623573697
+      ],
+      "hub_translation_mm": [
+        -0.5318113833927922,
+        0.9692553348554152,
+        5.081337346552114
+      ],
+      "hub_rotation_deg": [
+        0.0,
+        -1.015684925514024,
+        0.22633726416365235
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 348.6396103067892,
+          "root_force_N": [
+            0.0,
+            0.0,
+            643.7812499999995
+          ],
+          "root_moment_Nm": [
+            0.0,
+            -270.18235597720724,
+            35.19979623573698
+          ],
+          "axial_bending_stress_MPa": 214.87920935024033,
+          "torsional_shear_MPa": 0.0,
+          "projected_bearing_pressure_screen_MPa": 38.65483968580906,
+          "friction_resultant_demand_N": 0.0,
+          "required_normal_force_N_by_mu": {
+            "0.1": 0.0,
+            "0.2": 0.0,
+            "0.3": 0.0
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 1.0169514913984367e-12
+    },
+    {
+      "variant": "V1",
+      "E_GPa": 140.0,
+      "G_GPa": 10.0,
+      "total_mass_kg": 200,
+      "thrust_factor": 2,
+      "load": [
+        0.0,
+        0.0,
+        981.0,
+        0.0,
+        0.0,
+        53.637784740170595
+      ],
+      "hub_translation_mm": [
+        -0.810379250884255,
+        1.47696051025587,
+        7.742990242365127
+      ],
+      "hub_rotation_deg": [
+        0.0,
+        -1.5477103626880366,
+        0.34489487872556535
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 348.6396103067892,
+          "root_force_N": [
+            0.0,
+            0.0,
+            981.0
+          ],
+          "root_moment_Nm": [
+            0.0,
+            -411.7064472033634,
+            53.63778474017059
+          ],
+          "axial_bending_stress_MPa": 327.4349856765567,
+          "torsional_shear_MPa": 0.0,
+          "projected_bearing_pressure_screen_MPa": 58.902612854566186,
+          "friction_resultant_demand_N": 0.0,
+          "required_normal_force_N_by_mu": {
+            "0.1": 0.0,
+            "0.2": 0.0,
+            "0.3": 0.0
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 7.8482010346102e-14
+    },
+    {
+      "variant": "V2",
+      "E_GPa": 50.0,
+      "G_GPa": 3.0,
+      "total_mass_kg": 150,
+      "thrust_factor": 1,
+      "load": [
+        0.0,
+        0.0,
+        367.875,
+        0.0,
+        0.0,
+        20.114169277563988
+      ],
+      "hub_translation_mm": [
+        -0.08832561330282011,
+        4.464947908961214,
+        1.544953278881848
+      ],
+      "hub_rotation_deg": [
+        0.2669542078592596,
+        0.02452436814603026,
+        1.1023383351323202
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 348.6443876583328,
+          "root_force_N": [
+            -1315.218299174147,
+            -8.387653297342837,
+            87.67290332304043
+          ],
+          "root_moment_Nm": [
+            0.29507795045478935,
+            -15.052883957111135,
+            8.908088341445502
+          ],
+          "axial_bending_stress_MPa": 67.05840556980664,
+          "torsional_shear_MPa": 0.3930019119480548,
+          "projected_bearing_pressure_screen_MPa": 4.904047506177003,
+          "friction_resultant_demand_N": 1315.5492710084948,
+          "required_normal_force_N_by_mu": {
+            "0.1": 13155.492710084947,
+            "0.2": 6577.746355042474,
+            "0.3": 4385.164236694983
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 1,
+          "free_length_mm": 352.9173953833306,
+          "root_force_N": [
+            1340.3469514340422,
+            8.38765329734278,
+            84.6185148378193
+          ],
+          "root_moment_Nm": [
+            0.4685791264862372,
+            -14.704014238695057,
+            11.2579537929637
+          ],
+          "axial_bending_stress_MPa": 64.70370028848528,
+          "torsional_shear_MPa": 0.6240808312658243,
+          "projected_bearing_pressure_screen_MPa": 4.656716168265793,
+          "friction_resultant_demand_N": 1341.1657668596813,
+          "required_normal_force_N_by_mu": {
+            "0.1": 13411.657668596812,
+            "0.2": 6705.828834298406,
+            "0.3": 4470.552556198938
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 1.1379780586684493e-13
+    },
+    {
+      "variant": "V2",
+      "E_GPa": 50.0,
+      "G_GPa": 3.0,
+      "total_mass_kg": 175,
+      "thrust_factor": 1,
+      "load": [
+        0.0,
+        0.0,
+        429.1875,
+        0.0,
+        0.0,
+        23.466530823824648
+      ],
+      "hub_translation_mm": [
+        -0.10304654885329015,
+        5.209105893788082,
+        1.8024454920288229
+      ],
+      "hub_rotation_deg": [
+        0.3114465758358028,
+        0.0286117628370353,
+        1.2860613909877066
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 348.6443876583328,
+          "root_force_N": [
+            -1534.4213490365048,
+            -9.785595513566648,
+            102.28505387688051
+          ],
+          "root_moment_Nm": [
+            0.34425760886392076,
+            -17.561697949962987,
+            10.39276973168642
+          ],
+          "axial_bending_stress_MPa": 78.23480649810774,
+          "torsional_shear_MPa": 0.4585022306060639,
+          "projected_bearing_pressure_screen_MPa": 5.721388757206502,
+          "friction_resultant_demand_N": 1534.8074828432439,
+          "required_normal_force_N_by_mu": {
+            "0.1": 15348.074828432438,
+            "0.2": 7674.037414216219,
+            "0.3": 5116.024942810813
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 1,
+          "free_length_mm": 352.9173953833306,
+          "root_force_N": [
+            1563.7381100063824,
+            9.78559551356659,
+            98.72160064412253
+          ],
+          "root_moment_Nm": [
+            0.5466756475672767,
+            -17.15468327847758,
+            13.134279425124323
+          ],
+          "axial_bending_stress_MPa": 75.48765033656619,
+          "torsional_shear_MPa": 0.7280943031434617,
+          "projected_bearing_pressure_screen_MPa": 5.4328355296434285,
+          "friction_resultant_demand_N": 1564.6933946696279,
+          "required_normal_force_N_by_mu": {
+            "0.1": 15646.933946696277,
+            "0.2": 7823.466973348139,
+            "0.3": 5215.644648898759
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 3.649451525233263e-13
+    },
+    {
+      "variant": "V2",
+      "E_GPa": 50.0,
+      "G_GPa": 3.0,
+      "total_mass_kg": 175,
+      "thrust_factor": 1.5,
+      "load": [
+        0.0,
+        0.0,
+        643.78125,
+        0.0,
+        0.0,
+        35.19979623573697
+      ],
+      "hub_translation_mm": [
+        -0.1545698232799352,
+        7.813658840682122,
+        2.7036682380432344
+      ],
+      "hub_rotation_deg": [
+        0.4671698637537041,
+        0.04291764425555295,
+        1.9290920864815595
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 348.6443876583328,
+          "root_force_N": [
+            -2301.6320235547573,
+            -14.678393270349943,
+            153.42758081532077
+          ],
+          "root_moment_Nm": [
+            0.5163864132958812,
+            -26.34254692494449,
+            15.589154597529618
+          ],
+          "axial_bending_stress_MPa": 117.3522097471616,
+          "torsional_shear_MPa": 0.6877533459090956,
+          "projected_bearing_pressure_screen_MPa": 8.582083135809754,
+          "friction_resultant_demand_N": 2302.211224264866,
+          "required_normal_force_N_by_mu": {
+            "0.1": 23022.112242648658,
+            "0.2": 11511.056121324329,
+            "0.3": 7674.03741421622
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 1,
+          "free_length_mm": 352.9173953833306,
+          "root_force_N": [
+            2345.6071650095746,
+            14.678393270349886,
+            148.0824009661838
+          ],
+          "root_moment_Nm": [
+            0.8200134713509152,
+            -25.73202491771635,
+            19.701419137686468
+          ],
+          "axial_bending_stress_MPa": 113.23147550484923,
+          "torsional_shear_MPa": 1.0921414547151924,
+          "projected_bearing_pressure_screen_MPa": 8.149253294465138,
+          "friction_resultant_demand_N": 2347.0400920044426,
+          "required_normal_force_N_by_mu": {
+            "0.1": 23470.400920044423,
+            "0.2": 11735.200460022212,
+            "0.3": 7823.466973348142
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 2.821668893441367e-13
+    },
+    {
+      "variant": "V2",
+      "E_GPa": 50.0,
+      "G_GPa": 3.0,
+      "total_mass_kg": 200,
+      "thrust_factor": 2,
+      "load": [
+        0.0,
+        0.0,
+        981.0,
+        0.0,
+        0.0,
+        53.637784740170595
+      ],
+      "hub_translation_mm": [
+        -0.2355349688075203,
+        11.906527757229897,
+        4.119875410351595
+      ],
+      "hub_rotation_deg": [
+        0.7118778876246917,
+        0.0653983150560807,
+        2.9395688936861846
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 348.6443876583328,
+          "root_force_N": [
+            -3507.2487977977253,
+            -22.367075459580747,
+            233.79440886144118
+          ],
+          "root_moment_Nm": [
+            0.7868745345461043,
+            -40.14102388562971,
+            23.754902243854687
+          ],
+          "axial_bending_stress_MPa": 178.82241485281764,
+          "torsional_shear_MPa": 1.0480050985281453,
+          "projected_bearing_pressure_screen_MPa": 13.077460016472001,
+          "friction_resultant_demand_N": 3508.131389355986,
+          "required_normal_force_N_by_mu": {
+            "0.1": 35081.313893559854,
+            "0.2": 17540.656946779927,
+            "0.3": 11693.771297853287
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 1,
+          "free_length_mm": 352.9173953833306,
+          "root_force_N": [
+            3574.258537157447,
+            22.36707545958086,
+            225.64937290085146
+          ],
+          "root_moment_Nm": [
+            1.2495443372966324,
+            -39.210704636520134,
+            30.021210114569875
+          ],
+          "axial_bending_stress_MPa": 172.5432007692941,
+          "torsional_shear_MPa": 1.6642155500421976,
+          "projected_bearing_pressure_screen_MPa": 12.417909782042114,
+          "friction_resultant_demand_N": 3576.4420449591507,
+          "required_normal_force_N_by_mu": {
+            "0.1": 35764.420449591504,
+            "0.2": 17882.210224795752,
+            "0.3": 11921.47348319717
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 1.4716985089938802e-13
+    },
+    {
+      "variant": "V2",
+      "E_GPa": 70.0,
+      "G_GPa": 5.0,
+      "total_mass_kg": 150,
+      "thrust_factor": 1,
+      "load": [
+        0.0,
+        0.0,
+        367.875,
+        0.0,
+        0.0,
+        20.114169277563988
+      ],
+      "hub_translation_mm": [
+        -0.06308972378772855,
+        3.202095233987103,
+        1.1035380563441772
+      ],
+      "hub_rotation_deg": [
+        0.16964995374592007,
+        0.017517405818593196,
+        0.7856811746071597
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 348.6443876583328,
+          "root_force_N": [
+            -1315.2182991741463,
+            -7.46251953651057,
+            87.6729033230405
+          ],
+          "root_moment_Nm": [
+            0.31177331732661034,
+            -15.052883957111144,
+            9.045629857512141
+          ],
+          "axial_bending_stress_MPa": 66.76104108482387,
+          "torsional_shear_MPa": 0.4152377689180088,
+          "projected_bearing_pressure_screen_MPa": 4.876589291341733,
+          "friction_resultant_demand_N": 1315.587777571874,
+          "required_normal_force_N_by_mu": {
+            "0.1": 13155.87777571874,
+            "0.2": 6577.93888785937,
+            "0.3": 4385.292591906247
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 1,
+          "free_length_mm": 352.9173953833306,
+          "root_force_N": [
+            1340.3469514340413,
+            7.462519536510598,
+            84.61851483781933
+          ],
+          "root_moment_Nm": [
+            0.5187314572622912,
+            -14.704014238695075,
+            11.111570603737379
+          ],
+          "axial_bending_stress_MPa": 64.46763553846127,
+          "torsional_shear_MPa": 0.6908766113410973,
+          "projected_bearing_pressure_screen_MPa": 4.634889499326144,
+          "friction_resultant_demand_N": 1341.35035448091,
+          "required_normal_force_N_by_mu": {
+            "0.1": 13413.5035448091,
+            "0.2": 6706.75177240455,
+            "0.3": 4471.167848269701
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 1.287337946961986e-13
+    },
+    {
+      "variant": "V2",
+      "E_GPa": 70.0,
+      "G_GPa": 5.0,
+      "total_mass_kg": 175,
+      "thrust_factor": 1,
+      "load": [
+        0.0,
+        0.0,
+        429.1875,
+        0.0,
+        0.0,
+        23.466530823824648
+      ],
+      "hub_translation_mm": [
+        -0.07360467775234997,
+        3.7357777729849517,
+        1.2874610657348735
+      ],
+      "hub_rotation_deg": [
+        0.1979249460369067,
+        0.0204369734550254,
+        0.916628037041686
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 348.6443876583328,
+          "root_force_N": [
+            -1534.4213490365034,
+            -8.706272792595769,
+            102.2850538768806
+          ],
+          "root_moment_Nm": [
+            0.3637355368810452,
+            -17.561697949963,
+            10.553234833764137
+          ],
+          "axial_bending_stress_MPa": 77.88788126562785,
+          "torsional_shear_MPa": 0.48444406373767673,
+          "projected_bearing_pressure_screen_MPa": 5.689354173232022,
+          "friction_resultant_demand_N": 1534.8524071671857,
+          "required_normal_force_N_by_mu": {
+            "0.1": 15348.524071671856,
+            "0.2": 7674.262035835928,
+            "0.3": 5116.174690557285
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 1,
+          "free_length_mm": 352.9173953833306,
+          "root_force_N": [
+            1563.7381100063822,
+            8.706272792595598,
+            98.72160064412257
+          ],
+          "root_moment_Nm": [
+            0.6051867001393396,
+            -17.154683278477595,
+            12.963499037693571
+          ],
+          "axial_bending_stress_MPa": 75.21224146153811,
+          "torsional_shear_MPa": 0.80602271323128,
+          "projected_bearing_pressure_screen_MPa": 5.407371082547163,
+          "friction_resultant_demand_N": 1564.9087468943956,
+          "required_normal_force_N_by_mu": {
+            "0.1": 15649.087468943955,
+            "0.2": 7824.543734471978,
+            "0.3": 5216.362489647985
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 8.10921975650084e-14
+    },
+    {
+      "variant": "V2",
+      "E_GPa": 70.0,
+      "G_GPa": 5.0,
+      "total_mass_kg": 175,
+      "thrust_factor": 1.5,
+      "load": [
+        0.0,
+        0.0,
+        643.78125,
+        0.0,
+        0.0,
+        35.19979623573697
+      ],
+      "hub_translation_mm": [
+        -0.11040701662852494,
+        5.603666659477428,
+        1.93119159860231
+      ],
+      "hub_rotation_deg": [
+        0.29688741905536,
+        0.030655460182538098,
+        1.3749420555625287
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 348.6443876583328,
+          "root_force_N": [
+            -2301.632023554755,
+            -13.05940918889354,
+            153.42758081532088
+          ],
+          "root_moment_Nm": [
+            0.5456033053215676,
+            -26.34254692494451,
+            15.829852250646228
+          ],
+          "axial_bending_stress_MPa": 116.83182189844177,
+          "torsional_shear_MPa": 0.726666095606515,
+          "projected_bearing_pressure_screen_MPa": 8.534031259848032,
+          "friction_resultant_demand_N": 2302.2786107507786,
+          "required_normal_force_N_by_mu": {
+            "0.1": 23022.786107507785,
+            "0.2": 11511.393053753893,
+            "0.3": 7674.262035835929
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 1,
+          "free_length_mm": 352.9173953833306,
+          "root_force_N": [
+            2345.607165009573,
+            13.05940918889354,
+            148.08240096618385
+          ],
+          "root_moment_Nm": [
+            0.9077800502090089,
+            -25.732024917716362,
+            19.445248556540395
+          ],
+          "axial_bending_stress_MPa": 112.81836219230716,
+          "torsional_shear_MPa": 1.2090340698469195,
+          "projected_bearing_pressure_screen_MPa": 8.111056623820748,
+          "friction_resultant_demand_N": 2347.363120341593,
+          "required_normal_force_N_by_mu": {
+            "0.1": 23473.631203415927,
+            "0.2": 11736.815601707964,
+            "0.3": 7824.543734471977
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 2.32315965210316e-13
+    },
+    {
+      "variant": "V2",
+      "E_GPa": 70.0,
+      "G_GPa": 5.0,
+      "total_mass_kg": 200,
+      "thrust_factor": 2,
+      "load": [
+        0.0,
+        0.0,
+        981.0,
+        0.0,
+        0.0,
+        53.637784740170595
+      ],
+      "hub_translation_mm": [
+        -0.16823926343394274,
+        8.5389206239656,
+        2.9427681502511387
+      ],
+      "hub_rotation_deg": [
+        0.45239987665578646,
+        0.046713082182915186,
+        2.0951497989524244
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 348.6443876583328,
+          "root_force_N": [
+            -3507.248797797722,
+            -19.90005209736171,
+            233.79440886144133
+          ],
+          "root_moment_Nm": [
+            0.8313955128709601,
+            -40.14102388562972,
+            24.121679620032303
+          ],
+          "axial_bending_stress_MPa": 178.02944289286364,
+          "torsional_shear_MPa": 1.1073007171146891,
+          "projected_bearing_pressure_screen_MPa": 13.004238110244621,
+          "friction_resultant_demand_N": 3508.234073524996,
+          "required_normal_force_N_by_mu": {
+            "0.1": 35082.340735249956,
+            "0.2": 17541.170367624978,
+            "0.3": 11694.113578416653
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 1,
+          "free_length_mm": 352.9173953833306,
+          "root_force_N": [
+            3574.2585371574446,
+            19.900052097361367,
+            225.6493729008516
+          ],
+          "root_moment_Nm": [
+            1.3832838860327752,
+            -39.2107046365202,
+            29.63085494329959
+          ],
+          "axial_bending_stress_MPa": 171.9136947692299,
+          "torsional_shear_MPa": 1.8423376302429244,
+          "projected_bearing_pressure_screen_MPa": 12.359705331536373,
+          "friction_resultant_demand_N": 3576.9342786157613,
+          "required_normal_force_N_by_mu": {
+            "0.1": 35769.34278615761,
+            "0.2": 17884.671393078806,
+            "0.3": 11923.114262052539
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 5.222368265837349e-13
+    },
+    {
+      "variant": "V2",
+      "E_GPa": 140.0,
+      "G_GPa": 10.0,
+      "total_mass_kg": 150,
+      "thrust_factor": 1,
+      "load": [
+        0.0,
+        0.0,
+        367.875,
+        0.0,
+        0.0,
+        20.114169277563988
+      ],
+      "hub_translation_mm": [
+        -0.031544861893864275,
+        1.6010476169935515,
+        0.5517690281720886
+      ],
+      "hub_rotation_deg": [
+        0.08482497687296003,
+        0.008758702909296598,
+        0.39284058730357985
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 348.6443876583328,
+          "root_force_N": [
+            -1315.2182991741463,
+            -7.46251953651057,
+            87.6729033230405
+          ],
+          "root_moment_Nm": [
+            0.31177331732661034,
+            -15.052883957111144,
+            9.045629857512141
+          ],
+          "axial_bending_stress_MPa": 66.76104108482387,
+          "torsional_shear_MPa": 0.4152377689180088,
+          "projected_bearing_pressure_screen_MPa": 4.876589291341733,
+          "friction_resultant_demand_N": 1315.587777571874,
+          "required_normal_force_N_by_mu": {
+            "0.1": 13155.87777571874,
+            "0.2": 6577.93888785937,
+            "0.3": 4385.292591906247
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 1,
+          "free_length_mm": 352.9173953833306,
+          "root_force_N": [
+            1340.3469514340413,
+            7.462519536510598,
+            84.61851483781933
+          ],
+          "root_moment_Nm": [
+            0.5187314572622912,
+            -14.704014238695075,
+            11.111570603737379
+          ],
+          "axial_bending_stress_MPa": 64.46763553846127,
+          "torsional_shear_MPa": 0.6908766113410973,
+          "projected_bearing_pressure_screen_MPa": 4.634889499326144,
+          "friction_resultant_demand_N": 1341.35035448091,
+          "required_normal_force_N_by_mu": {
+            "0.1": 13413.5035448091,
+            "0.2": 6706.75177240455,
+            "0.3": 4471.167848269701
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 1.287337946961986e-13
+    },
+    {
+      "variant": "V2",
+      "E_GPa": 140.0,
+      "G_GPa": 10.0,
+      "total_mass_kg": 175,
+      "thrust_factor": 1,
+      "load": [
+        0.0,
+        0.0,
+        429.1875,
+        0.0,
+        0.0,
+        23.466530823824648
+      ],
+      "hub_translation_mm": [
+        -0.036802338876174984,
+        1.8678888864924759,
+        0.6437305328674368
+      ],
+      "hub_rotation_deg": [
+        0.09896247301845335,
+        0.0102184867275127,
+        0.458314018520843
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 348.6443876583328,
+          "root_force_N": [
+            -1534.4213490365034,
+            -8.706272792595769,
+            102.2850538768806
+          ],
+          "root_moment_Nm": [
+            0.3637355368810452,
+            -17.561697949963,
+            10.553234833764137
+          ],
+          "axial_bending_stress_MPa": 77.88788126562785,
+          "torsional_shear_MPa": 0.48444406373767673,
+          "projected_bearing_pressure_screen_MPa": 5.689354173232022,
+          "friction_resultant_demand_N": 1534.8524071671857,
+          "required_normal_force_N_by_mu": {
+            "0.1": 15348.524071671856,
+            "0.2": 7674.262035835928,
+            "0.3": 5116.174690557285
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 1,
+          "free_length_mm": 352.9173953833306,
+          "root_force_N": [
+            1563.7381100063822,
+            8.706272792595598,
+            98.72160064412257
+          ],
+          "root_moment_Nm": [
+            0.6051867001393396,
+            -17.154683278477595,
+            12.963499037693571
+          ],
+          "axial_bending_stress_MPa": 75.21224146153811,
+          "torsional_shear_MPa": 0.80602271323128,
+          "projected_bearing_pressure_screen_MPa": 5.407371082547163,
+          "friction_resultant_demand_N": 1564.9087468943956,
+          "required_normal_force_N_by_mu": {
+            "0.1": 15649.087468943955,
+            "0.2": 7824.543734471978,
+            "0.3": 5216.362489647985
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 8.10921975650084e-14
+    },
+    {
+      "variant": "V2",
+      "E_GPa": 140.0,
+      "G_GPa": 10.0,
+      "total_mass_kg": 175,
+      "thrust_factor": 1.5,
+      "load": [
+        0.0,
+        0.0,
+        643.78125,
+        0.0,
+        0.0,
+        35.19979623573697
+      ],
+      "hub_translation_mm": [
+        -0.05520350831426247,
+        2.801833329738714,
+        0.965595799301155
+      ],
+      "hub_rotation_deg": [
+        0.14844370952768,
+        0.015327730091269049,
+        0.6874710277812643
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 348.6443876583328,
+          "root_force_N": [
+            -2301.632023554755,
+            -13.05940918889354,
+            153.42758081532088
+          ],
+          "root_moment_Nm": [
+            0.5456033053215676,
+            -26.34254692494451,
+            15.829852250646228
+          ],
+          "axial_bending_stress_MPa": 116.83182189844177,
+          "torsional_shear_MPa": 0.726666095606515,
+          "projected_bearing_pressure_screen_MPa": 8.534031259848032,
+          "friction_resultant_demand_N": 2302.2786107507786,
+          "required_normal_force_N_by_mu": {
+            "0.1": 23022.786107507785,
+            "0.2": 11511.393053753893,
+            "0.3": 7674.262035835929
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 1,
+          "free_length_mm": 352.9173953833306,
+          "root_force_N": [
+            2345.607165009573,
+            13.05940918889354,
+            148.08240096618385
+          ],
+          "root_moment_Nm": [
+            0.9077800502090089,
+            -25.732024917716362,
+            19.445248556540395
+          ],
+          "axial_bending_stress_MPa": 112.81836219230716,
+          "torsional_shear_MPa": 1.2090340698469195,
+          "projected_bearing_pressure_screen_MPa": 8.111056623820748,
+          "friction_resultant_demand_N": 2347.363120341593,
+          "required_normal_force_N_by_mu": {
+            "0.1": 23473.631203415927,
+            "0.2": 11736.815601707964,
+            "0.3": 7824.543734471977
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 2.32315965210316e-13
+    },
+    {
+      "variant": "V2",
+      "E_GPa": 140.0,
+      "G_GPa": 10.0,
+      "total_mass_kg": 200,
+      "thrust_factor": 2,
+      "load": [
+        0.0,
+        0.0,
+        981.0,
+        0.0,
+        0.0,
+        53.637784740170595
+      ],
+      "hub_translation_mm": [
+        -0.08411963171697137,
+        4.2694603119828,
+        1.4713840751255693
+      ],
+      "hub_rotation_deg": [
+        0.22619993832789323,
+        0.023356541091457593,
+        1.0475748994762122
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 348.6443876583328,
+          "root_force_N": [
+            -3507.248797797722,
+            -19.90005209736171,
+            233.79440886144133
+          ],
+          "root_moment_Nm": [
+            0.8313955128709601,
+            -40.14102388562972,
+            24.121679620032303
+          ],
+          "axial_bending_stress_MPa": 178.02944289286364,
+          "torsional_shear_MPa": 1.1073007171146891,
+          "projected_bearing_pressure_screen_MPa": 13.004238110244621,
+          "friction_resultant_demand_N": 3508.234073524996,
+          "required_normal_force_N_by_mu": {
+            "0.1": 35082.340735249956,
+            "0.2": 17541.170367624978,
+            "0.3": 11694.113578416653
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 1,
+          "free_length_mm": 352.9173953833306,
+          "root_force_N": [
+            3574.2585371574446,
+            19.900052097361367,
+            225.6493729008516
+          ],
+          "root_moment_Nm": [
+            1.3832838860327752,
+            -39.2107046365202,
+            29.63085494329959
+          ],
+          "axial_bending_stress_MPa": 171.9136947692299,
+          "torsional_shear_MPa": 1.8423376302429244,
+          "projected_bearing_pressure_screen_MPa": 12.359705331536373,
+          "friction_resultant_demand_N": 3576.9342786157613,
+          "required_normal_force_N_by_mu": {
+            "0.1": 35769.34278615761,
+            "0.2": 17884.671393078806,
+            "0.3": 11923.114262052539
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 5.222368265837349e-13
+    },
+    {
+      "variant": "V3",
+      "E_GPa": 50.0,
+      "G_GPa": 3.0,
+      "total_mass_kg": 150,
+      "thrust_factor": 1,
+      "load": [
+        0.0,
+        0.0,
+        367.875,
+        0.0,
+        0.0,
+        20.114169277563988
+      ],
+      "hub_translation_mm": [
+        -2.2733741368967344,
+        -0.09436907281098064,
+        24.33587744925589
+      ],
+      "hub_rotation_deg": [
+        0.06907411003209264,
+        -4.862488516942704,
+        0.07650447418174054
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 350.43682440744936,
+          "root_force_N": [
+            230.70482701510264,
+            -20.30531148566651,
+            181.29790693424593
+          ],
+          "root_moment_Nm": [
+            -0.41423700104925965,
+            -77.09677770746602,
+            -2.7768245171398633
+          ],
+          "axial_bending_stress_MPa": 208.14340158069783,
+          "torsional_shear_MPa": 0.551704839894266,
+          "projected_bearing_pressure_screen_MPa": 19.153702526993253,
+          "friction_resultant_demand_N": 234.39419817574685,
+          "required_normal_force_N_by_mu": {
+            "0.1": 2343.9419817574685,
+            "0.2": 1171.9709908787343,
+            "0.3": 781.3139939191562
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 1,
+          "free_length_mm": 350.43682440744936,
+          "root_force_N": [
+            -223.64755658887225,
+            -20.93787845176557,
+            186.50939839829357
+          ],
+          "root_moment_Nm": [
+            0.571820894748969,
+            -77.89317706828197,
+            -3.0440447175045673
+          ],
+          "axial_bending_stress_MPa": 210.20904866216267,
+          "torsional_shear_MPa": 0.7615842003166704,
+          "projected_bearing_pressure_screen_MPa": 19.358556814467615,
+          "friction_resultant_demand_N": 230.841982587414,
+          "required_normal_force_N_by_mu": {
+            "0.1": 2308.41982587414,
+            "0.2": 1154.20991293707,
+            "0.3": 769.4732752913801
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 2.2740144213479793e-13
+    },
+    {
+      "variant": "V3",
+      "E_GPa": 50.0,
+      "G_GPa": 3.0,
+      "total_mass_kg": 175,
+      "thrust_factor": 1,
+      "load": [
+        0.0,
+        0.0,
+        429.1875,
+        0.0,
+        0.0,
+        23.466530823824648
+      ],
+      "hub_translation_mm": [
+        -2.6522698263795235,
+        -0.11009725161281074,
+        28.39185702413187
+      ],
+      "hub_rotation_deg": [
+        0.08058646170410806,
+        -5.672903269766487,
+        0.08925521987869726
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 350.43682440744936,
+          "root_force_N": [
+            269.15563151762035,
+            -23.68953006661092,
+            211.51422475662048
+          ],
+          "root_moment_Nm": [
+            -0.48327650122413657,
+            -89.94624065871041,
+            -3.2396286033298396
+          ],
+          "axial_bending_stress_MPa": 242.8339685108143,
+          "torsional_shear_MPa": 0.6436556465433104,
+          "projected_bearing_pressure_screen_MPa": 22.345986281492145,
+          "friction_resultant_demand_N": 273.45989787170527,
+          "required_normal_force_N_by_mu": {
+            "0.1": 2734.5989787170524,
+            "0.2": 1367.2994893585262,
+            "0.3": 911.5329929056843
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 1,
+          "free_length_mm": 350.43682440744936,
+          "root_force_N": [
+            -260.9221493536861,
+            -24.42752486039316,
+            217.5942981313426
+          ],
+          "root_moment_Nm": [
+            0.667124377207131,
+            -90.87537324632899,
+            -3.5513855037553252
+          ],
+          "axial_bending_stress_MPa": 245.24389010585656,
+          "torsional_shear_MPa": 0.8885149003694487,
+          "projected_bearing_pressure_screen_MPa": 22.584982950212222,
+          "friction_resultant_demand_N": 269.31564635198475,
+          "required_normal_force_N_by_mu": {
+            "0.1": 2693.1564635198474,
+            "0.2": 1346.5782317599237,
+            "0.3": 897.7188211732825
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 2.274014399116079e-13
+    },
+    {
+      "variant": "V3",
+      "E_GPa": 50.0,
+      "G_GPa": 3.0,
+      "total_mass_kg": 175,
+      "thrust_factor": 1.5,
+      "load": [
+        0.0,
+        0.0,
+        643.78125,
+        0.0,
+        0.0,
+        35.19979623573697
+      ],
+      "hub_translation_mm": [
+        -3.9784047395692856,
+        -0.1651458774192161,
+        42.587785536197806
+      ],
+      "hub_rotation_deg": [
+        0.12087969255616209,
+        -8.509354904649733,
+        0.1338828298180459
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 350.43682440744936,
+          "root_force_N": [
+            403.7334472764269,
+            -35.534295099916385,
+            317.2713371349305
+          ],
+          "root_moment_Nm": [
+            -0.7249147518362056,
+            -134.9193609880656,
+            -4.85944290499476
+          ],
+          "axial_bending_stress_MPa": 364.25095276622136,
+          "torsional_shear_MPa": 0.9654834698149656,
+          "projected_bearing_pressure_screen_MPa": 33.51897942223821,
+          "friction_resultant_demand_N": 410.18984680755426,
+          "required_normal_force_N_by_mu": {
+            "0.1": 4101.898468075542,
+            "0.2": 2050.949234037771,
+            "0.3": 1367.2994893585142
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 1,
+          "free_length_mm": 350.43682440744936,
+          "root_force_N": [
+            -391.38322403052734,
+            -36.641287290589744,
+            326.3914471970131
+          ],
+          "root_moment_Nm": [
+            1.0006865658106985,
+            -136.31305986949332,
+            -5.327078255632991
+          ],
+          "axial_bending_stress_MPa": 367.86583515878436,
+          "torsional_shear_MPa": 1.3327723505541733,
+          "projected_bearing_pressure_screen_MPa": 33.8774744253183,
+          "friction_resultant_demand_N": 403.9734695279754,
+          "required_normal_force_N_by_mu": {
+            "0.1": 4039.734695279754,
+            "0.2": 2019.867347639877,
+            "0.3": 1346.578231759918
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 4.547473542745959e-13
+    },
+    {
+      "variant": "V3",
+      "E_GPa": 50.0,
+      "G_GPa": 3.0,
+      "total_mass_kg": 200,
+      "thrust_factor": 2,
+      "load": [
+        0.0,
+        0.0,
+        981.0,
+        0.0,
+        0.0,
+        53.637784740170595
+      ],
+      "hub_translation_mm": [
+        -6.062331031724625,
+        -0.25165086082928156,
+        64.8956731980157
+      ],
+      "hub_rotation_deg": [
+        0.18419762675224693,
+        -12.966636045180543,
+        0.20401193115130797
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 350.43682440744936,
+          "root_force_N": [
+            615.2128720402688,
+            -54.147497295110654,
+            483.4610851579896
+          ],
+          "root_moment_Nm": [
+            -1.104632002798028,
+            -205.59140721990954,
+            -7.404865379039631
+          ],
+          "axial_bending_stress_MPa": 555.0490708818613,
+          "torsional_shear_MPa": 1.4712129063847097,
+          "projected_bearing_pressure_screen_MPa": 51.07654007198206,
+          "friction_resultant_demand_N": 625.0511951353201,
+          "required_normal_force_N_by_mu": {
+            "0.1": 6250.511951353201,
+            "0.2": 3125.2559756766004,
+            "0.3": 2083.5039837844006
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 1,
+          "free_length_mm": 350.43682440744936,
+          "root_force_N": [
+            -596.3934842369927,
+            -55.83434253804148,
+            497.3583957287833
+          ],
+          "root_moment_Nm": [
+            1.52485571933059,
+            -207.71513884875216,
+            -8.117452580012172
+          ],
+          "axial_bending_stress_MPa": 560.557463099101,
+          "torsional_shear_MPa": 2.0308912008444566,
+          "projected_bearing_pressure_screen_MPa": 51.6228181719137,
+          "friction_resultant_demand_N": 615.5786202331041,
+          "required_normal_force_N_by_mu": {
+            "0.1": 6155.78620233104,
+            "0.2": 3077.89310116552,
+            "0.3": 2051.928734110347
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 4.548583630270121e-13
+    },
+    {
+      "variant": "V3",
+      "E_GPa": 70.0,
+      "G_GPa": 5.0,
+      "total_mass_kg": 150,
+      "thrust_factor": 1,
+      "load": [
+        0.0,
+        0.0,
+        367.875,
+        0.0,
+        0.0,
+        20.114169277563988
+      ],
+      "hub_translation_mm": [
+        -1.623542308578882,
+        -0.06605447623895719,
+        17.37997286762644
+      ],
+      "hub_rotation_deg": [
+        0.045703760511954995,
+        -3.472552998396319,
+        0.0545765920105668
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 350.43682440744936,
+          "root_force_N": [
+            230.70482701510264,
+            -20.304982235677905,
+            181.48853781290904
+          ],
+          "root_moment_Nm": [
+            -0.49979861634357176,
+            -77.11736646377747,
+            -2.7767889570678124
+          ],
+          "axial_bending_stress_MPa": 208.1982052411502,
+          "torsional_shear_MPa": 0.6656607567908093,
+          "projected_bearing_pressure_screen_MPa": 19.159011678756983,
+          "friction_resultant_demand_N": 236.05656901907628,
+          "required_normal_force_N_by_mu": {
+            "0.1": 2360.565690190763,
+            "0.2": 1180.2828450953814,
+            "0.3": 786.8552300635877
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 1,
+          "free_length_mm": 350.43682440744936,
+          "root_force_N": [
+            -223.64755658887225,
+            -20.93754920177696,
+            186.31876751963023
+          ],
+          "root_moment_Nm": [
+            0.6738591005214849,
+            -77.85556297292656,
+            -3.0439797519514817
+          ],
+          "axial_bending_stress_MPa": 210.10892509631947,
+          "torsional_shear_MPa": 0.897484595105712,
+          "projected_bearing_pressure_screen_MPa": 19.349080926520706,
+          "friction_resultant_demand_N": 233.5788741340472,
+          "required_normal_force_N_by_mu": {
+            "0.1": 2335.788741340472,
+            "0.2": 1167.894370670236,
+            "0.3": 778.5962471134907
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 9.374924141090869e-13
+    },
+    {
+      "variant": "V3",
+      "E_GPa": 70.0,
+      "G_GPa": 5.0,
+      "total_mass_kg": 175,
+      "thrust_factor": 1,
+      "load": [
+        0.0,
+        0.0,
+        429.1875,
+        0.0,
+        0.0,
+        23.466530823824648
+      ],
+      "hub_translation_mm": [
+        -1.894132693342029,
+        -0.0770635556121167,
+        20.276635012230845
+      ],
+      "hub_rotation_deg": [
+        0.05332105393061414,
+        -4.051311831462371,
+        0.06367269067899457
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 350.43682440744936,
+          "root_force_N": [
+            269.1556315176167,
+            -23.689145941624215,
+            211.73662744839407
+          ],
+          "root_moment_Nm": [
+            -0.5830983857341646,
+            -89.97026087440716,
+            -3.2395871165791132
+          ],
+          "axial_bending_stress_MPa": 242.89790611467546,
+          "torsional_shear_MPa": 0.7766042162559426,
+          "projected_bearing_pressure_screen_MPa": 22.35218029188317,
+          "friction_resultant_demand_N": 275.3993305222527,
+          "required_normal_force_N_by_mu": {
+            "0.1": 2753.9933052225265,
+            "0.2": 1376.9966526112632,
+            "0.3": 917.9977684075089
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 1,
+          "free_length_mm": 350.43682440744936,
+          "root_force_N": [
+            -260.9221493536861,
+            -24.42714073540645,
+            217.37189543956833
+          ],
+          "root_moment_Nm": [
+            0.786168950608397,
+            -90.83149013508084,
+            -3.551309710610064
+          ],
+          "axial_bending_stress_MPa": 245.12707927903904,
+          "torsional_shear_MPa": 1.047065360956662,
+          "projected_bearing_pressure_screen_MPa": 22.573927747607456,
+          "friction_resultant_demand_N": 272.5086864897234,
+          "required_normal_force_N_by_mu": {
+            "0.1": 2725.0868648972337,
+            "0.2": 1362.5434324486168,
+            "0.3": 908.362288299078
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 7.190187187728255e-13
+    },
+    {
+      "variant": "V3",
+      "E_GPa": 70.0,
+      "G_GPa": 5.0,
+      "total_mass_kg": 175,
+      "thrust_factor": 1.5,
+      "load": [
+        0.0,
+        0.0,
+        643.78125,
+        0.0,
+        0.0,
+        35.19979623573697
+      ],
+      "hub_translation_mm": [
+        -2.841199040013043,
+        -0.11559533341817503,
+        30.414952518346272
+      ],
+      "hub_rotation_deg": [
+        0.0799815808959212,
+        -6.076967747193557,
+        0.09550903601849187
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 350.43682440744936,
+          "root_force_N": [
+            403.73344727643416,
+            -35.53371891243631,
+            317.6049411725912
+          ],
+          "root_moment_Nm": [
+            -0.8746475786012472,
+            -134.9553913116106,
+            -4.859380674868668
+          ],
+          "axial_bending_stress_MPa": 364.3468591720129,
+          "torsional_shear_MPa": 1.164906324383914,
+          "projected_bearing_pressure_screen_MPa": 33.52827043782472,
+          "friction_resultant_demand_N": 413.09899578338786,
+          "required_normal_force_N_by_mu": {
+            "0.1": 4130.989957833878,
+            "0.2": 2065.494978916939,
+            "0.3": 1376.996652611293
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 1,
+          "free_length_mm": 350.43682440744936,
+          "root_force_N": [
+            -391.38322403052734,
+            -36.640711103109666,
+            326.0578431593526
+          ],
+          "root_moment_Nm": [
+            1.179253425912594,
+            -136.24723520262125,
+            -5.326964565915094
+          ],
+          "axial_bending_stress_MPa": 367.69061891855847,
+          "torsional_shear_MPa": 1.5705980414349927,
+          "projected_bearing_pressure_screen_MPa": 33.86089162141118,
+          "friction_resultant_demand_N": 408.76302973458337,
+          "required_normal_force_N_by_mu": {
+            "0.1": 4087.6302973458337,
+            "0.2": 2043.8151486729168,
+            "0.3": 1362.5434324486114
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 1.4551915228532288e-11
+    },
+    {
+      "variant": "V3",
+      "E_GPa": 70.0,
+      "G_GPa": 5.0,
+      "total_mass_kg": 200,
+      "thrust_factor": 2,
+      "load": [
+        0.0,
+        0.0,
+        981.0,
+        0.0,
+        0.0,
+        53.637784740170595
+      ],
+      "hub_translation_mm": [
+        -4.329446156210352,
+        -0.17614526997055238,
+        46.3465943136705
+      ],
+      "hub_rotation_deg": [
+        0.12187669469854655,
+        -9.260141329056848,
+        0.14553757869484468
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 350.43682440744936,
+          "root_force_N": [
+            615.2128720402761,
+            -54.14661929514102,
+            483.96943416775775
+          ],
+          "root_moment_Nm": [
+            -1.332796310249522,
+            -205.64631057007338,
+            -7.404770552180819
+          ],
+          "axial_bending_stress_MPa": 555.1952139764007,
+          "torsional_shear_MPa": 1.7750953514421548,
+          "projected_bearing_pressure_screen_MPa": 51.09069781001865,
+          "friction_resultant_demand_N": 629.4841840508724,
+          "required_normal_force_N_by_mu": {
+            "0.1": 6294.841840508723,
+            "0.2": 3147.4209202543616,
+            "0.3": 2098.280613502908
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 1,
+          "free_length_mm": 350.43682440744936,
+          "root_force_N": [
+            -596.3934842369927,
+            -55.83346453807185,
+            496.85004671901333
+          ],
+          "root_moment_Nm": [
+            1.7969576013906212,
+            -207.61483459447052,
+            -8.11727933853728
+          ],
+          "axial_bending_stress_MPa": 560.2904669235178,
+          "torsional_shear_MPa": 2.3932922536152272,
+          "projected_bearing_pressure_screen_MPa": 51.59754913738848,
+          "friction_resultant_demand_N": 622.8769976907925,
+          "required_normal_force_N_by_mu": {
+            "0.1": 6228.7699769079245,
+            "0.2": 3114.3849884539623,
+            "0.3": 2076.2566589693083
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 1.6396456977948055e-12
+    },
+    {
+      "variant": "V3",
+      "E_GPa": 140.0,
+      "G_GPa": 10.0,
+      "total_mass_kg": 150,
+      "thrust_factor": 1,
+      "load": [
+        0.0,
+        0.0,
+        367.875,
+        0.0,
+        0.0,
+        20.114169277563988
+      ],
+      "hub_translation_mm": [
+        -0.811771154289441,
+        -0.033027238119478594,
+        8.68998643381322
+      ],
+      "hub_rotation_deg": [
+        0.022851880255977498,
+        -1.7362764991981594,
+        0.0272882960052834
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 350.43682440744936,
+          "root_force_N": [
+            230.70482701510264,
+            -20.304982235677905,
+            181.48853781290904
+          ],
+          "root_moment_Nm": [
+            -0.49979861634357176,
+            -77.11736646377747,
+            -2.7767889570678124
+          ],
+          "axial_bending_stress_MPa": 208.1982052411502,
+          "torsional_shear_MPa": 0.6656607567908093,
+          "projected_bearing_pressure_screen_MPa": 19.159011678756983,
+          "friction_resultant_demand_N": 236.05656901907628,
+          "required_normal_force_N_by_mu": {
+            "0.1": 2360.565690190763,
+            "0.2": 1180.2828450953814,
+            "0.3": 786.8552300635877
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 1,
+          "free_length_mm": 350.43682440744936,
+          "root_force_N": [
+            -223.64755658887225,
+            -20.93754920177696,
+            186.31876751963023
+          ],
+          "root_moment_Nm": [
+            0.6738591005214849,
+            -77.85556297292656,
+            -3.0439797519514817
+          ],
+          "axial_bending_stress_MPa": 210.10892509631947,
+          "torsional_shear_MPa": 0.897484595105712,
+          "projected_bearing_pressure_screen_MPa": 19.349080926520706,
+          "friction_resultant_demand_N": 233.5788741340472,
+          "required_normal_force_N_by_mu": {
+            "0.1": 2335.788741340472,
+            "0.2": 1167.894370670236,
+            "0.3": 778.5962471134907
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 9.374924141090869e-13
+    },
+    {
+      "variant": "V3",
+      "E_GPa": 140.0,
+      "G_GPa": 10.0,
+      "total_mass_kg": 175,
+      "thrust_factor": 1,
+      "load": [
+        0.0,
+        0.0,
+        429.1875,
+        0.0,
+        0.0,
+        23.466530823824648
+      ],
+      "hub_translation_mm": [
+        -0.9470663466710145,
+        -0.03853177780605835,
+        10.138317506115422
+      ],
+      "hub_rotation_deg": [
+        0.02666052696530707,
+        -2.0256559157311855,
+        0.031836345339497286
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 350.43682440744936,
+          "root_force_N": [
+            269.1556315176167,
+            -23.689145941624215,
+            211.73662744839407
+          ],
+          "root_moment_Nm": [
+            -0.5830983857341646,
+            -89.97026087440716,
+            -3.2395871165791132
+          ],
+          "axial_bending_stress_MPa": 242.89790611467546,
+          "torsional_shear_MPa": 0.7766042162559426,
+          "projected_bearing_pressure_screen_MPa": 22.35218029188317,
+          "friction_resultant_demand_N": 275.3993305222527,
+          "required_normal_force_N_by_mu": {
+            "0.1": 2753.9933052225265,
+            "0.2": 1376.9966526112632,
+            "0.3": 917.9977684075089
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 1,
+          "free_length_mm": 350.43682440744936,
+          "root_force_N": [
+            -260.9221493536861,
+            -24.42714073540645,
+            217.37189543956833
+          ],
+          "root_moment_Nm": [
+            0.786168950608397,
+            -90.83149013508084,
+            -3.551309710610064
+          ],
+          "axial_bending_stress_MPa": 245.12707927903904,
+          "torsional_shear_MPa": 1.047065360956662,
+          "projected_bearing_pressure_screen_MPa": 22.573927747607456,
+          "friction_resultant_demand_N": 272.5086864897234,
+          "required_normal_force_N_by_mu": {
+            "0.1": 2725.0868648972337,
+            "0.2": 1362.5434324486168,
+            "0.3": 908.362288299078
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 7.190187187728255e-13
+    },
+    {
+      "variant": "V3",
+      "E_GPa": 140.0,
+      "G_GPa": 10.0,
+      "total_mass_kg": 175,
+      "thrust_factor": 1.5,
+      "load": [
+        0.0,
+        0.0,
+        643.78125,
+        0.0,
+        0.0,
+        35.19979623573697
+      ],
+      "hub_translation_mm": [
+        -1.4205995200065216,
+        -0.057797666709087515,
+        15.207476259173136
+      ],
+      "hub_rotation_deg": [
+        0.0399907904479606,
+        -3.0384838735967783,
+        0.04775451800924593
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 350.43682440744936,
+          "root_force_N": [
+            403.73344727643416,
+            -35.53371891243631,
+            317.6049411725912
+          ],
+          "root_moment_Nm": [
+            -0.8746475786012472,
+            -134.9553913116106,
+            -4.859380674868668
+          ],
+          "axial_bending_stress_MPa": 364.3468591720129,
+          "torsional_shear_MPa": 1.164906324383914,
+          "projected_bearing_pressure_screen_MPa": 33.52827043782472,
+          "friction_resultant_demand_N": 413.09899578338786,
+          "required_normal_force_N_by_mu": {
+            "0.1": 4130.989957833878,
+            "0.2": 2065.494978916939,
+            "0.3": 1376.996652611293
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 1,
+          "free_length_mm": 350.43682440744936,
+          "root_force_N": [
+            -391.38322403052734,
+            -36.640711103109666,
+            326.0578431593526
+          ],
+          "root_moment_Nm": [
+            1.179253425912594,
+            -136.24723520262125,
+            -5.326964565915094
+          ],
+          "axial_bending_stress_MPa": 367.69061891855847,
+          "torsional_shear_MPa": 1.5705980414349927,
+          "projected_bearing_pressure_screen_MPa": 33.86089162141118,
+          "friction_resultant_demand_N": 408.76302973458337,
+          "required_normal_force_N_by_mu": {
+            "0.1": 4087.6302973458337,
+            "0.2": 2043.8151486729168,
+            "0.3": 1362.5434324486114
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 1.4551915228532288e-11
+    },
+    {
+      "variant": "V3",
+      "E_GPa": 140.0,
+      "G_GPa": 10.0,
+      "total_mass_kg": 200,
+      "thrust_factor": 2,
+      "load": [
+        0.0,
+        0.0,
+        981.0,
+        0.0,
+        0.0,
+        53.637784740170595
+      ],
+      "hub_translation_mm": [
+        -2.164723078105176,
+        -0.08807263498527619,
+        23.17329715683525
+      ],
+      "hub_rotation_deg": [
+        0.060938347349273274,
+        -4.630070664528424,
+        0.07276878934742234
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 350.43682440744936,
+          "root_force_N": [
+            615.2128720402761,
+            -54.14661929514102,
+            483.96943416775775
+          ],
+          "root_moment_Nm": [
+            -1.332796310249522,
+            -205.64631057007338,
+            -7.404770552180819
+          ],
+          "axial_bending_stress_MPa": 555.1952139764007,
+          "torsional_shear_MPa": 1.7750953514421548,
+          "projected_bearing_pressure_screen_MPa": 51.09069781001865,
+          "friction_resultant_demand_N": 629.4841840508724,
+          "required_normal_force_N_by_mu": {
+            "0.1": 6294.841840508723,
+            "0.2": 3147.4209202543616,
+            "0.3": 2098.280613502908
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 1,
+          "free_length_mm": 350.43682440744936,
+          "root_force_N": [
+            -596.3934842369927,
+            -55.83346453807185,
+            496.85004671901333
+          ],
+          "root_moment_Nm": [
+            1.7969576013906212,
+            -207.61483459447052,
+            -8.11727933853728
+          ],
+          "axial_bending_stress_MPa": 560.2904669235178,
+          "torsional_shear_MPa": 2.3932922536152272,
+          "projected_bearing_pressure_screen_MPa": 51.59754913738848,
+          "friction_resultant_demand_N": 622.8769976907925,
+          "required_normal_force_N_by_mu": {
+            "0.1": 6228.7699769079245,
+            "0.2": 3114.3849884539623,
+            "0.3": 2076.2566589693083
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 1.6396456977948055e-12
+    },
+    {
+      "variant": "V4",
+      "E_GPa": 50.0,
+      "G_GPa": 3.0,
+      "total_mass_kg": 150,
+      "thrust_factor": 1,
+      "load": [
+        0.0,
+        0.0,
+        367.875,
+        0.0,
+        0.0,
+        20.114169277563988
+      ],
+      "hub_translation_mm": [
+        -0.07081139823566389,
+        -0.05930038044531789,
+        1.5675893684153317
+      ],
+      "hub_rotation_deg": [
+        0.07378837690452686,
+        -0.044601022257708046,
+        0.052472775379377536
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 350.1048956127747,
+          "root_force_N": [
+            -537.7191472910184,
+            -13.372853478185608,
+            69.37310773058529
+          ],
+          "root_moment_Nm": [
+            0.07811522452773352,
+            -12.617362837416106,
+            -1.8468304623878378
+          ],
+          "axial_bending_stress_MPa": 40.135171183161106,
+          "torsional_shear_MPa": 0.10403838221166749,
+          "projected_bearing_pressure_screen_MPa": 3.2238209151242723,
+          "friction_resultant_demand_N": 537.7758838460592,
+          "required_normal_force_N_by_mu": {
+            "0.1": 5377.7588384605915,
+            "0.2": 2688.8794192302958,
+            "0.3": 1792.586279486864
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 1,
+          "free_length_mm": 350.1048956127747,
+          "root_force_N": [
+            -976.9482239160575,
+            -13.849202966623611,
+            75.11019089950764
+          ],
+          "root_moment_Nm": [
+            0.0864602495660403,
+            -13.50660121216925,
+            -1.9298855334961926
+          ],
+          "axial_bending_stress_MPa": 47.54936190487848,
+          "torsional_shear_MPa": 0.11515277008868292,
+          "projected_bearing_pressure_screen_MPa": 3.450442912289351,
+          "friction_resultant_demand_N": 976.9864819741824,
+          "required_normal_force_N_by_mu": {
+            "0.1": 9769.864819741824,
+            "0.2": 4884.932409870912,
+            "0.3": 3256.6216065806084
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 2,
+          "free_length_mm": 350.54622019205027,
+          "root_force_N": [
+            1522.4605590509532,
+            -9.4635923606911,
+            71.69958124499058
+          ],
+          "root_moment_Nm": [
+            0.08797502142395065,
+            -12.983838623501962,
+            -1.2361307160864454
+          ],
+          "axial_bending_stress_MPa": 52.20522144186992,
+          "torsional_shear_MPa": 0.11717023101860342,
+          "projected_bearing_pressure_screen_MPa": 3.2974099653563433,
+          "friction_resultant_demand_N": 1522.4859769172544,
+          "required_normal_force_N_by_mu": {
+            "0.1": 15224.859769172544,
+            "0.2": 7612.429884586272,
+            "0.3": 5074.953256390849
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 2.3448102150228204e-13
+    },
+    {
+      "variant": "V4",
+      "E_GPa": 50.0,
+      "G_GPa": 3.0,
+      "total_mass_kg": 175,
+      "thrust_factor": 1,
+      "load": [
+        0.0,
+        0.0,
+        429.1875,
+        0.0,
+        0.0,
+        23.466530823824648
+      ],
+      "hub_translation_mm": [
+        -0.08261329794160786,
+        -0.06918377718620415,
+        1.8288542631512203
+      ],
+      "hub_rotation_deg": [
+        0.08608643972194792,
+        -0.05203452596732606,
+        0.06121823794260712
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 350.1048956127747,
+          "root_force_N": [
+            -627.3390051728546,
+            -15.601662391216538,
+            80.9352923523495
+          ],
+          "root_moment_Nm": [
+            0.09113442861568848,
+            -14.720256643652124,
+            -2.1546355394524728
+          ],
+          "axial_bending_stress_MPa": 46.82436638035462,
+          "torsional_shear_MPa": 0.12137811258027788,
+          "projected_bearing_pressure_screen_MPa": 3.761124400978318,
+          "friction_resultant_demand_N": 627.4051978204022,
+          "required_normal_force_N_by_mu": {
+            "0.1": 6274.051978204022,
+            "0.2": 3137.025989102011,
+            "0.3": 2091.350659401341
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 1,
+          "free_length_mm": 350.1048956127747,
+          "root_force_N": [
+            -1139.7729279020668,
+            -16.157403461060873,
+            87.62855604942557
+          ],
+          "root_moment_Nm": [
+            0.10087029116038052,
+            -15.757701414197458,
+            -2.2515331224122233
+          ],
+          "axial_bending_stress_MPa": 55.47425555569156,
+          "torsional_shear_MPa": 0.13434489843679662,
+          "projected_bearing_pressure_screen_MPa": 4.025516731004243,
+          "friction_resultant_demand_N": 1139.8175623032125,
+          "required_normal_force_N_by_mu": {
+            "0.1": 11398.175623032124,
+            "0.2": 5699.087811516062,
+            "0.3": 3799.3918743440418
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 2,
+          "free_length_mm": 350.54622019205027,
+          "root_force_N": [
+            1776.2039855594455,
+            -11.040857754139617,
+            83.64951145248902
+          ],
+          "root_moment_Nm": [
+            0.10263752499460901,
+            -15.147811727418942,
+            -1.4421525021008532
+          ],
+          "axial_bending_stress_MPa": 60.906091682181525,
+          "torsional_shear_MPa": 0.13669860285503724,
+          "projected_bearing_pressure_screen_MPa": 3.8469782929157312,
+          "friction_resultant_demand_N": 1776.233639736797,
+          "required_normal_force_N_by_mu": {
+            "0.1": 17762.33639736797,
+            "0.2": 8881.168198683985,
+            "0.3": 5920.778799122657
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 2.34532925618666e-13
+    },
+    {
+      "variant": "V4",
+      "E_GPa": 50.0,
+      "G_GPa": 3.0,
+      "total_mass_kg": 175,
+      "thrust_factor": 1.5,
+      "load": [
+        0.0,
+        0.0,
+        643.78125,
+        0.0,
+        0.0,
+        35.19979623573697
+      ],
+      "hub_translation_mm": [
+        -0.12391994691241179,
+        -0.10377566577930616,
+        2.7432813947268304
+      ],
+      "hub_rotation_deg": [
+        0.12912965958292177,
+        -0.07805178895098909,
+        0.09182735691391065
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 350.1048956127747,
+          "root_force_N": [
+            -941.0085077592823,
+            -23.402493586824804,
+            121.40293852852426
+          ],
+          "root_moment_Nm": [
+            0.13670164292353326,
+            -22.08038496547818,
+            -3.231953309178708
+          ],
+          "axial_bending_stress_MPa": 70.2365495705319,
+          "torsional_shear_MPa": 0.18206716887041755,
+          "projected_bearing_pressure_screen_MPa": 5.641686601467475,
+          "friction_resultant_demand_N": 941.1077967306037,
+          "required_normal_force_N_by_mu": {
+            "0.1": 9411.077967306037,
+            "0.2": 4705.5389836530185,
+            "0.3": 3137.0259891020123
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 1,
+          "free_length_mm": 350.1048956127747,
+          "root_force_N": [
+            -1709.6593918531003,
+            -24.236105191591307,
+            131.44283407413837
+          ],
+          "root_moment_Nm": [
+            0.1513054367405702,
+            -23.6365521212962,
+            -3.3772996836183338
+          ],
+          "axial_bending_stress_MPa": 83.21138333353737,
+          "torsional_shear_MPa": 0.20151734765519477,
+          "projected_bearing_pressure_screen_MPa": 6.038275096506368,
+          "friction_resultant_demand_N": 1709.7263434548188,
+          "required_normal_force_N_by_mu": {
+            "0.1": 17097.263434548186,
+            "0.2": 8548.631717274093,
+            "0.3": 5699.087811516063
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 2,
+          "free_length_mm": 350.54622019205027,
+          "root_force_N": [
+            2664.3059783391677,
+            -16.561286631209427,
+            125.47426717873351
+          ],
+          "root_moment_Nm": [
+            0.15395628749191334,
+            -22.72171759112843,
+            -2.1632287531512806
+          ],
+          "axial_bending_stress_MPa": 91.35913752327232,
+          "torsional_shear_MPa": 0.2050479042825556,
+          "projected_bearing_pressure_screen_MPa": 5.7704674393736,
+          "friction_resultant_demand_N": 2664.350459605195,
+          "required_normal_force_N_by_mu": {
+            "0.1": 26643.504596051946,
+            "0.2": 13321.752298025973,
+            "0.3": 8881.168198683983
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 4.549734727929145e-13
+    },
+    {
+      "variant": "V4",
+      "E_GPa": 50.0,
+      "G_GPa": 3.0,
+      "total_mass_kg": 200,
+      "thrust_factor": 2,
+      "load": [
+        0.0,
+        0.0,
+        981.0,
+        0.0,
+        0.0,
+        53.637784740170595
+      ],
+      "hub_translation_mm": [
+        -0.1888303952951037,
+        -0.15813434785418085,
+        4.180238315774218
+      ],
+      "hub_rotation_deg": [
+        0.19676900507873807,
+        -0.11893605935388812,
+        0.13992740101167334
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 350.1048956127747,
+          "root_force_N": [
+            -1433.9177261093828,
+            -35.66094260849493,
+            184.99495394822742
+          ],
+          "root_moment_Nm": [
+            0.2083072654072885,
+            -33.64630089977628,
+            -4.924881233034212
+          ],
+          "axial_bending_stress_MPa": 107.02712315509626,
+          "torsional_shear_MPa": 0.2774356858977787,
+          "projected_bearing_pressure_screen_MPa": 8.596855773664727,
+          "friction_resultant_demand_N": 1434.0690235894915,
+          "required_normal_force_N_by_mu": {
+            "0.1": 14340.690235894914,
+            "0.2": 7170.345117947457,
+            "0.3": 4780.230078631638
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 1,
+          "free_length_mm": 350.1048956127747,
+          "root_force_N": [
+            -2605.1952637761524,
+            -36.931207910996264,
+            200.29384239868705
+          ],
+          "root_moment_Nm": [
+            0.23056066550944204,
+            -36.01760323245135,
+            -5.146361422656511
+          ],
+          "axial_bending_stress_MPa": 126.79829841300932,
+          "torsional_shear_MPa": 0.30707405356982087,
+          "projected_bearing_pressure_screen_MPa": 9.201181099438273,
+          "friction_resultant_demand_N": 2605.2972852644853,
+          "required_normal_force_N_by_mu": {
+            "0.1": 26052.972852644853,
+            "0.2": 13026.486426322426,
+            "0.3": 8684.324284214952
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 2,
+          "free_length_mm": 350.54622019205027,
+          "root_force_N": [
+            4059.8948241358744,
+            -25.236246295176255,
+            191.1988833199749
+          ],
+          "root_moment_Nm": [
+            0.23460005713053458,
+            -34.623569662671855,
+            -3.2963485762305216
+          ],
+          "axial_bending_stress_MPa": 139.21392384498628,
+          "torsional_shear_MPa": 0.3124539493829421,
+          "projected_bearing_pressure_screen_MPa": 8.793093240950238,
+          "friction_resultant_demand_N": 4059.9626051126775,
+          "required_normal_force_N_by_mu": {
+            "0.1": 40599.626051126776,
+            "0.2": 20299.813025563388,
+            "0.3": 13533.208683708925
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 2.8443385208352465e-14
+    },
+    {
+      "variant": "V4",
+      "E_GPa": 70.0,
+      "G_GPa": 5.0,
+      "total_mass_kg": 150,
+      "thrust_factor": 1,
+      "load": [
+        0.0,
+        0.0,
+        367.875,
+        0.0,
+        0.0,
+        20.114169277563988
+      ],
+      "hub_translation_mm": [
+        -0.05057940874466553,
+        -0.04034696407400047,
+        1.1197064915691064
+      ],
+      "hub_rotation_deg": [
+        0.04914154144876788,
+        -0.03185760779117623,
+        0.03736079686342508
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 350.1048956127747,
+          "root_force_N": [
+            -537.7133966541417,
+            -13.283200653808757,
+            69.56747070905168
+          ],
+          "root_moment_Nm": [
+            0.08634781503538268,
+            -12.647492673156085,
+            -1.8329269125426106
+          ],
+          "axial_bending_stress_MPa": 40.20918683266915,
+          "torsional_shear_MPa": 0.11500302326602252,
+          "projected_bearing_pressure_screen_MPa": 3.230880421895781,
+          "friction_resultant_demand_N": 537.7827222893537,
+          "required_normal_force_N_by_mu": {
+            "0.1": 5377.827222893537,
+            "0.2": 2688.9136114467683,
+            "0.3": 1792.6090742978458
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 1,
+          "free_length_mm": 350.1048956127747,
+          "root_force_N": [
+            -976.9518994127864,
+            -13.7595493560936,
+            74.91596548897546
+          ],
+          "root_moment_Nm": [
+            0.09628228593688723,
+            -13.476488532355148,
+            -1.9159818487894589
+          ],
+          "axial_bending_stress_MPa": 47.464769160372626,
+          "torsional_shear_MPa": 0.12823432723999423,
+          "projected_bearing_pressure_screen_MPa": 3.442365645891547,
+          "friction_resultant_demand_N": 976.9993431687165,
+          "required_normal_force_N_by_mu": {
+            "0.1": 9769.993431687164,
+            "0.2": 4884.996715843582,
+            "0.3": 3256.664477229055
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 2,
+          "free_length_mm": 350.54622019205027,
+          "root_force_N": [
+            1522.458487664062,
+            -9.64321485844685,
+            71.69965089223845
+          ],
+          "root_moment_Nm": [
+            0.09807860572153648,
+            -12.983847360246678,
+            -1.2647376299798592
+          ],
+          "axial_bending_stress_MPa": 52.212525699526296,
+          "torsional_shear_MPa": 0.13062677001231576,
+          "projected_bearing_pressure_screen_MPa": 3.2981176815541975,
+          "friction_resultant_demand_N": 1522.4900790446372,
+          "required_normal_force_N_by_mu": {
+            "0.1": 15224.900790446372,
+            "0.2": 7612.450395223186,
+            "0.3": 5074.966930148791
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 2.1390168887322673e-14
+    },
+    {
+      "variant": "V4",
+      "E_GPa": 70.0,
+      "G_GPa": 5.0,
+      "total_mass_kg": 175,
+      "thrust_factor": 1,
+      "load": [
+        0.0,
+        0.0,
+        429.1875,
+        0.0,
+        0.0,
+        23.466530823824648
+      ],
+      "hub_translation_mm": [
+        -0.05900931020210978,
+        -0.04707145808633391,
+        1.3063242401639574
+      ],
+      "hub_rotation_deg": [
+        0.057331798356895926,
+        -0.037167209089705604,
+        0.043587596340662595
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 350.1048956127747,
+          "root_force_N": [
+            -627.3322960964985,
+            -15.497067429443549,
+            81.16204916056027
+          ],
+          "root_moment_Nm": [
+            0.10073911754128,
+            -14.755408118682096,
+            -2.1384147312997173
+          ],
+          "axial_bending_stress_MPa": 46.91071797144733,
+          "torsional_shear_MPa": 0.13417019381035988,
+          "projected_bearing_pressure_screen_MPa": 3.7693604922117436,
+          "friction_resultant_demand_N": 627.4131760042459,
+          "required_normal_force_N_by_mu": {
+            "0.1": 6274.131760042458,
+            "0.2": 3137.065880021229,
+            "0.3": 2091.377253347486
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 1,
+          "free_length_mm": 350.1048956127747,
+          "root_force_N": [
+            -1139.777215981584,
+            -16.0528075821092,
+            87.40195973713801
+          ],
+          "root_moment_Nm": [
+            0.11232933359303547,
+            -15.722569954414332,
+            -2.2353121569210246
+          ],
+          "axial_bending_stress_MPa": 55.375564020434716,
+          "torsional_shear_MPa": 0.1496067151133268,
+          "projected_bearing_pressure_screen_MPa": 4.016093253540136,
+          "friction_resultant_demand_N": 1139.8325670301692,
+          "required_normal_force_N_by_mu": {
+            "0.1": 11398.325670301692,
+            "0.2": 5699.162835150846,
+            "0.3": 3799.4418901005643
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 2,
+          "free_length_mm": 350.54622019205027,
+          "root_force_N": [
+            1776.201568941406,
+            -11.250417334854653,
+            83.64959270761153
+          ],
+          "root_moment_Nm": [
+            0.11442504000845936,
+            -15.147821920287798,
+            -1.4755272349765016
+          ],
+          "axial_bending_stress_MPa": 60.914613316114036,
+          "torsional_shear_MPa": 0.15239789834770187,
+          "projected_bearing_pressure_screen_MPa": 3.8478039618132334,
+          "friction_resultant_demand_N": 1776.2384255520772,
+          "required_normal_force_N_by_mu": {
+            "0.1": 17762.38425552077,
+            "0.2": 8881.192127760385,
+            "0.3": 5920.794751840257
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 2.273833246378228e-13
+    },
+    {
+      "variant": "V4",
+      "E_GPa": 70.0,
+      "G_GPa": 5.0,
+      "total_mass_kg": 175,
+      "thrust_factor": 1.5,
+      "load": [
+        0.0,
+        0.0,
+        643.78125,
+        0.0,
+        0.0,
+        35.19979623573697
+      ],
+      "hub_translation_mm": [
+        -0.08851396530316469,
+        -0.07060718712950087,
+        1.9594863602459363
+      ],
+      "hub_rotation_deg": [
+        0.08599769753534389,
+        -0.0557508136345584,
+        0.06538139451099388
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 350.1048956127747,
+          "root_force_N": [
+            -940.998444144748,
+            -23.24560114416532,
+            121.74307374084043
+          ],
+          "root_moment_Nm": [
+            0.1511086763119197,
+            -22.133112178023154,
+            -3.2076220969495677
+          ],
+          "axial_bending_stress_MPa": 70.36607695717102,
+          "torsional_shear_MPa": 0.20125529071553944,
+          "projected_bearing_pressure_screen_MPa": 5.654040738317618,
+          "friction_resultant_demand_N": 941.119764006369,
+          "required_normal_force_N_by_mu": {
+            "0.1": 9411.197640063689,
+            "0.2": 4705.598820031844,
+            "0.3": 3137.06588002123
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 1,
+          "free_length_mm": 350.1048956127747,
+          "root_force_N": [
+            -1709.6658239723763,
+            -24.0792113731638,
+            131.10293960570706
+          ],
+          "root_moment_Nm": [
+            0.1684940003895527,
+            -23.58385493162151,
+            -3.352968235381554
+          ],
+          "axial_bending_stress_MPa": 83.0633460306521,
+          "torsional_shear_MPa": 0.22441007266999013,
+          "projected_bearing_pressure_screen_MPa": 6.024139880310208,
+          "friction_resultant_demand_N": 1709.7488505452538,
+          "required_normal_force_N_by_mu": {
+            "0.1": 17097.488505452537,
+            "0.2": 8548.744252726268,
+            "0.3": 5699.162835150846
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 2,
+          "free_length_mm": 350.54622019205027,
+          "root_force_N": [
+            2664.3023534121085,
+            -16.875626002281976,
+            125.4743890614173
+          ],
+          "root_moment_Nm": [
+            0.17163756001268898,
+            -22.721732880431663,
+            -2.2132908524647514
+          ],
+          "axial_bending_stress_MPa": 91.37191997417096,
+          "torsional_shear_MPa": 0.22859684752155282,
+          "projected_bearing_pressure_screen_MPa": 5.771705942719841,
+          "friction_resultant_demand_N": 2664.357638328115,
+          "required_normal_force_N_by_mu": {
+            "0.1": 26643.57638328115,
+            "0.2": 13321.788191640575,
+            "0.3": 8881.192127760385
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 4.567444164989935e-13
+    },
+    {
+      "variant": "V4",
+      "E_GPa": 70.0,
+      "G_GPa": 5.0,
+      "total_mass_kg": 200,
+      "thrust_factor": 2,
+      "load": [
+        0.0,
+        0.0,
+        981.0,
+        0.0,
+        0.0,
+        53.637784740170595
+      ],
+      "hub_translation_mm": [
+        -0.13487842331910807,
+        -0.10759190419733472,
+        2.9858839775176174
+      ],
+      "hub_rotation_deg": [
+        0.13104411053004797,
+        -0.08495362077646995,
+        0.09962879163580016
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 350.1048956127747,
+          "root_force_N": [
+            -1433.9023910777114,
+            -35.42186841015666,
+            185.51325522413777
+          ],
+          "root_moment_Nm": [
+            0.23026084009435432,
+            -33.72664712841621,
+            -4.887805100113611
+          ],
+          "axial_bending_stress_MPa": 107.22449822045101,
+          "torsional_shear_MPa": 0.3066747287093941,
+          "projected_bearing_pressure_screen_MPa": 8.615681125055412,
+          "friction_resultant_demand_N": 1434.0872594382768,
+          "required_normal_force_N_by_mu": {
+            "0.1": 14340.872594382767,
+            "0.2": 7170.436297191383,
+            "0.3": 4780.290864794256
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 1,
+          "free_length_mm": 350.1048956127747,
+          "root_force_N": [
+            -2605.2050651007626,
+            -36.69213161624958,
+            199.7759079706012
+          ],
+          "root_moment_Nm": [
+            0.2567527624983673,
+            -35.937302752947055,
+            -5.109284930105213
+          ],
+          "axial_bending_stress_MPa": 126.57271776099363,
+          "torsional_shear_MPa": 0.34195820597331866,
+          "projected_bearing_pressure_screen_MPa": 9.179641722377458,
+          "friction_resultant_demand_N": 2605.3315817832427,
+          "required_normal_force_N_by_mu": {
+            "0.1": 26053.315817832427,
+            "0.2": 13026.657908916213,
+            "0.3": 8684.438605944142
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 2,
+          "free_length_mm": 350.54622019205027,
+          "root_force_N": [
+            4059.8893004374995,
+            -25.71523962252489,
+            191.19906904596922
+          ],
+          "root_moment_Nm": [
+            0.26154294859076466,
+            -34.62359296065782,
+            -3.3726336799462837
+          ],
+          "axial_bending_stress_MPa": 139.2334018654035,
+          "torsional_shear_MPa": 0.3483380533661761,
+          "projected_bearing_pressure_screen_MPa": 8.79498048414453,
+          "friction_resultant_demand_N": 4059.9735441190332,
+          "required_normal_force_N_by_mu": {
+            "0.1": 40599.73544119033,
+            "0.2": 20299.867720595164,
+            "0.3": 13533.245147063444
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 4.556796763871248e-13
+    },
+    {
+      "variant": "V4",
+      "E_GPa": 140.0,
+      "G_GPa": 10.0,
+      "total_mass_kg": 150,
+      "thrust_factor": 1,
+      "load": [
+        0.0,
+        0.0,
+        367.875,
+        0.0,
+        0.0,
+        20.114169277563988
+      ],
+      "hub_translation_mm": [
+        -0.025289704372332765,
+        -0.020173482037000236,
+        0.5598532457845532
+      ],
+      "hub_rotation_deg": [
+        0.02457077072438394,
+        -0.015928803895588116,
+        0.01868039843171254
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 350.1048956127747,
+          "root_force_N": [
+            -537.7133966541417,
+            -13.283200653808757,
+            69.56747070905168
+          ],
+          "root_moment_Nm": [
+            0.08634781503538268,
+            -12.647492673156085,
+            -1.8329269125426106
+          ],
+          "axial_bending_stress_MPa": 40.20918683266915,
+          "torsional_shear_MPa": 0.11500302326602252,
+          "projected_bearing_pressure_screen_MPa": 3.230880421895781,
+          "friction_resultant_demand_N": 537.7827222893537,
+          "required_normal_force_N_by_mu": {
+            "0.1": 5377.827222893537,
+            "0.2": 2688.9136114467683,
+            "0.3": 1792.6090742978458
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 1,
+          "free_length_mm": 350.1048956127747,
+          "root_force_N": [
+            -976.9518994127864,
+            -13.7595493560936,
+            74.91596548897546
+          ],
+          "root_moment_Nm": [
+            0.09628228593688723,
+            -13.476488532355148,
+            -1.9159818487894589
+          ],
+          "axial_bending_stress_MPa": 47.464769160372626,
+          "torsional_shear_MPa": 0.12823432723999423,
+          "projected_bearing_pressure_screen_MPa": 3.442365645891547,
+          "friction_resultant_demand_N": 976.9993431687165,
+          "required_normal_force_N_by_mu": {
+            "0.1": 9769.993431687164,
+            "0.2": 4884.996715843582,
+            "0.3": 3256.664477229055
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 2,
+          "free_length_mm": 350.54622019205027,
+          "root_force_N": [
+            1522.458487664062,
+            -9.64321485844685,
+            71.69965089223845
+          ],
+          "root_moment_Nm": [
+            0.09807860572153648,
+            -12.983847360246678,
+            -1.2647376299798592
+          ],
+          "axial_bending_stress_MPa": 52.212525699526296,
+          "torsional_shear_MPa": 0.13062677001231576,
+          "projected_bearing_pressure_screen_MPa": 3.2981176815541975,
+          "friction_resultant_demand_N": 1522.4900790446372,
+          "required_normal_force_N_by_mu": {
+            "0.1": 15224.900790446372,
+            "0.2": 7612.450395223186,
+            "0.3": 5074.966930148791
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 2.1390168887322673e-14
+    },
+    {
+      "variant": "V4",
+      "E_GPa": 140.0,
+      "G_GPa": 10.0,
+      "total_mass_kg": 175,
+      "thrust_factor": 1,
+      "load": [
+        0.0,
+        0.0,
+        429.1875,
+        0.0,
+        0.0,
+        23.466530823824648
+      ],
+      "hub_translation_mm": [
+        -0.02950465510105489,
+        -0.023535729043166954,
+        0.6531621200819787
+      ],
+      "hub_rotation_deg": [
+        0.028665899178447963,
+        -0.018583604544852802,
+        0.021793798170331297
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 350.1048956127747,
+          "root_force_N": [
+            -627.3322960964985,
+            -15.497067429443549,
+            81.16204916056027
+          ],
+          "root_moment_Nm": [
+            0.10073911754128,
+            -14.755408118682096,
+            -2.1384147312997173
+          ],
+          "axial_bending_stress_MPa": 46.91071797144733,
+          "torsional_shear_MPa": 0.13417019381035988,
+          "projected_bearing_pressure_screen_MPa": 3.7693604922117436,
+          "friction_resultant_demand_N": 627.4131760042459,
+          "required_normal_force_N_by_mu": {
+            "0.1": 6274.131760042458,
+            "0.2": 3137.065880021229,
+            "0.3": 2091.377253347486
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 1,
+          "free_length_mm": 350.1048956127747,
+          "root_force_N": [
+            -1139.777215981584,
+            -16.0528075821092,
+            87.40195973713801
+          ],
+          "root_moment_Nm": [
+            0.11232933359303547,
+            -15.722569954414332,
+            -2.2353121569210246
+          ],
+          "axial_bending_stress_MPa": 55.375564020434716,
+          "torsional_shear_MPa": 0.1496067151133268,
+          "projected_bearing_pressure_screen_MPa": 4.016093253540136,
+          "friction_resultant_demand_N": 1139.8325670301692,
+          "required_normal_force_N_by_mu": {
+            "0.1": 11398.325670301692,
+            "0.2": 5699.162835150846,
+            "0.3": 3799.4418901005643
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 2,
+          "free_length_mm": 350.54622019205027,
+          "root_force_N": [
+            1776.201568941406,
+            -11.250417334854653,
+            83.64959270761153
+          ],
+          "root_moment_Nm": [
+            0.11442504000845936,
+            -15.147821920287798,
+            -1.4755272349765016
+          ],
+          "axial_bending_stress_MPa": 60.914613316114036,
+          "torsional_shear_MPa": 0.15239789834770187,
+          "projected_bearing_pressure_screen_MPa": 3.8478039618132334,
+          "friction_resultant_demand_N": 1776.2384255520772,
+          "required_normal_force_N_by_mu": {
+            "0.1": 17762.38425552077,
+            "0.2": 8881.192127760385,
+            "0.3": 5920.794751840257
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 2.273833246378228e-13
+    },
+    {
+      "variant": "V4",
+      "E_GPa": 140.0,
+      "G_GPa": 10.0,
+      "total_mass_kg": 175,
+      "thrust_factor": 1.5,
+      "load": [
+        0.0,
+        0.0,
+        643.78125,
+        0.0,
+        0.0,
+        35.19979623573697
+      ],
+      "hub_translation_mm": [
+        -0.044256982651582344,
+        -0.035303593564750435,
+        0.9797431801229681
+      ],
+      "hub_rotation_deg": [
+        0.042998848767671946,
+        -0.0278754068172792,
+        0.03269069725549694
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 350.1048956127747,
+          "root_force_N": [
+            -940.998444144748,
+            -23.24560114416532,
+            121.74307374084043
+          ],
+          "root_moment_Nm": [
+            0.1511086763119197,
+            -22.133112178023154,
+            -3.2076220969495677
+          ],
+          "axial_bending_stress_MPa": 70.36607695717102,
+          "torsional_shear_MPa": 0.20125529071553944,
+          "projected_bearing_pressure_screen_MPa": 5.654040738317618,
+          "friction_resultant_demand_N": 941.119764006369,
+          "required_normal_force_N_by_mu": {
+            "0.1": 9411.197640063689,
+            "0.2": 4705.598820031844,
+            "0.3": 3137.06588002123
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 1,
+          "free_length_mm": 350.1048956127747,
+          "root_force_N": [
+            -1709.6658239723763,
+            -24.0792113731638,
+            131.10293960570706
+          ],
+          "root_moment_Nm": [
+            0.1684940003895527,
+            -23.58385493162151,
+            -3.352968235381554
+          ],
+          "axial_bending_stress_MPa": 83.0633460306521,
+          "torsional_shear_MPa": 0.22441007266999013,
+          "projected_bearing_pressure_screen_MPa": 6.024139880310208,
+          "friction_resultant_demand_N": 1709.7488505452538,
+          "required_normal_force_N_by_mu": {
+            "0.1": 17097.488505452537,
+            "0.2": 8548.744252726268,
+            "0.3": 5699.162835150846
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 2,
+          "free_length_mm": 350.54622019205027,
+          "root_force_N": [
+            2664.3023534121085,
+            -16.875626002281976,
+            125.4743890614173
+          ],
+          "root_moment_Nm": [
+            0.17163756001268898,
+            -22.721732880431663,
+            -2.2132908524647514
+          ],
+          "axial_bending_stress_MPa": 91.37191997417096,
+          "torsional_shear_MPa": 0.22859684752155282,
+          "projected_bearing_pressure_screen_MPa": 5.771705942719841,
+          "friction_resultant_demand_N": 2664.357638328115,
+          "required_normal_force_N_by_mu": {
+            "0.1": 26643.57638328115,
+            "0.2": 13321.788191640575,
+            "0.3": 8881.192127760385
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 4.567444164989935e-13
+    },
+    {
+      "variant": "V4",
+      "E_GPa": 140.0,
+      "G_GPa": 10.0,
+      "total_mass_kg": 200,
+      "thrust_factor": 2,
+      "load": [
+        0.0,
+        0.0,
+        981.0,
+        0.0,
+        0.0,
+        53.637784740170595
+      ],
+      "hub_translation_mm": [
+        -0.06743921165955404,
+        -0.05379595209866736,
+        1.4929419887588087
+      ],
+      "hub_rotation_deg": [
+        0.06552205526502398,
+        -0.042476810388234976,
+        0.04981439581790008
+      ],
+      "rods": [
+        {
+          "tube": 0,
+          "free_length_mm": 350.1048956127747,
+          "root_force_N": [
+            -1433.9023910777114,
+            -35.42186841015666,
+            185.51325522413777
+          ],
+          "root_moment_Nm": [
+            0.23026084009435432,
+            -33.72664712841621,
+            -4.887805100113611
+          ],
+          "axial_bending_stress_MPa": 107.22449822045101,
+          "torsional_shear_MPa": 0.3066747287093941,
+          "projected_bearing_pressure_screen_MPa": 8.615681125055412,
+          "friction_resultant_demand_N": 1434.0872594382768,
+          "required_normal_force_N_by_mu": {
+            "0.1": 14340.872594382767,
+            "0.2": 7170.436297191383,
+            "0.3": 4780.290864794256
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 1,
+          "free_length_mm": 350.1048956127747,
+          "root_force_N": [
+            -2605.2050651007626,
+            -36.69213161624958,
+            199.7759079706012
+          ],
+          "root_moment_Nm": [
+            0.2567527624983673,
+            -35.937302752947055,
+            -5.109284930105213
+          ],
+          "axial_bending_stress_MPa": 126.57271776099363,
+          "torsional_shear_MPa": 0.34195820597331866,
+          "projected_bearing_pressure_screen_MPa": 9.179641722377458,
+          "friction_resultant_demand_N": 2605.3315817832427,
+          "required_normal_force_N_by_mu": {
+            "0.1": 26053.315817832427,
+            "0.2": 13026.657908916213,
+            "0.3": 8684.438605944142
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        },
+        {
+          "tube": 2,
+          "free_length_mm": 350.54622019205027,
+          "root_force_N": [
+            4059.8893004374995,
+            -25.71523962252489,
+            191.19906904596922
+          ],
+          "root_moment_Nm": [
+            0.26154294859076466,
+            -34.62359296065782,
+            -3.3726336799462837
+          ],
+          "axial_bending_stress_MPa": 139.2334018654035,
+          "torsional_shear_MPa": 0.3483380533661761,
+          "projected_bearing_pressure_screen_MPa": 8.79498048414453,
+          "friction_resultant_demand_N": 4059.9735441190332,
+          "required_normal_force_N_by_mu": {
+            "0.1": 40599.73544119033,
+            "0.2": 20299.867720595164,
+            "0.3": 13533.245147063444
+          },
+          "strength_pass": null,
+          "clamp_pass": null
+        }
+      ],
+      "equilibrium_residual": 4.556796763871248e-13
+    }
+  ],
+  "scope": "Free tube spans between35mm grips; ideal fixed roots and rigid common motor node. E/G and friction coefficients are sensitivities,not identified CFK data. Equivalent-isotropic beam stress is not a laminate failure criterion. No global-frame/node compliance,contact solution,bolt prying,buckling,fatigue or landing shock.",
+  "clamp_model": "Required friction normal force=sqrt(axial_force\u00b2+(tube_torsion/radius)\u00b2)/mu. Bearing-pressure screen=Ftrans/(D*L)+6*Mb/(D*L\u00b2),linear projected-contact approximation; not contact FEA and not an allowable.",
+  "material_verified": false,
+  "structure_release": false,
+  "clamp_release": false,
+  "proof_needed": [
+    "CFK orthotropic allowables and laminate",
+    "Clamp pressure/slip tests with actual PU/isolation",
+    "Bolt grade,friction,preload scatter and retention",
+    "Al node FEA,global frame,foot rails,indexing and fatigue",
+    "Dynamic modes and loaded rotor clearances"
+  ]
+}

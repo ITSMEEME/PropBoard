@@ -1,0 +1,288 @@
+{
+  "status": "UNVERIFIED_EXTRACT_CONDITIONAL_SCREEN",
+  "source": {
+    "file": "Quellen/Beschaffungsagent/kenndaten.md",
+    "sha256": "1cde0f723fad7ed47eb9f4b8c6e9da6cb42d1fb7ce4b656c69a96165741f3d19",
+    "source_type": "User supplied text extract, explicitly unverified against original OEM files",
+    "sha256_scope": "Hash of received extract only; not a manufacturer-document hash",
+    "original_files_received": false,
+    "complete_oem_source_urls_received": false
+  },
+  "reference_scope": "Legacy assumed R380 three-blade aerodynamic model; mass cases are not closed D02 vehicle designs",
+  "winding_screen": [
+    {
+      "id": "EMRAX188_HV",
+      "kv_from_unverified_extract": 17.73,
+      "ideal_no_load_rpm_24S_full": 1787.1840000000002,
+      "ideal_no_load_rpm_24S_nominal": 1531.872,
+      "ideal_no_load_rpm_24S_at3Vcell": 1276.56,
+      "theoretical_min_dc_voltage_at_200kg_rpm": 317.0105548904265,
+      "above_200kg_reference_at_nominal_voltage": false,
+      "scope": "Ideal no-load KV calculation only. Real loaded speed and current need winding/regulator maps. No 24S selection made."
+    },
+    {
+      "id": "EMRAX188_MV",
+      "kv_from_unverified_extract": 29.58,
+      "ideal_no_load_rpm_24S_full": 2981.664,
+      "ideal_no_load_rpm_24S_nominal": 2555.712,
+      "ideal_no_load_rpm_24S_at3Vcell": 2129.7599999999998,
+      "theoretical_min_dc_voltage_at_200kg_rpm": 190.0134259028824,
+      "above_200kg_reference_at_nominal_voltage": false,
+      "scope": "Ideal no-load KV calculation only. Real loaded speed and current need winding/regulator maps. No 24S selection made."
+    },
+    {
+      "id": "EMRAX188_LV",
+      "kv_from_unverified_extract": 72.82,
+      "ideal_no_load_rpm_24S_full": 7340.256,
+      "ideal_no_load_rpm_24S_nominal": 6291.648,
+      "ideal_no_load_rpm_24S_at3Vcell": 5243.039999999999,
+      "theoretical_min_dc_voltage_at_200kg_rpm": 77.18480003031121,
+      "above_200kg_reference_at_nominal_voltage": true,
+      "scope": "Ideal no-load KV calculation only. Real loaded speed and current need winding/regulator maps. No 24S selection made."
+    },
+    {
+      "id": "EMRAX188_LV28",
+      "kv_from_unverified_extract": 56.89,
+      "ideal_no_load_rpm_24S_full": 5734.512000000001,
+      "ideal_no_load_rpm_24S_nominal": 4915.296,
+      "ideal_no_load_rpm_24S_at3Vcell": 4096.08,
+      "theoretical_min_dc_voltage_at_200kg_rpm": 98.79762942884973,
+      "above_200kg_reference_at_nominal_voltage": false,
+      "scope": "Ideal no-load KV calculation only. Real loaded speed and current need winding/regulator maps. No 24S selection made."
+    },
+    {
+      "id": "EMRAX188_LV43",
+      "kv_from_unverified_extract": 50.93,
+      "ideal_no_load_rpm_24S_full": 5133.744000000001,
+      "ideal_no_load_rpm_24S_nominal": 4400.352,
+      "ideal_no_load_rpm_24S_at3Vcell": 3666.96,
+      "theoretical_min_dc_voltage_at_200kg_rpm": 110.3592605185011,
+      "above_200kg_reference_at_nominal_voltage": false,
+      "scope": "Ideal no-load KV calculation only. Real loaded speed and current need winding/regulator maps. No 24S selection made."
+    },
+    {
+      "id": "EMRAX188_LV100",
+      "kv_from_unverified_extract": 36.43,
+      "ideal_no_load_rpm_24S_full": 3672.1440000000002,
+      "ideal_no_load_rpm_24S_nominal": 3147.552,
+      "ideal_no_load_rpm_24S_at3Vcell": 2622.96,
+      "theoretical_min_dc_voltage_at_200kg_rpm": 154.28485144680926,
+      "above_200kg_reference_at_nominal_voltage": false,
+      "scope": "Ideal no-load KV calculation only. Real loaded speed and current need winding/regulator maps. No 24S selection made."
+    },
+    {
+      "id": "EMRAX208_HV",
+      "kv_from_unverified_extract": 15.53,
+      "ideal_no_load_rpm_24S_full": 1565.4240000000002,
+      "ideal_no_load_rpm_24S_nominal": 1341.7920000000001,
+      "ideal_no_load_rpm_24S_at3Vcell": 1118.1599999999999,
+      "theoretical_min_dc_voltage_at_200kg_rpm": 361.9186824344663,
+      "above_200kg_reference_at_nominal_voltage": false,
+      "scope": "Ideal no-load KV calculation only. Real loaded speed and current need winding/regulator maps. No 24S selection made."
+    },
+    {
+      "id": "EMRAX208_MV",
+      "kv_from_unverified_extract": 25.02,
+      "ideal_no_load_rpm_24S_full": 2522.016,
+      "ideal_no_load_rpm_24S_nominal": 2161.728,
+      "ideal_no_load_rpm_24S_at3Vcell": 1801.44,
+      "theoretical_min_dc_voltage_at_200kg_rpm": 224.64417019213676,
+      "above_200kg_reference_at_nominal_voltage": false,
+      "scope": "Ideal no-load KV calculation only. Real loaded speed and current need winding/regulator maps. No 24S selection made."
+    },
+    {
+      "id": "EMRAX208_LV",
+      "kv_from_unverified_extract": 64.01,
+      "ideal_no_load_rpm_24S_full": 6452.208000000001,
+      "ideal_no_load_rpm_24S_nominal": 5530.464000000001,
+      "ideal_no_load_rpm_24S_at3Vcell": 4608.72,
+      "theoretical_min_dc_voltage_at_200kg_rpm": 87.8081102672592,
+      "above_200kg_reference_at_nominal_voltage": false,
+      "scope": "Ideal no-load KV calculation only. Real loaded speed and current need winding/regulator maps. No 24S selection made."
+    },
+    {
+      "id": "EMRAX208_LV43",
+      "kv_from_unverified_extract": 44.77,
+      "ideal_no_load_rpm_24S_full": 4512.816000000001,
+      "ideal_no_load_rpm_24S_nominal": 3868.1280000000006,
+      "ideal_no_load_rpm_24S_at3Vcell": 3223.44,
+      "theoretical_min_dc_voltage_at_200kg_rpm": 125.54382707632925,
+      "above_200kg_reference_at_nominal_voltage": false,
+      "scope": "Ideal no-load KV calculation only. Real loaded speed and current need winding/regulator maps. No 24S selection made."
+    },
+    {
+      "id": "EMRAX208_LV100",
+      "kv_from_unverified_extract": 32.01,
+      "ideal_no_load_rpm_24S_full": 3226.608,
+      "ideal_no_load_rpm_24S_nominal": 2765.664,
+      "ideal_no_load_rpm_24S_at3Vcell": 2304.72,
+      "theoretical_min_dc_voltage_at_200kg_rpm": 175.5887890723918,
+      "above_200kg_reference_at_nominal_voltage": false,
+      "scope": "Ideal no-load KV calculation only. Real loaded speed and current need winding/regulator maps. No 24S selection made."
+    },
+    {
+      "id": "EMRAX208_HV42",
+      "kv_from_unverified_extract": 10.93,
+      "ideal_no_load_rpm_24S_full": 1101.7440000000001,
+      "ideal_no_load_rpm_24S_nominal": 944.3520000000001,
+      "ideal_no_load_rpm_24S_at3Vcell": 786.96,
+      "theoretical_min_dc_voltage_at_200kg_rpm": 514.2357857463185,
+      "above_200kg_reference_at_nominal_voltage": false,
+      "scope": "Ideal no-load KV calculation only. Real loaded speed and current need winding/regulator maps. No 24S selection made."
+    },
+    {
+      "id": "TMotor_U15XXL_KV29",
+      "kv_from_unverified_extract": 29,
+      "ideal_no_load_rpm_24S_full": 2923.2000000000003,
+      "ideal_no_load_rpm_24S_nominal": 2505.6000000000004,
+      "ideal_no_load_rpm_24S_at3Vcell": 2088.0,
+      "theoretical_min_dc_voltage_at_200kg_rpm": 193.81369442094004,
+      "above_200kg_reference_at_nominal_voltage": false,
+      "scope": "Ideal no-load KV calculation only. Real loaded speed and current need winding/regulator maps. No 24S selection made."
+    }
+  ],
+  "mass_floors": [
+    {
+      "id": "EMRAX188_AC",
+      "motor_each_kg_from_extract": 7.1,
+      "structural_frame_plus_payload100kg_plus4motors_kg": 149.43811741630893,
+      "remaining_to150kg_kg": 0.561882583691073,
+      "scope": "Partial mass only: no rotors, controllers, battery, cooling, cables, protection or landing gear"
+    },
+    {
+      "id": "EMRAX188_LC",
+      "motor_each_kg_from_extract": 7.9,
+      "structural_frame_plus_payload100kg_plus4motors_kg": 152.63811741630892,
+      "remaining_to150kg_kg": -2.6381174163089156,
+      "scope": "Partial mass only: no rotors, controllers, battery, cooling, cables, protection or landing gear"
+    },
+    {
+      "id": "EMRAX188_CC",
+      "motor_each_kg_from_extract": 7.6,
+      "structural_frame_plus_payload100kg_plus4motors_kg": 151.43811741630893,
+      "remaining_to150kg_kg": -1.438117416308927,
+      "scope": "Partial mass only: no rotors, controllers, battery, cooling, cables, protection or landing gear"
+    },
+    {
+      "id": "EMRAX208_AC",
+      "motor_each_kg_from_extract": 9.4,
+      "structural_frame_plus_payload100kg_plus4motors_kg": 158.63811741630892,
+      "remaining_to150kg_kg": -8.638117416308916,
+      "scope": "Partial mass only: no rotors, controllers, battery, cooling, cables, protection or landing gear"
+    },
+    {
+      "id": "EMRAX208_LC",
+      "motor_each_kg_from_extract": 10.3,
+      "structural_frame_plus_payload100kg_plus4motors_kg": 162.2381174163089,
+      "remaining_to150kg_kg": -12.23811741630891,
+      "scope": "Partial mass only: no rotors, controllers, battery, cooling, cables, protection or landing gear"
+    },
+    {
+      "id": "EMRAX208_CC",
+      "motor_each_kg_from_extract": 10.0,
+      "structural_frame_plus_payload100kg_plus4motors_kg": 161.03811741630892,
+      "remaining_to150kg_kg": -11.038117416308921,
+      "scope": "Partial mass only: no rotors, controllers, battery, cooling, cables, protection or landing gear"
+    },
+    {
+      "id": "NOVA30_WK",
+      "motor_each_kg_from_extract": 6.25,
+      "structural_frame_plus_payload100kg_plus4motors_kg": 146.03811741630892,
+      "remaining_to150kg_kg": 3.9618825836910787,
+      "scope": "Partial mass only: no rotors, controllers, battery, cooling, cables, protection or landing gear"
+    },
+    {
+      "id": "U15XXL",
+      "motor_each_kg_from_extract": 5.13,
+      "structural_frame_plus_payload100kg_plus4motors_kg": 141.55811741630893,
+      "remaining_to150kg_kg": 8.441882583691068,
+      "scope": "Partial mass only: no rotors, controllers, battery, cooling, cables, protection or landing gear"
+    }
+  ],
+  "power_table_flags": [
+    {
+      "id": "Mejzlik30x10_maxon",
+      "reported_U_V": 37,
+      "reported_I_A": 25.2,
+      "reported_P_W": 1314,
+      "product_UI_W": 932.4,
+      "reported_P_minus_UI_W": 381.6,
+      "relative_excess_to_UI": 0.4092664092664093,
+      "voltage_implied_by_P_over_I_V": 52.142857142857146,
+      "scope": "Inconsistency if U and I are simultaneous DC input values. Original must clarify column assignment, current definition, actual voltage and power definition."
+    },
+    {
+      "id": "Mejzlik28x9_4_maxon",
+      "reported_U_V": 44.4,
+      "reported_I_A": 39.7,
+      "reported_P_W": 2075,
+      "product_UI_W": 1762.68,
+      "reported_P_minus_UI_W": 312.31999999999994,
+      "relative_excess_to_UI": 0.1771847414164794,
+      "voltage_implied_by_P_over_I_V": 52.26700251889169,
+      "scope": "Inconsistency if U and I are simultaneous DC input values. Original must clarify column assignment, current definition, actual voltage and power definition."
+    }
+  ],
+  "rotor_envelopes": [
+    {
+      "diameter_in": 30,
+      "diameter_mm": 762.0,
+      "edge_gap_for_850mm_adjacent_centres_mm": 88.0,
+      "scope": "Coplanar projected rotor envelope only; no deformation/clearance allowance. No rotor geometry received."
+    },
+    {
+      "diameter_in": 57,
+      "diameter_mm": 1447.8,
+      "edge_gap_for_850mm_adjacent_centres_mm": -597.8,
+      "scope": "Coplanar projected rotor envelope only; no deformation/clearance allowance. No rotor geometry received."
+    },
+    {
+      "diameter_in": 62,
+      "diameter_mm": 1574.8,
+      "edge_gap_for_850mm_adjacent_centres_mm": -724.8,
+      "scope": "Coplanar projected rotor envelope only; no deformation/clearance allowance. No rotor geometry received."
+    }
+  ],
+  "contact_rating_screen": [
+    {
+      "mass_case_kg": 150,
+      "reference_electric_kW": 46.32877191030364,
+      "pack_current_at92V_A": 503.5736077206917,
+      "above_claimed500A_contact_rating": true,
+      "scope": "Legacy unvalidated aero model, eta0.82 and 92V. No thermal, duty or DC interruption rating validation for EV200."
+    },
+    {
+      "mass_case_kg": 175,
+      "reference_electric_kW": 58.30613771994171,
+      "pack_current_at92V_A": 633.7623665211056,
+      "above_claimed500A_contact_rating": true,
+      "scope": "Legacy unvalidated aero model, eta0.82 and 92V. No thermal, duty or DC interruption rating validation for EV200."
+    },
+    {
+      "mass_case_kg": 200,
+      "reference_electric_kW": 71.15843276828296,
+      "pack_current_at92V_A": 773.4612257422061,
+      "above_claimed500A_contact_rating": true,
+      "scope": "Legacy unvalidated aero model, eta0.82 and 92V. No thermal, duty or DC interruption rating validation for EV200."
+    }
+  ],
+  "nova_max5000rpm_screen": [
+    {
+      "mass_case_kg": 150,
+      "required_rpm": 4867.957833198902,
+      "exceeds_reported5000rpm": false
+    },
+    {
+      "mass_case_kg": 175,
+      "required_rpm": 5257.7752134531365,
+      "exceeds_reported5000rpm": true
+    },
+    {
+      "mass_case_kg": 200,
+      "required_rpm": 5620.597138207261,
+      "exceeds_reported5000rpm": true
+    }
+  ],
+  "prioritized_followup": "EMRAX188 LV: AC and LC original maps and CAD; compare complete cooling mass. Not a component selection or confirmed operating point.",
+  "design_release": false
+}

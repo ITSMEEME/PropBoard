@@ -1,0 +1,15 @@
+{
+  "native_sha256": "b1b1a6183ae6822d6a0b4eee423392b14dfc542a4971700f4d2735fa817c52c9",
+  "configurations": 40,
+  "native_switches_passed": true,
+  "nominal_rotor_space_clear": true,
+  "integration_passed": false,
+  "preferred_test_configuration": "HEP-S42x16 / V4",
+  "actual_OEM_blades_modeled": false,
+  "OEM_performance_verified": false,
+  "loaded_clearance_guaranteed": false,
+  "closed_wiring_complete": false,
+  "structural_release": false,
+  "production_ready": false,
+  "flight_release": false
+}

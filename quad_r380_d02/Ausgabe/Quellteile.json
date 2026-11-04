@@ -1,0 +1,17 @@
+[
+  {
+    "id": "CFK_KLEMM_A",
+    "file": "kreis_r04/mn1330_p12/Ausgabe/STEP/CFK-KLEMM-A.step",
+    "sha256": "bbf439fabcfa98f613111c9437d254004588cd08e257e0dfd123f39211f6152b"
+  },
+  {
+    "id": "CFK_KLEMM_B",
+    "file": "kreis_r04/mn1330_p12/Ausgabe/STEP/CFK-KLEMM-B.step",
+    "sha256": "56e6a09ddca0c9111c3f464fcd16b058b8ea487127fd016a861af8d7d34bc21b"
+  },
+  {
+    "id": "CFK_FILM",
+    "file": "kreis_r04/mn1330_p12/Ausgabe/STEP/CFK-ZWISCHENLAGE.step",
+    "sha256": "12764f99226bf175de2f46663111de4a3c19dfaf17d771ae91ca9c2a44f96385"
+  }
+]

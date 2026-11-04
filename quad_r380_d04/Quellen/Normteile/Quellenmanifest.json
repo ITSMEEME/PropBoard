@@ -1,0 +1,60 @@
+{
+  "repository": "https://github.com/shaise/FreeCAD_FastenersWB",
+  "commit": "fddd07af422b7d3a69098b32333711c5eeae184c",
+  "rows": [
+    {
+      "id": "ISO4762_M4x10",
+      "standard": "ISO4762",
+      "diameter": "M4",
+      "length_mm": 10,
+      "real_helical_thread": true,
+      "table": {
+        "Dia": "M4",
+        "P": "0.7",
+        "b": "20.0",
+        "dk_max": "7.0",
+        "da": "4.7",
+        "ds_min": "3.82",
+        "e": "3.44",
+        "lf": "0.6",
+        "k": "4.0",
+        "r": "0.2",
+        "s_mean": "3.06",
+        "t": "2.0",
+        "v": "0.4",
+        "dw": "6.53",
+        "w": "1.4"
+      },
+      "brep_sha256": "de73d69aebb868bde36a7fb2bcf03254c3018e738d9736a90642710c27f0a1dd",
+      "volume_mm3": 234.04911574913376,
+      "geometry_scope": "Nominal ISO profile from open Fasteners implementation; 6g/6H tolerances and property class remain drawing/procurement requirements"
+    },
+    {
+      "id": "ISO4762_M6x45",
+      "standard": "ISO4762",
+      "diameter": "M6",
+      "length_mm": 45,
+      "real_helical_thread": true,
+      "table": {
+        "Dia": "M6",
+        "P": "1.0",
+        "b": "24.0",
+        "dk_max": "10.0",
+        "da": "6.8",
+        "ds_min": "5.82",
+        "e": "5.72",
+        "lf": "0.68",
+        "k": "6.0",
+        "r": "0.25",
+        "s_mean": "5.06",
+        "t": "3.0",
+        "v": "0.6",
+        "dw": "9.38",
+        "w": "2.3"
+      },
+      "brep_sha256": "4e0ffe8b5d172b87497ddeb71c832fedfaa109020d2db3545edd307f2c316fc3",
+      "volume_mm3": 1526.870213482257,
+      "geometry_scope": "Nominal ISO profile from open Fasteners implementation; 6g/6H tolerances and property class remain drawing/procurement requirements"
+    }
+  ]
+}

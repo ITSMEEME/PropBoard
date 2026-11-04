@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "native_sha256": "9842c83362c6117f37fd90cb0bbee737e61358ddb5fb1b0d7577e726e2674d18",
+  "step_sha256": "2e706593822288dc49b133fa1c2368a88ec50e1a36dcdf85e46166e9f113446d",
+  "motor_reference_checks": [
+    {
+      "zmin_mm": 88.0,
+      "zmax_mm": 154.0,
+      "centre_x_mm": 425.0,
+      "centre_y_mm": 425.0
+    },
+    {
+      "zmin_mm": 88.0,
+      "zmax_mm": 154.0,
+      "centre_x_mm": -425.0,
+      "centre_y_mm": 425.0
+    },
+    {
+      "zmin_mm": 88.0,
+      "zmax_mm": 154.0,
+      "centre_x_mm": -425.0,
+      "centre_y_mm": -425.0
+    },
+    {
+      "zmin_mm": 88.0,
+      "zmax_mm": 154.0,
+      "centre_x_mm": 425.0,
+      "centre_y_mm": -425.0
+    }
+  ],
+  "scope": "Four STEP solids identified by unique motor-reference volume, at the four specified axes and corrected z88..154. Nominal reference geometry only; not detailed OEM validation."
+}

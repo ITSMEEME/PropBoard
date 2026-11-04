@@ -7,3 +7,12 @@ vergleich_horizontal/results/*.npz
 begegnung/results/*.npz
 kreis_r04/cfd/cases/
 *.msh
+
+# Generated Quad CAD archives and temporary build artifacts
+quad_r380_*/*.zip
+quad_r380_*/Cache/
+quad_r380_*/*.log
+quad_r380_*/debug_*.py
+quad_r380_*/Ausgabe/Debug_*
+quad_r380_*/Ausgabe/Failed_*
+quad_r380_*/Ausgabe/*Zwischenstand*

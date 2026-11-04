@@ -1,0 +1,43 @@
+{
+  "native_sha256": "9842c83362c6117f37fd90cb0bbee737e61358ddb5fb1b0d7577e726e2674d18",
+  "nominal_hole_axes_match": true,
+  "checks": [
+    {
+      "rotor_id": "R1",
+      "hole_count": 12,
+      "pcd_mm": 40,
+      "maximum_axis_misalignment_mm": 8.722270239737132e-12,
+      "nominal_reference_only": true,
+      "motor_thread_depth_verified": false,
+      "motor_bolts_installed": false
+    },
+    {
+      "rotor_id": "R2",
+      "hole_count": 12,
+      "pcd_mm": 40,
+      "maximum_axis_misalignment_mm": 8.722270239737132e-12,
+      "nominal_reference_only": true,
+      "motor_thread_depth_verified": false,
+      "motor_bolts_installed": false
+    },
+    {
+      "rotor_id": "R3",
+      "hole_count": 12,
+      "pcd_mm": 40,
+      "maximum_axis_misalignment_mm": 8.642630129097968e-12,
+      "nominal_reference_only": true,
+      "motor_thread_depth_verified": false,
+      "motor_bolts_installed": false
+    },
+    {
+      "rotor_id": "R4",
+      "hole_count": 12,
+      "pcd_mm": 40,
+      "maximum_axis_misalignment_mm": 8.683471812186468e-12,
+      "nominal_reference_only": true,
+      "motor_thread_depth_verified": false,
+      "motor_bolts_installed": false
+    }
+  ],
+  "scope": "All48 motor/hub hole axes coincide in actual native CAD at default phase, including the15deg hub-hole phase required by the installed legacy motor orientations. Only legacy nominal geometry, not a confirmed OEM pattern, thread engagement, centering or load release."
+}

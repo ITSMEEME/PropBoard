@@ -1,0 +1,143 @@
+[
+  {
+    "half_spacing_mm": 450,
+    "overall_rotor_width_mm": 1660,
+    "candidates": 22,
+    "hits": [
+      {
+        "hull": "H2",
+        "instance": "I_547",
+        "volume": 19049.062971019244
+      },
+      {
+        "hull": "H2",
+        "instance": "D04_I_835",
+        "volume": 336.5615157544789
+      },
+      {
+        "hull": "H2",
+        "instance": "D04_I_836",
+        "volume": 104.87527904284141
+      },
+      {
+        "hull": "H2",
+        "instance": "D04_I_839",
+        "volume": 43.057803741210094
+      },
+      {
+        "hull": "H19",
+        "instance": "I_487",
+        "volume": 19048.000473449676
+      },
+      {
+        "hull": "H19",
+        "instance": "D04_I_815",
+        "volume": 104.8752801978814
+      },
+      {
+        "hull": "H19",
+        "instance": "D04_I_816",
+        "volume": 336.5614215611988
+      },
+      {
+        "hull": "H19",
+        "instance": "D04_I_818",
+        "volume": 43.05708090484428
+      },
+      {
+        "hull": "H36",
+        "instance": "I_457",
+        "volume": 19049.06149791499
+      },
+      {
+        "hull": "H36",
+        "instance": "D04_I_805",
+        "volume": 104.87527889414329
+      },
+      {
+        "hull": "H36",
+        "instance": "D04_I_806",
+        "volume": 336.561510188489
+      },
+      {
+        "hull": "H36",
+        "instance": "D04_I_811",
+        "volume": 43.02129554575204
+      },
+      {
+        "hull": "H53",
+        "instance": "I_517",
+        "volume": 19047.99926641488
+      },
+      {
+        "hull": "H53",
+        "instance": "D04_I_825",
+        "volume": 336.56143801624705
+      },
+      {
+        "hull": "H53",
+        "instance": "D04_I_826",
+        "volume": 104.87528019785856
+      },
+      {
+        "hull": "H53",
+        "instance": "D04_I_830",
+        "volume": 43.02147943050077
+      }
+    ]
+  },
+  {
+    "half_spacing_mm": 460,
+    "overall_rotor_width_mm": 1680,
+    "candidates": 4,
+    "hits": [
+      {
+        "hull": "H2",
+        "instance": "I_547",
+        "volume": 8839.069616850915
+      },
+      {
+        "hull": "H19",
+        "instance": "I_487",
+        "volume": 8839.068279408646
+      },
+      {
+        "hull": "H36",
+        "instance": "I_457",
+        "volume": 8839.069616850764
+      },
+      {
+        "hull": "H53",
+        "instance": "I_517",
+        "volume": 8839.068279408604
+      }
+    ]
+  },
+  {
+    "half_spacing_mm": 470,
+    "overall_rotor_width_mm": 1700,
+    "candidates": 4,
+    "hits": [
+      {
+        "hull": "H2",
+        "instance": "I_547",
+        "volume": 5636.252277229549
+      },
+      {
+        "hull": "H19",
+        "instance": "I_487",
+        "volume": 5636.252277229549
+      },
+      {
+        "hull": "H36",
+        "instance": "I_457",
+        "volume": 5636.252277229552
+      },
+      {
+        "hull": "H53",
+        "instance": "I_517",
+        "volume": 5636.252277229563
+      }
+    ]
+  }
+]

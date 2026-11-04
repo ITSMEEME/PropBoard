@@ -1,0 +1,160 @@
+{
+  "native_sha256": "30e3f9620103b4158e28eff1be0f677c7911d33d1bcd702b30064fbe07337d60",
+  "variants": [
+    {
+      "variant": "V1",
+      "tubes_per_motor": 1,
+      "diameter_mm": 35,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.0003180536767605225,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -1.818469863433518e-15,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 0.5788546209839369,
+      "scope": "Anschlussgeometrien einschließlich Klemmverschraubungen und nominaler M4-Gewindepaarung modelliert. Freiraumergebnisse in Freiraum_Pruefung.json; keine Festigkeits- oder Fertigungsfreigabe."
+    },
+    {
+      "variant": "V2",
+      "tubes_per_motor": 2,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.0002617703190990623,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -1.7884613217687437e-15,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 0.726881326415526,
+      "scope": "Anschlussgeometrien einschließlich Klemmverschraubungen und nominaler M4-Gewindepaarung modelliert. Freiraumergebnisse in Freiraum_Pruefung.json; keine Festigkeits- oder Fertigungsfreigabe."
+    },
+    {
+      "variant": "V3",
+      "tubes_per_motor": 2,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": 0.00024028992309903886,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": -7.0558363842522235e-15,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 0.720378151130687,
+      "scope": "Anschlussgeometrien einschließlich Klemmverschraubungen und nominaler M4-Gewindepaarung modelliert. Freiraumergebnisse in Freiraum_Pruefung.json; keine Festigkeits- oder Fertigungsfreigabe."
+    },
+    {
+      "variant": "V4",
+      "tubes_per_motor": 3,
+      "diameter_mm": 20,
+      "node_symmetry": [
+        {
+          "part": "Root",
+          "mass_centre_y_mm": -0.010159160970364338,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": false,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        },
+        {
+          "part": "Motor",
+          "mass_centre_y_mm": 4.322306141862197e-15,
+          "passed": true,
+          "parameter_layout_symmetric": true,
+          "motor_half_mirrored": true,
+          "scope": "Symmetric tube/boss/rib layout by paired construction;independent mass-centre check,not Boolean mirror proof of helical core threads"
+        }
+      ],
+      "local_intersections": [],
+      "local_geometry_passed": true,
+      "mass_per_arm_modeled_kg": 0.9897812631231634,
+      "scope": "Anschlussgeometrien einschließlich Klemmverschraubungen und nominaler M4-Gewindepaarung modelliert. Freiraumergebnisse in Freiraum_Pruefung.json; keine Festigkeits- oder Fertigungsfreigabe."
+    }
+  ],
+  "complete_connection_release": false,
+  "clamp_hardware_modeled": true,
+  "nominal_M4_nut_pair_intersection_mm3": 0.07047997299784114,
+  "nominal_M4_nut_phase_deg": 34,
+  "switch_checks": [
+    {
+      "variant": "V1",
+      "visible_variant_instances": 100,
+      "arm_tubes": 4,
+      "motor_nodes": 4,
+      "root_nodes": 4,
+      "clamp_bolt_nut_pairs": 16,
+      "mass_modeled_kg": 26.461778841711023,
+      "passed": true
+    },
+    {
+      "variant": "V2",
+      "visible_variant_instances": 192,
+      "arm_tubes": 8,
+      "motor_nodes": 4,
+      "root_nodes": 4,
+      "clamp_bolt_nut_pairs": 32,
+      "mass_modeled_kg": 27.134239509099732,
+      "passed": true
+    },
+    {
+      "variant": "V3",
+      "visible_variant_instances": 192,
+      "arm_tubes": 8,
+      "motor_nodes": 4,
+      "root_nodes": 4,
+      "clamp_bolt_nut_pairs": 32,
+      "mass_modeled_kg": 27.108226807960378,
+      "passed": true
+    },
+    {
+      "variant": "V4",
+      "visible_variant_instances": 284,
+      "arm_tubes": 12,
+      "motor_nodes": 4,
+      "root_nodes": 4,
+      "clamp_bolt_nut_pairs": 48,
+      "mass_modeled_kg": 28.266193101592638,
+      "passed": true
+    }
+  ],
+  "limits": "Nominal hardware geometry; clamp preload,CFK laminate/contact strengths and manufacturing tolerances unverified. Old D06 rotor/foot-support clashes remain;full global clearance and service-tool validation outstanding."
+}

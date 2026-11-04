@@ -1,0 +1,8 @@
+{
+  "file": "Quellen/Beschaffungsagent/kenndaten.md",
+  "sha256": "1cde0f723fad7ed47eb9f4b8c6e9da6cb42d1fb7ce4b656c69a96165741f3d19",
+  "source_type": "User supplied text extract, explicitly unverified against original OEM files",
+  "sha256_scope": "Hash of received extract only; not a manufacturer-document hash",
+  "original_files_received": false,
+  "complete_oem_source_urls_received": false
+}

@@ -1,0 +1,8 @@
+{
+  "candidate_pairs": 484,
+  "unique_relative_pairs": 173,
+  "reporting_threshold_mm3": 0.1,
+  "interferences": [],
+  "scope": "Structural solids only; ISO fasteners excluded explicitly. All fastener/inner-thread fits and their clearance to neighbors remain unverified. Not a whole-assembly collision release.",
+  "native_sha256": "b8632aa73dd805eb122d2d5da068ac3e9bf00bd24fb9958ffb7ccfe74417d53e"
+}

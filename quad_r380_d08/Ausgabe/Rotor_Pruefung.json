@@ -1,0 +1,36 @@
+{
+  "native_sha256": "de3278529b6184d32ce460d0c7cbf3da60944b05e532d33dabb217a20f2efdeb",
+  "continuous_sweep_candidates": [],
+  "continuous_sweep_candidate_count": 0,
+  "exact_brep_candidates": 40,
+  "actual_blade_collision_witnesses": [],
+  "mechanically_clear": true,
+  "nominal_rotor_sweep_clear": true,
+  "foot_sweep_Z_gap_mm": 10.3400001904526,
+  "trimmed_node_clearance": [
+    {
+      "hull": "H2",
+      "instance": "I_547",
+      "distance_mm": 8.702971431914825
+    },
+    {
+      "hull": "H19",
+      "instance": "I_487",
+      "distance_mm": 8.702971431914847
+    },
+    {
+      "hull": "H36",
+      "instance": "I_457",
+      "distance_mm": 8.70297143191487
+    },
+    {
+      "hull": "H53",
+      "instance": "I_517",
+      "distance_mm": 8.70297143191486
+    }
+  ],
+  "rotor_disk_edge_gap_mm": 180,
+  "overall_rotor_width_mm": 1700,
+  "production_ready": false,
+  "scope": "All68 conservative D06 component annuli translated with the complete rotors to\u00b1470mm,versus every shared fixed part and all four mutually exclusive arm configurations including wiring. Z-separation proves foot-system clearance throughout its translation/retraction range. Rotor disks mutually separated180mm. Rigid nominal geometry only; no operating clearance under deflection,tolerance or person envelope. Mating hub/motor face contacts are permitted. No new actual-phase witness needed when all enclosing envelopes are clear."
+}

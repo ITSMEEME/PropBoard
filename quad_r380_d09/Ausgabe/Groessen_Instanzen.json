@@ -1,0 +1,5082 @@
+[
+  {
+    "instance": "P0_D05_I_837",
+    "label": "MN1330 KV40 45 \u2013 Zeichnungsreferenz",
+    "id": "D05_MN1330_LEGACY_REF",
+    "group": "Motorreferenzen",
+    "mass_kg": 2.75,
+    "source": "P14 STEP-Zeichnungsreferenz, keine OEM-Detaillierung",
+    "placement_mm": [
+      420.00000000000006,
+      420.0,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ],
+    "geometry_quality": "LEGACY_NOMINAL_REFERENCE_NOT_DETAILED_OEM",
+    "motor_selected_by_user": true,
+    "mass_override_source": "XLS2750g including leads",
+    "master": "D05_MN1330_LEGACY_REF",
+    "propeller_index": 0
+  },
+  {
+    "instance": "P0_D05_I_838",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      402.3223304703364,
+      437.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 0
+  },
+  {
+    "instance": "P0_D05_I_839",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      402.32233047033634,
+      402.32233047033634,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 0
+  },
+  {
+    "instance": "P0_D05_I_840",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      437.6776695296637,
+      402.3223304703363,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 0
+  },
+  {
+    "instance": "P0_D05_I_841",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      437.6776695296638,
+      437.67766952966366,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 0
+  },
+  {
+    "instance": "P0_D05_I_842",
+    "label": "MN1330 KV40 135 \u2013 Zeichnungsreferenz",
+    "id": "D05_MN1330_LEGACY_REF",
+    "group": "Motorreferenzen",
+    "mass_kg": 2.75,
+    "source": "P14 STEP-Zeichnungsreferenz, keine OEM-Detaillierung",
+    "placement_mm": [
+      -420.0,
+      420.00000000000006,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ],
+    "geometry_quality": "LEGACY_NOMINAL_REFERENCE_NOT_DETAILED_OEM",
+    "motor_selected_by_user": true,
+    "mass_override_source": "XLS2750g including leads",
+    "master": "D05_MN1330_LEGACY_REF",
+    "propeller_index": 0
+  },
+  {
+    "instance": "P0_D05_I_843",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -437.67766952966366,
+      402.3223304703364,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 0
+  },
+  {
+    "instance": "P0_D05_I_844",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -402.3223304703363,
+      402.3223304703364,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 0
+  },
+  {
+    "instance": "P0_D05_I_845",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -402.3223304703363,
+      437.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 0
+  },
+  {
+    "instance": "P0_D05_I_846",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -437.67766952966366,
+      437.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 0
+  },
+  {
+    "instance": "P0_D05_I_847",
+    "label": "MN1330 KV40 225 \u2013 Zeichnungsreferenz",
+    "id": "D05_MN1330_LEGACY_REF",
+    "group": "Motorreferenzen",
+    "mass_kg": 2.75,
+    "source": "P14 STEP-Zeichnungsreferenz, keine OEM-Detaillierung",
+    "placement_mm": [
+      -420.00000000000017,
+      -420.0,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      -0.3826834323650898,
+      0.9238795325112867
+    ],
+    "geometry_quality": "LEGACY_NOMINAL_REFERENCE_NOT_DETAILED_OEM",
+    "motor_selected_by_user": true,
+    "mass_override_source": "XLS2750g including leads",
+    "master": "D05_MN1330_LEGACY_REF",
+    "propeller_index": 0
+  },
+  {
+    "instance": "P0_D05_I_848",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -402.3223304703365,
+      -437.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 0
+  },
+  {
+    "instance": "P0_D05_I_849",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -402.32233047033645,
+      -402.32233047033634,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 0
+  },
+  {
+    "instance": "P0_D05_I_850",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -437.67766952966383,
+      -402.3223304703363,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 0
+  },
+  {
+    "instance": "P0_D05_I_851",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -437.6776695296639,
+      -437.67766952966366,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 0
+  },
+  {
+    "instance": "P0_D05_I_852",
+    "label": "MN1330 KV40 315 \u2013 Zeichnungsreferenz",
+    "id": "D05_MN1330_LEGACY_REF",
+    "group": "Motorreferenzen",
+    "mass_kg": 2.75,
+    "source": "P14 STEP-Zeichnungsreferenz, keine OEM-Detaillierung",
+    "placement_mm": [
+      419.99999999999994,
+      -420.00000000000017,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.38268343236508956,
+      0.9238795325112868
+    ],
+    "geometry_quality": "LEGACY_NOMINAL_REFERENCE_NOT_DETAILED_OEM",
+    "motor_selected_by_user": true,
+    "mass_override_source": "XLS2750g including leads",
+    "master": "D05_MN1330_LEGACY_REF",
+    "propeller_index": 0
+  },
+  {
+    "instance": "P0_D05_I_853",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      437.67766952966366,
+      -402.3223304703365,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 0
+  },
+  {
+    "instance": "P0_D05_I_854",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      402.3223304703363,
+      -402.32233047033645,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 0
+  },
+  {
+    "instance": "P0_D05_I_855",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      402.3223304703362,
+      -437.67766952966383,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 0
+  },
+  {
+    "instance": "P0_D05_I_856",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      437.6776695296636,
+      -437.6776695296639,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 0
+  },
+  {
+    "instance": "P0_Rotorhuelle_Link",
+    "id": "P0_Rotorhuelle",
+    "label": "HEP-S 18\u00d76.7 Rotor-H\u00fcllraum (kein OEM-Blatt)",
+    "group": "Rotorhuelle",
+    "propeller_index": 0,
+    "mass_kg": 0,
+    "placement_mm": [
+      420.0,
+      420.0,
+      0.0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "P0_Rotorhuelle_Link001",
+    "id": "P0_Rotorhuelle",
+    "label": "HEP-S 18\u00d76.7 Rotor-H\u00fcllraum (kein OEM-Blatt)",
+    "group": "Rotorhuelle",
+    "propeller_index": 0,
+    "mass_kg": 0,
+    "placement_mm": [
+      -420.0,
+      420.0,
+      0.0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "P0_Rotorhuelle_Link002",
+    "id": "P0_Rotorhuelle",
+    "label": "HEP-S 18\u00d76.7 Rotor-H\u00fcllraum (kein OEM-Blatt)",
+    "group": "Rotorhuelle",
+    "propeller_index": 0,
+    "mass_kg": 0,
+    "placement_mm": [
+      -420.0,
+      -420.0,
+      0.0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "P0_Rotorhuelle_Link003",
+    "id": "P0_Rotorhuelle",
+    "label": "HEP-S 18\u00d76.7 Rotor-H\u00fcllraum (kein OEM-Blatt)",
+    "group": "Rotorhuelle",
+    "propeller_index": 0,
+    "mass_kg": 0,
+    "placement_mm": [
+      420.0,
+      -420.0,
+      0.0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "P1_D05_I_837",
+    "label": "MN1330 KV40 45 \u2013 Zeichnungsreferenz",
+    "id": "D05_MN1330_LEGACY_REF",
+    "group": "Motorreferenzen",
+    "mass_kg": 2.75,
+    "source": "P14 STEP-Zeichnungsreferenz, keine OEM-Detaillierung",
+    "placement_mm": [
+      420.00000000000006,
+      420.0,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ],
+    "geometry_quality": "LEGACY_NOMINAL_REFERENCE_NOT_DETAILED_OEM",
+    "motor_selected_by_user": true,
+    "mass_override_source": "XLS2750g including leads",
+    "master": "D05_MN1330_LEGACY_REF",
+    "propeller_index": 1
+  },
+  {
+    "instance": "P1_D05_I_838",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      402.3223304703364,
+      437.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 1
+  },
+  {
+    "instance": "P1_D05_I_839",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      402.32233047033634,
+      402.32233047033634,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 1
+  },
+  {
+    "instance": "P1_D05_I_840",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      437.6776695296637,
+      402.3223304703363,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 1
+  },
+  {
+    "instance": "P1_D05_I_841",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      437.6776695296638,
+      437.67766952966366,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 1
+  },
+  {
+    "instance": "P1_D05_I_842",
+    "label": "MN1330 KV40 135 \u2013 Zeichnungsreferenz",
+    "id": "D05_MN1330_LEGACY_REF",
+    "group": "Motorreferenzen",
+    "mass_kg": 2.75,
+    "source": "P14 STEP-Zeichnungsreferenz, keine OEM-Detaillierung",
+    "placement_mm": [
+      -420.0,
+      420.00000000000006,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ],
+    "geometry_quality": "LEGACY_NOMINAL_REFERENCE_NOT_DETAILED_OEM",
+    "motor_selected_by_user": true,
+    "mass_override_source": "XLS2750g including leads",
+    "master": "D05_MN1330_LEGACY_REF",
+    "propeller_index": 1
+  },
+  {
+    "instance": "P1_D05_I_843",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -437.67766952966366,
+      402.3223304703364,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 1
+  },
+  {
+    "instance": "P1_D05_I_844",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -402.3223304703363,
+      402.3223304703364,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 1
+  },
+  {
+    "instance": "P1_D05_I_845",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -402.3223304703363,
+      437.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 1
+  },
+  {
+    "instance": "P1_D05_I_846",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -437.67766952966366,
+      437.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 1
+  },
+  {
+    "instance": "P1_D05_I_847",
+    "label": "MN1330 KV40 225 \u2013 Zeichnungsreferenz",
+    "id": "D05_MN1330_LEGACY_REF",
+    "group": "Motorreferenzen",
+    "mass_kg": 2.75,
+    "source": "P14 STEP-Zeichnungsreferenz, keine OEM-Detaillierung",
+    "placement_mm": [
+      -420.00000000000017,
+      -420.0,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      -0.3826834323650898,
+      0.9238795325112867
+    ],
+    "geometry_quality": "LEGACY_NOMINAL_REFERENCE_NOT_DETAILED_OEM",
+    "motor_selected_by_user": true,
+    "mass_override_source": "XLS2750g including leads",
+    "master": "D05_MN1330_LEGACY_REF",
+    "propeller_index": 1
+  },
+  {
+    "instance": "P1_D05_I_848",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -402.3223304703365,
+      -437.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 1
+  },
+  {
+    "instance": "P1_D05_I_849",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -402.32233047033645,
+      -402.32233047033634,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 1
+  },
+  {
+    "instance": "P1_D05_I_850",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -437.67766952966383,
+      -402.3223304703363,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 1
+  },
+  {
+    "instance": "P1_D05_I_851",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -437.6776695296639,
+      -437.67766952966366,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 1
+  },
+  {
+    "instance": "P1_D05_I_852",
+    "label": "MN1330 KV40 315 \u2013 Zeichnungsreferenz",
+    "id": "D05_MN1330_LEGACY_REF",
+    "group": "Motorreferenzen",
+    "mass_kg": 2.75,
+    "source": "P14 STEP-Zeichnungsreferenz, keine OEM-Detaillierung",
+    "placement_mm": [
+      419.99999999999994,
+      -420.00000000000017,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.38268343236508956,
+      0.9238795325112868
+    ],
+    "geometry_quality": "LEGACY_NOMINAL_REFERENCE_NOT_DETAILED_OEM",
+    "motor_selected_by_user": true,
+    "mass_override_source": "XLS2750g including leads",
+    "master": "D05_MN1330_LEGACY_REF",
+    "propeller_index": 1
+  },
+  {
+    "instance": "P1_D05_I_853",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      437.67766952966366,
+      -402.3223304703365,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 1
+  },
+  {
+    "instance": "P1_D05_I_854",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      402.3223304703363,
+      -402.32233047033645,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 1
+  },
+  {
+    "instance": "P1_D05_I_855",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      402.3223304703362,
+      -437.67766952966383,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 1
+  },
+  {
+    "instance": "P1_D05_I_856",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      437.6776695296636,
+      -437.6776695296639,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 1
+  },
+  {
+    "instance": "P1_Rotorhuelle_Link",
+    "id": "P1_Rotorhuelle",
+    "label": "HEP-S 22\u00d77.2 Rotor-H\u00fcllraum (kein OEM-Blatt)",
+    "group": "Rotorhuelle",
+    "propeller_index": 1,
+    "mass_kg": 0,
+    "placement_mm": [
+      420.0,
+      420.0,
+      0.0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "P1_Rotorhuelle_Link001",
+    "id": "P1_Rotorhuelle",
+    "label": "HEP-S 22\u00d77.2 Rotor-H\u00fcllraum (kein OEM-Blatt)",
+    "group": "Rotorhuelle",
+    "propeller_index": 1,
+    "mass_kg": 0,
+    "placement_mm": [
+      -420.0,
+      420.0,
+      0.0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "P1_Rotorhuelle_Link002",
+    "id": "P1_Rotorhuelle",
+    "label": "HEP-S 22\u00d77.2 Rotor-H\u00fcllraum (kein OEM-Blatt)",
+    "group": "Rotorhuelle",
+    "propeller_index": 1,
+    "mass_kg": 0,
+    "placement_mm": [
+      -420.0,
+      -420.0,
+      0.0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "P1_Rotorhuelle_Link003",
+    "id": "P1_Rotorhuelle",
+    "label": "HEP-S 22\u00d77.2 Rotor-H\u00fcllraum (kein OEM-Blatt)",
+    "group": "Rotorhuelle",
+    "propeller_index": 1,
+    "mass_kg": 0,
+    "placement_mm": [
+      420.0,
+      -420.0,
+      0.0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "P2_D05_I_837",
+    "label": "MN1330 KV40 45 \u2013 Zeichnungsreferenz",
+    "id": "D05_MN1330_LEGACY_REF",
+    "group": "Motorreferenzen",
+    "mass_kg": 2.75,
+    "source": "P14 STEP-Zeichnungsreferenz, keine OEM-Detaillierung",
+    "placement_mm": [
+      465.00000000000006,
+      465.0,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ],
+    "geometry_quality": "LEGACY_NOMINAL_REFERENCE_NOT_DETAILED_OEM",
+    "motor_selected_by_user": true,
+    "mass_override_source": "XLS2750g including leads",
+    "master": "D05_MN1330_LEGACY_REF",
+    "propeller_index": 2
+  },
+  {
+    "instance": "P2_D05_I_838",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      447.3223304703364,
+      482.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 2
+  },
+  {
+    "instance": "P2_D05_I_839",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      447.32233047033634,
+      447.32233047033634,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 2
+  },
+  {
+    "instance": "P2_D05_I_840",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      482.6776695296637,
+      447.3223304703363,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 2
+  },
+  {
+    "instance": "P2_D05_I_841",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      482.6776695296638,
+      482.67766952966366,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 2
+  },
+  {
+    "instance": "P2_D05_I_842",
+    "label": "MN1330 KV40 135 \u2013 Zeichnungsreferenz",
+    "id": "D05_MN1330_LEGACY_REF",
+    "group": "Motorreferenzen",
+    "mass_kg": 2.75,
+    "source": "P14 STEP-Zeichnungsreferenz, keine OEM-Detaillierung",
+    "placement_mm": [
+      -465.0,
+      465.00000000000006,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ],
+    "geometry_quality": "LEGACY_NOMINAL_REFERENCE_NOT_DETAILED_OEM",
+    "motor_selected_by_user": true,
+    "mass_override_source": "XLS2750g including leads",
+    "master": "D05_MN1330_LEGACY_REF",
+    "propeller_index": 2
+  },
+  {
+    "instance": "P2_D05_I_843",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -482.67766952966366,
+      447.3223304703364,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 2
+  },
+  {
+    "instance": "P2_D05_I_844",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -447.3223304703363,
+      447.3223304703364,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 2
+  },
+  {
+    "instance": "P2_D05_I_845",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -447.3223304703363,
+      482.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 2
+  },
+  {
+    "instance": "P2_D05_I_846",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -482.67766952966366,
+      482.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 2
+  },
+  {
+    "instance": "P2_D05_I_847",
+    "label": "MN1330 KV40 225 \u2013 Zeichnungsreferenz",
+    "id": "D05_MN1330_LEGACY_REF",
+    "group": "Motorreferenzen",
+    "mass_kg": 2.75,
+    "source": "P14 STEP-Zeichnungsreferenz, keine OEM-Detaillierung",
+    "placement_mm": [
+      -465.00000000000017,
+      -465.0,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      -0.3826834323650898,
+      0.9238795325112867
+    ],
+    "geometry_quality": "LEGACY_NOMINAL_REFERENCE_NOT_DETAILED_OEM",
+    "motor_selected_by_user": true,
+    "mass_override_source": "XLS2750g including leads",
+    "master": "D05_MN1330_LEGACY_REF",
+    "propeller_index": 2
+  },
+  {
+    "instance": "P2_D05_I_848",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -447.3223304703365,
+      -482.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 2
+  },
+  {
+    "instance": "P2_D05_I_849",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -447.32233047033645,
+      -447.32233047033634,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 2
+  },
+  {
+    "instance": "P2_D05_I_850",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -482.67766952966383,
+      -447.3223304703363,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 2
+  },
+  {
+    "instance": "P2_D05_I_851",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -482.6776695296639,
+      -482.67766952966366,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 2
+  },
+  {
+    "instance": "P2_D05_I_852",
+    "label": "MN1330 KV40 315 \u2013 Zeichnungsreferenz",
+    "id": "D05_MN1330_LEGACY_REF",
+    "group": "Motorreferenzen",
+    "mass_kg": 2.75,
+    "source": "P14 STEP-Zeichnungsreferenz, keine OEM-Detaillierung",
+    "placement_mm": [
+      464.99999999999994,
+      -465.00000000000017,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.38268343236508956,
+      0.9238795325112868
+    ],
+    "geometry_quality": "LEGACY_NOMINAL_REFERENCE_NOT_DETAILED_OEM",
+    "motor_selected_by_user": true,
+    "mass_override_source": "XLS2750g including leads",
+    "master": "D05_MN1330_LEGACY_REF",
+    "propeller_index": 2
+  },
+  {
+    "instance": "P2_D05_I_853",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      482.67766952966366,
+      -447.3223304703365,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 2
+  },
+  {
+    "instance": "P2_D05_I_854",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      447.3223304703363,
+      -447.32233047033645,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 2
+  },
+  {
+    "instance": "P2_D05_I_855",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      447.3223304703362,
+      -482.67766952966383,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 2
+  },
+  {
+    "instance": "P2_D05_I_856",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      482.6776695296636,
+      -482.6776695296639,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 2
+  },
+  {
+    "instance": "P2_Rotorhuelle_Link",
+    "id": "P2_Rotorhuelle",
+    "label": "HEP-S 26\u00d78.8 Rotor-H\u00fcllraum (kein OEM-Blatt)",
+    "group": "Rotorhuelle",
+    "propeller_index": 2,
+    "mass_kg": 0,
+    "placement_mm": [
+      465.0,
+      465.0,
+      0.0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "P2_Rotorhuelle_Link001",
+    "id": "P2_Rotorhuelle",
+    "label": "HEP-S 26\u00d78.8 Rotor-H\u00fcllraum (kein OEM-Blatt)",
+    "group": "Rotorhuelle",
+    "propeller_index": 2,
+    "mass_kg": 0,
+    "placement_mm": [
+      -465.0,
+      465.0,
+      0.0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "P2_Rotorhuelle_Link002",
+    "id": "P2_Rotorhuelle",
+    "label": "HEP-S 26\u00d78.8 Rotor-H\u00fcllraum (kein OEM-Blatt)",
+    "group": "Rotorhuelle",
+    "propeller_index": 2,
+    "mass_kg": 0,
+    "placement_mm": [
+      -465.0,
+      -465.0,
+      0.0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "P2_Rotorhuelle_Link003",
+    "id": "P2_Rotorhuelle",
+    "label": "HEP-S 26\u00d78.8 Rotor-H\u00fcllraum (kein OEM-Blatt)",
+    "group": "Rotorhuelle",
+    "propeller_index": 2,
+    "mass_kg": 0,
+    "placement_mm": [
+      465.0,
+      -465.0,
+      0.0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "P3_D05_I_837",
+    "label": "MN1330 KV40 45 \u2013 Zeichnungsreferenz",
+    "id": "D05_MN1330_LEGACY_REF",
+    "group": "Motorreferenzen",
+    "mass_kg": 2.75,
+    "source": "P14 STEP-Zeichnungsreferenz, keine OEM-Detaillierung",
+    "placement_mm": [
+      485.00000000000006,
+      485.0,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ],
+    "geometry_quality": "LEGACY_NOMINAL_REFERENCE_NOT_DETAILED_OEM",
+    "motor_selected_by_user": true,
+    "mass_override_source": "XLS2750g including leads",
+    "master": "D05_MN1330_LEGACY_REF",
+    "propeller_index": 3
+  },
+  {
+    "instance": "P3_D05_I_838",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      467.3223304703364,
+      502.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 3
+  },
+  {
+    "instance": "P3_D05_I_839",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      467.32233047033634,
+      467.32233047033634,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 3
+  },
+  {
+    "instance": "P3_D05_I_840",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      502.6776695296637,
+      467.3223304703363,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 3
+  },
+  {
+    "instance": "P3_D05_I_841",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      502.6776695296638,
+      502.67766952966366,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 3
+  },
+  {
+    "instance": "P3_D05_I_842",
+    "label": "MN1330 KV40 135 \u2013 Zeichnungsreferenz",
+    "id": "D05_MN1330_LEGACY_REF",
+    "group": "Motorreferenzen",
+    "mass_kg": 2.75,
+    "source": "P14 STEP-Zeichnungsreferenz, keine OEM-Detaillierung",
+    "placement_mm": [
+      -485.0,
+      485.00000000000006,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ],
+    "geometry_quality": "LEGACY_NOMINAL_REFERENCE_NOT_DETAILED_OEM",
+    "motor_selected_by_user": true,
+    "mass_override_source": "XLS2750g including leads",
+    "master": "D05_MN1330_LEGACY_REF",
+    "propeller_index": 3
+  },
+  {
+    "instance": "P3_D05_I_843",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -502.67766952966366,
+      467.3223304703364,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 3
+  },
+  {
+    "instance": "P3_D05_I_844",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -467.3223304703363,
+      467.3223304703364,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 3
+  },
+  {
+    "instance": "P3_D05_I_845",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -467.3223304703363,
+      502.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 3
+  },
+  {
+    "instance": "P3_D05_I_846",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -502.67766952966366,
+      502.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 3
+  },
+  {
+    "instance": "P3_D05_I_847",
+    "label": "MN1330 KV40 225 \u2013 Zeichnungsreferenz",
+    "id": "D05_MN1330_LEGACY_REF",
+    "group": "Motorreferenzen",
+    "mass_kg": 2.75,
+    "source": "P14 STEP-Zeichnungsreferenz, keine OEM-Detaillierung",
+    "placement_mm": [
+      -485.00000000000017,
+      -485.0,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      -0.3826834323650898,
+      0.9238795325112867
+    ],
+    "geometry_quality": "LEGACY_NOMINAL_REFERENCE_NOT_DETAILED_OEM",
+    "motor_selected_by_user": true,
+    "mass_override_source": "XLS2750g including leads",
+    "master": "D05_MN1330_LEGACY_REF",
+    "propeller_index": 3
+  },
+  {
+    "instance": "P3_D05_I_848",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -467.3223304703365,
+      -502.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 3
+  },
+  {
+    "instance": "P3_D05_I_849",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -467.32233047033645,
+      -467.32233047033634,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 3
+  },
+  {
+    "instance": "P3_D05_I_850",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -502.67766952966383,
+      -467.3223304703363,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 3
+  },
+  {
+    "instance": "P3_D05_I_851",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -502.6776695296639,
+      -502.67766952966366,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 3
+  },
+  {
+    "instance": "P3_D05_I_852",
+    "label": "MN1330 KV40 315 \u2013 Zeichnungsreferenz",
+    "id": "D05_MN1330_LEGACY_REF",
+    "group": "Motorreferenzen",
+    "mass_kg": 2.75,
+    "source": "P14 STEP-Zeichnungsreferenz, keine OEM-Detaillierung",
+    "placement_mm": [
+      484.99999999999994,
+      -485.00000000000017,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.38268343236508956,
+      0.9238795325112868
+    ],
+    "geometry_quality": "LEGACY_NOMINAL_REFERENCE_NOT_DETAILED_OEM",
+    "motor_selected_by_user": true,
+    "mass_override_source": "XLS2750g including leads",
+    "master": "D05_MN1330_LEGACY_REF",
+    "propeller_index": 3
+  },
+  {
+    "instance": "P3_D05_I_853",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      502.67766952966366,
+      -467.3223304703365,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 3
+  },
+  {
+    "instance": "P3_D05_I_854",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      467.3223304703363,
+      -467.32233047033645,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 3
+  },
+  {
+    "instance": "P3_D05_I_855",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      467.3223304703362,
+      -502.67766952966383,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 3
+  },
+  {
+    "instance": "P3_D05_I_856",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      502.6776695296636,
+      -502.6776695296639,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 3
+  },
+  {
+    "instance": "P3_Rotorhuelle_Link",
+    "id": "P3_Rotorhuelle",
+    "label": "HEP-S 28\u00d79 Rotor-H\u00fcllraum (kein OEM-Blatt)",
+    "group": "Rotorhuelle",
+    "propeller_index": 3,
+    "mass_kg": 0,
+    "placement_mm": [
+      485.0,
+      485.0,
+      0.0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "P3_Rotorhuelle_Link001",
+    "id": "P3_Rotorhuelle",
+    "label": "HEP-S 28\u00d79 Rotor-H\u00fcllraum (kein OEM-Blatt)",
+    "group": "Rotorhuelle",
+    "propeller_index": 3,
+    "mass_kg": 0,
+    "placement_mm": [
+      -485.0,
+      485.0,
+      0.0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "P3_Rotorhuelle_Link002",
+    "id": "P3_Rotorhuelle",
+    "label": "HEP-S 28\u00d79 Rotor-H\u00fcllraum (kein OEM-Blatt)",
+    "group": "Rotorhuelle",
+    "propeller_index": 3,
+    "mass_kg": 0,
+    "placement_mm": [
+      -485.0,
+      -485.0,
+      0.0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "P3_Rotorhuelle_Link003",
+    "id": "P3_Rotorhuelle",
+    "label": "HEP-S 28\u00d79 Rotor-H\u00fcllraum (kein OEM-Blatt)",
+    "group": "Rotorhuelle",
+    "propeller_index": 3,
+    "mass_kg": 0,
+    "placement_mm": [
+      485.0,
+      -485.0,
+      0.0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "P4_D05_I_837",
+    "label": "MN1330 KV40 45 \u2013 Zeichnungsreferenz",
+    "id": "D05_MN1330_LEGACY_REF",
+    "group": "Motorreferenzen",
+    "mass_kg": 2.75,
+    "source": "P14 STEP-Zeichnungsreferenz, keine OEM-Detaillierung",
+    "placement_mm": [
+      495.00000000000006,
+      495.0,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ],
+    "geometry_quality": "LEGACY_NOMINAL_REFERENCE_NOT_DETAILED_OEM",
+    "motor_selected_by_user": true,
+    "mass_override_source": "XLS2750g including leads",
+    "master": "D05_MN1330_LEGACY_REF",
+    "propeller_index": 4
+  },
+  {
+    "instance": "P4_D05_I_838",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      477.3223304703364,
+      512.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 4
+  },
+  {
+    "instance": "P4_D05_I_839",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      477.32233047033634,
+      477.32233047033634,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 4
+  },
+  {
+    "instance": "P4_D05_I_840",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      512.6776695296637,
+      477.3223304703363,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 4
+  },
+  {
+    "instance": "P4_D05_I_841",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      512.6776695296637,
+      512.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 4
+  },
+  {
+    "instance": "P4_D05_I_842",
+    "label": "MN1330 KV40 135 \u2013 Zeichnungsreferenz",
+    "id": "D05_MN1330_LEGACY_REF",
+    "group": "Motorreferenzen",
+    "mass_kg": 2.75,
+    "source": "P14 STEP-Zeichnungsreferenz, keine OEM-Detaillierung",
+    "placement_mm": [
+      -495.0,
+      495.00000000000006,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ],
+    "geometry_quality": "LEGACY_NOMINAL_REFERENCE_NOT_DETAILED_OEM",
+    "motor_selected_by_user": true,
+    "mass_override_source": "XLS2750g including leads",
+    "master": "D05_MN1330_LEGACY_REF",
+    "propeller_index": 4
+  },
+  {
+    "instance": "P4_D05_I_843",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -512.6776695296637,
+      477.3223304703364,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 4
+  },
+  {
+    "instance": "P4_D05_I_844",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -477.3223304703363,
+      477.3223304703364,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 4
+  },
+  {
+    "instance": "P4_D05_I_845",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -477.3223304703363,
+      512.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 4
+  },
+  {
+    "instance": "P4_D05_I_846",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -512.6776695296637,
+      512.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 4
+  },
+  {
+    "instance": "P4_D05_I_847",
+    "label": "MN1330 KV40 225 \u2013 Zeichnungsreferenz",
+    "id": "D05_MN1330_LEGACY_REF",
+    "group": "Motorreferenzen",
+    "mass_kg": 2.75,
+    "source": "P14 STEP-Zeichnungsreferenz, keine OEM-Detaillierung",
+    "placement_mm": [
+      -495.00000000000017,
+      -495.0,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      -0.3826834323650898,
+      0.9238795325112867
+    ],
+    "geometry_quality": "LEGACY_NOMINAL_REFERENCE_NOT_DETAILED_OEM",
+    "motor_selected_by_user": true,
+    "mass_override_source": "XLS2750g including leads",
+    "master": "D05_MN1330_LEGACY_REF",
+    "propeller_index": 4
+  },
+  {
+    "instance": "P4_D05_I_848",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -477.3223304703365,
+      -512.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 4
+  },
+  {
+    "instance": "P4_D05_I_849",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -477.32233047033645,
+      -477.32233047033634,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 4
+  },
+  {
+    "instance": "P4_D05_I_850",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -512.6776695296638,
+      -477.3223304703363,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 4
+  },
+  {
+    "instance": "P4_D05_I_851",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -512.677669529664,
+      -512.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 4
+  },
+  {
+    "instance": "P4_D05_I_852",
+    "label": "MN1330 KV40 315 \u2013 Zeichnungsreferenz",
+    "id": "D05_MN1330_LEGACY_REF",
+    "group": "Motorreferenzen",
+    "mass_kg": 2.75,
+    "source": "P14 STEP-Zeichnungsreferenz, keine OEM-Detaillierung",
+    "placement_mm": [
+      494.99999999999994,
+      -495.00000000000017,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.38268343236508956,
+      0.9238795325112868
+    ],
+    "geometry_quality": "LEGACY_NOMINAL_REFERENCE_NOT_DETAILED_OEM",
+    "motor_selected_by_user": true,
+    "mass_override_source": "XLS2750g including leads",
+    "master": "D05_MN1330_LEGACY_REF",
+    "propeller_index": 4
+  },
+  {
+    "instance": "P4_D05_I_853",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      512.6776695296637,
+      -477.3223304703365,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 4
+  },
+  {
+    "instance": "P4_D05_I_854",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      477.3223304703363,
+      -477.32233047033645,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 4
+  },
+  {
+    "instance": "P4_D05_I_855",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      477.3223304703362,
+      -512.6776695296638,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 4
+  },
+  {
+    "instance": "P4_D05_I_856",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      512.6776695296636,
+      -512.677669529664,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 4
+  },
+  {
+    "instance": "P4_Rotorhuelle_Link",
+    "id": "P4_Rotorhuelle",
+    "label": "HEP-S 29\u00d711 Rotor-H\u00fcllraum (kein OEM-Blatt)",
+    "group": "Rotorhuelle",
+    "propeller_index": 4,
+    "mass_kg": 0,
+    "placement_mm": [
+      495.0,
+      495.0,
+      0.0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "P4_Rotorhuelle_Link001",
+    "id": "P4_Rotorhuelle",
+    "label": "HEP-S 29\u00d711 Rotor-H\u00fcllraum (kein OEM-Blatt)",
+    "group": "Rotorhuelle",
+    "propeller_index": 4,
+    "mass_kg": 0,
+    "placement_mm": [
+      -495.0,
+      495.0,
+      0.0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "P4_Rotorhuelle_Link002",
+    "id": "P4_Rotorhuelle",
+    "label": "HEP-S 29\u00d711 Rotor-H\u00fcllraum (kein OEM-Blatt)",
+    "group": "Rotorhuelle",
+    "propeller_index": 4,
+    "mass_kg": 0,
+    "placement_mm": [
+      -495.0,
+      -495.0,
+      0.0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "P4_Rotorhuelle_Link003",
+    "id": "P4_Rotorhuelle",
+    "label": "HEP-S 29\u00d711 Rotor-H\u00fcllraum (kein OEM-Blatt)",
+    "group": "Rotorhuelle",
+    "propeller_index": 4,
+    "mass_kg": 0,
+    "placement_mm": [
+      495.0,
+      -495.0,
+      0.0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "P5_D05_I_837",
+    "label": "MN1330 KV40 45 \u2013 Zeichnungsreferenz",
+    "id": "D05_MN1330_LEGACY_REF",
+    "group": "Motorreferenzen",
+    "mass_kg": 2.75,
+    "source": "P14 STEP-Zeichnungsreferenz, keine OEM-Detaillierung",
+    "placement_mm": [
+      510.00000000000006,
+      510.0,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ],
+    "geometry_quality": "LEGACY_NOMINAL_REFERENCE_NOT_DETAILED_OEM",
+    "motor_selected_by_user": true,
+    "mass_override_source": "XLS2750g including leads",
+    "master": "D05_MN1330_LEGACY_REF",
+    "propeller_index": 5
+  },
+  {
+    "instance": "P5_D05_I_838",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      492.3223304703364,
+      527.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 5
+  },
+  {
+    "instance": "P5_D05_I_839",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      492.32233047033634,
+      492.32233047033634,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 5
+  },
+  {
+    "instance": "P5_D05_I_840",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      527.6776695296637,
+      492.3223304703363,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 5
+  },
+  {
+    "instance": "P5_D05_I_841",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      527.6776695296637,
+      527.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 5
+  },
+  {
+    "instance": "P5_D05_I_842",
+    "label": "MN1330 KV40 135 \u2013 Zeichnungsreferenz",
+    "id": "D05_MN1330_LEGACY_REF",
+    "group": "Motorreferenzen",
+    "mass_kg": 2.75,
+    "source": "P14 STEP-Zeichnungsreferenz, keine OEM-Detaillierung",
+    "placement_mm": [
+      -510.0,
+      510.00000000000006,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ],
+    "geometry_quality": "LEGACY_NOMINAL_REFERENCE_NOT_DETAILED_OEM",
+    "motor_selected_by_user": true,
+    "mass_override_source": "XLS2750g including leads",
+    "master": "D05_MN1330_LEGACY_REF",
+    "propeller_index": 5
+  },
+  {
+    "instance": "P5_D05_I_843",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -527.6776695296637,
+      492.3223304703364,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 5
+  },
+  {
+    "instance": "P5_D05_I_844",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -492.3223304703363,
+      492.3223304703364,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 5
+  },
+  {
+    "instance": "P5_D05_I_845",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -492.3223304703363,
+      527.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 5
+  },
+  {
+    "instance": "P5_D05_I_846",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -527.6776695296637,
+      527.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 5
+  },
+  {
+    "instance": "P5_D05_I_847",
+    "label": "MN1330 KV40 225 \u2013 Zeichnungsreferenz",
+    "id": "D05_MN1330_LEGACY_REF",
+    "group": "Motorreferenzen",
+    "mass_kg": 2.75,
+    "source": "P14 STEP-Zeichnungsreferenz, keine OEM-Detaillierung",
+    "placement_mm": [
+      -510.00000000000017,
+      -510.0,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      -0.3826834323650898,
+      0.9238795325112867
+    ],
+    "geometry_quality": "LEGACY_NOMINAL_REFERENCE_NOT_DETAILED_OEM",
+    "motor_selected_by_user": true,
+    "mass_override_source": "XLS2750g including leads",
+    "master": "D05_MN1330_LEGACY_REF",
+    "propeller_index": 5
+  },
+  {
+    "instance": "P5_D05_I_848",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -492.3223304703365,
+      -527.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 5
+  },
+  {
+    "instance": "P5_D05_I_849",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -492.32233047033645,
+      -492.32233047033634,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 5
+  },
+  {
+    "instance": "P5_D05_I_850",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -527.6776695296638,
+      -492.3223304703363,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 5
+  },
+  {
+    "instance": "P5_D05_I_851",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -527.677669529664,
+      -527.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 5
+  },
+  {
+    "instance": "P5_D05_I_852",
+    "label": "MN1330 KV40 315 \u2013 Zeichnungsreferenz",
+    "id": "D05_MN1330_LEGACY_REF",
+    "group": "Motorreferenzen",
+    "mass_kg": 2.75,
+    "source": "P14 STEP-Zeichnungsreferenz, keine OEM-Detaillierung",
+    "placement_mm": [
+      509.99999999999994,
+      -510.00000000000017,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.38268343236508956,
+      0.9238795325112868
+    ],
+    "geometry_quality": "LEGACY_NOMINAL_REFERENCE_NOT_DETAILED_OEM",
+    "motor_selected_by_user": true,
+    "mass_override_source": "XLS2750g including leads",
+    "master": "D05_MN1330_LEGACY_REF",
+    "propeller_index": 5
+  },
+  {
+    "instance": "P5_D05_I_853",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      527.6776695296637,
+      -492.3223304703365,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 5
+  },
+  {
+    "instance": "P5_D05_I_854",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      492.3223304703363,
+      -492.32233047033645,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 5
+  },
+  {
+    "instance": "P5_D05_I_855",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      492.3223304703362,
+      -527.6776695296638,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 5
+  },
+  {
+    "instance": "P5_D05_I_856",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      527.6776695296636,
+      -527.677669529664,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 5
+  },
+  {
+    "instance": "P5_Rotorhuelle_Link",
+    "id": "P5_Rotorhuelle",
+    "label": "HEP-S 30\u00d710.5 Rotor-H\u00fcllraum (kein OEM-Blatt)",
+    "group": "Rotorhuelle",
+    "propeller_index": 5,
+    "mass_kg": 0,
+    "placement_mm": [
+      510.0,
+      510.0,
+      0.0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "P5_Rotorhuelle_Link001",
+    "id": "P5_Rotorhuelle",
+    "label": "HEP-S 30\u00d710.5 Rotor-H\u00fcllraum (kein OEM-Blatt)",
+    "group": "Rotorhuelle",
+    "propeller_index": 5,
+    "mass_kg": 0,
+    "placement_mm": [
+      -510.0,
+      510.0,
+      0.0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "P5_Rotorhuelle_Link002",
+    "id": "P5_Rotorhuelle",
+    "label": "HEP-S 30\u00d710.5 Rotor-H\u00fcllraum (kein OEM-Blatt)",
+    "group": "Rotorhuelle",
+    "propeller_index": 5,
+    "mass_kg": 0,
+    "placement_mm": [
+      -510.0,
+      -510.0,
+      0.0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "P5_Rotorhuelle_Link003",
+    "id": "P5_Rotorhuelle",
+    "label": "HEP-S 30\u00d710.5 Rotor-H\u00fcllraum (kein OEM-Blatt)",
+    "group": "Rotorhuelle",
+    "propeller_index": 5,
+    "mass_kg": 0,
+    "placement_mm": [
+      510.0,
+      -510.0,
+      0.0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "P6_D05_I_837",
+    "label": "MN1330 KV40 45 \u2013 Zeichnungsreferenz",
+    "id": "D05_MN1330_LEGACY_REF",
+    "group": "Motorreferenzen",
+    "mass_kg": 2.75,
+    "source": "P14 STEP-Zeichnungsreferenz, keine OEM-Detaillierung",
+    "placement_mm": [
+      530.0,
+      530.0,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ],
+    "geometry_quality": "LEGACY_NOMINAL_REFERENCE_NOT_DETAILED_OEM",
+    "motor_selected_by_user": true,
+    "mass_override_source": "XLS2750g including leads",
+    "master": "D05_MN1330_LEGACY_REF",
+    "propeller_index": 6
+  },
+  {
+    "instance": "P6_D05_I_838",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      512.3223304703364,
+      547.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 6
+  },
+  {
+    "instance": "P6_D05_I_839",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      512.3223304703363,
+      512.3223304703363,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 6
+  },
+  {
+    "instance": "P6_D05_I_840",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      547.6776695296637,
+      512.3223304703363,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 6
+  },
+  {
+    "instance": "P6_D05_I_841",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      547.6776695296637,
+      547.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 6
+  },
+  {
+    "instance": "P6_D05_I_842",
+    "label": "MN1330 KV40 135 \u2013 Zeichnungsreferenz",
+    "id": "D05_MN1330_LEGACY_REF",
+    "group": "Motorreferenzen",
+    "mass_kg": 2.75,
+    "source": "P14 STEP-Zeichnungsreferenz, keine OEM-Detaillierung",
+    "placement_mm": [
+      -530.0,
+      530.0,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ],
+    "geometry_quality": "LEGACY_NOMINAL_REFERENCE_NOT_DETAILED_OEM",
+    "motor_selected_by_user": true,
+    "mass_override_source": "XLS2750g including leads",
+    "master": "D05_MN1330_LEGACY_REF",
+    "propeller_index": 6
+  },
+  {
+    "instance": "P6_D05_I_843",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -547.6776695296637,
+      512.3223304703364,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 6
+  },
+  {
+    "instance": "P6_D05_I_844",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -512.3223304703363,
+      512.3223304703364,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 6
+  },
+  {
+    "instance": "P6_D05_I_845",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -512.3223304703363,
+      547.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 6
+  },
+  {
+    "instance": "P6_D05_I_846",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -547.6776695296637,
+      547.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 6
+  },
+  {
+    "instance": "P6_D05_I_847",
+    "label": "MN1330 KV40 225 \u2013 Zeichnungsreferenz",
+    "id": "D05_MN1330_LEGACY_REF",
+    "group": "Motorreferenzen",
+    "mass_kg": 2.75,
+    "source": "P14 STEP-Zeichnungsreferenz, keine OEM-Detaillierung",
+    "placement_mm": [
+      -530.0000000000002,
+      -530.0,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      -0.3826834323650898,
+      0.9238795325112867
+    ],
+    "geometry_quality": "LEGACY_NOMINAL_REFERENCE_NOT_DETAILED_OEM",
+    "motor_selected_by_user": true,
+    "mass_override_source": "XLS2750g including leads",
+    "master": "D05_MN1330_LEGACY_REF",
+    "propeller_index": 6
+  },
+  {
+    "instance": "P6_D05_I_848",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -512.3223304703365,
+      -547.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 6
+  },
+  {
+    "instance": "P6_D05_I_849",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -512.3223304703365,
+      -512.3223304703363,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 6
+  },
+  {
+    "instance": "P6_D05_I_850",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -547.6776695296638,
+      -512.3223304703363,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 6
+  },
+  {
+    "instance": "P6_D05_I_851",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -547.677669529664,
+      -547.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 6
+  },
+  {
+    "instance": "P6_D05_I_852",
+    "label": "MN1330 KV40 315 \u2013 Zeichnungsreferenz",
+    "id": "D05_MN1330_LEGACY_REF",
+    "group": "Motorreferenzen",
+    "mass_kg": 2.75,
+    "source": "P14 STEP-Zeichnungsreferenz, keine OEM-Detaillierung",
+    "placement_mm": [
+      530.0,
+      -530.0000000000002,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.38268343236508956,
+      0.9238795325112868
+    ],
+    "geometry_quality": "LEGACY_NOMINAL_REFERENCE_NOT_DETAILED_OEM",
+    "motor_selected_by_user": true,
+    "mass_override_source": "XLS2750g including leads",
+    "master": "D05_MN1330_LEGACY_REF",
+    "propeller_index": 6
+  },
+  {
+    "instance": "P6_D05_I_853",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      547.6776695296637,
+      -512.3223304703365,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 6
+  },
+  {
+    "instance": "P6_D05_I_854",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      512.3223304703363,
+      -512.3223304703365,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 6
+  },
+  {
+    "instance": "P6_D05_I_855",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      512.3223304703363,
+      -547.6776695296638,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 6
+  },
+  {
+    "instance": "P6_D05_I_856",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      547.6776695296636,
+      -547.677669529664,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 6
+  },
+  {
+    "instance": "P6_Rotorhuelle_Link",
+    "id": "P6_Rotorhuelle",
+    "label": "HEP-S 32\u00d711 Rotor-H\u00fcllraum (kein OEM-Blatt)",
+    "group": "Rotorhuelle",
+    "propeller_index": 6,
+    "mass_kg": 0,
+    "placement_mm": [
+      530.0,
+      530.0,
+      0.0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "P6_Rotorhuelle_Link001",
+    "id": "P6_Rotorhuelle",
+    "label": "HEP-S 32\u00d711 Rotor-H\u00fcllraum (kein OEM-Blatt)",
+    "group": "Rotorhuelle",
+    "propeller_index": 6,
+    "mass_kg": 0,
+    "placement_mm": [
+      -530.0,
+      530.0,
+      0.0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "P6_Rotorhuelle_Link002",
+    "id": "P6_Rotorhuelle",
+    "label": "HEP-S 32\u00d711 Rotor-H\u00fcllraum (kein OEM-Blatt)",
+    "group": "Rotorhuelle",
+    "propeller_index": 6,
+    "mass_kg": 0,
+    "placement_mm": [
+      -530.0,
+      -530.0,
+      0.0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "P6_Rotorhuelle_Link003",
+    "id": "P6_Rotorhuelle",
+    "label": "HEP-S 32\u00d711 Rotor-H\u00fcllraum (kein OEM-Blatt)",
+    "group": "Rotorhuelle",
+    "propeller_index": 6,
+    "mass_kg": 0,
+    "placement_mm": [
+      530.0,
+      -530.0,
+      0.0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "P7_D05_I_837",
+    "label": "MN1330 KV40 45 \u2013 Zeichnungsreferenz",
+    "id": "D05_MN1330_LEGACY_REF",
+    "group": "Motorreferenzen",
+    "mass_kg": 2.75,
+    "source": "P14 STEP-Zeichnungsreferenz, keine OEM-Detaillierung",
+    "placement_mm": [
+      550.0,
+      550.0,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ],
+    "geometry_quality": "LEGACY_NOMINAL_REFERENCE_NOT_DETAILED_OEM",
+    "motor_selected_by_user": true,
+    "mass_override_source": "XLS2750g including leads",
+    "master": "D05_MN1330_LEGACY_REF",
+    "propeller_index": 7
+  },
+  {
+    "instance": "P7_D05_I_838",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      532.3223304703364,
+      567.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 7
+  },
+  {
+    "instance": "P7_D05_I_839",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      532.3223304703363,
+      532.3223304703363,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 7
+  },
+  {
+    "instance": "P7_D05_I_840",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      567.6776695296637,
+      532.3223304703363,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 7
+  },
+  {
+    "instance": "P7_D05_I_841",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      567.6776695296637,
+      567.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 7
+  },
+  {
+    "instance": "P7_D05_I_842",
+    "label": "MN1330 KV40 135 \u2013 Zeichnungsreferenz",
+    "id": "D05_MN1330_LEGACY_REF",
+    "group": "Motorreferenzen",
+    "mass_kg": 2.75,
+    "source": "P14 STEP-Zeichnungsreferenz, keine OEM-Detaillierung",
+    "placement_mm": [
+      -550.0,
+      550.0,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ],
+    "geometry_quality": "LEGACY_NOMINAL_REFERENCE_NOT_DETAILED_OEM",
+    "motor_selected_by_user": true,
+    "mass_override_source": "XLS2750g including leads",
+    "master": "D05_MN1330_LEGACY_REF",
+    "propeller_index": 7
+  },
+  {
+    "instance": "P7_D05_I_843",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -567.6776695296637,
+      532.3223304703364,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 7
+  },
+  {
+    "instance": "P7_D05_I_844",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -532.3223304703363,
+      532.3223304703364,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 7
+  },
+  {
+    "instance": "P7_D05_I_845",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -532.3223304703363,
+      567.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 7
+  },
+  {
+    "instance": "P7_D05_I_846",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -567.6776695296637,
+      567.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 7
+  },
+  {
+    "instance": "P7_D05_I_847",
+    "label": "MN1330 KV40 225 \u2013 Zeichnungsreferenz",
+    "id": "D05_MN1330_LEGACY_REF",
+    "group": "Motorreferenzen",
+    "mass_kg": 2.75,
+    "source": "P14 STEP-Zeichnungsreferenz, keine OEM-Detaillierung",
+    "placement_mm": [
+      -550.0000000000002,
+      -550.0,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      -0.3826834323650898,
+      0.9238795325112867
+    ],
+    "geometry_quality": "LEGACY_NOMINAL_REFERENCE_NOT_DETAILED_OEM",
+    "motor_selected_by_user": true,
+    "mass_override_source": "XLS2750g including leads",
+    "master": "D05_MN1330_LEGACY_REF",
+    "propeller_index": 7
+  },
+  {
+    "instance": "P7_D05_I_848",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -532.3223304703365,
+      -567.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 7
+  },
+  {
+    "instance": "P7_D05_I_849",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -532.3223304703365,
+      -532.3223304703363,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 7
+  },
+  {
+    "instance": "P7_D05_I_850",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -567.6776695296638,
+      -532.3223304703363,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 7
+  },
+  {
+    "instance": "P7_D05_I_851",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -567.677669529664,
+      -567.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 7
+  },
+  {
+    "instance": "P7_D05_I_852",
+    "label": "MN1330 KV40 315 \u2013 Zeichnungsreferenz",
+    "id": "D05_MN1330_LEGACY_REF",
+    "group": "Motorreferenzen",
+    "mass_kg": 2.75,
+    "source": "P14 STEP-Zeichnungsreferenz, keine OEM-Detaillierung",
+    "placement_mm": [
+      550.0,
+      -550.0000000000002,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.38268343236508956,
+      0.9238795325112868
+    ],
+    "geometry_quality": "LEGACY_NOMINAL_REFERENCE_NOT_DETAILED_OEM",
+    "motor_selected_by_user": true,
+    "mass_override_source": "XLS2750g including leads",
+    "master": "D05_MN1330_LEGACY_REF",
+    "propeller_index": 7
+  },
+  {
+    "instance": "P7_D05_I_853",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      567.6776695296637,
+      -532.3223304703365,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 7
+  },
+  {
+    "instance": "P7_D05_I_854",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      532.3223304703363,
+      -532.3223304703365,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 7
+  },
+  {
+    "instance": "P7_D05_I_855",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      532.3223304703363,
+      -567.6776695296638,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 7
+  },
+  {
+    "instance": "P7_D05_I_856",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      567.6776695296636,
+      -567.677669529664,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 7
+  },
+  {
+    "instance": "P7_Rotorhuelle_Link",
+    "id": "P7_Rotorhuelle",
+    "label": "HEP-S 34\u00d711.5 Rotor-H\u00fcllraum (kein OEM-Blatt)",
+    "group": "Rotorhuelle",
+    "propeller_index": 7,
+    "mass_kg": 0,
+    "placement_mm": [
+      550.0,
+      550.0,
+      0.0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "P7_Rotorhuelle_Link001",
+    "id": "P7_Rotorhuelle",
+    "label": "HEP-S 34\u00d711.5 Rotor-H\u00fcllraum (kein OEM-Blatt)",
+    "group": "Rotorhuelle",
+    "propeller_index": 7,
+    "mass_kg": 0,
+    "placement_mm": [
+      -550.0,
+      550.0,
+      0.0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "P7_Rotorhuelle_Link002",
+    "id": "P7_Rotorhuelle",
+    "label": "HEP-S 34\u00d711.5 Rotor-H\u00fcllraum (kein OEM-Blatt)",
+    "group": "Rotorhuelle",
+    "propeller_index": 7,
+    "mass_kg": 0,
+    "placement_mm": [
+      -550.0,
+      -550.0,
+      0.0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "P7_Rotorhuelle_Link003",
+    "id": "P7_Rotorhuelle",
+    "label": "HEP-S 34\u00d711.5 Rotor-H\u00fcllraum (kein OEM-Blatt)",
+    "group": "Rotorhuelle",
+    "propeller_index": 7,
+    "mass_kg": 0,
+    "placement_mm": [
+      550.0,
+      -550.0,
+      0.0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "P8_D05_I_837",
+    "label": "MN1330 KV40 45 \u2013 Zeichnungsreferenz",
+    "id": "D05_MN1330_LEGACY_REF",
+    "group": "Motorreferenzen",
+    "mass_kg": 2.75,
+    "source": "P14 STEP-Zeichnungsreferenz, keine OEM-Detaillierung",
+    "placement_mm": [
+      570.0,
+      570.0,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ],
+    "geometry_quality": "LEGACY_NOMINAL_REFERENCE_NOT_DETAILED_OEM",
+    "motor_selected_by_user": true,
+    "mass_override_source": "XLS2750g including leads",
+    "master": "D05_MN1330_LEGACY_REF",
+    "propeller_index": 8
+  },
+  {
+    "instance": "P8_D05_I_838",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      552.3223304703364,
+      587.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 8
+  },
+  {
+    "instance": "P8_D05_I_839",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      552.3223304703363,
+      552.3223304703363,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 8
+  },
+  {
+    "instance": "P8_D05_I_840",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      587.6776695296637,
+      552.3223304703363,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 8
+  },
+  {
+    "instance": "P8_D05_I_841",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      587.6776695296637,
+      587.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 8
+  },
+  {
+    "instance": "P8_D05_I_842",
+    "label": "MN1330 KV40 135 \u2013 Zeichnungsreferenz",
+    "id": "D05_MN1330_LEGACY_REF",
+    "group": "Motorreferenzen",
+    "mass_kg": 2.75,
+    "source": "P14 STEP-Zeichnungsreferenz, keine OEM-Detaillierung",
+    "placement_mm": [
+      -570.0,
+      570.0,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ],
+    "geometry_quality": "LEGACY_NOMINAL_REFERENCE_NOT_DETAILED_OEM",
+    "motor_selected_by_user": true,
+    "mass_override_source": "XLS2750g including leads",
+    "master": "D05_MN1330_LEGACY_REF",
+    "propeller_index": 8
+  },
+  {
+    "instance": "P8_D05_I_843",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -587.6776695296637,
+      552.3223304703364,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 8
+  },
+  {
+    "instance": "P8_D05_I_844",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -552.3223304703363,
+      552.3223304703364,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 8
+  },
+  {
+    "instance": "P8_D05_I_845",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -552.3223304703363,
+      587.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 8
+  },
+  {
+    "instance": "P8_D05_I_846",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -587.6776695296637,
+      587.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 8
+  },
+  {
+    "instance": "P8_D05_I_847",
+    "label": "MN1330 KV40 225 \u2013 Zeichnungsreferenz",
+    "id": "D05_MN1330_LEGACY_REF",
+    "group": "Motorreferenzen",
+    "mass_kg": 2.75,
+    "source": "P14 STEP-Zeichnungsreferenz, keine OEM-Detaillierung",
+    "placement_mm": [
+      -570.0000000000002,
+      -570.0,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      -0.3826834323650898,
+      0.9238795325112867
+    ],
+    "geometry_quality": "LEGACY_NOMINAL_REFERENCE_NOT_DETAILED_OEM",
+    "motor_selected_by_user": true,
+    "mass_override_source": "XLS2750g including leads",
+    "master": "D05_MN1330_LEGACY_REF",
+    "propeller_index": 8
+  },
+  {
+    "instance": "P8_D05_I_848",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -552.3223304703365,
+      -587.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 8
+  },
+  {
+    "instance": "P8_D05_I_849",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -552.3223304703365,
+      -552.3223304703363,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 8
+  },
+  {
+    "instance": "P8_D05_I_850",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -587.6776695296638,
+      -552.3223304703363,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 8
+  },
+  {
+    "instance": "P8_D05_I_851",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -587.677669529664,
+      -587.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 8
+  },
+  {
+    "instance": "P8_D05_I_852",
+    "label": "MN1330 KV40 315 \u2013 Zeichnungsreferenz",
+    "id": "D05_MN1330_LEGACY_REF",
+    "group": "Motorreferenzen",
+    "mass_kg": 2.75,
+    "source": "P14 STEP-Zeichnungsreferenz, keine OEM-Detaillierung",
+    "placement_mm": [
+      570.0,
+      -570.0000000000002,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.38268343236508956,
+      0.9238795325112868
+    ],
+    "geometry_quality": "LEGACY_NOMINAL_REFERENCE_NOT_DETAILED_OEM",
+    "motor_selected_by_user": true,
+    "mass_override_source": "XLS2750g including leads",
+    "master": "D05_MN1330_LEGACY_REF",
+    "propeller_index": 8
+  },
+  {
+    "instance": "P8_D05_I_853",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      587.6776695296637,
+      -552.3223304703365,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 8
+  },
+  {
+    "instance": "P8_D05_I_854",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      552.3223304703363,
+      -552.3223304703365,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 8
+  },
+  {
+    "instance": "P8_D05_I_855",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      552.3223304703363,
+      -587.6776695296638,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 8
+  },
+  {
+    "instance": "P8_D05_I_856",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      587.6776695296636,
+      -587.677669529664,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 8
+  },
+  {
+    "instance": "P8_Rotorhuelle_Link",
+    "id": "P8_Rotorhuelle",
+    "label": "HEP-S 36\u00d712 Rotor-H\u00fcllraum (kein OEM-Blatt)",
+    "group": "Rotorhuelle",
+    "propeller_index": 8,
+    "mass_kg": 0,
+    "placement_mm": [
+      570.0,
+      570.0,
+      0.0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "P8_Rotorhuelle_Link001",
+    "id": "P8_Rotorhuelle",
+    "label": "HEP-S 36\u00d712 Rotor-H\u00fcllraum (kein OEM-Blatt)",
+    "group": "Rotorhuelle",
+    "propeller_index": 8,
+    "mass_kg": 0,
+    "placement_mm": [
+      -570.0,
+      570.0,
+      0.0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "P8_Rotorhuelle_Link002",
+    "id": "P8_Rotorhuelle",
+    "label": "HEP-S 36\u00d712 Rotor-H\u00fcllraum (kein OEM-Blatt)",
+    "group": "Rotorhuelle",
+    "propeller_index": 8,
+    "mass_kg": 0,
+    "placement_mm": [
+      -570.0,
+      -570.0,
+      0.0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "P8_Rotorhuelle_Link003",
+    "id": "P8_Rotorhuelle",
+    "label": "HEP-S 36\u00d712 Rotor-H\u00fcllraum (kein OEM-Blatt)",
+    "group": "Rotorhuelle",
+    "propeller_index": 8,
+    "mass_kg": 0,
+    "placement_mm": [
+      570.0,
+      -570.0,
+      0.0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "P9_D05_I_837",
+    "label": "MN1330 KV40 45 \u2013 Zeichnungsreferenz",
+    "id": "D05_MN1330_LEGACY_REF",
+    "group": "Motorreferenzen",
+    "mass_kg": 2.75,
+    "source": "P14 STEP-Zeichnungsreferenz, keine OEM-Detaillierung",
+    "placement_mm": [
+      625.0,
+      625.0,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ],
+    "geometry_quality": "LEGACY_NOMINAL_REFERENCE_NOT_DETAILED_OEM",
+    "motor_selected_by_user": true,
+    "mass_override_source": "XLS2750g including leads",
+    "master": "D05_MN1330_LEGACY_REF",
+    "propeller_index": 9
+  },
+  {
+    "instance": "P9_D05_I_838",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      607.3223304703364,
+      642.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 9
+  },
+  {
+    "instance": "P9_D05_I_839",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      607.3223304703363,
+      607.3223304703363,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 9
+  },
+  {
+    "instance": "P9_D05_I_840",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      642.6776695296637,
+      607.3223304703363,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 9
+  },
+  {
+    "instance": "P9_D05_I_841",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      642.6776695296637,
+      642.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 9
+  },
+  {
+    "instance": "P9_D05_I_842",
+    "label": "MN1330 KV40 135 \u2013 Zeichnungsreferenz",
+    "id": "D05_MN1330_LEGACY_REF",
+    "group": "Motorreferenzen",
+    "mass_kg": 2.75,
+    "source": "P14 STEP-Zeichnungsreferenz, keine OEM-Detaillierung",
+    "placement_mm": [
+      -625.0,
+      625.0,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ],
+    "geometry_quality": "LEGACY_NOMINAL_REFERENCE_NOT_DETAILED_OEM",
+    "motor_selected_by_user": true,
+    "mass_override_source": "XLS2750g including leads",
+    "master": "D05_MN1330_LEGACY_REF",
+    "propeller_index": 9
+  },
+  {
+    "instance": "P9_D05_I_843",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -642.6776695296637,
+      607.3223304703364,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 9
+  },
+  {
+    "instance": "P9_D05_I_844",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -607.3223304703363,
+      607.3223304703364,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 9
+  },
+  {
+    "instance": "P9_D05_I_845",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -607.3223304703363,
+      642.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 9
+  },
+  {
+    "instance": "P9_D05_I_846",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -642.6776695296637,
+      642.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 9
+  },
+  {
+    "instance": "P9_D05_I_847",
+    "label": "MN1330 KV40 225 \u2013 Zeichnungsreferenz",
+    "id": "D05_MN1330_LEGACY_REF",
+    "group": "Motorreferenzen",
+    "mass_kg": 2.75,
+    "source": "P14 STEP-Zeichnungsreferenz, keine OEM-Detaillierung",
+    "placement_mm": [
+      -625.0000000000002,
+      -625.0,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      -0.3826834323650898,
+      0.9238795325112867
+    ],
+    "geometry_quality": "LEGACY_NOMINAL_REFERENCE_NOT_DETAILED_OEM",
+    "motor_selected_by_user": true,
+    "mass_override_source": "XLS2750g including leads",
+    "master": "D05_MN1330_LEGACY_REF",
+    "propeller_index": 9
+  },
+  {
+    "instance": "P9_D05_I_848",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -607.3223304703365,
+      -642.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 9
+  },
+  {
+    "instance": "P9_D05_I_849",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -607.3223304703365,
+      -607.3223304703363,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 9
+  },
+  {
+    "instance": "P9_D05_I_850",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -642.6776695296638,
+      -607.3223304703363,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 9
+  },
+  {
+    "instance": "P9_D05_I_851",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      -642.677669529664,
+      -642.6776695296637,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 9
+  },
+  {
+    "instance": "P9_D05_I_852",
+    "label": "MN1330 KV40 315 \u2013 Zeichnungsreferenz",
+    "id": "D05_MN1330_LEGACY_REF",
+    "group": "Motorreferenzen",
+    "mass_kg": 2.75,
+    "source": "P14 STEP-Zeichnungsreferenz, keine OEM-Detaillierung",
+    "placement_mm": [
+      625.0,
+      -625.0000000000002,
+      88.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.38268343236508956,
+      0.9238795325112868
+    ],
+    "geometry_quality": "LEGACY_NOMINAL_REFERENCE_NOT_DETAILED_OEM",
+    "motor_selected_by_user": true,
+    "mass_override_source": "XLS2750g including leads",
+    "master": "D05_MN1330_LEGACY_REF",
+    "propeller_index": 9
+  },
+  {
+    "instance": "P9_D05_I_853",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      642.6776695296637,
+      -607.3223304703365,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 9
+  },
+  {
+    "instance": "P9_D05_I_854",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      607.3223304703363,
+      -607.3223304703365,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 9
+  },
+  {
+    "instance": "P9_D05_I_855",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      607.3223304703363,
+      -642.6776695296638,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 9
+  },
+  {
+    "instance": "P9_D05_I_856",
+    "label": "MN1330 Statorschraube M6x12",
+    "id": "ISO4762_M6x12",
+    "group": "Normteile",
+    "mass_kg": 0.00519150490160404,
+    "source": "Normtabellen mit Helixgewinde",
+    "placement_mm": [
+      642.6776695296636,
+      -642.677669529664,
+      82.0
+    ],
+    "placement_quaternion": [
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "master": "ISO4762_M6_L12",
+    "propeller_index": 9
+  },
+  {
+    "instance": "P9_Rotorhuelle_Link",
+    "id": "P9_Rotorhuelle",
+    "label": "HEP-S 42\u00d716 Rotor-H\u00fcllraum (kein OEM-Blatt)",
+    "group": "Rotorhuelle",
+    "propeller_index": 9,
+    "mass_kg": 0,
+    "placement_mm": [
+      625.0,
+      625.0,
+      0.0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "P9_Rotorhuelle_Link001",
+    "id": "P9_Rotorhuelle",
+    "label": "HEP-S 42\u00d716 Rotor-H\u00fcllraum (kein OEM-Blatt)",
+    "group": "Rotorhuelle",
+    "propeller_index": 9,
+    "mass_kg": 0,
+    "placement_mm": [
+      -625.0,
+      625.0,
+      0.0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "P9_Rotorhuelle_Link002",
+    "id": "P9_Rotorhuelle",
+    "label": "HEP-S 42\u00d716 Rotor-H\u00fcllraum (kein OEM-Blatt)",
+    "group": "Rotorhuelle",
+    "propeller_index": 9,
+    "mass_kg": 0,
+    "placement_mm": [
+      -625.0,
+      -625.0,
+      0.0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "P9_Rotorhuelle_Link003",
+    "id": "P9_Rotorhuelle",
+    "label": "HEP-S 42\u00d716 Rotor-H\u00fcllraum (kein OEM-Blatt)",
+    "group": "Rotorhuelle",
+    "propeller_index": 9,
+    "mass_kg": 0,
+    "placement_mm": [
+      625.0,
+      -625.0,
+      0.0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  }
+]

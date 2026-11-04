@@ -1,0 +1,50 @@
+[
+  {
+    "bolt": "I_90",
+    "mate": "I_4",
+    "hole_suffix": "M6_Stirn_1",
+    "family": "D05 Carrier M6"
+  },
+  {
+    "bolt": "I_92",
+    "mate": "I_4",
+    "hole_suffix": "M6_Stirn_1",
+    "family": "D05 Carrier M6"
+  },
+  {
+    "bolt": "I_181",
+    "mate": "I_95",
+    "hole_suffix": "M6_Stirn_1",
+    "family": "D05 Carrier M6"
+  },
+  {
+    "bolt": "I_183",
+    "mate": "I_95",
+    "hole_suffix": "M6_Stirn_1",
+    "family": "D05 Carrier M6"
+  },
+  {
+    "bolt": "I_272",
+    "mate": "I_186",
+    "hole_suffix": "M6_Stirn_1",
+    "family": "D05 Carrier M6"
+  },
+  {
+    "bolt": "I_274",
+    "mate": "I_186",
+    "hole_suffix": "M6_Stirn_1",
+    "family": "D05 Carrier M6"
+  },
+  {
+    "bolt": "I_363",
+    "mate": "I_277",
+    "hole_suffix": "M6_Stirn_1",
+    "family": "D05 Carrier M6"
+  },
+  {
+    "bolt": "I_365",
+    "mate": "I_277",
+    "hole_suffix": "M6_Stirn_1",
+    "family": "D05 Carrier M6"
+  }
+]

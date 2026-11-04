@@ -1,5 +1,21 @@
 # PropBoard
 
+**Quad HEP-S D09:** [10 Rotorgrößen × V1–V4](quad_r380_d09/README.md) · [3D-Ansicht](quad_r380_d09/Projekt.html). 40 Umschalterstellungen und nominale Rotorhüllen geprüft; abgeschlossene statische Prüfung meldet Anschlusskollisionen. Keine Produktions-/Flugfreigabe.
+
+**Quad R380 V1–V4:** [Parametrisierte Motor- und Rahmenanschlüsse](quad_r380_varianten/README.md) · [Umschaltbare CAD-Ansicht](quad_r380_varianten/Projekt.html). Gemeinsames natives CAD mit 1/2/2/3 Rohren je Motor, symmetrischen integrierten Motorträgern und Klemmverschraubungen. V3 ist voreingestellt; bestehende Rotor-/Fußstrebenkonflikte und Festigkeitsnachweise bleiben offen.
+
+**Quad R380 D06:** [Vier Dreiblattpropeller ergänzt](quad_r380_d06/README.md) · [CAD-Ansicht](quad_r380_d06/Mechanik.html). Ø760 mm, zwei CW und zwei CCW, mit profilierten Blättern, Kernen, Naben und Wurzelverschraubungen; 34,57 kg erfasste Teilmasse. Ein 14-mm-Bezugsfehler der alten Motorreferenz ist korrigiert. Der Rotorumlauf kollidiert mit Endknoten/Streben; Motor-Nabenschrauben, Laminat und Antriebsnachweis bleiben offen.
+
+**Quad R380 D05:** [MN1330 KV40 aus dem alten Aufbau festgelegt](quad_r380_d05/README.md) · [CAD-Ansicht](quad_r380_d05/Mechanik.html). Vier alte Motor-Zeichnungsreferenzen mit detaillierten Trägern; 31,00 kg erfasste Masse, weiterhin ohne Akku/Regler/Rotoren. Keine OEM- oder Flugfreigabe.
+
+**Quad R380 D04:** [Carbon-Zentralrahmen ersetzt beide Grundplatten](quad_r380_d04/README.md) · [CAD-Ansicht](quad_r380_d04/Mechanik.html). Räumlicher CFK-Rahmen mit direkten Rohrklemmen für die Fußschienen-Streben; Gewichtsvergleich und Prüfgrenzen im Bauzustand.
+
+**Quad R380 D03:** [Carbonrahmen mit formschlüssig indexierten Fußplatten](quad_r380_d03/README.md) · [CAD-Ansicht](quad_r380_d03/Mechanik.html). Versenkte Fußschrauben, 10-mm-Raster und geprüfte Verstell-Endlagen; OEM-Integration und Traglastfreigabe bleiben offen.
+
+**Quad R380 D02:** [Carbonrahmen und zwei verstellbare Fußplatten](quad_r380_d02/README.md) · [CAD-Ansicht](quad_r380_d02/Mechanik.html) · [fehlende Herstellerdaten](quad_r380_d02/HERSTELLERDATEN.md). Übernimmt die P12-Carbonrohre und Aluminiumklemmen; neue Geometrie-/Lastnachweise und physische Antriebsintegration bleiben offen.
+
+**Quad R380 D01:** [Mechanischer Detailstand](quad_r380_d01/README.md) · [CAD-Ansicht](quad_r380_d01/Mechanik.html) · [Detailbericht](quad_r380_d01/Detailbericht.pdf). 351 detaillierte Instanzen mit geprüften nominalen Gewindepaarungen; Antrieb und Gesamtfahrzeugfreigabe bleiben offen.
+
 **A/B-Weiterentwicklung:** [P14-Vierblatt und neue Quad-/Hexakopter-Rahmen](entwicklung_ab/README.md) · [CAD-Ansicht](entwicklung_ab/Modelle.html) · [Entwicklungsbericht](entwicklung_ab/Entwicklungsbericht.pdf).
 Neue native Entwürfe schließen den modellierten Schutzraum und Strukturmassenumfang; Komponenten-, Verbindungs- und Festigkeitsnachweise bleiben offen.
 

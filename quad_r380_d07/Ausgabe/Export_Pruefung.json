@@ -1,0 +1,46 @@
+{
+  "native_sha256": "8f1610f5a369fff7bd43edcd6f5129921b3ec91b914011c64d0cd4903f8d1402",
+  "step_sha256": "8a6583525487f8cc07ccd559e5e8250e0cfca10bf982d6ab299c60bbc7c113c6",
+  "expected_solids": 780,
+  "reimported_solids": 780,
+  "native_master_solids_valid": true,
+  "new_V3_step_prototypes": [
+    {
+      "part": "D07_ROOT_TOP",
+      "valid": true,
+      "volume_difference_mm3": 0.04237548129458446
+    },
+    {
+      "part": "D07_CORE_BOTTOM",
+      "valid": true,
+      "volume_difference_mm3": 0.0023759407122270204
+    },
+    {
+      "part": "D07_MOTOR_NODE",
+      "valid": true,
+      "volume_difference_mm3": 0.010423310326586943
+    },
+    {
+      "part": "D07_CLAMP_CAP",
+      "valid": true,
+      "volume_difference_mm3": 2.064552973024547e-10
+    },
+    {
+      "part": "D07_LINER",
+      "valid": true,
+      "volume_difference_mm3": 5.4569682106375694e-12
+    },
+    {
+      "part": "D07_END_PAD",
+      "valid": true,
+      "volume_difference_mm3": 0.0
+    },
+    {
+      "part": "D07_ARM_TUBE",
+      "valid": true,
+      "volume_difference_mm3": 0.0
+    }
+  ],
+  "motor_reference_z88_154_preserved": true,
+  "assembly_each_reimported_solid_validity_checked": false
+}

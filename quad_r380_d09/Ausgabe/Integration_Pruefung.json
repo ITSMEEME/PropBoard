@@ -1,0 +1,845 @@
+{
+  "native_sha256": "b1b1a6183ae6822d6a0b4eee423392b14dfc542a4971700f4d2735fa817c52c9",
+  "configurations": [
+    {
+      "propeller_index": 0,
+      "passed": false,
+      "candidates": 3258,
+      "findings": [
+        {
+          "variant": "V3",
+          "a": "P0_V3_Motor_45",
+          "b": "P0_D05_I_838",
+          "volume_mm3": 27.60906392928893
+        },
+        {
+          "variant": "V3",
+          "a": "P0_V3_Motor_45",
+          "b": "P0_D05_I_840",
+          "volume_mm3": 27.609062257473695
+        },
+        {
+          "variant": "V3",
+          "a": "P0_V3_Motor_135",
+          "b": "P0_D05_I_843",
+          "volume_mm3": 27.609063929272263
+        },
+        {
+          "variant": "V3",
+          "a": "P0_V3_Motor_135",
+          "b": "P0_D05_I_845",
+          "volume_mm3": 27.609050795440016
+        },
+        {
+          "variant": "V3",
+          "a": "P0_V3_Motor_225",
+          "b": "P0_D05_I_848",
+          "volume_mm3": 27.609063929304437
+        },
+        {
+          "variant": "V3",
+          "a": "P0_V3_Motor_225",
+          "b": "P0_D05_I_850",
+          "volume_mm3": 27.609050795419943
+        },
+        {
+          "variant": "V3",
+          "a": "P0_V3_Motor_315",
+          "b": "P0_D05_I_853",
+          "volume_mm3": 27.60908125003315
+        },
+        {
+          "variant": "V3",
+          "a": "P0_V3_Motor_315",
+          "b": "P0_D05_I_855",
+          "volume_mm3": 27.60905079539744
+        },
+        {
+          "variant": "V4",
+          "a": "P0_V4_Motor_45",
+          "b": "P0_D05_I_838",
+          "volume_mm3": 39.16398457959929
+        },
+        {
+          "variant": "V4",
+          "a": "P0_V4_Motor_45",
+          "b": "P0_D05_I_840",
+          "volume_mm3": 39.163934736473244
+        },
+        {
+          "variant": "V4",
+          "a": "P0_V4_Motor_135",
+          "b": "P0_D05_I_843",
+          "volume_mm3": 39.1639845795413
+        },
+        {
+          "variant": "V4",
+          "a": "P0_V4_Motor_135",
+          "b": "P0_D05_I_845",
+          "volume_mm3": 39.16392446943762
+        },
+        {
+          "variant": "V4",
+          "a": "P0_V4_Motor_225",
+          "b": "P0_D05_I_848",
+          "volume_mm3": 39.16398457954934
+        },
+        {
+          "variant": "V4",
+          "a": "P0_V4_Motor_225",
+          "b": "P0_D05_I_850",
+          "volume_mm3": 39.16392446944422
+        },
+        {
+          "variant": "V4",
+          "a": "P0_V4_Motor_315",
+          "b": "P0_D05_I_853",
+          "volume_mm3": 39.163979228846806
+        },
+        {
+          "variant": "V4",
+          "a": "P0_V4_Motor_315",
+          "b": "P0_D05_I_855",
+          "volume_mm3": 39.16392446943948
+        }
+      ]
+    },
+    {
+      "propeller_index": 1,
+      "passed": false,
+      "candidates": 3258,
+      "findings": [
+        {
+          "variant": "V3",
+          "a": "P1_V3_Motor_45",
+          "b": "P1_D05_I_838",
+          "volume_mm3": 27.60906392928893
+        },
+        {
+          "variant": "V3",
+          "a": "P1_V3_Motor_45",
+          "b": "P1_D05_I_840",
+          "volume_mm3": 27.609062257473695
+        },
+        {
+          "variant": "V3",
+          "a": "P1_V3_Motor_135",
+          "b": "P1_D05_I_843",
+          "volume_mm3": 27.609063929272263
+        },
+        {
+          "variant": "V3",
+          "a": "P1_V3_Motor_135",
+          "b": "P1_D05_I_845",
+          "volume_mm3": 27.609050795440016
+        },
+        {
+          "variant": "V3",
+          "a": "P1_V3_Motor_225",
+          "b": "P1_D05_I_848",
+          "volume_mm3": 27.609063929304437
+        },
+        {
+          "variant": "V3",
+          "a": "P1_V3_Motor_225",
+          "b": "P1_D05_I_850",
+          "volume_mm3": 27.609050795419943
+        },
+        {
+          "variant": "V3",
+          "a": "P1_V3_Motor_315",
+          "b": "P1_D05_I_853",
+          "volume_mm3": 27.60908125003315
+        },
+        {
+          "variant": "V3",
+          "a": "P1_V3_Motor_315",
+          "b": "P1_D05_I_855",
+          "volume_mm3": 27.60905079539744
+        },
+        {
+          "variant": "V4",
+          "a": "P1_V4_Motor_45",
+          "b": "P1_D05_I_838",
+          "volume_mm3": 39.16398457959929
+        },
+        {
+          "variant": "V4",
+          "a": "P1_V4_Motor_45",
+          "b": "P1_D05_I_840",
+          "volume_mm3": 39.163934736473244
+        },
+        {
+          "variant": "V4",
+          "a": "P1_V4_Motor_135",
+          "b": "P1_D05_I_843",
+          "volume_mm3": 39.1639845795413
+        },
+        {
+          "variant": "V4",
+          "a": "P1_V4_Motor_135",
+          "b": "P1_D05_I_845",
+          "volume_mm3": 39.16392446943762
+        },
+        {
+          "variant": "V4",
+          "a": "P1_V4_Motor_225",
+          "b": "P1_D05_I_848",
+          "volume_mm3": 39.16398457954934
+        },
+        {
+          "variant": "V4",
+          "a": "P1_V4_Motor_225",
+          "b": "P1_D05_I_850",
+          "volume_mm3": 39.16392446944422
+        },
+        {
+          "variant": "V4",
+          "a": "P1_V4_Motor_315",
+          "b": "P1_D05_I_853",
+          "volume_mm3": 39.163979228846806
+        },
+        {
+          "variant": "V4",
+          "a": "P1_V4_Motor_315",
+          "b": "P1_D05_I_855",
+          "volume_mm3": 39.16392446943948
+        }
+      ]
+    },
+    {
+      "propeller_index": 2,
+      "passed": false,
+      "candidates": 3258,
+      "findings": [
+        {
+          "variant": "V3",
+          "a": "P2_V3_Motor_45",
+          "b": "P2_D05_I_838",
+          "volume_mm3": 13.311809978622772
+        },
+        {
+          "variant": "V3",
+          "a": "P2_V3_Motor_45",
+          "b": "P2_D05_I_840",
+          "volume_mm3": 13.311875246109361
+        },
+        {
+          "variant": "V3",
+          "a": "P2_V3_Motor_135",
+          "b": "P2_D05_I_843",
+          "volume_mm3": 13.311809978616287
+        },
+        {
+          "variant": "V3",
+          "a": "P2_V3_Motor_135",
+          "b": "P2_D05_I_845",
+          "volume_mm3": 13.311863650728043
+        },
+        {
+          "variant": "V3",
+          "a": "P2_V3_Motor_225",
+          "b": "P2_D05_I_848",
+          "volume_mm3": 13.311809979732189
+        },
+        {
+          "variant": "V3",
+          "a": "P2_V3_Motor_225",
+          "b": "P2_D05_I_850",
+          "volume_mm3": 13.311863654297698
+        },
+        {
+          "variant": "V3",
+          "a": "P2_V3_Motor_315",
+          "b": "P2_D05_I_853",
+          "volume_mm3": 13.31183708687764
+        },
+        {
+          "variant": "V3",
+          "a": "P2_V3_Motor_315",
+          "b": "P2_D05_I_855",
+          "volume_mm3": 13.311863654207928
+        },
+        {
+          "variant": "V4",
+          "a": "P2_V4_Motor_45",
+          "b": "P2_D05_I_838",
+          "volume_mm3": 22.407992917839593
+        },
+        {
+          "variant": "V4",
+          "a": "P2_V4_Motor_45",
+          "b": "P2_D05_I_840",
+          "volume_mm3": 22.407868556994504
+        },
+        {
+          "variant": "V4",
+          "a": "P2_V4_Motor_135",
+          "b": "P2_D05_I_843",
+          "volume_mm3": 22.407992917831187
+        },
+        {
+          "variant": "V4",
+          "a": "P2_V4_Motor_135",
+          "b": "P2_D05_I_845",
+          "volume_mm3": 22.407843350860677
+        },
+        {
+          "variant": "V4",
+          "a": "P2_V4_Motor_225",
+          "b": "P2_D05_I_848",
+          "volume_mm3": 22.407992917817865
+        },
+        {
+          "variant": "V4",
+          "a": "P2_V4_Motor_225",
+          "b": "P2_D05_I_850",
+          "volume_mm3": 22.407871928851577
+        },
+        {
+          "variant": "V4",
+          "a": "P2_V4_Motor_315",
+          "b": "P2_D05_I_853",
+          "volume_mm3": 22.407921916426062
+        },
+        {
+          "variant": "V4",
+          "a": "P2_V4_Motor_315",
+          "b": "P2_D05_I_855",
+          "volume_mm3": 22.40784087862199
+        }
+      ]
+    },
+    {
+      "propeller_index": 3,
+      "passed": false,
+      "candidates": 3258,
+      "findings": [
+        {
+          "variant": "V3",
+          "a": "P3_V3_Motor_45",
+          "b": "P3_D05_I_838",
+          "volume_mm3": 8.187641347642167
+        },
+        {
+          "variant": "V3",
+          "a": "P3_V3_Motor_45",
+          "b": "P3_D05_I_840",
+          "volume_mm3": 8.187758528796433
+        },
+        {
+          "variant": "V3",
+          "a": "P3_V3_Motor_135",
+          "b": "P3_D05_I_843",
+          "volume_mm3": 8.187641347721174
+        },
+        {
+          "variant": "V3",
+          "a": "P3_V3_Motor_135",
+          "b": "P3_D05_I_845",
+          "volume_mm3": 8.187020483172033
+        },
+        {
+          "variant": "V3",
+          "a": "P3_V3_Motor_225",
+          "b": "P3_D05_I_848",
+          "volume_mm3": 8.187641347703261
+        },
+        {
+          "variant": "V3",
+          "a": "P3_V3_Motor_225",
+          "b": "P3_D05_I_850",
+          "volume_mm3": 8.187020470203857
+        },
+        {
+          "variant": "V3",
+          "a": "P3_V3_Motor_315",
+          "b": "P3_D05_I_853",
+          "volume_mm3": 8.187671312415358
+        },
+        {
+          "variant": "V3",
+          "a": "P3_V3_Motor_315",
+          "b": "P3_D05_I_855",
+          "volume_mm3": 8.187020470327697
+        },
+        {
+          "variant": "V4",
+          "a": "P3_V4_Motor_45",
+          "b": "P3_D05_I_838",
+          "volume_mm3": 15.986386529014293
+        },
+        {
+          "variant": "V4",
+          "a": "P3_V4_Motor_45",
+          "b": "P3_D05_I_840",
+          "volume_mm3": 15.9863226138214
+        },
+        {
+          "variant": "V4",
+          "a": "P3_V4_Motor_135",
+          "b": "P3_D05_I_843",
+          "volume_mm3": 15.986386528314238
+        },
+        {
+          "variant": "V4",
+          "a": "P3_V4_Motor_135",
+          "b": "P3_D05_I_845",
+          "volume_mm3": 15.986338691719709
+        },
+        {
+          "variant": "V4",
+          "a": "P3_V4_Motor_225",
+          "b": "P3_D05_I_848",
+          "volume_mm3": 15.986394329576155
+        },
+        {
+          "variant": "V4",
+          "a": "P3_V4_Motor_225",
+          "b": "P3_D05_I_850",
+          "volume_mm3": 15.986338691702949
+        },
+        {
+          "variant": "V4",
+          "a": "P3_V4_Motor_315",
+          "b": "P3_D05_I_853",
+          "volume_mm3": 15.986410961233585
+        },
+        {
+          "variant": "V4",
+          "a": "P3_V4_Motor_315",
+          "b": "P3_D05_I_855",
+          "volume_mm3": 15.986338691715327
+        }
+      ]
+    },
+    {
+      "propeller_index": 4,
+      "passed": false,
+      "candidates": 3258,
+      "findings": [
+        {
+          "variant": "V3",
+          "a": "P4_V3_Motor_45",
+          "b": "P4_D05_I_838",
+          "volume_mm3": 5.993601773237455
+        },
+        {
+          "variant": "V3",
+          "a": "P4_V3_Motor_45",
+          "b": "P4_D05_I_840",
+          "volume_mm3": 5.9938235685503845
+        },
+        {
+          "variant": "V3",
+          "a": "P4_V3_Motor_135",
+          "b": "P4_D05_I_843",
+          "volume_mm3": 5.993601773241904
+        },
+        {
+          "variant": "V3",
+          "a": "P4_V3_Motor_135",
+          "b": "P4_D05_I_845",
+          "volume_mm3": 5.994390909202881
+        },
+        {
+          "variant": "V3",
+          "a": "P4_V3_Motor_225",
+          "b": "P4_D05_I_848",
+          "volume_mm3": 5.993601773171509
+        },
+        {
+          "variant": "V3",
+          "a": "P4_V3_Motor_225",
+          "b": "P4_D05_I_850",
+          "volume_mm3": 5.994390908804721
+        },
+        {
+          "variant": "V3",
+          "a": "P4_V3_Motor_315",
+          "b": "P4_D05_I_853",
+          "volume_mm3": 5.993637040992313
+        },
+        {
+          "variant": "V3",
+          "a": "P4_V3_Motor_315",
+          "b": "P4_D05_I_855",
+          "volume_mm3": 5.994390909201831
+        },
+        {
+          "variant": "V4",
+          "a": "P4_V4_Motor_45",
+          "b": "P4_D05_I_838",
+          "volume_mm3": 13.070887077862695
+        },
+        {
+          "variant": "V4",
+          "a": "P4_V4_Motor_45",
+          "b": "P4_D05_I_840",
+          "volume_mm3": 13.070969009241278
+        },
+        {
+          "variant": "V4",
+          "a": "P4_V4_Motor_135",
+          "b": "P4_D05_I_843",
+          "volume_mm3": 13.070887078307635
+        },
+        {
+          "variant": "V4",
+          "a": "P4_V4_Motor_135",
+          "b": "P4_D05_I_845",
+          "volume_mm3": 13.070944438371127
+        },
+        {
+          "variant": "V4",
+          "a": "P4_V4_Motor_225",
+          "b": "P4_D05_I_848",
+          "volume_mm3": 13.070889302007826
+        },
+        {
+          "variant": "V4",
+          "a": "P4_V4_Motor_225",
+          "b": "P4_D05_I_850",
+          "volume_mm3": 13.070944438384384
+        },
+        {
+          "variant": "V4",
+          "a": "P4_V4_Motor_315",
+          "b": "P4_D05_I_853",
+          "volume_mm3": 13.07087678608142
+        },
+        {
+          "variant": "V4",
+          "a": "P4_V4_Motor_315",
+          "b": "P4_D05_I_855",
+          "volume_mm3": 13.070944438355513
+        }
+      ]
+    },
+    {
+      "propeller_index": 5,
+      "passed": false,
+      "candidates": 3258,
+      "findings": [
+        {
+          "variant": "V3",
+          "a": "P5_V3_Motor_45",
+          "b": "P5_D05_I_838",
+          "volume_mm3": 3.2368109355942876
+        },
+        {
+          "variant": "V3",
+          "a": "P5_V3_Motor_45",
+          "b": "P5_D05_I_840",
+          "volume_mm3": 3.2365890651967857
+        },
+        {
+          "variant": "V3",
+          "a": "P5_V3_Motor_135",
+          "b": "P5_D05_I_843",
+          "volume_mm3": 3.236810935585042
+        },
+        {
+          "variant": "V3",
+          "a": "P5_V3_Motor_135",
+          "b": "P5_D05_I_845",
+          "volume_mm3": 3.2365930843771857
+        },
+        {
+          "variant": "V3",
+          "a": "P5_V3_Motor_225",
+          "b": "P5_D05_I_848",
+          "volume_mm3": 3.236810935583141
+        },
+        {
+          "variant": "V3",
+          "a": "P5_V3_Motor_225",
+          "b": "P5_D05_I_850",
+          "volume_mm3": 3.2365930828132763
+        },
+        {
+          "variant": "V3",
+          "a": "P5_V3_Motor_315",
+          "b": "P5_D05_I_853",
+          "volume_mm3": 3.236746963125884
+        },
+        {
+          "variant": "V3",
+          "a": "P5_V3_Motor_315",
+          "b": "P5_D05_I_855",
+          "volume_mm3": 3.236593082812573
+        },
+        {
+          "variant": "V4",
+          "a": "P5_V4_Motor_45",
+          "b": "P5_D05_I_838",
+          "volume_mm3": 9.11812792193036
+        },
+        {
+          "variant": "V4",
+          "a": "P5_V4_Motor_45",
+          "b": "P5_D05_I_840",
+          "volume_mm3": 9.118329511663374
+        },
+        {
+          "variant": "V4",
+          "a": "P5_V4_Motor_135",
+          "b": "P5_D05_I_843",
+          "volume_mm3": 9.118127921873189
+        },
+        {
+          "variant": "V4",
+          "a": "P5_V4_Motor_135",
+          "b": "P5_D05_I_845",
+          "volume_mm3": 9.11816442047534
+        },
+        {
+          "variant": "V4",
+          "a": "P5_V4_Motor_225",
+          "b": "P5_D05_I_848",
+          "volume_mm3": 9.118127921978513
+        },
+        {
+          "variant": "V4",
+          "a": "P5_V4_Motor_225",
+          "b": "P5_D05_I_850",
+          "volume_mm3": 9.118164420389132
+        },
+        {
+          "variant": "V4",
+          "a": "P5_V4_Motor_315",
+          "b": "P5_D05_I_853",
+          "volume_mm3": 9.11827352861004
+        },
+        {
+          "variant": "V4",
+          "a": "P5_V4_Motor_315",
+          "b": "P5_D05_I_855",
+          "volume_mm3": 9.118164420591619
+        }
+      ]
+    },
+    {
+      "propeller_index": 6,
+      "passed": false,
+      "candidates": 3262,
+      "findings": [
+        {
+          "variant": "V3",
+          "a": "P6_V3_Motor_45",
+          "b": "P6_D05_I_838",
+          "volume_mm3": 0.7423848111571282
+        },
+        {
+          "variant": "V3",
+          "a": "P6_V3_Motor_45",
+          "b": "P6_D05_I_840",
+          "volume_mm3": 0.7423615609950197
+        },
+        {
+          "variant": "V3",
+          "a": "P6_V3_Motor_135",
+          "b": "P6_D05_I_843",
+          "volume_mm3": 0.7423848163234381
+        },
+        {
+          "variant": "V3",
+          "a": "P6_V3_Motor_135",
+          "b": "P6_D05_I_845",
+          "volume_mm3": 0.7425593106689982
+        },
+        {
+          "variant": "V3",
+          "a": "P6_V3_Motor_225",
+          "b": "P6_D05_I_848",
+          "volume_mm3": 0.7423848163203778
+        },
+        {
+          "variant": "V3",
+          "a": "P6_V3_Motor_225",
+          "b": "P6_D05_I_850",
+          "volume_mm3": 0.7425593147664311
+        },
+        {
+          "variant": "V3",
+          "a": "P6_V3_Motor_315",
+          "b": "P6_D05_I_853",
+          "volume_mm3": 0.7423944915970219
+        },
+        {
+          "variant": "V3",
+          "a": "P6_V3_Motor_315",
+          "b": "P6_D05_I_855",
+          "volume_mm3": 0.7425593147694359
+        },
+        {
+          "variant": "V4",
+          "a": "P6_V4_Motor_45",
+          "b": "P6_D05_I_838",
+          "volume_mm3": 4.7832711189483454
+        },
+        {
+          "variant": "V4",
+          "a": "P6_V4_Motor_45",
+          "b": "P6_D05_I_840",
+          "volume_mm3": 4.783044388979602
+        },
+        {
+          "variant": "V4",
+          "a": "P6_V4_Motor_135",
+          "b": "P6_D05_I_843",
+          "volume_mm3": 4.783271123609978
+        },
+        {
+          "variant": "V4",
+          "a": "P6_V4_Motor_135",
+          "b": "P6_D05_I_845",
+          "volume_mm3": 4.78383224104364
+        },
+        {
+          "variant": "V4",
+          "a": "P6_V4_Motor_225",
+          "b": "P6_D05_I_848",
+          "volume_mm3": 4.783271118962638
+        },
+        {
+          "variant": "V4",
+          "a": "P6_V4_Motor_225",
+          "b": "P6_D05_I_850",
+          "volume_mm3": 4.783832241021365
+        },
+        {
+          "variant": "V4",
+          "a": "P6_V4_Motor_315",
+          "b": "P6_D05_I_853",
+          "volume_mm3": 4.783251353952981
+        },
+        {
+          "variant": "V4",
+          "a": "P6_V4_Motor_315",
+          "b": "P6_D05_I_855",
+          "volume_mm3": 4.7838322411513365
+        }
+      ]
+    },
+    {
+      "propeller_index": 7,
+      "passed": false,
+      "candidates": 3278,
+      "findings": [
+        {
+          "variant": "V4",
+          "a": "P7_V4_Motor_45",
+          "b": "P7_D05_I_838",
+          "volume_mm3": 1.6973870728240747
+        },
+        {
+          "variant": "V4",
+          "a": "P7_V4_Motor_45",
+          "b": "P7_D05_I_840",
+          "volume_mm3": 1.697378048616065
+        },
+        {
+          "variant": "V4",
+          "a": "P7_V4_Motor_135",
+          "b": "P7_D05_I_843",
+          "volume_mm3": 1.6973870717827282
+        },
+        {
+          "variant": "V4",
+          "a": "P7_V4_Motor_135",
+          "b": "P7_D05_I_845",
+          "volume_mm3": 1.6975086291088897
+        },
+        {
+          "variant": "V4",
+          "a": "P7_V4_Motor_225",
+          "b": "P7_D05_I_848",
+          "volume_mm3": 1.6973870728218177
+        },
+        {
+          "variant": "V4",
+          "a": "P7_V4_Motor_225",
+          "b": "P7_D05_I_850",
+          "volume_mm3": 1.6975086291744501
+        },
+        {
+          "variant": "V4",
+          "a": "P7_V4_Motor_315",
+          "b": "P7_D05_I_853",
+          "volume_mm3": 1.6973616443292665
+        },
+        {
+          "variant": "V4",
+          "a": "P7_V4_Motor_315",
+          "b": "P7_D05_I_855",
+          "volume_mm3": 1.6975086300016793
+        }
+      ]
+    },
+    {
+      "propeller_index": 8,
+      "passed": false,
+      "candidates": 3286,
+      "findings": [
+        {
+          "variant": "V4",
+          "a": "P8_V4_Motor_45",
+          "b": "P8_D05_I_838",
+          "volume_mm3": 0.10802341294377413
+        },
+        {
+          "variant": "V4",
+          "a": "P8_V4_Motor_45",
+          "b": "P8_D05_I_840",
+          "volume_mm3": 0.10801459180318829
+        },
+        {
+          "variant": "V4",
+          "a": "P8_V4_Motor_135",
+          "b": "P8_D05_I_843",
+          "volume_mm3": 0.10802341308234566
+        },
+        {
+          "variant": "V4",
+          "a": "P8_V4_Motor_135",
+          "b": "P8_D05_I_845",
+          "volume_mm3": 0.1080145918424513
+        },
+        {
+          "variant": "V4",
+          "a": "P8_V4_Motor_225",
+          "b": "P8_D05_I_848",
+          "volume_mm3": 0.10802341252186065
+        },
+        {
+          "variant": "V4",
+          "a": "P8_V4_Motor_225",
+          "b": "P8_D05_I_850",
+          "volume_mm3": 0.10801459086398423
+        },
+        {
+          "variant": "V4",
+          "a": "P8_V4_Motor_315",
+          "b": "P8_D05_I_853",
+          "volume_mm3": 0.1080234114591609
+        },
+        {
+          "variant": "V4",
+          "a": "P8_V4_Motor_315",
+          "b": "P8_D05_I_855",
+          "volume_mm3": 0.10801459083383119
+        }
+      ]
+    },
+    {
+      "propeller_index": 9,
+      "passed": true,
+      "candidates": 3390,
+      "findings": []
+    }
+  ],
+  "passed": false,
+  "threshold_mm3": 0.1,
+  "scope": "All changed arm parts including clamp hardware vs each other and shared frame/motors/cables for all40 selections; cable pairs against shared parts. Shared-frame/shared-frame joints inherited,not fully retested. Nominal geometry only; no preload,manufacturing tolerance,tool access or wiring termination release."
+}

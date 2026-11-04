@@ -1,0 +1,209 @@
+{
+  "QD_P01": {
+    "id": "QD_P01",
+    "label": "Zentralplatte oben",
+    "process": "CNC, EN AW-6082 T6",
+    "density_kg_m3": 2700,
+    "material": "EN AW-6082 T6",
+    "volume_mm3": 997344.7681294058,
+    "mass_kg": 2.692830873949396
+  },
+  "QD_P02": {
+    "id": "QD_P02",
+    "label": "Zentralplatte unten",
+    "process": "CNC, EN AW-6082 T6",
+    "density_kg_m3": 2700,
+    "material": "EN AW-6082 T6",
+    "volume_mm3": 1001723.8969610966,
+    "mass_kg": 2.7046545217949607
+  },
+  "QD_R01": {
+    "id": "QD_R01",
+    "label": "Ausleger 50\u00d750\u00d73 mit Sicherungsbohrungen",
+    "process": "EN755 Profil, Ablaengen, CNC-Bohrungen",
+    "density_kg_m3": 2700,
+    "material": "EN AW-6082 T6",
+    "volume_mm3": 252760.74711542262,
+    "mass_kg": 0.6824540172116411
+  },
+  "QD_E01": {
+    "id": "QD_E01",
+    "label": "Eingepasstes Wurzel-Druckstueck 43.97\u00d743.97\u00d7135",
+    "process": "CNC, EN AW-6082 T6",
+    "density_kg_m3": 2700,
+    "material": "EN AW-6082 T6",
+    "volume_mm3": 260082.02778478217,
+    "mass_kg": 0.7022214750189119
+  },
+  "QD_M01": {
+    "id": "QD_M01",
+    "label": "Ausleger-Endtraeger oben, Projekteigenes IF90",
+    "process": "CNC, EN AW-6082 T6",
+    "density_kg_m3": 2700,
+    "material": "EN AW-6082 T6",
+    "volume_mm3": 225715.7354184052,
+    "mass_kg": 0.6094324856296941
+  },
+  "QD_M02": {
+    "id": "QD_M02",
+    "label": "Ausleger-Endtraeger unten",
+    "process": "CNC, EN AW-6082 T6",
+    "density_kg_m3": 2700,
+    "material": "EN AW-6082 T6",
+    "volume_mm3": 150476.30448419243,
+    "mass_kg": 0.40628602210731957
+  },
+  "QD_S01": {
+    "id": "QD_S01",
+    "label": "Deckstuetze, aus Vollmaterial gefertigt",
+    "process": "CNC, EN AW-6082 T6",
+    "density_kg_m3": 2700,
+    "material": "EN AW-6082 T6",
+    "volume_mm3": 64234.03853270888,
+    "mass_kg": 0.173431904038314
+  },
+  "QD_R02": {
+    "id": "QD_R02",
+    "label": "Decktraeger 40\u00d730\u00d73, Laenge620",
+    "process": "EN755 Profil, Ablaengen, Bohrungen",
+    "density_kg_m3": 2700,
+    "material": "EN AW-6082 T6",
+    "volume_mm3": 227667.787216501,
+    "mass_kg": 0.6147030254845527
+  },
+  "QD_K01": {
+    "id": "QD_K01",
+    "label": "Kassette fuer vier ISO7719-M6-Muttern",
+    "process": "CNC, EN AW-6082 T6",
+    "density_kg_m3": 2700,
+    "material": "EN AW-6082 T6",
+    "volume_mm3": 16487.597190375433,
+    "mass_kg": 0.044516512414013665
+  },
+  "QD_K02": {
+    "id": "QD_K02",
+    "label": "Kassetten-Abdeckblech",
+    "process": "CNC, EN AW-6082 T6",
+    "density_kg_m3": 2700,
+    "material": "EN AW-6082 T6",
+    "volume_mm3": 2263.3354111254694,
+    "mass_kg": 0.006111005610038768
+  },
+  "QD_H01": {
+    "id": "QD_H01",
+    "label": "Hut-Druckhuelse fuer Deckverschraubung",
+    "process": "Drehteil EN AW-6082 T6",
+    "density_kg_m3": 2700,
+    "material": "EN AW-6082 T6",
+    "volume_mm3": 894.3721585688442,
+    "mass_kg": 0.0024148048281358793
+  },
+  "QD_D01": {
+    "id": "QD_D01",
+    "label": "Personendeck 620\u00d7360\u00d75",
+    "process": "CNC, EN AW-6082 T6",
+    "density_kg_m3": 2700,
+    "material": "EN AW-6082 T6",
+    "volume_mm3": 1113718.8660995895,
+    "mass_kg": 3.007040938468892
+  },
+  "ISO4762_M6x80": {
+    "id": "ISO4762_M6x80",
+    "label": "ISO4762_M6x80",
+    "process": "Kaufteil nach ISO; 10.9 / Mutter10 / Scheibe300HV, Zertifikat erforderlich",
+    "density_kg_m3": 7850,
+    "material": "Verguetungsstahl, Zinklamelle",
+    "volume_mm3": 2516.4707031832745,
+    "mass_kg": 0.019754295019988703
+  },
+  "ISO7089_M6": {
+    "id": "ISO7089_M6",
+    "label": "ISO7089_M6",
+    "process": "Kaufteil nach ISO; 10.9 / Mutter10 / Scheibe300HV, Zertifikat erforderlich",
+    "density_kg_m3": 7850,
+    "material": "Verguetungsstahl, Zinklamelle",
+    "volume_mm3": 129.48388281035696,
+    "mass_kg": 0.001016448480061302
+  },
+  "ISO7719_M6": {
+    "id": "ISO7719_M6",
+    "label": "ISO7719_M6",
+    "process": "Kaufteil nach ISO; 10.9 / Mutter10 / Scheibe300HV, Zertifikat erforderlich",
+    "density_kg_m3": 7850,
+    "material": "Verguetungsstahl, Zinklamelle",
+    "volume_mm3": 357.21501181756776,
+    "mass_kg": 0.0028041378427679066
+  },
+  "ISO4762_M6x90": {
+    "id": "ISO4762_M6x90",
+    "label": "ISO4762_M6x90",
+    "process": "Kaufteil nach ISO; 10.9 / Mutter10 / Scheibe300HV, Zertifikat erforderlich",
+    "density_kg_m3": 7850,
+    "material": "Verguetungsstahl, Zinklamelle",
+    "volume_mm3": 2799.2137002407144,
+    "mass_kg": 0.021973827546889608
+  },
+  "ISO4762_M5x16": {
+    "id": "ISO4762_M5x16",
+    "label": "ISO4762_M5x16",
+    "process": "Kaufteil nach ISO; 10.9 / Mutter10 / Scheibe300HV, Zertifikat erforderlich",
+    "density_kg_m3": 7850,
+    "material": "Verguetungsstahl, Zinklamelle",
+    "volume_mm3": 494.5152586073843,
+    "mass_kg": 0.0038819447800679664
+  },
+  "ISO7089_M5": {
+    "id": "ISO7089_M5",
+    "label": "ISO7089_M5",
+    "process": "Kaufteil nach ISO; 10.9 / Mutter10 / Scheibe300HV, Zertifikat erforderlich",
+    "density_kg_m3": 7850,
+    "material": "Verguetungsstahl, Zinklamelle",
+    "volume_mm3": 56.477981929910534,
+    "mass_kg": 0.00044335215814979767
+  },
+  "ISO4762_M6x25": {
+    "id": "ISO4762_M6x25",
+    "label": "ISO4762_M6x25",
+    "process": "Kaufteil nach ISO; 10.9 / Mutter10 / Scheibe300HV, Zertifikat erforderlich",
+    "density_kg_m3": 7850,
+    "material": "Verguetungsstahl, Zinklamelle",
+    "volume_mm3": 961.3842193673784,
+    "mass_kg": 0.00754686612203392
+  },
+  "ISO4762_M6x20": {
+    "id": "ISO4762_M6x20",
+    "label": "ISO4762_M6x20",
+    "process": "Kaufteil nach ISO; 10.9 / Mutter10 / Scheibe300HV, Zertifikat erforderlich",
+    "density_kg_m3": 7850,
+    "material": "Verguetungsstahl, Zinklamelle",
+    "volume_mm3": 843.4371111370905,
+    "mass_kg": 0.00662098132242616
+  },
+  "ISO4762_M3x8": {
+    "id": "ISO4762_M3x8",
+    "label": "ISO4762_M3x8",
+    "process": "Kaufteil nach ISO; 10.9 / Mutter10 / Scheibe300HV, Zertifikat erforderlich",
+    "density_kg_m3": 7850,
+    "material": "Verguetungsstahl, Zinklamelle",
+    "volume_mm3": 107.00487563865026,
+    "mass_kg": 0.0008399882737634045
+  },
+  "ISO4762_M5x50": {
+    "id": "ISO4762_M5x50",
+    "label": "ISO4762_M5x50",
+    "process": "Kaufteil nach ISO; 10.9 / Mutter10 / Scheibe300HV, Zertifikat erforderlich",
+    "density_kg_m3": 7850,
+    "material": "Verguetungsstahl, Zinklamelle",
+    "volume_mm3": 1139.2450227974987,
+    "mass_kg": 0.008943073428960363
+  },
+  "ISO7719_M5": {
+    "id": "ISO7719_M5",
+    "label": "ISO7719_M5",
+    "process": "Kaufteil nach ISO; 10.9 / Mutter10 / Scheibe300HV, Zertifikat erforderlich",
+    "density_kg_m3": 7850,
+    "material": "Verguetungsstahl, Zinklamelle",
+    "volume_mm3": 198.98815054059148,
+    "mass_kg": 0.001562056981743643
+  }
+}

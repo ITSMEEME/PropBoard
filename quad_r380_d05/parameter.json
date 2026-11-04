@@ -1,0 +1,57 @@
+{
+  "revision": "QUAD_R380_D05_MN1330",
+  "tube_article": "CBU20171005TG",
+  "tube_od_mm": 20,
+  "tube_id_mm": 17,
+  "tube_od_tolerance_mm": 0.2,
+  "clamp_bore_mm": 20.6,
+  "rail_length_mm": 760,
+  "rail_y_mm": [
+    -75,
+    75
+  ],
+  "rail_z_mm": 220,
+  "foot_size_xy_mm": [
+    140,
+    300
+  ],
+  "foot_thickness_mm": 6,
+  "foot_centres_x_mm": [
+    -200,
+    200
+  ],
+  "foot_centre_abs_limits_mm": [
+    130,
+    250
+  ],
+  "foot_z_mm": 238,
+  "rotor_radius_mm": 380,
+  "motor_xy_half_spacing_mm": 425,
+  "cfk_density_assumption_kg_m3": 1600,
+  "production_ready": false,
+  "index_pitch_mm": 10,
+  "index_rack_length_mm": 770,
+  "index_rack_height_mm": 24,
+  "index_rack_thickness_mm": 10,
+  "index_hole_diameter_mm": 6.4,
+  "index_retraction_mm": 10,
+  "countersink_diameter_mm": 11.6,
+  "countersink_angle_deg": 90,
+  "foot_head_recess_mm": 0.2,
+  "core_node_radius_mm": 145,
+  "core_level_z_mm": 110,
+  "core_socket_face_mm": 25,
+  "root_mount_radius_mm": 184,
+  "root_cap_width_mm": 160,
+  "root_cap_thickness_mm": 6,
+  "motor_model": "MN1330 KV40",
+  "motor_choice": "user_fixed",
+  "motor_mass_each_kg": 2.75,
+  "motor_stator_pcd_mm": 50,
+  "motor_stator_holes": 4,
+  "motor_reference_length_mm": 66,
+  "motor_xls_length_mm": 65,
+  "motor_engagement_assumed_mm": 6,
+  "motor_stator_bolt": "ISO4762 M6x12",
+  "motor_plate_central_hole_mm": 24
+}

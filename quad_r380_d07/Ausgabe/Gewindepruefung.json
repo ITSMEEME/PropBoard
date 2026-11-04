@@ -1,0 +1,1977 @@
+{
+  "native_sha256": "8f1610f5a369fff7bd43edcd6f5129921b3ec91b914011c64d0cd4903f8d1402",
+  "passed": true,
+  "pairs": [
+    {
+      "bolt": "I_633",
+      "mate": "I_631",
+      "family": "Rack M4",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_635",
+      "mate": "I_631",
+      "family": "Rack M4",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_637",
+      "mate": "I_632",
+      "family": "Rack M4",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_639",
+      "mate": "I_632",
+      "family": "Rack M4",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_641",
+      "mate": "I_631",
+      "family": "Rack M4",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_643",
+      "mate": "I_631",
+      "family": "Rack M4",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_645",
+      "mate": "I_632",
+      "family": "Rack M4",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_647",
+      "mate": "I_632",
+      "family": "Rack M4",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_649",
+      "mate": "I_371",
+      "family": "Index M6",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_651",
+      "mate": "I_390",
+      "family": "Index M6",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_653",
+      "mate": "I_410",
+      "family": "Index M6",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_655",
+      "mate": "I_429",
+      "family": "Index M6",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_373",
+      "mate": "I_376",
+      "family": "Foot clamp M5",
+      "intersection_mm3": 3.846341098764402e-05,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_377",
+      "mate": "I_380",
+      "family": "Foot clamp M5",
+      "intersection_mm3": 3.846341098764402e-05,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_381",
+      "mate": "I_384",
+      "family": "Foot clamp M5",
+      "intersection_mm3": 3.846341098764402e-05,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_385",
+      "mate": "I_388",
+      "family": "Foot clamp M5",
+      "intersection_mm3": 3.846341098764402e-05,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_392",
+      "mate": "I_395",
+      "family": "Foot clamp M5",
+      "intersection_mm3": 3.846341098764402e-05,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_396",
+      "mate": "I_399",
+      "family": "Foot clamp M5",
+      "intersection_mm3": 3.846341098764402e-05,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_400",
+      "mate": "I_403",
+      "family": "Foot clamp M5",
+      "intersection_mm3": 3.846341098764402e-05,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_404",
+      "mate": "I_407",
+      "family": "Foot clamp M5",
+      "intersection_mm3": 3.846341098764402e-05,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_412",
+      "mate": "I_415",
+      "family": "Foot clamp M5",
+      "intersection_mm3": 3.846341098764402e-05,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_416",
+      "mate": "I_419",
+      "family": "Foot clamp M5",
+      "intersection_mm3": 3.846341098764402e-05,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_420",
+      "mate": "I_423",
+      "family": "Foot clamp M5",
+      "intersection_mm3": 3.846341098764402e-05,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_424",
+      "mate": "I_427",
+      "family": "Foot clamp M5",
+      "intersection_mm3": 3.846341098764402e-05,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_431",
+      "mate": "I_434",
+      "family": "Foot clamp M5",
+      "intersection_mm3": 3.846341098764402e-05,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_435",
+      "mate": "I_438",
+      "family": "Foot clamp M5",
+      "intersection_mm3": 3.846341098764402e-05,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_439",
+      "mate": "I_442",
+      "family": "Foot clamp M5",
+      "intersection_mm3": 3.846341098764402e-05,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_443",
+      "mate": "I_446",
+      "family": "Foot clamp M5",
+      "intersection_mm3": 3.846341098764402e-05,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_506",
+      "mate": "D04_I_495",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0.040977489252853445,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_507",
+      "mate": "D04_I_495",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0.040976306694324116,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_508",
+      "mate": "D04_I_495",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0.04097726000999263,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_509",
+      "mate": "D04_I_495",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0.04097728174571479,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_515",
+      "mate": "D04_I_497",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_516",
+      "mate": "D04_I_497",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_517",
+      "mate": "D04_I_497",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_518",
+      "mate": "D04_I_497",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_525",
+      "mate": "D04_I_497",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0.040977489252853445,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_526",
+      "mate": "D04_I_497",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0.040976306694324116,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_527",
+      "mate": "D04_I_497",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0.04097726000999263,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_528",
+      "mate": "D04_I_497",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0.04097728174571479,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_534",
+      "mate": "D04_I_499",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_535",
+      "mate": "D04_I_499",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_536",
+      "mate": "D04_I_499",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_537",
+      "mate": "D04_I_499",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_544",
+      "mate": "D04_I_499",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0.040977489252853445,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_545",
+      "mate": "D04_I_499",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0.040976306694324116,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_546",
+      "mate": "D04_I_499",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0.04097726000999263,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_547",
+      "mate": "D04_I_499",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0.04097728174571479,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_553",
+      "mate": "D04_I_501",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_554",
+      "mate": "D04_I_501",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_555",
+      "mate": "D04_I_501",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_556",
+      "mate": "D04_I_501",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_563",
+      "mate": "D04_I_501",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0.040977489252853445,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_564",
+      "mate": "D04_I_501",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0.040976306694324116,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_565",
+      "mate": "D04_I_501",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0.04097726000999263,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_566",
+      "mate": "D04_I_501",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0.04097728174571479,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_572",
+      "mate": "D04_I_495",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_573",
+      "mate": "D04_I_495",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_574",
+      "mate": "D04_I_495",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_575",
+      "mate": "D04_I_495",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_582",
+      "mate": "D04_I_496",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0.040977978983421974,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_583",
+      "mate": "D04_I_496",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0.040976306694325004,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_584",
+      "mate": "D04_I_496",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0.04097726166679494,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_585",
+      "mate": "D04_I_496",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0.040976766021768224,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_591",
+      "mate": "D04_I_498",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_592",
+      "mate": "D04_I_498",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_593",
+      "mate": "D04_I_498",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_594",
+      "mate": "D04_I_498",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_601",
+      "mate": "D04_I_498",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0.040977978983421974,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_602",
+      "mate": "D04_I_498",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0.040976306694325004,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_603",
+      "mate": "D04_I_498",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0.04097726166679494,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_604",
+      "mate": "D04_I_498",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0.040976766021768224,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_610",
+      "mate": "D04_I_500",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_611",
+      "mate": "D04_I_500",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_612",
+      "mate": "D04_I_500",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_613",
+      "mate": "D04_I_500",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_620",
+      "mate": "D04_I_500",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0.040977978983421974,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_621",
+      "mate": "D04_I_500",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0.040976306694325004,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_622",
+      "mate": "D04_I_500",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0.04097726166679494,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_623",
+      "mate": "D04_I_500",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0.040976766021768224,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_629",
+      "mate": "D04_I_502",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_630",
+      "mate": "D04_I_502",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_631",
+      "mate": "D04_I_502",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_632",
+      "mate": "D04_I_502",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_639",
+      "mate": "D04_I_502",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0.040977978983421974,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_640",
+      "mate": "D04_I_502",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0.040976306694325004,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_641",
+      "mate": "D04_I_502",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0.04097726166679494,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_642",
+      "mate": "D04_I_502",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0.040976766021768224,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_648",
+      "mate": "D04_I_496",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_649",
+      "mate": "D04_I_496",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_650",
+      "mate": "D04_I_496",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_651",
+      "mate": "D04_I_496",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_658",
+      "mate": "D04_I_495",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_659",
+      "mate": "D04_I_495",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_660",
+      "mate": "D04_I_495",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_661",
+      "mate": "D04_I_495",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_667",
+      "mate": "D04_I_496",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_668",
+      "mate": "D04_I_496",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_669",
+      "mate": "D04_I_496",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_670",
+      "mate": "D04_I_496",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_677",
+      "mate": "D04_I_497",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_678",
+      "mate": "D04_I_497",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_679",
+      "mate": "D04_I_497",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_680",
+      "mate": "D04_I_497",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_686",
+      "mate": "D04_I_498",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_687",
+      "mate": "D04_I_498",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_688",
+      "mate": "D04_I_498",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_689",
+      "mate": "D04_I_498",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_696",
+      "mate": "D04_I_499",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_697",
+      "mate": "D04_I_499",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_698",
+      "mate": "D04_I_499",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_699",
+      "mate": "D04_I_499",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_705",
+      "mate": "D04_I_500",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_706",
+      "mate": "D04_I_500",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_707",
+      "mate": "D04_I_500",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_708",
+      "mate": "D04_I_500",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_715",
+      "mate": "D04_I_501",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_716",
+      "mate": "D04_I_501",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_717",
+      "mate": "D04_I_501",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_718",
+      "mate": "D04_I_501",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_724",
+      "mate": "D04_I_502",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_725",
+      "mate": "D04_I_502",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_726",
+      "mate": "D04_I_502",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_727",
+      "mate": "D04_I_502",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_738",
+      "mate": "D04_I_741",
+      "family": "D04 Saddle nut M6",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_742",
+      "mate": "D04_I_745",
+      "family": "D04 Saddle nut M6",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_746",
+      "mate": "D04_I_749",
+      "family": "D04 Saddle nut M6",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_753",
+      "mate": "D04_I_731",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_754",
+      "mate": "D04_I_731",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_755",
+      "mate": "D04_I_731",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_756",
+      "mate": "D04_I_731",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_762",
+      "mate": "D04_I_731",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_763",
+      "mate": "D04_I_731",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_764",
+      "mate": "D04_I_731",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_765",
+      "mate": "D04_I_731",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_771",
+      "mate": "D04_I_774",
+      "family": "D04 Saddle nut M6",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_775",
+      "mate": "D04_I_778",
+      "family": "D04 Saddle nut M6",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_783",
+      "mate": "D04_I_786",
+      "family": "D04 Saddle nut M6",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_790",
+      "mate": "D04_I_768",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_791",
+      "mate": "D04_I_768",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_792",
+      "mate": "D04_I_768",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_793",
+      "mate": "D04_I_768",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_799",
+      "mate": "D04_I_768",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_800",
+      "mate": "D04_I_768",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_801",
+      "mate": "D04_I_768",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_802",
+      "mate": "D04_I_768",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_808",
+      "mate": "I_457",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_809",
+      "mate": "I_457",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_810",
+      "mate": "I_457",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_811",
+      "mate": "I_457",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_818",
+      "mate": "I_487",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_819",
+      "mate": "I_487",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_820",
+      "mate": "I_487",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_821",
+      "mate": "I_487",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_828",
+      "mate": "I_517",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_829",
+      "mate": "I_517",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_830",
+      "mate": "I_517",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_831",
+      "mate": "I_517",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_838",
+      "mate": "I_547",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_839",
+      "mate": "I_547",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_840",
+      "mate": "I_547",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D04_I_841",
+      "mate": "I_547",
+      "family": "D04 M4 Flansch",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_470",
+      "mate": "I_457",
+      "family": "D04 Rail flange M4",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_471",
+      "mate": "I_457",
+      "family": "D04 Rail flange M4",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_472",
+      "mate": "I_457",
+      "family": "D04 Rail flange M4",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_473",
+      "mate": "I_457",
+      "family": "D04 Rail flange M4",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_530",
+      "mate": "I_517",
+      "family": "D04 Rail flange M4",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_531",
+      "mate": "I_517",
+      "family": "D04 Rail flange M4",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_532",
+      "mate": "I_517",
+      "family": "D04 Rail flange M4",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_533",
+      "mate": "I_517",
+      "family": "D04 Rail flange M4",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_500",
+      "mate": "I_487",
+      "family": "D04 Rail flange M4",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_501",
+      "mate": "I_487",
+      "family": "D04 Rail flange M4",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_502",
+      "mate": "I_487",
+      "family": "D04 Rail flange M4",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_503",
+      "mate": "I_487",
+      "family": "D04 Rail flange M4",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_560",
+      "mate": "I_547",
+      "family": "D04 Rail flange M4",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_561",
+      "mate": "I_547",
+      "family": "D04 Rail flange M4",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_562",
+      "mate": "I_547",
+      "family": "D04 Rail flange M4",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "I_563",
+      "mate": "I_547",
+      "family": "D04 Rail flange M4",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_866",
+      "mate": "D06_I_867",
+      "family": "D06 Blattwurzel M5",
+      "intersection_mm3": 0.08845011415261533,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_872",
+      "mate": "D06_I_873",
+      "family": "D06 Blattwurzel M5",
+      "intersection_mm3": 0.08845011415261533,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_882",
+      "mate": "D06_I_883",
+      "family": "D06 Blattwurzel M5",
+      "intersection_mm3": 0.08845011415261533,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_888",
+      "mate": "D06_I_889",
+      "family": "D06 Blattwurzel M5",
+      "intersection_mm3": 0.08845011415261533,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_898",
+      "mate": "D06_I_899",
+      "family": "D06 Blattwurzel M5",
+      "intersection_mm3": 0.08845011415261533,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_904",
+      "mate": "D06_I_905",
+      "family": "D06 Blattwurzel M5",
+      "intersection_mm3": 0.08845011415261533,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_915",
+      "mate": "D06_I_916",
+      "family": "D06 Blattwurzel M5",
+      "intersection_mm3": 0.08845011415261533,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_921",
+      "mate": "D06_I_922",
+      "family": "D06 Blattwurzel M5",
+      "intersection_mm3": 0.08845011415261533,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_931",
+      "mate": "D06_I_932",
+      "family": "D06 Blattwurzel M5",
+      "intersection_mm3": 0.08845011415261533,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_937",
+      "mate": "D06_I_938",
+      "family": "D06 Blattwurzel M5",
+      "intersection_mm3": 0.08845011415261533,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_947",
+      "mate": "D06_I_948",
+      "family": "D06 Blattwurzel M5",
+      "intersection_mm3": 0.08845011415261533,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_953",
+      "mate": "D06_I_954",
+      "family": "D06 Blattwurzel M5",
+      "intersection_mm3": 0.08845011415261533,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_964",
+      "mate": "D06_I_965",
+      "family": "D06 Blattwurzel M5",
+      "intersection_mm3": 0.08845011415261533,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_970",
+      "mate": "D06_I_971",
+      "family": "D06 Blattwurzel M5",
+      "intersection_mm3": 0.08845011415261533,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_980",
+      "mate": "D06_I_981",
+      "family": "D06 Blattwurzel M5",
+      "intersection_mm3": 0.08845011415261533,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_986",
+      "mate": "D06_I_987",
+      "family": "D06 Blattwurzel M5",
+      "intersection_mm3": 0.08845011415261533,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_996",
+      "mate": "D06_I_997",
+      "family": "D06 Blattwurzel M5",
+      "intersection_mm3": 0.08845011415261533,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_1002",
+      "mate": "D06_I_1003",
+      "family": "D06 Blattwurzel M5",
+      "intersection_mm3": 0.08845011415261533,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_1013",
+      "mate": "D06_I_1014",
+      "family": "D06 Blattwurzel M5",
+      "intersection_mm3": 0.08845011415261533,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_1019",
+      "mate": "D06_I_1020",
+      "family": "D06 Blattwurzel M5",
+      "intersection_mm3": 0.08845011415261533,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_1029",
+      "mate": "D06_I_1030",
+      "family": "D06 Blattwurzel M5",
+      "intersection_mm3": 0.08845011415261533,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_1035",
+      "mate": "D06_I_1036",
+      "family": "D06 Blattwurzel M5",
+      "intersection_mm3": 0.08845011415261533,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_1045",
+      "mate": "D06_I_1046",
+      "family": "D06 Blattwurzel M5",
+      "intersection_mm3": 0.08845011415261533,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D06_I_1051",
+      "mate": "D06_I_1052",
+      "family": "D06 Blattwurzel M5",
+      "intersection_mm3": 0.08845011415261533,
+      "additional_fitted_phase_deg": 0,
+      "passed": true
+    },
+    {
+      "bolt": "D07_I_6",
+      "mate": "D04_I_496",
+      "hole_feature": "D07_M4_D07_ROOT_TOP_0",
+      "family": "V3 socket M4",
+      "socket_index": 0,
+      "side": "Wurzel",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 120,
+      "passed": true
+    },
+    {
+      "bolt": "D07_I_7",
+      "mate": "D04_I_496",
+      "hole_feature": "D07_M4_D07_ROOT_TOP_0",
+      "family": "V3 socket M4",
+      "socket_index": 0,
+      "side": "Wurzel",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 120,
+      "passed": true
+    },
+    {
+      "bolt": "D07_I_11",
+      "mate": "D07_I_1",
+      "hole_feature": "D07_M4_D07_MOTOR_NODE_0",
+      "family": "V3 socket M4",
+      "socket_index": 0,
+      "side": "Motor",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 120,
+      "passed": true
+    },
+    {
+      "bolt": "D07_I_12",
+      "mate": "D07_I_1",
+      "hole_feature": "D07_M4_D07_MOTOR_NODE_0",
+      "family": "V3 socket M4",
+      "socket_index": 0,
+      "side": "Motor",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 120,
+      "passed": true
+    },
+    {
+      "bolt": "D07_I_17",
+      "mate": "D04_I_496",
+      "hole_feature": "D07_M4_D07_ROOT_TOP_1",
+      "family": "V3 socket M4",
+      "socket_index": 1,
+      "side": "Wurzel",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 150,
+      "passed": true
+    },
+    {
+      "bolt": "D07_I_18",
+      "mate": "D04_I_496",
+      "hole_feature": "D07_M4_D07_ROOT_TOP_1",
+      "family": "V3 socket M4",
+      "socket_index": 1,
+      "side": "Wurzel",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 150,
+      "passed": true
+    },
+    {
+      "bolt": "D07_I_22",
+      "mate": "D07_I_1",
+      "hole_feature": "D07_M4_D07_MOTOR_NODE_1",
+      "family": "V3 socket M4",
+      "socket_index": 1,
+      "side": "Motor",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 150,
+      "passed": true
+    },
+    {
+      "bolt": "D07_I_23",
+      "mate": "D07_I_1",
+      "hole_feature": "D07_M4_D07_MOTOR_NODE_1",
+      "family": "V3 socket M4",
+      "socket_index": 1,
+      "side": "Motor",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 150,
+      "passed": true
+    },
+    {
+      "bolt": "D07_I_29",
+      "mate": "D04_I_498",
+      "hole_feature": "D07_M4_D07_ROOT_TOP_0",
+      "family": "V3 socket M4",
+      "socket_index": 0,
+      "side": "Wurzel",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 120,
+      "passed": true
+    },
+    {
+      "bolt": "D07_I_30",
+      "mate": "D04_I_498",
+      "hole_feature": "D07_M4_D07_ROOT_TOP_0",
+      "family": "V3 socket M4",
+      "socket_index": 0,
+      "side": "Wurzel",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 120,
+      "passed": true
+    },
+    {
+      "bolt": "D07_I_34",
+      "mate": "D07_I_24",
+      "hole_feature": "D07_M4_D07_MOTOR_NODE_0",
+      "family": "V3 socket M4",
+      "socket_index": 0,
+      "side": "Motor",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 120,
+      "passed": true
+    },
+    {
+      "bolt": "D07_I_35",
+      "mate": "D07_I_24",
+      "hole_feature": "D07_M4_D07_MOTOR_NODE_0",
+      "family": "V3 socket M4",
+      "socket_index": 0,
+      "side": "Motor",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 120,
+      "passed": true
+    },
+    {
+      "bolt": "D07_I_40",
+      "mate": "D04_I_498",
+      "hole_feature": "D07_M4_D07_ROOT_TOP_1",
+      "family": "V3 socket M4",
+      "socket_index": 1,
+      "side": "Wurzel",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 150,
+      "passed": true
+    },
+    {
+      "bolt": "D07_I_41",
+      "mate": "D04_I_498",
+      "hole_feature": "D07_M4_D07_ROOT_TOP_1",
+      "family": "V3 socket M4",
+      "socket_index": 1,
+      "side": "Wurzel",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 150,
+      "passed": true
+    },
+    {
+      "bolt": "D07_I_45",
+      "mate": "D07_I_24",
+      "hole_feature": "D07_M4_D07_MOTOR_NODE_1",
+      "family": "V3 socket M4",
+      "socket_index": 1,
+      "side": "Motor",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 150,
+      "passed": true
+    },
+    {
+      "bolt": "D07_I_46",
+      "mate": "D07_I_24",
+      "hole_feature": "D07_M4_D07_MOTOR_NODE_1",
+      "family": "V3 socket M4",
+      "socket_index": 1,
+      "side": "Motor",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 150,
+      "passed": true
+    },
+    {
+      "bolt": "D07_I_52",
+      "mate": "D04_I_500",
+      "hole_feature": "D07_M4_D07_ROOT_TOP_0",
+      "family": "V3 socket M4",
+      "socket_index": 0,
+      "side": "Wurzel",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 120,
+      "passed": true
+    },
+    {
+      "bolt": "D07_I_53",
+      "mate": "D04_I_500",
+      "hole_feature": "D07_M4_D07_ROOT_TOP_0",
+      "family": "V3 socket M4",
+      "socket_index": 0,
+      "side": "Wurzel",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 120,
+      "passed": true
+    },
+    {
+      "bolt": "D07_I_57",
+      "mate": "D07_I_47",
+      "hole_feature": "D07_M4_D07_MOTOR_NODE_0",
+      "family": "V3 socket M4",
+      "socket_index": 0,
+      "side": "Motor",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 120,
+      "passed": true
+    },
+    {
+      "bolt": "D07_I_58",
+      "mate": "D07_I_47",
+      "hole_feature": "D07_M4_D07_MOTOR_NODE_0",
+      "family": "V3 socket M4",
+      "socket_index": 0,
+      "side": "Motor",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 120,
+      "passed": true
+    },
+    {
+      "bolt": "D07_I_63",
+      "mate": "D04_I_500",
+      "hole_feature": "D07_M4_D07_ROOT_TOP_1",
+      "family": "V3 socket M4",
+      "socket_index": 1,
+      "side": "Wurzel",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 150,
+      "passed": true
+    },
+    {
+      "bolt": "D07_I_64",
+      "mate": "D04_I_500",
+      "hole_feature": "D07_M4_D07_ROOT_TOP_1",
+      "family": "V3 socket M4",
+      "socket_index": 1,
+      "side": "Wurzel",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 150,
+      "passed": true
+    },
+    {
+      "bolt": "D07_I_68",
+      "mate": "D07_I_47",
+      "hole_feature": "D07_M4_D07_MOTOR_NODE_1",
+      "family": "V3 socket M4",
+      "socket_index": 1,
+      "side": "Motor",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 150,
+      "passed": true
+    },
+    {
+      "bolt": "D07_I_69",
+      "mate": "D07_I_47",
+      "hole_feature": "D07_M4_D07_MOTOR_NODE_1",
+      "family": "V3 socket M4",
+      "socket_index": 1,
+      "side": "Motor",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 150,
+      "passed": true
+    },
+    {
+      "bolt": "D07_I_75",
+      "mate": "D04_I_502",
+      "hole_feature": "D07_M4_D07_ROOT_TOP_0",
+      "family": "V3 socket M4",
+      "socket_index": 0,
+      "side": "Wurzel",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 120,
+      "passed": true
+    },
+    {
+      "bolt": "D07_I_76",
+      "mate": "D04_I_502",
+      "hole_feature": "D07_M4_D07_ROOT_TOP_0",
+      "family": "V3 socket M4",
+      "socket_index": 0,
+      "side": "Wurzel",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 120,
+      "passed": true
+    },
+    {
+      "bolt": "D07_I_80",
+      "mate": "D07_I_70",
+      "hole_feature": "D07_M4_D07_MOTOR_NODE_0",
+      "family": "V3 socket M4",
+      "socket_index": 0,
+      "side": "Motor",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 120,
+      "passed": true
+    },
+    {
+      "bolt": "D07_I_81",
+      "mate": "D07_I_70",
+      "hole_feature": "D07_M4_D07_MOTOR_NODE_0",
+      "family": "V3 socket M4",
+      "socket_index": 0,
+      "side": "Motor",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 120,
+      "passed": true
+    },
+    {
+      "bolt": "D07_I_86",
+      "mate": "D04_I_502",
+      "hole_feature": "D07_M4_D07_ROOT_TOP_1",
+      "family": "V3 socket M4",
+      "socket_index": 1,
+      "side": "Wurzel",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 150,
+      "passed": true
+    },
+    {
+      "bolt": "D07_I_87",
+      "mate": "D04_I_502",
+      "hole_feature": "D07_M4_D07_ROOT_TOP_1",
+      "family": "V3 socket M4",
+      "socket_index": 1,
+      "side": "Wurzel",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 150,
+      "passed": true
+    },
+    {
+      "bolt": "D07_I_91",
+      "mate": "D07_I_70",
+      "hole_feature": "D07_M4_D07_MOTOR_NODE_1",
+      "family": "V3 socket M4",
+      "socket_index": 1,
+      "side": "Motor",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 150,
+      "passed": true
+    },
+    {
+      "bolt": "D07_I_92",
+      "mate": "D07_I_70",
+      "hole_feature": "D07_M4_D07_MOTOR_NODE_1",
+      "family": "V3 socket M4",
+      "socket_index": 1,
+      "side": "Motor",
+      "intersection_mm3": 0,
+      "additional_fitted_phase_deg": 150,
+      "passed": true
+    }
+  ],
+  "pair_count": 234,
+  "reporting_threshold_mm3": 0.1,
+  "scope": "Actual solid intersections of surviving old nominal thread pairs,24 propeller-root pairs and32 new socket M4 pairs. All changed core-port connections rechecked. True nominal helices; no manufacturing tolerance, preload or CFK strength release.16 motor internal threads remain OEM-unverified; motor-nabe bolts absent."
+}

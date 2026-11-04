@@ -1,0 +1,66 @@
+{
+  "native_sha256_matches": true,
+  "bom_mass_matches": true,
+  "individual_native_parts": [
+    {
+      "id": "QD_P01",
+      "valid_single_solid": true,
+      "history_features": 8
+    },
+    {
+      "id": "QD_P02",
+      "valid_single_solid": true,
+      "history_features": 8
+    },
+    {
+      "id": "QD_R01",
+      "valid_single_solid": true,
+      "history_features": 4
+    },
+    {
+      "id": "QD_E01",
+      "valid_single_solid": true,
+      "history_features": 4
+    },
+    {
+      "id": "QD_M01",
+      "valid_single_solid": true,
+      "history_features": 10
+    },
+    {
+      "id": "QD_M02",
+      "valid_single_solid": true,
+      "history_features": 6
+    },
+    {
+      "id": "QD_R02",
+      "valid_single_solid": true,
+      "history_features": 8
+    },
+    {
+      "id": "QD_S01",
+      "valid_single_solid": true,
+      "history_features": 11
+    },
+    {
+      "id": "QD_K01",
+      "valid_single_solid": true,
+      "history_features": 9
+    },
+    {
+      "id": "QD_K02",
+      "valid_single_solid": true,
+      "history_features": 6
+    },
+    {
+      "id": "QD_H01",
+      "valid_single_solid": true,
+      "history_features": 6
+    },
+    {
+      "id": "QD_D01",
+      "valid_single_solid": true,
+      "history_features": 4
+    }
+  ]
+}

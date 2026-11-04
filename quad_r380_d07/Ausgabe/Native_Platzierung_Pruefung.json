@@ -1,0 +1,3126 @@
+{
+  "native_sha256": "8f1610f5a369fff7bd43edcd6f5129921b3ec91b914011c64d0cd4903f8d1402",
+  "passed": true,
+  "checks": [
+    {
+      "instance": "I_367",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_368",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_369",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_370",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_371",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_372",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_373",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_375",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_376",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_377",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_379",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_380",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_381",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_383",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_384",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_385",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_387",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_388",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_389",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_390",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_391",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_392",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_394",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_395",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_396",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_398",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_399",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_400",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_402",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_403",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_404",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_406",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_407",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_408",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_409",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_410",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_411",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_412",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_414",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_415",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_416",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_418",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_419",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_420",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_422",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_423",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_424",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_426",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_427",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_428",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_429",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_430",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_431",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_433",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_434",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_435",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_437",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_438",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_439",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_441",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_442",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_443",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_445",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_446",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_457",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_467",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_468",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_469",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_470",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_471",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_472",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_473",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_474",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_475",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_487",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_497",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_498",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_499",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_500",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_501",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_502",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_503",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_504",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_505",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_517",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_527",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_528",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_529",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_530",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_531",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_532",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_533",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_534",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_535",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_547",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_557",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_558",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_559",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_560",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_561",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_562",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_563",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_564",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_565",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_631",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_632",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_633",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_634",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_635",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_636",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_637",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_638",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_639",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_640",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_641",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_642",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_643",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_644",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_645",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_646",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_647",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_648",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_649",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_650",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_651",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_652",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_653",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_654",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_655",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "I_656",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_495",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_496",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_497",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_498",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_499",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_500",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_501",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_502",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_503",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_504",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_505",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_506",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_507",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_508",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_509",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_510",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_511",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_512",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_513",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_514",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_515",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_516",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_517",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_518",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_519",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_520",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_521",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_522",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_523",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_524",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_525",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_526",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_527",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_528",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_529",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_530",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_531",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_532",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_533",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_534",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_535",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_536",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_537",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_538",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_539",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_540",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_541",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_542",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_543",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_544",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_545",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_546",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_547",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_548",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_549",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_550",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_551",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_552",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_553",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_554",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_555",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_556",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_557",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_558",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_559",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_560",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_561",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_562",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_563",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_564",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_565",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_566",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_567",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_568",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_569",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_570",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_571",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_572",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_573",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_574",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_575",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_576",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_577",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_578",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_579",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_580",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_581",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_582",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_583",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_584",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_585",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_586",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_587",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_588",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_589",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_590",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_591",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_592",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_593",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_594",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_595",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_596",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_597",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_598",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_599",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_600",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_601",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_602",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_603",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_604",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_605",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_606",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_607",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_608",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_609",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_610",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_611",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_612",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_613",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_614",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_615",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_616",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_617",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_618",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_619",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_620",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_621",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_622",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_623",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_624",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_625",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_626",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_627",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_628",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_629",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_630",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_631",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_632",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_633",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_634",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_635",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_636",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_637",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_638",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_639",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_640",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_641",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_642",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_643",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_644",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_645",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_646",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_647",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_648",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_649",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_650",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_651",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_652",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_653",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_654",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_655",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_656",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_657",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_658",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_659",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_660",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_661",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_662",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_663",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_664",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_665",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_666",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_667",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_668",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_669",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_670",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_671",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_672",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_673",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_674",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_675",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_676",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_677",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_678",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_679",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_680",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_681",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_682",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_683",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_684",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_685",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_686",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_687",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_688",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_689",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_690",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_691",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_692",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_693",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_694",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_695",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_696",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_697",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_698",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_699",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_700",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_701",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_702",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_703",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_704",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_705",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_706",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_707",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_708",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_709",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_710",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_711",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_712",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_713",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_714",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_715",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_716",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_717",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_718",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_719",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_720",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_721",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_722",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_723",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_724",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_725",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_726",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_727",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_728",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_729",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_730",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_731",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_732",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_733",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_738",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_739",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_740",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_741",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_742",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_743",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_744",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_745",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_746",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_747",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_748",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_749",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_750",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_751",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_752",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_753",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_754",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_755",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_756",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_757",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_758",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_759",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_760",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_761",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_762",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_763",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_764",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_765",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_766",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_767",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_768",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_769",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_770",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_771",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_772",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_773",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_774",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_775",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_776",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_777",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_778",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_783",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_784",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_785",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_786",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_787",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_788",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_789",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_790",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_791",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_792",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_793",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_794",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_795",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_796",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_797",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_798",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_799",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_800",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_801",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_802",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_803",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_804",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_805",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_806",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_807",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_808",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_809",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_810",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_811",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_812",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_813",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_814",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_815",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_816",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_817",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_818",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_819",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_820",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_821",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_822",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_823",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_824",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_825",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_826",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_827",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_828",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_829",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_830",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_831",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_832",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_833",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_834",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_835",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_836",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_837",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_838",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_839",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_840",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_841",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_842",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_843",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D04_I_844",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D05_I_837",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D05_I_838",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D05_I_839",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D05_I_840",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D05_I_841",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D05_I_842",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D05_I_843",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D05_I_844",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D05_I_845",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D05_I_846",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D05_I_847",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D05_I_848",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D05_I_849",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D05_I_850",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D05_I_851",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D05_I_852",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D05_I_853",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D05_I_854",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D05_I_855",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D05_I_856",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_857",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_858",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_859",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_860",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_861",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_862",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_863",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_864",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_865",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_866",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_867",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_868",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_869",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_870",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_871",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_872",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_873",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_874",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_875",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_876",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_877",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_878",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_879",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_880",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_881",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_882",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_883",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_884",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_885",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_886",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_887",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_888",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_889",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_890",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_891",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_892",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_893",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_894",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_895",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_896",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_897",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_898",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_899",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_900",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_901",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_902",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_903",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_904",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_905",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_906",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_907",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_908",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_909",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_910",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_911",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_912",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_913",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_914",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_915",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_916",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_917",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_918",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_919",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_920",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_921",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_922",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_923",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_924",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_925",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_926",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_927",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_928",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_929",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_930",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_931",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_932",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_933",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_934",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_935",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_936",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_937",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_938",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_939",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_940",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_941",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_942",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_943",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_944",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_945",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_946",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_947",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_948",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_949",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_950",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_951",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_952",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_953",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_954",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_955",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_956",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_957",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_958",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_959",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_960",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_961",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_962",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_963",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_964",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_965",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_966",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_967",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_968",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_969",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_970",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_971",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_972",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_973",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_974",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_975",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_976",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_977",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_978",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_979",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_980",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_981",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_982",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_983",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_984",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_985",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_986",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_987",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_988",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_989",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_990",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_991",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_992",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_993",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_994",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_995",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_996",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_997",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_998",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_999",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1000",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1001",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1002",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1003",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1004",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1005",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1006",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1007",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1008",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1009",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1010",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1011",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1012",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1013",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1014",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1015",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1016",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1017",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1018",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1019",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1020",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1021",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1022",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1023",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1024",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1025",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1026",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1027",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1028",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1029",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1030",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1031",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1032",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1033",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1034",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1035",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1036",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1037",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1038",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1039",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1040",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1041",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1042",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1043",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1044",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1045",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1046",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1047",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1048",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1049",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1050",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1051",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D06_I_1052",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_1",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_2",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_3",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_4",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_5",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_6",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_7",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_8",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_9",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_10",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_11",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_12",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_13",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_14",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_15",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_16",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_17",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_18",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_19",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_20",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_21",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_22",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_23",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_24",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_25",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_26",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_27",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_28",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_29",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_30",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_31",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_32",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_33",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_34",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_35",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_36",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_37",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_38",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_39",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_40",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_41",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_42",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_43",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_44",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_45",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_46",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_47",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_48",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_49",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_50",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_51",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_52",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_53",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_54",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_55",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_56",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_57",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_58",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_59",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_60",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_61",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_62",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_63",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_64",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_65",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_66",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_67",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_68",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_69",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_70",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_71",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_72",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_73",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_74",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_75",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_76",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_77",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_78",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_79",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_80",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_81",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_82",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_83",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_84",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_85",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_86",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_87",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_88",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_89",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_90",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_91",
+      "max_bbox_delta_mm": 0.0
+    },
+    {
+      "instance": "D07_I_92",
+      "max_bbox_delta_mm": 0.0
+    }
+  ]
+}

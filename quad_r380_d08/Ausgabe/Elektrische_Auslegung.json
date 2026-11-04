@@ -1,0 +1,238 @@
+{
+  "reference": "24S up to100.8V,4 MN1330 branches.112.91A comes from NS52 80% test point;177.03A maximum test point has no holding duration. These are wiring comparison loads,not R380 validated currents.",
+  "cases": [
+    {
+      "net": "R1_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "length_m": 0.2,
+      "section_mm2": 35,
+      "conductor_temperature_assumed_C": 80,
+      "resistance_ohm": 0.00012175101600000001,
+      "drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "net": "R1_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "length_m": 0.2,
+      "section_mm2": 35,
+      "conductor_temperature_assumed_C": 80,
+      "resistance_ohm": 0.00012175101600000001,
+      "drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "net": "R2_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "length_m": 0.2,
+      "section_mm2": 35,
+      "conductor_temperature_assumed_C": 80,
+      "resistance_ohm": 0.00012175101600000001,
+      "drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "net": "R2_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "length_m": 0.2,
+      "section_mm2": 35,
+      "conductor_temperature_assumed_C": 80,
+      "resistance_ohm": 0.00012175101600000001,
+      "drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "net": "R3_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "length_m": 0.2,
+      "section_mm2": 35,
+      "conductor_temperature_assumed_C": 80,
+      "resistance_ohm": 0.00012175101600000001,
+      "drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "net": "R3_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "length_m": 0.2,
+      "section_mm2": 35,
+      "conductor_temperature_assumed_C": 80,
+      "resistance_ohm": 0.00012175101600000001,
+      "drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "net": "R4_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "length_m": 0.2,
+      "section_mm2": 35,
+      "conductor_temperature_assumed_C": 80,
+      "resistance_ohm": 0.00012175101600000001,
+      "drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "net": "R4_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "length_m": 0.2,
+      "section_mm2": 35,
+      "conductor_temperature_assumed_C": 80,
+      "resistance_ohm": 0.00012175101600000001,
+      "drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "net": "Haupt_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 451.64,
+      "length_m": 0.2,
+      "section_mm2": 95,
+      "conductor_temperature_assumed_C": 80,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "drop_V": 0.020258600108614737,
+      "heat_W": 9.14959415305476
+    },
+    {
+      "net": "Haupt_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 451.64,
+      "length_m": 0.2,
+      "section_mm2": 95,
+      "conductor_temperature_assumed_C": 80,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "drop_V": 0.020258600108614737,
+      "heat_W": 9.14959415305476
+    },
+    {
+      "net": "R1_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "length_m": 0.2,
+      "section_mm2": 35,
+      "conductor_temperature_assumed_C": 80,
+      "resistance_ohm": 0.00012175101600000001,
+      "drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "net": "R1_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "length_m": 0.2,
+      "section_mm2": 35,
+      "conductor_temperature_assumed_C": 80,
+      "resistance_ohm": 0.00012175101600000001,
+      "drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "net": "R2_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "length_m": 0.2,
+      "section_mm2": 35,
+      "conductor_temperature_assumed_C": 80,
+      "resistance_ohm": 0.00012175101600000001,
+      "drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "net": "R2_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "length_m": 0.2,
+      "section_mm2": 35,
+      "conductor_temperature_assumed_C": 80,
+      "resistance_ohm": 0.00012175101600000001,
+      "drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "net": "R3_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "length_m": 0.2,
+      "section_mm2": 35,
+      "conductor_temperature_assumed_C": 80,
+      "resistance_ohm": 0.00012175101600000001,
+      "drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "net": "R3_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "length_m": 0.2,
+      "section_mm2": 35,
+      "conductor_temperature_assumed_C": 80,
+      "resistance_ohm": 0.00012175101600000001,
+      "drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "net": "R4_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "length_m": 0.2,
+      "section_mm2": 35,
+      "conductor_temperature_assumed_C": 80,
+      "resistance_ohm": 0.00012175101600000001,
+      "drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "net": "R4_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "length_m": 0.2,
+      "section_mm2": 35,
+      "conductor_temperature_assumed_C": 80,
+      "resistance_ohm": 0.00012175101600000001,
+      "drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "net": "Haupt_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 708.12,
+      "length_m": 0.2,
+      "section_mm2": 95,
+      "conductor_temperature_assumed_C": 80,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "drop_V": 0.03176317400786527,
+      "heat_W": 22.492138778449554
+    },
+    {
+      "net": "Haupt_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 708.12,
+      "length_m": 0.2,
+      "section_mm2": 95,
+      "conductor_temperature_assumed_C": 80,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "drop_V": 0.03176317400786527,
+      "heat_W": 22.492138778449554
+    }
+  ],
+  "main_reference_currents_A": [
+    451.64,
+    708.12
+  ],
+  "assumed_branch_mm2": 35,
+  "assumed_phase_mm2": 25,
+  "assumed_main_mm2": 95,
+  "dc_copper_only": true,
+  "ampacity_pass": null,
+  "phase_current_verified": false,
+  "protection_selected": false,
+  "flight_release": false,
+  "scope": "Ohmic losses only for routed lengths; excludesOEM150mm leads,lugs,contacts,switches,fuses.80C is evaluation temperature,not predicted equilibrium. No thermal ampacity,short-circuit,I2t,insulation or creepage release."
+}

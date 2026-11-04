@@ -1,0 +1,261 @@
+propeller_index,net,circuit,from_port,to_port,conductor_mm2,assumed_outer_diameter_mm,length_mm,minimum_sampled_bend_radius_mm,terminations_verified
+0,R1_DC_minus,DC branch,Verteiler_Planport,ESC1_DC_minus_Planport,35,12,200.0,,False
+0,R1_DC_plus,DC branch,Verteiler_Planport,ESC1_DC_plus_Planport,35,12,200.0,,False
+0,R1_U,motor phase,ESC1_U_Planport,MN1330_1_U_OEM_Kabelende_offen,25,10,301.9108430470276,241.11619526750886,False
+0,R1_V,motor phase,ESC1_V_Planport,MN1330_1_V_OEM_Kabelende_offen,25,10,301.9108430470276,241.11619526750886,False
+0,R1_W,motor phase,ESC1_W_Planport,MN1330_1_W_OEM_Kabelende_offen,25,10,301.9108430470276,241.11619526750886,False
+0,R1_Signal,control harness envelope,Flightcontroller_Planport,ESC1_Signal_Pinout_offen,0.5,5,200.0,,False
+0,R2_DC_minus,DC branch,Verteiler_Planport,ESC2_DC_minus_Planport,35,12,200.0,,False
+0,R2_DC_plus,DC branch,Verteiler_Planport,ESC2_DC_plus_Planport,35,12,200.0,,False
+0,R2_U,motor phase,ESC2_U_Planport,MN1330_2_U_OEM_Kabelende_offen,25,10,301.9108430470276,241.11619526750886,False
+0,R2_V,motor phase,ESC2_V_Planport,MN1330_2_V_OEM_Kabelende_offen,25,10,301.9108430470276,241.11619526750886,False
+0,R2_W,motor phase,ESC2_W_Planport,MN1330_2_W_OEM_Kabelende_offen,25,10,301.9108430470276,241.11619526750886,False
+0,R2_Signal,control harness envelope,Flightcontroller_Planport,ESC2_Signal_Pinout_offen,0.5,5,200.0,,False
+0,R3_DC_minus,DC branch,Verteiler_Planport,ESC3_DC_minus_Planport,35,12,200.0,,False
+0,R3_DC_plus,DC branch,Verteiler_Planport,ESC3_DC_plus_Planport,35,12,200.0,,False
+0,R3_U,motor phase,ESC3_U_Planport,MN1330_3_U_OEM_Kabelende_offen,25,10,301.9108430470276,241.11619526750886,False
+0,R3_V,motor phase,ESC3_V_Planport,MN1330_3_V_OEM_Kabelende_offen,25,10,301.9108430470276,241.11619526750886,False
+0,R3_W,motor phase,ESC3_W_Planport,MN1330_3_W_OEM_Kabelende_offen,25,10,301.9108430470276,241.11619526750886,False
+0,R3_Signal,control harness envelope,Flightcontroller_Planport,ESC3_Signal_Pinout_offen,0.5,5,200.0,,False
+0,R4_DC_minus,DC branch,Verteiler_Planport,ESC4_DC_minus_Planport,35,12,200.0,,False
+0,R4_DC_plus,DC branch,Verteiler_Planport,ESC4_DC_plus_Planport,35,12,200.0,,False
+0,R4_U,motor phase,ESC4_U_Planport,MN1330_4_U_OEM_Kabelende_offen,25,10,301.9108430470276,241.11619526750886,False
+0,R4_V,motor phase,ESC4_V_Planport,MN1330_4_V_OEM_Kabelende_offen,25,10,301.9108430470276,241.11619526750886,False
+0,R4_W,motor phase,ESC4_W_Planport,MN1330_4_W_OEM_Kabelende_offen,25,10,301.9108430470276,241.11619526750886,False
+0,R4_Signal,control harness envelope,Flightcontroller_Planport,ESC4_Signal_Pinout_offen,0.5,5,200.0,,False
+0,Haupt_DC_minus,main DC,Akku_Schutzkette_Planport,Verteiler_Planport,95,18,200.0,,False
+0,Haupt_DC_plus,main DC,Akku_Schutzkette_Planport,Verteiler_Planport,95,18,200.0,,False
+1,R1_DC_minus,DC branch,Verteiler_Planport,ESC1_DC_minus_Planport,35,12,200.0,,False
+1,R1_DC_plus,DC branch,Verteiler_Planport,ESC1_DC_plus_Planport,35,12,200.0,,False
+1,R1_U,motor phase,ESC1_U_Planport,MN1330_1_U_OEM_Kabelende_offen,25,10,301.9108430470276,241.11619526750886,False
+1,R1_V,motor phase,ESC1_V_Planport,MN1330_1_V_OEM_Kabelende_offen,25,10,301.9108430470276,241.11619526750886,False
+1,R1_W,motor phase,ESC1_W_Planport,MN1330_1_W_OEM_Kabelende_offen,25,10,301.9108430470276,241.11619526750886,False
+1,R1_Signal,control harness envelope,Flightcontroller_Planport,ESC1_Signal_Pinout_offen,0.5,5,200.0,,False
+1,R2_DC_minus,DC branch,Verteiler_Planport,ESC2_DC_minus_Planport,35,12,200.0,,False
+1,R2_DC_plus,DC branch,Verteiler_Planport,ESC2_DC_plus_Planport,35,12,200.0,,False
+1,R2_U,motor phase,ESC2_U_Planport,MN1330_2_U_OEM_Kabelende_offen,25,10,301.9108430470276,241.11619526750886,False
+1,R2_V,motor phase,ESC2_V_Planport,MN1330_2_V_OEM_Kabelende_offen,25,10,301.9108430470276,241.11619526750886,False
+1,R2_W,motor phase,ESC2_W_Planport,MN1330_2_W_OEM_Kabelende_offen,25,10,301.9108430470276,241.11619526750886,False
+1,R2_Signal,control harness envelope,Flightcontroller_Planport,ESC2_Signal_Pinout_offen,0.5,5,200.0,,False
+1,R3_DC_minus,DC branch,Verteiler_Planport,ESC3_DC_minus_Planport,35,12,200.0,,False
+1,R3_DC_plus,DC branch,Verteiler_Planport,ESC3_DC_plus_Planport,35,12,200.0,,False
+1,R3_U,motor phase,ESC3_U_Planport,MN1330_3_U_OEM_Kabelende_offen,25,10,301.9108430470276,241.11619526750886,False
+1,R3_V,motor phase,ESC3_V_Planport,MN1330_3_V_OEM_Kabelende_offen,25,10,301.9108430470276,241.11619526750886,False
+1,R3_W,motor phase,ESC3_W_Planport,MN1330_3_W_OEM_Kabelende_offen,25,10,301.9108430470276,241.11619526750886,False
+1,R3_Signal,control harness envelope,Flightcontroller_Planport,ESC3_Signal_Pinout_offen,0.5,5,200.0,,False
+1,R4_DC_minus,DC branch,Verteiler_Planport,ESC4_DC_minus_Planport,35,12,200.0,,False
+1,R4_DC_plus,DC branch,Verteiler_Planport,ESC4_DC_plus_Planport,35,12,200.0,,False
+1,R4_U,motor phase,ESC4_U_Planport,MN1330_4_U_OEM_Kabelende_offen,25,10,301.9108430470276,241.11619526750886,False
+1,R4_V,motor phase,ESC4_V_Planport,MN1330_4_V_OEM_Kabelende_offen,25,10,301.9108430470276,241.11619526750886,False
+1,R4_W,motor phase,ESC4_W_Planport,MN1330_4_W_OEM_Kabelende_offen,25,10,301.9108430470276,241.11619526750886,False
+1,R4_Signal,control harness envelope,Flightcontroller_Planport,ESC4_Signal_Pinout_offen,0.5,5,200.0,,False
+1,Haupt_DC_minus,main DC,Akku_Schutzkette_Planport,Verteiler_Planport,95,18,200.0,,False
+1,Haupt_DC_plus,main DC,Akku_Schutzkette_Planport,Verteiler_Planport,95,18,200.0,,False
+2,R1_DC_minus,DC branch,Verteiler_Planport,ESC1_DC_minus_Planport,35,12,200.0,,False
+2,R1_DC_plus,DC branch,Verteiler_Planport,ESC1_DC_plus_Planport,35,12,200.0,,False
+2,R1_U,motor phase,ESC1_U_Planport,MN1330_1_U_OEM_Kabelende_offen,25,10,360.8904008383988,315.3236659850752,False
+2,R1_V,motor phase,ESC1_V_Planport,MN1330_1_V_OEM_Kabelende_offen,25,10,360.8904008383988,315.3236659850752,False
+2,R1_W,motor phase,ESC1_W_Planport,MN1330_1_W_OEM_Kabelende_offen,25,10,360.8904008383988,315.3236659850752,False
+2,R1_Signal,control harness envelope,Flightcontroller_Planport,ESC1_Signal_Pinout_offen,0.5,5,200.0,,False
+2,R2_DC_minus,DC branch,Verteiler_Planport,ESC2_DC_minus_Planport,35,12,200.0,,False
+2,R2_DC_plus,DC branch,Verteiler_Planport,ESC2_DC_plus_Planport,35,12,200.0,,False
+2,R2_U,motor phase,ESC2_U_Planport,MN1330_2_U_OEM_Kabelende_offen,25,10,360.8904008383988,315.3236659850752,False
+2,R2_V,motor phase,ESC2_V_Planport,MN1330_2_V_OEM_Kabelende_offen,25,10,360.8904008383988,315.3236659850752,False
+2,R2_W,motor phase,ESC2_W_Planport,MN1330_2_W_OEM_Kabelende_offen,25,10,360.8904008383988,315.3236659850752,False
+2,R2_Signal,control harness envelope,Flightcontroller_Planport,ESC2_Signal_Pinout_offen,0.5,5,200.0,,False
+2,R3_DC_minus,DC branch,Verteiler_Planport,ESC3_DC_minus_Planport,35,12,200.0,,False
+2,R3_DC_plus,DC branch,Verteiler_Planport,ESC3_DC_plus_Planport,35,12,200.0,,False
+2,R3_U,motor phase,ESC3_U_Planport,MN1330_3_U_OEM_Kabelende_offen,25,10,360.8904008383988,315.3236659850752,False
+2,R3_V,motor phase,ESC3_V_Planport,MN1330_3_V_OEM_Kabelende_offen,25,10,360.8904008383988,315.3236659850752,False
+2,R3_W,motor phase,ESC3_W_Planport,MN1330_3_W_OEM_Kabelende_offen,25,10,360.8904008383988,315.3236659850752,False
+2,R3_Signal,control harness envelope,Flightcontroller_Planport,ESC3_Signal_Pinout_offen,0.5,5,200.0,,False
+2,R4_DC_minus,DC branch,Verteiler_Planport,ESC4_DC_minus_Planport,35,12,200.0,,False
+2,R4_DC_plus,DC branch,Verteiler_Planport,ESC4_DC_plus_Planport,35,12,200.0,,False
+2,R4_U,motor phase,ESC4_U_Planport,MN1330_4_U_OEM_Kabelende_offen,25,10,360.8904008383988,315.3236659850752,False
+2,R4_V,motor phase,ESC4_V_Planport,MN1330_4_V_OEM_Kabelende_offen,25,10,360.8904008383988,315.3236659850752,False
+2,R4_W,motor phase,ESC4_W_Planport,MN1330_4_W_OEM_Kabelende_offen,25,10,360.8904008383988,315.3236659850752,False
+2,R4_Signal,control harness envelope,Flightcontroller_Planport,ESC4_Signal_Pinout_offen,0.5,5,200.0,,False
+2,Haupt_DC_minus,main DC,Akku_Schutzkette_Planport,Verteiler_Planport,95,18,200.0,,False
+2,Haupt_DC_plus,main DC,Akku_Schutzkette_Planport,Verteiler_Planport,95,18,200.0,,False
+3,R1_DC_minus,DC branch,Verteiler_Planport,ESC1_DC_minus_Planport,35,12,200.0,,False
+3,R1_DC_plus,DC branch,Verteiler_Planport,ESC1_DC_plus_Planport,35,12,200.0,,False
+3,R1_U,motor phase,ESC1_U_Planport,MN1330_1_U_OEM_Kabelende_offen,25,10,387.5482767744308,353.1052591169641,False
+3,R1_V,motor phase,ESC1_V_Planport,MN1330_1_V_OEM_Kabelende_offen,25,10,387.5482767744308,353.1052591169641,False
+3,R1_W,motor phase,ESC1_W_Planport,MN1330_1_W_OEM_Kabelende_offen,25,10,387.5482767744308,353.1052591169641,False
+3,R1_Signal,control harness envelope,Flightcontroller_Planport,ESC1_Signal_Pinout_offen,0.5,5,200.0,,False
+3,R2_DC_minus,DC branch,Verteiler_Planport,ESC2_DC_minus_Planport,35,12,200.0,,False
+3,R2_DC_plus,DC branch,Verteiler_Planport,ESC2_DC_plus_Planport,35,12,200.0,,False
+3,R2_U,motor phase,ESC2_U_Planport,MN1330_2_U_OEM_Kabelende_offen,25,10,387.5482767744308,353.1052591169641,False
+3,R2_V,motor phase,ESC2_V_Planport,MN1330_2_V_OEM_Kabelende_offen,25,10,387.5482767744308,353.1052591169641,False
+3,R2_W,motor phase,ESC2_W_Planport,MN1330_2_W_OEM_Kabelende_offen,25,10,387.5482767744308,353.1052591169641,False
+3,R2_Signal,control harness envelope,Flightcontroller_Planport,ESC2_Signal_Pinout_offen,0.5,5,200.0,,False
+3,R3_DC_minus,DC branch,Verteiler_Planport,ESC3_DC_minus_Planport,35,12,200.0,,False
+3,R3_DC_plus,DC branch,Verteiler_Planport,ESC3_DC_plus_Planport,35,12,200.0,,False
+3,R3_U,motor phase,ESC3_U_Planport,MN1330_3_U_OEM_Kabelende_offen,25,10,387.5482767744308,353.1052591169641,False
+3,R3_V,motor phase,ESC3_V_Planport,MN1330_3_V_OEM_Kabelende_offen,25,10,387.5482767744308,353.1052591169641,False
+3,R3_W,motor phase,ESC3_W_Planport,MN1330_3_W_OEM_Kabelende_offen,25,10,387.5482767744308,353.1052591169641,False
+3,R3_Signal,control harness envelope,Flightcontroller_Planport,ESC3_Signal_Pinout_offen,0.5,5,200.0,,False
+3,R4_DC_minus,DC branch,Verteiler_Planport,ESC4_DC_minus_Planport,35,12,200.0,,False
+3,R4_DC_plus,DC branch,Verteiler_Planport,ESC4_DC_plus_Planport,35,12,200.0,,False
+3,R4_U,motor phase,ESC4_U_Planport,MN1330_4_U_OEM_Kabelende_offen,25,10,387.5482767744308,353.1052591169641,False
+3,R4_V,motor phase,ESC4_V_Planport,MN1330_4_V_OEM_Kabelende_offen,25,10,387.5482767744308,353.1052591169641,False
+3,R4_W,motor phase,ESC4_W_Planport,MN1330_4_W_OEM_Kabelende_offen,25,10,387.5482767744308,353.1052591169641,False
+3,R4_Signal,control harness envelope,Flightcontroller_Planport,ESC4_Signal_Pinout_offen,0.5,5,200.0,,False
+3,Haupt_DC_minus,main DC,Akku_Schutzkette_Planport,Verteiler_Planport,95,18,200.0,,False
+3,Haupt_DC_plus,main DC,Akku_Schutzkette_Planport,Verteiler_Planport,95,18,200.0,,False
+4,R1_DC_minus,DC branch,Verteiler_Planport,ESC1_DC_minus_Planport,35,12,200.0,,False
+4,R1_DC_plus,DC branch,Verteiler_Planport,ESC1_DC_plus_Planport,35,12,200.0,,False
+4,R1_U,motor phase,ESC1_U_Planport,MN1330_1_U_OEM_Kabelende_offen,25,10,400.9561995311476,373.15180094127896,False
+4,R1_V,motor phase,ESC1_V_Planport,MN1330_1_V_OEM_Kabelende_offen,25,10,400.9561995311476,373.15180094127896,False
+4,R1_W,motor phase,ESC1_W_Planport,MN1330_1_W_OEM_Kabelende_offen,25,10,400.9561995311476,373.15180094127896,False
+4,R1_Signal,control harness envelope,Flightcontroller_Planport,ESC1_Signal_Pinout_offen,0.5,5,200.0,,False
+4,R2_DC_minus,DC branch,Verteiler_Planport,ESC2_DC_minus_Planport,35,12,200.0,,False
+4,R2_DC_plus,DC branch,Verteiler_Planport,ESC2_DC_plus_Planport,35,12,200.0,,False
+4,R2_U,motor phase,ESC2_U_Planport,MN1330_2_U_OEM_Kabelende_offen,25,10,400.9561995311476,373.15180094127896,False
+4,R2_V,motor phase,ESC2_V_Planport,MN1330_2_V_OEM_Kabelende_offen,25,10,400.9561995311476,373.15180094127896,False
+4,R2_W,motor phase,ESC2_W_Planport,MN1330_2_W_OEM_Kabelende_offen,25,10,400.9561995311476,373.15180094127896,False
+4,R2_Signal,control harness envelope,Flightcontroller_Planport,ESC2_Signal_Pinout_offen,0.5,5,200.0,,False
+4,R3_DC_minus,DC branch,Verteiler_Planport,ESC3_DC_minus_Planport,35,12,200.0,,False
+4,R3_DC_plus,DC branch,Verteiler_Planport,ESC3_DC_plus_Planport,35,12,200.0,,False
+4,R3_U,motor phase,ESC3_U_Planport,MN1330_3_U_OEM_Kabelende_offen,25,10,400.9561995311476,373.15180094127896,False
+4,R3_V,motor phase,ESC3_V_Planport,MN1330_3_V_OEM_Kabelende_offen,25,10,400.9561995311476,373.15180094127896,False
+4,R3_W,motor phase,ESC3_W_Planport,MN1330_3_W_OEM_Kabelende_offen,25,10,400.9561995311476,373.15180094127896,False
+4,R3_Signal,control harness envelope,Flightcontroller_Planport,ESC3_Signal_Pinout_offen,0.5,5,200.0,,False
+4,R4_DC_minus,DC branch,Verteiler_Planport,ESC4_DC_minus_Planport,35,12,200.0,,False
+4,R4_DC_plus,DC branch,Verteiler_Planport,ESC4_DC_plus_Planport,35,12,200.0,,False
+4,R4_U,motor phase,ESC4_U_Planport,MN1330_4_U_OEM_Kabelende_offen,25,10,400.9561995311476,373.15180094127896,False
+4,R4_V,motor phase,ESC4_V_Planport,MN1330_4_V_OEM_Kabelende_offen,25,10,400.9561995311476,373.15180094127896,False
+4,R4_W,motor phase,ESC4_W_Planport,MN1330_4_W_OEM_Kabelende_offen,25,10,400.9561995311476,373.15180094127896,False
+4,R4_Signal,control harness envelope,Flightcontroller_Planport,ESC4_Signal_Pinout_offen,0.5,5,200.0,,False
+4,Haupt_DC_minus,main DC,Akku_Schutzkette_Planport,Verteiler_Planport,95,18,200.0,,False
+4,Haupt_DC_plus,main DC,Akku_Schutzkette_Planport,Verteiler_Planport,95,18,200.0,,False
+5,R1_DC_minus,DC branch,Verteiler_Planport,ESC1_DC_minus_Planport,35,12,200.0,,False
+5,R1_DC_plus,DC branch,Verteiler_Planport,ESC1_DC_plus_Planport,35,12,200.0,,False
+5,R1_U,motor phase,ESC1_U_Planport,MN1330_1_U_OEM_Kabelende_offen,25,10,421.15359707868606,404.6642334979523,False
+5,R1_V,motor phase,ESC1_V_Planport,MN1330_1_V_OEM_Kabelende_offen,25,10,421.15359707868606,404.6642334979523,False
+5,R1_W,motor phase,ESC1_W_Planport,MN1330_1_W_OEM_Kabelende_offen,25,10,421.15359707868606,404.6642334979523,False
+5,R1_Signal,control harness envelope,Flightcontroller_Planport,ESC1_Signal_Pinout_offen,0.5,5,200.0,,False
+5,R2_DC_minus,DC branch,Verteiler_Planport,ESC2_DC_minus_Planport,35,12,200.0,,False
+5,R2_DC_plus,DC branch,Verteiler_Planport,ESC2_DC_plus_Planport,35,12,200.0,,False
+5,R2_U,motor phase,ESC2_U_Planport,MN1330_2_U_OEM_Kabelende_offen,25,10,421.15359707868606,404.6642334979523,False
+5,R2_V,motor phase,ESC2_V_Planport,MN1330_2_V_OEM_Kabelende_offen,25,10,421.15359707868606,404.6642334979523,False
+5,R2_W,motor phase,ESC2_W_Planport,MN1330_2_W_OEM_Kabelende_offen,25,10,421.15359707868606,404.6642334979523,False
+5,R2_Signal,control harness envelope,Flightcontroller_Planport,ESC2_Signal_Pinout_offen,0.5,5,200.0,,False
+5,R3_DC_minus,DC branch,Verteiler_Planport,ESC3_DC_minus_Planport,35,12,200.0,,False
+5,R3_DC_plus,DC branch,Verteiler_Planport,ESC3_DC_plus_Planport,35,12,200.0,,False
+5,R3_U,motor phase,ESC3_U_Planport,MN1330_3_U_OEM_Kabelende_offen,25,10,421.15359707868606,404.6642334979523,False
+5,R3_V,motor phase,ESC3_V_Planport,MN1330_3_V_OEM_Kabelende_offen,25,10,421.15359707868606,404.6642334979523,False
+5,R3_W,motor phase,ESC3_W_Planport,MN1330_3_W_OEM_Kabelende_offen,25,10,421.15359707868606,404.6642334979523,False
+5,R3_Signal,control harness envelope,Flightcontroller_Planport,ESC3_Signal_Pinout_offen,0.5,5,200.0,,False
+5,R4_DC_minus,DC branch,Verteiler_Planport,ESC4_DC_minus_Planport,35,12,200.0,,False
+5,R4_DC_plus,DC branch,Verteiler_Planport,ESC4_DC_plus_Planport,35,12,200.0,,False
+5,R4_U,motor phase,ESC4_U_Planport,MN1330_4_U_OEM_Kabelende_offen,25,10,421.15359707868606,404.6642334979523,False
+5,R4_V,motor phase,ESC4_V_Planport,MN1330_4_V_OEM_Kabelende_offen,25,10,421.15359707868606,404.6642334979523,False
+5,R4_W,motor phase,ESC4_W_Planport,MN1330_4_W_OEM_Kabelende_offen,25,10,421.15359707868606,404.6642334979523,False
+5,R4_Signal,control harness envelope,Flightcontroller_Planport,ESC4_Signal_Pinout_offen,0.5,5,200.0,,False
+5,Haupt_DC_minus,main DC,Akku_Schutzkette_Planport,Verteiler_Planport,95,18,200.0,,False
+5,Haupt_DC_plus,main DC,Akku_Schutzkette_Planport,Verteiler_Planport,95,18,200.0,,False
+6,R1_DC_minus,DC branch,Verteiler_Planport,ESC1_DC_minus_Planport,35,12,200.0,,False
+6,R1_DC_plus,DC branch,Verteiler_Planport,ESC1_DC_plus_Planport,35,12,200.0,,False
+6,R1_U,motor phase,ESC1_U_Planport,MN1330_1_U_OEM_Kabelende_offen,25,10,448.22276830635076,449.3705521592391,False
+6,R1_V,motor phase,ESC1_V_Planport,MN1330_1_V_OEM_Kabelende_offen,25,10,448.22276830635076,449.3705521592391,False
+6,R1_W,motor phase,ESC1_W_Planport,MN1330_1_W_OEM_Kabelende_offen,25,10,448.22276830635076,449.3705521592391,False
+6,R1_Signal,control harness envelope,Flightcontroller_Planport,ESC1_Signal_Pinout_offen,0.5,5,200.0,,False
+6,R2_DC_minus,DC branch,Verteiler_Planport,ESC2_DC_minus_Planport,35,12,200.0,,False
+6,R2_DC_plus,DC branch,Verteiler_Planport,ESC2_DC_plus_Planport,35,12,200.0,,False
+6,R2_U,motor phase,ESC2_U_Planport,MN1330_2_U_OEM_Kabelende_offen,25,10,448.22276830635076,449.3705521592391,False
+6,R2_V,motor phase,ESC2_V_Planport,MN1330_2_V_OEM_Kabelende_offen,25,10,448.22276830635076,449.3705521592391,False
+6,R2_W,motor phase,ESC2_W_Planport,MN1330_2_W_OEM_Kabelende_offen,25,10,448.22276830635076,449.3705521592391,False
+6,R2_Signal,control harness envelope,Flightcontroller_Planport,ESC2_Signal_Pinout_offen,0.5,5,200.0,,False
+6,R3_DC_minus,DC branch,Verteiler_Planport,ESC3_DC_minus_Planport,35,12,200.0,,False
+6,R3_DC_plus,DC branch,Verteiler_Planport,ESC3_DC_plus_Planport,35,12,200.0,,False
+6,R3_U,motor phase,ESC3_U_Planport,MN1330_3_U_OEM_Kabelende_offen,25,10,448.22276830635076,449.3705521592391,False
+6,R3_V,motor phase,ESC3_V_Planport,MN1330_3_V_OEM_Kabelende_offen,25,10,448.22276830635076,449.3705521592391,False
+6,R3_W,motor phase,ESC3_W_Planport,MN1330_3_W_OEM_Kabelende_offen,25,10,448.22276830635076,449.3705521592391,False
+6,R3_Signal,control harness envelope,Flightcontroller_Planport,ESC3_Signal_Pinout_offen,0.5,5,200.0,,False
+6,R4_DC_minus,DC branch,Verteiler_Planport,ESC4_DC_minus_Planport,35,12,200.0,,False
+6,R4_DC_plus,DC branch,Verteiler_Planport,ESC4_DC_plus_Planport,35,12,200.0,,False
+6,R4_U,motor phase,ESC4_U_Planport,MN1330_4_U_OEM_Kabelende_offen,25,10,448.22276830635076,449.3705521592391,False
+6,R4_V,motor phase,ESC4_V_Planport,MN1330_4_V_OEM_Kabelende_offen,25,10,448.22276830635076,449.3705521592391,False
+6,R4_W,motor phase,ESC4_W_Planport,MN1330_4_W_OEM_Kabelende_offen,25,10,448.22276830635076,449.3705521592391,False
+6,R4_Signal,control harness envelope,Flightcontroller_Planport,ESC4_Signal_Pinout_offen,0.5,5,200.0,,False
+6,Haupt_DC_minus,main DC,Akku_Schutzkette_Planport,Verteiler_Planport,95,18,200.0,,False
+6,Haupt_DC_plus,main DC,Akku_Schutzkette_Planport,Verteiler_Planport,95,18,200.0,,False
+7,R1_DC_minus,DC branch,Verteiler_Planport,ESC1_DC_minus_Planport,35,12,200.0,,False
+7,R1_DC_plus,DC branch,Verteiler_Planport,ESC1_DC_plus_Planport,35,12,200.0,,False
+7,R1_U,motor phase,ESC1_U_Planport,MN1330_1_U_OEM_Kabelende_offen,25,10,475.42756099318535,497.1472317292051,False
+7,R1_V,motor phase,ESC1_V_Planport,MN1330_1_V_OEM_Kabelende_offen,25,10,475.42756099318535,497.1472317292051,False
+7,R1_W,motor phase,ESC1_W_Planport,MN1330_1_W_OEM_Kabelende_offen,25,10,475.42756099318535,497.1472317292051,False
+7,R1_Signal,control harness envelope,Flightcontroller_Planport,ESC1_Signal_Pinout_offen,0.5,5,200.0,,False
+7,R2_DC_minus,DC branch,Verteiler_Planport,ESC2_DC_minus_Planport,35,12,200.0,,False
+7,R2_DC_plus,DC branch,Verteiler_Planport,ESC2_DC_plus_Planport,35,12,200.0,,False
+7,R2_U,motor phase,ESC2_U_Planport,MN1330_2_U_OEM_Kabelende_offen,25,10,475.42756099318535,497.1472317292051,False
+7,R2_V,motor phase,ESC2_V_Planport,MN1330_2_V_OEM_Kabelende_offen,25,10,475.42756099318535,497.1472317292051,False
+7,R2_W,motor phase,ESC2_W_Planport,MN1330_2_W_OEM_Kabelende_offen,25,10,475.42756099318535,497.1472317292051,False
+7,R2_Signal,control harness envelope,Flightcontroller_Planport,ESC2_Signal_Pinout_offen,0.5,5,200.0,,False
+7,R3_DC_minus,DC branch,Verteiler_Planport,ESC3_DC_minus_Planport,35,12,200.0,,False
+7,R3_DC_plus,DC branch,Verteiler_Planport,ESC3_DC_plus_Planport,35,12,200.0,,False
+7,R3_U,motor phase,ESC3_U_Planport,MN1330_3_U_OEM_Kabelende_offen,25,10,475.42756099318535,497.1472317292051,False
+7,R3_V,motor phase,ESC3_V_Planport,MN1330_3_V_OEM_Kabelende_offen,25,10,475.42756099318535,497.1472317292051,False
+7,R3_W,motor phase,ESC3_W_Planport,MN1330_3_W_OEM_Kabelende_offen,25,10,475.42756099318535,497.1472317292051,False
+7,R3_Signal,control harness envelope,Flightcontroller_Planport,ESC3_Signal_Pinout_offen,0.5,5,200.0,,False
+7,R4_DC_minus,DC branch,Verteiler_Planport,ESC4_DC_minus_Planport,35,12,200.0,,False
+7,R4_DC_plus,DC branch,Verteiler_Planport,ESC4_DC_plus_Planport,35,12,200.0,,False
+7,R4_U,motor phase,ESC4_U_Planport,MN1330_4_U_OEM_Kabelende_offen,25,10,475.42756099318535,497.1472317292051,False
+7,R4_V,motor phase,ESC4_V_Planport,MN1330_4_V_OEM_Kabelende_offen,25,10,475.42756099318535,497.1472317292051,False
+7,R4_W,motor phase,ESC4_W_Planport,MN1330_4_W_OEM_Kabelende_offen,25,10,475.42756099318535,497.1472317292051,False
+7,R4_Signal,control harness envelope,Flightcontroller_Planport,ESC4_Signal_Pinout_offen,0.5,5,200.0,,False
+7,Haupt_DC_minus,main DC,Akku_Schutzkette_Planport,Verteiler_Planport,95,18,200.0,,False
+7,Haupt_DC_plus,main DC,Akku_Schutzkette_Planport,Verteiler_Planport,95,18,200.0,,False
+8,R1_DC_minus,DC branch,Verteiler_Planport,ESC1_DC_minus_Planport,35,12,200.0,,False
+8,R1_DC_plus,DC branch,Verteiler_Planport,ESC1_DC_plus_Planport,35,12,200.0,,False
+8,R1_U,motor phase,ESC1_U_Planport,MN1330_1_U_OEM_Kabelende_offen,25,10,502.7470438913664,547.9910838816945,False
+8,R1_V,motor phase,ESC1_V_Planport,MN1330_1_V_OEM_Kabelende_offen,25,10,502.7470438913664,547.9910838816945,False
+8,R1_W,motor phase,ESC1_W_Planport,MN1330_1_W_OEM_Kabelende_offen,25,10,502.7470438913664,547.9910838816945,False
+8,R1_Signal,control harness envelope,Flightcontroller_Planport,ESC1_Signal_Pinout_offen,0.5,5,200.0,,False
+8,R2_DC_minus,DC branch,Verteiler_Planport,ESC2_DC_minus_Planport,35,12,200.0,,False
+8,R2_DC_plus,DC branch,Verteiler_Planport,ESC2_DC_plus_Planport,35,12,200.0,,False
+8,R2_U,motor phase,ESC2_U_Planport,MN1330_2_U_OEM_Kabelende_offen,25,10,502.7470438913664,547.9910838816945,False
+8,R2_V,motor phase,ESC2_V_Planport,MN1330_2_V_OEM_Kabelende_offen,25,10,502.7470438913664,547.9910838816945,False
+8,R2_W,motor phase,ESC2_W_Planport,MN1330_2_W_OEM_Kabelende_offen,25,10,502.7470438913664,547.9910838816945,False
+8,R2_Signal,control harness envelope,Flightcontroller_Planport,ESC2_Signal_Pinout_offen,0.5,5,200.0,,False
+8,R3_DC_minus,DC branch,Verteiler_Planport,ESC3_DC_minus_Planport,35,12,200.0,,False
+8,R3_DC_plus,DC branch,Verteiler_Planport,ESC3_DC_plus_Planport,35,12,200.0,,False
+8,R3_U,motor phase,ESC3_U_Planport,MN1330_3_U_OEM_Kabelende_offen,25,10,502.7470438913664,547.9910838816945,False
+8,R3_V,motor phase,ESC3_V_Planport,MN1330_3_V_OEM_Kabelende_offen,25,10,502.7470438913664,547.9910838816945,False
+8,R3_W,motor phase,ESC3_W_Planport,MN1330_3_W_OEM_Kabelende_offen,25,10,502.7470438913664,547.9910838816945,False
+8,R3_Signal,control harness envelope,Flightcontroller_Planport,ESC3_Signal_Pinout_offen,0.5,5,200.0,,False
+8,R4_DC_minus,DC branch,Verteiler_Planport,ESC4_DC_minus_Planport,35,12,200.0,,False
+8,R4_DC_plus,DC branch,Verteiler_Planport,ESC4_DC_plus_Planport,35,12,200.0,,False
+8,R4_U,motor phase,ESC4_U_Planport,MN1330_4_U_OEM_Kabelende_offen,25,10,502.7470438913664,547.9910838816945,False
+8,R4_V,motor phase,ESC4_V_Planport,MN1330_4_V_OEM_Kabelende_offen,25,10,502.7470438913664,547.9910838816945,False
+8,R4_W,motor phase,ESC4_W_Planport,MN1330_4_W_OEM_Kabelende_offen,25,10,502.7470438913664,547.9910838816945,False
+8,R4_Signal,control harness envelope,Flightcontroller_Planport,ESC4_Signal_Pinout_offen,0.5,5,200.0,,False
+8,Haupt_DC_minus,main DC,Akku_Schutzkette_Planport,Verteiler_Planport,95,18,200.0,,False
+8,Haupt_DC_plus,main DC,Akku_Schutzkette_Planport,Verteiler_Planport,95,18,200.0,,False
+9,R1_DC_minus,DC branch,Verteiler_Planport,ESC1_DC_minus_Planport,35,12,200.0,,False
+9,R1_DC_plus,DC branch,Verteiler_Planport,ESC1_DC_plus_Planport,35,12,200.0,,False
+9,R1_U,motor phase,ESC1_U_Planport,MN1330_1_U_OEM_Kabelende_offen,25,10,578.339473915046,703.6077518933273,False
+9,R1_V,motor phase,ESC1_V_Planport,MN1330_1_V_OEM_Kabelende_offen,25,10,578.339473915046,703.6077518933273,False
+9,R1_W,motor phase,ESC1_W_Planport,MN1330_1_W_OEM_Kabelende_offen,25,10,578.339473915046,703.6077518933273,False
+9,R1_Signal,control harness envelope,Flightcontroller_Planport,ESC1_Signal_Pinout_offen,0.5,5,200.0,,False
+9,R2_DC_minus,DC branch,Verteiler_Planport,ESC2_DC_minus_Planport,35,12,200.0,,False
+9,R2_DC_plus,DC branch,Verteiler_Planport,ESC2_DC_plus_Planport,35,12,200.0,,False
+9,R2_U,motor phase,ESC2_U_Planport,MN1330_2_U_OEM_Kabelende_offen,25,10,578.339473915046,703.6077518933273,False
+9,R2_V,motor phase,ESC2_V_Planport,MN1330_2_V_OEM_Kabelende_offen,25,10,578.339473915046,703.6077518933273,False
+9,R2_W,motor phase,ESC2_W_Planport,MN1330_2_W_OEM_Kabelende_offen,25,10,578.339473915046,703.6077518933273,False
+9,R2_Signal,control harness envelope,Flightcontroller_Planport,ESC2_Signal_Pinout_offen,0.5,5,200.0,,False
+9,R3_DC_minus,DC branch,Verteiler_Planport,ESC3_DC_minus_Planport,35,12,200.0,,False
+9,R3_DC_plus,DC branch,Verteiler_Planport,ESC3_DC_plus_Planport,35,12,200.0,,False
+9,R3_U,motor phase,ESC3_U_Planport,MN1330_3_U_OEM_Kabelende_offen,25,10,578.339473915046,703.6077518933273,False
+9,R3_V,motor phase,ESC3_V_Planport,MN1330_3_V_OEM_Kabelende_offen,25,10,578.339473915046,703.6077518933273,False
+9,R3_W,motor phase,ESC3_W_Planport,MN1330_3_W_OEM_Kabelende_offen,25,10,578.339473915046,703.6077518933273,False
+9,R3_Signal,control harness envelope,Flightcontroller_Planport,ESC3_Signal_Pinout_offen,0.5,5,200.0,,False
+9,R4_DC_minus,DC branch,Verteiler_Planport,ESC4_DC_minus_Planport,35,12,200.0,,False
+9,R4_DC_plus,DC branch,Verteiler_Planport,ESC4_DC_plus_Planport,35,12,200.0,,False
+9,R4_U,motor phase,ESC4_U_Planport,MN1330_4_U_OEM_Kabelende_offen,25,10,578.339473915046,703.6077518933273,False
+9,R4_V,motor phase,ESC4_V_Planport,MN1330_4_V_OEM_Kabelende_offen,25,10,578.339473915046,703.6077518933273,False
+9,R4_W,motor phase,ESC4_W_Planport,MN1330_4_W_OEM_Kabelende_offen,25,10,578.339473915046,703.6077518933273,False
+9,R4_Signal,control harness envelope,Flightcontroller_Planport,ESC4_Signal_Pinout_offen,0.5,5,200.0,,False
+9,Haupt_DC_minus,main DC,Akku_Schutzkette_Planport,Verteiler_Planport,95,18,200.0,,False
+9,Haupt_DC_plus,main DC,Akku_Schutzkette_Planport,Verteiler_Planport,95,18,200.0,,False

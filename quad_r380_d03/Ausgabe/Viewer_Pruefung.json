@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "instances": 640,
+  "checks": [
+    "WebGL actual surfaces",
+    "Unlock, independent 10mm-grid sliders and relock",
+    "Overall and foot saddle screenshots",
+    "Mobile viewport"
+  ],
+  "page_errors": []
+}

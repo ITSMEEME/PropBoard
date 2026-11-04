@@ -1,0 +1,927 @@
+{
+  "geometric_access": [
+    {
+      "bolt": "I_7",
+      "stage": "Rahmen vor Antrieb/Schutz",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_11",
+      "stage": "Rahmen vor Antrieb/Schutz",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_15",
+      "stage": "Rahmen vor Antrieb/Schutz",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_19",
+      "stage": "Rahmen vor Antrieb/Schutz",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_23",
+      "stage": "Endtraeger vor OEM-Adapter",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_27",
+      "stage": "Endtraeger vor OEM-Adapter",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_31",
+      "stage": "Endtraeger vor OEM-Adapter",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_35",
+      "stage": "Endtraeger vor OEM-Adapter",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_47",
+      "stage": "Rahmen vor Antrieb/Schutz",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_51",
+      "stage": "Rahmen vor Antrieb/Schutz",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_55",
+      "stage": "Rahmen vor Antrieb/Schutz",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_59",
+      "stage": "Rahmen vor Antrieb/Schutz",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_63",
+      "stage": "Endtraeger vor OEM-Adapter",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_67",
+      "stage": "Endtraeger vor OEM-Adapter",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_71",
+      "stage": "Endtraeger vor OEM-Adapter",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_75",
+      "stage": "Endtraeger vor OEM-Adapter",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_87",
+      "stage": "Rahmen vor Antrieb/Schutz",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_91",
+      "stage": "Rahmen vor Antrieb/Schutz",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_95",
+      "stage": "Rahmen vor Antrieb/Schutz",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_99",
+      "stage": "Rahmen vor Antrieb/Schutz",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_103",
+      "stage": "Endtraeger vor OEM-Adapter",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_107",
+      "stage": "Endtraeger vor OEM-Adapter",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_111",
+      "stage": "Endtraeger vor OEM-Adapter",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_115",
+      "stage": "Endtraeger vor OEM-Adapter",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_127",
+      "stage": "Rahmen vor Antrieb/Schutz",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_131",
+      "stage": "Rahmen vor Antrieb/Schutz",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_135",
+      "stage": "Rahmen vor Antrieb/Schutz",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_139",
+      "stage": "Rahmen vor Antrieb/Schutz",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_143",
+      "stage": "Endtraeger vor OEM-Adapter",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_147",
+      "stage": "Endtraeger vor OEM-Adapter",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_151",
+      "stage": "Endtraeger vor OEM-Adapter",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_155",
+      "stage": "Endtraeger vor OEM-Adapter",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_168",
+      "stage": "Rahmenmontage",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_171",
+      "stage": "Rahmenmontage",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_174",
+      "stage": "Rahmenmontage",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_177",
+      "stage": "Rahmenmontage",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_180",
+      "stage": "Rahmenmontage",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_183",
+      "stage": "Rahmenmontage",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_186",
+      "stage": "Rahmenmontage",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_189",
+      "stage": "Rahmenmontage",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_197",
+      "stage": "Rahmenmontage",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_200",
+      "stage": "Rahmenmontage",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_203",
+      "stage": "Rahmenmontage",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_206",
+      "stage": "Rahmenmontage",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_209",
+      "stage": "Rahmenmontage",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_212",
+      "stage": "Rahmenmontage",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_215",
+      "stage": "Rahmenmontage",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_218",
+      "stage": "Rahmenmontage",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_226",
+      "stage": "Rahmenmontage",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_229",
+      "stage": "Rahmenmontage",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_232",
+      "stage": "Rahmenmontage",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_235",
+      "stage": "Rahmenmontage",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_238",
+      "stage": "Rahmenmontage",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_241",
+      "stage": "Rahmenmontage",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_244",
+      "stage": "Rahmenmontage",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_247",
+      "stage": "Rahmenmontage",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_255",
+      "stage": "Rahmenmontage",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_258",
+      "stage": "Rahmenmontage",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_261",
+      "stage": "Rahmenmontage",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_264",
+      "stage": "Rahmenmontage",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_267",
+      "stage": "Rahmenmontage",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_270",
+      "stage": "Rahmenmontage",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_273",
+      "stage": "Rahmenmontage",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_276",
+      "stage": "Rahmenmontage",
+      "hex_AF_mm": 5,
+      "analytical_tool_radius_mm": 3.486751345948129,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_282",
+      "stage": "Deckmontage",
+      "hex_AF_mm": 4,
+      "analytical_tool_radius_mm": 2.9094010767585035,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_287",
+      "stage": "Deckmontage",
+      "hex_AF_mm": 4,
+      "analytical_tool_radius_mm": 2.9094010767585035,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_292",
+      "stage": "Deckmontage",
+      "hex_AF_mm": 4,
+      "analytical_tool_radius_mm": 2.9094010767585035,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_297",
+      "stage": "Deckmontage",
+      "hex_AF_mm": 4,
+      "analytical_tool_radius_mm": 2.9094010767585035,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_302",
+      "stage": "Deckmontage",
+      "hex_AF_mm": 4,
+      "analytical_tool_radius_mm": 2.9094010767585035,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_307",
+      "stage": "Deckmontage",
+      "hex_AF_mm": 4,
+      "analytical_tool_radius_mm": 2.9094010767585035,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_312",
+      "stage": "Deckmontage",
+      "hex_AF_mm": 4,
+      "analytical_tool_radius_mm": 2.9094010767585035,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_317",
+      "stage": "Deckmontage",
+      "hex_AF_mm": 4,
+      "analytical_tool_radius_mm": 2.9094010767585035,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_322",
+      "stage": "Deckmontage",
+      "hex_AF_mm": 4,
+      "analytical_tool_radius_mm": 2.9094010767585035,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_327",
+      "stage": "Deckmontage",
+      "hex_AF_mm": 4,
+      "analytical_tool_radius_mm": 2.9094010767585035,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_332",
+      "stage": "Deckmontage",
+      "hex_AF_mm": 4,
+      "analytical_tool_radius_mm": 2.9094010767585035,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_337",
+      "stage": "Deckmontage",
+      "hex_AF_mm": 4,
+      "analytical_tool_radius_mm": 2.9094010767585035,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_342",
+      "stage": "Deckmontage",
+      "hex_AF_mm": 4,
+      "analytical_tool_radius_mm": 2.9094010767585035,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_347",
+      "stage": "Deckmontage",
+      "hex_AF_mm": 4,
+      "analytical_tool_radius_mm": 2.9094010767585035,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_39",
+      "stage": "Arm+Druckstueck vor Wurzelklemmung",
+      "hex_AF_mm": 4,
+      "analytical_tool_radius_mm": 2.9094010767585035,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_41",
+      "stage": "Arm+Druckstueck vor Wurzelklemmung",
+      "hex_AF_mm": 4,
+      "analytical_tool_radius_mm": 2.9094010767585035,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_79",
+      "stage": "Arm+Druckstueck vor Wurzelklemmung",
+      "hex_AF_mm": 4,
+      "analytical_tool_radius_mm": 2.9094010767585035,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_81",
+      "stage": "Arm+Druckstueck vor Wurzelklemmung",
+      "hex_AF_mm": 4,
+      "analytical_tool_radius_mm": 2.9094010767585035,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_119",
+      "stage": "Arm+Druckstueck vor Wurzelklemmung",
+      "hex_AF_mm": 4,
+      "analytical_tool_radius_mm": 2.9094010767585035,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_121",
+      "stage": "Arm+Druckstueck vor Wurzelklemmung",
+      "hex_AF_mm": 4,
+      "analytical_tool_radius_mm": 2.9094010767585035,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_159",
+      "stage": "Arm+Druckstueck vor Wurzelklemmung",
+      "hex_AF_mm": 4,
+      "analytical_tool_radius_mm": 2.9094010767585035,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_161",
+      "stage": "Arm+Druckstueck vor Wurzelklemmung",
+      "hex_AF_mm": 4,
+      "analytical_tool_radius_mm": 2.9094010767585035,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_192",
+      "stage": "Kassette ausserhalb Deckrohr vormontieren",
+      "hex_AF_mm": 2.5,
+      "analytical_tool_radius_mm": 2.0433756729740646,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_193",
+      "stage": "Kassette ausserhalb Deckrohr vormontieren",
+      "hex_AF_mm": 2.5,
+      "analytical_tool_radius_mm": 2.0433756729740646,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_221",
+      "stage": "Kassette ausserhalb Deckrohr vormontieren",
+      "hex_AF_mm": 2.5,
+      "analytical_tool_radius_mm": 2.0433756729740646,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_222",
+      "stage": "Kassette ausserhalb Deckrohr vormontieren",
+      "hex_AF_mm": 2.5,
+      "analytical_tool_radius_mm": 2.0433756729740646,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_250",
+      "stage": "Kassette ausserhalb Deckrohr vormontieren",
+      "hex_AF_mm": 2.5,
+      "analytical_tool_radius_mm": 2.0433756729740646,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_251",
+      "stage": "Kassette ausserhalb Deckrohr vormontieren",
+      "hex_AF_mm": 2.5,
+      "analytical_tool_radius_mm": 2.0433756729740646,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_279",
+      "stage": "Kassette ausserhalb Deckrohr vormontieren",
+      "hex_AF_mm": 2.5,
+      "analytical_tool_radius_mm": 2.0433756729740646,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    },
+    {
+      "bolt": "I_280",
+      "stage": "Kassette ausserhalb Deckrohr vormontieren",
+      "hex_AF_mm": 2.5,
+      "analytical_tool_radius_mm": 2.0433756729740646,
+      "approach_length_mm": 35,
+      "positive_intersections": [],
+      "passed": true
+    }
+  ],
+  "cassette_insertion": [
+    {
+      "carrier": "I_166",
+      "members": [
+        "I_166",
+        "I_167",
+        "I_173",
+        "I_179",
+        "I_185",
+        "I_191",
+        "I_192",
+        "I_193"
+      ],
+      "direction_from_open_end": "left",
+      "target_x_mm": -85.0,
+      "passed": true,
+      "intersections": [],
+      "method": "8 true solids against uniform unperforated tube at fully internal position; axial translation preserves cross-section. From corresponding open end, before deck collars/support bolts. Other cassette remains on opposite half."
+    },
+    {
+      "carrier": "I_195",
+      "members": [
+        "I_195",
+        "I_196",
+        "I_202",
+        "I_208",
+        "I_214",
+        "I_220",
+        "I_221",
+        "I_222"
+      ],
+      "direction_from_open_end": "left",
+      "target_x_mm": -85.0,
+      "passed": true,
+      "intersections": [],
+      "method": "8 true solids against uniform unperforated tube at fully internal position; axial translation preserves cross-section. From corresponding open end, before deck collars/support bolts. Other cassette remains on opposite half."
+    },
+    {
+      "carrier": "I_224",
+      "members": [
+        "I_224",
+        "I_225",
+        "I_231",
+        "I_237",
+        "I_243",
+        "I_249",
+        "I_250",
+        "I_251"
+      ],
+      "direction_from_open_end": "right",
+      "target_x_mm": 85.0,
+      "passed": true,
+      "intersections": [],
+      "method": "8 true solids against uniform unperforated tube at fully internal position; axial translation preserves cross-section. From corresponding open end, before deck collars/support bolts. Other cassette remains on opposite half."
+    },
+    {
+      "carrier": "I_253",
+      "members": [
+        "I_253",
+        "I_254",
+        "I_260",
+        "I_266",
+        "I_272",
+        "I_278",
+        "I_279",
+        "I_280"
+      ],
+      "direction_from_open_end": "right",
+      "target_x_mm": 85.0,
+      "passed": true,
+      "intersections": [],
+      "method": "8 true solids against uniform unperforated tube at fully internal position; axial translation preserves cross-section. From corresponding open end, before deck collars/support bolts. Other cassette remains on opposite half."
+    }
+  ],
+  "tool_checks_passed": true,
+  "cassette_checks_passed": true,
+  "scope": "Analytical straight tool clearance cylinders, not OEM tool CAD. Nominal rigid geometry, stage-specific; socket fit from ISO AF dimensions, not manual dexterity, torque or production validation."
+}

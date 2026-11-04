@@ -1,0 +1,51 @@
+{
+  "selected_motor": "MN1330 KV40",
+  "motor_choice_fixed_by_user": true,
+  "series_cells_reference": 24,
+  "full_cell_voltage_reference_V": 4.2,
+  "nominal_cell_voltage_assumed_V": 3.6,
+  "full_pack_V": 100.80000000000001,
+  "nominal_pack_V": 86.4,
+  "ideal_no_load_full_rpm": 4032.0,
+  "ideal_no_load_nominal_rpm": 3456.0,
+  "reference_r380_hover_rpm": [
+    4867.957833198902,
+    5257.7752134531365,
+    5620.597138207261
+  ],
+  "reference_r380_scope": "Prior assumed3-blade model, not a measured real rotor",
+  "motor_power_3400W_duration_s": 180,
+  "motor_power_3400W_side_unknown": true,
+  "maximum_bench_input_W": 16270.0,
+  "maximum_bench_duration_s": null,
+  "continuous_rating_verified": false,
+  "ideal_disk_area_m2": 1.8145839167134645,
+  "ideal_air_density_kg_m3": 1.225,
+  "ideal_hover_cases": [
+    {
+      "mass_kg": 131.00222496619125,
+      "ideal_hover_shaft_lower_bound_kW": 21.849924871928263,
+      "above_four_3400W": true
+    },
+    {
+      "mass_kg": 150,
+      "ideal_hover_shaft_lower_bound_kW": 26.771261043792205,
+      "above_four_3400W": true
+    },
+    {
+      "mass_kg": 175,
+      "ideal_hover_shaft_lower_bound_kW": 33.735644637762086,
+      "above_four_3400W": true
+    },
+    {
+      "mass_kg": 200,
+      "ideal_hover_shaft_lower_bound_kW": 41.21705272047779,
+      "above_four_3400W": true
+    }
+  ],
+  "ideal_hover_out_of_ground_effect": true,
+  "ideal_hover_no_external_lift": true,
+  "ideal_hover_ignores_profile_swirl_and_electrical_losses": true,
+  "flight_release": false,
+  "interpretation": "Old R3803-blade rpm demand exceeds KV40 no-load speed at24S. Even granting3400W as shaft power, four motors provide13.6kW in that reference case, below the ideal hover lower bound at modeled partial vehicle mass. Higher bench points have unknown duration and do not prove continuous operation."
+}

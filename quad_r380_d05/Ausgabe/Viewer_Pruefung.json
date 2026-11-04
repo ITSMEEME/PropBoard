@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "instances": 856,
+  "checks": [
+    "WebGL actual surfaces",
+    "Unlock, independent 10mm-grid sliders and relock",
+    "Overall and foot saddle screenshots",
+    "Four legacy motor references with toggle",
+    "MN1330 mount camera",
+    "Carbon core camera",
+    "Mobile viewport"
+  ],
+  "page_errors": []
+}

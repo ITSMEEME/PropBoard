@@ -1,0 +1,258 @@
+[
+  {
+    "motor": "D05_I_837",
+    "bolt": "D05_I_838",
+    "carrier": "I_89",
+    "pcd_mm": 50,
+    "clearance_mm": 6.6,
+    "counterbore_mm": 11,
+    "counterbore_depth_mm": 2,
+    "nominal_engagement_assumed_mm": 6,
+    "actual_motor_thread_verified": false,
+    "assembly_access_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "motor": "D05_I_837",
+    "bolt": "D05_I_839",
+    "carrier": "I_89",
+    "pcd_mm": 50,
+    "clearance_mm": 6.6,
+    "counterbore_mm": 11,
+    "counterbore_depth_mm": 2,
+    "nominal_engagement_assumed_mm": 6,
+    "actual_motor_thread_verified": false,
+    "assembly_access_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "motor": "D05_I_837",
+    "bolt": "D05_I_840",
+    "carrier": "I_89",
+    "pcd_mm": 50,
+    "clearance_mm": 6.6,
+    "counterbore_mm": 11,
+    "counterbore_depth_mm": 2,
+    "nominal_engagement_assumed_mm": 6,
+    "actual_motor_thread_verified": false,
+    "assembly_access_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "motor": "D05_I_837",
+    "bolt": "D05_I_841",
+    "carrier": "I_89",
+    "pcd_mm": 50,
+    "clearance_mm": 6.6,
+    "counterbore_mm": 11,
+    "counterbore_depth_mm": 2,
+    "nominal_engagement_assumed_mm": 6,
+    "actual_motor_thread_verified": false,
+    "assembly_access_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "motor": "D05_I_842",
+    "bolt": "D05_I_843",
+    "carrier": "I_180",
+    "pcd_mm": 50,
+    "clearance_mm": 6.6,
+    "counterbore_mm": 11,
+    "counterbore_depth_mm": 2,
+    "nominal_engagement_assumed_mm": 6,
+    "actual_motor_thread_verified": false,
+    "assembly_access_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "motor": "D05_I_842",
+    "bolt": "D05_I_844",
+    "carrier": "I_180",
+    "pcd_mm": 50,
+    "clearance_mm": 6.6,
+    "counterbore_mm": 11,
+    "counterbore_depth_mm": 2,
+    "nominal_engagement_assumed_mm": 6,
+    "actual_motor_thread_verified": false,
+    "assembly_access_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "motor": "D05_I_842",
+    "bolt": "D05_I_845",
+    "carrier": "I_180",
+    "pcd_mm": 50,
+    "clearance_mm": 6.6,
+    "counterbore_mm": 11,
+    "counterbore_depth_mm": 2,
+    "nominal_engagement_assumed_mm": 6,
+    "actual_motor_thread_verified": false,
+    "assembly_access_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "motor": "D05_I_842",
+    "bolt": "D05_I_846",
+    "carrier": "I_180",
+    "pcd_mm": 50,
+    "clearance_mm": 6.6,
+    "counterbore_mm": 11,
+    "counterbore_depth_mm": 2,
+    "nominal_engagement_assumed_mm": 6,
+    "actual_motor_thread_verified": false,
+    "assembly_access_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "motor": "D05_I_847",
+    "bolt": "D05_I_848",
+    "carrier": "I_271",
+    "pcd_mm": 50,
+    "clearance_mm": 6.6,
+    "counterbore_mm": 11,
+    "counterbore_depth_mm": 2,
+    "nominal_engagement_assumed_mm": 6,
+    "actual_motor_thread_verified": false,
+    "assembly_access_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "motor": "D05_I_847",
+    "bolt": "D05_I_849",
+    "carrier": "I_271",
+    "pcd_mm": 50,
+    "clearance_mm": 6.6,
+    "counterbore_mm": 11,
+    "counterbore_depth_mm": 2,
+    "nominal_engagement_assumed_mm": 6,
+    "actual_motor_thread_verified": false,
+    "assembly_access_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "motor": "D05_I_847",
+    "bolt": "D05_I_850",
+    "carrier": "I_271",
+    "pcd_mm": 50,
+    "clearance_mm": 6.6,
+    "counterbore_mm": 11,
+    "counterbore_depth_mm": 2,
+    "nominal_engagement_assumed_mm": 6,
+    "actual_motor_thread_verified": false,
+    "assembly_access_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "motor": "D05_I_847",
+    "bolt": "D05_I_851",
+    "carrier": "I_271",
+    "pcd_mm": 50,
+    "clearance_mm": 6.6,
+    "counterbore_mm": 11,
+    "counterbore_depth_mm": 2,
+    "nominal_engagement_assumed_mm": 6,
+    "actual_motor_thread_verified": false,
+    "assembly_access_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "motor": "D05_I_852",
+    "bolt": "D05_I_853",
+    "carrier": "I_362",
+    "pcd_mm": 50,
+    "clearance_mm": 6.6,
+    "counterbore_mm": 11,
+    "counterbore_depth_mm": 2,
+    "nominal_engagement_assumed_mm": 6,
+    "actual_motor_thread_verified": false,
+    "assembly_access_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "motor": "D05_I_852",
+    "bolt": "D05_I_854",
+    "carrier": "I_362",
+    "pcd_mm": 50,
+    "clearance_mm": 6.6,
+    "counterbore_mm": 11,
+    "counterbore_depth_mm": 2,
+    "nominal_engagement_assumed_mm": 6,
+    "actual_motor_thread_verified": false,
+    "assembly_access_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "motor": "D05_I_852",
+    "bolt": "D05_I_855",
+    "carrier": "I_362",
+    "pcd_mm": 50,
+    "clearance_mm": 6.6,
+    "counterbore_mm": 11,
+    "counterbore_depth_mm": 2,
+    "nominal_engagement_assumed_mm": 6,
+    "actual_motor_thread_verified": false,
+    "assembly_access_axis": [
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "motor": "D05_I_852",
+    "bolt": "D05_I_856",
+    "carrier": "I_362",
+    "pcd_mm": 50,
+    "clearance_mm": 6.6,
+    "counterbore_mm": 11,
+    "counterbore_depth_mm": 2,
+    "nominal_engagement_assumed_mm": 6,
+    "actual_motor_thread_verified": false,
+    "assembly_access_axis": [
+      0,
+      0,
+      -1
+    ]
+  }
+]

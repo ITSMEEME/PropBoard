@@ -1,0 +1,258 @@
+[
+  {
+    "bolt": "D07_I_6",
+    "mate": "D04_I_496",
+    "hole_feature": "D07_M4_D07_ROOT_TOP_0",
+    "family": "V3 socket M4",
+    "socket_index": 0,
+    "side": "Wurzel"
+  },
+  {
+    "bolt": "D07_I_7",
+    "mate": "D04_I_496",
+    "hole_feature": "D07_M4_D07_ROOT_TOP_0",
+    "family": "V3 socket M4",
+    "socket_index": 0,
+    "side": "Wurzel"
+  },
+  {
+    "bolt": "D07_I_11",
+    "mate": "D07_I_1",
+    "hole_feature": "D07_M4_D07_MOTOR_NODE_0",
+    "family": "V3 socket M4",
+    "socket_index": 0,
+    "side": "Motor"
+  },
+  {
+    "bolt": "D07_I_12",
+    "mate": "D07_I_1",
+    "hole_feature": "D07_M4_D07_MOTOR_NODE_0",
+    "family": "V3 socket M4",
+    "socket_index": 0,
+    "side": "Motor"
+  },
+  {
+    "bolt": "D07_I_17",
+    "mate": "D04_I_496",
+    "hole_feature": "D07_M4_D07_ROOT_TOP_1",
+    "family": "V3 socket M4",
+    "socket_index": 1,
+    "side": "Wurzel"
+  },
+  {
+    "bolt": "D07_I_18",
+    "mate": "D04_I_496",
+    "hole_feature": "D07_M4_D07_ROOT_TOP_1",
+    "family": "V3 socket M4",
+    "socket_index": 1,
+    "side": "Wurzel"
+  },
+  {
+    "bolt": "D07_I_22",
+    "mate": "D07_I_1",
+    "hole_feature": "D07_M4_D07_MOTOR_NODE_1",
+    "family": "V3 socket M4",
+    "socket_index": 1,
+    "side": "Motor"
+  },
+  {
+    "bolt": "D07_I_23",
+    "mate": "D07_I_1",
+    "hole_feature": "D07_M4_D07_MOTOR_NODE_1",
+    "family": "V3 socket M4",
+    "socket_index": 1,
+    "side": "Motor"
+  },
+  {
+    "bolt": "D07_I_29",
+    "mate": "D04_I_498",
+    "hole_feature": "D07_M4_D07_ROOT_TOP_0",
+    "family": "V3 socket M4",
+    "socket_index": 0,
+    "side": "Wurzel"
+  },
+  {
+    "bolt": "D07_I_30",
+    "mate": "D04_I_498",
+    "hole_feature": "D07_M4_D07_ROOT_TOP_0",
+    "family": "V3 socket M4",
+    "socket_index": 0,
+    "side": "Wurzel"
+  },
+  {
+    "bolt": "D07_I_34",
+    "mate": "D07_I_24",
+    "hole_feature": "D07_M4_D07_MOTOR_NODE_0",
+    "family": "V3 socket M4",
+    "socket_index": 0,
+    "side": "Motor"
+  },
+  {
+    "bolt": "D07_I_35",
+    "mate": "D07_I_24",
+    "hole_feature": "D07_M4_D07_MOTOR_NODE_0",
+    "family": "V3 socket M4",
+    "socket_index": 0,
+    "side": "Motor"
+  },
+  {
+    "bolt": "D07_I_40",
+    "mate": "D04_I_498",
+    "hole_feature": "D07_M4_D07_ROOT_TOP_1",
+    "family": "V3 socket M4",
+    "socket_index": 1,
+    "side": "Wurzel"
+  },
+  {
+    "bolt": "D07_I_41",
+    "mate": "D04_I_498",
+    "hole_feature": "D07_M4_D07_ROOT_TOP_1",
+    "family": "V3 socket M4",
+    "socket_index": 1,
+    "side": "Wurzel"
+  },
+  {
+    "bolt": "D07_I_45",
+    "mate": "D07_I_24",
+    "hole_feature": "D07_M4_D07_MOTOR_NODE_1",
+    "family": "V3 socket M4",
+    "socket_index": 1,
+    "side": "Motor"
+  },
+  {
+    "bolt": "D07_I_46",
+    "mate": "D07_I_24",
+    "hole_feature": "D07_M4_D07_MOTOR_NODE_1",
+    "family": "V3 socket M4",
+    "socket_index": 1,
+    "side": "Motor"
+  },
+  {
+    "bolt": "D07_I_52",
+    "mate": "D04_I_500",
+    "hole_feature": "D07_M4_D07_ROOT_TOP_0",
+    "family": "V3 socket M4",
+    "socket_index": 0,
+    "side": "Wurzel"
+  },
+  {
+    "bolt": "D07_I_53",
+    "mate": "D04_I_500",
+    "hole_feature": "D07_M4_D07_ROOT_TOP_0",
+    "family": "V3 socket M4",
+    "socket_index": 0,
+    "side": "Wurzel"
+  },
+  {
+    "bolt": "D07_I_57",
+    "mate": "D07_I_47",
+    "hole_feature": "D07_M4_D07_MOTOR_NODE_0",
+    "family": "V3 socket M4",
+    "socket_index": 0,
+    "side": "Motor"
+  },
+  {
+    "bolt": "D07_I_58",
+    "mate": "D07_I_47",
+    "hole_feature": "D07_M4_D07_MOTOR_NODE_0",
+    "family": "V3 socket M4",
+    "socket_index": 0,
+    "side": "Motor"
+  },
+  {
+    "bolt": "D07_I_63",
+    "mate": "D04_I_500",
+    "hole_feature": "D07_M4_D07_ROOT_TOP_1",
+    "family": "V3 socket M4",
+    "socket_index": 1,
+    "side": "Wurzel"
+  },
+  {
+    "bolt": "D07_I_64",
+    "mate": "D04_I_500",
+    "hole_feature": "D07_M4_D07_ROOT_TOP_1",
+    "family": "V3 socket M4",
+    "socket_index": 1,
+    "side": "Wurzel"
+  },
+  {
+    "bolt": "D07_I_68",
+    "mate": "D07_I_47",
+    "hole_feature": "D07_M4_D07_MOTOR_NODE_1",
+    "family": "V3 socket M4",
+    "socket_index": 1,
+    "side": "Motor"
+  },
+  {
+    "bolt": "D07_I_69",
+    "mate": "D07_I_47",
+    "hole_feature": "D07_M4_D07_MOTOR_NODE_1",
+    "family": "V3 socket M4",
+    "socket_index": 1,
+    "side": "Motor"
+  },
+  {
+    "bolt": "D07_I_75",
+    "mate": "D04_I_502",
+    "hole_feature": "D07_M4_D07_ROOT_TOP_0",
+    "family": "V3 socket M4",
+    "socket_index": 0,
+    "side": "Wurzel"
+  },
+  {
+    "bolt": "D07_I_76",
+    "mate": "D04_I_502",
+    "hole_feature": "D07_M4_D07_ROOT_TOP_0",
+    "family": "V3 socket M4",
+    "socket_index": 0,
+    "side": "Wurzel"
+  },
+  {
+    "bolt": "D07_I_80",
+    "mate": "D07_I_70",
+    "hole_feature": "D07_M4_D07_MOTOR_NODE_0",
+    "family": "V3 socket M4",
+    "socket_index": 0,
+    "side": "Motor"
+  },
+  {
+    "bolt": "D07_I_81",
+    "mate": "D07_I_70",
+    "hole_feature": "D07_M4_D07_MOTOR_NODE_0",
+    "family": "V3 socket M4",
+    "socket_index": 0,
+    "side": "Motor"
+  },
+  {
+    "bolt": "D07_I_86",
+    "mate": "D04_I_502",
+    "hole_feature": "D07_M4_D07_ROOT_TOP_1",
+    "family": "V3 socket M4",
+    "socket_index": 1,
+    "side": "Wurzel"
+  },
+  {
+    "bolt": "D07_I_87",
+    "mate": "D04_I_502",
+    "hole_feature": "D07_M4_D07_ROOT_TOP_1",
+    "family": "V3 socket M4",
+    "socket_index": 1,
+    "side": "Wurzel"
+  },
+  {
+    "bolt": "D07_I_91",
+    "mate": "D07_I_70",
+    "hole_feature": "D07_M4_D07_MOTOR_NODE_1",
+    "family": "V3 socket M4",
+    "socket_index": 1,
+    "side": "Motor"
+  },
+  {
+    "bolt": "D07_I_92",
+    "mate": "D07_I_70",
+    "hole_feature": "D07_M4_D07_MOTOR_NODE_1",
+    "family": "V3 socket M4",
+    "socket_index": 1,
+    "side": "Motor"
+  }
+]

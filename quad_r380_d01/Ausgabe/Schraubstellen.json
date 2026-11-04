@@ -1,0 +1,1506 @@
+[
+  {
+    "bolt": "I_7",
+    "mate": "I_10",
+    "bolt_id": "ISO4762_M6x80",
+    "mate_id": "ISO7719_M6",
+    "function": "Wurzelklemmschraube",
+    "assembly_stage": "Rahmen vor Antrieb/Schutz",
+    "preload_target_N": 8000,
+    "torque_K018_024_reference_Nm": [
+      8.64,
+      11.52
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_11",
+    "mate": "I_14",
+    "bolt_id": "ISO4762_M6x80",
+    "mate_id": "ISO7719_M6",
+    "function": "Wurzelklemmschraube",
+    "assembly_stage": "Rahmen vor Antrieb/Schutz",
+    "preload_target_N": 8000,
+    "torque_K018_024_reference_Nm": [
+      8.64,
+      11.52
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_15",
+    "mate": "I_18",
+    "bolt_id": "ISO4762_M6x80",
+    "mate_id": "ISO7719_M6",
+    "function": "Wurzelklemmschraube",
+    "assembly_stage": "Rahmen vor Antrieb/Schutz",
+    "preload_target_N": 8000,
+    "torque_K018_024_reference_Nm": [
+      8.64,
+      11.52
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_19",
+    "mate": "I_22",
+    "bolt_id": "ISO4762_M6x80",
+    "mate_id": "ISO7719_M6",
+    "function": "Wurzelklemmschraube",
+    "assembly_stage": "Rahmen vor Antrieb/Schutz",
+    "preload_target_N": 8000,
+    "torque_K018_024_reference_Nm": [
+      8.64,
+      11.52
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_23",
+    "mate": "I_26",
+    "bolt_id": "ISO4762_M6x90",
+    "mate_id": "ISO7719_M6",
+    "function": "Endtraeger-Klemmschraube",
+    "assembly_stage": "Endtraeger vor OEM-Adapter",
+    "preload_target_N": 6500,
+    "torque_K018_024_reference_Nm": [
+      7.02,
+      9.36
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_27",
+    "mate": "I_30",
+    "bolt_id": "ISO4762_M6x90",
+    "mate_id": "ISO7719_M6",
+    "function": "Endtraeger-Klemmschraube",
+    "assembly_stage": "Endtraeger vor OEM-Adapter",
+    "preload_target_N": 6500,
+    "torque_K018_024_reference_Nm": [
+      7.02,
+      9.36
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_31",
+    "mate": "I_34",
+    "bolt_id": "ISO4762_M6x90",
+    "mate_id": "ISO7719_M6",
+    "function": "Endtraeger-Klemmschraube",
+    "assembly_stage": "Endtraeger vor OEM-Adapter",
+    "preload_target_N": 6500,
+    "torque_K018_024_reference_Nm": [
+      7.02,
+      9.36
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_35",
+    "mate": "I_38",
+    "bolt_id": "ISO4762_M6x90",
+    "mate_id": "ISO7719_M6",
+    "function": "Endtraeger-Klemmschraube",
+    "assembly_stage": "Endtraeger vor OEM-Adapter",
+    "preload_target_N": 6500,
+    "torque_K018_024_reference_Nm": [
+      7.02,
+      9.36
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_47",
+    "mate": "I_50",
+    "bolt_id": "ISO4762_M6x80",
+    "mate_id": "ISO7719_M6",
+    "function": "Wurzelklemmschraube",
+    "assembly_stage": "Rahmen vor Antrieb/Schutz",
+    "preload_target_N": 8000,
+    "torque_K018_024_reference_Nm": [
+      8.64,
+      11.52
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_51",
+    "mate": "I_54",
+    "bolt_id": "ISO4762_M6x80",
+    "mate_id": "ISO7719_M6",
+    "function": "Wurzelklemmschraube",
+    "assembly_stage": "Rahmen vor Antrieb/Schutz",
+    "preload_target_N": 8000,
+    "torque_K018_024_reference_Nm": [
+      8.64,
+      11.52
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_55",
+    "mate": "I_58",
+    "bolt_id": "ISO4762_M6x80",
+    "mate_id": "ISO7719_M6",
+    "function": "Wurzelklemmschraube",
+    "assembly_stage": "Rahmen vor Antrieb/Schutz",
+    "preload_target_N": 8000,
+    "torque_K018_024_reference_Nm": [
+      8.64,
+      11.52
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_59",
+    "mate": "I_62",
+    "bolt_id": "ISO4762_M6x80",
+    "mate_id": "ISO7719_M6",
+    "function": "Wurzelklemmschraube",
+    "assembly_stage": "Rahmen vor Antrieb/Schutz",
+    "preload_target_N": 8000,
+    "torque_K018_024_reference_Nm": [
+      8.64,
+      11.52
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_63",
+    "mate": "I_66",
+    "bolt_id": "ISO4762_M6x90",
+    "mate_id": "ISO7719_M6",
+    "function": "Endtraeger-Klemmschraube",
+    "assembly_stage": "Endtraeger vor OEM-Adapter",
+    "preload_target_N": 6500,
+    "torque_K018_024_reference_Nm": [
+      7.02,
+      9.36
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_67",
+    "mate": "I_70",
+    "bolt_id": "ISO4762_M6x90",
+    "mate_id": "ISO7719_M6",
+    "function": "Endtraeger-Klemmschraube",
+    "assembly_stage": "Endtraeger vor OEM-Adapter",
+    "preload_target_N": 6500,
+    "torque_K018_024_reference_Nm": [
+      7.02,
+      9.36
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_71",
+    "mate": "I_74",
+    "bolt_id": "ISO4762_M6x90",
+    "mate_id": "ISO7719_M6",
+    "function": "Endtraeger-Klemmschraube",
+    "assembly_stage": "Endtraeger vor OEM-Adapter",
+    "preload_target_N": 6500,
+    "torque_K018_024_reference_Nm": [
+      7.02,
+      9.36
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_75",
+    "mate": "I_78",
+    "bolt_id": "ISO4762_M6x90",
+    "mate_id": "ISO7719_M6",
+    "function": "Endtraeger-Klemmschraube",
+    "assembly_stage": "Endtraeger vor OEM-Adapter",
+    "preload_target_N": 6500,
+    "torque_K018_024_reference_Nm": [
+      7.02,
+      9.36
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_87",
+    "mate": "I_90",
+    "bolt_id": "ISO4762_M6x80",
+    "mate_id": "ISO7719_M6",
+    "function": "Wurzelklemmschraube",
+    "assembly_stage": "Rahmen vor Antrieb/Schutz",
+    "preload_target_N": 8000,
+    "torque_K018_024_reference_Nm": [
+      8.64,
+      11.52
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_91",
+    "mate": "I_94",
+    "bolt_id": "ISO4762_M6x80",
+    "mate_id": "ISO7719_M6",
+    "function": "Wurzelklemmschraube",
+    "assembly_stage": "Rahmen vor Antrieb/Schutz",
+    "preload_target_N": 8000,
+    "torque_K018_024_reference_Nm": [
+      8.64,
+      11.52
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_95",
+    "mate": "I_98",
+    "bolt_id": "ISO4762_M6x80",
+    "mate_id": "ISO7719_M6",
+    "function": "Wurzelklemmschraube",
+    "assembly_stage": "Rahmen vor Antrieb/Schutz",
+    "preload_target_N": 8000,
+    "torque_K018_024_reference_Nm": [
+      8.64,
+      11.52
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_99",
+    "mate": "I_102",
+    "bolt_id": "ISO4762_M6x80",
+    "mate_id": "ISO7719_M6",
+    "function": "Wurzelklemmschraube",
+    "assembly_stage": "Rahmen vor Antrieb/Schutz",
+    "preload_target_N": 8000,
+    "torque_K018_024_reference_Nm": [
+      8.64,
+      11.52
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_103",
+    "mate": "I_106",
+    "bolt_id": "ISO4762_M6x90",
+    "mate_id": "ISO7719_M6",
+    "function": "Endtraeger-Klemmschraube",
+    "assembly_stage": "Endtraeger vor OEM-Adapter",
+    "preload_target_N": 6500,
+    "torque_K018_024_reference_Nm": [
+      7.02,
+      9.36
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_107",
+    "mate": "I_110",
+    "bolt_id": "ISO4762_M6x90",
+    "mate_id": "ISO7719_M6",
+    "function": "Endtraeger-Klemmschraube",
+    "assembly_stage": "Endtraeger vor OEM-Adapter",
+    "preload_target_N": 6500,
+    "torque_K018_024_reference_Nm": [
+      7.02,
+      9.36
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_111",
+    "mate": "I_114",
+    "bolt_id": "ISO4762_M6x90",
+    "mate_id": "ISO7719_M6",
+    "function": "Endtraeger-Klemmschraube",
+    "assembly_stage": "Endtraeger vor OEM-Adapter",
+    "preload_target_N": 6500,
+    "torque_K018_024_reference_Nm": [
+      7.02,
+      9.36
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_115",
+    "mate": "I_118",
+    "bolt_id": "ISO4762_M6x90",
+    "mate_id": "ISO7719_M6",
+    "function": "Endtraeger-Klemmschraube",
+    "assembly_stage": "Endtraeger vor OEM-Adapter",
+    "preload_target_N": 6500,
+    "torque_K018_024_reference_Nm": [
+      7.02,
+      9.36
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_127",
+    "mate": "I_130",
+    "bolt_id": "ISO4762_M6x80",
+    "mate_id": "ISO7719_M6",
+    "function": "Wurzelklemmschraube",
+    "assembly_stage": "Rahmen vor Antrieb/Schutz",
+    "preload_target_N": 8000,
+    "torque_K018_024_reference_Nm": [
+      8.64,
+      11.52
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_131",
+    "mate": "I_134",
+    "bolt_id": "ISO4762_M6x80",
+    "mate_id": "ISO7719_M6",
+    "function": "Wurzelklemmschraube",
+    "assembly_stage": "Rahmen vor Antrieb/Schutz",
+    "preload_target_N": 8000,
+    "torque_K018_024_reference_Nm": [
+      8.64,
+      11.52
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_135",
+    "mate": "I_138",
+    "bolt_id": "ISO4762_M6x80",
+    "mate_id": "ISO7719_M6",
+    "function": "Wurzelklemmschraube",
+    "assembly_stage": "Rahmen vor Antrieb/Schutz",
+    "preload_target_N": 8000,
+    "torque_K018_024_reference_Nm": [
+      8.64,
+      11.52
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_139",
+    "mate": "I_142",
+    "bolt_id": "ISO4762_M6x80",
+    "mate_id": "ISO7719_M6",
+    "function": "Wurzelklemmschraube",
+    "assembly_stage": "Rahmen vor Antrieb/Schutz",
+    "preload_target_N": 8000,
+    "torque_K018_024_reference_Nm": [
+      8.64,
+      11.52
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_143",
+    "mate": "I_146",
+    "bolt_id": "ISO4762_M6x90",
+    "mate_id": "ISO7719_M6",
+    "function": "Endtraeger-Klemmschraube",
+    "assembly_stage": "Endtraeger vor OEM-Adapter",
+    "preload_target_N": 6500,
+    "torque_K018_024_reference_Nm": [
+      7.02,
+      9.36
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_147",
+    "mate": "I_150",
+    "bolt_id": "ISO4762_M6x90",
+    "mate_id": "ISO7719_M6",
+    "function": "Endtraeger-Klemmschraube",
+    "assembly_stage": "Endtraeger vor OEM-Adapter",
+    "preload_target_N": 6500,
+    "torque_K018_024_reference_Nm": [
+      7.02,
+      9.36
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_151",
+    "mate": "I_154",
+    "bolt_id": "ISO4762_M6x90",
+    "mate_id": "ISO7719_M6",
+    "function": "Endtraeger-Klemmschraube",
+    "assembly_stage": "Endtraeger vor OEM-Adapter",
+    "preload_target_N": 6500,
+    "torque_K018_024_reference_Nm": [
+      7.02,
+      9.36
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_155",
+    "mate": "I_158",
+    "bolt_id": "ISO4762_M6x90",
+    "mate_id": "ISO7719_M6",
+    "function": "Endtraeger-Klemmschraube",
+    "assembly_stage": "Endtraeger vor OEM-Adapter",
+    "preload_target_N": 6500,
+    "torque_K018_024_reference_Nm": [
+      7.02,
+      9.36
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_168",
+    "mate": "I_170",
+    "bolt_id": "ISO4762_M6x25",
+    "mate_id": "ISO7719_M6",
+    "function": "Stuetzenfuss M6",
+    "assembly_stage": "Rahmenmontage",
+    "preload_target_N": 3000,
+    "torque_K018_024_reference_Nm": [
+      3.24,
+      4.32
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_171",
+    "mate": "I_173",
+    "bolt_id": "ISO4762_M6x20",
+    "mate_id": "ISO7719_M6",
+    "function": "Stuetzenkopf M6",
+    "assembly_stage": "Rahmenmontage",
+    "preload_target_N": 3000,
+    "torque_K018_024_reference_Nm": [
+      3.24,
+      4.32
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_174",
+    "mate": "I_176",
+    "bolt_id": "ISO4762_M6x25",
+    "mate_id": "ISO7719_M6",
+    "function": "Stuetzenfuss M6",
+    "assembly_stage": "Rahmenmontage",
+    "preload_target_N": 3000,
+    "torque_K018_024_reference_Nm": [
+      3.24,
+      4.32
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_177",
+    "mate": "I_179",
+    "bolt_id": "ISO4762_M6x20",
+    "mate_id": "ISO7719_M6",
+    "function": "Stuetzenkopf M6",
+    "assembly_stage": "Rahmenmontage",
+    "preload_target_N": 3000,
+    "torque_K018_024_reference_Nm": [
+      3.24,
+      4.32
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_180",
+    "mate": "I_182",
+    "bolt_id": "ISO4762_M6x25",
+    "mate_id": "ISO7719_M6",
+    "function": "Stuetzenfuss M6",
+    "assembly_stage": "Rahmenmontage",
+    "preload_target_N": 3000,
+    "torque_K018_024_reference_Nm": [
+      3.24,
+      4.32
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_183",
+    "mate": "I_185",
+    "bolt_id": "ISO4762_M6x20",
+    "mate_id": "ISO7719_M6",
+    "function": "Stuetzenkopf M6",
+    "assembly_stage": "Rahmenmontage",
+    "preload_target_N": 3000,
+    "torque_K018_024_reference_Nm": [
+      3.24,
+      4.32
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_186",
+    "mate": "I_188",
+    "bolt_id": "ISO4762_M6x25",
+    "mate_id": "ISO7719_M6",
+    "function": "Stuetzenfuss M6",
+    "assembly_stage": "Rahmenmontage",
+    "preload_target_N": 3000,
+    "torque_K018_024_reference_Nm": [
+      3.24,
+      4.32
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_189",
+    "mate": "I_191",
+    "bolt_id": "ISO4762_M6x20",
+    "mate_id": "ISO7719_M6",
+    "function": "Stuetzenkopf M6",
+    "assembly_stage": "Rahmenmontage",
+    "preload_target_N": 3000,
+    "torque_K018_024_reference_Nm": [
+      3.24,
+      4.32
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_197",
+    "mate": "I_199",
+    "bolt_id": "ISO4762_M6x25",
+    "mate_id": "ISO7719_M6",
+    "function": "Stuetzenfuss M6",
+    "assembly_stage": "Rahmenmontage",
+    "preload_target_N": 3000,
+    "torque_K018_024_reference_Nm": [
+      3.24,
+      4.32
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_200",
+    "mate": "I_202",
+    "bolt_id": "ISO4762_M6x20",
+    "mate_id": "ISO7719_M6",
+    "function": "Stuetzenkopf M6",
+    "assembly_stage": "Rahmenmontage",
+    "preload_target_N": 3000,
+    "torque_K018_024_reference_Nm": [
+      3.24,
+      4.32
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_203",
+    "mate": "I_205",
+    "bolt_id": "ISO4762_M6x25",
+    "mate_id": "ISO7719_M6",
+    "function": "Stuetzenfuss M6",
+    "assembly_stage": "Rahmenmontage",
+    "preload_target_N": 3000,
+    "torque_K018_024_reference_Nm": [
+      3.24,
+      4.32
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_206",
+    "mate": "I_208",
+    "bolt_id": "ISO4762_M6x20",
+    "mate_id": "ISO7719_M6",
+    "function": "Stuetzenkopf M6",
+    "assembly_stage": "Rahmenmontage",
+    "preload_target_N": 3000,
+    "torque_K018_024_reference_Nm": [
+      3.24,
+      4.32
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_209",
+    "mate": "I_211",
+    "bolt_id": "ISO4762_M6x25",
+    "mate_id": "ISO7719_M6",
+    "function": "Stuetzenfuss M6",
+    "assembly_stage": "Rahmenmontage",
+    "preload_target_N": 3000,
+    "torque_K018_024_reference_Nm": [
+      3.24,
+      4.32
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_212",
+    "mate": "I_214",
+    "bolt_id": "ISO4762_M6x20",
+    "mate_id": "ISO7719_M6",
+    "function": "Stuetzenkopf M6",
+    "assembly_stage": "Rahmenmontage",
+    "preload_target_N": 3000,
+    "torque_K018_024_reference_Nm": [
+      3.24,
+      4.32
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_215",
+    "mate": "I_217",
+    "bolt_id": "ISO4762_M6x25",
+    "mate_id": "ISO7719_M6",
+    "function": "Stuetzenfuss M6",
+    "assembly_stage": "Rahmenmontage",
+    "preload_target_N": 3000,
+    "torque_K018_024_reference_Nm": [
+      3.24,
+      4.32
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_218",
+    "mate": "I_220",
+    "bolt_id": "ISO4762_M6x20",
+    "mate_id": "ISO7719_M6",
+    "function": "Stuetzenkopf M6",
+    "assembly_stage": "Rahmenmontage",
+    "preload_target_N": 3000,
+    "torque_K018_024_reference_Nm": [
+      3.24,
+      4.32
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_226",
+    "mate": "I_228",
+    "bolt_id": "ISO4762_M6x25",
+    "mate_id": "ISO7719_M6",
+    "function": "Stuetzenfuss M6",
+    "assembly_stage": "Rahmenmontage",
+    "preload_target_N": 3000,
+    "torque_K018_024_reference_Nm": [
+      3.24,
+      4.32
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_229",
+    "mate": "I_231",
+    "bolt_id": "ISO4762_M6x20",
+    "mate_id": "ISO7719_M6",
+    "function": "Stuetzenkopf M6",
+    "assembly_stage": "Rahmenmontage",
+    "preload_target_N": 3000,
+    "torque_K018_024_reference_Nm": [
+      3.24,
+      4.32
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_232",
+    "mate": "I_234",
+    "bolt_id": "ISO4762_M6x25",
+    "mate_id": "ISO7719_M6",
+    "function": "Stuetzenfuss M6",
+    "assembly_stage": "Rahmenmontage",
+    "preload_target_N": 3000,
+    "torque_K018_024_reference_Nm": [
+      3.24,
+      4.32
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_235",
+    "mate": "I_237",
+    "bolt_id": "ISO4762_M6x20",
+    "mate_id": "ISO7719_M6",
+    "function": "Stuetzenkopf M6",
+    "assembly_stage": "Rahmenmontage",
+    "preload_target_N": 3000,
+    "torque_K018_024_reference_Nm": [
+      3.24,
+      4.32
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_238",
+    "mate": "I_240",
+    "bolt_id": "ISO4762_M6x25",
+    "mate_id": "ISO7719_M6",
+    "function": "Stuetzenfuss M6",
+    "assembly_stage": "Rahmenmontage",
+    "preload_target_N": 3000,
+    "torque_K018_024_reference_Nm": [
+      3.24,
+      4.32
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_241",
+    "mate": "I_243",
+    "bolt_id": "ISO4762_M6x20",
+    "mate_id": "ISO7719_M6",
+    "function": "Stuetzenkopf M6",
+    "assembly_stage": "Rahmenmontage",
+    "preload_target_N": 3000,
+    "torque_K018_024_reference_Nm": [
+      3.24,
+      4.32
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_244",
+    "mate": "I_246",
+    "bolt_id": "ISO4762_M6x25",
+    "mate_id": "ISO7719_M6",
+    "function": "Stuetzenfuss M6",
+    "assembly_stage": "Rahmenmontage",
+    "preload_target_N": 3000,
+    "torque_K018_024_reference_Nm": [
+      3.24,
+      4.32
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_247",
+    "mate": "I_249",
+    "bolt_id": "ISO4762_M6x20",
+    "mate_id": "ISO7719_M6",
+    "function": "Stuetzenkopf M6",
+    "assembly_stage": "Rahmenmontage",
+    "preload_target_N": 3000,
+    "torque_K018_024_reference_Nm": [
+      3.24,
+      4.32
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_255",
+    "mate": "I_257",
+    "bolt_id": "ISO4762_M6x25",
+    "mate_id": "ISO7719_M6",
+    "function": "Stuetzenfuss M6",
+    "assembly_stage": "Rahmenmontage",
+    "preload_target_N": 3000,
+    "torque_K018_024_reference_Nm": [
+      3.24,
+      4.32
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_258",
+    "mate": "I_260",
+    "bolt_id": "ISO4762_M6x20",
+    "mate_id": "ISO7719_M6",
+    "function": "Stuetzenkopf M6",
+    "assembly_stage": "Rahmenmontage",
+    "preload_target_N": 3000,
+    "torque_K018_024_reference_Nm": [
+      3.24,
+      4.32
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_261",
+    "mate": "I_263",
+    "bolt_id": "ISO4762_M6x25",
+    "mate_id": "ISO7719_M6",
+    "function": "Stuetzenfuss M6",
+    "assembly_stage": "Rahmenmontage",
+    "preload_target_N": 3000,
+    "torque_K018_024_reference_Nm": [
+      3.24,
+      4.32
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_264",
+    "mate": "I_266",
+    "bolt_id": "ISO4762_M6x20",
+    "mate_id": "ISO7719_M6",
+    "function": "Stuetzenkopf M6",
+    "assembly_stage": "Rahmenmontage",
+    "preload_target_N": 3000,
+    "torque_K018_024_reference_Nm": [
+      3.24,
+      4.32
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_267",
+    "mate": "I_269",
+    "bolt_id": "ISO4762_M6x25",
+    "mate_id": "ISO7719_M6",
+    "function": "Stuetzenfuss M6",
+    "assembly_stage": "Rahmenmontage",
+    "preload_target_N": 3000,
+    "torque_K018_024_reference_Nm": [
+      3.24,
+      4.32
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_270",
+    "mate": "I_272",
+    "bolt_id": "ISO4762_M6x20",
+    "mate_id": "ISO7719_M6",
+    "function": "Stuetzenkopf M6",
+    "assembly_stage": "Rahmenmontage",
+    "preload_target_N": 3000,
+    "torque_K018_024_reference_Nm": [
+      3.24,
+      4.32
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_273",
+    "mate": "I_275",
+    "bolt_id": "ISO4762_M6x25",
+    "mate_id": "ISO7719_M6",
+    "function": "Stuetzenfuss M6",
+    "assembly_stage": "Rahmenmontage",
+    "preload_target_N": 3000,
+    "torque_K018_024_reference_Nm": [
+      3.24,
+      4.32
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_276",
+    "mate": "I_278",
+    "bolt_id": "ISO4762_M6x20",
+    "mate_id": "ISO7719_M6",
+    "function": "Stuetzenkopf M6",
+    "assembly_stage": "Rahmenmontage",
+    "preload_target_N": 3000,
+    "torque_K018_024_reference_Nm": [
+      3.24,
+      4.32
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_282",
+    "mate": "I_285",
+    "bolt_id": "ISO4762_M5x50",
+    "mate_id": "ISO7719_M5",
+    "function": "Deckschraube",
+    "assembly_stage": "Deckmontage",
+    "preload_target_N": 1500,
+    "torque_K018_024_reference_Nm": [
+      1.35,
+      1.8
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_287",
+    "mate": "I_290",
+    "bolt_id": "ISO4762_M5x50",
+    "mate_id": "ISO7719_M5",
+    "function": "Deckschraube",
+    "assembly_stage": "Deckmontage",
+    "preload_target_N": 1500,
+    "torque_K018_024_reference_Nm": [
+      1.35,
+      1.8
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_292",
+    "mate": "I_295",
+    "bolt_id": "ISO4762_M5x50",
+    "mate_id": "ISO7719_M5",
+    "function": "Deckschraube",
+    "assembly_stage": "Deckmontage",
+    "preload_target_N": 1500,
+    "torque_K018_024_reference_Nm": [
+      1.35,
+      1.8
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_297",
+    "mate": "I_300",
+    "bolt_id": "ISO4762_M5x50",
+    "mate_id": "ISO7719_M5",
+    "function": "Deckschraube",
+    "assembly_stage": "Deckmontage",
+    "preload_target_N": 1500,
+    "torque_K018_024_reference_Nm": [
+      1.35,
+      1.8
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_302",
+    "mate": "I_305",
+    "bolt_id": "ISO4762_M5x50",
+    "mate_id": "ISO7719_M5",
+    "function": "Deckschraube",
+    "assembly_stage": "Deckmontage",
+    "preload_target_N": 1500,
+    "torque_K018_024_reference_Nm": [
+      1.35,
+      1.8
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_307",
+    "mate": "I_310",
+    "bolt_id": "ISO4762_M5x50",
+    "mate_id": "ISO7719_M5",
+    "function": "Deckschraube",
+    "assembly_stage": "Deckmontage",
+    "preload_target_N": 1500,
+    "torque_K018_024_reference_Nm": [
+      1.35,
+      1.8
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_312",
+    "mate": "I_315",
+    "bolt_id": "ISO4762_M5x50",
+    "mate_id": "ISO7719_M5",
+    "function": "Deckschraube",
+    "assembly_stage": "Deckmontage",
+    "preload_target_N": 1500,
+    "torque_K018_024_reference_Nm": [
+      1.35,
+      1.8
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_317",
+    "mate": "I_320",
+    "bolt_id": "ISO4762_M5x50",
+    "mate_id": "ISO7719_M5",
+    "function": "Deckschraube",
+    "assembly_stage": "Deckmontage",
+    "preload_target_N": 1500,
+    "torque_K018_024_reference_Nm": [
+      1.35,
+      1.8
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_322",
+    "mate": "I_325",
+    "bolt_id": "ISO4762_M5x50",
+    "mate_id": "ISO7719_M5",
+    "function": "Deckschraube",
+    "assembly_stage": "Deckmontage",
+    "preload_target_N": 1500,
+    "torque_K018_024_reference_Nm": [
+      1.35,
+      1.8
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_327",
+    "mate": "I_330",
+    "bolt_id": "ISO4762_M5x50",
+    "mate_id": "ISO7719_M5",
+    "function": "Deckschraube",
+    "assembly_stage": "Deckmontage",
+    "preload_target_N": 1500,
+    "torque_K018_024_reference_Nm": [
+      1.35,
+      1.8
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_332",
+    "mate": "I_335",
+    "bolt_id": "ISO4762_M5x50",
+    "mate_id": "ISO7719_M5",
+    "function": "Deckschraube",
+    "assembly_stage": "Deckmontage",
+    "preload_target_N": 1500,
+    "torque_K018_024_reference_Nm": [
+      1.35,
+      1.8
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_337",
+    "mate": "I_340",
+    "bolt_id": "ISO4762_M5x50",
+    "mate_id": "ISO7719_M5",
+    "function": "Deckschraube",
+    "assembly_stage": "Deckmontage",
+    "preload_target_N": 1500,
+    "torque_K018_024_reference_Nm": [
+      1.35,
+      1.8
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_342",
+    "mate": "I_345",
+    "bolt_id": "ISO4762_M5x50",
+    "mate_id": "ISO7719_M5",
+    "function": "Deckschraube",
+    "assembly_stage": "Deckmontage",
+    "preload_target_N": 1500,
+    "torque_K018_024_reference_Nm": [
+      1.35,
+      1.8
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_347",
+    "mate": "I_350",
+    "bolt_id": "ISO4762_M5x50",
+    "mate_id": "ISO7719_M5",
+    "function": "Deckschraube",
+    "assembly_stage": "Deckmontage",
+    "preload_target_N": 1500,
+    "torque_K018_024_reference_Nm": [
+      1.35,
+      1.8
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_39",
+    "mate": "I_4",
+    "bolt_id": "ISO4762_M5x16",
+    "mate_id": "QD_E01",
+    "function": "Druckstueck-Sicherung",
+    "assembly_stage": "Arm+Druckstueck vor Wurzelklemmung",
+    "preload_target_N": 2000,
+    "torque_K018_024_reference_Nm": [
+      1.8,
+      2.4
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_41",
+    "mate": "I_4",
+    "bolt_id": "ISO4762_M5x16",
+    "mate_id": "QD_E01",
+    "function": "Druckstueck-Sicherung",
+    "assembly_stage": "Arm+Druckstueck vor Wurzelklemmung",
+    "preload_target_N": 2000,
+    "torque_K018_024_reference_Nm": [
+      1.8,
+      2.4
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_79",
+    "mate": "I_44",
+    "bolt_id": "ISO4762_M5x16",
+    "mate_id": "QD_E01",
+    "function": "Druckstueck-Sicherung",
+    "assembly_stage": "Arm+Druckstueck vor Wurzelklemmung",
+    "preload_target_N": 2000,
+    "torque_K018_024_reference_Nm": [
+      1.8,
+      2.4
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_81",
+    "mate": "I_44",
+    "bolt_id": "ISO4762_M5x16",
+    "mate_id": "QD_E01",
+    "function": "Druckstueck-Sicherung",
+    "assembly_stage": "Arm+Druckstueck vor Wurzelklemmung",
+    "preload_target_N": 2000,
+    "torque_K018_024_reference_Nm": [
+      1.8,
+      2.4
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_119",
+    "mate": "I_84",
+    "bolt_id": "ISO4762_M5x16",
+    "mate_id": "QD_E01",
+    "function": "Druckstueck-Sicherung",
+    "assembly_stage": "Arm+Druckstueck vor Wurzelklemmung",
+    "preload_target_N": 2000,
+    "torque_K018_024_reference_Nm": [
+      1.8,
+      2.4
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_121",
+    "mate": "I_84",
+    "bolt_id": "ISO4762_M5x16",
+    "mate_id": "QD_E01",
+    "function": "Druckstueck-Sicherung",
+    "assembly_stage": "Arm+Druckstueck vor Wurzelklemmung",
+    "preload_target_N": 2000,
+    "torque_K018_024_reference_Nm": [
+      1.8,
+      2.4
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_159",
+    "mate": "I_124",
+    "bolt_id": "ISO4762_M5x16",
+    "mate_id": "QD_E01",
+    "function": "Druckstueck-Sicherung",
+    "assembly_stage": "Arm+Druckstueck vor Wurzelklemmung",
+    "preload_target_N": 2000,
+    "torque_K018_024_reference_Nm": [
+      1.8,
+      2.4
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_161",
+    "mate": "I_124",
+    "bolt_id": "ISO4762_M5x16",
+    "mate_id": "QD_E01",
+    "function": "Druckstueck-Sicherung",
+    "assembly_stage": "Arm+Druckstueck vor Wurzelklemmung",
+    "preload_target_N": 2000,
+    "torque_K018_024_reference_Nm": [
+      1.8,
+      2.4
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_192",
+    "mate": "I_166",
+    "bolt_id": "ISO4762_M3x8",
+    "mate_id": "QD_K01",
+    "function": "Kassetten-Deckelschraube",
+    "assembly_stage": "Kassette ausserhalb Deckrohr vormontieren",
+    "preload_target_N": 500,
+    "torque_K018_024_reference_Nm": [
+      0.27,
+      0.36
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_193",
+    "mate": "I_166",
+    "bolt_id": "ISO4762_M3x8",
+    "mate_id": "QD_K01",
+    "function": "Kassetten-Deckelschraube",
+    "assembly_stage": "Kassette ausserhalb Deckrohr vormontieren",
+    "preload_target_N": 500,
+    "torque_K018_024_reference_Nm": [
+      0.27,
+      0.36
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_221",
+    "mate": "I_195",
+    "bolt_id": "ISO4762_M3x8",
+    "mate_id": "QD_K01",
+    "function": "Kassetten-Deckelschraube",
+    "assembly_stage": "Kassette ausserhalb Deckrohr vormontieren",
+    "preload_target_N": 500,
+    "torque_K018_024_reference_Nm": [
+      0.27,
+      0.36
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_222",
+    "mate": "I_195",
+    "bolt_id": "ISO4762_M3x8",
+    "mate_id": "QD_K01",
+    "function": "Kassetten-Deckelschraube",
+    "assembly_stage": "Kassette ausserhalb Deckrohr vormontieren",
+    "preload_target_N": 500,
+    "torque_K018_024_reference_Nm": [
+      0.27,
+      0.36
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_250",
+    "mate": "I_224",
+    "bolt_id": "ISO4762_M3x8",
+    "mate_id": "QD_K01",
+    "function": "Kassetten-Deckelschraube",
+    "assembly_stage": "Kassette ausserhalb Deckrohr vormontieren",
+    "preload_target_N": 500,
+    "torque_K018_024_reference_Nm": [
+      0.27,
+      0.36
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_251",
+    "mate": "I_224",
+    "bolt_id": "ISO4762_M3x8",
+    "mate_id": "QD_K01",
+    "function": "Kassetten-Deckelschraube",
+    "assembly_stage": "Kassette ausserhalb Deckrohr vormontieren",
+    "preload_target_N": 500,
+    "torque_K018_024_reference_Nm": [
+      0.27,
+      0.36
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_279",
+    "mate": "I_253",
+    "bolt_id": "ISO4762_M3x8",
+    "mate_id": "QD_K01",
+    "function": "Kassetten-Deckelschraube",
+    "assembly_stage": "Kassette ausserhalb Deckrohr vormontieren",
+    "preload_target_N": 500,
+    "torque_K018_024_reference_Nm": [
+      0.27,
+      0.36
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  },
+  {
+    "bolt": "I_280",
+    "mate": "I_253",
+    "bolt_id": "ISO4762_M3x8",
+    "mate_id": "QD_K01",
+    "function": "Kassetten-Deckelschraube",
+    "assembly_stage": "Kassette ausserhalb Deckrohr vormontieren",
+    "preload_target_N": 500,
+    "torque_K018_024_reference_Nm": [
+      0.27,
+      0.36
+    ],
+    "torque_released": false,
+    "reason": "Reibung, Sicherungsmoment und VDI2230-Verhalten nicht qualifiziert",
+    "geometric_thread_fit": true
+  }
+]

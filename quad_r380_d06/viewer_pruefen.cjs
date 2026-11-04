@@ -1,0 +1,24 @@
+const {chromium}=require('playwright'),fs=require('fs'),path=require('path'),http=require('http');
+(async()=>{
+ const status=JSON.parse(fs.readFileSync(path.join(__dirname,'Ausgabe/Status.json'))),rows=JSON.parse(fs.readFileSync(path.join(__dirname,'Ausgabe/Instanzen.json'))),propCount=rows.filter(r=>r.rotor_id).length;
+ const server=http.createServer((req,res)=>{const file=path.resolve(__dirname,'.'+new URL(req.url,'http://localhost').pathname);if(!file.startsWith(__dirname+'/')){res.writeHead(403);return res.end();}fs.readFile(file,(e,b)=>{if(e){res.writeHead(404);return res.end();}res.setHeader('Content-Type',file.endsWith('.js')?'application/javascript':file.endsWith('.html')?'text/html; charset=utf-8':'application/octet-stream');res.end(b);});});
+ await new Promise(r=>server.listen(0,'127.0.0.1',r));
+ const browser=await chromium.launch({headless:true,executablePath:'/usr/bin/chromium',args:['--no-sandbox','--use-angle=swiftshader','--enable-unsafe-swiftshader']}),page=await browser.newPage({viewport:{width:1550,height:1050}}),errors=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.goto('http://127.0.0.1:'+server.address().port+'/Mechanik.html');await page.waitForFunction(n=>window.D06_VIEWER?.count===n,status.modeled_instances);
+ if(await page.evaluate(()=>D06_VIEWER.gl.getError()))throw Error('Initial WebGL error');
+ await page.uncheck('#propellers');if(await page.evaluate(()=>D06_VIEWER.count)!==status.modeled_instances-propCount)throw Error('Propeller toggle');await page.check('#propellers');
+ await page.locator('#phase').evaluate(el=>{el.value=17;el.dispatchEvent(new Event('input'));});
+ const rotations=await page.evaluate(()=>['R1','R2'].map(id=>{let r=D06_VIEWER.instances.find(r=>r.rotor_id===id&&r.id==='D06_HUB');return [r.matrix[0],r.matrix[1],r.matrix[12],r.matrix[13]];}));
+ if(Math.abs(rotations[0][0]-Math.cos(17*Math.PI/180))>1e-6||Math.abs(rotations[0][1]+rotations[1][1])>1e-6||rotations[0][1]<=0||rotations[1][1]>=0)throw Error('Opposite CW/CCW phase');
+ await page.evaluate(()=>D06_VIEWER.setPhase(0));await page.click('#all');await page.screenshot({timeout:90000,path:path.join(__dirname,'Propeller_Gesamt.png')});
+ await page.click('#top');await page.screenshot({timeout:90000,path:path.join(__dirname,'Propeller_Draufsicht.png')});
+ await page.click('#hub');await page.screenshot({timeout:90000,path:path.join(__dirname,'Propellernabe.png')});
+ await page.click('#blade');await page.check('#inside');if(await page.evaluate(()=>D06_VIEWER.count)!==status.modeled_instances-12)throw Error('Blade interior filter');await page.screenshot({timeout:90000,path:path.join(__dirname,'Blattinneres.png')});await page.uncheck('#inside');
+ await page.click('#collision');if(await page.evaluate(()=>D06_VIEWER.zoom)!==8)throw Error('Collision camera');await page.screenshot({timeout:90000,path:path.join(__dirname,'Rotor_Konflikt.png')});
+ if(!await page.locator('#leftFoot').isDisabled())throw Error('Foot index must be locked');await page.check('#unlock');
+ for(const [id,value]of [['leftFoot','130'],['rightFoot','250']])await page.locator('#'+id).evaluate((el,v)=>{el.value=v;el.dispatchEvent(new Event('input'));},value);
+ if(await page.locator('#leftValue').textContent()!=='130'||await page.locator('#rightValue').textContent()!=='250')throw Error('Foot independent controls');await page.uncheck('#unlock');if(!await page.locator('#rightFoot').isDisabled())throw Error('Relock');
+ await page.setViewportSize({width:480,height:900});await page.click('#all');if(await page.evaluate(()=>D06_VIEWER.gl.getError()))throw Error('Mobile WebGL');if(errors.length)throw Error(errors.join('\n'));
+ fs.writeFileSync(path.join(__dirname,'Ausgabe/Viewer_Pruefung.json'),JSON.stringify({passed:true,instances:status.modeled_instances,propeller_instances:propCount,checks:['Actual native CAD surface meshes','All propellers toggle','Opposite CW/CCW phase around fixed axes','Twelve CFK bodies can be hidden to reveal real foam cores','Stored actual-collision witness camera','Independent indexed foot controls and relock','Mobile viewport'],page_errors:errors},null,2));
+ await browser.close();await new Promise(r=>server.close(r));console.log('D06 viewer passed');
+})().catch(e=>{console.error(e);process.exit(1);});

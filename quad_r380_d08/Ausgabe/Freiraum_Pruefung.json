@@ -1,0 +1,933 @@
+{
+  "native_sha256": "de3278529b6184d32ce460d0c7cbf3da60944b05e532d33dabb217a20f2efdeb",
+  "variants": [
+    {
+      "variant": "V1",
+      "all_four_arms_static_candidates": 772,
+      "all_four_arms_findings": [],
+      "all_four_arms_passed": true,
+      "new_part_max_z_mm": 131.00000000000006,
+      "rotor_min_z_mm": 138.6427315448157,
+      "all_new_parts_rotor_sweep_Z_gap_mm": 7.642731544815632,
+      "all_new_parts_moving_foot_Z_gap_mm": 62.34000019045254,
+      "all_new_parts_clear_of_rotor_and_foot_in_Z": true
+    },
+    {
+      "variant": "V2",
+      "all_four_arms_static_candidates": 1352,
+      "all_four_arms_findings": [
+        {
+          "a": "V2_Motor_45",
+          "b": "R1_U_Cu_Einbau",
+          "volume_mm3": 13.169456317658625
+        },
+        {
+          "a": "V2_Motor_45",
+          "b": "R1_U_Isolation_Einbau",
+          "volume_mm3": 176.9955946313355
+        },
+        {
+          "a": "V2_Motor_45",
+          "b": "R1_V_Cu_Einbau",
+          "volume_mm3": 485.00707982971153
+        },
+        {
+          "a": "V2_Motor_45",
+          "b": "R1_V_Isolation_Einbau",
+          "volume_mm3": 1550.399368310245
+        },
+        {
+          "a": "V2_Motor_45",
+          "b": "R1_W_Cu_Einbau",
+          "volume_mm3": 13.169456317660845
+        },
+        {
+          "a": "V2_Motor_45",
+          "b": "R1_W_Isolation_Einbau",
+          "volume_mm3": 174.2028358675296
+        },
+        {
+          "a": "V2_Tube1_45",
+          "b": "R1_V_Cu_Einbau",
+          "volume_mm3": 60.556246789900264
+        },
+        {
+          "a": "V2_Tube1_45",
+          "b": "R1_V_Isolation_Einbau",
+          "volume_mm3": 124.63502933560719
+        },
+        {
+          "a": "V2_Liner1_motor_45",
+          "b": "R1_V_Cu_Einbau",
+          "volume_mm3": 12.104451966578267
+        },
+        {
+          "a": "V2_Liner1_motor_45",
+          "b": "R1_V_Isolation_Einbau",
+          "volume_mm3": 26.746116888291255
+        },
+        {
+          "a": "V2_Pad1_motor_45",
+          "b": "R1_V_Cu_Einbau",
+          "volume_mm3": 9.689057434201365
+        },
+        {
+          "a": "V2_Pad1_motor_45",
+          "b": "R1_V_Isolation_Einbau",
+          "volume_mm3": 20.588555742176947
+        },
+        {
+          "a": "V2_Motor_135",
+          "b": "R2_U_Cu_Einbau",
+          "volume_mm3": 13.169459492344677
+        },
+        {
+          "a": "V2_Motor_135",
+          "b": "R2_U_Isolation_Einbau",
+          "volume_mm3": 182.21324968368825
+        },
+        {
+          "a": "V2_Motor_135",
+          "b": "R2_V_Cu_Einbau",
+          "volume_mm3": 481.78187300207446
+        },
+        {
+          "a": "V2_Motor_135",
+          "b": "R2_V_Isolation_Einbau",
+          "volume_mm3": 1561.66209447226
+        },
+        {
+          "a": "V2_Motor_135",
+          "b": "R2_W_Cu_Einbau",
+          "volume_mm3": 13.169459492344243
+        },
+        {
+          "a": "V2_Motor_135",
+          "b": "R2_W_Isolation_Einbau",
+          "volume_mm3": 174.2864464453818
+        },
+        {
+          "a": "V2_Tube1_135",
+          "b": "R2_V_Cu_Einbau",
+          "volume_mm3": 60.57835485894198
+        },
+        {
+          "a": "V2_Tube1_135",
+          "b": "R2_V_Isolation_Einbau",
+          "volume_mm3": 124.6809383094518
+        },
+        {
+          "a": "V2_Liner1_motor_135",
+          "b": "R2_V_Cu_Einbau",
+          "volume_mm3": 12.111583622574981
+        },
+        {
+          "a": "V2_Liner1_motor_135",
+          "b": "R2_V_Isolation_Einbau",
+          "volume_mm3": 26.567717834222996
+        },
+        {
+          "a": "V2_Pad1_motor_135",
+          "b": "R2_V_Cu_Einbau",
+          "volume_mm3": 9.689028721395305
+        },
+        {
+          "a": "V2_Pad1_motor_135",
+          "b": "R2_V_Isolation_Einbau",
+          "volume_mm3": 20.587010593214064
+        },
+        {
+          "a": "V2_Motor_225",
+          "b": "R3_U_Cu_Einbau",
+          "volume_mm3": 13.169475386568251
+        },
+        {
+          "a": "V2_Motor_225",
+          "b": "R3_U_Isolation_Einbau",
+          "volume_mm3": 173.58634187095726
+        },
+        {
+          "a": "V2_Motor_225",
+          "b": "R3_V_Cu_Einbau",
+          "volume_mm3": 484.969208505127
+        },
+        {
+          "a": "V2_Motor_225",
+          "b": "R3_V_Isolation_Einbau",
+          "volume_mm3": 1555.141972318067
+        },
+        {
+          "a": "V2_Motor_225",
+          "b": "R3_W_Cu_Einbau",
+          "volume_mm3": 13.169475386567699
+        },
+        {
+          "a": "V2_Motor_225",
+          "b": "R3_W_Isolation_Einbau",
+          "volume_mm3": 174.7072566031697
+        },
+        {
+          "a": "V2_Tube1_225",
+          "b": "R3_V_Cu_Einbau",
+          "volume_mm3": 60.5684964582282
+        },
+        {
+          "a": "V2_Tube1_225",
+          "b": "R3_V_Isolation_Einbau",
+          "volume_mm3": 124.71059384459403
+        },
+        {
+          "a": "V2_Liner1_motor_225",
+          "b": "R3_V_Cu_Einbau",
+          "volume_mm3": 12.109390116250946
+        },
+        {
+          "a": "V2_Liner1_motor_225",
+          "b": "R3_V_Isolation_Einbau",
+          "volume_mm3": 26.62197874086121
+        },
+        {
+          "a": "V2_Pad1_motor_225",
+          "b": "R3_V_Cu_Einbau",
+          "volume_mm3": 9.689039928352143
+        },
+        {
+          "a": "V2_Pad1_motor_225",
+          "b": "R3_V_Isolation_Einbau",
+          "volume_mm3": 20.588012408288858
+        },
+        {
+          "a": "V2_Motor_315",
+          "b": "R4_U_Cu_Einbau",
+          "volume_mm3": 13.169462835724758
+        },
+        {
+          "a": "V2_Motor_315",
+          "b": "R4_U_Isolation_Einbau",
+          "volume_mm3": 175.3020920545543
+        },
+        {
+          "a": "V2_Motor_315",
+          "b": "R4_V_Cu_Einbau",
+          "volume_mm3": 485.08824258984146
+        },
+        {
+          "a": "V2_Motor_315",
+          "b": "R4_V_Isolation_Einbau",
+          "volume_mm3": 1553.2577563554223
+        },
+        {
+          "a": "V2_Motor_315",
+          "b": "R4_W_Cu_Einbau",
+          "volume_mm3": 13.16946283572432
+        },
+        {
+          "a": "V2_Motor_315",
+          "b": "R4_W_Isolation_Einbau",
+          "volume_mm3": 174.62056642440328
+        },
+        {
+          "a": "V2_Tube1_315",
+          "b": "R4_V_Cu_Einbau",
+          "volume_mm3": 60.567281549660855
+        },
+        {
+          "a": "V2_Tube1_315",
+          "b": "R4_V_Isolation_Einbau",
+          "volume_mm3": 124.69491556601469
+        },
+        {
+          "a": "V2_Liner1_motor_315",
+          "b": "R4_V_Cu_Einbau",
+          "volume_mm3": 12.10850433150273
+        },
+        {
+          "a": "V2_Liner1_motor_315",
+          "b": "R4_V_Isolation_Einbau",
+          "volume_mm3": 26.601684017083524
+        },
+        {
+          "a": "V2_Pad1_motor_315",
+          "b": "R4_V_Cu_Einbau",
+          "volume_mm3": 9.688999194721786
+        },
+        {
+          "a": "V2_Pad1_motor_315",
+          "b": "R4_V_Isolation_Einbau",
+          "volume_mm3": 20.587723265364776
+        },
+        {
+          "a": "V2_Hardware025",
+          "b": "R1_U_Isolation_Einbau",
+          "volume_mm3": 10.367049875961877
+        },
+        {
+          "a": "V2_Hardware026",
+          "b": "R1_U_Cu_Einbau",
+          "volume_mm3": 26.54484161801992
+        },
+        {
+          "a": "V2_Hardware026",
+          "b": "R1_U_Isolation_Einbau",
+          "volume_mm3": 38.07055814297664
+        },
+        {
+          "a": "V2_Hardware027",
+          "b": "R1_U_Cu_Einbau",
+          "volume_mm3": 12.047799459029216
+        },
+        {
+          "a": "V2_Hardware027",
+          "b": "R1_U_Isolation_Einbau",
+          "volume_mm3": 38.83042627543481
+        },
+        {
+          "a": "V2_Hardware029",
+          "b": "R1_W_Isolation_Einbau",
+          "volume_mm3": 10.367051360582604
+        },
+        {
+          "a": "V2_Hardware030",
+          "b": "R1_W_Cu_Einbau",
+          "volume_mm3": 26.63260877698786
+        },
+        {
+          "a": "V2_Hardware030",
+          "b": "R1_W_Isolation_Einbau",
+          "volume_mm3": 37.98054287048884
+        },
+        {
+          "a": "V2_Hardware031",
+          "b": "R1_W_Cu_Einbau",
+          "volume_mm3": 12.084445224197026
+        },
+        {
+          "a": "V2_Hardware031",
+          "b": "R1_W_Isolation_Einbau",
+          "volume_mm3": 38.78860998225365
+        },
+        {
+          "a": "V2_Hardware057",
+          "b": "R2_U_Isolation_Einbau",
+          "volume_mm3": 10.3670501438052
+        },
+        {
+          "a": "V2_Hardware058",
+          "b": "R2_U_Cu_Einbau",
+          "volume_mm3": 26.544842904851674
+        },
+        {
+          "a": "V2_Hardware058",
+          "b": "R2_U_Isolation_Einbau",
+          "volume_mm3": 38.070996073285784
+        },
+        {
+          "a": "V2_Hardware059",
+          "b": "R2_U_Cu_Einbau",
+          "volume_mm3": 12.047799274500502
+        },
+        {
+          "a": "V2_Hardware059",
+          "b": "R2_U_Isolation_Einbau",
+          "volume_mm3": 38.83043167196005
+        },
+        {
+          "a": "V2_Hardware061",
+          "b": "R2_W_Isolation_Einbau",
+          "volume_mm3": 10.367054066055147
+        },
+        {
+          "a": "V2_Hardware062",
+          "b": "R2_W_Cu_Einbau",
+          "volume_mm3": 26.632620396440878
+        },
+        {
+          "a": "V2_Hardware062",
+          "b": "R2_W_Isolation_Einbau",
+          "volume_mm3": 37.98054097119103
+        },
+        {
+          "a": "V2_Hardware063",
+          "b": "R2_W_Cu_Einbau",
+          "volume_mm3": 12.084446332598723
+        },
+        {
+          "a": "V2_Hardware063",
+          "b": "R2_W_Isolation_Einbau",
+          "volume_mm3": 38.78858966466688
+        },
+        {
+          "a": "V2_Hardware089",
+          "b": "R3_U_Isolation_Einbau",
+          "volume_mm3": 10.36705110941242
+        },
+        {
+          "a": "V2_Hardware090",
+          "b": "R3_U_Cu_Einbau",
+          "volume_mm3": 26.54486324859882
+        },
+        {
+          "a": "V2_Hardware090",
+          "b": "R3_U_Isolation_Einbau",
+          "volume_mm3": 38.07054536724662
+        },
+        {
+          "a": "V2_Hardware091",
+          "b": "R3_U_Cu_Einbau",
+          "volume_mm3": 12.047800138840685
+        },
+        {
+          "a": "V2_Hardware091",
+          "b": "R3_U_Isolation_Einbau",
+          "volume_mm3": 38.83043381438648
+        },
+        {
+          "a": "V2_Hardware093",
+          "b": "R3_W_Isolation_Einbau",
+          "volume_mm3": 10.367053395613082
+        },
+        {
+          "a": "V2_Hardware094",
+          "b": "R3_W_Cu_Einbau",
+          "volume_mm3": 26.632634865088555
+        },
+        {
+          "a": "V2_Hardware094",
+          "b": "R3_W_Isolation_Einbau",
+          "volume_mm3": 37.98053798999496
+        },
+        {
+          "a": "V2_Hardware095",
+          "b": "R3_W_Cu_Einbau",
+          "volume_mm3": 12.084446341506583
+        },
+        {
+          "a": "V2_Hardware095",
+          "b": "R3_W_Isolation_Einbau",
+          "volume_mm3": 38.788606282367226
+        },
+        {
+          "a": "V2_Hardware121",
+          "b": "R4_U_Isolation_Einbau",
+          "volume_mm3": 10.367054223794574
+        },
+        {
+          "a": "V2_Hardware122",
+          "b": "R4_U_Cu_Einbau",
+          "volume_mm3": 26.5448449830788
+        },
+        {
+          "a": "V2_Hardware122",
+          "b": "R4_U_Isolation_Einbau",
+          "volume_mm3": 38.070995197935666
+        },
+        {
+          "a": "V2_Hardware123",
+          "b": "R4_U_Cu_Einbau",
+          "volume_mm3": 12.047798625943397
+        },
+        {
+          "a": "V2_Hardware123",
+          "b": "R4_U_Isolation_Einbau",
+          "volume_mm3": 38.8304291713297
+        },
+        {
+          "a": "V2_Hardware125",
+          "b": "R4_W_Isolation_Einbau",
+          "volume_mm3": 10.367052503986654
+        },
+        {
+          "a": "V2_Hardware126",
+          "b": "R4_W_Cu_Einbau",
+          "volume_mm3": 26.63263457850148
+        },
+        {
+          "a": "V2_Hardware126",
+          "b": "R4_W_Isolation_Einbau",
+          "volume_mm3": 37.98054426547826
+        },
+        {
+          "a": "V2_Hardware127",
+          "b": "R4_W_Cu_Einbau",
+          "volume_mm3": 12.084446024929623
+        },
+        {
+          "a": "V2_Hardware127",
+          "b": "R4_W_Isolation_Einbau",
+          "volume_mm3": 38.788607648747664
+        }
+      ],
+      "all_four_arms_passed": false,
+      "new_part_max_z_mm": 131.00000000000006,
+      "rotor_min_z_mm": 138.6427315448157,
+      "all_new_parts_rotor_sweep_Z_gap_mm": 7.642731544815632,
+      "all_new_parts_moving_foot_Z_gap_mm": 62.34000019045254,
+      "all_new_parts_clear_of_rotor_and_foot_in_Z": true
+    },
+    {
+      "variant": "V3",
+      "all_four_arms_static_candidates": 1408,
+      "all_four_arms_findings": [],
+      "all_four_arms_passed": true,
+      "new_part_max_z_mm": 131.00000000000006,
+      "rotor_min_z_mm": 138.6427315448157,
+      "all_new_parts_rotor_sweep_Z_gap_mm": 7.642731544815632,
+      "all_new_parts_moving_foot_Z_gap_mm": 62.34000019045254,
+      "all_new_parts_clear_of_rotor_and_foot_in_Z": true
+    },
+    {
+      "variant": "V4",
+      "all_four_arms_static_candidates": 1906,
+      "all_four_arms_findings": [
+        {
+          "a": "V4_Motor_45",
+          "b": "R1_U_Cu_Einbau",
+          "volume_mm3": 4.828243018654538
+        },
+        {
+          "a": "V4_Motor_45",
+          "b": "R1_U_Isolation_Einbau",
+          "volume_mm3": 140.52207632082482
+        },
+        {
+          "a": "V4_Motor_45",
+          "b": "R1_V_Cu_Einbau",
+          "volume_mm3": 492.0980785295273
+        },
+        {
+          "a": "V4_Motor_45",
+          "b": "R1_V_Isolation_Einbau",
+          "volume_mm3": 1544.185509192005
+        },
+        {
+          "a": "V4_Motor_45",
+          "b": "R1_W_Cu_Einbau",
+          "volume_mm3": 4.828243018655727
+        },
+        {
+          "a": "V4_Motor_45",
+          "b": "R1_W_Isolation_Einbau",
+          "volume_mm3": 142.5175085409203
+        },
+        {
+          "a": "V4_Tube2_45",
+          "b": "R1_V_Cu_Einbau",
+          "volume_mm3": 57.24098340944846
+        },
+        {
+          "a": "V4_Tube2_45",
+          "b": "R1_V_Isolation_Einbau",
+          "volume_mm3": 113.41208954162413
+        },
+        {
+          "a": "V4_Liner2_motor_45",
+          "b": "R1_V_Cu_Einbau",
+          "volume_mm3": 11.439016635172745
+        },
+        {
+          "a": "V4_Liner2_motor_45",
+          "b": "R1_V_Isolation_Einbau",
+          "volume_mm3": 24.529955185162457
+        },
+        {
+          "a": "V4_Pad2_motor_45",
+          "b": "R1_V_Cu_Einbau",
+          "volume_mm3": 10.086589092002257
+        },
+        {
+          "a": "V4_Pad2_motor_45",
+          "b": "R1_V_Isolation_Einbau",
+          "volume_mm3": 20.909494638895904
+        },
+        {
+          "a": "V4_Motor_135",
+          "b": "R2_U_Cu_Einbau",
+          "volume_mm3": 4.828247989607169
+        },
+        {
+          "a": "V4_Motor_135",
+          "b": "R2_U_Isolation_Einbau",
+          "volume_mm3": 140.76012485338353
+        },
+        {
+          "a": "V4_Motor_135",
+          "b": "R2_V_Cu_Einbau",
+          "volume_mm3": 491.6088410345625
+        },
+        {
+          "a": "V4_Motor_135",
+          "b": "R2_V_Isolation_Einbau",
+          "volume_mm3": 1541.7886121989632
+        },
+        {
+          "a": "V4_Motor_135",
+          "b": "R2_W_Cu_Einbau",
+          "volume_mm3": 4.828247989606216
+        },
+        {
+          "a": "V4_Motor_135",
+          "b": "R2_W_Isolation_Einbau",
+          "volume_mm3": 142.25342094263956
+        },
+        {
+          "a": "V4_Tube2_135",
+          "b": "R2_V_Cu_Einbau",
+          "volume_mm3": 57.25546432789043
+        },
+        {
+          "a": "V4_Tube2_135",
+          "b": "R2_V_Isolation_Einbau",
+          "volume_mm3": 113.33915747749396
+        },
+        {
+          "a": "V4_Liner2_motor_135",
+          "b": "R2_V_Cu_Einbau",
+          "volume_mm3": 11.443775789471566
+        },
+        {
+          "a": "V4_Liner2_motor_135",
+          "b": "R2_V_Isolation_Einbau",
+          "volume_mm3": 24.602879427840126
+        },
+        {
+          "a": "V4_Pad2_motor_135",
+          "b": "R2_V_Cu_Einbau",
+          "volume_mm3": 10.086585813214294
+        },
+        {
+          "a": "V4_Pad2_motor_135",
+          "b": "R2_V_Isolation_Einbau",
+          "volume_mm3": 20.909568410680016
+        },
+        {
+          "a": "V4_Motor_225",
+          "b": "R3_U_Cu_Einbau",
+          "volume_mm3": 4.828241766067451
+        },
+        {
+          "a": "V4_Motor_225",
+          "b": "R3_U_Isolation_Einbau",
+          "volume_mm3": 143.0848100650844
+        },
+        {
+          "a": "V4_Motor_225",
+          "b": "R3_V_Cu_Einbau",
+          "volume_mm3": 492.36704635411684
+        },
+        {
+          "a": "V4_Motor_225",
+          "b": "R3_V_Isolation_Einbau",
+          "volume_mm3": 1541.3684059032105
+        },
+        {
+          "a": "V4_Motor_225",
+          "b": "R3_W_Cu_Einbau",
+          "volume_mm3": 4.8282417660672765
+        },
+        {
+          "a": "V4_Motor_225",
+          "b": "R3_W_Isolation_Einbau",
+          "volume_mm3": 142.22552410510548
+        },
+        {
+          "a": "V4_Tube2_225",
+          "b": "R3_V_Cu_Einbau",
+          "volume_mm3": 57.248463210324005
+        },
+        {
+          "a": "V4_Tube2_225",
+          "b": "R3_V_Isolation_Einbau",
+          "volume_mm3": 113.37297114932889
+        },
+        {
+          "a": "V4_Liner2_motor_225",
+          "b": "R3_V_Cu_Einbau",
+          "volume_mm3": 11.44297016602252
+        },
+        {
+          "a": "V4_Liner2_motor_225",
+          "b": "R3_V_Isolation_Einbau",
+          "volume_mm3": 24.583208643774363
+        },
+        {
+          "a": "V4_Pad2_motor_225",
+          "b": "R3_V_Cu_Einbau",
+          "volume_mm3": 10.086583480302632
+        },
+        {
+          "a": "V4_Pad2_motor_225",
+          "b": "R3_V_Isolation_Einbau",
+          "volume_mm3": 20.91000949649596
+        },
+        {
+          "a": "V4_Motor_315",
+          "b": "R4_U_Cu_Einbau",
+          "volume_mm3": 4.8282410500593915
+        },
+        {
+          "a": "V4_Motor_315",
+          "b": "R4_U_Isolation_Einbau",
+          "volume_mm3": 142.4659530760752
+        },
+        {
+          "a": "V4_Motor_315",
+          "b": "R4_V_Cu_Einbau",
+          "volume_mm3": 491.198802890536
+        },
+        {
+          "a": "V4_Motor_315",
+          "b": "R4_V_Isolation_Einbau",
+          "volume_mm3": 1541.725196062306
+        },
+        {
+          "a": "V4_Motor_315",
+          "b": "R4_W_Cu_Einbau",
+          "volume_mm3": 4.8282410500607345
+        },
+        {
+          "a": "V4_Motor_315",
+          "b": "R4_W_Isolation_Einbau",
+          "volume_mm3": 143.7556227470374
+        },
+        {
+          "a": "V4_Tube2_315",
+          "b": "R4_V_Cu_Einbau",
+          "volume_mm3": 57.248573786650695
+        },
+        {
+          "a": "V4_Tube2_315",
+          "b": "R4_V_Isolation_Einbau",
+          "volume_mm3": 113.3555040880139
+        },
+        {
+          "a": "V4_Liner2_motor_315",
+          "b": "R4_V_Cu_Einbau",
+          "volume_mm3": 11.442598358759692
+        },
+        {
+          "a": "V4_Liner2_motor_315",
+          "b": "R4_V_Isolation_Einbau",
+          "volume_mm3": 24.59529861181135
+        },
+        {
+          "a": "V4_Pad2_motor_315",
+          "b": "R4_V_Cu_Einbau",
+          "volume_mm3": 10.086601203583786
+        },
+        {
+          "a": "V4_Pad2_motor_315",
+          "b": "R4_V_Isolation_Einbau",
+          "volume_mm3": 20.909508673050325
+        },
+        {
+          "a": "V4_Hardware041",
+          "b": "R1_U_Isolation_Einbau",
+          "volume_mm3": 5.5610700915426845
+        },
+        {
+          "a": "V4_Hardware042",
+          "b": "R1_U_Cu_Einbau",
+          "volume_mm3": 15.73094493922031
+        },
+        {
+          "a": "V4_Hardware042",
+          "b": "R1_U_Isolation_Einbau",
+          "volume_mm3": 35.61473977172587
+        },
+        {
+          "a": "V4_Hardware043",
+          "b": "R1_U_Cu_Einbau",
+          "volume_mm3": 2.9939387766522634
+        },
+        {
+          "a": "V4_Hardware043",
+          "b": "R1_U_Isolation_Einbau",
+          "volume_mm3": 31.890233133679818
+        },
+        {
+          "a": "V4_Hardware045",
+          "b": "R1_W_Isolation_Einbau",
+          "volume_mm3": 5.561069812645263
+        },
+        {
+          "a": "V4_Hardware046",
+          "b": "R1_W_Cu_Einbau",
+          "volume_mm3": 15.82996027973808
+        },
+        {
+          "a": "V4_Hardware046",
+          "b": "R1_W_Isolation_Einbau",
+          "volume_mm3": 35.50632119272562
+        },
+        {
+          "a": "V4_Hardware047",
+          "b": "R1_W_Cu_Einbau",
+          "volume_mm3": 3.1494392530762974
+        },
+        {
+          "a": "V4_Hardware047",
+          "b": "R1_W_Isolation_Einbau",
+          "volume_mm3": 31.467671215908343
+        },
+        {
+          "a": "V4_Hardware089",
+          "b": "R2_U_Isolation_Einbau",
+          "volume_mm3": 5.561070285980033
+        },
+        {
+          "a": "V4_Hardware090",
+          "b": "R2_U_Cu_Einbau",
+          "volume_mm3": 15.730944544223338
+        },
+        {
+          "a": "V4_Hardware090",
+          "b": "R2_U_Isolation_Einbau",
+          "volume_mm3": 35.61457656703771
+        },
+        {
+          "a": "V4_Hardware091",
+          "b": "R2_U_Cu_Einbau",
+          "volume_mm3": 2.99393801498415
+        },
+        {
+          "a": "V4_Hardware091",
+          "b": "R2_U_Isolation_Einbau",
+          "volume_mm3": 31.888317418819497
+        },
+        {
+          "a": "V4_Hardware093",
+          "b": "R2_W_Isolation_Einbau",
+          "volume_mm3": 5.561069591976002
+        },
+        {
+          "a": "V4_Hardware094",
+          "b": "R2_W_Cu_Einbau",
+          "volume_mm3": 15.829968901891172
+        },
+        {
+          "a": "V4_Hardware094",
+          "b": "R2_W_Isolation_Einbau",
+          "volume_mm3": 35.506295494692104
+        },
+        {
+          "a": "V4_Hardware095",
+          "b": "R2_W_Cu_Einbau",
+          "volume_mm3": 3.149439307692574
+        },
+        {
+          "a": "V4_Hardware095",
+          "b": "R2_W_Isolation_Einbau",
+          "volume_mm3": 31.467683115678412
+        },
+        {
+          "a": "V4_Hardware137",
+          "b": "R3_U_Isolation_Einbau",
+          "volume_mm3": 5.561070218414835
+        },
+        {
+          "a": "V4_Hardware138",
+          "b": "R3_U_Cu_Einbau",
+          "volume_mm3": 15.730946675530063
+        },
+        {
+          "a": "V4_Hardware138",
+          "b": "R3_U_Isolation_Einbau",
+          "volume_mm3": 35.61456383109645
+        },
+        {
+          "a": "V4_Hardware139",
+          "b": "R3_U_Cu_Einbau",
+          "volume_mm3": 2.993938245431496
+        },
+        {
+          "a": "V4_Hardware139",
+          "b": "R3_U_Isolation_Einbau",
+          "volume_mm3": 31.888350030113127
+        },
+        {
+          "a": "V4_Hardware141",
+          "b": "R3_W_Isolation_Einbau",
+          "volume_mm3": 5.5610694406197325
+        },
+        {
+          "a": "V4_Hardware142",
+          "b": "R3_W_Cu_Einbau",
+          "volume_mm3": 15.82996427592383
+        },
+        {
+          "a": "V4_Hardware142",
+          "b": "R3_W_Isolation_Einbau",
+          "volume_mm3": 35.50630673514399
+        },
+        {
+          "a": "V4_Hardware143",
+          "b": "R3_W_Cu_Einbau",
+          "volume_mm3": 3.1494393375609127
+        },
+        {
+          "a": "V4_Hardware143",
+          "b": "R3_W_Isolation_Einbau",
+          "volume_mm3": 31.467674785152006
+        },
+        {
+          "a": "V4_Hardware185",
+          "b": "R4_U_Isolation_Einbau",
+          "volume_mm3": 5.561070416324725
+        },
+        {
+          "a": "V4_Hardware186",
+          "b": "R4_U_Cu_Einbau",
+          "volume_mm3": 15.73094336491407
+        },
+        {
+          "a": "V4_Hardware186",
+          "b": "R4_U_Isolation_Einbau",
+          "volume_mm3": 35.61457782748578
+        },
+        {
+          "a": "V4_Hardware187",
+          "b": "R4_U_Cu_Einbau",
+          "volume_mm3": 2.993935383256311
+        },
+        {
+          "a": "V4_Hardware187",
+          "b": "R4_U_Isolation_Einbau",
+          "volume_mm3": 31.888348670056683
+        },
+        {
+          "a": "V4_Hardware189",
+          "b": "R4_W_Isolation_Einbau",
+          "volume_mm3": 5.561069748482452
+        },
+        {
+          "a": "V4_Hardware190",
+          "b": "R4_W_Cu_Einbau",
+          "volume_mm3": 15.829964016346516
+        },
+        {
+          "a": "V4_Hardware190",
+          "b": "R4_W_Isolation_Einbau",
+          "volume_mm3": 35.506332735301314
+        },
+        {
+          "a": "V4_Hardware191",
+          "b": "R4_W_Cu_Einbau",
+          "volume_mm3": 3.1494395109484064
+        },
+        {
+          "a": "V4_Hardware191",
+          "b": "R4_W_Isolation_Einbau",
+          "volume_mm3": 31.46765507973587
+        }
+      ],
+      "all_four_arms_passed": false,
+      "new_part_max_z_mm": 131.00000000000006,
+      "rotor_min_z_mm": 138.6427315448157,
+      "all_new_parts_rotor_sweep_Z_gap_mm": 7.642731544815632,
+      "all_new_parts_moving_foot_Z_gap_mm": 62.34000019045254,
+      "all_new_parts_clear_of_rotor_and_foot_in_Z": true
+    }
+  ],
+  "threshold_mm3": 0.1,
+  "scope": "All four connections including actual clamp hardware against each other and every shared current frame neighbour,at static default pose. Full-Z-separation screen of every new arm component at every corner versus the retained rotor sweep and moving foot systems. Nominal rigid shapes only; no preload,tolerance,deflection or global-flight release. Rotor clearance evaluated separately in Rotor_Pruefung.json."
+}

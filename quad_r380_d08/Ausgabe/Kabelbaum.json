@@ -1,0 +1,822 @@
+{
+  "native_sha256": "163948a12f892979e081fa6aa36698603b8d0526e011affe1db95e3904f6788c",
+  "nets": [
+    {
+      "net": "R1_DC_minus",
+      "circuit": "DC branch",
+      "from_port": "Verteiler_R1_DC_minus",
+      "to_port": "ESC1_DC_minus_Planport",
+      "conductor_mm2": 35,
+      "assumed_outer_diameter_mm": 12,
+      "length_mm": 200.0,
+      "minimum_sampled_bend_radius_mm": null,
+      "control_points_mm": [
+        [
+          83.43860018001261,
+          57.98275605729688,
+          -180.0
+        ],
+        [
+          154.14927829866735,
+          128.69343417595164,
+          -180.0
+        ],
+        [
+          224.8599564173221,
+          199.4041122946064,
+          -180.0
+        ]
+      ],
+      "terminations_verified": false,
+      "ampacity_verified": false
+    },
+    {
+      "net": "R1_DC_plus",
+      "circuit": "DC branch",
+      "from_port": "Verteiler_R1_DC_plus",
+      "to_port": "ESC1_DC_plus_Planport",
+      "conductor_mm2": 35,
+      "assumed_outer_diameter_mm": 12,
+      "length_mm": 200.0,
+      "minimum_sampled_bend_radius_mm": null,
+      "control_points_mm": [
+        [
+          57.982756057296896,
+          83.4386001800126,
+          -180.0
+        ],
+        [
+          128.69343417595167,
+          154.14927829866733,
+          -180.0
+        ],
+        [
+          199.40411229460642,
+          224.85995641732208,
+          -180.0
+        ]
+      ],
+      "terminations_verified": false,
+      "ampacity_verified": false
+    },
+    {
+      "net": "R1_U",
+      "circuit": "motor phase",
+      "from_port": "ESC1_U_Planport",
+      "to_port": "MN1330_1_U_OEM_Kabelende_offen",
+      "conductor_mm2": 25,
+      "assumed_outer_diameter_mm": 10,
+      "length_mm": 367.3623870371968,
+      "minimum_sampled_bend_radius_mm": 343.54374111304367,
+      "control_points_mm": [
+        [
+          239.00209204105306,
+          213.54624791833734,
+          -150.0
+        ],
+        [
+          309.7127701597078,
+          284.25692603699207,
+          -130.0
+        ],
+        [
+          394.5655839020935,
+          369.1097397793778,
+          -100.0
+        ],
+        [
+          482.953931550412,
+          457.4980874276962,
+          -35.0
+        ]
+      ],
+      "terminations_verified": false,
+      "ampacity_verified": false
+    },
+    {
+      "net": "R1_V",
+      "circuit": "motor phase",
+      "from_port": "ESC1_V_Planport",
+      "to_port": "MN1330_1_V_OEM_Kabelende_offen",
+      "conductor_mm2": 25,
+      "assumed_outer_diameter_mm": 10,
+      "length_mm": 367.3623870371968,
+      "minimum_sampled_bend_radius_mm": 343.543741113047,
+      "control_points_mm": [
+        [
+          226.27416997969522,
+          226.2741699796952,
+          -150.0
+        ],
+        [
+          296.98484809834997,
+          296.9848480983499,
+          -130.0
+        ],
+        [
+          381.8376618407357,
+          381.8376618407356,
+          -100.0
+        ],
+        [
+          470.22600948905415,
+          470.22600948905404,
+          -35.0
+        ]
+      ],
+      "terminations_verified": false,
+      "ampacity_verified": false
+    },
+    {
+      "net": "R1_W",
+      "circuit": "motor phase",
+      "from_port": "ESC1_W_Planport",
+      "to_port": "MN1330_1_W_OEM_Kabelende_offen",
+      "conductor_mm2": 25,
+      "assumed_outer_diameter_mm": 10,
+      "length_mm": 367.36238703719675,
+      "minimum_sampled_bend_radius_mm": 343.543741113047,
+      "control_points_mm": [
+        [
+          213.54624791833737,
+          239.00209204105303,
+          -150.0
+        ],
+        [
+          284.2569260369921,
+          309.71277015970776,
+          -130.0
+        ],
+        [
+          369.10973977937783,
+          394.56558390209346,
+          -100.0
+        ],
+        [
+          457.4980874276963,
+          482.9539315504119,
+          -35.0
+        ]
+      ],
+      "terminations_verified": false,
+      "ampacity_verified": false
+    },
+    {
+      "net": "R1_Signal",
+      "circuit": "control harness envelope",
+      "from_port": "Flightcontroller_Planport",
+      "to_port": "ESC1_Signal_Pinout_offen",
+      "conductor_mm2": 0.5,
+      "assumed_outer_diameter_mm": 5,
+      "length_mm": 200.0,
+      "minimum_sampled_bend_radius_mm": null,
+      "control_points_mm": [
+        [
+          36.76955262170048,
+          104.65180361560903,
+          -200.0
+        ],
+        [
+          107.48023074035524,
+          175.36248173426378,
+          -200.0
+        ],
+        [
+          178.19090885901,
+          246.07315985291854,
+          -200.0
+        ]
+      ],
+      "terminations_verified": false,
+      "ampacity_verified": false
+    },
+    {
+      "net": "R2_DC_minus",
+      "circuit": "DC branch",
+      "from_port": "Verteiler_R2_DC_minus",
+      "to_port": "ESC2_DC_minus_Planport",
+      "conductor_mm2": 35,
+      "assumed_outer_diameter_mm": 12,
+      "length_mm": 200.0,
+      "minimum_sampled_bend_radius_mm": null,
+      "control_points_mm": [
+        [
+          -57.98275605729688,
+          83.43860018001261,
+          -180.0
+        ],
+        [
+          -128.69343417595164,
+          154.14927829866735,
+          -180.0
+        ],
+        [
+          -199.4041122946064,
+          224.8599564173221,
+          -180.0
+        ]
+      ],
+      "terminations_verified": false,
+      "ampacity_verified": false
+    },
+    {
+      "net": "R2_DC_plus",
+      "circuit": "DC branch",
+      "from_port": "Verteiler_R2_DC_plus",
+      "to_port": "ESC2_DC_plus_Planport",
+      "conductor_mm2": 35,
+      "assumed_outer_diameter_mm": 12,
+      "length_mm": 200.0,
+      "minimum_sampled_bend_radius_mm": null,
+      "control_points_mm": [
+        [
+          -83.4386001800126,
+          57.982756057296896,
+          -180.0
+        ],
+        [
+          -154.14927829866733,
+          128.69343417595167,
+          -180.0
+        ],
+        [
+          -224.85995641732208,
+          199.40411229460642,
+          -180.0
+        ]
+      ],
+      "terminations_verified": false,
+      "ampacity_verified": false
+    },
+    {
+      "net": "R2_U",
+      "circuit": "motor phase",
+      "from_port": "ESC2_U_Planport",
+      "to_port": "MN1330_2_U_OEM_Kabelende_offen",
+      "conductor_mm2": 25,
+      "assumed_outer_diameter_mm": 10,
+      "length_mm": 367.3623870371968,
+      "minimum_sampled_bend_radius_mm": 343.54374111304367,
+      "control_points_mm": [
+        [
+          -213.54624791833734,
+          239.00209204105306,
+          -150.0
+        ],
+        [
+          -284.25692603699207,
+          309.7127701597078,
+          -130.0
+        ],
+        [
+          -369.1097397793778,
+          394.5655839020935,
+          -100.0
+        ],
+        [
+          -457.4980874276962,
+          482.953931550412,
+          -35.0
+        ]
+      ],
+      "terminations_verified": false,
+      "ampacity_verified": false
+    },
+    {
+      "net": "R2_V",
+      "circuit": "motor phase",
+      "from_port": "ESC2_V_Planport",
+      "to_port": "MN1330_2_V_OEM_Kabelende_offen",
+      "conductor_mm2": 25,
+      "assumed_outer_diameter_mm": 10,
+      "length_mm": 367.3623870371968,
+      "minimum_sampled_bend_radius_mm": 343.543741113047,
+      "control_points_mm": [
+        [
+          -226.2741699796952,
+          226.27416997969522,
+          -150.0
+        ],
+        [
+          -296.9848480983499,
+          296.98484809834997,
+          -130.0
+        ],
+        [
+          -381.8376618407356,
+          381.8376618407357,
+          -100.0
+        ],
+        [
+          -470.22600948905404,
+          470.22600948905415,
+          -35.0
+        ]
+      ],
+      "terminations_verified": false,
+      "ampacity_verified": false
+    },
+    {
+      "net": "R2_W",
+      "circuit": "motor phase",
+      "from_port": "ESC2_W_Planport",
+      "to_port": "MN1330_2_W_OEM_Kabelende_offen",
+      "conductor_mm2": 25,
+      "assumed_outer_diameter_mm": 10,
+      "length_mm": 367.36238703719675,
+      "minimum_sampled_bend_radius_mm": 343.543741113047,
+      "control_points_mm": [
+        [
+          -239.00209204105303,
+          213.54624791833737,
+          -150.0
+        ],
+        [
+          -309.71277015970776,
+          284.2569260369921,
+          -130.0
+        ],
+        [
+          -394.56558390209346,
+          369.10973977937783,
+          -100.0
+        ],
+        [
+          -482.9539315504119,
+          457.4980874276963,
+          -35.0
+        ]
+      ],
+      "terminations_verified": false,
+      "ampacity_verified": false
+    },
+    {
+      "net": "R2_Signal",
+      "circuit": "control harness envelope",
+      "from_port": "Flightcontroller_Planport",
+      "to_port": "ESC2_Signal_Pinout_offen",
+      "conductor_mm2": 0.5,
+      "assumed_outer_diameter_mm": 5,
+      "length_mm": 200.0,
+      "minimum_sampled_bend_radius_mm": null,
+      "control_points_mm": [
+        [
+          -104.65180361560903,
+          36.76955262170048,
+          -200.0
+        ],
+        [
+          -175.36248173426378,
+          107.48023074035524,
+          -200.0
+        ],
+        [
+          -246.07315985291854,
+          178.19090885901,
+          -200.0
+        ]
+      ],
+      "terminations_verified": false,
+      "ampacity_verified": false
+    },
+    {
+      "net": "R3_DC_minus",
+      "circuit": "DC branch",
+      "from_port": "Verteiler_R3_DC_minus",
+      "to_port": "ESC3_DC_minus_Planport",
+      "conductor_mm2": 35,
+      "assumed_outer_diameter_mm": 12,
+      "length_mm": 200.0,
+      "minimum_sampled_bend_radius_mm": null,
+      "control_points_mm": [
+        [
+          -83.43860018001263,
+          -57.98275605729688,
+          -180.0
+        ],
+        [
+          -154.14927829866738,
+          -128.6934341759516,
+          -180.0
+        ],
+        [
+          -224.85995641732214,
+          -199.40411229460636,
+          -180.0
+        ]
+      ],
+      "terminations_verified": false,
+      "ampacity_verified": false
+    },
+    {
+      "net": "R3_DC_plus",
+      "circuit": "DC branch",
+      "from_port": "Verteiler_R3_DC_plus",
+      "to_port": "ESC3_DC_plus_Planport",
+      "conductor_mm2": 35,
+      "assumed_outer_diameter_mm": 12,
+      "length_mm": 200.0,
+      "minimum_sampled_bend_radius_mm": null,
+      "control_points_mm": [
+        [
+          -57.98275605729691,
+          -83.4386001800126,
+          -180.0
+        ],
+        [
+          -128.6934341759517,
+          -154.14927829866735,
+          -180.0
+        ],
+        [
+          -199.40411229460645,
+          -224.8599564173221,
+          -180.0
+        ]
+      ],
+      "terminations_verified": false,
+      "ampacity_verified": false
+    },
+    {
+      "net": "R3_U",
+      "circuit": "motor phase",
+      "from_port": "ESC3_U_Planport",
+      "to_port": "MN1330_3_U_OEM_Kabelende_offen",
+      "conductor_mm2": 25,
+      "assumed_outer_diameter_mm": 10,
+      "length_mm": 367.3623870371968,
+      "minimum_sampled_bend_radius_mm": 343.54374111304423,
+      "control_points_mm": [
+        [
+          -239.00209204105312,
+          -213.54624791833731,
+          -150.0
+        ],
+        [
+          -309.7127701597079,
+          -284.25692603699207,
+          -130.0
+        ],
+        [
+          -394.5655839020936,
+          -369.1097397793778,
+          -100.0
+        ],
+        [
+          -482.95393155041205,
+          -457.4980874276962,
+          -35.0
+        ]
+      ],
+      "terminations_verified": false,
+      "ampacity_verified": false
+    },
+    {
+      "net": "R3_V",
+      "circuit": "motor phase",
+      "from_port": "ESC3_V_Planport",
+      "to_port": "MN1330_3_V_OEM_Kabelende_offen",
+      "conductor_mm2": 25,
+      "assumed_outer_diameter_mm": 10,
+      "length_mm": 367.3623870371968,
+      "minimum_sampled_bend_radius_mm": 343.5437411130475,
+      "control_points_mm": [
+        [
+          -226.27416997969527,
+          -226.2741699796952,
+          -150.0
+        ],
+        [
+          -296.98484809835,
+          -296.9848480983499,
+          -130.0
+        ],
+        [
+          -381.83766184073573,
+          -381.8376618407356,
+          -100.0
+        ],
+        [
+          -470.2260094890542,
+          -470.22600948905404,
+          -35.0
+        ]
+      ],
+      "terminations_verified": false,
+      "ampacity_verified": false
+    },
+    {
+      "net": "R3_W",
+      "circuit": "motor phase",
+      "from_port": "ESC3_W_Planport",
+      "to_port": "MN1330_3_W_OEM_Kabelende_offen",
+      "conductor_mm2": 25,
+      "assumed_outer_diameter_mm": 10,
+      "length_mm": 367.36238703719675,
+      "minimum_sampled_bend_radius_mm": 343.54374111304503,
+      "control_points_mm": [
+        [
+          -213.54624791833743,
+          -239.00209204105306,
+          -150.0
+        ],
+        [
+          -284.2569260369922,
+          -309.71277015970776,
+          -130.0
+        ],
+        [
+          -369.1097397793779,
+          -394.56558390209346,
+          -100.0
+        ],
+        [
+          -457.49808742769636,
+          -482.9539315504119,
+          -35.0
+        ]
+      ],
+      "terminations_verified": false,
+      "ampacity_verified": false
+    },
+    {
+      "net": "R3_Signal",
+      "circuit": "control harness envelope",
+      "from_port": "Flightcontroller_Planport",
+      "to_port": "ESC3_Signal_Pinout_offen",
+      "conductor_mm2": 0.5,
+      "assumed_outer_diameter_mm": 5,
+      "length_mm": 200.0,
+      "minimum_sampled_bend_radius_mm": null,
+      "control_points_mm": [
+        [
+          -36.76955262170049,
+          -104.65180361560903,
+          -200.0
+        ],
+        [
+          -107.48023074035527,
+          -175.36248173426378,
+          -200.0
+        ],
+        [
+          -178.19090885901002,
+          -246.07315985291854,
+          -200.0
+        ]
+      ],
+      "terminations_verified": false,
+      "ampacity_verified": false
+    },
+    {
+      "net": "R4_DC_minus",
+      "circuit": "DC branch",
+      "from_port": "Verteiler_R4_DC_minus",
+      "to_port": "ESC4_DC_minus_Planport",
+      "conductor_mm2": 35,
+      "assumed_outer_diameter_mm": 12,
+      "length_mm": 200.0,
+      "minimum_sampled_bend_radius_mm": null,
+      "control_points_mm": [
+        [
+          57.98275605729688,
+          -83.43860018001263,
+          -180.0
+        ],
+        [
+          128.6934341759516,
+          -154.14927829866738,
+          -180.0
+        ],
+        [
+          199.40411229460636,
+          -224.85995641732214,
+          -180.0
+        ]
+      ],
+      "terminations_verified": false,
+      "ampacity_verified": false
+    },
+    {
+      "net": "R4_DC_plus",
+      "circuit": "DC branch",
+      "from_port": "Verteiler_R4_DC_plus",
+      "to_port": "ESC4_DC_plus_Planport",
+      "conductor_mm2": 35,
+      "assumed_outer_diameter_mm": 12,
+      "length_mm": 200.0,
+      "minimum_sampled_bend_radius_mm": null,
+      "control_points_mm": [
+        [
+          83.4386001800126,
+          -57.98275605729692,
+          -180.0
+        ],
+        [
+          154.14927829866735,
+          -128.6934341759517,
+          -180.0
+        ],
+        [
+          224.85995641732205,
+          -199.40411229460645,
+          -180.0
+        ]
+      ],
+      "terminations_verified": false,
+      "ampacity_verified": false
+    },
+    {
+      "net": "R4_U",
+      "circuit": "motor phase",
+      "from_port": "ESC4_U_Planport",
+      "to_port": "MN1330_4_U_OEM_Kabelende_offen",
+      "conductor_mm2": 25,
+      "assumed_outer_diameter_mm": 10,
+      "length_mm": 367.36238703719675,
+      "minimum_sampled_bend_radius_mm": 343.543741113047,
+      "control_points_mm": [
+        [
+          213.54624791833731,
+          -239.00209204105312,
+          -150.0
+        ],
+        [
+          284.25692603699207,
+          -309.7127701597079,
+          -130.0
+        ],
+        [
+          369.1097397793777,
+          -394.5655839020936,
+          -100.0
+        ],
+        [
+          457.49808742769613,
+          -482.95393155041205,
+          -35.0
+        ]
+      ],
+      "terminations_verified": false,
+      "ampacity_verified": false
+    },
+    {
+      "net": "R4_V",
+      "circuit": "motor phase",
+      "from_port": "ESC4_V_Planport",
+      "to_port": "MN1330_4_V_OEM_Kabelende_offen",
+      "conductor_mm2": 25,
+      "assumed_outer_diameter_mm": 10,
+      "length_mm": 367.36238703719675,
+      "minimum_sampled_bend_radius_mm": 343.5437411130466,
+      "control_points_mm": [
+        [
+          226.27416997969516,
+          -226.27416997969527,
+          -150.0
+        ],
+        [
+          296.9848480983499,
+          -296.98484809835,
+          -130.0
+        ],
+        [
+          381.83766184073556,
+          -381.83766184073573,
+          -100.0
+        ],
+        [
+          470.226009489054,
+          -470.2260094890542,
+          -35.0
+        ]
+      ],
+      "terminations_verified": false,
+      "ampacity_verified": false
+    },
+    {
+      "net": "R4_W",
+      "circuit": "motor phase",
+      "from_port": "ESC4_W_Planport",
+      "to_port": "MN1330_4_W_OEM_Kabelende_offen",
+      "conductor_mm2": 25,
+      "assumed_outer_diameter_mm": 10,
+      "length_mm": 367.36238703719675,
+      "minimum_sampled_bend_radius_mm": 343.5437411130442,
+      "control_points_mm": [
+        [
+          239.002092041053,
+          -213.54624791833743,
+          -150.0
+        ],
+        [
+          309.71277015970776,
+          -284.2569260369922,
+          -130.0
+        ],
+        [
+          394.5655839020934,
+          -369.1097397793779,
+          -100.0
+        ],
+        [
+          482.9539315504118,
+          -457.49808742769636,
+          -35.0
+        ]
+      ],
+      "terminations_verified": false,
+      "ampacity_verified": false
+    },
+    {
+      "net": "R4_Signal",
+      "circuit": "control harness envelope",
+      "from_port": "Flightcontroller_Planport",
+      "to_port": "ESC4_Signal_Pinout_offen",
+      "conductor_mm2": 0.5,
+      "assumed_outer_diameter_mm": 5,
+      "length_mm": 199.99999999999997,
+      "minimum_sampled_bend_radius_mm": null,
+      "control_points_mm": [
+        [
+          104.65180361560903,
+          -36.7695526217005,
+          -200.0
+        ],
+        [
+          175.36248173426378,
+          -107.48023074035527,
+          -200.0
+        ],
+        [
+          246.07315985291848,
+          -178.19090885901002,
+          -200.0
+        ]
+      ],
+      "terminations_verified": false,
+      "ampacity_verified": false
+    },
+    {
+      "net": "Haupt_DC_minus",
+      "circuit": "main DC",
+      "from_port": "Akku_Schutzkette_Planport",
+      "to_port": "Verteiler_Planport",
+      "conductor_mm2": 95,
+      "assumed_outer_diameter_mm": 18,
+      "length_mm": 200.0,
+      "minimum_sampled_bend_radius_mm": null,
+      "control_points_mm": [
+        [
+          -35,
+          -260,
+          -230
+        ],
+        [
+          -35,
+          -160,
+          -230
+        ],
+        [
+          -35,
+          -60,
+          -230
+        ]
+      ],
+      "terminations_verified": false,
+      "ampacity_verified": false
+    },
+    {
+      "net": "Haupt_DC_plus",
+      "circuit": "main DC",
+      "from_port": "Akku_Schutzkette_Planport",
+      "to_port": "Verteiler_Planport",
+      "conductor_mm2": 95,
+      "assumed_outer_diameter_mm": 18,
+      "length_mm": 200.0,
+      "minimum_sampled_bend_radius_mm": null,
+      "control_points_mm": [
+        [
+          35,
+          -260,
+          -230
+        ],
+        [
+          35,
+          -160,
+          -230
+        ],
+        [
+          35,
+          -60,
+          -230
+        ]
+      ],
+      "terminations_verified": false,
+      "ampacity_verified": false
+    }
+  ],
+  "mass_kg": 2.4493961738724552,
+  "scope": "26 routed conductor/jacket pairs; signal cable is an equivalent envelope,not a real pinned twisted-pair design. All power cable copper sections and insulationODs are design assumptions. Planning ports have no fitted lugs/connectors. Mounting clips,ESC/battery placements,EMC,thermal ampacity and OEM motor lead transitions are open.",
+  "production_ready": false
+}

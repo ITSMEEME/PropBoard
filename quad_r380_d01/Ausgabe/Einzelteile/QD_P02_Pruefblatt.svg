@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297"><style>text{font-family:DejaVu Sans,sans-serif;fill:#17384b}.d{font-size:3.2px}.n{font-size:3px}.l{stroke:#416275;stroke-width:.2;fill:none}</style><rect x="7" y="7" width="406" height="283" fill="white" stroke="#17384b" stroke-width=".3"/><text x="15" y="18" font-size="6">QD_P02 · Zentralplatte unten</text><text x="15" y="26" font-size="3.8">D01 · Bauteilprüfblatt · Maße in mm · keine Fertigungsfreigabe</text><text x="18" y="38" font-size="3.8">Draufsicht · Skalierung 0.2</text><g transform="translate(56.0,83.0) scale(0.2)"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="0.25"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 154.503 -190 L 182 -190 " />
+<path id= "2" d=" M -154.503 -190 L 154.503 -190 " />
+<path id= "3" d=" M -182 -190 L -154.503 -190 " />
+<path d="M190 -182 A8 8 0 0 0 182 -190" /><path id= "5" d=" M 190 -182 L 190 -154.503 " />
+<path id= "6" d=" M 77.711 -113.208 L 154.503 -190 " />
+<path id= "7" d=" M -154.503 -190 L -77.711 -113.208 " />
+<path id= "8" d=" M -77.711 -113.208 L -113.208 -77.711 " />
+<path id= "9" d=" M -113.208 -77.711 L -190 -154.503 " />
+<path id= "10" d=" M -190 154.503 L -190 -154.503 " />
+<path id= "11" d=" M -190 154.503 L -113.208 77.711 " />
+<path id= "12" d=" M -113.208 77.711 L -77.711 113.208 " />
+<path id= "13" d=" M -77.711 113.208 L -154.503 190 " />
+<path id= "14" d=" M 154.503 190 L -154.503 190 " />
+<path id= "15" d=" M 154.503 190 L 77.711 113.208 " />
+<path id= "16" d=" M 77.711 113.208 L 113.208 77.711 " />
+<path id= "17" d=" M 113.208 77.711 L 190 154.503 " />
+<path id= "18" d=" M 190 -154.503 L 190 154.503 " />
+<path id= "19" d=" M 190 -154.503 L 113.208 -77.711 " />
+<path id= "20" d=" M 113.208 -77.711 L 77.711 -113.208 " />
+<circle cx ="-127.279" cy ="-176.777" r ="3.3" /><circle cx ="-176.777" cy ="-127.279" r ="3.3" /><circle cx ="-84.8528" cy ="-134.35" r ="3.3" /><circle cx ="-134.35" cy ="-84.8528" r ="3.3" /><circle cx ="84.8528" cy ="-134.35" r ="3.3" /><circle cx ="127.279" cy ="-176.777" r ="3.3" /><circle cx ="176.777" cy ="-127.279" r ="3.3" /><circle cx ="134.35" cy ="-84.8528" r ="3.3" /><circle cx ="-134.35" cy ="84.8528" r ="3.3" /><circle cx ="-176.777" cy ="127.279" r ="3.3" /><circle cx ="-127.279" cy ="176.777" r ="3.3" /><circle cx ="-84.8528" cy ="134.35" r ="3.3" /><path id= "33" d=" M -60 -45 L 60 -45 " />
+<path d="M-70 -35 A10 10 0 0 1 -60 -45" /><path d="M60 -45 A10 10 0 0 1 70 -35" /><path id= "36" d=" M -70 35 L -70 -35 " />
+<path id= "37" d=" M 70 -35 L 70 35 " />
+<path d="M-60 45 A10 10 0 0 1 -70 35" /><path d="M70 35 A10 10 0 0 1 60 45" /><path id= "40" d=" M 60 45 L -60 45 " />
+<circle cx ="134.35" cy ="84.8528" r ="3.3" /><circle cx ="84.8528" cy ="134.35" r ="3.3" /><circle cx ="176.777" cy ="127.279" r ="3.3" /><circle cx ="127.279" cy ="176.777" r ="3.3" /><path d="M-182 -190 A8 8 0 0 0 -190 -182" /><path id= "46" d=" M -190 -154.503 L -190 -182 " />
+<path id= "47" d=" M -190 182 L -190 154.503 " />
+<path id= "48" d=" M 190 154.503 L 190 182 " />
+<path d="M-190 182 A8 8 0 0 0 -182 190" /><path d="M182 190 A8 8 0 0 0 190 182" /><path id= "51" d=" M -154.503 190 L -182 190 " />
+<path id= "52" d=" M 182 190 L 154.503 190 " />
+</g>
+</g><path class="l" d="M 18 124.0 v 6 M 94.0 124.0 v 6 M 18 128.0 H 94.0"/><text class="d" x="56.0" y="133.0" text-anchor="middle">380.000</text><text x="150" y="38" font-size="3.8">Vorderansicht · Skalierung 0.2</text><g transform="translate(188.0,45.00000000000001) scale(0.2)"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="0.25"
+   transform="scale(1, -1)"
+  >
+<path d="M-182, 2.10942e-14 L-182.896, 2.10887e-14  L-183.78, 2.1072e-14  L-184.642, 2.10444e-14  L-185.471, 2.10063e-14  L-186.256, 2.09581e-14  L-186.988, 2.09005e-14  L-187.657, 2.08341e-14  L-188.255, 2.07598e-14  L-188.774, 2.06786e-14  L-189.208, 2.05914e-14  L-189.551, 2.04994e-14  L-189.799, 2.04037e-14  L-189.95, 2.03055e-14  L-190, 2.02061e-14 " /><path d="M190, 2.02061e-14 L189.95, 2.03055e-14  L189.799, 2.04037e-14  L189.551, 2.04994e-14  L189.208, 2.05914e-14  L188.774, 2.06786e-14  L188.255, 2.07598e-14  L187.657, 2.08341e-14  L186.988, 2.09005e-14  L186.256, 2.09581e-14  L185.471, 2.10063e-14  L184.642, 2.10444e-14  L183.78, 2.1072e-14  L182.896, 2.10887e-14  L182, 2.10942e-14 " /><path id= "3" d=" M 182 2.10942e-14 L -182 2.10942e-14 " />
+<path id= "4" d=" M -190 -8 L -154.503 -8 " />
+<path id= "5" d=" M 154.503 -8 L -154.503 -8 " />
+<path id= "6" d=" M 154.503 -8 L 190 -8 " />
+<path id= "7" d=" M -190 -8 L -190 -6 " />
+<path id= "8" d=" M -190 2.02061e-14 L -190 -6 " />
+<path id= "9" d=" M 190 2.02061e-14 L 190 -6 " />
+<path id= "10" d=" M 190 -6 L 190 -8 " />
+<path d="M-190, -6 L-189.95, -6  L-189.799, -6  L-189.551, -6  L-189.208, -6  L-188.774, -6  L-188.255, -6  L-187.657, -6  L-186.988, -6  L-186.256, -6  L-185.471, -6  L-184.642, -6  L-183.78, -6  L-182.896, -6  L-182, -6 " /><path d="M182, -6 L182.896, -6  L183.78, -6  L184.642, -6  L185.471, -6  L186.256, -6  L186.988, -6  L187.657, -6  L188.255, -6  L188.774, -6  L189.208, -6  L189.551, -6  L189.799, -6  L189.95, -6  L190, -6 " /><path id= "13" d=" M -154.503 -6 L -182 -6 " />
+<path id= "14" d=" M -154.503 -6 L -154.503 -8 " />
+<path id= "15" d=" M 154.503 -8 L 154.503 -6 " />
+<path id= "16" d=" M 182 -6 L 154.503 -6 " />
+</g>
+</g><path class="l" d="M 150 49.60000000000001 v 6 M 226.0 49.60000000000001 v 6 M 150 53.60000000000001 H 226.0"/><text class="d" x="188.0" y="58.60000000000001" text-anchor="middle">380.000</text><text x="282" y="38" font-size="3.8">Seitenansicht · Skalierung 0.2</text><g transform="translate(282.0,83.0) scale(0.2)"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="0.25"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 8 -190 L 6 -190 " />
+<path id= "2" d=" M -2.02061e-14 -190 L 6 -190 " />
+<path d="M-2.10942e-14, -182 L-2.10887e-14, -182.896  L-2.1072e-14, -183.78  L-2.10444e-14, -184.642  L-2.10063e-14, -185.471  L-2.09581e-14, -186.256  L-2.09005e-14, -186.988  L-2.08341e-14, -187.657  L-2.07598e-14, -188.255  L-2.06786e-14, -188.774  L-2.05914e-14, -189.208  L-2.04994e-14, -189.551  L-2.04037e-14, -189.799  L-2.03055e-14, -189.95  L-2.02061e-14, -190 " /><path id= "4" d=" M -2.10942e-14 182 L -2.10942e-14 -182 " />
+<path d="M-2.02061e-14, 190 L-2.03055e-14, 189.95  L-2.04037e-14, 189.799  L-2.04994e-14, 189.551  L-2.05914e-14, 189.208  L-2.06786e-14, 188.774  L-2.07598e-14, 188.255  L-2.08341e-14, 187.657  L-2.09005e-14, 186.988  L-2.09581e-14, 186.256  L-2.10063e-14, 185.471  L-2.10444e-14, 184.642  L-2.1072e-14, 183.78  L-2.10887e-14, 182.896  L-2.10942e-14, 182 " /><path id= "6" d=" M 8 -190 L 8 -154.503 " />
+<path id= "7" d=" M 8 154.503 L 8 -154.503 " />
+<path id= "8" d=" M 8 154.503 L 8 190 " />
+<path d="M6, -190 L6, -189.95  L6, -189.799  L6, -189.551  L6, -189.208  L6, -188.774  L6, -188.255  L6, -187.657  L6, -186.988  L6, -186.256  L6, -185.471  L6, -184.642  L6, -183.78  L6, -182.896  L6, -182 " /><path id= "10" d=" M 6 -154.503 L 6 -182 " />
+<path id= "11" d=" M 6 -154.503 L 8 -154.503 " />
+<path id= "12" d=" M 8 154.503 L 6 154.503 " />
+<path id= "13" d=" M 6 182 L 6 154.503 " />
+<path d="M6, 182 L6, 182.896  L6, 183.78  L6, 184.642  L6, 185.471  L6, 186.256  L6, 186.988  L6, 187.657  L6, 188.255  L6, 188.774  L6, 189.208  L6, 189.551  L6, 189.799  L6, 189.95  L6, 190 " /><path id= "15" d=" M -2.02061e-14 190 L 6 190 " />
+<path id= "16" d=" M 6 190 L 8 190 " />
+</g>
+</g><path class="l" d="M 282 124.0 v 6 M 283.6 124.0 v 6 M 282 128.0 H 283.6"/><text class="d" x="282.8" y="133.0" text-anchor="middle">8.000</text><text class="n" x="15" y="211">Werkstoff: EN AW-6082 T6; EN10204-3.1 erforderlich.</text><text class="n" x="15" y="216">CAD-Masse: 2.7047 kg bei angenommener Dichte 2700 kg/m³.</text><text class="n" x="15" y="221">Native Historie: 8 Features; 4/4 Skizzen vollständig festgelegt.</text><text class="n" x="15" y="226">Entgraten 0.2–0.5 mm; Ra3.2, Kontaktflächen Ra1.6 als Vorschlag; Freigabe offen.</text><text class="n" x="15" y="246">16× Ø6.6 · Tiefe 8 / PD_QD_P02_M6_Durchgang</text><text class="n" x="15" y="285">Vollständige Bohrungskoordinaten und Gewindeattribute: Bauteilpruefdaten.json / native Skizzen.</text></svg>

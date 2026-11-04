@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "instances": 1052,
+  "propeller_instances": 196,
+  "checks": [
+    "Actual native CAD surface meshes",
+    "All propellers toggle",
+    "Opposite CW/CCW phase around fixed axes",
+    "Twelve CFK bodies can be hidden to reveal real foam cores",
+    "Stored actual-collision witness camera",
+    "Independent indexed foot controls and relock",
+    "Mobile viewport"
+  ],
+  "page_errors": []
+}

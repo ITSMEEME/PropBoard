@@ -1,0 +1,9 @@
+V3 static 0 100 18 0
+Collision {'a': 'D04_I_496', 'b': 'D07_I_3', 'a_id': 'D07_ROOT_TOP', 'b_id': 'D07_CLAMP_CAP', 'a_label': 'V3 Rahmenknoten oben', 'b_label': 'V3 Klemmkappe Wurzel', 'intersection_mm3': 41.89022961352654}
+Collision {'a': 'D04_I_496', 'b': 'D07_I_5', 'a_id': 'D07_ROOT_TOP', 'b_id': 'D07_END_PAD', 'a_label': 'V3 Rahmenknoten oben', 'b_label': 'V3 Endisolation Wurzel', 'intersection_mm3': 64.17295259203419}
+Collision {'a': 'D04_I_496', 'b': 'D07_I_14', 'a_id': 'D07_ROOT_TOP', 'b_id': 'D07_CLAMP_CAP', 'a_label': 'V3 Rahmenknoten oben', 'b_label': 'V3 Klemmkappe Wurzel', 'intersection_mm3': 41.89006869001597}
+Collision {'a': 'D04_I_496', 'b': 'D07_I_16', 'a_id': 'D07_ROOT_TOP', 'b_id': 'D07_END_PAD', 'a_label': 'V3 Rahmenknoten oben', 'b_label': 'V3 Endisolation Wurzel', 'intersection_mm3': 64.17295235108372}
+Collision {'a': 'D04_I_498', 'b': 'D07_I_26', 'a_id': 'D07_ROOT_TOP', 'b_id': 'D07_CLAMP_CAP', 'a_label': 'V3 Rahmenknoten oben', 'b_label': 'V3 Klemmkappe Wurzel', 'intersection_mm3': 41.89022961352654}
+Collision {'a': 'D04_I_498', 'b': 'D07_I_28', 'a_id': 'D07_ROOT_TOP', 'b_id': 'D07_END_PAD', 'a_label': 'V3 Rahmenknoten oben', 'b_label': 'V3 Endisolation Wurzel', 'intersection_mm3': 64.17295259203419}
+Collision {'a': 'D04_I_498', 'b': 'D07_I_37', 'a_id': 'D07_ROOT_TOP', 'b_id': 'D07_CLAMP_CAP', 'a_label': 'V3 Rahmenknoten oben', 'b_label': 'V3 Klemmkappe Wurzel', 'intersection_mm3': 41.89006869001597}
+Collision {'a': 'D04_I_498', 'b': 'D07_I_39', 'a_id': 'D07_ROOT_TOP', 'b_id': 'D07_END_PAD', 'a_label': 'V3 Rahmenknoten oben', 'b_label': 'V3 Endisolation Wurzel', 'intersection_mm3': 64.17295235108372}

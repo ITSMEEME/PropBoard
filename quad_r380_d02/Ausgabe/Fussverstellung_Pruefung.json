@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "left_x_mm": -250,
+      "right_x_mm": 130,
+      "stance_mm": 380,
+      "native_expressions_match": true,
+      "rail_and_plate_envelope_pass": true
+    },
+    {
+      "left_x_mm": -250,
+      "right_x_mm": 200,
+      "stance_mm": 450,
+      "native_expressions_match": true,
+      "rail_and_plate_envelope_pass": true
+    },
+    {
+      "left_x_mm": -250,
+      "right_x_mm": 250,
+      "stance_mm": 500,
+      "native_expressions_match": true,
+      "rail_and_plate_envelope_pass": true
+    },
+    {
+      "left_x_mm": -200,
+      "right_x_mm": 130,
+      "stance_mm": 330,
+      "native_expressions_match": true,
+      "rail_and_plate_envelope_pass": true
+    },
+    {
+      "left_x_mm": -200,
+      "right_x_mm": 200,
+      "stance_mm": 400,
+      "native_expressions_match": true,
+      "rail_and_plate_envelope_pass": true
+    },
+    {
+      "left_x_mm": -200,
+      "right_x_mm": 250,
+      "stance_mm": 450,
+      "native_expressions_match": true,
+      "rail_and_plate_envelope_pass": true
+    },
+    {
+      "left_x_mm": -130,
+      "right_x_mm": 130,
+      "stance_mm": 260,
+      "native_expressions_match": true,
+      "rail_and_plate_envelope_pass": true
+    },
+    {
+      "left_x_mm": -130,
+      "right_x_mm": 200,
+      "stance_mm": 330,
+      "native_expressions_match": true,
+      "rail_and_plate_envelope_pass": true
+    },
+    {
+      "left_x_mm": -130,
+      "right_x_mm": 250,
+      "stance_mm": 380,
+      "native_expressions_match": true,
+      "rail_and_plate_envelope_pass": true
+    }
+  ],
+  "scope": "Native LinkPlacement expressions and analytical longitudinal plate/clamp envelopes; not whole-vehicle swept-volume or clamp-load proof"
+}

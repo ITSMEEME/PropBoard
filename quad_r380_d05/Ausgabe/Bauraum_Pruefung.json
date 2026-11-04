@@ -1,0 +1,390 @@
+{
+  "native_sha256": "24654103604746400507bbf8b128e5eda0ca6f6fdcbbe954ea5d26612714f4a0",
+  "static_candidates": 1630,
+  "dynamic_candidates": 520,
+  "static_interference_count": 0,
+  "total_interference_count": 0,
+  "interferences": [],
+  "travel_cases": [
+    {
+      "side": "Links",
+      "position_mm": 130,
+      "index_screw_stroke_mm": 0,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Links",
+      "position_mm": 130,
+      "index_screw_stroke_mm": 10,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Links",
+      "position_mm": 140,
+      "index_screw_stroke_mm": 0,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Links",
+      "position_mm": 140,
+      "index_screw_stroke_mm": 10,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Links",
+      "position_mm": 150,
+      "index_screw_stroke_mm": 0,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Links",
+      "position_mm": 150,
+      "index_screw_stroke_mm": 10,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Links",
+      "position_mm": 160,
+      "index_screw_stroke_mm": 0,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Links",
+      "position_mm": 160,
+      "index_screw_stroke_mm": 10,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Links",
+      "position_mm": 170,
+      "index_screw_stroke_mm": 0,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Links",
+      "position_mm": 170,
+      "index_screw_stroke_mm": 10,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Links",
+      "position_mm": 180,
+      "index_screw_stroke_mm": 0,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Links",
+      "position_mm": 180,
+      "index_screw_stroke_mm": 10,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Links",
+      "position_mm": 190,
+      "index_screw_stroke_mm": 0,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Links",
+      "position_mm": 190,
+      "index_screw_stroke_mm": 10,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Links",
+      "position_mm": 200,
+      "index_screw_stroke_mm": 0,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Links",
+      "position_mm": 200,
+      "index_screw_stroke_mm": 10,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Links",
+      "position_mm": 210,
+      "index_screw_stroke_mm": 0,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Links",
+      "position_mm": 210,
+      "index_screw_stroke_mm": 10,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Links",
+      "position_mm": 220,
+      "index_screw_stroke_mm": 0,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Links",
+      "position_mm": 220,
+      "index_screw_stroke_mm": 10,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Links",
+      "position_mm": 230,
+      "index_screw_stroke_mm": 0,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Links",
+      "position_mm": 230,
+      "index_screw_stroke_mm": 10,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Links",
+      "position_mm": 240,
+      "index_screw_stroke_mm": 0,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Links",
+      "position_mm": 240,
+      "index_screw_stroke_mm": 10,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Links",
+      "position_mm": 250,
+      "index_screw_stroke_mm": 0,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Links",
+      "position_mm": 250,
+      "index_screw_stroke_mm": 10,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Rechts",
+      "position_mm": 130,
+      "index_screw_stroke_mm": 0,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Rechts",
+      "position_mm": 130,
+      "index_screw_stroke_mm": 10,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Rechts",
+      "position_mm": 140,
+      "index_screw_stroke_mm": 0,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Rechts",
+      "position_mm": 140,
+      "index_screw_stroke_mm": 10,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Rechts",
+      "position_mm": 150,
+      "index_screw_stroke_mm": 0,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Rechts",
+      "position_mm": 150,
+      "index_screw_stroke_mm": 10,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Rechts",
+      "position_mm": 160,
+      "index_screw_stroke_mm": 0,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Rechts",
+      "position_mm": 160,
+      "index_screw_stroke_mm": 10,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Rechts",
+      "position_mm": 170,
+      "index_screw_stroke_mm": 0,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Rechts",
+      "position_mm": 170,
+      "index_screw_stroke_mm": 10,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Rechts",
+      "position_mm": 180,
+      "index_screw_stroke_mm": 0,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Rechts",
+      "position_mm": 180,
+      "index_screw_stroke_mm": 10,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Rechts",
+      "position_mm": 190,
+      "index_screw_stroke_mm": 0,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Rechts",
+      "position_mm": 190,
+      "index_screw_stroke_mm": 10,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Rechts",
+      "position_mm": 200,
+      "index_screw_stroke_mm": 0,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Rechts",
+      "position_mm": 200,
+      "index_screw_stroke_mm": 10,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Rechts",
+      "position_mm": 210,
+      "index_screw_stroke_mm": 0,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Rechts",
+      "position_mm": 210,
+      "index_screw_stroke_mm": 10,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Rechts",
+      "position_mm": 220,
+      "index_screw_stroke_mm": 0,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Rechts",
+      "position_mm": 220,
+      "index_screw_stroke_mm": 10,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Rechts",
+      "position_mm": 230,
+      "index_screw_stroke_mm": 0,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Rechts",
+      "position_mm": 230,
+      "index_screw_stroke_mm": 10,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Rechts",
+      "position_mm": 240,
+      "index_screw_stroke_mm": 0,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Rechts",
+      "position_mm": 240,
+      "index_screw_stroke_mm": 10,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Rechts",
+      "position_mm": 250,
+      "index_screw_stroke_mm": 0,
+      "new_interference_count": 0
+    },
+    {
+      "side": "Rechts",
+      "position_mm": 250,
+      "index_screw_stroke_mm": 10,
+      "new_interference_count": 0
+    }
+  ],
+  "all169_locked_stance_combinations_separate_by_min120mm": true,
+  "head_clearances": [
+    {
+      "instance": "I_373",
+      "head_below_plate_mm": 0.19999999999998863
+    },
+    {
+      "instance": "I_377",
+      "head_below_plate_mm": 0.19999999999998863
+    },
+    {
+      "instance": "I_381",
+      "head_below_plate_mm": 0.19999999999998863
+    },
+    {
+      "instance": "I_385",
+      "head_below_plate_mm": 0.19999999999998863
+    },
+    {
+      "instance": "I_392",
+      "head_below_plate_mm": 0.19999999999998863
+    },
+    {
+      "instance": "I_396",
+      "head_below_plate_mm": 0.19999999999998863
+    },
+    {
+      "instance": "I_400",
+      "head_below_plate_mm": 0.19999999999998863
+    },
+    {
+      "instance": "I_404",
+      "head_below_plate_mm": 0.19999999999998863
+    },
+    {
+      "instance": "I_412",
+      "head_below_plate_mm": 0.19999999999998863
+    },
+    {
+      "instance": "I_416",
+      "head_below_plate_mm": 0.19999999999998863
+    },
+    {
+      "instance": "I_420",
+      "head_below_plate_mm": 0.19999999999998863
+    },
+    {
+      "instance": "I_424",
+      "head_below_plate_mm": 0.19999999999998863
+    },
+    {
+      "instance": "I_431",
+      "head_below_plate_mm": 0.19999999999998863
+    },
+    {
+      "instance": "I_435",
+      "head_below_plate_mm": 0.19999999999998863
+    },
+    {
+      "instance": "I_439",
+      "head_below_plate_mm": 0.19999999999998863
+    },
+    {
+      "instance": "I_443",
+      "head_below_plate_mm": 0.19999999999998863
+    }
+  ],
+  "scope": "Static structure plus all foot-system fasteners and all202 tracked threaded pairs plus16 motor screws. The4 motor solids are legacy nominal drawing references, NOT original OEM geometry; their internal threads and ventilation remain unverified. Moving foot system checked against ALL fixed neighboring solids at26 grid positions and2 screw endpoints. Other old ISO fasteners excluded from global static screen; no total vehicle release. Nominal rigid geometry, reporting threshold0.1mm3."
+}

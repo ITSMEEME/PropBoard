@@ -1,0 +1,14 @@
+"""Final bore machining after joining the stay bosses: no material may refill the CFRP seat."""
+import sys,json,hashlib,math
+from pathlib import Path
+H=Path(__file__).resolve().parent;O=H/'Ausgabe';sys.path.extend(['/usr/lib/freecad-python3/lib','/usr/share/freecad/Mod'])
+import FreeCAD as A,Part,PartDesign,Sketcher
+V=A.Vector;D=A.openDocument(str(O/'QuadR380_D04_CFK.FCStd'));rows=json.loads((O/'Instanzen.json').read_text());spec=json.loads((O/'Bauteile.json').read_text());xf=145/math.sqrt(2)
+for sx in [-1,1]:
+ key='D04_SADDLE_TOP_'+str(sx).replace('-','M');b=D.getObject(key);previous=b.Shape.copy();result=previous.cut(Part.makeCylinder(10.3,90,V(sx*xf,-45,110),V(0,1,0))).removeSplitter();assert result.isValid() and len(result.Solids)==1
+ f=b.newObject('PartDesign::Feature','CNC_'+key+'_Rohrsitz_final');f.Shape=result;f.addProperty('App::PropertyLength','Bohrdurchmesser','Fertigung');f.Bohrdurchmesser=20.6;f.addProperty('App::PropertyLength','Bearbeitungslaenge','Fertigung');f.Bearbeitungslaenge=90;f.addProperty('App::PropertyVector','Bohrungsanfang','Fertigung');f.Bohrungsanfang=V(sx*xf,-45,110);f.addProperty('App::PropertyVector','Bohrungsachse','Fertigung');f.Bohrungsachse=V(0,1,0);b.Tip=f;D.recompute()
+ for child in b.Group:
+  if hasattr(child,'Visibility'):child.Visibility=child==f
+ b.Visibility=False;assert b.Shape.common(Part.makeCylinder(10.3,90,V(sx*xf,-45,110),V(0,1,0))).Volume<.1;spec[key]['volume_mm3']=b.Shape.Volume;spec[key]['mass_kg']=b.Shape.Volume*2810e-9;b.Shape.exportStep(str(O/(key+'.step')))
+for r in rows:r['mass_kg']=spec[r['id']]['mass_kg']
+D.save();(O/'Instanzen.json').write_text(json.dumps(rows,indent=2,ensure_ascii=False));(O/'Bauteile.json').write_text(json.dumps(spec,indent=2,ensure_ascii=False));before=json.loads((H.parent/'quad_r380_d03/Ausgabe/Instanzen.json').read_text());old={r['instance']:r for r in before};new={r['instance']:r for r in rows};oldmass=sum(r['mass_kg'] for r in before);mass=sum(r['mass_kg'] for r in rows);ledger=dict(d03_mass_kg=oldmass,d04_mass_kg=mass,saved_kg=oldmass-mass,saved_percent=100*(oldmass-mass)/oldmass,removed=[r for r in before if r['instance'] not in new],added=[r for r in rows if r['instance'] not in old],changed=[dict(instance=k,old_id=old[k]['id'],new_id=new[k]['id'],old_mass_kg=old[k]['mass_kg'],new_mass_kg=new[k]['mass_kg']) for k in old.keys()&new.keys() if abs(old[k]['mass_kg']-new[k]['mass_kg'])>1e-8]);(O/'Massenvergleich.json').write_text(json.dumps(ledger,indent=2,ensure_ascii=False));r=json.loads((O/'Status.json').read_text());r.update(mass_modeled_kg=mass,native_sha256=hashlib.sha256((O/'QuadR380_D04_CFK.FCStd').read_bytes()).hexdigest(),thread_geometry_pass=False);(O/'Status.json').write_text(json.dumps(r,indent=2,ensure_ascii=False));print('Final seat machined',mass,'saved',oldmass-mass,flush=True)

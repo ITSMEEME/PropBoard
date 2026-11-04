@@ -1,0 +1,2259 @@
+[
+  {
+    "bolt": "I_7",
+    "mate": "I_10",
+    "master_a_sha256": "daa42ce39142005f1805127e46c64b5e1921bc667976a7dcbe931f48b68a0cec",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -65.19999999999999,
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_7",
+      "mate": "I_10",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "nominal_length_mm": 80.0,
+      "bearing_distance_mm": 65.19999999999999,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 8.900000000000011
+    }
+  },
+  {
+    "bolt": "I_11",
+    "mate": "I_14",
+    "master_a_sha256": "daa42ce39142005f1805127e46c64b5e1921bc667976a7dcbe931f48b68a0cec",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -65.19999999999999,
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_11",
+      "mate": "I_14",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_7",
+      "nominal_length_mm": 80.0,
+      "bearing_distance_mm": 65.19999999999999,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 8.900000000000011
+    }
+  },
+  {
+    "bolt": "I_15",
+    "mate": "I_18",
+    "master_a_sha256": "daa42ce39142005f1805127e46c64b5e1921bc667976a7dcbe931f48b68a0cec",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -65.19999999999999,
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_15",
+      "mate": "I_18",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_7",
+      "nominal_length_mm": 80.0,
+      "bearing_distance_mm": 65.19999999999999,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 8.900000000000011
+    }
+  },
+  {
+    "bolt": "I_19",
+    "mate": "I_22",
+    "master_a_sha256": "daa42ce39142005f1805127e46c64b5e1921bc667976a7dcbe931f48b68a0cec",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -65.19999999999999,
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_19",
+      "mate": "I_22",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_7",
+      "nominal_length_mm": 80.0,
+      "bearing_distance_mm": 65.19999999999999,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 8.900000000000011
+    }
+  },
+  {
+    "bolt": "I_23",
+    "mate": "I_26",
+    "master_a_sha256": "8a9f64d00ca7826ff2c30eb0d31177e31ff2ee90b6b9c352f34d77746ce00aed",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -81.19999999999999,
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_23",
+      "mate": "I_26",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "nominal_length_mm": 90.0,
+      "bearing_distance_mm": 81.19999999999999,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 2.900000000000011
+    }
+  },
+  {
+    "bolt": "I_27",
+    "mate": "I_30",
+    "master_a_sha256": "8a9f64d00ca7826ff2c30eb0d31177e31ff2ee90b6b9c352f34d77746ce00aed",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -81.19999999999999,
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_27",
+      "mate": "I_30",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_23",
+      "nominal_length_mm": 90.0,
+      "bearing_distance_mm": 81.19999999999999,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 2.900000000000011
+    }
+  },
+  {
+    "bolt": "I_31",
+    "mate": "I_34",
+    "master_a_sha256": "8a9f64d00ca7826ff2c30eb0d31177e31ff2ee90b6b9c352f34d77746ce00aed",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -81.19999999999999,
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_31",
+      "mate": "I_34",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_23",
+      "nominal_length_mm": 90.0,
+      "bearing_distance_mm": 81.19999999999999,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 2.900000000000011
+    }
+  },
+  {
+    "bolt": "I_35",
+    "mate": "I_38",
+    "master_a_sha256": "8a9f64d00ca7826ff2c30eb0d31177e31ff2ee90b6b9c352f34d77746ce00aed",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -81.19999999999999,
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_35",
+      "mate": "I_38",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_23",
+      "nominal_length_mm": 90.0,
+      "bearing_distance_mm": 81.19999999999999,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 2.900000000000011
+    }
+  },
+  {
+    "bolt": "I_47",
+    "mate": "I_50",
+    "master_a_sha256": "daa42ce39142005f1805127e46c64b5e1921bc667976a7dcbe931f48b68a0cec",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -65.19999999999999,
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_47",
+      "mate": "I_50",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_7",
+      "nominal_length_mm": 80.0,
+      "bearing_distance_mm": 65.19999999999999,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 8.900000000000011
+    }
+  },
+  {
+    "bolt": "I_51",
+    "mate": "I_54",
+    "master_a_sha256": "daa42ce39142005f1805127e46c64b5e1921bc667976a7dcbe931f48b68a0cec",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -65.19999999999999,
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_51",
+      "mate": "I_54",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_7",
+      "nominal_length_mm": 80.0,
+      "bearing_distance_mm": 65.19999999999999,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 8.900000000000011
+    }
+  },
+  {
+    "bolt": "I_55",
+    "mate": "I_58",
+    "master_a_sha256": "daa42ce39142005f1805127e46c64b5e1921bc667976a7dcbe931f48b68a0cec",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -65.19999999999999,
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_55",
+      "mate": "I_58",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_7",
+      "nominal_length_mm": 80.0,
+      "bearing_distance_mm": 65.19999999999999,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 8.900000000000011
+    }
+  },
+  {
+    "bolt": "I_59",
+    "mate": "I_62",
+    "master_a_sha256": "daa42ce39142005f1805127e46c64b5e1921bc667976a7dcbe931f48b68a0cec",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -65.19999999999999,
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_59",
+      "mate": "I_62",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_7",
+      "nominal_length_mm": 80.0,
+      "bearing_distance_mm": 65.19999999999999,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 8.900000000000011
+    }
+  },
+  {
+    "bolt": "I_63",
+    "mate": "I_66",
+    "master_a_sha256": "8a9f64d00ca7826ff2c30eb0d31177e31ff2ee90b6b9c352f34d77746ce00aed",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -81.19999999999999,
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_63",
+      "mate": "I_66",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_23",
+      "nominal_length_mm": 90.0,
+      "bearing_distance_mm": 81.19999999999999,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 2.900000000000011
+    }
+  },
+  {
+    "bolt": "I_67",
+    "mate": "I_70",
+    "master_a_sha256": "8a9f64d00ca7826ff2c30eb0d31177e31ff2ee90b6b9c352f34d77746ce00aed",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -81.19999999999999,
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_67",
+      "mate": "I_70",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_23",
+      "nominal_length_mm": 90.0,
+      "bearing_distance_mm": 81.19999999999999,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 2.900000000000011
+    }
+  },
+  {
+    "bolt": "I_71",
+    "mate": "I_74",
+    "master_a_sha256": "8a9f64d00ca7826ff2c30eb0d31177e31ff2ee90b6b9c352f34d77746ce00aed",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -81.19999999999999,
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_71",
+      "mate": "I_74",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_23",
+      "nominal_length_mm": 90.0,
+      "bearing_distance_mm": 81.19999999999999,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 2.900000000000011
+    }
+  },
+  {
+    "bolt": "I_75",
+    "mate": "I_78",
+    "master_a_sha256": "8a9f64d00ca7826ff2c30eb0d31177e31ff2ee90b6b9c352f34d77746ce00aed",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -81.19999999999999,
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_75",
+      "mate": "I_78",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_23",
+      "nominal_length_mm": 90.0,
+      "bearing_distance_mm": 81.19999999999999,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 2.900000000000011
+    }
+  },
+  {
+    "bolt": "I_87",
+    "mate": "I_90",
+    "master_a_sha256": "daa42ce39142005f1805127e46c64b5e1921bc667976a7dcbe931f48b68a0cec",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -65.19999999999999,
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_87",
+      "mate": "I_90",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_7",
+      "nominal_length_mm": 80.0,
+      "bearing_distance_mm": 65.19999999999999,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 8.900000000000011
+    }
+  },
+  {
+    "bolt": "I_91",
+    "mate": "I_94",
+    "master_a_sha256": "daa42ce39142005f1805127e46c64b5e1921bc667976a7dcbe931f48b68a0cec",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -65.19999999999999,
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_91",
+      "mate": "I_94",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_7",
+      "nominal_length_mm": 80.0,
+      "bearing_distance_mm": 65.19999999999999,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 8.900000000000011
+    }
+  },
+  {
+    "bolt": "I_95",
+    "mate": "I_98",
+    "master_a_sha256": "daa42ce39142005f1805127e46c64b5e1921bc667976a7dcbe931f48b68a0cec",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -65.19999999999999,
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_95",
+      "mate": "I_98",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_7",
+      "nominal_length_mm": 80.0,
+      "bearing_distance_mm": 65.19999999999999,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 8.900000000000011
+    }
+  },
+  {
+    "bolt": "I_99",
+    "mate": "I_102",
+    "master_a_sha256": "daa42ce39142005f1805127e46c64b5e1921bc667976a7dcbe931f48b68a0cec",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -65.19999999999999,
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_99",
+      "mate": "I_102",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_7",
+      "nominal_length_mm": 80.0,
+      "bearing_distance_mm": 65.19999999999999,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 8.900000000000011
+    }
+  },
+  {
+    "bolt": "I_103",
+    "mate": "I_106",
+    "master_a_sha256": "8a9f64d00ca7826ff2c30eb0d31177e31ff2ee90b6b9c352f34d77746ce00aed",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -81.19999999999999,
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_103",
+      "mate": "I_106",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_23",
+      "nominal_length_mm": 90.0,
+      "bearing_distance_mm": 81.19999999999999,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 2.900000000000011
+    }
+  },
+  {
+    "bolt": "I_107",
+    "mate": "I_110",
+    "master_a_sha256": "8a9f64d00ca7826ff2c30eb0d31177e31ff2ee90b6b9c352f34d77746ce00aed",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -81.19999999999999,
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_107",
+      "mate": "I_110",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_23",
+      "nominal_length_mm": 90.0,
+      "bearing_distance_mm": 81.19999999999999,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 2.900000000000011
+    }
+  },
+  {
+    "bolt": "I_111",
+    "mate": "I_114",
+    "master_a_sha256": "8a9f64d00ca7826ff2c30eb0d31177e31ff2ee90b6b9c352f34d77746ce00aed",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -81.19999999999999,
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_111",
+      "mate": "I_114",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_23",
+      "nominal_length_mm": 90.0,
+      "bearing_distance_mm": 81.19999999999999,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 2.900000000000011
+    }
+  },
+  {
+    "bolt": "I_115",
+    "mate": "I_118",
+    "master_a_sha256": "8a9f64d00ca7826ff2c30eb0d31177e31ff2ee90b6b9c352f34d77746ce00aed",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -81.19999999999999,
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_115",
+      "mate": "I_118",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_23",
+      "nominal_length_mm": 90.0,
+      "bearing_distance_mm": 81.19999999999999,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 2.900000000000011
+    }
+  },
+  {
+    "bolt": "I_127",
+    "mate": "I_130",
+    "master_a_sha256": "daa42ce39142005f1805127e46c64b5e1921bc667976a7dcbe931f48b68a0cec",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -65.19999999999999,
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_127",
+      "mate": "I_130",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_7",
+      "nominal_length_mm": 80.0,
+      "bearing_distance_mm": 65.19999999999999,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 8.900000000000011
+    }
+  },
+  {
+    "bolt": "I_131",
+    "mate": "I_134",
+    "master_a_sha256": "daa42ce39142005f1805127e46c64b5e1921bc667976a7dcbe931f48b68a0cec",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -65.19999999999999,
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_131",
+      "mate": "I_134",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_7",
+      "nominal_length_mm": 80.0,
+      "bearing_distance_mm": 65.19999999999999,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 8.900000000000011
+    }
+  },
+  {
+    "bolt": "I_135",
+    "mate": "I_138",
+    "master_a_sha256": "daa42ce39142005f1805127e46c64b5e1921bc667976a7dcbe931f48b68a0cec",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -65.19999999999999,
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_135",
+      "mate": "I_138",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_7",
+      "nominal_length_mm": 80.0,
+      "bearing_distance_mm": 65.19999999999999,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 8.900000000000011
+    }
+  },
+  {
+    "bolt": "I_139",
+    "mate": "I_142",
+    "master_a_sha256": "daa42ce39142005f1805127e46c64b5e1921bc667976a7dcbe931f48b68a0cec",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -65.19999999999999,
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_139",
+      "mate": "I_142",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_7",
+      "nominal_length_mm": 80.0,
+      "bearing_distance_mm": 65.19999999999999,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 8.900000000000011
+    }
+  },
+  {
+    "bolt": "I_143",
+    "mate": "I_146",
+    "master_a_sha256": "8a9f64d00ca7826ff2c30eb0d31177e31ff2ee90b6b9c352f34d77746ce00aed",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -81.19999999999999,
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_143",
+      "mate": "I_146",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_23",
+      "nominal_length_mm": 90.0,
+      "bearing_distance_mm": 81.19999999999999,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 2.900000000000011
+    }
+  },
+  {
+    "bolt": "I_147",
+    "mate": "I_150",
+    "master_a_sha256": "8a9f64d00ca7826ff2c30eb0d31177e31ff2ee90b6b9c352f34d77746ce00aed",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -81.19999999999999,
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_147",
+      "mate": "I_150",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_23",
+      "nominal_length_mm": 90.0,
+      "bearing_distance_mm": 81.19999999999999,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 2.900000000000011
+    }
+  },
+  {
+    "bolt": "I_151",
+    "mate": "I_154",
+    "master_a_sha256": "8a9f64d00ca7826ff2c30eb0d31177e31ff2ee90b6b9c352f34d77746ce00aed",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -81.19999999999999,
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_151",
+      "mate": "I_154",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_23",
+      "nominal_length_mm": 90.0,
+      "bearing_distance_mm": 81.19999999999999,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 2.900000000000011
+    }
+  },
+  {
+    "bolt": "I_155",
+    "mate": "I_158",
+    "master_a_sha256": "8a9f64d00ca7826ff2c30eb0d31177e31ff2ee90b6b9c352f34d77746ce00aed",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -81.19999999999999,
+      0.0,
+      1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_155",
+      "mate": "I_158",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_23",
+      "nominal_length_mm": 90.0,
+      "bearing_distance_mm": 81.19999999999999,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 2.900000000000011
+    }
+  },
+  {
+    "bolt": "I_168",
+    "mate": "I_170",
+    "master_a_sha256": "b1da1ac3c704f3d58edef1c9d7f459827182c28efaa12fdcbb3f0fcc81a279fd",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      2.842170943040401e-14,
+      1.7763568394002505e-15,
+      -15.599999999999994,
+      -0.9659258262890683,
+      -0.2588190451025207,
+      -1e-16,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_168",
+      "mate": "I_170",
+      "phase_deg": 150.0,
+      "reference_phase_deg": 150,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "nominal_length_mm": 25.0,
+      "bearing_distance_mm": 15.599999999999994,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 3.5000000000000053
+    }
+  },
+  {
+    "bolt": "I_171",
+    "mate": "I_173",
+    "master_a_sha256": "ae281e578d73ceb4c42cfcc1f8810654bf2d3052d5db667ac9558a2c571e8dd6",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -11.399999999999991,
+      0.0,
+      -1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_171",
+      "mate": "I_173",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "nominal_length_mm": 20.0,
+      "bearing_distance_mm": 11.399999999999991,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 2.700000000000008
+    }
+  },
+  {
+    "bolt": "I_174",
+    "mate": "I_176",
+    "master_a_sha256": "b1da1ac3c704f3d58edef1c9d7f459827182c28efaa12fdcbb3f0fcc81a279fd",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      2.609024107869118e-15,
+      -15.599999999999994,
+      -0.9659258262890683,
+      -0.2588190451025207,
+      -1e-16,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_174",
+      "mate": "I_176",
+      "phase_deg": 150.0,
+      "reference_phase_deg": 150,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_168",
+      "nominal_length_mm": 25.0,
+      "bearing_distance_mm": 15.599999999999994,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 3.5000000000000053
+    }
+  },
+  {
+    "bolt": "I_177",
+    "mate": "I_179",
+    "master_a_sha256": "ae281e578d73ceb4c42cfcc1f8810654bf2d3052d5db667ac9558a2c571e8dd6",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -11.399999999999991,
+      0.0,
+      -1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_177",
+      "mate": "I_179",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_171",
+      "nominal_length_mm": 20.0,
+      "bearing_distance_mm": 11.399999999999991,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 2.700000000000008
+    }
+  },
+  {
+    "bolt": "I_180",
+    "mate": "I_182",
+    "master_a_sha256": "b1da1ac3c704f3d58edef1c9d7f459827182c28efaa12fdcbb3f0fcc81a279fd",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -15.599999999999994,
+      -0.9659258262890683,
+      -0.2588190451025207,
+      -1e-16,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_180",
+      "mate": "I_182",
+      "phase_deg": 150.0,
+      "reference_phase_deg": 150,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_168",
+      "nominal_length_mm": 25.0,
+      "bearing_distance_mm": 15.599999999999994,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 3.5000000000000053
+    }
+  },
+  {
+    "bolt": "I_183",
+    "mate": "I_185",
+    "master_a_sha256": "ae281e578d73ceb4c42cfcc1f8810654bf2d3052d5db667ac9558a2c571e8dd6",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -11.399999999999991,
+      0.0,
+      -1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_183",
+      "mate": "I_185",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_171",
+      "nominal_length_mm": 20.0,
+      "bearing_distance_mm": 11.399999999999991,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 2.700000000000008
+    }
+  },
+  {
+    "bolt": "I_186",
+    "mate": "I_188",
+    "master_a_sha256": "b1da1ac3c704f3d58edef1c9d7f459827182c28efaa12fdcbb3f0fcc81a279fd",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      3.552713678800501e-15,
+      -15.599999999999994,
+      -0.9659258262890683,
+      -0.2588190451025207,
+      -1e-16,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_186",
+      "mate": "I_188",
+      "phase_deg": 150.0,
+      "reference_phase_deg": 150,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_168",
+      "nominal_length_mm": 25.0,
+      "bearing_distance_mm": 15.599999999999994,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 3.5000000000000053
+    }
+  },
+  {
+    "bolt": "I_189",
+    "mate": "I_191",
+    "master_a_sha256": "ae281e578d73ceb4c42cfcc1f8810654bf2d3052d5db667ac9558a2c571e8dd6",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -11.399999999999991,
+      0.0,
+      -1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_189",
+      "mate": "I_191",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_171",
+      "nominal_length_mm": 20.0,
+      "bearing_distance_mm": 11.399999999999991,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 2.700000000000008
+    }
+  },
+  {
+    "bolt": "I_197",
+    "mate": "I_199",
+    "master_a_sha256": "b1da1ac3c704f3d58edef1c9d7f459827182c28efaa12fdcbb3f0fcc81a279fd",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -15.599999999999994,
+      -0.9659258262890683,
+      -0.2588190451025207,
+      -1e-16,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_197",
+      "mate": "I_199",
+      "phase_deg": 150.0,
+      "reference_phase_deg": 150,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_168",
+      "nominal_length_mm": 25.0,
+      "bearing_distance_mm": 15.599999999999994,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 3.5000000000000053
+    }
+  },
+  {
+    "bolt": "I_200",
+    "mate": "I_202",
+    "master_a_sha256": "ae281e578d73ceb4c42cfcc1f8810654bf2d3052d5db667ac9558a2c571e8dd6",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -11.399999999999991,
+      0.0,
+      -1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_200",
+      "mate": "I_202",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_171",
+      "nominal_length_mm": 20.0,
+      "bearing_distance_mm": 11.399999999999991,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 2.700000000000008
+    }
+  },
+  {
+    "bolt": "I_203",
+    "mate": "I_205",
+    "master_a_sha256": "b1da1ac3c704f3d58edef1c9d7f459827182c28efaa12fdcbb3f0fcc81a279fd",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -15.599999999999994,
+      -0.9659258262890683,
+      -0.2588190451025207,
+      -1e-16,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_203",
+      "mate": "I_205",
+      "phase_deg": 150.0,
+      "reference_phase_deg": 150,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_168",
+      "nominal_length_mm": 25.0,
+      "bearing_distance_mm": 15.599999999999994,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 3.5000000000000053
+    }
+  },
+  {
+    "bolt": "I_206",
+    "mate": "I_208",
+    "master_a_sha256": "ae281e578d73ceb4c42cfcc1f8810654bf2d3052d5db667ac9558a2c571e8dd6",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -11.399999999999991,
+      0.0,
+      -1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_206",
+      "mate": "I_208",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_171",
+      "nominal_length_mm": 20.0,
+      "bearing_distance_mm": 11.399999999999991,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 2.700000000000008
+    }
+  },
+  {
+    "bolt": "I_209",
+    "mate": "I_211",
+    "master_a_sha256": "b1da1ac3c704f3d58edef1c9d7f459827182c28efaa12fdcbb3f0fcc81a279fd",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      3.552713678800501e-15,
+      0.0,
+      -15.599999999999994,
+      -0.9659258262890683,
+      -0.2588190451025207,
+      -1e-16,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_209",
+      "mate": "I_211",
+      "phase_deg": 150.0,
+      "reference_phase_deg": 150,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_168",
+      "nominal_length_mm": 25.0,
+      "bearing_distance_mm": 15.599999999999994,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 3.5000000000000053
+    }
+  },
+  {
+    "bolt": "I_212",
+    "mate": "I_214",
+    "master_a_sha256": "ae281e578d73ceb4c42cfcc1f8810654bf2d3052d5db667ac9558a2c571e8dd6",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -11.399999999999991,
+      0.0,
+      -1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_212",
+      "mate": "I_214",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_171",
+      "nominal_length_mm": 20.0,
+      "bearing_distance_mm": 11.399999999999991,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 2.700000000000008
+    }
+  },
+  {
+    "bolt": "I_215",
+    "mate": "I_217",
+    "master_a_sha256": "b1da1ac3c704f3d58edef1c9d7f459827182c28efaa12fdcbb3f0fcc81a279fd",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      3.552713678800501e-15,
+      0.0,
+      -15.599999999999994,
+      -0.9659258262890683,
+      -0.2588190451025207,
+      -1e-16,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_215",
+      "mate": "I_217",
+      "phase_deg": 150.0,
+      "reference_phase_deg": 150,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_168",
+      "nominal_length_mm": 25.0,
+      "bearing_distance_mm": 15.599999999999994,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 3.5000000000000053
+    }
+  },
+  {
+    "bolt": "I_218",
+    "mate": "I_220",
+    "master_a_sha256": "ae281e578d73ceb4c42cfcc1f8810654bf2d3052d5db667ac9558a2c571e8dd6",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -11.399999999999991,
+      0.0,
+      -1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_218",
+      "mate": "I_220",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_171",
+      "nominal_length_mm": 20.0,
+      "bearing_distance_mm": 11.399999999999991,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 2.700000000000008
+    }
+  },
+  {
+    "bolt": "I_226",
+    "mate": "I_228",
+    "master_a_sha256": "b1da1ac3c704f3d58edef1c9d7f459827182c28efaa12fdcbb3f0fcc81a279fd",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      3.552713678800501e-15,
+      0.0,
+      -15.599999999999994,
+      -0.9659258262890683,
+      -0.2588190451025207,
+      -1e-16,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_226",
+      "mate": "I_228",
+      "phase_deg": 150.0,
+      "reference_phase_deg": 150,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_168",
+      "nominal_length_mm": 25.0,
+      "bearing_distance_mm": 15.599999999999994,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 3.5000000000000053
+    }
+  },
+  {
+    "bolt": "I_229",
+    "mate": "I_231",
+    "master_a_sha256": "ae281e578d73ceb4c42cfcc1f8810654bf2d3052d5db667ac9558a2c571e8dd6",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -11.399999999999991,
+      0.0,
+      -1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_229",
+      "mate": "I_231",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_171",
+      "nominal_length_mm": 20.0,
+      "bearing_distance_mm": 11.399999999999991,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 2.700000000000008
+    }
+  },
+  {
+    "bolt": "I_232",
+    "mate": "I_234",
+    "master_a_sha256": "b1da1ac3c704f3d58edef1c9d7f459827182c28efaa12fdcbb3f0fcc81a279fd",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      3.552713678800501e-15,
+      0.0,
+      -15.599999999999994,
+      -0.9659258262890683,
+      -0.2588190451025207,
+      -1e-16,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_232",
+      "mate": "I_234",
+      "phase_deg": 150.0,
+      "reference_phase_deg": 150,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_168",
+      "nominal_length_mm": 25.0,
+      "bearing_distance_mm": 15.599999999999994,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 3.5000000000000053
+    }
+  },
+  {
+    "bolt": "I_235",
+    "mate": "I_237",
+    "master_a_sha256": "ae281e578d73ceb4c42cfcc1f8810654bf2d3052d5db667ac9558a2c571e8dd6",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -11.399999999999991,
+      0.0,
+      -1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_235",
+      "mate": "I_237",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_171",
+      "nominal_length_mm": 20.0,
+      "bearing_distance_mm": 11.399999999999991,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 2.700000000000008
+    }
+  },
+  {
+    "bolt": "I_238",
+    "mate": "I_240",
+    "master_a_sha256": "b1da1ac3c704f3d58edef1c9d7f459827182c28efaa12fdcbb3f0fcc81a279fd",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -15.599999999999994,
+      -0.9659258262890683,
+      -0.2588190451025207,
+      -1e-16,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_238",
+      "mate": "I_240",
+      "phase_deg": 150.0,
+      "reference_phase_deg": 150,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_168",
+      "nominal_length_mm": 25.0,
+      "bearing_distance_mm": 15.599999999999994,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 3.5000000000000053
+    }
+  },
+  {
+    "bolt": "I_241",
+    "mate": "I_243",
+    "master_a_sha256": "ae281e578d73ceb4c42cfcc1f8810654bf2d3052d5db667ac9558a2c571e8dd6",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -11.399999999999991,
+      0.0,
+      -1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_241",
+      "mate": "I_243",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_171",
+      "nominal_length_mm": 20.0,
+      "bearing_distance_mm": 11.399999999999991,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 2.700000000000008
+    }
+  },
+  {
+    "bolt": "I_244",
+    "mate": "I_246",
+    "master_a_sha256": "b1da1ac3c704f3d58edef1c9d7f459827182c28efaa12fdcbb3f0fcc81a279fd",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -15.599999999999994,
+      -0.9659258262890683,
+      -0.2588190451025207,
+      -1e-16,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_244",
+      "mate": "I_246",
+      "phase_deg": 150.0,
+      "reference_phase_deg": 150,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_168",
+      "nominal_length_mm": 25.0,
+      "bearing_distance_mm": 15.599999999999994,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 3.5000000000000053
+    }
+  },
+  {
+    "bolt": "I_247",
+    "mate": "I_249",
+    "master_a_sha256": "ae281e578d73ceb4c42cfcc1f8810654bf2d3052d5db667ac9558a2c571e8dd6",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -11.399999999999991,
+      0.0,
+      -1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_247",
+      "mate": "I_249",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_171",
+      "nominal_length_mm": 20.0,
+      "bearing_distance_mm": 11.399999999999991,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 2.700000000000008
+    }
+  },
+  {
+    "bolt": "I_255",
+    "mate": "I_257",
+    "master_a_sha256": "b1da1ac3c704f3d58edef1c9d7f459827182c28efaa12fdcbb3f0fcc81a279fd",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      3.552713678800501e-15,
+      -15.599999999999994,
+      -0.9659258262890683,
+      -0.2588190451025207,
+      -1e-16,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_255",
+      "mate": "I_257",
+      "phase_deg": 150.0,
+      "reference_phase_deg": 150,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_168",
+      "nominal_length_mm": 25.0,
+      "bearing_distance_mm": 15.599999999999994,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 3.5000000000000053
+    }
+  },
+  {
+    "bolt": "I_258",
+    "mate": "I_260",
+    "master_a_sha256": "ae281e578d73ceb4c42cfcc1f8810654bf2d3052d5db667ac9558a2c571e8dd6",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -11.399999999999991,
+      0.0,
+      -1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_258",
+      "mate": "I_260",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_171",
+      "nominal_length_mm": 20.0,
+      "bearing_distance_mm": 11.399999999999991,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 2.700000000000008
+    }
+  },
+  {
+    "bolt": "I_261",
+    "mate": "I_263",
+    "master_a_sha256": "b1da1ac3c704f3d58edef1c9d7f459827182c28efaa12fdcbb3f0fcc81a279fd",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -15.599999999999994,
+      -0.9659258262890683,
+      -0.2588190451025207,
+      -1e-16,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_261",
+      "mate": "I_263",
+      "phase_deg": 150.0,
+      "reference_phase_deg": 150,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_168",
+      "nominal_length_mm": 25.0,
+      "bearing_distance_mm": 15.599999999999994,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 3.5000000000000053
+    }
+  },
+  {
+    "bolt": "I_264",
+    "mate": "I_266",
+    "master_a_sha256": "ae281e578d73ceb4c42cfcc1f8810654bf2d3052d5db667ac9558a2c571e8dd6",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -11.399999999999991,
+      0.0,
+      -1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_264",
+      "mate": "I_266",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_171",
+      "nominal_length_mm": 20.0,
+      "bearing_distance_mm": 11.399999999999991,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 2.700000000000008
+    }
+  },
+  {
+    "bolt": "I_267",
+    "mate": "I_269",
+    "master_a_sha256": "b1da1ac3c704f3d58edef1c9d7f459827182c28efaa12fdcbb3f0fcc81a279fd",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      2.609024107869118e-15,
+      -15.599999999999994,
+      -0.9659258262890683,
+      -0.2588190451025207,
+      -1e-16,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_267",
+      "mate": "I_269",
+      "phase_deg": 150.0,
+      "reference_phase_deg": 150,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_168",
+      "nominal_length_mm": 25.0,
+      "bearing_distance_mm": 15.599999999999994,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 3.5000000000000053
+    }
+  },
+  {
+    "bolt": "I_270",
+    "mate": "I_272",
+    "master_a_sha256": "ae281e578d73ceb4c42cfcc1f8810654bf2d3052d5db667ac9558a2c571e8dd6",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -11.399999999999991,
+      0.0,
+      -1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_270",
+      "mate": "I_272",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_171",
+      "nominal_length_mm": 20.0,
+      "bearing_distance_mm": 11.399999999999991,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 2.700000000000008
+    }
+  },
+  {
+    "bolt": "I_273",
+    "mate": "I_275",
+    "master_a_sha256": "b1da1ac3c704f3d58edef1c9d7f459827182c28efaa12fdcbb3f0fcc81a279fd",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      2.842170943040401e-14,
+      1.7763568394002505e-15,
+      -15.599999999999994,
+      -0.9659258262890683,
+      -0.2588190451025207,
+      -1e-16,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_273",
+      "mate": "I_275",
+      "phase_deg": 150.0,
+      "reference_phase_deg": 150,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_168",
+      "nominal_length_mm": 25.0,
+      "bearing_distance_mm": 15.599999999999994,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 3.5000000000000053
+    }
+  },
+  {
+    "bolt": "I_276",
+    "mate": "I_278",
+    "master_a_sha256": "ae281e578d73ceb4c42cfcc1f8810654bf2d3052d5db667ac9558a2c571e8dd6",
+    "master_b_sha256": "3761f7ff0f08033a9b1f1bc172e8f43456f773be12077d8fafac7e12912a3c0c",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -11.399999999999991,
+      0.0,
+      -1.0,
+      0.0,
+      6.123233995736766e-17
+    ],
+    "result": {
+      "bolt": "I_276",
+      "mate": "I_278",
+      "phase_deg": 0.0,
+      "reference_phase_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_171",
+      "nominal_length_mm": 20.0,
+      "bearing_distance_mm": 11.399999999999991,
+      "pitch_mm": 1,
+      "nut_height_mm": 5.9,
+      "nominal_protrusion_mm": 2.700000000000008
+    }
+  },
+  {
+    "bolt": "I_282",
+    "mate": "I_285",
+    "master_a_sha256": "6e5f1f6a072c6b6ef29e93c5fb14a3f71cc8aeef681a27aba5bae0578396da84",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -39.0,
+      0.8910065241883679,
+      -0.4539904997395467,
+      -5.4558414393334676e-17,
+      -2.779890061746716e-17
+    ],
+    "result": {
+      "bolt": "I_282",
+      "mate": "I_285",
+      "phase_deg": 234.0,
+      "reference_phase_deg": 234,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "nominal_length_mm": 50.0,
+      "bearing_distance_mm": 39.0,
+      "pitch_mm": 0.8,
+      "nut_height_mm": 5.3,
+      "nominal_protrusion_mm": 5.7
+    }
+  },
+  {
+    "bolt": "I_287",
+    "mate": "I_290",
+    "master_a_sha256": "6e5f1f6a072c6b6ef29e93c5fb14a3f71cc8aeef681a27aba5bae0578396da84",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -39.0,
+      0.8910065241883679,
+      -0.4539904997395467,
+      -5.4558414393334676e-17,
+      -2.779890061746716e-17
+    ],
+    "result": {
+      "bolt": "I_287",
+      "mate": "I_290",
+      "phase_deg": 234.0,
+      "reference_phase_deg": 234,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_282",
+      "nominal_length_mm": 50.0,
+      "bearing_distance_mm": 39.0,
+      "pitch_mm": 0.8,
+      "nut_height_mm": 5.3,
+      "nominal_protrusion_mm": 5.7
+    }
+  },
+  {
+    "bolt": "I_292",
+    "mate": "I_295",
+    "master_a_sha256": "6e5f1f6a072c6b6ef29e93c5fb14a3f71cc8aeef681a27aba5bae0578396da84",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -39.0,
+      0.8910065241883679,
+      -0.4539904997395467,
+      -5.4558414393334676e-17,
+      -2.779890061746716e-17
+    ],
+    "result": {
+      "bolt": "I_292",
+      "mate": "I_295",
+      "phase_deg": 234.0,
+      "reference_phase_deg": 234,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_282",
+      "nominal_length_mm": 50.0,
+      "bearing_distance_mm": 39.0,
+      "pitch_mm": 0.8,
+      "nut_height_mm": 5.3,
+      "nominal_protrusion_mm": 5.7
+    }
+  },
+  {
+    "bolt": "I_297",
+    "mate": "I_300",
+    "master_a_sha256": "6e5f1f6a072c6b6ef29e93c5fb14a3f71cc8aeef681a27aba5bae0578396da84",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -39.0,
+      0.8910065241883679,
+      -0.4539904997395467,
+      -5.4558414393334676e-17,
+      -2.779890061746716e-17
+    ],
+    "result": {
+      "bolt": "I_297",
+      "mate": "I_300",
+      "phase_deg": 234.0,
+      "reference_phase_deg": 234,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_282",
+      "nominal_length_mm": 50.0,
+      "bearing_distance_mm": 39.0,
+      "pitch_mm": 0.8,
+      "nut_height_mm": 5.3,
+      "nominal_protrusion_mm": 5.7
+    }
+  },
+  {
+    "bolt": "I_302",
+    "mate": "I_305",
+    "master_a_sha256": "6e5f1f6a072c6b6ef29e93c5fb14a3f71cc8aeef681a27aba5bae0578396da84",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -39.0,
+      0.8910065241883679,
+      -0.4539904997395467,
+      -5.4558414393334676e-17,
+      -2.779890061746716e-17
+    ],
+    "result": {
+      "bolt": "I_302",
+      "mate": "I_305",
+      "phase_deg": 234.0,
+      "reference_phase_deg": 234,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_282",
+      "nominal_length_mm": 50.0,
+      "bearing_distance_mm": 39.0,
+      "pitch_mm": 0.8,
+      "nut_height_mm": 5.3,
+      "nominal_protrusion_mm": 5.7
+    }
+  },
+  {
+    "bolt": "I_307",
+    "mate": "I_310",
+    "master_a_sha256": "6e5f1f6a072c6b6ef29e93c5fb14a3f71cc8aeef681a27aba5bae0578396da84",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -39.0,
+      0.8910065241883679,
+      -0.4539904997395467,
+      -5.4558414393334676e-17,
+      -2.779890061746716e-17
+    ],
+    "result": {
+      "bolt": "I_307",
+      "mate": "I_310",
+      "phase_deg": 234.0,
+      "reference_phase_deg": 234,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_282",
+      "nominal_length_mm": 50.0,
+      "bearing_distance_mm": 39.0,
+      "pitch_mm": 0.8,
+      "nut_height_mm": 5.3,
+      "nominal_protrusion_mm": 5.7
+    }
+  },
+  {
+    "bolt": "I_312",
+    "mate": "I_315",
+    "master_a_sha256": "6e5f1f6a072c6b6ef29e93c5fb14a3f71cc8aeef681a27aba5bae0578396da84",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -39.0,
+      0.8910065241883679,
+      -0.4539904997395467,
+      -5.4558414393334676e-17,
+      -2.779890061746716e-17
+    ],
+    "result": {
+      "bolt": "I_312",
+      "mate": "I_315",
+      "phase_deg": 234.0,
+      "reference_phase_deg": 234,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_282",
+      "nominal_length_mm": 50.0,
+      "bearing_distance_mm": 39.0,
+      "pitch_mm": 0.8,
+      "nut_height_mm": 5.3,
+      "nominal_protrusion_mm": 5.7
+    }
+  },
+  {
+    "bolt": "I_317",
+    "mate": "I_320",
+    "master_a_sha256": "6e5f1f6a072c6b6ef29e93c5fb14a3f71cc8aeef681a27aba5bae0578396da84",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -39.0,
+      0.8910065241883679,
+      -0.4539904997395467,
+      -5.4558414393334676e-17,
+      -2.779890061746716e-17
+    ],
+    "result": {
+      "bolt": "I_317",
+      "mate": "I_320",
+      "phase_deg": 234.0,
+      "reference_phase_deg": 234,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_282",
+      "nominal_length_mm": 50.0,
+      "bearing_distance_mm": 39.0,
+      "pitch_mm": 0.8,
+      "nut_height_mm": 5.3,
+      "nominal_protrusion_mm": 5.7
+    }
+  },
+  {
+    "bolt": "I_322",
+    "mate": "I_325",
+    "master_a_sha256": "6e5f1f6a072c6b6ef29e93c5fb14a3f71cc8aeef681a27aba5bae0578396da84",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -39.0,
+      0.8910065241883679,
+      -0.4539904997395467,
+      -5.4558414393334676e-17,
+      -2.779890061746716e-17
+    ],
+    "result": {
+      "bolt": "I_322",
+      "mate": "I_325",
+      "phase_deg": 234.0,
+      "reference_phase_deg": 234,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_282",
+      "nominal_length_mm": 50.0,
+      "bearing_distance_mm": 39.0,
+      "pitch_mm": 0.8,
+      "nut_height_mm": 5.3,
+      "nominal_protrusion_mm": 5.7
+    }
+  },
+  {
+    "bolt": "I_327",
+    "mate": "I_330",
+    "master_a_sha256": "6e5f1f6a072c6b6ef29e93c5fb14a3f71cc8aeef681a27aba5bae0578396da84",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -39.0,
+      0.8910065241883679,
+      -0.4539904997395467,
+      -5.4558414393334676e-17,
+      -2.779890061746716e-17
+    ],
+    "result": {
+      "bolt": "I_327",
+      "mate": "I_330",
+      "phase_deg": 234.0,
+      "reference_phase_deg": 234,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_282",
+      "nominal_length_mm": 50.0,
+      "bearing_distance_mm": 39.0,
+      "pitch_mm": 0.8,
+      "nut_height_mm": 5.3,
+      "nominal_protrusion_mm": 5.7
+    }
+  },
+  {
+    "bolt": "I_332",
+    "mate": "I_335",
+    "master_a_sha256": "6e5f1f6a072c6b6ef29e93c5fb14a3f71cc8aeef681a27aba5bae0578396da84",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -39.0,
+      0.8910065241883679,
+      -0.4539904997395467,
+      -5.4558414393334676e-17,
+      -2.779890061746716e-17
+    ],
+    "result": {
+      "bolt": "I_332",
+      "mate": "I_335",
+      "phase_deg": 234.0,
+      "reference_phase_deg": 234,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_282",
+      "nominal_length_mm": 50.0,
+      "bearing_distance_mm": 39.0,
+      "pitch_mm": 0.8,
+      "nut_height_mm": 5.3,
+      "nominal_protrusion_mm": 5.7
+    }
+  },
+  {
+    "bolt": "I_337",
+    "mate": "I_340",
+    "master_a_sha256": "6e5f1f6a072c6b6ef29e93c5fb14a3f71cc8aeef681a27aba5bae0578396da84",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -39.0,
+      0.8910065241883679,
+      -0.4539904997395467,
+      -5.4558414393334676e-17,
+      -2.779890061746716e-17
+    ],
+    "result": {
+      "bolt": "I_337",
+      "mate": "I_340",
+      "phase_deg": 234.0,
+      "reference_phase_deg": 234,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_282",
+      "nominal_length_mm": 50.0,
+      "bearing_distance_mm": 39.0,
+      "pitch_mm": 0.8,
+      "nut_height_mm": 5.3,
+      "nominal_protrusion_mm": 5.7
+    }
+  },
+  {
+    "bolt": "I_342",
+    "mate": "I_345",
+    "master_a_sha256": "6e5f1f6a072c6b6ef29e93c5fb14a3f71cc8aeef681a27aba5bae0578396da84",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -39.0,
+      0.8910065241883679,
+      -0.4539904997395467,
+      -5.4558414393334676e-17,
+      -2.779890061746716e-17
+    ],
+    "result": {
+      "bolt": "I_342",
+      "mate": "I_345",
+      "phase_deg": 234.0,
+      "reference_phase_deg": 234,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_282",
+      "nominal_length_mm": 50.0,
+      "bearing_distance_mm": 39.0,
+      "pitch_mm": 0.8,
+      "nut_height_mm": 5.3,
+      "nominal_protrusion_mm": 5.7
+    }
+  },
+  {
+    "bolt": "I_347",
+    "mate": "I_350",
+    "master_a_sha256": "6e5f1f6a072c6b6ef29e93c5fb14a3f71cc8aeef681a27aba5bae0578396da84",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -39.0,
+      0.8910065241883679,
+      -0.4539904997395467,
+      -5.4558414393334676e-17,
+      -2.779890061746716e-17
+    ],
+    "result": {
+      "bolt": "I_347",
+      "mate": "I_350",
+      "phase_deg": 234.0,
+      "reference_phase_deg": 234,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_282",
+      "nominal_length_mm": 50.0,
+      "bearing_distance_mm": 39.0,
+      "pitch_mm": 0.8,
+      "nut_height_mm": 5.3,
+      "nominal_protrusion_mm": 5.7
+    }
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "expected_solids": 630,
+  "reimported_solids": 630,
+  "individually_validated_solids": 630,
+  "all_valid": true,
+  "volume_comparison_performed": false,
+  "native_sha256": "b8632aa73dd805eb122d2d5da068ac3e9bf00bd24fb9958ffb7ccfe74417d53e",
+  "step_sha256": "3e9e39f6f4bb4ea9093a4b8944db9c4ac269f734afcccbb8d6bb0ecd8ed01d39"
+}

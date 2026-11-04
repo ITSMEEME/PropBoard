@@ -1,0 +1,1042 @@
+[
+  {
+    "result": {
+      "bolt": "I_633",
+      "mate": "I_631",
+      "phase_deg": 29.999999999999886,
+      "reference_phase_deg": 209.99999999999991,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "family": "Rack M4"
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "b87757133add718d0dc310f4528bc05cec84837ff866a92b5ad9932b44daf6cb",
+    "relative_placement": [
+      -5.196152422706717,
+      2.9999999999999716,
+      -393.8,
+      -0.6830127018922195,
+      0.18301270189221874,
+      -0.6830127018922194,
+      -0.18301270189221894
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_635",
+      "mate": "I_631",
+      "phase_deg": 29.999999999999886,
+      "reference_phase_deg": 209.99999999999991,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_633",
+      "family": "Rack M4"
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "b87757133add718d0dc310f4528bc05cec84837ff866a92b5ad9932b44daf6cb",
+    "relative_placement": [
+      -15.588457268119981,
+      8.999999999999972,
+      -393.8,
+      -0.6830127018922195,
+      0.18301270189221874,
+      -0.6830127018922194,
+      -0.18301270189221894
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_637",
+      "mate": "I_632",
+      "phase_deg": 209.99999999999991,
+      "reference_phase_deg": 209.99999999999991,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_633",
+      "family": "Rack M4"
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "b87757133add718d0dc310f4528bc05cec84837ff866a92b5ad9932b44daf6cb",
+    "relative_placement": [
+      5.196152422706547,
+      -3.000000000000057,
+      -393.8000000000001,
+      0.6830127018922194,
+      -0.1830127018922188,
+      -0.6830127018922195,
+      -0.18301270189221863
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_639",
+      "mate": "I_632",
+      "phase_deg": 209.99999999999991,
+      "reference_phase_deg": 209.99999999999991,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_633",
+      "family": "Rack M4"
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "b87757133add718d0dc310f4528bc05cec84837ff866a92b5ad9932b44daf6cb",
+    "relative_placement": [
+      15.58845726811984,
+      -9.000000000000043,
+      -393.8000000000001,
+      0.6830127018922194,
+      -0.1830127018922188,
+      -0.6830127018922195,
+      -0.18301270189221863
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_641",
+      "mate": "I_631",
+      "phase_deg": 29.999999999999886,
+      "reference_phase_deg": 209.99999999999991,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_633",
+      "family": "Rack M4"
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "b87757133add718d0dc310f4528bc05cec84837ff866a92b5ad9932b44daf6cb",
+    "relative_placement": [
+      5.196152422706717,
+      -2.9999999999999716,
+      -393.80000000000007,
+      0.6830127018922195,
+      -0.18301270189221874,
+      -0.6830127018922194,
+      -0.18301270189221894
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_643",
+      "mate": "I_631",
+      "phase_deg": 29.999999999999886,
+      "reference_phase_deg": 209.99999999999991,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_633",
+      "family": "Rack M4"
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "b87757133add718d0dc310f4528bc05cec84837ff866a92b5ad9932b44daf6cb",
+    "relative_placement": [
+      15.588457268119981,
+      -8.999999999999957,
+      -393.80000000000007,
+      0.6830127018922195,
+      -0.18301270189221874,
+      -0.6830127018922194,
+      -0.18301270189221894
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_645",
+      "mate": "I_632",
+      "phase_deg": 209.99999999999991,
+      "reference_phase_deg": 209.99999999999991,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_633",
+      "family": "Rack M4"
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "b87757133add718d0dc310f4528bc05cec84837ff866a92b5ad9932b44daf6cb",
+    "relative_placement": [
+      -5.1961524227065325,
+      3.000000000000057,
+      -393.80000000000007,
+      -0.6830127018922194,
+      0.1830127018922188,
+      -0.6830127018922195,
+      -0.18301270189221863
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_647",
+      "mate": "I_632",
+      "phase_deg": 209.99999999999991,
+      "reference_phase_deg": 209.99999999999991,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_633",
+      "family": "Rack M4"
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "b87757133add718d0dc310f4528bc05cec84837ff866a92b5ad9932b44daf6cb",
+    "relative_placement": [
+      -15.588457268119825,
+      9.000000000000028,
+      -393.80000000000007,
+      -0.6830127018922194,
+      0.1830127018922188,
+      -0.6830127018922195,
+      -0.18301270189221863
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_649",
+      "mate": "I_371",
+      "phase_deg": 59.999999999999886,
+      "reference_phase_deg": 239.99999999999994,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "family": "Index M6"
+    },
+    "master_a_sha256": "8c267e49ee254bff2aae22fe856b60c2e32926efa5bced094d83473b9d8b98e9",
+    "master_b_sha256": "3f6ccf70306401cc46e5324018e74ce2eab6c767346142fd415dc1c5212b39a3",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -50.599999999999994,
+      -0.3535533905932733,
+      -0.6123724356957948,
+      -0.6123724356957947,
+      -0.35355339059327345
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_651",
+      "mate": "I_390",
+      "phase_deg": 239.99999999999994,
+      "reference_phase_deg": 239.99999999999994,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_649",
+      "family": "Index M6"
+    },
+    "master_a_sha256": "8c267e49ee254bff2aae22fe856b60c2e32926efa5bced094d83473b9d8b98e9",
+    "master_b_sha256": "3f6ccf70306401cc46e5324018e74ce2eab6c767346142fd415dc1c5212b39a3",
+    "relative_placement": [
+      5.684341886080802e-14,
+      0.0,
+      -50.599999999999994,
+      -0.3535533905932733,
+      -0.6123724356957947,
+      -0.6123724356957948,
+      -0.35355339059327345
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_653",
+      "mate": "I_410",
+      "phase_deg": 59.999999999999886,
+      "reference_phase_deg": 239.99999999999994,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_649",
+      "family": "Index M6"
+    },
+    "master_a_sha256": "8c267e49ee254bff2aae22fe856b60c2e32926efa5bced094d83473b9d8b98e9",
+    "master_b_sha256": "3f6ccf70306401cc46e5324018e74ce2eab6c767346142fd415dc1c5212b39a3",
+    "relative_placement": [
+      0.0,
+      -2.842170943040401e-14,
+      -50.599999999999994,
+      -0.3535533905932733,
+      -0.6123724356957948,
+      -0.6123724356957947,
+      -0.35355339059327345
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_655",
+      "mate": "I_429",
+      "phase_deg": 239.99999999999994,
+      "reference_phase_deg": 239.99999999999994,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_649",
+      "family": "Index M6"
+    },
+    "master_a_sha256": "8c267e49ee254bff2aae22fe856b60c2e32926efa5bced094d83473b9d8b98e9",
+    "master_b_sha256": "3f6ccf70306401cc46e5324018e74ce2eab6c767346142fd415dc1c5212b39a3",
+    "relative_placement": [
+      1.4210854715202004e-14,
+      0.0,
+      -50.599999999999994,
+      -0.3535533905932733,
+      -0.6123724356957947,
+      -0.6123724356957948,
+      -0.35355339059327345
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_470",
+      "mate": "I_457",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "family": "Rail flange M4"
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "d9a7fafe0d78575a1d99a0f2537bbc766bde5b208cd434f37b002c35341ee197",
+    "relative_placement": [
+      -209.39339828220187,
+      -64.39339828220183,
+      383.99999999999994,
+      -0.7071067811865475,
+      0.0,
+      -0.7071067811865476,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_471",
+      "mate": "I_457",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_470",
+      "family": "Rail flange M4"
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "d9a7fafe0d78575a1d99a0f2537bbc766bde5b208cd434f37b002c35341ee197",
+    "relative_placement": [
+      -230.6066017177983,
+      -64.39339828220183,
+      383.99999999999994,
+      -0.7071067811865475,
+      0.0,
+      -0.7071067811865476,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_472",
+      "mate": "I_457",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_470",
+      "family": "Rail flange M4"
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "d9a7fafe0d78575a1d99a0f2537bbc766bde5b208cd434f37b002c35341ee197",
+    "relative_placement": [
+      -230.6066017177983,
+      -85.60660171779826,
+      383.99999999999994,
+      -0.7071067811865475,
+      0.0,
+      -0.7071067811865476,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_473",
+      "mate": "I_457",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_470",
+      "family": "Rail flange M4"
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "d9a7fafe0d78575a1d99a0f2537bbc766bde5b208cd434f37b002c35341ee197",
+    "relative_placement": [
+      -209.39339828220187,
+      -85.60660171779826,
+      383.99999999999994,
+      -0.7071067811865475,
+      0.0,
+      -0.7071067811865476,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_530",
+      "mate": "I_517",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_470",
+      "family": "Rail flange M4"
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "88b3d079955ff8fd571ef0aac782c00c37a51ce0deb0de8f3858a3c54ed16175",
+    "relative_placement": [
+      230.6066017177983,
+      -64.39339828220174,
+      383.99999999999994,
+      0.7071067811865475,
+      0.0,
+      -0.7071067811865476,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_531",
+      "mate": "I_517",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_470",
+      "family": "Rail flange M4"
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "88b3d079955ff8fd571ef0aac782c00c37a51ce0deb0de8f3858a3c54ed16175",
+    "relative_placement": [
+      209.39339828220187,
+      -64.39339828220174,
+      383.99999999999994,
+      0.7071067811865475,
+      0.0,
+      -0.7071067811865476,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_532",
+      "mate": "I_517",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_470",
+      "family": "Rail flange M4"
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "88b3d079955ff8fd571ef0aac782c00c37a51ce0deb0de8f3858a3c54ed16175",
+    "relative_placement": [
+      209.39339828220187,
+      -85.60660171779817,
+      383.99999999999994,
+      0.7071067811865475,
+      0.0,
+      -0.7071067811865476,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_533",
+      "mate": "I_517",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_470",
+      "family": "Rail flange M4"
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "88b3d079955ff8fd571ef0aac782c00c37a51ce0deb0de8f3858a3c54ed16175",
+    "relative_placement": [
+      230.6066017177983,
+      -85.60660171779817,
+      383.99999999999994,
+      0.7071067811865475,
+      0.0,
+      -0.7071067811865476,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_500",
+      "mate": "I_487",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_470",
+      "family": "Rail flange M4"
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "d121df0d700a95631f13cd6f4fee3ab20c8c3a870cd88929eab47509c49779d8",
+    "relative_placement": [
+      -209.39339828220187,
+      85.60660171779817,
+      383.99999999999994,
+      -0.7071067811865475,
+      0.0,
+      -0.7071067811865476,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_501",
+      "mate": "I_487",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_470",
+      "family": "Rail flange M4"
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "d121df0d700a95631f13cd6f4fee3ab20c8c3a870cd88929eab47509c49779d8",
+    "relative_placement": [
+      -230.6066017177983,
+      85.60660171779817,
+      383.99999999999994,
+      -0.7071067811865475,
+      0.0,
+      -0.7071067811865476,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_502",
+      "mate": "I_487",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_470",
+      "family": "Rail flange M4"
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "d121df0d700a95631f13cd6f4fee3ab20c8c3a870cd88929eab47509c49779d8",
+    "relative_placement": [
+      -230.6066017177983,
+      64.39339828220174,
+      383.99999999999994,
+      -0.7071067811865475,
+      0.0,
+      -0.7071067811865476,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_503",
+      "mate": "I_487",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_470",
+      "family": "Rail flange M4"
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "d121df0d700a95631f13cd6f4fee3ab20c8c3a870cd88929eab47509c49779d8",
+    "relative_placement": [
+      -209.39339828220187,
+      64.39339828220174,
+      383.99999999999994,
+      -0.7071067811865475,
+      0.0,
+      -0.7071067811865476,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_560",
+      "mate": "I_547",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_470",
+      "family": "Rail flange M4"
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "9c6cfb344417b86a4c00a233079016b36341c40c9e79cb38ebb4b298aa829c1f",
+    "relative_placement": [
+      230.6066017177983,
+      85.60660171779826,
+      383.99999999999994,
+      0.7071067811865475,
+      0.0,
+      -0.7071067811865476,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_561",
+      "mate": "I_547",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_470",
+      "family": "Rail flange M4"
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "9c6cfb344417b86a4c00a233079016b36341c40c9e79cb38ebb4b298aa829c1f",
+    "relative_placement": [
+      209.39339828220187,
+      85.60660171779826,
+      383.99999999999994,
+      0.7071067811865475,
+      0.0,
+      -0.7071067811865476,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_562",
+      "mate": "I_547",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_470",
+      "family": "Rail flange M4"
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "9c6cfb344417b86a4c00a233079016b36341c40c9e79cb38ebb4b298aa829c1f",
+    "relative_placement": [
+      209.39339828220187,
+      64.39339828220183,
+      383.99999999999994,
+      0.7071067811865475,
+      0.0,
+      -0.7071067811865476,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_563",
+      "mate": "I_547",
+      "phase_deg": 180.0,
+      "reference_phase_deg": 180.0,
+      "intersection_mm3": 0.0,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_470",
+      "family": "Rail flange M4"
+    },
+    "master_a_sha256": "32114e2618a80be16233aa5d0fd3805e3b60892875c28711b023d6c3decde956",
+    "master_b_sha256": "9c6cfb344417b86a4c00a233079016b36341c40c9e79cb38ebb4b298aa829c1f",
+    "relative_placement": [
+      230.6066017177983,
+      64.39339828220183,
+      383.99999999999994,
+      0.7071067811865475,
+      0.0,
+      -0.7071067811865476,
+      6.123233995736766e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_373",
+      "mate": "I_376",
+      "phase_deg": 144.0,
+      "reference_phase_deg": 144,
+      "intersection_mm3": 0.00010114924492685738,
+      "passed": true,
+      "family": "Foot clamp M5",
+      "bearing_distance_mm": 42.80000000000001,
+      "nominal_protrusion_mm": 1.8999999999999888
+    },
+    "master_a_sha256": "485d3b98265f6e698b15dd8989188b9dddefafaacd576d1ed2229922a7b5ba42",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -42.80000000000001,
+      0.9510565162951536,
+      0.3090169943749475,
+      -5.823541592445463e-17,
+      1.8921833652170756e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_377",
+      "mate": "I_380",
+      "phase_deg": 144.0,
+      "reference_phase_deg": 144,
+      "intersection_mm3": 0.00010114924492685738,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_373",
+      "family": "Foot clamp M5",
+      "bearing_distance_mm": 42.80000000000001,
+      "nominal_protrusion_mm": 1.8999999999999888
+    },
+    "master_a_sha256": "485d3b98265f6e698b15dd8989188b9dddefafaacd576d1ed2229922a7b5ba42",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -42.80000000000001,
+      0.9510565162951536,
+      0.3090169943749475,
+      -5.823541592445463e-17,
+      1.8921833652170756e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_381",
+      "mate": "I_384",
+      "phase_deg": 144.0,
+      "reference_phase_deg": 144,
+      "intersection_mm3": 0.00010114924492685738,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_373",
+      "family": "Foot clamp M5",
+      "bearing_distance_mm": 42.80000000000001,
+      "nominal_protrusion_mm": 1.8999999999999888
+    },
+    "master_a_sha256": "485d3b98265f6e698b15dd8989188b9dddefafaacd576d1ed2229922a7b5ba42",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -42.80000000000001,
+      0.9510565162951536,
+      0.3090169943749475,
+      -5.823541592445463e-17,
+      1.8921833652170756e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_385",
+      "mate": "I_388",
+      "phase_deg": 144.0,
+      "reference_phase_deg": 144,
+      "intersection_mm3": 0.00010114924492685738,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_373",
+      "family": "Foot clamp M5",
+      "bearing_distance_mm": 42.80000000000001,
+      "nominal_protrusion_mm": 1.8999999999999888
+    },
+    "master_a_sha256": "485d3b98265f6e698b15dd8989188b9dddefafaacd576d1ed2229922a7b5ba42",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -42.80000000000001,
+      0.9510565162951536,
+      0.3090169943749475,
+      -5.823541592445463e-17,
+      1.8921833652170756e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_392",
+      "mate": "I_395",
+      "phase_deg": 144.0,
+      "reference_phase_deg": 144,
+      "intersection_mm3": 0.00010114924492685738,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_373",
+      "family": "Foot clamp M5",
+      "bearing_distance_mm": 42.80000000000001,
+      "nominal_protrusion_mm": 1.8999999999999888
+    },
+    "master_a_sha256": "485d3b98265f6e698b15dd8989188b9dddefafaacd576d1ed2229922a7b5ba42",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -42.80000000000001,
+      0.9510565162951536,
+      0.3090169943749475,
+      -5.823541592445463e-17,
+      1.8921833652170756e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_396",
+      "mate": "I_399",
+      "phase_deg": 144.0,
+      "reference_phase_deg": 144,
+      "intersection_mm3": 0.00010114924492685738,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_373",
+      "family": "Foot clamp M5",
+      "bearing_distance_mm": 42.80000000000001,
+      "nominal_protrusion_mm": 1.8999999999999888
+    },
+    "master_a_sha256": "485d3b98265f6e698b15dd8989188b9dddefafaacd576d1ed2229922a7b5ba42",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -42.80000000000001,
+      0.9510565162951536,
+      0.3090169943749475,
+      -5.823541592445463e-17,
+      1.8921833652170756e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_400",
+      "mate": "I_403",
+      "phase_deg": 144.0,
+      "reference_phase_deg": 144,
+      "intersection_mm3": 0.00010114924492685738,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_373",
+      "family": "Foot clamp M5",
+      "bearing_distance_mm": 42.80000000000001,
+      "nominal_protrusion_mm": 1.8999999999999888
+    },
+    "master_a_sha256": "485d3b98265f6e698b15dd8989188b9dddefafaacd576d1ed2229922a7b5ba42",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -42.80000000000001,
+      0.9510565162951536,
+      0.3090169943749475,
+      -5.823541592445463e-17,
+      1.8921833652170756e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_404",
+      "mate": "I_407",
+      "phase_deg": 144.0,
+      "reference_phase_deg": 144,
+      "intersection_mm3": 0.00010114924492685738,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_373",
+      "family": "Foot clamp M5",
+      "bearing_distance_mm": 42.80000000000001,
+      "nominal_protrusion_mm": 1.8999999999999888
+    },
+    "master_a_sha256": "485d3b98265f6e698b15dd8989188b9dddefafaacd576d1ed2229922a7b5ba42",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -42.80000000000001,
+      0.9510565162951536,
+      0.3090169943749475,
+      -5.823541592445463e-17,
+      1.8921833652170756e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_412",
+      "mate": "I_415",
+      "phase_deg": 144.0,
+      "reference_phase_deg": 144,
+      "intersection_mm3": 0.00010114924492685738,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_373",
+      "family": "Foot clamp M5",
+      "bearing_distance_mm": 42.80000000000001,
+      "nominal_protrusion_mm": 1.8999999999999888
+    },
+    "master_a_sha256": "485d3b98265f6e698b15dd8989188b9dddefafaacd576d1ed2229922a7b5ba42",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -42.80000000000001,
+      0.9510565162951536,
+      0.3090169943749475,
+      -5.823541592445463e-17,
+      1.8921833652170756e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_416",
+      "mate": "I_419",
+      "phase_deg": 144.0,
+      "reference_phase_deg": 144,
+      "intersection_mm3": 0.00010114924492685738,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_373",
+      "family": "Foot clamp M5",
+      "bearing_distance_mm": 42.80000000000001,
+      "nominal_protrusion_mm": 1.8999999999999888
+    },
+    "master_a_sha256": "485d3b98265f6e698b15dd8989188b9dddefafaacd576d1ed2229922a7b5ba42",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -42.80000000000001,
+      0.9510565162951536,
+      0.3090169943749475,
+      -5.823541592445463e-17,
+      1.8921833652170756e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_420",
+      "mate": "I_423",
+      "phase_deg": 144.0,
+      "reference_phase_deg": 144,
+      "intersection_mm3": 0.00010114924492685738,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_373",
+      "family": "Foot clamp M5",
+      "bearing_distance_mm": 42.80000000000001,
+      "nominal_protrusion_mm": 1.8999999999999888
+    },
+    "master_a_sha256": "485d3b98265f6e698b15dd8989188b9dddefafaacd576d1ed2229922a7b5ba42",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -42.80000000000001,
+      0.9510565162951536,
+      0.3090169943749475,
+      -5.823541592445463e-17,
+      1.8921833652170756e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_424",
+      "mate": "I_427",
+      "phase_deg": 144.0,
+      "reference_phase_deg": 144,
+      "intersection_mm3": 0.00010114924492685738,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_373",
+      "family": "Foot clamp M5",
+      "bearing_distance_mm": 42.80000000000001,
+      "nominal_protrusion_mm": 1.8999999999999888
+    },
+    "master_a_sha256": "485d3b98265f6e698b15dd8989188b9dddefafaacd576d1ed2229922a7b5ba42",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -42.80000000000001,
+      0.9510565162951536,
+      0.3090169943749475,
+      -5.823541592445463e-17,
+      1.8921833652170756e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_431",
+      "mate": "I_434",
+      "phase_deg": 144.0,
+      "reference_phase_deg": 144,
+      "intersection_mm3": 0.00010114924492685738,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_373",
+      "family": "Foot clamp M5",
+      "bearing_distance_mm": 42.80000000000001,
+      "nominal_protrusion_mm": 1.8999999999999888
+    },
+    "master_a_sha256": "485d3b98265f6e698b15dd8989188b9dddefafaacd576d1ed2229922a7b5ba42",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -42.80000000000001,
+      0.9510565162951536,
+      0.3090169943749475,
+      -5.823541592445463e-17,
+      1.8921833652170756e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_435",
+      "mate": "I_438",
+      "phase_deg": 144.0,
+      "reference_phase_deg": 144,
+      "intersection_mm3": 0.00010114924492685738,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_373",
+      "family": "Foot clamp M5",
+      "bearing_distance_mm": 42.80000000000001,
+      "nominal_protrusion_mm": 1.8999999999999888
+    },
+    "master_a_sha256": "485d3b98265f6e698b15dd8989188b9dddefafaacd576d1ed2229922a7b5ba42",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -42.80000000000001,
+      0.9510565162951536,
+      0.3090169943749475,
+      -5.823541592445463e-17,
+      1.8921833652170756e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_439",
+      "mate": "I_442",
+      "phase_deg": 144.0,
+      "reference_phase_deg": 144,
+      "intersection_mm3": 0.00010114924492685738,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_373",
+      "family": "Foot clamp M5",
+      "bearing_distance_mm": 42.80000000000001,
+      "nominal_protrusion_mm": 1.8999999999999888
+    },
+    "master_a_sha256": "485d3b98265f6e698b15dd8989188b9dddefafaacd576d1ed2229922a7b5ba42",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -42.80000000000001,
+      0.9510565162951536,
+      0.3090169943749475,
+      -5.823541592445463e-17,
+      1.8921833652170756e-17
+    ]
+  },
+  {
+    "result": {
+      "bolt": "I_443",
+      "mate": "I_446",
+      "phase_deg": 144.0,
+      "reference_phase_deg": 144,
+      "intersection_mm3": 0.00010114924492685738,
+      "passed": true,
+      "rigid_or_homologous_pattern_reference": "I_373",
+      "family": "Foot clamp M5",
+      "bearing_distance_mm": 42.80000000000001,
+      "nominal_protrusion_mm": 1.8999999999999888
+    },
+    "master_a_sha256": "485d3b98265f6e698b15dd8989188b9dddefafaacd576d1ed2229922a7b5ba42",
+    "master_b_sha256": "10482a3945d95446d8dcc96c56d95209aacdffb29afa39088cfafe859b93bf7a",
+    "relative_placement": [
+      0.0,
+      0.0,
+      -42.80000000000001,
+      0.9510565162951536,
+      0.3090169943749475,
+      -5.823541592445463e-17,
+      1.8921833652170756e-17
+    ]
+  }
+]

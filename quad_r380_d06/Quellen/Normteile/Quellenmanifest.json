@@ -1,0 +1,33 @@
+{
+  "repository": "https://github.com/shaise/FreeCAD_FastenersWB",
+  "commit": "fddd07af422b7d3a69098b32333711c5eeae184c",
+  "rows": [
+    {
+      "id": "ISO4762_M5x35",
+      "standard": "ISO4762",
+      "diameter": "M5",
+      "length_mm": 35,
+      "real_helical_thread": true,
+      "table": {
+        "Dia": "M5",
+        "P": "0.8",
+        "b": "22.0",
+        "dk_max": "8.5",
+        "da": "5.7",
+        "ds_min": "4.82",
+        "e": "4.58",
+        "lf": "0.6",
+        "k": "5.0",
+        "r": "0.2",
+        "s_mean": "4.06",
+        "t": "2.5",
+        "v": "0.5",
+        "dw": "8.03",
+        "w": "1.9"
+      },
+      "brep_sha256": "ee375aba451d9146f0ad10c26425b44fe2437750fffc5d8eb9433c64a70f845d",
+      "volume_mm3": 844.7206740186376,
+      "geometry_scope": "Nominal ISO profile from open Fasteners implementation; 6g/6H tolerances and property class remain drawing/procurement requirements"
+    }
+  ]
+}

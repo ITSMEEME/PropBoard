@@ -1,0 +1,9 @@
+{
+  "source_file_sha256": "13f03e345980cd48259ed23e594ac37c8b613552a629c9619cd94cb218bc913d",
+  "legacy_geometry_z_offset_removed_mm": 14.0,
+  "geometry_scale_changed": false,
+  "diameter_mm": 150.0,
+  "reference_length_mm": 66.0,
+  "source_status": "Legacy project drawing reference, explicitly not OEM STEP",
+  "mass_source_sha256": "1031932b195f7e68f95de6e4d9eb138ee685c703e82805a14923cea8032c3f6b"
+}

@@ -1,0 +1,992 @@
+[
+  {
+    "bolt": "I_81",
+    "mate": "I_3",
+    "hole_suffix": "M6_Stirn_-1",
+    "family": "D04 Root M6"
+  },
+  {
+    "bolt": "I_83",
+    "mate": "I_3",
+    "hole_suffix": "M6_Stirn_1",
+    "family": "D04 Root M6"
+  },
+  {
+    "bolt": "I_85",
+    "mate": "I_3",
+    "hole_suffix": "M6_Stirn_-1",
+    "family": "D04 Root M6"
+  },
+  {
+    "bolt": "I_87",
+    "mate": "I_3",
+    "hole_suffix": "M6_Stirn_1",
+    "family": "D04 Root M6"
+  },
+  {
+    "bolt": "I_172",
+    "mate": "I_94",
+    "hole_suffix": "M6_Stirn_-1",
+    "family": "D04 Root M6"
+  },
+  {
+    "bolt": "I_174",
+    "mate": "I_94",
+    "hole_suffix": "M6_Stirn_1",
+    "family": "D04 Root M6"
+  },
+  {
+    "bolt": "I_176",
+    "mate": "I_94",
+    "hole_suffix": "M6_Stirn_-1",
+    "family": "D04 Root M6"
+  },
+  {
+    "bolt": "I_178",
+    "mate": "I_94",
+    "hole_suffix": "M6_Stirn_1",
+    "family": "D04 Root M6"
+  },
+  {
+    "bolt": "I_263",
+    "mate": "I_185",
+    "hole_suffix": "M6_Stirn_-1",
+    "family": "D04 Root M6"
+  },
+  {
+    "bolt": "I_265",
+    "mate": "I_185",
+    "hole_suffix": "M6_Stirn_1",
+    "family": "D04 Root M6"
+  },
+  {
+    "bolt": "I_267",
+    "mate": "I_185",
+    "hole_suffix": "M6_Stirn_-1",
+    "family": "D04 Root M6"
+  },
+  {
+    "bolt": "I_269",
+    "mate": "I_185",
+    "hole_suffix": "M6_Stirn_1",
+    "family": "D04 Root M6"
+  },
+  {
+    "bolt": "I_354",
+    "mate": "I_276",
+    "hole_suffix": "M6_Stirn_-1",
+    "family": "D04 Root M6"
+  },
+  {
+    "bolt": "I_356",
+    "mate": "I_276",
+    "hole_suffix": "M6_Stirn_1",
+    "family": "D04 Root M6"
+  },
+  {
+    "bolt": "I_358",
+    "mate": "I_276",
+    "hole_suffix": "M6_Stirn_-1",
+    "family": "D04 Root M6"
+  },
+  {
+    "bolt": "I_360",
+    "mate": "I_276",
+    "hole_suffix": "M6_Stirn_1",
+    "family": "D04 Root M6"
+  },
+  {
+    "bolt": "D04_I_506",
+    "mate": "D04_I_495",
+    "hole_suffix": "Port_M4_0",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_507",
+    "mate": "D04_I_495",
+    "hole_suffix": "Port_M4_0",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_508",
+    "mate": "D04_I_495",
+    "hole_suffix": "Port_M4_0",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_509",
+    "mate": "D04_I_495",
+    "hole_suffix": "Port_M4_0",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_515",
+    "mate": "D04_I_497",
+    "hole_suffix": "Port_M4_1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_516",
+    "mate": "D04_I_497",
+    "hole_suffix": "Port_M4_1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_517",
+    "mate": "D04_I_497",
+    "hole_suffix": "Port_M4_1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_518",
+    "mate": "D04_I_497",
+    "hole_suffix": "Port_M4_1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_525",
+    "mate": "D04_I_497",
+    "hole_suffix": "Port_M4_0",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_526",
+    "mate": "D04_I_497",
+    "hole_suffix": "Port_M4_0",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_527",
+    "mate": "D04_I_497",
+    "hole_suffix": "Port_M4_0",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_528",
+    "mate": "D04_I_497",
+    "hole_suffix": "Port_M4_0",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_534",
+    "mate": "D04_I_499",
+    "hole_suffix": "Port_M4_1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_535",
+    "mate": "D04_I_499",
+    "hole_suffix": "Port_M4_1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_536",
+    "mate": "D04_I_499",
+    "hole_suffix": "Port_M4_1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_537",
+    "mate": "D04_I_499",
+    "hole_suffix": "Port_M4_1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_544",
+    "mate": "D04_I_499",
+    "hole_suffix": "Port_M4_0",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_545",
+    "mate": "D04_I_499",
+    "hole_suffix": "Port_M4_0",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_546",
+    "mate": "D04_I_499",
+    "hole_suffix": "Port_M4_0",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_547",
+    "mate": "D04_I_499",
+    "hole_suffix": "Port_M4_0",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_553",
+    "mate": "D04_I_501",
+    "hole_suffix": "Port_M4_1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_554",
+    "mate": "D04_I_501",
+    "hole_suffix": "Port_M4_1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_555",
+    "mate": "D04_I_501",
+    "hole_suffix": "Port_M4_1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_556",
+    "mate": "D04_I_501",
+    "hole_suffix": "Port_M4_1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_563",
+    "mate": "D04_I_501",
+    "hole_suffix": "Port_M4_0",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_564",
+    "mate": "D04_I_501",
+    "hole_suffix": "Port_M4_0",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_565",
+    "mate": "D04_I_501",
+    "hole_suffix": "Port_M4_0",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_566",
+    "mate": "D04_I_501",
+    "hole_suffix": "Port_M4_0",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_572",
+    "mate": "D04_I_495",
+    "hole_suffix": "Port_M4_1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_573",
+    "mate": "D04_I_495",
+    "hole_suffix": "Port_M4_1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_574",
+    "mate": "D04_I_495",
+    "hole_suffix": "Port_M4_1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_575",
+    "mate": "D04_I_495",
+    "hole_suffix": "Port_M4_1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_582",
+    "mate": "D04_I_496",
+    "hole_suffix": "Port_M4_0",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_583",
+    "mate": "D04_I_496",
+    "hole_suffix": "Port_M4_0",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_584",
+    "mate": "D04_I_496",
+    "hole_suffix": "Port_M4_0",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_585",
+    "mate": "D04_I_496",
+    "hole_suffix": "Port_M4_0",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_591",
+    "mate": "D04_I_498",
+    "hole_suffix": "Port_M4_1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_592",
+    "mate": "D04_I_498",
+    "hole_suffix": "Port_M4_1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_593",
+    "mate": "D04_I_498",
+    "hole_suffix": "Port_M4_1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_594",
+    "mate": "D04_I_498",
+    "hole_suffix": "Port_M4_1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_601",
+    "mate": "D04_I_498",
+    "hole_suffix": "Port_M4_0",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_602",
+    "mate": "D04_I_498",
+    "hole_suffix": "Port_M4_0",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_603",
+    "mate": "D04_I_498",
+    "hole_suffix": "Port_M4_0",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_604",
+    "mate": "D04_I_498",
+    "hole_suffix": "Port_M4_0",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_610",
+    "mate": "D04_I_500",
+    "hole_suffix": "Port_M4_1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_611",
+    "mate": "D04_I_500",
+    "hole_suffix": "Port_M4_1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_612",
+    "mate": "D04_I_500",
+    "hole_suffix": "Port_M4_1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_613",
+    "mate": "D04_I_500",
+    "hole_suffix": "Port_M4_1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_620",
+    "mate": "D04_I_500",
+    "hole_suffix": "Port_M4_0",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_621",
+    "mate": "D04_I_500",
+    "hole_suffix": "Port_M4_0",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_622",
+    "mate": "D04_I_500",
+    "hole_suffix": "Port_M4_0",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_623",
+    "mate": "D04_I_500",
+    "hole_suffix": "Port_M4_0",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_629",
+    "mate": "D04_I_502",
+    "hole_suffix": "Port_M4_1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_630",
+    "mate": "D04_I_502",
+    "hole_suffix": "Port_M4_1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_631",
+    "mate": "D04_I_502",
+    "hole_suffix": "Port_M4_1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_632",
+    "mate": "D04_I_502",
+    "hole_suffix": "Port_M4_1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_639",
+    "mate": "D04_I_502",
+    "hole_suffix": "Port_M4_0",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_640",
+    "mate": "D04_I_502",
+    "hole_suffix": "Port_M4_0",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_641",
+    "mate": "D04_I_502",
+    "hole_suffix": "Port_M4_0",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_642",
+    "mate": "D04_I_502",
+    "hole_suffix": "Port_M4_0",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_648",
+    "mate": "D04_I_496",
+    "hole_suffix": "Port_M4_1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_649",
+    "mate": "D04_I_496",
+    "hole_suffix": "Port_M4_1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_650",
+    "mate": "D04_I_496",
+    "hole_suffix": "Port_M4_1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_651",
+    "mate": "D04_I_496",
+    "hole_suffix": "Port_M4_1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_658",
+    "mate": "D04_I_495",
+    "hole_suffix": "Port_M4_2",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_659",
+    "mate": "D04_I_495",
+    "hole_suffix": "Port_M4_2",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_660",
+    "mate": "D04_I_495",
+    "hole_suffix": "Port_M4_2",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_661",
+    "mate": "D04_I_495",
+    "hole_suffix": "Port_M4_2",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_667",
+    "mate": "D04_I_496",
+    "hole_suffix": "Port_M4_2",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_668",
+    "mate": "D04_I_496",
+    "hole_suffix": "Port_M4_2",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_669",
+    "mate": "D04_I_496",
+    "hole_suffix": "Port_M4_2",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_670",
+    "mate": "D04_I_496",
+    "hole_suffix": "Port_M4_2",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_677",
+    "mate": "D04_I_497",
+    "hole_suffix": "Port_M4_2",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_678",
+    "mate": "D04_I_497",
+    "hole_suffix": "Port_M4_2",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_679",
+    "mate": "D04_I_497",
+    "hole_suffix": "Port_M4_2",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_680",
+    "mate": "D04_I_497",
+    "hole_suffix": "Port_M4_2",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_686",
+    "mate": "D04_I_498",
+    "hole_suffix": "Port_M4_2",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_687",
+    "mate": "D04_I_498",
+    "hole_suffix": "Port_M4_2",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_688",
+    "mate": "D04_I_498",
+    "hole_suffix": "Port_M4_2",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_689",
+    "mate": "D04_I_498",
+    "hole_suffix": "Port_M4_2",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_696",
+    "mate": "D04_I_499",
+    "hole_suffix": "Port_M4_2",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_697",
+    "mate": "D04_I_499",
+    "hole_suffix": "Port_M4_2",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_698",
+    "mate": "D04_I_499",
+    "hole_suffix": "Port_M4_2",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_699",
+    "mate": "D04_I_499",
+    "hole_suffix": "Port_M4_2",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_705",
+    "mate": "D04_I_500",
+    "hole_suffix": "Port_M4_2",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_706",
+    "mate": "D04_I_500",
+    "hole_suffix": "Port_M4_2",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_707",
+    "mate": "D04_I_500",
+    "hole_suffix": "Port_M4_2",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_708",
+    "mate": "D04_I_500",
+    "hole_suffix": "Port_M4_2",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_715",
+    "mate": "D04_I_501",
+    "hole_suffix": "Port_M4_2",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_716",
+    "mate": "D04_I_501",
+    "hole_suffix": "Port_M4_2",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_717",
+    "mate": "D04_I_501",
+    "hole_suffix": "Port_M4_2",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_718",
+    "mate": "D04_I_501",
+    "hole_suffix": "Port_M4_2",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_724",
+    "mate": "D04_I_502",
+    "hole_suffix": "Port_M4_2",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_725",
+    "mate": "D04_I_502",
+    "hole_suffix": "Port_M4_2",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_726",
+    "mate": "D04_I_502",
+    "hole_suffix": "Port_M4_2",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_727",
+    "mate": "D04_I_502",
+    "hole_suffix": "Port_M4_2",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_738",
+    "mate": "D04_I_741",
+    "family": "D04 Saddle nut M6"
+  },
+  {
+    "bolt": "D04_I_742",
+    "mate": "D04_I_745",
+    "family": "D04 Saddle nut M6"
+  },
+  {
+    "bolt": "D04_I_746",
+    "mate": "D04_I_749",
+    "family": "D04 Saddle nut M6"
+  },
+  {
+    "bolt": "D04_I_753",
+    "mate": "D04_I_731",
+    "hole_suffix": "Strebenport_-1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_754",
+    "mate": "D04_I_731",
+    "hole_suffix": "Strebenport_-1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_755",
+    "mate": "D04_I_731",
+    "hole_suffix": "Strebenport_-1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_756",
+    "mate": "D04_I_731",
+    "hole_suffix": "Strebenport_-1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_762",
+    "mate": "D04_I_731",
+    "hole_suffix": "Strebenport_1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_763",
+    "mate": "D04_I_731",
+    "hole_suffix": "Strebenport_1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_764",
+    "mate": "D04_I_731",
+    "hole_suffix": "Strebenport_1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_765",
+    "mate": "D04_I_731",
+    "hole_suffix": "Strebenport_1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_771",
+    "mate": "D04_I_774",
+    "family": "D04 Saddle nut M6"
+  },
+  {
+    "bolt": "D04_I_775",
+    "mate": "D04_I_778",
+    "family": "D04 Saddle nut M6"
+  },
+  {
+    "bolt": "D04_I_783",
+    "mate": "D04_I_786",
+    "family": "D04 Saddle nut M6"
+  },
+  {
+    "bolt": "D04_I_790",
+    "mate": "D04_I_768",
+    "hole_suffix": "Strebenport_-1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_791",
+    "mate": "D04_I_768",
+    "hole_suffix": "Strebenport_-1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_792",
+    "mate": "D04_I_768",
+    "hole_suffix": "Strebenport_-1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_793",
+    "mate": "D04_I_768",
+    "hole_suffix": "Strebenport_-1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_799",
+    "mate": "D04_I_768",
+    "hole_suffix": "Strebenport_1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_800",
+    "mate": "D04_I_768",
+    "hole_suffix": "Strebenport_1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_801",
+    "mate": "D04_I_768",
+    "hole_suffix": "Strebenport_1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_802",
+    "mate": "D04_I_768",
+    "hole_suffix": "Strebenport_1",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_808",
+    "mate": "I_457",
+    "hole_suffix": "Strebenport_M4",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_809",
+    "mate": "I_457",
+    "hole_suffix": "Strebenport_M4",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_810",
+    "mate": "I_457",
+    "hole_suffix": "Strebenport_M4",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_811",
+    "mate": "I_457",
+    "hole_suffix": "Strebenport_M4",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_818",
+    "mate": "I_487",
+    "hole_suffix": "Strebenport_M4",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_819",
+    "mate": "I_487",
+    "hole_suffix": "Strebenport_M4",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_820",
+    "mate": "I_487",
+    "hole_suffix": "Strebenport_M4",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_821",
+    "mate": "I_487",
+    "hole_suffix": "Strebenport_M4",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_828",
+    "mate": "I_517",
+    "hole_suffix": "Strebenport_M4",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_829",
+    "mate": "I_517",
+    "hole_suffix": "Strebenport_M4",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_830",
+    "mate": "I_517",
+    "hole_suffix": "Strebenport_M4",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_831",
+    "mate": "I_517",
+    "hole_suffix": "Strebenport_M4",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_838",
+    "mate": "I_547",
+    "hole_suffix": "Strebenport_M4",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_839",
+    "mate": "I_547",
+    "hole_suffix": "Strebenport_M4",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_840",
+    "mate": "I_547",
+    "hole_suffix": "Strebenport_M4",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "D04_I_841",
+    "mate": "I_547",
+    "hole_suffix": "Strebenport_M4",
+    "family": "D04 M4 Flansch"
+  },
+  {
+    "bolt": "I_470",
+    "mate": "I_457",
+    "hole_suffix": "Schienenflansch_M4",
+    "family": "D04 Rail flange M4"
+  },
+  {
+    "bolt": "I_471",
+    "mate": "I_457",
+    "hole_suffix": "Schienenflansch_M4",
+    "family": "D04 Rail flange M4"
+  },
+  {
+    "bolt": "I_472",
+    "mate": "I_457",
+    "hole_suffix": "Schienenflansch_M4",
+    "family": "D04 Rail flange M4"
+  },
+  {
+    "bolt": "I_473",
+    "mate": "I_457",
+    "hole_suffix": "Schienenflansch_M4",
+    "family": "D04 Rail flange M4"
+  },
+  {
+    "bolt": "I_530",
+    "mate": "I_517",
+    "hole_suffix": "Schienenflansch_M4",
+    "family": "D04 Rail flange M4"
+  },
+  {
+    "bolt": "I_531",
+    "mate": "I_517",
+    "hole_suffix": "Schienenflansch_M4",
+    "family": "D04 Rail flange M4"
+  },
+  {
+    "bolt": "I_532",
+    "mate": "I_517",
+    "hole_suffix": "Schienenflansch_M4",
+    "family": "D04 Rail flange M4"
+  },
+  {
+    "bolt": "I_533",
+    "mate": "I_517",
+    "hole_suffix": "Schienenflansch_M4",
+    "family": "D04 Rail flange M4"
+  },
+  {
+    "bolt": "I_500",
+    "mate": "I_487",
+    "hole_suffix": "Schienenflansch_M4",
+    "family": "D04 Rail flange M4"
+  },
+  {
+    "bolt": "I_501",
+    "mate": "I_487",
+    "hole_suffix": "Schienenflansch_M4",
+    "family": "D04 Rail flange M4"
+  },
+  {
+    "bolt": "I_502",
+    "mate": "I_487",
+    "hole_suffix": "Schienenflansch_M4",
+    "family": "D04 Rail flange M4"
+  },
+  {
+    "bolt": "I_503",
+    "mate": "I_487",
+    "hole_suffix": "Schienenflansch_M4",
+    "family": "D04 Rail flange M4"
+  },
+  {
+    "bolt": "I_560",
+    "mate": "I_547",
+    "hole_suffix": "Schienenflansch_M4",
+    "family": "D04 Rail flange M4"
+  },
+  {
+    "bolt": "I_561",
+    "mate": "I_547",
+    "hole_suffix": "Schienenflansch_M4",
+    "family": "D04 Rail flange M4"
+  },
+  {
+    "bolt": "I_562",
+    "mate": "I_547",
+    "hole_suffix": "Schienenflansch_M4",
+    "family": "D04 Rail flange M4"
+  },
+  {
+    "bolt": "I_563",
+    "mate": "I_547",
+    "hole_suffix": "Schienenflansch_M4",
+    "family": "D04 Rail flange M4"
+  }
+]

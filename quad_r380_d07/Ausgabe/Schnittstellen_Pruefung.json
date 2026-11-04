@@ -1,0 +1,1762 @@
+{
+  "native_sha256": "8f1610f5a369fff7bd43edcd6f5129921b3ec91b914011c64d0cd4903f8d1402",
+  "passed": true,
+  "native_thread_axis_checks": [
+    {
+      "bolt": "D04_I_506",
+      "mate": "D04_I_495",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_0",
+          "axis_offset_mm": 1.697667110009105e-14,
+          "nominal_engagement_mm": 9.000000000000007,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_507",
+      "mate": "D04_I_495",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_0",
+          "axis_offset_mm": 1.5798970864069073e-14,
+          "nominal_engagement_mm": 9.000000000000007,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_508",
+      "mate": "D04_I_495",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_0",
+          "axis_offset_mm": 1.7815146131623647e-15,
+          "nominal_engagement_mm": 8.999999999999996,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_509",
+      "mate": "D04_I_495",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_0",
+          "axis_offset_mm": 3.972054645195637e-15,
+          "nominal_engagement_mm": 8.999999999999996,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_515",
+      "mate": "D04_I_497",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_1",
+          "axis_offset_mm": 5.95280458688606e-15,
+          "nominal_engagement_mm": 8.999999999999996,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_516",
+      "mate": "D04_I_497",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_1",
+          "axis_offset_mm": 2.495485696360216e-15,
+          "nominal_engagement_mm": 8.999999999999996,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_517",
+      "mate": "D04_I_497",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_1",
+          "axis_offset_mm": 5.746006371283907e-15,
+          "nominal_engagement_mm": 8.999999999999996,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_518",
+      "mate": "D04_I_497",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_1",
+          "axis_offset_mm": 6.936895214610187e-15,
+          "nominal_engagement_mm": 8.999999999999996,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_525",
+      "mate": "D04_I_497",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_0",
+          "axis_offset_mm": 6.94446914409831e-15,
+          "nominal_engagement_mm": 8.999999999999996,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_526",
+      "mate": "D04_I_497",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_0",
+          "axis_offset_mm": 5.94754602032464e-15,
+          "nominal_engagement_mm": 8.999999999999996,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_527",
+      "mate": "D04_I_497",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_0",
+          "axis_offset_mm": 1.7815146131623647e-15,
+          "nominal_engagement_mm": 8.999999999999996,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_528",
+      "mate": "D04_I_497",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_0",
+          "axis_offset_mm": 3.972054645195637e-15,
+          "nominal_engagement_mm": 8.999999999999996,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_534",
+      "mate": "D04_I_499",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_1",
+          "axis_offset_mm": 1.9913421656973086e-15,
+          "nominal_engagement_mm": 8.99999999999999,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_535",
+      "mate": "D04_I_499",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_1",
+          "axis_offset_mm": 2.5289214343043653e-15,
+          "nominal_engagement_mm": 8.99999999999999,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_536",
+      "mate": "D04_I_499",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_1",
+          "axis_offset_mm": 2.6096944985542578e-15,
+          "nominal_engagement_mm": 8.99999999999999,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_537",
+      "mate": "D04_I_499",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_1",
+          "axis_offset_mm": 1.9860273225978185e-15,
+          "nominal_engagement_mm": 8.99999999999999,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_544",
+      "mate": "D04_I_499",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_0",
+          "axis_offset_mm": 1.195712999427236e-14,
+          "nominal_engagement_mm": 9.0,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_545",
+      "mate": "D04_I_499",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_0",
+          "axis_offset_mm": 1.082805813831451e-14,
+          "nominal_engagement_mm": 9.0,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_546",
+      "mate": "D04_I_499",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_0",
+          "axis_offset_mm": 6.330606834383343e-15,
+          "nominal_engagement_mm": 9.000000000000004,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_547",
+      "mate": "D04_I_499",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_0",
+          "axis_offset_mm": 8.881784197001252e-15,
+          "nominal_engagement_mm": 9.000000000000004,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_553",
+      "mate": "D04_I_501",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_1",
+          "axis_offset_mm": 4.7939652404101905e-15,
+          "nominal_engagement_mm": 8.999999999999986,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_554",
+      "mate": "D04_I_501",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_1",
+          "axis_offset_mm": 2.7650350566200485e-14,
+          "nominal_engagement_mm": 9.000000000000007,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_555",
+      "mate": "D04_I_501",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_1",
+          "axis_offset_mm": 2.5161211321649464e-14,
+          "nominal_engagement_mm": 9.000000000000007,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_556",
+      "mate": "D04_I_501",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_1",
+          "axis_offset_mm": 3.2023728339893768e-15,
+          "nominal_engagement_mm": 8.999999999999986,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_563",
+      "mate": "D04_I_501",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_0",
+          "axis_offset_mm": 2.1998383202307174e-14,
+          "nominal_engagement_mm": 9.00000000000001,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_564",
+      "mate": "D04_I_501",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_0",
+          "axis_offset_mm": 2.0795557593265746e-14,
+          "nominal_engagement_mm": 9.00000000000001,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_565",
+      "mate": "D04_I_501",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_0",
+          "axis_offset_mm": 6.330606834383343e-15,
+          "nominal_engagement_mm": 9.000000000000004,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_566",
+      "mate": "D04_I_501",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_0",
+          "axis_offset_mm": 8.881784197001252e-15,
+          "nominal_engagement_mm": 9.000000000000004,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_572",
+      "mate": "D04_I_495",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_1",
+          "axis_offset_mm": 1.9913421656973086e-15,
+          "nominal_engagement_mm": 8.99999999999999,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_573",
+      "mate": "D04_I_495",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_1",
+          "axis_offset_mm": 2.5289214343043653e-15,
+          "nominal_engagement_mm": 8.99999999999999,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_574",
+      "mate": "D04_I_495",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_1",
+          "axis_offset_mm": 2.6096944985542578e-15,
+          "nominal_engagement_mm": 8.99999999999999,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_575",
+      "mate": "D04_I_495",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_1",
+          "axis_offset_mm": 1.9860273225978185e-15,
+          "nominal_engagement_mm": 8.99999999999999,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_582",
+      "mate": "D04_I_496",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_0",
+          "axis_offset_mm": 1.697667110009105e-14,
+          "nominal_engagement_mm": 9.000000000000007,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_583",
+      "mate": "D04_I_496",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_0",
+          "axis_offset_mm": 1.5798970864069073e-14,
+          "nominal_engagement_mm": 9.000000000000007,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_584",
+      "mate": "D04_I_496",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_0",
+          "axis_offset_mm": 1.7815146131623647e-15,
+          "nominal_engagement_mm": 8.999999999999996,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_585",
+      "mate": "D04_I_496",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_0",
+          "axis_offset_mm": 3.972054645195637e-15,
+          "nominal_engagement_mm": 8.999999999999996,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_591",
+      "mate": "D04_I_498",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_1",
+          "axis_offset_mm": 5.95280458688606e-15,
+          "nominal_engagement_mm": 8.999999999999996,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_592",
+      "mate": "D04_I_498",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_1",
+          "axis_offset_mm": 2.495485696360216e-15,
+          "nominal_engagement_mm": 8.999999999999996,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_593",
+      "mate": "D04_I_498",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_1",
+          "axis_offset_mm": 5.746006371283907e-15,
+          "nominal_engagement_mm": 8.999999999999996,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_594",
+      "mate": "D04_I_498",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_1",
+          "axis_offset_mm": 6.936895214610187e-15,
+          "nominal_engagement_mm": 8.999999999999996,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_601",
+      "mate": "D04_I_498",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_0",
+          "axis_offset_mm": 6.94446914409831e-15,
+          "nominal_engagement_mm": 8.999999999999996,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_602",
+      "mate": "D04_I_498",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_0",
+          "axis_offset_mm": 5.94754602032464e-15,
+          "nominal_engagement_mm": 8.999999999999996,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_603",
+      "mate": "D04_I_498",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_0",
+          "axis_offset_mm": 1.7815146131623647e-15,
+          "nominal_engagement_mm": 8.999999999999996,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_604",
+      "mate": "D04_I_498",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_0",
+          "axis_offset_mm": 3.972054645195637e-15,
+          "nominal_engagement_mm": 8.999999999999996,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_610",
+      "mate": "D04_I_500",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_1",
+          "axis_offset_mm": 1.9913421656973086e-15,
+          "nominal_engagement_mm": 8.99999999999999,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_611",
+      "mate": "D04_I_500",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_1",
+          "axis_offset_mm": 2.5289214343043653e-15,
+          "nominal_engagement_mm": 8.99999999999999,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_612",
+      "mate": "D04_I_500",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_1",
+          "axis_offset_mm": 2.6096944985542578e-15,
+          "nominal_engagement_mm": 8.99999999999999,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_613",
+      "mate": "D04_I_500",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_1",
+          "axis_offset_mm": 1.9860273225978185e-15,
+          "nominal_engagement_mm": 8.99999999999999,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_620",
+      "mate": "D04_I_500",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_0",
+          "axis_offset_mm": 1.195712999427236e-14,
+          "nominal_engagement_mm": 9.0,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_621",
+      "mate": "D04_I_500",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_0",
+          "axis_offset_mm": 1.082805813831451e-14,
+          "nominal_engagement_mm": 9.0,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_622",
+      "mate": "D04_I_500",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_0",
+          "axis_offset_mm": 6.330606834383343e-15,
+          "nominal_engagement_mm": 9.000000000000004,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_623",
+      "mate": "D04_I_500",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_0",
+          "axis_offset_mm": 8.881784197001252e-15,
+          "nominal_engagement_mm": 9.000000000000004,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_629",
+      "mate": "D04_I_502",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_1",
+          "axis_offset_mm": 4.7939652404101905e-15,
+          "nominal_engagement_mm": 8.999999999999986,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_630",
+      "mate": "D04_I_502",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_1",
+          "axis_offset_mm": 2.7650350566200485e-14,
+          "nominal_engagement_mm": 9.000000000000007,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_631",
+      "mate": "D04_I_502",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_1",
+          "axis_offset_mm": 2.5161211321649464e-14,
+          "nominal_engagement_mm": 9.000000000000007,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_632",
+      "mate": "D04_I_502",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_1",
+          "axis_offset_mm": 3.2023728339893768e-15,
+          "nominal_engagement_mm": 8.999999999999986,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_639",
+      "mate": "D04_I_502",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_0",
+          "axis_offset_mm": 2.1998383202307174e-14,
+          "nominal_engagement_mm": 9.00000000000001,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_640",
+      "mate": "D04_I_502",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_0",
+          "axis_offset_mm": 2.0795557593265746e-14,
+          "nominal_engagement_mm": 9.00000000000001,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_641",
+      "mate": "D04_I_502",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_0",
+          "axis_offset_mm": 6.330606834383343e-15,
+          "nominal_engagement_mm": 9.000000000000004,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_642",
+      "mate": "D04_I_502",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_0",
+          "axis_offset_mm": 8.881784197001252e-15,
+          "nominal_engagement_mm": 9.000000000000004,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_648",
+      "mate": "D04_I_496",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_1",
+          "axis_offset_mm": 1.9913421656973086e-15,
+          "nominal_engagement_mm": 8.99999999999999,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_649",
+      "mate": "D04_I_496",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_1",
+          "axis_offset_mm": 2.5289214343043653e-15,
+          "nominal_engagement_mm": 8.99999999999999,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_650",
+      "mate": "D04_I_496",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_1",
+          "axis_offset_mm": 2.6096944985542578e-15,
+          "nominal_engagement_mm": 8.99999999999999,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_651",
+      "mate": "D04_I_496",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_1",
+          "axis_offset_mm": 1.9860273225978185e-15,
+          "nominal_engagement_mm": 8.99999999999999,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_658",
+      "mate": "D04_I_495",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_2",
+          "axis_offset_mm": 1.5110854715202005e-14,
+          "nominal_engagement_mm": 9.0,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_659",
+      "mate": "D04_I_495",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_2",
+          "axis_offset_mm": 1.4324398477303647e-14,
+          "nominal_engagement_mm": 9.0,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_660",
+      "mate": "D04_I_495",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_2",
+          "axis_offset_mm": 2.8e-15,
+          "nominal_engagement_mm": 9.0,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_661",
+      "mate": "D04_I_495",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_2",
+          "axis_offset_mm": 0.0,
+          "nominal_engagement_mm": 9.0,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_667",
+      "mate": "D04_I_496",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_2",
+          "axis_offset_mm": 1.343331939511674e-14,
+          "nominal_engagement_mm": 9.0,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_668",
+      "mate": "D04_I_496",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_2",
+          "axis_offset_mm": 1.8e-15,
+          "nominal_engagement_mm": 8.999999999999996,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_669",
+      "mate": "D04_I_496",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_2",
+          "axis_offset_mm": 2.9224646799147353e-15,
+          "nominal_engagement_mm": 9.0,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_670",
+      "mate": "D04_I_496",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_2",
+          "axis_offset_mm": 1.4210854715202004e-14,
+          "nominal_engagement_mm": 9.000000000000004,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_677",
+      "mate": "D04_I_497",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_2",
+          "axis_offset_mm": 9e-16,
+          "nominal_engagement_mm": 9.0,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_678",
+      "mate": "D04_I_497",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_2",
+          "axis_offset_mm": 1.8e-15,
+          "nominal_engagement_mm": 9.0,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_679",
+      "mate": "D04_I_497",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_2",
+          "axis_offset_mm": 2.8e-15,
+          "nominal_engagement_mm": 9.0,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_680",
+      "mate": "D04_I_497",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_2",
+          "axis_offset_mm": 0.0,
+          "nominal_engagement_mm": 9.0,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_686",
+      "mate": "D04_I_498",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_2",
+          "axis_offset_mm": 7.775353200852649e-16,
+          "nominal_engagement_mm": 9.0,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_687",
+      "mate": "D04_I_498",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_2",
+          "axis_offset_mm": 1.8e-15,
+          "nominal_engagement_mm": 8.999999999999996,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_688",
+      "mate": "D04_I_498",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_2",
+          "axis_offset_mm": 2.9224646799147353e-15,
+          "nominal_engagement_mm": 9.0,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_689",
+      "mate": "D04_I_498",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_2",
+          "axis_offset_mm": 0.0,
+          "nominal_engagement_mm": 9.000000000000004,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_696",
+      "mate": "D04_I_499",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_2",
+          "axis_offset_mm": 9e-16,
+          "nominal_engagement_mm": 9.0,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_697",
+      "mate": "D04_I_499",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_2",
+          "axis_offset_mm": 1.8e-15,
+          "nominal_engagement_mm": 9.0,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_698",
+      "mate": "D04_I_499",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_2",
+          "axis_offset_mm": 2.8e-15,
+          "nominal_engagement_mm": 9.0,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_699",
+      "mate": "D04_I_499",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_2",
+          "axis_offset_mm": 0.0,
+          "nominal_engagement_mm": 9.0,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_705",
+      "mate": "D04_I_500",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_2",
+          "axis_offset_mm": 7.775353200852649e-16,
+          "nominal_engagement_mm": 9.0,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_706",
+      "mate": "D04_I_500",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_2",
+          "axis_offset_mm": 1.8e-15,
+          "nominal_engagement_mm": 8.999999999999996,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_707",
+      "mate": "D04_I_500",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_2",
+          "axis_offset_mm": 2.9224646799147353e-15,
+          "nominal_engagement_mm": 9.0,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_708",
+      "mate": "D04_I_500",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_2",
+          "axis_offset_mm": 0.0,
+          "nominal_engagement_mm": 9.000000000000004,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_715",
+      "mate": "D04_I_501",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_2",
+          "axis_offset_mm": 1.5110854715202005e-14,
+          "nominal_engagement_mm": 9.0,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_716",
+      "mate": "D04_I_501",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_2",
+          "axis_offset_mm": 1.4324398477303647e-14,
+          "nominal_engagement_mm": 9.0,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_717",
+      "mate": "D04_I_501",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_2",
+          "axis_offset_mm": 2.855929913261731e-14,
+          "nominal_engagement_mm": 9.0,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_718",
+      "mate": "D04_I_501",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_CORE_BOTTOM_2",
+          "axis_offset_mm": 0.0,
+          "nominal_engagement_mm": 9.0,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_724",
+      "mate": "D04_I_502",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_2",
+          "axis_offset_mm": 1.343331939511674e-14,
+          "nominal_engagement_mm": 9.0,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_725",
+      "mate": "D04_I_502",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_2",
+          "axis_offset_mm": 1.8e-15,
+          "nominal_engagement_mm": 8.999999999999996,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_726",
+      "mate": "D04_I_502",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_2",
+          "axis_offset_mm": 2.9224646799147353e-15,
+          "nominal_engagement_mm": 9.0,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D04_I_727",
+      "mate": "D04_I_502",
+      "matches": [
+        {
+          "feature": "D07_Kernport_D07_ROOT_TOP_2",
+          "axis_offset_mm": 1.4210854715202004e-14,
+          "nominal_engagement_mm": 9.000000000000004,
+          "thread_depth_mm": 10.0
+        }
+      ]
+    },
+    {
+      "bolt": "D07_I_6",
+      "mate": "D04_I_496",
+      "matches": [
+        {
+          "feature": "D07_M4_D07_ROOT_TOP_0",
+          "axis_offset_mm": 7.685694801574505e-14,
+          "nominal_engagement_mm": 9.250000000000007,
+          "thread_depth_mm": 10.25
+        }
+      ]
+    },
+    {
+      "bolt": "D07_I_7",
+      "mate": "D04_I_496",
+      "matches": [
+        {
+          "feature": "D07_M4_D07_ROOT_TOP_0",
+          "axis_offset_mm": 2.929642751054232e-14,
+          "nominal_engagement_mm": 9.250000000000007,
+          "thread_depth_mm": 10.25
+        }
+      ]
+    },
+    {
+      "bolt": "D07_I_11",
+      "mate": "D07_I_1",
+      "matches": [
+        {
+          "feature": "D07_M4_D07_MOTOR_NODE_0",
+          "axis_offset_mm": 1.542467014281528e-13,
+          "nominal_engagement_mm": 9.250000000000002,
+          "thread_depth_mm": 10.25
+        }
+      ]
+    },
+    {
+      "bolt": "D07_I_12",
+      "mate": "D07_I_1",
+      "matches": [
+        {
+          "feature": "D07_M4_D07_MOTOR_NODE_0",
+          "axis_offset_mm": 7.824040276299101e-14,
+          "nominal_engagement_mm": 9.249999999999998,
+          "thread_depth_mm": 10.25
+        }
+      ]
+    },
+    {
+      "bolt": "D07_I_17",
+      "mate": "D04_I_496",
+      "matches": [
+        {
+          "feature": "D07_M4_D07_ROOT_TOP_1",
+          "axis_offset_mm": 2.929642751054232e-14,
+          "nominal_engagement_mm": 9.249999999999993,
+          "thread_depth_mm": 10.25
+        }
+      ]
+    },
+    {
+      "bolt": "D07_I_18",
+      "mate": "D04_I_496",
+      "matches": [
+        {
+          "feature": "D07_M4_D07_ROOT_TOP_1",
+          "axis_offset_mm": 3.1776437161565096e-14,
+          "nominal_engagement_mm": 9.249999999999993,
+          "thread_depth_mm": 10.25
+        }
+      ]
+    },
+    {
+      "bolt": "D07_I_22",
+      "mate": "D07_I_1",
+      "matches": [
+        {
+          "feature": "D07_M4_D07_MOTOR_NODE_1",
+          "axis_offset_mm": 5.753312400962914e-14,
+          "nominal_engagement_mm": 9.249999999999988,
+          "thread_depth_mm": 10.25
+        }
+      ]
+    },
+    {
+      "bolt": "D07_I_23",
+      "mate": "D07_I_1",
+      "matches": [
+        {
+          "feature": "D07_M4_D07_MOTOR_NODE_1",
+          "axis_offset_mm": 1.2695670921804689e-13,
+          "nominal_engagement_mm": 9.249999999999988,
+          "thread_depth_mm": 10.25
+        }
+      ]
+    },
+    {
+      "bolt": "D07_I_29",
+      "mate": "D04_I_498",
+      "matches": [
+        {
+          "feature": "D07_M4_D07_ROOT_TOP_0",
+          "axis_offset_mm": 7.140866117879973e-14,
+          "nominal_engagement_mm": 9.250000000000007,
+          "thread_depth_mm": 10.25
+        }
+      ]
+    },
+    {
+      "bolt": "D07_I_30",
+      "mate": "D04_I_498",
+      "matches": [
+        {
+          "feature": "D07_M4_D07_ROOT_TOP_0",
+          "axis_offset_mm": 4.5496934130773415e-14,
+          "nominal_engagement_mm": 9.250000000000007,
+          "thread_depth_mm": 10.25
+        }
+      ]
+    },
+    {
+      "bolt": "D07_I_34",
+      "mate": "D07_I_24",
+      "matches": [
+        {
+          "feature": "D07_M4_D07_MOTOR_NODE_0",
+          "axis_offset_mm": 6.204547701064548e-14,
+          "nominal_engagement_mm": 9.249999999999998,
+          "thread_depth_mm": 10.25
+        }
+      ]
+    },
+    {
+      "bolt": "D07_I_35",
+      "mate": "D07_I_24",
+      "matches": [
+        {
+          "feature": "D07_M4_D07_MOTOR_NODE_0",
+          "axis_offset_mm": 5.695433295429594e-14,
+          "nominal_engagement_mm": 9.249999999999998,
+          "thread_depth_mm": 10.25
+        }
+      ]
+    },
+    {
+      "bolt": "D07_I_40",
+      "mate": "D04_I_498",
+      "matches": [
+        {
+          "feature": "D07_M4_D07_ROOT_TOP_1",
+          "axis_offset_mm": 8.101433657963767e-14,
+          "nominal_engagement_mm": 9.249999999999993,
+          "thread_depth_mm": 10.25
+        }
+      ]
+    },
+    {
+      "bolt": "D07_I_41",
+      "mate": "D04_I_498",
+      "matches": [
+        {
+          "feature": "D07_M4_D07_ROOT_TOP_1",
+          "axis_offset_mm": 4.322062729257126e-14,
+          "nominal_engagement_mm": 9.249999999999993,
+          "thread_depth_mm": 10.25
+        }
+      ]
+    },
+    {
+      "bolt": "D07_I_45",
+      "mate": "D07_I_24",
+      "matches": [
+        {
+          "feature": "D07_M4_D07_MOTOR_NODE_1",
+          "axis_offset_mm": 5.695433295429594e-14,
+          "nominal_engagement_mm": 9.249999999999984,
+          "thread_depth_mm": 10.25
+        }
+      ]
+    },
+    {
+      "bolt": "D07_I_46",
+      "mate": "D07_I_24",
+      "matches": [
+        {
+          "feature": "D07_M4_D07_MOTOR_NODE_1",
+          "axis_offset_mm": 2.5864145986817697e-14,
+          "nominal_engagement_mm": 9.249999999999984,
+          "thread_depth_mm": 10.25
+        }
+      ]
+    },
+    {
+      "bolt": "D07_I_52",
+      "mate": "D04_I_500",
+      "matches": [
+        {
+          "feature": "D07_M4_D07_ROOT_TOP_0",
+          "axis_offset_mm": 5.859285502108464e-14,
+          "nominal_engagement_mm": 9.249999999999993,
+          "thread_depth_mm": 10.25
+        }
+      ]
+    },
+    {
+      "bolt": "D07_I_53",
+      "mate": "D04_I_500",
+      "matches": [
+        {
+          "feature": "D07_M4_D07_ROOT_TOP_0",
+          "axis_offset_mm": 7.105427357601002e-15,
+          "nominal_engagement_mm": 9.249999999999993,
+          "thread_depth_mm": 10.25
+        }
+      ]
+    },
+    {
+      "bolt": "D07_I_57",
+      "mate": "D07_I_47",
+      "matches": [
+        {
+          "feature": "D07_M4_D07_MOTOR_NODE_0",
+          "axis_offset_mm": 1.2912538128792226e-13,
+          "nominal_engagement_mm": 9.249999999999988,
+          "thread_depth_mm": 10.25
+        }
+      ]
+    },
+    {
+      "bolt": "D07_I_58",
+      "mate": "D07_I_47",
+      "matches": [
+        {
+          "feature": "D07_M4_D07_MOTOR_NODE_0",
+          "axis_offset_mm": 7.824040276299101e-14,
+          "nominal_engagement_mm": 9.249999999999984,
+          "thread_depth_mm": 10.25
+        }
+      ]
+    },
+    {
+      "bolt": "D07_I_63",
+      "mate": "D04_I_500",
+      "matches": [
+        {
+          "feature": "D07_M4_D07_ROOT_TOP_1",
+          "axis_offset_mm": 4.322062729257126e-14,
+          "nominal_engagement_mm": 9.249999999999993,
+          "thread_depth_mm": 10.25
+        }
+      ]
+    },
+    {
+      "bolt": "D07_I_64",
+      "mate": "D04_I_500",
+      "matches": [
+        {
+          "feature": "D07_M4_D07_ROOT_TOP_1",
+          "axis_offset_mm": 7.685694801574505e-14,
+          "nominal_engagement_mm": 9.249999999999993,
+          "thread_depth_mm": 10.25
+        }
+      ]
+    },
+    {
+      "bolt": "D07_I_68",
+      "mate": "D07_I_47",
+      "matches": [
+        {
+          "feature": "D07_M4_D07_MOTOR_NODE_1",
+          "axis_offset_mm": 5.753312400962914e-14,
+          "nominal_engagement_mm": 9.249999999999988,
+          "thread_depth_mm": 10.25
+        }
+      ]
+    },
+    {
+      "bolt": "D07_I_69",
+      "mate": "D07_I_47",
+      "matches": [
+        {
+          "feature": "D07_M4_D07_MOTOR_NODE_1",
+          "axis_offset_mm": 1.2695670921804689e-13,
+          "nominal_engagement_mm": 9.249999999999988,
+          "thread_depth_mm": 10.25
+        }
+      ]
+    },
+    {
+      "bolt": "D07_I_75",
+      "mate": "D04_I_502",
+      "matches": [
+        {
+          "feature": "D07_M4_D07_ROOT_TOP_0",
+          "axis_offset_mm": 4.0194366942304644e-14,
+          "nominal_engagement_mm": 9.250000000000007,
+          "thread_depth_mm": 10.25
+        }
+      ]
+    },
+    {
+      "bolt": "D07_I_76",
+      "mate": "D04_I_502",
+      "matches": [
+        {
+          "feature": "D07_M4_D07_ROOT_TOP_0",
+          "axis_offset_mm": 2.929642751054232e-14,
+          "nominal_engagement_mm": 9.250000000000007,
+          "thread_depth_mm": 10.25
+        }
+      ]
+    },
+    {
+      "bolt": "D07_I_80",
+      "mate": "D07_I_70",
+      "matches": [
+        {
+          "feature": "D07_M4_D07_MOTOR_NODE_0",
+          "axis_offset_mm": 1.2834101332393602e-13,
+          "nominal_engagement_mm": 9.250000000000002,
+          "thread_depth_mm": 10.25
+        }
+      ]
+    },
+    {
+      "bolt": "D07_I_81",
+      "mate": "D07_I_70",
+      "matches": [
+        {
+          "feature": "D07_M4_D07_MOTOR_NODE_0",
+          "axis_offset_mm": 7.824040276299101e-14,
+          "nominal_engagement_mm": 9.249999999999998,
+          "thread_depth_mm": 10.25
+        }
+      ]
+    },
+    {
+      "bolt": "D07_I_86",
+      "mate": "D04_I_502",
+      "matches": [
+        {
+          "feature": "D07_M4_D07_ROOT_TOP_1",
+          "axis_offset_mm": 1.5888218580782548e-14,
+          "nominal_engagement_mm": 9.249999999999993,
+          "thread_depth_mm": 10.25
+        }
+      ]
+    },
+    {
+      "bolt": "D07_I_87",
+      "mate": "D04_I_502",
+      "matches": [
+        {
+          "feature": "D07_M4_D07_ROOT_TOP_1",
+          "axis_offset_mm": 1.4210854715202004e-14,
+          "nominal_engagement_mm": 9.249999999999993,
+          "thread_depth_mm": 10.25
+        }
+      ]
+    },
+    {
+      "bolt": "D07_I_91",
+      "mate": "D07_I_70",
+      "matches": [
+        {
+          "feature": "D07_M4_D07_MOTOR_NODE_1",
+          "axis_offset_mm": 5.753312400962914e-14,
+          "nominal_engagement_mm": 9.249999999999988,
+          "thread_depth_mm": 10.25
+        }
+      ]
+    },
+    {
+      "bolt": "D07_I_92",
+      "mate": "D07_I_70",
+      "matches": [
+        {
+          "feature": "D07_M4_D07_MOTOR_NODE_1",
+          "axis_offset_mm": 1.464821375527116e-14,
+          "nominal_engagement_mm": 9.249999999999984,
+          "thread_depth_mm": 10.25
+        }
+      ]
+    }
+  ],
+  "motor_mount_checks": [
+    {
+      "angle_deg": 45,
+      "node": "D07_I_1",
+      "motor": "D05_I_837",
+      "pcd_mm": 50,
+      "holes": 4,
+      "clearance_mm": 6.6,
+      "integral_foot_thickness_mm": 6,
+      "stator_bolts_retained": "ISO4762 M6x12;6mm nominal engagement from old project,OEM depth unverified",
+      "separate_motor_plate_present": false,
+      "maximum_hole_axis_offset_mm": 0.0,
+      "motor_base_z_mm": 88.0,
+      "node_top_z_mm": 88.0,
+      "nominal_reference_only": true
+    },
+    {
+      "angle_deg": 135,
+      "node": "D07_I_24",
+      "motor": "D05_I_842",
+      "pcd_mm": 50,
+      "holes": 4,
+      "clearance_mm": 6.6,
+      "integral_foot_thickness_mm": 6,
+      "stator_bolts_retained": "ISO4762 M6x12;6mm nominal engagement from old project,OEM depth unverified",
+      "separate_motor_plate_present": false,
+      "maximum_hole_axis_offset_mm": 5.684341886080802e-14,
+      "motor_base_z_mm": 88.0,
+      "node_top_z_mm": 88.0,
+      "nominal_reference_only": true
+    },
+    {
+      "angle_deg": 225,
+      "node": "D07_I_47",
+      "motor": "D05_I_847",
+      "pcd_mm": 50,
+      "holes": 4,
+      "clearance_mm": 6.6,
+      "integral_foot_thickness_mm": 6,
+      "stator_bolts_retained": "ISO4762 M6x12;6mm nominal engagement from old project,OEM depth unverified",
+      "separate_motor_plate_present": false,
+      "maximum_hole_axis_offset_mm": 5.684341886080802e-14,
+      "motor_base_z_mm": 88.0,
+      "node_top_z_mm": 88.0,
+      "nominal_reference_only": true
+    },
+    {
+      "angle_deg": 315,
+      "node": "D07_I_70",
+      "motor": "D05_I_852",
+      "pcd_mm": 50,
+      "holes": 4,
+      "clearance_mm": 6.6,
+      "integral_foot_thickness_mm": 6,
+      "stator_bolts_retained": "ISO4762 M6x12;6mm nominal engagement from old project,OEM depth unverified",
+      "separate_motor_plate_present": false,
+      "maximum_hole_axis_offset_mm": 0.0,
+      "motor_base_z_mm": 88.0,
+      "node_top_z_mm": 88.0,
+      "nominal_reference_only": true
+    }
+  ],
+  "arms": [
+    {
+      "angle_deg": 45,
+      "side": -1,
+      "instance": "D07_I_2",
+      "cut_start_mm": [
+        169.7056274847714,
+        84.85281374238569,
+        58.0
+      ],
+      "cut_end_mm": [
+        415.07168055650345,
+        383.9589821842953,
+        68.0
+      ],
+      "length_mm": 387.0,
+      "grip_each_end_mm": 35,
+      "free_length_between_grips_mm": 317.0,
+      "no_transverse_holes": true
+    },
+    {
+      "angle_deg": 45,
+      "side": 1,
+      "instance": "D07_I_13",
+      "cut_start_mm": [
+        84.8528137423857,
+        169.7056274847714,
+        58.0
+      ],
+      "cut_end_mm": [
+        383.95898218429534,
+        415.0716805565034,
+        68.0
+      ],
+      "length_mm": 387.0,
+      "grip_each_end_mm": 35,
+      "free_length_between_grips_mm": 317.0,
+      "no_transverse_holes": true
+    },
+    {
+      "angle_deg": 135,
+      "side": -1,
+      "instance": "D07_I_25",
+      "cut_start_mm": [
+        -84.85281374238569,
+        169.7056274847714,
+        58.0
+      ],
+      "cut_end_mm": [
+        -383.9589821842953,
+        415.07168055650345,
+        68.0
+      ],
+      "length_mm": 387.0,
+      "grip_each_end_mm": 35,
+      "free_length_between_grips_mm": 317.0,
+      "no_transverse_holes": true
+    },
+    {
+      "angle_deg": 135,
+      "side": 1,
+      "instance": "D07_I_36",
+      "cut_start_mm": [
+        -169.7056274847714,
+        84.8528137423857,
+        58.0
+      ],
+      "cut_end_mm": [
+        -415.0716805565034,
+        383.95898218429534,
+        68.0
+      ],
+      "length_mm": 387.0,
+      "grip_each_end_mm": 35,
+      "free_length_between_grips_mm": 317.0,
+      "no_transverse_holes": true
+    },
+    {
+      "angle_deg": 225,
+      "side": -1,
+      "instance": "D07_I_48",
+      "cut_start_mm": [
+        -169.70562748477144,
+        -84.85281374238568,
+        58.0
+      ],
+      "cut_end_mm": [
+        -415.0716805565035,
+        -383.9589821842953,
+        68.0
+      ],
+      "length_mm": 387.0,
+      "grip_each_end_mm": 35,
+      "free_length_between_grips_mm": 317.0,
+      "no_transverse_holes": true
+    },
+    {
+      "angle_deg": 225,
+      "side": 1,
+      "instance": "D07_I_59",
+      "cut_start_mm": [
+        -84.85281374238573,
+        -169.7056274847714,
+        58.0
+      ],
+      "cut_end_mm": [
+        -383.9589821842954,
+        -415.0716805565034,
+        68.0
+      ],
+      "length_mm": 387.0,
+      "grip_each_end_mm": 35,
+      "free_length_between_grips_mm": 317.0,
+      "no_transverse_holes": true
+    },
+    {
+      "angle_deg": 315,
+      "side": -1,
+      "instance": "D07_I_71",
+      "cut_start_mm": [
+        84.85281374238565,
+        -169.7056274847714,
+        58.0
+      ],
+      "cut_end_mm": [
+        383.9589821842952,
+        -415.0716805565035,
+        68.0
+      ],
+      "length_mm": 387.0,
+      "grip_each_end_mm": 35,
+      "free_length_between_grips_mm": 317.0,
+      "no_transverse_holes": true
+    },
+    {
+      "angle_deg": 315,
+      "side": 1,
+      "instance": "D07_I_82",
+      "cut_start_mm": [
+        169.70562748477138,
+        -84.85281374238575,
+        58.0
+      ],
+      "cut_end_mm": [
+        415.07168055650334,
+        -383.9589821842954,
+        68.0
+      ],
+      "length_mm": 387.0,
+      "grip_each_end_mm": 35,
+      "free_length_between_grips_mm": 317.0,
+      "no_transverse_holes": true
+    }
+  ],
+  "grip_length_each_end_mm": 35,
+  "clamp_split_gap_mm": 0.5,
+  "liner_radial_thickness_mm": 0.3,
+  "scope": "All96 new-parametrized core-port M4 axes and32 new socket M4 axes match the native tap features and positive nominal engagement. Four4xM6 motor patterns coincide with legacy reference only; OEM depths/material/torque remain unverified.8 actual annular tubes with no transverse holes;387mm cuts and35mm grips. No CFK contact/preload/tolerance/strength release."
+}

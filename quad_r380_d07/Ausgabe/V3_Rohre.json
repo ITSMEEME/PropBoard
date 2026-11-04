@@ -1,0 +1,146 @@
+[
+  {
+    "angle_deg": 45,
+    "side": -1,
+    "instance": "D07_I_2",
+    "cut_start_mm": [
+      169.7056274847714,
+      84.85281374238569,
+      58.0
+    ],
+    "cut_end_mm": [
+      415.07168055650345,
+      383.9589821842953,
+      68.0
+    ],
+    "length_mm": 387.0,
+    "grip_each_end_mm": 35,
+    "free_length_between_grips_mm": 317.0
+  },
+  {
+    "angle_deg": 45,
+    "side": 1,
+    "instance": "D07_I_13",
+    "cut_start_mm": [
+      84.8528137423857,
+      169.7056274847714,
+      58.0
+    ],
+    "cut_end_mm": [
+      383.95898218429534,
+      415.0716805565034,
+      68.0
+    ],
+    "length_mm": 387.0,
+    "grip_each_end_mm": 35,
+    "free_length_between_grips_mm": 317.0
+  },
+  {
+    "angle_deg": 135,
+    "side": -1,
+    "instance": "D07_I_25",
+    "cut_start_mm": [
+      -84.85281374238569,
+      169.7056274847714,
+      58.0
+    ],
+    "cut_end_mm": [
+      -383.9589821842953,
+      415.07168055650345,
+      68.0
+    ],
+    "length_mm": 387.0,
+    "grip_each_end_mm": 35,
+    "free_length_between_grips_mm": 317.0
+  },
+  {
+    "angle_deg": 135,
+    "side": 1,
+    "instance": "D07_I_36",
+    "cut_start_mm": [
+      -169.7056274847714,
+      84.8528137423857,
+      58.0
+    ],
+    "cut_end_mm": [
+      -415.0716805565034,
+      383.95898218429534,
+      68.0
+    ],
+    "length_mm": 387.0,
+    "grip_each_end_mm": 35,
+    "free_length_between_grips_mm": 317.0
+  },
+  {
+    "angle_deg": 225,
+    "side": -1,
+    "instance": "D07_I_48",
+    "cut_start_mm": [
+      -169.70562748477144,
+      -84.85281374238568,
+      58.0
+    ],
+    "cut_end_mm": [
+      -415.0716805565035,
+      -383.9589821842953,
+      68.0
+    ],
+    "length_mm": 387.0,
+    "grip_each_end_mm": 35,
+    "free_length_between_grips_mm": 317.0
+  },
+  {
+    "angle_deg": 225,
+    "side": 1,
+    "instance": "D07_I_59",
+    "cut_start_mm": [
+      -84.85281374238573,
+      -169.7056274847714,
+      58.0
+    ],
+    "cut_end_mm": [
+      -383.9589821842954,
+      -415.0716805565034,
+      68.0
+    ],
+    "length_mm": 387.0,
+    "grip_each_end_mm": 35,
+    "free_length_between_grips_mm": 317.0
+  },
+  {
+    "angle_deg": 315,
+    "side": -1,
+    "instance": "D07_I_71",
+    "cut_start_mm": [
+      84.85281374238565,
+      -169.7056274847714,
+      58.0
+    ],
+    "cut_end_mm": [
+      383.9589821842952,
+      -415.0716805565035,
+      68.0
+    ],
+    "length_mm": 387.0,
+    "grip_each_end_mm": 35,
+    "free_length_between_grips_mm": 317.0
+  },
+  {
+    "angle_deg": 315,
+    "side": 1,
+    "instance": "D07_I_82",
+    "cut_start_mm": [
+      169.70562748477138,
+      -84.85281374238575,
+      58.0
+    ],
+    "cut_end_mm": [
+      415.07168055650334,
+      -383.9589821842954,
+      68.0
+    ],
+    "length_mm": 387.0,
+    "grip_each_end_mm": 35,
+    "free_length_between_grips_mm": 317.0
+  }
+]

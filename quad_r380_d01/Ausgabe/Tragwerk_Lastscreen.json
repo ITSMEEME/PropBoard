@@ -1,0 +1,47 @@
+{
+  "scope": "Linear static demand screen. Exact nominal CAD arm section, homogeneous E. No full 3D contact/FEM, fatigue, local notch, tolerance or flight approval.",
+  "load_case_kg": 200,
+  "load_factor": 2,
+  "arm": {
+    "unsupported_length_m": 0.4610407640085655,
+    "area_mm2": 548.5486677646163,
+    "exact_section_I_mm4": 199378.16388419346,
+    "force_N": 981.0,
+    "root_moment_Nm": 452.28098949240274,
+    "nominal_bending_stress_MPa": 56.71144982495488,
+    "tip_deflection_mm": 2.2960963027053833,
+    "assumed_E_Pa": 70000000000,
+    "assumed_Rp02_MPa": 250,
+    "nominal_yield_ratio_under_assumption": 4.408280881050441
+  },
+  "root_joint": {
+    "bolt": "ISO4762 M6 class10.9",
+    "preload_target_each_N": 8000,
+    "moment_extra_each_N": 3769.0082457700228,
+    "peak_tension_each_N": 11769.008245770023,
+    "proof_load_reference_N": 16683.0,
+    "remaining_preload_unloaded_row_each_N": 4230.991754229977,
+    "friction_reference_N": 9600.0,
+    "transverse_force_N": 981.0,
+    "friction_force_ratio": 9.785932721712538,
+    "mean_nominal_contact_pressure_MPa": 6.7368421052631575,
+    "preload_torque_K018_024_Nm": [
+      8.64,
+      11.52
+    ],
+    "scope": "Two bolt rows 60mm apart, two bolts/row, no joint-stiffness or contact redistribution certification"
+  },
+  "insert_support": {
+    "maximum_face_gap_mm": 0.03,
+    "free_roof_strip_deflection_mm": 0.417498858256753,
+    "free_roof_strip_stress_MPa": 724.5847953216374,
+    "linear_strip_stress_at_first_support_MPa": 52.06611570247934,
+    "required": "Root internal faces finish/measure 44.00..44.02mm along135mm, matched plug43.97\u00b10.01; max face gap0.03mm. Preload contact must be validated; loose inserts prohibited."
+  },
+  "release_blockers": [
+    "Material certificates and actual section tolerances required",
+    "VDI2230 joint stiffness, preload scatter and fatigue unresolved",
+    "Contact verification of fitted tube inserts required",
+    "Gait, hard landing, rotor imbalance, gyroscopic, resonant and motor-failure loads not covered"
+  ]
+}

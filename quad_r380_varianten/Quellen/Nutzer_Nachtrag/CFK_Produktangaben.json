@@ -1,0 +1,21 @@
+{
+  "article": "CBU 2017 1005 TG",
+  "nominal_od_mm": 20,
+  "nominal_id_mm": 17,
+  "nominal_length_mm": 1000,
+  "od_tolerance_mm": 0.2,
+  "material": "Kohlenstofffasern / Epoxidharz, Prepreg-Laminierung",
+  "core_fibre_orientations_deg": [
+    0,
+    90
+  ],
+  "outer_layer": "Carbongewebe",
+  "surface": "PU-Beschichtung, Seidenglanz",
+  "source": "Produktbeschreibung vom Nutzer im Chat; Anbieter-URL und Dokumentrevision nicht mitgeliefert",
+  "open": [
+    "Lagenzahl, Lagenstärken, Faser-/Harztyp und Faservolumenanteil",
+    "Orthotrope Steifigkeiten und Festigkeiten",
+    "ID-Toleranz, Ovalität, Geradheit und Längenmasse",
+    "Lokale Klemmpressung, Reibung, Schlupf, Ermüdung und Prüfannahmen für Oberflächenfehler"
+  ]
+}

@@ -1,0 +1,9882 @@
+[
+  {
+    "instance": "P0_R1_DC_minus_Cu",
+    "id": "Kabel_0_Cu",
+    "label": "R1_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.06271998322532141,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P0_R1_DC_minus_Isolation",
+    "id": "Kabel_0_Isolation",
+    "label": "R1_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.0218672509039103,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P0_R1_DC_plus_Cu",
+    "id": "Kabel_1_Cu",
+    "label": "R1_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.06271998322532155,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P0_R1_DC_plus_Isolation",
+    "id": "Kabel_1_Isolation",
+    "label": "R1_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.021867250903910337,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P0_R1_U_Cu",
+    "id": "Kabel_2_Cu",
+    "label": "R1_U Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.06762802714348627,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P0_R1_U_Isolation",
+    "id": "Kabel_2_Isolation",
+    "label": "R1_U Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.022629950954251545,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P0_R1_V_Cu",
+    "id": "Kabel_3_Cu",
+    "label": "R1_V Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.06762802714348624,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P0_R1_V_Isolation",
+    "id": "Kabel_3_Isolation",
+    "label": "R1_V Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.022629950954251667,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P0_R1_W_Cu",
+    "id": "Kabel_4_Cu",
+    "label": "R1_W Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.06762802714348691,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P0_R1_W_Isolation",
+    "id": "Kabel_4_Isolation",
+    "label": "R1_W Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.02262995095425162,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P0_R1_Signal_Cu",
+    "id": "Kabel_5_Cu",
+    "label": "R1_Signal Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.0008959997603617609,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P0_R1_Signal_Isolation",
+    "id": "Kabel_5_Isolation",
+    "label": "R1_Signal Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.005357786397891751,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P0_R2_DC_minus_Cu",
+    "id": "Kabel_0_Cu",
+    "label": "R2_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.06271998322532141,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P0_R2_DC_minus_Isolation",
+    "id": "Kabel_0_Isolation",
+    "label": "R2_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.0218672509039103,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P0_R2_DC_plus_Cu",
+    "id": "Kabel_1_Cu",
+    "label": "R2_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.06271998322532155,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P0_R2_DC_plus_Isolation",
+    "id": "Kabel_1_Isolation",
+    "label": "R2_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.021867250903910337,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P0_R2_U_Cu",
+    "id": "Kabel_2_Cu",
+    "label": "R2_U Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.06762802714348627,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P0_R2_U_Isolation",
+    "id": "Kabel_2_Isolation",
+    "label": "R2_U Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.022629950954251545,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P0_R2_V_Cu",
+    "id": "Kabel_3_Cu",
+    "label": "R2_V Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.06762802714348624,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P0_R2_V_Isolation",
+    "id": "Kabel_3_Isolation",
+    "label": "R2_V Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.022629950954251667,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P0_R2_W_Cu",
+    "id": "Kabel_4_Cu",
+    "label": "R2_W Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.06762802714348691,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P0_R2_W_Isolation",
+    "id": "Kabel_4_Isolation",
+    "label": "R2_W Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.02262995095425162,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P0_R2_Signal_Cu",
+    "id": "Kabel_5_Cu",
+    "label": "R2_Signal Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.0008959997603617609,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P0_R2_Signal_Isolation",
+    "id": "Kabel_5_Isolation",
+    "label": "R2_Signal Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.005357786397891751,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P0_R3_DC_minus_Cu",
+    "id": "Kabel_0_Cu",
+    "label": "R3_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.06271998322532141,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P0_R3_DC_minus_Isolation",
+    "id": "Kabel_0_Isolation",
+    "label": "R3_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.0218672509039103,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P0_R3_DC_plus_Cu",
+    "id": "Kabel_1_Cu",
+    "label": "R3_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.06271998322532155,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P0_R3_DC_plus_Isolation",
+    "id": "Kabel_1_Isolation",
+    "label": "R3_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.021867250903910337,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P0_R3_U_Cu",
+    "id": "Kabel_2_Cu",
+    "label": "R3_U Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.06762802714348627,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P0_R3_U_Isolation",
+    "id": "Kabel_2_Isolation",
+    "label": "R3_U Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.022629950954251545,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P0_R3_V_Cu",
+    "id": "Kabel_3_Cu",
+    "label": "R3_V Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.06762802714348624,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P0_R3_V_Isolation",
+    "id": "Kabel_3_Isolation",
+    "label": "R3_V Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.022629950954251667,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P0_R3_W_Cu",
+    "id": "Kabel_4_Cu",
+    "label": "R3_W Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.06762802714348691,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P0_R3_W_Isolation",
+    "id": "Kabel_4_Isolation",
+    "label": "R3_W Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.02262995095425162,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P0_R3_Signal_Cu",
+    "id": "Kabel_5_Cu",
+    "label": "R3_Signal Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.0008959997603617609,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P0_R3_Signal_Isolation",
+    "id": "Kabel_5_Isolation",
+    "label": "R3_Signal Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.005357786397891751,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P0_R4_DC_minus_Cu",
+    "id": "Kabel_0_Cu",
+    "label": "R4_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.06271998322532141,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P0_R4_DC_minus_Isolation",
+    "id": "Kabel_0_Isolation",
+    "label": "R4_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.0218672509039103,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P0_R4_DC_plus_Cu",
+    "id": "Kabel_1_Cu",
+    "label": "R4_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.06271998322532155,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P0_R4_DC_plus_Isolation",
+    "id": "Kabel_1_Isolation",
+    "label": "R4_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.021867250903910337,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P0_R4_U_Cu",
+    "id": "Kabel_2_Cu",
+    "label": "R4_U Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.06762802714348627,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P0_R4_U_Isolation",
+    "id": "Kabel_2_Isolation",
+    "label": "R4_U Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.022629950954251545,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P0_R4_V_Cu",
+    "id": "Kabel_3_Cu",
+    "label": "R4_V Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.06762802714348624,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P0_R4_V_Isolation",
+    "id": "Kabel_3_Isolation",
+    "label": "R4_V Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.022629950954251667,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P0_R4_W_Cu",
+    "id": "Kabel_4_Cu",
+    "label": "R4_W Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.06762802714348691,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P0_R4_W_Isolation",
+    "id": "Kabel_4_Isolation",
+    "label": "R4_W Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.02262995095425162,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P0_R4_Signal_Cu",
+    "id": "Kabel_5_Cu",
+    "label": "R4_Signal Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.0008959997603617609,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P0_R4_Signal_Isolation",
+    "id": "Kabel_5_Isolation",
+    "label": "R4_Signal Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.005357786397891751,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P0_Haupt_DC_minus_Cu",
+    "id": "Kabel_6_Cu",
+    "label": "Haupt_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.17023995445998802,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "P0_Haupt_DC_minus_Isolation",
+    "id": "Kabel_6_Isolation",
+    "label": "Haupt_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.044651315164918604,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "P0_Haupt_DC_plus_Cu",
+    "id": "Kabel_7_Cu",
+    "label": "Haupt_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.17023995445998855,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "P0_Haupt_DC_plus_Isolation",
+    "id": "Kabel_7_Isolation",
+    "label": "Haupt_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 0,
+    "mass_kg": 0.04465131516491862,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "P1_R1_DC_minus_Cu",
+    "id": "Kabel_0_Cu",
+    "label": "R1_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.06271998322532141,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P1_R1_DC_minus_Isolation",
+    "id": "Kabel_0_Isolation",
+    "label": "R1_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.0218672509039103,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P1_R1_DC_plus_Cu",
+    "id": "Kabel_1_Cu",
+    "label": "R1_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.06271998322532155,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P1_R1_DC_plus_Isolation",
+    "id": "Kabel_1_Isolation",
+    "label": "R1_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.021867250903910337,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P1_R1_U_Cu",
+    "id": "Kabel_2_Cu",
+    "label": "R1_U Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.06762802714348627,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P1_R1_U_Isolation",
+    "id": "Kabel_2_Isolation",
+    "label": "R1_U Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.022629950954251545,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P1_R1_V_Cu",
+    "id": "Kabel_3_Cu",
+    "label": "R1_V Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.06762802714348624,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P1_R1_V_Isolation",
+    "id": "Kabel_3_Isolation",
+    "label": "R1_V Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.022629950954251667,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P1_R1_W_Cu",
+    "id": "Kabel_4_Cu",
+    "label": "R1_W Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.06762802714348691,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P1_R1_W_Isolation",
+    "id": "Kabel_4_Isolation",
+    "label": "R1_W Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.02262995095425162,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P1_R1_Signal_Cu",
+    "id": "Kabel_5_Cu",
+    "label": "R1_Signal Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.0008959997603617609,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P1_R1_Signal_Isolation",
+    "id": "Kabel_5_Isolation",
+    "label": "R1_Signal Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.005357786397891751,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P1_R2_DC_minus_Cu",
+    "id": "Kabel_0_Cu",
+    "label": "R2_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.06271998322532141,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P1_R2_DC_minus_Isolation",
+    "id": "Kabel_0_Isolation",
+    "label": "R2_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.0218672509039103,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P1_R2_DC_plus_Cu",
+    "id": "Kabel_1_Cu",
+    "label": "R2_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.06271998322532155,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P1_R2_DC_plus_Isolation",
+    "id": "Kabel_1_Isolation",
+    "label": "R2_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.021867250903910337,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P1_R2_U_Cu",
+    "id": "Kabel_2_Cu",
+    "label": "R2_U Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.06762802714348627,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P1_R2_U_Isolation",
+    "id": "Kabel_2_Isolation",
+    "label": "R2_U Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.022629950954251545,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P1_R2_V_Cu",
+    "id": "Kabel_3_Cu",
+    "label": "R2_V Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.06762802714348624,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P1_R2_V_Isolation",
+    "id": "Kabel_3_Isolation",
+    "label": "R2_V Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.022629950954251667,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P1_R2_W_Cu",
+    "id": "Kabel_4_Cu",
+    "label": "R2_W Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.06762802714348691,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P1_R2_W_Isolation",
+    "id": "Kabel_4_Isolation",
+    "label": "R2_W Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.02262995095425162,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P1_R2_Signal_Cu",
+    "id": "Kabel_5_Cu",
+    "label": "R2_Signal Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.0008959997603617609,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P1_R2_Signal_Isolation",
+    "id": "Kabel_5_Isolation",
+    "label": "R2_Signal Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.005357786397891751,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P1_R3_DC_minus_Cu",
+    "id": "Kabel_0_Cu",
+    "label": "R3_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.06271998322532141,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P1_R3_DC_minus_Isolation",
+    "id": "Kabel_0_Isolation",
+    "label": "R3_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.0218672509039103,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P1_R3_DC_plus_Cu",
+    "id": "Kabel_1_Cu",
+    "label": "R3_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.06271998322532155,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P1_R3_DC_plus_Isolation",
+    "id": "Kabel_1_Isolation",
+    "label": "R3_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.021867250903910337,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P1_R3_U_Cu",
+    "id": "Kabel_2_Cu",
+    "label": "R3_U Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.06762802714348627,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P1_R3_U_Isolation",
+    "id": "Kabel_2_Isolation",
+    "label": "R3_U Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.022629950954251545,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P1_R3_V_Cu",
+    "id": "Kabel_3_Cu",
+    "label": "R3_V Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.06762802714348624,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P1_R3_V_Isolation",
+    "id": "Kabel_3_Isolation",
+    "label": "R3_V Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.022629950954251667,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P1_R3_W_Cu",
+    "id": "Kabel_4_Cu",
+    "label": "R3_W Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.06762802714348691,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P1_R3_W_Isolation",
+    "id": "Kabel_4_Isolation",
+    "label": "R3_W Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.02262995095425162,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P1_R3_Signal_Cu",
+    "id": "Kabel_5_Cu",
+    "label": "R3_Signal Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.0008959997603617609,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P1_R3_Signal_Isolation",
+    "id": "Kabel_5_Isolation",
+    "label": "R3_Signal Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.005357786397891751,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P1_R4_DC_minus_Cu",
+    "id": "Kabel_0_Cu",
+    "label": "R4_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.06271998322532141,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P1_R4_DC_minus_Isolation",
+    "id": "Kabel_0_Isolation",
+    "label": "R4_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.0218672509039103,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P1_R4_DC_plus_Cu",
+    "id": "Kabel_1_Cu",
+    "label": "R4_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.06271998322532155,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P1_R4_DC_plus_Isolation",
+    "id": "Kabel_1_Isolation",
+    "label": "R4_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.021867250903910337,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P1_R4_U_Cu",
+    "id": "Kabel_2_Cu",
+    "label": "R4_U Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.06762802714348627,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P1_R4_U_Isolation",
+    "id": "Kabel_2_Isolation",
+    "label": "R4_U Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.022629950954251545,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P1_R4_V_Cu",
+    "id": "Kabel_3_Cu",
+    "label": "R4_V Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.06762802714348624,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P1_R4_V_Isolation",
+    "id": "Kabel_3_Isolation",
+    "label": "R4_V Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.022629950954251667,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P1_R4_W_Cu",
+    "id": "Kabel_4_Cu",
+    "label": "R4_W Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.06762802714348691,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P1_R4_W_Isolation",
+    "id": "Kabel_4_Isolation",
+    "label": "R4_W Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.02262995095425162,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P1_R4_Signal_Cu",
+    "id": "Kabel_5_Cu",
+    "label": "R4_Signal Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.0008959997603617609,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P1_R4_Signal_Isolation",
+    "id": "Kabel_5_Isolation",
+    "label": "R4_Signal Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.005357786397891751,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P1_Haupt_DC_minus_Cu",
+    "id": "Kabel_6_Cu",
+    "label": "Haupt_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.17023995445998802,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "P1_Haupt_DC_minus_Isolation",
+    "id": "Kabel_6_Isolation",
+    "label": "Haupt_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.044651315164918604,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "P1_Haupt_DC_plus_Cu",
+    "id": "Kabel_7_Cu",
+    "label": "Haupt_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.17023995445998855,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "P1_Haupt_DC_plus_Isolation",
+    "id": "Kabel_7_Isolation",
+    "label": "Haupt_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 1,
+    "mass_kg": 0.04465131516491862,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "P2_R1_DC_minus_Cu",
+    "id": "Kabel_0_Cu",
+    "label": "R1_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.06271998322532141,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P2_R1_DC_minus_Isolation",
+    "id": "Kabel_0_Isolation",
+    "label": "R1_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.0218672509039103,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P2_R1_DC_plus_Cu",
+    "id": "Kabel_1_Cu",
+    "label": "R1_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.06271998322532155,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P2_R1_DC_plus_Isolation",
+    "id": "Kabel_1_Isolation",
+    "label": "R1_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.021867250903910337,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P2_R1_U_Cu",
+    "id": "Kabel_8_Cu",
+    "label": "R1_U Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.0808393986134665,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P2_R1_U_Isolation",
+    "id": "Kabel_8_Isolation",
+    "label": "R1_U Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.027050815618925802,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P2_R1_V_Cu",
+    "id": "Kabel_9_Cu",
+    "label": "R1_V Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.08083939861346705,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P2_R1_V_Isolation",
+    "id": "Kabel_9_Isolation",
+    "label": "R1_V Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.02705081561892578,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P2_R1_W_Cu",
+    "id": "Kabel_10_Cu",
+    "label": "R1_W Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.08083939861346673,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P2_R1_W_Isolation",
+    "id": "Kabel_10_Isolation",
+    "label": "R1_W Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.027050815618925743,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P2_R1_Signal_Cu",
+    "id": "Kabel_5_Cu",
+    "label": "R1_Signal Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.0008959997603617609,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P2_R1_Signal_Isolation",
+    "id": "Kabel_5_Isolation",
+    "label": "R1_Signal Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.005357786397891751,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P2_R2_DC_minus_Cu",
+    "id": "Kabel_0_Cu",
+    "label": "R2_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.06271998322532141,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P2_R2_DC_minus_Isolation",
+    "id": "Kabel_0_Isolation",
+    "label": "R2_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.0218672509039103,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P2_R2_DC_plus_Cu",
+    "id": "Kabel_1_Cu",
+    "label": "R2_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.06271998322532155,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P2_R2_DC_plus_Isolation",
+    "id": "Kabel_1_Isolation",
+    "label": "R2_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.021867250903910337,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P2_R2_U_Cu",
+    "id": "Kabel_8_Cu",
+    "label": "R2_U Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.0808393986134665,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P2_R2_U_Isolation",
+    "id": "Kabel_8_Isolation",
+    "label": "R2_U Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.027050815618925802,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P2_R2_V_Cu",
+    "id": "Kabel_9_Cu",
+    "label": "R2_V Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.08083939861346705,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P2_R2_V_Isolation",
+    "id": "Kabel_9_Isolation",
+    "label": "R2_V Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.02705081561892578,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P2_R2_W_Cu",
+    "id": "Kabel_10_Cu",
+    "label": "R2_W Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.08083939861346673,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P2_R2_W_Isolation",
+    "id": "Kabel_10_Isolation",
+    "label": "R2_W Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.027050815618925743,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P2_R2_Signal_Cu",
+    "id": "Kabel_5_Cu",
+    "label": "R2_Signal Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.0008959997603617609,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P2_R2_Signal_Isolation",
+    "id": "Kabel_5_Isolation",
+    "label": "R2_Signal Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.005357786397891751,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P2_R3_DC_minus_Cu",
+    "id": "Kabel_0_Cu",
+    "label": "R3_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.06271998322532141,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P2_R3_DC_minus_Isolation",
+    "id": "Kabel_0_Isolation",
+    "label": "R3_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.0218672509039103,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P2_R3_DC_plus_Cu",
+    "id": "Kabel_1_Cu",
+    "label": "R3_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.06271998322532155,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P2_R3_DC_plus_Isolation",
+    "id": "Kabel_1_Isolation",
+    "label": "R3_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.021867250903910337,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P2_R3_U_Cu",
+    "id": "Kabel_8_Cu",
+    "label": "R3_U Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.0808393986134665,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P2_R3_U_Isolation",
+    "id": "Kabel_8_Isolation",
+    "label": "R3_U Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.027050815618925802,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P2_R3_V_Cu",
+    "id": "Kabel_9_Cu",
+    "label": "R3_V Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.08083939861346705,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P2_R3_V_Isolation",
+    "id": "Kabel_9_Isolation",
+    "label": "R3_V Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.02705081561892578,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P2_R3_W_Cu",
+    "id": "Kabel_10_Cu",
+    "label": "R3_W Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.08083939861346673,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P2_R3_W_Isolation",
+    "id": "Kabel_10_Isolation",
+    "label": "R3_W Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.027050815618925743,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P2_R3_Signal_Cu",
+    "id": "Kabel_5_Cu",
+    "label": "R3_Signal Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.0008959997603617609,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P2_R3_Signal_Isolation",
+    "id": "Kabel_5_Isolation",
+    "label": "R3_Signal Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.005357786397891751,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P2_R4_DC_minus_Cu",
+    "id": "Kabel_0_Cu",
+    "label": "R4_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.06271998322532141,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P2_R4_DC_minus_Isolation",
+    "id": "Kabel_0_Isolation",
+    "label": "R4_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.0218672509039103,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P2_R4_DC_plus_Cu",
+    "id": "Kabel_1_Cu",
+    "label": "R4_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.06271998322532155,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P2_R4_DC_plus_Isolation",
+    "id": "Kabel_1_Isolation",
+    "label": "R4_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.021867250903910337,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P2_R4_U_Cu",
+    "id": "Kabel_8_Cu",
+    "label": "R4_U Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.0808393986134665,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P2_R4_U_Isolation",
+    "id": "Kabel_8_Isolation",
+    "label": "R4_U Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.027050815618925802,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P2_R4_V_Cu",
+    "id": "Kabel_9_Cu",
+    "label": "R4_V Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.08083939861346705,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P2_R4_V_Isolation",
+    "id": "Kabel_9_Isolation",
+    "label": "R4_V Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.02705081561892578,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P2_R4_W_Cu",
+    "id": "Kabel_10_Cu",
+    "label": "R4_W Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.08083939861346673,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P2_R4_W_Isolation",
+    "id": "Kabel_10_Isolation",
+    "label": "R4_W Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.027050815618925743,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P2_R4_Signal_Cu",
+    "id": "Kabel_5_Cu",
+    "label": "R4_Signal Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.0008959997603617609,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P2_R4_Signal_Isolation",
+    "id": "Kabel_5_Isolation",
+    "label": "R4_Signal Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.005357786397891751,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P2_Haupt_DC_minus_Cu",
+    "id": "Kabel_6_Cu",
+    "label": "Haupt_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.17023995445998802,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "P2_Haupt_DC_minus_Isolation",
+    "id": "Kabel_6_Isolation",
+    "label": "Haupt_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.044651315164918604,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "P2_Haupt_DC_plus_Cu",
+    "id": "Kabel_7_Cu",
+    "label": "Haupt_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.17023995445998855,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "P2_Haupt_DC_plus_Isolation",
+    "id": "Kabel_7_Isolation",
+    "label": "Haupt_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 2,
+    "mass_kg": 0.04465131516491862,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "P3_R1_DC_minus_Cu",
+    "id": "Kabel_0_Cu",
+    "label": "R1_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.06271998322532141,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P3_R1_DC_minus_Isolation",
+    "id": "Kabel_0_Isolation",
+    "label": "R1_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.0218672509039103,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P3_R1_DC_plus_Cu",
+    "id": "Kabel_1_Cu",
+    "label": "R1_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.06271998322532155,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P3_R1_DC_plus_Isolation",
+    "id": "Kabel_1_Isolation",
+    "label": "R1_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.021867250903910337,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P3_R1_U_Cu",
+    "id": "Kabel_11_Cu",
+    "label": "R1_U Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.08681077252594137,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P3_R1_U_Isolation",
+    "id": "Kabel_11_Isolation",
+    "label": "R1_U Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.029048975109516047,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P3_R1_V_Cu",
+    "id": "Kabel_12_Cu",
+    "label": "R1_V Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.08681077252594097,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P3_R1_V_Isolation",
+    "id": "Kabel_12_Isolation",
+    "label": "R1_V Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.029048975109516262,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P3_R1_W_Cu",
+    "id": "Kabel_13_Cu",
+    "label": "R1_W Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.08681077252594119,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P3_R1_W_Isolation",
+    "id": "Kabel_13_Isolation",
+    "label": "R1_W Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.029048975109516352,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P3_R1_Signal_Cu",
+    "id": "Kabel_5_Cu",
+    "label": "R1_Signal Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.0008959997603617609,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P3_R1_Signal_Isolation",
+    "id": "Kabel_5_Isolation",
+    "label": "R1_Signal Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.005357786397891751,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P3_R2_DC_minus_Cu",
+    "id": "Kabel_0_Cu",
+    "label": "R2_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.06271998322532141,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P3_R2_DC_minus_Isolation",
+    "id": "Kabel_0_Isolation",
+    "label": "R2_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.0218672509039103,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P3_R2_DC_plus_Cu",
+    "id": "Kabel_1_Cu",
+    "label": "R2_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.06271998322532155,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P3_R2_DC_plus_Isolation",
+    "id": "Kabel_1_Isolation",
+    "label": "R2_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.021867250903910337,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P3_R2_U_Cu",
+    "id": "Kabel_11_Cu",
+    "label": "R2_U Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.08681077252594137,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P3_R2_U_Isolation",
+    "id": "Kabel_11_Isolation",
+    "label": "R2_U Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.029048975109516047,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P3_R2_V_Cu",
+    "id": "Kabel_12_Cu",
+    "label": "R2_V Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.08681077252594097,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P3_R2_V_Isolation",
+    "id": "Kabel_12_Isolation",
+    "label": "R2_V Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.029048975109516262,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P3_R2_W_Cu",
+    "id": "Kabel_13_Cu",
+    "label": "R2_W Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.08681077252594119,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P3_R2_W_Isolation",
+    "id": "Kabel_13_Isolation",
+    "label": "R2_W Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.029048975109516352,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P3_R2_Signal_Cu",
+    "id": "Kabel_5_Cu",
+    "label": "R2_Signal Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.0008959997603617609,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P3_R2_Signal_Isolation",
+    "id": "Kabel_5_Isolation",
+    "label": "R2_Signal Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.005357786397891751,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P3_R3_DC_minus_Cu",
+    "id": "Kabel_0_Cu",
+    "label": "R3_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.06271998322532141,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P3_R3_DC_minus_Isolation",
+    "id": "Kabel_0_Isolation",
+    "label": "R3_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.0218672509039103,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P3_R3_DC_plus_Cu",
+    "id": "Kabel_1_Cu",
+    "label": "R3_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.06271998322532155,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P3_R3_DC_plus_Isolation",
+    "id": "Kabel_1_Isolation",
+    "label": "R3_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.021867250903910337,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P3_R3_U_Cu",
+    "id": "Kabel_11_Cu",
+    "label": "R3_U Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.08681077252594137,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P3_R3_U_Isolation",
+    "id": "Kabel_11_Isolation",
+    "label": "R3_U Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.029048975109516047,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P3_R3_V_Cu",
+    "id": "Kabel_12_Cu",
+    "label": "R3_V Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.08681077252594097,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P3_R3_V_Isolation",
+    "id": "Kabel_12_Isolation",
+    "label": "R3_V Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.029048975109516262,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P3_R3_W_Cu",
+    "id": "Kabel_13_Cu",
+    "label": "R3_W Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.08681077252594119,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P3_R3_W_Isolation",
+    "id": "Kabel_13_Isolation",
+    "label": "R3_W Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.029048975109516352,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P3_R3_Signal_Cu",
+    "id": "Kabel_5_Cu",
+    "label": "R3_Signal Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.0008959997603617609,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P3_R3_Signal_Isolation",
+    "id": "Kabel_5_Isolation",
+    "label": "R3_Signal Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.005357786397891751,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P3_R4_DC_minus_Cu",
+    "id": "Kabel_0_Cu",
+    "label": "R4_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.06271998322532141,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P3_R4_DC_minus_Isolation",
+    "id": "Kabel_0_Isolation",
+    "label": "R4_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.0218672509039103,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P3_R4_DC_plus_Cu",
+    "id": "Kabel_1_Cu",
+    "label": "R4_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.06271998322532155,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P3_R4_DC_plus_Isolation",
+    "id": "Kabel_1_Isolation",
+    "label": "R4_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.021867250903910337,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P3_R4_U_Cu",
+    "id": "Kabel_11_Cu",
+    "label": "R4_U Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.08681077252594137,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P3_R4_U_Isolation",
+    "id": "Kabel_11_Isolation",
+    "label": "R4_U Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.029048975109516047,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P3_R4_V_Cu",
+    "id": "Kabel_12_Cu",
+    "label": "R4_V Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.08681077252594097,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P3_R4_V_Isolation",
+    "id": "Kabel_12_Isolation",
+    "label": "R4_V Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.029048975109516262,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P3_R4_W_Cu",
+    "id": "Kabel_13_Cu",
+    "label": "R4_W Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.08681077252594119,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P3_R4_W_Isolation",
+    "id": "Kabel_13_Isolation",
+    "label": "R4_W Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.029048975109516352,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P3_R4_Signal_Cu",
+    "id": "Kabel_5_Cu",
+    "label": "R4_Signal Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.0008959997603617609,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P3_R4_Signal_Isolation",
+    "id": "Kabel_5_Isolation",
+    "label": "R4_Signal Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.005357786397891751,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P3_Haupt_DC_minus_Cu",
+    "id": "Kabel_6_Cu",
+    "label": "Haupt_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.17023995445998802,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "P3_Haupt_DC_minus_Isolation",
+    "id": "Kabel_6_Isolation",
+    "label": "Haupt_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.044651315164918604,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "P3_Haupt_DC_plus_Cu",
+    "id": "Kabel_7_Cu",
+    "label": "Haupt_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.17023995445998855,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "P3_Haupt_DC_plus_Isolation",
+    "id": "Kabel_7_Isolation",
+    "label": "Haupt_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 3,
+    "mass_kg": 0.04465131516491862,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "P4_R1_DC_minus_Cu",
+    "id": "Kabel_0_Cu",
+    "label": "R1_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.06271998322532141,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P4_R1_DC_minus_Isolation",
+    "id": "Kabel_0_Isolation",
+    "label": "R1_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.0218672509039103,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P4_R1_DC_plus_Cu",
+    "id": "Kabel_1_Cu",
+    "label": "R1_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.06271998322532155,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P4_R1_DC_plus_Isolation",
+    "id": "Kabel_1_Isolation",
+    "label": "R1_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.021867250903910337,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P4_R1_U_Cu",
+    "id": "Kabel_14_Cu",
+    "label": "R1_U Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.08981415145682925,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P4_R1_U_Isolation",
+    "id": "Kabel_14_Isolation",
+    "label": "R1_U Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.030053957335686547,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P4_R1_V_Cu",
+    "id": "Kabel_15_Cu",
+    "label": "R1_V Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.08981415145682979,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P4_R1_V_Isolation",
+    "id": "Kabel_15_Isolation",
+    "label": "R1_V Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.0300539573356866,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P4_R1_W_Cu",
+    "id": "Kabel_16_Cu",
+    "label": "R1_W Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.08981415145682992,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P4_R1_W_Isolation",
+    "id": "Kabel_16_Isolation",
+    "label": "R1_W Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.03005395733568662,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P4_R1_Signal_Cu",
+    "id": "Kabel_5_Cu",
+    "label": "R1_Signal Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.0008959997603617609,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P4_R1_Signal_Isolation",
+    "id": "Kabel_5_Isolation",
+    "label": "R1_Signal Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.005357786397891751,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P4_R2_DC_minus_Cu",
+    "id": "Kabel_0_Cu",
+    "label": "R2_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.06271998322532141,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P4_R2_DC_minus_Isolation",
+    "id": "Kabel_0_Isolation",
+    "label": "R2_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.0218672509039103,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P4_R2_DC_plus_Cu",
+    "id": "Kabel_1_Cu",
+    "label": "R2_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.06271998322532155,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P4_R2_DC_plus_Isolation",
+    "id": "Kabel_1_Isolation",
+    "label": "R2_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.021867250903910337,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P4_R2_U_Cu",
+    "id": "Kabel_14_Cu",
+    "label": "R2_U Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.08981415145682925,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P4_R2_U_Isolation",
+    "id": "Kabel_14_Isolation",
+    "label": "R2_U Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.030053957335686547,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P4_R2_V_Cu",
+    "id": "Kabel_15_Cu",
+    "label": "R2_V Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.08981415145682979,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P4_R2_V_Isolation",
+    "id": "Kabel_15_Isolation",
+    "label": "R2_V Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.0300539573356866,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P4_R2_W_Cu",
+    "id": "Kabel_16_Cu",
+    "label": "R2_W Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.08981415145682992,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P4_R2_W_Isolation",
+    "id": "Kabel_16_Isolation",
+    "label": "R2_W Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.03005395733568662,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P4_R2_Signal_Cu",
+    "id": "Kabel_5_Cu",
+    "label": "R2_Signal Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.0008959997603617609,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P4_R2_Signal_Isolation",
+    "id": "Kabel_5_Isolation",
+    "label": "R2_Signal Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.005357786397891751,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P4_R3_DC_minus_Cu",
+    "id": "Kabel_0_Cu",
+    "label": "R3_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.06271998322532141,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P4_R3_DC_minus_Isolation",
+    "id": "Kabel_0_Isolation",
+    "label": "R3_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.0218672509039103,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P4_R3_DC_plus_Cu",
+    "id": "Kabel_1_Cu",
+    "label": "R3_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.06271998322532155,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P4_R3_DC_plus_Isolation",
+    "id": "Kabel_1_Isolation",
+    "label": "R3_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.021867250903910337,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P4_R3_U_Cu",
+    "id": "Kabel_14_Cu",
+    "label": "R3_U Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.08981415145682925,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P4_R3_U_Isolation",
+    "id": "Kabel_14_Isolation",
+    "label": "R3_U Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.030053957335686547,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P4_R3_V_Cu",
+    "id": "Kabel_15_Cu",
+    "label": "R3_V Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.08981415145682979,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P4_R3_V_Isolation",
+    "id": "Kabel_15_Isolation",
+    "label": "R3_V Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.0300539573356866,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P4_R3_W_Cu",
+    "id": "Kabel_16_Cu",
+    "label": "R3_W Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.08981415145682992,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P4_R3_W_Isolation",
+    "id": "Kabel_16_Isolation",
+    "label": "R3_W Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.03005395733568662,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P4_R3_Signal_Cu",
+    "id": "Kabel_5_Cu",
+    "label": "R3_Signal Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.0008959997603617609,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P4_R3_Signal_Isolation",
+    "id": "Kabel_5_Isolation",
+    "label": "R3_Signal Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.005357786397891751,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P4_R4_DC_minus_Cu",
+    "id": "Kabel_0_Cu",
+    "label": "R4_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.06271998322532141,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P4_R4_DC_minus_Isolation",
+    "id": "Kabel_0_Isolation",
+    "label": "R4_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.0218672509039103,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P4_R4_DC_plus_Cu",
+    "id": "Kabel_1_Cu",
+    "label": "R4_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.06271998322532155,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P4_R4_DC_plus_Isolation",
+    "id": "Kabel_1_Isolation",
+    "label": "R4_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.021867250903910337,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P4_R4_U_Cu",
+    "id": "Kabel_14_Cu",
+    "label": "R4_U Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.08981415145682925,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P4_R4_U_Isolation",
+    "id": "Kabel_14_Isolation",
+    "label": "R4_U Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.030053957335686547,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P4_R4_V_Cu",
+    "id": "Kabel_15_Cu",
+    "label": "R4_V Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.08981415145682979,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P4_R4_V_Isolation",
+    "id": "Kabel_15_Isolation",
+    "label": "R4_V Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.0300539573356866,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P4_R4_W_Cu",
+    "id": "Kabel_16_Cu",
+    "label": "R4_W Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.08981415145682992,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P4_R4_W_Isolation",
+    "id": "Kabel_16_Isolation",
+    "label": "R4_W Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.03005395733568662,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P4_R4_Signal_Cu",
+    "id": "Kabel_5_Cu",
+    "label": "R4_Signal Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.0008959997603617609,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P4_R4_Signal_Isolation",
+    "id": "Kabel_5_Isolation",
+    "label": "R4_Signal Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.005357786397891751,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P4_Haupt_DC_minus_Cu",
+    "id": "Kabel_6_Cu",
+    "label": "Haupt_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.17023995445998802,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "P4_Haupt_DC_minus_Isolation",
+    "id": "Kabel_6_Isolation",
+    "label": "Haupt_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.044651315164918604,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "P4_Haupt_DC_plus_Cu",
+    "id": "Kabel_7_Cu",
+    "label": "Haupt_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.17023995445998855,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "P4_Haupt_DC_plus_Isolation",
+    "id": "Kabel_7_Isolation",
+    "label": "Haupt_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 4,
+    "mass_kg": 0.04465131516491862,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "P5_R1_DC_minus_Cu",
+    "id": "Kabel_0_Cu",
+    "label": "R1_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.06271998322532141,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P5_R1_DC_minus_Isolation",
+    "id": "Kabel_0_Isolation",
+    "label": "R1_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.0218672509039103,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P5_R1_DC_plus_Cu",
+    "id": "Kabel_1_Cu",
+    "label": "R1_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.06271998322532155,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P5_R1_DC_plus_Isolation",
+    "id": "Kabel_1_Isolation",
+    "label": "R1_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.021867250903910337,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P5_R1_U_Cu",
+    "id": "Kabel_17_Cu",
+    "label": "R1_U Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.09433837410986741,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P5_R1_U_Isolation",
+    "id": "Kabel_17_Isolation",
+    "label": "R1_U Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.03156787014771095,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P5_R1_V_Cu",
+    "id": "Kabel_18_Cu",
+    "label": "R1_V Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.09433837410986827,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P5_R1_V_Isolation",
+    "id": "Kabel_18_Isolation",
+    "label": "R1_V Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.031567870147711244,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P5_R1_W_Cu",
+    "id": "Kabel_19_Cu",
+    "label": "R1_W Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.09433837410986837,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P5_R1_W_Isolation",
+    "id": "Kabel_19_Isolation",
+    "label": "R1_W Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.031567870147711286,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P5_R1_Signal_Cu",
+    "id": "Kabel_5_Cu",
+    "label": "R1_Signal Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.0008959997603617609,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P5_R1_Signal_Isolation",
+    "id": "Kabel_5_Isolation",
+    "label": "R1_Signal Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.005357786397891751,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P5_R2_DC_minus_Cu",
+    "id": "Kabel_0_Cu",
+    "label": "R2_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.06271998322532141,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P5_R2_DC_minus_Isolation",
+    "id": "Kabel_0_Isolation",
+    "label": "R2_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.0218672509039103,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P5_R2_DC_plus_Cu",
+    "id": "Kabel_1_Cu",
+    "label": "R2_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.06271998322532155,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P5_R2_DC_plus_Isolation",
+    "id": "Kabel_1_Isolation",
+    "label": "R2_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.021867250903910337,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P5_R2_U_Cu",
+    "id": "Kabel_17_Cu",
+    "label": "R2_U Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.09433837410986741,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P5_R2_U_Isolation",
+    "id": "Kabel_17_Isolation",
+    "label": "R2_U Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.03156787014771095,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P5_R2_V_Cu",
+    "id": "Kabel_18_Cu",
+    "label": "R2_V Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.09433837410986827,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P5_R2_V_Isolation",
+    "id": "Kabel_18_Isolation",
+    "label": "R2_V Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.031567870147711244,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P5_R2_W_Cu",
+    "id": "Kabel_19_Cu",
+    "label": "R2_W Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.09433837410986837,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P5_R2_W_Isolation",
+    "id": "Kabel_19_Isolation",
+    "label": "R2_W Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.031567870147711286,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P5_R2_Signal_Cu",
+    "id": "Kabel_5_Cu",
+    "label": "R2_Signal Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.0008959997603617609,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P5_R2_Signal_Isolation",
+    "id": "Kabel_5_Isolation",
+    "label": "R2_Signal Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.005357786397891751,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P5_R3_DC_minus_Cu",
+    "id": "Kabel_0_Cu",
+    "label": "R3_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.06271998322532141,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P5_R3_DC_minus_Isolation",
+    "id": "Kabel_0_Isolation",
+    "label": "R3_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.0218672509039103,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P5_R3_DC_plus_Cu",
+    "id": "Kabel_1_Cu",
+    "label": "R3_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.06271998322532155,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P5_R3_DC_plus_Isolation",
+    "id": "Kabel_1_Isolation",
+    "label": "R3_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.021867250903910337,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P5_R3_U_Cu",
+    "id": "Kabel_17_Cu",
+    "label": "R3_U Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.09433837410986741,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P5_R3_U_Isolation",
+    "id": "Kabel_17_Isolation",
+    "label": "R3_U Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.03156787014771095,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P5_R3_V_Cu",
+    "id": "Kabel_18_Cu",
+    "label": "R3_V Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.09433837410986827,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P5_R3_V_Isolation",
+    "id": "Kabel_18_Isolation",
+    "label": "R3_V Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.031567870147711244,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P5_R3_W_Cu",
+    "id": "Kabel_19_Cu",
+    "label": "R3_W Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.09433837410986837,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P5_R3_W_Isolation",
+    "id": "Kabel_19_Isolation",
+    "label": "R3_W Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.031567870147711286,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P5_R3_Signal_Cu",
+    "id": "Kabel_5_Cu",
+    "label": "R3_Signal Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.0008959997603617609,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P5_R3_Signal_Isolation",
+    "id": "Kabel_5_Isolation",
+    "label": "R3_Signal Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.005357786397891751,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P5_R4_DC_minus_Cu",
+    "id": "Kabel_0_Cu",
+    "label": "R4_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.06271998322532141,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P5_R4_DC_minus_Isolation",
+    "id": "Kabel_0_Isolation",
+    "label": "R4_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.0218672509039103,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P5_R4_DC_plus_Cu",
+    "id": "Kabel_1_Cu",
+    "label": "R4_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.06271998322532155,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P5_R4_DC_plus_Isolation",
+    "id": "Kabel_1_Isolation",
+    "label": "R4_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.021867250903910337,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P5_R4_U_Cu",
+    "id": "Kabel_17_Cu",
+    "label": "R4_U Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.09433837410986741,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P5_R4_U_Isolation",
+    "id": "Kabel_17_Isolation",
+    "label": "R4_U Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.03156787014771095,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P5_R4_V_Cu",
+    "id": "Kabel_18_Cu",
+    "label": "R4_V Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.09433837410986827,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P5_R4_V_Isolation",
+    "id": "Kabel_18_Isolation",
+    "label": "R4_V Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.031567870147711244,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P5_R4_W_Cu",
+    "id": "Kabel_19_Cu",
+    "label": "R4_W Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.09433837410986837,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P5_R4_W_Isolation",
+    "id": "Kabel_19_Isolation",
+    "label": "R4_W Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.031567870147711286,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P5_R4_Signal_Cu",
+    "id": "Kabel_5_Cu",
+    "label": "R4_Signal Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.0008959997603617609,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P5_R4_Signal_Isolation",
+    "id": "Kabel_5_Isolation",
+    "label": "R4_Signal Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.005357786397891751,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P5_Haupt_DC_minus_Cu",
+    "id": "Kabel_6_Cu",
+    "label": "Haupt_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.17023995445998802,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "P5_Haupt_DC_minus_Isolation",
+    "id": "Kabel_6_Isolation",
+    "label": "Haupt_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.044651315164918604,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "P5_Haupt_DC_plus_Cu",
+    "id": "Kabel_7_Cu",
+    "label": "Haupt_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.17023995445998855,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "P5_Haupt_DC_plus_Isolation",
+    "id": "Kabel_7_Isolation",
+    "label": "Haupt_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 5,
+    "mass_kg": 0.04465131516491862,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "P6_R1_DC_minus_Cu",
+    "id": "Kabel_0_Cu",
+    "label": "R1_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.06271998322532141,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P6_R1_DC_minus_Isolation",
+    "id": "Kabel_0_Isolation",
+    "label": "R1_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.0218672509039103,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P6_R1_DC_plus_Cu",
+    "id": "Kabel_1_Cu",
+    "label": "R1_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.06271998322532155,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P6_R1_DC_plus_Isolation",
+    "id": "Kabel_1_Isolation",
+    "label": "R1_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.021867250903910337,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P6_R1_U_Cu",
+    "id": "Kabel_20_Cu",
+    "label": "R1_U Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.10040187466304926,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P6_R1_U_Isolation",
+    "id": "Kabel_20_Isolation",
+    "label": "R1_U Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.033596862060170325,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P6_R1_V_Cu",
+    "id": "Kabel_21_Cu",
+    "label": "R1_V Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.10040187466304892,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P6_R1_V_Isolation",
+    "id": "Kabel_21_Isolation",
+    "label": "R1_V Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.03359686206017026,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P6_R1_W_Cu",
+    "id": "Kabel_22_Cu",
+    "label": "R1_W Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.10040187466305017,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P6_R1_W_Isolation",
+    "id": "Kabel_22_Isolation",
+    "label": "R1_W Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.033596862060170186,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P6_R1_Signal_Cu",
+    "id": "Kabel_5_Cu",
+    "label": "R1_Signal Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.0008959997603617609,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P6_R1_Signal_Isolation",
+    "id": "Kabel_5_Isolation",
+    "label": "R1_Signal Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.005357786397891751,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P6_R2_DC_minus_Cu",
+    "id": "Kabel_0_Cu",
+    "label": "R2_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.06271998322532141,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P6_R2_DC_minus_Isolation",
+    "id": "Kabel_0_Isolation",
+    "label": "R2_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.0218672509039103,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P6_R2_DC_plus_Cu",
+    "id": "Kabel_1_Cu",
+    "label": "R2_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.06271998322532155,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P6_R2_DC_plus_Isolation",
+    "id": "Kabel_1_Isolation",
+    "label": "R2_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.021867250903910337,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P6_R2_U_Cu",
+    "id": "Kabel_20_Cu",
+    "label": "R2_U Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.10040187466304926,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P6_R2_U_Isolation",
+    "id": "Kabel_20_Isolation",
+    "label": "R2_U Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.033596862060170325,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P6_R2_V_Cu",
+    "id": "Kabel_21_Cu",
+    "label": "R2_V Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.10040187466304892,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P6_R2_V_Isolation",
+    "id": "Kabel_21_Isolation",
+    "label": "R2_V Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.03359686206017026,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P6_R2_W_Cu",
+    "id": "Kabel_22_Cu",
+    "label": "R2_W Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.10040187466305017,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P6_R2_W_Isolation",
+    "id": "Kabel_22_Isolation",
+    "label": "R2_W Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.033596862060170186,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P6_R2_Signal_Cu",
+    "id": "Kabel_5_Cu",
+    "label": "R2_Signal Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.0008959997603617609,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P6_R2_Signal_Isolation",
+    "id": "Kabel_5_Isolation",
+    "label": "R2_Signal Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.005357786397891751,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P6_R3_DC_minus_Cu",
+    "id": "Kabel_0_Cu",
+    "label": "R3_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.06271998322532141,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P6_R3_DC_minus_Isolation",
+    "id": "Kabel_0_Isolation",
+    "label": "R3_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.0218672509039103,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P6_R3_DC_plus_Cu",
+    "id": "Kabel_1_Cu",
+    "label": "R3_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.06271998322532155,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P6_R3_DC_plus_Isolation",
+    "id": "Kabel_1_Isolation",
+    "label": "R3_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.021867250903910337,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P6_R3_U_Cu",
+    "id": "Kabel_20_Cu",
+    "label": "R3_U Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.10040187466304926,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P6_R3_U_Isolation",
+    "id": "Kabel_20_Isolation",
+    "label": "R3_U Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.033596862060170325,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P6_R3_V_Cu",
+    "id": "Kabel_21_Cu",
+    "label": "R3_V Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.10040187466304892,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P6_R3_V_Isolation",
+    "id": "Kabel_21_Isolation",
+    "label": "R3_V Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.03359686206017026,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P6_R3_W_Cu",
+    "id": "Kabel_22_Cu",
+    "label": "R3_W Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.10040187466305017,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P6_R3_W_Isolation",
+    "id": "Kabel_22_Isolation",
+    "label": "R3_W Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.033596862060170186,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P6_R3_Signal_Cu",
+    "id": "Kabel_5_Cu",
+    "label": "R3_Signal Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.0008959997603617609,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P6_R3_Signal_Isolation",
+    "id": "Kabel_5_Isolation",
+    "label": "R3_Signal Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.005357786397891751,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P6_R4_DC_minus_Cu",
+    "id": "Kabel_0_Cu",
+    "label": "R4_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.06271998322532141,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P6_R4_DC_minus_Isolation",
+    "id": "Kabel_0_Isolation",
+    "label": "R4_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.0218672509039103,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P6_R4_DC_plus_Cu",
+    "id": "Kabel_1_Cu",
+    "label": "R4_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.06271998322532155,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P6_R4_DC_plus_Isolation",
+    "id": "Kabel_1_Isolation",
+    "label": "R4_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.021867250903910337,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P6_R4_U_Cu",
+    "id": "Kabel_20_Cu",
+    "label": "R4_U Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.10040187466304926,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P6_R4_U_Isolation",
+    "id": "Kabel_20_Isolation",
+    "label": "R4_U Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.033596862060170325,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P6_R4_V_Cu",
+    "id": "Kabel_21_Cu",
+    "label": "R4_V Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.10040187466304892,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P6_R4_V_Isolation",
+    "id": "Kabel_21_Isolation",
+    "label": "R4_V Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.03359686206017026,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P6_R4_W_Cu",
+    "id": "Kabel_22_Cu",
+    "label": "R4_W Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.10040187466305017,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P6_R4_W_Isolation",
+    "id": "Kabel_22_Isolation",
+    "label": "R4_W Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.033596862060170186,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P6_R4_Signal_Cu",
+    "id": "Kabel_5_Cu",
+    "label": "R4_Signal Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.0008959997603617609,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P6_R4_Signal_Isolation",
+    "id": "Kabel_5_Isolation",
+    "label": "R4_Signal Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.005357786397891751,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P6_Haupt_DC_minus_Cu",
+    "id": "Kabel_6_Cu",
+    "label": "Haupt_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.17023995445998802,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "P6_Haupt_DC_minus_Isolation",
+    "id": "Kabel_6_Isolation",
+    "label": "Haupt_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.044651315164918604,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "P6_Haupt_DC_plus_Cu",
+    "id": "Kabel_7_Cu",
+    "label": "Haupt_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.17023995445998855,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "P6_Haupt_DC_plus_Isolation",
+    "id": "Kabel_7_Isolation",
+    "label": "Haupt_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 6,
+    "mass_kg": 0.04465131516491862,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "P7_R1_DC_minus_Cu",
+    "id": "Kabel_0_Cu",
+    "label": "R1_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.06271998322532141,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P7_R1_DC_minus_Isolation",
+    "id": "Kabel_0_Isolation",
+    "label": "R1_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.0218672509039103,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P7_R1_DC_plus_Cu",
+    "id": "Kabel_1_Cu",
+    "label": "R1_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.06271998322532155,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P7_R1_DC_plus_Isolation",
+    "id": "Kabel_1_Isolation",
+    "label": "R1_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.021867250903910337,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P7_R1_U_Cu",
+    "id": "Kabel_23_Cu",
+    "label": "R1_U Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.10649575317949644,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P7_R1_U_Isolation",
+    "id": "Kabel_23_Isolation",
+    "label": "R1_U Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.0356360191637166,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P7_R1_V_Cu",
+    "id": "Kabel_24_Cu",
+    "label": "R1_V Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.10649575317949653,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P7_R1_V_Isolation",
+    "id": "Kabel_24_Isolation",
+    "label": "R1_V Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.0356360191637165,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P7_R1_W_Cu",
+    "id": "Kabel_25_Cu",
+    "label": "R1_W Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.1064957531794966,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P7_R1_W_Isolation",
+    "id": "Kabel_25_Isolation",
+    "label": "R1_W Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.03563601916371633,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P7_R1_Signal_Cu",
+    "id": "Kabel_5_Cu",
+    "label": "R1_Signal Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.0008959997603617609,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P7_R1_Signal_Isolation",
+    "id": "Kabel_5_Isolation",
+    "label": "R1_Signal Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.005357786397891751,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P7_R2_DC_minus_Cu",
+    "id": "Kabel_0_Cu",
+    "label": "R2_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.06271998322532141,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P7_R2_DC_minus_Isolation",
+    "id": "Kabel_0_Isolation",
+    "label": "R2_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.0218672509039103,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P7_R2_DC_plus_Cu",
+    "id": "Kabel_1_Cu",
+    "label": "R2_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.06271998322532155,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P7_R2_DC_plus_Isolation",
+    "id": "Kabel_1_Isolation",
+    "label": "R2_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.021867250903910337,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P7_R2_U_Cu",
+    "id": "Kabel_23_Cu",
+    "label": "R2_U Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.10649575317949644,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P7_R2_U_Isolation",
+    "id": "Kabel_23_Isolation",
+    "label": "R2_U Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.0356360191637166,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P7_R2_V_Cu",
+    "id": "Kabel_24_Cu",
+    "label": "R2_V Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.10649575317949653,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P7_R2_V_Isolation",
+    "id": "Kabel_24_Isolation",
+    "label": "R2_V Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.0356360191637165,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P7_R2_W_Cu",
+    "id": "Kabel_25_Cu",
+    "label": "R2_W Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.1064957531794966,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P7_R2_W_Isolation",
+    "id": "Kabel_25_Isolation",
+    "label": "R2_W Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.03563601916371633,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P7_R2_Signal_Cu",
+    "id": "Kabel_5_Cu",
+    "label": "R2_Signal Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.0008959997603617609,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P7_R2_Signal_Isolation",
+    "id": "Kabel_5_Isolation",
+    "label": "R2_Signal Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.005357786397891751,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P7_R3_DC_minus_Cu",
+    "id": "Kabel_0_Cu",
+    "label": "R3_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.06271998322532141,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P7_R3_DC_minus_Isolation",
+    "id": "Kabel_0_Isolation",
+    "label": "R3_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.0218672509039103,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P7_R3_DC_plus_Cu",
+    "id": "Kabel_1_Cu",
+    "label": "R3_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.06271998322532155,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P7_R3_DC_plus_Isolation",
+    "id": "Kabel_1_Isolation",
+    "label": "R3_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.021867250903910337,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P7_R3_U_Cu",
+    "id": "Kabel_23_Cu",
+    "label": "R3_U Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.10649575317949644,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P7_R3_U_Isolation",
+    "id": "Kabel_23_Isolation",
+    "label": "R3_U Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.0356360191637166,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P7_R3_V_Cu",
+    "id": "Kabel_24_Cu",
+    "label": "R3_V Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.10649575317949653,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P7_R3_V_Isolation",
+    "id": "Kabel_24_Isolation",
+    "label": "R3_V Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.0356360191637165,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P7_R3_W_Cu",
+    "id": "Kabel_25_Cu",
+    "label": "R3_W Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.1064957531794966,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P7_R3_W_Isolation",
+    "id": "Kabel_25_Isolation",
+    "label": "R3_W Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.03563601916371633,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P7_R3_Signal_Cu",
+    "id": "Kabel_5_Cu",
+    "label": "R3_Signal Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.0008959997603617609,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P7_R3_Signal_Isolation",
+    "id": "Kabel_5_Isolation",
+    "label": "R3_Signal Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.005357786397891751,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P7_R4_DC_minus_Cu",
+    "id": "Kabel_0_Cu",
+    "label": "R4_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.06271998322532141,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P7_R4_DC_minus_Isolation",
+    "id": "Kabel_0_Isolation",
+    "label": "R4_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.0218672509039103,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P7_R4_DC_plus_Cu",
+    "id": "Kabel_1_Cu",
+    "label": "R4_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.06271998322532155,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P7_R4_DC_plus_Isolation",
+    "id": "Kabel_1_Isolation",
+    "label": "R4_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.021867250903910337,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P7_R4_U_Cu",
+    "id": "Kabel_23_Cu",
+    "label": "R4_U Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.10649575317949644,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P7_R4_U_Isolation",
+    "id": "Kabel_23_Isolation",
+    "label": "R4_U Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.0356360191637166,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P7_R4_V_Cu",
+    "id": "Kabel_24_Cu",
+    "label": "R4_V Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.10649575317949653,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P7_R4_V_Isolation",
+    "id": "Kabel_24_Isolation",
+    "label": "R4_V Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.0356360191637165,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P7_R4_W_Cu",
+    "id": "Kabel_25_Cu",
+    "label": "R4_W Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.1064957531794966,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P7_R4_W_Isolation",
+    "id": "Kabel_25_Isolation",
+    "label": "R4_W Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.03563601916371633,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P7_R4_Signal_Cu",
+    "id": "Kabel_5_Cu",
+    "label": "R4_Signal Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.0008959997603617609,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P7_R4_Signal_Isolation",
+    "id": "Kabel_5_Isolation",
+    "label": "R4_Signal Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.005357786397891751,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P7_Haupt_DC_minus_Cu",
+    "id": "Kabel_6_Cu",
+    "label": "Haupt_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.17023995445998802,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "P7_Haupt_DC_minus_Isolation",
+    "id": "Kabel_6_Isolation",
+    "label": "Haupt_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.044651315164918604,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "P7_Haupt_DC_plus_Cu",
+    "id": "Kabel_7_Cu",
+    "label": "Haupt_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.17023995445998855,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "P7_Haupt_DC_plus_Isolation",
+    "id": "Kabel_7_Isolation",
+    "label": "Haupt_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 7,
+    "mass_kg": 0.04465131516491862,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "P8_R1_DC_minus_Cu",
+    "id": "Kabel_0_Cu",
+    "label": "R1_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.06271998322532141,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P8_R1_DC_minus_Isolation",
+    "id": "Kabel_0_Isolation",
+    "label": "R1_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.0218672509039103,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P8_R1_DC_plus_Cu",
+    "id": "Kabel_1_Cu",
+    "label": "R1_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.06271998322532155,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P8_R1_DC_plus_Isolation",
+    "id": "Kabel_1_Isolation",
+    "label": "R1_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.021867250903910337,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P8_R1_U_Cu",
+    "id": "Kabel_26_Cu",
+    "label": "R1_U Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.11261532128826787,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P8_R1_U_Isolation",
+    "id": "Kabel_26_Isolation",
+    "label": "R1_U Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.037683772617607005,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P8_R1_V_Cu",
+    "id": "Kabel_27_Cu",
+    "label": "R1_V Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.11261532128826811,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P8_R1_V_Isolation",
+    "id": "Kabel_27_Isolation",
+    "label": "R1_V Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.03768377261760669,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P8_R1_W_Cu",
+    "id": "Kabel_28_Cu",
+    "label": "R1_W Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.11261532128826873,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P8_R1_W_Isolation",
+    "id": "Kabel_28_Isolation",
+    "label": "R1_W Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.03768377261760688,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P8_R1_Signal_Cu",
+    "id": "Kabel_5_Cu",
+    "label": "R1_Signal Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.0008959997603617609,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P8_R1_Signal_Isolation",
+    "id": "Kabel_5_Isolation",
+    "label": "R1_Signal Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.005357786397891751,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P8_R2_DC_minus_Cu",
+    "id": "Kabel_0_Cu",
+    "label": "R2_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.06271998322532141,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P8_R2_DC_minus_Isolation",
+    "id": "Kabel_0_Isolation",
+    "label": "R2_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.0218672509039103,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P8_R2_DC_plus_Cu",
+    "id": "Kabel_1_Cu",
+    "label": "R2_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.06271998322532155,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P8_R2_DC_plus_Isolation",
+    "id": "Kabel_1_Isolation",
+    "label": "R2_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.021867250903910337,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P8_R2_U_Cu",
+    "id": "Kabel_26_Cu",
+    "label": "R2_U Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.11261532128826787,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P8_R2_U_Isolation",
+    "id": "Kabel_26_Isolation",
+    "label": "R2_U Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.037683772617607005,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P8_R2_V_Cu",
+    "id": "Kabel_27_Cu",
+    "label": "R2_V Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.11261532128826811,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P8_R2_V_Isolation",
+    "id": "Kabel_27_Isolation",
+    "label": "R2_V Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.03768377261760669,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P8_R2_W_Cu",
+    "id": "Kabel_28_Cu",
+    "label": "R2_W Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.11261532128826873,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P8_R2_W_Isolation",
+    "id": "Kabel_28_Isolation",
+    "label": "R2_W Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.03768377261760688,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P8_R2_Signal_Cu",
+    "id": "Kabel_5_Cu",
+    "label": "R2_Signal Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.0008959997603617609,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P8_R2_Signal_Isolation",
+    "id": "Kabel_5_Isolation",
+    "label": "R2_Signal Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.005357786397891751,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P8_R3_DC_minus_Cu",
+    "id": "Kabel_0_Cu",
+    "label": "R3_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.06271998322532141,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P8_R3_DC_minus_Isolation",
+    "id": "Kabel_0_Isolation",
+    "label": "R3_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.0218672509039103,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P8_R3_DC_plus_Cu",
+    "id": "Kabel_1_Cu",
+    "label": "R3_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.06271998322532155,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P8_R3_DC_plus_Isolation",
+    "id": "Kabel_1_Isolation",
+    "label": "R3_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.021867250903910337,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P8_R3_U_Cu",
+    "id": "Kabel_26_Cu",
+    "label": "R3_U Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.11261532128826787,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P8_R3_U_Isolation",
+    "id": "Kabel_26_Isolation",
+    "label": "R3_U Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.037683772617607005,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P8_R3_V_Cu",
+    "id": "Kabel_27_Cu",
+    "label": "R3_V Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.11261532128826811,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P8_R3_V_Isolation",
+    "id": "Kabel_27_Isolation",
+    "label": "R3_V Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.03768377261760669,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P8_R3_W_Cu",
+    "id": "Kabel_28_Cu",
+    "label": "R3_W Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.11261532128826873,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P8_R3_W_Isolation",
+    "id": "Kabel_28_Isolation",
+    "label": "R3_W Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.03768377261760688,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P8_R3_Signal_Cu",
+    "id": "Kabel_5_Cu",
+    "label": "R3_Signal Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.0008959997603617609,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P8_R3_Signal_Isolation",
+    "id": "Kabel_5_Isolation",
+    "label": "R3_Signal Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.005357786397891751,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P8_R4_DC_minus_Cu",
+    "id": "Kabel_0_Cu",
+    "label": "R4_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.06271998322532141,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P8_R4_DC_minus_Isolation",
+    "id": "Kabel_0_Isolation",
+    "label": "R4_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.0218672509039103,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P8_R4_DC_plus_Cu",
+    "id": "Kabel_1_Cu",
+    "label": "R4_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.06271998322532155,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P8_R4_DC_plus_Isolation",
+    "id": "Kabel_1_Isolation",
+    "label": "R4_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.021867250903910337,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P8_R4_U_Cu",
+    "id": "Kabel_26_Cu",
+    "label": "R4_U Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.11261532128826787,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P8_R4_U_Isolation",
+    "id": "Kabel_26_Isolation",
+    "label": "R4_U Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.037683772617607005,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P8_R4_V_Cu",
+    "id": "Kabel_27_Cu",
+    "label": "R4_V Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.11261532128826811,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P8_R4_V_Isolation",
+    "id": "Kabel_27_Isolation",
+    "label": "R4_V Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.03768377261760669,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P8_R4_W_Cu",
+    "id": "Kabel_28_Cu",
+    "label": "R4_W Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.11261532128826873,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P8_R4_W_Isolation",
+    "id": "Kabel_28_Isolation",
+    "label": "R4_W Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.03768377261760688,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P8_R4_Signal_Cu",
+    "id": "Kabel_5_Cu",
+    "label": "R4_Signal Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.0008959997603617609,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P8_R4_Signal_Isolation",
+    "id": "Kabel_5_Isolation",
+    "label": "R4_Signal Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.005357786397891751,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P8_Haupt_DC_minus_Cu",
+    "id": "Kabel_6_Cu",
+    "label": "Haupt_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.17023995445998802,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "P8_Haupt_DC_minus_Isolation",
+    "id": "Kabel_6_Isolation",
+    "label": "Haupt_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.044651315164918604,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "P8_Haupt_DC_plus_Cu",
+    "id": "Kabel_7_Cu",
+    "label": "Haupt_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.17023995445998855,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "P8_Haupt_DC_plus_Isolation",
+    "id": "Kabel_7_Isolation",
+    "label": "Haupt_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 8,
+    "mass_kg": 0.04465131516491862,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "P9_R1_DC_minus_Cu",
+    "id": "Kabel_0_Cu",
+    "label": "R1_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.06271998322532141,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P9_R1_DC_minus_Isolation",
+    "id": "Kabel_0_Isolation",
+    "label": "R1_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.0218672509039103,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P9_R1_DC_plus_Cu",
+    "id": "Kabel_1_Cu",
+    "label": "R1_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.06271998322532155,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P9_R1_DC_plus_Isolation",
+    "id": "Kabel_1_Isolation",
+    "label": "R1_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.021867250903910337,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P9_R1_U_Cu",
+    "id": "Kabel_29_Cu",
+    "label": "R1_U Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.12954804118903082,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P9_R1_U_Isolation",
+    "id": "Kabel_29_Isolation",
+    "label": "R1_U Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.0433498604365318,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P9_R1_V_Cu",
+    "id": "Kabel_30_Cu",
+    "label": "R1_V Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.129548041189031,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P9_R1_V_Isolation",
+    "id": "Kabel_30_Isolation",
+    "label": "R1_V Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.04334986043653168,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P9_R1_W_Cu",
+    "id": "Kabel_31_Cu",
+    "label": "R1_W Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.12954804118903154,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P9_R1_W_Isolation",
+    "id": "Kabel_31_Isolation",
+    "label": "R1_W Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.04334986043653158,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P9_R1_Signal_Cu",
+    "id": "Kabel_5_Cu",
+    "label": "R1_Signal Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.0008959997603617609,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P9_R1_Signal_Isolation",
+    "id": "Kabel_5_Isolation",
+    "label": "R1_Signal Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.005357786397891751,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650898,
+      0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P9_R2_DC_minus_Cu",
+    "id": "Kabel_0_Cu",
+    "label": "R2_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.06271998322532141,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P9_R2_DC_minus_Isolation",
+    "id": "Kabel_0_Isolation",
+    "label": "R2_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.0218672509039103,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P9_R2_DC_plus_Cu",
+    "id": "Kabel_1_Cu",
+    "label": "R2_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.06271998322532155,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P9_R2_DC_plus_Isolation",
+    "id": "Kabel_1_Isolation",
+    "label": "R2_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.021867250903910337,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P9_R2_U_Cu",
+    "id": "Kabel_29_Cu",
+    "label": "R2_U Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.12954804118903082,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P9_R2_U_Isolation",
+    "id": "Kabel_29_Isolation",
+    "label": "R2_U Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.0433498604365318,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P9_R2_V_Cu",
+    "id": "Kabel_30_Cu",
+    "label": "R2_V Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.129548041189031,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P9_R2_V_Isolation",
+    "id": "Kabel_30_Isolation",
+    "label": "R2_V Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.04334986043653168,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P9_R2_W_Cu",
+    "id": "Kabel_31_Cu",
+    "label": "R2_W Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.12954804118903154,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P9_R2_W_Isolation",
+    "id": "Kabel_31_Isolation",
+    "label": "R2_W Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.04334986043653158,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P9_R2_Signal_Cu",
+    "id": "Kabel_5_Cu",
+    "label": "R2_Signal Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.0008959997603617609,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P9_R2_Signal_Isolation",
+    "id": "Kabel_5_Isolation",
+    "label": "R2_Signal Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.005357786397891751,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      0.38268343236508984
+    ]
+  },
+  {
+    "instance": "P9_R3_DC_minus_Cu",
+    "id": "Kabel_0_Cu",
+    "label": "R3_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.06271998322532141,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P9_R3_DC_minus_Isolation",
+    "id": "Kabel_0_Isolation",
+    "label": "R3_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.0218672509039103,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P9_R3_DC_plus_Cu",
+    "id": "Kabel_1_Cu",
+    "label": "R3_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.06271998322532155,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P9_R3_DC_plus_Isolation",
+    "id": "Kabel_1_Isolation",
+    "label": "R3_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.021867250903910337,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P9_R3_U_Cu",
+    "id": "Kabel_29_Cu",
+    "label": "R3_U Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.12954804118903082,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P9_R3_U_Isolation",
+    "id": "Kabel_29_Isolation",
+    "label": "R3_U Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.0433498604365318,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P9_R3_V_Cu",
+    "id": "Kabel_30_Cu",
+    "label": "R3_V Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.129548041189031,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P9_R3_V_Isolation",
+    "id": "Kabel_30_Isolation",
+    "label": "R3_V Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.04334986043653168,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P9_R3_W_Cu",
+    "id": "Kabel_31_Cu",
+    "label": "R3_W Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.12954804118903154,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P9_R3_W_Isolation",
+    "id": "Kabel_31_Isolation",
+    "label": "R3_W Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.04334986043653158,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P9_R3_Signal_Cu",
+    "id": "Kabel_5_Cu",
+    "label": "R3_Signal Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.0008959997603617609,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P9_R3_Signal_Isolation",
+    "id": "Kabel_5_Isolation",
+    "label": "R3_Signal Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.005357786397891751,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.9238795325112867,
+      -0.3826834323650897
+    ]
+  },
+  {
+    "instance": "P9_R4_DC_minus_Cu",
+    "id": "Kabel_0_Cu",
+    "label": "R4_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.06271998322532141,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P9_R4_DC_minus_Isolation",
+    "id": "Kabel_0_Isolation",
+    "label": "R4_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.0218672509039103,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P9_R4_DC_plus_Cu",
+    "id": "Kabel_1_Cu",
+    "label": "R4_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.06271998322532155,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P9_R4_DC_plus_Isolation",
+    "id": "Kabel_1_Isolation",
+    "label": "R4_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.021867250903910337,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P9_R4_U_Cu",
+    "id": "Kabel_29_Cu",
+    "label": "R4_U Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.12954804118903082,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P9_R4_U_Isolation",
+    "id": "Kabel_29_Isolation",
+    "label": "R4_U Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.0433498604365318,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P9_R4_V_Cu",
+    "id": "Kabel_30_Cu",
+    "label": "R4_V Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.129548041189031,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P9_R4_V_Isolation",
+    "id": "Kabel_30_Isolation",
+    "label": "R4_V Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.04334986043653168,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P9_R4_W_Cu",
+    "id": "Kabel_31_Cu",
+    "label": "R4_W Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.12954804118903154,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P9_R4_W_Isolation",
+    "id": "Kabel_31_Isolation",
+    "label": "R4_W Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.04334986043653158,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P9_R4_Signal_Cu",
+    "id": "Kabel_5_Cu",
+    "label": "R4_Signal Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.0008959997603617609,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P9_R4_Signal_Isolation",
+    "id": "Kabel_5_Isolation",
+    "label": "R4_Signal Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.005357786397891751,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.3826834323650899,
+      -0.9238795325112867
+    ]
+  },
+  {
+    "instance": "P9_Haupt_DC_minus_Cu",
+    "id": "Kabel_6_Cu",
+    "label": "Haupt_DC_minus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.17023995445998802,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "P9_Haupt_DC_minus_Isolation",
+    "id": "Kabel_6_Isolation",
+    "label": "Haupt_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.044651315164918604,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "P9_Haupt_DC_plus_Cu",
+    "id": "Kabel_7_Cu",
+    "label": "Haupt_DC_plus Cu",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.17023995445998855,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  {
+    "instance": "P9_Haupt_DC_plus_Isolation",
+    "id": "Kabel_7_Isolation",
+    "label": "Haupt_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "propeller_index": 9,
+    "mass_kg": 0.04465131516491862,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  }
+]

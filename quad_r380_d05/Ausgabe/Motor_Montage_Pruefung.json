@@ -1,0 +1,223 @@
+{
+  "native_sha256": "24654103604746400507bbf8b128e5eda0ca6f6fdcbbe954ea5d26612714f4a0",
+  "passed": true,
+  "checks": [
+    {
+      "screw": "I_90",
+      "label": "Motortr\u00e4ger Schott M6",
+      "approach": "from above",
+      "tool_radius_mm": 3.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "I_92",
+      "label": "Motortr\u00e4ger Schott M6",
+      "approach": "from above",
+      "tool_radius_mm": 3.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "I_181",
+      "label": "Motortr\u00e4ger Schott M6",
+      "approach": "from above",
+      "tool_radius_mm": 3.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "I_183",
+      "label": "Motortr\u00e4ger Schott M6",
+      "approach": "from above",
+      "tool_radius_mm": 3.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "I_272",
+      "label": "Motortr\u00e4ger Schott M6",
+      "approach": "from above",
+      "tool_radius_mm": 3.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "I_274",
+      "label": "Motortr\u00e4ger Schott M6",
+      "approach": "from above",
+      "tool_radius_mm": 3.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "I_363",
+      "label": "Motortr\u00e4ger Schott M6",
+      "approach": "from above",
+      "tool_radius_mm": 3.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "I_365",
+      "label": "Motortr\u00e4ger Schott M6",
+      "approach": "from above",
+      "tool_radius_mm": 3.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D05_I_838",
+      "label": "MN1330 Statorschraube M6x12",
+      "approach": "from below",
+      "tool_radius_mm": 3.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D05_I_839",
+      "label": "MN1330 Statorschraube M6x12",
+      "approach": "from below",
+      "tool_radius_mm": 3.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D05_I_840",
+      "label": "MN1330 Statorschraube M6x12",
+      "approach": "from below",
+      "tool_radius_mm": 3.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D05_I_841",
+      "label": "MN1330 Statorschraube M6x12",
+      "approach": "from below",
+      "tool_radius_mm": 3.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D05_I_843",
+      "label": "MN1330 Statorschraube M6x12",
+      "approach": "from below",
+      "tool_radius_mm": 3.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D05_I_844",
+      "label": "MN1330 Statorschraube M6x12",
+      "approach": "from below",
+      "tool_radius_mm": 3.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D05_I_845",
+      "label": "MN1330 Statorschraube M6x12",
+      "approach": "from below",
+      "tool_radius_mm": 3.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D05_I_846",
+      "label": "MN1330 Statorschraube M6x12",
+      "approach": "from below",
+      "tool_radius_mm": 3.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D05_I_848",
+      "label": "MN1330 Statorschraube M6x12",
+      "approach": "from below",
+      "tool_radius_mm": 3.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D05_I_849",
+      "label": "MN1330 Statorschraube M6x12",
+      "approach": "from below",
+      "tool_radius_mm": 3.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D05_I_850",
+      "label": "MN1330 Statorschraube M6x12",
+      "approach": "from below",
+      "tool_radius_mm": 3.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D05_I_851",
+      "label": "MN1330 Statorschraube M6x12",
+      "approach": "from below",
+      "tool_radius_mm": 3.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D05_I_853",
+      "label": "MN1330 Statorschraube M6x12",
+      "approach": "from below",
+      "tool_radius_mm": 3.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D05_I_854",
+      "label": "MN1330 Statorschraube M6x12",
+      "approach": "from below",
+      "tool_radius_mm": 3.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D05_I_855",
+      "label": "MN1330 Statorschraube M6x12",
+      "approach": "from below",
+      "tool_radius_mm": 3.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    },
+    {
+      "screw": "D05_I_856",
+      "label": "MN1330 Statorschraube M6x12",
+      "approach": "from below",
+      "tool_radius_mm": 3.6,
+      "straight_length_mm": 35,
+      "interferences": [],
+      "passed": true
+    }
+  ],
+  "scope": "Straight nominal socket-tool cylinders; legacy motor reference only, not real OEM ventilation/cable/tool-grip envelopes; no torque/depth/strength release"
+}

@@ -1,0 +1,8 @@
+{
+  "native_sha256": "24654103604746400507bbf8b128e5eda0ca6f6fdcbbe954ea5d26612714f4a0",
+  "step_sha256": "86489ce8c82d5cba5c75364ae3c7cb1df8e2585c44532c5a1571b0d8771dd089",
+  "expected_solids": 856,
+  "reimported_solids": 856,
+  "native_master_solids_valid": true,
+  "reimported_each_solid_validity_checked": false
+}

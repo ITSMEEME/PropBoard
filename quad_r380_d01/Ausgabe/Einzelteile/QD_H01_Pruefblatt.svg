@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297"><style>text{font-family:DejaVu Sans,sans-serif;fill:#17384b}.d{font-size:3.2px}.n{font-size:3px}.l{stroke:#416275;stroke-width:.2;fill:none}</style><rect x="7" y="7" width="406" height="283" fill="white" stroke="#17384b" stroke-width=".3"/><text x="15" y="18" font-size="6">QD_H01 · Hut-Druckhuelse fuer Deckverschraubung</text><text x="15" y="26" font-size="3.8">D01 · Bauteilprüfblatt · Maße in mm · keine Fertigungsfreigabe</text><text x="18" y="38" font-size="3.8">Draufsicht · Skalierung 2</text><g transform="translate(30.0,57.0) scale(2)"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="0.25"
+   transform="scale(1, -1)"
+  >
+<circle cx ="0" cy ="0" r ="2.75" /><circle cx ="0" cy ="0" r ="6" /></g>
+</g><path class="l" d="M 18 72.0 v 6 M 42.0 72.0 v 6 M 18 76.0 H 42.0"/><text class="d" x="30.0" y="81.0" text-anchor="middle">12.000</text><text x="150" y="38" font-size="3.8">Vorderansicht · Skalierung 2</text><g transform="translate(162.0,45.0) scale(2)"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="0.25"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M -4 -27 L -4 0 " />
+<path id= "2" d=" M -6 -29 L -6 -27 " />
+</g>
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="0.25"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 4 0 L 4 -27 " />
+<path d="M4, 0 L3.89971, 9.88191e-17  L3.60388, 1.92683e-16  L3.12733, 2.76885e-16  L2.49396, 3.47203e-16  L1.73553, 4.00111e-16  L0.890084, 4.32955e-16  L2.22045e-16, 4.44089e-16  L-0.890084, 4.32955e-16  L-1.73553, 4.00111e-16  L-2.49396, 3.47203e-16  L-3.12733, 2.76885e-16  L-3.60388, 1.92683e-16  L-3.89971, 9.88191e-17  L-4, 5.54668e-32 " /><path d="M6, -27 L5.84957, -27  L5.40581, -27  L4.69099, -27  L3.74094, -27  L2.6033, -27  L1.33513, -27  L4.44089e-16, -27  L-1.33513, -27  L-2.6033, -27  L-3.74094, -27  L-4.69099, -27  L-5.40581, -27  L-5.84957, -27  L-6, -27 " /><path id= "4" d=" M 6 -27 L 6 -29 " />
+<path d="M6, -29 L5.84957, -29  L5.40581, -29  L4.69099, -29  L3.74094, -29  L2.6033, -29  L1.33513, -29  L4.44089e-16, -29  L-1.33513, -29  L-2.6033, -29  L-3.74094, -29  L-4.69099, -29  L-5.40581, -29  L-5.84957, -29  L-6, -29 " /></g>
+</g><path class="l" d="M 150 106.0 v 6 M 174.0 106.0 v 6 M 150 110.0 H 174.0"/><text class="d" x="162.0" y="115.0" text-anchor="middle">12.000</text><text x="282" y="38" font-size="3.8">Seitenansicht · Skalierung 2</text><g transform="translate(282.0,57.0) scale(2)"><g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="0.25"
+   transform="scale(1, -1)"
+  >
+<path id= "1" d=" M 27 4 L 0 4 " />
+<path id= "2" d=" M 27 -4 L 0 -4 " />
+<path id= "3" d=" M 29 6 L 27 6 " />
+<path id= "4" d=" M 29 -6 L 27 -6 " />
+</g>
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="0.25"
+   transform="scale(1, -1)"
+  >
+<path d="M2.46519e-32, 4 L-9.88191e-17, 3.89971  L-1.92683e-16, 3.60388  L-2.76885e-16, 3.12733  L-3.47203e-16, 2.49396  L-4.00111e-16, 1.73553  L-4.32955e-16, 0.890084  L-4.44089e-16, 4.44089e-16  L-4.32955e-16, -0.890084  L-4.00111e-16, -1.73553  L-3.47203e-16, -2.49396  L-2.76885e-16, -3.12733  L-1.92683e-16, -3.60388  L-9.88191e-17, -3.89971  L-8.01187e-32, -4 " /><path d="M27, 6 L27, 5.84957  L27, 5.40581  L27, 4.69099  L27, 3.74094  L27, 2.6033  L27, 1.33513  L27, 6.66134e-16  L27, -1.33513  L27, -2.6033  L27, -3.74094  L27, -4.69099  L27, -5.40581  L27, -5.84957  L27, -6 " /><path d="M29, 6 L29, 5.84957  L29, 5.40581  L29, 4.69099  L29, 3.74094  L29, 2.6033  L29, 1.33513  L29, 6.66134e-16  L29, -1.33513  L29, -2.6033  L29, -3.74094  L29, -4.69099  L29, -5.40581  L29, -5.84957  L29, -6 " /></g>
+</g><path class="l" d="M 282 72.0 v 6 M 340.0 72.0 v 6 M 282 76.0 H 340.0"/><text class="d" x="311.0" y="81.0" text-anchor="middle">29.000</text><text class="n" x="15" y="211">Werkstoff: EN AW-6082 T6; EN10204-3.1 erforderlich.</text><text class="n" x="15" y="216">CAD-Masse: 0.0024 kg bei angenommener Dichte 2700 kg/m³.</text><text class="n" x="15" y="221">Native Historie: 6 Features; 3/3 Skizzen vollständig festgelegt.</text><text class="n" x="15" y="226">Entgraten 0.2–0.5 mm; Ra3.2, Kontaktflächen Ra1.6 als Vorschlag; Freigabe offen.</text><text class="n" x="15" y="246">1× Ø5.5 · Tiefe 29 / PD_QD_H01_Durchgang_M5</text><text class="n" x="15" y="285">Vollständige Bohrungskoordinaten und Gewindeattribute: Bauteilpruefdaten.json / native Skizzen.</text></svg>

@@ -1,0 +1,29 @@
+{
+  "file": "MN1330_Herstellerseite_Nutzerexport.html",
+  "sha256": "25bdf1dd0df8b496bfe1da6114a9e38825c86963df0d637a605a3f8bb71aac35",
+  "source_type": "Vom Nutzer hochgeladener gespeicherter Hersteller-Webseitenstand; kein erneuter Liveabruf",
+  "canonical_url": "https://store.tmotor.com/de/product/mn1330-multirotor-uav-motor.html",
+  "revision": "nicht bestätigt",
+  "assets": "HTML verweist auf nicht mitgelieferten lokalen Bilderordner. Zwei Zeichnungen zusätzlich im Chat sichtbar; deren Originaldateien/Revisionen liegen nicht separat im Projekt.",
+  "motor": "MN1330 KV40",
+  "reference_propeller": "NS52x20",
+  "test80": {
+    "voltage_V": 92.02,
+    "current_A": 112.91,
+    "rpm": 2434,
+    "thrust_g": 57770,
+    "electrical_power_W": 10390,
+    "torque_Nm": 34.98,
+    "computed_shaft_power_W": 8915.97818096459,
+    "case_temperature_C": 117,
+    "ambient_C": 25,
+    "temperature_note_duration_s": 600,
+    "temperature_note_throttle_percent": 80,
+    "scope": "Temperatur-Fußnote der Prüfserie, kein thermischer Beharrungs- oder allgemeiner S1-Nachweis"
+  },
+  "rated_power_text": "Maximale Leistung (180s): 3400W; elektrische/mechanische Leistungsseite nicht bezeichnet",
+  "nominal_size_text": "Ø150 × 65 mm",
+  "drawing_size_chat": "Ø150 × 66 mm; 3 mm Absatz laut Zeichnung; Bezugsklärung offen",
+  "recommended_ESC": "M200A24S",
+  "ESC_drawing_identity": "Die zweite Chatzeichnung besitzt keinen sichtbaren Typ-/Revisionskopf; Zuordnung zu M200A24S unbestätigt"
+}

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "instances": 856,
+  "part_types": 38,
+  "mass_delivered_kg": 31.00222496619124,
+  "mass_rebuilt_kg": 31.00222496619124,
+  "total_mass_delta_kg": 0.0,
+  "maximum_prototype_mass_delta_kg": 0.0,
+  "part_and_pose_multiset_match": true,
+  "scope": "Independent source rebuild: part counts, prototype masses, all positions and non-ISO orientations. ISO axial orientations match; their screw phases are independently fitted in the thread proof.",
+  "source_script_sha256": "81ddb3b1c70ea2865203f262303854117047d28f724dc97111bb063285a1a9d4",
+  "native_sha256": "24654103604746400507bbf8b128e5eda0ca6f6fdcbbe954ea5d26612714f4a0"
+}

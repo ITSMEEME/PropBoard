@@ -1,0 +1,938 @@
+[
+  {
+    "instance": "R1_DC_minus_Cu_Einbau",
+    "id": "R1_DC_minus_Cu",
+    "label": "R1_DC_minus Cu",
+    "group": "Kabelplanung",
+    "mass_kg": 0.0627199832188816,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R1_DC_minus_Isolation_Einbau",
+    "id": "R1_DC_minus_Isolation",
+    "label": "R1_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "mass_kg": 0.021867250901645506,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R1_DC_plus_Cu_Einbau",
+    "id": "R1_DC_plus_Cu",
+    "label": "R1_DC_plus Cu",
+    "group": "Kabelplanung",
+    "mass_kg": 0.06271998321888321,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R1_DC_plus_Isolation_Einbau",
+    "id": "R1_DC_plus_Isolation",
+    "label": "R1_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "mass_kg": 0.021867250901645218,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R1_U_Cu_Einbau",
+    "id": "R1_U_Cu",
+    "label": "R1_U Cu",
+    "group": "Kabelplanung",
+    "mass_kg": 0.08228914180231257,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R1_U_Isolation_Einbau",
+    "id": "R1_U_Isolation",
+    "label": "R1_U Isolation",
+    "group": "Kabelplanung",
+    "mass_kg": 0.027535909617810512,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R1_V_Cu_Einbau",
+    "id": "R1_V_Cu",
+    "label": "R1_V Cu",
+    "group": "Kabelplanung",
+    "mass_kg": 0.08228914180216836,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R1_V_Isolation_Einbau",
+    "id": "R1_V_Isolation",
+    "label": "R1_V Isolation",
+    "group": "Kabelplanung",
+    "mass_kg": 0.027535909617810966,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R1_W_Cu_Einbau",
+    "id": "R1_W_Cu",
+    "label": "R1_W Cu",
+    "group": "Kabelplanung",
+    "mass_kg": 0.08228914180231593,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R1_W_Isolation_Einbau",
+    "id": "R1_W_Isolation",
+    "label": "R1_W Isolation",
+    "group": "Kabelplanung",
+    "mass_kg": 0.02753590961780967,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R1_Signal_Cu_Einbau",
+    "id": "R1_Signal_Cu",
+    "label": "R1_Signal Cu",
+    "group": "Kabelplanung",
+    "mass_kg": 0.0008959997602697445,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R1_Signal_Isolation_Einbau",
+    "id": "R1_Signal_Isolation",
+    "label": "R1_Signal Isolation",
+    "group": "Kabelplanung",
+    "mass_kg": 0.005357786397339694,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R2_DC_minus_Cu_Einbau",
+    "id": "R2_DC_minus_Cu",
+    "label": "R2_DC_minus Cu",
+    "group": "Kabelplanung",
+    "mass_kg": 0.06271998321866255,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R2_DC_minus_Isolation_Einbau",
+    "id": "R2_DC_minus_Isolation",
+    "label": "R2_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "mass_kg": 0.021867250901596778,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R2_DC_plus_Cu_Einbau",
+    "id": "R2_DC_plus_Cu",
+    "label": "R2_DC_plus Cu",
+    "group": "Kabelplanung",
+    "mass_kg": 0.0627199832186641,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R2_DC_plus_Isolation_Einbau",
+    "id": "R2_DC_plus_Isolation",
+    "label": "R2_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "mass_kg": 0.021867250901596202,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R2_U_Cu_Einbau",
+    "id": "R2_U_Cu",
+    "label": "R2_U Cu",
+    "group": "Kabelplanung",
+    "mass_kg": 0.08228914180074766,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R2_U_Isolation_Einbau",
+    "id": "R2_U_Isolation",
+    "label": "R2_U Isolation",
+    "group": "Kabelplanung",
+    "mass_kg": 0.027535909617297766,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R2_V_Cu_Einbau",
+    "id": "R2_V_Cu",
+    "label": "R2_V Cu",
+    "group": "Kabelplanung",
+    "mass_kg": 0.08228914180074873,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R2_V_Isolation_Einbau",
+    "id": "R2_V_Isolation",
+    "label": "R2_V Isolation",
+    "group": "Kabelplanung",
+    "mass_kg": 0.0275359096172971,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R2_W_Cu_Einbau",
+    "id": "R2_W_Cu",
+    "label": "R2_W Cu",
+    "group": "Kabelplanung",
+    "mass_kg": 0.08228914180075121,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R2_W_Isolation_Einbau",
+    "id": "R2_W_Isolation",
+    "label": "R2_W Isolation",
+    "group": "Kabelplanung",
+    "mass_kg": 0.027535909617296506,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R2_Signal_Cu_Einbau",
+    "id": "R2_Signal_Cu",
+    "label": "R2_Signal Cu",
+    "group": "Kabelplanung",
+    "mass_kg": 0.0008959997602665529,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R2_Signal_Isolation_Einbau",
+    "id": "R2_Signal_Isolation",
+    "label": "R2_Signal Isolation",
+    "group": "Kabelplanung",
+    "mass_kg": 0.005357786397323591,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R3_DC_minus_Cu_Einbau",
+    "id": "R3_DC_minus_Cu",
+    "label": "R3_DC_minus Cu",
+    "group": "Kabelplanung",
+    "mass_kg": 0.06271998321888307,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R3_DC_minus_Isolation_Einbau",
+    "id": "R3_DC_minus_Isolation",
+    "label": "R3_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "mass_kg": 0.021867250901645704,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R3_DC_plus_Cu_Einbau",
+    "id": "R3_DC_plus_Cu",
+    "label": "R3_DC_plus Cu",
+    "group": "Kabelplanung",
+    "mass_kg": 0.06271998321888342,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R3_DC_plus_Isolation_Einbau",
+    "id": "R3_DC_plus_Isolation",
+    "label": "R3_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "mass_kg": 0.02186725090164569,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R3_U_Cu_Einbau",
+    "id": "R3_U_Cu",
+    "label": "R3_U Cu",
+    "group": "Kabelplanung",
+    "mass_kg": 0.08228914180090005,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R3_U_Isolation_Einbau",
+    "id": "R3_U_Isolation",
+    "label": "R3_U Isolation",
+    "group": "Kabelplanung",
+    "mass_kg": 0.02753590961732972,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R3_V_Cu_Einbau",
+    "id": "R3_V_Cu",
+    "label": "R3_V Cu",
+    "group": "Kabelplanung",
+    "mass_kg": 0.08228914180090656,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R3_V_Isolation_Einbau",
+    "id": "R3_V_Isolation",
+    "label": "R3_V Isolation",
+    "group": "Kabelplanung",
+    "mass_kg": 0.02753590961732872,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R3_W_Cu_Einbau",
+    "id": "R3_W_Cu",
+    "label": "R3_W Cu",
+    "group": "Kabelplanung",
+    "mass_kg": 0.08228914180090621,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R3_W_Isolation_Einbau",
+    "id": "R3_W_Isolation",
+    "label": "R3_W Isolation",
+    "group": "Kabelplanung",
+    "mass_kg": 0.027535909617329025,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R3_Signal_Cu_Einbau",
+    "id": "R3_Signal_Cu",
+    "label": "R3_Signal Cu",
+    "group": "Kabelplanung",
+    "mass_kg": 0.0008959997602696855,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R3_Signal_Isolation_Einbau",
+    "id": "R3_Signal_Isolation",
+    "label": "R3_Signal Isolation",
+    "group": "Kabelplanung",
+    "mass_kg": 0.00535778639733983,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R4_DC_minus_Cu_Einbau",
+    "id": "R4_DC_minus_Cu",
+    "label": "R4_DC_minus Cu",
+    "group": "Kabelplanung",
+    "mass_kg": 0.06271998321866407,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R4_DC_minus_Isolation_Einbau",
+    "id": "R4_DC_minus_Isolation",
+    "label": "R4_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "mass_kg": 0.021867250901596712,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R4_DC_plus_Cu_Einbau",
+    "id": "R4_DC_plus_Cu",
+    "label": "R4_DC_plus Cu",
+    "group": "Kabelplanung",
+    "mass_kg": 0.06271998321866441,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R4_DC_plus_Isolation_Einbau",
+    "id": "R4_DC_plus_Isolation",
+    "label": "R4_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "mass_kg": 0.02186725090159663,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R4_U_Cu_Einbau",
+    "id": "R4_U_Cu",
+    "label": "R4_U Cu",
+    "group": "Kabelplanung",
+    "mass_kg": 0.0822891418022148,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R4_U_Isolation_Einbau",
+    "id": "R4_U_Isolation",
+    "label": "R4_U Isolation",
+    "group": "Kabelplanung",
+    "mass_kg": 0.02753590961778903,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R4_V_Cu_Einbau",
+    "id": "R4_V_Cu",
+    "label": "R4_V Cu",
+    "group": "Kabelplanung",
+    "mass_kg": 0.08228914180222405,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R4_V_Isolation_Einbau",
+    "id": "R4_V_Isolation",
+    "label": "R4_V Isolation",
+    "group": "Kabelplanung",
+    "mass_kg": 0.027535909617787506,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R4_W_Cu_Einbau",
+    "id": "R4_W_Cu",
+    "label": "R4_W Cu",
+    "group": "Kabelplanung",
+    "mass_kg": 0.0822891418022163,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R4_W_Isolation_Einbau",
+    "id": "R4_W_Isolation",
+    "label": "R4_W Isolation",
+    "group": "Kabelplanung",
+    "mass_kg": 0.027535909617788238,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R4_Signal_Cu_Einbau",
+    "id": "R4_Signal_Cu",
+    "label": "R4_Signal Cu",
+    "group": "Kabelplanung",
+    "mass_kg": 0.0008959997602665404,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "R4_Signal_Isolation_Einbau",
+    "id": "R4_Signal_Isolation",
+    "label": "R4_Signal Isolation",
+    "group": "Kabelplanung",
+    "mass_kg": 0.005357786397323802,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "Haupt_DC_minus_Cu_Einbau",
+    "id": "Haupt_DC_minus_Cu",
+    "label": "Haupt_DC_minus Cu",
+    "group": "Kabelplanung",
+    "mass_kg": 0.17023995445998802,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "Haupt_DC_minus_Isolation_Einbau",
+    "id": "Haupt_DC_minus_Isolation",
+    "label": "Haupt_DC_minus Isolation",
+    "group": "Kabelplanung",
+    "mass_kg": 0.044651315164918604,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "Haupt_DC_plus_Cu_Einbau",
+    "id": "Haupt_DC_plus_Cu",
+    "label": "Haupt_DC_plus Cu",
+    "group": "Kabelplanung",
+    "mass_kg": 0.17023995445998855,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "instance": "Haupt_DC_plus_Isolation_Einbau",
+    "id": "Haupt_DC_plus_Isolation",
+    "label": "Haupt_DC_plus Isolation",
+    "group": "Kabelplanung",
+    "mass_kg": 0.04465131516491862,
+    "placement_mm": [
+      0,
+      0,
+      0
+    ],
+    "placement_quaternion": [
+      0,
+      0,
+      0,
+      1
+    ]
+  }
+]

@@ -1,0 +1,1807 @@
+{
+  "native_sha256": "b1b1a6183ae6822d6a0b4eee423392b14dfc542a4971700f4d2735fa817c52c9",
+  "cases": [
+    {
+      "propeller_index": 0,
+      "net": "R1_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 0,
+      "net": "R1_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 0,
+      "net": "R1_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 0,
+      "net": "R1_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 0,
+      "net": "R2_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 0,
+      "net": "R2_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 0,
+      "net": "R2_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 0,
+      "net": "R2_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 0,
+      "net": "R3_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 0,
+      "net": "R3_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 0,
+      "net": "R3_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 0,
+      "net": "R3_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 0,
+      "net": "R4_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 0,
+      "net": "R4_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 0,
+      "net": "R4_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 0,
+      "net": "R4_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 0,
+      "net": "Haupt_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 451.64,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "voltage_drop_V": 0.020258600108614737,
+      "heat_W": 9.14959415305476
+    },
+    {
+      "propeller_index": 0,
+      "net": "Haupt_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 708.12,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "voltage_drop_V": 0.03176317400786527,
+      "heat_W": 22.492138778449554
+    },
+    {
+      "propeller_index": 0,
+      "net": "Haupt_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 451.64,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "voltage_drop_V": 0.020258600108614737,
+      "heat_W": 9.14959415305476
+    },
+    {
+      "propeller_index": 0,
+      "net": "Haupt_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 708.12,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "voltage_drop_V": 0.03176317400786527,
+      "heat_W": 22.492138778449554
+    },
+    {
+      "propeller_index": 1,
+      "net": "R1_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 1,
+      "net": "R1_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 1,
+      "net": "R1_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 1,
+      "net": "R1_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 1,
+      "net": "R2_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 1,
+      "net": "R2_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 1,
+      "net": "R2_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 1,
+      "net": "R2_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 1,
+      "net": "R3_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 1,
+      "net": "R3_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 1,
+      "net": "R3_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 1,
+      "net": "R3_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 1,
+      "net": "R4_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 1,
+      "net": "R4_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 1,
+      "net": "R4_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 1,
+      "net": "R4_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 1,
+      "net": "Haupt_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 451.64,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "voltage_drop_V": 0.020258600108614737,
+      "heat_W": 9.14959415305476
+    },
+    {
+      "propeller_index": 1,
+      "net": "Haupt_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 708.12,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "voltage_drop_V": 0.03176317400786527,
+      "heat_W": 22.492138778449554
+    },
+    {
+      "propeller_index": 1,
+      "net": "Haupt_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 451.64,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "voltage_drop_V": 0.020258600108614737,
+      "heat_W": 9.14959415305476
+    },
+    {
+      "propeller_index": 1,
+      "net": "Haupt_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 708.12,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "voltage_drop_V": 0.03176317400786527,
+      "heat_W": 22.492138778449554
+    },
+    {
+      "propeller_index": 2,
+      "net": "R1_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 2,
+      "net": "R1_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 2,
+      "net": "R1_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 2,
+      "net": "R1_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 2,
+      "net": "R2_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 2,
+      "net": "R2_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 2,
+      "net": "R2_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 2,
+      "net": "R2_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 2,
+      "net": "R3_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 2,
+      "net": "R3_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 2,
+      "net": "R3_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 2,
+      "net": "R3_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 2,
+      "net": "R4_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 2,
+      "net": "R4_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 2,
+      "net": "R4_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 2,
+      "net": "R4_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 2,
+      "net": "Haupt_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 451.64,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "voltage_drop_V": 0.020258600108614737,
+      "heat_W": 9.14959415305476
+    },
+    {
+      "propeller_index": 2,
+      "net": "Haupt_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 708.12,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "voltage_drop_V": 0.03176317400786527,
+      "heat_W": 22.492138778449554
+    },
+    {
+      "propeller_index": 2,
+      "net": "Haupt_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 451.64,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "voltage_drop_V": 0.020258600108614737,
+      "heat_W": 9.14959415305476
+    },
+    {
+      "propeller_index": 2,
+      "net": "Haupt_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 708.12,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "voltage_drop_V": 0.03176317400786527,
+      "heat_W": 22.492138778449554
+    },
+    {
+      "propeller_index": 3,
+      "net": "R1_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 3,
+      "net": "R1_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 3,
+      "net": "R1_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 3,
+      "net": "R1_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 3,
+      "net": "R2_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 3,
+      "net": "R2_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 3,
+      "net": "R2_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 3,
+      "net": "R2_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 3,
+      "net": "R3_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 3,
+      "net": "R3_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 3,
+      "net": "R3_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 3,
+      "net": "R3_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 3,
+      "net": "R4_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 3,
+      "net": "R4_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 3,
+      "net": "R4_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 3,
+      "net": "R4_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 3,
+      "net": "Haupt_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 451.64,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "voltage_drop_V": 0.020258600108614737,
+      "heat_W": 9.14959415305476
+    },
+    {
+      "propeller_index": 3,
+      "net": "Haupt_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 708.12,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "voltage_drop_V": 0.03176317400786527,
+      "heat_W": 22.492138778449554
+    },
+    {
+      "propeller_index": 3,
+      "net": "Haupt_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 451.64,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "voltage_drop_V": 0.020258600108614737,
+      "heat_W": 9.14959415305476
+    },
+    {
+      "propeller_index": 3,
+      "net": "Haupt_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 708.12,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "voltage_drop_V": 0.03176317400786527,
+      "heat_W": 22.492138778449554
+    },
+    {
+      "propeller_index": 4,
+      "net": "R1_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 4,
+      "net": "R1_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 4,
+      "net": "R1_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 4,
+      "net": "R1_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 4,
+      "net": "R2_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 4,
+      "net": "R2_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 4,
+      "net": "R2_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 4,
+      "net": "R2_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 4,
+      "net": "R3_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 4,
+      "net": "R3_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 4,
+      "net": "R3_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 4,
+      "net": "R3_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 4,
+      "net": "R4_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 4,
+      "net": "R4_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 4,
+      "net": "R4_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 4,
+      "net": "R4_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 4,
+      "net": "Haupt_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 451.64,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "voltage_drop_V": 0.020258600108614737,
+      "heat_W": 9.14959415305476
+    },
+    {
+      "propeller_index": 4,
+      "net": "Haupt_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 708.12,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "voltage_drop_V": 0.03176317400786527,
+      "heat_W": 22.492138778449554
+    },
+    {
+      "propeller_index": 4,
+      "net": "Haupt_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 451.64,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "voltage_drop_V": 0.020258600108614737,
+      "heat_W": 9.14959415305476
+    },
+    {
+      "propeller_index": 4,
+      "net": "Haupt_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 708.12,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "voltage_drop_V": 0.03176317400786527,
+      "heat_W": 22.492138778449554
+    },
+    {
+      "propeller_index": 5,
+      "net": "R1_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 5,
+      "net": "R1_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 5,
+      "net": "R1_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 5,
+      "net": "R1_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 5,
+      "net": "R2_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 5,
+      "net": "R2_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 5,
+      "net": "R2_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 5,
+      "net": "R2_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 5,
+      "net": "R3_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 5,
+      "net": "R3_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 5,
+      "net": "R3_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 5,
+      "net": "R3_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 5,
+      "net": "R4_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 5,
+      "net": "R4_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 5,
+      "net": "R4_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 5,
+      "net": "R4_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 5,
+      "net": "Haupt_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 451.64,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "voltage_drop_V": 0.020258600108614737,
+      "heat_W": 9.14959415305476
+    },
+    {
+      "propeller_index": 5,
+      "net": "Haupt_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 708.12,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "voltage_drop_V": 0.03176317400786527,
+      "heat_W": 22.492138778449554
+    },
+    {
+      "propeller_index": 5,
+      "net": "Haupt_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 451.64,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "voltage_drop_V": 0.020258600108614737,
+      "heat_W": 9.14959415305476
+    },
+    {
+      "propeller_index": 5,
+      "net": "Haupt_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 708.12,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "voltage_drop_V": 0.03176317400786527,
+      "heat_W": 22.492138778449554
+    },
+    {
+      "propeller_index": 6,
+      "net": "R1_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 6,
+      "net": "R1_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 6,
+      "net": "R1_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 6,
+      "net": "R1_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 6,
+      "net": "R2_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 6,
+      "net": "R2_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 6,
+      "net": "R2_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 6,
+      "net": "R2_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 6,
+      "net": "R3_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 6,
+      "net": "R3_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 6,
+      "net": "R3_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 6,
+      "net": "R3_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 6,
+      "net": "R4_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 6,
+      "net": "R4_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 6,
+      "net": "R4_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 6,
+      "net": "R4_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 6,
+      "net": "Haupt_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 451.64,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "voltage_drop_V": 0.020258600108614737,
+      "heat_W": 9.14959415305476
+    },
+    {
+      "propeller_index": 6,
+      "net": "Haupt_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 708.12,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "voltage_drop_V": 0.03176317400786527,
+      "heat_W": 22.492138778449554
+    },
+    {
+      "propeller_index": 6,
+      "net": "Haupt_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 451.64,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "voltage_drop_V": 0.020258600108614737,
+      "heat_W": 9.14959415305476
+    },
+    {
+      "propeller_index": 6,
+      "net": "Haupt_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 708.12,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "voltage_drop_V": 0.03176317400786527,
+      "heat_W": 22.492138778449554
+    },
+    {
+      "propeller_index": 7,
+      "net": "R1_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 7,
+      "net": "R1_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 7,
+      "net": "R1_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 7,
+      "net": "R1_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 7,
+      "net": "R2_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 7,
+      "net": "R2_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 7,
+      "net": "R2_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 7,
+      "net": "R2_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 7,
+      "net": "R3_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 7,
+      "net": "R3_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 7,
+      "net": "R3_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 7,
+      "net": "R3_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 7,
+      "net": "R4_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 7,
+      "net": "R4_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 7,
+      "net": "R4_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 7,
+      "net": "R4_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 7,
+      "net": "Haupt_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 451.64,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "voltage_drop_V": 0.020258600108614737,
+      "heat_W": 9.14959415305476
+    },
+    {
+      "propeller_index": 7,
+      "net": "Haupt_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 708.12,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "voltage_drop_V": 0.03176317400786527,
+      "heat_W": 22.492138778449554
+    },
+    {
+      "propeller_index": 7,
+      "net": "Haupt_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 451.64,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "voltage_drop_V": 0.020258600108614737,
+      "heat_W": 9.14959415305476
+    },
+    {
+      "propeller_index": 7,
+      "net": "Haupt_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 708.12,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "voltage_drop_V": 0.03176317400786527,
+      "heat_W": 22.492138778449554
+    },
+    {
+      "propeller_index": 8,
+      "net": "R1_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 8,
+      "net": "R1_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 8,
+      "net": "R1_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 8,
+      "net": "R1_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 8,
+      "net": "R2_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 8,
+      "net": "R2_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 8,
+      "net": "R2_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 8,
+      "net": "R2_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 8,
+      "net": "R3_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 8,
+      "net": "R3_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 8,
+      "net": "R3_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 8,
+      "net": "R3_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 8,
+      "net": "R4_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 8,
+      "net": "R4_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 8,
+      "net": "R4_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 8,
+      "net": "R4_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 8,
+      "net": "Haupt_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 451.64,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "voltage_drop_V": 0.020258600108614737,
+      "heat_W": 9.14959415305476
+    },
+    {
+      "propeller_index": 8,
+      "net": "Haupt_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 708.12,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "voltage_drop_V": 0.03176317400786527,
+      "heat_W": 22.492138778449554
+    },
+    {
+      "propeller_index": 8,
+      "net": "Haupt_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 451.64,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "voltage_drop_V": 0.020258600108614737,
+      "heat_W": 9.14959415305476
+    },
+    {
+      "propeller_index": 8,
+      "net": "Haupt_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 708.12,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "voltage_drop_V": 0.03176317400786527,
+      "heat_W": 22.492138778449554
+    },
+    {
+      "propeller_index": 9,
+      "net": "R1_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 9,
+      "net": "R1_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 9,
+      "net": "R1_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 9,
+      "net": "R1_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 9,
+      "net": "R2_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 9,
+      "net": "R2_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 9,
+      "net": "R2_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 9,
+      "net": "R2_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 9,
+      "net": "R3_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 9,
+      "net": "R3_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 9,
+      "net": "R3_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 9,
+      "net": "R3_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 9,
+      "net": "R4_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 9,
+      "net": "R4_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 9,
+      "net": "R4_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 112.91,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.01374690721656,
+      "heat_W": 1.5521632938217895
+    },
+    {
+      "propeller_index": 9,
+      "net": "R4_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 177.03,
+      "resistance_ohm": 0.00012175101600000001,
+      "voltage_drop_V": 0.021553582362480003,
+      "heat_W": 3.8156306856298348
+    },
+    {
+      "propeller_index": 9,
+      "net": "Haupt_DC_minus",
+      "branch_reference_A": 112.91,
+      "current_A": 451.64,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "voltage_drop_V": 0.020258600108614737,
+      "heat_W": 9.14959415305476
+    },
+    {
+      "propeller_index": 9,
+      "net": "Haupt_DC_minus",
+      "branch_reference_A": 177.03,
+      "current_A": 708.12,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "voltage_drop_V": 0.03176317400786527,
+      "heat_W": 22.492138778449554
+    },
+    {
+      "propeller_index": 9,
+      "net": "Haupt_DC_plus",
+      "branch_reference_A": 112.91,
+      "current_A": 451.64,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "voltage_drop_V": 0.020258600108614737,
+      "heat_W": 9.14959415305476
+    },
+    {
+      "propeller_index": 9,
+      "net": "Haupt_DC_plus",
+      "branch_reference_A": 177.03,
+      "current_A": 708.12,
+      "resistance_ohm": 4.4855637473684215e-05,
+      "voltage_drop_V": 0.03176317400786527,
+      "heat_W": 22.492138778449554
+    }
+  ],
+  "ampacity_verified": false,
+  "scope": "DC copper at assumed80C,NS52 comparison currents112.91/177.03A per motor,not HEP-S measured currents. Phase ampacity and motor lead transitions unknown. No contacts,clips,lugs,fuses,ESC/battery or closed circuit integrated."
+}
