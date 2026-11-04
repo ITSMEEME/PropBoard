@@ -1,0 +1,142 @@
+{
+  "revision": "D13_standard_harness_interfaces",
+  "DC": {
+    "conductor_standard": "nominal AWG10 per ASTM B258 diameter law",
+    "conductor_mm2": 5.2611549545,
+    "insulation": "flexible silicone;procurement requirement,not measured OEM insulation",
+    "outer_diameter_design_max_mm": 6.0,
+    "minimum_voltage_requirement_VDC": 300,
+    "minimum_temperature_requirement_C": 180,
+    "minimum_design_bend_radius_mm": 50,
+    "OEM_OD_verified": false,
+    "continuous_ampacity_verified": false
+  },
+  "CAN": {
+    "construction": "shielded2x2x0.25mm2,one120ohm pair H/L,secondpair GND/spare",
+    "outer_diameter_design_max_mm": 6.5,
+    "nominal_characteristic_impedance_ohm": 120,
+    "minimum_design_bend_radius_mm": 50,
+    "voltage_requirement_V": 300,
+    "source_status": "procurement envelope;no supplier-specific OD asserted"
+  },
+  "PWM": {
+    "construction": "shielded3x0.25mm2",
+    "outer_diameter_design_max_mm": 4.2,
+    "minimum_design_bend_radius_mm": 30,
+    "voltage_requirement_V": 300,
+    "source_status": "project extension cable,not reconstructedOEM5C harness"
+  },
+  "SERVICE_5C": {
+    "construction": "shielded5x0.25mm2,numbered conductors",
+    "outer_diameter_design_max_mm": 6.5,
+    "minimum_design_bend_radius_mm": 50,
+    "voltage_requirement_V": 300,
+    "function": "five passive feed-through wires,no assumed encoder supply/ABZ allocation",
+    "source_status": "procurement envelope;OEM24AWG5C outer diameter remains unmeasured"
+  },
+  "routing": {
+    "entry_tail_mm": 30,
+    "exit_tail_mm": 4,
+    "liner_wall_mm": 0.3,
+    "liner_tube_radial_gap_mm": 0.1,
+    "minimum_required_liner_ID_mm_for20x17": 16.0,
+    "nominal_liner_ID_mm_for20x17": 16.2,
+    "all_surface_clearance_requirement_mm": 0.5,
+    "project_extension_cut_length_mm": 1200,
+    "external_root_allowance_mm": 150,
+    "external_motor_allowance_mm": 200,
+    "assembly_slack_allowance_mm": 100,
+    "external_routes_complete": false,
+    "external_root_allowance_DC_mm": 100,
+    "external_motor_allowance_DC_mm": 300,
+    "external_root_allowance_control_mm": 250,
+    "external_motor_connector_allowance_control_mm": 50,
+    "OEM_signal_and_service_tail_motor_budget_mm": 300,
+    "DC_root_connection": "branch distributor at frame arm root;main battery trunk is separate and not part of the1.2m OEM lead"
+  },
+  "interfaces": {
+    "XDC": {
+      "family": "Anderson SB120 two-pole keyed,colour-matched pair",
+      "electrical_requirement": ">=120Acontinuous family/application class and>=150VDC;actual contact,cable,temperature derating must be documented",
+      "pins": {
+        "A_marked_plus": "DC_PLUS",
+        "B_marked_minus": "DC_MINUS"
+      },
+      "wire_requirement": "manufacturer-approved10AWG/6mm2contact or approved reducer",
+      "housing_geometry_status": "specific SKU/body/mate CAD not verified;no manufactured body is invented",
+      "reserved_mated_envelope_mm": [
+        140,
+        75,
+        40
+      ],
+      "envelope_status": "project installation reserve,NOT a claimed SB120 body dimension",
+      "anti_spark_or_load_breaking_verified": false
+    },
+    "XCAN": {
+      "family": "M12 A-coded5pole",
+      "mechanical_standard": "IEC61076-2-101 mating family",
+      "electrical_mapping_reference": "CANopen/CiA303-1 style allocation;optional V+ deliberately not populated",
+      "pins": {
+        "1": "SHIELD_DRAIN",
+        "2": "NC_NO_POWER",
+        "3": "CAN_REFERENCE_GND",
+        "4": "CAN_H",
+        "5": "CAN_L"
+      },
+      "shell": "shield chassis policy;no motor-current return",
+      "reserved_half_envelope_mm": [
+        20,
+        20,
+        60
+      ],
+      "envelope_status": "procurement maximum envelope,not a universal IEC housing size"
+    },
+    "XPWM": {
+      "family": "M8 A-coded3pole",
+      "mechanical_standard": "IEC61076-2-104 mating family",
+      "mapping_status": "project functional assignment;no universal PWM vendor pinout asserted",
+      "pins": {
+        "1": "NC_NO_BEC",
+        "3": "SIGNAL_GND",
+        "4": "PWM_COMMAND"
+      },
+      "logic_level_V": null,
+      "reserved_half_envelope_mm": [
+        14,
+        14,
+        45
+      ]
+    },
+    "XSERVICE": {
+      "family": "M12 B-coded5pole",
+      "mechanical_standard": "IEC61076-2-101 mating family",
+      "mapping_status": "Project passive5wire feed-through;different mechanical B-coding from CAN A-coding;NOT Profibus or OEMM6pinout",
+      "pins": {
+        "1": "SERVICE_W1",
+        "2": "SERVICE_W2",
+        "3": "SERVICE_W3",
+        "4": "SERVICE_W4",
+        "5": "SERVICE_W5"
+      },
+      "shell": "shield/drain according to verified adapter continuity",
+      "reserved_half_envelope_mm": [
+        20,
+        20,
+        60
+      ]
+    }
+  },
+  "CAN_architecture": {
+    "topology": "four separate two-node CANsegments,one per ESC;no passive four-branch star assumed",
+    "central_requirement": "four CAN channels or a suitable gateway required;hardware/protocol integration not implemented here",
+    "termination": "120ohm H-to-L at each physical end of each segment,including existing OEM termination if present;no duplicate end termination",
+    "baudrate_project_target_bit_s": 500000,
+    "OEM_baudrate_protocol_verified": false
+  },
+  "OEM_adapter": {
+    "original_harness_preserved": true,
+    "JP_and_M6_functional_mapping_verified": false,
+    "mapping_policy": "project connector pin numbers are defined;OEM mapping stays unresolved until manual/continuity test,not inferred from colours or connector size"
+  },
+  "electrical_and_structural_release": false
+}

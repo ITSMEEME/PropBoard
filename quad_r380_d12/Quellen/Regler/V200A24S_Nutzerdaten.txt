@@ -1,0 +1,21 @@
+Quelle: technische Angaben vom Nutzer im Projektchat, 04.11.2026.
+Zuordnung: Der Nutzer bestätigt, dass die zuvor bereitgestellte Reglerzeichnung zu diesem Modell gehört.
+Kein unabhängig verifiziertes Originaldatenblatt/STEP/Hersteller-Pinout beigefügt.
+
+Modell V200A 24S
+Eingangsleitung: Silikondraht-rot/schwarz-10AWG-1200mm
+Außenmaß des elektronischen Geschwindigkeitsreglers:
+146*74*39.5mm (Länge*Breite*Höhe)
+Signallinie: Abgeschirmter Draht-Schwarz-OD4.2-5C-500mm-JP-3P*2-schwarz blank-grün,gelb-grau
+Gewicht (inkl. Draht): 748g
+Leitung des Encoders: Abgeschirmter Draht-24AWG-5C-460mm-M6 Flugzeugkopf
+Ausgangsleitung: Silikondraht-Orange-10AWG-250mm
+Methoden der Kommunikation: PWM/CAN
+Unterstützte Spannung: 12~24S (Maximale 105V)
+BEC: Keine
+Kontinuierlicher Ausgangsstrom: 100A
+Bereich des Gashebelhubs: 1040~1940 [Einheit nicht mitgeliefert]
+Gleichzeitiger Stromversorgung (<10s): 200A [als kurzzeitige Stromangabe erfasst; Stromdefinition im Original zu prüfen]
+Aktualisierungsfrequenz des Gashebels: 50~500Hz
+Standby-Leistung: ≤50mA@100V [Stromangabe, daraus ≤5W bei100V]
+Ansprechgeschwindigkeit desGashebels: [Wert fehlt/Angabe abgeschnitten]

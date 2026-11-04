@@ -1,0 +1,8 @@
+{
+  "native_sha256": "23478d47053133dacca31e4ffcfead23af2fe1c7aad34f8ae371195ffa0a58c0",
+  "native_geometry_changed": false,
+  "viewer_geometry_before_sha256": "f14fc4d369ab24b37548e9400ad2a3443ae586d2d21ebc2a5c61e428f3276612",
+  "viewer_geometry_after_sha256": "f14fc4d369ab24b37548e9400ad2a3443ae586d2d21ebc2a5c61e428f3276612",
+  "geometry_equal": true,
+  "scope": "Catalog/identity annotations only.Old cable and ESC surface/envelope geometry is unchanged;old OD4mm routing proof does not establish fit of actualOD4.2mm harness."
+}

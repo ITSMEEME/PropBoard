@@ -1,0 +1,5752 @@
+[
+  {
+    "propeller_index": 0,
+    "variant": "V1",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      -6.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 381.96969619669994,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 0,
+    "variant": "V1",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      -6.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 381.96969619669994,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 0,
+    "variant": "V1",
+    "net": "CAN",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.75,
+      4.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 381.96969619669994,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 0,
+    "variant": "V1",
+    "net": "PWM",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      0.0,
+      10.5
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 381.96969619669994,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 0,
+    "variant": "V1",
+    "net": "SERVICE_5C",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      3.75,
+      4.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 381.96969619669994,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 0,
+    "variant": "V2",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      0.0,
+      -21.091013355966346
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 381.9714065571574,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 0,
+    "variant": "V2",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      0.0,
+      -21.091013355966346
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 381.9714065571574,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 0,
+    "variant": "V2",
+    "net": "CAN",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -120.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      0.0,
+      -87.26959932100957
+    ],
+    "centre_offset_xy_mm": [
+      -3.550704155516198,
+      -2.0500000000000003
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 383.5056345752253,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 0,
+    "variant": "V2",
+    "net": "SERVICE_5C",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -120.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      0.0,
+      -87.26959932100957
+    ],
+    "centre_offset_xy_mm": [
+      3.550704155516197,
+      -2.0500000000000016
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 383.5056345752253,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 0,
+    "variant": "V2",
+    "net": "PWM",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -120.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      0.0,
+      -87.26959932100957
+    ],
+    "centre_offset_xy_mm": [
+      2.5105259382520737e-16,
+      4.1
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 383.5056345752253,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 0,
+    "variant": "V3",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      -39.2707462366394,
+      -25.63594657613461
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 382.6139073460722,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 0,
+    "variant": "V3",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      -39.2707462366394,
+      -25.63594657613461
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 382.6139073460722,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 0,
+    "variant": "V3",
+    "net": "CAN",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      39.2707462366394,
+      -25.63594657613461
+    ],
+    "centre_offset_xy_mm": [
+      -3.550704155516198,
+      -2.0500000000000003
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 382.6139073460722,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 0,
+    "variant": "V3",
+    "net": "SERVICE_5C",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      39.2707462366394,
+      -25.63594657613461
+    ],
+    "centre_offset_xy_mm": [
+      3.550704155516197,
+      -2.0500000000000016
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 382.6139073460722,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 0,
+    "variant": "V3",
+    "net": "PWM",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      39.2707462366394,
+      -25.63594657613461
+    ],
+    "centre_offset_xy_mm": [
+      2.5105259382520737e-16,
+      4.1
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 382.6139073460722,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 0,
+    "variant": "V4",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      -40.90726627058892,
+      -21.091013355966346
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 382.4948095203553,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 0,
+    "variant": "V4",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      -40.90726627058892,
+      -21.091013355966346
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 382.4948095203553,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 0,
+    "variant": "V4",
+    "net": "CAN",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      40.90726627058892,
+      -21.091013355966346
+    ],
+    "centre_offset_xy_mm": [
+      -3.6,
+      0.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 382.4948095203553,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 0,
+    "variant": "V4",
+    "net": "PWM",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      40.90726627058892,
+      -21.091013355966346
+    ],
+    "centre_offset_xy_mm": [
+      3.2,
+      0.0
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 382.4948095203553,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 0,
+    "variant": "V4",
+    "net": "SERVICE_5C",
+    "tube": 2,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -100.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      0.0,
+      -78.17973288067304
+    ],
+    "centre_offset_xy_mm": [
+      0.0,
+      0.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 382.6531708279482,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 0,
+    "variant": "V5",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -22.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      -40.90726627058892,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 382.493101728694,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 0,
+    "variant": "V5",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -22.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      -40.90726627058892,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 382.493101728694,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 0,
+    "variant": "V5",
+    "net": "CAN",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -22.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      40.90726627058892,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.6,
+      0.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 382.493101728694,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 0,
+    "variant": "V5",
+    "net": "PWM",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -22.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      40.90726627058892,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      3.2,
+      0.0
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 382.493101728694,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 0,
+    "variant": "V5",
+    "net": "SERVICE_5C",
+    "tube": 2,
+    "axis_start_local_mm": [
+      0.0,
+      -45.0,
+      -100.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      -34.08986644033652,
+      -78.17973288067304
+    ],
+    "centre_offset_xy_mm": [
+      0.0,
+      0.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 382.8238302390938,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 1,
+    "variant": "V1",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      -6.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 381.96969619669994,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 1,
+    "variant": "V1",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      -6.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 381.96969619669994,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 1,
+    "variant": "V1",
+    "net": "CAN",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.75,
+      4.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 381.96969619669994,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 1,
+    "variant": "V1",
+    "net": "PWM",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      0.0,
+      10.5
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 381.96969619669994,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 1,
+    "variant": "V1",
+    "net": "SERVICE_5C",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      3.75,
+      4.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 381.96969619669994,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 1,
+    "variant": "V2",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      0.0,
+      -21.091013355966346
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 381.9714065571574,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 1,
+    "variant": "V2",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      0.0,
+      -21.091013355966346
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 381.9714065571574,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 1,
+    "variant": "V2",
+    "net": "CAN",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -120.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      0.0,
+      -87.26959932100957
+    ],
+    "centre_offset_xy_mm": [
+      -3.550704155516198,
+      -2.0500000000000003
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 383.5056345752253,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 1,
+    "variant": "V2",
+    "net": "SERVICE_5C",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -120.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      0.0,
+      -87.26959932100957
+    ],
+    "centre_offset_xy_mm": [
+      3.550704155516197,
+      -2.0500000000000016
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 383.5056345752253,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 1,
+    "variant": "V2",
+    "net": "PWM",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -120.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      0.0,
+      -87.26959932100957
+    ],
+    "centre_offset_xy_mm": [
+      2.5105259382520737e-16,
+      4.1
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 383.5056345752253,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 1,
+    "variant": "V3",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      -39.2707462366394,
+      -25.63594657613461
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 382.6139073460722,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 1,
+    "variant": "V3",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      -39.2707462366394,
+      -25.63594657613461
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 382.6139073460722,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 1,
+    "variant": "V3",
+    "net": "CAN",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      39.2707462366394,
+      -25.63594657613461
+    ],
+    "centre_offset_xy_mm": [
+      -3.550704155516198,
+      -2.0500000000000003
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 382.6139073460722,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 1,
+    "variant": "V3",
+    "net": "SERVICE_5C",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      39.2707462366394,
+      -25.63594657613461
+    ],
+    "centre_offset_xy_mm": [
+      3.550704155516197,
+      -2.0500000000000016
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 382.6139073460722,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 1,
+    "variant": "V3",
+    "net": "PWM",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      39.2707462366394,
+      -25.63594657613461
+    ],
+    "centre_offset_xy_mm": [
+      2.5105259382520737e-16,
+      4.1
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 382.6139073460722,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 1,
+    "variant": "V4",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      -40.90726627058892,
+      -21.091013355966346
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 382.4948095203553,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 1,
+    "variant": "V4",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      -40.90726627058892,
+      -21.091013355966346
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 382.4948095203553,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 1,
+    "variant": "V4",
+    "net": "CAN",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      40.90726627058892,
+      -21.091013355966346
+    ],
+    "centre_offset_xy_mm": [
+      -3.6,
+      0.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 382.4948095203553,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 1,
+    "variant": "V4",
+    "net": "PWM",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      40.90726627058892,
+      -21.091013355966346
+    ],
+    "centre_offset_xy_mm": [
+      3.2,
+      0.0
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 382.4948095203553,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 1,
+    "variant": "V4",
+    "net": "SERVICE_5C",
+    "tube": 2,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -100.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      0.0,
+      -78.17973288067304
+    ],
+    "centre_offset_xy_mm": [
+      0.0,
+      0.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 382.6531708279482,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 1,
+    "variant": "V5",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -22.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      -40.90726627058892,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 382.493101728694,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 1,
+    "variant": "V5",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -22.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      -40.90726627058892,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 382.493101728694,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 1,
+    "variant": "V5",
+    "net": "CAN",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -22.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      40.90726627058892,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.6,
+      0.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 382.493101728694,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 1,
+    "variant": "V5",
+    "net": "PWM",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -22.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      40.90726627058892,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      3.2,
+      0.0
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 382.493101728694,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 1,
+    "variant": "V5",
+    "net": "SERVICE_5C",
+    "tube": 2,
+    "axis_start_local_mm": [
+      0.0,
+      -45.0,
+      -100.0
+    ],
+    "axis_end_local_mm": [
+      347.96969619669994,
+      -34.08986644033652,
+      -78.17973288067304
+    ],
+    "centre_offset_xy_mm": [
+      0.0,
+      0.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 382.8238302390938,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 2,
+    "variant": "V1",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      411.6093065034893,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      -6.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 445.6093065034893,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 2,
+    "variant": "V1",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      411.6093065034893,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      -6.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 445.6093065034893,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 2,
+    "variant": "V1",
+    "net": "CAN",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      411.6093065034893,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.75,
+      4.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 445.6093065034893,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 2,
+    "variant": "V1",
+    "net": "PWM",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      411.6093065034893,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      0.0,
+      10.5
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 445.6093065034893,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 2,
+    "variant": "V1",
+    "net": "SERVICE_5C",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      411.6093065034893,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      3.75,
+      4.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 445.6093065034893,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 2,
+    "variant": "V2",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      411.6093065034893,
+      0.0,
+      -21.29054700953471
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 445.6113296689818,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 2,
+    "variant": "V2",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      411.6093065034893,
+      0.0,
+      -21.29054700953471
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 445.6113296689818,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 2,
+    "variant": "V2",
+    "net": "CAN",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -120.0
+    ],
+    "axis_end_local_mm": [
+      411.6093065034893,
+      0.0,
+      -81.28358971395869
+    ],
+    "centre_offset_xy_mm": [
+      -3.550704155516198,
+      -2.0500000000000003
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 447.4261501474241,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 2,
+    "variant": "V2",
+    "net": "SERVICE_5C",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -120.0
+    ],
+    "axis_end_local_mm": [
+      411.6093065034893,
+      0.0,
+      -81.28358971395869
+    ],
+    "centre_offset_xy_mm": [
+      3.550704155516197,
+      -2.0500000000000016
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 447.4261501474241,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 2,
+    "variant": "V2",
+    "net": "PWM",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -120.0
+    ],
+    "axis_end_local_mm": [
+      411.6093065034893,
+      0.0,
+      -81.28358971395869
+    ],
+    "centre_offset_xy_mm": [
+      2.5105259382520737e-16,
+      4.1
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 447.4261501474241,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 2,
+    "variant": "V3",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      411.6093065034893,
+      -35.4796068188405,
+      -24.837811961861156
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 446.3713363794617,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 2,
+    "variant": "V3",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      411.6093065034893,
+      -35.4796068188405,
+      -24.837811961861156
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 446.3713363794617,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 2,
+    "variant": "V3",
+    "net": "CAN",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      411.6093065034893,
+      35.4796068188405,
+      -24.837811961861156
+    ],
+    "centre_offset_xy_mm": [
+      -3.550704155516198,
+      -2.0500000000000003
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 446.3713363794617,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 2,
+    "variant": "V3",
+    "net": "SERVICE_5C",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      411.6093065034893,
+      35.4796068188405,
+      -24.837811961861156
+    ],
+    "centre_offset_xy_mm": [
+      3.550704155516197,
+      -2.0500000000000016
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 446.3713363794617,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 2,
+    "variant": "V3",
+    "net": "PWM",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      411.6093065034893,
+      35.4796068188405,
+      -24.837811961861156
+    ],
+    "centre_offset_xy_mm": [
+      2.5105259382520737e-16,
+      4.1
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 446.3713363794617,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 2,
+    "variant": "V4",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      411.6093065034893,
+      -37.41542733314257,
+      -21.29054700953471
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 446.23045694661107,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 2,
+    "variant": "V4",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      411.6093065034893,
+      -37.41542733314257,
+      -21.29054700953471
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 446.23045694661107,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 2,
+    "variant": "V4",
+    "net": "CAN",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      411.6093065034893,
+      37.41542733314257,
+      -21.29054700953471
+    ],
+    "centre_offset_xy_mm": [
+      -3.6,
+      0.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 446.23045694661107,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 2,
+    "variant": "V4",
+    "net": "PWM",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      411.6093065034893,
+      37.41542733314257,
+      -21.29054700953471
+    ],
+    "centre_offset_xy_mm": [
+      3.2,
+      0.0
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 446.23045694661107,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 2,
+    "variant": "V4",
+    "net": "SERVICE_5C",
+    "tube": 2,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -100.0
+    ],
+    "axis_end_local_mm": [
+      411.6093065034893,
+      0.0,
+      -74.18905980930579
+    ],
+    "centre_offset_xy_mm": [
+      0.0,
+      0.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 446.41778069551145,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 2,
+    "variant": "V5",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -22.0
+    ],
+    "axis_end_local_mm": [
+      411.6093065034893,
+      -37.41542733314257,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 446.2284368197177,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 2,
+    "variant": "V5",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -22.0
+    ],
+    "axis_end_local_mm": [
+      411.6093065034893,
+      -37.41542733314257,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 446.2284368197177,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 2,
+    "variant": "V5",
+    "net": "CAN",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -22.0
+    ],
+    "axis_end_local_mm": [
+      411.6093065034893,
+      37.41542733314257,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.6,
+      0.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 446.2284368197177,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 2,
+    "variant": "V5",
+    "net": "PWM",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -22.0
+    ],
+    "axis_end_local_mm": [
+      411.6093065034893,
+      37.41542733314257,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      3.2,
+      0.0
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 446.2284368197177,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 2,
+    "variant": "V5",
+    "net": "SERVICE_5C",
+    "tube": 2,
+    "axis_start_local_mm": [
+      0.0,
+      -45.0,
+      -100.0
+    ],
+    "axis_end_local_mm": [
+      411.6093065034893,
+      -32.094529904652894,
+      -74.18905980930579
+    ],
+    "centre_offset_xy_mm": [
+      0.0,
+      0.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 446.6196517280689,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 3,
+    "variant": "V1",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      439.8935777509512,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      -6.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 473.8935777509512,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 3,
+    "variant": "V1",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      439.8935777509512,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      -6.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 473.8935777509512,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 3,
+    "variant": "V1",
+    "net": "CAN",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      439.8935777509512,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.75,
+      4.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 473.8935777509512,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 3,
+    "variant": "V1",
+    "net": "PWM",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      439.8935777509512,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      0.0,
+      10.5
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 473.8935777509512,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 3,
+    "variant": "V1",
+    "net": "SERVICE_5C",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      439.8935777509512,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      3.75,
+      4.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 473.8935777509512,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 3,
+    "variant": "V2",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      439.8935777509512,
+      0.0,
+      -21.379228633342873
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 473.8957399409037,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 3,
+    "variant": "V2",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      439.8935777509512,
+      0.0,
+      -21.379228633342873
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 473.8957399409037,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 3,
+    "variant": "V2",
+    "net": "CAN",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -120.0
+    ],
+    "axis_end_local_mm": [
+      439.8935777509512,
+      0.0,
+      -78.62314099971385
+    ],
+    "centre_offset_xy_mm": [
+      -3.550704155516198,
+      -2.0500000000000003
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 475.83526817951247,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 3,
+    "variant": "V2",
+    "net": "SERVICE_5C",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -120.0
+    ],
+    "axis_end_local_mm": [
+      439.8935777509512,
+      0.0,
+      -78.62314099971385
+    ],
+    "centre_offset_xy_mm": [
+      3.550704155516197,
+      -2.0500000000000016
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 475.83526817951247,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 3,
+    "variant": "V2",
+    "net": "PWM",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -120.0
+    ],
+    "axis_end_local_mm": [
+      439.8935777509512,
+      0.0,
+      -78.62314099971385
+    ],
+    "centre_offset_xy_mm": [
+      2.5105259382520737e-16,
+      4.1
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 475.83526817951247,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 3,
+    "variant": "V3",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      439.8935777509512,
+      -33.794655966485436,
+      -24.483085466628513
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 474.70797150541256,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 3,
+    "variant": "V3",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      439.8935777509512,
+      -33.794655966485436,
+      -24.483085466628513
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 474.70797150541256,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 3,
+    "variant": "V3",
+    "net": "CAN",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      439.8935777509512,
+      33.794655966485436,
+      -24.483085466628513
+    ],
+    "centre_offset_xy_mm": [
+      -3.550704155516198,
+      -2.0500000000000003
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 474.70797150541256,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 3,
+    "variant": "V3",
+    "net": "SERVICE_5C",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      439.8935777509512,
+      33.794655966485436,
+      -24.483085466628513
+    ],
+    "centre_offset_xy_mm": [
+      3.550704155516197,
+      -2.0500000000000016
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 474.70797150541256,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 3,
+    "variant": "V3",
+    "net": "PWM",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      439.8935777509512,
+      33.794655966485436,
+      -24.483085466628513
+    ],
+    "centre_offset_xy_mm": [
+      2.5105259382520737e-16,
+      4.1
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 474.70797150541256,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 3,
+    "variant": "V4",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      439.8935777509512,
+      -35.86349891649975,
+      -21.379228633342873
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 474.55741135828026,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 3,
+    "variant": "V4",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      439.8935777509512,
+      -35.86349891649975,
+      -21.379228633342873
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 474.55741135828026,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 3,
+    "variant": "V4",
+    "net": "CAN",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      439.8935777509512,
+      35.86349891649975,
+      -21.379228633342873
+    ],
+    "centre_offset_xy_mm": [
+      -3.6,
+      0.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 474.55741135828026,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 3,
+    "variant": "V4",
+    "net": "PWM",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      439.8935777509512,
+      35.86349891649975,
+      -21.379228633342873
+    ],
+    "centre_offset_xy_mm": [
+      3.2,
+      0.0
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 474.55741135828026,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 3,
+    "variant": "V4",
+    "net": "SERVICE_5C",
+    "tube": 2,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -100.0
+    ],
+    "axis_end_local_mm": [
+      439.8935777509512,
+      0.0,
+      -72.41542733314256
+    ],
+    "centre_offset_xy_mm": [
+      0.0,
+      0.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 474.75760730331734,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 3,
+    "variant": "V5",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -22.0
+    ],
+    "axis_end_local_mm": [
+      439.8935777509512,
+      -35.86349891649975,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 474.55525241572815,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 3,
+    "variant": "V5",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -22.0
+    ],
+    "axis_end_local_mm": [
+      439.8935777509512,
+      -35.86349891649975,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 474.55525241572815,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 3,
+    "variant": "V5",
+    "net": "CAN",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -22.0
+    ],
+    "axis_end_local_mm": [
+      439.8935777509512,
+      35.86349891649975,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.6,
+      0.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 474.55525241572815,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 3,
+    "variant": "V5",
+    "net": "PWM",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -22.0
+    ],
+    "axis_end_local_mm": [
+      439.8935777509512,
+      35.86349891649975,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      3.2,
+      0.0
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 474.55525241572815,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 3,
+    "variant": "V5",
+    "net": "SERVICE_5C",
+    "tube": 2,
+    "axis_start_local_mm": [
+      0.0,
+      -45.0,
+      -100.0
+    ],
+    "axis_end_local_mm": [
+      439.8935777509512,
+      -31.207713666571284,
+      -72.41542733314256
+    ],
+    "centre_offset_xy_mm": [
+      0.0,
+      0.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 474.9733501676134,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 4,
+    "variant": "V1",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      454.03571337468213,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      -6.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 488.03571337468213,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 4,
+    "variant": "V1",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      454.03571337468213,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      -6.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 488.03571337468213,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 4,
+    "variant": "V1",
+    "net": "CAN",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      454.03571337468213,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.75,
+      4.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 488.03571337468213,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 4,
+    "variant": "V1",
+    "net": "PWM",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      454.03571337468213,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      0.0,
+      10.5
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 488.03571337468213,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 4,
+    "variant": "V1",
+    "net": "SERVICE_5C",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      454.03571337468213,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      3.75,
+      4.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 488.03571337468213,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 4,
+    "variant": "V2",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      454.03571337468213,
+      0.0,
+      -21.42356944524695
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 488.0379450768646,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 4,
+    "variant": "V2",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      454.03571337468213,
+      0.0,
+      -21.42356944524695
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 488.0379450768646,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 4,
+    "variant": "V2",
+    "net": "CAN",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -120.0
+    ],
+    "axis_end_local_mm": [
+      454.03571337468213,
+      0.0,
+      -77.29291664259142
+    ],
+    "centre_offset_xy_mm": [
+      -3.550704155516198,
+      -2.0500000000000003
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 490.0398271955566,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 4,
+    "variant": "V2",
+    "net": "SERVICE_5C",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -120.0
+    ],
+    "axis_end_local_mm": [
+      454.03571337468213,
+      0.0,
+      -77.29291664259142
+    ],
+    "centre_offset_xy_mm": [
+      3.550704155516197,
+      -2.0500000000000016
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 490.0398271955566,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 4,
+    "variant": "V2",
+    "net": "PWM",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -120.0
+    ],
+    "axis_end_local_mm": [
+      454.03571337468213,
+      0.0,
+      -77.29291664259142
+    ],
+    "centre_offset_xy_mm": [
+      2.5105259382520737e-16,
+      4.1
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 490.0398271955566,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 4,
+    "variant": "V3",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      454.03571337468213,
+      -32.95218054030791,
+      -24.30572221901219
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 488.87628906838796,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 4,
+    "variant": "V3",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      454.03571337468213,
+      -32.95218054030791,
+      -24.30572221901219
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 488.87628906838796,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 4,
+    "variant": "V3",
+    "net": "CAN",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      454.03571337468213,
+      32.95218054030791,
+      -24.30572221901219
+    ],
+    "centre_offset_xy_mm": [
+      -3.550704155516198,
+      -2.0500000000000003
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 488.87628906838796,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 4,
+    "variant": "V3",
+    "net": "SERVICE_5C",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      454.03571337468213,
+      32.95218054030791,
+      -24.30572221901219
+    ],
+    "centre_offset_xy_mm": [
+      3.550704155516197,
+      -2.0500000000000016
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 488.87628906838796,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 4,
+    "variant": "V3",
+    "net": "PWM",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      454.03571337468213,
+      32.95218054030791,
+      -24.30572221901219
+    ],
+    "centre_offset_xy_mm": [
+      2.5105259382520737e-16,
+      4.1
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 488.87628906838796,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 4,
+    "variant": "V4",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      454.03571337468213,
+      -35.08753470817834,
+      -21.42356944524695
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 488.72088856411483,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 4,
+    "variant": "V4",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      454.03571337468213,
+      -35.08753470817834,
+      -21.42356944524695
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 488.72088856411483,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 4,
+    "variant": "V4",
+    "net": "CAN",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      454.03571337468213,
+      35.08753470817834,
+      -21.42356944524695
+    ],
+    "centre_offset_xy_mm": [
+      -3.6,
+      0.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 488.72088856411483,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 4,
+    "variant": "V4",
+    "net": "PWM",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      454.03571337468213,
+      35.08753470817834,
+      -21.42356944524695
+    ],
+    "centre_offset_xy_mm": [
+      3.2,
+      0.0
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 488.72088856411483,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 4,
+    "variant": "V4",
+    "net": "SERVICE_5C",
+    "tube": 2,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -100.0
+    ],
+    "axis_end_local_mm": [
+      454.03571337468213,
+      0.0,
+      -71.52861109506095
+    ],
+    "centre_offset_xy_mm": [
+      0.0,
+      0.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 488.92752060722023,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 4,
+    "variant": "V5",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -22.0
+    ],
+    "axis_end_local_mm": [
+      454.03571337468213,
+      -35.08753470817834,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 488.7186602137334,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 4,
+    "variant": "V5",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -22.0
+    ],
+    "axis_end_local_mm": [
+      454.03571337468213,
+      -35.08753470817834,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 488.7186602137334,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 4,
+    "variant": "V5",
+    "net": "CAN",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -22.0
+    ],
+    "axis_end_local_mm": [
+      454.03571337468213,
+      35.08753470817834,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.6,
+      0.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 488.7186602137334,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 4,
+    "variant": "V5",
+    "net": "PWM",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -22.0
+    ],
+    "axis_end_local_mm": [
+      454.03571337468213,
+      35.08753470817834,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      3.2,
+      0.0
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 488.7186602137334,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 4,
+    "variant": "V5",
+    "net": "SERVICE_5C",
+    "tube": 2,
+    "axis_start_local_mm": [
+      0.0,
+      -45.0,
+      -100.0
+    ],
+    "axis_end_local_mm": [
+      454.03571337468213,
+      -30.764305547530476,
+      -71.52861109506095
+    ],
+    "centre_offset_xy_mm": [
+      0.0,
+      0.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 489.15019938738556,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 5,
+    "variant": "V1",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      475.2489168102785,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      -6.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 509.2489168102785,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 5,
+    "variant": "V1",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      475.2489168102785,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      -6.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 509.2489168102785,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 5,
+    "variant": "V1",
+    "net": "CAN",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      475.2489168102785,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.75,
+      4.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 509.2489168102785,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 5,
+    "variant": "V1",
+    "net": "PWM",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      475.2489168102785,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      0.0,
+      10.5
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 509.2489168102785,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 5,
+    "variant": "V1",
+    "net": "SERVICE_5C",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      475.2489168102785,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      3.75,
+      4.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 509.2489168102785,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 5,
+    "variant": "V2",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      475.2489168102785,
+      0.0,
+      -21.490080663103072
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 509.251252780806,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 5,
+    "variant": "V2",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      475.2489168102785,
+      0.0,
+      -21.490080663103072
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 509.251252780806,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 5,
+    "variant": "V2",
+    "net": "CAN",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -120.0
+    ],
+    "axis_end_local_mm": [
+      475.2489168102785,
+      0.0,
+      -75.29758010690782
+    ],
+    "centre_offset_xy_mm": [
+      -3.550704155516198,
+      -2.0500000000000003
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 511.3466657196228,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 5,
+    "variant": "V2",
+    "net": "SERVICE_5C",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -120.0
+    ],
+    "axis_end_local_mm": [
+      475.2489168102785,
+      0.0,
+      -75.29758010690782
+    ],
+    "centre_offset_xy_mm": [
+      3.550704155516197,
+      -2.0500000000000016
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 511.3466657196228,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 5,
+    "variant": "V2",
+    "net": "PWM",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -120.0
+    ],
+    "axis_end_local_mm": [
+      475.2489168102785,
+      0.0,
+      -75.29758010690782
+    ],
+    "centre_offset_xy_mm": [
+      2.5105259382520737e-16,
+      4.1
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 511.3466657196228,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 5,
+    "variant": "V3",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      475.2489168102785,
+      -31.688467401041613,
+      -24.03967734758771
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 510.12876541285107,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 5,
+    "variant": "V3",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      475.2489168102785,
+      -31.688467401041613,
+      -24.03967734758771
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 510.12876541285107,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 5,
+    "variant": "V3",
+    "net": "CAN",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      475.2489168102785,
+      31.688467401041613,
+      -24.03967734758771
+    ],
+    "centre_offset_xy_mm": [
+      -3.550704155516198,
+      -2.0500000000000003
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 510.12876541285107,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 5,
+    "variant": "V3",
+    "net": "SERVICE_5C",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      475.2489168102785,
+      31.688467401041613,
+      -24.03967734758771
+    ],
+    "centre_offset_xy_mm": [
+      3.550704155516197,
+      -2.0500000000000016
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 510.12876541285107,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 5,
+    "variant": "V3",
+    "net": "PWM",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      475.2489168102785,
+      31.688467401041613,
+      -24.03967734758771
+    ],
+    "centre_offset_xy_mm": [
+      2.5105259382520737e-16,
+      4.1
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 510.12876541285107,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 5,
+    "variant": "V4",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      475.2489168102785,
+      -33.92358839569623,
+      -21.490080663103072
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 509.9661043728667,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 5,
+    "variant": "V4",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      475.2489168102785,
+      -33.92358839569623,
+      -21.490080663103072
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 509.9661043728667,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 5,
+    "variant": "V4",
+    "net": "CAN",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      475.2489168102785,
+      33.92358839569623,
+      -21.490080663103072
+    ],
+    "centre_offset_xy_mm": [
+      -3.6,
+      0.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 509.9661043728667,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 5,
+    "variant": "V4",
+    "net": "PWM",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      475.2489168102785,
+      33.92358839569623,
+      -21.490080663103072
+    ],
+    "centre_offset_xy_mm": [
+      3.2,
+      0.0
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 509.9661043728667,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 5,
+    "variant": "V4",
+    "net": "SERVICE_5C",
+    "tube": 2,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -100.0
+    ],
+    "axis_end_local_mm": [
+      475.2489168102785,
+      0.0,
+      -70.19838673793853
+    ],
+    "centre_offset_xy_mm": [
+      0.0,
+      0.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 510.1823905630746,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 5,
+    "variant": "V5",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -22.0
+    ],
+    "axis_end_local_mm": [
+      475.2489168102785,
+      -33.92358839569623,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 509.96377191074123,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 5,
+    "variant": "V5",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -22.0
+    ],
+    "axis_end_local_mm": [
+      475.2489168102785,
+      -33.92358839569623,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 509.96377191074123,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 5,
+    "variant": "V5",
+    "net": "CAN",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -22.0
+    ],
+    "axis_end_local_mm": [
+      475.2489168102785,
+      33.92358839569623,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.6,
+      0.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 509.96377191074123,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 5,
+    "variant": "V5",
+    "net": "PWM",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -22.0
+    ],
+    "axis_end_local_mm": [
+      475.2489168102785,
+      33.92358839569623,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      3.2,
+      0.0
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 509.96377191074123,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 5,
+    "variant": "V5",
+    "net": "SERVICE_5C",
+    "tube": 2,
+    "axis_start_local_mm": [
+      0.0,
+      -45.0,
+      -100.0
+    ],
+    "axis_end_local_mm": [
+      475.2489168102785,
+      -30.09919336896927,
+      -70.19838673793853
+    ],
+    "centre_offset_xy_mm": [
+      0.0,
+      0.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 510.4154732170439,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 6,
+    "variant": "V1",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      503.5331880577404,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      -6.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 537.5331880577404,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 6,
+    "variant": "V1",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      503.5331880577404,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      -6.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 537.5331880577404,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 6,
+    "variant": "V1",
+    "net": "CAN",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      503.5331880577404,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.75,
+      4.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 537.5331880577404,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 6,
+    "variant": "V1",
+    "net": "PWM",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      503.5331880577404,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      0.0,
+      10.5
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 537.5331880577404,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 6,
+    "variant": "V1",
+    "net": "SERVICE_5C",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      503.5331880577404,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      3.75,
+      4.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 537.5331880577404,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 6,
+    "variant": "V2",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      503.5331880577404,
+      0.0,
+      -21.578762286911235
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 537.5356630527278,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 6,
+    "variant": "V2",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      503.5331880577404,
+      0.0,
+      -21.578762286911235
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 537.5356630527278,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 6,
+    "variant": "V2",
+    "net": "CAN",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -120.0
+    ],
+    "axis_end_local_mm": [
+      503.5331880577404,
+      0.0,
+      -72.63713139266298
+    ],
+    "centre_offset_xy_mm": [
+      -3.550704155516198,
+      -2.0500000000000003
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 539.7557837517112,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 6,
+    "variant": "V2",
+    "net": "SERVICE_5C",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -120.0
+    ],
+    "axis_end_local_mm": [
+      503.5331880577404,
+      0.0,
+      -72.63713139266298
+    ],
+    "centre_offset_xy_mm": [
+      3.550704155516197,
+      -2.0500000000000016
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 539.7557837517112,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 6,
+    "variant": "V2",
+    "net": "PWM",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -120.0
+    ],
+    "axis_end_local_mm": [
+      503.5331880577404,
+      0.0,
+      -72.63713139266298
+    ],
+    "centre_offset_xy_mm": [
+      2.5105259382520737e-16,
+      4.1
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 539.7557837517112,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 6,
+    "variant": "V3",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      503.5331880577404,
+      -30.00351654868655,
+      -23.684950852355065
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 538.465400538802,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 6,
+    "variant": "V3",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      503.5331880577404,
+      -30.00351654868655,
+      -23.684950852355065
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 538.465400538802,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 6,
+    "variant": "V3",
+    "net": "CAN",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      503.5331880577404,
+      30.00351654868655,
+      -23.684950852355065
+    ],
+    "centre_offset_xy_mm": [
+      -3.550704155516198,
+      -2.0500000000000003
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 538.465400538802,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 6,
+    "variant": "V3",
+    "net": "SERVICE_5C",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      503.5331880577404,
+      30.00351654868655,
+      -23.684950852355065
+    ],
+    "centre_offset_xy_mm": [
+      3.550704155516197,
+      -2.0500000000000016
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 538.465400538802,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 6,
+    "variant": "V3",
+    "net": "PWM",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      503.5331880577404,
+      30.00351654868655,
+      -23.684950852355065
+    ],
+    "centre_offset_xy_mm": [
+      2.5105259382520737e-16,
+      4.1
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 538.465400538802,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 6,
+    "variant": "V4",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      503.5331880577404,
+      -32.371659979053405,
+      -21.578762286911235
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 538.2930587845359,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 6,
+    "variant": "V4",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      503.5331880577404,
+      -32.371659979053405,
+      -21.578762286911235
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 538.2930587845359,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 6,
+    "variant": "V4",
+    "net": "CAN",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      503.5331880577404,
+      32.371659979053405,
+      -21.578762286911235
+    ],
+    "centre_offset_xy_mm": [
+      -3.6,
+      0.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 538.2930587845359,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 6,
+    "variant": "V4",
+    "net": "PWM",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      503.5331880577404,
+      32.371659979053405,
+      -21.578762286911235
+    ],
+    "centre_offset_xy_mm": [
+      3.2,
+      0.0
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 538.2930587845359,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 6,
+    "variant": "V4",
+    "net": "SERVICE_5C",
+    "tube": 2,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -100.0
+    ],
+    "axis_end_local_mm": [
+      503.5331880577404,
+      0.0,
+      -68.42475426177532
+    ],
+    "centre_offset_xy_mm": [
+      0.0,
+      0.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 538.5222171708804,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 6,
+    "variant": "V5",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -22.0
+    ],
+    "axis_end_local_mm": [
+      503.5331880577404,
+      -32.371659979053405,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 538.2905875067518,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 6,
+    "variant": "V5",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -22.0
+    ],
+    "axis_end_local_mm": [
+      503.5331880577404,
+      -32.371659979053405,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 538.2905875067518,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 6,
+    "variant": "V5",
+    "net": "CAN",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -22.0
+    ],
+    "axis_end_local_mm": [
+      503.5331880577404,
+      32.371659979053405,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.6,
+      0.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 538.2905875067518,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 6,
+    "variant": "V5",
+    "net": "PWM",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -22.0
+    ],
+    "axis_end_local_mm": [
+      503.5331880577404,
+      32.371659979053405,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      3.2,
+      0.0
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 538.2905875067518,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 6,
+    "variant": "V5",
+    "net": "SERVICE_5C",
+    "tube": 2,
+    "axis_start_local_mm": [
+      0.0,
+      -45.0,
+      -100.0
+    ],
+    "axis_end_local_mm": [
+      503.5331880577404,
+      -29.21237713088766,
+      -68.42475426177532
+    ],
+    "centre_offset_xy_mm": [
+      0.0,
+      0.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 538.7691716565884,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 7,
+    "variant": "V1",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      531.8174593052023,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      -6.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 565.8174593052023,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 7,
+    "variant": "V1",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      531.8174593052023,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      -6.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 565.8174593052023,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 7,
+    "variant": "V1",
+    "net": "CAN",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      531.8174593052023,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.75,
+      4.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 565.8174593052023,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 7,
+    "variant": "V1",
+    "net": "PWM",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      531.8174593052023,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      0.0,
+      10.5
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 565.8174593052023,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 7,
+    "variant": "V1",
+    "net": "SERVICE_5C",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      531.8174593052023,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      3.75,
+      4.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 565.8174593052023,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 7,
+    "variant": "V2",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      531.8174593052023,
+      0.0,
+      -21.667443910719395
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 565.8200733246498,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 7,
+    "variant": "V2",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      531.8174593052023,
+      0.0,
+      -21.667443910719395
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 565.8200733246498,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 7,
+    "variant": "V2",
+    "net": "CAN",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -120.0
+    ],
+    "axis_end_local_mm": [
+      531.8174593052023,
+      0.0,
+      -69.97668267841814
+    ],
+    "centre_offset_xy_mm": [
+      -3.550704155516198,
+      -2.0500000000000003
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 568.1649017837995,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 7,
+    "variant": "V2",
+    "net": "SERVICE_5C",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -120.0
+    ],
+    "axis_end_local_mm": [
+      531.8174593052023,
+      0.0,
+      -69.97668267841814
+    ],
+    "centre_offset_xy_mm": [
+      3.550704155516197,
+      -2.0500000000000016
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 568.1649017837995,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 7,
+    "variant": "V2",
+    "net": "PWM",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -120.0
+    ],
+    "axis_end_local_mm": [
+      531.8174593052023,
+      0.0,
+      -69.97668267841814
+    ],
+    "centre_offset_xy_mm": [
+      2.5105259382520737e-16,
+      4.1
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 568.1649017837995,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 7,
+    "variant": "V3",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      531.8174593052023,
+      -28.318565696331486,
+      -23.330224357122418
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 566.8020356647528,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 7,
+    "variant": "V3",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      531.8174593052023,
+      -28.318565696331486,
+      -23.330224357122418
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 566.8020356647528,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 7,
+    "variant": "V3",
+    "net": "CAN",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      531.8174593052023,
+      28.318565696331486,
+      -23.330224357122418
+    ],
+    "centre_offset_xy_mm": [
+      -3.550704155516198,
+      -2.0500000000000003
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 566.8020356647528,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 7,
+    "variant": "V3",
+    "net": "SERVICE_5C",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      531.8174593052023,
+      28.318565696331486,
+      -23.330224357122418
+    ],
+    "centre_offset_xy_mm": [
+      3.550704155516197,
+      -2.0500000000000016
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 566.8020356647528,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 7,
+    "variant": "V3",
+    "net": "PWM",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      531.8174593052023,
+      28.318565696331486,
+      -23.330224357122418
+    ],
+    "centre_offset_xy_mm": [
+      2.5105259382520737e-16,
+      4.1
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 566.8020356647528,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 7,
+    "variant": "V4",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      531.8174593052023,
+      -30.81973156241058,
+      -21.667443910719395
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 566.6200131962052,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 7,
+    "variant": "V4",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      531.8174593052023,
+      -30.81973156241058,
+      -21.667443910719395
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 566.6200131962052,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 7,
+    "variant": "V4",
+    "net": "CAN",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      531.8174593052023,
+      30.81973156241058,
+      -21.667443910719395
+    ],
+    "centre_offset_xy_mm": [
+      -3.6,
+      0.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 566.6200131962052,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 7,
+    "variant": "V4",
+    "net": "PWM",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      531.8174593052023,
+      30.81973156241058,
+      -21.667443910719395
+    ],
+    "centre_offset_xy_mm": [
+      3.2,
+      0.0
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 566.6200131962052,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 7,
+    "variant": "V4",
+    "net": "SERVICE_5C",
+    "tube": 2,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -100.0
+    ],
+    "axis_end_local_mm": [
+      531.8174593052023,
+      0.0,
+      -66.65112178561209
+    ],
+    "centre_offset_xy_mm": [
+      0.0,
+      0.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 566.8620437786863,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 7,
+    "variant": "V5",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -22.0
+    ],
+    "axis_end_local_mm": [
+      531.8174593052023,
+      -30.81973156241058,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 566.6174031027622,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 7,
+    "variant": "V5",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -22.0
+    ],
+    "axis_end_local_mm": [
+      531.8174593052023,
+      -30.81973156241058,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 566.6174031027622,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 7,
+    "variant": "V5",
+    "net": "CAN",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -22.0
+    ],
+    "axis_end_local_mm": [
+      531.8174593052023,
+      30.81973156241058,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.6,
+      0.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 566.6174031027622,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 7,
+    "variant": "V5",
+    "net": "PWM",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -22.0
+    ],
+    "axis_end_local_mm": [
+      531.8174593052023,
+      30.81973156241058,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      3.2,
+      0.0
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 566.6174031027622,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 7,
+    "variant": "V5",
+    "net": "SERVICE_5C",
+    "tube": 2,
+    "axis_start_local_mm": [
+      0.0,
+      -45.0,
+      -100.0
+    ],
+    "axis_end_local_mm": [
+      531.8174593052023,
+      -28.325560892806045,
+      -66.65112178561209
+    ],
+    "centre_offset_xy_mm": [
+      0.0,
+      0.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 567.1228700961328,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 8,
+    "variant": "V1",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      560.1017305526642,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      -6.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 594.1017305526642,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 8,
+    "variant": "V1",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      560.1017305526642,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      -6.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 594.1017305526642,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 8,
+    "variant": "V1",
+    "net": "CAN",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      560.1017305526642,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.75,
+      4.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 594.1017305526642,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 8,
+    "variant": "V1",
+    "net": "PWM",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      560.1017305526642,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      0.0,
+      10.5
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 594.1017305526642,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 8,
+    "variant": "V1",
+    "net": "SERVICE_5C",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      560.1017305526642,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      3.75,
+      4.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 594.1017305526642,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 8,
+    "variant": "V2",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      560.1017305526642,
+      0.0,
+      -21.756125534527555
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 594.1044835965718,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 8,
+    "variant": "V2",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      560.1017305526642,
+      0.0,
+      -21.756125534527555
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 594.1044835965718,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 8,
+    "variant": "V2",
+    "net": "CAN",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -120.0
+    ],
+    "axis_end_local_mm": [
+      560.1017305526642,
+      0.0,
+      -67.3162339641733
+    ],
+    "centre_offset_xy_mm": [
+      -3.550704155516198,
+      -2.0500000000000003
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 596.5740198158878,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 8,
+    "variant": "V2",
+    "net": "SERVICE_5C",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -120.0
+    ],
+    "axis_end_local_mm": [
+      560.1017305526642,
+      0.0,
+      -67.3162339641733
+    ],
+    "centre_offset_xy_mm": [
+      3.550704155516197,
+      -2.0500000000000016
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 596.5740198158878,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 8,
+    "variant": "V2",
+    "net": "PWM",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -120.0
+    ],
+    "axis_end_local_mm": [
+      560.1017305526642,
+      0.0,
+      -67.3162339641733
+    ],
+    "centre_offset_xy_mm": [
+      2.5105259382520737e-16,
+      4.1
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 596.5740198158878,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 8,
+    "variant": "V3",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      560.1017305526642,
+      -26.633614843976424,
+      -22.975497861889774
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 595.1386707907037,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 8,
+    "variant": "V3",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      560.1017305526642,
+      -26.633614843976424,
+      -22.975497861889774
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 595.1386707907037,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 8,
+    "variant": "V3",
+    "net": "CAN",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      560.1017305526642,
+      26.633614843976424,
+      -22.975497861889774
+    ],
+    "centre_offset_xy_mm": [
+      -3.550704155516198,
+      -2.0500000000000003
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 595.1386707907037,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 8,
+    "variant": "V3",
+    "net": "SERVICE_5C",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      560.1017305526642,
+      26.633614843976424,
+      -22.975497861889774
+    ],
+    "centre_offset_xy_mm": [
+      3.550704155516197,
+      -2.0500000000000016
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 595.1386707907037,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 8,
+    "variant": "V3",
+    "net": "PWM",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      560.1017305526642,
+      26.633614843976424,
+      -22.975497861889774
+    ],
+    "centre_offset_xy_mm": [
+      2.5105259382520737e-16,
+      4.1
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 595.1386707907037,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 8,
+    "variant": "V4",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      560.1017305526642,
+      -29.26780314576776,
+      -21.756125534527555
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 594.9469676078744,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 8,
+    "variant": "V4",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      560.1017305526642,
+      -29.26780314576776,
+      -21.756125534527555
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 594.9469676078744,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 8,
+    "variant": "V4",
+    "net": "CAN",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      560.1017305526642,
+      29.26780314576776,
+      -21.756125534527555
+    ],
+    "centre_offset_xy_mm": [
+      -3.6,
+      0.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 594.9469676078744,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 8,
+    "variant": "V4",
+    "net": "PWM",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      560.1017305526642,
+      29.26780314576776,
+      -21.756125534527555
+    ],
+    "centre_offset_xy_mm": [
+      3.2,
+      0.0
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 594.9469676078744,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 8,
+    "variant": "V4",
+    "net": "SERVICE_5C",
+    "tube": 2,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -100.0
+    ],
+    "axis_end_local_mm": [
+      560.1017305526642,
+      0.0,
+      -64.87748930944886
+    ],
+    "centre_offset_xy_mm": [
+      0.0,
+      0.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 595.2018703864921,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 8,
+    "variant": "V5",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -22.0
+    ],
+    "axis_end_local_mm": [
+      560.1017305526642,
+      -29.26780314576776,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 594.9442186987727,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 8,
+    "variant": "V5",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -22.0
+    ],
+    "axis_end_local_mm": [
+      560.1017305526642,
+      -29.26780314576776,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 594.9442186987727,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 8,
+    "variant": "V5",
+    "net": "CAN",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -22.0
+    ],
+    "axis_end_local_mm": [
+      560.1017305526642,
+      29.26780314576776,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.6,
+      0.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 594.9442186987727,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 8,
+    "variant": "V5",
+    "net": "PWM",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -22.0
+    ],
+    "axis_end_local_mm": [
+      560.1017305526642,
+      29.26780314576776,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      3.2,
+      0.0
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 594.9442186987727,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 8,
+    "variant": "V5",
+    "net": "SERVICE_5C",
+    "tube": 2,
+    "axis_start_local_mm": [
+      0.0,
+      -45.0,
+      -100.0
+    ],
+    "axis_end_local_mm": [
+      560.1017305526642,
+      -27.438744654724434,
+      -64.87748930944886
+    ],
+    "centre_offset_xy_mm": [
+      0.0,
+      0.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 595.4765685356773,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 9,
+    "variant": "V1",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      637.8834764831845,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      -6.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 671.8834764831845,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 9,
+    "variant": "V1",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      637.8834764831845,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      -6.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 671.8834764831845,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 9,
+    "variant": "V1",
+    "net": "CAN",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      637.8834764831845,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.75,
+      4.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 671.8834764831845,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 9,
+    "variant": "V1",
+    "net": "PWM",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      637.8834764831845,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      0.0,
+      10.5
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 671.8834764831845,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 9,
+    "variant": "V1",
+    "net": "SERVICE_5C",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      637.8834764831845,
+      0.0,
+      -30.0
+    ],
+    "centre_offset_xy_mm": [
+      3.75,
+      4.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 671.8834764831845,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 9,
+    "variant": "V2",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      637.8834764831845,
+      0.0,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 671.886611844357,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 9,
+    "variant": "V2",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      637.8834764831845,
+      0.0,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 671.886611844357,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 9,
+    "variant": "V2",
+    "net": "CAN",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -120.0
+    ],
+    "axis_end_local_mm": [
+      637.8834764831845,
+      0.0,
+      -60.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.550704155516198,
+      -2.0500000000000003
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 674.6990944041308,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 9,
+    "variant": "V2",
+    "net": "SERVICE_5C",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -120.0
+    ],
+    "axis_end_local_mm": [
+      637.8834764831845,
+      0.0,
+      -60.0
+    ],
+    "centre_offset_xy_mm": [
+      3.550704155516197,
+      -2.0500000000000016
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 674.6990944041308,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 9,
+    "variant": "V2",
+    "net": "PWM",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -120.0
+    ],
+    "axis_end_local_mm": [
+      637.8834764831845,
+      0.0,
+      -60.0
+    ],
+    "centre_offset_xy_mm": [
+      2.5105259382520737e-16,
+      4.1
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 674.6990944041308,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 9,
+    "variant": "V3",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      637.8834764831845,
+      -22.0,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 673.0644173870686,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 9,
+    "variant": "V3",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      637.8834764831845,
+      -22.0,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 673.0644173870686,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 9,
+    "variant": "V3",
+    "net": "CAN",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      637.8834764831845,
+      22.0,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.550704155516198,
+      -2.0500000000000003
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 673.0644173870686,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 9,
+    "variant": "V3",
+    "net": "SERVICE_5C",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      637.8834764831845,
+      22.0,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      3.550704155516197,
+      -2.0500000000000016
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 673.0644173870686,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 9,
+    "variant": "V3",
+    "net": "PWM",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -30.0
+    ],
+    "axis_end_local_mm": [
+      637.8834764831845,
+      22.0,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      2.5105259382520737e-16,
+      4.1
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 673.0644173870686,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 9,
+    "variant": "V4",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      637.8834764831845,
+      -25.0,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 672.8460922399646,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 9,
+    "variant": "V4",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      637.8834764831845,
+      -25.0,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 672.8460922399646,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 9,
+    "variant": "V4",
+    "net": "CAN",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      637.8834764831845,
+      25.0,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.6,
+      0.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 672.8460922399646,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 9,
+    "variant": "V4",
+    "net": "PWM",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -20.0
+    ],
+    "axis_end_local_mm": [
+      637.8834764831845,
+      25.0,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      3.2,
+      0.0
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 672.8460922399646,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 9,
+    "variant": "V4",
+    "net": "SERVICE_5C",
+    "tube": 2,
+    "axis_start_local_mm": [
+      0.0,
+      0.0,
+      -100.0
+    ],
+    "axis_end_local_mm": [
+      637.8834764831845,
+      0.0,
+      -60.0
+    ],
+    "centre_offset_xy_mm": [
+      0.0,
+      0.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 673.1363935579583,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 9,
+    "variant": "V5",
+    "net": "DC_PLUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -22.0
+    ],
+    "axis_end_local_mm": [
+      637.8834764831845,
+      -25.0,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 672.8429615878016,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 9,
+    "variant": "V5",
+    "net": "DC_MINUS",
+    "tube": 0,
+    "axis_start_local_mm": [
+      0.0,
+      -60.0,
+      -22.0
+    ],
+    "axis_end_local_mm": [
+      637.8834764831845,
+      -25.0,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      3.5,
+      0.0
+    ],
+    "OD_design_max_mm": 6.0,
+    "straight_route_length_mm": 672.8429615878016,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 9,
+    "variant": "V5",
+    "net": "CAN",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -22.0
+    ],
+    "axis_end_local_mm": [
+      637.8834764831845,
+      25.0,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      -3.6,
+      0.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 672.8429615878016,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 9,
+    "variant": "V5",
+    "net": "PWM",
+    "tube": 1,
+    "axis_start_local_mm": [
+      0.0,
+      60.0,
+      -22.0
+    ],
+    "axis_end_local_mm": [
+      637.8834764831845,
+      25.0,
+      -22.0
+    ],
+    "centre_offset_xy_mm": [
+      3.2,
+      0.0
+    ],
+    "OD_design_max_mm": 4.2,
+    "straight_route_length_mm": 672.8429615878016,
+    "planned_stock_or_extension_length_mm": 1200
+  },
+  {
+    "propeller_index": 9,
+    "variant": "V5",
+    "net": "SERVICE_5C",
+    "tube": 2,
+    "axis_start_local_mm": [
+      0.0,
+      -45.0,
+      -100.0
+    ],
+    "axis_end_local_mm": [
+      637.8834764831845,
+      -25.0,
+      -60.0
+    ],
+    "centre_offset_xy_mm": [
+      0.0,
+      0.0
+    ],
+    "OD_design_max_mm": 6.5,
+    "straight_route_length_mm": 673.4492392444246,
+    "planned_stock_or_extension_length_mm": 1200
+  }
+]

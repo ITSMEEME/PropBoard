@@ -1,0 +1,510 @@
+{
+  "native_sha256": "23478d47053133dacca31e4ffcfead23af2fe1c7aad34f8ae371195ffa0a58c0",
+  "nominal_clear": true,
+  "new_parts_rotor_Z_gap_mm": 43.33643443817476,
+  "findings": [],
+  "candidates": 12500,
+  "switch_checks": [
+    {
+      "propeller_index": 0,
+      "variant": "V1",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V2",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V3",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V4",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V5",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V1",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V2",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V3",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V4",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V5",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V1",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V2",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V3",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V4",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V5",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V1",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V2",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V3",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V4",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V5",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V1",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V2",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V3",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V4",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V5",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V1",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V2",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V3",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V4",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V5",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V1",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V2",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V3",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V4",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V5",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V1",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V2",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V3",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V4",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V5",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V1",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V2",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V3",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V4",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V5",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V1",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V2",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V3",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V4",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V5",
+      "visible_modules": 4,
+      "ground_z_mm": -180.0,
+      "nonsole_min_clearance_mm": 3.0,
+      "prior_frame_clearance_mm": 46.0,
+      "ESC_clearance_mm": 66.0,
+      "passed": true
+    }
+  ],
+  "scope": "All actual new mounting/landing components vs selected prior CAD at all4 corners; internal pairs on one arm per state,others rigid copies; intermodule bounds/volumes;vertical ESC146x39.5x74 envelope vs old and own mount except intended device screw engagement;sole-only nominal ground contact.No OEM body,ports,material tolerances,landing energy,preload,bond or strength qualification."
+}

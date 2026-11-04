@@ -1,0 +1,110 @@
+{
+  "model": "V200A 24S",
+  "manufacturer_attribution": "T-Motor context from project; original manufacturer document not supplied with this transcription",
+  "source_kind": "user_provided_technical_transcription_and_drawing_assignment",
+  "drawing_identity_confirmed_by_user": true,
+  "OEM_original_document_verified": false,
+  "drawing_dimensions_match_existing_envelope": true,
+  "housing_LWH_mm": [
+    146.0,
+    74.0,
+    39.5
+  ],
+  "mass_including_wires_kg": 0.748,
+  "mass_scope": "including wires per user; individual housing/harness mass split not given",
+  "voltage": {
+    "cells_min": 12,
+    "cells_max": 24,
+    "max_input_V": 105.0
+  },
+  "current": {
+    "continuous_output_A": 100.0,
+    "burst_A": 200.0,
+    "burst_duration_s_strictly_less_than": 10.0,
+    "continuous_DC_input_A": null,
+    "output_current_RMS_or_peak_definition": null
+  },
+  "input_leads": {
+    "material": "silicone insulated wire",
+    "colours": [
+      "red",
+      "black"
+    ],
+    "awg": 10,
+    "length_each_mm": 1200.0,
+    "insulated_outer_diameter_mm": null,
+    "connector": null,
+    "exit_coordinates_mm": null
+  },
+  "output_leads": {
+    "material": "silicone insulated wire",
+    "colour": "orange",
+    "awg": 10,
+    "length_each_mm": 250.0,
+    "phase_count_expected_from_motor_and_drawing": 3,
+    "phase_count_evidence": "three-phase MN1330/drawing context,not explicitly stated in transcribed row",
+    "insulated_outer_diameter_mm": null,
+    "connector": null,
+    "exit_coordinates_mm": null
+  },
+  "signal_harness": {
+    "shielded": true,
+    "outer_colour": "black",
+    "outer_diameter_mm": 4.2,
+    "conductor_count": 5,
+    "length_mm": 500.0,
+    "connector_text": "JP-3P*2",
+    "colour_text_verbatim": "schwarz blank-gr\u00fcn,gelb-grau",
+    "pinout": null,
+    "signal_voltage_levels_V": null,
+    "exit_coordinates_mm": null
+  },
+  "encoder_harness": {
+    "shielded": true,
+    "awg": 24,
+    "conductor_count": 5,
+    "length_mm": 460.0,
+    "connector_text": "M6 Flugzeugkopf",
+    "connector_pin_count": null,
+    "outer_diameter_mm": null,
+    "pinout": null,
+    "exit_coordinates_mm": null,
+    "function_verified": false,
+    "function_note": "User label encoder;motor-position sensor vs programming/accessory lead must be established by manual."
+  },
+  "interfaces": [
+    "PWM",
+    "CAN"
+  ],
+  "BEC_present": false,
+  "throttle": {
+    "min_value": 1040,
+    "max_value": 1940,
+    "unit_explicitly_provided": null,
+    "likely_us_not_confirmed": true,
+    "update_frequency_Hz": [
+      50,
+      500
+    ],
+    "response_time": null
+  },
+  "standby": {
+    "max_current_A": 0.05,
+    "at_voltage_V": 100.0,
+    "derived_max_power_W_at100V": 5.0
+  },
+  "mounting_drawing_reference": {
+    "hole_pattern_mm": [
+      126,
+      66
+    ],
+    "thread": "4xM3",
+    "drawing_thread_depth_mm": 4,
+    "source": "previous user drawing; type assignment now confirmed by user"
+  },
+  "OEM_CAD_available": false,
+  "connector_positions_verified": false,
+  "vertical_installation_and_cooling_verified": false,
+  "long_DC_lead_limits_and_capacitance_verified": false,
+  "production_ready": false
+}

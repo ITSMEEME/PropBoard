@@ -1,0 +1,4044 @@
+{
+  "native_sha256": "23478d47053133dacca31e4ffcfead23af2fe1c7aad34f8ae371195ffa0a58c0",
+  "production_ready": false,
+  "scope": "Ideal axial column, Euler pinned-column and mean bond/bearing screens only.160kg assumed all-up mass includes100kg payload;no measured vehicle mass or landing dynamics.Finite-element/whole-frame arm bending,torsion,unequal ground contact,stress concentrations,preload,CFK crushing,adhesive peel/fatigue,temperature,impact validation and material allowables are missing.",
+  "modulus_assumption_MPa": 50000.0,
+  "leg_area_mm2": 87.17919613711676,
+  "leg_second_moment_mm4": 3754.1541336545906,
+  "configurations": [
+    {
+      "propeller_index": 0,
+      "variant": "V1",
+      "module_mass_kg": 0.34863420683230195,
+      "four_module_mass_kg": 1.3945368273292078,
+      "delta_vs_D11_four_module_kg": 0.896146978799214,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.14261819054463204,
+      "CFK_cut_list": [
+        {
+          "length_mm": 185.9,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 185.9,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 53607.19330307549,
+          "elastic_column_shortening_equal_mm": 0.008367496287218296,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.17517857142857143,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 53607.19330307549,
+          "elastic_column_shortening_equal_mm": 0.025102488861654882,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.5255357142857143,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 53607.19330307549,
+          "elastic_column_shortening_equal_mm": 0.050204977723309764,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.0510714285714287,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 53607.19330307549,
+          "elastic_column_shortening_equal_mm": 0.10040995544661953,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 2.1021428571428573,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V2",
+      "module_mass_kg": 0.29169349643596487,
+      "four_module_mass_kg": 1.1667739857438595,
+      "delta_vs_D11_four_module_kg": 0.7183626776247669,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.09693130843670346,
+      "CFK_cut_list": [
+        {
+          "length_mm": 121.645,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 131.051,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 107869.95246651335,
+          "elastic_column_shortening_equal_mm": 0.005898706931662066,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.3065625,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 107869.95246651335,
+          "elastic_column_shortening_equal_mm": 0.0176961207949862,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.9196875,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 107869.95246651335,
+          "elastic_column_shortening_equal_mm": 0.0353922415899724,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.839375,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 107869.95246651335,
+          "elastic_column_shortening_equal_mm": 0.0707844831799448,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 3.67875,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V3",
+      "module_mass_kg": 0.32201780163671423,
+      "four_module_mass_kg": 1.288071206546857,
+      "delta_vs_D11_four_module_kg": 0.8449932515584624,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.15071937939469754,
+      "CFK_cut_list": [
+        {
+          "length_mm": 195.833,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 197.087,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 47694.325606097125,
+          "elastic_column_shortening_equal_mm": 0.008871023035400927,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.3065625,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 47694.325606097125,
+          "elastic_column_shortening_equal_mm": 0.026613069106202786,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.9196875,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 47694.325606097125,
+          "elastic_column_shortening_equal_mm": 0.05322613821240557,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.839375,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 47694.325606097125,
+          "elastic_column_shortening_equal_mm": 0.10645227642481114,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 3.67875,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V4",
+      "module_mass_kg": 0.29699009850267877,
+      "four_module_mass_kg": 1.187960394010715,
+      "delta_vs_D11_four_module_kg": 0.7395462114936224,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.10640644219429662,
+      "CFK_cut_list": [
+        {
+          "length_mm": 135.563,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 141.834,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 92091.75006373561,
+          "elastic_column_shortening_equal_mm": 0.006384056178094722,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.3065625,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 92091.75006373561,
+          "elastic_column_shortening_equal_mm": 0.019152168534284166,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.9196875,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 92091.75006373561,
+          "elastic_column_shortening_equal_mm": 0.03830433706856833,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.839375,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 92091.75006373561,
+          "elastic_column_shortening_equal_mm": 0.07660867413713666,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 3.67875,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V5",
+      "module_mass_kg": 0.29702883157258486,
+      "four_module_mass_kg": 1.1881153262903394,
+      "delta_vs_D11_four_module_kg": 0.7407685579602798,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.10640644219429662,
+      "CFK_cut_list": [
+        {
+          "length_mm": 135.563,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 141.834,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 92091.75006373561,
+          "elastic_column_shortening_equal_mm": 0.006384056178094722,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.3065625,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 92091.75006373561,
+          "elastic_column_shortening_equal_mm": 0.019152168534284166,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.9196875,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 92091.75006373561,
+          "elastic_column_shortening_equal_mm": 0.03830433706856833,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.839375,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 92091.75006373561,
+          "elastic_column_shortening_equal_mm": 0.07660867413713666,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 3.67875,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V1",
+      "module_mass_kg": 0.34863420683230195,
+      "four_module_mass_kg": 1.3945368273292078,
+      "delta_vs_D11_four_module_kg": 0.896146978799214,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.14261819054463204,
+      "CFK_cut_list": [
+        {
+          "length_mm": 185.9,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 185.9,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 53607.19330307549,
+          "elastic_column_shortening_equal_mm": 0.008367496287218296,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.17517857142857143,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 53607.19330307549,
+          "elastic_column_shortening_equal_mm": 0.025102488861654882,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.5255357142857143,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 53607.19330307549,
+          "elastic_column_shortening_equal_mm": 0.050204977723309764,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.0510714285714287,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 53607.19330307549,
+          "elastic_column_shortening_equal_mm": 0.10040995544661953,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 2.1021428571428573,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V2",
+      "module_mass_kg": 0.29169349643596487,
+      "four_module_mass_kg": 1.1667739857438595,
+      "delta_vs_D11_four_module_kg": 0.7183626776247669,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.09693130843670346,
+      "CFK_cut_list": [
+        {
+          "length_mm": 121.645,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 131.051,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 107869.95246651335,
+          "elastic_column_shortening_equal_mm": 0.005898706931662066,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.3065625,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 107869.95246651335,
+          "elastic_column_shortening_equal_mm": 0.0176961207949862,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.9196875,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 107869.95246651335,
+          "elastic_column_shortening_equal_mm": 0.0353922415899724,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.839375,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 107869.95246651335,
+          "elastic_column_shortening_equal_mm": 0.0707844831799448,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 3.67875,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V3",
+      "module_mass_kg": 0.32201780163671423,
+      "four_module_mass_kg": 1.288071206546857,
+      "delta_vs_D11_four_module_kg": 0.8449932515584624,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.15071937939469754,
+      "CFK_cut_list": [
+        {
+          "length_mm": 195.833,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 197.087,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 47694.325606097125,
+          "elastic_column_shortening_equal_mm": 0.008871023035400927,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.3065625,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 47694.325606097125,
+          "elastic_column_shortening_equal_mm": 0.026613069106202786,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.9196875,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 47694.325606097125,
+          "elastic_column_shortening_equal_mm": 0.05322613821240557,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.839375,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 47694.325606097125,
+          "elastic_column_shortening_equal_mm": 0.10645227642481114,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 3.67875,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V4",
+      "module_mass_kg": 0.29699009850267877,
+      "four_module_mass_kg": 1.187960394010715,
+      "delta_vs_D11_four_module_kg": 0.7395462114936224,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.10640644219429662,
+      "CFK_cut_list": [
+        {
+          "length_mm": 135.563,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 141.834,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 92091.75006373561,
+          "elastic_column_shortening_equal_mm": 0.006384056178094722,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.3065625,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 92091.75006373561,
+          "elastic_column_shortening_equal_mm": 0.019152168534284166,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.9196875,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 92091.75006373561,
+          "elastic_column_shortening_equal_mm": 0.03830433706856833,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.839375,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 92091.75006373561,
+          "elastic_column_shortening_equal_mm": 0.07660867413713666,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 3.67875,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V5",
+      "module_mass_kg": 0.29702883157258486,
+      "four_module_mass_kg": 1.1881153262903394,
+      "delta_vs_D11_four_module_kg": 0.7407685579602798,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.10640644219429662,
+      "CFK_cut_list": [
+        {
+          "length_mm": 135.563,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 141.834,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 92091.75006373561,
+          "elastic_column_shortening_equal_mm": 0.006384056178094722,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.3065625,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 92091.75006373561,
+          "elastic_column_shortening_equal_mm": 0.019152168534284166,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.9196875,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 92091.75006373561,
+          "elastic_column_shortening_equal_mm": 0.03830433706856833,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.839375,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 92091.75006373561,
+          "elastic_column_shortening_equal_mm": 0.07660867413713666,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 3.67875,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V1",
+      "module_mass_kg": 0.3486348403042799,
+      "four_module_mass_kg": 1.3945393612171195,
+      "delta_vs_D11_four_module_kg": 0.8961502021086887,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.14261819054463198,
+      "CFK_cut_list": [
+        {
+          "length_mm": 185.9,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 185.9,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 53607.19330307549,
+          "elastic_column_shortening_equal_mm": 0.008367496287218296,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.17517857142857143,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 53607.19330307549,
+          "elastic_column_shortening_equal_mm": 0.025102488861654882,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.5255357142857143,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 53607.19330307549,
+          "elastic_column_shortening_equal_mm": 0.050204977723309764,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.0510714285714287,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 53607.19330307549,
+          "elastic_column_shortening_equal_mm": 0.10040995544661953,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 2.1021428571428573,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V2",
+      "module_mass_kg": 0.29426478331638134,
+      "four_module_mass_kg": 1.1770591332655254,
+      "delta_vs_D11_four_module_kg": 0.7288204570845374,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.10152363688608687,
+      "CFK_cut_list": [
+        {
+          "length_mm": 127.631,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 137.037,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 98651.89902051975,
+          "elastic_column_shortening_equal_mm": 0.0061681416447457215,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.3065625,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 98651.89902051975,
+          "elastic_column_shortening_equal_mm": 0.018504424934237165,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.9196875,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 98651.89902051975,
+          "elastic_column_shortening_equal_mm": 0.03700884986847433,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.839375,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 98651.89902051975,
+          "elastic_column_shortening_equal_mm": 0.07401769973694866,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 3.67875,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V3",
+      "module_mass_kg": 0.3223665636775473,
+      "four_module_mass_kg": 1.2894662547101892,
+      "delta_vs_D11_four_module_kg": 0.8456919916468193,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.15133168985461531,
+      "CFK_cut_list": [
+        {
+          "length_mm": 196.631,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 197.885,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 47310.36790553615,
+          "elastic_column_shortening_equal_mm": 0.008906947663812082,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.3065625,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 47310.36790553615,
+          "elastic_column_shortening_equal_mm": 0.026720842991436244,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.9196875,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 47310.36790553615,
+          "elastic_column_shortening_equal_mm": 0.05344168598287249,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.839375,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 47310.36790553615,
+          "elastic_column_shortening_equal_mm": 0.10688337196574497,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 3.67875,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V4",
+      "module_mass_kg": 0.2987180642703087,
+      "four_module_mass_kg": 1.194872257081235,
+      "delta_vs_D11_four_module_kg": 0.7466335817729817,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.10946799449388553,
+      "CFK_cut_list": [
+        {
+          "length_mm": 139.554,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 145.825,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 87120.31095274273,
+          "elastic_column_shortening_equal_mm": 0.006563679320150491,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.3065625,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 87120.31095274273,
+          "elastic_column_shortening_equal_mm": 0.019691037960451473,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.9196875,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 87120.31095274273,
+          "elastic_column_shortening_equal_mm": 0.03938207592090295,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.839375,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 87120.31095274273,
+          "elastic_column_shortening_equal_mm": 0.0787641518418059,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 3.67875,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V5",
+      "module_mass_kg": 0.2987561828122637,
+      "four_module_mass_kg": 1.1950247312490547,
+      "delta_vs_D11_four_module_kg": 0.7476807189841395,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.10946799449388557,
+      "CFK_cut_list": [
+        {
+          "length_mm": 139.554,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 145.825,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 87120.31095274273,
+          "elastic_column_shortening_equal_mm": 0.006563679320150491,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.3065625,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 87120.31095274273,
+          "elastic_column_shortening_equal_mm": 0.019691037960451473,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.9196875,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 87120.31095274273,
+          "elastic_column_shortening_equal_mm": 0.03938207592090295,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.839375,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 87120.31095274273,
+          "elastic_column_shortening_equal_mm": 0.0787641518418059,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 3.67875,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V1",
+      "module_mass_kg": 0.3486348423097035,
+      "four_module_mass_kg": 1.394539369238814,
+      "delta_vs_D11_four_module_kg": 0.8961401257507668,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.14261819054463198,
+      "CFK_cut_list": [
+        {
+          "length_mm": 185.9,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 185.9,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 53607.19330307549,
+          "elastic_column_shortening_equal_mm": 0.008367496287218296,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.17517857142857143,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 53607.19330307549,
+          "elastic_column_shortening_equal_mm": 0.025102488861654882,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.5255357142857143,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 53607.19330307549,
+          "elastic_column_shortening_equal_mm": 0.050204977723309764,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.0510714285714287,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 53607.19330307549,
+          "elastic_column_shortening_equal_mm": 0.10040995544661953,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 2.1021428571428573,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V2",
+      "module_mass_kg": 0.2954126138498853,
+      "four_module_mass_kg": 1.1816504553995413,
+      "delta_vs_D11_four_module_kg": 0.733485143551158,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.1035646717524795,
+      "CFK_cut_list": [
+        {
+          "length_mm": 130.291,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 139.698,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 94930.15696944739,
+          "elastic_column_shortening_equal_mm": 0.0062878904061162335,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.3065625,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 94930.15696944739,
+          "elastic_column_shortening_equal_mm": 0.018863671218348702,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.9196875,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 94930.15696944739,
+          "elastic_column_shortening_equal_mm": 0.037727342436697404,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.839375,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 94930.15696944739,
+          "elastic_column_shortening_equal_mm": 0.07545468487339481,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 3.67875,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V3",
+      "module_mass_kg": 0.3225168428353771,
+      "four_module_mass_kg": 1.2900673713415085,
+      "delta_vs_D11_four_module_kg": 0.8459949520927499,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.15160382783680101,
+      "CFK_cut_list": [
+        {
+          "length_mm": 196.986,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 198.24,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 47141.20675161501,
+          "elastic_column_shortening_equal_mm": 0.008922914165328151,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.3065625,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 47141.20675161501,
+          "elastic_column_shortening_equal_mm": 0.026768742495984453,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.9196875,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 47141.20675161501,
+          "elastic_column_shortening_equal_mm": 0.053537484991968906,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.839375,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 47141.20675161501,
+          "elastic_column_shortening_equal_mm": 0.10707496998393781,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 3.67875,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V4",
+      "module_mass_kg": 0.29948795732615086,
+      "four_module_mass_kg": 1.1979518293046034,
+      "delta_vs_D11_four_module_kg": 0.749786509063822,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.11082868440481393,
+      "CFK_cut_list": [
+        {
+          "length_mm": 141.328,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 147.598,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 85039.10899327009,
+          "elastic_column_shortening_equal_mm": 0.006643511827730833,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.3065625,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 85039.10899327009,
+          "elastic_column_shortening_equal_mm": 0.019930535483192496,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.9196875,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 85039.10899327009,
+          "elastic_column_shortening_equal_mm": 0.03986107096638499,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.839375,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 85039.10899327009,
+          "elastic_column_shortening_equal_mm": 0.07972214193276998,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 3.67875,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V5",
+      "module_mass_kg": 0.29952389448133765,
+      "four_module_mass_kg": 1.1980955779253506,
+      "delta_vs_D11_four_module_kg": 0.7507515711281642,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.11082868440481392,
+      "CFK_cut_list": [
+        {
+          "length_mm": 141.328,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 147.598,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 85039.10899327009,
+          "elastic_column_shortening_equal_mm": 0.006643511827730833,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.3065625,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 85039.10899327009,
+          "elastic_column_shortening_equal_mm": 0.019930535483192496,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.9196875,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 85039.10899327009,
+          "elastic_column_shortening_equal_mm": 0.03986107096638499,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.839375,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 85039.10899327009,
+          "elastic_column_shortening_equal_mm": 0.07972214193276998,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 3.67875,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V1",
+      "module_mass_kg": 0.3486348403044052,
+      "four_module_mass_kg": 1.394539361217621,
+      "delta_vs_D11_four_module_kg": 0.8961405105316298,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.142618190544632,
+      "CFK_cut_list": [
+        {
+          "length_mm": 185.9,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 185.9,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 53607.19330307549,
+          "elastic_column_shortening_equal_mm": 0.008367496287218296,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.17517857142857143,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 53607.19330307549,
+          "elastic_column_shortening_equal_mm": 0.025102488861654882,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.5255357142857143,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 53607.19330307549,
+          "elastic_column_shortening_equal_mm": 0.050204977723309764,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.0510714285714287,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 53607.19330307549,
+          "elastic_column_shortening_equal_mm": 0.10040995544661953,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 2.1021428571428573,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V2",
+      "module_mass_kg": 0.29598836423578445,
+      "four_module_mass_kg": 1.1839534569431378,
+      "delta_vs_D11_four_module_kg": 0.735829718685306,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.10458518918567582,
+      "CFK_cut_list": [
+        {
+          "length_mm": 131.622,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 141.028,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 93147.77267040205,
+          "elastic_column_shortening_equal_mm": 0.006347764786801492,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.3065625,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 93147.77267040205,
+          "elastic_column_shortening_equal_mm": 0.019043294360404476,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.9196875,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 93147.77267040205,
+          "elastic_column_shortening_equal_mm": 0.03808658872080895,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.839375,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 93147.77267040205,
+          "elastic_column_shortening_equal_mm": 0.0761731774416179,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 3.67875,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V3",
+      "module_mass_kg": 0.32259361310903545,
+      "four_module_mass_kg": 1.2903744524361418,
+      "delta_vs_D11_four_module_kg": 0.8461487921760248,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.1517398968278938,
+      "CFK_cut_list": [
+        {
+          "length_mm": 197.163,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 198.417,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 47056.96619807034,
+          "elastic_column_shortening_equal_mm": 0.008930897416086185,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.3065625,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 47056.96619807034,
+          "elastic_column_shortening_equal_mm": 0.026792692248258556,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.9196875,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 47056.96619807034,
+          "elastic_column_shortening_equal_mm": 0.05358538449651711,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.839375,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 47056.96619807034,
+          "elastic_column_shortening_equal_mm": 0.10717076899303422,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 3.67875,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V4",
+      "module_mass_kg": 0.29986918674613094,
+      "four_module_mass_kg": 1.1994767469845238,
+      "delta_vs_D11_four_module_kg": 0.7513497459220695,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.11150902936027815,
+      "CFK_cut_list": [
+        {
+          "length_mm": 142.214,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 148.485,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 84026.36341026641,
+          "elastic_column_shortening_equal_mm": 0.006683428081521004,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.3065625,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 84026.36341026641,
+          "elastic_column_shortening_equal_mm": 0.02005028424456301,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.9196875,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 84026.36341026641,
+          "elastic_column_shortening_equal_mm": 0.04010056848912602,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.839375,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 84026.36341026641,
+          "elastic_column_shortening_equal_mm": 0.08020113697825204,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 3.67875,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V5",
+      "module_mass_kg": 0.29991089149646005,
+      "four_module_mass_kg": 1.1996435659858402,
+      "delta_vs_D11_four_module_kg": 0.7522997365462727,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.11150902936027811,
+      "CFK_cut_list": [
+        {
+          "length_mm": 142.214,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 148.485,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 84026.36341026641,
+          "elastic_column_shortening_equal_mm": 0.006683428081521004,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.3065625,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 84026.36341026641,
+          "elastic_column_shortening_equal_mm": 0.02005028424456301,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.9196875,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 84026.36341026641,
+          "elastic_column_shortening_equal_mm": 0.04010056848912602,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.839375,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 84026.36341026641,
+          "elastic_column_shortening_equal_mm": 0.08020113697825204,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 3.67875,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V1",
+      "module_mass_kg": 0.3486348403045609,
+      "four_module_mass_kg": 1.3945393612182435,
+      "delta_vs_D11_four_module_kg": 0.896140542145678,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.142618190544632,
+      "CFK_cut_list": [
+        {
+          "length_mm": 185.9,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 185.9,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 53607.19330307549,
+          "elastic_column_shortening_equal_mm": 0.008367496287218296,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.17517857142857143,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 53607.19330307549,
+          "elastic_column_shortening_equal_mm": 0.025102488861654882,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.5255357142857143,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 53607.19330307549,
+          "elastic_column_shortening_equal_mm": 0.050204977723309764,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.0510714285714287,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 53607.19330307549,
+          "elastic_column_shortening_equal_mm": 0.10040995544661953,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 2.1021428571428573,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V2",
+      "module_mass_kg": 0.29685430928306306,
+      "four_module_mass_kg": 1.1874172371322522,
+      "delta_vs_D11_four_module_kg": 0.7393507820637282,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.10611596533547024,
+      "CFK_cut_list": [
+        {
+          "length_mm": 133.617,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 143.023,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 90566.86598973982,
+          "elastic_column_shortening_equal_mm": 0.006437576357829376,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.3065625,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 90566.86598973982,
+          "elastic_column_shortening_equal_mm": 0.019312729073488126,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.9196875,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 90566.86598973982,
+          "elastic_column_shortening_equal_mm": 0.03862545814697625,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.839375,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 90566.86598973982,
+          "elastic_column_shortening_equal_mm": 0.0772509162939525,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 3.67875,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V3",
+      "module_mass_kg": 0.32270877701205763,
+      "four_module_mass_kg": 1.2908351080482305,
+      "delta_vs_D11_four_module_kg": 0.8463808785195042,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.15194400031453312,
+      "CFK_cut_list": [
+        {
+          "length_mm": 197.429,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 198.683,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 46931.028121936266,
+          "elastic_column_shortening_equal_mm": 0.008942872292223234,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.3065625,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 46931.028121936266,
+          "elastic_column_shortening_equal_mm": 0.026828616876669705,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.9196875,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 46931.028121936266,
+          "elastic_column_shortening_equal_mm": 0.05365723375333941,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.839375,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 46931.028121936266,
+          "elastic_column_shortening_equal_mm": 0.10731446750667882,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 3.67875,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V4",
+      "module_mass_kg": 0.3004450044025457,
+      "four_module_mass_kg": 1.2017800176101827,
+      "delta_vs_D11_four_module_kg": 0.7537137458821919,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.11252954679347447,
+      "CFK_cut_list": [
+        {
+          "length_mm": 143.545,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 149.815,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 82540.832831338,
+          "elastic_column_shortening_equal_mm": 0.00674330246220626,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.3065625,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 82540.832831338,
+          "elastic_column_shortening_equal_mm": 0.02022990738661878,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.9196875,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 82540.832831338,
+          "elastic_column_shortening_equal_mm": 0.04045981477323756,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.839375,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 82540.832831338,
+          "elastic_column_shortening_equal_mm": 0.08091962954647512,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 3.67875,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V5",
+      "module_mass_kg": 0.30048670795800947,
+      "four_module_mass_kg": 1.2019468318320379,
+      "delta_vs_D11_four_module_kg": 0.7546028333521713,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.11252954679347456,
+      "CFK_cut_list": [
+        {
+          "length_mm": 143.545,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 149.815,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 82540.832831338,
+          "elastic_column_shortening_equal_mm": 0.00674330246220626,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.3065625,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 82540.832831338,
+          "elastic_column_shortening_equal_mm": 0.02022990738661878,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.9196875,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 82540.832831338,
+          "elastic_column_shortening_equal_mm": 0.04045981477323756,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.839375,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 82540.832831338,
+          "elastic_column_shortening_equal_mm": 0.08091962954647512,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 3.67875,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V1",
+      "module_mass_kg": 0.3486348801025179,
+      "four_module_mass_kg": 1.3945395204100717,
+      "delta_vs_D11_four_module_kg": 0.8961406695939437,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.14261819054463198,
+      "CFK_cut_list": [
+        {
+          "length_mm": 185.9,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 185.9,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 53607.19330307549,
+          "elastic_column_shortening_equal_mm": 0.008367496287218296,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.17517857142857143,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 53607.19330307549,
+          "elastic_column_shortening_equal_mm": 0.025102488861654882,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.5255357142857143,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 53607.19330307549,
+          "elastic_column_shortening_equal_mm": 0.050204977723309764,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.0510714285714287,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 53607.19330307549,
+          "elastic_column_shortening_equal_mm": 0.10040995544661953,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 2.1021428571428573,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V2",
+      "module_mass_kg": 0.2980037396213114,
+      "four_module_mass_kg": 1.1920149584852455,
+      "delta_vs_D11_four_module_kg": 0.7440253003059225,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.1081570002018629,
+      "CFK_cut_list": [
+        {
+          "length_mm": 136.277,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 145.684,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 87289.23598499328,
+          "elastic_column_shortening_equal_mm": 0.006557325119199889,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.3065625,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 87289.23598499328,
+          "elastic_column_shortening_equal_mm": 0.019671975357599663,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.9196875,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 87289.23598499328,
+          "elastic_column_shortening_equal_mm": 0.039343950715199326,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.839375,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 87289.23598499328,
+          "elastic_column_shortening_equal_mm": 0.07868790143039865,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 3.67875,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V3",
+      "module_mass_kg": 0.3228623382588007,
+      "four_module_mass_kg": 1.2914493530352027,
+      "delta_vs_D11_four_module_kg": 0.8466752320263982,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.15221613829671882,
+      "CFK_cut_list": [
+        {
+          "length_mm": 197.784,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 199.038,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 46763.89561212872,
+          "elastic_column_shortening_equal_mm": 0.008958838793739304,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.3065625,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 46763.89561212872,
+          "elastic_column_shortening_equal_mm": 0.02687651638121791,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.9196875,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 46763.89561212872,
+          "elastic_column_shortening_equal_mm": 0.05375303276243582,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.839375,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 46763.89561212872,
+          "elastic_column_shortening_equal_mm": 0.10750606552487164,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 3.67875,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V4",
+      "module_mass_kg": 0.30121276126875507,
+      "four_module_mass_kg": 1.2048510450750203,
+      "delta_vs_D11_four_module_kg": 0.7568613877681826,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.11389023670440289,
+      "CFK_cut_list": [
+        {
+          "length_mm": 145.318,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 151.589,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 80620.6326374178,
+          "elastic_column_shortening_equal_mm": 0.006823134969786603,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.3065625,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 80620.6326374178,
+          "elastic_column_shortening_equal_mm": 0.02046940490935981,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.9196875,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 80620.6326374178,
+          "elastic_column_shortening_equal_mm": 0.04093880981871962,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.839375,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 80620.6326374178,
+          "elastic_column_shortening_equal_mm": 0.08187761963743924,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 3.67875,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V5",
+      "module_mass_kg": 0.3012543596673024,
+      "four_module_mass_kg": 1.2050174386692096,
+      "delta_vs_D11_four_module_kg": 0.7576736093497372,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.1138902367044029,
+      "CFK_cut_list": [
+        {
+          "length_mm": 145.318,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 151.589,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 80620.6326374178,
+          "elastic_column_shortening_equal_mm": 0.006823134969786603,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.3065625,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 80620.6326374178,
+          "elastic_column_shortening_equal_mm": 0.02046940490935981,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.9196875,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 80620.6326374178,
+          "elastic_column_shortening_equal_mm": 0.04093880981871962,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.839375,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 80620.6326374178,
+          "elastic_column_shortening_equal_mm": 0.08187761963743924,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 3.67875,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V1",
+      "module_mass_kg": 0.34863484232173964,
+      "four_module_mass_kg": 1.3945393692869585,
+      "delta_vs_D11_four_module_kg": 0.896140518576166,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.14261819054463204,
+      "CFK_cut_list": [
+        {
+          "length_mm": 185.9,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 185.9,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 53607.19330307549,
+          "elastic_column_shortening_equal_mm": 0.008367496287218296,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.17517857142857143,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 53607.19330307549,
+          "elastic_column_shortening_equal_mm": 0.025102488861654882,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.5255357142857143,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 53607.19330307549,
+          "elastic_column_shortening_equal_mm": 0.050204977723309764,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.0510714285714287,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 53607.19330307549,
+          "elastic_column_shortening_equal_mm": 0.10040995544661953,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 2.1021428571428573,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V2",
+      "module_mass_kg": 0.29915542248056465,
+      "four_module_mass_kg": 1.1966216899222586,
+      "delta_vs_D11_four_module_kg": 0.7487086526640545,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.11019803506825555,
+      "CFK_cut_list": [
+        {
+          "length_mm": 138.938,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 148.344,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 84186.36596798246,
+          "elastic_column_shortening_equal_mm": 0.0066770738805704,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.3065625,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 84186.36596798246,
+          "elastic_column_shortening_equal_mm": 0.0200312216417112,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.9196875,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 84186.36596798246,
+          "elastic_column_shortening_equal_mm": 0.0400624432834224,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.839375,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 84186.36596798246,
+          "elastic_column_shortening_equal_mm": 0.0801248865668448,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 3.67875,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V3",
+      "module_mass_kg": 0.3230158903751041,
+      "four_module_mass_kg": 1.2920635615004163,
+      "delta_vs_D11_four_module_kg": 0.846995089827748,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.1524882762789044,
+      "CFK_cut_list": [
+        {
+          "length_mm": 198.138,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 199.393,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 46597.65431287558,
+          "elastic_column_shortening_equal_mm": 0.008974805295255373,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.3065625,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 46597.65431287558,
+          "elastic_column_shortening_equal_mm": 0.02692441588576612,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.9196875,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 46597.65431287558,
+          "elastic_column_shortening_equal_mm": 0.05384883177153224,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.839375,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 46597.65431287558,
+          "elastic_column_shortening_equal_mm": 0.10769766354306448,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 3.67875,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V4",
+      "module_mass_kg": 0.3019805181375545,
+      "four_module_mass_kg": 1.207922072550218,
+      "delta_vs_D11_four_module_kg": 0.7600090361539003,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.11525092661533134,
+      "CFK_cut_list": [
+        {
+          "length_mm": 147.092,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 153.363,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 78766.66753887305,
+          "elastic_column_shortening_equal_mm": 0.006902967477366944,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.3065625,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 78766.66753887305,
+          "elastic_column_shortening_equal_mm": 0.020708902432100832,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.9196875,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 78766.66753887305,
+          "elastic_column_shortening_equal_mm": 0.041417804864201664,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.839375,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 78766.66753887305,
+          "elastic_column_shortening_equal_mm": 0.08283560972840333,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 3.67875,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V5",
+      "module_mass_kg": 0.3020222320324513,
+      "four_module_mass_kg": 1.2080889281298053,
+      "delta_vs_D11_four_module_kg": 0.7607450987879032,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.11525092661533134,
+      "CFK_cut_list": [
+        {
+          "length_mm": 147.092,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 153.363,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 78766.66753887305,
+          "elastic_column_shortening_equal_mm": 0.006902967477366944,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.3065625,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 78766.66753887305,
+          "elastic_column_shortening_equal_mm": 0.020708902432100832,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.9196875,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 78766.66753887305,
+          "elastic_column_shortening_equal_mm": 0.041417804864201664,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.839375,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 78766.66753887305,
+          "elastic_column_shortening_equal_mm": 0.08283560972840333,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 3.67875,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V1",
+      "module_mass_kg": 0.34863484030291625,
+      "four_module_mass_kg": 1.394539361211665,
+      "delta_vs_D11_four_module_kg": 0.8961405308981827,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.14261819054463204,
+      "CFK_cut_list": [
+        {
+          "length_mm": 185.9,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 185.9,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 53607.19330307549,
+          "elastic_column_shortening_equal_mm": 0.008367496287218296,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.17517857142857143,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 53607.19330307549,
+          "elastic_column_shortening_equal_mm": 0.025102488861654882,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.5255357142857143,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 53607.19330307549,
+          "elastic_column_shortening_equal_mm": 0.050204977723309764,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.0510714285714287,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 53607.19330307549,
+          "elastic_column_shortening_equal_mm": 0.10040995544661953,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 2.1021428571428573,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V2",
+      "module_mass_kg": 0.30030910832577684,
+      "four_module_mass_kg": 1.2012364333031074,
+      "delta_vs_D11_four_module_kg": 0.7534000234156046,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.11223906993464822,
+      "CFK_cut_list": [
+        {
+          "length_mm": 141.598,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 151.004,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 81246.04916579842,
+          "elastic_column_shortening_equal_mm": 0.006796822641940915,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.3065625,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 81246.04916579842,
+          "elastic_column_shortening_equal_mm": 0.02039046792582274,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.9196875,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 81246.04916579842,
+          "elastic_column_shortening_equal_mm": 0.04078093585164548,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.839375,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 81246.04916579842,
+          "elastic_column_shortening_equal_mm": 0.08156187170329096,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 3.67875,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V3",
+      "module_mass_kg": 0.3231694393123225,
+      "four_module_mass_kg": 1.29267775724929,
+      "delta_vs_D11_four_module_kg": 0.8473027998640716,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.15276041426109005,
+      "CFK_cut_list": [
+        {
+          "length_mm": 198.493,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 199.747,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 46432.29789908153,
+          "elastic_column_shortening_equal_mm": 0.00899077179677144,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.3065625,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 46432.29789908153,
+          "elastic_column_shortening_equal_mm": 0.02697231539031432,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.9196875,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 46432.29789908153,
+          "elastic_column_shortening_equal_mm": 0.05394463078062864,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.839375,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 46432.29789908153,
+          "elastic_column_shortening_equal_mm": 0.10788926156125728,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 3.67875,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V4",
+      "module_mass_kg": 0.30274826454240794,
+      "four_module_mass_kg": 1.2109930581696318,
+      "delta_vs_D11_four_module_kg": 0.7631566543649058,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.11661161652625981,
+      "CFK_cut_list": [
+        {
+          "length_mm": 148.866,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 155.136,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 76975.92592468452,
+          "elastic_column_shortening_equal_mm": 0.006982799984947286,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.3065625,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 76975.92592468452,
+          "elastic_column_shortening_equal_mm": 0.020948399954841858,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.9196875,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 76975.92592468452,
+          "elastic_column_shortening_equal_mm": 0.041896799909683716,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.839375,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 76975.92592468452,
+          "elastic_column_shortening_equal_mm": 0.08379359981936743,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 3.67875,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V5",
+      "module_mass_kg": 0.302789992224204,
+      "four_module_mass_kg": 1.211159968896816,
+      "delta_vs_D11_four_module_kg": 0.7638161395050855,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.11661161652625981,
+      "CFK_cut_list": [
+        {
+          "length_mm": 148.866,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 155.136,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 76975.92592468452,
+          "elastic_column_shortening_equal_mm": 0.006982799984947286,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.3065625,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 76975.92592468452,
+          "elastic_column_shortening_equal_mm": 0.020948399954841858,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.9196875,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 76975.92592468452,
+          "elastic_column_shortening_equal_mm": 0.041896799909683716,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.839375,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 76975.92592468452,
+          "elastic_column_shortening_equal_mm": 0.08379359981936743,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 3.67875,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V1",
+      "module_mass_kg": 0.34863484230939157,
+      "four_module_mass_kg": 1.3945393692375663,
+      "delta_vs_D11_four_module_kg": 0.8961405185516819,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.14261819054463198,
+      "CFK_cut_list": [
+        {
+          "length_mm": 185.9,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 185.9,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 53607.19330307549,
+          "elastic_column_shortening_equal_mm": 0.008367496287218296,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.17517857142857143,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 53607.19330307549,
+          "elastic_column_shortening_equal_mm": 0.025102488861654882,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.5255357142857143,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 53607.19330307549,
+          "elastic_column_shortening_equal_mm": 0.050204977723309764,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.0510714285714287,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 53607.19330307549,
+          "elastic_column_shortening_equal_mm": 0.10040995544661953,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 2.1021428571428573,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V2",
+      "module_mass_kg": 0.30347391846356214,
+      "four_module_mass_kg": 1.2138956738542486,
+      "delta_vs_D11_four_module_kg": 0.7662699650604611,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.11785191581722798,
+      "CFK_cut_list": [
+        {
+          "length_mm": 148.915,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 158.321,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 73910.54983237453,
+          "elastic_column_shortening_equal_mm": 0.0071261317357098255,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.3065625,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 73910.54983237453,
+          "elastic_column_shortening_equal_mm": 0.021378395207129475,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.9196875,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 73910.54983237453,
+          "elastic_column_shortening_equal_mm": 0.04275679041425895,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.839375,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 73910.54983237453,
+          "elastic_column_shortening_equal_mm": 0.0855135808285179,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 3.67875,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V3",
+      "module_mass_kg": 0.323591729724723,
+      "four_module_mass_kg": 1.294366918898892,
+      "delta_vs_D11_four_module_kg": 0.8481491551311509,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.1535087937121008,
+      "CFK_cut_list": [
+        {
+          "length_mm": 199.469,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 200.723,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 45982.079468252654,
+          "elastic_column_shortening_equal_mm": 0.009034679675940628,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.3065625,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 45982.079468252654,
+          "elastic_column_shortening_equal_mm": 0.027104039027821887,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.9196875,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 45982.079468252654,
+          "elastic_column_shortening_equal_mm": 0.054208078055643774,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.839375,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 45982.079468252654,
+          "elastic_column_shortening_equal_mm": 0.10841615611128755,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 3.67875,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V4",
+      "module_mass_kg": 0.30485959525251277,
+      "four_module_mass_kg": 1.219438381010051,
+      "delta_vs_D11_four_module_kg": 0.7718126846156959,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.12035351378131293,
+      "CFK_cut_list": [
+        {
+          "length_mm": 153.743,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 160.014,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 72354.73587429701,
+          "elastic_column_shortening_equal_mm": 0.007202339380793227,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.3065625,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 72354.73587429701,
+          "elastic_column_shortening_equal_mm": 0.02160701814237968,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.9196875,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 72354.73587429701,
+          "elastic_column_shortening_equal_mm": 0.04321403628475936,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.839375,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 72354.73587429701,
+          "elastic_column_shortening_equal_mm": 0.08642807256951872,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 3.67875,
+          "qualified": false
+        }
+      ]
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V5",
+      "module_mass_kg": 0.30490133276063536,
+      "four_module_mass_kg": 1.2196053310425414,
+      "delta_vs_D11_four_module_kg": 0.7722615015765661,
+      "mass_saved_vs_same_geometry_Al_columns_kg": 0.12035351378131293,
+      "CFK_cut_list": [
+        {
+          "length_mm": 153.743,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        },
+        {
+          "length_mm": 160.014,
+          "quantity": 4,
+          "article": "CBU 2017 1005 TG nominal20/17",
+          "ID_tolerance_verified": false
+        }
+      ],
+      "loadcases": [
+        {
+          "peak_load_factor": 1,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 392.40000000000003,
+          "force_each_leg_equal_sharing_N": 196.20000000000002,
+          "CFK_axial_stress_equal_sharing_MPa": 2.250536925018369,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 4.501073850036738,
+          "Euler_pinned_column_N": 72354.73587429701,
+          "elastic_column_shortening_equal_mm": 0.007202339380793227,
+          "bond_mean_shear_equal_MPa": 0.12667315660472137,
+          "bond_mean_shear_one_column_MPa": 0.25334631320944273,
+          "arm_projected_bearing_mean_MPa": 0.3065625,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 4,
+          "vertical_force_per_foot_N": 1177.2,
+          "force_each_leg_equal_sharing_N": 588.6,
+          "CFK_axial_stress_equal_sharing_MPa": 6.751610775055107,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 13.503221550110213,
+          "Euler_pinned_column_N": 72354.73587429701,
+          "elastic_column_shortening_equal_mm": 0.02160701814237968,
+          "bond_mean_shear_equal_MPa": 0.38001946981416407,
+          "bond_mean_shear_one_column_MPa": 0.7600389396283281,
+          "arm_projected_bearing_mean_MPa": 0.9196875,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 2,
+          "vertical_force_per_foot_N": 2354.4,
+          "force_each_leg_equal_sharing_N": 1177.2,
+          "CFK_axial_stress_equal_sharing_MPa": 13.503221550110213,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 27.006443100220427,
+          "Euler_pinned_column_N": 72354.73587429701,
+          "elastic_column_shortening_equal_mm": 0.04321403628475936,
+          "bond_mean_shear_equal_MPa": 0.7600389396283281,
+          "bond_mean_shear_one_column_MPa": 1.5200778792566563,
+          "arm_projected_bearing_mean_MPa": 1.839375,
+          "qualified": false
+        },
+        {
+          "peak_load_factor": 3,
+          "contacting_feet": 1,
+          "vertical_force_per_foot_N": 4708.8,
+          "force_each_leg_equal_sharing_N": 2354.4,
+          "CFK_axial_stress_equal_sharing_MPa": 27.006443100220427,
+          "CFK_stress_if_one_column_takes_entire_foot_MPa": 54.01288620044085,
+          "Euler_pinned_column_N": 72354.73587429701,
+          "elastic_column_shortening_equal_mm": 0.08642807256951872,
+          "bond_mean_shear_equal_MPa": 1.5200778792566563,
+          "bond_mean_shear_one_column_MPa": 3.0401557585133125,
+          "arm_projected_bearing_mean_MPa": 3.67875,
+          "qualified": false
+        }
+      ]
+    }
+  ],
+  "landing_energy_scenarios": [
+    {
+      "sink_speed_m_s": 0.2,
+      "kinetic_energy_J": 3.2000000000000006,
+      "ideal_constant_deceleration_stroke_for_3g_mm": 1.0193679918450562,
+      "equivalent_load_factor_at_2mm_stroke": 2.019367991845056
+    },
+    {
+      "sink_speed_m_s": 0.3,
+      "kinetic_energy_J": 7.199999999999999,
+      "ideal_constant_deceleration_stroke_for_3g_mm": 2.293577981651376,
+      "equivalent_load_factor_at_2mm_stroke": 3.2935779816513757
+    },
+    {
+      "sink_speed_m_s": 0.5,
+      "kinetic_energy_J": 20.0,
+      "ideal_constant_deceleration_stroke_for_3g_mm": 6.3710499490316,
+      "equivalent_load_factor_at_2mm_stroke": 7.3710499490316
+    },
+    {
+      "sink_speed_m_s": 0.75,
+      "kinetic_energy_J": 45.0,
+      "ideal_constant_deceleration_stroke_for_3g_mm": 14.3348623853211,
+      "equivalent_load_factor_at_2mm_stroke": 15.334862385321099
+    },
+    {
+      "sink_speed_m_s": 1.0,
+      "kinetic_energy_J": 80.0,
+      "ideal_constant_deceleration_stroke_for_3g_mm": 25.4841997961264,
+      "equivalent_load_factor_at_2mm_stroke": 26.4841997961264
+    }
+  ],
+  "sole_damping_credit": false,
+  "warning": "An8mm wear sole is not a qualified shock absorber.3g peak load is an assumed screen,not proof that the sole can absorb a landing event.2mm stroke is an illustration,not an allowable compression."
+}

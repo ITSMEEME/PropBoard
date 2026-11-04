@@ -1,0 +1,308 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "propeller_index": 0,
+      "variant": "V1",
+      "visible_count": 844,
+      "passed": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V2",
+      "visible_count": 940,
+      "passed": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V3",
+      "visible_count": 940,
+      "passed": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V4",
+      "visible_count": 1036,
+      "passed": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V5",
+      "visible_count": 1128,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V1",
+      "visible_count": 844,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V2",
+      "visible_count": 940,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V3",
+      "visible_count": 940,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V4",
+      "visible_count": 1036,
+      "passed": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V5",
+      "visible_count": 1128,
+      "passed": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V1",
+      "visible_count": 844,
+      "passed": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V2",
+      "visible_count": 940,
+      "passed": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V3",
+      "visible_count": 940,
+      "passed": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V4",
+      "visible_count": 1036,
+      "passed": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V5",
+      "visible_count": 1128,
+      "passed": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V1",
+      "visible_count": 844,
+      "passed": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V2",
+      "visible_count": 940,
+      "passed": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V3",
+      "visible_count": 940,
+      "passed": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V4",
+      "visible_count": 1036,
+      "passed": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V5",
+      "visible_count": 1128,
+      "passed": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V1",
+      "visible_count": 844,
+      "passed": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V2",
+      "visible_count": 940,
+      "passed": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V3",
+      "visible_count": 940,
+      "passed": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V4",
+      "visible_count": 1036,
+      "passed": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V5",
+      "visible_count": 1128,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V1",
+      "visible_count": 844,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V2",
+      "visible_count": 940,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V3",
+      "visible_count": 940,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V4",
+      "visible_count": 1036,
+      "passed": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V5",
+      "visible_count": 1128,
+      "passed": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V1",
+      "visible_count": 844,
+      "passed": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V2",
+      "visible_count": 940,
+      "passed": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V3",
+      "visible_count": 940,
+      "passed": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V4",
+      "visible_count": 1036,
+      "passed": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V5",
+      "visible_count": 1128,
+      "passed": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V1",
+      "visible_count": 844,
+      "passed": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V2",
+      "visible_count": 940,
+      "passed": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V3",
+      "visible_count": 940,
+      "passed": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V4",
+      "visible_count": 1036,
+      "passed": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V5",
+      "visible_count": 1128,
+      "passed": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V1",
+      "visible_count": 844,
+      "passed": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V2",
+      "visible_count": 940,
+      "passed": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V3",
+      "visible_count": 940,
+      "passed": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V4",
+      "visible_count": 1036,
+      "passed": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V5",
+      "visible_count": 1128,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V1",
+      "visible_count": 844,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V2",
+      "visible_count": 940,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V3",
+      "visible_count": 940,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V4",
+      "visible_count": 1036,
+      "passed": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V5",
+      "visible_count": 1128,
+      "passed": true
+    }
+  ],
+  "page_errors": [],
+  "mobile_checked": true,
+  "native_sha256": "e8572efdbb39c19f5b211db0bccaa591e04b4acc3f27adc49cac521eab5e23de"
+}

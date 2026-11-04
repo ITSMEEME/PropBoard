@@ -1,0 +1,16 @@
+project_interface,family,contact_number_or_label,project_net,OEM_mapping_verified
+XDC,"Anderson SB120 two-pole keyed,colour-matched pair",A_marked_plus,DC_PLUS,False
+XDC,"Anderson SB120 two-pole keyed,colour-matched pair",B_marked_minus,DC_MINUS,False
+XCAN,M12 A-coded5pole,1,SHIELD_DRAIN,False
+XCAN,M12 A-coded5pole,2,NC_NO_POWER,False
+XCAN,M12 A-coded5pole,3,CAN_REFERENCE_GND,False
+XCAN,M12 A-coded5pole,4,CAN_H,False
+XCAN,M12 A-coded5pole,5,CAN_L,False
+XPWM,M8 A-coded3pole,1,NC_NO_BEC,False
+XPWM,M8 A-coded3pole,3,SIGNAL_GND,False
+XPWM,M8 A-coded3pole,4,PWM_COMMAND,False
+XSERVICE,M12 B-coded5pole,1,SERVICE_W1,False
+XSERVICE,M12 B-coded5pole,2,SERVICE_W2,False
+XSERVICE,M12 B-coded5pole,3,SERVICE_W3,False
+XSERVICE,M12 B-coded5pole,4,SERVICE_W4,False
+XSERVICE,M12 B-coded5pole,5,SERVICE_W5,False

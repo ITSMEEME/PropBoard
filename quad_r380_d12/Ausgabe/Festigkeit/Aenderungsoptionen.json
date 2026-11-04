@@ -1,0 +1,88 @@
+{
+  "native_sha256": "23478d47053133dacca31e4ffcfead23af2fe1c7aad34f8ae371195ffa0a58c0",
+  "qualified": false,
+  "scope": "Reference sensitivities to locate effective redesign levers;does not replace D12 or constitute production geometry.",
+  "options": [
+    {
+      "option": "arm_diameter",
+      "od_mm": 20,
+      "id_mm": 17,
+      "arm_CFK_added_four_arms_kg": -4.440892098500626e-16,
+      "foot_displacement_mm": 38.49019252098384,
+      "peak_arm_stress_MPa": 580.5475559894903,
+      "peak_root_pullout_N": 9318.101216477175,
+      "buckling_factor": 3.2278962001564158,
+      "note": "Existing clamps/nodes/clearances do NOT fit changed sizes;model dimensions only,Al masses excluded."
+    },
+    {
+      "option": "arm_diameter",
+      "od_mm": 22,
+      "id_mm": 19,
+      "arm_CFK_added_four_arms_kg": 0.11562037591593155,
+      "foot_displacement_mm": 30.010831240756183,
+      "peak_arm_stress_MPa": 486.1821026477751,
+      "peak_root_pullout_N": 8717.756203749255,
+      "buckling_factor": 4.4469456918557695,
+      "note": "Existing clamps/nodes/clearances do NOT fit changed sizes;model dimensions only,Al masses excluded."
+    },
+    {
+      "option": "arm_diameter",
+      "od_mm": 25,
+      "id_mm": 21,
+      "arm_CFK_added_four_arms_kg": 0.7033572868219198,
+      "foot_displacement_mm": 17.134815237472512,
+      "peak_arm_stress_MPa": 301.7395971302892,
+      "peak_root_pullout_N": 8159.529729860665,
+      "buckling_factor": 8.418341403358655,
+      "note": "Existing clamps/nodes/clearances do NOT fit changed sizes;model dimensions only,Al masses excluded."
+    },
+    {
+      "option": "arm_diameter",
+      "od_mm": 30,
+      "id_mm": 26,
+      "arm_CFK_added_four_arms_kg": 1.0887585398750275,
+      "foot_displacement_mm": 10.826834128834527,
+      "peak_arm_stress_MPa": 214.35216990141998,
+      "peak_root_pullout_N": 7448.258792226203,
+      "buckling_factor": 14.804585739676332,
+      "note": "Existing clamps/nodes/clearances do NOT fit changed sizes;model dimensions only,Al masses excluded."
+    },
+    {
+      "option": "ideal_motor_node_load",
+      "peak_arm_stress_MPa": 523.1105186130876,
+      "hub_displacement_mm": 41.40715429825072,
+      "buckling_factor": 1.9930430017471772,
+      "note": "Ideal load introduction comparison only;no landing members,ground restraint or revised CAD."
+    },
+    {
+      "option": "ideal_pinned_A_frame_reference",
+      "long_leg_mm": 597.3738916807221,
+      "short_leg_mm": 302.3640190234281,
+      "axial_leg_forces_N": [
+        1090.2721557028967,
+        2104.4433362987666
+      ],
+      "CFK_stress_MPa": [
+        12.50610471319442,
+        24.13928356243233
+      ],
+      "pinned_Euler_factors": [
+        4.761616919700633,
+        9.629071108563602
+      ],
+      "hub_force_N": [
+        974.3952604988991,
+        0.0,
+        1865.2709272407499
+      ],
+      "core_direct_force_N": [
+        -974.3952604988991,
+        0.0,
+        489.12907275925016
+      ],
+      "added_four_feet_CFK_only_kg": 0.3269462814421888,
+      "peak_arm_stress_MPa": 417.03632347036364,
+      "note": "Concept reference only:rigid ideal frame/motor anchors and pins;clevis masses,side stability,contact,clearance,frame,bolts and joint capacities not qualified.No new CAD.No drop-in safe design."
+    }
+  ]
+}

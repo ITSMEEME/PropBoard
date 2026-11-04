@@ -1,0 +1,102 @@
+{
+  "passed": true,
+  "native_sha256": "23478d47053133dacca31e4ffcfead23af2fe1c7aad34f8ae371195ffa0a58c0",
+  "checks": [
+    {
+      "name": "axial",
+      "actual": 0.1147062652914561,
+      "expected": 0.11470626529145611,
+      "relative_error": 1.209854385246744e-16,
+      "passed": true
+    },
+    {
+      "name": "bending_shear",
+      "actual": 22.579986591408137,
+      "expected": 22.579986591408115,
+      "relative_error": 9.44034310494854e-16,
+      "passed": true
+    },
+    {
+      "name": "torsion",
+      "actual": 0.22197632373769927,
+      "expected": 0.22197632373769927,
+      "relative_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "rigid_motion_energy",
+      "absolute_energy_Nmm": 1.6708067953093782e-15,
+      "limit_Nmm": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "simply_supported_midpoint",
+      "actual": 1.4829405777701645,
+      "expected": 1.4829405777701672,
+      "relative_error": 1.7967916577661667e-15,
+      "passed": true
+    },
+    {
+      "name": "Timoshenko_column_buckling",
+      "actual": 7009.028872449367,
+      "expected": 7012.991196889235,
+      "relative_error": 0.0005649977774998026,
+      "passed": true
+    },
+    {
+      "name": "buckling_mesh_convergence",
+      "values": [
+        7010.760395292582,
+        7009.364337934803,
+        7009.028872449367
+      ],
+      "relative_last_change": 4.7861906626632596e-05,
+      "passed": true
+    },
+    {
+      "name": "D12_mesh_displacement_mm",
+      "actual": 38.49180550714551,
+      "expected": 38.49180550730245,
+      "relative_error": 4.0773530211493005e-12,
+      "passed": true
+    },
+    {
+      "name": "D12_mesh_peak_CFK_stress_MPa",
+      "actual": 579.5744802245803,
+      "expected": 579.5744802270696,
+      "relative_error": 4.295025201553448e-12,
+      "passed": true
+    },
+    {
+      "name": "D12_mesh_buckling_factor",
+      "actual": 0.47036720347587757,
+      "expected": 0.47036799905521004,
+      "relative_error": 1.6913976589963197e-06,
+      "passed": true
+    }
+  ],
+  "D12_mesh": [
+    {
+      "mesh_mm": 50,
+      "displacement_mm": 38.491805507257766,
+      "peak_CFK_stress_MPa": 579.5744802264392,
+      "buckling_factor": 0.47037032674161267,
+      "equilibrium_residual": 1.2021702451611044e-11
+    },
+    {
+      "mesh_mm": 25,
+      "displacement_mm": 38.49180550730245,
+      "peak_CFK_stress_MPa": 579.5744802270696,
+      "buckling_factor": 0.47036799905521004,
+      "equilibrium_residual": 1.4060305850244933e-11
+    },
+    {
+      "mesh_mm": 12.5,
+      "displacement_mm": 38.49180550714551,
+      "peak_CFK_stress_MPa": 579.5744802245803,
+      "buckling_factor": 0.47036720347587757,
+      "equilibrium_residual": 2.928013622654162e-11
+    }
+  ],
+  "scope": "Solver implementation verification against independent analytical solutions and mesh refinement;not experimental validation of material or joints."
+}

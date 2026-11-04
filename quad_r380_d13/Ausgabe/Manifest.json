@@ -1,0 +1,191 @@
+{
+  "revision": "D13",
+  "native_sha256": "e8572efdbb39c19f5b211db0bccaa591e04b4acc3f27adc49cac521eab5e23de",
+  "files": [
+    {
+      "path": "Ausgabe/Aufbau.json",
+      "bytes": 34268,
+      "sha256": "8b9ba581550d0ceb91d8bb06daf071b5f05406ae7cd97c23bc8910c41f329925"
+    },
+    {
+      "path": "Ausgabe/HEPS_18_V5.png",
+      "bytes": 228232,
+      "sha256": "53318da8a5851808b3f165818da7627a58aa3b4b9b09c6337d75711d75ac6a66"
+    },
+    {
+      "path": "Ausgabe/HEPS_22_V5.png",
+      "bytes": 221199,
+      "sha256": "9276af63fd73a4e4e4ce3ad0d3f15ff3cfa193943b043fc97a626e8313f53778"
+    },
+    {
+      "path": "Ausgabe/HEPS_26_V5.png",
+      "bytes": 213268,
+      "sha256": "36a8cc3952fdb8b19c7458988de56153a2e3100e5c7a202ddee042c1a8d95bd7"
+    },
+    {
+      "path": "Ausgabe/HEPS_28_V5.png",
+      "bytes": 209848,
+      "sha256": "dc2524e39300dcb3f3121157889fd1244e15db1a45a90b24db7e5d6655ed7cfc"
+    },
+    {
+      "path": "Ausgabe/HEPS_29_V5.png",
+      "bytes": 206489,
+      "sha256": "cf27afe8d36e0598afe5a248619256cf6845bb44ad6c68299cad7a99579f488e"
+    },
+    {
+      "path": "Ausgabe/HEPS_30_V5.png",
+      "bytes": 205502,
+      "sha256": "bb279edf66346ca2011ddf2b72b2c4d3c7c0b21b2d4635166c6c5af7245501ff"
+    },
+    {
+      "path": "Ausgabe/HEPS_32_V5.png",
+      "bytes": 201880,
+      "sha256": "54b95a3e87972929d05b54d662b8be00e4854f0144332c451feaace4d352d9aa"
+    },
+    {
+      "path": "Ausgabe/HEPS_34_V5.png",
+      "bytes": 199685,
+      "sha256": "55a09f08728c8078f3829c9a8d240149cf0bce15a6e67cb325401a955f5406eb"
+    },
+    {
+      "path": "Ausgabe/HEPS_36_V5.png",
+      "bytes": 197419,
+      "sha256": "1815aa9b593d79b3aa82d41c501051aa03c38e168799131c574a36d94d42d78f"
+    },
+    {
+      "path": "Ausgabe/HEPS_42_V5.png",
+      "bytes": 189940,
+      "sha256": "e260d2ca77f784dedf017c844cbaea0883ef873bd0a4e60d225b26209d921254"
+    },
+    {
+      "path": "Ausgabe/Innenverkabelung_V1.png",
+      "bytes": 180173,
+      "sha256": "8a9a8bd44fed1d243523bcd43fc4f93c17fad93d900ace0de92a89eef6c3f817"
+    },
+    {
+      "path": "Ausgabe/Innenverkabelung_V2.png",
+      "bytes": 183059,
+      "sha256": "76f64f0f9d9b5d937f059576f1d70598d565e6d3684c333f19200e7e909f187a"
+    },
+    {
+      "path": "Ausgabe/Innenverkabelung_V3.png",
+      "bytes": 187058,
+      "sha256": "143c58ae8856908316d4c577b83e061186169b1d0f1ea23e3a715ee262203f37"
+    },
+    {
+      "path": "Ausgabe/Innenverkabelung_V5.png",
+      "bytes": 190394,
+      "sha256": "27933b060c13ab164a105ef1ee4b9f09f25df622274a07d577ad14870d8de3a5"
+    },
+    {
+      "path": "Ausgabe/Kabel_Bauteile.json",
+      "bytes": 197162,
+      "sha256": "57d11d4ed5b2212572d4fd950fbcfe30cf31af72e83c51551b933a90c34979d2"
+    },
+    {
+      "path": "Ausgabe/Kabel_Instanzen.json",
+      "bytes": 1232784,
+      "sha256": "fe08204663e5376539ecb6393d181a6f072fcacf9d52476d8c973306eb8fdff7"
+    },
+    {
+      "path": "Ausgabe/Kabel_Netze.json",
+      "bytes": 113459,
+      "sha256": "b0101b43356b23dc3fec161e298a4799acb4a66f87ba5de24c57165df67c7533"
+    },
+    {
+      "path": "Ausgabe/Kabel_Pruefung.json",
+      "bytes": 101202,
+      "sha256": "e59c116c9ed2e7acf1a2b605113150eae89b5abbcc6686dfe3a46b93cd952ba0"
+    },
+    {
+      "path": "Ausgabe/Kabelplanung.json",
+      "bytes": 226037,
+      "sha256": "4bed56755bd6f73ce8c65f399090929097bc0affe633efebcc12dcc6afe6bf64"
+    },
+    {
+      "path": "Ausgabe/Landefuss_42_V4.png",
+      "bytes": 168719,
+      "sha256": "50338a21f89c46ac8320fc5b9ef90f666183b871faff5ef4dab541ad269d4eab"
+    },
+    {
+      "path": "Ausgabe/Pinbelegung.csv",
+      "bytes": 818,
+      "sha256": "781076367b0137d5515c1d8c184f1d0d5fedc7e191821437d9d18990a3cdd593"
+    },
+    {
+      "path": "Ausgabe/Quad_Standardkabelbaum.FCStd",
+      "bytes": 94354136,
+      "sha256": "e8572efdbb39c19f5b211db0bccaa591e04b4acc3f27adc49cac521eab5e23de"
+    },
+    {
+      "path": "Ausgabe/Viewer_Pruefung.json",
+      "bytes": 5842,
+      "sha256": "39ca97fe387c7a8602e678cfc5cb79e3999865d314cfd17da03a842d54f935bb"
+    },
+    {
+      "path": "Ausgabe/Zuschnitt.csv",
+      "bytes": 1894,
+      "sha256": "410d4c43bc71c1d89bf1e6789bc2a602dd9ca40fa7dfb6e873f9b28404e85540"
+    },
+    {
+      "path": "Ausgabe/projekt.js",
+      "bytes": 68392403,
+      "sha256": "e8a76295516c727c61df4dbda43de54444ae9ff91829817052c01488ba8bdb62"
+    },
+    {
+      "path": "Projekt.html",
+      "bytes": 6148,
+      "sha256": "42bcde001548f619773e228d28f375973b13942ec29a4c115c4bc9563531098c"
+    },
+    {
+      "path": "Quellen/README.md",
+      "bytes": 1230,
+      "sha256": "8c2e1343832fc5bf7015e1afb338b5f6d992b77b2a7d4158bc07677b2f68b24a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6209,
+      "sha256": "fa88feb1018beb9584fd4b53100bbc389ef83d246b00ce11ca470ef5f825e8d1"
+    },
+    {
+      "path": "SCHNITTSTELLEN.md",
+      "bytes": 5231,
+      "sha256": "5bb6f7be88f6b3362023c9e7136154d2a7bcfa1ae33f44e7f8cada626dd4afaa"
+    },
+    {
+      "path": "bauen.py",
+      "bytes": 6522,
+      "sha256": "14db6c49e8e5dd9b1f4c6165d546140450a22fcc3969c0dde45550e40f66ae3f"
+    },
+    {
+      "path": "parameter.json",
+      "bytes": 5564,
+      "sha256": "c03c27cad25c1945528f3cf7aec6122818ffaabe1eb85e442df45a00e0d1a83d"
+    },
+    {
+      "path": "planung.py",
+      "bytes": 5001,
+      "sha256": "1dc4cfe8aa7c7da05d89603b6e904481e725091cc8349565407be07674e32a4f"
+    },
+    {
+      "path": "pruefen.py",
+      "bytes": 5260,
+      "sha256": "0de1a11b289f6f4c0209b410fb6a7e63a21af741ea39f883b69e1af50a2223c7"
+    },
+    {
+      "path": "viewer.js",
+      "bytes": 12295,
+      "sha256": "9a8cdaaf1639c27dce555fcc929109923c32d0d2541e51c33560a2fbd128d6d8"
+    },
+    {
+      "path": "viewer_export.py",
+      "bytes": 2006,
+      "sha256": "3afab60a4592dc31c37ce5794035eae5b44c1a5ea7af483296a0d27742c946b4"
+    },
+    {
+      "path": "viewer_pruefen.cjs",
+      "bytes": 4865,
+      "sha256": "9fa977a45b3dc2df00e39be8ec87e0d4b2d932c024876c94004396bafc74122b"
+    }
+  ]
+}

@@ -1,0 +1,1005 @@
+{
+  "native_sha256": "23478d47053133dacca31e4ffcfead23af2fe1c7aad34f8ae371195ffa0a58c0",
+  "cases": [
+    {
+      "propeller_index": 0,
+      "variant": "V1",
+      "mode": "point",
+      "k_vertical_N_mm": 281.17908917926485,
+      "force_unit_response_stress_MPa_N": 0.16480331698055406,
+      "buckling_force_N": 3599.032674494578,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V1",
+      "mode": "stick",
+      "k_vertical_N_mm": 629.3409389587196,
+      "force_unit_response_stress_MPa_N": 0.0917627834028,
+      "buckling_force_N": 36186.95779989739,
+      "required_ground_mu": 0.41724506681266704,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V2",
+      "mode": "point",
+      "k_vertical_N_mm": 339.68078698584486,
+      "force_unit_response_stress_MPa_N": 0.17044648618026048,
+      "buckling_force_N": 3136.686822879299,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V2",
+      "mode": "stick",
+      "k_vertical_N_mm": 366.95976471099084,
+      "force_unit_response_stress_MPa_N": 0.1717329525165762,
+      "buckling_force_N": 16683.73486447937,
+      "required_ground_mu": 0.2605796498400559,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V3",
+      "mode": "point",
+      "k_vertical_N_mm": 90.78977074475758,
+      "force_unit_response_stress_MPa_N": 0.38053336261762394,
+      "buckling_force_N": 2285.4139901046433,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V3",
+      "mode": "stick",
+      "k_vertical_N_mm": 280.81652318947516,
+      "force_unit_response_stress_MPa_N": 0.21605883799206277,
+      "buckling_force_N": 29558.15738199541,
+      "required_ground_mu": 0.46170855676980876,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V4",
+      "mode": "point",
+      "k_vertical_N_mm": 430.74164385423506,
+      "force_unit_response_stress_MPa_N": 0.14188143010876142,
+      "buckling_force_N": 4049.30297458973,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V4",
+      "mode": "stick",
+      "k_vertical_N_mm": 460.9280830181354,
+      "force_unit_response_stress_MPa_N": 0.14378835833615283,
+      "buckling_force_N": 63099.10399445295,
+      "required_ground_mu": 0.20077882025506436,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V5",
+      "mode": "point",
+      "k_vertical_N_mm": 427.0637298460075,
+      "force_unit_response_stress_MPa_N": 0.13754467438831586,
+      "buckling_force_N": 4709.350582052376,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V5",
+      "mode": "stick",
+      "k_vertical_N_mm": 486.91245421383024,
+      "force_unit_response_stress_MPa_N": 0.13258627896504233,
+      "buckling_force_N": 69004.88587261998,
+      "required_ground_mu": 0.17738362525569823,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V1",
+      "mode": "point",
+      "k_vertical_N_mm": 281.17908917926485,
+      "force_unit_response_stress_MPa_N": 0.16480331698055406,
+      "buckling_force_N": 3599.032674494578,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V1",
+      "mode": "stick",
+      "k_vertical_N_mm": 629.3409389587196,
+      "force_unit_response_stress_MPa_N": 0.0917627834028,
+      "buckling_force_N": 36186.95779989739,
+      "required_ground_mu": 0.41724506681266704,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V2",
+      "mode": "point",
+      "k_vertical_N_mm": 339.68078698584486,
+      "force_unit_response_stress_MPa_N": 0.17044648618026048,
+      "buckling_force_N": 3136.686822879299,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V2",
+      "mode": "stick",
+      "k_vertical_N_mm": 366.95976471099084,
+      "force_unit_response_stress_MPa_N": 0.1717329525165762,
+      "buckling_force_N": 16683.73486447937,
+      "required_ground_mu": 0.2605796498400559,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V3",
+      "mode": "point",
+      "k_vertical_N_mm": 90.78977074475758,
+      "force_unit_response_stress_MPa_N": 0.38053336261762394,
+      "buckling_force_N": 2285.4139901046433,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V3",
+      "mode": "stick",
+      "k_vertical_N_mm": 280.81652318947516,
+      "force_unit_response_stress_MPa_N": 0.21605883799206277,
+      "buckling_force_N": 29558.15738199541,
+      "required_ground_mu": 0.46170855676980876,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V4",
+      "mode": "point",
+      "k_vertical_N_mm": 430.74164385423506,
+      "force_unit_response_stress_MPa_N": 0.14188143010876142,
+      "buckling_force_N": 4049.30297458973,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V4",
+      "mode": "stick",
+      "k_vertical_N_mm": 460.9280830181354,
+      "force_unit_response_stress_MPa_N": 0.14378835833615283,
+      "buckling_force_N": 63099.10399445295,
+      "required_ground_mu": 0.20077882025506436,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V5",
+      "mode": "point",
+      "k_vertical_N_mm": 427.0637298460075,
+      "force_unit_response_stress_MPa_N": 0.13754467438831586,
+      "buckling_force_N": 4709.350582052376,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V5",
+      "mode": "stick",
+      "k_vertical_N_mm": 486.91245421383024,
+      "force_unit_response_stress_MPa_N": 0.13258627896504233,
+      "buckling_force_N": 69004.88587261998,
+      "required_ground_mu": 0.17738362525569823,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V1",
+      "mode": "point",
+      "k_vertical_N_mm": 139.46579238863305,
+      "force_unit_response_stress_MPa_N": 0.21499250259323432,
+      "buckling_force_N": 2729.0230291105922,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V1",
+      "mode": "stick",
+      "k_vertical_N_mm": 353.6174716890174,
+      "force_unit_response_stress_MPa_N": 0.11867565077102281,
+      "buckling_force_N": 20558.465855281825,
+      "required_ground_mu": 0.5502113594373143,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V2",
+      "mode": "point",
+      "k_vertical_N_mm": 189.18697773112723,
+      "force_unit_response_stress_MPa_N": 0.20581795329101785,
+      "buckling_force_N": 2046.6514503798899,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V2",
+      "mode": "stick",
+      "k_vertical_N_mm": 194.3867886917088,
+      "force_unit_response_stress_MPa_N": 0.21088217274755855,
+      "buckling_force_N": 8139.462577790265,
+      "required_ground_mu": 0.19041213462115758,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V3",
+      "mode": "point",
+      "k_vertical_N_mm": 44.73292245079713,
+      "force_unit_response_stress_MPa_N": 0.4707248775910787,
+      "buckling_force_N": 1623.6744867917798,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V3",
+      "mode": "stick",
+      "k_vertical_N_mm": 142.88958365916426,
+      "force_unit_response_stress_MPa_N": 0.27384178658538466,
+      "buckling_force_N": 19884.707682286567,
+      "required_ground_mu": 0.5810097645390373,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V4",
+      "mode": "point",
+      "k_vertical_N_mm": 236.83691812798142,
+      "force_unit_response_stress_MPa_N": 0.17103382606666342,
+      "buckling_force_N": 2892.6754558326825,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V4",
+      "mode": "stick",
+      "k_vertical_N_mm": 245.7741321540609,
+      "force_unit_response_stress_MPa_N": 0.17545456823226424,
+      "buckling_force_N": 34915.95206215461,
+      "required_ground_mu": 0.18397476738140703,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V5",
+      "mode": "point",
+      "k_vertical_N_mm": 239.75420430507697,
+      "force_unit_response_stress_MPa_N": 0.16227824117942288,
+      "buckling_force_N": 3543.8607775136866,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V5",
+      "mode": "stick",
+      "k_vertical_N_mm": 271.9889731775441,
+      "force_unit_response_stress_MPa_N": 0.15353862132174972,
+      "buckling_force_N": 39030.52618482927,
+      "required_ground_mu": 0.149256161791483,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V1",
+      "mode": "point",
+      "k_vertical_N_mm": 106.52404085731295,
+      "force_unit_response_stress_MPa_N": 0.2372988073105114,
+      "buckling_force_N": 2464.0229931520053,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V1",
+      "mode": "stick",
+      "k_vertical_N_mm": 281.81404006515214,
+      "force_unit_response_stress_MPa_N": 0.13052770435103017,
+      "buckling_force_N": 16276.606726212876,
+      "required_ground_mu": 0.6099314148699468,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V2",
+      "mode": "point",
+      "k_vertical_N_mm": 152.29335362412633,
+      "force_unit_response_stress_MPa_N": 0.21946072635136227,
+      "buckling_force_N": 1727.5445664755418,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V2",
+      "mode": "stick",
+      "k_vertical_N_mm": 154.36583477414052,
+      "force_unit_response_stress_MPa_N": 0.22439571095695465,
+      "buckling_force_N": 6211.317084344977,
+      "required_ground_mu": 0.14423743700624536,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V3",
+      "mode": "point",
+      "k_vertical_N_mm": 34.25626022161434,
+      "force_unit_response_stress_MPa_N": 0.5081003077912086,
+      "buckling_force_N": 1408.458830905638,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V3",
+      "mode": "stick",
+      "k_vertical_N_mm": 110.32413610780782,
+      "force_unit_response_stress_MPa_N": 0.29752317099767533,
+      "buckling_force_N": 16797.56839522711,
+      "required_ground_mu": 0.6345979344399989,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V4",
+      "mode": "point",
+      "k_vertical_N_mm": 189.09834609514084,
+      "force_unit_response_stress_MPa_N": 0.182679760861151,
+      "buckling_force_N": 2510.114000334882,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V4",
+      "mode": "stick",
+      "k_vertical_N_mm": 194.28736984670718,
+      "force_unit_response_stress_MPa_N": 0.18745359384755797,
+      "buckling_force_N": 27437.986270101468,
+      "required_ground_mu": 0.16997767305504785,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V5",
+      "mode": "point",
+      "k_vertical_N_mm": 193.40546173260608,
+      "force_unit_response_stress_MPa_N": 0.17140779681997476,
+      "buckling_force_N": 3131.825614286893,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V5",
+      "mode": "stick",
+      "k_vertical_N_mm": 219.23084817328626,
+      "force_unit_response_stress_MPa_N": 0.16040679531903385,
+      "buckling_force_N": 30487.334629464476,
+      "required_ground_mu": 0.13408168788827118,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V1",
+      "mode": "point",
+      "k_vertical_N_mm": 93.84041150854559,
+      "force_unit_response_stress_MPa_N": 0.24845195966855518,
+      "buckling_force_N": 2349.8956991364103,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V1",
+      "mode": "stick",
+      "k_vertical_N_mm": 252.9894191202567,
+      "force_unit_response_stress_MPa_N": 0.13643633258771226,
+      "buckling_force_N": 14562.461186060335,
+      "required_ground_mu": 0.6398908320650298,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V2",
+      "mode": "point",
+      "k_vertical_N_mm": 137.77487674660102,
+      "force_unit_response_stress_MPa_N": 0.22581579905257873,
+      "buckling_force_N": 1594.341925772848,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V2",
+      "mode": "stick",
+      "k_vertical_N_mm": 138.96368713853408,
+      "force_unit_response_stress_MPa_N": 0.2302904314158647,
+      "buckling_force_N": 5478.593081079922,
+      "required_ground_mu": 0.11855710164486834,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V3",
+      "mode": "point",
+      "k_vertical_N_mm": 30.23670394772994,
+      "force_unit_response_stress_MPa_N": 0.5262553291139328,
+      "buckling_force_N": 1315.014167403687,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V3",
+      "mode": "stick",
+      "k_vertical_N_mm": 97.69520154093934,
+      "force_unit_response_stress_MPa_N": 0.3090345599775378,
+      "buckling_force_N": 15496.97646825148,
+      "required_ground_mu": 0.6615463534377843,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V4",
+      "mode": "point",
+      "k_vertical_N_mm": 170.2773216629125,
+      "force_unit_response_stress_MPa_N": 0.18823586134808665,
+      "buckling_force_N": 2343.206988341212,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V4",
+      "mode": "stick",
+      "k_vertical_N_mm": 174.20891859490806,
+      "force_unit_response_stress_MPa_N": 0.1930535339800818,
+      "buckling_force_N": 24514.024928640334,
+      "required_ground_mu": 0.16170894543695827,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V5",
+      "mode": "point",
+      "k_vertical_N_mm": 175.08220760991242,
+      "force_unit_response_stress_MPa_N": 0.17559073805267983,
+      "buckling_force_N": 2946.9529600312753,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V5",
+      "mode": "stick",
+      "k_vertical_N_mm": 198.39089616013217,
+      "force_unit_response_stress_MPa_N": 0.16343258284890252,
+      "buckling_force_N": 27157.010248282513,
+      "required_ground_mu": 0.12642927352261413,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V1",
+      "mode": "point",
+      "k_vertical_N_mm": 78.2828001460038,
+      "force_unit_response_stress_MPa_N": 0.26518168820657106,
+      "buckling_force_N": 2197.2108706343233,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V1",
+      "mode": "stick",
+      "k_vertical_N_mm": 216.5515691898764,
+      "force_unit_response_stress_MPa_N": 0.1452813324325427,
+      "buckling_force_N": 12408.690347595988,
+      "required_ground_mu": 0.6849324546975925,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V2",
+      "mode": "point",
+      "k_vertical_N_mm": 119.66851761913452,
+      "force_unit_response_stress_MPa_N": 0.23477106899363484,
+      "buckling_force_N": 1421.2572816856953,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V2",
+      "mode": "stick",
+      "k_vertical_N_mm": 120.0747734101394,
+      "force_unit_response_stress_MPa_N": 0.23808649770236465,
+      "buckling_force_N": 4588.773364288259,
+      "required_ground_mu": 0.07752419787190355,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V3",
+      "mode": "point",
+      "k_vertical_N_mm": 25.311600405432277,
+      "force_unit_response_stress_MPa_N": 0.5528965804245283,
+      "buckling_force_N": 1190.1528264297478,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V3",
+      "mode": "stick",
+      "k_vertical_N_mm": 82.11368640113011,
+      "force_unit_response_stress_MPa_N": 0.3259682101694871,
+      "buckling_force_N": 13803.488994230443,
+      "required_ground_mu": 0.702161938732755,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V4",
+      "mode": "point",
+      "k_vertical_N_mm": 146.76691053329165,
+      "force_unit_response_stress_MPa_N": 0.19625379484154337,
+      "buckling_force_N": 2119.4891019445213,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V4",
+      "mode": "stick",
+      "k_vertical_N_mm": 149.32866067018364,
+      "force_unit_response_stress_MPa_N": 0.20099490202853948,
+      "buckling_force_N": 20878.057775801586,
+      "required_ground_mu": 0.1478890171794826,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V5",
+      "mode": "point",
+      "k_vertical_N_mm": 152.1380814275923,
+      "force_unit_response_stress_MPa_N": 0.18141850677508503,
+      "buckling_force_N": 2693.9003760557052,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V5",
+      "mode": "stick",
+      "k_vertical_N_mm": 172.2925921543723,
+      "force_unit_response_stress_MPa_N": 0.16754132025062377,
+      "buckling_force_N": 23011.179347910856,
+      "required_ground_mu": 0.11532794716699217,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V1",
+      "mode": "point",
+      "k_vertical_N_mm": 62.40168799298614,
+      "force_unit_response_stress_MPa_N": 0.2874879929229316,
+      "buckling_force_N": 2021.9974628302014,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V1",
+      "mode": "stick",
+      "k_vertical_N_mm": 177.9076190213089,
+      "force_unit_response_stress_MPa_N": 0.15704661078482882,
+      "buckling_force_N": 10149.164141960078,
+      "required_ground_mu": 0.7451482148271026,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V2",
+      "mode": "point",
+      "k_vertical_N_mm": 100.7751251224487,
+      "force_unit_response_stress_MPa_N": 0.24563945885327254,
+      "buckling_force_N": 1231.2210966021357,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V2",
+      "mode": "stick",
+      "k_vertical_N_mm": 100.79501834285121,
+      "force_unit_response_stress_MPa_N": 0.2465991260672137,
+      "buckling_force_N": 3692.0100012120374,
+      "required_ground_mu": 0.019554729828115115,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V3",
+      "mode": "point",
+      "k_vertical_N_mm": 20.282354346447374,
+      "force_unit_response_stress_MPa_N": 0.5874551090128827,
+      "buckling_force_N": 1048.3576866258034,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V3",
+      "mode": "stick",
+      "k_vertical_N_mm": 66.07615481381339,
+      "force_unit_response_stress_MPa_N": 0.3480424240239231,
+      "buckling_force_N": 11947.599278905547,
+      "required_ground_mu": 0.7566630198235668,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V4",
+      "mode": "point",
+      "k_vertical_N_mm": 122.1699569211838,
+      "force_unit_response_stress_MPa_N": 0.20637773233098716,
+      "buckling_force_N": 1864.4679324712863,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V4",
+      "mode": "stick",
+      "k_vertical_N_mm": 123.56722548327392,
+      "force_unit_response_stress_MPa_N": 0.2107864055735408,
+      "buckling_force_N": 17092.505538307214,
+      "required_ground_mu": 0.12714775140337425,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V5",
+      "mode": "point",
+      "k_vertical_N_mm": 128.04504696354948,
+      "force_unit_response_stress_MPa_N": 0.18840669879519245,
+      "buckling_force_N": 2397.6824502325608,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V5",
+      "mode": "stick",
+      "k_vertical_N_mm": 144.86608173983794,
+      "force_unit_response_stress_MPa_N": 0.1723294355877389,
+      "buckling_force_N": 18675.249288498344,
+      "required_ground_mu": 0.10228606214137347,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V1",
+      "mode": "point",
+      "k_vertical_N_mm": 50.500180960408024,
+      "force_unit_response_stress_MPa_N": 0.30979429764147515,
+      "buckling_force_N": 1872.635497613669,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V1",
+      "mode": "stick",
+      "k_vertical_N_mm": 147.7925081220181,
+      "force_unit_response_stress_MPa_N": 0.16878576086181288,
+      "buckling_force_N": 8412.18891596858,
+      "required_ground_mu": 0.8055132330950251,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V2",
+      "mode": "point",
+      "k_vertical_N_mm": 86.28156885967707,
+      "force_unit_response_stress_MPa_N": 0.2552856611243576,
+      "buckling_force_N": 1077.7121542374987,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V2",
+      "mode": "stick",
+      "k_vertical_N_mm": 86.34846702589941,
+      "force_unit_response_stress_MPa_N": 0.25307829651218317,
+      "buckling_force_N": 3028.853558076378,
+      "required_ground_mu": 0.04009428549804267,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V3",
+      "mode": "point",
+      "k_vertical_N_mm": 16.504433583260987,
+      "force_unit_response_stress_MPa_N": 0.6211058495647238,
+      "buckling_force_N": 930.0796704492595,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V3",
+      "mode": "stick",
+      "k_vertical_N_mm": 53.94289937038214,
+      "force_unit_response_stress_MPa_N": 0.36967303472561736,
+      "buckling_force_N": 10458.524442225114,
+      "required_ground_mu": 0.8115316642256194,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V4",
+      "mode": "point",
+      "k_vertical_N_mm": 103.22963565458666,
+      "force_unit_response_stress_MPa_N": 0.21587780308485402,
+      "buckling_force_N": 1650.941302527268,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V4",
+      "mode": "stick",
+      "k_vertical_N_mm": 103.94378687762128,
+      "force_unit_response_stress_MPa_N": 0.2197317808459671,
+      "buckling_force_N": 14182.428670207904,
+      "required_ground_mu": 0.10424873595496191,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V5",
+      "mode": "point",
+      "k_vertical_N_mm": 109.40671789612306,
+      "force_unit_response_stress_MPa_N": 0.19456621951946754,
+      "buckling_force_N": 2142.992901310367,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V5",
+      "mode": "stick",
+      "k_vertical_N_mm": 123.62102770239584,
+      "force_unit_response_stress_MPa_N": 0.1764457511824057,
+      "buckling_force_N": 15309.258086195821,
+      "required_ground_mu": 0.09305404880725617,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V1",
+      "mode": "point",
+      "k_vertical_N_mm": 41.41628459253149,
+      "force_unit_response_stress_MPa_N": 0.332100602357027,
+      "buckling_force_N": 1743.8020717904885,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V1",
+      "mode": "stick",
+      "k_vertical_N_mm": 124.00535640493189,
+      "force_unit_response_stress_MPa_N": 0.1805037255857985,
+      "buckling_force_N": 7058.346255328472,
+      "required_ground_mu": 0.8659992729900515,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V2",
+      "mode": "point",
+      "k_vertical_N_mm": 74.98698890013716,
+      "force_unit_response_stress_MPa_N": 0.26370810264158695,
+      "buckling_force_N": 952.408388425223,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V2",
+      "mode": "stick",
+      "k_vertical_N_mm": 75.3263292093709,
+      "force_unit_response_stress_MPa_N": 0.25767766694447697,
+      "buckling_force_N": 2528.428136595444,
+      "required_ground_mu": 0.09920674821523302,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V3",
+      "mode": "point",
+      "k_vertical_N_mm": 13.609679964948251,
+      "force_unit_response_stress_MPa_N": 0.6540494588633348,
+      "buckling_force_N": 831.0195270604012,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V3",
+      "mode": "stick",
+      "k_vertical_N_mm": 44.59633854081217,
+      "force_unit_response_stress_MPa_N": 0.3909705355512811,
+      "buckling_force_N": 9256.014564493513,
+      "required_ground_mu": 0.8667298291681387,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V4",
+      "mode": "point",
+      "k_vertical_N_mm": 88.39669003967062,
+      "force_unit_response_stress_MPa_N": 0.22477106967691893,
+      "buckling_force_N": 1471.4973798420554,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V4",
+      "mode": "stick",
+      "k_vertical_N_mm": 88.7232444623416,
+      "force_unit_response_stress_MPa_N": 0.22788614738808793,
+      "buckling_force_N": 11894.951366524821,
+      "required_ground_mu": 0.07976284194397669,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V5",
+      "mode": "point",
+      "k_vertical_N_mm": 94.7375114726635,
+      "force_unit_response_stress_MPa_N": 0.19996057480447466,
+      "buckling_force_N": 1924.100706940339,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V5",
+      "mode": "stick",
+      "k_vertical_N_mm": 106.87772200182363,
+      "force_unit_response_stress_MPa_N": 0.1799813627916525,
+      "buckling_force_N": 12640.145586717184,
+      "required_ground_mu": 0.08965636122705595,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V1",
+      "mode": "point",
+      "k_vertical_N_mm": 25.417635029526526,
+      "force_unit_response_stress_MPa_N": 0.3934429403308048,
+      "buckling_force_N": 1466.3205392821776,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V1",
+      "mode": "stick",
+      "k_vertical_N_mm": 79.9735099181728,
+      "force_unit_response_stress_MPa_N": 0.21264677615316988,
+      "buckling_force_N": 4601.930645750934,
+      "required_ground_mu": 1.0328006095492601,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V2",
+      "mode": "point",
+      "k_vertical_N_mm": 54.53265782747493,
+      "force_unit_response_stress_MPa_N": 0.28051512772303683,
+      "buckling_force_N": 707.6761993892563,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V2",
+      "mode": "stick",
+      "k_vertical_N_mm": 55.94581351525283,
+      "force_unit_response_stress_MPa_N": 0.3082583223851127,
+      "buckling_force_N": 1659.6197509002682,
+      "required_ground_mu": 0.24245703311318692,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V3",
+      "mode": "point",
+      "k_vertical_N_mm": 8.465172572055106,
+      "force_unit_response_stress_MPa_N": 0.742441676925388,
+      "buckling_force_N": 631.1823819147778,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V3",
+      "mode": "stick",
+      "k_vertical_N_mm": 27.885859430546944,
+      "force_unit_response_stress_MPa_N": 0.4484264049315783,
+      "buckling_force_N": 6975.151271331462,
+      "required_ground_mu": 1.0199041849972574,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V4",
+      "mode": "point",
+      "k_vertical_N_mm": 61.166265623849185,
+      "force_unit_response_stress_MPa_N": 0.2461665308472727,
+      "buckling_force_N": 1107.4366813316292,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V4",
+      "mode": "stick",
+      "k_vertical_N_mm": 61.168828883291,
+      "force_unit_response_stress_MPa_N": 0.2465798317997595,
+      "buckling_force_N": 7602.321030667371,
+      "required_ground_mu": 0.009346136248335196,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V5",
+      "mode": "point",
+      "k_vertical_N_mm": 67.55385116137887,
+      "force_unit_response_stress_MPa_N": 0.21128303002436105,
+      "buckling_force_N": 1466.212111893245,
+      "required_ground_mu": 0.0,
+      "COP_ok": true
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V5",
+      "mode": "stick",
+      "k_vertical_N_mm": 75.79828967953962,
+      "force_unit_response_stress_MPa_N": 0.18718711668241209,
+      "buckling_force_N": 7712.899973520733,
+      "required_ground_mu": 0.11310196676415897,
+      "COP_ok": true
+    }
+  ]
+}

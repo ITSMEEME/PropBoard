@@ -1,6 +1,10 @@
 # PropBoard
 
-**Quad D11 (lokaler Aufbau):** [Motornahe Reglerhalter](quad_r380_d11/README.md) · [3D-Ansicht](quad_r380_d11/Projekt.html). Vier detaillierte Montageeinheiten, an Rohrvarianten angepasst. Reglertyp und Anschlüsse bleiben unbestätigt; noch kein vollständiger elektrischer Einbau.
+**Quad D13 (lokaler Entwurf):** [Standard-Innenkabelbaum](quad_r380_d13/README.md) · [3D-Ansicht](quad_r380_d13/Projekt.html) · [Projektschnittstellen](quad_r380_d13/SCHNITTSTELLEN.md). DC-Paar und getrennte Steuer-/Serviceleitungen im CFK-Rohr, alle 50 nominalen Kabelkonfigurationen geprüft. OEM-Adapter, Kaufteilgehäuse und Außenbögen bleiben offen; D12-Strukturdefizite bestehen fort.
+
+**Quad D12 (lokaler Entwurf, V200A-Daten ergänzt):** [Reglerhalter als CFK-Landefüße](quad_r380_d12/README.md) · [3D-Ansicht](quad_r380_d12/Projekt.html). Zwei kurze CFK-Stützen je Einheit und austauschbare Sohle. [Festigkeits-/Landestoßstudie](quad_r380_d12/Ausgabe/Festigkeit/BERICHT.md) zeigt unter den Studienannahmen rechnerische Nachweisdefizite; keine Tragfähigkeitsfreigabe.
+
+**Quad D11:** [Motornahe Reglerhalter](quad_r380_d11/README.md) · [3D-Ansicht](quad_r380_d11/Projekt.html). Vier detaillierte Montageeinheiten, an Rohrvarianten angepasst. Reglertyp und Anschlüsse bleiben unbestätigt; noch kein vollständiger elektrischer Einbau.
 
 **Quad D10:** [Innenverkabelung und leichtere Aufnahmen für1–4 Rohre](quad_r380_d10/README.md) · [3D-Ansicht](quad_r380_d10/Projekt.html). DC-/Signalleitungen im Ausleger, V5 mit vier Rohren, gemessene Materialreduzierung. Nominale CAD-Prüfungen bestanden; Toleranzen, elektrische Auslegung und Festigkeit bleiben offen.
 

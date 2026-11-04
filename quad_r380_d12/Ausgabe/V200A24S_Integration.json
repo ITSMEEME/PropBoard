@@ -1,0 +1,1023 @@
+{
+  "native_sha256": "23478d47053133dacca31e4ffcfead23af2fe1c7aad34f8ae371195ffa0a58c0",
+  "catalog_source_sha256": "f44608153e9f07266df8df00bc3ed04f1ae32268d57eb18fac87f4c766386ebd",
+  "native_geometry_changed": false,
+  "catalog_model": "V200A 24S",
+  "quad_catalog_mass_including_wires_kg": 2.992,
+  "mass_budget_caveat": "Do not add blindly to CAD total:legacy35mm2/OD12 DC and equivalent signal wires are included there and may duplicate OEM leads when replaced.160kg strength-study all-up mass remains an assumption,not160kg plus2.992kg.",
+  "quad_catalog_standby_limit_W_at100V": 20.0,
+  "output_current_limit_A": 100.0,
+  "burst_A": 200.0,
+  "burst_seconds_strictly_less_than": 10.0,
+  "full_24S_4p2V_charge_V": 100.80000000000001,
+  "max_voltage_margin_at_full_charge_V": 4.199999999999989,
+  "AWG10_nominal_copper_area_mm2": 5.261154954510373,
+  "AWG10_nominal_bare_copper_diameter_mm": 2.5881867280128636,
+  "DC_pair_1p2m_each_resistance_20C_Ohm": 0.007864889051505014,
+  "illustrative_loss_if_DC_input100A_W": 78.64889051505014,
+  "illustrative_drop_if_DC_input100A_V": 0.7864889051505014,
+  "current_caveat": "100A output rating is not a stated100A DC input rating;100A DC loss is an explicit example,not a rated operating point.Temperature,stranding,tinning,contacts,airflow and ampacity unverified.",
+  "cable_assessment": [
+    {
+      "propeller_index": 0,
+      "variant": "V1",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 31.2,
+      "signal_wall_gap_on_old_axis_mm": 3.5,
+      "same_tube_pair_gaps": [
+        {
+          "other_net": "DC_plus",
+          "nominal_surface_gap_mm": 4.106555615733702
+        },
+        {
+          "other_net": "DC_minus",
+          "nominal_surface_gap_mm": 4.106555615733702
+        }
+      ],
+      "nominal_replacement_on_existing_axes_clear": true,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 381.96969619669994,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 0,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": null
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V2",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 16.2,
+      "signal_wall_gap_on_old_axis_mm": -0.0,
+      "same_tube_pair_gaps": [
+        {
+          "other_net": "DC_plus",
+          "nominal_surface_gap_mm": -0.09999999999999964
+        }
+      ],
+      "nominal_replacement_on_existing_axes_clear": false,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 381.9714065571574,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 0,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": 10.5
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V3",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 16.2,
+      "signal_wall_gap_on_old_axis_mm": -0.0,
+      "same_tube_pair_gaps": [
+        {
+          "other_net": "DC_plus",
+          "nominal_surface_gap_mm": -0.09999999999999964
+        }
+      ],
+      "nominal_replacement_on_existing_axes_clear": false,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 382.6139073460722,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 0,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": 10.5
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V4",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 16.2,
+      "signal_wall_gap_on_old_axis_mm": 6.0,
+      "same_tube_pair_gaps": [],
+      "nominal_replacement_on_existing_axes_clear": true,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 382.6531708279482,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 0,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": null
+    },
+    {
+      "propeller_index": 0,
+      "variant": "V5",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 16.2,
+      "signal_wall_gap_on_old_axis_mm": 6.0,
+      "same_tube_pair_gaps": [],
+      "nominal_replacement_on_existing_axes_clear": true,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 382.8238302390938,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 0,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": null
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V1",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 31.2,
+      "signal_wall_gap_on_old_axis_mm": 3.5,
+      "same_tube_pair_gaps": [
+        {
+          "other_net": "DC_plus",
+          "nominal_surface_gap_mm": 4.106555615733702
+        },
+        {
+          "other_net": "DC_minus",
+          "nominal_surface_gap_mm": 4.106555615733702
+        }
+      ],
+      "nominal_replacement_on_existing_axes_clear": true,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 381.96969619669994,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 0,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": null
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V2",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 16.2,
+      "signal_wall_gap_on_old_axis_mm": -0.0,
+      "same_tube_pair_gaps": [
+        {
+          "other_net": "DC_plus",
+          "nominal_surface_gap_mm": -0.09999999999999964
+        }
+      ],
+      "nominal_replacement_on_existing_axes_clear": false,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 381.9714065571574,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 0,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": 10.5
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V3",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 16.2,
+      "signal_wall_gap_on_old_axis_mm": -0.0,
+      "same_tube_pair_gaps": [
+        {
+          "other_net": "DC_plus",
+          "nominal_surface_gap_mm": -0.09999999999999964
+        }
+      ],
+      "nominal_replacement_on_existing_axes_clear": false,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 382.6139073460722,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 0,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": 10.5
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V4",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 16.2,
+      "signal_wall_gap_on_old_axis_mm": 6.0,
+      "same_tube_pair_gaps": [],
+      "nominal_replacement_on_existing_axes_clear": true,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 382.6531708279482,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 0,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": null
+    },
+    {
+      "propeller_index": 1,
+      "variant": "V5",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 16.2,
+      "signal_wall_gap_on_old_axis_mm": 6.0,
+      "same_tube_pair_gaps": [],
+      "nominal_replacement_on_existing_axes_clear": true,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 382.8238302390938,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 0,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": null
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V1",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 31.2,
+      "signal_wall_gap_on_old_axis_mm": 3.5,
+      "same_tube_pair_gaps": [
+        {
+          "other_net": "DC_plus",
+          "nominal_surface_gap_mm": 4.106555615733702
+        },
+        {
+          "other_net": "DC_minus",
+          "nominal_surface_gap_mm": 4.106555615733702
+        }
+      ],
+      "nominal_replacement_on_existing_axes_clear": true,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 445.6093065034893,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 0,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": null
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V2",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 16.2,
+      "signal_wall_gap_on_old_axis_mm": -0.0,
+      "same_tube_pair_gaps": [
+        {
+          "other_net": "DC_plus",
+          "nominal_surface_gap_mm": -0.09999999999999964
+        }
+      ],
+      "nominal_replacement_on_existing_axes_clear": false,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 445.6113296689818,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 0,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": 10.5
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V3",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 16.2,
+      "signal_wall_gap_on_old_axis_mm": -0.0,
+      "same_tube_pair_gaps": [
+        {
+          "other_net": "DC_plus",
+          "nominal_surface_gap_mm": -0.09999999999999964
+        }
+      ],
+      "nominal_replacement_on_existing_axes_clear": false,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 446.3713363794617,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 0,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": 10.5
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V4",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 16.2,
+      "signal_wall_gap_on_old_axis_mm": 6.0,
+      "same_tube_pair_gaps": [],
+      "nominal_replacement_on_existing_axes_clear": true,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 446.41778069551145,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 0,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": null
+    },
+    {
+      "propeller_index": 2,
+      "variant": "V5",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 16.2,
+      "signal_wall_gap_on_old_axis_mm": 6.0,
+      "same_tube_pair_gaps": [],
+      "nominal_replacement_on_existing_axes_clear": true,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 446.6196517280689,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 0,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": null
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V1",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 31.2,
+      "signal_wall_gap_on_old_axis_mm": 3.5,
+      "same_tube_pair_gaps": [
+        {
+          "other_net": "DC_plus",
+          "nominal_surface_gap_mm": 4.106555615733702
+        },
+        {
+          "other_net": "DC_minus",
+          "nominal_surface_gap_mm": 4.106555615733702
+        }
+      ],
+      "nominal_replacement_on_existing_axes_clear": true,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 473.8935777509512,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 0,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": null
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V2",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 16.2,
+      "signal_wall_gap_on_old_axis_mm": -0.0,
+      "same_tube_pair_gaps": [
+        {
+          "other_net": "DC_plus",
+          "nominal_surface_gap_mm": -0.09999999999999964
+        }
+      ],
+      "nominal_replacement_on_existing_axes_clear": false,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 473.8957399409037,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 0,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": 10.5
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V3",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 16.2,
+      "signal_wall_gap_on_old_axis_mm": -0.0,
+      "same_tube_pair_gaps": [
+        {
+          "other_net": "DC_plus",
+          "nominal_surface_gap_mm": -0.09999999999999964
+        }
+      ],
+      "nominal_replacement_on_existing_axes_clear": false,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 474.70797150541256,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 0,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": 10.5
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V4",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 16.2,
+      "signal_wall_gap_on_old_axis_mm": 6.0,
+      "same_tube_pair_gaps": [],
+      "nominal_replacement_on_existing_axes_clear": true,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 474.75760730331734,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 0,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": null
+    },
+    {
+      "propeller_index": 3,
+      "variant": "V5",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 16.2,
+      "signal_wall_gap_on_old_axis_mm": 6.0,
+      "same_tube_pair_gaps": [],
+      "nominal_replacement_on_existing_axes_clear": true,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 474.9733501676134,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 0,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": null
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V1",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 31.2,
+      "signal_wall_gap_on_old_axis_mm": 3.5,
+      "same_tube_pair_gaps": [
+        {
+          "other_net": "DC_plus",
+          "nominal_surface_gap_mm": 4.106555615733702
+        },
+        {
+          "other_net": "DC_minus",
+          "nominal_surface_gap_mm": 4.106555615733702
+        }
+      ],
+      "nominal_replacement_on_existing_axes_clear": true,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 488.03571337468213,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 0,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": null
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V2",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 16.2,
+      "signal_wall_gap_on_old_axis_mm": -0.0,
+      "same_tube_pair_gaps": [
+        {
+          "other_net": "DC_plus",
+          "nominal_surface_gap_mm": -0.09999999999999964
+        }
+      ],
+      "nominal_replacement_on_existing_axes_clear": false,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 488.0379450768646,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 0,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": 10.5
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V3",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 16.2,
+      "signal_wall_gap_on_old_axis_mm": -0.0,
+      "same_tube_pair_gaps": [
+        {
+          "other_net": "DC_plus",
+          "nominal_surface_gap_mm": -0.09999999999999964
+        }
+      ],
+      "nominal_replacement_on_existing_axes_clear": false,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 488.87628906838796,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 0,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": 10.5
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V4",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 16.2,
+      "signal_wall_gap_on_old_axis_mm": 6.0,
+      "same_tube_pair_gaps": [],
+      "nominal_replacement_on_existing_axes_clear": true,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 488.92752060722023,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 0,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": null
+    },
+    {
+      "propeller_index": 4,
+      "variant": "V5",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 16.2,
+      "signal_wall_gap_on_old_axis_mm": 6.0,
+      "same_tube_pair_gaps": [],
+      "nominal_replacement_on_existing_axes_clear": true,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 489.15019938738556,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 0,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": null
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V1",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 31.2,
+      "signal_wall_gap_on_old_axis_mm": 3.5,
+      "same_tube_pair_gaps": [
+        {
+          "other_net": "DC_plus",
+          "nominal_surface_gap_mm": 4.106555615733702
+        },
+        {
+          "other_net": "DC_minus",
+          "nominal_surface_gap_mm": 4.106555615733702
+        }
+      ],
+      "nominal_replacement_on_existing_axes_clear": true,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 509.2489168102785,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 9.248916810278502,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": null
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V2",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 16.2,
+      "signal_wall_gap_on_old_axis_mm": -0.0,
+      "same_tube_pair_gaps": [
+        {
+          "other_net": "DC_plus",
+          "nominal_surface_gap_mm": -0.09999999999999964
+        }
+      ],
+      "nominal_replacement_on_existing_axes_clear": false,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 509.251252780806,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 9.251252780805999,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": 10.5
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V3",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 16.2,
+      "signal_wall_gap_on_old_axis_mm": -0.0,
+      "same_tube_pair_gaps": [
+        {
+          "other_net": "DC_plus",
+          "nominal_surface_gap_mm": -0.09999999999999964
+        }
+      ],
+      "nominal_replacement_on_existing_axes_clear": false,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 510.12876541285107,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 10.128765412851067,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": 10.5
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V4",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 16.2,
+      "signal_wall_gap_on_old_axis_mm": 6.0,
+      "same_tube_pair_gaps": [],
+      "nominal_replacement_on_existing_axes_clear": true,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 510.1823905630746,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 10.182390563074591,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": null
+    },
+    {
+      "propeller_index": 5,
+      "variant": "V5",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 16.2,
+      "signal_wall_gap_on_old_axis_mm": 6.0,
+      "same_tube_pair_gaps": [],
+      "nominal_replacement_on_existing_axes_clear": true,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 510.4154732170439,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 10.415473217043882,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": null
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V1",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 31.2,
+      "signal_wall_gap_on_old_axis_mm": 3.5,
+      "same_tube_pair_gaps": [
+        {
+          "other_net": "DC_plus",
+          "nominal_surface_gap_mm": 4.106555615733702
+        },
+        {
+          "other_net": "DC_minus",
+          "nominal_surface_gap_mm": 4.106555615733702
+        }
+      ],
+      "nominal_replacement_on_existing_axes_clear": true,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 537.5331880577404,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 37.533188057740404,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": null
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V2",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 16.2,
+      "signal_wall_gap_on_old_axis_mm": -0.0,
+      "same_tube_pair_gaps": [
+        {
+          "other_net": "DC_plus",
+          "nominal_surface_gap_mm": -0.09999999999999964
+        }
+      ],
+      "nominal_replacement_on_existing_axes_clear": false,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 537.5356630527278,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 37.53566305272784,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": 10.5
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V3",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 16.2,
+      "signal_wall_gap_on_old_axis_mm": -0.0,
+      "same_tube_pair_gaps": [
+        {
+          "other_net": "DC_plus",
+          "nominal_surface_gap_mm": -0.09999999999999964
+        }
+      ],
+      "nominal_replacement_on_existing_axes_clear": false,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 538.465400538802,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 38.46540053880199,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": 10.5
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V4",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 16.2,
+      "signal_wall_gap_on_old_axis_mm": 6.0,
+      "same_tube_pair_gaps": [],
+      "nominal_replacement_on_existing_axes_clear": true,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 538.5222171708804,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 38.52221717088037,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": null
+    },
+    {
+      "propeller_index": 6,
+      "variant": "V5",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 16.2,
+      "signal_wall_gap_on_old_axis_mm": 6.0,
+      "same_tube_pair_gaps": [],
+      "nominal_replacement_on_existing_axes_clear": true,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 538.7691716565884,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 38.769171656588355,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": null
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V1",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 31.2,
+      "signal_wall_gap_on_old_axis_mm": 3.5,
+      "same_tube_pair_gaps": [
+        {
+          "other_net": "DC_plus",
+          "nominal_surface_gap_mm": 4.106555615733702
+        },
+        {
+          "other_net": "DC_minus",
+          "nominal_surface_gap_mm": 4.106555615733702
+        }
+      ],
+      "nominal_replacement_on_existing_axes_clear": true,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 565.8174593052023,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 65.8174593052023,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": null
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V2",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 16.2,
+      "signal_wall_gap_on_old_axis_mm": -0.0,
+      "same_tube_pair_gaps": [
+        {
+          "other_net": "DC_plus",
+          "nominal_surface_gap_mm": -0.09999999999999964
+        }
+      ],
+      "nominal_replacement_on_existing_axes_clear": false,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 565.8200733246498,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 65.8200733246498,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": 10.5
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V3",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 16.2,
+      "signal_wall_gap_on_old_axis_mm": -0.0,
+      "same_tube_pair_gaps": [
+        {
+          "other_net": "DC_plus",
+          "nominal_surface_gap_mm": -0.09999999999999964
+        }
+      ],
+      "nominal_replacement_on_existing_axes_clear": false,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 566.8020356647528,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 66.8020356647528,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": 10.5
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V4",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 16.2,
+      "signal_wall_gap_on_old_axis_mm": 6.0,
+      "same_tube_pair_gaps": [],
+      "nominal_replacement_on_existing_axes_clear": true,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 566.8620437786863,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 66.86204377868626,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": null
+    },
+    {
+      "propeller_index": 7,
+      "variant": "V5",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 16.2,
+      "signal_wall_gap_on_old_axis_mm": 6.0,
+      "same_tube_pair_gaps": [],
+      "nominal_replacement_on_existing_axes_clear": true,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 567.1228700961328,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 67.12287009613283,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": null
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V1",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 31.2,
+      "signal_wall_gap_on_old_axis_mm": 3.5,
+      "same_tube_pair_gaps": [
+        {
+          "other_net": "DC_plus",
+          "nominal_surface_gap_mm": 4.106555615733702
+        },
+        {
+          "other_net": "DC_minus",
+          "nominal_surface_gap_mm": 4.106555615733702
+        }
+      ],
+      "nominal_replacement_on_existing_axes_clear": true,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 594.1017305526642,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 94.10173055266421,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": null
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V2",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 16.2,
+      "signal_wall_gap_on_old_axis_mm": -0.0,
+      "same_tube_pair_gaps": [
+        {
+          "other_net": "DC_plus",
+          "nominal_surface_gap_mm": -0.09999999999999964
+        }
+      ],
+      "nominal_replacement_on_existing_axes_clear": false,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 594.1044835965718,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 94.10448359657175,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": 10.5
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V3",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 16.2,
+      "signal_wall_gap_on_old_axis_mm": -0.0,
+      "same_tube_pair_gaps": [
+        {
+          "other_net": "DC_plus",
+          "nominal_surface_gap_mm": -0.09999999999999964
+        }
+      ],
+      "nominal_replacement_on_existing_axes_clear": false,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 595.1386707907037,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 95.13867079070371,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": 10.5
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V4",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 16.2,
+      "signal_wall_gap_on_old_axis_mm": 6.0,
+      "same_tube_pair_gaps": [],
+      "nominal_replacement_on_existing_axes_clear": true,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 595.2018703864921,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 95.20187038649215,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": null
+    },
+    {
+      "propeller_index": 8,
+      "variant": "V5",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 16.2,
+      "signal_wall_gap_on_old_axis_mm": 6.0,
+      "same_tube_pair_gaps": [],
+      "nominal_replacement_on_existing_axes_clear": true,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 595.4765685356773,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 95.4765685356773,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": null
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V1",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 31.2,
+      "signal_wall_gap_on_old_axis_mm": 3.5,
+      "same_tube_pair_gaps": [
+        {
+          "other_net": "DC_plus",
+          "nominal_surface_gap_mm": 4.106555615733702
+        },
+        {
+          "other_net": "DC_minus",
+          "nominal_surface_gap_mm": 4.106555615733702
+        }
+      ],
+      "nominal_replacement_on_existing_axes_clear": true,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 671.8834764831845,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 171.8834764831845,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": null
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V2",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 16.2,
+      "signal_wall_gap_on_old_axis_mm": -0.0,
+      "same_tube_pair_gaps": [
+        {
+          "other_net": "DC_plus",
+          "nominal_surface_gap_mm": -0.09999999999999964
+        }
+      ],
+      "nominal_replacement_on_existing_axes_clear": false,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 671.886611844357,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 171.88661184435705,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": 10.5
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V3",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 16.2,
+      "signal_wall_gap_on_old_axis_mm": -0.0,
+      "same_tube_pair_gaps": [
+        {
+          "other_net": "DC_plus",
+          "nominal_surface_gap_mm": -0.09999999999999964
+        }
+      ],
+      "nominal_replacement_on_existing_axes_clear": false,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 673.0644173870686,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 173.0644173870686,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": 10.5
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V4",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 16.2,
+      "signal_wall_gap_on_old_axis_mm": 6.0,
+      "same_tube_pair_gaps": [],
+      "nominal_replacement_on_existing_axes_clear": true,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 673.1363935579583,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 173.13639355795829,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": null
+    },
+    {
+      "propeller_index": 9,
+      "variant": "V5",
+      "new_signal_OD_mm": 4.2,
+      "old_CAD_signal_OD_mm": 4.0,
+      "liner_inner_diameter_mm": 16.2,
+      "signal_wall_gap_on_old_axis_mm": 6.0,
+      "same_tube_pair_gaps": [],
+      "nominal_replacement_on_existing_axes_clear": true,
+      "full_harness_clearance_verified": false,
+      "legacy_signal_model_length_mm": 673.4492392444246,
+      "stock_signal_length_mm": 500,
+      "stock_signal_shortfall_vs_old_straight_model_mm": 173.44923924442458,
+      "length_scope": "Legacy straight model length only;real ports,root controller position,bend allowance and external return to ESC absent.",
+      "OD_DC_max_if_shared_with_signal_and_0p5mm_all_gaps_mm": null
+    }
+  ],
+  "drive_compatibility_verified": false,
+  "thermally_verified": false,
+  "missing_for_mechanical_harness": [
+    "Insulated10AWG outer diameter and real minimum bend radius",
+    "Encoder cable outer diameter and connector envelope",
+    "Exact exit points,directions and plug coordinates",
+    "Pinouts,shield bonds,CAN/PWM electrical levels and encoder type",
+    "Allowed DC extensions,total lead inductance and required capacitors",
+    "Cooling/mounting orientation,bolt torque and housing mass/CG split",
+    "Definition and conditions of100A continuous output current;complete throttle response entry"
+  ]
+}
