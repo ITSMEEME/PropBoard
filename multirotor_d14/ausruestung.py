@@ -192,10 +192,17 @@ def reglerhalter(cfg):
     dsl = (-40.0, 40.0) if r['lage'] == 'liegend' else (-27.0, 27.0)
     tp = rg['halter_platte_mm']; cl = rg['schelle_laenge_mm']
     rb, rs = hu['r_bohr'], hu['r_aussen']
-    rohre = g['rohre'] if len(g['rohre']) < 3 else [g['rohre'][0], g['rohre'][-1]]
-    seiten = r['seiten']
+    if g.get('eck_rohre'):
+        rohre = [t for t in g['rohre'] if t['anschluss'] != 'verbinder']      # V4: Schellen auf Ober- und Untergurt (Eckseite)
+        # Halter parallel zur Grundrissrichtung der Gurte (Ecke -> Motorachse) statt zur Auslegerachse W -> I
+        eg = K.vec(rohre[0]['e']); u = V(eg.x, eg.y, 0); u.normalize(); nL = K.links_normal(u)
+    else:
+        rohre = g['rohre'] if len(g['rohre']) < 3 else [g['rohre'][0], g['rohre'][-1]]
+    # Reglerlagen (Seite, Grundrissabstand zur Motorachse); Schellensaetze je Abstand, Halbschale der Reglerseite mit Platte
+    positionen = [tuple(p_) for p_ in r.get('positionen', [[sg, s_m] for sg in r['seiten']])]
+    abstaende = sorted({round(p_[1], 3) for p_ in positionen})
     d_p = rs + 3.0
-    halter = {sg: [] for sg in (1, -1)}
+    halter = {p_: [] for p_ in positionen}; deckel = []
     schnitte = []; bolts = []; iso = []
     def auf_rohr(t, s):
         # exakt auf der modellierten Rohrachse T-Q (gerundete Richtungen genuegen fuer 0,02-mm-Spalte nicht)
@@ -203,49 +210,53 @@ def reglerhalter(cfg):
         sT = math.hypot(T.x - M.x, T.y - M.y); sQ = math.hypot(Q.x - M.x, Q.y - M.y)
         e = Q - T; e.normalize()
         return Q + (T - Q) * ((s - sQ) / (sT - sQ)), e
-    for t in rohre:
-        oben = t['wurzel'][2] >= 0 and len(rohre) > 1
-        for ds in dsl:
-            P0, e = auf_rohr(t, s_m + ds)
-            a, n, b = K.basis(-e, nL)          # n = +nL horizontal, b ~ senkrecht
-            ring = K.cyl(rs, P0 - a * cl / 2, P0 + a * cl / 2)
-            ohr = 9.0
-            for sg in (1, -1):
-                half = ring.common(K.lbox(P0, a, n, b, -cl, cl, sg * 0.25, sg * 40, -40, 40))
+    for s_ in abstaende:
+        for t in rohre:
+            for ds in dsl:
+                P0, e = auf_rohr(t, s_ + ds)
+                a, n, b = K.basis(-e, nL)          # n = +nL horizontal, b ~ senkrecht
+                ring = K.cyl(rs, P0 - a * cl / 2, P0 + a * cl / 2)
+                ohr = 9.0
+                for sg in (1, -1):
+                    half = ring.common(K.lbox(P0, a, n, b, -cl, cl, sg * 0.25, sg * 40, -40, 40))
+                    for sb in (1, -1):
+                        half = half.fuse(K.lbox(P0, a, n, b, -cl / 2, cl / 2, sg * 0.25, sg * 8.25, sb * (rb + 1), sb * (rs + ohr)))
+                    pos = next((p_ for p_ in positionen if p_[0] == sg and abs(p_[1] - s_) < 1e-3), None)
+                    if pos is not None:
+                        half = half.fuse(K.lbox(P0, a, n, b, -cl / 2, cl / 2, sg * (rb + 1), sg * (d_p + 0.1), -8, 8))
+                        halter[pos].append(half)
+                    else:
+                        deckel.append(half)
                 for sb in (1, -1):
-                    half = half.fuse(K.lbox(P0, a, n, b, -cl / 2, cl / 2, sg * 0.25, sg * 8.25, sb * (rb + 1), sb * (rs + ohr)))
-                if sg in seiten:
-                    half = half.fuse(K.lbox(P0, a, n, b, -cl / 2, cl / 2, sg * (rb + 1), sg * (d_p + 0.1), -8, 8))
-                halter[sg].append(half)
-            for sb in (1, -1):
-                p = P0 + b * (sb * (rs + ohr / 2 + 0.5))
-                schnitte.append(K.cyl(2.25, p - n * 9, p + n * 9))
-                bolts.append(K.schraube(p - n * 8.25, n, 3.8, 15.5, 7.0, 4.0))
-            iso.append(K.cyl(hu['od'] / 2 + 0.27, P0 - a * cl / 2, P0 + a * cl / 2).cut(K.cyl(hu['od'] / 2 + 0.02, P0 - a * cl, P0 + a * cl)))
-    schnitte.append(None)
-    schnitte = [c for c in schnitte if c is not None]
+                    p = P0 + b * (sb * (rs + ohr / 2 + 0.5))
+                    schnitte.append(K.cyl(2.25, p - n * 9, p + n * 9))
+                    bolts.append(K.schraube(p - n * 8.25, n, 3.8, 15.5, 7.0, 4.0))
+                iso.append(K.cyl(hu['od'] / 2 + 0.27, P0 - a * cl / 2, P0 + a * cl / 2).cut(K.cyl(hu['od'] / 2 + 0.02, P0 - a * cl, P0 + a * cl)))
     regler = []
-    for sg in seiten:
-        o = M - u * s_m + V(0, 0, zc)
+    for pos in positionen:
+        sg, s_ = pos
+        o = M - u * s_ + V(0, 0, zc)
+        if g.get('eck_rohre'):        # Platte seitlich an die Gurtlage (Eckseite) verschieben
+            o = o + nL * (sum((auf_rohr(t, s_)[0] - o).dot(nL) for t in rohre) / len(rohre))
         n = nL * sg
-        zr = [auf_rohr(t, s_m)[0].z - zc for t in rohre]
+        zr = [auf_rohr(t, s_)[0].z - zc for t in rohre]
         z0 = min(-lz / 2 - 6, min(zr) - 10); z1 = max(lz / 2 + 6, max(zr) + 10)
-        pl = K.lbox(o, u, n, Z, -lx / 2 - 6, lx / 2 + 6, d_p, d_p + tp, z0, z1)
-        halter[sg].append(pl)
-        box = K.lbox(o, u, n, Z, -lx / 2, lx / 2, d_p + tp, d_p + tp + ly, -lz / 2, lz / 2)
-        regler.append(box)
+        halter[pos].append(K.lbox(o, u, n, Z, -lx / 2 - 6, lx / 2 + 6, d_p, d_p + tp, z0, z1))
+        regler.append(K.lbox(o, u, n, Z, -lx / 2, lx / 2, d_p + tp, d_p + tp + ly, -lz / 2, lz / 2))
         for su in (-1, 1):
             for sz in (-1, 1):
                 p = o + u * (su * lb[0] / 2) + Z * (sz * lb[1] / 2)
                 schnitte.append(K.cyl(1.7, p + n * (d_p - 1), p + n * (d_p + tp + 1)))
                 bolts.append(K.schraube(p + n * d_p, n, 2.8, tp + 4, 5.5, 3.0))
     teile = []
-    bohr = [K.cyl(rb, *(lambda P0, e: (P0 - e * 60, P0 + e * 60))(*auf_rohr(t, s_m + ds))) for t in rohre for ds in dsl]
-    for sg in (1, -1):
-        body = halter[sg]
-        if sg in seiten:
-            teile.append((f'Reglerhalter {"aussen" if sg > 0 else "innen"}', K.fertig(body, schnitte + bohr, 'Reglerhalter')))
-        else:
-            for i, hb in enumerate(body):     # Klemmdeckel ohne Platte: Einzelteile
-                teile.append((f'Klemmdeckel {i + 1}', K.fertig([hb], schnitte + bohr, 'Klemmdeckel')))
+    bohr = [K.cyl(rb, *(lambda P0, e: (P0 - e * 60, P0 + e * 60))(*auf_rohr(t, s_ + ds))) for s_ in abstaende for t in rohre for ds in dsl]
+    zaehler = {}
+    for pos in positionen:
+        name = 'Reglerhalter ' + ('aussen' if pos[0] > 0 else 'innen')
+        zaehler[name] = zaehler.get(name, 0) + 1
+        if sum(1 for p_ in positionen if p_[0] == pos[0]) > 1:
+            name += f' {zaehler[name]}'
+        teile.append((name, K.fertig(halter[pos], schnitte + bohr, 'Reglerhalter')))
+    for i, hb in enumerate(deckel):         # Klemmdeckel ohne Platte: Einzelteile
+        teile.append((f'Klemmdeckel {i + 1}', K.fertig([hb], schnitte + bohr, 'Klemmdeckel')))
     return teile, bolts, regler, iso

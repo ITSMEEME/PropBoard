@@ -1,0 +1,234 @@
+{
+ "abgerufen": "2026-11-05",
+ "hinweis": "Werte wie auf den Seiten angegeben; fehlende Angaben sind als Annahme gekennzeichnet. Eine 'Einheit' ist ein vollstaendiger 24S-Strang (bei 21700: eine Zelle je Reihenposition); P Einheiten werden parallel geschaltet.",
+ "akkus": {
+  "LIPO_TATTU22": {
+   "typ": "LiPo · Tattu Plus 1.0 12S 22000 mAh 25C (2 × in Reihe)",
+   "chemie": "LiPo",
+   "einheit": "Strang aus 2 × 12S-Pack",
+   "einheit_Ah": 22.0,
+   "einheit_masse_kg": 12.116,
+   "zelle_masse_kg": 0.5048333333333334,
+   "R0_mOhm": 1.5,
+   "R0_quelle": "Annahme 1,5 mOhm (nicht veroeffentlicht; typisch fuer 22-Ah-25C-Zellen)",
+   "I_dauer_A": 550,
+   "I_puls_A": 1100,
+   "I_quelle": "25C Dauer, 50C Burst (Hersteller)",
+   "U_max": 4.2,
+   "U_min": 3.0,
+   "T_max": 60,
+   "cp": 1000,
+   "ocv": "lipo",
+   "P_optionen": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "P_standard": 2,
+   "datenblatt": {
+    "Kapazitaet": "22000 mAh (Minimum)",
+    "Energie": "976,8 Wh je 12S-Pack",
+    "Masse": "6058 g (±20 g) je 12S-Pack",
+    "Abmessungen": "237 × 173 × 116 mm",
+    "Entladung": "25C, Burst 50C",
+    "Zyklen": "> 600"
+   },
+   "quellen": [
+    "https://grepow.com/uav-battery/tattu-plus-1-0-12s-22000mah-44-4v-25c-lipo-drone-battery.html"
+   ]
+  },
+  "LIION_P45B": {
+   "typ": "Li-Ion 21700 · Molicel INR-21700-P45B (24S·nP, eigener Pack)",
+   "chemie": "Li-Ion NCA/NMC 21700",
+   "einheit": "24 Zellen (je eine Zelle je Reihenposition)",
+   "einheit_Ah": 4.5,
+   "zelle_masse_kg": 0.06735,
+   "pack_aufschlag": 0.22,
+   "einheit_masse_kg": 1.9720079999999998,
+   "R0_mOhm": 10.0,
+   "R0_quelle": "Annahme 10 mOhm DC: zwischen gemessener AC-Impedanz 6,2 mOhm (batterydesign.net) und Datenblatt-Maximum 13,8 mOhm",
+   "I_dauer_A": 35.0,
+   "I_puls_A": 45.0,
+   "I_quelle": "45 A max. laut Datenblatt (temperaturbegrenzt, < 80 °C); ca. 35 A dauerhaft nach Messungen",
+   "U_max": 4.2,
+   "U_min": 2.5,
+   "T_max": 80,
+   "cp": 900,
+   "ocv": "nmc21700",
+   "P_optionen": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    14
+   ],
+   "P_standard": 8,
+   "datenblatt": {
+    "Kapazitaet": "4,5 Ah typisch (16,2 Wh)",
+    "Spannung": "3,6 V nominal, 4,2 V Ladeschluss, 2,5 V Entladeschluss (Messprotokoll)",
+    "Max. Entladestrom": "45 A",
+    "Innenwiderstand": "max. 13,8 mOhm (Datenblatt); AC 1 kHz gemessen 6,2 mOhm",
+    "Energiedichte": "242 Wh/kg (Zelle)",
+    "Masse": "66,75 g gemessen (+0,6 g Schrumpfschlauch)",
+    "Kapazitaet bei 40 A": "4,25 Ah, 3,21 V mittlere Spannung (Messung, luftgekuehlt)"
+   },
+   "pack_hinweis": "Zellverbinder, Halter, BMS und Gehaeuse als 22 % Massenaufschlag angenommen",
+   "quellen": [
+    "https://www.molicel.com/inr-21700-p45b/",
+    "https://www.batterydesign.net/genuine-p45b-tests/"
+   ]
+  },
+  "SEMI_TATTU33": {
+   "typ": "Semi-Solid · Tattu 350-Wh/kg-Serie 12S 33000 mAh (2 × in Reihe)",
+   "chemie": "Semi-Solid NMC811",
+   "einheit": "Strang aus 2 × 12S-Pack",
+   "einheit_Ah": 33.0,
+   "einheit_masse_kg": 13.328,
+   "zelle_masse_kg": 0.5553333333333333,
+   "R0_mOhm": 3.0,
+   "R0_quelle": "Annahme (nicht veroeffentlicht); Niedrig-C-Zelle mit hoeherem Widerstand je Ah als LiPo",
+   "I_dauer_A": 99,
+   "I_puls_A": 330,
+   "I_quelle": "3C Dauer (Herstellerangabe 1-3C fuer die 350-Wh/kg-Serie); 10C laut Haendlerlisting als Spitze angesetzt",
+   "U_max": 4.2,
+   "U_min": 3.0,
+   "T_max": 60,
+   "cp": 1000,
+   "ocv": "lipo",
+   "P_optionen": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "P_standard": 3,
+   "datenblatt": {
+    "Energiedichte": "350 Wh/kg (Zelle, Serie TARBG35)",
+    "Pack 12S 33 Ah": "6664 g (Herstellertabelle) = 220 Wh/kg auf Packebene",
+    "Entladung": "1-3C Dauer (Hersteller), 10C (Haendler)",
+    "Temperatur": "-40 bis 60 °C",
+    "Spannung": "24S bis 100,8 V moeglich"
+   },
+   "quellen": [
+    "https://gensace.de/blogs/news/tattu-semi-solid-batteries-four-energy-density-levels-and-flexible-customization",
+    "https://gensace.de/blogs/news/tattu-unveils-revolutionary-semi-solid-state-battery-powering-the-future-of-commercial-drones"
+   ]
+  }
+ },
+ "ocv": {
+  "lipo": [
+   [
+    0,
+    3.27
+   ],
+   [
+    0.05,
+    3.5
+   ],
+   [
+    0.1,
+    3.61
+   ],
+   [
+    0.15,
+    3.67
+   ],
+   [
+    0.2,
+    3.7
+   ],
+   [
+    0.3,
+    3.74
+   ],
+   [
+    0.4,
+    3.78
+   ],
+   [
+    0.5,
+    3.82
+   ],
+   [
+    0.6,
+    3.87
+   ],
+   [
+    0.7,
+    3.93
+   ],
+   [
+    0.8,
+    4.0
+   ],
+   [
+    0.9,
+    4.08
+   ],
+   [
+    1.0,
+    4.2
+   ]
+  ],
+  "nmc21700": [
+   [
+    0,
+    2.7
+   ],
+   [
+    0.05,
+    3.2
+   ],
+   [
+    0.1,
+    3.35
+   ],
+   [
+    0.15,
+    3.43
+   ],
+   [
+    0.2,
+    3.48
+   ],
+   [
+    0.3,
+    3.56
+   ],
+   [
+    0.4,
+    3.62
+   ],
+   [
+    0.5,
+    3.68
+   ],
+   [
+    0.6,
+    3.76
+   ],
+   [
+    0.7,
+    3.86
+   ],
+   [
+    0.8,
+    3.95
+   ],
+   [
+    0.9,
+    4.06
+   ],
+   [
+    1.0,
+    4.18
+   ]
+  ]
+ },
+ "ocv_hinweis": "Leerlaufkennlinien typisch fuer die Zellchemie (Annahme, nicht vom Hersteller)",
+ "rc_hinweis": "Polarisation R1 = 0,3 x R0, Zeitkonstante 25 s (Annahme fuer alle Typen)"
+}

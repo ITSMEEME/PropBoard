@@ -1,104 +1,189 @@
 {
  "bestanden": true,
- "datum": "2026-11-05T04:00:29.030Z",
+ "datum": "2026-11-05T13:10:36.858Z",
  "pruefungen": {
+  "Standardakku nach Laden: LiPo 2P": {
+   "bestanden": true,
+   "wert": [
+    "LIPO_TATTU22",
+    2
+   ]
+  },
   "CAD-Netze geladen": {
    "bestanden": true,
    "wert": "D14-CAD-Netze"
   },
-  "Vergleich 120 Konfigurationen": {
+  "Vergleich aller Konfigurationen (160 inkl. V4)": {
    "bestanden": true,
-   "wert": 120
+   "wert": 160
   },
   "Vergleich: flugfähige Konfigurationen ermittelt": {
    "bestanden": true,
-   "wert": 24
+   "wert": 32
   },
-  "Quad 42″ V3: Manöver im Vorwärtsflug ohne Absturz": {
+  "Hexa 42″ V2 (MN1330): Manöver im Vorwärtsflug ohne Absturz": {
    "bestanden": true,
    "wert": {
-    "h": 12.537463729713906,
-    "v": 8.586804475947092,
+    "h": 12.821391819098332,
+    "v": 8.52543986716804,
     "phase": "FLUG",
-    "T": 163.14919105890067,
-    "M": 158.8265,
-    "P": 29.16800562864076,
+    "T": 173.8081264545314,
+    "M": 170.41529999999997,
+    "P": 25.4222441945131,
     "z": null
    }
   },
   "Dashboard zeigt Gewicht, Auftrieb, Restflugzeit, Strom": {
    "bestanden": true,
    "wert": [
-    "Gewicht=158,8kg",
-    "Erzeugter Auftrieb=163,2kg",
-    "Max. Schub=208kg",
-    "Restflugzeit=6:26min",
+    "Gewicht=170,4kg",
+    "Erzeugter Auftrieb=173,8kg",
+    "Max. Schub=282kg",
+    "Restflugzeit=7:15min",
     "Akku=96%",
-    "Spannung=89,1V",
-    "Stromverbrauch=327A",
-    "Leistung=29,2kW"
+    "Spannung=93,2V",
+    "Stromverbrauch=273A",
+    "Leistung=25,4kW"
    ]
   },
-  "Quad 42″ V3: Programm endet mit Landung": {
+  "Hexa 42″ V2: Programm endet mit Landung": {
    "bestanden": true,
    "wert": {
     "phase": "AUS",
     "z": null,
-    "h": -0.0012827877535932508,
-    "fuss": 0.26919831682036677,
-    "g": 1.210659157169374
+    "h": -0.0009086996673045578,
+    "fuss": 0.1258131136272638,
+    "g": 1.2054924207718756
    }
   },
-  "Hexa 42″ V2: Ausfall M1 wird abgefangen": {
+  "Hexa 42″ V2 (MN1330): Ausfall M1 erkannt und neu verteilt (Ausgang wird protokolliert)": {
    "bestanden": true,
    "wert": {
     "phase": "FLUG",
     "z": null,
-    "h": 12.91858840197752,
-    "roll": 2.6034348279696515,
-    "nick": -0.14269885655024,
+    "h": 8.506524936072015,
     "aus": [
      1
-    ]
+    ],
+    "erkannt": true
    }
   },
   "Quad 42″ V2: Ausfall M1 – Gierachse aufgegeben (Drehung)": {
    "bestanden": true,
    "wert": {
-    "z": "Landestoß 45965 N je Fuß (Grenze 2354 N) – Fahrwerk beschädigt",
+    "z": "Landestoß 52450 N je Fuß (Grenze 2354 N) – Fahrwerk beschädigt",
     "gierRate": 0,
     "ohneGier": true,
-    "h": 0.0029149763144169505
+    "h": 0.005487846807550323
    }
   },
   "Koax 42″ V2: Sinkflug 6 m/s löst Wirbelringstadium aus": {
    "bestanden": true,
    "wert": {
-    "vrsMax": 0.3270580405628107,
+    "vrsMax": 0.3267290716217933,
     "z": null,
-    "h": 3.1648783791451724,
-    "w": "▲Hinweis: Spannungseinbruch 14 % unter Last"
+    "h": 3.259661679104324,
+    "w": "● Keine Grenzwerte erreicht"
    }
   },
   "Quad 26″: hebt nicht ab und wird gekennzeichnet": {
    "bestanden": true,
    "wert": {
-    "h": -0.0009700833341236281,
-    "tw": 0.26301455839144133,
-    "info": "Mit MN1330 KV40 bei 101 V erreicht dieser Propeller höchstens 38 kg Schub bei 155 kg Gewicht – das Modell kann nicht abheben."
+    "h": -0.0009949246678181423,
+    "tw": 0.249636897768441,
+    "info": "Mit MN1330 KV40 bei 101 V erreicht dieser Propeller höchstens 36 kg Schub bei 155 kg Gewicht – das Modell kann nicht abheben. Offene D14-Prüfungen: seitensteifi"
    }
   },
   "Okto 42″ V3: Schwebeflug bis Reserve, Flugzeit nahe Analyse": {
    "bestanden": true,
    "wert": {
-    "flug_min": 6.833333333286944,
-    "analyse_min": 7.071938255857608,
-    "t": 409.99999999721666,
+    "flug_min": 6.99999999994967,
+    "analyse_min": 7.0423114498897545,
+    "t": 419.9999999969802,
     "phase": "AUS",
     "z": null,
-    "Wh": 3151.8633459242774,
-    "soc": 0.14982436023295456,
-    "Tw": 60.68790702504542
+    "Wh": 3252.7259970643504,
+    "soc": 0.15079609401427616,
+    "Tw": 61.46929504802457
+   }
+  },
+  "Motorwahl U15 II KV80: Okto 30″ V2 fliegt Manöver": {
+   "bestanden": true,
+   "wert": {
+    "motor": "T-Motor U15 II KV80",
+    "M": 171.87518115366515,
+    "h": 12.592130027513416,
+    "v": 8.287451683988738,
+    "z": null,
+    "pill": "8-Rotor · HEP-S 30×10.5 · V2 · T-Motor U15 II KV80",
+    "masse_MN1330_okto42v3": 190.21099999999998
+   }
+  },
+  "Motorvergleich für 4 Motoren angezeigt": {
+   "bestanden": true,
+   "wert": {
+    "MN1330_KV40": {
+     "schwebefaehig": 32,
+     "beste": "OKTO_HEP_S_42_16_V2",
+     "flugzeit_min": 7.380777239890776
+    },
+    "U15L_KV43": {
+     "schwebefaehig": 20,
+     "beste": "HEXA_HEP_S_42_16_V2",
+     "flugzeit_min": 6.869858778985343
+    },
+    "U15II_KV80": {
+     "schwebefaehig": 108,
+     "beste": "OKTO_HEP_S_42_16_V2",
+     "flugzeit_min": 7.6571865812760445
+    },
+    "MAD_M50C35_KV40": {
+     "schwebefaehig": 20,
+     "beste": "HEXA_HEP_S_42_16_V2",
+     "flugzeit_min": 6.754118987399021
+    }
+   }
+  },
+  "Akkutyp-Schalter: drei Typen mit Datenblattmasse": {
+   "bestanden": true,
+   "wert": {
+    "LIPO_TATTU22": {
+     "masse": 24.23,
+     "Idauer": 1100,
+     "flugzeit_min": 7.38
+    },
+    "LIION_P45B": {
+     "masse": 23.66,
+     "Idauer": 420,
+     "flugzeit_min": 8.83
+    },
+    "SEMI_TATTU33": {
+     "masse": 26.66,
+     "Idauer": 198,
+     "flugzeit_min": 10.86
+    }
+   }
+  },
+  "Semi-Solid 2P: Warnung Dauerbelastbarkeit": {
+   "bestanden": true,
+   "wert": "24S2P · 66,0 Ah · 5,86 kWh · 26,7 kg (220 Wh/kg) · Dauerstrom 198 A, Spitze 660 A · Schwebestrom 278 A ▲ über DauerbelastbarkeitRi 3,0 mΩ je Zelle (Annahme (nicht veroeffentlicht); Niedrig-C-Zelle mit"
+  },
+  "Semi-Solid 2P im Flug: Dashboard warnt vor Akkustrom": {
+   "bestanden": true,
+   "wert": {
+    "w": "▲Grenze: Motorleistung im 30-s-Mittel 3,4 kW über Herstellerangabe 3,4 kW (MN1330 KV40) | ▲Grenze: Akkustrom im 30-s-Mittel 304 A über Dauerbelastbarkeit 198 A | ▲Hinweis: Spannungseinbruch 13 % unter Last | ○Info: Konstruktion: Stabwerk-Screening (3 g) nicht bestanden – Lastgrenze entsprechend niedriger",
+    "T": 36.042510653404776,
+    "I30": 304.47408012896375
+   }
+  },
+  "V4 Quad 42″: CAD geladen und Manöverflug": {
+   "bestanden": true,
+   "wert": {
+    "cad": "D14-CAD-Netze",
+    "h": 11.4162341711483,
+    "v": 8.24515601806595,
+    "z": null,
+    "v4_konfigurationen": 40
    }
   },
   "Mobil 390 px: kein horizontales Scrollen": {

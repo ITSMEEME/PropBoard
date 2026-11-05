@@ -63,11 +63,15 @@ function warnungen(t, s) {
   const Tw = Math.max(...t.motoren.map(m => m.Tw)), Te = Math.max(...t.motoren.map(m => m.Te));
   if (Tw > 150) add('kritisch', `Wicklungstemperatur ${f(Tw, 0)} °C – Leistung wird reduziert`); else if (Tw > 120) add('ernst', `Wicklungstemperatur ${f(Tw, 0)} °C`);
   if (Te > 100) add('kritisch', `Reglertemperatur ${f(Te, 0)} °C – Leistung wird reduziert`); else if (Te > 80) add('ernst', `Reglertemperatur ${f(Te, 0)} °C`);
+  const Pn = s.motor.nennleistung_W, P30 = Math.max(...t.motoren.map(m => m.P30_W)); if (Pn && P30 > Pn) add('ernst', `Motorleistung im 30-s-Mittel ${f(P30/1000, 1)} kW über Herstellerangabe ${f(Pn/1000, 1)} kW (${s.motor.typ})`);
   const Iesc = Math.max(...s.antriebe.map(a => a.Iesc_mittel)); if (Iesc > 100) add('ernst', `Reglerstrom im 20-s-Mittel ${f(Iesc, 0)} A über 100 A Dauer`);
-  if (t.zelle_min < 3.3) add(t.zelle_min < 3.1 ? 'kritisch' : 'ernst', `Zellspannung unter Last ${f(t.zelle_min, 2)} V`);
+  if (t.akku_I_mittel > t.akku_I_dauer) add('ernst', `Akkustrom im 30-s-Mittel ${f(t.akku_I_mittel, 0)} A über Dauerbelastbarkeit ${f(t.akku_I_dauer, 0)} A`);
+  if (t.I > t.akku_I_puls) add('kritisch', `Akkustrom ${f(t.I, 0)} A über Spitzenstrom ${f(t.akku_I_puls, 0)} A – Leistung wird begrenzt`);
+  if (t.akku_T > t.akku_T_grenze) add('kritisch', `Zelltemperatur ${f(t.akku_T, 0)} °C über Grenze ${t.akku_T_grenze} °C`);
+  if (t.zelle_min < t.akku_U_min + 0.3) add(t.zelle_min < t.akku_U_min + 0.1 ? 'kritisch' : 'ernst', `Zellspannung unter Last ${f(t.zelle_min, 2)} V (Entladeschluss ${f(t.akku_U_min, 1)} V)`);
   else if (t.soc < 0.3) add('warnung', `Akku ${f(t.soc*100, 0)} % – Landung planen`);
   if (t.U0 - t.U > 0.12*t.U0) add('warnung', `Spannungseinbruch ${f((t.U0 - t.U)/t.U0*100, 0)} % unter Last`);
-  if (t.akku_T > 60) add('ernst', `Akkutemperatur ${f(t.akku_T, 0)} °C`);
+  if (t.akku_T <= t.akku_T_grenze && t.akku_T > t.akku_T_grenze - 10) add('ernst', `Akkutemperatur ${f(t.akku_T, 0)} °C`);
   const vrs = Math.max(...t.motoren.map(m => m.vrs)); if (vrs > 0.25) add(vrs > 0.6 ? 'kritisch' : 'ernst', `Wirbelringstadium (Intensität ${f(vrs*100, 0)} %) – vorwärts aus dem eigenen Abwind fliegen`);
   const ab = Math.max(...t.motoren.map(m => m.abriss)); if (ab > 0.02) add('ernst', `Strömungsabriss am Blatt (${f(ab*100, 0)} %)`);
   const ma = Math.max(...t.motoren.map(m => m.mach)); if (ma > 0.6) add('warnung', `Blattspitzen-Machzahl ${f(ma, 2)}`);
@@ -107,11 +111,11 @@ class Dashboard {
       ['Restflugzeit', mmss(t.flugzeit_s), 'min', 'bei aktueller Leistung (3-s-Mittel)'],
       ['Akku', f(t.soc*100, 0), '%', `${f(t.rest_Wh/1000, 2)} kWh bis Reserve`],
       ['Spannung', f(t.U, 1), 'V', `Leerlauf ${f(t.U0, 1)} V`],
-      ['Stromverbrauch', f(t.I, 0), 'A', `${f(t.Ah, 2)} Ah entnommen`],
+      ['Stromverbrauch', f(t.I, 0), 'A', `Dauer max. ${f(t.akku_I_dauer, 0)} A · ${f(t.Ah, 2)} Ah`],
       ['Leistung', f(t.P_kW, 1), 'kW', `${f(t.Wh, 0)} Wh verbraucht`],
       ['Min. Zelle', f(t.zelle_min, 2), 'V', `max. ${f(t.zelle_max, 2)} V · 24S`],
       ['Motor max.', f(Tw, 0), '°C', `Regler ${f(Math.max(...t.motoren.map(m => m.Te)), 0)} °C`],
-      ['Akku', f(t.akku_T, 1), '°C', 'wärmste Zelle'],
+      ['Akku', f(t.akku_T, 1), '°C', `wärmste Zelle · Grenze ${t.akku_T_grenze} °C`],
       ['Lastvielfaches', f(t.nz, 2), 'g', `max. ${f(t.maxLast.g, 2)} g`],
       ['Ausleger max.', f(am.u*100, 0), '%', `M${am.nr} · Grenze ${f(am.grenze_N, 0)} N`],
       ['Wind', f(Math.hypot(t.wind[0], t.wind[1]), 1), 'm/s', `vertikal ${f(t.wind[2], 1)} m/s`],

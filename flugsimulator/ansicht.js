@@ -95,7 +95,8 @@ class Ansicht {
     this.info = info; this.cache.d14 = {};
     if (d && e) {
       const ms = {}; for (const [k, m] of Object.entries(d.meshes)) ms[k] = this.decode(m);
-      const em = this.decode(e.eckknoten), es = this.decode(e.eckknoten_schrauben), eu = this.decode(e.eckknoten_unten);
+      const eq = d.eck_meshes || e;          // V4: konfigurationseigene Eckknoten
+      const em = this.decode(eq.eckknoten), es = this.decode(eq.eckknoten_schrauben), eu = this.decode(eq.eckknoten_unten);
       d.paarwinkel.forEach((phi, j) => {
         const R = rz(phi), RS = mul(R, SY);
         ob.push({g: ms.verbinder, m: R, c: FARBE.alu}, {g: ms.verbinder_schrauben, m: R, c: FARBE.schraube});
@@ -103,13 +104,14 @@ class Ansicht {
           const arm = info.armVonPaar(j, side);
           ob.push({g: ms.motortraeger, m: M, c: FARBE.alu, arm}, {g: ms.motortraeger_schrauben, m: M, c: FARBE.schraube, arm});
           d.rohre.forEach(r => ob.push({g: this.rohr(r.od, r.id), m: mul(M, achse(r.a, r.b)), c: FARBE.carbon, carbon: 1, arm}));
-          d.motor.lagen.forEach(l => ob.push({g: this.zylinder(d.motor.d/2), m: mul(M, [1,0,0,0, 0,1,0,0, 0,0,l.h,0, d.motor.xy[0], d.motor.xy[1], l.z0, 1]), c: FARBE.motor, arm}));
+          d.motor.lagen.forEach(l => { const md_ = info.motorMass || [d.motor.d, l.h], h = md_[1], z0 = l.z0 + l.h - h;   // Flanschseite bleibt, Gehaeuse nach gewaehltem Motor
+            ob.push({g: this.zylinder(md_[0]/2), m: mul(M, [1,0,0,0, 0,1,0,0, 0,0,h,0, d.motor.xy[0], d.motor.xy[1], z0, 1]), c: FARBE.motor, arm}); });
         });
         if (!d.ecken) for (const M of [R, RS, mul(R, SZ), mul(RS, SZ)]) ob.push({g: em, m: M, c: FARBE.alu}, {g: es, m: M, c: FARBE.schraube});
         if (d.regler_meshes) { const h = this.cache.d14.h || (this.cache.d14 = {h: this.decode(d.regler_meshes.halter), s: this.decode(d.regler_meshes.schrauben), r: this.decode(d.regler_meshes.regler)});
           for (const M of [R, RS]) ob.push({g: this.cache.d14.h, m: M, c: FARBE.alu}, {g: this.cache.d14.r, m: M, c: FARBE.regler}, {g: this.cache.d14.s, m: M, c: FARBE.schraube}); }
       });
-      if (d.ecken) d.ecken.forEach(E => ob.push({g: E.u ? eu : em, m: E.m, c: FARBE.alu}, {g: es, m: E.m, c: FARBE.schraube}));
+      if (d.ecken) { const esu = eq.eckknoten_schrauben_unten ? this.decode(eq.eckknoten_schrauben_unten) : es; d.ecken.forEach(E => ob.push({g: E.u ? eu : em, m: E.m, c: FARBE.alu}, {g: E.u ? esu : es, m: E.m, c: FARBE.schraube})); }
       if (d.aus_meshes) {
         ob.push({g: this.decode(d.aus_meshes.alu), m: I4(), c: FARBE.d12}, {g: this.decode(d.aus_meshes.sohle), m: I4(), c: FARBE.sohle}, {g: this.decode(d.aus_meshes.schrauben), m: I4(), c: FARBE.schraube});
         d.aus_rohre.forEach(r => ob.push({g: this.rohr(r.od, r.id), m: achse(r.a, r.b), c: FARBE.carbon, carbon: 1}));

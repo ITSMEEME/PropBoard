@@ -11,6 +11,17 @@ const G = P.G, Q42 = 'QUAD_HEP_S_42_16_V3';
 const fit = D.motor.fit_punkte, maxAbw = Math.max(...fit.map(p => Math.abs(p.modell_W/p.gemessen_W - 1)));
 pr('Motor: Eingangsleistung an allen 19 Prüfpunkten innerhalb 5 %', maxAbw < 0.05, {max_abweichung: +maxAbw.toFixed(4), kt: D.motor.kt_fit, R: D.motor.r_phase_fit, I0: D.motor.i0_fit});
 
+// 1b) Alle Motoren: Leistungsfit und Vollgasdrehzahl (Spannungsgrenze mit Phaseninduktivitaet) gegen Herstellertabellen
+{ const ONL = require('./Quellen/Motoren_Online.json').motoren;
+  for (const [k, m] of Object.entries(D.motoren)) {
+    if (!m.fit_punkte.length) { pr(`Motor ${m.typ}: ohne Messtabelle, Annahmen gekennzeichnet`, /angenommen/.test(m.datenlage), {datenlage: m.datenlage}); continue; }
+    const mx = Math.max(...m.fit_punkte.map(p => Math.abs(p.modell_W/p.gemessen_W - 1)));
+    pr(`Motor ${m.typ}: Eingangsleistung RMS < 5 %, max. < 10 %`, m.fit_rms_anteil < 0.05 && mx < 0.10, {rms: m.fit_rms_anteil, max: +mx.toFixed(4), kt: m.kt_fit, R: m.r_phase_fit, I0: m.i0_fit, L_uH: +(m.L_phase*1e6).toFixed(1)});
+    const voll = k === 'MN1330_KV40' ? [{U: 91.9, rpm: 2744, q: 46.25}] : ONL[k].punkte.filter(p => p.gas >= 100).map(p => ({U: p.U, rpm: p.rpm, q: p.drehmoment_Nm}));
+    const a = new P.Antrieb(D, m, {J: 0.05}, 20), abw = voll.map(v => { const kQ = v.q/Math.pow(v.rpm*Math.PI/30, 2); a.Imax = 1e4; return a.omMax(v.U, kQ)*30/Math.PI/v.rpm - 1; });
+    pr(`Motor ${m.typ}: Vollgasdrehzahl mit Messlast ±5 %`, abw.every(x => Math.abs(x) < 0.05), {abweichung: abw.map(x => +x.toFixed(4))});
+  } }
+
 // 2) Rotor: statischer Schub/Leistung im Schwebepunkt = D13-Ersatzmodell (CT/CP)
 { const s = new P.Sim(D, Q42), r = s.rotoren[0], rho = 1.225, n = 50, Om = 2*Math.PI*n;
   for (let i = 0; i < 6; i++) r.aero(Om, [0, 0, 0], 0, 100, rho, s.r, 0.001);
@@ -40,6 +51,20 @@ pr('Motor: Eingangsleistung an allen 19 Prüfpunkten innerhalb 5 %', maxAbw < 0.
   pr('Akku: entnommene Ladung = SoC-Änderung × Kapazität (±1 %)', Math.abs(Ah/(dSOC*44) - 1) < 0.01, {Ah, dSOC});
   pr('Akku: Spannung unter 200 A unter Leerlauf, Zellen erwärmen sich', a.U < a.leerlauf() && a.Tmax > 21, {U: a.U, leerlauf: a.leerlauf(), U_start: U0, T: a.Tmax}); }
 
+// 4b) Akkutypen nach Datenblatt: Energie je Zelle aus Kennlinie x Kapazitaet gegen Datenblattenergie
+{ const AK = D.akkus.akkus, soll = {LIPO_TATTU22: 976.8/12, LIION_P45B: 16.2, SEMI_TATTU33: null};
+  for (const [k, a] of Object.entries(AK)) {
+    const ak = new P.Akku(P.rng(2), {typ: a, ocvTabellen: D.akkus.ocv, S: 24, P: 1, streuung: 0});
+    let e = 0; const n = 200; for (let i = 0; i < n; i++) e += ak.ocv((i + 0.5)/n)/n;
+    const Wh = e*a.einheit_Ah, ref = soll[k];
+    pr(`Akku ${a.chemie}: Zellenergie aus Kennlinie ${ref ? 'gegen Datenblatt ±5 %' : '(kein Zellwert veröffentlicht)'}`, ref ? Math.abs(Wh/ref - 1) < 0.05 : Wh > 0, {modell_Wh: +Wh.toFixed(2), datenblatt_Wh: ref, masse_einheit_kg: a.einheit_masse_kg, I_dauer_A: a.I_dauer_A});
+  }
+  const lauf = (typ, Pn, sek = 180) => { const s = new P.Sim(D, 'OKTO_HEP_S_42_16_V2', {akku_typ: typ, akku_P: Pn, turbulenz: 0}); s.regler.start(); for (let i = 0; i < 8000; i++) s.schritt(0.001);
+    s.regler.setStick({hoch: 1}); for (let i = 0; i < 3000; i++) s.schritt(0.001); s.regler.setStick({hoch: 0}); for (let i = 0; i < sek*1000; i++) s.schritt(0.001); return s.telemetrie(); };
+  const li = lauf('LIPO_TATTU22', 2), se = lauf('SEMI_TATTU33', 2, 480);
+  pr('Akku: LiPo 2P bleibt im Schwebeflug unter Dauerstrom und Temperaturgrenze', li.akku_I_mittel < li.akku_I_dauer && li.akku_T < li.akku_T_grenze, {I30: li.akku_I_mittel, Idauer: li.akku_I_dauer, T: li.akku_T});
+  pr('Akku: Semi-Solid 2P (3C) wird im Schwebeflug überlastet und überhitzt nach 8 min', se.akku_I_mittel > se.akku_I_dauer && se.akku_T > se.akku_T_grenze, {I30: se.akku_I_mittel, Idauer: se.akku_I_dauer, T: se.akku_T}); }
+
 // 5) Zeitbereich: Schweben Quad 42″ V3 (100 kg Person) – Kräftegleichgewicht und Energie
 { const s = new P.Sim(D, Q42, {turbulenz: 0, wind: 0, boeen: 0, streuung: 0}); s.regler.start();
   for (let i = 0; i < 25000; i++) s.schritt(0.001);
@@ -67,7 +92,15 @@ const alle = Object.keys(D.modelle).map(k => { const m = D.modelle[k], a = P.Sim
     schwebe_rpm: Math.round(a.rpm), leistung_kW: +a.P_kW.toFixed(2), akkustrom_A: Math.round(a.I_bus_A), phasenstrom_A: Math.round(a.I_phase_max_A), drehmoment_Nm: +a.Q_max_Nm.toFixed(1),
     flugzeit_min: a.gesaettigt ? 0 : +a.flugzeit_min.toFixed(2), schwebefaehig: !a.gesaettigt, arm_lastfaktor_grenze: +a.arm_lastfaktor_grenze.toFixed(2), mach_spitze: +a.mach_spitze.toFixed(3), FM: +a.FM.toFixed(3)}; });
 const fl = alle.filter(a => a.schwebefaehig);
-pr('Analyse aller 120 Konfigurationen gerechnet', alle.length === 120, {schwebefaehig: fl.length, beste_flugzeit: fl.sort((a, b) => b.flugzeit_min - a.flugzeit_min)[0]});
+const akkuvergleich = Object.fromEntries(Object.entries(D.akkus.akkus).map(([ak, a]) => [ak, {typ: a.typ, varianten: a.P_optionen.map(Pn => { const r = Object.keys(D.modelle).map(k => P.Sim.schwebeAnalyse(D, k, {akku_typ: ak, akku_P: Pn})).filter(x => !x.gesaettigt).sort((x, y) => y.flugzeit_min - x.flugzeit_min);
+  const b = r[0]; return {P: Pn, akku_masse_kg: +(a.einheit_masse_kg*Pn).toFixed(2), dauerstrom_A: a.I_dauer_A*Pn, schwebefaehig: r.length, beste: b && b.schluessel, flugzeit_min: b && +b.flugzeit_min.toFixed(2), schwebestrom_A: b && Math.round(b.I_bus_A), ueberlast: b && b.akku_ueberlast}; })}]));
+fs.writeFileSync(path.join(OUT, 'Akkuvergleich.json'), JSON.stringify({annahmen: 'MN1330, 100 kg Person, 20 °C, Meereshoehe, Reserve 15 %', quellen: 'Quellen/Akkus_Online.json', akkus: akkuvergleich}, null, 1));
+const motorvergleich = Object.fromEntries(Object.keys(D.motoren).map(mk => { const r = Object.keys(D.modelle).map(k => P.Sim.schwebeAnalyse(D, k, {motor: mk})).filter(a => !a.gesaettigt).sort((a, b) => b.flugzeit_min - a.flugzeit_min);
+  return [mk, {typ: D.motoren[mk].typ, masse_kg: D.motoren[mk].masse_kg, schwebefaehig: r.length, propeller: [...new Set(r.map(a => D.modelle[a.schluessel].propeller))],
+    beste: r.slice(0, 5).map(a => ({schluessel: a.schluessel, flugzeit_min: +a.flugzeit_min.toFixed(2), leistung_kW: +a.P_kW.toFixed(2), schub_gewicht: +a.tw_max.toFixed(2), phasenstrom_A: Math.round(a.I_phase_max_A), aussteuerung: +a.aussteuerung.toFixed(2), leistung_je_motor_W: Math.round(a.P_je_motor_W), nennleistung_W: a.nennleistung_W}))}]; }));
+fs.writeFileSync(path.join(OUT, 'Motorvergleich.json'), JSON.stringify({annahmen: 'wie Schwebeanalyse_alle.json', motoren: motorvergleich}, null, 1));
+pr('Motorvergleich über alle Motoren gerechnet', Object.keys(motorvergleich).length === 4, Object.fromEntries(Object.entries(motorvergleich).map(([k, v]) => [k, v.schwebefaehig])));
+pr(`Analyse aller ${Object.keys(D.modelle).length} Konfigurationen gerechnet`, alle.length === Object.keys(D.modelle).length && alle.length >= 160, {schwebefaehig: fl.length, beste_flugzeit: fl.sort((a, b) => b.flugzeit_min - a.flugzeit_min)[0]});
 fs.writeFileSync(path.join(OUT, 'Schwebeanalyse_alle.json'), JSON.stringify({annahmen: {nutzlast_kg: 100, akku: '24S2P 22 Ah, 165 Wh/kg, Reserve 15 %', temp_C: 20, hoehe_m: 0, bordnetz_W: 30,
   hinweis: 'Stationaerer Schwebeflug ausserhalb Bodeneffekt; Propellerbeiwerte aus NS52x20-Tabelle uebertragen, kein HEP-S-Kennfeld'}, konfigurationen: alle}, null, 1));
 const sp = Object.keys(alle[0]); fs.writeFileSync(path.join(OUT, 'Schwebeanalyse_alle.csv'), sp.join(';') + '\n' + alle.map(a => sp.map(k => a[k]).join(';')).join('\n') + '\n');

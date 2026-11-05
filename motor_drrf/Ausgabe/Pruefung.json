@@ -1,0 +1,297 @@
+{
+ "revision": "DRRF-K01 Konzept",
+ "topologie": "DR-NN",
+ "kollisionsfrei": true,
+ "tests": [
+  {
+   "paar": "Statorblechpaket / Ringspulen (36)",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Statorblechpaket / Statortraeger",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Statorblechpaket / Achse (feststehend)",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Statorblechpaket / Lager 2 x 6004",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Statorblechpaket / Rueckschluss aussen",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Statorblechpaket / Rueckschluss innen",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Statorblechpaket / Magnete aussen (42)",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Statorblechpaket / Magnete innen (42)",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Statorblechpaket / Rotorglocke",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Ringspulen (36) / Statortraeger",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Ringspulen (36) / Achse (feststehend)",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Ringspulen (36) / Lager 2 x 6004",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Ringspulen (36) / Rueckschluss aussen",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Ringspulen (36) / Rueckschluss innen",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Ringspulen (36) / Magnete aussen (42)",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Ringspulen (36) / Magnete innen (42)",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Ringspulen (36) / Rotorglocke",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Statortraeger / Achse (feststehend)",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Statortraeger / Rueckschluss aussen",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Statortraeger / Rueckschluss innen",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Statortraeger / Magnete aussen (42)",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Statortraeger / Magnete innen (42)",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Statortraeger / Rotorglocke",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Achse (feststehend) / Lager 2 x 6004",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Achse (feststehend) / Rueckschluss aussen",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Achse (feststehend) / Rueckschluss innen",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Achse (feststehend) / Magnete aussen (42)",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Achse (feststehend) / Magnete innen (42)",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Achse (feststehend) / Rotorglocke",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Achse (feststehend) / Achsmutter (Lager-Vorspannung)",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Achse (feststehend) / Befestigung 4 x M6 (D14-Lochkreis 50)",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Lager 2 x 6004 / Rueckschluss aussen",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Lager 2 x 6004 / Rueckschluss innen",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Lager 2 x 6004 / Magnete aussen (42)",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Lager 2 x 6004 / Magnete innen (42)",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Lager 2 x 6004 / Rotorglocke",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Rueckschluss aussen / Rueckschluss innen",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Rueckschluss aussen / Magnete aussen (42)",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Rueckschluss aussen / Magnete innen (42)",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Rueckschluss aussen / Rotorglocke",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Rueckschluss innen / Magnete aussen (42)",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Rueckschluss innen / Magnete innen (42)",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Rueckschluss innen / Rotorglocke",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Magnete aussen (42) / Magnete innen (42)",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Magnete aussen (42) / Rotorglocke",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Magnete innen (42) / Rotorglocke",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Rotorglocke / Achsmutter (Lager-Vorspannung)",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  },
+  {
+   "paar": "Rotorglocke / Befestigung 4 x M6 (D14-Lochkreis 50)",
+   "ueberdeckung_mm3": 0.0,
+   "bestanden": true
+  }
+ ],
+ "min_spalt_rotor_stator_mm": {
+  "Statorblechpaket": 0.6,
+  "Ringspulen (36)": 2.377,
+  "Statortraeger": 1.5,
+  "Achsmutter (Lager-Vorspannung)": 1.5
+ },
+ "massen_cad_kg": {
+  "Statorblechpaket": 0.8225,
+  "Ringspulen (36)": 0.3385,
+  "Statortraeger": 0.1904,
+  "Achse (feststehend)": 0.0797,
+  "Lager 2 x 6004": 0.138,
+  "Rueckschluss aussen": 0.2024,
+  "Rueckschluss innen": 0.0731,
+  "Magnete aussen (42)": 0.126,
+  "Magnete innen (42)": 0.0812,
+  "Rotorglocke": 0.283,
+  "Achsmutter (Lager-Vorspannung)": 0.0154,
+  "Befestigung 4 x M6 (D14-Lochkreis 50)": 0.0223
+ },
+ "masse_cad_gesamt_kg": 2.372,
+ "masse_auslegung_kg": 2.395,
+ "gueltig": {
+  "Statorblechpaket": true,
+  "Ringspulen (36)": true,
+  "Statortraeger": true,
+  "Achse (feststehend)": true,
+  "Lager 2 x 6004": true,
+  "Rueckschluss aussen": true,
+  "Rueckschluss innen": true,
+  "Magnete aussen (42)": true,
+  "Magnete innen (42)": true,
+  "Rotorglocke": true,
+  "Achsmutter (Lager-Vorspannung)": true,
+  "Befestigung 4 x M6 (D14-Lochkreis 50)": true
+ },
+ "hoehen_mm": {
+  "boden": 6.0,
+  "rotor_unterkante": 7.5,
+  "aktiv": [
+   14.5,
+   34.5
+  ],
+  "deckel": [
+   41.5,
+   45.5
+  ],
+  "oberkante": 51.5
+ },
+ "hinweis": "Spulen als Kupfer-Verguss-Mischdichte; Lager mit Katalogmasse 69 g"
+}

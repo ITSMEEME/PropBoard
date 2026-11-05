@@ -195,6 +195,8 @@ def dreiecksverbinder(cfg):
     body, cuts, bolts, iso = [], [], [], []
     halb_body, halb_cuts, halb_bolts, halb_iso = [], [], [], []
     for t in g['rohre']:
+        if t.get('anschluss', 'verbinder') != 'verbinder':
+            continue                                   # V4: Gurte enden im Rahmeneckknoten
         e = vec(t['e']); T = vec(t['T']); Wz = V(W.x, W.y, t['wurzel'][2])
         kam = (T - Wz).Length
         # Kopf zur naechstgelegenen freien Seite: Untergurt mit Kopf nach unten
@@ -258,6 +260,17 @@ def eckknoten(cfg, extra=(), fuss=False):
         body += b_; cuts += c_; bolts += s_; iso.append(i_)
         ports.append(dict(E=[E.x, E.y, E.z], d=[d.x, d.y, d.z]))
     alle = [d1, d2, d3]
+    # V4: Huelse fuer den Auslegergurt (oberer Knoten: Obergurt, unterer Knoten lokal gespiegelt: Untergurt)
+    er = g.get('eck_rohre', {}).get('ecke_unten' if fuss else 'ecke_oben')
+    if er:
+        d = V(*er['d_lokal']); d.normalize()
+        pref = d.cross(Z); pref.normalize()
+        E = V0 + d * er['anschlag_mm']
+        hg = dict(g['huelse'], L=ra['eckknoten_steckhuelse_mm'], L_starr=15.0, kammer=0.0)   # Gurtdurchmesser kann vom Rahmenrohr abweichen
+        b_, c_, s_, i_ = huelse(E, d, pref, hg, start_bei=V0)
+        body += b_; cuts += c_; bolts += s_; iso.append(i_)
+        ports.append(dict(E=[E.x, E.y, E.z], d=[d.x, d.y, d.z], gurt=True))
+        alle.append(d)
     for ex in extra:
         d, pref = ex[0], ex[1]
         hx = dict(hu, L=ex[2], L_starr=min(15.0, ex[2] * 0.4)) if len(ex) > 2 else hu
@@ -305,9 +318,16 @@ def motortraeger(cfg):
     rs = (mt['strebe_d_einrohr_mm'] if n == 1 else mt['strebe_d_mm']) / 2
     body, cuts, bolts, iso = [], [], [], []
     starts = []
+    Qs = [vec(t['Q']) for t in g['rohre']]
+    raum = bool(g.get('eck_rohre'))
     for t in g['rohre']:
         e = vec(t['e']); Q = vec(t['Q'])
         pref = -nL if (n == 3 and t['index'] == 1) else nL
+        if raum:
+            c_ = sum((q for q in Qs if (q - Q).Length > 1e-6), V()) * (1.0 / (len(Qs) - 1))
+            w_ = Q - c_; w_ = w_ - e * w_.dot(e)
+            if w_.Length > 1e-3:
+                w_.normalize(); pref = w_
         b_, c_, s_, i_ = huelse(Q, -e, pref, hu, kammer=hu['kammer'])
         body += b_; cuts += c_; bolts += s_; iso.append(i_)
         S = Q + e * hu['kammer']
@@ -330,7 +350,8 @@ def motortraeger(cfg):
     st = mt['steg_dicke_mm']
     blech = ebene_flaeche(huelle_2d(pk, o, u), o, u).makeOffset2D(4.0, join=0)
     blech = blech.translated(-nL * (st / 2)).extrude(nL * st)
-    loch_pts = [starts[0], I, starts[-1]] if n > 1 else [starts[0], I + Z * 10, M - u * (rf_ - 4) + Z * (zb_ - ft_ - 2)]
+    sz = sorted(starts, key=lambda p: p.z)
+    loch_pts = [sz[-1], I, sz[0]] if n > 1 else [starts[0], I + Z * 10, M - u * (rf_ - 4) + Z * (zb_ - ft_ - 2)]
     try:
         loch = ebene_flaeche(loch_pts, o, u).makeOffset2D(-(rs + 6), join=0)
         if loch.Area > 120:

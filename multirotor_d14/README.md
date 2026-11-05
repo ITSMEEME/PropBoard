@@ -2,7 +2,7 @@
 
 [3D-Ansicht](Projekt.html) · [Parameter](parameter.json) · [Auslegung aller Konfigurationen](Ausgabe/Auslegung.json) · [Kollisions- und Massenprüfung](Ausgabe/Pruefung.json) · [native FreeCAD/STEP-Dateien](Ausgabe/nativ/)
 
-D14 führt die **Bauweise** als neue Modellvariable ein. Zusammen mit Propeller (10 HEP-S-Größen) und Auslegervariante (V1–V3) ergeben sich 4 × 10 × 3 = **120 Konfigurationen**, die alle als Volumenkörper gebaut und geprüft werden.
+D14 führt die **Bauweise** als neue Modellvariable ein. Zusammen mit Propeller (10 HEP-S-Größen) und Auslegervariante (V1–V4) ergeben sich 4 × 10 × 4 = **160 Konfigurationen**, die alle als Volumenkörper gebaut und geprüft werden.
 
 | Bauweise | Rotorpositionen | Motoren | Auslegerpaare / Dreiecksverbinder | Zentralrahmen | Motorradius |
 |---|---:|---:|---:|---|---|
@@ -36,7 +36,7 @@ Der Kragabstand c<sub>e</sub> (Rohrende bis Motorachse) ist eine Folge der zentr
 
 ## Fußschlitten, Landefüße, Reglerhalter und Propeller
 
-Alle Baugruppen werden für jede der 120 Konfigurationen neu erzeugt und mit dem ganzen Fahrzeug auf Überschneidung geprüft. Ihre Lasten gehen in die **Eckknoten** des Zentralrahmens, nicht in die Mitte von Rahmenrohren und nicht zwischen die Knoten eines Auslegers. Beides war in D12/D13 jeweils ein Schwachpunkt.
+Alle Baugruppen werden für jede der 160 Konfigurationen neu erzeugt und mit dem ganzen Fahrzeug auf Überschneidung geprüft. Ihre Lasten gehen in die **Eckknoten** des Zentralrahmens, nicht in die Mitte von Rahmenrohren und nicht zwischen die Knoten eines Auslegers. Beides war in D12/D13 jeweils ein Schwachpunkt.
 
 ### Fußschlitten
 
@@ -80,7 +80,7 @@ Alle Baugruppen werden für jede der 120 Konfigurationen neu erzeugt und mit dem
 | OKTO V2 42″ | ±390 mm, Endbock ohne Strebe | ±298 … ±298 mm | 8 / 247,5 mm | 1 × liegend, 257 mm | 7,13 kg |
 | KOAX V2 42″ | ±380 mm, Bock mit Strebe | ±152 … ±287 mm | 4 / 102,5 mm | 2 × liegend, 188 mm | 7,18 kg |
 
-- **Kollisionen:** Alle 120 Konfigurationen sind einschließlich Fußschlitten, Eckfüßen, Reglern, Propeller-Rotorhüllen und aller Schrauben kollisionsfrei. Insgesamt 77.220 Volumenpaare wurden geprüft, mit einer gemeinsamen Geometriesignatur.
+- **Kollisionen:** Alle 160 Konfigurationen (V1–V4) sind einschließlich Fußschlitten, Eckfüßen, Reglern, Propeller-Rotorhüllen und aller Schrauben kollisionsfrei. Insgesamt 108.390 Volumenpaare wurden geprüft, mit einer gemeinsamen Geometriesignatur (ead78f77bea58857).
 - **Fußschlitten:** 84 Konfigurationen haben Schienenböcke mit Strebe; 36 nutzen automatisch den Endbock ohne Strebe. Das sind Hexa 18″/22″, weil die Rotoren zu nah sind, und alle Okto: Die oberen Eckknoten liegen dort bei x = ±247,5 mm, und innerhalb der D13-Schienenlänge von ±380 mm ist neben dem Sattel kein Platz mehr für Bock und Strebe. Die Schiene kragt dann über den Sattel aus.
   - Bei Hexa und Okto liegen die oberen Eckknoten weiter außen (x = ±177,5 bzw. ±247,5 mm). Die Fußmitte beginnt dort erst bei ±227,5 bzw. ±297,5 mm; der D13-Nennstand ±200 mm ist nur bei Quad/Koax möglich.
   - Bei Hexa 18″/22″ liegt der Endbock zudem nur etwa 14 mm über der Rotorhülle; das ist als offen markiert.
@@ -100,10 +100,13 @@ Alle Baugruppen werden für jede der 120 Konfigurationen neu erzeugt und mit dem
 | V1 | 1 × 35/32 | 0 | Kragarm auf Biegung, nicht zentrisch |
 | V2 | 2 × 20/17 | +110 / −110 | zentrisches Zweigurt-Fachwerk |
 | V3 | 3 × 20/17 | +110 / 0 / −110 | zentrisch, Mittelrohr überzählig (Anhang 4) |
+| **V4** | 3 × 20/17 | Verbinder 0; Rahmenecke +110 / −110 | **Raumfachwerk durch Umordnung:** gleiches Material wie V3, Ober- und Untergurt im benachbarten Eckknoten. Seitlich 15–24 Hz statt 2–5 Hz ([Rohrstudie](ROHRSTUDIE.md)) |
+
+Eigenfrequenzen seitlich und vertikal stehen für jede Konfiguration im Prüfungspanel der 3D-Ansicht (`statik.dynamik`, Balkenmodell am Systempunkt).
 
 ## Ergebnisse
 
-Gesamtlauf: **alle 120 Konfigurationen sind kollisionsfrei**, geprüft wurden 77.220 Volumenpaare mit einer Toleranz von 0,001 mm³. Verglichen wurden Verbinder, Eckknoten, Motorträger, Isolierhülsen, Schrauben, CFK-Rohre, Rahmenrohre, Motorhüllen, reale Propeller-Rotorhüllen sowie Fußschlitten, Eckfüße und Regler am ganzen Fahrzeug. Alle Knoten sind gültige Einzelvolumenkörper. [Prüfprotokoll](Ausgabe/Pruefung.json)
+Gesamtlauf: **alle 160 Konfigurationen sind kollisionsfrei**, geprüft wurden 108.390 Volumenpaare mit einer Toleranz von 0,001 mm³. Verglichen wurden Verbinder, Eckknoten, Motorträger, Isolierhülsen, Schrauben, CFK-Rohre, Rahmenrohre, Motorhüllen, reale Propeller-Rotorhüllen sowie Fußschlitten, Eckfüße und Regler am ganzen Fahrzeug. Alle Knoten sind gültige Einzelvolumenkörper. [Prüfprotokoll](Ausgabe/Pruefung.json)
 
 Standardpropeller HEP-S 42×16 (Massen = CAD-Volumen × Dichte; nur Struktur, ohne Motoren, Regler, Akku, Plattform):
 
@@ -128,6 +131,33 @@ Ergebnisse des Screenings:
 
 Native Dateien für alle 4 Bauweisen × 3 Varianten am Standardpropeller (einschließlich Fußschlitten, Landegestell und Regler) liegen in [Ausgabe/nativ](Ausgabe/nativ/): FCStd mit Bauteilen und App::Link-Instanzen sowie STEP. Jede andere Konfiguration lässt sich mit `--konfig … --nativ` nativ erzeugen. Bilder: [Gesamt Quad](Ausgabe/Gesamt_QUAD_42_V2.png), [Dreiecksverbinder Hexa](Ausgabe/Dreiecksverbinder_HEXA_30_V2.png), [Fußschlitten Okto](Ausgabe/Fussschlitten_OKTO_30_V2.png), [Koax seitlich](Ausgabe/Koax_42_V3_seitlich.png), [Regler](Ausgabe/Regler_QUAD_42_V2.png).
 
+## V4: Raumfachwerk durch Umordnung
+
+![V4 Eckknoten mit Gurthülse](Ausgabe/V4_QUAD_42_ecke.png)
+
+Die drei Rohre von V3 bleiben, aber Ober- und Untergurt enden nicht mehr am Dreiecksverbinder, sondern im benachbarten Rahmeneckknoten. Dort sitzt je eine zusätzliche Klemmhülse. Der Dreiecksverbinder trägt nur noch das Mittelrohr und wird dadurch 16 % leichter (973 statt 1.163 g). Die Systemlinien treffen sich weiter auf der Motorachse, das Stabwerk wird mit einem räumlichen Balkenmodell gerechnet.
+
+- **Reglerhalter:** klemmt auf beiden Gurten. Beim Koax sitzen beide Regler außen hintereinander, weil innen das Mittelrohr verläuft; bei kurzen Armen (18–30″) stehen sie hochkant.
+- **Struktur bei 42″:** etwas leichter als V3, Quad 10,06 kg statt 10,23 kg.
+
+| 42″ | seitlich / vertikal V3 | V4 | Stabwerk V4 |
+|---|---|---|---|
+| Quad | 4,5 / 35,7 Hz | **21,1 / 38,8 Hz** | bestanden, Knicken 0,44 |
+| Hexa | 3,2 / 25,4 Hz | **16,5 / 27,4 Hz** (Gurte 22/19) | bestanden |
+| Koax | 3,3 / 26,1 Hz | **16,3 / 30,0 Hz** (Gurte 22/19) | bestanden |
+| Okto | 2,2 / 17,5 Hz | **16,1 / 22,4 Hz** mit Rahmen 250 mm und Gurten 28/25 | bestanden |
+
+Konfigurationsspezifische Maßnahmen (`parameter.json` → `konfig_overrides`, Begründung in der [Rohrstudie](ROHRSTUDIE.md)):
+- Hexa und Koax 42″ V4: Gurte 22/19 → 16,5 bzw. 16,3 Hz
+- Okto 36″ V4: UD-CFK 20/17 mit E 100 GPa (Annahme) → 20,5 Hz
+- Okto 42″ V4: Zentralrahmen 250 mm, Gurte 28/25 → 16,1 Hz; der Schienensattel sitzt 15 mm nach innen versetzt, damit die Stütze die größeren Verbinderplatten freigibt
+
+Alle 40 V4-Konfigurationen sind kollisionsfrei. Native Dateien für 42″: `Ausgabe/nativ/<BW>_HEP_S_42_16_V4.FCStd/.step`.
+
+## Grundsatzprüfung der Rohrdurchmesser
+
+[ROHRSTUDIE.md](ROHRSTUDIE.md): 20/17 bleibt als Standard richtig. Die senkrechten Ausleger V1–V3 sind seitlich aber zu weich (2–8 Hz, auch mit größeren Rohren). Empfohlen wird ein Raumfachwerk mit einem zusätzlichen Gurt zum Rahmeneckknoten (R3/R4). Okto 42″ braucht ein anderes Konzept.
+
 ## Grenzen
 
 **Dies ist eine Geometrie- und Screening-Revision, keine Festigkeits- oder Flugfreigabe.**
@@ -151,7 +181,7 @@ Native Dateien für alle 4 Bauweisen × 3 Varianten am Standardpropeller (einsch
 cd multirotor_d14
 python3 auslegung.py                                   # Geometrie, Freiräume, Screening (ohne FreeCAD)
 FC=~/Programme/squashfs-root/usr                        # FreeCAD 1.0.2 AppImage, entpackt
-LD_LIBRARY_PATH=$FC/lib $FC/bin/python bauen.py --standard-nativ          # alle 120 + FCStd/STEP am Standardpropeller
+LD_LIBRARY_PATH=$FC/lib $FC/bin/python bauen.py --standard-nativ          # alle 160 + FCStd/STEP am Standardpropeller
 LD_LIBRARY_PATH=$FC/lib $FC/bin/python bauen.py --konfig HEXA_HEP_S_30_10p5_V2 --nativ   # einzelne Konfiguration nativ
 ```
 

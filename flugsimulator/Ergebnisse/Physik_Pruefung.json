@@ -4,10 +4,74 @@
   "Motor: Eingangsleistung an allen 19 Prüfpunkten innerhalb 5 %": {
    "bestanden": true,
    "wert": {
-    "max_abweichung": 0.0314,
-    "kt": 0.22,
+    "max_abweichung": 0.031,
+    "kt": 0.21963382146681557,
     "R": 0.038,
     "I0": 4
+   }
+  },
+  "Motor MN1330 KV40: Eingangsleistung RMS < 5 %, max. < 10 %": {
+   "bestanden": true,
+   "wert": {
+    "rms": 0.0109,
+    "max": 0.031,
+    "kt": 0.21963382146681557,
+    "R": 0.038,
+    "I0": 4,
+    "L_uH": 42.5
+   }
+  },
+  "Motor MN1330 KV40: Vollgasdrehzahl mit Messlast ±5 %": {
+   "bestanden": true,
+   "wert": {
+    "abweichung": [
+     0
+    ]
+   }
+  },
+  "Motor T-Motor U15L KV43: Eingangsleistung RMS < 5 %, max. < 10 %": {
+   "bestanden": true,
+   "wert": {
+    "rms": 0.0169,
+    "max": 0.0298,
+    "kt": 0.24428433125732776,
+    "R": 0.02,
+    "I0": 5.75,
+    "L_uH": 40.2
+   }
+  },
+  "Motor T-Motor U15L KV43: Vollgasdrehzahl mit Messlast ±5 %": {
+   "bestanden": true,
+   "wert": {
+    "abweichung": [
+     0
+    ]
+   }
+  },
+  "Motor T-Motor U15 II KV80: Eingangsleistung RMS < 5 %, max. < 10 %": {
+   "bestanden": true,
+   "wert": {
+    "rms": 0.0344,
+    "max": 0.0808,
+    "kt": 0.11309948143467813,
+    "R": 0.029500000000000002,
+    "I0": 4.25,
+    "L_uH": 28.4
+   }
+  },
+  "Motor T-Motor U15 II KV80: Vollgasdrehzahl mit Messlast ±5 %": {
+   "bestanden": true,
+   "wert": {
+    "abweichung": [
+     0.0027,
+     -0.0033
+    ]
+   }
+  },
+  "Motor MAD M50C35 PRO EEE 40KV: ohne Messtabelle, Annahmen gekennzeichnet": {
+   "bestanden": true,
+   "wert": {
+    "datenlage": "keine Messtabelle; R und I0 angenommen"
    }
   },
   "Rotor: statischer Schub = D13-Koeffizientenmodell (±1 %)": {
@@ -65,9 +129,9 @@
   "Koax: induzierter Mehrbedarf gegenüber 8 freien Rotoren (massenbereinigt) 15–60 %": {
    "bestanden": true,
    "wert": {
-    "koax_kW": 33.216755084335105,
-    "okto_kW": 27.36915612066412,
-    "verhaeltnis_massenbereinigt": 1.2948259448670394
+    "koax_kW": 33.36830259993066,
+    "okto_kW": 27.48776729142991,
+    "verhaeltnis_massenbereinigt": 1.2948617227944539
    }
   },
   "Akku: entnommene Ladung = SoC-Änderung × Kapazität (±1 %)": {
@@ -86,20 +150,63 @@
     "T": 49.62571470236325
    }
   },
+  "Akku LiPo: Zellenergie aus Kennlinie gegen Datenblatt ±5 %": {
+   "bestanden": true,
+   "wert": {
+    "modell_Wh": 84.27,
+    "datenblatt_Wh": 81.39999999999999,
+    "masse_einheit_kg": 12.116,
+    "I_dauer_A": 550
+   }
+  },
+  "Akku Li-Ion NCA/NMC 21700: Zellenergie aus Kennlinie gegen Datenblatt ±5 %": {
+   "bestanden": true,
+   "wert": {
+    "modell_Wh": 16.58,
+    "datenblatt_Wh": 16.2,
+    "masse_einheit_kg": 1.9720079999999998,
+    "I_dauer_A": 35
+   }
+  },
+  "Akku Semi-Solid NMC811: Zellenergie aus Kennlinie (kein Zellwert veröffentlicht)": {
+   "bestanden": true,
+   "wert": {
+    "modell_Wh": 126.4,
+    "datenblatt_Wh": null,
+    "masse_einheit_kg": 13.328,
+    "I_dauer_A": 99
+   }
+  },
+  "Akku: LiPo 2P bleibt im Schwebeflug unter Dauerstrom und Temperaturgrenze": {
+   "bestanden": true,
+   "wert": {
+    "I30": 311.78633993203005,
+    "Idauer": 1100,
+    "T": 37.88147538667941
+   }
+  },
+  "Akku: Semi-Solid 2P (3C) wird im Schwebeflug überlastet und überhitzt nach 8 min": {
+   "bestanden": true,
+   "wert": {
+    "I30": 335.89433234411416,
+    "Idauer": 198,
+    "T": 80.78831061425987
+   }
+  },
   "Zeitbereich: stabiler Schwebeflug (Neigung < 0,5°, |vz| < 0,1 m/s)": {
    "bestanden": true,
    "wert": {
-    "h": 1.5002929147555726,
-    "roll": -1.4440443882458242e-9,
-    "nick": 1.233237830895632e-7,
-    "vz": 0.00037336570600246804
+    "h": 1.5013975045557788,
+    "roll": -2.540986907175292e-9,
+    "nick": 4.980118130877492e-8,
+    "vz": 0.0004314543130727024
    }
   },
   "Zeitbereich: Leistung im Schwebeflug ≈ stationäre Analyse (±12 %, Bodennähe und Akkuspannung)": {
    "bestanden": true,
    "wert": {
-    "zeitbereich_kW": 30.415294070395795,
-    "analyse_kW": 30.498576002123578
+    "zeitbereich_kW": 30.5739399559166,
+    "analyse_kW": 30.657564639540823
    }
   },
   "Lastgrenze: Überschreiten bricht den Ausleger": {
@@ -116,49 +223,58 @@
    "bestanden": true,
    "wert": {
     "okto": {
-     "h0": 13.051482064100815,
-     "h": 12.989951699090764,
+     "h0": 13.044684286566003,
+     "h": 12.987680536267053,
      "zerstoert": null,
-     "gierrate": -0.00000710725574144168
+     "gierrate": -0.000008104730975804936
     },
     "koax": {
-     "h0": 10.874535952427221,
-     "h": 10.794025269737414,
+     "h0": 10.839323151063635,
+     "h": 10.768844411506766,
      "zerstoert": null,
-     "gierrate": 0.003738022270639109
+     "gierrate": 0.007733782071993131
     }
    }
   },
   "Motorausfall: Quad verliert die Gierachse und stürzt ab": {
    "bestanden": true,
    "wert": {
-    "h0": 12.429797867014264,
-    "h": 0.0023640501675730174,
-    "zerstoert": "Landestoß 47018 N je Fuß (Grenze 2354 N) – Fahrwerk beschädigt",
+    "h0": 10.342803303545546,
+    "h": -0.006167976585123136,
+    "zerstoert": "Landestoß 52440 N je Fuß (Grenze 2354 N) – Fahrwerk beschädigt",
     "gierrate": 0
    }
   },
-  "Analyse aller 120 Konfigurationen gerechnet": {
+  "Motorvergleich über alle Motoren gerechnet": {
    "bestanden": true,
    "wert": {
-    "schwebefaehig": 24,
+    "MN1330_KV40": 32,
+    "U15L_KV43": 20,
+    "U15II_KV80": 108,
+    "MAD_M50C35_KV40": 20
+   }
+  },
+  "Analyse aller 160 Konfigurationen gerechnet": {
+   "bestanden": true,
+   "wert": {
+    "schwebefaehig": 32,
     "beste_flugzeit": {
      "schluessel": "OKTO_HEP_S_42_16_V2",
      "bauweise": "OKTO",
      "propeller": "HEP_S_42_16",
      "variante": "V2",
-     "masse_kg": 183.57,
-     "schub_max_kg": 526.8,
-     "schub_gewicht": 2.87,
-     "schwebe_rpm": 2490,
-     "leistung_kW": 27.37,
-     "akkustrom_A": 271,
+     "masse_kg": 184.12,
+     "schub_max_kg": 423.7,
+     "schub_gewicht": 2.301,
+     "schwebe_rpm": 2493,
+     "leistung_kW": 27.49,
+     "akkustrom_A": 272,
      "phasenstrom_A": 56,
      "drehmoment_Nm": 11.4,
-     "flugzeit_min": 7.41,
+     "flugzeit_min": 7.38,
      "schwebefaehig": true,
-     "arm_lastfaktor_grenze": 1.51,
-     "mach_spitze": 0.405,
+     "arm_lastfaktor_grenze": 1.5,
+     "mach_spitze": 0.406,
      "FM": 0.775
     }
    }

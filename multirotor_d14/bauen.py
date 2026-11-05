@@ -107,8 +107,12 @@ def baue(cfg):
     eck_all = {}
     def beck():
         s, b, i, p = K.eckknoten(cfg); eck_all.update(b=b, i=i); return s
-    eck, c3 = cache_shape(bw + '_Eckknoten', beck)
-    eck_u, _ = cache_shape(bw + '_Eckknoten_unten', lambda: K.eckknoten(cfg, fuss=True)[0])
+    ek = key if cfg['arm'].get('eck_rohre') else bw          # V4: Eckknoten tragen konfigurationsabhaengige Gurthuelsen
+    eck, c3 = cache_shape(ek + '_Eckknoten', beck)
+    eck_u_all = {}
+    def becku():
+        s, b, i, p = K.eckknoten(cfg, fuss=True); eck_u_all.update(b=b, i=i); return s
+    eck_u, _ = cache_shape(ek + '_Eckknoten_unten', becku)
     # Schrauben/Isolierhuelsen sind einfache Koerper: bei Cache-Treffer schnell neu erzeugen
     if not conn_all:
         g = dict(cfg)
@@ -123,8 +127,16 @@ def baue(cfg):
         _, eck_bolts, eck_iso, _ = K.eckknoten(cfg)
     else:
         eck_bolts, eck_iso = eck_all['b'], eck_all['i']
+    if cfg['arm'].get('eck_rohre'):          # V4: unterer Knoten hat eine eigene Gurthuelse (Schrauben/Isolierung)
+        if not eck_u_all:
+            _, ub, ui, _ = K.eckknoten(cfg, fuss=True)
+        else:
+            ub, ui = eck_u_all['b'], eck_u_all['i']
+    else:
+        ub, ui = eck_bolts, eck_iso
     return dict(conn=conn, mount=mount, eck=eck, eck_u=eck_u, conn_bolts=comp(conn_bolts), mount_bolts=comp(mount_bolts),
                 eck_bolts=comp(eck_bolts), conn_iso=comp(conn_iso), mount_iso=comp(mount_iso), eck_iso=comp(eck_iso),
+                eck_u_bolts=comp(ub), eck_u_iso=comp(ui),
                 cache=[c1, c2, c3], zeit_s=round(time.time() - t0, 1))
 
 
@@ -150,8 +162,8 @@ def pruefe(cfg, T):
     # nur Rahmenrohre in der Naehe von Paar 0 (Verbinderseite und Nachbarseiten)
     nah = [r for name, r, _ in rahmen if r.BoundBox.XMax > 0]
     ecken = ecken_instanzen(T['eck'], T['eck_u'])
-    eck_b = [T['eck_bolts'], K.spiegel_y(T['eck_bolts']), K.spiegel_z(T['eck_bolts']), K.spiegel_z(K.spiegel_y(T['eck_bolts']))]
-    eck_i = [T['eck_iso'], K.spiegel_y(T['eck_iso']), K.spiegel_z(T['eck_iso']), K.spiegel_z(K.spiegel_y(T['eck_iso']))]
+    eck_b = [T['eck_bolts'], K.spiegel_y(T['eck_bolts']), K.spiegel_z(T['eck_u_bolts']), K.spiegel_z(K.spiegel_y(T['eck_u_bolts']))]
+    eck_i = [T['eck_iso'], K.spiegel_y(T['eck_iso']), K.spiegel_z(T['eck_u_iso']), K.spiegel_z(K.spiegel_y(T['eck_u_iso']))]
     mL = T['mount']; mR = K.spiegel_y(mL)
     mbL = T['mount_bolts']; mbR = K.spiegel_y(mbL)
     miL = T['mount_iso']; miR = K.spiegel_y(miL)
@@ -259,7 +271,7 @@ def alt_global(cfg, T, AUS):
             out += [(f'Rotorhuelle {a}{k}', tf(p)) for k, p in enumerate(propL)]
     for j, vm, un in standard_ecken(cfg, AUS):
         out.append((f'Eckknoten P{j + 1}{"-" if vm else "+"}{"u" if un else "o"}', AB.platziere_ecke(T['eck_u'] if un else T['eck'], cfg, j, vm, un)))
-        out.append((f'Eckknotenschrauben P{j + 1}{"-" if vm else "+"}{"u" if un else "o"}', AB.platziere_ecke(T['eck_bolts'], cfg, j, vm, un)))
+        out.append((f'Eckknotenschrauben P{j + 1}{"-" if vm else "+"}{"u" if un else "o"}', AB.platziere_ecke(T['eck_u_bolts'] if un else T['eck_bolts'], cfg, j, vm, un)))
     out += [(f'Rahmenrohr {i}', r) for i, (_, r, _) in enumerate(rahmenrohre(cfg))]
     return out
 
@@ -353,7 +365,8 @@ def viewerdaten(cfg, T, pruef, AUS=None):
     meshes = dict(verbinder=mesh(T['conn']), verbinder_schrauben=mesh(T['conn_bolts'], 0.6, 0.8),
                   motortraeger=mesh(T['mount']), motortraeger_schrauben=mesh(T['mount_bolts'], 0.6, 0.8))
     ef = VO / f"Eckknoten_{cfg['bauweise']}.js"
-    if not ef.exists() or ef.stat().st_mtime < (CA / f"{cfg['bauweise']}_Eckknoten_{SIG}.brep").stat().st_mtime:
+    eigene_ecken = bool(g.get('eck_rohre'))
+    if not eigene_ecken and (not ef.exists() or ef.stat().st_mtime < (CA / f"{cfg['bauweise']}_Eckknoten_{SIG}.brep").stat().st_mtime):
         ef.write_text('D14_ECKE(' + json.dumps(dict(bauweise=cfg['bauweise'], eckknoten=mesh(T['eck']), eckknoten_unten=mesh(T['eck_u']),
                       eckknoten_schrauben=mesh(T['eck_bolts'], 0.6, 0.8)), separators=(',', ':')) + ');\n')
     rohre = [dict(a=t['T'], b=t['Q'], od=hu['od'], id=hu['id']) for t in g['rohre']]
@@ -369,6 +382,9 @@ def viewerdaten(cfg, T, pruef, AUS=None):
              motor=dict(xy=g['M'][:2], d=mo['d_mm'], lagen=motoren), rotor=dict(d=cfg['rotor_d_mm'], halb=cfg['rotor_huelle_halb_mm'], lagen=rotoren),
              systemlinien=[[t['wurzel'], t['systempunkt']] for t in g['rohre']],
              W=g['W'], I=g['I'], motoren=cfg['motoren'])
+    if eigene_ecken:
+        d['eck_meshes'] = dict(eckknoten=mesh(T['eck']), eckknoten_unten=mesh(T['eck_u']), eckknoten_schrauben=mesh(T['eck_bolts'], 0.6, 0.8),
+                               eckknoten_schrauben_unten=mesh(T['eck_u_bolts'], 0.6, 0.8))
     if AUS is not None:
         d['ecken'] = [dict(m=AB.matrix(cfg, j, vm, un), u=un) for j, vm, un in standard_ecken(cfg, AUS)]
         grp = {'alu': [], 'schraube': [], 'sohle': []}
@@ -419,8 +435,8 @@ def nativ(cfg, T, AUS=None):
         MIR=master('Motortraeger_Iso_R', 'Motortraeger Isolierhuelsen R', K.spiegel_y(T['mount_iso'])))
     ecken = ecken_instanzen(eck, T['eck_u'])
     for i, (s, b, iso) in enumerate(zip(ecken,
-                                        [T['eck_bolts'], K.spiegel_y(T['eck_bolts']), K.spiegel_z(T['eck_bolts']), K.spiegel_z(K.spiegel_y(T['eck_bolts']))],
-                                        [T['eck_iso'], K.spiegel_y(T['eck_iso']), K.spiegel_z(T['eck_iso']), K.spiegel_z(K.spiegel_y(T['eck_iso']))])):
+                                        [T['eck_bolts'], K.spiegel_y(T['eck_bolts']), K.spiegel_z(T['eck_u_bolts']), K.spiegel_z(K.spiegel_y(T['eck_u_bolts']))],
+                                        [T['eck_iso'], K.spiegel_y(T['eck_iso']), K.spiegel_z(T['eck_u_iso']), K.spiegel_z(K.spiegel_y(T['eck_u_iso']))])):
         mm[f'E{i}'] = master(f'Eckknoten_{i}', f'Eckknoten {["V+ oben", "V- oben", "V+ unten", "V- unten"][i]}', s)
         mm[f'ES{i}'] = master(f'Eckknoten_Schrauben_{i}', f'Eckknoten Schrauben {i}', b)
         mm[f'EI{i}'] = master(f'Eckknoten_Iso_{i}', f'Eckknoten Isolierhuelsen {i}', iso)

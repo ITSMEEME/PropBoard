@@ -39,11 +39,28 @@ def seg_point_dist2d(p, a, b):
 
 
 # ------------------------------------------------------------ Grundgroessen
-def rahmen(bw):
+def overrides(bw, prop=None, vid=None):
+    """Konfigurationsspezifische Abweichungen (parameter.json 'konfig_overrides', Schluessel BW_PROP_VARIANTE)."""
+    if prop is None or vid is None:
+        return {}
+    pid = prop['id'] if isinstance(prop, dict) else prop
+    return P.get('konfig_overrides', {}).get(f'{bw}_{pid}_{vid}', {})
+
+
+def variante(bw, prop, vid):
+    """Rohrvariante inkl. Overrides (Rohrgroesse, E-Modul)."""
+    v = dict(P['varianten'][vid]); o = overrides(bw, prop, vid)
+    for k in ('rohr_od_mm', 'rohr_id_mm', 'cfk_e_modul_mpa', 'rohr_material'):
+        if k in o: v[k] = o[k]
+    v.setdefault('cfk_e_modul_mpa', P['lasten']['cfk_e_modul_mpa'])
+    return v
+
+
+def rahmen(bw, prop=None, vid=None):
     b = P['bauweisen'][bw]
     paare = b['rotorpositionen'] // 2
     nf = 2 * paare
-    s = P['rahmen']['seitenlaenge_mm']
+    s = overrides(bw, prop, vid).get('rahmen_seitenlaenge_mm', P['rahmen']['seitenlaenge_mm'])
     a = s / (2 * math.tan(math.pi / nf))
     rho = s / (2 * math.sin(math.pi / nf))
     return dict(paare=paare, seiten=nf, seitenlaenge=s, apothem=a, umkreis=rho,
@@ -72,8 +89,8 @@ def eckpunkte(rf):
 # ------------------------------------------------------------ Armgeometrie
 def arm(bw, prop, vid, R):
     """Systemlinien und Knotenpunkte des linken Auslegers im Paarsystem."""
-    rf = rahmen(bw)
-    v = P['varianten'][vid]
+    rf = rahmen(bw, prop, vid)
+    v = variante(bw, prop, vid) if vid in P['varianten'] else P['varianten'][vid]
     hu = huelse(v)
     dv = P['dreiecksverbinder']; mt = P['motortraeger']
     npos = P['bauweisen'][bw]['rotorpositionen']
@@ -85,37 +102,69 @@ def arm(bw, prop, vid, R):
     gamma = math.degrees(math.atan2(u[1], u[0]))
     zI = mt['systempunkt_z_mm']
     I = [M[0], M[1], zI]
+    Vp = [rf['apothem'], rf['seitenlaenge'] / 2, 0.0]
+    eck_z = v.get('eck_z_mm', [])
     roots = [[W[0], W[1], z] for z in v['wurzel_z_mm']]
-    n = len(roots)
+    n = len(roots) + len(eck_z)
     # Wurzelabstand: Bohrungen links/rechts duerfen sich nicht schneiden.
     d0 = max(dv['min_wurzel_abstand_mm'], (hu['r_bohr'] + 2.0) / math.sin(math.radians(gamma)))
     # Motorseitiger Kragabstand c_e: benachbarte Huelsen brauchen den Mittenabstand.
     if n == 1:
         ce = mt['einrohr_kragabstand_mm']
-    else:
+    elif not eck_z:
         dz = abs(v['wurzel_z_mm'][0] - v['wurzel_z_mm'][1])
         th = max(abs(math.atan2(zI - z, Lr)) for z in v['wurzel_z_mm'])
         ce = math.ceil(mt['huelsen_mittenabstand_mm'] * Lr / (dz * math.cos(th)))
+    else:
+        # Raumfachwerk: Achsabstand zweier Rohre im Grundrissabstand s vor I waechst mit s * |r_i/L_i - r_j/L_j|
+        alle = roots + [[Vp[0], Vp[1], z] for z in eck_z]
+        rel = [mul(sub(r, I), 1.0 / math.hypot(r[0] - I[0], r[1] - I[1])) for r in alle]
+        kmin = min(norm(sub(a, b)) for i, a in enumerate(rel) for b in rel[i + 1:])
+        ce = math.ceil(mt['huelsen_mittenabstand_mm'] / kmin)
     ce = max(ce, hu['kammer'] + 20.0)
 
     def at(k, s):
         return add(roots[k], mul(sub(I, roots[k]), s / Lr))
     rohre = []
-    for k in range(n):
+    for k in range(len(roots)):
         e = unit(sub(I, roots[k]))
         T = at(k, d0); Q = at(k, Lr - ce)
         Lsys = norm(sub(I, roots[k]))
-        rohre.append(dict(index=k, wurzel=r3(roots[k]), systempunkt=r3(I), e=r3(e), T=r3(T), Q=r3(Q),
+        rohre.append(dict(index=k, wurzel=r3(roots[k]), systempunkt=r3(I), e=r3(e), T=r3(T), Q=r3(Q), anschluss='verbinder',
                           laenge_mm=round(norm(sub(Q, T)), 2), systemlaenge_mm=round(Lsys, 2),
                           neigung_grad=round(math.degrees(math.asin(e[2])), 3)))
+    # Gurte zum benachbarten Rahmeneckknoten (V4): Huelse im Eckknoten, Anschlag nach der Eckknoten-Regel
+    eck_rohre = {}
+    if eck_z:
+        ra = P['rahmen']; an0 = ra['eckknoten_rohranschlag_mm']
+        r_bohr_r = ra['rohr_od_mm'] / 2 + P['huelse']['passspalt_radial_mm']
+        nf = rf['seiten']; ang = math.radians(360.0 / nf)
+        V2 = [Vp[0] * math.cos(ang) - Vp[1] * math.sin(ang), Vp[0] * math.sin(ang) + Vp[1] * math.cos(ang), 0.0]
+        rahmen_dirs = [[0.0, -1.0, 0.0], unit(sub(V2, Vp)), [0.0, 0.0, -1.0]]   # lokales System des oberen Eckknotens
+        for z in eck_z:
+            root = [Vp[0], Vp[1], z]; e = unit(sub(I, root)); k = len(rohre)
+            d_lok = [e[0], e[1], e[2] if z > 0 else -e[2]]          # unterer Knoten wird lokal oben gebaut und gespiegelt
+            an = an0
+            for o in rahmen_dirs:
+                w = math.degrees(math.acos(max(-1.0, min(1.0, dot(d_lok, o)))))
+                if w < 89.0:
+                    an = max(an, (r_bohr_r + hu['r_bohr'] + 2.5) / math.sin(math.radians(w)))
+            T = add(root, mul(e, an))
+            Lp = math.hypot(root[0] - I[0], root[1] - I[1])
+            Q = add(I, mul(sub(root, I), ce / Lp))
+            lage = 'ecke_oben' if z > 0 else 'ecke_unten'
+            eck_rohre[lage] = dict(d_lokal=r3(d_lok), anschlag_mm=round(an, 3))
+            rohre.append(dict(index=k, wurzel=r3(root), systempunkt=r3(I), e=r3(e), T=r3(T), Q=r3(Q), anschluss=lage,
+                              laenge_mm=round(norm(sub(Q, T)), 2), systemlaenge_mm=round(norm(sub(I, root)), 2),
+                              neigung_grad=round(math.degrees(math.asin(e[2])), 3)))
     # Dreiecksplatten: Eckpunkte (Laschenbohrungen B) und Huelsenenden (A)
-    Vp = [rf['apothem'], rf['seitenlaenge'] / 2, 0.0]
     ve = unit([W[0] - Vp[0], W[1] - Vp[1], 0.0])
     B = add(Vp, mul(ve, dv['lasche_bohrung_abstand_ecke_mm']))
     A = add(W, mul(u, d0 + hu['L_starr']))
     return dict(W=r3(W), M=r3(M), u=r3(u), Lr=round(Lr, 3), gamma_grad=round(gamma, 3), I=r3(I),
-                d0=round(d0, 3), ce=round(ce, 3), rohre=rohre, A=r3(A), B=r3(B), Vp=r3(Vp), ve=r3(ve),
-                huelse=hu, delta_grad=delta)
+                d0=round(d0, 3), ce=round(ce, 3), rohre=rohre, eck_rohre=eck_rohre, A=r3(A), B=r3(B), Vp=r3(Vp), ve=r3(ve),
+                huelse=hu, delta_grad=delta, e_modul=v.get('cfk_e_modul_mpa', P['lasten']['cfk_e_modul_mpa']),
+                rohr_material=v.get('rohr_material', 'CFK gewickelt (E 50 GPa, Annahme D14)'))
 
 
 def motorradius(bw, prop):
@@ -135,7 +184,7 @@ def motorradius(bw, prop):
 
 def struktur_grundriss(bw, prop, vid, R):
     """Punkte/Radien der Rahmen- und Verbinderstruktur aller Paare (global)."""
-    rf = rahmen(bw); g = arm(bw, prop, vid, R)
+    rf = rahmen(bw, prop, vid); g = arm(bw, prop, vid, R)
     pts = []
     paarwinkel = [j * 360.0 / rf['paare'] for j in range(rf['paare'])]
     for V in eckpunkte(rf):
@@ -149,7 +198,7 @@ def struktur_grundriss(bw, prop, vid, R):
 
 
 def grundriss_freiraum(bw, prop, vid, R):
-    rf = rahmen(bw)
+    rf = rahmen(bw, prop, vid)
     npos = P['bauweisen'][bw]['rotorpositionen']
     pts = struktur_grundriss(bw, prop, vid, R)
     best = 1e9
@@ -201,12 +250,14 @@ def stabwerk(bw, g, vid):
     la = P['lasten']; v = P['varianten'][vid]
     npos = P['bauweisen'][bw]['rotorpositionen']
     Fz = la['gesamtmasse_kg'] * la['g_m_s2'] * la['lastfaktor'] / npos
-    od, di = v['rohr_od_mm'], v['rohr_id_mm']
+    od, di = g['huelse']['od'], g['huelse']['id']
     A = math.pi / 4 * (od ** 2 - di ** 2)
     Iq = math.pi / 64 * (od ** 4 - di ** 4)
-    E = la['cfk_e_modul_mpa']
+    E = g.get('e_modul', la['cfk_e_modul_mpa'])
     res = dict(schub_je_ausleger_N=round(Fz, 1), lastfall='Schweben x Lastfaktor, Schub vertikal in der Motorachse')
     mt = P['motortraeger']
+    if g.get('eck_rohre'):
+        return stabwerk_raum(g, Fz, res, A, Iq, E, la, mt, v)
     if len(g['rohre']) == 1:
         M = Fz * g['Lr']
         Wb = math.pi * (od ** 4 - di ** 4) / (32 * od)
@@ -262,7 +313,78 @@ def stabwerk(bw, g, vid):
     return res
 
 
+def _k_rohr(t, E, A, Iq):
+    """Steifigkeit eines Rohrs am Systempunkt: axial EA/L, quer 3EI/L^3 (eingespannt-frei)."""
+    d = sub(t['wurzel'], t['systempunkt']); L = norm(d); e = [x / L for x in d]
+    ka = E * A / L; kq = 3 * E * Iq / L ** 3
+    return [[ka * e[i] * e[j] + kq * ((1.0 if i == j else 0.0) - e[i] * e[j]) for j in range(3)] for i in range(3)], e, L
+
+
+def _loese3(K, F):
+    import numpy as np
+    return [float(x) for x in np.linalg.solve(np.array(K), np.array(F))]
+
+
+def stabwerk_raum(g, Fz, res, A, Iq, E, la, mt, v):
+    """Raumfachwerk (V4): Balkenmodell aller Rohre am gemeinsamen Systempunkt I."""
+    K = [[0.0] * 3 for _ in range(3)]; st = []
+    for t in g['rohre']:
+        k, e, L = _k_rohr(t, E, A, Iq)
+        for i in range(3):
+            for j in range(3): K[i][j] += k[i][j]
+        st.append((t, e, L))
+    u = _loese3(K, [0.0, 0.0, Fz])
+    rows = []; ok = True; hu = g['huelse']
+    for t, e, L in st:
+        N = -E * A / L * dot(e, u)                           # Zug positiv
+        sig = N / A
+        Lfrei = t['laenge_mm'] - 2 * hu['L']
+        Pcr = math.pi ** 2 * E * Iq / (la['knickfaktor_k'] * Lfrei) ** 2
+        Ls = norm(sub(t['systempunkt'], t['Q'])) - hu['kammer']
+        ds = mt['strebe_d_mm']; As = math.pi / 4 * ds ** 2; Is = math.pi * ds ** 4 / 64
+        Pcr_s = math.pi ** 2 * la['alu_e_modul_mpa'] * Is / Ls ** 2
+        r = dict(rohr=t['index'], anschluss=t['anschluss'], wurzel_z_mm=t['wurzel'][2], stabkraft_N=round(N, 1),
+                 cfk_spannung_MPa=round(sig, 1), cfk_ausnutzung=round(abs(sig) / la['cfk_zulaessig_mpa'], 3),
+                 freie_knicklaenge_mm=round(Lfrei, 1), euler_knicklast_N=round(Pcr, 1), knick_ausnutzung=round(max(0.0, -N) / Pcr, 3),
+                 alu_strebe_laenge_mm=round(Ls, 1), alu_strebe_spannung_MPa=round(N / As, 1),
+                 alu_strebe_knick_ausnutzung=round(max(0.0, -N) / Pcr_s, 3))
+        r['bestanden'] = r['cfk_ausnutzung'] <= 1 and r['knick_ausnutzung'] <= 1 and abs(N / As) <= la['alu_zulaessig_mpa'] and r['alu_strebe_knick_ausnutzung'] <= 1
+        ok = ok and r['bestanden']; rows.append(r)
+    res.update(modell='Raumfachwerk (Balkenmodell, Systemlinien schneiden sich auf der Motorachse)',
+               verschiebung_systempunkt_mm=[round(x, 3) for x in u], staebe=rows, bestanden=ok)
+    res['wurzelkraefte_N'] = [r3(mul(unit(sub(t['systempunkt'], t['wurzel'])), r['stabkraft_N'])) for (t, e, L), r in zip(st, rows)]
+    return res
+
+
+def dynamik(bw, prop, g, vid):
+    """Erste Eigenfrequenzen des Auslegers (Ein-Massen-Schwinger am Systempunkt, Balkenmodell aller Rohre)."""
+    import numpy as np
+    la = P['lasten']
+    od, di = g['huelse']['od'], g['huelse']['id']; A = math.pi / 4 * (od ** 2 - di ** 2); Iq = math.pi / 64 * (od ** 4 - di ** 4); E = g.get('e_modul', la['cfk_e_modul_mpa'])
+    K = np.zeros((3, 3)); m_rohre = 0.0
+    for t in g['rohre']:
+        k, e, L = _k_rohr(t, E, A, Iq); K += np.array(k); m_rohre += A * L * 1.55e-6
+    koax = P['bauweisen'][bw]['motoren_je_position'] == 2
+    m = (2 if koax else 1) * (2.75 + 0.56 * (prop['d_mm'] / 1066.8) ** 2.5) + (1.0 if koax else 0.6) + 0.3 + 0.24 * m_rohre
+    Ki = np.linalg.inv(K); u = np.array(g['u']); lat = np.cross([0, 0, 1.0], u)
+    f = lambda k: math.sqrt(max(k, 0) * 1000 / m) / (2 * math.pi)
+    return dict(f_vertikal_Hz=round(f(1 / Ki[2, 2]), 1), f_seitlich_Hz=round(f(1 / float(lat @ Ki @ lat)), 1),
+                f_min_Hz=round(f(float(np.linalg.eigvalsh(K)[0])), 1), endmasse_kg=round(m, 2),
+                modell='Balkenmodell (axial EA/L, quer 3EI/L^3) am Systempunkt, Endmasse Motor+Propeller+Motortraeger+Regleranteil; Anhalt, keine FE-Modalanalyse')
+
+
 # ------------------------------------------------------- Ausruestung
+def _abstand_polygon(p, poly):
+    """Grundrissabstand Punkt-Polygon (0, wenn innen)."""
+    inn = False; best = 1e9
+    for i in range(len(poly)):
+        a, b = poly[i], poly[(i + 1) % len(poly)]
+        if (a[1] > p[1]) != (b[1] > p[1]) and p[0] < a[0] + (p[1] - a[1]) * (b[0] - a[0]) / (b[1] - a[1]):
+            inn = not inn
+        best = min(best, seg_point_dist2d(p, a, b))
+    return 0.0 if inn else best
+
+
 def ausruestungsecken(rf, fuer='landung'):
     """Vier Ecken (+-cx, +-cy). Landung: groesstes |y| (breite Spur); Fussschlitten: kleinstes |y|
     (Ecke nahe der Schiene, Stuetzen kreuzen die Indexierleisten nicht)."""
@@ -270,6 +392,30 @@ def ausruestungsecken(rf, fuer='landung'):
     yw = max(v[1] for v in cand) if fuer == 'landung' else min(v[1] for v in cand)
     cx = min(abs(v[0]) for v in cand if abs(v[1] - yw) < 1e-6)
     return round(cx, 6), round(yw, 6)
+
+
+def sattel_x(rf, g, cx, cy):
+    """Grundrisslage des Schienensattels: ueber der Ecke; bei grossen Rahmen nach innen versetzt, bis die Stuetze
+    (Eckknoten -> Sattel) im Hoehenbereich der Dreiecksverbinderplatten mindestens Plattenrand + Huelsenradius + 3 mm
+    Abstand zur Plattenkontur hat."""
+    dv = P['dreiecksverbinder']; lv = P['rahmen']['ebene_z_mm']; fs = P['fussschlitten']
+    A_, B_ = g['A'], g['B']; poly0 = [B_[:2], A_[:2], [A_[0], -A_[1]], [B_[0], -B_[1]]]
+    polys = [[rotz(q + [0.0], j * 360.0 / rf['paare'])[:2] for q in poly0] for j in range(rf['paare'])]
+    r_h = P['rahmen']['rohr_od_mm'] / 2 + P['huelse']['passspalt_radial_mm'] + P['huelse']['wand_mm']
+    grenze = dv['platte_rand_mm'] + r_h + 3.0
+    z_lo, z_hi = lv - 5.0, lv + dv['platte_abstand_ebene_mm'] + dv['platte_dicke_mm'] + r_h
+    zs = fs['schiene_z_d13_mm'] + fs['z_versatz_mm'] - 30.0; y = fs['schiene_y_mm']
+    def frei(xs):
+        a, b = [cx, cy, lv], [xs, y, zs]
+        for i in range(41):
+            p = add(a, mul(sub(b, a), i / 40))
+            if z_lo <= p[2] <= z_hi and min(_abstand_polygon(p[:2], pl) for pl in polys) < grenze:
+                return False
+        return True
+    xs = cx
+    while not frei(xs) and xs > cx - 200:
+        xs -= 5.0
+    return xs
 
 
 def strecke_im_rotor(a, b, motoren, r_frei, z_grenze=None, n=60):
@@ -285,12 +431,13 @@ def strecke_im_rotor(a, b, motoren, r_frei, z_grenze=None, n=60):
 
 
 def ausruestung(bw, prop, vid, R, g, rotor_oben, unten, hh):
-    rf = rahmen(bw); fs = P['fussschlitten']; lg = P['landegestell']; rg = P['regler']; rt = P['rotor']
+    rf = rahmen(bw, prop, vid); fs = P['fussschlitten']; lg = P['landegestell']; rg = P['regler']; rt = P['rotor']
     hu = g['huelse']; mt = P['motortraeger']
     lv = P['rahmen']['ebene_z_mm']; an = P['rahmen']['eckknoten_rohranschlag_mm']
     motoren = motoren_global(bw, R)
     D = prop['d_mm']
     cx, cy = ausruestungsecken(rf, 'fussschlitten')
+    xs = sattel_x(rf, g, cx, cy)
     cxl, cyl = ausruestungsecken(rf, 'fussschlitten')   # gleiche Ecken: Beine laufen von den Verbindern weg
     frei = rt['min_freiraum_struktur_mm']
     env_oben_unterkante = rotor_oben - hh
@@ -306,7 +453,7 @@ def ausruestung(bw, prop, vid, R, g, rotor_oben, unten, hh):
         if (d_bock >= frei and d_str >= frei) or L <= cx + 40:
             break
         L -= 5.0
-    xf_min = cx + fs['sattel_halbe_laenge_mm'] + fs['sattel_freiraum_mm'] + fs['backe_halbe_laenge_mm']
+    xf_min = xs + fs['sattel_halbe_laenge_mm'] + fs['sattel_freiraum_mm'] + fs['backe_halbe_laenge_mm']
     L_noetig = xf_min + fs['backe_halbe_laenge_mm'] + fs['bock_freiraum_x_mm']
     if L >= L_noetig:
         modus = 'Bock mit Strebe'
@@ -317,7 +464,7 @@ def ausruestung(bw, prop, vid, R, g, rotor_oben, unten, hh):
     xf_max = L - fs['bock_freiraum_x_mm'] - fs['backe_halbe_laenge_mm']
     xf = max(xf_min, min(fs['fuss_nenn_x_mm'], xf_max))
     fussschlitten = dict(schiene_z_mm=zr, schiene_y_mm=fs['schiene_y_mm'], bock_x_mm=L, fuss_x_mm=round(xf, 1),
-                         fuss_x_max_mm=round(xf_max, 1), fuss_x_min_mm=round(xf_min, 1), sattel_x_mm=cx,
+                         fuss_x_max_mm=round(xf_max, 1), fuss_x_min_mm=round(xf_min, 1), sattel_x_mm=xs,
                          verstellbereich_ok=xf_max >= xf_min, ecke=[cx, cy, lv], modus=modus,
                          bock_ueber_rotor_vertikal_mm=round(zr - 18.0 - (rotor_oben + hh), 1),
                          bock_rotor_ok=(d_bock >= frei) or (zr - 18.0 - (rotor_oben + hh) >= frei),
@@ -342,11 +489,20 @@ def ausruestung(bw, prop, vid, R, g, rotor_oben, unten, hh):
     # Platz zwischen Motortraeger-Huelse und Verbinder-Huelse entlang des Auslegers (Grundriss)
     frei_von = g['ce'] + hu['L'] + rg['abstand_hinter_huelse_mm']
     frei_bis = g['Lr'] - g['d0'] - hu['L'] - rg['abstand_hinter_huelse_mm']
+    if g.get('eck_rohre'):
+        # V4: Halter sitzt auf den Gurten zur Rahmenecke; Platz endet vor der Gurthuelse im Eckknoten
+        ec = g['rohre'][-1]; ehor = math.hypot(ec['e'][0], ec['e'][1])
+        d_ecke = math.hypot(g['M'][0] - g['Vp'][0], g['M'][1] - g['Vp'][1])
+        an_max = max(v_['anschlag_mm'] for v_ in g['eck_rohre'].values())
+        frei_bis = min(frei_bis, d_ecke - (an_max + P['rahmen']['eckknoten_steckhuelse_mm']) * ehor - rg['abstand_hinter_huelse_mm'])
     platz = frei_bis - frei_von
-    if platz >= rg['mass_mm'][0] + 12:
+    n_hinter = 2 if (unten is not None and g.get('eck_rohre')) else 1      # V4-Koax: zwei Regler hintereinander
+    if platz >= n_hinter * (rg['mass_mm'][0] + 12):
         lage, laenge = 'liegend', rg['mass_mm'][0]
     else:
         lage, laenge = 'hochkant', rg['mass_mm'][1]
+    if n_hinter == 2 and platz < 2 * (laenge + 12):
+        n_hinter = 1                                                       # zweiter Regler passt nicht an den Ausleger
     s_mitte = frei_von + laenge / 2 + 6                                     # Grundrissabstand zur Motorachse
     u = g['u']; M = g['M']
     pz = []
@@ -357,13 +513,23 @@ def ausruestung(bw, prop, vid, R, g, rotor_oben, unten, hh):
     zc = (max(pz) + min(pz)) / 2
     mitte = [M[0] - u[0] * s_mitte, M[1] - u[1] * s_mitte, zc]
     dz = (rg['mass_mm'][1] if lage == 'liegend' else rg['mass_mm'][0]) / 2
-    regler = dict(mitte=r3(mitte), s_mitte_mm=round(s_mitte, 2), seiten=[1, -1] if unten is not None else [1],
+    # Lage der Regler (Seite, Grundrissabstand zur Motorachse). V4-Koax: beide aussen hintereinander, weil innen das Mittelrohr liegt
+    if unten is None:
+        positionen = [[1, s_mitte]]
+    elif g.get('eck_rohre'):
+        positionen = [[1, s_mitte], [1, s_mitte + laenge + 12]] if n_hinter == 2 else [[1, s_mitte]]
+    else:
+        positionen = [[1, s_mitte], [-1, s_mitte]]
+    s_fern = max(p_[1] for p_ in positionen)
+    passt = frei_bis - frei_von >= (s_fern - s_mitte) + laenge + 12 and len(positionen) == (2 if unten is not None else 1)
+    regler = dict(mitte=r3(mitte), s_mitte_mm=round(s_mitte, 2), seiten=sorted({p_[0] for p_ in positionen}, reverse=True),
+                  positionen=[[p_[0], round(p_[1], 2)] for p_ in positionen],
                   z_bereich_mm=[round(zc - dz, 2), round(zc + dz, 2)],
                   freiraum_oben_mm=round(env_oben_unterkante - (zc + dz), 2),
                   freiraum_unten_mm=None if unten is None else round(zc - dz - (unten['rotorebene_z_mm'] + hh), 2),
-                  lage=lage, platz_entlang_ausleger_mm=round(platz, 1), passt=platz >= laenge + 12,
-                  abstand_reglerende_motorachse_mm=round(s_mitte - laenge / 2, 1),
-                  phasenkabel_reicht=s_mitte - laenge / 2 <= rg['phasenkabel_mm'],
+                  lage=lage, platz_entlang_ausleger_mm=round(platz, 1), passt=passt,
+                  abstand_reglerende_motorachse_mm=round(s_fern - laenge / 2, 1),
+                  phasenkabel_reicht=s_fern - laenge / 2 <= rg['phasenkabel_mm'],
                   rohr_z_mm=[round(z, 2) for z in pz])
     return dict(fussschlitten=fussschlitten, landegestell=landegestell, regler=regler)
 
@@ -413,7 +579,7 @@ def konfiguration(bw, prop, vid):
     rt = P['rotor']; mt = P['motortraeger']; mo = P['motor']
     R, quelle = motorradius(bw, prop)
     g = arm(bw, prop, vid, R)
-    rf = rahmen(bw)
+    rf = rahmen(bw, prop, vid)
     npos = P['bauweisen'][bw]['rotorpositionen']
     D = prop['d_mm']
     spitze = 2 * R * math.sin(math.pi / npos) - D
@@ -443,6 +609,7 @@ def konfiguration(bw, prop, vid):
                      huelle_unterkante_z_mm=round(z_unten - hh, 2))
     plan = grundriss_freiraum(bw, prop, vid, R)
     stat = stabwerk(bw, g, vid)
+    stat['dynamik'] = dynamik(bw, prop, g, vid)
     aus = ausruestung(bw, prop, vid, R, g, z_oben, unten, hh)
     stat_aus = statik_ausruestung(bw, aus)
     # Zuschnitt
@@ -460,6 +627,7 @@ def konfiguration(bw, prop, vid):
         oberer_rotor_ok=frei_oben >= rt['min_freiraum_struktur_mm'] - 1e-6,
         unterer_rotor_ok=(unten is None) or unten['freiraum_struktur_mm'] >= rt['min_freiraum_struktur_mm'] - 1e-6,
         systemlinien_zentrisch=len(g['rohre']) > 1,
+        seitensteifigkeit_ok=stat['dynamik']['f_min_Hz'] >= 15.0,
         stabwerk_screening_ok=stat['bestanden'],
         fussschlitten_nennstand_ok=aus['fussschlitten']['nennstand_200mm_moeglich'],
         fussschlitten_verstellbereich_ok=aus['fussschlitten']['verstellbereich_ok'],

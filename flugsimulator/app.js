@@ -7,12 +7,29 @@ const fehler = t => { $('fehler').hidden = false; $('fehler').textContent = t; }
 if (!D || !P) { fehler('Daten oder Physikmodul fehlen (modelle.js / physik.js).'); return; }
 
 // ------------------------------------------------------------------ Auswahl
+document.querySelectorAll('.anzahlKonf').forEach(e => e.textContent = Object.keys(D.modelle).length);
 const modelle = Object.values(D.modelle), uniq = (k, l) => [...new Map(modelle.map(m => [m[k], m[l]])).entries()];
-const opt = (el, items, sel) => { $(el).innerHTML = items.map(([v, t]) => `<option value="${v}" ${v === sel ? 'selected' : ''}>${t}</option>`).join(''); };
+const opt = (el, items, sel) => { $(el).innerHTML = items.map(([v, t]) => `<option value="${v}" ${String(v) === String(sel) ? 'selected' : ''}>${t}</option>`).join(''); };
 const hash = Object.fromEntries(location.hash.slice(1).split('&').filter(Boolean).map(x => x.split('=')));
 opt('bauweise', uniq('bauweise', 'bauweise_label'), hash.b || D.standard.bauweise);
 opt('propeller', uniq('propeller', 'propeller_label'), hash.p || D.standard.propeller);
 opt('variante', uniq('variante', 'variante_label').map(([k, t]) => [k, `${k} · ${t}`]), hash.v || D.standard.variante);
+const MOT = D.motoren || {MN1330_KV40: D.motor};
+opt('motor', Object.entries(MOT).map(([k, m]) => [k, `${m.typ} · ${f(m.masse_kg, 2)} kg`]), hash.m || D.standard_motor || 'MN1330_KV40');
+const AKK = (D.akkus && D.akkus.akkus) || {};
+opt('akkuTyp', Object.entries(AKK).map(([k, a]) => [k, a.typ]), hash.a || D.standard_akku);
+function akkuOptionen(behalten) {
+  const a = AKK[$('akkuTyp').value]; if (!a) return; const alt = +$('akkuP').value;
+  const wahl = behalten && a.P_optionen.includes(alt) ? alt : a.P_standard;
+  opt('akkuP', a.P_optionen.map(p => [p, `${p}P · ${f(a.einheit_Ah*p, 1)} Ah · ${f(a.einheit_masse_kg*p, 1)} kg`]), String(wahl));
+  $('akkuEinheit').textContent = a.chemie;
+}
+akkuOptionen(false); if (hash.ap) { $('akkuP').value = hash.ap; }
+function motorInfo() {
+  const m = MOT[$('motor').value], q = (m.quellen || []).filter(u => u.startsWith('http')).map((u, i) => `<a href="${u}" target="_blank" rel="noopener">Quelle ${i + 1}</a>`).join(' · ');
+  $('motorInfo').innerHTML = `KV ${m.kv} · ${f(m.masse_kg, 2)} kg · Ø${m.abmessung_mm[0]}×${m.abmessung_mm[1]} mm · max. ${f(m.max_strom_A, 0)} A · k<sub>t</sub> ${f(m.kt_fit, 3)} Nm/A, R ${f(m.r_phase_fit*1000, 1)} mΩ, L ${f((m.L_phase || 0)*1e6, 0)} µH · ${m.datenlage}${m.fit_rms_anteil ? ` (Leistung RMS ${f(m.fit_rms_anteil*100, 1)} %)` : ''}${q ? ' · ' + q : ''}` +
+    (m.abmessung_mm[1] > 66 || m.abmessung_mm[0] > 150 ? ' · <b>Bauraum größer als die D14-Motorhülle Ø150×66 – Konstruktion nicht nachgeprüft</b>' : '');
+}
 const schluessel = () => `${$('bauweise').value}_${$('propeller').value}_${$('variante').value}`;
 
 // ------------------------------------------------------------------ CAD-Netze per <script> (funktioniert auch ueber file://)
@@ -31,7 +48,7 @@ try { ansicht = new globalThis.SimAnsicht.Ansicht($('view')); } catch (e) { fehl
 const eingabe = new globalThis.SimEingabe.Input({onAction: aktion, onBlur: () => { if (laeuft) setPause(true, 'Pausiert nach Fokusverlust. Leertaste setzt fort.'); }});
 
 function optionen() {
-  return {nutzlast: +$('nutzlast').value, akku_P: +$('akkuP').value, akku_Ah: +$('akkuAh').value, temp_C: +$('temp').value, hoehe_m: +$('hoehe').value,
+  return {motor: $('motor').value, akku_typ: $('akkuTyp').value, nutzlast: +$('nutzlast').value, akku_P: +$('akkuP').value, temp_C: +$('temp').value, hoehe_m: +$('hoehe').value,
     wind: +$('wind').value, windrichtung: (+$('windrichtung').value + 180) % 360, turbulenz: +$('turbulenz').value, boeen: +$('boeen').value, streuung: $('streuung').checked ? 1 : 0, seed: 7};
 }
 function beschriften() {
@@ -43,7 +60,7 @@ function beschriften() {
 async function neuesModell() {
   const k = schluessel(); md = D.modelle[k];
   if (!md) { fehler('Konfiguration fehlt: ' + k); return; }
-  history.replaceState(null, '', `#b=${md.bauweise}&p=${md.propeller}&v=${md.variante}`);
+  history.replaceState(null, '', `#b=${md.bauweise}&p=${md.propeller}&v=${md.variante}&m=${$('motor').value}&a=${$('akkuTyp').value}&ap=${$('akkuP').value}`);
   $('cadPill').textContent = 'CAD wird geladen …';
   try {
     if (!cad.daten[k]) await lade(VIEWER + k + '.js');
@@ -62,6 +79,7 @@ function ansichtInfo() {
   const info = {
     armVonPaar: (j, side) => { const ziel = d.paarwinkel[j] + (side ? -delta : delta); let best = 0, bd = 1e9; d.motoren.forEach(m => { const w = winkelDiff(m.winkel_grad, ziel); if (w < bd) { bd = w; best = m.nr; } }); return md.arme.findIndex(a => a.nr === best); },
     rotorVon: (j, unten) => { const nr = d.motoren[j].nr + (unten ? nm : 0); return md.rotoren.findIndex(r => r.nr === nr); },
+    motorMass: MOT[$('motor').value].abmessung_mm,
     person: $('zeigePerson').checked && sim.opt.nutzlast > 0 ? {z: md.plattform_z_m*1000, fx: md.fuss_x_m*1000, groesse: 1.75} : null,
     ersatz: [], ersatzProps: [],
   };
@@ -78,16 +96,21 @@ function zuruecksetzen() {
   programm = null; $('programmInfo').textContent = 'Programme laufen mit dem aktuellen Modell und der aktuellen Umgebung.';
   try { sim = new P.Sim(D, md.schluessel, optionen()); } catch (e) { fehler(e.message); return; }
   sim.regler.modus = $('modus').value;
-  try { sim.restSchaetzung = P.Sim.schwebeAnalyse(D, md.schluessel, optionen()).flugzeit_min; } catch (e) { sim.restSchaetzung = 0; }
+  try { const an = P.Sim.schwebeAnalyse(D, md.schluessel, optionen()); sim.restSchaetzung = an.flugzeit_min; sim.restSchaetzungI = an.I_bus_A; } catch (e) { sim.restSchaetzung = 0; }
   winkel = sim.rotoren.map(() => Math.random()*6.28); log = []; dash.reset(); partikelReset();
   if (ansicht) { const d = cad.daten[md.schluessel]; ansicht.ladeModell(d, d ? cad.ecken[md.bauweise] : null, d ? cad.prop[md.propeller] : null, cad.d12, ansichtInfo()); ansicht.kam.glatt = null; }
   $('cadPill').textContent = ansicht && ansicht.cadGeladen ? 'D14-CAD-Netze' : 'Ersatzdarstellung (CAD-Netze nicht gefunden)';
-  $('modellPill').textContent = `${md.bauweise_label.replace('Multirotor ', '')} · ${md.propeller_label} · ${md.variante}`;
+  $('modellPill').textContent = `${md.bauweise_label.replace('Multirotor ', '')} · ${md.propeller_label} · ${md.variante} · ${sim.motor.typ}`; motorInfo();
   opt('ausfallMotor', sim.rotoren.map((r, i) => [i, `M${r.nr}${r.lage === 'unten' ? ' (unten)' : ''} ${r.s > 0 ? 'CCW' : 'CW'}`]), '0');
-  const a = sim.akku; $('akkuInfo').textContent = `${a.S}S${a.P}P ${a.Ah} Ah: ${f(a.S*a.P*a.Ah*3.7/1000, 2)} kWh, ${f(a.masse, 1)} kg (${a.Whkg} Wh/kg), Reserve ${f(a.reserve*100, 0)} %`;
+  const a = sim.akku, at = AKK[sim.akkuTyp];
+  const qs = at ? at.quellen.map((u, i) => `<a href="${u}" target="_blank" rel="noopener">Quelle ${i + 1}</a>`).join(' · ') : '';
+  const iSchweben = sim.restSchaetzungI || 0;
+  $('akkuInfo').innerHTML = `${a.S}S${a.P}P · ${f(a.Ah*a.P, 1)} Ah · ${f(a.S*a.P*a.Ah*3.7/1000, 2)} kWh · ${f(a.masse, 1)} kg (${f(a.Whkg, 0)} Wh/kg) · Dauerstrom ${f(a.Idauer, 0)} A, Spitze ${f(a.Ipuls, 0)} A` +
+    (iSchweben ? ` · Schwebestrom ${f(iSchweben, 0)} A` + (iSchweben > a.Idauer ? ' <b class="st-ernst">▲ über Dauerbelastbarkeit</b>' : '') : '') +
+    (at ? `<br>R<sub>i</sub> ${f(at.R0_mOhm, 1)} mΩ je Zelle (${at.R0_quelle}) · ${at.I_quelle} · Entladeschluss ${f(at.U_min, 1)} V · max. ${at.T_max} °C${at.pack_hinweis ? ' · ' + at.pack_hinweis : ''} · ${qs}` : '');
   const offen = Object.entries(md.pruefungen).filter(([k, v]) => v === false && !['systemlinien_zentrisch'].includes(k)).map(([k]) => k.replace(/_/g, ' ').replace(/ ok$/, ''));
   const tw = sim.Tmax.reduce((x, y) => x + y, 0)/(sim.mm.M*P.G);
-  const hinweise = []; if (tw < 1) hinweise.push(`Mit MN1330 KV40 bei ${f(a.leerlauf(), 0)} V erreicht dieser Propeller höchstens ${f(sim.Tmax.reduce((x, y) => x + y, 0)/P.G, 0)} kg Schub bei ${f(sim.mm.M, 0)} kg Gewicht – das Modell kann nicht abheben.`);
+  const hinweise = []; if (tw < 1) hinweise.push(`Mit ${sim.motor.typ} bei ${f(a.leerlauf(), 0)} V erreicht dieser Propeller höchstens ${f(sim.Tmax.reduce((x, y) => x + y, 0)/P.G, 0)} kg Schub bei ${f(sim.mm.M, 0)} kg Gewicht – das Modell kann nicht abheben.`);
   if (offen.length) hinweise.push('Offene D14-Prüfungen: ' + offen.join(', ') + '.');
   $('modellInfo').hidden = !hinweise.length; $('modellInfo').textContent = hinweise.join(' ');
   laeuft = true; setPause(false); $('meldung').hidden = true; status();
@@ -109,7 +132,8 @@ $('ausfall').onclick = () => sim && sim.motorAusfall(+$('ausfallMotor').value);
 $('modus').onchange = () => { if (sim) sim.regler.modus = $('modus').value; };
 $('kamera').onchange = () => { if (ansicht) ansicht.kam.modus = $('kamera').value; };
 ['bauweise', 'propeller', 'variante'].forEach(i => $(i).onchange = neuesModell);
-['nutzlast', 'akkuP', 'akkuAh', 'temp', 'hoehe', 'streuung'].forEach(i => $(i).onchange = () => { beschriften(); zuruecksetzen(); vergleichPlanen(); });
+['motor', 'nutzlast', 'akkuP', 'temp', 'hoehe', 'streuung'].forEach(i => $(i).onchange = () => { beschriften(); motorInfo(); zuruecksetzen(); vergleichPlanen(); });
+$('akkuTyp').onchange = () => { akkuOptionen(false); zuruecksetzen(); vergleichPlanen(); };
 ['wind', 'windrichtung', 'turbulenz', 'boeen'].forEach(i => $(i).oninput = () => { beschriften(); if (sim) sim.wind.set({mittel: +$('wind').value, richtung: (+$('windrichtung').value + 180) % 360, turbulenz: +$('turbulenz').value, boeen: +$('boeen').value}); });
 ['nutzlast', 'temp', 'hoehe'].forEach(i => $(i).oninput = beschriften);
 $('zeigePerson').onchange = () => zuruecksetzen();
@@ -248,10 +272,10 @@ function vergleichRechnen() {
   const chunk = () => { const t0 = performance.now();
     while (i < keys.length && performance.now() - t0 < 25) { const m = D.modelle[keys[i]]; try { const a = P.Sim.schwebeAnalyse(D, keys[i], o);
       a.bauweise = m.bauweise_label.replace('Multirotor ', ''); a.prop = m.propeller_label; a.d = m.d_m; a.variante = m.variante;
-      a.status = a.gesaettigt ? 'kann nicht schweben' : a.arm_lastfaktor_grenze < 1.5 ? 'Ausleger knapp' : a.tw_max < 1.4 ? 'Reserve knapp' : a.mach_spitze > 0.6 ? 'Mach hoch' : 'flugfähig';
+      a.status = a.gesaettigt ? 'kann nicht schweben' : a.akku_ueberlast ? 'Akkustrom zu hoch' : a.arm_lastfaktor_grenze < 1.5 ? 'Ausleger knapp' : a.tw_max < 1.4 ? 'Reserve knapp' : a.mach_spitze > 0.6 ? 'Mach hoch' : 'flugfähig';
       a.stufe = a.gesaettigt ? 'kritisch' : a.status === 'flugfähig' ? 'gut' : 'ernst'; vergleich.push(a); } catch (e) { } i++; }
     $('vergleich').innerHTML = `<p class="note">Berechnet ${i} / ${keys.length} …</p>`;
-    if (i < keys.length) setTimeout(chunk, 0); else { $('vergleichStart').disabled = false; vergleichZeigen(); } };
+    if (i < keys.length) setTimeout(chunk, 0); else { $('vergleichStart').disabled = false; vergleichZeigen(); motorVergleich(o); } };
   chunk();
 }
 function vergleichZeigen() {
@@ -266,16 +290,30 @@ function vergleichZeigen() {
   $('vergleich').querySelectorAll('th').forEach(th => th.onclick = () => { const k = th.dataset.k; if (k === sortKey) sortAuf = !sortAuf; else { sortKey = k; sortAuf = typeof vergleich[0][k] === 'string'; } vergleichZeigen(); });
   $('vergleich').querySelectorAll('tr[data-s]').forEach(tr => tr.onclick = () => { const m = D.modelle[tr.dataset.s]; $('bauweise').value = m.bauweise; $('propeller').value = m.propeller; $('variante').value = m.variante; neuesModell(); $('view').scrollIntoView({behavior: 'smooth', block: 'center'}); });
 }
+function motorVergleich(o) {
+  const ziel = $('motorvergleich'), mks = Object.keys(MOT), keys = Object.keys(D.modelle), erg = {}; let j = 0;
+  ziel.innerHTML = '<p class="note">wird berechnet …</p>';
+  const schritt = () => { const mk = mks[j], rows = [];
+    for (const k of keys) { try { const a = P.Sim.schwebeAnalyse(D, k, Object.assign({}, o, {motor: mk})); if (!a.gesaettigt) rows.push(a); } catch (e) { } }
+    rows.sort((a, b) => b.flugzeit_min - a.flugzeit_min); erg[mk] = rows; j++;
+    if (j < mks.length) { setTimeout(schritt, 0); return; }
+    const name = k => { const m = D.modelle[k]; return `${m.bauweise_label.replace('Multirotor ', '').replace(/ \(.*\)/, '')} ${m.propeller_label.replace('HEP-S ', '')} ${m.variante}`; };
+    ziel.innerHTML = '<table><tr><th>Motor</th><th>Masse je Motor</th><th>KV</th><th>max. Strom</th><th>schwebefähig</th><th>kleinster Propeller</th><th>beste Konfiguration</th><th>Flugzeit</th><th>Leistung</th><th>je Motor / Nennleistung</th><th>Schub/Gew.</th><th>Datenlage</th></tr>' +
+      mks.map(mk => { const m = MOT[mk], r = erg[mk], b = r[0], dmin = r.length ? Math.min(...r.map(a => D.modelle[a.schluessel].d_in)) : null;
+        return `<tr><td>${m.typ}</td><td>${f(m.masse_kg, 2)} kg</td><td>${m.kv}</td><td>${f(m.max_strom_A, 0)} A</td><td>${r.length} / ${keys.length}</td><td>${dmin ? dmin + '″' : '–'}</td><td>${b ? name(b.schluessel) : '–'}</td><td>${b ? f(b.flugzeit_min, 1) + ' min' : '–'}</td><td>${b ? f(b.P_kW, 1) + ' kW' : '–'}</td><td class="${b && m.nennleistung_W && b.P_je_motor_W > m.nennleistung_W ? 'st-ernst' : ''}">${b ? f(b.P_je_motor_W/1000, 2) + ' / ' + (m.nennleistung_W ? f(m.nennleistung_W/1000, 2) : '–') + ' kW' : '–'}</td><td>${b ? f(b.tw_max, 2) : '–'}</td><td>${m.datenlage}</td></tr>`; }).join('') + '</table>';
+    window.SIM_MOTORVERGLEICH = Object.fromEntries(mks.map(mk => [mk, {schwebefaehig: erg[mk].length, beste: erg[mk][0] && erg[mk][0].schluessel, flugzeit_min: erg[mk][0] && erg[mk][0].flugzeit_min}]));
+  };
+  setTimeout(schritt, 0);
+}
 function markiereVergleich() { if (vergleich.length) vergleichZeigen(); }
 $('vergleichStart').onclick = vergleichRechnen; $('nurFlugfaehig').onchange = vergleichZeigen;
 
 // ------------------------------------------------------------------ Modellbeschreibung
-const mo = D.motor;
 $('modellText').innerHTML = [
-  `<b>Starrkörper.</b> 6 Freiheitsgrade, Quaternionen, 1 kHz. Masse und Trägheitstensor aus den D14-CAD-Massen (Struktur, Ausrüstung, Regler), ${f(mo.masse_kg, 2)} kg je Motor, Propeller (Annahme 0,56 kg bei 42″), Akku (165 Wh/kg), 2 kg Bordnetz und der Person als Zylinder auf der Fußplattform. Kreiselmomente der Rotoren sind enthalten.`,
+  `<b>Starrkörper.</b> 6 Freiheitsgrade, Quaternionen, 1 kHz. Masse und Trägheitstensor aus den D14-CAD-Massen (Struktur, Ausrüstung, Regler), die Motormasse des gewählten Motors (1,74–4,2 kg), Propeller (Annahme 0,56 kg bei 42″), Akku (165 Wh/kg), 2 kg Bordnetz und der Person als Zylinder auf der Fußplattform. Kreiselmomente der Rotoren sind enthalten.`,
   `<b>Rotor.</b> Blattelement-Impuls-Modell je Rotor mit gemeinsamer Lösung von Schub und Zustrom: Steig-/Sinkflug, Vorwärtsflug (Translationsauftrieb, Blattschlag-Neigung, H-Kraft, Nick- und Rollmomente), Wirbelringstadium (empirische Zustromkurve, Schubschwankung), Windmühlenzustand, Strömungsabriss ab C<sub>L</sub> 1,25, Bodeneffekt (Cheeseman–Bennett), Abschattung durch Ausleger und Regler. Statische Beiwerte wie D13: NS52×20-Tabelle mit Steigungsskalierung, kein HEP-S-Kennfeld.`,
   `<b>Prop wash.</b> Koaxial: der untere Rotor arbeitet im Nachlauf des oberen; der Nachlauf wandert im Vorwärtsflug ab. Hintere Rotoren nehmen bei Wind oder Vorwärtsflug den Nachlauf der vorderen auf. Der Abwind kühlt die Motoren. Die Partikel zeigen Abwind und Bodenausbreitung.`,
-  `<b>Antrieb.</b> MN1330 KV40 mit k<sub>t</sub> = ${f(mo.kt_fit, 3)} Nm/A, R = ${f(mo.r_phase_fit*1000, 1)} mΩ und I<sub>0</sub> = ${f(mo.i0_fit, 1)} A, angepasst an die 19 Prüfstandspunkte (RMS-Abweichung ${f(mo.fit_rms_anteil*100, 1)} %). Drehzahlregelung im Regler, Aussteuerungs- und Stromgrenze (${D.regler.spitze_A} A), aktives Bremsen bis 40 A. Thermik von Wicklung, Gehäuse und Regler mit Leistungsreduzierung ab 150 °C bzw. 100 °C.`,
+  `<b>Antrieb.</b> Vier Motoren wählbar: MN1330 KV40 (Bestand, 19 Prüfpunkte), T-Motor U15L KV43 und U15 II KV80 (Herstellertabellen) sowie MAD M50C35 PRO EEE 40KV (Herstellerangaben ohne Messtabelle, R und I<sub>0</sub> angenommen). k<sub>t</sub> (±10 % um den KV-Wert), Widerstand (≥ Datenblatt) und Leerlaufstrom sind an die Eingangsleistung angepasst, die Phaseninduktivität an die Vollgaspunkte: Bei hoher elektrischer Frequenz begrenzt die Blindspannung p·ω·L·I die erreichbare Drehzahl. Drehzahlregelung im Regler, Strombegrenzung (Motorgrenze, höchstens ${D.regler.spitze_A} A), aktives Bremsen bis 40 A. Thermik von Wicklung, Gehäuse (mit der Motormasse skaliert) und Regler mit Leistungsreduzierung ab 150 °C bzw. 100 °C.`,
   `<b>Akku.</b> 24 Einzelzellen in Reihe mit Leerlaufkennlinie, Innenwiderstand (temperaturabhängig), RC-Polarisation (τ 25 s), Erwärmung, Streuung von Kapazität, Widerstand und Ladezustand sowie Messrauschen. Die schwächste Zelle begrenzt die Restenergie. Unterspannung: Warnung, nach 0,5 s Leistungsbegrenzung, nach 2 s unter 3,0 V Abschaltung.`,
   `<b>Wind.</b> Logarithmisches Höhenprofil, Dryden-Turbulenz nach MIL-F-8785C (Niedrighöhe), räumlicher Vertikalgradient (erzeugt Roll- und Nickstörungen) und zufällige 1-cos-Böen. Luftdichte aus Temperatur und Standorthöhe (ISA).`,
   `<b>Lastgrenzen.</b> Zulässiger Schub je Ausleger aus dem D14-Screening (Lastfall ÷ höchste Ausnutzung bei 3 g); Überschreiten bricht den Ausleger. Landestoß gegen die Fußauslegung, Bodenberührung der Propeller, Umkippen am Boden (Feder-Dämpfer-Kontakt an allen Sohlen) und Aufschlag beenden den Versuch.`,
