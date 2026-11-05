@@ -16,3 +16,6 @@ quad_r380_*/debug_*.py
 quad_r380_*/Ausgabe/Debug_*
 quad_r380_*/Ausgabe/Failed_*
 quad_r380_*/Ausgabe/*Zwischenstand*
+
+# D14 Geometriecache
+multirotor_d14/Cache/

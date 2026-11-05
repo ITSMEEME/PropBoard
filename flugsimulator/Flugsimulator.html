@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="de">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>PropBoard Flugsimulator</title><link rel="stylesheet" href="flugsimulator.css"></head>
+<body>
+<header class="topbar">
+  <div><span class="eyebrow">PROPBOARD / GLOBALER SIMULATOR</span><h1>Flugsimulator</h1><p>Alle D14-Bauweisen · 10 Propeller · V1–V3 · MN1330 KV40 · 24S-Akku · reale Physik</p></div>
+  <nav aria-label="Weitere Simulatoren"><a href="Flugsimulator.html" aria-current="page">Multirotor D14</a><a href="../multirotor_d14/Projekt.html">D14 Konstruktion ↗</a><a href="../kreis_r04/mn1330_p14/P14_Flugsimulator.html">P14 Koax-Großmodell</a><a href="../modell_r04_taumel/simulation/H01_Flugsimulator.html">P11 Taumelmodell</a></nav>
+  <span class="development">Entwicklungsmodell · keine Flugfreigabe</span>
+</header>
+<div id="fehler" role="alert" hidden></div>
+<main class="cockpit">
+  <section class="scene" aria-label="Flugansicht">
+    <canvas id="view" tabindex="0" aria-label="Flugansicht. WASD bewegen, QE drehen, RF Höhe, T Start, L Landung, X Motoren aus, Leertaste Pause."></canvas>
+    <div class="scene-top"><span id="phase" class="pill">wird geladen …</span><span id="modellPill" class="pill"></span><span id="cadPill" class="pill"></span><span id="zeitPill" class="pill"></span></div>
+    <div class="hud" aria-label="Flugwerte">
+      <div><span>HÖHE</span><strong id="hHoehe">0,0</strong><small>m</small></div>
+      <div><span>GESCHW.</span><strong id="hV">0,0</strong><small>m/s</small></div>
+      <div><span>VARIO</span><strong id="hVz">0,0</strong><small>m/s</small></div>
+      <div><span>KURS</span><strong id="hKurs">0</strong><small>°</small></div>
+      <div><span>ZEIT</span><strong id="hZeit">0,0</strong><small>s</small></div>
+    </div>
+    <canvas id="horizont" width="132" height="132" aria-label="Künstlicher Horizont"></canvas>
+    <div id="meldung" class="meldung" hidden></div>
+    <div class="scene-bottom"><span id="kameraHinweis">Verfolger · Raster 1 m / 10 m · ziehen: Kamera · Mausrad: Abstand</span><span id="windHinweis"></span></div>
+  </section>
+
+  <aside class="dashboard" aria-label="Statusdashboard">
+    <section class="card"><div class="kopf"><span class="eyebrow">STATUS</span><span id="gesamtStatus" class="status"></span></div>
+      <div class="kpis" id="kpis"></div>
+    </section>
+    <section class="card"><span class="eyebrow">WARNUNGEN UND GRENZEN</span><ul id="warnungen" class="warnungen"></ul></section>
+    <section class="card"><span class="eyebrow">ANTRIEB JE MOTOR</span><div class="tabelle" id="motoren"></div></section>
+    <section class="card"><span class="eyebrow">STRUKTUR</span><div id="arme" class="balken"></div><div id="struktur" class="mini"></div></section>
+  </aside>
+
+  <section class="verlauf card"><div class="kopf"><span class="eyebrow">VERLAUF · LETZTE 90 S</span><small>Zeiger über ein Diagramm bewegen für Werte</small></div><div class="charts" id="charts"></div></section>
+
+  <section class="steuer">
+    <section class="card"><span class="eyebrow">MODELL</span><h2>Fahrzeug wählen</h2>
+      <label for="bauweise">Bauweise<select id="bauweise"></select></label>
+      <label for="propeller">Propeller<select id="propeller"></select></label>
+      <label for="variante">Ausleger<select id="variante"></select></label>
+      <label for="nutzlast">Nutzlast (Person) <output id="nutzlastOut"></output></label><input id="nutzlast" type="range" min="0" max="150" step="5" value="100">
+      <div class="two"><label for="akkuP">Akku 24S, parallel<select id="akkuP"><option value="1">1P</option><option value="2" selected>2P</option><option value="3">3P</option><option value="4">4P</option></select></label>
+      <label for="akkuAh">Zellkapazität<select id="akkuAh"><option>16</option><option selected>22</option><option>30</option></select></label></div>
+      <div id="akkuInfo" class="note"></div>
+      <div id="modellInfo" class="notice" hidden></div>
+    </section>
+    <section class="card"><span class="eyebrow">FLUG</span><h2>Bedienung</h2>
+      <div class="actions"><button id="start" class="primary">Start / T</button><button id="land">Landen / L</button><button id="pause">Pause / Leertaste</button><button id="reset">Zurücksetzen / ⌫</button></div>
+      <button id="motorenAus" class="warn">Motoren aus / X</button>
+      <div class="two"><label for="modus">Steuerung / M<select id="modus"><option value="POSITION">Position halten</option><option value="WINKEL">Winkel + Höhe</option></select></label>
+      <label for="kamera">Kamera / C<select id="kamera"><option value="verfolger">Verfolger</option><option value="orbit">Orbit</option><option value="boden">Bodenbeobachter</option><option value="oben">Draufsicht</option></select></label></div>
+      <div class="two"><label for="zeitraffer">Zeitraffer<select id="zeitraffer"><option value="0.25">0,25×</option><option value="0.5">0,5×</option><option value="1" selected>1×</option><option value="2">2×</option><option value="4">4×</option><option value="8">8×</option></select></label>
+      <label for="ausfallMotor">Motorausfall<select id="ausfallMotor"></select></label></div>
+      <button id="ausfall">Ausgewählten Motor abschalten</button>
+      <label class="check"><input type="checkbox" id="zeigePartikel" checked> Abwind und Wind sichtbar</label>
+      <label class="check"><input type="checkbox" id="zeigePerson" checked> Person anzeigen</label>
+      <p id="gamepad" class="note">Gamepad: nicht verbunden.</p>
+    </section>
+    <section class="card"><span class="eyebrow">UMGEBUNG</span><h2>Wind und Wetter</h2>
+      <label for="wind">Mittelwind (10 m) <output id="windOut"></output></label><input id="wind" type="range" min="0" max="15" step="0.5" value="3">
+      <label for="windrichtung">Windrichtung (kommt aus) <output id="windrichtungOut"></output></label><input id="windrichtung" type="range" min="0" max="350" step="10" value="240">
+      <label for="turbulenz">Turbulenz (Dryden) <output id="turbulenzOut"></output></label><input id="turbulenz" type="range" min="0" max="3" step="0.1" value="1">
+      <label for="boeen">Böen (1-cos) <output id="boeenOut"></output></label><input id="boeen" type="range" min="0" max="10" step="0.5" value="2">
+      <div class="two"><label for="temp">Lufttemperatur <output id="tempOut"></output></label><label for="hoehe">Standorthöhe <output id="hoeheOut"></output></label></div>
+      <div class="two"><input id="temp" type="range" min="-10" max="40" step="1" value="20"><input id="hoehe" type="range" min="0" max="3000" step="100" value="0"></div>
+      <label class="check"><input type="checkbox" id="streuung" checked> Zellstreuung und Messrauschen</label>
+      <p class="note">Wind ändert sich sofort; Temperatur, Höhe, Akku und Modell setzen den Flug zurück.</p>
+    </section>
+    <section class="card"><span class="eyebrow">TESTPROGRAMME</span><h2>Automatische Prüfflüge</h2>
+      <select id="programm"><option value="schwebe">Schwebeflug bis Akkureserve (Flugzeit)</option><option value="manoever">Manöver: Steigen, Vorwärts 8 m/s, Bremsen, Drehen</option><option value="boe">Böentest 8 m/s Wind, 6 m/s Böen</option><option value="vrs">Senkrechter Sinkflug 6 m/s (Wirbelring)</option><option value="ausfall">Motorausfall M1 im Schwebeflug</option><option value="vollgas">Vollgas-Steigflug (Leistungsgrenze)</option></select>
+      <div class="actions"><button id="programmStart" class="primary">Programm starten</button><button id="export">Fluglog CSV</button></div>
+      <p id="programmInfo" class="note">Programme laufen mit dem aktuellen Modell und der aktuellen Umgebung.</p>
+    </section>
+  </section>
+
+  <section class="vergleich card"><div class="kopf"><div><span class="eyebrow">ALLE MODELLE</span><h2>Schwebeanalyse aller 120 Konfigurationen</h2></div><div class="row"><label class="check"><input type="checkbox" id="nurFlugfaehig"> nur flugfähige</label><button id="vergleichStart">Neu berechnen</button></div></div>
+    <p class="note">Stationärer Schwebeflug außerhalb Bodeneffekt mit derselben Rotor-, Motor- und Akkuphysik und den oben eingestellten Werten für Nutzlast, Akku, Temperatur und Höhe. Klick auf eine Zeile lädt das Modell.</p>
+    <div class="tabelle breit" id="vergleich"></div>
+  </section>
+
+  <section class="controls card"><div><span class="eyebrow">TASTATUR / GAMEPAD / TOUCH</span><h2>Steuerung</h2><dl class="key-help"><div><dt><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></dt><dd>vor / links / zurück / rechts</dd></div><div><dt><kbd>Q</kbd><kbd>E</kbd></dt><dd>links / rechts drehen</dd></div><div><dt><kbd>R</kbd><kbd>F</kbd></dt><dd>steigen / sinken</dd></div><div><dt><kbd>T</kbd><kbd>L</kbd><kbd>X</kbd></dt><dd>Start / Landung / Motoren aus</dd></div><div><dt><kbd>Leertaste</kbd><kbd>⌫</kbd></dt><dd>Pause / zurücksetzen</dd></div><div><dt><kbd>M</kbd><kbd>C</kbd></dt><dd>Steuerungsmodus / Kamera</dd></div></dl></div>
+    <div class="touch-controls" aria-label="Bildschirmsteuerung"><div class="touch-pad"><button data-pilot="forward" aria-label="Vorwärts">W ↑</button><div><button data-pilot="left" aria-label="Links">A ←</button><button data-pilot="back" aria-label="Rückwärts">S ↓</button><button data-pilot="right" aria-label="Rechts">D →</button></div></div><div class="touch-pad"><div><button data-pilot="yawLeft" aria-label="Links drehen">Q ↶</button><button data-pilot="yawRight" aria-label="Rechts drehen">E ↷</button></div><div><button data-pilot="up" aria-label="Steigen">R +</button><button data-pilot="down" aria-label="Sinken">F −</button></div></div></div>
+  </section>
+
+  <section class="modell card"><span class="eyebrow">PHYSIKMODELL</span><h2>Was simuliert wird und wo die Grenzen liegen</h2><div id="modellText" class="modelltext"></div></section>
+</main>
+<footer>6-DOF-Starrkörper mit 1 kHz, Blattelement-Impuls-Rotormodell, MN1330-Motor gegen 19 Prüfpunkte angepasst, Akku mit 24 Einzelzellen. Propellerbeiwerte sind aus der NS52×20-Tabelle übertragen (kein HEP-S-Kennfeld). Person als starre Masse. Keine Fertigungs- oder Flugfreigabe. <a href="README.md">Modellbeschreibung</a></footer>
+<script src="modelle.js"></script>
+<script src="physik.js"></script>
+<script src="eingabe.js"></script>
+<script src="ansicht.js"></script>
+<script src="dashboard.js"></script>
+<script src="app.js"></script>
+</body></html>

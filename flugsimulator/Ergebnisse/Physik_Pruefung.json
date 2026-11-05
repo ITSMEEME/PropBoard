@@ -1,0 +1,167 @@
+{
+ "bestanden": true,
+ "pruefungen": {
+  "Motor: Eingangsleistung an allen 19 Prüfpunkten innerhalb 5 %": {
+   "bestanden": true,
+   "wert": {
+    "max_abweichung": 0.0314,
+    "kt": 0.22,
+    "R": 0.038,
+    "I0": 4
+   }
+  },
+  "Rotor: statischer Schub = D13-Koeffizientenmodell (±1 %)": {
+   "bestanden": true,
+   "wert": {
+    "T": 346.0760607254319,
+    "Tref": 346.07606072658103
+   }
+  },
+  "Rotor: statische Wellenleistung = D13-Koeffizientenmodell (±3 %)": {
+   "bestanden": true,
+   "wert": {
+    "P": 5281.320464099468,
+    "Pref": 5281.320464098747
+   }
+  },
+  "Rotor: Gütegrad < 1 (Impulstheorie eingehalten) und plausibel 0,6–0,85": {
+   "bestanden": true,
+   "wert": {
+    "FM": 0.8237659325031583,
+    "sigma": 0.10024026587587781,
+    "Cd0": 0.007,
+    "kappa": 1.1100636182578691,
+    "CL_schweben": 0.6737252852794237
+   }
+  },
+  "Rotor: Steigflug 4 m/s senkt Schub": {
+   "bestanden": true,
+   "wert": {
+    "T0": 346.0760607254319,
+    "Tc": 307.8140820577411
+   }
+  },
+  "Rotor: Vorwärtsflug 10 m/s erhöht Schub (Translationsauftrieb)": {
+   "bestanden": true,
+   "wert": {
+    "T0": 346.0760607254319,
+    "Tf": 379.8864602295018
+   }
+  },
+  "Rotor: Bodeneffekt z = R/2 deutlich, z = 2R schwach": {
+   "bestanden": true,
+   "wert": {
+    "T0": 346.0760607254319,
+    "Tg": 377.65067351934914,
+    "Tg2": 347.8382625883958
+   }
+  },
+  "Rotor: Wirbelringstadium bei Sinkrate 0,6·v_h erkannt": {
+   "bestanden": true,
+   "wert": {
+    "vrs": 0.9873005921494463
+   }
+  },
+  "Koax: induzierter Mehrbedarf gegenüber 8 freien Rotoren (massenbereinigt) 15–60 %": {
+   "bestanden": true,
+   "wert": {
+    "koax_kW": 33.216755084335105,
+    "okto_kW": 27.36915612066412,
+    "verhaeltnis_massenbereinigt": 1.2948259448670394
+   }
+  },
+  "Akku: entnommene Ladung = SoC-Änderung × Kapazität (±1 %)": {
+   "bestanden": true,
+   "wert": {
+    "Ah": 33.33333333333641,
+    "dSOC": 0.7590712009408872
+   }
+  },
+  "Akku: Spannung unter 200 A unter Leerlauf, Zellen erwärmen sich": {
+   "bestanden": true,
+   "wert": {
+    "U": 84.20275678309078,
+    "leerlauf": 89.19291647096749,
+    "U_start": 100.80000000000004,
+    "T": 49.62571470236325
+   }
+  },
+  "Zeitbereich: stabiler Schwebeflug (Neigung < 0,5°, |vz| < 0,1 m/s)": {
+   "bestanden": true,
+   "wert": {
+    "h": 1.5002929147555726,
+    "roll": -1.4440443882458242e-9,
+    "nick": 1.233237830895632e-7,
+    "vz": 0.00037336570600246804
+   }
+  },
+  "Zeitbereich: Leistung im Schwebeflug ≈ stationäre Analyse (±12 %, Bodennähe und Akkuspannung)": {
+   "bestanden": true,
+   "wert": {
+    "zeitbereich_kW": 30.415294070395795,
+    "analyse_kW": 30.498576002123578
+   }
+  },
+  "Lastgrenze: Überschreiten bricht den Ausleger": {
+   "bestanden": true,
+   "wert": {
+    "gebrochen": 8,
+    "ereignisse": [
+     "Ausleger M7: Lastgrenze 150 N überschritten – Strukturversagen",
+     "Ausleger M8: Lastgrenze 150 N überschritten – Strukturversagen"
+    ]
+   }
+  },
+  "Motorausfall: Okto und Koax halten die Höhe (±2 m)": {
+   "bestanden": true,
+   "wert": {
+    "okto": {
+     "h0": 13.051482064100815,
+     "h": 12.989951699090764,
+     "zerstoert": null,
+     "gierrate": -0.00000710725574144168
+    },
+    "koax": {
+     "h0": 10.874535952427221,
+     "h": 10.794025269737414,
+     "zerstoert": null,
+     "gierrate": 0.003738022270639109
+    }
+   }
+  },
+  "Motorausfall: Quad verliert die Gierachse und stürzt ab": {
+   "bestanden": true,
+   "wert": {
+    "h0": 12.429797867014264,
+    "h": 0.0023640501675730174,
+    "zerstoert": "Landestoß 47018 N je Fuß (Grenze 2354 N) – Fahrwerk beschädigt",
+    "gierrate": 0
+   }
+  },
+  "Analyse aller 120 Konfigurationen gerechnet": {
+   "bestanden": true,
+   "wert": {
+    "schwebefaehig": 24,
+    "beste_flugzeit": {
+     "schluessel": "OKTO_HEP_S_42_16_V2",
+     "bauweise": "OKTO",
+     "propeller": "HEP_S_42_16",
+     "variante": "V2",
+     "masse_kg": 183.57,
+     "schub_max_kg": 526.8,
+     "schub_gewicht": 2.87,
+     "schwebe_rpm": 2490,
+     "leistung_kW": 27.37,
+     "akkustrom_A": 271,
+     "phasenstrom_A": 56,
+     "drehmoment_Nm": 11.4,
+     "flugzeit_min": 7.41,
+     "schwebefaehig": true,
+     "arm_lastfaktor_grenze": 1.51,
+     "mach_spitze": 0.405,
+     "FM": 0.775
+    }
+   }
+  }
+ }
+}
