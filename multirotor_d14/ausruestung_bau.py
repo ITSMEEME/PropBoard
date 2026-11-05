@@ -130,7 +130,7 @@ def baue(cfg):
                 sonder.append(dict(name=f'Eckknoten {q}', form=sg, schrauben=bg, iso=ig, paar=j, vminus=vm, unten=unten))
                 for k_, zz in enumerate(ziele):
                     name, ziel = zz[0], zz[1]
-                    Ep = ports[3 + k_]['E']
+                    Ep = ports[3 + sum(1 for p_ in ports if p_.get('gurt')) + k_]['E']
                     Eg = platziere_ecke(Part.Vertex(V(*Ep)), cfg, j, vm, unten).Point
                     od_ = od
                     rohre.append(({'Strebe': 'Fussschlittenstrebe', 'Stuetze': 'Fussschlittenstuetze', 'Bein': 'Landebein',

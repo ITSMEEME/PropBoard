@@ -1,0 +1,181 @@
+{
+ "annahmen": "MN1330, 100 kg Person, 20 °C, Meereshoehe, Reserve 15 %",
+ "quellen": "Quellen/Akkus_Online.json",
+ "akkus": {
+  "LIPO_TATTU22": {
+   "typ": "LiPo · Tattu Plus 1.0 12S 22000 mAh 25C (2 × in Reihe)",
+   "varianten": [
+    {
+     "P": 1,
+     "akku_masse_kg": 12.12,
+     "dauerstrom_A": 550,
+     "schwebefaehig": 32,
+     "beste": "OKTO_HEP_S_42_16_V2",
+     "flugzeit_min": 4.07,
+     "schwebestrom_A": 247,
+     "ueberlast": false
+    },
+    {
+     "P": 2,
+     "akku_masse_kg": 24.23,
+     "dauerstrom_A": 1100,
+     "schwebefaehig": 32,
+     "beste": "OKTO_HEP_S_42_16_V2",
+     "flugzeit_min": 7.38,
+     "schwebestrom_A": 272,
+     "ueberlast": false
+    },
+    {
+     "P": 3,
+     "akku_masse_kg": 36.35,
+     "dauerstrom_A": 1650,
+     "schwebefaehig": 20,
+     "beste": "OKTO_HEP_S_42_16_V2",
+     "flugzeit_min": 10.1,
+     "schwebestrom_A": 299,
+     "ueberlast": false
+    },
+    {
+     "P": 4,
+     "akku_masse_kg": 48.46,
+     "dauerstrom_A": 2200,
+     "schwebefaehig": 20,
+     "beste": "OKTO_HEP_S_42_16_V2",
+     "flugzeit_min": 12.34,
+     "schwebestrom_A": 326,
+     "ueberlast": false
+    }
+   ]
+  },
+  "LIION_P45B": {
+   "typ": "Li-Ion 21700 · Molicel INR-21700-P45B (24S·nP, eigener Pack)",
+   "varianten": [
+    {
+     "P": 6,
+     "akku_masse_kg": 11.83,
+     "dauerstrom_A": 210,
+     "schwebefaehig": 32,
+     "beste": "OKTO_HEP_S_42_16_V2",
+     "flugzeit_min": 4.86,
+     "schwebestrom_A": 248,
+     "ueberlast": true
+    },
+    {
+     "P": 7,
+     "akku_masse_kg": 13.8,
+     "dauerstrom_A": 245,
+     "schwebefaehig": 32,
+     "beste": "OKTO_HEP_S_42_16_V2",
+     "flugzeit_min": 5.58,
+     "schwebestrom_A": 252,
+     "ueberlast": true
+    },
+    {
+     "P": 8,
+     "akku_masse_kg": 15.78,
+     "dauerstrom_A": 280,
+     "schwebefaehig": 32,
+     "beste": "OKTO_HEP_S_42_16_V2",
+     "flugzeit_min": 6.27,
+     "schwebestrom_A": 256,
+     "ueberlast": false
+    },
+    {
+     "P": 9,
+     "akku_masse_kg": 17.75,
+     "dauerstrom_A": 315,
+     "schwebefaehig": 32,
+     "beste": "OKTO_HEP_S_42_16_V2",
+     "flugzeit_min": 6.94,
+     "schwebestrom_A": 260,
+     "ueberlast": false
+    },
+    {
+     "P": 10,
+     "akku_masse_kg": 19.72,
+     "dauerstrom_A": 350,
+     "schwebefaehig": 32,
+     "beste": "OKTO_HEP_S_42_16_V2",
+     "flugzeit_min": 7.59,
+     "schwebestrom_A": 264,
+     "ueberlast": false
+    },
+    {
+     "P": 11,
+     "akku_masse_kg": 21.69,
+     "dauerstrom_A": 385,
+     "schwebefaehig": 32,
+     "beste": "OKTO_HEP_S_42_16_V2",
+     "flugzeit_min": 8.22,
+     "schwebestrom_A": 268,
+     "ueberlast": false
+    },
+    {
+     "P": 12,
+     "akku_masse_kg": 23.66,
+     "dauerstrom_A": 420,
+     "schwebefaehig": 32,
+     "beste": "OKTO_HEP_S_42_16_V2",
+     "flugzeit_min": 8.83,
+     "schwebestrom_A": 272,
+     "ueberlast": false
+    },
+    {
+     "P": 14,
+     "akku_masse_kg": 27.61,
+     "dauerstrom_A": 490,
+     "schwebefaehig": 27,
+     "beste": "OKTO_HEP_S_42_16_V2",
+     "flugzeit_min": 9.99,
+     "schwebestrom_A": 281,
+     "ueberlast": false
+    }
+   ]
+  },
+  "SEMI_TATTU33": {
+   "typ": "Semi-Solid · Tattu 350-Wh/kg-Serie 12S 33000 mAh (2 × in Reihe)",
+   "varianten": [
+    {
+     "P": 1,
+     "akku_masse_kg": 13.33,
+     "dauerstrom_A": 99,
+     "schwebefaehig": 32,
+     "beste": "OKTO_HEP_S_42_16_V2",
+     "flugzeit_min": 6.04,
+     "schwebestrom_A": 249,
+     "ueberlast": true
+    },
+    {
+     "P": 2,
+     "akku_masse_kg": 26.66,
+     "dauerstrom_A": 198,
+     "schwebefaehig": 30,
+     "beste": "OKTO_HEP_S_42_16_V2",
+     "flugzeit_min": 10.86,
+     "schwebestrom_A": 278,
+     "ueberlast": true
+    },
+    {
+     "P": 3,
+     "akku_masse_kg": 39.98,
+     "dauerstrom_A": 297,
+     "schwebefaehig": 20,
+     "beste": "OKTO_HEP_S_42_16_V2",
+     "flugzeit_min": 14.75,
+     "schwebestrom_A": 307,
+     "ueberlast": true
+    },
+    {
+     "P": 4,
+     "akku_masse_kg": 53.31,
+     "dauerstrom_A": 396,
+     "schwebefaehig": 20,
+     "beste": "OKTO_HEP_S_42_16_V2",
+     "flugzeit_min": 17.91,
+     "schwebestrom_A": 337,
+     "ueberlast": false
+    }
+   ]
+  }
+ }
+}

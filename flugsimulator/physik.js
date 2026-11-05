@@ -78,38 +78,55 @@ class Wind {
 
 // ------------------------------------------------------------------ Akku
 const OCV = [[0, 3.27], [0.05, 3.50], [0.1, 3.61], [0.15, 3.67], [0.2, 3.70], [0.3, 3.74], [0.4, 3.78], [0.5, 3.82], [0.6, 3.87], [0.7, 3.93], [0.8, 4.00], [0.9, 4.08], [1.0, 4.20]];
-function ocv(s) { s = clamp(s, 0, 1); let i = 1; while (OCV[i][0] < s) i++; const [a, va] = OCV[i-1], [b, vb] = OCV[i]; return va + (vb-va)*(s-a)/(b-a); }
+function ocvTab(tab, s) { s = clamp(s, 0, 1); let i = 1; while (tab[i][0] < s) i++; const [a, va] = tab[i-1], [b, vb] = tab[i]; return va + (vb-va)*(s-a)/(b-a); }
+function ocv(s) { return ocvTab(OCV, s); }
+/* Akku aus S Reihenelementen; jedes Element = P parallele Einheiten des gewaehlten Typs (Datenblatt, siehe Quellen/Akkus_Online.json).
+   Ohne Typ: generischer LiPo (Ah, Wh/kg). */
 class Akku {
   constructor(r, o) {
-    this.S = o.S || 24; this.P = o.P || 2; this.Ah = o.Ah || 22; this.Whkg = o.Whkg || 165; this.T_amb = o.T_amb ?? 20; this.streuung = o.streuung ?? 1;
-    this.masse = this.S*this.P*this.Ah*3.7/this.Whkg;
-    const R0 = 0.0018*22/this.Ah, R1 = 0.0012*22/this.Ah, tau = 25, mc = this.masse/(this.S*this.P);
+    const t = o.typ || null; this.typ = t;
+    this.S = o.S || 24; this.P = o.P || 2; this.T_amb = o.T_amb ?? 20; this.streuung = o.streuung ?? 1;
+    this.tab = t && o.ocvTabellen ? o.ocvTabellen[t.ocv] : OCV;
+    let R0, R1, mc, hA, cp;
+    if (t) {
+      this.Ah = t.einheit_Ah; this.masse = t.einheit_masse_kg*this.P; this.Whkg = this.S*this.P*this.Ah*3.7/this.masse;
+      R0 = t.R0_mOhm/1000; R1 = 0.3*R0; mc = this.masse/(this.S*this.P); cp = t.cp;
+      hA = 0.06*Math.pow(t.zelle_masse_kg/0.5, 0.66)*(mc/t.zelle_masse_kg);          // Waermeabgabe je Einheit ~ Oberflaeche
+      this.Umin = t.U_min; this.Tgrenze = t.T_max; this.Idauer = t.I_dauer_A*this.P; this.Ipuls = t.I_puls_A*this.P;
+    } else {
+      this.Ah = o.Ah || 22; this.Whkg = o.Whkg || 165; this.masse = this.S*this.P*this.Ah*3.7/this.Whkg;
+      R0 = 0.0018*22/this.Ah; R1 = 0.0012*22/this.Ah; mc = this.masse/(this.S*this.P); cp = 1000; hA = 0.06*Math.pow(this.Ah/22, 0.66);
+      this.Umin = 3.0; this.Tgrenze = 60; this.Idauer = 25*this.Ah*this.P; this.Ipuls = 50*this.Ah*this.P;
+    }
+    const tau = 25;
     this.zellen = Array.from({length: this.S}, () => ({
       cap: this.Ah*this.P*(1 + 0.015*this.streuung*r.gauss()), R0: R0*(1 + 0.08*this.streuung*Math.abs(r.gauss()))/this.P,
       R1: R1/this.P, C1: tau/(R1/this.P), soc: clamp((o.soc0 ?? 1)*(1 + 0.004*this.streuung*r.gauss()), 0, 1), vrc: 0, T: o.T0 ?? this.T_amb,
-      m: mc*this.P, hA: 0.06*Math.pow(this.Ah/22, 0.66)*this.P}));
+      m: mc*this.P, hA: hA*this.P, cp}));
     this.r = r; this.rausch = 0; this.I = 0; this.U = this.leerlauf(); this.reserve = o.reserve ?? 0.15; this.Ah_entnommen = 0; this.Wh_entnommen = 0;
+    this.Imittel = 0;
   }
-  leerlauf() { return this.zellen.reduce((s, z) => s + ocv(z.soc), 0); }
+  ocv(s) { return ocvTab(this.tab, s); }
+  leerlauf() { return this.zellen.reduce((s, z) => s + this.ocv(z.soc), 0); }
   R0T(z) { return z.R0*Math.exp(2800*(1/(z.T+273.15) - 1/298.15)); }
   kapT(z) { return z.cap*(z.T < 25 ? 1 - 0.006*(25-z.T) : 1); }
-  spannung(I) { let U = 0; for (const z of this.zellen) U += ocv(z.soc) - I*this.R0T(z) - z.vrc; return U + this.rausch; }
-  zellSpannungen(I) { return this.zellen.map(z => ocv(z.soc) - I*this.R0T(z) - z.vrc); }
+  spannung(I) { let U = 0; for (const z of this.zellen) U += this.ocv(z.soc) - I*this.R0T(z) - z.vrc; return U + this.rausch; }
+  zellSpannungen(I) { return this.zellen.map(z => this.ocv(z.soc) - I*this.R0T(z) - z.vrc); }
   schritt(I, dt) {
     this.I = I;
     for (const z of this.zellen) {
       z.soc -= I*dt/(3600*this.kapT(z));
       z.vrc += dt*(I/z.C1 - z.vrc/(z.R1*z.C1));
-      const q = I*I*(this.R0T(z) + z.R1); z.T += dt*(q - z.hA*(z.T - this.T_amb))/(z.m*1000);
+      const q = I*I*(this.R0T(z) + z.R1); z.T += dt*(q - z.hA*(z.T - this.T_amb))/(z.m*z.cp);
     }
     { const a = Math.exp(-dt/0.05); this.rausch = a*this.rausch + 0.08*Math.sqrt(1 - a*a)*this.r.gauss()*this.streuung; }   // Kontakt-/Welligkeitsanteil (exakt diskretisiert)
-    this.U = this.spannung(I); this.Ah_entnommen += I*dt/3600; this.Wh_entnommen += I*this.U*dt/3600;
+    this.U = this.spannung(I); this.Imittel += (I - this.Imittel)*dt/30; this.Ah_entnommen += I*dt/3600; this.Wh_entnommen += I*this.U*dt/3600;
   }
   // nutzbare Restenergie bis zur Reserve (schwaechste Zelle begrenzt den Strang)
   restWh() {
     let qmin = Infinity; for (const z of this.zellen) qmin = Math.min(qmin, (z.soc - this.reserve)*this.kapT(z));
     if (qmin <= 0) return 0; const zm = this.zellen.reduce((a, z) => a + z.soc, 0)/this.S;
-    let e = 0; const n = 12, s0 = this.reserve; for (let i = 0; i < n; i++) e += ocv(s0 + (zm - s0)*(i+0.5)/n)/n;
+    let e = 0; const n = 12, s0 = this.reserve; for (let i = 0; i < n; i++) e += this.ocv(s0 + (zm - s0)*(i+0.5)/n)/n;
     return qmin*e*this.S;
   }
   get soc() { return this.zellen.reduce((a, z) => a + z.soc, 0)/this.S; }
@@ -192,61 +209,69 @@ class Rotor {
 
 // ------------------------------------------------------------------ Motor + Regler (MN1330 KV40 / V200A)
 class Antrieb {
-  constructor(D, rotor, T_amb) {
-    const m = D.motor; this.Kt = m.kt_fit; this.Rfit = m.r_phase_fit; this.Rcu = m.r_datenblatt; this.I0 = m.i0_fit;
+  /* Motor mit Gegen-EMK, Wicklungswiderstand und Phaseninduktivitaet (Blindspannung p*w*L*I bei hoher elektrischer Frequenz):
+     U_eff^2 = (k_t w + R I)^2 + (p w L I)^2, U_eff = d * 0,98 * U_Bus. Wirkleistung = (k_t w + R I) I. */
+  constructor(D, m, rotor, T_amb) {
+    this.Kt = m.kt_fit; this.Rfit = m.r_phase_fit; this.Rcu = m.r_datenblatt; this.I0 = m.i0_fit; this.L = m.L_phase || 0; this.pp = m.polpaare || 21;
     this.Imax = Math.min(m.max_strom_A, D.regler.spitze_A); this.Idauer = D.regler.dauer_A; this.eta = D.regler.wirkungsgrad;
+    const k = m.masse_kg/2.75; this.Cw = 320*k; this.Ch = 1300*k; this.hk = Math.pow(k, 0.66);
     this.rotor = rotor; this.J = rotor.J; this.Om = 0; this.Tw = T_amb; this.Th = T_amb; this.Te = T_amb; this.Tamb = T_amb;
     this.I = 0; this.Idc = 0; this.d = 0; this.integ = 0; this.ausgefallen = false; this.grenze = ''; this.Iesc_mittel = 0; this.Qm = 0;
   }
+  spannungFuer(w, I) { const X = this.pp*w*this.L; return Math.hypot(this.Kt*w + this.Rfit*I, X*I); }
+  stromFuer(w, V) {
+    const E = this.Kt*w, R = this.Rfit, X = this.pp*w*this.L;
+    if (V <= E) return (V - E)/R;                                   // Bremsen/Rueckspeisen (vereinfacht ohne Blindanteil)
+    const a = R*R + X*X; return (-E*R + Math.sqrt(Math.max(E*E*R*R - a*(E*E - V*V), 0)))/a;
+  }
   // Drehzahlregler im Regler (Governor), Sollwert Om_soll; U: Busspannung
   schritt(OmSoll, U, Qlast, vKuehl, dt) {
+    const Ueff = 0.98*Math.max(U, 1);
     if (this.ausgefallen || OmSoll <= 0) { this.d = 0; this.I = 0; this.Qm = 0; this.integ = 0; this.grenze = ''; }   // ausgefallen bzw. Regler entschaerft: Freilauf
     else {
       const e = OmSoll - this.Om; this.integ = clamp(this.integ + e*dt, -40, 40);
       const Ivor = Qlast/this.Kt + this.I0;
-      let d = (this.Kt*OmSoll + this.Rfit*Ivor)/Math.max(U, 1) + (0.012*e + 0.06*this.integ)*this.Kt*10/Math.max(U, 1);
-      // Temperatur-Derating
+      let V = this.spannungFuer(OmSoll, Ivor) + (0.012*e + 0.06*this.integ)*this.Kt*10;
       let Ilim = this.Imax; this.grenze = '';
       if (this.Tw > 150) { Ilim *= clamp(1 - (this.Tw - 150)/30, 0, 1); this.grenze = 'Motortemperatur'; }
       if (this.Te > 100) { Ilim *= clamp(1 - (this.Te - 100)/20, 0, 1); this.grenze = 'Reglertemperatur'; }
-      d = clamp(d, 0, 1); if (d >= 0.999) this.grenze = this.grenze || 'Spannungsgrenze';
-      let I = (d*U - this.Kt*this.Om)/this.Rfit;
-      if (I > Ilim) { I = Ilim; d = (this.Kt*this.Om + I*this.Rfit)/Math.max(U, 1); this.grenze = this.grenze || 'Strombegrenzung'; }
-      if (I < -40) { I = -40; d = clamp((this.Kt*this.Om - 40*this.Rfit)/Math.max(U, 1), 0, 1); }   // aktives Bremsen begrenzt
-      if (e < -5 && d <= 0) this.integ *= 0.98;
-      this.d = d; this.I = I;
-      const I0e = this.I0*Math.min(1, this.Om/40);
-      this.Qm = this.Kt*(I - I0e);
+      V = clamp(V, 0, Ueff); if (V >= 0.999*Ueff) this.grenze = this.grenze || 'Spannungsgrenze';
+      let I = this.stromFuer(this.Om, V);
+      if (I > Ilim) { I = Ilim; V = this.spannungFuer(this.Om, I); this.grenze = this.grenze || 'Strombegrenzung'; }
+      if (I < -40) { I = -40; V = Math.max(this.Kt*this.Om - 40*this.Rfit, 0); }   // aktives Bremsen begrenzt
+      if (e < -5 && V <= 0) this.integ *= 0.98;
+      this.d = V/Ueff; this.I = I;
+      this.Qm = this.Kt*(I - this.I0*Math.min(1, this.Om/40));
     }
     this.Om = Math.max(0, this.Om + (this.Qm - Qlast)*dt/this.J);
-    const Pm = this.d*U*this.I; this.Idc = Pm >= 0 ? Pm/(U*this.eta) : Pm*this.eta/U;
-    // Thermik: Wicklung/Stator, Gehaeuse, Regler
+    const Pm = (this.Kt*this.Om + this.Rfit*this.I)*this.I; this.Idc = Pm >= 0 ? Pm/(U*this.eta) : Pm*this.eta/U;
+    // Thermik: Wicklung/Stator, Gehaeuse, Regler (Kapazitaeten mit der Motormasse skaliert)
     const Pcu = this.I*this.I*this.Rcu*(1 + 0.0039*(this.Tw - 25)), Pfe = this.Kt*this.Om*this.I0*Math.min(1, this.Om/40);
     const Pesc = this.I*this.I*Math.max(this.Rfit - this.Rcu, 0.004) + 0.008*Math.abs(Pm);
-    const hA = 2 + 0.9*vKuehl, hE = 1.5 + 0.45*vKuehl;
-    this.Tw += dt*(Pcu + Pfe - (this.Tw - this.Th)/0.08)/320;
-    this.Th += dt*((this.Tw - this.Th)/0.08 - hA*(this.Th - this.Tamb))/1300;
+    const hA = (2 + 0.9*vKuehl)*this.hk, hE = 1.5 + 0.45*vKuehl;
+    this.Tw += dt*(Pcu + Pfe - (this.Tw - this.Th)/0.08)/this.Cw;
+    this.Th += dt*((this.Tw - this.Th)/0.08 - hA*(this.Th - this.Tamb))/this.Ch;
     this.Te += dt*(Pesc - hE*(this.Te - this.Tamb))/350;
-    this.Iesc_mittel += (Math.abs(this.I) - this.Iesc_mittel)*dt/20;
+    this.Iesc_mittel += (Math.abs(this.I) - this.Iesc_mittel)*dt/20; this.Pel = Math.max(Pm, 0)/this.eta; this.Pmittel = (this.Pmittel || 0) + (this.Pel - (this.Pmittel || 0))*dt/30;
     this.Pv = Pcu + Pfe + Pesc;
   }
   // maximal erreichbare Drehzahl bei Spannung U fuer Last Q ~ kQ Om^2 (stationaer, Vollaussteuerung/Stromgrenze)
   omMax(U, kQ) {
     let lo = 0, hi = U/this.Kt;
-    for (let i = 0; i < 30; i++) { const w = (lo+hi)/2, I = kQ*w*w/this.Kt + this.I0; if (I <= this.Imax && this.Kt*w + this.Rfit*I <= U) lo = w; else hi = w; }
+    for (let i = 0; i < 30; i++) { const w = (lo+hi)/2, I = kQ*w*w/this.Kt + this.I0; if (I <= this.Imax && this.spannungFuer(w, I) <= 0.98*U) lo = w; else hi = w; }
     return lo;
   }
 }
 
 // ------------------------------------------------------------------ Masse und Traegheit
-function massenmodell(md, D, opt, rotoren, akku) {
+function massenmodell(md, D, opt, rotoren, akku, motor) {
   const T = [], m = md.massen, nr = md.rotoren.length;
   const box = (mass, p, a, b, c) => T.push({mass, p, I: [mass*(b*b+c*c)/12, mass*(a*a+c*c)/12, mass*(a*a+b*b)/12]});
   const punkt = (mass, p) => T.push({mass, p, I: [0, 0, 0]});
   const zentral = m.struktur_kg - m.motortraeger_kg - m.arme_kg, ap = md.rahmen.apothem_m;
   box(zentral, [0, 0, 0], 2*ap, 2*ap, 0.24);
   md.arme.forEach(a => { punkt(m.motortraeger_kg/md.arme.length, [a.xy[0], a.xy[1], 0.05]); punkt(m.arme_kg/md.arme.length, [a.xy[0]*0.55, a.xy[1]*0.55, 0.03]); });
-  md.rotoren.forEach((r, i) => { punkt(D.motor.masse_kg, [r.xy[0], r.xy[1], r.lage === 'oben' ? r.z - 0.05 : r.z + 0.05]); punkt(rotoren[i].masse, [r.xy[0], r.xy[1], r.z]); });
+  md.rotoren.forEach((r, i) => { punkt(motor.masse_kg, [r.xy[0], r.xy[1], r.lage === 'oben' ? r.z - 0.05 : r.z + 0.05]); punkt(rotoren[i].masse, [r.xy[0], r.xy[1], r.z]); });
   const rm = md.massen.regler_kg/nr; md.rotoren.forEach(r => punkt(rm, [r.xy[0]*0.6, r.xy[1]*0.6, 0.03]));   // Regler vor dem Motortraeger
   box(m.ausruestung_kg, [0, 0, 0.2], 2*md.bock_x_m, 0.25, 0.1);
   box(akku.masse, [0, 0, opt.akku_z ?? -0.02], 0.36, 0.26, 0.2);
@@ -259,13 +284,13 @@ function massenmodell(md, D, opt, rotoren, akku) {
     I[0] += t.I[0] + m_*(r[1]*r[1]+r[2]*r[2]); I[4] += t.I[1] + m_*(r[0]*r[0]+r[2]*r[2]); I[8] += t.I[2] + m_*(r[0]*r[0]+r[1]*r[1]);
     I[1] -= m_*r[0]*r[1]; I[2] -= m_*r[0]*r[2]; I[5] -= m_*r[1]*r[2]; }
   I[3] = I[1]; I[6] = I[2]; I[7] = I[5];
-  const anteile = {struktur: m.struktur_kg, ausruestung: m.ausruestung_kg, regler: m.regler_kg, motoren: nr*D.motor.masse_kg,
+  const anteile = {struktur: m.struktur_kg, ausruestung: m.ausruestung_kg, regler: m.regler_kg, motoren: nr*motor.masse_kg,
     propeller: rotoren.reduce((s, r) => s + r.masse, 0), akku: akku.masse, bordnetz: opt.bordnetz_kg ?? 2.0, nutzlast: opt.nutzlast || 0};
   return {M, cg, I, Iinv: inv3(I), anteile, zPerson: zP};
 }
 
 // ------------------------------------------------------------------ Simulation
-const STANDARD = {nutzlast: 100, akku_S: 24, akku_P: 2, akku_Ah: 22, akku_Whkg: 165, temp_C: 20, hoehe_m: 0, wind: 0, windrichtung: 0, turbulenz: 1, boeen: 0, seed: 7, streuung: 1, reserve: 0.15, soc0: 1};
+const STANDARD = {nutzlast: 100, akku_typ: null, akku_S: 24, akku_P: 2, akku_Ah: 22, akku_Whkg: 165, temp_C: 20, hoehe_m: 0, wind: 0, windrichtung: 0, turbulenz: 1, boeen: 0, seed: 7, streuung: 1, reserve: 0.15, soc0: 1};
 
 class Sim {
   constructor(D, schluessel, opt = {}) {
@@ -273,9 +298,13 @@ class Sim {
     this.opt = Object.assign({}, STANDARD, opt); const o = this.opt;
     this.r = rng(o.seed); this.atm = atmosphaere(o.hoehe_m, o.temp_C);
     this.rotoren = this.md.rotoren.map(rd => new Rotor(this.md, rd, D.antrieb));
-    this.akku = new Akku(this.r, {S: o.akku_S, P: o.akku_P, Ah: o.akku_Ah, Whkg: o.akku_Whkg, T_amb: o.temp_C, streuung: o.streuung, reserve: o.reserve, soc0: o.soc0});
-    this.mm = massenmodell(this.md, D, o, this.rotoren, this.akku);
-    this.antriebe = this.rotoren.map(r => new Antrieb(D, r, o.temp_C));
+    const akT = D.akkus && D.akkus.akkus[o.akku_typ || D.standard_akku];
+    this.akkuTyp = akT ? (o.akku_typ || D.standard_akku) : null;
+    if (akT && !o.akku_P_gesetzt && !akT.P_optionen.includes(o.akku_P)) o.akku_P = akT.P_standard;
+    this.akku = new Akku(this.r, {typ: akT, ocvTabellen: D.akkus && D.akkus.ocv, S: o.akku_S, P: o.akku_P, Ah: o.akku_Ah, Whkg: o.akku_Whkg, T_amb: o.temp_C, streuung: o.streuung, reserve: o.reserve, soc0: o.soc0});
+    this.motorKey = o.motor || D.standard_motor || 'MN1330_KV40'; this.motor = (D.motoren || {})[this.motorKey] || D.motor;
+    this.mm = massenmodell(this.md, D, o, this.rotoren, this.akku, this.motor);
+    this.antriebe = this.rotoren.map(r => new Antrieb(D, this.motor, r, o.temp_C));
     this.wind = new Wind(this.r, {mittel: o.wind, richtung: o.windrichtung, turbulenz: o.turbulenz, boeen: o.boeen});
     const cg = this.mm.cg;
     this.rpos = this.md.rotoren.map(r => sub([r.xy[0], r.xy[1], r.z], cg));
@@ -340,7 +369,7 @@ class Sim {
     }
     // Arm-Lasten (Schub der Rotoren je Ausleger + Traegheitsanteil Motor)
     const azb = qinv(R, [0, 0, G])[2];
-    this.armLast.fill(0); this.rotoren.forEach((ro, i) => { this.armLast[ro.arm] += ro.aus.T - (this.D.motor.masse_kg + ro.masse)*(azb + (this.aLetzt ? this.aLetzt[2] : 0)); });
+    this.armLast.fill(0); this.rotoren.forEach((ro, i) => { this.armLast[ro.arm] += ro.aus.T - (this.motor.masse_kg + ro.masse)*(azb + (this.aLetzt ? this.aLetzt[2] : 0)); });
     this.md.arme.forEach((a, k) => {
       const u = Math.abs(this.armLast[k])/a.grenze_N; this.maxLast.arm = Math.max(this.maxLast.arm, u);
       if (u > 1 && !this.armBruch.has(k)) {
@@ -383,10 +412,11 @@ class Sim {
     this.nz = len(sub(a, [0, 0, -G]))/G; this.maxLast.g = Math.max(this.maxLast.g, this.amBoden ? 1 : this.nz);
     // Unterspannung: Warnung sofort, Leistungsbegrenzung nach 0,5 s, Abschaltung nach 2 s unter 3,0 V je Zelle
     const zmin = Math.min(...this.akku.zellSpannungen(Ibus)); this.zelleMin = zmin;
-    this.lvcT = zmin < 3.0 ? (this.lvcT || 0) + dt : Math.max((this.lvcT || 0) - 2*dt, 0);
-    this.leistungsBegrenzung = this.lvcT > 0.5;
-    if (zmin < 3.3 && !this.warnZelle) { this.warnZelle = true; this.ereignis(`Zellspannung unter Last ${zmin.toFixed(2)} V`, 'ernst'); }
-    if (this.lvcT > 2 && !this.lvc) { this.lvc = true; this.ereignis('Zellspannung 2 s unter 3,0 V: Unterspannungsabschaltung des Reglers', 'kritisch'); this.antriebe.forEach(x => x.ausgefallen = true); }
+    const um = this.akku.Umin; this.lvcT = zmin < um ? (this.lvcT || 0) + dt : Math.max((this.lvcT || 0) - 2*dt, 0);
+    this.ueberstromT = Ibus > this.akku.Ipuls ? (this.ueberstromT || 0) + dt : 0;
+    this.leistungsBegrenzung = this.lvcT > 0.5 || this.ueberstromT > 0.5 || this.akku.Tmax > this.akku.Tgrenze + 10;
+    if (zmin < um + 0.3 && !this.warnZelle) { this.warnZelle = true; this.ereignis(`Zellspannung unter Last ${zmin.toFixed(2)} V`, 'ernst'); }
+    if (this.lvcT > 2 && !this.lvc) { this.lvc = true; this.ereignis(`Zellspannung 2 s unter ${um.toFixed(1).replace('.', ',')} V: Unterspannungsabschaltung`, 'kritisch'); this.antriebe.forEach(x => x.ausgefallen = true); }
     this.t += dt;
   }
   crash(text) { this.zerstoert = text; this.regler.phase = 'ABSTURZ'; this.ereignis(text, 'kritisch'); this.antriebe.forEach(a => { a.Om = 0; a.I = 0; a.Idc = 0; }); this.v = [0, 0, 0]; this.w = [0, 0, 0]; if (this.x[2] < 0.3) this.x[2] = Math.max(this.x[2], 0.2); }
@@ -398,10 +428,10 @@ class Sim {
     return {
       t: this.t, x: this.x, v: this.v, hoehe: this.x[2] - (-this.kontakte[0].p[2]), roll: e.roll, nick: e.pitch, gier: e.yaw,
       masse_kg: M, auftrieb_kg: Tsum/G, schub_max_kg: Tmaxsum/G, tw_max: Tmaxsum/(M*G), U, U0, I: this.Ibus || 0, P_kW: (this.Pbat || 0)/1000,
-      soc: this.akku.soc, zelle_min: Math.min(...zs), zelle_max: Math.max(...zs), akku_T: this.akku.Tmax, rest_Wh: rest,
+      soc: this.akku.soc, akku_I_dauer: this.akku.Idauer, akku_I_puls: this.akku.Ipuls, akku_I_mittel: this.akku.Imittel, akku_T_grenze: this.akku.Tgrenze, akku_U_min: this.akku.Umin, zelle_min: Math.min(...zs), zelle_max: Math.max(...zs), akku_T: this.akku.Tmax, rest_Wh: rest,
       flugzeit_s: rest*3600/P, Wh: this.akku.Wh_entnommen, Ah: this.akku.Ah_entnommen,
       wind: this.wind.aktuell, nz: this.nz || 1, amBoden: this.amBoden, zerstoert: this.zerstoert,
-      motoren: this.rotoren.map((r, i) => { const a = this.antriebe[i]; return {nr: r.nr, lage: r.lage, dreh: r.s, rpm: a.Om*30/Math.PI, d: a.d, I: a.I, Idc: a.Idc, T_kg: r.aus.T/G,
+      motoren: this.rotoren.map((r, i) => { const a = this.antriebe[i]; return {nr: r.nr, lage: r.lage, dreh: r.s, P_W: a.Pel || 0, P30_W: a.Pmittel || 0, rpm: a.Om*30/Math.PI, d: a.d, I: a.I, Idc: a.Idc, T_kg: r.aus.T/G,
         Q: a.Qm, Tw: a.Tw, Te: a.Te, grenze: a.grenze, aus: a.ausgefallen, mu: r.aus.mu, abriss: r.aus.abriss, vrs: r.aus.vrs, ge: r.aus.ge, mach: r.aus.mach, vi: r.aus.vi, CL: r.aus.CL}; }),
       arme: this.md.arme.map((a, k) => ({nr: a.nr, last_N: this.armLast[k], grenze_N: a.grenze_N, u: Math.abs(this.armLast[k])/a.grenze_N, bruch: this.armBruch.has(k)})),
       fuesse: this.kontakte.filter(k => k.art === 'fuss').map(k => k.last), phase: this.regler.phase, modus: this.regler.modus, maxLast: this.maxLast,
@@ -420,13 +450,13 @@ class Sim {
         for (let k = 0; k < 3; k++) ro.aero(Om, [0, 0, 0], wz, 100, rho, s.r, 0.001); T += ro.aus.F[2]; });
       const k = G_/Math.max(T, 1e-6); Om *= Math.pow(k, 0.5*0.6 + 0.2); if (Math.abs(k-1) < 1e-5) break;
     }
-    let P = 0, Imax = 0, sat = false, Qmax = 0, abriss = 0, Ib = 0, PvMax = 0;
-    s.rotoren.forEach((ro, i) => { const a = s.antriebe[i], Q = ro.aus.Q, I = Q/a.Kt + a.I0, Vm = a.Kt*Om + a.Rfit*I, d = Vm/U;
+    let P = 0, Imax = 0, sat = false, Qmax = 0, abriss = 0, Ib = 0, PvMax = 0, dmax = 0;
+    s.rotoren.forEach((ro, i) => { const a = s.antriebe[i], Q = ro.aus.Q, I = Q/a.Kt + a.I0, Vm = a.Kt*Om + a.Rfit*I, d = a.spannungFuer(Om, I)/(0.98*U); dmax = Math.max(dmax, d);
       if (d > 1 || I > a.Imax) sat = true; const Pi = Vm*I/a.eta; P += Pi; Ib += Pi/U; Imax = Math.max(Imax, I); Qmax = Math.max(Qmax, Q); abriss = Math.max(abriss, ro.aus.abriss); });
     P += 30;
     const Tmax = s.Tmax.reduce((a, b) => a + b, 0), Tmax_arm = Math.max(...s.md.arme.map((a, k) => s.rotoren.filter(r => r.arm === k).reduce((x, r) => x + r.aus.T, 0)/a.grenze_N));
     const E = s.akku.restWh(), t = sat ? 0 : E*3600/P;
-    return {schluessel, masse_kg: s.mm.M, anteile: s.mm.anteile, rpm: Om*30/Math.PI, schub_max_kg: Tmax/G, tw_max: Tmax/G_, P_kW: P/1000, I_bus_A: Ib,
+    return {schluessel, motor: s.motorKey, akku: s.akkuTyp, akku_masse_kg: s.akku.masse, akku_I_dauer_A: s.akku.Idauer, akku_ueberlast: Ib > s.akku.Idauer, aussteuerung: dmax, P_je_motor_W: (P - 30)/n, nennleistung_W: s.motor.nennleistung_W, masse_kg: s.mm.M, anteile: s.mm.anteile, rpm: Om*30/Math.PI, schub_max_kg: Tmax/G, tw_max: Tmax/G_, P_kW: P/1000, I_bus_A: Ib,
       I_phase_max_A: Imax, Q_max_Nm: Qmax, gesaettigt: sat || Tmax < G_, flugzeit_min: t/60, arm_ausnutzung_schweben: Tmax_arm,
       arm_lastfaktor_grenze: 1/Tmax_arm, mach_spitze: Om*s.rotoren[0].R/s.atm.a, CL_mittel: s.rotoren[0].aus.CL, abriss, rho, Wh_nutzbar: E,
       FM: Math.pow(G_/n, 1.5)/Math.sqrt(2*rho*s.rotoren[0].A)/(s.rotoren.reduce((x, r) => x + r.aus.Q, 0)/n*Om) };
@@ -518,7 +548,7 @@ class Flugregler {
     }
     const fh = Math.hypot(f[0], f[1]), maxT = 30*DEG; if (fh > f[2]*Math.tan(maxT)) { const k = f[2]*Math.tan(maxT)/fh; f[0] *= k; f[1] *= k; }
     // Schubreserve: Hoehe hat Vorrang vor Horizontalbeschleunigung
-    const Tav = 0.92*this.akt.reduce((x, i) => x + s.Tmax[i], 0);
+    const Tav = 0.97*this.akt.reduce((x, i) => x + s.Tmax[i], 0);
     if (len(f) > Tav) { f[2] = Math.min(f[2], Tav); const hz = Math.sqrt(Math.max(Tav*Tav - f[2]*f[2], 0)), fh2 = Math.hypot(f[0], f[1]); if (fh2 > hz) { f[0] *= hz/fh2; f[1] *= hz/fh2; } }
     this.reserve = 1 - len(f)/Math.max(Tav, 1);
     const fl = len(f), zs = scl(f, 1/fl);

@@ -95,7 +95,8 @@ function baueSzene() {
   const d = state.daten[state.sel.key], e = state.ecken[state.sel.bw]; if (!d || !e) return;
   szene = []; labels = [];
   const ms = {}; for (const [k, m] of Object.entries(d.meshes)) ms[k] = decode(m);
-  const em = decode(e.eckknoten), es = decode(e.eckknoten_schrauben);
+  const eq = d.eck_meshes || e;              // V4: konfigurationseigene Eckknoten mit Gurthuelsen
+  const em = decode(eq.eckknoten), es = decode(eq.eckknoten_schrauben);
   const zr = $('zeigeRotor').checked, zs = $('zeigeSystem').checked, zb = $('zeigeSchrauben').checked, za = $('zeigeAusruestung').checked;
   const linPts = [];
   d.paarwinkel.forEach(phi => {
@@ -122,8 +123,9 @@ function baueSzene() {
       }
     }
   });
-  if (d.ecken) { const eu = state.eckeU[state.sel.bw] || (state.eckeU[state.sel.bw] = decode(e.eckknoten_unten));
-    d.ecken.forEach(E => { szene.push({g: E.u ? eu : em, m: E.m, c: FARBE.alu}); if (zb) szene.push({g: es, m: E.m, c: FARBE.schraube}); }); }
+  if (d.ecken) { const eu = d.eck_meshes ? decode(d.eck_meshes.eckknoten_unten) : (state.eckeU[state.sel.bw] || (state.eckeU[state.sel.bw] = decode(e.eckknoten_unten)));
+    const esu = d.eck_meshes && d.eck_meshes.eckknoten_schrauben_unten ? decode(d.eck_meshes.eckknoten_schrauben_unten) : es;
+    d.ecken.forEach(E => { szene.push({g: E.u ? eu : em, m: E.m, c: FARBE.alu}); if (zb) szene.push({g: E.u ? esu : es, m: E.m, c: FARBE.schraube}); }); }
   const pm = state.prop[d.propeller && d.propeller.id];
   if (pm && $('zeigePropeller').checked) {
     const g = {CW: pm.cw || (pm.cw = decode(pm.raw.cw)), CCW: pm.ccw || (pm.ccw = decode(pm.raw.ccw))};
@@ -231,10 +233,11 @@ function panel() {
     ['Freiraum oberer Rotor', f1(p.oberer_rotor_freiraum_mm) + ' mm', p.oberer_rotor_ok ? 'ok' : 'bad'],
     ...(k.rotor_unten ? [['Freiraum unterer Rotor', f1(k.rotor_unten.freiraum_struktur_mm) + ' mm', p.unterer_rotor_ok ? 'ok' : 'bad']] : []),
     ['Systemlinien zentrisch', p.systemlinien_zentrisch ? 'ja' : 'nein (Biegung)', p.systemlinien_zentrisch ? 'ok' : 'warn'],
-    ['Stabwerk-Screening', ...ja(p.stabwerk_screening_ok)]]);
+    ['Stabwerk-Screening', ...ja(p.stabwerk_screening_ok)],
+    ...(k.statik.dynamik ? [['Eigenfrequenz seitlich / vertikal', `${f1(k.statik.dynamik.f_seitlich_Hz)} / ${f1(k.statik.dynamik.f_vertikal_Hz)} Hz`, k.statik.dynamik.f_min_Hz >= 15 ? 'ok' : 'bad']] : [])]);
   const s = k.statik;
   if (s.staebe) $('statik').innerHTML = `<p class="note">Schub je Ausleger ${f1(s.schub_je_ausleger_N, 0)} N (Lastfall × LF)</p><table><tr><th>Rohr</th><th>Kraft N</th><th>σ CFK</th><th>Knick CFK</th><th>Knick Alu</th></tr>` +
-    s.staebe.map(r => `<tr><td>z<sub>0</sub>=${f1(r.wurzel_z_mm, 0)}</td><td>${f1(r.stabkraft_N, 0)}</td><td>${f1(r.cfk_ausnutzung, 2)}</td><td class="${r.knick_ausnutzung > 1 ? 'bad' : ''}">${f1(r.knick_ausnutzung, 2)}</td><td>${f1(r.alu_strebe_knick_ausnutzung, 2)}</td></tr>`).join('') + '</table>';
+    s.staebe.map(r => `<tr><td>${r.anschluss && r.anschluss !== 'verbinder' ? (r.anschluss === 'ecke_oben' ? 'Ecke oben' : 'Ecke unten') : 'Verbinder'} z<sub>0</sub>=${f1(r.wurzel_z_mm, 0)}</td><td>${f1(r.stabkraft_N, 0)}</td><td>${f1(r.cfk_ausnutzung, 2)}</td><td class="${r.knick_ausnutzung > 1 ? 'bad' : ''}">${f1(r.knick_ausnutzung, 2)}</td><td>${f1(r.alu_strebe_knick_ausnutzung, 2)}</td></tr>`).join('') + '</table>';
   else $('statik').innerHTML = `<p>Einrohr-Kragarm: Wurzelmoment ${f1(s.wurzelmoment_Nm, 0)} Nm, Biegespannung ${f1(s.biegespannung_MPa, 0)} MPa, Ausnutzung <b class="${s.ausnutzung > 1 ? 'bad' : 'ok'}">${f1(s.ausnutzung, 2)}</b></p>`;
   const a = k.ausruestung, sa = k.statik_ausruestung;
   if (a) {

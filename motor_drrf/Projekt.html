@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="de">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>DRRF-K01 Motorkonzept</title>
+<style>
+:root{color-scheme:light;--bg:#eef2f5;--card:#fff;--ink:#14232f;--muted:#5a6c7a;--line:#d3dde5;--accent:#1677a8;--bad:#b4401b;--ok:#17804f}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--bg:#101b24;--card:#182734;--ink:#ecf4f7;--muted:#a3b8c5;--line:#304452;--accent:#67dfc9;--bad:#ff9f7a;--ok:#7fd8ad}}
+:root[data-theme="dark"]{color-scheme:dark;--bg:#101b24;--card:#182734;--ink:#ecf4f7;--muted:#a3b8c5;--line:#304452;--accent:#67dfc9;--bad:#ff9f7a;--ok:#7fd8ad}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.5 system-ui,sans-serif}
+header{padding:16px 24px;border-bottom:1px solid var(--line)}h1{margin:0;font-size:22px}header p{margin:2px 0 0;color:var(--muted);font-size:12px}
+main{display:grid;grid-template-columns:minmax(0,1fr) 380px;gap:14px;padding:14px;max-width:1800px;margin:auto}
+.view{position:relative;height:calc(100vh - 110px);min-height:420px;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:#dfe7ec}
+canvas{display:block;width:100%;height:100%;touch-action:none}
+.bar{position:absolute;left:10px;top:10px;display:flex;gap:6px;flex-wrap:wrap}
+button,label.t{font:inherit;font-size:12px;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:6px;padding:5px 9px;cursor:pointer}
+button[aria-pressed=true]{border-color:var(--accent);color:var(--accent);font-weight:650}
+.slider{position:absolute;left:10px;bottom:10px;background:var(--card);border:1px solid var(--line);border-radius:6px;padding:6px 10px;font-size:12px;display:flex;gap:8px;align-items:center}
+aside{display:grid;gap:12px;align-content:start;min-width:0}.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px}
+.card h2{font-size:14px;margin:0 0 8px}table{width:100%;border-collapse:collapse;font-size:12px;font-variant-numeric:tabular-nums}td,th{padding:3px 4px;border-bottom:1px solid var(--line);text-align:left}td:last-child,th:last-child{text-align:right}
+.sw{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}.ok{color:var(--ok)}.bad{color:var(--bad)}.note{font-size:11px;color:var(--muted)}
+tr.part{cursor:pointer}tr.part.aus{opacity:.4}
+@media(max-width:1000px){main{grid-template-columns:minmax(0,1fr)}.view{height:60vh}}
+</style></head>
+<body>
+<header><h1>DRRF-K01 · Dual-Rotor-Radialfluss-Motor (Konzept)</h1><p>Ringwicklung, 36 Nuten / 42 Pole, Ø150 mm · Direktantrieb für HEP-S 42″ · passt auf den D14-Motorträger (4 × M6, Lochkreis 50)</p></header>
+<main>
+<div class="view"><canvas id="c"></canvas>
+  <div class="bar"><button id="schnitt" aria-pressed="true">Halbschnitt</button><button id="dreh" aria-pressed="true">Rotor dreht</button><button data-v="iso">Ansicht</button><button data-v="oben">Draufsicht</button><button data-v="seite">Seite</button></div>
+  <div class="slider">Explosion <input id="exp" type="range" min="0" max="1" step="0.01" value="0"></div>
+</div>
+<aside>
+  <section class="card"><h2>Bauteile</h2><table id="teile"></table><p class="note">Klick auf eine Zeile blendet das Teil aus/ein. Grau = feststehend, rot markierte Teile drehen mit dem Propeller.</p></section>
+  <section class="card"><h2>Auslegung (Dauer- und Spitzenpunkt)</h2><table id="aus"></table></section>
+  <section class="card"><h2>Topologievergleich (gleiches Modell, gleicher Bauraum)</h2><table id="vgl"></table></section>
+</aside>
+</main>
+<script>
+const $ = id => document.getElementById(id);
+let DATA = null; window.DRRF_DATEN = d => { DATA = d; };
+</script>
+<script src="Ausgabe/viewer.js"></script>
+<script src="Ausgabe/auslegung.js"></script>
+<script>
+(() => {
+'use strict';
+const f = (x, d = 1) => x == null ? '–' : Number(x).toLocaleString('de-DE', {minimumFractionDigits: d, maximumFractionDigits: d});
+const gl = $('c').getContext('webgl', {antialias: true, alpha: false});
+const sh = (t, s) => { const o = gl.createShader(t); gl.shaderSource(o, s); gl.compileShader(o); if (!gl.getShaderParameter(o, gl.COMPILE_STATUS)) throw Error(gl.getShaderInfoLog(o)); return o; };
+const pr = gl.createProgram();
+gl.attachShader(pr, sh(gl.VERTEX_SHADER, 'attribute vec3 p;attribute vec3 n;uniform mat4 m;uniform mat4 vp;varying vec3 vn;varying vec3 wp;void main(){vec4 w=m*vec4(p,1.);wp=w.xyz;vn=mat3(m)*n;gl_Position=vp*w;}'));
+gl.attachShader(pr, sh(gl.FRAGMENT_SHADER, 'precision mediump float;varying vec3 vn;varying vec3 wp;uniform vec3 col;uniform float clip;void main(){if(clip>0.5&&wp.y<0.0&&wp.x>-200.0)discard;vec3 N=normalize(vn);float l=.35+.55*abs(dot(N,normalize(vec3(.4,-.5,.8))))+.15*pow(abs(dot(N,normalize(vec3(-.6,.3,.4)))),8.);gl_FragColor=vec4(col*l,1.);}'));
+gl.linkProgram(pr); gl.useProgram(pr);
+const L = {p: gl.getAttribLocation(pr, 'p'), n: gl.getAttribLocation(pr, 'n')}; ['m', 'vp', 'col', 'clip'].forEach(k => L[k] = gl.getUniformLocation(pr, k));
+function mesh(b64) {
+  const bin = atob(b64), u = new Uint8Array(bin.length); for (let i = 0; i < bin.length; i++) u[i] = bin.charCodeAt(i);
+  const p = new Float32Array(u.buffer), n = new Float32Array(p.length);
+  for (let i = 0; i < p.length; i += 9) { const ax = p[i+3]-p[i], ay = p[i+4]-p[i+1], az = p[i+5]-p[i+2], bx = p[i+6]-p[i], by = p[i+7]-p[i+1], bz = p[i+8]-p[i+2];
+    let x = ay*bz-az*by, y = az*bx-ax*bz, z = ax*by-ay*bx; const l = Math.hypot(x, y, z) || 1; for (let k = 0; k < 3; k++) { n[i+3*k] = x/l; n[i+3*k+1] = y/l; n[i+3*k+2] = z/l; } }
+  const b1 = gl.createBuffer(); gl.bindBuffer(gl.ARRAY_BUFFER, b1); gl.bufferData(gl.ARRAY_BUFFER, p, gl.STATIC_DRAW);
+  const b2 = gl.createBuffer(); gl.bindBuffer(gl.ARRAY_BUFFER, b2); gl.bufferData(gl.ARRAY_BUFFER, n, gl.STATIC_DRAW);
+  return {b1, b2, n: p.length/3};
+}
+function mul(a, b) { const o = new Array(16).fill(0); for (let c = 0; c < 4; c++) for (let r = 0; r < 4; r++) for (let k = 0; k < 4; k++) o[c*4+r] += a[k*4+r]*b[c*4+k]; return o; }
+function persp(f, a, n, fa) { const t = 1/Math.tan(f/2); return [t/a,0,0,0, 0,t,0,0, 0,0,(fa+n)/(n-fa),-1, 0,0,2*fa*n/(n-fa),0]; }
+function look(e, c, u) { let z = [e[0]-c[0], e[1]-c[1], e[2]-c[2]]; let l = Math.hypot(...z); z = z.map(v => v/l);
+  let x = [u[1]*z[2]-u[2]*z[1], u[2]*z[0]-u[0]*z[2], u[0]*z[1]-u[1]*z[0]]; l = Math.hypot(...x) || 1; x = x.map(v => v/l);
+  const y = [z[1]*x[2]-z[2]*x[1], z[2]*x[0]-z[0]*x[2], z[0]*x[1]-z[1]*x[0]];
+  return [x[0],y[0],z[0],0, x[1],y[1],z[1],0, x[2],y[2],z[2],0, -(x[0]*e[0]+x[1]*e[1]+x[2]*e[2]), -(y[0]*e[0]+y[1]*e[1]+y[2]*e[2]), -(z[0]*e[0]+z[1]*e[1]+z[2]*e[2]), 1]; }
+if (!DATA) { document.body.insertAdjacentHTML('afterbegin', '<p class="bad" style="padding:12px">Ausgabe/viewer.js fehlt – bitte bauen.py ausführen.</p>'); return; }
+const teile = DATA.teile.map(t => Object.assign(t, {g: mesh(t.netz), an: true}));
+// Explosion: Rotorteile nach oben, Spulen leicht, Statortraeger nach unten
+const versatz = t => t.rotor ? 70 : /Achsmutter/.test(t.name) ? 110 : /Lager/.test(t.name) ? 40 : /Spulen/.test(t.name) ? 0 : /Statortraeger|Befestigung/.test(t.name) ? -40 : /Achse/.test(t.name) ? -20 : 0;
+const kam = {az: -0.9, el: 0.45, d: 270}; let winkel = 0, last = performance.now();
+const V = {iso: [-0.9, 0.45, 270], oben: [-Math.PI/2, 1.5, 330], seite: [-Math.PI/2, 0.02, 330]};
+document.querySelectorAll('[data-v]').forEach(b => b.onclick = () => { [kam.az, kam.el, kam.d] = V[b.dataset.v]; });
+['schnitt', 'dreh'].forEach(i => $(i).onclick = () => $(i).setAttribute('aria-pressed', $(i).getAttribute('aria-pressed') !== 'true'));
+let drag = null; const c = $('c');
+c.onpointerdown = e => { drag = [e.clientX, e.clientY]; c.setPointerCapture(e.pointerId); }; c.onpointerup = () => drag = null;
+c.onpointermove = e => { if (!drag) return; kam.az -= (e.clientX - drag[0])*0.008; kam.el = Math.max(-1.5, Math.min(1.55, kam.el + (e.clientY - drag[1])*0.008)); drag = [e.clientX, e.clientY]; };
+c.addEventListener('wheel', e => { e.preventDefault(); kam.d = Math.max(120, Math.min(1200, kam.d*Math.exp(e.deltaY*0.001))); }, {passive: false});
+function frame(t) {
+  const dt = (t - last)/1000; last = t; if ($('dreh').getAttribute('aria-pressed') === 'true') winkel += dt*0.8;
+  const w = c.clientWidth, h = c.clientHeight, dpr = Math.min(2, devicePixelRatio || 1);
+  if (c.width !== Math.round(w*dpr)) { c.width = Math.round(w*dpr); c.height = Math.round(h*dpr); }
+  gl.viewport(0, 0, c.width, c.height); gl.clearColor(.87, .91, .93, 1); gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT); gl.enable(gl.DEPTH_TEST);
+  const ziel = [0, 0, 30], e = [ziel[0] + kam.d*Math.cos(kam.el)*Math.cos(kam.az), ziel[1] + kam.d*Math.cos(kam.el)*Math.sin(kam.az), ziel[2] + kam.d*Math.sin(kam.el)];
+  gl.uniformMatrix4fv(L.vp, false, mul(persp(0.7, w/h, 5, 5000), look(e, ziel, [0, 0, 1])));
+  gl.uniform1f(L.clip, $('schnitt').getAttribute('aria-pressed') === 'true' ? 1 : 0);
+  const ex = +$('exp').value;
+  for (const t of teile) { if (!t.an) continue;
+    const a = t.rotor ? winkel : 0, cs = Math.cos(a), sn = Math.sin(a);
+    const m = [cs, sn, 0, 0, -sn, cs, 0, 0, 0, 0, 1, 0, 0, 0, versatz(t)*ex, 1];
+    gl.bindBuffer(gl.ARRAY_BUFFER, t.g.b1); gl.enableVertexAttribArray(L.p); gl.vertexAttribPointer(L.p, 3, gl.FLOAT, false, 0, 0);
+    gl.bindBuffer(gl.ARRAY_BUFFER, t.g.b2); gl.enableVertexAttribArray(L.n); gl.vertexAttribPointer(L.n, 3, gl.FLOAT, false, 0, 0);
+    gl.uniformMatrix4fv(L.m, false, m); gl.uniform3fv(L.col, t.farbe); gl.drawArrays(gl.TRIANGLES, 0, t.g.n); }
+  requestAnimationFrame(frame);
+}
+requestAnimationFrame(frame);
+// Tabellen
+const hex = c_ => '#' + c_.map(v => Math.round(v*255).toString(16).padStart(2, '0')).join('');
+function teileTab() { $('teile').innerHTML = '<tr><th>Teil</th><th>Werkstoff</th><th>kg</th></tr>' + teile.map((t, i) => `<tr class="part ${t.an ? '' : 'aus'}" data-i="${i}"><td><span class="sw" style="background:${hex(t.farbe)}"></span>${t.name}${t.rotor ? ' ↻' : ''}</td><td>${t.material}</td><td>${f(t.masse_kg, 3)}</td></tr>`).join('') +
+  `<tr><th>Summe CAD</th><th>${DATA.pruefung.kollisionsfrei ? '<span class="ok">● kollisionsfrei</span>' : '<span class="bad">■ Kollision</span>'}</th><th>${f(DATA.pruefung.masse, 3)}</th></tr>`;
+  document.querySelectorAll('tr.part').forEach(r => r.onclick = () => { const t = teile[+r.dataset.i]; t.an = !t.an; teileTab(); }); }
+teileTab();
+const D = DATA.auslegung, w = D.wicklung, da = D.dauerpunkt, sp = D.spitzenpunkt;
+$('aus').innerHTML = [['Topologie', 'Dual-Rotor, Ringwicklung (beide Luftspalte je Windung aktiv)'], ['Aktive Länge / Nuttiefe', `${D.aktive_laenge_mm} / ${D.nut_tiefe_mm} mm`], ['Magnete innen und außen', `${f(D.magnet_dicke_mm)} mm N52SH, 42 Pole`],
+  ['Luftspaltinduktion', `${f(D.luftspaltinduktion_T, 2)} T`], ['Bauhöhe', `${f(D.hoehe_mm)} mm (D14-Hülle 66 mm)`],
+  ['Wicklung', `36 Spulen × ${w.windungen_je_spule} Wdg., ${w.parallelzweige} Zweige, ${f(w.leiterquerschnitt_mm2, 2)} mm²`], ['R Phase / k_t', `${f(w.R_phase_mOhm, 2)} mΩ / ${f(w.Kt_Nm_je_A_scheitel, 3)} Nm/A`],
+  ['Dauer 20 Nm, 3.300 min⁻¹', `${f(da.I_rms, 0)} A eff · ${f(da.J, 1)} A/mm² · η ${f(da.eta*100, 1)} %`], ['Verluste Dauer', `Cu ${f(da.P_cu, 0)} W · Fe ${f(da.P_fe, 0)} W · ΔT ≈ ${f(da.waermeabgabe_dT_K, 0)} K`],
+  ['Spitze 40 Nm, 3.700 min⁻¹', `${f(sp.I_rms, 0)} A eff · ${f(sp.J, 1)} A/mm² · ${f(sp.U_ll_pk, 0)} V`], ['Elektrische Frequenz', `${f(da.f_el, 0)} Hz`],
+  ['Masse (Auslegung / CAD)', `${f(D.masse_kg, 2)} / ${f(DATA.pruefung.masse, 2)} kg`], ['Luftspalt (CAD gemessen)', `${f(DATA.pruefung.spalte.Statorblechpaket, 2)} mm`]]
+  .map(([a, b]) => `<tr><td>${a}</td><td>${b}</td></tr>`).join('');
+const VG = window.DRRF_VERGLEICH || {};
+$('vgl').innerHTML = '<tr><th>Topologie</th><th>Masse</th><th>J Dauer</th></tr>' + Object.entries(VG).map(([k, v]) => { const x = v.gefunden ? v : v.naechste_loesung;
+  return `<tr><td>${{'DR-NN': 'Dual-Rotor Ringwicklung', 'DR-NS': 'Dual-Rotor jochlos, Zahnspulen', 'REF': 'Außenläufer (MN1330-Bauart)'}[k]}</td><td>${x ? f(x.masse_kg, 2) + ' kg' : '–'}</td><td class="${v.gefunden ? 'ok' : 'bad'}">${x ? f(x.dauerpunkt.J, 1) + ' A/mm²' : '–'}${v.gefunden ? '' : ' ✗'}</td></tr>`; }).join('') +
+  '<tr><td colspan="3" class="note">Grenze 8 A/mm² Dauer. ✗ = im Bauraum nicht erreichbar, gezeigt ist die nächstliegende Lösung. Referenz MN1330 real: 2,75 kg.</td></tr>';
+})();
+</script>
+</body></html>

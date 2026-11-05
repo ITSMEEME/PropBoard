@@ -164,6 +164,19 @@
         -110.0
       ],
       "hinweis": "Drei Rohre, alle Systemlinien schneiden sich auf der Motorachse; Mittelrohr statisch ueberzaehlig."
+    },
+    "V4": {
+      "titel": "Raumfachwerk durch Umordnung (3 x 20/17)",
+      "rohr_od_mm": 20.0,
+      "rohr_id_mm": 17.0,
+      "wurzel_z_mm": [
+        0.0
+      ],
+      "eck_z_mm": [
+        110.0,
+        -110.0
+      ],
+      "hinweis": "Gleiches Material wie V3: Mittelrohr am Dreiecksverbinder, Ober- und Untergurt am benachbarten Rahmeneckknoten. Alle Systemlinien treffen sich auf der Motorachse; seitliche Fachwerkwirkung ueber die Spreizung zur Rahmenecke (Anordnungsstudie)."
     }
   },
   "rahmen": {
@@ -304,5 +317,28 @@
     "schelle_laenge_mm": 20.0,
     "abstand_hinter_huelse_mm": 15.0,
     "hinweis": "Seitliche Halterplatte, an die Auslegerrohre geklemmt; Koax: je Ausleger zwei Regler (beidseitig)"
+  },
+  "konfig_overrides": {
+    "HEXA_HEP_S_42_16_V4": {
+      "rohr_od_mm": 22.0,
+      "rohr_id_mm": 19.0,
+      "grund": "Seitliche Eigenfrequenz 14,9 Hz mit 20/17 knapp unter 15 Hz; 22/19 ergibt 16,5 Hz (Rohrstudie)"
+    },
+    "KOAX_HEP_S_42_16_V4": {
+      "rohr_od_mm": 22.0,
+      "rohr_id_mm": 19.0,
+      "grund": "Seitliche Eigenfrequenz 14,9 Hz mit 20/17 knapp unter 15 Hz; 22/19 ergibt 16,3 Hz"
+    },
+    "OKTO_HEP_S_36_12_V4": {
+      "cfk_e_modul_mpa": 100000.0,
+      "rohr_material": "UD-verstaerktes CFK-Rohr 20/17, E-Modul axial 100 GPa (Annahme, Herstellernachweis erforderlich)",
+      "grund": "13,7 Hz mit E 50 GPa; UD-CFK ergibt 20,5 Hz ohne Geometrieaenderung"
+    },
+    "OKTO_HEP_S_42_16_V4": {
+      "rahmen_seitenlaenge_mm": 250.0,
+      "rohr_od_mm": 28.0,
+      "rohr_id_mm": 25.0,
+      "grund": "Arme ~1,27 m: Zentralrahmen 250 statt 205 mm verkuerzt die Arme und spreizt den Eckknoten; mit 28/25 16,1/22,4 Hz unter dem 1P-Band (30,4 Hz), Knicken streng 0,76. Groessere Rahmen kollidieren mit Fussschlittenstuetze/Verbinderplatten."
+    }
   }
 }

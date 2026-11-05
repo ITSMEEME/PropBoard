@@ -3,7 +3,7 @@
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>PropBoard Flugsimulator</title><link rel="stylesheet" href="flugsimulator.css"></head>
 <body>
 <header class="topbar">
-  <div><span class="eyebrow">PROPBOARD / GLOBALER SIMULATOR</span><h1>Flugsimulator</h1><p>Alle D14-Bauweisen · 10 Propeller · V1–V3 · MN1330 KV40 · 24S-Akku · reale Physik</p></div>
+  <div><span class="eyebrow">PROPBOARD / GLOBALER SIMULATOR</span><h1>Flugsimulator</h1><p>Alle D14-Bauweisen · 10 Propeller · V1–V4 · 4 Motoren · 3 Akkutypen (24S) · reale Physik</p></div>
   <nav aria-label="Weitere Simulatoren"><a href="Flugsimulator.html" aria-current="page">Multirotor D14</a><a href="../multirotor_d14/Projekt.html">D14 Konstruktion ↗</a><a href="../kreis_r04/mn1330_p14/P14_Flugsimulator.html">P14 Koax-Großmodell</a><a href="../modell_r04_taumel/simulation/H01_Flugsimulator.html">P11 Taumelmodell</a></nav>
   <span class="development">Entwicklungsmodell · keine Flugfreigabe</span>
 </header>
@@ -40,9 +40,11 @@
       <label for="bauweise">Bauweise<select id="bauweise"></select></label>
       <label for="propeller">Propeller<select id="propeller"></select></label>
       <label for="variante">Ausleger<select id="variante"></select></label>
+      <label for="motor">Motor<select id="motor"></select></label>
+      <div id="motorInfo" class="note"></div>
       <label for="nutzlast">Nutzlast (Person) <output id="nutzlastOut"></output></label><input id="nutzlast" type="range" min="0" max="150" step="5" value="100">
-      <div class="two"><label for="akkuP">Akku 24S, parallel<select id="akkuP"><option value="1">1P</option><option value="2" selected>2P</option><option value="3">3P</option><option value="4">4P</option></select></label>
-      <label for="akkuAh">Zellkapazität<select id="akkuAh"><option>16</option><option selected>22</option><option>30</option></select></label></div>
+      <label for="akkuTyp">Akkutyp (Datenblatt)<select id="akkuTyp"></select></label>
+      <label for="akkuP">Parallel <output id="akkuEinheit"></output><select id="akkuP"></select></label>
       <div id="akkuInfo" class="note"></div>
       <div id="modellInfo" class="notice" hidden></div>
     </section>
@@ -75,9 +77,14 @@
     </section>
   </section>
 
-  <section class="vergleich card"><div class="kopf"><div><span class="eyebrow">ALLE MODELLE</span><h2>Schwebeanalyse aller 120 Konfigurationen</h2></div><div class="row"><label class="check"><input type="checkbox" id="nurFlugfaehig"> nur flugfähige</label><button id="vergleichStart">Neu berechnen</button></div></div>
+  <section class="vergleich card"><div class="kopf"><div><span class="eyebrow">ALLE MODELLE</span><h2>Schwebeanalyse aller <span class="anzahlKonf">160</span> Konfigurationen</h2></div><div class="row"><label class="check"><input type="checkbox" id="nurFlugfaehig"> nur flugfähige</label><button id="vergleichStart">Neu berechnen</button></div></div>
     <p class="note">Stationärer Schwebeflug außerhalb Bodeneffekt mit derselben Rotor-, Motor- und Akkuphysik und den oben eingestellten Werten für Nutzlast, Akku, Temperatur und Höhe. Klick auf eine Zeile lädt das Modell.</p>
     <div class="tabelle breit" id="vergleich"></div>
+  </section>
+
+  <section class="motorvergleich card"><div class="kopf"><div><span class="eyebrow">MOTOREN</span><h2>Motorvergleich über alle <span class="anzahlKonf">160</span> Konfigurationen</h2></div></div>
+    <p class="note">Gleiche Einstellungen wie oben. Kennwerte aus den Herstellerseiten; k<sub>t</sub>, R, I<sub>0</sub> und Phaseninduktivität L sind an die veröffentlichten Messtabellen angepasst. Bei MAD fehlen Innenwiderstand und Messtabelle (Annahmen gekennzeichnet).</p>
+    <div class="tabelle" id="motorvergleich"></div>
   </section>
 
   <section class="controls card"><div><span class="eyebrow">TASTATUR / GAMEPAD / TOUCH</span><h2>Steuerung</h2><dl class="key-help"><div><dt><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></dt><dd>vor / links / zurück / rechts</dd></div><div><dt><kbd>Q</kbd><kbd>E</kbd></dt><dd>links / rechts drehen</dd></div><div><dt><kbd>R</kbd><kbd>F</kbd></dt><dd>steigen / sinken</dd></div><div><dt><kbd>T</kbd><kbd>L</kbd><kbd>X</kbd></dt><dd>Start / Landung / Motoren aus</dd></div><div><dt><kbd>Leertaste</kbd><kbd>⌫</kbd></dt><dd>Pause / zurücksetzen</dd></div><div><dt><kbd>M</kbd><kbd>C</kbd></dt><dd>Steuerungsmodus / Kamera</dd></div></dl></div>
@@ -86,7 +93,7 @@
 
   <section class="modell card"><span class="eyebrow">PHYSIKMODELL</span><h2>Was simuliert wird und wo die Grenzen liegen</h2><div id="modellText" class="modelltext"></div></section>
 </main>
-<footer>6-DOF-Starrkörper mit 1 kHz, Blattelement-Impuls-Rotormodell, MN1330-Motor gegen 19 Prüfpunkte angepasst, Akku mit 24 Einzelzellen. Propellerbeiwerte sind aus der NS52×20-Tabelle übertragen (kein HEP-S-Kennfeld). Person als starre Masse. Keine Fertigungs- oder Flugfreigabe. <a href="README.md">Modellbeschreibung</a></footer>
+<footer>6-DOF-Starrkörper mit 1 kHz, Blattelement-Impuls-Rotormodell, Motoren (MN1330, T-Motor U15L KV43, T-Motor U15 II KV80, MAD M50C35 40KV) gegen veröffentlichte Prüfpunkte angepasst, Akku mit 24 Einzelzellen. Propellerbeiwerte sind aus der NS52×20-Tabelle übertragen (kein HEP-S-Kennfeld). Person als starre Masse. Keine Fertigungs- oder Flugfreigabe. <a href="README.md">Modellbeschreibung</a></footer>
 <script src="modelle.js"></script>
 <script src="physik.js"></script>
 <script src="eingabe.js"></script>

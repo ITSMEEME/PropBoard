@@ -1,0 +1,256 @@
+{
+ "annahmen": "wie Schwebeanalyse_alle.json",
+ "motoren": {
+  "MN1330_KV40": {
+   "typ": "MN1330 KV40",
+   "masse_kg": 2.75,
+   "schwebefaehig": 32,
+   "propeller": [
+    "HEP_S_42_16",
+    "HEP_S_36_12",
+    "HEP_S_34_11p5"
+   ],
+   "beste": [
+    {
+     "schluessel": "OKTO_HEP_S_42_16_V2",
+     "flugzeit_min": 7.38,
+     "leistung_kW": 27.49,
+     "schub_gewicht": 2.3,
+     "phasenstrom_A": 56,
+     "aussteuerung": 0.62,
+     "leistung_je_motor_W": 3432,
+     "nennleistung_W": 3400
+    },
+    {
+     "schluessel": "OKTO_HEP_S_42_16_V1",
+     "flugzeit_min": 7.34,
+     "leistung_kW": 27.65,
+     "schub_gewicht": 2.32,
+     "phasenstrom_A": 56,
+     "aussteuerung": 0.62,
+     "leistung_je_motor_W": 3452,
+     "nennleistung_W": 3400
+    },
+    {
+     "schluessel": "HEXA_HEP_S_42_16_V2",
+     "flugzeit_min": 7.25,
+     "leistung_kW": 27.97,
+     "schub_gewicht": 1.86,
+     "phasenstrom_A": 68,
+     "aussteuerung": 0.69,
+     "leistung_je_motor_W": 4657,
+     "nennleistung_W": 3400
+    },
+    {
+     "schluessel": "HEXA_HEP_S_42_16_V1",
+     "flugzeit_min": 7.18,
+     "leistung_kW": 28.24,
+     "schub_gewicht": 1.87,
+     "phasenstrom_A": 69,
+     "aussteuerung": 0.7,
+     "leistung_je_motor_W": 4702,
+     "nennleistung_W": 3400
+    },
+    {
+     "schluessel": "HEXA_HEP_S_42_16_V4",
+     "flugzeit_min": 7.12,
+     "leistung_kW": 28.49,
+     "schub_gewicht": 1.84,
+     "phasenstrom_A": 69,
+     "aussteuerung": 0.7,
+     "leistung_je_motor_W": 4743,
+     "nennleistung_W": 3400
+    }
+   ]
+  },
+  "U15L_KV43": {
+   "typ": "T-Motor U15L KV43",
+   "masse_kg": 3.6,
+   "schwebefaehig": 20,
+   "propeller": [
+    "HEP_S_42_16",
+    "HEP_S_36_12"
+   ],
+   "beste": [
+    {
+     "schluessel": "HEXA_HEP_S_42_16_V2",
+     "flugzeit_min": 6.87,
+     "leistung_kW": 29.53,
+     "schub_gewicht": 1.68,
+     "phasenstrom_A": 65,
+     "aussteuerung": 0.76,
+     "leistung_je_motor_W": 4917,
+     "nennleistung_W": 2800
+    },
+    {
+     "schluessel": "OKTO_HEP_S_42_16_V2",
+     "flugzeit_min": 6.86,
+     "leistung_kW": 29.55,
+     "schub_gewicht": 2.06,
+     "phasenstrom_A": 54,
+     "aussteuerung": 0.68,
+     "leistung_je_motor_W": 3690,
+     "nennleistung_W": 2800
+    },
+    {
+     "schluessel": "OKTO_HEP_S_42_16_V1",
+     "flugzeit_min": 6.82,
+     "leistung_kW": 29.73,
+     "schub_gewicht": 2.08,
+     "phasenstrom_A": 54,
+     "aussteuerung": 0.68,
+     "leistung_je_motor_W": 3713,
+     "nennleistung_W": 2800
+    },
+    {
+     "schluessel": "HEXA_HEP_S_42_16_V1",
+     "flugzeit_min": 6.81,
+     "leistung_kW": 29.81,
+     "schub_gewicht": 1.69,
+     "phasenstrom_A": 66,
+     "aussteuerung": 0.76,
+     "leistung_je_motor_W": 4964,
+     "nennleistung_W": 2800
+    },
+    {
+     "schluessel": "HEXA_HEP_S_42_16_V4",
+     "flugzeit_min": 6.75,
+     "leistung_kW": 30.05,
+     "schub_gewicht": 1.66,
+     "phasenstrom_A": 66,
+     "aussteuerung": 0.76,
+     "leistung_je_motor_W": 5003,
+     "nennleistung_W": 2800
+    }
+   ]
+  },
+  "U15II_KV80": {
+   "typ": "T-Motor U15 II KV80",
+   "masse_kg": 1.74,
+   "schwebefaehig": 108,
+   "propeller": [
+    "HEP_S_42_16",
+    "HEP_S_36_12",
+    "HEP_S_34_11p5",
+    "HEP_S_32_11",
+    "HEP_S_30_10p5",
+    "HEP_S_29_11",
+    "HEP_S_28_9",
+    "HEP_S_26_8p8"
+   ],
+   "beste": [
+    {
+     "schluessel": "OKTO_HEP_S_42_16_V2",
+     "flugzeit_min": 7.66,
+     "leistung_kW": 26.5,
+     "schub_gewicht": 1.5,
+     "phasenstrom_A": 101,
+     "aussteuerung": 0.36,
+     "leistung_je_motor_W": 3308,
+     "nennleistung_W": 1932
+    },
+    {
+     "schluessel": "OKTO_HEP_S_42_16_V1",
+     "flugzeit_min": 7.61,
+     "leistung_kW": 26.64,
+     "schub_gewicht": 1.51,
+     "phasenstrom_A": 101,
+     "aussteuerung": 0.36,
+     "leistung_je_motor_W": 3327,
+     "nennleistung_W": 1932
+    },
+    {
+     "schluessel": "HEXA_HEP_S_42_16_V2",
+     "flugzeit_min": 7.34,
+     "leistung_kW": 27.64,
+     "schub_gewicht": 1.2,
+     "phasenstrom_A": 124,
+     "aussteuerung": 0.42,
+     "leistung_je_motor_W": 4602,
+     "nennleistung_W": 1932
+    },
+    {
+     "schluessel": "OKTO_HEP_S_42_16_V3",
+     "flugzeit_min": 7.28,
+     "leistung_kW": 27.88,
+     "schub_gewicht": 1.45,
+     "phasenstrom_A": 104,
+     "aussteuerung": 0.37,
+     "leistung_je_motor_W": 3481,
+     "nennleistung_W": 1932
+    },
+    {
+     "schluessel": "HEXA_HEP_S_42_16_V1",
+     "flugzeit_min": 7.27,
+     "leistung_kW": 27.91,
+     "schub_gewicht": 1.21,
+     "phasenstrom_A": 125,
+     "aussteuerung": 0.42,
+     "leistung_je_motor_W": 4646,
+     "nennleistung_W": 1932
+    }
+   ]
+  },
+  "MAD_M50C35_KV40": {
+   "typ": "MAD M50C35 PRO EEE 40KV",
+   "masse_kg": 4.2,
+   "schwebefaehig": 20,
+   "propeller": [
+    "HEP_S_42_16",
+    "HEP_S_36_12"
+   ],
+   "beste": [
+    {
+     "schluessel": "HEXA_HEP_S_42_16_V2",
+     "flugzeit_min": 6.75,
+     "leistung_kW": 30.04,
+     "schub_gewicht": 1.65,
+     "phasenstrom_A": 66,
+     "aussteuerung": 0.76,
+     "leistung_je_motor_W": 5001,
+     "nennleistung_W": 25000
+    },
+    {
+     "schluessel": "OKTO_HEP_S_42_16_V2",
+     "flugzeit_min": 6.75,
+     "leistung_kW": 30.06,
+     "schub_gewicht": 2.01,
+     "phasenstrom_A": 55,
+     "aussteuerung": 0.68,
+     "leistung_je_motor_W": 3754,
+     "nennleistung_W": 25000
+    },
+    {
+     "schluessel": "OKTO_HEP_S_42_16_V1",
+     "flugzeit_min": 6.71,
+     "leistung_kW": 30.25,
+     "schub_gewicht": 2.02,
+     "phasenstrom_A": 55,
+     "aussteuerung": 0.68,
+     "leistung_je_motor_W": 3778,
+     "nennleistung_W": 25000
+    },
+    {
+     "schluessel": "HEXA_HEP_S_42_16_V1",
+     "flugzeit_min": 6.69,
+     "leistung_kW": 30.33,
+     "schub_gewicht": 1.65,
+     "phasenstrom_A": 67,
+     "aussteuerung": 0.77,
+     "leistung_je_motor_W": 5050,
+     "nennleistung_W": 25000
+    },
+    {
+     "schluessel": "HEXA_HEP_S_42_16_V4",
+     "flugzeit_min": 6.64,
+     "leistung_kW": 30.56,
+     "schub_gewicht": 1.63,
+     "phasenstrom_A": 67,
+     "aussteuerung": 0.77,
+     "leistung_je_motor_W": 5089,
+     "nennleistung_W": 25000
+    }
+   ]
+  }
+ }
+}

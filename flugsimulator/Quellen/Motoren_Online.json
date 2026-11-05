@@ -1,0 +1,343 @@
+{
+ "abgerufen": "2026-11-05",
+ "hinweis": "Online recherchierte Herstellerangaben; Werte wie auf den Seiten angegeben. Leistung = elektrische Eingangsleistung (U x I).",
+ "motoren": {
+  "U15L_KV43": {
+   "typ": "T-Motor U15L KV43",
+   "hersteller": "T-Motor",
+   "kv": 43,
+   "masse_kg": 3.6,
+   "r_datenblatt": 0.02,
+   "leerlauf": "4,0 A bei 10 V",
+   "max_strom_A": 135,
+   "max_strom_hinweis": "Spitzenstrom 135 A (80 s laut T-Motor, 120 s laut LIGPOWER)",
+   "nennleistung_W": 2800,
+   "zellen": "24S (LiPo)",
+   "abmessung_mm": [
+    151.5,
+    86
+   ],
+   "max_schub_kg": 63.3,
+   "regler_empfohlen": "Thunder 300A 24S (150 A Dauer, 300 A 10 s)",
+   "propeller_test": "NS47x18",
+   "quellen": [
+    "https://uav-en.tmotor.com/2019/Manned_Aircraft_0731/274.html",
+    "https://www.ligpower.com/product/u15l-manned-aircraft-uav-motor.html"
+   ],
+   "punkte": [
+    {
+     "gas": 30,
+     "U": 99,
+     "schub_g": 9563,
+     "drehmoment_Nm": 5.22,
+     "strom_A": 9.43,
+     "rpm": 1239,
+     "leistung_W": 929
+    },
+    {
+     "gas": 35,
+     "U": 98,
+     "schub_g": 11668,
+     "drehmoment_Nm": 6.3,
+     "strom_A": 12.11,
+     "rpm": 1413,
+     "leistung_W": 1192
+    },
+    {
+     "gas": 40,
+     "U": 98,
+     "schub_g": 14955,
+     "drehmoment_Nm": 8.06,
+     "strom_A": 16.72,
+     "rpm": 1566,
+     "leistung_W": 1646
+    },
+    {
+     "gas": 45,
+     "U": 98,
+     "schub_g": 20009,
+     "drehmoment_Nm": 10.77,
+     "strom_A": 24.74,
+     "rpm": 1809,
+     "leistung_W": 2434
+    },
+    {
+     "gas": 50,
+     "U": 98,
+     "schub_g": 24767,
+     "drehmoment_Nm": 13.33,
+     "strom_A": 33.35,
+     "rpm": 2019,
+     "leistung_W": 3279
+    },
+    {
+     "gas": 55,
+     "U": 98,
+     "schub_g": 28438,
+     "drehmoment_Nm": 15.34,
+     "strom_A": 40.56,
+     "rpm": 2193,
+     "leistung_W": 3984
+    },
+    {
+     "gas": 60,
+     "U": 98,
+     "schub_g": 31314,
+     "drehmoment_Nm": 16.94,
+     "strom_A": 46.64,
+     "rpm": 2313,
+     "leistung_W": 4572
+    },
+    {
+     "gas": 65,
+     "U": 98,
+     "schub_g": 36747,
+     "drehmoment_Nm": 19.95,
+     "strom_A": 58.94,
+     "rpm": 2469,
+     "leistung_W": 5769
+    },
+    {
+     "gas": 70,
+     "U": 98,
+     "schub_g": 38966,
+     "drehmoment_Nm": 21.22,
+     "strom_A": 64.97,
+     "rpm": 2580,
+     "leistung_W": 6359
+    },
+    {
+     "gas": 75,
+     "U": 98,
+     "schub_g": 48025,
+     "drehmoment_Nm": 26.26,
+     "strom_A": 87.88,
+     "rpm": 2799,
+     "leistung_W": 8580
+    },
+    {
+     "gas": 80,
+     "U": 97,
+     "schub_g": 50683,
+     "drehmoment_Nm": 27.84,
+     "strom_A": 95.31,
+     "rpm": 2913,
+     "leistung_W": 9286
+    },
+    {
+     "gas": 85,
+     "U": 97,
+     "schub_g": 53225,
+     "drehmoment_Nm": 29.28,
+     "strom_A": 102.47,
+     "rpm": 2973,
+     "leistung_W": 9976
+    },
+    {
+     "gas": 90,
+     "U": 97,
+     "schub_g": 56197,
+     "drehmoment_Nm": 30.9,
+     "strom_A": 110.95,
+     "rpm": 3060,
+     "leistung_W": 10788
+    },
+    {
+     "gas": 95,
+     "U": 97,
+     "schub_g": 60146,
+     "drehmoment_Nm": 33.17,
+     "strom_A": 123.93,
+     "rpm": 3156,
+     "leistung_W": 12036
+    },
+    {
+     "gas": 100,
+     "U": 97,
+     "schub_g": 63383,
+     "drehmoment_Nm": 35.04,
+     "strom_A": 134.64,
+     "rpm": 3210,
+     "leistung_W": 13109
+    }
+   ]
+  },
+  "U15II_KV80": {
+   "typ": "T-Motor U15 II KV80",
+   "hersteller": "T-Motor",
+   "kv": 80,
+   "masse_kg": 1.74,
+   "r_datenblatt": 0.017,
+   "leerlauf": "3,8 A bei 10 V",
+   "max_strom_A": 143,
+   "max_strom_hinweis": "Max. Dauerstrom 143 A (180 s)",
+   "nennleistung_W": 1932,
+   "zellen": "12-24S (LiPo)",
+   "abmessung_mm": [
+    147.5,
+    55
+   ],
+   "max_schub_kg": 36.5,
+   "regler_empfohlen": "nicht angegeben (24S-Regler >= 150 A erforderlich)",
+   "propeller_test": "G40x13.1",
+   "quellen": [
+    "https://store.tmotor.com/goods-731-U15_KV80.html",
+    "https://store.tmotor.com/goods.php?id=732"
+   ],
+   "punkte": [
+    {
+     "gas": 50,
+     "U": 50,
+     "strom_A": 19.9,
+     "leistung_W": 995,
+     "schub_g": 8900,
+     "rpm": 1843,
+     "drehmoment_Nm": 4
+    },
+    {
+     "gas": 55,
+     "U": 50,
+     "strom_A": 25.9,
+     "leistung_W": 1295,
+     "schub_g": 10800,
+     "rpm": 2023,
+     "drehmoment_Nm": 5
+    },
+    {
+     "gas": 60,
+     "U": 50,
+     "strom_A": 32.2,
+     "leistung_W": 1610,
+     "schub_g": 12700,
+     "rpm": 2180,
+     "drehmoment_Nm": 5.9
+    },
+    {
+     "gas": 65,
+     "U": 50,
+     "strom_A": 38.6,
+     "leistung_W": 1930,
+     "schub_g": 14600,
+     "rpm": 2313,
+     "drehmoment_Nm": 6.9
+    },
+    {
+     "gas": 75,
+     "U": 50,
+     "strom_A": 56.2,
+     "leistung_W": 2810,
+     "schub_g": 18900,
+     "rpm": 2615,
+     "drehmoment_Nm": 9.1
+    },
+    {
+     "gas": 85,
+     "U": 50,
+     "strom_A": 76.9,
+     "leistung_W": 3845,
+     "schub_g": 23100,
+     "rpm": 2876,
+     "drehmoment_Nm": 11.2
+    },
+    {
+     "gas": 100,
+     "U": 50,
+     "strom_A": 110.4,
+     "leistung_W": 5520,
+     "schub_g": 28900,
+     "rpm": 3193,
+     "drehmoment_Nm": 14
+    },
+    {
+     "gas": 50,
+     "U": 60,
+     "strom_A": 24.9,
+     "leistung_W": 1494,
+     "schub_g": 12200,
+     "rpm": 2079,
+     "drehmoment_Nm": 5.8
+    },
+    {
+     "gas": 55,
+     "U": 60,
+     "strom_A": 32.2,
+     "leistung_W": 1932,
+     "schub_g": 14600,
+     "rpm": 2316,
+     "drehmoment_Nm": 6.9
+    },
+    {
+     "gas": 60,
+     "U": 60,
+     "strom_A": 39.7,
+     "leistung_W": 2382,
+     "schub_g": 16800,
+     "rpm": 2480,
+     "drehmoment_Nm": 8.1
+    },
+    {
+     "gas": 65,
+     "U": 60,
+     "strom_A": 47.9,
+     "leistung_W": 2874,
+     "schub_g": 19100,
+     "rpm": 2633,
+     "drehmoment_Nm": 9.2
+    },
+    {
+     "gas": 75,
+     "U": 60,
+     "strom_A": 74.2,
+     "leistung_W": 4452,
+     "schub_g": 25200,
+     "rpm": 2994,
+     "drehmoment_Nm": 12.1
+    },
+    {
+     "gas": 85,
+     "U": 60,
+     "strom_A": 98.3,
+     "leistung_W": 5898,
+     "schub_g": 29800,
+     "rpm": 3248,
+     "drehmoment_Nm": 14.5
+    },
+    {
+     "gas": 100,
+     "U": 60,
+     "strom_A": 143,
+     "leistung_W": 8580,
+     "schub_g": 36500,
+     "rpm": 3546,
+     "drehmoment_Nm": 18
+    }
+   ]
+  },
+  "MAD_M50C35_KV40": {
+   "typ": "MAD M50C35 PRO EEE 40KV",
+   "hersteller": "MAD Components",
+   "kv": 40,
+   "masse_kg": 4.2,
+   "r_datenblatt": null,
+   "leerlauf": "3,6 A bei 20 V (Händlerangabe)",
+   "max_strom_A": 216.6,
+   "max_strom_hinweis": "216,6 A (Händlerangabe, 60x20-Propeller, 24S)",
+   "nennleistung_W": 25000,
+   "zellen": "12-24S",
+   "abmessung_mm": [
+    191,
+    94
+   ],
+   "max_schub_kg": 92.6,
+   "regler_empfohlen": "AMPX 300A (12-24S)",
+   "propeller_test": "CB2 57x19 / Fluxer Pro 60x20",
+   "quellen": [
+    "https://mad-motor.com/products/mad-components-m50c35-pro-eee",
+    "https://www.madcomponentsusa.com/m50c35-pro-eee-manned-drone-motor.html",
+    "https://rcdrone.top/products/src-mad-506-m50c35-pro-eee-manned-drone-motor"
+   ],
+   "punkte": [],
+   "annahmen": "Kein Innenwiderstand und keine Messtabelle veroeffentlicht: R_Phase 15 mOhm angenommen, k_t aus KV, Verlustanteil von Regler/Leitung wie beim MN1330-Fit."
+  }
+ }
+}
