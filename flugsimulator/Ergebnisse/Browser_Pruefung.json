@@ -1,0 +1,116 @@
+{
+ "bestanden": true,
+ "datum": "2026-11-05T04:00:29.030Z",
+ "pruefungen": {
+  "CAD-Netze geladen": {
+   "bestanden": true,
+   "wert": "D14-CAD-Netze"
+  },
+  "Vergleich 120 Konfigurationen": {
+   "bestanden": true,
+   "wert": 120
+  },
+  "Vergleich: flugfähige Konfigurationen ermittelt": {
+   "bestanden": true,
+   "wert": 24
+  },
+  "Quad 42″ V3: Manöver im Vorwärtsflug ohne Absturz": {
+   "bestanden": true,
+   "wert": {
+    "h": 12.537463729713906,
+    "v": 8.586804475947092,
+    "phase": "FLUG",
+    "T": 163.14919105890067,
+    "M": 158.8265,
+    "P": 29.16800562864076,
+    "z": null
+   }
+  },
+  "Dashboard zeigt Gewicht, Auftrieb, Restflugzeit, Strom": {
+   "bestanden": true,
+   "wert": [
+    "Gewicht=158,8kg",
+    "Erzeugter Auftrieb=163,2kg",
+    "Max. Schub=208kg",
+    "Restflugzeit=6:26min",
+    "Akku=96%",
+    "Spannung=89,1V",
+    "Stromverbrauch=327A",
+    "Leistung=29,2kW"
+   ]
+  },
+  "Quad 42″ V3: Programm endet mit Landung": {
+   "bestanden": true,
+   "wert": {
+    "phase": "AUS",
+    "z": null,
+    "h": -0.0012827877535932508,
+    "fuss": 0.26919831682036677,
+    "g": 1.210659157169374
+   }
+  },
+  "Hexa 42″ V2: Ausfall M1 wird abgefangen": {
+   "bestanden": true,
+   "wert": {
+    "phase": "FLUG",
+    "z": null,
+    "h": 12.91858840197752,
+    "roll": 2.6034348279696515,
+    "nick": -0.14269885655024,
+    "aus": [
+     1
+    ]
+   }
+  },
+  "Quad 42″ V2: Ausfall M1 – Gierachse aufgegeben (Drehung)": {
+   "bestanden": true,
+   "wert": {
+    "z": "Landestoß 45965 N je Fuß (Grenze 2354 N) – Fahrwerk beschädigt",
+    "gierRate": 0,
+    "ohneGier": true,
+    "h": 0.0029149763144169505
+   }
+  },
+  "Koax 42″ V2: Sinkflug 6 m/s löst Wirbelringstadium aus": {
+   "bestanden": true,
+   "wert": {
+    "vrsMax": 0.3270580405628107,
+    "z": null,
+    "h": 3.1648783791451724,
+    "w": "▲Hinweis: Spannungseinbruch 14 % unter Last"
+   }
+  },
+  "Quad 26″: hebt nicht ab und wird gekennzeichnet": {
+   "bestanden": true,
+   "wert": {
+    "h": -0.0009700833341236281,
+    "tw": 0.26301455839144133,
+    "info": "Mit MN1330 KV40 bei 101 V erreicht dieser Propeller höchstens 38 kg Schub bei 155 kg Gewicht – das Modell kann nicht abheben."
+   }
+  },
+  "Okto 42″ V3: Schwebeflug bis Reserve, Flugzeit nahe Analyse": {
+   "bestanden": true,
+   "wert": {
+    "flug_min": 6.833333333286944,
+    "analyse_min": 7.071938255857608,
+    "t": 409.99999999721666,
+    "phase": "AUS",
+    "z": null,
+    "Wh": 3151.8633459242774,
+    "soc": 0.14982436023295456,
+    "Tw": 60.68790702504542
+   }
+  },
+  "Mobil 390 px: kein horizontales Scrollen": {
+   "bestanden": true,
+   "wert": [
+    390,
+    390
+   ]
+  },
+  "Keine Skriptfehler": {
+   "bestanden": true,
+   "wert": []
+  }
+ }
+}
